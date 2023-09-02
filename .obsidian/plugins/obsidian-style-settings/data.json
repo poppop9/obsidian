@@ -163,5 +163,6 @@
   "floating-toc-styles@@floating-toc-font-size": 0.87,
   "floating-toc-styles@@floating-toc-position": 0,
   "floating-toc-styles@@indicator-bar-position": 0,
-  "floating-toc-styles@@floating-toc-response-time": 0.3
+  "floating-toc-styles@@floating-toc-response-time": 0.3,
+  "blue-topaz-theme@@font-size-latex": "1em"
 }
