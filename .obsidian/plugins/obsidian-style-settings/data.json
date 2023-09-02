@@ -171,5 +171,6 @@
   "blue-topaz-theme@@header-1-background": false,
   "blue-topaz-theme@@header-6-background": true,
   "blue-topaz-theme@@print-h6-color@@light": "#000000",
-  "blue-topaz-theme@@print-h6-color@@dark": "#FFFFFF"
+  "blue-topaz-theme@@print-h6-color@@dark": "#FFFFFF",
+  "blue-topaz-theme@@h6-bg-color@@light": "#199D4A"
 }
