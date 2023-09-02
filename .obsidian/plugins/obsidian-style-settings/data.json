@@ -176,5 +176,6 @@
   "blue-topaz-theme@@font-weight-h6": "bold",
   "blue-topaz-theme@@highlight-style": "all-rounded-corners-highlight",
   "blue-topaz-theme@@h6-toggle-short-underline": false,
-  "blue-topaz-theme@@header-5-background": true
+  "blue-topaz-theme@@header-5-background": true,
+  "blue-topaz-theme@@h5-bg-color@@light": "#2C54AA4F"
 }
