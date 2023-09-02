@@ -1,0 +1,22 @@
+**Any RecScreen**
+`屏幕录像机`
+
+**Tipard MXF Converter**
+`MXF转换器旨在将各种MXF文件和P2 MXF格式转换为MOV，MP4，AVI，WMV，MKV，3GP以及更多的高清视频格式。您还可以将MXF视频解压缩并转换为MP3，FLAC，OGG，AC3，AAC，M4A等音频文件`
+
+**Tipard 音乐转换器**
+`它可以转换任何音频文件，如MP3，M4A，WMA，WAV，AIFF，AAC，FLAC，OGG和苹果无损（ALAC）等。音频转换也可以从包括MP4的任何视频中提取音乐/音频`
+
+**EasyGit**
+`简介：EasyGit是一个个人Git服务器，在iCloud上进行存储。您可以像往常一样使用您喜欢的Git客户端进行拉取和推送，并且所有东西都会安全地存储在iCloud上，可以在您的所有计算机上使用`
+
+**memory bar**
+`可以把重要的链接放到菜单栏`
+
+**Remote Mouse andKeyboard Pro**
+`手机控制电脑`
+
+***Mist***
+`免费开源的mac系统固件下载安装工具。可以列出你的电脑可安装的所有版本，包括beat版系统`
+
+
