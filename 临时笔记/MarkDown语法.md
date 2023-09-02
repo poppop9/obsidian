@@ -452,18 +452,14 @@ i\hbar\frac{\partial \psi}{\partial t} = \frac{-\hbar^2}{2m} \left(\frac{\partia
 $$
 
 
-![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230902100239.png)
-
-法律上的法兰克是雷锋精神离开家拉开距离
-
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCwkAb55KIogNdPeM4CzEqVcWZPHk08iswbgqi2EnK6lj486g97k8YcchCGskFt0UG0ksb6U8oH6oFGoGp8aCAjw+SNwYnGd9glg+9RHDBnhxm+O8DgcolLathhN8JkHJlnOGB/buW1YYOIQLexhEthSIT2T43pqkKAfoa43443tqpB4n0ihr+aQkTRVFJxQU272gZKMNxf0TJI0EezsQPW7jIM0DflehXupn9itefTq390chy0UQSe6wwk0W3bqbqZNf3JFIJftGCT7S8jjmsfw6bXaD4DdSXhDvdmhDEDFhZq9rW4Y46M6DxOqoS71ppPKPtMLAA34jbjkglqVyvUDzLaEYP4G4TSgBL3rOI16QX6a7jCZ38o52PlzI2tT+HJWLGIMq9MJZjN7ajFdpjGQSy3IJm5L2ug4xu5j8XOi9sOafDQRlCgXDP3GN9TxIjPh+vLQ58r8s5gUxl6Xd+sAxCaPt5SfdUt8tEdav7wlTdUn31yJyizRZplBtjSGU0= 1962883041@qq.com
 ```
 
 
+右键yun'xing
+`ssh-keygen -t rsa -C "1962883041@qq.com"`
 ```
-ssh-keygen -t rsa -C "1962883041@qq.com"
-
 echo "# obsidian" >> README.md
 git init
 git add README.md
