@@ -179,5 +179,6 @@
   "blue-topaz-theme@@header-5-background": false,
   "blue-topaz-theme@@h5-bg-color@@light": "#2C54AA4F",
   "blue-topaz-theme@@h5-toggle-short-underline": false,
-  "blue-topaz-theme@@h6-toggle-underline": true
+  "blue-topaz-theme@@h6-toggle-underline": true,
+  "blue-topaz-theme@@h6-size": "0.95em"
 }
