@@ -168,5 +168,5 @@
   "blue-topaz-theme@@h1-text-align-settings": "h1-text-align-center",
   "blue-topaz-theme@@h1-toggle-short-underline": false,
   "blue-topaz-theme@@h1-toggle-underline": true,
-  "blue-topaz-theme@@header-1-background": true
+  "blue-topaz-theme@@header-1-background": false
 }
