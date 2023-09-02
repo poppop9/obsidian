@@ -5,6 +5,10 @@
       "path": "计算机/四大件/计算机网络2.md"
     },
     {
+      "basename": "计算机网络 Draw",
+      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+    },
+    {
       "basename": "Obsidian特殊语法",
       "path": "临时笔记/Obsidian特殊语法.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
-    },
-    {
-      "basename": "计算机网络 Draw",
-      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
     },
     {
       "basename": "计算机网络",
