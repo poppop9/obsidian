@@ -164,5 +164,8 @@
   "floating-toc-styles@@floating-toc-position": 0,
   "floating-toc-styles@@indicator-bar-position": 0,
   "floating-toc-styles@@floating-toc-response-time": 0.3,
-  "blue-topaz-theme@@font-size-latex": "1em"
+  "blue-topaz-theme@@font-size-latex": "1em",
+  "blue-topaz-theme@@h1-text-align-settings": "h1-text-align-center",
+  "blue-topaz-theme@@h1-toggle-short-underline": false,
+  "blue-topaz-theme@@h1-toggle-underline": true
 }
