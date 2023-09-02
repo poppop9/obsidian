@@ -173,5 +173,6 @@
   "blue-topaz-theme@@print-h6-color@@light": "#000000",
   "blue-topaz-theme@@print-h6-color@@dark": "#FFFFFF",
   "blue-topaz-theme@@h6-bg-color@@light": "#00573766",
-  "blue-topaz-theme@@font-weight-h6": "\"\""
+  "blue-topaz-theme@@font-weight-h6": "\"\"",
+  "blue-topaz-theme@@highlight-style": "all-rounded-corners-highlight"
 }
