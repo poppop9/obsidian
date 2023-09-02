@@ -80,7 +80,7 @@
   "blue-topaz-theme@@remove-heading-indicator": false,
   "blue-topaz-theme@@retain-header-color": true,
   "blue-topaz-theme@@toggle-left-aligned-content": false,
-  "blue-topaz-theme@@muted-activeline-bg": true,
+  "blue-topaz-theme@@muted-activeline-bg": false,
   "blue-topaz-theme@@plain-file-title": false,
   "blue-topaz-theme@@title-justify-start": false,
   "blue-topaz-theme@@fancy-hr": "fancy-hr-no-icon",
