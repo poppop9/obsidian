@@ -457,8 +457,9 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCwkAb55KIogNdPeM4CzEqVcWZPHk08iswbgqi2EnK6
 ```
 
 
-右键yun'xing
-`ssh-keygen -t rsa -C "1962883041@qq.com"`
+右键运行git，输入`ssh-keygen -t rsa -C "1962883041@qq.com"`
+
+在C://盘找到.ssh文件夹，打开id.rsa.
 ```
 echo "# obsidian" >> README.md
 git init
