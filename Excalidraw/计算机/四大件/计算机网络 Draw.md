@@ -15,7 +15,8 @@ tags: [excalidraw]
 
 URL的父集 ^AcYSRz7k
 
-这一步不是询问了，是把查询到的IP地址根 ^rwUsiWHc
+这一步不是询问了，而是访问Web服务器了。
+因为在第5步，lab服务器已经知道域名的IP，并返回IP地址了 ^rwUsiWHc
 
 
 # Embedded files
@@ -889,8 +890,8 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 16,
-			"versionNonce": 806153518,
+			"version": 17,
+			"versionNonce": 235382706,
 			"isDeleted": false,
 			"id": "ROH2XNi4",
 			"fillStyle": "hachure",
@@ -906,11 +907,13 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 			"width": 428.8590604026846,
 			"height": 500,
 			"seed": 21066,
-			"groupIds": [],
+			"groupIds": [
+				"ZNjwXg3NnkQ7CMeTpiNHE"
+			],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693710519672,
+			"updated": 1693710648551,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -925,8 +928,8 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 			"type": "arrow",
 			"x": 392.2402332680927,
 			"y": 752.8019300083356,
-			"width": 16.36193165886874,
-			"height": 68.5942778072083,
+			"width": 10.727918308030326,
+			"height": 67.33563813363753,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -935,17 +938,19 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"ZNjwXg3NnkQ7CMeTpiNHE"
+			],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"seed": 1767825010,
-			"version": 36,
-			"versionNonce": 583804718,
+			"version": 204,
+			"versionNonce": 1970103406,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1693710530721,
+			"updated": 1693710648551,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -954,23 +959,27 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 					0
 				],
 				[
-					-16.36193165886874,
-					68.5942778072083
+					-10.727918308030326,
+					67.33563813363753
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": null,
-			"endBinding": null,
+			"endBinding": {
+				"elementId": "rwUsiWHc",
+				"focus": -0.34708060299439675,
+				"gap": 4.877126709174831
+			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
 		},
 		{
 			"id": "rwUsiWHc",
 			"type": "text",
-			"x": 314.8356457885674,
-			"y": 851.4455518498074,
-			"width": 380.3199462890625,
-			"height": 24,
+			"x": 270.78436149405087,
+			"y": 825.0146948511479,
+			"width": 332.05427218409403,
+			"height": 29.773979421700755,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -979,26 +988,33 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"ZNjwXg3NnkQ7CMeTpiNHE"
+			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 1264985650,
-			"version": 58,
-			"versionNonce": 1581089714,
+			"version": 354,
+			"versionNonce": 1843126642,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1693710555621,
+			"boundElements": [
+				{
+					"id": "zVo4b7UyQ8T5RiZ5rVSkq",
+					"type": "arrow"
+				}
+			],
+			"updated": 1693710648551,
 			"link": null,
 			"locked": false,
-			"text": "这一步不是询问了，是把查询到的IP地址根",
-			"rawText": "这一步不是询问了，是把查询到的IP地址根",
-			"fontSize": 20,
+			"text": "这一步不是询问了，而是访问Web服务器了。\n因为在第5步，lab服务器已经知道域名的IP，并返回IP地址了",
+			"rawText": "这一步不是询问了，而是访问Web服务器了。\n因为在第5步，lab服务器已经知道域名的IP，并返回IP地址了",
+			"fontSize": 12.405824759041984,
 			"fontFamily": 4,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 18,
+			"baseline": 24.999999999999996,
 			"containerId": null,
-			"originalText": "这一步不是询问了，是把查询到的IP地址根",
+			"originalText": "这一步不是询问了，而是访问Web服务器了。\n因为在第5步，lab服务器已经知道域名的IP，并返回IP地址了",
 			"lineHeight": 1.2
 		},
 		{
@@ -1102,10 +1118,10 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -30.468253194206355,
-		"scrollY": -471.26641066274226,
+		"scrollX": 117.19752945658625,
+		"scrollY": -182.80409672693526,
 		"zoom": {
-			"value": 1.2712427986272872
+			"value": 0.8606635144609434
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
