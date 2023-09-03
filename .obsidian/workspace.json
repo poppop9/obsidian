@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/MarkDown语法.md",
+                "file": "临时笔记/Obsidian特殊语法.md",
                 "mode": "source",
                 "source": false
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/MarkDown语法.md",
+                "file": "临时笔记/Obsidian特殊语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/MarkDown语法.md",
+                "file": "临时笔记/Obsidian特殊语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/MarkDown语法.md"
+                "file": "临时笔记/Obsidian特殊语法.md"
               }
             }
           }
@@ -200,10 +200,10 @@
   },
   "active": "29baeb09cfc203ed",
   "lastOpenFiles": [
+    "临时笔记/MarkDown语法.md",
     "临时笔记/Obsidian特殊语法.md",
     "计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
-    "临时笔记/MarkDown语法.md",
     "临时笔记/如何使用把笔记同步到Github.md",
     "README.md",
     "科技美学/Mac软件.md",
