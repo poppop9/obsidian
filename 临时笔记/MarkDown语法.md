@@ -1,5 +1,9 @@
 ---
-tags: 标签
+tags:
+  - 标签
+cssclasses:
+  - whiteRed
+  - wideTable
 ---
 #临时笔记 
 # 字体类型
