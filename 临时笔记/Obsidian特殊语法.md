@@ -305,33 +305,23 @@ title: ⏳ Doing
 
 ***Image auto upload Plugin***  图床
 
-***Keyboard Analyzer***查看各种键的快捷键
+***Keyboard Analyzer***  查看各种键的快捷键
 
-***Mousewheel Image zoom***
-鼠标滚轮控制图片大小
+***Mousewheel Image zoom***  鼠标滚轮控制图片大小
 
-***Obsidian Git***
-git来备份文件
+***Obsidian Git***  git来备份文件
 
-***Recent Files***
-显示最近文件
+***Recent Files***  显示最近文件
 
-***Remotely Save***
-远程通过webdev备份文件
+***Remotely Save***  远程通过webdev备份文件
 
-***Setting Search***
-ob的原生搜素不全面，这个设置搜索好用
+***Setting Search***  ob的原生搜素不全面，这个设置搜索好用
 
-***Style Settings***
-对于主题的css设置
+***Style Settings***  对于主题的css设置
 
-***Table Enhancer***
-对于表格的快捷输入
+***Table Enhancer***  对于表格的快捷输入
 
-***Waypoint***
-用于目录里大纲的自动生成
-
-
+***Waypoint***  用于目录里大纲的自动生成
 
 
 - [<] 自定义`- [<] `
