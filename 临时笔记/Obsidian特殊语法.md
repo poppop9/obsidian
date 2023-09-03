@@ -123,6 +123,13 @@ tag:问题
 ![](https://user-images.githubusercontent.com/42957010/184872220-f9b52079-8695-46a7-b517-0588426aa7b5.jpg)
 ![](https://user-images.githubusercontent.com/42957010/165482534-f0ef2dd2-cf3a-4347-b141-e8bbae63566d.png)
 
+> [!blank|grid]
+![](https://computerhistory.org/wp-content/uploads/2022/09/MS-121-scaled-325x184-c-default.jpg)
+![](https://user-images.githubusercontent.com/42957010/184835015-c7ab01ec-39a3-437b-9d41-69af0473588c.jpg)
+![](https://s1.ax1x.com/2022/05/18/OI7Io9.png)
+![](https://user-images.githubusercontent.com/42957010/184872220-f9b52079-8695-46a7-b517-0588426aa7b5.jpg)
+![](https://user-images.githubusercontent.com/42957010/165482534-f0ef2dd2-cf3a-4347-b141-e8bbae63566d.png)
+
 
 - abstract
 - hint
@@ -133,6 +140,7 @@ tag:问题
 - danger, error
 - quote, cite
 - important，tip，tldr，note，todo，info
+- blank
 
 | 属性名称            | 解释                          |
 | ------------------- | ----------------------------- |
@@ -141,6 +149,7 @@ tag:问题
 | banner              | 可以用图片作为callout标题     |
 | notitle             | 隐藏callout标题栏             |
 | noborder            | 隐藏callout边框               |
+| grip                | 图片横排带滚动条显示                  |
 ##### 自定义标题
 环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕
 >[!tip right indent 70%]- 这里可以自定义标题
