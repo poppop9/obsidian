@@ -263,6 +263,36 @@ title: ⏳ Doing
 ```
 
 ````
+````ad-flex
+title: ◼ 自动ad分栏案例（放在ad框的块自适应分栏）
+collapse: open
+
+```ad-note
+title: 📝 To-Do's 
+- [ ] 健身
+- [ ] 马拉松
+- [ ] ...
+```
+
+<div style="width:300px;flex: none;">
+
+```ad-tip
+title: ✅ Done
+- [x] Go 学习
+- [x] 2021 目标
+- [x] ...
+```
+
+
+
+```ad-example
+title: ⏳ Doing
+- [ ] 学习
+- [x] 考证
+```
+
+````
+
 ##### 看板
 ```ad-kanban
 - **快速导航**
