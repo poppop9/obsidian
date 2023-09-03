@@ -887,8 +887,8 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 14,
-			"versionNonce": 1462567918,
+			"version": 16,
+			"versionNonce": 806153518,
 			"isDeleted": false,
 			"id": "ROH2XNi4",
 			"fillStyle": "hachure",
@@ -908,7 +908,7 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693710193288,
+			"updated": 1693710519672,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -917,6 +917,98 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"id": "zVo4b7UyQ8T5RiZ5rVSkq",
+			"type": "arrow",
+			"x": 392.2402332680927,
+			"y": 752.8019300083356,
+			"width": 16.36193165886874,
+			"height": 68.5942778072083,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1767825010,
+			"version": 35,
+			"versionNonce": 923360238,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1693710525832,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-16.36193165886874,
+					68.5942778072083
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "V6xhTv9T23zMrLQ6W2Fk7",
+			"type": "arrow",
+			"x": 394.1281207601578,
+			"y": 754.0605456758095,
+			"width": 11.956764819661657,
+			"height": 72.99942064031825,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 863582766,
+			"version": 44,
+			"versionNonce": 99447538,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1693710519672,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-11.956764819661657,
+					72.99942064031825
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "ROH2XNi4",
+				"focus": 0.04971095963984175,
+				"gap": 3.1516695556487093
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
 		}
 	],
 	"appState": {
@@ -934,10 +1026,10 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 31.006427916393495,
-		"scrollY": -202.4651630104814,
+		"scrollX": -30.468253194206355,
+		"scrollY": -471.26641066274226,
 		"zoom": {
-			"value": 0.9247713738679888
+			"value": 1.2712427986272872
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
