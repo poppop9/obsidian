@@ -116,6 +116,14 @@ tag:问题
 > [!attention] 
 > 注意事项
 
+> [!grid] grid布局示例 
+![](https://computerhistory.org/wp-content/uploads/2022/09/MS-121-scaled-325x184-c-default.jpg)
+![](https://user-images.githubusercontent.com/42957010/184835015-c7ab01ec-39a3-437b-9d41-69af0473588c.jpg)
+![](https://s1.ax1x.com/2022/05/18/OI7Io9.png)
+![](https://user-images.githubusercontent.com/42957010/184872220-f9b52079-8695-46a7-b517-0588426aa7b5.jpg)
+![](https://user-images.githubusercontent.com/42957010/165482534-f0ef2dd2-cf3a-4347-b141-e8bbae63566d.png)
+
+
 - abstract
 - hint
 - success, check, done
