@@ -110,7 +110,7 @@ tag:问题
 > [!summary] 
 > 进行小结；描述类或接口中的方法
 
-> [!question] 
+> [!faq] 
 > 描述问题
 
 > [!attention] 
@@ -130,17 +130,11 @@ tag:问题
 ![](https://user-images.githubusercontent.com/42957010/184872220-f9b52079-8695-46a7-b517-0588426aa7b5.jpg)
 ![](https://user-images.githubusercontent.com/42957010/165482534-f0ef2dd2-cf3a-4347-b141-e8bbae63566d.png)
 
->[!faq] dfsf
+>[!missing] f
 >fdsf
 
->[!question] sdfsd
->fdsf
-
-- abstract
 - hint
-- success, check, done
-- help, faq
-- warning, caution
+- done
 - failure, fail, missing
 - danger, error
 - quote, cite
