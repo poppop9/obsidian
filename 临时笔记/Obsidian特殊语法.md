@@ -263,36 +263,6 @@ title: ⏳ Doing
 ```
 
 ````
-````ad-flex
-title: ◼ 自动ad分栏案例（放在ad框的块自适应分栏）
-collapse: open
-
-```ad-note
-title: 📝 To-Do's 
-- [ ] 健身
-- [ ] 马拉松
-- [ ] ...
-```
-
-<div style="width:300px;flex: none;">
-
-```ad-tip
-title: ✅ Done
-- [x] Go 学习
-- [x] 2021 目标
-- [x] ...
-```
-
-
-
-```ad-example
-title: ⏳ Doing
-- [ ] 学习
-- [x] 考证
-```
-
-````
-
 ##### 看板
 ```ad-kanban
 - **快速导航**
@@ -317,34 +287,25 @@ title: ⏳ Doing
 	- Lillian Who Obsidian新手入门教程| 🥠 Ob新手入门教程系列
 ```
 # 插件
-***Better footnote***
-阅读视图时，脚注可以鼠标悬浮显示
+***Better footnote***  阅读视图时，脚注可以鼠标悬浮显示
 
-***Commander***
-控制在侧边栏，底部，各处的按钮
+***Commander***  控制在侧边栏，底部，各处的按钮
 
-***Dataview***
-对数据的处理
+***Dataview***  对数据的处理
 
-***Editing Toolbar***
-悬浮的快捷编辑栏
+***Editing Toolbar***  悬浮的快捷编辑栏
 
 ***Excalidraw***
 
-***floating toc***
-悬浮大纲
+***floating toc***  悬浮大纲
 
-***Folder Note***
-用于目录那里的大纲生成
+***Folder Note***  用于目录那里的大纲生成
 
-***Highlighting***
-各种高亮
+***Highlighting***  各种高亮
 
-***Image auto upload Plugin***
-图床
+***Image auto upload Plugin***  图床
 
-***Keyboard Analyzer***
-查看各种键的快捷键
+***Keyboard Analyzer***查看各种键的快捷键
 
 ***Mousewheel Image zoom***
 鼠标滚轮控制图片大小
