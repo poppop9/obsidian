@@ -53,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           }
@@ -198,10 +197,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "9a27f9c4a1c23575",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
-    "计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
+    "计算机/四大件/计算机网络2.md",
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/MarkDown语法.md",
     "临时笔记/如何使用把笔记同步到Github.md",

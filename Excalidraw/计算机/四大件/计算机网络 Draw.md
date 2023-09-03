@@ -18,6 +18,8 @@ URL的父集 ^AcYSRz7k
 这一步不是询问了，而是访问Web服务器了。
 因为在第5步，lab服务器已经知道域名的IP，并返回IP地址了 ^rwUsiWHc
 
+操作系统 ^fAaLWcmb
+
 
 # Embedded files
 f3d06f0a199622487ca1712195c63f18bf57e8d1: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/72FF0A287DEBEA9FBFCA9502088206F5.png
@@ -33,6 +35,7 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 9f0fc5a7644a0264416a012c05100380a9c84054: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230902203204.png
 9f0e5869e0693ef5a9940c0b594839b5e707cb32: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230903110306.png
 0553c0315af33e48b47ee8bd5c5960b9fb8637d0: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230903112724.png
+ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230903205308.png
 
 %%
 # Drawing
@@ -1053,36 +1056,77 @@ b4f18ec3c5d63878c15526210214e1a6ac6190f8: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 59,
-			"versionNonce": 278444125,
-			"isDeleted": true,
-			"id": "hZG0MBlG",
+			"version": 53,
+			"versionNonce": 1810317427,
+			"isDeleted": false,
+			"id": "mSlDrTNw",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 208.65858343210192,
-			"y": 1268.03018093538,
+			"x": 253.82174243645733,
+			"y": 1325.9399655278658,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 500,
-			"height": 404.36005625879045,
-			"seed": 25085,
-			"groupIds": [],
+			"width": 355.23026954964683,
+			"height": 147.8559852093768,
+			"seed": 80068,
+			"groupIds": [
+				"QIV86zgM_fbrBWIcKSayW"
+			],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693745594114,
+			"updated": 1693745702584,
 			"link": null,
 			"locked": false,
 			"status": "pending",
-			"fileId": "1f500fc2dd245cb62a56d5b92da8d01ab4340772",
+			"fileId": "ab861e21ce61ababb606aa7066e85b402371a5a8",
 			"scale": [
 				1,
 				1
 			]
+		},
+		{
+			"id": "fAaLWcmb",
+			"type": "text",
+			"x": 261.6108849300052,
+			"y": 1298.992150447253,
+			"width": 80.03999328613281,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"QIV86zgM_fbrBWIcKSayW"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 80606163,
+			"version": 65,
+			"versionNonce": 427914301,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1693745702584,
+			"link": null,
+			"locked": false,
+			"text": "操作系统",
+			"rawText": "操作系统",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "操作系统",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
