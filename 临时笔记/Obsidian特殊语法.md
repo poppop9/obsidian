@@ -130,15 +130,21 @@ tag:问题
 ![](https://user-images.githubusercontent.com/42957010/184872220-f9b52079-8695-46a7-b517-0588426aa7b5.jpg)
 ![](https://user-images.githubusercontent.com/42957010/165482534-f0ef2dd2-cf3a-4347-b141-e8bbae63566d.png)
 
->[!missing] f
->fdsf
+>[!hint]
 
-- hint
-- done
-- failure, fail, missing
-- danger, error
-- quote, cite
-- important，tip，tldr，note，todo，info
+>[!done]
+
+>[!fail]
+
+>[!error]
+
+>[!quote]
+
+>[!note]
+
+>[!]
+
+- note，todo，info
 - blank
 
 | 属性名称            | 解释                          |
