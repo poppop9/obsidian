@@ -26,7 +26,13 @@ URL的父集 ^AcYSRz7k
 并发送给服务器 ^7Ggwje4b
 
 由于第一步的初始值可能丢失，
-所以服务器会通过这个初始值计算出ACK号返回给客户端 ^dXSmPily
+所以服务器会通过这个初始值
+计算出ACK号返回给客户端 ^dXSmPily
+
+这个序号初始值是服务器计算的 ^EbQ2pEJV
+
+客户端又根据服务器提供的序号初始值
+返回一个ACK号 ^Aaex9s8P
 
 
 # Embedded files
@@ -1339,8 +1345,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"type": "arrow",
 			"x": 401.4572318268671,
 			"y": 1612.156579286906,
-			"width": 9.72393357620308,
-			"height": 41.65765995226343,
+			"width": 176.23912412153635,
+			"height": 25.829301530806333,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -1355,11 +1361,11 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"seed": 1028500728,
-			"version": 208,
-			"versionNonce": 109222648,
+			"version": 388,
+			"versionNonce": 408916616,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1693878365712,
+			"updated": 1693878484207,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1368,8 +1374,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 					0
 				],
 				[
-					-9.72393357620308,
-					-41.65765995226343
+					-176.23912412153635,
+					-25.829301530806333
 				]
 			],
 			"lastCommittedPoint": null,
@@ -1385,8 +1391,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 		{
 			"id": "7Ggwje4b",
 			"type": "text",
-			"x": 376.98182683258204,
-			"y": 1526.090038723539,
+			"x": 159.488374171319,
+			"y": 1541.9183971449963,
 			"width": 287.8399963378906,
 			"height": 38.4,
 			"angle": 0,
@@ -1401,8 +1407,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"seed": 795804408,
-			"version": 185,
-			"versionNonce": 383531000,
+			"version": 360,
+			"versionNonce": 591479688,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1410,7 +1416,7 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 					"type": "arrow"
 				}
 			],
-			"updated": 1693878364928,
+			"updated": 1693878484206,
 			"link": null,
 			"locked": false,
 			"text": "客户端在连接时需要计算出序号初始值，\n并发送给服务器",
@@ -1427,10 +1433,10 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 		{
 			"id": "S3k6npPHYZXJVIcR-g7Vp",
 			"type": "arrow",
-			"x": 500.5310817734632,
-			"y": 1657.8829853318696,
-			"width": 86.57183868466501,
-			"height": 60.856035804587236,
+			"x": 376.83534840341764,
+			"y": 1653.779353003374,
+			"width": 147.1425684989726,
+			"height": 51.43983973079253,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -1445,11 +1451,11 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"seed": 1923493512,
-			"version": 223,
-			"versionNonce": 356347784,
+			"version": 463,
+			"versionNonce": 208295560,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1693878470150,
+			"updated": 1693878525716,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1458,16 +1464,20 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 					0
 				],
 				[
-					86.57183868466501,
-					-60.856035804587236
+					110.32223042422726,
+					-11.138510474198483
+				],
+				[
+					147.1425684989726,
+					-51.43983973079253
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": null,
 			"endBinding": {
 				"elementId": "dXSmPily",
-				"focus": 0.7603883842040405,
-				"gap": 2.7846555724484574
+				"focus": 0.570268403943869,
+				"gap": 2.7846555724484006
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
@@ -1475,10 +1485,10 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 		{
 			"id": "dXSmPily",
 			"type": "text",
-			"x": 589.4923740542224,
-			"y": 1557.1969781397083,
-			"width": 398.36798095703125,
-			"height": 38.4,
+			"x": 519.7303113861319,
+			"y": 1541.954857700133,
+			"width": 223.90399169921875,
+			"height": 57.599999999999994,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -1491,8 +1501,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"seed": 846878456,
-			"version": 266,
-			"versionNonce": 903266440,
+			"version": 407,
+			"versionNonce": 1966855672,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1500,18 +1510,198 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 					"type": "arrow"
 				}
 			],
-			"updated": 1693878470150,
+			"updated": 1693878501478,
 			"link": null,
 			"locked": false,
-			"text": "由于第一步的初始值可能丢失，\n所以服务器会通过这个初始值计算出ACK号返回给客户端",
-			"rawText": "由于第一步的初始值可能丢失，\n所以服务器会通过这个初始值计算出ACK号返回给客户端",
+			"text": "由于第一步的初始值可能丢失，\n所以服务器会通过这个初始值\n计算出ACK号返回给客户端",
+			"rawText": "由于第一步的初始值可能丢失，\n所以服务器会通过这个初始值\n计算出ACK号返回给客户端",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 52,
+			"containerId": null,
+			"originalText": "由于第一步的初始值可能丢失，\n所以服务器会通过这个初始值\n计算出ACK号返回给客户端",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "RwYjpO8PKqcP32Uvq3hfd",
+			"type": "arrow",
+			"x": 500.0547473396921,
+			"y": 1658.4692121321923,
+			"width": 90.28031376304455,
+			"height": 22.863203022481912,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1076410104,
+			"version": 24,
+			"versionNonce": 363207560,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1693878552722,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					90.28031376304455,
+					-22.863203022481912
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "EbQ2pEJV",
+				"focus": 0.8150358217984566,
+				"gap": 3.517360801935183
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "EbQ2pEJV",
+			"type": "text",
+			"x": 593.8524219046718,
+			"y": 1627.6918354897614,
+			"width": 224.06399536132812,
+			"height": 19.2,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1869565688,
+			"version": 78,
+			"versionNonce": 409561736,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "RwYjpO8PKqcP32Uvq3hfd",
+					"type": "arrow"
+				}
+			],
+			"updated": 1693878552722,
+			"link": null,
+			"locked": false,
+			"text": "这个序号初始值是服务器计算的",
+			"rawText": "这个序号初始值是服务器计算的",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 14,
+			"containerId": null,
+			"originalText": "这个序号初始值是服务器计算的",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "Y8sqKbdCtlyKH_fNePJxx",
+			"type": "arrow",
+			"x": 436.15504212730264,
+			"y": 1701.850666249628,
+			"width": 159.45614963081255,
+			"height": 11.138488111079823,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 133128952,
+			"version": 54,
+			"versionNonce": 1496911240,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1693878608154,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					159.45614963081255,
+					-11.138488111079823
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "Aaex9s8P",
+				"focus": 0.6250984345308312,
+				"gap": 5.42265381078073
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "Aaex9s8P",
+			"type": "text",
+			"x": 601.0338455688959,
+			"y": 1679.5737123905874,
+			"width": 272,
+			"height": 38.4,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 234349448,
+			"version": 148,
+			"versionNonce": 281943176,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "Y8sqKbdCtlyKH_fNePJxx",
+					"type": "arrow"
+				}
+			],
+			"updated": 1693878608154,
+			"link": null,
+			"locked": false,
+			"text": "客户端又根据服务器提供的序号初始值\n返回一个ACK号",
+			"rawText": "客户端又根据服务器提供的序号初始值\n返回一个ACK号",
 			"fontSize": 16,
 			"fontFamily": 4,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"baseline": 33,
 			"containerId": null,
-			"originalText": "由于第一步的初始值可能丢失，\n所以服务器会通过这个初始值计算出ACK号返回给客户端",
+			"originalText": "客户端又根据服务器提供的序号初始值\n返回一个ACK号",
 			"lineHeight": 1.2
 		}
 	],
@@ -1530,7 +1720,7 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -232.25492187119912,
+		"scrollX": -136.07561986360284,
 		"scrollY": -1428.4449603459645,
 		"zoom": {
 			"value": 1.3646387243446005
