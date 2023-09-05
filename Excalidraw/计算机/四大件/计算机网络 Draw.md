@@ -56,6 +56,7 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 1f798cfec298cf1cb07cc63feb38e216dffc06ad: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230904212119.png
 30ef59706557b0b96ba507bc7cdcda45e6324b7a: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230904212813.png
 77235798a4eebd89ca0135c65e182d1228bbf53b: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230905094317.png
+3dbf179a4bf4436f2474487d282746ac3f30a6b0: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230905102525.png
 
 %%
 # Drawing
@@ -1822,6 +1823,39 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"originalText": "如果对方没有回应ACK号，\n则会重新发送包",
 			"lineHeight": 1.2,
 			"baseline": 33
+		},
+		{
+			"type": "image",
+			"version": 35,
+			"versionNonce": 2069869448,
+			"isDeleted": false,
+			"id": "UZ67GJjD",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 982.8816388671553,
+			"y": 1533.0745689180142,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 499.99999999999994,
+			"height": 368.28512396694214,
+			"seed": 58688,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1693880736651,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "3dbf179a4bf4436f2474487d282746ac3f30a6b0",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -1839,8 +1873,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 180.35765697431896,
-		"scrollY": -1303.1698250843222,
+		"scrollX": -593.8914721068545,
+		"scrollY": -1193.1912556125649,
 		"zoom": {
 			"value": 0.8524388019438177
 		},
