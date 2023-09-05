@@ -34,6 +34,9 @@ URL的父集 ^AcYSRz7k
 客户端又根据服务器提供的序号初始值
 返回一个ACK号 ^Aaex9s8P
 
+如果对方没有回应ACK号，
+则会重新发送包 ^I7fxSYX6
+
 
 # Embedded files
 f3d06f0a199622487ca1712195c63f18bf57e8d1: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/72FF0A287DEBEA9FBFCA9502088206F5.png
@@ -878,8 +881,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 19,
-			"versionNonce": 1370834926,
+			"version": 127,
+			"versionNonce": 1673678584,
 			"isDeleted": false,
 			"id": "E5YjsPvZ",
 			"fillStyle": "hachure",
@@ -888,8 +891,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -308.83999883354,
-			"y": 1028.3526930897558,
+			"x": -401.7499086434071,
+			"y": 977.6745718572015,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 490.78624078624074,
@@ -899,7 +902,7 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693657935261,
+			"updated": 1693879155439,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1309,8 +1312,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 141,
-			"versionNonce": 831130360,
+			"version": 142,
+			"versionNonce": 408243448,
 			"isDeleted": false,
 			"id": "4ZCrpyHv",
 			"fillStyle": "hachure",
@@ -1326,11 +1329,13 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"width": 499.99999999999994,
 			"height": 382.57173219978745,
 			"seed": 62994,
-			"groupIds": [],
+			"groupIds": [
+				"l2i5I3IuaPHZH8GHgOalA"
+			],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1693878222763,
+			"updated": 1693879161071,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1355,17 +1360,19 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"l2i5I3IuaPHZH8GHgOalA"
+			],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"seed": 1028500728,
-			"version": 388,
-			"versionNonce": 408916616,
+			"version": 391,
+			"versionNonce": 809321352,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1693878484207,
+			"updated": 1693879170708,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1382,8 +1389,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"startBinding": null,
 			"endBinding": {
 				"elementId": "7Ggwje4b",
-				"focus": 0.9100492495216915,
-				"gap": 6.008880611103308
+				"focus": 0.9100492495216881,
+				"gap": 6.008880611103223
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
@@ -1403,12 +1410,14 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"l2i5I3IuaPHZH8GHgOalA"
+			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 795804408,
-			"version": 360,
-			"versionNonce": 591479688,
+			"version": 361,
+			"versionNonce": 51441144,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1416,7 +1425,7 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 					"type": "arrow"
 				}
 			],
-			"updated": 1693878484206,
+			"updated": 1693879161071,
 			"link": null,
 			"locked": false,
 			"text": "客户端在连接时需要计算出序号初始值，\n并发送给服务器",
@@ -1445,17 +1454,19 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"l2i5I3IuaPHZH8GHgOalA"
+			],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"seed": 1923493512,
-			"version": 463,
-			"versionNonce": 208295560,
+			"version": 466,
+			"versionNonce": 635146888,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1693878525716,
+			"updated": 1693879170708,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1497,12 +1508,14 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"l2i5I3IuaPHZH8GHgOalA"
+			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 846878456,
-			"version": 407,
-			"versionNonce": 1966855672,
+			"version": 408,
+			"versionNonce": 934309624,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1510,7 +1523,7 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 					"type": "arrow"
 				}
 			],
-			"updated": 1693878501478,
+			"updated": 1693879161071,
 			"link": null,
 			"locked": false,
 			"text": "由于第一步的初始值可能丢失，\n所以服务器会通过这个初始值\n计算出ACK号返回给客户端",
@@ -1539,17 +1552,19 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"l2i5I3IuaPHZH8GHgOalA"
+			],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"seed": 1076410104,
-			"version": 24,
-			"versionNonce": 363207560,
+			"version": 27,
+			"versionNonce": 282591624,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1693878552722,
+			"updated": 1693879170708,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1587,12 +1602,14 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"l2i5I3IuaPHZH8GHgOalA"
+			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 1869565688,
-			"version": 78,
-			"versionNonce": 409561736,
+			"version": 79,
+			"versionNonce": 246927352,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1600,7 +1617,7 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 					"type": "arrow"
 				}
 			],
-			"updated": 1693878552722,
+			"updated": 1693879161071,
 			"link": null,
 			"locked": false,
 			"text": "这个序号初始值是服务器计算的",
@@ -1619,8 +1636,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"type": "arrow",
 			"x": 436.15504212730264,
 			"y": 1701.850666249628,
-			"width": 159.45614963081255,
-			"height": 11.138488111079823,
+			"width": 166.49105013963447,
+			"height": 7.759833046805397,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -1629,17 +1646,19 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"l2i5I3IuaPHZH8GHgOalA"
+			],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"seed": 133128952,
-			"version": 54,
-			"versionNonce": 1496911240,
+			"version": 157,
+			"versionNonce": 1617858696,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1693878608154,
+			"updated": 1693879170708,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1648,15 +1667,15 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 					0
 				],
 				[
-					159.45614963081255,
-					-11.138488111079823
+					166.49105013963447,
+					-7.759833046805397
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": null,
 			"endBinding": {
 				"elementId": "Aaex9s8P",
-				"focus": 0.6250984345308312,
+				"focus": 0.6250984345308133,
 				"gap": 5.42265381078073
 			},
 			"startArrowhead": null,
@@ -1665,8 +1684,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 		{
 			"id": "Aaex9s8P",
 			"type": "text",
-			"x": 601.0338455688959,
-			"y": 1679.5737123905874,
+			"x": 608.0687460777178,
+			"y": 1684.2635938825244,
 			"width": 272,
 			"height": 38.4,
 			"angle": 0,
@@ -1677,12 +1696,14 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"l2i5I3IuaPHZH8GHgOalA"
+			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 234349448,
-			"version": 148,
-			"versionNonce": 281943176,
+			"version": 246,
+			"versionNonce": 808128760,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -1690,7 +1711,7 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 					"type": "arrow"
 				}
 			],
-			"updated": 1693878608154,
+			"updated": 1693879161071,
 			"link": null,
 			"locked": false,
 			"text": "客户端又根据服务器提供的序号初始值\n返回一个ACK号",
@@ -1702,6 +1723,107 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"baseline": 33,
 			"containerId": null,
 			"originalText": "客户端又根据服务器提供的序号初始值\n返回一个ACK号",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "eDgVr0eD59QsXx9E6qzaE",
+			"type": "arrow",
+			"x": 430.91558698701266,
+			"y": 1790.3722772485858,
+			"width": 165.90468916059825,
+			"height": 21.6907494218367,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"l2i5I3IuaPHZH8GHgOalA"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1801081992,
+			"version": 80,
+			"versionNonce": 1012613000,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1693879170708,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					46.89885964560875,
+					-21.6907494218367
+				],
+				[
+					165.90468916059825,
+					-14.655893639252781
+				]
+			],
+			"lastCommittedPoint": [
+				165.90468916059825,
+				-14.655893639252781
+			],
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "I7fxSYX6",
+				"focus": 0.0728205799351781,
+				"gap": 5.715789574060977
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "I7fxSYX6",
+			"type": "text",
+			"x": 602.5360657216719,
+			"y": 1764.2847597349732,
+			"width": 190.23997497558594,
+			"height": 38.4,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"l2i5I3IuaPHZH8GHgOalA"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1401480440,
+			"version": 89,
+			"versionNonce": 596521464,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "eDgVr0eD59QsXx9E6qzaE",
+					"type": "arrow"
+				}
+			],
+			"updated": 1693879161071,
+			"link": null,
+			"locked": false,
+			"text": "如果对方没有回应ACK号，\n则会重新发送包",
+			"rawText": "如果对方没有回应ACK号，\n则会重新发送包",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 33,
+			"containerId": null,
+			"originalText": "如果对方没有回应ACK号，\n则会重新发送包",
 			"lineHeight": 1.2
 		}
 	],
@@ -1720,10 +1842,10 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -136.07561986360284,
-		"scrollY": -1428.4449603459645,
+		"scrollX": 180.35765697431896,
+		"scrollY": -1303.1698250843222,
 		"zoom": {
-			"value": 1.3646387243446005
+			"value": 0.8524388019438177
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
