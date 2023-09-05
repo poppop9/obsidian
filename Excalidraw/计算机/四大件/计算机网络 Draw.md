@@ -57,6 +57,7 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 30ef59706557b0b96ba507bc7cdcda45e6324b7a: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230904212813.png
 77235798a4eebd89ca0135c65e182d1228bbf53b: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230905094317.png
 3dbf179a4bf4436f2474487d282746ac3f30a6b0: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230905102525.png
+2f86311f3f40465c00ba669416e19b3ac32a1062: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230905104313.png
 
 %%
 # Drawing
@@ -1856,6 +1857,39 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"type": "image",
+			"version": 56,
+			"versionNonce": 1070203640,
+			"isDeleted": false,
+			"id": "NjKGz5z2",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -270.93146220798405,
+			"y": 2065.773151579254,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 240.1360544217687,
+			"seed": 41498,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1693881804505,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "2f86311f3f40465c00ba669416e19b3ac32a1062",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -1873,10 +1907,10 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -593.8914721068545,
-		"scrollY": -1193.1912556125649,
+		"scrollX": 520.3709795030322,
+		"scrollY": -1830.1524155588643,
 		"zoom": {
-			"value": 0.8524388019438177
+			"value": 1.1659069169109622
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
