@@ -22,6 +22,12 @@ URL的父集 ^AcYSRz7k
 
 数据块的最大长度 ^Pfj2tYtz
 
+客户端在连接时需要计算出序号初始值，
+并发送给服务器 ^7Ggwje4b
+
+由于第一步的初始值可能丢失，
+所以服务器会通过这个初始值计算出ACK号返回给客户端 ^dXSmPily
+
 
 # Embedded files
 f3d06f0a199622487ca1712195c63f18bf57e8d1: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/72FF0A287DEBEA9FBFCA9502088206F5.png
@@ -1333,8 +1339,8 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 			"type": "arrow",
 			"x": 401.4572318268671,
 			"y": 1612.156579286906,
-			"width": 32.82919280667858,
-			"height": 62.72721806706613,
+			"width": 9.72393357620308,
+			"height": 41.65765995226343,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -1349,11 +1355,11 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"seed": 1028500728,
-			"version": 54,
-			"versionNonce": 624167560,
+			"version": 208,
+			"versionNonce": 109222648,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1693878228728,
+			"updated": 1693878365712,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -1362,15 +1368,151 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 					0
 				],
 				[
-					32.82919280667858,
-					-62.72721806706613
+					-9.72393357620308,
+					-41.65765995226343
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": null,
-			"endBinding": null,
+			"endBinding": {
+				"elementId": "7Ggwje4b",
+				"focus": 0.9100492495216915,
+				"gap": 6.008880611103308
+			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
+		},
+		{
+			"id": "7Ggwje4b",
+			"type": "text",
+			"x": 376.98182683258204,
+			"y": 1526.090038723539,
+			"width": 287.8399963378906,
+			"height": 38.4,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 795804408,
+			"version": 185,
+			"versionNonce": 383531000,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "liVh02J4EANMcw8prCU-H",
+					"type": "arrow"
+				}
+			],
+			"updated": 1693878364928,
+			"link": null,
+			"locked": false,
+			"text": "客户端在连接时需要计算出序号初始值，\n并发送给服务器",
+			"rawText": "客户端在连接时需要计算出序号初始值，\n并发送给服务器",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 33,
+			"containerId": null,
+			"originalText": "客户端在连接时需要计算出序号初始值，\n并发送给服务器",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "S3k6npPHYZXJVIcR-g7Vp",
+			"type": "arrow",
+			"x": 500.5310817734632,
+			"y": 1657.8829853318696,
+			"width": 86.57183868466501,
+			"height": 60.856035804587236,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1923493512,
+			"version": 223,
+			"versionNonce": 356347784,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1693878470150,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					86.57183868466501,
+					-60.856035804587236
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "dXSmPily",
+				"focus": 0.7603883842040405,
+				"gap": 2.7846555724484574
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "dXSmPily",
+			"type": "text",
+			"x": 589.4923740542224,
+			"y": 1557.1969781397083,
+			"width": 398.36798095703125,
+			"height": 38.4,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 846878456,
+			"version": 266,
+			"versionNonce": 903266440,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "S3k6npPHYZXJVIcR-g7Vp",
+					"type": "arrow"
+				}
+			],
+			"updated": 1693878470150,
+			"link": null,
+			"locked": false,
+			"text": "由于第一步的初始值可能丢失，\n所以服务器会通过这个初始值计算出ACK号返回给客户端",
+			"rawText": "由于第一步的初始值可能丢失，\n所以服务器会通过这个初始值计算出ACK号返回给客户端",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 33,
+			"containerId": null,
+			"originalText": "由于第一步的初始值可能丢失，\n所以服务器会通过这个初始值计算出ACK号返回给客户端",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -1384,11 +1526,11 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 		"currentItemRoughness": 1,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 4,
-		"currentItemFontSize": 20,
+		"currentItemFontSize": 16,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -67.3761184296058,
+		"scrollX": -232.25492187119912,
 		"scrollY": -1428.4449603459645,
 		"zoom": {
 			"value": 1.3646387243446005
