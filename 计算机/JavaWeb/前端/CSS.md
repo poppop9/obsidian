@@ -22,3 +22,29 @@ h1 {
 ```html
 <link rel="stylesheet" href="路径">
 ```
+# 文本
+### 颜色
+`color:属性值;`
+属性值可以是某个***颜色名***，***RGB***，***十六进制表示法***
+```html
+<style>
+	h1 {
+		color: red;
+	}
+</style>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
