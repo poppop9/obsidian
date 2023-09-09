@@ -1,8 +1,9 @@
 # 引入方式
 ### 行内样式
+***只作用于当前标签***
 `<h1 style="xxx:yyy; xxx:yyy;">HTML 5</h1>`
 ### 内嵌样式
-***写在\<head\>标签里***
+***写在\<head\>标签里***，***作用于整个html文件***
 ```html
 <style>
 	h1 {
@@ -19,5 +20,5 @@ h1 {
 }
 ```
 ```html
-<link rel="stylesheet" href="css/news.css">
+<link rel="stylesheet" href="路径">
 ```
