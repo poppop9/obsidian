@@ -23,13 +23,10 @@ h1 {
 <link rel="stylesheet" href="路径">
 ```
 # 文本
-### 颜色
-`color:属性值;`
-
-属性值可以是：
-颜色名`color: red;`
-RGB`color: rgb(255, 0, 0);`
-十六进制表示法`color: #ff0000;`
+### 颜色color
+- 颜色名`color: red;`
+- RGB`color: rgb(255, 0, 0);`
+- 十六进制表示法`color: #ff0000;`
 
 
 
