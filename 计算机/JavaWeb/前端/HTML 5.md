@@ -82,7 +82,8 @@
 <img src="https://1b2a.net/img/tv/PwGW.avif" width="300" title="装腔启示录" />
 ```
 ### 超链接\<a\>
-
+`href` 指定的URL
+`target` 以哪种方式打开超链接【在当前页面打开`_self`，在新页面打开`_blank`
 # 快捷键
 `!` 生成骨架标签
 `ctrl+shift+/` 注释
