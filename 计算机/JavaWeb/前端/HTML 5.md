@@ -83,7 +83,11 @@
 ```
 ### 超链接\<a\>
 `href` 指定的URL
-`target` 以哪种方式打开超链接【在当前页面打开`_self`，在新页面打开`_blank`
+`target` 以哪种方式打开超链接【在当前页面打开`_self`，在新页面打开`_blank`】
+
+```html
+<a id="h002" href="https://www.zjxu.edu.cn/" target="_blank">嘉兴学院</a>
+```
 # 快捷键
 `!` 生成骨架标签
 `ctrl+shift+/` 注释
