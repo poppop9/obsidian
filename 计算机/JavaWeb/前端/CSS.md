@@ -25,22 +25,6 @@
 	}
 </style>
 ```
-- id选择器
-***id不能重用***,***不能以数字开头***
-```css
-<style>
-	#001 {
-		xxx:yyy;
-	}
-	#002 {
-		xxx:yyy;
-	}
-</style>
-```
-```html
-<h1 id="001">我是一级标题</h1>
-<span id="002">我是正文</span>
-```
 - 类选择器
 ***类名可以重用***
 ```css
@@ -57,6 +41,22 @@
 <h1 class="001">我是一级标题</h1>
 <span class="002">我是正文</span>
 ```
+- id选择器
+***id不能重用***,***不能以数字开头***
+```css
+<style>
+	#001 {
+		xxx:yyy;
+	}
+	#002 {
+		xxx:yyy;
+	}
+</style>
+```
+```html
+<h1 id="001">我是一级标题</h1>
+<span id="002">我是正文</span>
+```
 ### 外联样式
 ```css
 h1 {
@@ -67,11 +67,11 @@ h1 {
 <link rel="stylesheet" href="路径">
 ```
 # 文本
-### 颜色color
+### 颜色 color
 - 颜色名`color: red;`
 - RGB`color: rgb(255, 0, 0);`
 - 十六进制表示法`color: #ff0000;`
-
+### 大小 font-size
 
 
 
