@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "后端",
+      "path": "计算机/JavaWeb/后端.md"
+    },
+    {
+      "basename": "前端",
+      "path": "计算机/JavaWeb/前端.md"
+    },
+    {
+      "basename": "MarkDown语法",
+      "path": "临时笔记/MarkDown语法.md"
+    },
+    {
       "basename": "计算机网络2",
       "path": "计算机/四大件/计算机网络2.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
-    },
-    {
-      "basename": "MarkDown语法",
-      "path": "临时笔记/MarkDown语法.md"
     },
     {
       "basename": "Obsidian特殊语法",
@@ -191,14 +199,6 @@
     {
       "basename": "Java的基础语法2 Draw",
       "path": "Excalidraw/计算机/编程语言/Java/Java的基础语法2 Draw.md"
-    },
-    {
-      "basename": "随机数",
-      "path": "计算机/编程语言/Java/随机数.md"
-    },
-    {
-      "basename": "Java的理论知识 Draw",
-      "path": "Excalidraw/计算机/编程语言/Java/Java的理论知识 Draw.md"
     }
   ],
   "omittedPaths": [],
