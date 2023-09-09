@@ -72,16 +72,17 @@ h1 {
 - RGB`color: rgb(255, 0, 0);`
 - 十六进制表示法`color: #ff0000;`
 ### 大小 font-size
-### text-decoration
-##### text-decoration-line
+### 文本修饰
+##### line
 `text-decoration-line: none;` 无
 `text-decoration-line: overline;` 上划线
 `text-decoration-line: underline;` 下划线
 `text-decoration-line: line-through;` 删除线
 `text-decoration-line: overline underline;` 叠加属性
-##### text-decoration-color
-##### text-decoration-style
-##### text-decoration-thickness
+##### style
+
+
+##### thickness
 ##### initial
 ##### inherit
 
