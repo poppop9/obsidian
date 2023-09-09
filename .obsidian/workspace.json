@@ -47,14 +47,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端.md",
+                "file": "计算机/JavaWeb/前端/HTML 5.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "计算机/JavaWeb/前端/HTML 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "计算机/JavaWeb/前端/HTML 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "计算机/JavaWeb/前端/HTML 5.md"
               }
             }
           }
@@ -198,13 +198,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "2196f668efce0b64",
+  "active": "8f9bcb0c32bc60b5",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端.md",
+    "计算机/JavaWeb/前端/HTML 5.md",
+    "计算机/JavaWeb/前端",
     "计算机/JavaWeb/后端.md",
+    "临时笔记/穿搭.md",
     "计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
-    "临时笔记/穿搭.md",
-    "计算机/JavaWeb/前端.md",
     "临时笔记/MarkDown语法.md",
     "计算机/JavaWeb",
     "临时笔记/Obsidian特殊语法.md",
@@ -227,7 +229,6 @@
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "临时笔记/权游台词.md",
     "科技美学/微信分享浏览器.md",
-    "临时笔记/微信.md",
     "计算机/四大件/操作系统/并发",
     "计算机/四大件/操作系统/虚拟化",
     "Projects - Demo Project",
@@ -236,7 +237,6 @@
     "Excalidraw/fonts/清松手写体1.ttf",
     "Excalidraw/fonts/aa青葱精修版v1.1.ttf",
     "Excalidraw/fonts",
-    "Excalidraw/新建文件夹",
     "未命名.canvas",
     "未命名 1.canvas",
     "图片库/Pasted Image 20230703181647_013.jpg",
