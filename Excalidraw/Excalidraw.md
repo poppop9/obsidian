@@ -13,8 +13,7 @@
 		- [[计算机网络 Draw]]
 		- [[计算机组成原理Draw]]
 		- [[数据结构Draw]]
-- **考试**
-	- [[考试-计组Draw]]
+	- [[JavaWeb]]
 - **杂**
 	- [[Obsidian笔记编写规范Draw]]
 - **fonts**

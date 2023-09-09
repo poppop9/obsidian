@@ -52,9 +52,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a7f2bfbb57d3b8a4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/JavaWeb.md"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -136,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML 5.md",
+                "file": "Excalidraw/计算机/JavaWeb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML 5.md",
+                "file": "Excalidraw/计算机/JavaWeb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML 5.md"
+                "file": "Excalidraw/计算机/JavaWeb.md"
               }
             }
           }
@@ -198,13 +208,14 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "8f9bcb0c32bc60b5",
+  "active": "b5263ffa41a34bbc",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端.md",
     "计算机/JavaWeb/前端/HTML 5.md",
+    "Excalidraw/计算机/JavaWeb.md",
+    "临时笔记/穿搭.md",
+    "计算机/JavaWeb/前端.md",
     "计算机/JavaWeb/前端",
     "计算机/JavaWeb/后端.md",
-    "临时笔记/穿搭.md",
     "计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "临时笔记/MarkDown语法.md",
@@ -228,7 +239,6 @@
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "临时笔记/权游台词.md",
-    "科技美学/微信分享浏览器.md",
     "计算机/四大件/操作系统/并发",
     "计算机/四大件/操作系统/虚拟化",
     "Projects - Demo Project",
