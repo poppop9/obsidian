@@ -28,15 +28,16 @@
 ```
 - id选择器
 ```html
-<h1 id>我是一级标题</h1>
+<h1 id="001">我是一级标题</h1>
+<span id="002">我是正文</span>
 ```
 ```html
 <style>
-	h1 {
+	#001 {
 		xxx:yyy;
 		xxx:yyy;
 	}
-	span {
+	#002 {
 		xxx:yyy;
 		xxx:yyy;
 	}
