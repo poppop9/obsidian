@@ -18,5 +18,5 @@ h1 {
 }
 ```
 ```html
-lik
+<link rel="stylesheet" href="css/news.css">
 ```
