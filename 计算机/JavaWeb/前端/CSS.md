@@ -6,12 +6,44 @@
 ***写在\<head\>标签里***，***作用于整个html文件***
 ```html
 <style>
-	h1 {
+	选择器 {
 		xxx:yyy;
 		xxx:yyy;
 	}
 </style>
 ```
+##### 选择器
+- 元素选择器
+```html
+<style>
+	h1 {
+		xxx:yyy;
+		xxx:yyy;
+	}
+	span {
+		xxx:yyy;
+		xxx:yyy;
+	}
+</style>
+```
+- id选择器
+```html
+<h1 id>我是一级标题</h1>
+```
+```html
+<style>
+	h1 {
+		xxx:yyy;
+		xxx:yyy;
+	}
+	span {
+		xxx:yyy;
+		xxx:yyy;
+	}
+</style>
+```
+
+- 类选择器
 ### 外联样式
 ```html
 h1 {
