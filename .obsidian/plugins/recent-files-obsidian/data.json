@@ -5,20 +5,24 @@
       "path": "计算机/JavaWeb/前端/HTML 5.md"
     },
     {
-      "basename": "计算机网络2",
-      "path": "计算机/四大件/计算机网络2.md"
+      "basename": "JavaWeb",
+      "path": "Excalidraw/计算机/JavaWeb.md"
+    },
+    {
+      "basename": "idea",
+      "path": "计算机/编程语言/Java/idea.md"
     },
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
     },
     {
-      "basename": "计算机网络 Draw",
-      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+      "basename": "计算机网络2",
+      "path": "计算机/四大件/计算机网络2.md"
     },
     {
-      "basename": "JavaWeb",
-      "path": "Excalidraw/计算机/JavaWeb.md"
+      "basename": "计算机网络 Draw",
+      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
     },
     {
       "basename": "前端",
@@ -195,10 +199,6 @@
     {
       "basename": "泛型",
       "path": "计算机/编程语言/Java/泛型.md"
-    },
-    {
-      "basename": "idea",
-      "path": "计算机/编程语言/Java/idea.md"
     }
   ],
   "omittedPaths": [],

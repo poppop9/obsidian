@@ -5,6 +5,17 @@
 `<html lang="en">` 设置网页的语言。中文为“zh-CN”
 `<meta charset="UTF-8">` 设置字符集合
 
+```html
+<!DOCTYPE html>   
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我是HTML 5</title>
+</head>
+</html>
+```
+
 # 常用标签
 ### 标题标签
 `<h1>标题名称</h1>`
