@@ -34,24 +34,20 @@
 
 ```html
 <p>你好，我是HTML 5 你好，我是HTML 5
-
-            你好，我是HTML 5 你好，我是HTML 5
-
-            你好，我是HTML 5 你好，我是HTML 5<br/>
-
-            你好，我是HTML 5 你好，我是HTML 5
-
-            你好，我是HTML 5 你好，我是HTML 5
-
-            你好，我是HTML 5 你好，我是HTML 5
-
-            你好，我是HTML 5 你好，我是HTML 5
-
-            你好，我是HTML 5 你好，我是HTML 5
-
-        </p>
+	你好，我是HTML 5 你好，我是HTML 5
+	你好，我是HTML 5 你好，我是HTML 5 <br/>
+	你好，我是HTML 5 你好，我是HTML 5
+	你好，我是HTML 5 你好，我是HTML 5
+	你好，我是HTML 5 你好，我是HTML 5
+	你好，我是HTML 5 你好，我是HTML 5
+	你好，我是HTML 5 你好，我是HTML 5
+</p>
 ```
-
+### 文本格式标签
+`<b></b>` 加粗
+`<i></i>` 倾斜
+`<del></del>` 删除线
+`<u></u>` 下划线
 
 
 
