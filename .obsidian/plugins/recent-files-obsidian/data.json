@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "CSS",
+      "path": "计算机/JavaWeb/前端/CSS.md"
+    },
+    {
       "basename": "HTML 5",
       "path": "计算机/JavaWeb/前端/HTML 5.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "移动开发考试复习",
       "path": "考试/移动开发考试复习.md"
-    },
-    {
-      "basename": "泛型",
-      "path": "计算机/编程语言/Java/泛型.md"
     }
   ],
   "omittedPaths": [],
