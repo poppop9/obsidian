@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
               }
             }
           }
@@ -198,15 +198,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "2196f668efce0b64",
+  "active": "9a27f9c4a1c23575",
   "lastOpenFiles": [
+    "计算机/四大件/计算机网络2.md",
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/JavaWeb/后端.md",
+    "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端.md",
     "临时笔记/MarkDown语法.md",
     "计算机/JavaWeb",
-    "计算机/四大件/计算机网络2.md",
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
-    "临时笔记/穿搭.md",
     "临时笔记/Obsidian特殊语法.md",
     "科技美学/Mac软件.md",
     "临时笔记/如何使用把笔记同步到Github.md",

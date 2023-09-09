@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
+      "basename": "计算机网络 Draw",
+      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+    },
+    {
+      "basename": "计算机网络2",
+      "path": "计算机/四大件/计算机网络2.md"
     },
     {
       "basename": "后端",
       "path": "计算机/JavaWeb/后端.md"
+    },
+    {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "前端",
@@ -15,14 +23,6 @@
     {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
-    },
-    {
-      "basename": "计算机网络2",
-      "path": "计算机/四大件/计算机网络2.md"
-    },
-    {
-      "basename": "计算机网络 Draw",
-      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
     },
     {
       "basename": "Obsidian特殊语法",
