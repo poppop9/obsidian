@@ -14,45 +14,51 @@
 ```
 ##### 选择器
 - 元素选择器
-```html
+```css
 <style>
 	h1 {
 		xxx:yyy;
-		xxx:yyy;
 	}
 	span {
-		xxx:yyy;
 		xxx:yyy;
 	}
 </style>
 ```
 - id选择器
-***id不能重用***
-```html
-<h1 id="001">我是一级标题</h1>
-<span id="002">我是正文</span>
-```
-```html
+***id不能重用***,***不能以数字开头***
+```css
 <style>
 	#001 {
-		xxx:yyy;
 		xxx:yyy;
 	}
 	#002 {
 		xxx:yyy;
+	}
+</style>
+```
+```html
+<h1 id="001">我是一级标题</h1>
+<span id="002">我是正文</span>
+```
+- 类选择器
+***类名可以重用***
+```css
+<style>
+	.001 {
+		xxx:yyy;
+	}
+	.002 {
 		xxx:yyy;
 	}
 </style>
 ```
-- 类选择器
 ```html
 <h1 class="001">我是一级标题</h1>
 <span class="002">我是正文</span>
 ```
 ### 外联样式
-```html
+```css
 h1 {
-	xxx:yyy;
 	xxx:yyy;
 }
 ```
