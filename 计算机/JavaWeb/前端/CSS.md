@@ -98,7 +98,19 @@ h1 {
 ### 对齐
 `text-align:属性值`
 属性值可以是`left`，`center`，`right`
+# 盒子修饰
+```css
+div{
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;  
+	background-color: #4278d5;
 
+	border: 2px solid red;
+	padding: 20px 10px 20px 10px;
+	margin: 20px 10px 20px 10px;
+}
+```
 
 
 
