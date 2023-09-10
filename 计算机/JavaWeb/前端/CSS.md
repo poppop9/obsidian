@@ -95,6 +95,10 @@ h1 {
 `text-indent:像素值`
 ### 行高
 `line-height:像素值`
+### 对齐
+`text-align:属性值`
+属性值可以是`left`，`center`，`right`
+
 
 
 
