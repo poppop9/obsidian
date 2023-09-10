@@ -74,7 +74,7 @@ h1 {
 ### 大小 font-size
 ### 文本修饰
 `initial` 默认值
-`inherit` 从其父元素ji
+`inherit` 从其父元素继承属性
 ##### line
 `text-decoration-line: none;` 无
 `text-decoration-line: overline;` 上划线
@@ -87,9 +87,10 @@ h1 {
 `text-decoration-style: double;` 双线
 `text-decoration-style: dotted;` 点线
 `text-decoration-style: dashed;` 虚线
-
-
 ##### thickness
+`text-decoration-thickness: auto;` 浏览器选择装饰线的粗细
+`text-decoration-thickness: 5;` 5像素
+`text-decoration-thickness: 50%;` 百分比值
 ##### initial
 ##### inherit
 
