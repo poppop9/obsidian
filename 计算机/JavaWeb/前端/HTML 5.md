@@ -136,6 +136,11 @@
 `<th>` 表头
 `<td>` 表格单元格元素
 
+`border` 表格边框宽度
+`width` 表格整体宽度
+`height` 表格整体高度
+`cellspacing` 边框之间的空间
+
 ```html
 
 ```
