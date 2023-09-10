@@ -2,17 +2,18 @@
 ![[Excalidraw/计算机/JavaWeb.md#^group=QUadQUqX|900]]
 # 特殊字符
 `&nbsp;` 空格符
-`&lt;` 小于号
-`&gt;` 大于号
-`&amp;` &号
-`&yen;` ￥号
+`&lt;` <
+`&gt;` >
+`&amp;` &
+`&yen;` ￥
 `&copy;` ©
 `&reg;` ®
 `&deg;` ℃
 `plusmn;` 正负号
 `&times;` 乘号
-`&divide;` chu'hao
-``
+`&divide;` 除号
+`&sup2;` 平方²
+`&sup3;` 立方³
 # 骨架标签
 `<!doctype html>` 告诉浏览器使用HTML版本来显示网页
 `<html lang="en">` 设置网页的语言。中文为“zh-CN”
