@@ -73,8 +73,9 @@
 `<i></i>` 倾斜
 `<del></del>` 删除线
 `<u></u>` 下划线
-### 无语义
-这两个标签都是没有具体意思的，它们就是一个***盒子***【用来装文字，图片，超链接】
+### 无语义盒子
+>这两个标签都是没有具体意思的，它们就是一个***盒子***【用来装文字，图片，超链接】
+![[Excalidraw/计算机/JavaWeb.md#^group=jLK9MAUa]]
 ##### \<div\>
 一个`<div>`独占一行
 ##### \<span\>
@@ -125,6 +126,7 @@
 <video src="D:\Overthink｜时光代理人ED原创舞蹈【Figo × 王一大只】.mp4" poster="https://img0.baidu.com/it/u=1802578230,1841279071&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" controls loop width="700"></video>
 ```
 ### 音频\<audio\>
+
 
 # 快捷键
 `!` 生成骨架标签
