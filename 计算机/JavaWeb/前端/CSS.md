@@ -122,10 +122,10 @@ div{
 ```html
 <div>AAAAAAAAAAAAA  AAA AAAA</div>
 ```
-
 >[!blank|grid]
->![[Excalidraw/计算机/JavaWeb.md#^group=Ch2lSSZy|500]]
->![[Excalidraw/计算机/JavaWeb.md#^group=KgOaYglr]]
+>![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230910155942.png)
+>![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230910160003.png)
+
 
 
 
