@@ -2,6 +2,16 @@
 ![[Excalidraw/计算机/JavaWeb.md#^group=QUadQUqX|900]]
 # 特殊字符
 `&nbsp;` 空格符
+`&lt;` 小于号
+`&gt;` 大于号
+`&amp;` &号
+`&yen;` ￥号
+`&copy;` ©
+`&reg;` ®
+`&deg;` ℃
+`plusmn;` 正负号
+`&times;` 乘号
+`&divide;` chu'hao
 ``
 # 骨架标签
 `<!doctype html>` 告诉浏览器使用HTML版本来显示网页
