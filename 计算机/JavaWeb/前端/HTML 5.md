@@ -108,7 +108,7 @@
 `poster` 视频未播放时显示的图片
 
 ```html
-<video src="D:\Overthink｜时光代理人ED原创舞蹈【Figo × 王一大只】.mp4" controls="controls" width="700"></video>
+<video src="D:\Overthink｜时光代理人ED原创舞蹈【Figo × 王一大只】.mp4" poster="https://img0.baidu.com/it/u=1802578230,1841279071&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" controls loop width="700"></video>
 ```
 ### 音频\<audio\>
 
