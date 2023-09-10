@@ -136,6 +136,7 @@
 `<th>` 表头
 `<td>` 表格单元格元素
 
+`align` 表格相对周围元素的对齐方式
 `border` 表格边框宽度
 `width` 表格整体宽度
 `height` 表格整体高度
@@ -166,6 +167,8 @@
 </table>
 ```
 ![[Excalidraw/计算机/JavaWeb.md#^group=h6qa99MH|370]]
+### 表单\<form\>
+
 
 # 快捷键
 `!` 生成骨架标签
