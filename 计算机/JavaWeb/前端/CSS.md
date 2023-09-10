@@ -119,6 +119,12 @@ div{
 	margin: 20px;  <!--上右下左，如果每个方位都一样可以简写为一个值-->
 }
 ```
+```html
+<div>AAAAAAAAAAAAA  AAA AAAA</div>
+```
+![[Excalidraw/计算机/JavaWeb.md#^group=KgOaYglr|200]]![[Excalidraw/计算机/JavaWeb.md#^group=Ch2lSSZy]]
+
+
 
 
 
