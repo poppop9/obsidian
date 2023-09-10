@@ -168,6 +168,8 @@
 ```
 ![[Excalidraw/计算机/JavaWeb.md#^group=h6qa99MH|370]]
 ### 表单\<form\>
+`action` 指定表单提交时去往的URL地址
+`method` 表单数据的提交方式。分为`get`和`post`
 
 
 # 快捷键
