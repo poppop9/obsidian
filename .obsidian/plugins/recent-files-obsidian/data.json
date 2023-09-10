@@ -5,12 +5,12 @@
       "path": "计算机/JavaWeb/前端/HTML 5.md"
     },
     {
-      "basename": "CSS",
-      "path": "计算机/JavaWeb/前端/CSS.md"
-    },
-    {
       "basename": "JavaWeb",
       "path": "Excalidraw/计算机/JavaWeb.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "计算机/JavaWeb/前端/CSS.md"
     },
     {
       "basename": "Obsidian特殊语法",

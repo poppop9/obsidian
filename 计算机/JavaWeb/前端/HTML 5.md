@@ -142,8 +142,30 @@
 `cellspacing` 边框之间的空间
 
 ```html
-
+<table border="1px" cellspacing="0" width="300px" align="center">
+	<tr>
+		<th>姓名</th>
+		<th>性别</th>
+		<th>年龄</th>
+	</tr>
+	<tr>
+		<td>吴彦祖</td>
+		<td>男</td>
+		<td>48</td>
+	</tr>
+	<tr>
+		<td>刘德华</td>
+		<td>男</td>
+		<td>58</td>
+	</tr>
+	<tr>
+		<td>张学友</td>
+		<td>男</td>
+		<td>59</td>
+	</tr>
+</table>
 ```
+![[Excalidraw/计算机/JavaWeb.md#^group=h6qa99MH|370]]
 
 # 快捷键
 `!` 生成骨架标签
