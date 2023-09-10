@@ -75,11 +75,13 @@
 `<u></u>` 下划线
 ### 无语义盒子
 >这两个标签都是没有具体意思的，它们就是一个***盒子***【用来装文字，图片，超链接】
-![[Excalidraw/计算机/JavaWeb.md#^group=jLK9MAUa]]
+>![[Excalidraw/计算机/JavaWeb.md#^group=jLK9MAUa|600]]
 ##### \<div\>
 一个`<div>`独占一行
 ##### \<span\>
 多个`<span>`标签占一行
+***\<span\>标签无法设置width和height，宽度和高度由内容默认撑开***
+
 ### 分割线\<hr\>
 ```html
 <span id="h001">2023年9月9日 20:38:00</span>
