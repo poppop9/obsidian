@@ -103,12 +103,12 @@ h1 {
 div{
 	width: 200px;
 	height: 200px;
-	box-sizing: border-box;  
-	background-color: #4278d5;
+	box-sizing: border-box; <!--设置width和height指的是哪个盒子，这里指的是边框以内的部分-->
+	background-color: #4278d5;  <!--背景色-->
 
-	border: 2px solid red;
-	padding: 20px 10px 20px 10px;
-	margin: 20px 10px 20px 10px;
+	border: 2px solid red;  <!--粗细 线条类型 颜色-->
+	padding: 20px 10px 20px 10px;  <!--上右下左-->
+	margin: 20px;  <!--上右下左，如果每个方位都一样可以简写为一个值-->
 }
 ```
 
