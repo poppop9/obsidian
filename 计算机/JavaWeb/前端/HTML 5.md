@@ -99,6 +99,14 @@
 <img src="https://1b2a.net/img/tv/PwGW.avif" width="300" title="装腔启示录" />
 ```
 ### 视频\<video\>
+`autoplay` 视频就绪后自动播放
+`controls` 视频的控制按钮【暂停，音量调节等】
+`width` 视频的宽度
+`height` 视频的高度
+`loop` 视频播放完成后再次播放
+`muted` 视频播放默认静音
+`poster` 视频未播放时显示的图片
+
 ```html
 <video src="D:\Overthink｜时光代理人ED原创舞蹈【Figo × 王一大只】.mp4" controls="controls" width="700"></video>
 ```
