@@ -99,7 +99,9 @@
 <img src="https://1b2a.net/img/tv/PwGW.avif" width="300" title="装腔启示录" />
 ```
 ### 视频\<video\>
-
+```html
+<video src="D:\Overthink｜时光代理人ED原创舞蹈【Figo × 王一大只】.mp4" controls="controls" width="700"></video>
+```
 ### 音频\<audio\>
 
 # 快捷键
