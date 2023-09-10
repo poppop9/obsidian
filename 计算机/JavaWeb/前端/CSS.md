@@ -99,6 +99,14 @@ h1 {
 `text-align:属性值`
 属性值可以是`left`，`center`，`right`
 # 盒子修饰
+`width`
+`height`
+`box-sizing` 设定width和height指的是哪个盒子
+`background-color` 指定背景颜色
+`border` 边框
+`padding` 内边距
+`margin` 外边距
+
 ```css
 div{
 	width: 200px;
