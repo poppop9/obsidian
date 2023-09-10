@@ -88,6 +88,12 @@
 ```html
 <a id="h002" href="https://www.zjxu.edu.cn/" target="_blank">嘉兴学院</a>
 ```
+##### 锚点链接
+```html
+<h4 id="live">个人生活</h4>
+
+<a herf="#live">个人生活</a>
+```
 # 快捷键
 `!` 生成骨架标签
 `ctrl+shift+/` 注释
