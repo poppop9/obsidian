@@ -122,7 +122,11 @@ div{
 ```html
 <div>AAAAAAAAAAAAA  AAA AAAA</div>
 ```
-![[Excalidraw/计算机/JavaWeb.md#^group=KgOaYglr|200]]![[Excalidraw/计算机/JavaWeb.md#^group=Ch2lSSZy]]
+>[!blank|grid]
+>![[Excalidraw/计算机/JavaWeb.md#^group=KgOaYglr|200]]
+>![[Excalidraw/计算机/JavaWeb.md#^group=Ch2lSSZy]]
+
+
 
 
 
