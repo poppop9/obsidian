@@ -92,8 +92,9 @@ h1 {
 `text-decoration-thickness: 5;` 5像素
 `text-decoration-thickness: 50%;` 百分比值
 ### 缩进
-``
-
+`text-indent:像素值`
+### 行高
+`line-height:像素值`
 
 
 
