@@ -98,4 +98,10 @@ function 函数名(参数1, 参数2……){
 }
 ```
 ### 调用函数
-与java相同
+`var result = add(10, 20);`
+
+***调用函数时可以指定任意数量的参数***
+```js
+var result = add(10, 20, 30, 40);
+alert(result);  //30
+```
