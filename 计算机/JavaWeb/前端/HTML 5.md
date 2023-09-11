@@ -169,8 +169,20 @@
 ![[Excalidraw/计算机/JavaWeb.md#^group=h6qa99MH|370]]
 ### 表单\<form\>
 - `action` 指定表单提交时去往的URL地址
+
 - `method` 表单数据的提交方式。
 	- `get` 会在URL后面拼接表单数据。【当表单数据很长时不推荐】
+	  ```html
+	  <form action="" method="get">
+	      用户名: <input type="text" name="username">
+	      密码: <input type="text" name="password">
+	  
+	      <input type="submit" value="提交">
+	  </form>
+	  
+	  
+	  file:///E:/VScode/html/9_9.html?username=123&password=456  //URL后面
+	  ```
 	- `post` 在消息体中传递。【表单数据大小无限制】
 
 # 快捷键
@@ -179,7 +191,6 @@
 `ctrl+alt+l` 格式化代码
 
 `img` 生成图片标签
-
 
 
 
