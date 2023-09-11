@@ -57,4 +57,16 @@ alert(a);
 - 不可以重复声明
 ##### const
 - 定义常量，不可修改
+### 数据类型
+```js
+    alert(typeof 1);  //number
+    alert(typeof "1");  //string
+    alert(typeof true);  //boolean
+    alert(typeof null);  //object
 
+    var a;
+    alert(typeof a);  //undefined
+```
+### 比较运算符
+`==` 会在比较之前进行类型转换
+`===` 只进行比较，不进行类型转换
