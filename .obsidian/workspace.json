@@ -87,8 +87,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           }
@@ -232,10 +231,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "0724022f55380538",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
-    "Excalidraw/计算机/JavaWeb.md",
     "计算机/JavaWeb/前端/JavaScript.md",
+    "Excalidraw/计算机/JavaWeb.md",
     "计算机/JavaWeb/前端/HTML 5.md",
     "计算机/JavaWeb/前端/CSS.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
