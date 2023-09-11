@@ -186,13 +186,7 @@
   - `type` 
     
     - `text` 单行输入字段
-		        <form action="" method="get">
-		            用户名: <input type="text" name="username">
-		        </form>
     - `password` 密码字段
-		        <form action="" method="get">
-		            密码: <input type="password" name="password">
-		        </form>
     - `radio` 单选按钮
     
     - `checkbox` 复选框
@@ -219,6 +213,69 @@
   - `option` 
 
 - `textarea` 文本域
+
+```html
+<form action="" method="get">
+    用户名: <input type="text" name="username"><br><br>
+    密码: <input type="password" name="password"><br><br>
+    性别:
+    <label><input type="radio" name="gender" value="男">男</label>
+    <label><input type="radio" name="gender" value="女">女</label><br><br>
+    爱好:
+    <label><input type="checkbox" name="hobby" value="java">java</label>
+    <label><input type="checkbox" name="hobby" value="c">c</label>
+    <label><input type="checkbox" name="hobby" value="python">python</label><br><br>
+    图像: <input type="file" name="image"><br><br>
+    生日: <input type="date" name="birthday"><br><br>
+    时间: <input type="time" name="time"><br><br>
+    日期时间: <input type="datetime-local" name="datatime"><br><br>
+    邮箱: <input type="email" name="email"><br><br>
+    年龄: <input type="number" name="age"><br><br>
+    学历:
+    <select name="degree">
+        <option value="0">请选择</option>
+        <option value="1">小学</option>
+        <option value="2">高中</option>
+        <option value="3">大学</option>
+        <option value="4">博士</option>
+    </select><br><br>
+    描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
+
+    <input type="submit" value="提交">
+    <input type="reset" value="重置">
+    <input type="button" value="按钮">
+</form>
+```
+<form action="" method="get">
+	用户名: <input type="text" name="username"><br><br>
+	密码: <input type="password" name="password"><br><br>
+	性别:
+	<label><input type="radio" name="gender" value="男">男</label>
+	<label><input type="radio" name="gender" value="女">女</label><br><br>
+	爱好:
+	<label><input type="checkbox" name="hobby" value="java">java</label>
+	<label><input type="checkbox" name="hobby" value="c">c</label>
+	<label><input type="checkbox" name="hobby" value="python">python</label><br><br>
+	图像: <input type="file" name="image"><br><br>
+	生日: <input type="date" name="birthday"><br><br>
+	时间: <input type="time" name="time"><br><br>
+	日期时间: <input type="datetime-local" name="datatime"><br><br>
+	邮箱: <input type="email" name="email"><br><br>
+	年龄: <input type="number" name="age"><br><br>
+	学历:
+	<select name="degree">
+		<option value="0">请选择</option>
+		<option value="1">小学</option>
+		<option value="2">高中</option>
+		<option value="3">大学</option>
+		<option value="4">博士</option>
+	</select><br><br>
+	描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
+	<input type="submit" value="提交">
+	<input type="reset" value="重置">
+	<input type="button" value="按钮">
+</form>
+
 
 # 快捷键
 `!` 生成骨架标签
