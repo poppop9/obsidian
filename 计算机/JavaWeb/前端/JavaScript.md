@@ -26,11 +26,14 @@
   alert("hello javascript");
   ```
   ![[Excalidraw/计算机/JavaWeb.md#^group=L84gWEf4]]
-
 - `document.write` 
-
   ***会把内容直接写入到浏览器里显示***
-
 - `console.log` 
+  ***写入浏览器的控制台***
 
-  ***写入浏览器的k
+### 变量var
+
+```js
+var a =
+```
+
