@@ -169,7 +169,6 @@
 ![[Excalidraw/计算机/JavaWeb.md#^group=h6qa99MH|370]]
 ### 表单\<form\>
 - `action` 指定表单提交时去往的URL地址
-
 - `method` 表单数据的提交方式。
 	- `get` 会在URL后面拼接表单数据。【当表单数据很长时不推荐】
 	  ```html
@@ -180,38 +179,25 @@
 	  file:///E:/VScode/html/9_9.html?username=123&password=456  //URL后面会出现表单数据
 	  ```
 	- `post` 在消息体中传递。【表单数据大小无限制】
-	
 - `<input>` 表单项
-
   - `type` 
-    
     - `text` 单行输入字段
     - `password` 密码字段
     - `radio` 单选按钮
-    
     - `checkbox` 复选框
-    
     - `file` 文件上传按钮
-    
     - `date` 日期
-    
     - `number` 数字输入框
-    
     - `email` 邮件输入框
-    
     - `hidden` 隐藏域
-    
     - `按钮` 
       - `submit` 提交按钮
       - `reset` 充值按钮
       - `button` 可点击按钮
-    
-  - `name` 
-  
+  - `name` ***name相同表示是同一个表单项***
+  - `value` ***提交表单时真正提交的值***
 - `select` 下拉列表
-
   - `option` 
-
 - `textarea` 文本域
 
 ```html
