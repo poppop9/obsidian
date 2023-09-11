@@ -187,10 +187,10 @@
     
     - `text` 单行输入字段
 		        <form action="" method="get">
-                用户名: <input type="text" name="username">
-            </form>
+		            用户名: <input type="text" name="username">
+		        </form>
     - `password` 密码字段
-    
+
     - `radio` 单选按钮
     
     - `checkbox` 复选框
