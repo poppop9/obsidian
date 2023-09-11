@@ -184,8 +184,25 @@
 - `<input>` 表单项
 
   - `type` 
+    - `text` 
+    - `password` 
+    - `radio` 
+    - `checkbox` 
+    - `file` 
+    - `date` 
+    - `number` 
+    - `email` 
+    - `hidden` 
+    - `按钮` 
+      - `submit` 
+      - `reset` 
+      - `button` 
+
   - `name` 
 
+- `select` 下拉列表
+
+- `textarea` 文本域
 
 # 快捷键
 `!` 生成骨架标签
