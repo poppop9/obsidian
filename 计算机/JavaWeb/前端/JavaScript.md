@@ -88,4 +88,13 @@ undefined：均为`false`
     alert(a === "10");  // false
     alert(a === 10);  // true
 ```
-
+# 函数
+### 定义函数
+- 无需写返回值，直接在函数体nei
+- 参数无需写数据类型【因为JavaScript是弱类型语言】
+```js
+function 函数名(参数1, 参数2……){
+	函数体
+}
+```
+### 调用函数
