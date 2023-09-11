@@ -67,6 +67,17 @@ alert(a);
     var a;
     alert(typeof a);  //undefined
 ```
+##### 类型转换
+###### string转number
+```js
+alert(parseInt("123"));  //123
+alert(parseInt("123A34"));  //123
+alert(parseInt("A123"));  //NaN
+```
+###### 其他类型转Boolean
+number：0和NaN为`false`，其他为`true`
+string：空字符为`false`，其他为`true`
+null
 ### 比较运算符
 `==` 会在比较之前进行类型转换
 `===` 只进行比较，不进行类型转换
@@ -76,3 +87,4 @@ alert(a);
     alert(a === "10");  // false
     alert(a === 10);  // true
 ```
+
