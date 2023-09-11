@@ -194,7 +194,7 @@
     - `hidden` 隐藏域
     - `按钮` 
       - `submit` 提交按钮
-      - `reset` 充值按钮
+      - `reset` 重置按钮【重置表单数据】
       - `button` 可点击按钮
   - `name` ***name相同表示是同一个biao'dan'xiang
   - `value` ***提交表单时真正提交的值***
@@ -229,6 +229,7 @@
     </select><br><br>
     描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
 
+	<input type="hidden" name="id" value="1">
     <input type="submit" value="提交">
     <input type="reset" value="重置">
     <input type="button" value="按钮">
@@ -259,6 +260,8 @@
 		<option value="4">博士</option>
 	</select><br><br>
 	描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
+
+	<input type="hidden" name="id" value="1">
 	<input type="submit" value="提交">
 	<input type="reset" value="重置">
 	<input type="button" value="按钮">
