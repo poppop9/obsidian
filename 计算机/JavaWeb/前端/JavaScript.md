@@ -77,7 +77,8 @@ alert(parseInt("A123"));  //NaN
 ###### 其他类型转Boolean
 number：0和NaN为`false`，其他为`true`
 string：空字符为`false`，其他为`true`
-null
+null：均为`false`
+undefined：均为`false`
 ### 比较运算符
 `==` 会在比较之前进行类型转换
 `===` 只进行比较，不进行类型转换
