@@ -168,9 +168,10 @@
 ```
 ![[Excalidraw/计算机/JavaWeb.md#^group=h6qa99MH|370]]
 ### 表单\<form\>
-`action` 指定表单提交时去往的URL地址
-`method` 表单数据的提交方式。分为`get`和`post`
-- `get` 会在URL后面拼接表单数据
+- `action` 指定表单提交时去往的URL地址
+- `method` 表单数据的提交方式。
+	- `get` 会在URL后面拼接表单数据。【当表单数据很长时不推荐】
+	- `post` 
 
 # 快捷键
 `!` 生成骨架标签
