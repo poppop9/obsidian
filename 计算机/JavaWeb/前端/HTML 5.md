@@ -173,17 +173,19 @@
 - `method` 表单数据的提交方式。
 	- `get` 会在URL后面拼接表单数据。【当表单数据很长时不推荐】
 	  ```html
-	  <form action="" method="get">
-	      用户名: <input type="text" name="username">
-	      密码: <input type="text" name="password">
-	  
-	      <input type="submit" value="提交">
+	  <form action="" method="get">        //action不写默认提交到当前页面
 	  </form>
 	  
 	  
-	  file:///E:/VScode/html/9_9.html?username=123&password=456  //URL后面
+	  file:///E:/VScode/html/9_9.html?username=123&password=456  //URL后面会出现表单数据
 	  ```
 	- `post` 在消息体中传递。【表单数据大小无限制】
+	
+- `<input>` 表单项
+
+  - `type` 
+  - `name` 
+
 
 # 快捷键
 `!` 生成骨架标签
