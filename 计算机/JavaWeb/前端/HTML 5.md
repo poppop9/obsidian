@@ -187,6 +187,8 @@
     - `checkbox` 复选框
     - `file` 文件上传按钮
     - `date` 日期
+    - `time` 时间
+    - `datetime-local` 日期＋时间
     - `number` 数字输入框
     - `email` 邮件输入框
     - `hidden` 隐藏域
@@ -194,7 +196,7 @@
       - `submit` 提交按钮
       - `reset` 充值按钮
       - `button` 可点击按钮
-  - `name` ***name相同表示是同一个表单项***
+  - `name` ***name相同表示是同一个biao'dan'xiang
   - `value` ***提交表单时真正提交的值***
 - `select` 下拉列表
   - `option` 
@@ -205,12 +207,12 @@
     用户名: <input type="text" name="username"><br><br>
     密码: <input type="password" name="password"><br><br>
     性别:
-    <label><input type="radio" name="gender" value="男">男</label>
-    <label><input type="radio" name="gender" value="女">女</label><br><br>
+    <input type="radio" name="gender" value="男">男
+    <input type="radio" name="gender" value="女">女<br><br>
     爱好:
-    <label><input type="checkbox" name="hobby" value="java">java</label>
-    <label><input type="checkbox" name="hobby" value="c">c</label>
-    <label><input type="checkbox" name="hobby" value="python">python</label><br><br>
+    <input type="checkbox" name="hobby" value="java">java
+    <input type="checkbox" name="hobby" value="c">c
+    <input type="checkbox" name="hobby" value="python">python<br><br>
     图像: <input type="file" name="image"><br><br>
     生日: <input type="date" name="birthday"><br><br>
     时间: <input type="time" name="time"><br><br>
