@@ -184,22 +184,34 @@
 - `<input>` 表单项
 
   - `type` 
+    
     - `text` 单行输入字段
+		        <form action="" method="get">
+                用户名: <input type="text" name="username">
+            </form>
     - `password` 密码字段
+    
     - `radio` 单选按钮
+    
     - `checkbox` 复选框
+    
     - `file` 文件上传按钮
+    
     - `date` 日期
+    
     - `number` 数字输入框
+    
     - `email` 邮件输入框
+    
     - `hidden` 隐藏域
+    
     - `按钮` 
       - `submit` 提交按钮
       - `reset` 充值按钮
       - `button` 可点击按钮
-
+    
   - `name` 
-
+  
 - `select` 下拉列表
 
   - `option` 
