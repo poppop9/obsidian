@@ -1,0 +1,17 @@
+# 引入方式
+
+### 定义在HTML文件中
+```html
+<script>
+	…………
+</script>
+```
+***一般放置在\<body\>的底部***
+### 定义在外部的.js文件中
+```html
+<script src="demo.js"></script>
+```
+```js
+…………
+```
+
