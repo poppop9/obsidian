@@ -190,7 +190,9 @@
 		            用户名: <input type="text" name="username">
 		        </form>
     - `password` 密码字段
-
+		        <form action="" method="get">
+		            密码: <input type="password" name="password">
+		        </form>
     - `radio` 单选按钮
     
     - `checkbox` 复选框
