@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "JavaScript",
+      "path": "计算机/JavaWeb/前端/JavaScript.md"
+    },
+    {
       "basename": "HTML 5",
       "path": "计算机/JavaWeb/前端/HTML 5.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "计算机/JavaWeb/前端/CSS.md"
+    },
+    {
+      "basename": "SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot.md"
+    },
+    {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "JavaWeb",
@@ -17,10 +33,6 @@
       "path": "计算机/四大件/计算机网络2.md"
     },
     {
-      "basename": "CSS",
-      "path": "计算机/JavaWeb/前端/CSS.md"
-    },
-    {
       "basename": "Obsidian特殊语法",
       "path": "临时笔记/Obsidian特殊语法.md"
     },
@@ -31,14 +43,6 @@
     {
       "basename": "计算机网络 Draw",
       "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
-    },
-    {
-      "basename": "前端",
-      "path": "计算机/JavaWeb/前端.md"
-    },
-    {
-      "basename": "后端",
-      "path": "计算机/JavaWeb/后端.md"
     },
     {
       "basename": "MarkDown语法",
@@ -191,14 +195,6 @@
     {
       "basename": "类与对象",
       "path": "计算机/编程语言/Java/类与对象.md"
-    },
-    {
-      "basename": "Java的理论知识",
-      "path": "计算机/编程语言/Java/Java的理论知识.md"
-    },
-    {
-      "basename": "移动开发考试复习",
-      "path": "考试/移动开发考试复习.md"
     }
   ],
   "omittedPaths": [],

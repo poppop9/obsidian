@@ -179,7 +179,7 @@
 	  file:///E:/VScode/html/9_9.html?username=123&password=456  //URL后面会出现表单数据
 	  ```
 	- `post` 在消息体中传递。【表单数据大小无限制】
-- `<input>` 表单项
+##### \<input\>
   - `type` 
     - `text` 单行输入字段
     - `password` 密码字段
@@ -196,11 +196,11 @@
       - `submit` 提交按钮
       - `reset` 重置按钮【重置表单数据】
       - `button` 可点击按钮
-  - `name` ***name相同表示是同一个biao'dan'xiang
+  - `name` ***name相同表示是同一个表单项***
   - `value` ***提交表单时真正提交的值***
-- `select` 下拉列表
+##### \<select\>
   - `option` 
-- `textarea` 文本域
+##### \<textarea\>
 
 ```html
 <form action="" method="get">

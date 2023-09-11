@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML 5.md",
+                "file": "计算机/JavaWeb/前端/JavaScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML 5.md",
+                "file": "计算机/JavaWeb/前端/JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML 5.md",
+                "file": "计算机/JavaWeb/前端/JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML 5.md"
+                "file": "计算机/JavaWeb/前端/JavaScript.md"
               }
             }
           }
@@ -234,17 +234,21 @@
   },
   "active": "0724022f55380538",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/HTML 5.md",
+    "计算机/JavaWeb/前端/CSS.md",
+    "计算机/JavaWeb/后端/SpringBoot.md",
+    "计算机/JavaWeb/后端.md",
+    "计算机/JavaWeb/后端/Maven.md",
+    "计算机/JavaWeb/后端",
+    "计算机/JavaWeb/前端/JavaScript.md",
+    "计算机/JavaWeb/前端.md",
     "Excalidraw/计算机/JavaWeb.md",
     "临时笔记/穿搭.md",
     "计算机/四大件/计算机网络2.md",
-    "计算机/JavaWeb/前端/HTML 5.md",
-    "计算机/JavaWeb/前端/CSS.md",
     "临时笔记/Obsidian特殊语法.md",
     "计算机/编程语言/Java/idea.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
-    "计算机/JavaWeb/前端.md",
     "计算机/JavaWeb/前端",
-    "计算机/JavaWeb/后端.md",
     "临时笔记/MarkDown语法.md",
     "计算机/JavaWeb",
     "科技美学/Mac软件.md",
@@ -260,9 +264,6 @@
     "计算机/数据库",
     "计算机/四大件/操作系统/虚拟化/虚拟化内存.md",
     "临时笔记/🍕美食打分.md",
-    "临时笔记/🌏旅行.md",
-    "临时笔记/杭州.md",
-    "Excalidraw/计算机/四大件/操作系统 Draw.md",
     "计算机/四大件/操作系统/并发",
     "计算机/四大件/操作系统/虚拟化",
     "Projects - Demo Project",
@@ -270,7 +271,6 @@
     "图片库/Pasted Image 20230730095610_153.png",
     "Excalidraw/fonts/清松手写体1.ttf",
     "Excalidraw/fonts/aa青葱精修版v1.1.ttf",
-    "Excalidraw/fonts",
     "未命名.canvas",
     "未命名 1.canvas",
     "图片库/Pasted Image 20230703181647_013.jpg",
