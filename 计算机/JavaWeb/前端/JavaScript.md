@@ -65,7 +65,7 @@ alert(a);
     alert(typeof null);  //object
 
     var a;
-    alert(typeof a);  //undefined
+    alert(typeof a);  //undefined（变量未被初始化，则为undefined）
 ```
 ##### 类型转换
 ###### string转number
@@ -107,6 +107,8 @@ alert(result);  //30
 ```
 # 对象
 ### Array
+***数组的长度可变**
+***数组的类型可变***
 ##### 定义
 - `var 变量名 = new Array(1, 2, 3, 4);`
 - `var 变量名 = [1, 2, 3, 4];`
