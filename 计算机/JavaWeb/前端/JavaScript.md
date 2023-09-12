@@ -107,6 +107,8 @@ alert(result);  //30
 ```
 # 对象
 ### array
+##### 定义
+
 ### string
 ### JSON
 ### BOM
