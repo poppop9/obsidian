@@ -122,7 +122,7 @@ arr.push(5, 6, 7);  //可以添加多个元素到数组的尾部
 ##### 删除
 ```js
 var arr = new Array(1, 2, 3, 4);
-arr.splice(2, 2); 
+arr.splice(3, 2);  //从索引3开始删，删2个 
 ```
 ##### 遍历
 ###### 遍历所有
@@ -139,7 +139,9 @@ arr.foreach(function (e){
 	console.log(e);
 })
 ```
-### string
+### String
+>[summary]
+>length()  huo'qu
 ### JSON
 ### BOM
 ### DOM
