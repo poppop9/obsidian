@@ -114,6 +114,21 @@ alert(result);  //30
 - `var 变量名 = [1, 2, 3, 4];`
 ##### 访问
 `变量名[索引]`
+##### 遍历
+###### 遍历所有
+```js
+var arr = new Array(1, 2, 3, 4);
+for (let i = 0; i < arr.length; i++) {
+	console.log(arr[i]);
+}
+```
+###### 遍历有值的元素
+```js
+var arr = new Array(1, 2, 3, 4);
+arr.foreach(function (e){
+	console.log(e);
+})
+```
 ### string
 ### JSON
 ### BOM
