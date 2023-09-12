@@ -106,9 +106,12 @@ var result = add(10, 20, 30, 40);
 alert(result);  //30
 ```
 # 对象
-### array
+### Array
 ##### 定义
-
+- `var 变量名 = new Array(1, 2, 3, 4);`
+- `var 变量名 = [1, 2, 3, 4];`
+##### 访问
+`变量名[索引]`
 ### string
 ### JSON
 ### BOM
