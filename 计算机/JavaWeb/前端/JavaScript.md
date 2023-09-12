@@ -140,8 +140,15 @@ arr.foreach(function (e){
 })
 ```
 ### String
->[summary]
->length()  huo'qu
+>[!summary]
+>length()  获取字符串长度
+>charAt()  返回指定位置的字符
+>indexOf()  检索字符串
+>trim()  去除字符串两边的空格
+>substring()  提取字符串中两个指定索引之间的字符
+
+
+
 ### JSON
 ### BOM
 ### DOM
