@@ -147,6 +147,18 @@ arr.foreach(function (e){
 >trim()  去除字符串两边的空格
 >substring()  提取字符串中两个指定索引之间的字符
 
+```js
+var str = "javascript";
+console.log(str.length);
+console.log(str.charAt(2));
+console.log(str.indexOf("sc"));
+console.log(str.substring(2, 4));
+
+10
+v
+4
+va
+```
 
 
 ### JSON
