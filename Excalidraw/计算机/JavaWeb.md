@@ -565,8 +565,8 @@ ac2bd99425f8fcf99e17c1d46239fd1b4a31d402: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "text",
-			"version": 67,
-			"versionNonce": 1403167395,
+			"version": 68,
+			"versionNonce": 1945116752,
 			"isDeleted": false,
 			"id": "jBs8JU07",
 			"fillStyle": "hachure",
@@ -593,7 +593,7 @@ ac2bd99425f8fcf99e17c1d46239fd1b4a31d402: https://obsidian-1307744200.cos.ap-gua
 					"type": "arrow"
 				}
 			],
-			"updated": 1694332099826,
+			"updated": 1694521137669,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -609,8 +609,8 @@ ac2bd99425f8fcf99e17c1d46239fd1b4a31d402: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "text",
-			"version": 29,
-			"versionNonce": 659066125,
+			"version": 30,
+			"versionNonce": 450677936,
 			"isDeleted": false,
 			"id": "8agd9skH",
 			"fillStyle": "hachure",
@@ -632,7 +632,7 @@ ac2bd99425f8fcf99e17c1d46239fd1b4a31d402: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1694332099826,
+			"updated": 1694521137671,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -648,8 +648,8 @@ ac2bd99425f8fcf99e17c1d46239fd1b4a31d402: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "text",
-			"version": 31,
-			"versionNonce": 958158403,
+			"version": 32,
+			"versionNonce": 665294416,
 			"isDeleted": false,
 			"id": "2YujYSxk",
 			"fillStyle": "hachure",
@@ -671,7 +671,7 @@ ac2bd99425f8fcf99e17c1d46239fd1b4a31d402: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1694332099826,
+			"updated": 1694521137673,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -687,8 +687,8 @@ ac2bd99425f8fcf99e17c1d46239fd1b4a31d402: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "text",
-			"version": 54,
-			"versionNonce": 908944237,
+			"version": 55,
+			"versionNonce": 956282544,
 			"isDeleted": false,
 			"id": "7zelxtAp",
 			"fillStyle": "hachure",
@@ -710,7 +710,7 @@ ac2bd99425f8fcf99e17c1d46239fd1b4a31d402: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1694332099826,
+			"updated": 1694521137676,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -806,10 +806,10 @@ ac2bd99425f8fcf99e17c1d46239fd1b4a31d402: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 247.4650874302343,
-		"scrollY": 2080.0608916502233,
+		"scrollX": 618.3713786995788,
+		"scrollY": 2506.1524718051446,
 		"zoom": {
-			"value": 1.4277885108330948
+			"value": 1.05
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
