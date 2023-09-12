@@ -180,7 +180,7 @@ var 对象名 = {
 var p1 = {
 	name: "吴彦祖",
 	age: 48,
-	handsome: function(a) {
+	handsome(a) {
 		console.log(a);
 	}
 }
