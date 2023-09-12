@@ -175,6 +175,23 @@ var 对象名 = {
 对象名.属性名;
 对象名.函数名();
 ```
+
+```js
+var p1 = {
+	name: "吴彦祖",
+	age: 48,
+	handsome: function(a) {
+		console.log(a);
+	}
+}
+
+console.log(p1.name);
+p1.handsome("帅气");
+
+
+吴彦祖
+帅气   
+```
 ### JSON
 
 ### BOM
