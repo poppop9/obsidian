@@ -105,3 +105,9 @@ function 函数名(参数1, 参数2……){
 var result = add(10, 20, 30, 40);
 alert(result);  //30
 ```
+# 对象
+### array
+### string
+### JSON
+### BOM
+### DOM
