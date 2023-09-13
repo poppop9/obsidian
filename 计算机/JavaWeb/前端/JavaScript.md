@@ -289,3 +289,32 @@ location.href = "https://www.baidu.com/";
 ```
 ### DOM
 当 HTML 文档加载到 Web 浏览器中时，它就变成了一个DOM
+```html
+<html>
+	<head>
+		<title>DOM</title>
+	</head>
+	<body>
+		<h1>我是DOM</h1>
+		<a href="https://w"
+	</body>
+</html>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
