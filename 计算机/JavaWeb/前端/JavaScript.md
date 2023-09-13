@@ -277,6 +277,14 @@ setTimeout(() => {
 ##### History 历史记录对象
 
 ##### Location 地址栏对象
+>[!summary]
+>location.href	获取整个URL
+
+```js
+alert("我们要去百度了")
+location.href = "https://www.baidu.com/";
 
 
+点击完提示框后，会自动跳转到baidu的官网
+```
 ### DOM
