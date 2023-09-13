@@ -193,6 +193,13 @@ p1.handsome("帅气");
 帅气   
 ```
 ### JSON
-
+数据的载体
+##### 书写格式
+```js
+{
+"key1":value1,
+"key2":value2
+}
+```
 ### BOM
 ### DOM
