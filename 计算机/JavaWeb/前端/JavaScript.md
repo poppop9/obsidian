@@ -303,12 +303,13 @@ location.href = "https://www.baidu.com/";
 ```
 ```mermaid
 graph LR
-	a[根元素html]-->b[元素head]-->d[元素title]-->e[]
-	a-->c[元素body]
+	a[根元素html]-->b[元素head]-->d[元素title]-->e[文本DOM]
+	a-->c[元素body]-->f[元素h1]-->h{{文本我是DOMfsd)
+	c-->g[元素a]
 ```
 
 
-
+fd{]}
 
 
 
