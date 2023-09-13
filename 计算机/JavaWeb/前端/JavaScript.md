@@ -288,3 +288,4 @@ location.href = "https://www.baidu.com/";
 点击完提示框后，会自动跳转到baidu的官网
 ```
 ### DOM
+当 HTML 文档加载到 Web 浏览器中时，它就变成了一个DOM
