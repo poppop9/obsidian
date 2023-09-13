@@ -227,6 +227,12 @@ BOM是浏览器对象模型，允许JavaScript与浏览器对话
 >window.history  返回窗口的History对象
 >window.location  返回窗口的Location对象
 >window.navigator  返回窗口的Navigator对象
+>window.screen 返回窗口的Screen对象
+>
+>alert()  显示带有消息和确定按钮的警报框
+>confirm()  显示包含消息以及确定和取消按钮的对话框
+>setInterval()  周期性执行指定的代码
+>setTimeout()  在经过指定的时间之后执行代码
 
 
 
