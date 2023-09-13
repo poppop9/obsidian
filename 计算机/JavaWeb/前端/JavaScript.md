@@ -224,7 +224,9 @@ console.log(json);
 BOM是浏览器对象模型，允许JavaScript与浏览器对话
 ##### Window 浏览器窗口对象
 >[!summary]
-|[history](https://www.w3school.com.cn/jsref/prop_win_history.asp "Window history 属性")|返回窗口的 [History 对象](https://www.w3school.com.cn/jsref/obj_history.asp "Window History 对象")。|
+>window.history  返回窗口的History对象
+>window.location  返回窗口的Location对象
+>window.navigator  返回窗口的Navigator对象
 
 
 
