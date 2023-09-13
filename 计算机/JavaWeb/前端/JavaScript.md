@@ -218,7 +218,10 @@ var json = JSON.stringify(obj);
 console.log(json);
 
 
-
+{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}
 ```
 ### BOM
+
+
+
 ### DOM
