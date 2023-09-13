@@ -322,9 +322,9 @@ graph TB
 HTML DOM是专门用于HTML的DOM规范
 >[!summary]
 >getElementById()	 返回拥有指定***id属性***的单个Element元素
->getElementsByClassName()  返回包含拥有指定类名的所有元素的 HTMLCollection
->getElementsByName()  返回包含拥有指定名称的所有元素的活动 NodeList
->getElementsByTagName()  返回指定***标签名称***的所有元素的 HTMLCollection
+>getElementsByClassName()  返回指定***类名***的Element对象数组
+>getElementsByName()  返回***name属性***的Element对象数组
+>getElementsByTagName()  返回指定***标签名称***的Element对象数组
 
 
 
