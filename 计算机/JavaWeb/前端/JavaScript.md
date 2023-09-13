@@ -290,11 +290,12 @@ location.href = "https://www.baidu.com/";
 ### DOM
 当 HTML 文档加载到 Web 浏览器中时，它就变成了一个DOM
 ##### 核心DOM
-Document 整个文档对象
-Element 元素对象
-Attribute 属性对象
-Text 文本对象
-Comment 注释对象
+核心DOM是DOM的通用规范
+- Document 整个文档对象
+- Element 元素对象
+- Attribute 属性对象
+- Text 文本对象
+- Comment 注释对象
 ```html
 <html>
 	<head>
@@ -316,8 +317,9 @@ graph TB
 	k((注释))
 ```
 ##### XML DOM
+专门用于XML文件的DOM规范
 ##### HTML DOM
-
+HTML DOM是专门用于HTML的DOM规范
 
 
 
