@@ -289,8 +289,12 @@ location.href = "https://www.baidu.com/";
 ```
 ### DOM
 当 HTML 文档加载到 Web 浏览器中时，它就变成了一个DOM
-
-
+##### 核心DOM
+Document 整个文档对象
+Element 元素对象
+Attribute 属性对象
+Text 文本对象
+Comment 注释对象
 ```html
 <html>
 	<head>
