@@ -230,7 +230,7 @@ BOM是浏览器对象模型，允许JavaScript与浏览器对话
 >window.screen 返回窗口的Screen对象
 >
 >alert()  显示带有消息和确定按钮的警报框
->confirm()  显示包含消息以及确定和取消按钮的对话框
+>confirm()  显示包含消息以及确定和取消按钮的对话框。根据点击返回***true
 >setInterval()  周期性执行指定的代码
 >setTimeout()  在经过指定的时间之后执行代码
 
