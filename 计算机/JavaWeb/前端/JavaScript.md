@@ -290,6 +290,7 @@ location.href = "https://www.baidu.com/";
 ### DOM
 当 HTML 文档加载到 Web 浏览器中时，它就变成了一个DOM
 
+
 ```html
 <html>
 	<head>
@@ -303,7 +304,7 @@ location.href = "https://www.baidu.com/";
 ```
 ```mermaid
 graph TB
-	l
+	l[/Document整个文档对象\]-->a
 	a[根元素html]-->b[元素head]-->d[元素title]-->e{{文本DOM}}
 	a-->c[元素body]-->f[元素h1]-->h{{文本我是DOMfsd}}
 	c-->g[元素a]-->i{属性href}

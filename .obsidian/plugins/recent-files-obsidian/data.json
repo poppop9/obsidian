@@ -5,8 +5,16 @@
       "path": "计算机/JavaWeb/前端/JavaScript.md"
     },
     {
+      "basename": "计算机网络2",
+      "path": "计算机/四大件/计算机网络2.md"
+    },
+    {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
+    },
+    {
+      "basename": "计算机网络 Draw",
+      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
     },
     {
       "basename": "Obsidian特殊语法",
@@ -19,14 +27,6 @@
     {
       "basename": "JavaWeb",
       "path": "Excalidraw/计算机/JavaWeb.md"
-    },
-    {
-      "basename": "计算机网络2",
-      "path": "计算机/四大件/计算机网络2.md"
-    },
-    {
-      "basename": "计算机网络 Draw",
-      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
     },
     {
       "basename": "HTML 5",
