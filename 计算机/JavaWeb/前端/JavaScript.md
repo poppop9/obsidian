@@ -303,6 +303,7 @@ location.href = "https://www.baidu.com/";
 ```
 ```mermaid
 graph LR
+	a[html]
 ```
 
 
