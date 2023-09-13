@@ -198,5 +198,7 @@ JSON是存储和传输数据的字符串
 ```js
 var jsonstr = '{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}';
 ```
+##### JSON转JS对象
+`JSON.parse()`
 ### BOM
 ### DOM
