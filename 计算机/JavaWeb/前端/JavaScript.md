@@ -223,6 +223,13 @@ console.log(json);
 ### BOM
 BOM是浏览器对象模型，允许JavaScript与浏览器对话
 ##### Window 浏览器窗口对象
+>[!summary]
+|[history](https://www.w3school.com.cn/jsref/prop_win_history.asp "Window history 属性")|返回窗口的 [History 对象](https://www.w3school.com.cn/jsref/obj_history.asp "Window History 对象")。|
+
+
+
+
+
 ##### Navigator 浏览器对象
 
 ##### Screen 屏幕对象
