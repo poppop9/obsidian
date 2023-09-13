@@ -294,7 +294,7 @@ location.href = "https://www.baidu.com/";
 <html>
 	<head>
 		<title>DOM</title>
-	</head>
+	</head>           <!--注释-->
 	<body>
 		<h1>我是DOM</h1>
 		<a href="https://www.baidu.com/">百度</a>
@@ -307,6 +307,7 @@ graph TB
 	a-->c[元素body]-->f[元素h1]-->h{{文本我是DOMfsd}}
 	c-->g[元素a]-->i{属性href}
 	g-->j{{文本百度}}
+	k((注释))
 ```
 
 
