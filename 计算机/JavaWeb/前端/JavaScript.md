@@ -221,7 +221,14 @@ console.log(json);
 {"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}
 ```
 ### BOM
+##### Window 浏览器窗口对象
+##### Navigator 浏览器对象
 
+##### Screen 屏幕对象
+
+##### History 历史记录对象
+
+##### Location 地址栏对象
 
 
 ### DOM
