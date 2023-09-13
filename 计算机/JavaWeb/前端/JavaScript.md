@@ -221,6 +221,7 @@ console.log(json);
 {"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}
 ```
 ### BOM
+BOM是浏览器对象模型，允许JavaScript与浏览器对话
 ##### Window 浏览器窗口对象
 ##### Navigator 浏览器对象
 
