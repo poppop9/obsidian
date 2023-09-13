@@ -241,6 +241,7 @@ BOM是浏览器对象模型，允许JavaScript与浏览器对话
 confirm("hello javascript!\nhello javascript!");
 ```
 ![[Excalidraw/计算机/JavaWeb.md#^group=7iLBg2GO]]
+
 ```js
 let text;
 if (confirm("点击按钮") == true) {
@@ -250,9 +251,6 @@ if (confirm("点击按钮") == true) {
 }
 
 console.log(text);
-
-
-你点了取消
 ```
 
 
