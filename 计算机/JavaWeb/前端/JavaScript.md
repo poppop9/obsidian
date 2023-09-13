@@ -193,13 +193,10 @@ p1.handsome("帅气");
 帅气   
 ```
 ### JSON
-数据的载体
+JSON是存储和传输数据的字符串
 ##### 书写格式
 ```js
-{
-"key1":value1,
-"key2":value2
-}
+var jsonstr = '{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}';
 ```
 ### BOM
 ### DOM
