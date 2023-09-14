@@ -329,7 +329,7 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 ###### getElementById()
 ```html
 <body>
-	<img id="img1" src="https://1b2a.net/img/tv/PwGW.avif" width="300"/>
+	<p id="p2">责任编辑：指数爆炸</p>
 </body>
 
 <script>
@@ -338,7 +338,7 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 </script>
 
 
-[object HTMLImageElement]
+[object HTMLParagraphElement]
 ```
 ###### getElementByClassName()
 ```html
