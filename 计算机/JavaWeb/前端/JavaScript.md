@@ -409,9 +409,30 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 # 事件监听
 事件可以是：按钮被点击了、鼠标移动到某个位置了、按下键盘按键了……
 ### 事件绑定
-##### 通过HTML的标签属性绑定
+##### HTML的onclick属性
+```html
+<body>
+	<input id="submit_2" onclick="gotobaidu()" type="submit" value="百度">
+</body>
 
+<script>
+    function gotobaidu() {
+        location.href = "https://www.baidu.com/";
+    }
+</script>
+```
+##### f
+```html
+<body>
+	<input id="submit_2" type="submit" value="百度">
+</body>
 
+<script>
+    document.getElementById("submit_2").onclick = function () {
+        location.href = "https://www.baidu.com/";
+    }
+</script>
+```
 
 
 
