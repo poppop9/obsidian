@@ -319,14 +319,16 @@ graph TB
 ##### XML DOM
 专门用于XML文件的DOM规范
 ##### HTML DOM
-HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装成了一个对象***
+HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装成了一个元素***
 >[!summary]
 >getElementById()	 返回拥有指定***id属性***的单个Element元素
 >getElementsByClassName()  返回指定***类名***的Element对象数组
 >getElementsByName()  返回***name属性***的Element对象数组
 >getElementsByTagName()  返回指定***标签名称***的Element对象数组
+>
+>Element.innerHTML	设置或返回元素的内容
 
-###### getElementById()
+###### HTMLParagraphElement
 ```html
 <body>
 	<p id="p2">责任编辑：指数爆炸</p>
@@ -335,12 +337,14 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 <script>
     var ide = document.getElementById("p2")  //现在已经拿到了这个对象了
     alert(ide);
+    
+    ide.innerHTML = "指数爆炸";  //会把<p>里的内容修改成“指数爆炸”
 </script>
 
 
 [object HTMLParagraphElement]
 ```
-###### getElementByClassName()
+###### HTMLImageElement
 ```html
 <body>
 	<img class="img" src="https://1b2a.net/img/tv/PwGW.avif" width="300"/>
@@ -358,7 +362,7 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 [object HTMLImageElement]
 [object HTMLImageElement]
 ```
-###### getElementsByName()
+###### HTMLInputElement
 ```html
 <body>
 <input type="hidden" name="id" value="1">
@@ -374,7 +378,7 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 
 [object HTMLInputElement]
 ```
-###### getElementsByTagName()
+###### HTMLDivElement
 ```html
 <body>
 	<div>
