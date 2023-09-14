@@ -408,6 +408,16 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 ```
 # 事件监听
 事件可以是：按钮被点击了、鼠标移动到某个位置了、按下键盘按键了……
+### 常见事件
+`onclick` 鼠标单击
+`onblur` 元素失去焦点
+`onfocus` 元素获得焦点
+`onload` 某个页面或元素完成加载
+`onsubmit` 表单提交时
+`onkeydown` 按下键盘某个键时
+`onmouseover` 鼠标移到某元素上
+`onmouseout` 鼠标从某元素移开
+
 ### 事件绑定
 ##### HTML的onclick属性
 ```html
