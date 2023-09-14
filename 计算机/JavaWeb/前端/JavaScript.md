@@ -360,9 +360,38 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 ```
 ###### getElementsByName()
 ```html
+<body>
+<input type="hidden" name="id" value="1">
+</body>
 
+<script>
+    var namees = document.getElementsByName("id");
+    for (var i = 0; i < namees.length; i++) {
+        alert(namees[i]);
+    }
+</script>
+
+
+[object HTMLInputElement]
 ```
+###### getElementsByTagName()
+```html
+<body>
+	<div>
+		…………
+	</div>
+</body>
 
+<script>
+    var tages = document.getElementsByTagName("div");
+    for (var i = 0; i < namees.length; i++) {
+        alert(tages[i]);
+    }
+</script>
+
+
+[object HTMLDivElement]
+```
 
 
 
