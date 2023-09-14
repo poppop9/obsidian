@@ -327,7 +327,10 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 >getElementsByTagName()  返回指定***标签名称***的Element对象数组
 
 ```js
+<img id="img1" src="https://1b2a.net/img/tv/PwGW.avif" width="300"/>
 
+
+[object HTMLImageElement]
 ```
 
 
