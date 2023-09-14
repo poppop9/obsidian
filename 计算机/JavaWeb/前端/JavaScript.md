@@ -319,13 +319,16 @@ graph TB
 ##### XML DOM
 专门用于XML文件的DOM规范
 ##### HTML DOM
-HTML DOM是专门用于HTML的DOM规范
+HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装成了一个对象***
 >[!summary]
 >getElementById()	 返回拥有指定***id属性***的单个Element元素
 >getElementsByClassName()  返回指定***类名***的Element对象数组
 >getElementsByName()  返回***name属性***的Element对象数组
 >getElementsByTagName()  返回指定***标签名称***的Element对象数组
 
+```js
+
+```
 
 
 
