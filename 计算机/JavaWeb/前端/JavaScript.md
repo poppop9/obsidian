@@ -370,6 +370,9 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 [object HTMLImageElement]
 ```
 ###### HTMLInputElement
+>[!summary] 属性
+>checked  设置或返回复选框的选中状态
+
 ```html
 <body>
 <input type="hidden" name="id" value="1">
