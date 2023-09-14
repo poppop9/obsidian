@@ -182,5 +182,6 @@
   "blue-topaz-theme@@h6-toggle-underline": true,
   "blue-topaz-theme@@h6-size": "0.99em",
   "blue-topaz-theme@@toggle-paragraph-spacing": false,
-  "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-outline"
+  "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-outline",
+  "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": false
 }

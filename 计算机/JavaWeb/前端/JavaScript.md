@@ -326,13 +326,27 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 >getElementsByName()  返回***name属性***的Element对象数组
 >getElementsByTagName()  返回指定***标签名称***的Element对象数组
 
-```js
-<img id="img1" src="https://1b2a.net/img/tv/PwGW.avif" width="300"/>
+###### getElementById()
+```html
+<body>
+	<img id="img1" src="https://1b2a.net/img/tv/PwGW.avif" width="300"/>
+</body>
+
+<script>
+    var ide = document.getElementById("img1");
+    alert(ide)
+</script>
 
 
 [object HTMLImageElement]
 ```
-
+###### getElementByClassName()
+```html
+<body>
+	<img class="img" src="https://1b2a.net/img/tv/PwGW.avif" width="300"/>
+	<img class="img" src="https://jwc.zjxu.edu.cn/__local/C/5E/5F/C3D5DB87F094D6680FD055B1029_D0FE4C7D_1C003.jpg" width="300"/>
+</body>
+```
 
 
 
