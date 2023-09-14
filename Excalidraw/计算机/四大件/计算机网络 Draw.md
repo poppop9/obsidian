@@ -63,6 +63,7 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230911170747.png
 7d310413290e51f3d6cf74fdee9061149bcafe34: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230914115517.png
 b6ec8e9eda5a0c271cb55682b52fb661e9db6f79: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230914120236.png
+dc3e5bfa47ddddaad3a43e98ecac0212ccd6b646: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230914154142.png
 
 %%
 # Drawing
@@ -2060,6 +2061,39 @@ b6ec8e9eda5a0c271cb55682b52fb661e9db6f79: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"type": "image",
+			"version": 14,
+			"versionNonce": 1235940720,
+			"isDeleted": false,
+			"id": "c8bABV8y",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1084.532187975332,
+			"y": 2023.8827022002001,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500.00000000000006,
+			"height": 414.82843137254906,
+			"seed": 1069,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694677308024,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "dc3e5bfa47ddddaad3a43e98ecac0212ccd6b646",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -2077,10 +2111,10 @@ b6ec8e9eda5a0c271cb55682b52fb661e9db6f79: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -686.7987326014963,
-		"scrollY": -661.1496717085123,
+		"scrollX": 1081.1347228319596,
+		"scrollY": -1078.2968110749514,
 		"zoom": {
-			"value": 0.7000000000000001
+			"value": 0.3
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
