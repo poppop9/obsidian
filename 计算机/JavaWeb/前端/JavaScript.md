@@ -333,8 +333,8 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 </body>
 
 <script>
-    var ide = document.getElementById("img1");
-    alert(ide)
+    var ide = document.getElementById("p2")  //现在已经拿到了这个对象了
+    alert(ide);
 </script>
 
 
