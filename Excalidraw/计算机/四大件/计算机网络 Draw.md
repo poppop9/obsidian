@@ -61,6 +61,7 @@ ab861e21ce61ababb606aa7066e85b402371a5a8: https://obsidian-1307744200.cos.ap-gua
 9283d35c19e0e77032b76350ed401907f8ac96bc: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230905105555.png
 422c85f57c53eb10ef3bab10b22bb40e2de10011: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230911163102.png
 dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230911170747.png
+7d310413290e51f3d6cf74fdee9061149bcafe34: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230914115517.png
 
 %%
 # Drawing
@@ -278,7 +279,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"y": 229.72316012476057,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 463.93597412109375,
+			"width": 456.1068115234375,
 			"height": 37.763426731834095,
 			"seed": 1237775400,
 			"groupIds": [
@@ -423,7 +424,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"y": 75.0382871465084,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 148.49801635742188,
+			"width": 150.9375457763672,
 			"height": 17.084071480409033,
 			"seed": 1117829565,
 			"groupIds": [
@@ -449,7 +450,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "告诉服务器怎么处理URI",
 			"lineHeight": 1.2,
-			"baseline": 11
+			"baseline": 12
 		},
 		{
 			"type": "arrow",
@@ -571,7 +572,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"y": 24.71745881711496,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 66.5,
+			"width": 65.64495849609375,
 			"height": 16.594647865795665,
 			"seed": 124802781,
 			"groupIds": [
@@ -1018,7 +1019,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"y": 825.0146948511479,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 321.1920166015625,
+			"width": 331.8981628417969,
 			"height": 29.77397942170076,
 			"seed": 1264985650,
 			"groupIds": [
@@ -1044,7 +1045,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "这一步不是询问了，而是访问Web服务器了。\n因为在第5步，lab服务器已经知道域名的IP，并返回IP地址了",
 			"lineHeight": 1.2,
-			"baseline": 24
+			"baseline": 25
 		},
 		{
 			"type": "image",
@@ -1130,7 +1131,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"y": 1298.992150447253,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 80.04000091552734,
+			"width": 80.03999328613281,
 			"height": 24,
 			"seed": 80606163,
 			"groupIds": [
@@ -1151,7 +1152,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "操作系统",
 			"lineHeight": 1.2,
-			"baseline": 17
+			"baseline": 18
 		},
 		{
 			"type": "image",
@@ -1254,7 +1255,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"y": 1450.931007137049,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 128,
+			"width": 129.0399169921875,
 			"height": 19.358663652840125,
 			"seed": 2043336696,
 			"groupIds": [
@@ -1280,7 +1281,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "数据块的最大长度",
 			"lineHeight": 1.2,
-			"baseline": 13
+			"baseline": 14
 		},
 		{
 			"type": "image",
@@ -1442,7 +1443,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "客户端在连接时需要计算出序号初始值，\n并发送给服务器",
 			"lineHeight": 1.2,
-			"baseline": 32
+			"baseline": 33
 		},
 		{
 			"type": "arrow",
@@ -1540,7 +1541,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "由于第一步的初始值可能丢失，\n所以服务器会通过这个初始值\n计算出ACK号返回给客户端",
 			"lineHeight": 1.2,
-			"baseline": 51
+			"baseline": 52
 		},
 		{
 			"type": "arrow",
@@ -1634,7 +1635,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "这个序号初始值是服务器计算的",
 			"lineHeight": 1.2,
-			"baseline": 13
+			"baseline": 14
 		},
 		{
 			"type": "arrow",
@@ -1728,7 +1729,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "客户端又根据服务器提供的序号初始值\n返回一个ACK号",
 			"lineHeight": 1.2,
-			"baseline": 32
+			"baseline": 33
 		},
 		{
 			"type": "arrow",
@@ -1800,7 +1801,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"y": 1764.2847597349732,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 190.239990234375,
+			"width": 190.23997497558594,
 			"height": 38.4,
 			"seed": 1401480440,
 			"groupIds": [
@@ -1826,7 +1827,7 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "如果对方没有回应ACK号，\n则会重新发送包",
 			"lineHeight": 1.2,
-			"baseline": 32
+			"baseline": 33
 		},
 		{
 			"type": "image",
@@ -1992,6 +1993,76 @@ dd643ea7ce5af15f5fceda55f573c882e70fc89d: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"type": "image",
+			"version": 20,
+			"versionNonce": 378200976,
+			"isDeleted": false,
+			"id": "fWnWn5MN",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1299.9667431693476,
+			"y": 292.721119898384,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 435.09272467902997,
+			"height": 500,
+			"seed": 65714,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694663722743,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "7d310413290e51f3d6cf74fdee9061149bcafe34",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "vBUlNtTI",
+			"type": "text",
+			"x": 1473.2273040300677,
+			"y": 505.863950883317,
+			"width": 8.191986083984375,
+			"height": 19.2,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 425045872,
+			"version": 2,
+			"versionNonce": 2017774992,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1694663725351,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 14,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
