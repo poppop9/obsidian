@@ -421,7 +421,7 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
     }
 </script>
 ```
-##### f
+##### 对象调用onclick属性指定函数
 ```html
 <body>
 	<input id="submit_2" type="submit" value="百度">
