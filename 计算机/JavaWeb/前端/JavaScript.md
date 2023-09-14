@@ -371,8 +371,8 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 ```
 ###### HTMLInputElement
 >[!summary] 属性
->checked  设置或返回复选框的选中状态
-
+>checked  设置或返回复选框的选中状态。可以设置为`true`或`false`
+	
 ```html
 <body>
 <input type="hidden" name="id" value="1">
@@ -406,7 +406,8 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 
 [object HTMLDivElement]
 ```
-
+# 事件监听
+事件可以是：按钮被点击了、鼠标移动到某个位置了、按下键盘按键了……
 
 
 
