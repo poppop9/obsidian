@@ -345,6 +345,10 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 [object HTMLParagraphElement]
 ```
 ###### HTMLImageElement
+>[!summary]
+>src  设置或返回图像的 src 属性值
+
+
 ```html
 <body>
 	<img class="img" src="https://1b2a.net/img/tv/PwGW.avif" width="300"/>
