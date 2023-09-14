@@ -346,9 +346,22 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 	<img class="img" src="https://1b2a.net/img/tv/PwGW.avif" width="300"/>
 	<img class="img" src="https://jwc.zjxu.edu.cn/__local/C/5E/5F/C3D5DB87F094D6680FD055B1029_D0FE4C7D_1C003.jpg" width="300"/>
 </body>
+
+<script>
+    var imges = document.getElementByClassName("img");
+    for(int i=0; i<imges.length; i++){
+	    alert(imges[i]);
+    }
+</script>
+
+
+[object HTMLImageElement]
+[object HTMLImageElement]
 ```
+###### getElementsByName()
+```html
 
-
+```
 
 
 
