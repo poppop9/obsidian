@@ -44,8 +44,8 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 
 <body>
     <div id="input_1">
-        <input type="text" v-model="url">  <!--文本框
-        <a v-bind:href="url">Go to</a>
+        <input type="text" v-model="url">  <!--使用v-model指令，绑定文本框里的内容-->
+        <a v-bind:href="url">Go to</a>  <!--绑定a链接里的href属性-->
     </div>
 </body>
 
@@ -53,14 +53,14 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
     new Vue({
         el: "#input_1",
         data: {
-            url: "https://www.baidu.com"
+            url: "https://www.baidu.com"  //此处的url一修改，会影响以上的所有url变量
         }
     })
 </script>
 </html>
 ```
 ### v-on
-为标签绑定事件
+为标签绑定***事件***
 
 ### v-if，v-else if，v-else
 条件性的渲染某元素
