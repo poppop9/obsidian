@@ -98,7 +98,41 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 ```
 ### v-if，v-else if，v-else
 条件性的渲染某元素
+```html
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v-if测试</title>
+    <script src="JS/vue.js"></script>
+</head>
+
+<body>
+    <div>
+        请输入你的年龄：<input type="text" v-model="age">
+        <p>经判定你的年龄是：
+            <span v-if="age<=35"><b>年轻人</b></span>
+            <span v-else-if="age>35&&age<=60"><b>中年人</b></span>  //三个条件判断
+            <span v-else="age>60"><b>老年人</b></span>
+        </p>
+    </div>
+</body>
+<script>
+    new Vue({
+        el: "div",
+        data: {
+            age: 0
+        }
+    })
+</script>
+</html>
+
+
+请输入你的年龄：age
+经判定你的年龄是：年轻人
+```
 ### v-show
 根据条件展示某元素
 
