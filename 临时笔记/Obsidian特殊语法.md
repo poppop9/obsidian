@@ -301,8 +301,6 @@ title: ⏳ Doing
 
 ***Folder Note***  用于目录那里的大纲生成
 
-***Highlighting***  各种高亮
-
 ***Image auto upload Plugin***  图床
 
 ***Keyboard Analyzer***  查看各种键的快捷键
