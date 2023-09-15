@@ -58,6 +58,9 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
     })
 </script>
 </html>
+
+
+文本框里的链接一改变，那么<a>标签里的也会跟着变
 ```
 ### v-on
 为标签绑定***事件***
@@ -68,7 +71,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vue版本的切换图片</title>
+    <title>v-on</title>
     <script src="JS/vue.js"></script>
 </head>
 
@@ -89,6 +92,9 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
     })
 </script>
 </html>
+
+
+点击按钮就会跳出警告框
 ```
 ### v-if，v-else if，v-else
 条件性的渲染某元素
