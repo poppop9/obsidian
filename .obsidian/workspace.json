@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript.md",
+                "file": "计算机/JavaWeb/前端/Vue.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript.md",
+                "file": "计算机/JavaWeb/前端/Vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript.md",
+                "file": "计算机/JavaWeb/前端/Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript.md"
+                "file": "计算机/JavaWeb/前端/Vue.md"
               }
             }
           },
@@ -244,8 +244,9 @@
   },
   "active": "0724022f55380538",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/HTML 5.md",
     "计算机/JavaWeb/前端/JavaScript.md",
+    "计算机/JavaWeb/前端/Vue.md",
+    "计算机/JavaWeb/前端/HTML 5.md",
     "Excalidraw/计算机/JavaWeb.md",
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/穿搭.md",
@@ -273,7 +274,6 @@
     "计算机/数据库/MySQL.md",
     "计算机/数据库",
     "计算机/四大件/操作系统/虚拟化/虚拟化内存.md",
-    "临时笔记/🍕美食打分.md",
     "计算机/四大件/操作系统/并发",
     "计算机/四大件/操作系统/虚拟化",
     "Projects - Demo Project",
