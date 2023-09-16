@@ -178,7 +178,35 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 ```
 ### v-for
 列表渲染
+```html
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v-for</title>
+    <script src="JS/vue.js"></script>
+</head>
+
+<body>
+    <div id="list">
+        <span v-for="e in list">{{e}}</span>
+        <br>
+        <span v-for="(e, index) in list">{{index}}:{{e}}</span>
+    </div>
+</body>
+
+<script>
+    new Vue({
+        el: "#list",
+        data: {
+            list: ["吴彦祖 ", "陈冠希 ", "郭富城"],
+        }
+    })
+</script>
+</html>
+```
 
 
 
