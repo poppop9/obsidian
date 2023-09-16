@@ -170,9 +170,12 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
     })
 </script>
 </html>
+
+
+<span><b>年轻人</b></span>
+<span style="display: none;"><b>中年人</b></span>
+<span style="display: none;"><b>老年人</b></span>
 ```
-
-
 ### v-for
 列表渲染
 
