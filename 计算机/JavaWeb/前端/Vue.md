@@ -191,10 +191,10 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 
 <body>
     <div id="list">
-        <span v-for="e in list">{{e}}</span>
+        <span v-for="e in list">{{e}}</span>  //第一种写法
         <br>
         <span v-for="(e, index) in list">{{index}}:{{e}}</span>
-    </div>
+    </div>                      //第二种写法【加索引的】
 </body>
 
 <script>
