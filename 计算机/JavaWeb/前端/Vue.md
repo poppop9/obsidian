@@ -209,7 +209,21 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 ```
 # 生命周期
 生命周期：vue对象从创建到销毁的过程
+### beforeCreate 创建前
 
+
+### created 创建后
+
+### beforeMount 载入前
+
+### mounted 挂载完成
+
+### beforeUpdate 更新前
+### updated 更新后
+
+### beforeDestroy 销毁前
+
+### destroyed 销毁后
 
 
 
