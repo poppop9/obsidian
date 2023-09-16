@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Ajax",
+      "path": "计算机/JavaWeb/前端/Ajax.md"
+    },
+    {
       "basename": "Vue",
       "path": "计算机/JavaWeb/前端/Vue.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Java的基础语法1",
       "path": "计算机/编程语言/Java/Java的基础语法1.md"
-    },
-    {
-      "basename": "类与对象",
-      "path": "计算机/编程语言/Java/类与对象.md"
     }
   ],
   "omittedPaths": [],
