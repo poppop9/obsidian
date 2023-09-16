@@ -11,7 +11,20 @@ Ajax是异步的JavaScript和XML。
 7. 由 JavaScript 执行正确的动作（比如更新页面）
 
 
+```
+Function loadDoc()
 
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+     document.getElementById("demo").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.send();
+}
+```
 
 
 
