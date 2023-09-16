@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "JavaScript",
+      "path": "计算机/JavaWeb/前端/JavaScript.md"
+    },
+    {
+      "basename": "移动开发考试复习",
+      "path": "考试/移动开发考试复习.md"
+    },
+    {
       "basename": "Ajax",
       "path": "计算机/JavaWeb/前端/Ajax.md"
+    },
+    {
+      "basename": "操作系统 Draw",
+      "path": "Excalidraw/计算机/四大件/操作系统 Draw.md"
     },
     {
       "basename": "Vue",
@@ -15,10 +27,6 @@
     {
       "basename": "HTML 5",
       "path": "计算机/JavaWeb/前端/HTML 5.md"
-    },
-    {
-      "basename": "JavaScript",
-      "path": "计算机/JavaWeb/前端/JavaScript.md"
     },
     {
       "basename": "JavaWeb",
@@ -103,10 +111,6 @@
     {
       "basename": "杭州",
       "path": "临时笔记/杭州.md"
-    },
-    {
-      "basename": "操作系统 Draw",
-      "path": "Excalidraw/计算机/四大件/操作系统 Draw.md"
     },
     {
       "basename": "虚拟化CPU",
@@ -195,10 +199,6 @@
     {
       "basename": "修饰符",
       "path": "计算机/编程语言/Java/修饰符.md"
-    },
-    {
-      "basename": "Java的基础语法1",
-      "path": "计算机/编程语言/Java/Java的基础语法1.md"
     }
   ],
   "omittedPaths": [],
