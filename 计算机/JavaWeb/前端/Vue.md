@@ -116,7 +116,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
             <span v-if="age<=35"><b>年轻人</b></span>
             <span v-else-if="age>35&&age<=60"><b>中年人</b></span>  //三个条件判断
             <span v-else="age>60"><b>老年人</b></span>
-        </p>
+        </p>             //三个span只渲染一个
     </div>
 </body>
 <script>
@@ -135,7 +135,42 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 ```
 ### v-show
 不管条件成立与否都渲染，只是不成立的使用`display`来将其不显示
+```html
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v-show</title>
+    <script src="JS/vue.js"></script>
+</head>
+
+<body>
+    <div id="age">
+        <p>
+            请输入你的年龄： <input type="text" v-model="age">
+        </p>
+
+        <p>
+            经判定你的年龄是：
+            <span v-show="age<=35"><b>年轻人</b></span>
+            <span v-show="age>35&&age<=60"><b>中年人</b></span>
+            <span v-show="age>60"><b>老年人</b></span>
+        </p>               //三个span都渲染，通过display来指定显不显示
+    </div>
+
+</body>
+<script>
+    new Vue({
+        el: "#age",
+        data: {
+            age: 0
+        }
+    })
+</script>
+</html>
+```
 
 
 ### v-for
