@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript.md",
+                "file": "临时笔记/穿搭.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript.md",
+                "file": "临时笔记/穿搭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -243,15 +243,15 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "0724022f55380538",
+  "active": "be9e9e338af27e52",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/JavaScript.md",
     "考试/移动开发考试复习.md",
     "计算机/JavaWeb/前端/Ajax.md",
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
     "计算机/JavaWeb/前端/Vue.md",
     "计算机/JavaWeb/前端/CSS.md",
     "计算机/JavaWeb/前端/HTML 5.md",
-    "计算机/JavaWeb/前端/JavaScript.md",
     "Excalidraw/计算机/JavaWeb.md",
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/穿搭.md",
