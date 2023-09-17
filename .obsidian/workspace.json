@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/计算机/JavaWeb.md",
+                "file": "计算机/JavaWeb/前端/Ajax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/计算机/JavaWeb.md",
+                "file": "计算机/JavaWeb/前端/Ajax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/计算机/JavaWeb.md"
+                "file": "计算机/JavaWeb/前端/Ajax.md"
               }
             }
           },
@@ -242,10 +242,10 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "a7f2bfbb57d3b8a4",
+  "active": "0724022f55380538",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/Ajax.md",
     "Excalidraw/计算机/JavaWeb.md",
+    "计算机/JavaWeb/前端/Ajax.md",
     "临时笔记/Obsidian特殊语法.md",
     "计算机/JavaWeb/前端/CSS.md",
     "计算机/JavaWeb/前端/JavaScript.md",
