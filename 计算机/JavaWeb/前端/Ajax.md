@@ -33,7 +33,8 @@ function loadDoc() {
   xhttp.send();
 }
 ```
-
+# Axios
+Axios 对原生的 Ajax 进行了封装，简化了书写
 
 
 
