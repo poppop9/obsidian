@@ -35,17 +35,36 @@ function loadDoc() {
 ```
 # Axios
 Axios 对原生的 Ajax 进行了封装，简化了书写
+```html
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axios</title>
+    <script src="JS/axios.js"></script>         <!--引入axios.js文件-->
+</head>
 
-- jklfjsdlkjfikljslk
-- fsd,fjkls
-	- lfdjslkjflk
-		- lfjdslklk
-			- lkfjsdlkjklf
-		- kldfjsklj
-- jflksjdkljkfl
-- adkjfcm,.x
-- rririirrr
+<body>
+    <input type="button" value="获取数据" onclick="get()">
+    <input type="button" value="提交数据" onclick="post()">
+</body>
+<script>
+    function get() {
+        axios.get("data.json").then(result => {
+            console.log(result.data);
+        })
+    }
+
+    function post() {
+        axios.post("http://127.0.0.1:10088", "id=1").then(result => {
+            console.log(result.data);
+        })
+    }
+</script>
+</html>
+```
 
 
 
