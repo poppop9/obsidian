@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
+      "basename": "Ajax",
+      "path": "计算机/JavaWeb/前端/Ajax.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "计算机/JavaWeb/前端/CSS.md"
     },
     {
       "basename": "JavaScript",
       "path": "计算机/JavaWeb/前端/JavaScript.md"
     },
     {
-      "basename": "移动开发考试复习",
-      "path": "考试/移动开发考试复习.md"
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
     },
     {
-      "basename": "Ajax",
-      "path": "计算机/JavaWeb/前端/Ajax.md"
+      "basename": "移动开发考试复习",
+      "path": "考试/移动开发考试复习.md"
     },
     {
       "basename": "操作系统 Draw",
@@ -23,10 +27,6 @@
     {
       "basename": "Vue",
       "path": "计算机/JavaWeb/前端/Vue.md"
-    },
-    {
-      "basename": "CSS",
-      "path": "计算机/JavaWeb/前端/CSS.md"
     },
     {
       "basename": "HTML 5",

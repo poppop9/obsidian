@@ -59,8 +59,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/前端/Ajax.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -135,8 +135,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "82e190d91877a96e",
@@ -171,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "计算机/JavaWeb/前端/Ajax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "计算机/JavaWeb/前端/Ajax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "计算机/JavaWeb/前端/Ajax.md"
               }
             }
           },
@@ -243,18 +242,18 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "be9e9e338af27e52",
+  "active": "0724022f55380538",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/JavaScript.md",
-    "考试/移动开发考试复习.md",
+    "计算机/JavaWeb/前端/CSS.md",
     "计算机/JavaWeb/前端/Ajax.md",
+    "计算机/JavaWeb/前端/JavaScript.md",
+    "临时笔记/穿搭.md",
+    "考试/移动开发考试复习.md",
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
     "计算机/JavaWeb/前端/Vue.md",
-    "计算机/JavaWeb/前端/CSS.md",
     "计算机/JavaWeb/前端/HTML 5.md",
     "Excalidraw/计算机/JavaWeb.md",
     "临时笔记/Obsidian特殊语法.md",
-    "临时笔记/穿搭.md",
     "临时笔记/MarkDown语法.md",
     "计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
