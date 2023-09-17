@@ -22,6 +22,10 @@ body ^k9OYgsnX
 
 外边距 ^7zelxtAp
 
+填写从哪里获取数据的URL ^DnSf29md
+
+then()方法用于处理异步操作的结果 ^tvelDmpt
+
 
 # Embedded files
 b058a56ee0dc39f760fa99ec8b82953ecd6bcb93: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230909160945.png
@@ -30,6 +34,7 @@ b058a56ee0dc39f760fa99ec8b82953ecd6bcb93: https://obsidian-1307744200.cos.ap-gua
 ac2bd99425f8fcf99e17c1d46239fd1b4a31d402: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230911113233.png
 e1c744cf41594fface80a7a74b3d072cc3c018a0: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230913151434.png
 f684fc18b95ca639af1ca004acb50f06dc668c7b: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230913155244.png
+7017bb16538fe76a0e14ab7d6e71d7c6a3119588: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230917201816.png
 
 %%
 # Drawing
@@ -857,6 +862,217 @@ f684fc18b95ca639af1ca004acb50f06dc668c7b: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"type": "image",
+			"version": 102,
+			"versionNonce": 602449026,
+			"isDeleted": false,
+			"id": "MCFLFBbf",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 155.48256846197296,
+			"y": -1582.706025422487,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 145.5357142857143,
+			"seed": 33395,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1694953131056,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "7017bb16538fe76a0e14ab7d6e71d7c6a3119588",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "hcVzIs_e3qFdBdlQY5fUn",
+			"type": "arrow",
+			"x": 377.54622502738994,
+			"y": -1544.4278365936261,
+			"width": 27.185770248647145,
+			"height": 44.800018310546875,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 111810782,
+			"version": 144,
+			"versionNonce": 71144734,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1694953173011,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					27.185770248647145,
+					-44.800018310546875
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "DnSf29md",
+				"focus": 0.8327514913513371,
+				"gap": 1.5999755859375
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "DnSf29md",
+			"type": "text",
+			"x": 398.34615178520244,
+			"y": -1618.8278304901105,
+			"width": 274.1666310628255,
+			"height": 28,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 565154946,
+			"version": 140,
+			"versionNonce": 1059152094,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "hcVzIs_e3qFdBdlQY5fUn",
+					"type": "arrow"
+				}
+			],
+			"updated": 1694953173011,
+			"link": null,
+			"locked": false,
+			"text": "填写从哪里获取数据的URL",
+			"rawText": "填写从哪里获取数据的URL",
+			"fontSize": 23.33333333333333,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 20.000000000000007,
+			"containerId": null,
+			"originalText": "填写从哪里获取数据的URL",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "-KzL5fXdzR31Ewwyg4VQ_",
+			"type": "arrow",
+			"x": 491.14620061332744,
+			"y": -1546.8278610076886,
+			"width": 201.60003662109375,
+			"height": 21.5999755859375,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1002246914,
+			"version": 73,
+			"versionNonce": 1056101342,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1694953245929,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					18.4000244140625,
+					-21.5999755859375
+				],
+				[
+					201.60003662109375,
+					-18.399993896484375
+				]
+			],
+			"lastCommittedPoint": [
+				201.60003662109375,
+				-18.399993896484375
+			],
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "tvelDmpt",
+			"type": "text",
+			"x": 658.9461884062962,
+			"y": -1501.227854904173,
+			"width": 315.77996826171875,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1400146050,
+			"version": 16,
+			"versionNonce": 485914718,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1694953254919,
+			"link": null,
+			"locked": false,
+			"text": "then()方法用于处理异步操作的结果",
+			"rawText": "then()方法用于处理异步操作的结果",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "then()方法用于处理异步操作的结果",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -874,10 +1090,10 @@ f684fc18b95ca639af1ca004acb50f06dc668c7b: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1091.1635731771494,
-		"scrollY": 2513.2304656429114,
+		"scrollX": 57.5538115937037,
+		"scrollY": 1881.5278503265363,
 		"zoom": {
-			"value": 0.65
+			"value": 1.0000000000000002
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

@@ -35,6 +35,10 @@ function loadDoc() {
 ```
 # Axios
 Axios 对原生的 Ajax 进行了封装，简化了书写
+### get请求
+![[Excalidraw/计算机/JavaWeb.md#^group=MCFLFBbf|500]]
+
+### post请求
 ```html
 <!DOCTYPE html>
 <html lang="en">
