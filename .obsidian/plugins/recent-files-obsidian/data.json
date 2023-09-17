@@ -9,6 +9,10 @@
       "path": "计算机/JavaWeb/前端/Ajax.md"
     },
     {
+      "basename": "Obsidian特殊语法",
+      "path": "临时笔记/Obsidian特殊语法.md"
+    },
+    {
       "basename": "CSS",
       "path": "计算机/JavaWeb/前端/CSS.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "HTML 5",
       "path": "计算机/JavaWeb/前端/HTML 5.md"
-    },
-    {
-      "basename": "Obsidian特殊语法",
-      "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
       "basename": "MarkDown语法",
