@@ -31,7 +31,7 @@ Axios 对原生的 Ajax 进行了封装，简化了书写
 
 ##### put
 
-### 示例1
+### 示例1 - 用get，post获取提交数据
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -62,7 +62,7 @@ Axios 对原生的 Ajax 进行了封装，简化了书写
 </script>
 </html>
 ```
-### 示例2
+### 示例2 - 用异步请求填充表格
 ```html
 <!DOCTYPE html>
 <html lang="en">
