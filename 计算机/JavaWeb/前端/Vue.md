@@ -259,6 +259,11 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
   - `node -v`
 - 配置npm的全局安装路径
   - 以管理员身份运行cmd
+  - 运行`npm config set prefix "安装目录"` 例如`npm config set prefix "D:\node.js"`。【成功不做任何操作】
+  - 验证是否设置成功`npm config get prefix`。【成功则返回Node.js安装目录】
+
+- 切换npm的淘宝镜像
+  - ``
 
 
 
