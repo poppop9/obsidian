@@ -262,12 +262,13 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
   - 运行`npm config set prefix "安装目录"` 例如`npm config set prefix "D:\node.js"`。【成功不做任何操作】
   - 验证是否设置成功`npm config get prefix`。【成功则返回Node.js安装目录】
 - 切换npm的淘宝镜像
-  - `npm config set registry https://registry.npm.taobao.org`。【成功不做ren'he】
+  - `npm config set registry https://registry.npm.taobao.org`。【成功不做任何操作】
 ### 安装Vue的脚手架工具 vue-cli
 - 在cmd中运行 `npm install -g @vue/cli`
 - 确认是否安装成功
-	- `vue --version`。【cheng】
-
+	- `vue --version`。【成功则返回版本号】
+### 创建Vue项目
+在cmd中输入`vue ui`
 
 
 
