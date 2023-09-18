@@ -288,9 +288,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 - `vue.config.js` vue的配置文件【端口】
 ### 启动Vue项目
 ![[Excalidraw/计算机/JavaWeb.md#^group=KQ8yyjCW|400]]
-
 ### 修改端口号
-
 ```js
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
