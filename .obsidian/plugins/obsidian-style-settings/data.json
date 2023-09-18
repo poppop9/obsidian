@@ -185,5 +185,6 @@
   "blue-topaz-theme@@blockquote-style-change-options": "blockquote-style-outline",
   "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": false,
   "blue-topaz-theme@@colorful-unordered-list": false,
-  "blue-topaz-theme@@unordered-list-style-options": "custom-unordered-list"
+  "blue-topaz-theme@@unordered-list-style-options": "custom-unordered-list",
+  "blue-topaz-theme@@accent-em@@light": "#000000"
 }
