@@ -254,8 +254,11 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 ### destroyed 销毁后
 # 脚手架
 ### 安装前端环境Node.js
-
-
+- 官网安装Node.js
+- 验证Node.js环境变量
+  - `node -v`
+- 配置npm的全局安装路径
+  - 以管理员身份运行cmd
 
 
 
