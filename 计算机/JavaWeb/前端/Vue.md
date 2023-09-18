@@ -270,8 +270,16 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 ### 创建Vue项目
 - 在cmd中输入`vue ui`
 - 在UI界面中创建项目
-
-
+### Vue项目的目录结构
+- `node_modules` 整个项目的依赖包
+- public
+- src
+- .gitignore
+- babel.config.js
+- jsconfig.json
+- package-lock.json
+- package.json
+- vue.config.js
 
 
 
