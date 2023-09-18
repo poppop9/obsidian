@@ -15,33 +15,21 @@ Ajax是异步的JavaScript和XML。
 # XMLHttpRequest
 >[!summary] 属性
 >***readyState***  保存 XMLHttpRequest 的状态【0：请求未初始化；1：服务器连接已建立；2：请求已收到；3：正在处理请求；4：请求已完成且响应已就绪】
+>
 >***status***  返回请求的状态号【200: "OK"；403: "Forbidden"；404: "Not Found"】
+>
 >***responseText***	以字符串形式返回响应数据
-
-
-```
-Function loadDoc()
-
-function loadDoc() {
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-     document.getElementById("demo").innerHTML = this.responseText;
-    }
-  };
-  xhttp.open("GET", "ajax_info.txt", true);
-  xhttp.send();
-}
-```
 # Axios
 Axios 对原生的 Ajax 进行了封装，简化了书写
-### get请求
-![[Excalidraw/计算机/JavaWeb.md#^group=MCFLFBbf|600]]
-### post请求
-![[Excalidraw/计算机/JavaWeb.md#^group=jnhZ6xju|600]]
-### delete
+### 方法
 
-### put
+##### get请求
+![[Excalidraw/计算机/JavaWeb.md#^group=MCFLFBbf|600]]
+##### post请求
+![[Excalidraw/计算机/JavaWeb.md#^group=jnhZ6xju|600]]
+##### delete
+
+##### put
 
 ### 示例1
 ```html
@@ -98,7 +86,7 @@ Axios 对原生的 Ajax 进行了封装，简化了书写
                 <th>性别</th>
                 <th>地址</th>
             </tr>
-            <tr v-for="(element, index) in arr" align="center">
+            <tr v-for="(element, index) in arr" align="center">  //数组元素为element
                 <td>{{index+1}}</td>
                 <td>{{element.name}}</td>
                 <td>{{element.age}}</td>
@@ -116,16 +104,26 @@ Axios 对原生的 Ajax 进行了封装，简化了书写
     new Vue({
         el: "#app",
         data: {
-            arr: []
+            arr: []  //定义了一个数组
         },
         mounted() {
             axios.get("data.json").then(result => {
-                this.arr = result.data.data; //result.data表示拿到了
-            })
+                this.arr = result.data.data; 
+            })          //result.data表示拿到了对象的数据，再加.data表示data键的值
         }
     })
 </script>
 </html>
+
+
+以下为data.json的结构
+{
+    "code": 1,
+    "msg": "success",
+    "data": [
+        {……},{……}
+    ]
+}
 ```
 
 
