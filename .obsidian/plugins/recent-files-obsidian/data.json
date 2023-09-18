@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Vue",
+      "path": "计算机/JavaWeb/前端/Vue.md"
+    },
+    {
       "basename": "Ajax",
       "path": "计算机/JavaWeb/前端/Ajax.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "操作系统 Draw",
       "path": "Excalidraw/计算机/四大件/操作系统 Draw.md"
-    },
-    {
-      "basename": "Vue",
-      "path": "计算机/JavaWeb/前端/Vue.md"
     },
     {
       "basename": "MarkDown语法",

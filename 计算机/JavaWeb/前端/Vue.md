@@ -252,6 +252,8 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 ### beforeDestroy 销毁前
 
 ### destroyed 销毁后
+# 脚手架
+### 安装前端环境Node.js
 
 
 
