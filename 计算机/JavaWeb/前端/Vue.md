@@ -268,8 +268,8 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 - 确认是否安装成功
 	- `vue --version`。【成功则返回版本号】
 ### 创建Vue项目
-在cmd中输入`vue ui`
-
+- 在cmd中输入`vue ui`
+- 在UI界面中创建项目
 
 
 
