@@ -43,6 +43,7 @@ Axios 对原生的 Ajax 进行了封装，简化了书写
 
 ### put
 
+### 示例1
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -73,7 +74,59 @@ Axios 对原生的 Ajax 进行了封装，简化了书写
 </script>
 </html>
 ```
+### 示例2
+```html
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axios案例</title>
+    <script src="JS/axios.js"></script>
+    <script src="JS/vue.js"></script>
+
+</head>
+
+<body>
+    <div id="app">
+        <table border="1px" cellspacing="0" width="300px">
+            <tr>
+                <th>编号</th>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+                <th>地址</th>
+            </tr>
+            <tr v-for="(element, index) in arr" align="center">
+                <td>{{index+1}}</td>
+                <td>{{element.name}}</td>
+                <td>{{element.age}}</td>
+                <td>
+                    <span v-if="element.gender==1">男</span>
+                    <span v-else="element.gender==2">女</span>
+                </td>
+                <td>{{element.address}}</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+<script>
+    new Vue({
+        el: "#app",
+        data: {
+            arr: []
+        },
+        mounted() {
+            axios.get("data.json").then(result => {
+                this.arr = result.data.data; //result.data表示拿到了
+            })
+        }
+    })
+</script>
+</html>
+```
 
 
 
