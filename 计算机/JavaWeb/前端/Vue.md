@@ -272,14 +272,20 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 - 在UI界面中创建项目
 ### Vue项目的目录结构
 - `node_modules` 整个项目的依赖包
-- public
-- src
-- .gitignore
-- babel.config.js
-- jsconfig.json
-- package-lock.json
-- package.json
-- vue.config.js
+- `public` 项目的静态文件
+- `src` 项目的源代码
+  - `assets` 静态资源
+  - `components` 可重用组件
+  - `router` 路由配置
+  - `views` 视图组件
+  - `App.vue` 入口页面【根组件】
+  - `main.js` 入口js文件
+- `.gitignore`
+- `babel.config.js`
+- `jsconfig.json`
+- `package-lock.json`
+- `package.json` 基本信息，版本信息
+- `vue.config.js` vue的配置文件
 
 
 
