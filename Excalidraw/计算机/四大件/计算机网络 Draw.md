@@ -39,6 +39,8 @@ URL的父集 ^AcYSRz7k
 
 对互联网开放的公司设备 ^F17QHjo7
 
+地址转换设备【不仅有路由器，还可以是防火墙】 ^dABIdJKH
+
 
 # Embedded files
 f3d06f0a199622487ca1712195c63f18bf57e8d1: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/72FF0A287DEBEA9FBFCA9502088206F5.png
@@ -2306,8 +2308,8 @@ ef24d066ae3854b88f6e48c99cc42ed9665acf19: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 214,
-			"versionNonce": 1336876546,
+			"version": 215,
+			"versionNonce": 300690370,
 			"isDeleted": false,
 			"id": "QtLJGGck72TkYMx26gKKK",
 			"fillStyle": "hachure",
@@ -2331,7 +2333,7 @@ ef24d066ae3854b88f6e48c99cc42ed9665acf19: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1695135553742,
+			"updated": 1695135801136,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2439,8 +2441,8 @@ ef24d066ae3854b88f6e48c99cc42ed9665acf19: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 26,
-			"versionNonce": 538703234,
+			"version": 27,
+			"versionNonce": 2128190658,
 			"isDeleted": false,
 			"id": "OyGYltBf",
 			"fillStyle": "hachure",
@@ -2456,11 +2458,13 @@ ef24d066ae3854b88f6e48c99cc42ed9665acf19: https://obsidian-1307744200.cos.ap-gua
 			"width": 500.00000000000006,
 			"height": 264.359351988218,
 			"seed": 20751,
-			"groupIds": [],
+			"groupIds": [
+				"1A2usetFMpm4Cmz8kCBsV"
+			],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1695135686304,
+			"updated": 1695135799416,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -2469,6 +2473,135 @@ ef24d066ae3854b88f6e48c99cc42ed9665acf19: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"type": "arrow",
+			"version": 73,
+			"versionNonce": 2066969566,
+			"isDeleted": false,
+			"id": "TjVI5WAghKLWr0q7wJkFu",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 767.5150549553778,
+			"y": 3305.428347320997,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 3.904957656960505,
+			"height": 55.01811822346281,
+			"seed": 1188154398,
+			"groupIds": [
+				"1A2usetFMpm4Cmz8kCBsV"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1695135933683,
+			"link": null,
+			"locked": false,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "HKcKGzZyymT0zFlKoNRC_",
+				"focus": -0.13047145657629308,
+				"gap": 5.947929201955958
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					3.904957656960505,
+					55.01811822346281
+				]
+			]
+		},
+		{
+			"type": "rectangle",
+			"version": 151,
+			"versionNonce": 1758246018,
+			"isDeleted": false,
+			"id": "HKcKGzZyymT0zFlKoNRC_",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 692.3997544158972,
+			"y": 3366.394394746416,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 189,
+			"height": 68,
+			"seed": 804890014,
+			"groupIds": [
+				"1A2usetFMpm4Cmz8kCBsV"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "dABIdJKH"
+				},
+				{
+					"id": "TjVI5WAghKLWr0q7wJkFu",
+					"type": "arrow"
+				}
+			],
+			"updated": 1695135799417,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 210,
+			"versionNonce": 1592282270,
+			"isDeleted": false,
+			"id": "dABIdJKH",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 698.8917588104284,
+			"y": 3381.194394746416,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 176.0159912109375,
+			"height": 38.4,
+			"seed": 1792125854,
+			"groupIds": [
+				"1A2usetFMpm4Cmz8kCBsV"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1695135799417,
+			"link": null,
+			"locked": false,
+			"fontSize": 16,
+			"fontFamily": 4,
+			"text": "地址转换设备【不仅有路\n由器，还可以是防火墙】",
+			"rawText": "地址转换设备【不仅有路由器，还可以是防火墙】",
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "HKcKGzZyymT0zFlKoNRC_",
+			"originalText": "地址转换设备【不仅有路由器，还可以是防火墙】",
+			"lineHeight": 1.2,
+			"baseline": 33
 		}
 	],
 	"appState": {
@@ -2486,10 +2619,10 @@ ef24d066ae3854b88f6e48c99cc42ed9665acf19: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 251.36504771743438,
-		"scrollY": -2880.3830458261505,
+		"scrollX": -385.4549635327653,
+		"scrollY": -2900.5060342018237,
 		"zoom": {
-			"value": 0.7681830004156358
+			"value": 1.0760088421963943
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
