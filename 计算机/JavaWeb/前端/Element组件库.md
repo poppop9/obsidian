@@ -21,8 +21,8 @@
 	<script>
 	import ElementView from "./views/Element/vue_1.vue";  //导入刚刚创建的vue文件
 	export default {
-	  components: {
-	    ElementView,   //声明
+	  components: {        //声明
+	    ElementView,   
 	  },
 	  data() {
 	    return {
