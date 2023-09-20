@@ -127,7 +127,30 @@ export default {
 </template>
 ```
 ##### 事件
+```pagination_1.vue
+<template>
+    <div>
+        <el-pagination background layout="prev, pager, next" :total="1000" @size-change="handleSizeChange" @current-change="handleCurrentChange" />  //绑定两个事件
+    </div>
+</template>
 
+<script>
+export default {
+    data() {
+        return {
+        }
+    },
+    methods: {  //定义两个事件的触发方法
+        handleSizeChange(val) {         //val是一个回调参数，表示每页条数
+            console.log("每页" + val + "条");
+        },
+        handleCurrentChange(val) {       //val是一个回调参数，表示当前页码
+            console.log("当前为" + val + "页");
+        }
+    }
+}
+</script>
+```
 
 
 
