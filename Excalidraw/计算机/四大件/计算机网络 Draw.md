@@ -75,6 +75,7 @@ ef24d066ae3854b88f6e48c99cc42ed9665acf19: https://obsidian-1307744200.cos.ap-gua
 165feccd210470dd9fda57cd7a3f0d7f6673fb8a: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230914161934.png
 27a64f125b8c77e3adb003e2071da1879773442c: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230919224431.png
 7cccd3152ab88dd17341a945b58ca6d464988fa5: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230919230120.png
+b9f703e752bc0e1237fb6dff0326b15275dd256e: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230920232009.png
 
 %%
 # Drawing
@@ -2476,8 +2477,8 @@ ef24d066ae3854b88f6e48c99cc42ed9665acf19: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 159,
-			"versionNonce": 1975466498,
+			"version": 167,
+			"versionNonce": 97881438,
 			"isDeleted": false,
 			"id": "TjVI5WAghKLWr0q7wJkFu",
 			"fillStyle": "hachure",
@@ -2501,7 +2502,7 @@ ef24d066ae3854b88f6e48c99cc42ed9665acf19: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1695222872445,
+			"updated": 1695223114719,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2602,6 +2603,39 @@ ef24d066ae3854b88f6e48c99cc42ed9665acf19: https://obsidian-1307744200.cos.ap-gua
 			"originalText": "地址转换设备【不仅有路由器，还可以是防火墙】",
 			"lineHeight": 1.2,
 			"baseline": 33
+		},
+		{
+			"type": "image",
+			"version": 25,
+			"versionNonce": 379414558,
+			"isDeleted": false,
+			"id": "MNeHtc1S",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -83.59529234237277,
+			"y": 3566.105739282575,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 234.77297895902547,
+			"seed": 27636,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1695223219159,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "b9f703e752bc0e1237fb6dff0326b15275dd256e",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -2619,8 +2653,8 @@ ef24d066ae3854b88f6e48c99cc42ed9665acf19: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -385.4549635327653,
-		"scrollY": -2900.5060342018237,
+		"scrollX": 311.5653309000096,
+		"scrollY": -3249.016181418211,
 		"zoom": {
 			"value": 1.0760088421963943
 		},
