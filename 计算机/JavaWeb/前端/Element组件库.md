@@ -57,8 +57,68 @@
 	```
 # 常用组件
 ### 表格
+```table_1.vue
+<template>
+    <div>
+        <el-table :data="tableData" style="width: 100%">
+            <el-table-column prop="date" label="日期" width="180">
+            </el-table-column>
+            <el-table-column prop="name" label="姓名" width="180">
+            </el-table-column>
+            <el-table-column prop="address" label="地址">
+            </el-table-column>
+        </el-table>
+    </div>
+</template>
 
+<script>
+export default {
+    data() {
+        return {
+            tableData: [{          
+                date: '2016-05-02',
+                name: '王小虎',
+                address: '上海市普陀区金沙江路 1518 弄'
+            }, {
+                date: '2016-05-04',
+                name: '王小虎',
+                address: '上海市普陀区金沙江路 1517 弄'
+            }, {
+                date: '2016-05-01',
+                name: '王小虎',
+                address: '上海市普陀区金沙江路 1519 弄'
+            }, {
+                date: '2016-05-03',
+                name: '王小虎',
+                address: '上海市普陀区金沙江路 1516 弄'
+            }]
+        }
+    }
+}
+</script>
+```
+```App.vue
+<template>
+  <div id="app">
+    <vue_1Vue />
+    <table_1Vue />      //声明
+  </div>
+</template>
 
+<script>
+import vue_1Vue from "./views/Element/vue_1.vue";
+import table_1Vue from "./views/Element/table_1.vue";    //导入
+
+export default {
+  components: {
+    vue_1Vue, table_1Vue       //导入
+  }
+};
+</script>
+
+<style></style>
+```
+### 分页
 
 
 
