@@ -119,7 +119,14 @@ export default {
 <style></style>
 ```
 ### 分页
-
+```pagination_1.vue
+<template>
+    <div>
+        <el-pagination background layout="prev, pager, next" :total="1000" />
+    </div>
+</template>
+```
+##### 事件
 
 
 
