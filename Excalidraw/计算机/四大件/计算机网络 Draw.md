@@ -47,6 +47,12 @@ URL的父集 ^AcYSRz7k
 
 隧道 ^XrhJUUkK
 
+室内电话线 ^s8IJtfdM
+
+外部电话线 ^3t8IG4xl
+
+电话局的电话电缆 ^uRf5REDi
+
 
 # Embedded files
 f3d06f0a199622487ca1712195c63f18bf57e8d1: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/72FF0A287DEBEA9FBFCA9502088206F5.png
@@ -3030,8 +3036,8 @@ dcda3aabd019c0786eed37b5d1a0748ee47f2d58: https://obsidian-1307744200.cos.ap-gua
 				"type": 3
 			},
 			"seed": 1953396510,
-			"version": 150,
-			"versionNonce": 2073221598,
+			"version": 151,
+			"versionNonce": 1823325854,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -3041,9 +3047,13 @@ dcda3aabd019c0786eed37b5d1a0748ee47f2d58: https://obsidian-1307744200.cos.ap-gua
 				{
 					"id": "lDSYTrLsFkejiy_akpxPs",
 					"type": "arrow"
+				},
+				{
+					"id": "qiGITENW30qQtejXz6qKg",
+					"type": "arrow"
 				}
 			],
-			"updated": 1695255587848,
+			"updated": 1695264446571,
 			"link": null,
 			"locked": false
 		},
@@ -3173,6 +3183,395 @@ dcda3aabd019c0786eed37b5d1a0748ee47f2d58: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "隧道",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "qiGITENW30qQtejXz6qKg",
+			"type": "arrow",
+			"x": 479.20442294074746,
+			"y": 4226.209696461646,
+			"width": 49.5848699782656,
+			"height": 14.94338440806132,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1560714242,
+			"version": 72,
+			"versionNonce": 317845534,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695264457274,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					49.5848699782656,
+					14.94338440806132
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "abocY8Q6sH6-AQhc6rXPC",
+				"focus": -0.13378364903309795,
+				"gap": 9.075219697027933
+			},
+			"endBinding": {
+				"elementId": "2SVjF8AXqUvDDsd-kc2Dx",
+				"focus": -0.07888382473026664,
+				"gap": 4.566096492906013
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "2SVjF8AXqUvDDsd-kc2Dx",
+			"type": "rectangle",
+			"x": 533.3553894119191,
+			"y": 4239.115352521135,
+			"width": 92,
+			"height": 30,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 66599646,
+			"version": 97,
+			"versionNonce": 1189730370,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "s8IJtfdM"
+				},
+				{
+					"id": "qiGITENW30qQtejXz6qKg",
+					"type": "arrow"
+				},
+				{
+					"id": "EYVrbK7W56_AbfdvSvL7g",
+					"type": "arrow"
+				}
+			],
+			"updated": 1695264461044,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "s8IJtfdM",
+			"type": "text",
+			"x": 539.339390571587,
+			"y": 4244.515352521134,
+			"width": 80.03199768066406,
+			"height": 19.2,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1896727198,
+			"version": 162,
+			"versionNonce": 1900089666,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695264457045,
+			"link": null,
+			"locked": false,
+			"text": "室内电话线",
+			"rawText": "室内电话线",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 14,
+			"containerId": "2SVjF8AXqUvDDsd-kc2Dx",
+			"originalText": "室内电话线",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "EYVrbK7W56_AbfdvSvL7g",
+			"type": "arrow",
+			"x": 564.891025156707,
+			"y": 4277.153034731544,
+			"width": 32.73968636010022,
+			"height": 41.669826548775745,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1244594334,
+			"version": 130,
+			"versionNonce": 494966750,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695264499798,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-32.73968636010022,
+					41.669826548775745
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "2SVjF8AXqUvDDsd-kc2Dx",
+				"focus": -0.06296663738838938,
+				"gap": 8.037682210409002
+			},
+			"endBinding": {
+				"elementId": "WYUm65y4yBGuZdb1ZhY4K",
+				"focus": 0.5016324504207363,
+				"gap": 1.1225724157156094
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "WYUm65y4yBGuZdb1ZhY4K",
+			"type": "rectangle",
+			"x": 444.4969198656441,
+			"y": 4319.945433696035,
+			"width": 92,
+			"height": 30,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1246330882,
+			"version": 148,
+			"versionNonce": 102033694,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "3t8IG4xl"
+				},
+				{
+					"id": "EYVrbK7W56_AbfdvSvL7g",
+					"type": "arrow"
+				},
+				{
+					"id": "bzvMJb-3jN3G2QUW-Ovy2",
+					"type": "arrow"
+				}
+			],
+			"updated": 1695264499697,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "3t8IG4xl",
+			"type": "text",
+			"x": 450.4969198656441,
+			"y": 4325.345433696035,
+			"width": 80,
+			"height": 19.2,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 2100485314,
+			"version": 143,
+			"versionNonce": 1813386590,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695264499697,
+			"link": null,
+			"locked": false,
+			"text": "外部电话线",
+			"rawText": "外部电话线",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 14,
+			"containerId": "WYUm65y4yBGuZdb1ZhY4K",
+			"originalText": "外部电话线",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "bzvMJb-3jN3G2QUW-Ovy2",
+			"type": "arrow",
+			"x": 437.7580739637349,
+			"y": 4355.548859912364,
+			"width": 31.22736994403334,
+			"height": 31.64181657550853,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 720238686,
+			"version": 194,
+			"versionNonce": 1401337950,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695264499798,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-31.22736994403334,
+					31.64181657550853
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "WYUm65y4yBGuZdb1ZhY4K",
+				"focus": 0.5328918433921903,
+				"gap": 8.764155946325701
+			},
+			"endBinding": {
+				"elementId": "Cr2gvkVTxvF77wE0BPW0O",
+				"focus": -0.10604165803901762,
+				"gap": 7.471679248468718
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "Cr2gvkVTxvF77wE0BPW0O",
+			"type": "rectangle",
+			"x": 323.34606715248003,
+			"y": 4394.662355736341,
+			"width": 140,
+			"height": 30,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 702095426,
+			"version": 186,
+			"versionNonce": 1942450398,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "uRf5REDi"
+				},
+				{
+					"id": "bzvMJb-3jN3G2QUW-Ovy2",
+					"type": "arrow"
+				}
+			],
+			"updated": 1695264497608,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "uRf5REDi",
+			"type": "text",
+			"x": 329.34606715248003,
+			"y": 4400.062355736341,
+			"width": 128,
+			"height": 19.2,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1887610754,
+			"version": 196,
+			"versionNonce": 1503765790,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695264497608,
+			"link": null,
+			"locked": false,
+			"text": "电话局的电话电缆",
+			"rawText": "电话局的电话电缆",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 14,
+			"containerId": "Cr2gvkVTxvF77wE0BPW0O",
+			"originalText": "电话局的电话电缆",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -3190,8 +3589,8 @@ dcda3aabd019c0786eed37b5d1a0748ee47f2d58: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 395.1106201163919,
-		"scrollY": -4202.648396034038,
+		"scrollX": 126.59677465213326,
+		"scrollY": -3961.7288587993066,
 		"zoom": {
 			"value": 1.1777791176957966
 		},
