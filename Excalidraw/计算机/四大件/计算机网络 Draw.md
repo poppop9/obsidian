@@ -41,6 +41,10 @@ URL的父集 ^AcYSRz7k
 
 地址转换设备【不仅有路由器，还可以是防火墙】 ^dABIdJKH
 
+电话机 ^9iuPipSB
+
+用户端分离器 ^G9JLKSRc
+
 
 # Embedded files
 f3d06f0a199622487ca1712195c63f18bf57e8d1: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/72FF0A287DEBEA9FBFCA9502088206F5.png
@@ -2746,6 +2750,337 @@ dcda3aabd019c0786eed37b5d1a0748ee47f2d58: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"id": "mBixkc8z46CZEcVaBDRWh",
+			"type": "arrow",
+			"x": 31.50735870128286,
+			"y": 4299.217274859741,
+			"width": 293.15732666763586,
+			"height": 38.49148048981624,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 595652446,
+			"version": 71,
+			"versionNonce": 2126969922,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695255442008,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					293.15732666763586,
+					-38.49148048981624
+				]
+			],
+			"lastCommittedPoint": [
+				293.15732666763586,
+				-38.49148048981624
+			],
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "3cu2yW_5Q06R_k682BzJP",
+			"type": "arrow",
+			"x": 336.24664630777494,
+			"y": 4187.913822822888,
+			"width": 7.7399796448380584,
+			"height": 70.25503038662737,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 302989662,
+			"version": 29,
+			"versionNonce": 853683422,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695255488940,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-7.7399796448380584,
+					70.25503038662737
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "zHzF9ygyM7qe_KqFdzlpZ",
+				"focus": 0.026937118975909825,
+				"gap": 4.336735991027126
+			},
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "zHzF9ygyM7qe_KqFdzlpZ",
+			"type": "rectangle",
+			"x": 306.3104095824337,
+			"y": 4153.5770868318605,
+			"width": 66,
+			"height": 30,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1158036674,
+			"version": 125,
+			"versionNonce": 1577378078,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "9iuPipSB"
+				},
+				{
+					"id": "3cu2yW_5Q06R_k682BzJP",
+					"type": "arrow"
+				}
+			],
+			"updated": 1695255488940,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "9iuPipSB",
+			"type": "text",
+			"x": 315.3104095824337,
+			"y": 4158.97708683186,
+			"width": 48,
+			"height": 19.2,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 842262786,
+			"version": 146,
+			"versionNonce": 243716226,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695255488528,
+			"link": null,
+			"locked": false,
+			"text": "电话机",
+			"rawText": "电话机",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 14,
+			"containerId": "zHzF9ygyM7qe_KqFdzlpZ",
+			"originalText": "电话机",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "S8S0_SQmSkp6r6XUtm3Ki",
+			"type": "ellipse",
+			"x": 314.8129159227048,
+			"y": 4246.261220170696,
+			"width": 28.57829203875508,
+			"height": 31.555245722474865,
+			"angle": 0,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1384218498,
+			"version": 37,
+			"versionNonce": 205947614,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "lDSYTrLsFkejiy_akpxPs",
+					"type": "arrow"
+				}
+			],
+			"updated": 1695255545443,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "lDSYTrLsFkejiy_akpxPs",
+			"type": "arrow",
+			"x": 353.39368976410924,
+			"y": 4258.403975586425,
+			"width": 49.53572881545796,
+			"height": 30.76563346517105,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1498678850,
+			"version": 206,
+			"versionNonce": 1315798686,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695255587848,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					49.53572881545796,
+					-30.76563346517105
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "S8S0_SQmSkp6r6XUtm3Ki",
+				"gap": 10.243018525072747,
+				"focus": 0.6290745964210599
+			},
+			"endBinding": {
+				"elementId": "abocY8Q6sH6-AQhc6rXPC",
+				"gap": 5.199784664152332,
+				"focus": 0.3086477539306808
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "abocY8Q6sH6-AQhc6rXPC",
+			"type": "rectangle",
+			"x": 408.12920324371953,
+			"y": 4194.159802323636,
+			"width": 62,
+			"height": 49,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1953396510,
+			"version": 150,
+			"versionNonce": 2073221598,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "G9JLKSRc"
+				},
+				{
+					"id": "lDSYTrLsFkejiy_akpxPs",
+					"type": "arrow"
+				}
+			],
+			"updated": 1695255587848,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "G9JLKSRc",
+			"type": "text",
+			"x": 415.12920324371953,
+			"y": 4199.459802323636,
+			"width": 48,
+			"height": 38.4,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1777960542,
+			"version": 162,
+			"versionNonce": 102231582,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695255587848,
+			"link": null,
+			"locked": false,
+			"text": "用户端\n分离器",
+			"rawText": "用户端分离器",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 33,
+			"containerId": "abocY8Q6sH6-AQhc6rXPC",
+			"originalText": "用户端分离器",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -2763,10 +3098,10 @@ dcda3aabd019c0786eed37b5d1a0748ee47f2d58: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 708.7553964063133,
-		"scrollY": -3705.4864366295706,
+		"scrollX": 32.815573358709905,
+		"scrollY": -4020.983695566753,
 		"zoom": {
-			"value": 0.5977380831536783
+			"value": 1.3436759386051458
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
