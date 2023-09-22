@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Ajax",
+      "path": "计算机/JavaWeb/前端/Ajax.md"
+    },
+    {
       "basename": "Element组件库",
       "path": "计算机/JavaWeb/前端/Element组件库.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "计算机网络 Draw",
       "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
-    },
-    {
-      "basename": "Ajax",
-      "path": "计算机/JavaWeb/前端/Ajax.md"
     },
     {
       "basename": "HTML 5",
