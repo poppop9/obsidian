@@ -56,6 +56,8 @@
 	<style></style>
 	```
 # 常用组件
+### Container 布局容器
+
 ### 表格
 ```table_1.vue
 <template>
