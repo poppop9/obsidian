@@ -394,6 +394,12 @@ export default {
 ***dist文件夹就是打包后的文件***
 ### 部署
 - 在nginx网站`https://nginx.org/en/download.html`下载稳定版
+- 将打包好的`dist`下面的内容放置到`html`文件夹中
+- 运行nginx
+	- 默认端口号为80，如果端口被占用则在`conf`文件夹下的`nginx.conf`中的`listen 80;`处修改端口号
+- 如果在任务管理器中查看到nginx已经启动了，那就表示已经部署成功
+- 可以在浏览器输入`localhost:端口号`
+
 - 介绍nginx的安装目录
 	- `conf` 配置文件
 	- `contrib` 
@@ -401,12 +407,6 @@ export default {
 	- `html` 静态资源文件【放置打包好的文件】
 	- `logs` 日志文件
 	- `temp` 临时文件
-- 将打包好的`dist`下面的内容放置到`html`文件夹中
-- 运行nginx
-	- 默认端口号为80，如果端口被占用则在`conf`文件夹下的`nginx.conf`修改端口号
-	- `listen80;`
-
-
 
 
 
