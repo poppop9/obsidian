@@ -36,27 +36,27 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 		  -->
 		  <localRepository>D:\apache-maven-3.8.8\mvn_repo</localRepository> //添加这行
 		```
-- 配置阿里云私服
-```xml
-  <mirrors>
-    <mirror>
-      <id>maven-default-http-blocker</id>
-      <mirrorOf>external:http:*</mirrorOf>
-      <name>Pseudo repository to mirror external repositories initially using HTTP.</name>
-      <url>http://0.0.0.0/</url>
-      <blocked>true</blocked>
-    </mirror>
-  	 
-<!--添加阿里云镜像-->
-    <mirror>
-      <id>alimaven</id>
-      <mirrorOf>central</mirrorOf>
-      <name>Nexus aliyun</name>
-      <url>http://maven.aliyun.com/nexus/content/groups/public</url>
-     </mirror>
-<!--          -->
-  </mirrors>
-```
+- 在`conf`文件夹下的`setting.xml`中配置阿里云私服
+	```xml
+	  <mirrors>
+	    <mirror>
+	      <id>maven-default-http-blocker</id>
+	      <mirrorOf>external:http:*</mirrorOf>
+	      <name>Pseudo repository to mirror external repositories initially using HTTP.</name>
+	      <url>http://0.0.0.0/</url>
+	      <blocked>true</blocked>
+	    </mirror>
+	  	 
+	<!--添加阿里云镜像-->
+	    <mirror>
+	      <id>alimaven</id>
+	      <name>aliyun maven</name>
+	      <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+		  <mirrorOf>central</mirrorOf>
+	    </mirror>
+	<!--          -->
+	  </mirrors>
+	```
 - 配置环境变量
 
 ### Maven目录结构
