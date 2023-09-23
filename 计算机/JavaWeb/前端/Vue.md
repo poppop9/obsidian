@@ -336,11 +336,10 @@ import AppView from '../App.vue'
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
+  {
+    path: '/',
+    redirect: '/staff'  //使用重定向，表示访问根目录时，把页面交给/staff
+  },
   {
     path: '/staff',      //表示URL路径名
     name: 'staff',       //表示路由名
@@ -353,7 +352,15 @@ const routes = [
   }
 ]
 ```
-
+##### 在片段组件中定义\<router-link\>
+```vue
+	<el-menu-item index="1-1">
+		<router-link to="/staff">员工页面</router-link>
+	</el-menu-item>
+	<el-menu-item index="1-2">
+		<router-link to="/form_1">表单页面</router-link>
+	</el-menu-item>
+```
 ### VueRouter
 >VueRouter是路由器类，里面维护了一张路由表【记录了URL的哈希片段与组件的对应关系】。它可以根据路由请求在路由视图中渲染出对应的组件
 ### \<router-link\>
