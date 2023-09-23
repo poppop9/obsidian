@@ -393,9 +393,14 @@ export default {
 
 ***dist文件夹就是打包后的文件***
 ### 部署
-
-
-
+- 在nginx网站`https://nginx.org/en/download.html`下载稳定版
+- 介绍nginx的安装目录
+	- `conf` 配置文件
+	- `contrib` 
+	- `docs`
+	- `html` 静态资源文件【】
+	- `logs` 日志文件
+	- `temp` 临时文件
 
 
 
