@@ -391,6 +391,9 @@ export default {
 ![[Excalidraw/计算机/JavaWeb.md#^group=2bfxmrHr]]
 - 打包好的文件会出现在`dist`文件夹下
 
+***dist文件夹就是打包后的文件***
+### 部署
+
 
 
 
