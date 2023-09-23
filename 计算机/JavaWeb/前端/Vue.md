@@ -324,6 +324,35 @@ module.exports = defineConfig({
 - 在安装Vue脚手架时勾选即可
 - 如果没有勾选，则运行`npm install vue-router@3.5.1`
 ##### 定义路由表
+- 在`router`文件夹下的`index.js`文件中定义
+```js
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+import HomeView from '../views/HomeView.vue'
+import StaffView from '../views/root/StaffView.vue'
+import AppView from '../App.vue'
+
+Vue.use(VueRouter)
+
+const routes = [
+  {
+    path: '/',
+    name: 'home',
+    component: HomeView
+  },
+  {
+    path: '/staff',      //表示
+    name: 'staff',
+    component: StaffView
+  },
+  {
+    path: '/app',
+    name: 'app',
+    component: AppView
+  }
+]
+```
 
 ### VueRouter
 >VueRouter是路由器类，里面维护了一张路由表【记录了URL的哈希片段与组件的对应关系】。它可以根据路由请求在路由视图中渲染出对应的组件
