@@ -323,16 +323,13 @@ module.exports = defineConfig({
 ##### 安装Vue Router
 - 在安装Vue脚手架时勾选即可
 - 如果没有勾选，则运行`npm install vue-router@3.5.1`
-### VueRouter
+### 三大核心
+##### VueRouter
 >VueRouter是路由器类，里面维护了一张路由表【记录了URL的哈希片段与组件的对应关系】。它可以根据路由请求在路由视图中渲染出对应的组件
-### \<router-link\>
+##### \<router-link\>
 >\<router-link\>是请求链接组件。它可以指定我们要访问的URL哈希片段
-### \<router-view\>
+##### \<router-view\>
 >\<router-view\>是动态视图组件。在想要展示组件的地方放置标签即可
-
-
-
-
 ### 具体操作
 ##### 定义路由表
 - 在`router`文件夹下的`index.js`文件中定义
@@ -341,8 +338,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import HomeView from '../views/HomeView.vue'
-import StaffView from '../views/root/StaffView.vue'  //导入组件
-import AppView from '../App.vue'
+import StaffView from '../views/root/StaffView.vue'   //导入组件
+import form_1View from '../views/Element/form_1.vue'
 
 Vue.use(VueRouter)
 
@@ -356,14 +353,14 @@ const routes = [
     name: 'staff',       //表示路由名
     component: StaffView     //表示上面导入的StaffView视图组件
   },
-  {
-    path: '/app',
-    name: 'app',
-    component: AppView
-  }
+  {
+    path: '/form_1',
+    name: 'form_1',
+    component: form_1View
+  }
 ]
 ```
-##### 在片段组件中定义\<router-link\>
+##### 在组件中定义\<router-link\>
 ```vue
 <el-menu-item index="1-1">
 	<router-link to="/staff">员工页面</router-link>  //点击则跳转到/staff页面
@@ -388,7 +385,11 @@ export default {
 
 <style></style>
 ```
-
+# 打包部署
+### 打包
+- 运行npm脚本中的`build`
+![[Excalidraw/计算机/JavaWeb.md#^group=2bfxmrHr]]
+- 打包好的文件会出现在`dist`文件夹下
 
 
 

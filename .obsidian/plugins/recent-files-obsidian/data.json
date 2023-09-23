@@ -5,12 +5,12 @@
       "path": "计算机/JavaWeb/前端/Vue.md"
     },
     {
-      "basename": "Ajax",
-      "path": "计算机/JavaWeb/前端/Ajax.md"
-    },
-    {
       "basename": "JavaWeb",
       "path": "Excalidraw/计算机/JavaWeb.md"
+    },
+    {
+      "basename": "Ajax",
+      "path": "计算机/JavaWeb/前端/Ajax.md"
     },
     {
       "basename": "Mac软件",
