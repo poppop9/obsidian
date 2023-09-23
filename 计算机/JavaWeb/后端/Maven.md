@@ -26,8 +26,37 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 - 解压`apache-maven-3.8.8-bin,zip`
 - 配置本地仓库
 	- 在Maven根目录下新建`mvn_repo文件夹`来当作本地仓库
-	- 在`conf`文件夹下的`setting.xml`中添加本地仓库
+	- 在`conf`文件夹下的`setting.xml`中添加一行本地仓库路径
+		```xml
+		  <!-- localRepository
+		   | The path to the local repository maven will use to store artifacts.
+		   |
+		   | Default: ${user.home}/.m2/repository
+		  <localRepository>/path/to/local/repo</localRepository>
+		  -->
+		  <localRepository>D:\apache-maven-3.8.8\mvn_repo</localRepository> //添加这行
+		```
 - 配置阿里云私服
+```xml
+  <mirrors>
+    <mirror>
+      <id>maven-default-http-blocker</id>
+      <mirrorOf>external:http:*</mirrorOf>
+      <name>Pseudo repository to mirror external repositories initially using HTTP.</name>
+      <url>http://0.0.0.0/</url>
+      <blocked>true</blocked>
+    </mirror>
+  	 
+<!--添加阿里云镜像-->
+    <mirror>
+      <id>alimaven</id>
+      <mirrorOf>central</mirrorOf>
+      <name>Nexus aliyun</name>
+      <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+     </mirror>
+<!--          -->
+  </mirrors>
+```
 - 配置环境变量
 
 ### Maven目录结构
