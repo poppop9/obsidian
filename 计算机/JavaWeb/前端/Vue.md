@@ -330,7 +330,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import HomeView from '../views/HomeView.vue'
-import StaffView from '../views/root/StaffView.vue'
+import StaffView from '../views/root/StaffView.vue'  //导入组件
 import AppView from '../App.vue'
 
 Vue.use(VueRouter)
@@ -342,9 +342,9 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/staff',      //表示
-    name: 'staff',
-    component: StaffView
+    path: '/staff',      //表示URL路径名
+    name: 'staff',       //表示路由名
+    component: StaffView     //表示上面导入的StaffView视图组件
   },
   {
     path: '/app',
