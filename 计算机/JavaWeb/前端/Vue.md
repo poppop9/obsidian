@@ -398,9 +398,13 @@ export default {
 	- `conf` 配置文件
 	- `contrib` 
 	- `docs`
-	- `html` 静态资源文件【】
+	- `html` 静态资源文件【放置打包好的文件】
 	- `logs` 日志文件
 	- `temp` 临时文件
+- 将打包好的`dist`下面的内容放置到`html`文件夹中
+- 运行nginx
+	- 默认端口号为80，如果端口被占用则在`conf`文件夹下的`nginx.conf`修改端口号
+	- `listen80;`
 
 
 
