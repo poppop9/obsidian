@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
       "basename": "Vue",
       "path": "计算机/JavaWeb/前端/Vue.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot.md"
-    },
-    {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "idea",
