@@ -319,12 +319,16 @@ module.exports = defineConfig({
 ```
 # Vue路由
 >Vue路由可以使用户在应用程序中进行导航时，可以根据URL路径加载相应的组件
+### 安装Vue Router
+- 在安装Vue脚手架时勾选即可
+- 如果
+
 ### VueRouter
-
+>VueRouter是路由器类，里面维护了一张路由表【记录了URL的哈希片段与组件的对应关系】。它可以根据路由请求在路由视图中渲染出对应的组件
 ### \<router-link\>
-
+>\<router-link\>是请求链接组件。它可以指定我们要访问的URL哈希片段
 ### \<router-view\>
-
+>\<router-view\>是动态视图组件。在想要展示组件的地方放置标签即可
 
 
 
