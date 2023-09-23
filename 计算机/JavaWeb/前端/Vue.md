@@ -318,7 +318,7 @@ module.exports = defineConfig({
 })
 ```
 # Vue路由
-
+>Vue路由可以使用户在应用程序中进行导航时，可以根据URL路径加载相应的组件
 
 
 
