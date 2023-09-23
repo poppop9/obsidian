@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Ajax",
+      "path": "计算机/JavaWeb/前端/Ajax.md"
+    },
+    {
+      "basename": "JavaWeb",
+      "path": "Excalidraw/计算机/JavaWeb.md"
+    },
+    {
       "basename": "Mac软件",
       "path": "科技美学/Mac软件.md"
     },
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
-    },
-    {
-      "basename": "Ajax",
-      "path": "计算机/JavaWeb/前端/Ajax.md"
     },
     {
       "basename": "Element组件库",
@@ -23,10 +27,6 @@
     {
       "basename": "临时笔记",
       "path": "临时笔记/临时笔记.md"
-    },
-    {
-      "basename": "JavaWeb",
-      "path": "Excalidraw/计算机/JavaWeb.md"
     },
     {
       "basename": "计算机网络2",
