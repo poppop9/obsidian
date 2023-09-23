@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/JavaWeb/前端/Ajax.md",
+                "file": "计算机/JavaWeb/前端/Vue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/Ajax.md",
+                "file": "计算机/JavaWeb/前端/Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Ajax.md"
+                "file": "计算机/JavaWeb/前端/Vue.md"
               }
             }
           },
@@ -242,12 +242,12 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "3805012690ad8ea8",
+  "active": "0724022f55380538",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/Ajax.md",
     "Excalidraw/计算机/JavaWeb.md",
     "科技美学/Mac软件.md",
     "临时笔记/穿搭.md",
-    "计算机/JavaWeb/前端/Ajax.md",
     "计算机/JavaWeb/前端/Element组件库.md",
     "Excalidraw/Excalidraw.md",
     "临时笔记/临时笔记.md",
