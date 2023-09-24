@@ -97,7 +97,7 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 - 编写dependencies标签
 - 编写dependency标签
 - 去[Maven仓库](https://mvnrepository.com/)找到自己想要引入的依赖，查看三个坐标信息，填写到dependency里
-- 填写完成后点击刷新按钮
+- 填写完成后点击悬浮的刷新按钮
 ```xml
 <dependencies>    //编写dependencies标签
     <dependency>    //编写dependency标签
@@ -107,7 +107,26 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
     </dependency>  
 </dependencies>
 ```
+### 依赖传递
+```mermaid
+graph LR
+    c1-->a2
+    
+    subgraph one
+    a1,a2
+    end
+    
+    subgraph two
+    b1-->b2
+    end
+    
+    subgraph three
+    c1-->c2
+    end
 
+	one --> two
+    two --> c2
+```
 
 
 
