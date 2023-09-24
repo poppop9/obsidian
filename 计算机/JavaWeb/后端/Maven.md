@@ -20,11 +20,12 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 			- `java` 测试相关的java源代码
 			- `resources` 测试相关的配置文件
 		- `pom.xml` Maven的核心配置文件
-```xml
-<groupId>org.example</groupId>  
-<artifactId>maven-project_1</artifactId>  
-<version>1.0-SNAPSHOT</version>
-```
+			- Maven坐标
+				```xml
+				<groupId>org.example</groupId>  //组织名称【通常是域名反写】
+				<artifactId>maven-project_1</artifactId>  //项目名称
+				<version>1.0-SNAPSHOT</version>  //版本号
+				```
 ##### 提供标准的跨平台项目构建化流程
 对不同平台的***编译，测试，打包等操作***进行了统一标准化
 # 安装 创建
