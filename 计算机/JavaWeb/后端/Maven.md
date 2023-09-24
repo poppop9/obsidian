@@ -20,9 +20,14 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 			- `java` 测试相关的java源代码
 			- `resources` 测试相关的配置文件
 		- `pom.xml` Maven的核心配置文件
+```xml
+<groupId>org.example</groupId>  
+<artifactId>maven-project_1</artifactId>  
+<version>1.0-SNAPSHOT</version>
+```
 ##### 提供标准的跨平台项目构建化流程
 对不同平台的***编译，测试，打包等操作***进行了统一标准化
-# 安装
+# 安装 创建
 - 解压`apache-maven-3.8.8-bin,zip`
 - 配置本地仓库
 	- 在Maven根目录下新建`mvn_repo文件夹`来当作本地仓库
