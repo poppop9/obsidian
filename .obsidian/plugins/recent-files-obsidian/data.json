@@ -5,16 +5,16 @@
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
+      "basename": "JavaWeb",
+      "path": "Excalidraw/计算机/JavaWeb.md"
+    },
+    {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
     },
     {
       "basename": "Mac软件",
       "path": "科技美学/Mac软件.md"
-    },
-    {
-      "basename": "JavaWeb",
-      "path": "Excalidraw/计算机/JavaWeb.md"
     },
     {
       "basename": "Vue",

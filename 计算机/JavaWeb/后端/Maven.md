@@ -108,25 +108,7 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 </dependencies>
 ```
 ### 依赖传递
-```mermaid
-graph LR
-    c1-->a2
-    
-    subgraph one
-    a1,a2
-    end
-    
-    subgraph two
-    b1-->b2
-    end
-    
-    subgraph three
-    c1-->c2
-    end
-
-	one --> two
-    two --> c2
-```
+![[Excalidraw/计算机/JavaWeb.md#^group=L9zUCejmwM7J5nO09dTMN|600]]
 
 
 
