@@ -5,6 +5,14 @@
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
+      "basename": "MarkDown语法",
+      "path": "临时笔记/MarkDown语法.md"
+    },
+    {
+      "basename": "Mac软件",
+      "path": "科技美学/Mac软件.md"
+    },
+    {
       "basename": "JavaWeb",
       "path": "Excalidraw/计算机/JavaWeb.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Ajax",
       "path": "计算机/JavaWeb/前端/Ajax.md"
-    },
-    {
-      "basename": "Mac软件",
-      "path": "科技美学/Mac软件.md"
     },
     {
       "basename": "穿搭",
@@ -67,10 +71,6 @@
     {
       "basename": "操作系统 Draw",
       "path": "Excalidraw/计算机/四大件/操作系统 Draw.md"
-    },
-    {
-      "basename": "MarkDown语法",
-      "path": "临时笔记/MarkDown语法.md"
     },
     {
       "basename": "SpringBoot",

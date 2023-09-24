@@ -94,7 +94,19 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 对不同平台的***编译，测试，打包等操作***进行了统一标准化
 # 依赖管理
 ### 依赖配置
-
+- 编写dependencies标签
+- 编写dependency标签
+- 去[Maven仓库](https://mvnrepository.com/)找到自己想要引入的依赖，查看三个坐标信息，填写到dependency里
+- 填写完成后点击刷新按钮
+```xml
+<dependencies>    //编写dependencies标签
+    <dependency>    //编写dependency标签
+        <groupId>ch.qos.logback</groupId>  
+        <artifactId>logback-classic</artifactId>  //需要引入的依赖名  
+        <version>1.2.3</version>  
+    </dependency>  
+</dependencies>
+```
 
 
 
