@@ -113,8 +113,25 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 右键`pom.xml`，选择`diagrams`的`show dependencies`
 ![[Excalidraw/计算机/JavaWeb.md#^group=B2BAxMME|600]]
 ##### 排除依赖
+>排除依赖就是，`A项目`引用了`B项目`但是不想引用`B项目`底下的jar包
+```xml
+<dependencies>  
+    <dependency>  
+        <groupId>组织名</groupId>  
+        <artifactId>项目B</artifactId>  
+        <version>版本</version>  
 
-
+		<!--排除依赖-->
+		<exclusions>
+			<exclusion>
+				<groupId>依赖名</groupId>
+				<artifactId>依赖名</artifactId>
+			</exclusion>
+		</exclusions>
+    </dependency>  
+</dependencies>
+```
+##### 依赖范围
 
 
 
