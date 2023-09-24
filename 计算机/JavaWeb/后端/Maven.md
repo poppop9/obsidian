@@ -82,8 +82,10 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 - 设置-构建-构建工具-compiler-java complier
 配置正确的字节码版本
 ### 在idea中创建Maven项目
-- 新建Macen模块
+- 新建Maven模块
 ![[Excalidraw/计算机/JavaWeb.md#^group=9k6ZEAZA|600]]
+- 设置信息
+![[Excalidraw/计算机/JavaWeb.md#^group=C5fG4EIs]]
 
 
 
