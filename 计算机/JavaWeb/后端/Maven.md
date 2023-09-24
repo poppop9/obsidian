@@ -109,7 +109,10 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 ```
 ### 依赖传递
 ![[Excalidraw/计算机/JavaWeb.md#^group=L9zUCejmwM7J5nO09dTMN|600]]
-
+##### 查看依赖关系
+右键`pom.xml`，选择`diagrams`的`show dependencies`
+![[Excalidraw/计算机/JavaWeb.md#^group=B2BAxMME|600]]
+##### 排除依赖
 
 
 
