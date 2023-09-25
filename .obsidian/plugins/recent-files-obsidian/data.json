@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot.md"
+    },
+    {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "操作系统 Draw",
       "path": "Excalidraw/计算机/四大件/操作系统 Draw.md"
-    },
-    {
-      "basename": "SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot.md"
     },
     {
       "basename": "idea",
