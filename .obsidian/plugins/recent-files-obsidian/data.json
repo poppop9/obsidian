@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
+      "basename": "JavaWeb",
+      "path": "Excalidraw/计算机/JavaWeb.md"
+    },
+    {
       "basename": "魔术",
       "path": "临时笔记/魔术.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "临时笔记",
       "path": "临时笔记/临时笔记.md"
-    },
-    {
-      "basename": "JavaWeb",
-      "path": "Excalidraw/计算机/JavaWeb.md"
     },
     {
       "basename": "Mac软件",
