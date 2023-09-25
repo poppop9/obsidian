@@ -146,11 +146,12 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
         <groupId>ch.qos.logback</groupId>  
         <artifactId>logback-classic</artifactId>  
         <version>1.2.3</version>  
-        <scope>test</scope>  //指定s'c
+        <scope>test</scope>  //指定scope值
     </dependency>  
 </dependencies>
 ```
-
+##### 生命周期
+>Maven由三套独立的生命周期
 
 
 
