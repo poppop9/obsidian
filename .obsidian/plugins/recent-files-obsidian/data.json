@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
+      "basename": "魔术",
+      "path": "临时笔记/魔术.md"
+    },
+    {
       "basename": "权游台词",
       "path": "临时笔记/权游台词.md"
     },
@@ -9,16 +17,8 @@
       "path": "临时笔记/MarkDown语法.md"
     },
     {
-      "basename": "魔术",
-      "path": "临时笔记/魔术.md"
-    },
-    {
       "basename": "临时笔记",
       "path": "临时笔记/临时笔记.md"
-    },
-    {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "JavaWeb",
