@@ -140,7 +140,16 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 |test|  |√|  |junit|
 |provided|√|√|  |servlet-api|
 |runtime|  |√|√|JDBC驱动|
-
+```xml
+<dependencies>  
+    <dependency>  
+        <groupId>ch.qos.logback</groupId>  
+        <artifactId>logback-classic</artifactId>  
+        <version>1.2.3</version>  
+        <scope>test</scope>  //指定s'c
+    </dependency>  
+</dependencies>
+```
 
 
 
