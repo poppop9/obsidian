@@ -4,6 +4,10 @@
 # 准备工作
 - 创建Spring模块
 	- 勾选Web开发相关依赖
+	![[Excalidraw/计算机/JavaWeb.md#^group=dMXiaySV]]
+	![[Excalidraw/计算机/JavaWeb.md#^group=qCHuJWbK]]
+
+
 - 定义请求处理类，添加请求处理方法，添加注解
 
 
