@@ -17,6 +17,20 @@ public class hello {
     }  
 }
 ```
+### 目录结构
+- `.mvn` - Maven wrapper文件
+- `src` - 源码目录
+    - `main`
+        - `java`
+            - `包路径`
+                - `启动类` 
+        - `resources` - 资源文件目录
+            - `application.properties` - Spring Boot配置文件
+    - `test`
+        - `java`
+            - `包路径`
+			- `项目名称ApplicationTests.java` - 测试 starters
+- `pom.xml` - Maven项目对象模型配置文件
 
 
 
