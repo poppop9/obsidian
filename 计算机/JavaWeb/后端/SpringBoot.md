@@ -32,24 +32,8 @@
 SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已经***内置了Tomcat***，当启动类运行时，会自动运行Tomcat服务器
 ![[Excalidraw/计算机/JavaWeb.md#^group=yrp52Usr]]
 
-
-
-
-- 定义请求处理类，添加请求处理方法，添加注解
-```java
-@RestController  //如果不定义则是一个普通java类，定义了表示是一个请求处理类
-public class hello {  
-    @RequestMapping("/hello")  //表示当请求/hello时，会执行hello()方法
-    public String hello() {  
-        System.out.println("hello spring");  
-        return "hello spring";  
-    }  
-}
-```
-
-
-
-
+# 请求，响应，分层解耦
+![[Excalidraw/计算机/JavaWeb.md#^group=tMdaT5BlcDIqJIyPd8ixX|770]]
 
 
 
