@@ -22,12 +22,12 @@
 			- `项目名称ApplicationTests.java` - 测试 starters
 - `pom.xml` - Maven项目对象模型配置文件
 # Web服务器
->Web服务器对HTTP协议的操作进行了封装，使得Web开发更为便携
+>Web服务器对HTTP协议的操作进行了封装，使得Web开发更为便携。Web服务器可以用来部署我们我们开发好的Web项目，对外提供网上信息浏览服务
 ### HTTP协议
 - HTTP协议，一次请求对应一次响应
 - HTTP协议每次请求和响应都是独立的，后一次请求无法知道前一次请求的数据
 ### Tomcat
-
+>Tomcat是一款轻量级的Web服务器
 
 
 
