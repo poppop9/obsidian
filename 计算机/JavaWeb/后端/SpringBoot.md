@@ -29,6 +29,10 @@
 ### Tomcat
 >Tomcat是一款轻量级的Web服务器
 
+SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已经***内置了Tomcat***，当启动类运行时，会自动运行Tomcat服务器
+![[Excalidraw/计算机/JavaWeb.md#^group=yrp52Usr]]
+
+
 
 
 - 定义请求处理类，添加请求处理方法，添加注解
