@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "计算机网络2",
+      "path": "计算机/四大件/计算机网络2.md"
+    },
+    {
       "basename": "虚拟化CPU",
       "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "魔术",
       "path": "临时笔记/魔术.md"
-    },
-    {
-      "basename": "计算机网络2",
-      "path": "计算机/四大件/计算机网络2.md"
     },
     {
       "basename": "SpringBoot",
