@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "虚拟化CPU",
+      "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
+    },
+    {
+      "basename": "持久性",
+      "path": "计算机/四大件/操作系统/持久性.md"
+    },
+    {
+      "basename": "基础知识",
+      "path": "计算机/四大件/操作系统/基础知识.md"
+    },
+    {
+      "basename": "操作系统 Draw",
+      "path": "Excalidraw/计算机/四大件/操作系统 Draw.md"
+    },
+    {
+      "basename": "HTML 5",
+      "path": "计算机/JavaWeb/前端/HTML 5.md"
+    },
+    {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
+    },
+    {
+      "basename": "魔术",
+      "path": "临时笔记/魔术.md"
+    },
+    {
+      "basename": "计算机网络2",
+      "path": "计算机/四大件/计算机网络2.md"
+    },
+    {
       "basename": "SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot.md"
     },
@@ -9,16 +41,8 @@
       "path": "Excalidraw/计算机/JavaWeb.md"
     },
     {
-      "basename": "计算机网络2",
-      "path": "计算机/四大件/计算机网络2.md"
-    },
-    {
       "basename": "计算机网络 Draw",
       "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
-    },
-    {
-      "basename": "魔术",
-      "path": "临时笔记/魔术.md"
     },
     {
       "basename": "权游台词",
@@ -53,20 +77,12 @@
       "path": "计算机/JavaWeb/前端/Ajax.md"
     },
     {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
-    },
-    {
       "basename": "Element组件库",
       "path": "计算机/JavaWeb/前端/Element组件库.md"
     },
     {
       "basename": "Excalidraw",
       "path": "Excalidraw/Excalidraw.md"
-    },
-    {
-      "basename": "HTML 5",
-      "path": "计算机/JavaWeb/前端/HTML 5.md"
     },
     {
       "basename": "CSS",
@@ -79,10 +95,6 @@
     {
       "basename": "移动开发考试复习",
       "path": "考试/移动开发考试复习.md"
-    },
-    {
-      "basename": "操作系统 Draw",
-      "path": "Excalidraw/计算机/四大件/操作系统 Draw.md"
     },
     {
       "basename": "idea",
@@ -125,24 +137,12 @@
       "path": "临时笔记/杭州.md"
     },
     {
-      "basename": "虚拟化CPU",
-      "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
-    },
-    {
       "basename": "微信分享浏览器",
       "path": "科技美学/微信分享浏览器.md"
     },
     {
       "basename": "微信",
       "path": "临时笔记/微信.md"
-    },
-    {
-      "basename": "并发",
-      "path": "计算机/四大件/操作系统/并发.md"
-    },
-    {
-      "basename": "持久性",
-      "path": "计算机/四大件/操作系统/持久性.md"
     },
     {
       "basename": "计算机组成原理",
@@ -159,10 +159,6 @@
     {
       "basename": "内网穿透",
       "path": "科技美学/内网穿透.md"
-    },
-    {
-      "basename": "基础知识",
-      "path": "计算机/四大件/操作系统/基础知识.md"
     },
     {
       "basename": "物理结构",
