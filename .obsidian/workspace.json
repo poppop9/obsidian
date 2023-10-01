@@ -23,8 +23,10 @@
             "id": "f818487b0ab7dcee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+              }
             }
           },
           {
@@ -55,8 +57,10 @@
             "id": "ffe16beb8d1a9ac0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/JavaWeb.md"
+              }
             }
           },
           {
@@ -83,8 +87,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -238,23 +241,24 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "be9e9e338af27e52",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
+    "Excalidraw/计算机/JavaWeb.md",
+    "Excalidraw/Excalidraw.md",
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
+    "计算机/四大件/计算机网络2.md",
+    "临时笔记/Obsidian特殊语法.md",
+    "临时笔记/穿搭.md",
     "临时笔记/🌏旅行.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
-    "计算机/四大件/计算机网络2.md",
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/四大件/操作系统/持久性.md",
     "计算机/四大件/操作系统/基础知识.md",
     "计算机/四大件/操作系统/并发.md",
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
     "计算机/JavaWeb/前端/HTML 5.md",
-    "临时笔记/穿搭.md",
     "临时笔记/魔术.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
-    "Excalidraw/计算机/JavaWeb.md",
     "临时笔记/权游台词.md",
-    "临时笔记/Obsidian特殊语法.md",
     "计算机/JavaWeb/后端/Maven.md",
     "临时笔记/MarkDown语法.md",
     "临时笔记/临时笔记.md",
@@ -262,7 +266,6 @@
     "计算机/JavaWeb/前端/Vue.md",
     "计算机/JavaWeb/前端/Ajax.md",
     "计算机/JavaWeb/前端/Element组件库.md",
-    "Excalidraw/Excalidraw.md",
     "计算机/JavaWeb/前端/CSS.md",
     "计算机/JavaWeb/前端/JavaScript.md",
     "考试/移动开发考试复习.md",
