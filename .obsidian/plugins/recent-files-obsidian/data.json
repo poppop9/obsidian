@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "魔术",
+      "path": "临时笔记/魔术.md"
+    },
+    {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "HTML 5",
       "path": "计算机/JavaWeb/前端/HTML 5.md"
-    },
-    {
-      "basename": "魔术",
-      "path": "临时笔记/魔术.md"
     },
     {
       "basename": "SpringBoot",
