@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/魔术.md",
+                "file": "临时笔记/权游台词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/魔术.md",
+                "file": "临时笔记/权游台词.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/魔术.md"
+                "file": "临时笔记/权游台词.md"
               }
             }
           },
@@ -254,8 +254,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5ed1a67bdd4e04c5",
+  "active": "be9e9e338af27e52",
   "lastOpenFiles": [
+    "临时笔记/魔术.md",
     "临时笔记/穿搭.md",
     "临时笔记/🌏旅行.md",
     "临时笔记/权游台词.md",
@@ -270,7 +271,6 @@
     "计算机/四大件/操作系统/并发.md",
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
     "计算机/JavaWeb/前端/HTML 5.md",
-    "临时笔记/魔术.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
     "计算机/JavaWeb/后端/Maven.md",
     "临时笔记/MarkDown语法.md",
