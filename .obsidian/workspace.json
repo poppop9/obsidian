@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/权游台词.md",
+                "file": "科技美学/Mac软件.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/权游台词.md",
+                "file": "科技美学/Mac软件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/权游台词.md",
+                "file": "科技美学/Mac软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/权游台词.md"
+                "file": "科技美学/Mac软件.md"
               }
             }
           },
@@ -256,10 +256,10 @@
   },
   "active": "be9e9e338af27e52",
   "lastOpenFiles": [
+    "临时笔记/权游台词.md",
     "临时笔记/魔术.md",
     "临时笔记/穿搭.md",
     "临时笔记/🌏旅行.md",
-    "临时笔记/权游台词.md",
     "计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/JavaWeb.md",
     "Excalidraw/Excalidraw.md",
