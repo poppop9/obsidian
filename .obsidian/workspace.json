@@ -93,14 +93,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/魔术.md",
+                "file": "临时笔记/穿搭.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "科技美学/Mac软件.md",
+                "file": "临时笔记/穿搭.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "科技美学/Mac软件.md",
+                "file": "临时笔记/穿搭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +222,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科技美学/Mac软件.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -254,10 +254,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "be9e9e338af27e52",
+  "active": "5ed1a67bdd4e04c5",
   "lastOpenFiles": [
-    "临时笔记/权游台词.md",
     "临时笔记/魔术.md",
+    "科技美学/Mac软件.md",
+    "临时笔记/权游台词.md",
     "临时笔记/穿搭.md",
     "临时笔记/🌏旅行.md",
     "计算机/四大件/计算机网络2.md",
@@ -275,7 +276,6 @@
     "计算机/JavaWeb/后端/Maven.md",
     "临时笔记/MarkDown语法.md",
     "临时笔记/临时笔记.md",
-    "科技美学/Mac软件.md",
     "计算机/JavaWeb/前端/Vue.md",
     "计算机/JavaWeb/前端/Ajax.md",
     "计算机/JavaWeb/前端/Element组件库.md",
