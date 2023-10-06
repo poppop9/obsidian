@@ -12,8 +12,8 @@
 		- [[操作系统 Draw]]
 		- [[计算机网络 Draw]]
 		- [[计算机组成原理Draw]]
-		- [[数据结构Draw]]
-	- [[JavaWeb]]
+		- [[数据结构 Draw]]
+	- [[JavaWeb Draw]]
 - **杂**
 	- [[Obsidian笔记编写规范Draw]]
 - **fonts**

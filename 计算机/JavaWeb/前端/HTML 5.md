@@ -1,5 +1,5 @@
 # 网页的结构
-![[Excalidraw/计算机/JavaWeb.md#^group=QUadQUqX|900]]
+![[JavaWeb Draw#^group=QUadQUqX|900]]
 # 特殊字符
 `&nbsp;` 空格符
 `&lt;` <
@@ -75,7 +75,7 @@
 `<u></u>` 下划线
 ### 无语义盒子
 >这两个标签都是没有具体意思的，它们就是一个***盒子***【用来装文字，图片，超链接】
->![[Excalidraw/计算机/JavaWeb.md#^group=jLK9MAUa|600]]
+>![[JavaWeb Draw#^group=jLK9MAUa|600]]
 ##### \<div\>
 一个`<div>`独占一行
 ##### \<span\>
@@ -166,7 +166,7 @@
 	</tr>
 </table>
 ```
-![[Excalidraw/计算机/JavaWeb.md#^group=h6qa99MH|370]]
+![[JavaWeb Draw#^group=h6qa99MH|370]]
 ### 表单\<form\>
 - `action` 指定表单提交时去往的URL地址
 - `method` 表单数据的提交方式。

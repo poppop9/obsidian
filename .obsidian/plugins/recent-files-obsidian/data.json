@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "计算机组成原理Draw",
+      "path": "Excalidraw/计算机/四大件/计算机组成原理Draw.md"
+    },
+    {
+      "basename": "计算机",
+      "path": "计算机/计算机.md"
+    },
+    {
       "basename": "计算机网络2",
       "path": "计算机/四大件/计算机网络2.md"
+    },
+    {
+      "basename": "JavaWeb Draw",
+      "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
       "basename": "🌏旅行",
@@ -31,10 +43,6 @@
     {
       "basename": "权游台词",
       "path": "临时笔记/权游台词.md"
-    },
-    {
-      "basename": "JavaWeb",
-      "path": "Excalidraw/计算机/JavaWeb.md"
     },
     {
       "basename": "Excalidraw",
@@ -117,10 +125,6 @@
       "path": "计算机/四大件/计算机网络.md"
     },
     {
-      "basename": "计算机",
-      "path": "计算机/计算机.md"
-    },
-    {
       "basename": "mysql安装配置",
       "path": "计算机/数据库/mysql安装配置.md"
     },
@@ -163,10 +167,6 @@
     {
       "basename": "物理结构",
       "path": "计算机/四大件/数据结构/物理结构.md"
-    },
-    {
-      "basename": "计算机组成原理Draw",
-      "path": "Excalidraw/计算机/四大件/计算机组成原理Draw.md"
     },
     {
       "basename": "Java 8 新特性",

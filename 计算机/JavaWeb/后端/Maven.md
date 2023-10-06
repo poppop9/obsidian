@@ -44,24 +44,24 @@
 ### 在idea中安装
 ##### 配置单个项目
 - 设置-构建-构建工具-Maven
-![[Excalidraw/计算机/JavaWeb.md#^group=nbor17Ei|780]]
+![[JavaWeb Draw#^group=nbor17Ei|780]]
 - 设置-构建-构建工具-Maven-runner
 查看jre的配置是否正确
 - 设置-构建-构建工具-compiler-java complier
 配置正确的字节码版本
 ##### 配置全局项目【推荐】
-![[Excalidraw/计算机/JavaWeb.md#^group=b9Q6iSUb|500]]
+![[JavaWeb Draw#^group=b9Q6iSUb|500]]
 - 设置-构建-构建工具-Maven
-![[Excalidraw/计算机/JavaWeb.md#^group=nbor17Ei|780]]
+![[JavaWeb Draw#^group=nbor17Ei|780]]
 - 设置-构建-构建工具-Maven-runner
 查看jre的配置是否正确
 - 设置-构建-构建工具-compiler-java complier
 配置正确的字节码版本
 ### 在idea中创建Maven项目
 - 新建Maven模块
-![[Excalidraw/计算机/JavaWeb.md#^group=9k6ZEAZA|600]]
+![[JavaWeb Draw#^group=9k6ZEAZA|600]]
 - 设置信息
-![[Excalidraw/计算机/JavaWeb.md#^group=C5fG4EIs]]
+![[JavaWeb Draw#^group=C5fG4EIs]]
 # 基本概念
 >Maven是构建和管理Java项目的工具
 ### 作用
@@ -108,10 +108,10 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 </dependencies>
 ```
 ### 依赖传递
-![[Excalidraw/计算机/JavaWeb.md#^group=L9zUCejmwM7J5nO09dTMN|600]]
+![[JavaWeb Draw#^group=L9zUCejmwM7J5nO09dTMN|600]]
 ##### 查看依赖关系
 右键`pom.xml`，选择`diagrams`的`show dependencies`
-![[Excalidraw/计算机/JavaWeb.md#^group=B2BAxMME|600]]
+![[JavaWeb Draw#^group=B2BAxMME|600]]
 ##### 排除依赖
 >排除依赖就是，`A项目`引用了`B项目`但是不想引用`B项目`底下的jar包
 ```xml
@@ -188,7 +188,7 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 
 >[!faq] 如何运行生命周期的某个阶段？
 >- 在Maven的侧边栏中运行
->![[Excalidraw/计算机/JavaWeb.md#^group=QqvDzj8c|300]]
+>![[JavaWeb Draw#^group=QqvDzj8c|300]]
 
 
 

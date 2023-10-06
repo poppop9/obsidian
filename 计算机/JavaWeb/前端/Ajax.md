@@ -37,9 +37,9 @@ Axios 对原生的 Ajax 进行了封装，简化了书写
 ### 方法
 
 ##### get请求
-![[Excalidraw/计算机/JavaWeb.md#^group=MCFLFBbf|600]]
+![[JavaWeb Draw#^group=MCFLFBbf|600]]
 ##### post请求
-![[Excalidraw/计算机/JavaWeb.md#^group=jnhZ6xju|600]]
+![[JavaWeb Draw#^group=jnhZ6xju|600]]
 ##### delete
 
 ##### put

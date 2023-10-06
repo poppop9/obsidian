@@ -1,12 +1,12 @@
 # 基本概念
 >Spring是一个开发生态圈，它提供了若干个子项目，用于完成特定功能
->![[Excalidraw/计算机/JavaWeb.md#^group=Lu3xncQA90nuAeKIaESZ_]]
+>![[JavaWeb Draw#^group=Lu3xncQA90nuAeKIaESZ_]]
 # 准备工作
 ### 创建Spring项目
 - 创建Spring模块
 	- 勾选Web开发相关依赖
-	![[Excalidraw/计算机/JavaWeb.md#^group=dMXiaySV]]
-	![[Excalidraw/计算机/JavaWeb.md#^group=qCHuJWbK]]
+	![[JavaWeb Draw#^group=dMXiaySV]]
+	![[JavaWeb Draw#^group=qCHuJWbK]]
 ### 目录结构
 - `.mvn` - Maven wrapper文件
 - `src` - 源码目录
@@ -30,10 +30,10 @@
 >Tomcat是一款轻量级的Web服务器
 
 SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已经***内置了Tomcat***，当启动类运行时，会自动运行Tomcat服务器
-![[Excalidraw/计算机/JavaWeb.md#^group=yrp52Usr]]
+![[JavaWeb Draw#^group=yrp52Usr]]
 
 # 请求，响应，分层解耦
-![[Excalidraw/计算机/JavaWeb.md#^group=tMdaT5BlcDIqJIyPd8ixX|770]]
+![[JavaWeb Draw#^group=tMdaT5BlcDIqJIyPd8ixX|770]]
 
 
 

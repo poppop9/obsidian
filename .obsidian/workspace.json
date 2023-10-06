@@ -11,11 +11,9 @@
             "id": "50a8f51d71867af8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/计算机/四大件/计算机组成原理Draw.md"
               }
             }
           },
@@ -59,7 +57,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/计算机/JavaWeb.md"
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
               }
             }
           },
@@ -129,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#计算机/编程语言/Java",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,8 +144,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "82e190d91877a96e",
@@ -182,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "Excalidraw/计算机/四大件/计算机组成原理Draw.md"
               }
             }
           },
@@ -192,7 +189,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "Excalidraw/计算机/四大件/计算机组成原理Draw.md"
               }
             }
           },
@@ -213,14 +210,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md",
+                "file": "Excalidraw/计算机/四大件/计算机组成原理Draw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -237,17 +234,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "59c5ef1e731e284b",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
+    "计算机/计算机.md",
+    "计算机/四大件/计算机网络2.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/🌏旅行.md",
     "临时笔记/MarkDown语法.md",
     "临时笔记/穿搭.md",
     "临时笔记/🍕美食打分.md",
-    "计算机/四大件/计算机网络2.md",
     "科技美学/Mac软件.md",
     "临时笔记/魔术.md",
     "临时笔记/权游台词.md",
-    "Excalidraw/计算机/JavaWeb.md",
     "Excalidraw/Excalidraw.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "临时笔记/Obsidian特殊语法.md",
@@ -264,7 +262,6 @@
     "计算机/JavaWeb/前端/Ajax.md",
     "计算机/JavaWeb/前端/Element组件库.md",
     "计算机/JavaWeb/前端/CSS.md",
-    "计算机/JavaWeb/前端/JavaScript.md",
     "计算机/JavaWeb/后端",
     "计算机/JavaWeb/前端",
     "计算机/JavaWeb",

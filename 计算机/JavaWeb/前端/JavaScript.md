@@ -25,7 +25,7 @@
   ```js
   alert("hello javascript");
   ```
-  ![[Excalidraw/计算机/JavaWeb.md#^group=L84gWEf4]]
+  ![[JavaWeb Draw#^group=L84gWEf4]]
 - `document.write` 
   ***会把内容直接写入到浏览器里显示***
 - `console.log` 
@@ -240,7 +240,7 @@ BOM是浏览器对象模型，允许JavaScript与浏览器对话
 ```js
 confirm("hello javascript!\nhello javascript!");
 ```
-![[Excalidraw/计算机/JavaWeb.md#^group=7iLBg2GO]]
+![[JavaWeb Draw#^group=7iLBg2GO]]
 
 ```js
 let text;

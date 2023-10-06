@@ -306,7 +306,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 - `package.json` 基本信息，版本信息
 - `vue.config.js` vue的配置文件【端口】
 ### 启动Vue项目
-![[Excalidraw/计算机/JavaWeb.md#^group=KQ8yyjCW|400]]
+![[JavaWeb Draw#^group=KQ8yyjCW|400]]
 ### 修改端口号
 ```js
 const { defineConfig } = require('@vue/cli-service')
@@ -388,7 +388,7 @@ export default {
 # 打包部署
 ### 打包
 - 运行npm脚本中的`build`
-![[Excalidraw/计算机/JavaWeb.md#^group=2bfxmrHr]]
+![[JavaWeb Draw#^group=2bfxmrHr]]
 - 打包好的文件会出现在`dist`文件夹下
 
 ***dist文件夹就是打包后的文件***
