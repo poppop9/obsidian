@@ -129,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:计算机/四大件",
+                "query": "tag:#计算机/编程语言/Java",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,41 +187,12 @@
             }
           },
           {
-            "id": "f6f86663e8a8cd36",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "计算机/四大件/计算机网络2.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "b1b0600a4e6e4236",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
                 "file": "计算机/四大件/计算机网络2.md"
-              }
-            }
-          },
-          {
-            "id": "39d0de85a062f926",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "计算机/四大件/计算机网络2.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
               }
             }
           },
@@ -237,12 +208,14 @@
             }
           },
           {
-            "id": "a7423591db30b067",
+            "id": "39d0de85a062f926",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
+              "type": "outgoing-link",
               "state": {
-                "sortOrder": "frequency"
+                "file": "计算机/四大件/计算机网络2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -264,7 +237,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b1b0600a4e6e4236",
+  "active": "59c5ef1e731e284b",
   "lastOpenFiles": [
     "临时笔记/🌏旅行.md",
     "临时笔记/MarkDown语法.md",
