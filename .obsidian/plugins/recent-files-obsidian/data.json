@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "计算机组成原理Draw",
-      "path": "Excalidraw/计算机/四大件/计算机组成原理Draw.md"
-    },
-    {
-      "basename": "计算机",
-      "path": "计算机/计算机.md"
-    },
-    {
       "basename": "计算机网络2",
       "path": "计算机/四大件/计算机网络2.md"
+    },
+    {
+      "basename": "Obsidian特殊语法",
+      "path": "临时笔记/Obsidian特殊语法.md"
+    },
+    {
+      "basename": "计算机组成原理 Draw",
+      "path": "Excalidraw/计算机/四大件/计算机组成原理 Draw.md"
     },
     {
       "basename": "JavaWeb Draw",
@@ -45,16 +45,8 @@
       "path": "临时笔记/权游台词.md"
     },
     {
-      "basename": "Excalidraw",
-      "path": "Excalidraw/Excalidraw.md"
-    },
-    {
       "basename": "计算机网络 Draw",
       "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
-    },
-    {
-      "basename": "Obsidian特殊语法",
-      "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
       "basename": "虚拟化CPU",
@@ -83,10 +75,6 @@
     {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
-      "basename": "临时笔记",
-      "path": "临时笔记/临时笔记.md"
     },
     {
       "basename": "Vue",

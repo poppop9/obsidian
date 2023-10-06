@@ -11,9 +11,11 @@
             "id": "50a8f51d71867af8",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机组成原理Draw.md"
+                "file": "计算机/四大件/计算机网络2.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -179,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机组成原理Draw.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -189,7 +191,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机组成原理Draw.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -210,14 +212,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机组成原理Draw.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -236,7 +237,11 @@
   },
   "active": "50a8f51d71867af8",
   "lastOpenFiles": [
+    "临时笔记/Obsidian特殊语法.md",
+    "Excalidraw/Excalidraw.md",
+    "临时笔记/临时笔记.md",
     "计算机/计算机.md",
+    "Excalidraw/计算机/四大件/计算机组成原理 Draw.md",
     "计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/🌏旅行.md",
@@ -246,9 +251,7 @@
     "科技美学/Mac软件.md",
     "临时笔记/魔术.md",
     "临时笔记/权游台词.md",
-    "Excalidraw/Excalidraw.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
-    "临时笔记/Obsidian特殊语法.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "计算机/四大件/操作系统/持久性.md",
     "计算机/四大件/操作系统/基础知识.md",
@@ -257,11 +260,9 @@
     "计算机/JavaWeb/前端/HTML 5.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
     "计算机/JavaWeb/后端/Maven.md",
-    "临时笔记/临时笔记.md",
     "计算机/JavaWeb/前端/Vue.md",
     "计算机/JavaWeb/前端/Ajax.md",
     "计算机/JavaWeb/前端/Element组件库.md",
-    "计算机/JavaWeb/前端/CSS.md",
     "计算机/JavaWeb/后端",
     "计算机/JavaWeb/前端",
     "计算机/JavaWeb",

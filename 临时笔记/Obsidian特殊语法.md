@@ -299,8 +299,6 @@ title: ⏳ Doing
 
 ***floating toc***  悬浮大纲
 
-***Folder Note***  用于目录那里的大纲生成
-
 ***Image auto upload Plugin***  图床
 
 ***Keyboard Analyzer***  查看各种键的快捷键
@@ -319,7 +317,6 @@ title: ⏳ Doing
 
 ***Table Enhancer***  对于表格的快捷输入
 
-***Waypoint***  用于目录里大纲的自动生成
 
 
 - [<] 自定义`- [<] `
