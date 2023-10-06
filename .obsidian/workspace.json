@@ -99,8 +99,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"cssclasses\"]",
+                "query": "tag:计算机/四大件",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,12 +177,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "59c5ef1e731e284b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "计算机/四大件/计算机网络2.md"
+              }
+            }
+          },
+          {
             "id": "f6f86663e8a8cd36",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/MarkDown语法.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,12 +204,22 @@
             }
           },
           {
+            "id": "b1b0600a4e6e4236",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "计算机/四大件/计算机网络2.md"
+              }
+            }
+          },
+          {
             "id": "39d0de85a062f926",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/MarkDown语法.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,17 +237,7 @@
             }
           },
           {
-            "id": "59c5ef1e731e284b",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "临时笔记/MarkDown语法.md"
-              }
-            }
-          },
-          {
-            "id": "39a9658d13d08c68",
+            "id": "a7423591db30b067",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -238,7 +247,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -255,12 +264,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5ed1a67bdd4e04c5",
+  "active": "b1b0600a4e6e4236",
   "lastOpenFiles": [
+    "临时笔记/🌏旅行.md",
+    "临时笔记/MarkDown语法.md",
     "临时笔记/穿搭.md",
     "临时笔记/🍕美食打分.md",
     "计算机/四大件/计算机网络2.md",
-    "临时笔记/🌏旅行.md",
     "科技美学/Mac软件.md",
     "临时笔记/魔术.md",
     "临时笔记/权游台词.md",
@@ -276,7 +286,6 @@
     "计算机/JavaWeb/前端/HTML 5.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
     "计算机/JavaWeb/后端/Maven.md",
-    "临时笔记/MarkDown语法.md",
     "临时笔记/临时笔记.md",
     "计算机/JavaWeb/前端/Vue.md",
     "计算机/JavaWeb/前端/Ajax.md",
