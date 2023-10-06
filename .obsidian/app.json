@@ -4,5 +4,6 @@
   "showFrontmatter": true,
   "readableLineLength": false,
   "showInlineTitle": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "visible"
 }
