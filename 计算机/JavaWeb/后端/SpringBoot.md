@@ -34,6 +34,39 @@ SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已�
 
 # 请求，响应，分层解耦
 ![[JavaWeb Draw#^group=tMdaT5BlcDIqJIyPd8ixX|770]]
+### Apifox
+>Apifox是一款 API设计/开发/测试工具
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
