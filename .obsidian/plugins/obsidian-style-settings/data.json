@@ -186,5 +186,7 @@
   "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": false,
   "blue-topaz-theme@@colorful-unordered-list": false,
   "blue-topaz-theme@@unordered-list-style-options": "custom-unordered-list",
-  "blue-topaz-theme@@accent-em@@light": "#000000"
+  "blue-topaz-theme@@accent-em@@light": "#000000",
+  "blue-topaz-theme@@line-height-list": 1.4,
+  "blue-topaz-theme@@list-spacing-bt": 1
 }
