@@ -53,6 +53,8 @@ URL的父集 ^AcYSRz7k
 
 电话局的电话电缆 ^uRf5REDi
 
+DHCP的原理 ^SM2Rn0Ic
+
 
 # Embedded files
 f3d06f0a199622487ca1712195c63f18bf57e8d1: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/72FF0A287DEBEA9FBFCA9502088206F5.png
@@ -103,6 +105,7 @@ b8061109b3fe1dbb01889c1b6c83897cb476bbb7: https://obsidian-1307744200.cos.ap-gua
 b8ead57e79018f31ebdd60d437de90d55e266183: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230928082054.png
 28b333965a13a7d5b060377562e6cd937da7dd8b: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230928085948.png
 5a06fac4df76a2a0e74bd302c07731f9cde421ba: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231007153731.png
+49b909aece87bf2a68a053bea8ca2c9c7f3dbb0f: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231007154857.png
 
 %%
 # Drawing
@@ -4085,12 +4088,47 @@ b8ead57e79018f31ebdd60d437de90d55e266183: https://obsidian-1307744200.cos.ap-gua
 			]
 		},
 		{
-			"id": "U12KSljH",
-			"type": "text",
-			"x": 2154.714048420381,
-			"y": 151.46238700321044,
-			"width": 8.191986083984375,
-			"height": 19.2,
+			"type": "image",
+			"version": 40,
+			"versionNonce": 742663246,
+			"isDeleted": false,
+			"id": "lU8EN52j",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1833.1905906498396,
+			"y": 480.5013375225016,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 301.7391304347826,
+			"seed": 34155,
+			"groupIds": [
+				"qF035QMS0DdLHBPDvasDZ"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1696664978456,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "49b909aece87bf2a68a053bea8ca2c9c7f3dbb0f",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "GdnbPjgDYIAw-kRXlJBwd",
+			"type": "rectangle",
+			"x": 1837.5731334898808,
+			"y": 468.5458212408204,
+			"width": 493.99468941861255,
+			"height": 312.7713295108973,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -4099,26 +4137,59 @@ b8ead57e79018f31ebdd60d437de90d55e266183: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"qF035QMS0DdLHBPDvasDZ"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 595748878,
+			"version": 84,
+			"versionNonce": 1153011602,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1696664978456,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "SM2Rn0Ic",
+			"type": "text",
+			"x": 1848.612093516667,
+			"y": 786.3767150379924,
+			"width": 133.79260904481555,
+			"height": 29.319058388553383,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"qF035QMS0DdLHBPDvasDZ"
+			],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1160179022,
-			"version": 2,
-			"versionNonce": 1227830354,
-			"isDeleted": true,
+			"seed": 1553507598,
+			"version": 127,
+			"versionNonce": 689334926,
+			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1696664269743,
+			"updated": 1696664978456,
 			"link": null,
 			"locked": false,
-			"text": "",
-			"rawText": "",
-			"fontSize": 16,
+			"text": "DHCP的原理",
+			"rawText": "DHCP的原理",
+			"fontSize": 24.432548657127807,
 			"fontFamily": 4,
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 14,
+			"baseline": 21.000000000000018,
 			"containerId": null,
-			"originalText": "",
+			"originalText": "DHCP的原理",
 			"lineHeight": 1.2
 		}
 	],
@@ -4138,7 +4209,7 @@ b8ead57e79018f31ebdd60d437de90d55e266183: https://obsidian-1307744200.cos.ap-gua
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"scrollX": -1602.1896961042555,
-		"scrollY": 393.93261356761684,
+		"scrollY": -196.82573399202815,
 		"zoom": {
 			"value": 0.8696449269354252
 		},
