@@ -99,8 +99,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -192,7 +191,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -213,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -225,7 +224,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -263,8 +262,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0724022f55380538",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
     "临时笔记/MarkDown语法.md",
@@ -286,7 +286,6 @@
     "计算机/四大件/操作系统/基础知识.md",
     "计算机/四大件/操作系统/并发.md",
     "计算机/JavaWeb/前端/HTML 5.md",
-    "计算机/JavaWeb/后端/SpringBoot.md",
     "计算机/JavaWeb/后端/Maven.md",
     "计算机/JavaWeb/前端/Vue.md",
     "计算机/JavaWeb/前端/Ajax.md",
