@@ -38,6 +38,7 @@ SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已�
 ##### Apifox
 >Apifox是一款 API设计/开发/测试工具
 ##### 简单参数
+GET请求：`http://localhost:8080/simpleParam?name=Tom&age=10`
 ```java
 @RestController  //注释@RestController，表示这是一个Controller类
 public class RequestController {  
@@ -47,6 +48,9 @@ public class RequestController {
         return "OK";  
     }  
 }
+
+
+Tom:10
 ```
 
 
