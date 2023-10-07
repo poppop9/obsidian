@@ -38,7 +38,16 @@ SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已�
 ##### Apifox
 >Apifox是一款 API设计/开发/测试工具
 ##### 简单参数
-
+```java
+@RestController  //注释@RestController，表示这是一个Controller类
+public class RequestController {  
+    @RequestMapping("/simpleParam")    //注释RequestMapping，定义请求路径
+    public String simpleParam(String name, Integer age) {  
+        System.out.println(name + ":" + age);  
+        return "OK";  
+    }  
+}
+```
 
 
 
