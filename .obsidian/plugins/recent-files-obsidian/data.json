@@ -5,6 +5,10 @@
       "path": "计算机/四大件/计算机网络2.md"
     },
     {
+      "basename": "计算机网络 Draw",
+      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+    },
+    {
       "basename": "Obsidian特殊语法",
       "path": "临时笔记/Obsidian特殊语法.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "虚拟化CPU",
       "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
-    },
-    {
-      "basename": "计算机网络 Draw",
-      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
     },
     {
       "basename": "SpringBoot",
