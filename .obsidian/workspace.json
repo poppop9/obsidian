@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/Ajax.md",
+                "file": "考试/yidong.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -181,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "考试/yidong.md"
               }
             }
           },
@@ -191,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "考试/yidong.md"
               }
             }
           },
@@ -212,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md",
+                "file": "考试/yidong.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,7 +225,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md",
+                "file": "考试/yidong.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,11 +263,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50a8f51d71867af8",
+  "active": "3805012690ad8ea8",
   "lastOpenFiles": [
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
-    "计算机/四大件/计算机网络2.md",
+    "计算机/JavaWeb/前端/Ajax.md",
+    "考试/yidong.md",
+    "临时笔记/🌏旅行.md",
     "临时笔记/Obsidian特殊语法.md",
+    "计算机/四大件/计算机网络2.md",
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "临时笔记/MarkDown语法.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
@@ -276,7 +280,6 @@
     "计算机/计算机.md",
     "Excalidraw/计算机/四大件/计算机组成原理 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
-    "临时笔记/🌏旅行.md",
     "临时笔记/穿搭.md",
     "临时笔记/🍕美食打分.md",
     "科技美学/Mac软件.md",
@@ -288,8 +291,6 @@
     "计算机/JavaWeb/前端/HTML 5.md",
     "计算机/JavaWeb/后端/Maven.md",
     "计算机/JavaWeb/前端/Vue.md",
-    "计算机/JavaWeb/前端/Ajax.md",
-    "计算机/JavaWeb/前端/Element组件库.md",
     "计算机/JavaWeb/后端",
     "计算机/JavaWeb/前端",
     "计算机/JavaWeb",
