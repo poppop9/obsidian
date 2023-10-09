@@ -144,7 +144,7 @@ public class Address {
 GET请求：`http://localhost:8080/arrayParam?hobby=dance&hobby=game&hobby=sing`
 ```java
 @RequestMapping("/arrayParam")  
-public String ArrayParam(String[] hobby) {  
+public String ArrayParam(String[] hobby) {    //数组名与请求参数名相同
     System.out.println(Arrays.toString(hobby));  
     return "OK";  
 }
@@ -164,6 +164,7 @@ public String ListParam(@RequestParam List<String> hobby) {  //需要添加Reque
 
 [dance, game, sing]
 ```
+##### 日期参数
 
 
 
