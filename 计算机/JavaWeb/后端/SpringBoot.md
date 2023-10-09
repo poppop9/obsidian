@@ -52,6 +52,7 @@ public class RequestController {
 
 Tom:10
 ```
+***@RestController = @Controller + @ResponseBody***
 ##### 简单对象
 GET请求：`http://localhost:8080/simplePojo?name=Tom&age=20`
 ```java
@@ -211,7 +212,13 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 
 123
 ```
-
+### 响应
+```java
+@RestController  
+public class RequestController {
+	……
+}
+```
 
 
 
