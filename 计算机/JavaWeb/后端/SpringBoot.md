@@ -79,8 +79,69 @@ public class RequestController {
 
 Tom:20
 ```
+##### 复杂参数
+GET请求：`http://localhost:8080/complexPojo?name=Tom&age=20&address.province=广东&address.city=广州`
+```java
+@RequestMapping("/complexPojo")  
+public String complexPojo(User user) {  
+    System.out.println(user);  
+    return "OK";  
+}
 
 
+User{name='Tom', age=20, address=Address{province='广东', city='广州'}}
+```
+
+```java
+public class User {  
+    private String name;  
+    Integer age;  
+    Address address;  
+  
+    public String getName() {  return name;  }  
+    public void setName(String name) {  this.name = name;  }  
+  
+    public Integer getAge() {  return age;  }  
+    public void setAge(Integer age) {  this.age = age;  }  
+  
+    public Address getAddress() {  return address;  }  
+    public void setAddress(Address address) {  this.address = address;  }  
+  
+    @Override  
+    public String toString() {  
+        return "User{" +  
+                "name='" + name + '\'' +  
+                ", age=" + age +  
+                ", address=" + address +  
+                '}';  
+    }  
+}
+```
+
+```java
+package com.example.Pojo;  
+  
+public class Address {  
+    String province;  
+    String city;  
+  
+    public String getProvince() {  return province;  }  
+  
+    public void setProvince(String province) {  this.province = province;  }  
+  
+    public String getCity() {  return city;  }  
+  
+    public void setCity(String city) {  this.city = city;  }  
+  
+    @Override  
+    public String toString() {  
+        return "Address{" +  
+                "province='" + province + '\'' +  
+                ", city='" + city + '\'' +  
+                '}';  
+    }  
+}
+```
 
 
 
