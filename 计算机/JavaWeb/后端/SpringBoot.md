@@ -44,7 +44,7 @@ GET请求：`http://localhost:8080/simpleParam?name=Tom&age=10`
 public class RequestController {  
     @RequestMapping("/simpleParam")    //注释RequestMapping，定义请求路径
     public String simpleParam(String name, Integer age) {  
-        System.out.println(name + ":" + age);  
+        System.out.println(name + ":" + age);         //变量名需要和请求参数名保持一致
         return "OK";  
     }  
 }
@@ -67,7 +67,7 @@ public class RequestController {
 
     private class User {  //定义User对象
         String name;  
-        Integer age;  //定义各种参数
+        Integer age;  //定义的变量需要与请求参数保持一致
   
         public String getName() {  return name;  }  
         public void setName(String name) {  this.name = name;  }  
