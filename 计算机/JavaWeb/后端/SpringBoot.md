@@ -165,7 +165,18 @@ public String ListParam(@RequestParam List<String> hobby) {  //需要添加Reque
 [dance, game, sing]
 ```
 ##### 日期参数
+GET请求：`http://localhost:8080/dateParam?updateTime=2023-10-09 15:50:20`
+```java
+@RequestMapping("/dateParam")  
+public String DateParam(@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss") LocalDateTime updateTime) {         //添加注解来指定参数格式
+    System.out.println(updateTime);  
+    return "OK";  
+}
 
+
+2023-10-09T15:50:20
+```
+##### Json参数
 
 
 
