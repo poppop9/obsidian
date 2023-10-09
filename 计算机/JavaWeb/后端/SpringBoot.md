@@ -140,9 +140,30 @@ public class Address {
     }  
 }
 ```
+##### 数组参数
+GET请求：`http://localhost:8080/arrayParam?hobby=dance&hobby=game&hobby=sing`
+```java
+@RequestMapping("/arrayParam")  
+public String ArrayParam(String[] hobby) {  
+    System.out.println(Arrays.toString(hobby));  
+    return "OK";  
+}
 
 
+[dance, game, sing]
+```
+##### 集合参数
+GET请求：`http://localhost:8080/listParam?hobby=dance&hobby=game&hobby=sing`
+```java
+@RequestMapping("/listParam")  
+public String ListParam(@RequestParam List<String> hobby) {  //需要添加RequestParam注解
+    System.out.println(hobby);  
+    return "OK";  
+}
 
+
+[dance, game, sing]
+```
 
 
 
