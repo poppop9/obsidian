@@ -52,7 +52,33 @@ public class RequestController {
 
 Tom:10
 ```
+##### 简单对象
+GET请求：`http://localhost:8080/simplePojo?name=Tom&age=20`
+```java
+@RestController  
+public class RequestController {  
+    @RequestMapping("/simplePojo")  
+    public String simplePojo(User user) {  //把请求的参数封装成User对象
+        System.out.print(user.name);  
+        System.out.print(":");  
+        System.out.print(user.age);  
+        return "OK";  
+    }  
 
+    private class User {  //定义User对象
+        String name;  
+        Integer age;  //定义各种参数
+  
+        public String getName() {  return name;  }  
+        public void setName(String name) {  this.name = name;  }  
+        public Integer getAge() {  return age;  }  
+        public void setAge(Integer age) {  this.age = age;  }  
+    }  
+}
+
+
+Tom:20
+```
 
 
 
