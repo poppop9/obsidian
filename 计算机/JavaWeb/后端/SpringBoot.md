@@ -200,7 +200,17 @@ public String JsonParam(@RequestBody User user) {  //注解表示将json数据�
 User{name='Tom', age=20, address=Address{province='广东', city='广州'}}
 ```
 ##### 路径参数
+GET请求：`http://localhost:8080/123`
+```java
+@RequestMapping("/{id}")  
+public String PathParam(@PathVariable Integer id) {  //注解表示id是路径变量
+    System.out.println(id);          //路径名与变量名要一致
+    return "OK";  
+}
 
+
+123
+```
 
 
 
