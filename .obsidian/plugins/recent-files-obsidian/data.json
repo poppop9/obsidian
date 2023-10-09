@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "yidong",
-      "path": "考试/yidong.md"
+      "basename": "SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot.md"
+    },
+    {
+      "basename": "计算机网络 Draw",
+      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+    },
+    {
+      "basename": "计算机网络2",
+      "path": "计算机/四大件/计算机网络2.md"
     },
     {
       "basename": "Ajax",
@@ -17,24 +25,12 @@
       "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
-      "basename": "计算机网络2",
-      "path": "计算机/四大件/计算机网络2.md"
-    },
-    {
-      "basename": "计算机网络 Draw",
-      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
-    },
-    {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
     },
     {
       "basename": "虚拟化CPU",
       "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
-    },
-    {
-      "basename": "SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot.md"
     },
     {
       "basename": "操作系统 Draw",
