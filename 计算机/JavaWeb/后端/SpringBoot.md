@@ -177,7 +177,17 @@ public String DateParam(@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss") LocalDa
 2023-10-09T15:50:20
 ```
 ##### Json参数
+GET：
+```java
+@RequestMapping("/jsonParam")  
+public String JsonParam(@RequestBody User user) {  //注解表示将json数据封装成对象
+    System.out.println(user);  
+    return "OK";  
+}
 
+
+User{name='Tom', age=20, address=Address{province='广东', city='广州'}}
+```
 
 
 
