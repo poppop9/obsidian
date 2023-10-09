@@ -119,8 +119,6 @@ public class User {
 ```
 
 ```java
-package com.example.Pojo;  
-  
 public class Address {  
     String province;  
     String city;  
