@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
+    },
+    {
+      "basename": "🌏旅行",
+      "path": "临时笔记/🌏旅行.md"
+    },
+    {
       "basename": "计算机网络2",
       "path": "计算机/四大件/计算机网络2.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Ajax",
       "path": "计算机/JavaWeb/前端/Ajax.md"
-    },
-    {
-      "basename": "🌏旅行",
-      "path": "临时笔记/🌏旅行.md"
     },
     {
       "basename": "Obsidian特殊语法",
@@ -43,10 +47,6 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "🍕美食打分",
