@@ -315,8 +315,53 @@ public Result<Address> address() {
     return Result.buildResult(Result.Status.OK, address);  //传递状态码，数据
 }
 ```
-
-
+网页：
+```
+{
+    "status": "200",
+    "message": "正确",
+    "data": {
+        "province": "广东",
+        "city": "广州"
+    }
+}
+```
+##### 响应集合
+```java
+@RequestMapping("/list")  
+public Result<List<Address>> list() {  
+    List<Address> list = new ArrayList<>();  
+    Address add1 = new Address();  
+    add1.setProvince("广东");  
+    add1.setCity("广州");  
+  
+    Address add2 = new Address();  
+    add2.setProvince("福建");  
+    add2.setCity("厦门");  
+  
+    list.add(add1);  
+    list.add(add2);  
+  
+    return Result.buildResult(Result.Status.OK, list);  
+}
+```
+网页：
+```
+{
+    "status": "200",
+    "message": "正确",
+    "data": [
+        {
+            "province": "广东",
+            "city": "广州"
+        },
+        {
+            "province": "福建",
+            "city": "厦门"
+        }
+    ]
+}
+```
 
 
 
