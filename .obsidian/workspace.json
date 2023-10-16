@@ -20,14 +20,12 @@
             }
           },
           {
-            "id": "2196f668efce0b64",
+            "id": "4f6f811461ccf7fc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "临时笔记/Obsidian特殊语法.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
               }
             }
           },
@@ -40,6 +38,16 @@
                 "file": "计算机/JavaWeb/后端/SpringBoot.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "4cce9fd04e4ce540",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
               }
             }
           },
@@ -79,7 +87,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot.md"
               }
             }
           },
@@ -171,7 +180,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot.md"
               }
             }
           },
@@ -192,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +213,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,14 +251,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50a8f51d71867af8",
+  "active": "0724022f55380538",
   "lastOpenFiles": [
+    "Excalidraw/计算机/JavaWeb Draw.md",
+    "计算机/JavaWeb/后端/SpringBoot.md",
     "计算机/四大件/计算机网络2.md",
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "临时笔记/魔术.md",
     "临时笔记/穿搭.md",
     "临时笔记/🌏旅行.md",
-    "计算机/JavaWeb/后端/SpringBoot.md",
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/JavaWeb/前端/Ajax.md",
     "考试/yidong.md",
     "临时笔记/Obsidian特殊语法.md",
@@ -260,7 +270,6 @@
     "临时笔记/临时笔记.md",
     "计算机/计算机.md",
     "Excalidraw/计算机/四大件/计算机组成原理 Draw.md",
-    "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/🍕美食打分.md",
     "科技美学/Mac软件.md",
     "临时笔记/权游台词.md",
