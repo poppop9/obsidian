@@ -213,76 +213,109 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 123
 ```
 ### 响应
+***首先包装一个Result类***
 ```java
-@RestController  
-public class RequestController {
-	……
-}
-```
-##### 响应字符串
-GET请求：`http://localhost:8080/string`
-```java
-@RequestMapping("/string")  
-public String string() {  
-    return "Hello Web";  
-}
-```
-网页：
-```
-Hello Web
-```
-##### 响应对象
-GET请求：`http://localhost:8080/address`
-```java
-@RequestMapping("/address")  
-public Address address() {  
-    Address address = new Address();  
-    address.setProvince("广东");  
-    address.setCity("广州");  
-    return address;  
-}
-```
-网页：
-```
-{
-    "province": "广东",
-    "city": "广州"
-}
-```
-##### 响应集合
-GET请求：`http://localhost:8080/list`
-```java
-@RequestMapping("/list")  
-public List<Address> list() {  
-    List<Address> list = new ArrayList<>();  
-    Address add1 = new Address();  
-    add1.setProvince("广东");  
-    add1.setCity("广州");  
+public class Result<T> {   
+    private String status;      //状态码 
   
-    Address add2 = new Address();  
-    add2.setProvince("福建");  
-    add2.setCity("厦门");  
+    public String getStatus() {      //获取状态  
+        return status;  
+    }  
+   
+    private String message;      //状态信息,错误描述 
+    
+    public String getMessage() {  //获取消息内容
+        return message;  
+    }  
+   
+    private T data;      //数据 
+   
+    public T getData() {  //获取数据内容
+        return data;  
+    }  
   
-    list.add(add1);  
-    list.add(add2);  
+    private Result(String status, String message, T data) {  
+        this.status = status;  
+        this.message = message;  
+        this.data = data;  
+    }  
   
-    return list;  
+    private Result(String status, String message) {  
+        this.status = status;  
+        this.message = message;  
+    }  
+  
+    private Result(String message) {  
+        this.message = message;  
+    }  
+  
+    /**  
+     * 创建一个带有状态、消息和数据的结果对象.  
+     * @param status  状态  
+     * @param message 消息内容  
+     * @param data    数据  
+     * @return 结构数据  
+     */  
+    public static <T> Result<T> buildResult(Status status, String message, T data) {  
+        return new Result<T>(status.getCode(), message, data);  
+    }  
+  
+    /**  
+     * 创建一个带有状态、消息和数据的结果对象.  
+     * @param status  状态  
+     * @param message 消息内容  
+     * @return 结构数据  
+     */  
+    public static <T> Result<T> buildResult(Status status, String message) {  
+        return new Result<T>(status.getCode(), message);  
+    }  
+  
+    // 创建一个带有状态和数据的结果对象.  
+    public static <T> Result<T> buildResult(Status status, T data) {  
+        return new Result<T>(status.getCode(), status.getReason(), data);  
+    }  
+  
+    public static <T> Result<T> buildResult(Status status) {  
+        return new Result<T>(status.getCode(), status.getReason());  
+    }  
+  
+    public enum Status {  
+        OK("200", "正确"),  
+        BAD_REQUEST("400", "错误的请求"),  
+        UNAUTHORIZED("401", "禁止访问"),  
+        NOT_FOUND("404", "没有可用的数据"),  
+        PWD_ERROR("300", "密码错误"),  
+        EXIT("403", "已经存在"),  
+        INTERNAL_SERVER_ERROR("500", "服务器遇到了一个未曾预料的状况"),  
+        SERVICE_UNAVAILABLE("503", "服务器当前无法处理请求"),  
+        ERROR("9999", "数据不能为空");  
+  
+        // 状态码,长度固定为6位的字符串.  
+        private String code;  
+  
+        // 错误信息  
+        private String reason;  
+  
+        Status(String code, String reason) {  
+            this.code = code;  
+            this.reason = reason;  
+        }  
+  
+        public String getCode() {  
+            return code;  
+        }  
+  
+        public String getReason() {  
+            return reason;  
+        }  
+  
+        @Override  
+        public String toString() {  
+            return code + ": " + reason;  
+        }  
+    }  
 }
 ```
-网页：
-```
-[
-    {
-        "province": "广东",
-        "city": "广州"
-    },
-    {
-        "province": "福建",
-        "city": "厦门"
-    }
-]
-```
-
 
 
 
