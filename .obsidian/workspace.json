@@ -204,6 +204,35 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "c14ba0609855f9f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "计算机/JavaWeb/后端/SpringBoot.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "61629cc6ead466eb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "计算机/JavaWeb/后端/SpringBoot.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -223,8 +252,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "39882789cfb89edb",
+  "active": "0724022f55380538",
   "lastOpenFiles": [
+    "临时笔记/Obsidian特殊语法.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
     "计算机/四大件/计算机网络2.md",
@@ -234,7 +264,6 @@
     "临时笔记/🌏旅行.md",
     "计算机/JavaWeb/前端/Ajax.md",
     "考试/yidong.md",
-    "临时笔记/Obsidian特殊语法.md",
     "临时笔记/MarkDown语法.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
