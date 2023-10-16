@@ -220,7 +220,16 @@ public class RequestController {
 }
 ```
 ##### 响应字符串
+```java
+@RequestMapping("/string")  
+public String string() {  
+    System.out.println("hello web");  
+    return "Hello Web";  
+}
 
+
+hello web
+```
 
 
 ##### 响应对象
