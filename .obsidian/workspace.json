@@ -20,14 +20,6 @@
             }
           },
           {
-            "id": "f818487b0ab7dcee",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "2196f668efce0b64",
             "type": "leaf",
             "state": {
@@ -49,14 +41,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "ffe16beb8d1a9ac0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           },
           {
@@ -95,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/魔术.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -188,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/魔术.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -209,7 +192,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/魔术.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/魔术.md",
+                "file": "计算机/四大件/计算机网络2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,10 +242,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "be9e9e338af27e52",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
-    "临时笔记/穿搭.md",
     "计算机/四大件/计算机网络2.md",
+    "临时笔记/魔术.md",
+    "临时笔记/穿搭.md",
     "临时笔记/🌏旅行.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
@@ -279,7 +263,6 @@
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/🍕美食打分.md",
     "科技美学/Mac软件.md",
-    "临时笔记/魔术.md",
     "临时笔记/权游台词.md",
     "计算机/四大件/操作系统/持久性.md",
     "计算机/四大件/操作系统/基础知识.md",
