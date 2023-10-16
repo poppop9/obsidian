@@ -196,35 +196,6 @@
             }
           },
           {
-            "id": "39d0de85a062f926",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "ab2d167229e03d75",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "39882789cfb89edb",
             "type": "leaf",
             "state": {
@@ -234,7 +205,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -251,7 +223,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0724022f55380538",
+  "active": "39882789cfb89edb",
   "lastOpenFiles": [
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
