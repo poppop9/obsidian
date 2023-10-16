@@ -220,22 +220,29 @@ public class RequestController {
 }
 ```
 ##### 响应字符串
+GET请求：`http://localhost:8080/string`
 ```java
 @RequestMapping("/string")  
 public String string() {  
-    System.out.println("hello web");  
     return "Hello Web";  
 }
-
-
-hello web
 ```
-
-
+网页：Hello Web
 ##### 响应对象
-
-
-
+GET请求：`http://localhost:8080/address`
+```java
+@RequestMapping("/address")  
+public Address address() {  
+    Address address = new Address();  
+    address.setProvince("广东");  
+    address.setCity("广州");  
+    return address;  
+}
+```
+网页：{
+    "province": "广东",
+    "city": "广州"
+}
 ##### 响应集合
 
 
