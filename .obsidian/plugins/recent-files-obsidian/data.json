@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "计算机网络2",
+      "path": "计算机/四大件/计算机网络2.md"
+    },
+    {
       "basename": "SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot.md"
     },
@@ -9,12 +13,12 @@
       "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
+      "basename": "idea",
+      "path": "计算机/编程语言/Java/idea.md"
     },
     {
-      "basename": "计算机网络2",
-      "path": "计算机/四大件/计算机网络2.md"
+      "basename": "JavaWeb Draw",
+      "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
       "basename": "计算机网络 Draw",
@@ -99,10 +103,6 @@
     {
       "basename": "移动开发考试复习",
       "path": "考试/移动开发考试复习.md"
-    },
-    {
-      "basename": "idea",
-      "path": "计算机/编程语言/Java/idea.md"
     },
     {
       "basename": "如何使用把笔记同步到Github",
