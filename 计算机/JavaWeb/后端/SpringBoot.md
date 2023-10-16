@@ -213,7 +213,7 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 123
 ```
 ### 响应
-***首先包装一个Result类***
+##### 首先包装一个Result类
 ```java
 public class Result<T> {   
     private String status;      //状态码 
@@ -249,28 +249,17 @@ public class Result<T> {
         this.message = message;  
     }  
   
-    /**  
-     * 创建一个带有状态、消息和数据的结果对象.  
-     * @param status  状态  
-     * @param message 消息内容  
-     * @param data    数据  
-     * @return 结构数据  
-     */  
+    //创建一个带有状态、消息和数据的结果对象 
     public static <T> Result<T> buildResult(Status status, String message, T data) {  
         return new Result<T>(status.getCode(), message, data);  
     }  
   
-    /**  
-     * 创建一个带有状态、消息和数据的结果对象.  
-     * @param status  状态  
-     * @param message 消息内容  
-     * @return 结构数据  
-     */  
+    //创建一个带有状态、消息和数据的结果对象
     public static <T> Result<T> buildResult(Status status, String message) {  
         return new Result<T>(status.getCode(), message);  
     }  
   
-    // 创建一个带有状态和数据的结果对象.  
+    // 创建一个带有状态和数据的结果对象
     public static <T> Result<T> buildResult(Status status, T data) {  
         return new Result<T>(status.getCode(), status.getReason(), data);  
     }  
@@ -316,7 +305,16 @@ public class Result<T> {
     }  
 }
 ```
-
+##### 响应对象
+```java
+@RequestMapping("/address")  
+public Result<Address> address() {  
+    Address address = new Address();  
+    address.setProvince("广东");  
+    address.setCity("广州");  
+    return Result.buildResult(Result.Status.OK, address);  //传递状态码，数据
+}
+```
 
 
 
