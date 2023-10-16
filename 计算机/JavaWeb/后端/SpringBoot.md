@@ -227,7 +227,10 @@ public String string() {
     return "Hello Web";  
 }
 ```
-网页：Hello Web
+网页：
+```
+Hello Web
+```
 ##### 响应对象
 GET请求：`http://localhost:8080/address`
 ```java
@@ -239,13 +242,46 @@ public Address address() {
     return address;  
 }
 ```
-网页：{
+网页：
+```
+{
     "province": "广东",
     "city": "广州"
 }
+```
 ##### 响应集合
-
-
+GET请求：`http://localhost:8080/list`
+```java
+@RequestMapping("/list")  
+public List<Address> list() {  
+    List<Address> list = new ArrayList<>();  
+    Address add1 = new Address();  
+    add1.setProvince("广东");  
+    add1.setCity("广州");  
+  
+    Address add2 = new Address();  
+    add2.setProvince("福建");  
+    add2.setCity("厦门");  
+  
+    list.add(add1);  
+    list.add(add2);  
+  
+    return list;  
+}
+```
+网页：
+```
+[
+    {
+        "province": "广东",
+        "city": "广州"
+    },
+    {
+        "province": "福建",
+        "city": "厦门"
+    }
+]
+```
 
 
 
