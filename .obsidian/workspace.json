@@ -20,11 +20,13 @@
             }
           },
           {
-            "id": "4f6f811461ccf7fc",
+            "id": "cdedb0caf4ef6294",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+              }
             }
           },
           {
@@ -40,11 +42,13 @@
             }
           },
           {
-            "id": "4cce9fd04e4ce540",
+            "id": "ca75bd72de4fd4f9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
+              }
             }
           },
           {
@@ -95,8 +99,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考试/移动互联.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -188,7 +191,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "考试/移动互联.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -212,42 +215,12 @@
                 "sortOrder": "frequency"
               }
             }
-          },
-          {
-            "id": "c14ba0609855f9f4",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "考试/移动互联.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "61629cc6ead466eb",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "考试/移动互联.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 289.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -260,17 +233,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4eb8f12e0519ae99",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
-    "考试/移动互联.md",
-    "Excalidraw/杂/草稿纸.md",
+    "临时笔记/魔术.md",
     "计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
+    "考试/移动互联.md",
+    "Excalidraw/杂/草稿纸.md",
     "临时笔记/Obsidian特殊语法.md",
     "计算机/编程语言/Java/idea.md",
-    "Excalidraw/计算机/JavaWeb Draw.md",
-    "临时笔记/魔术.md",
     "临时笔记/穿搭.md",
     "临时笔记/🌏旅行.md",
     "计算机/JavaWeb/前端/Ajax.md",
