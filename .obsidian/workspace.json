@@ -91,22 +91,16 @@
             "id": "4eb8f12e0519ae99",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b02fa2a0fc5a41c4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/杂/草稿纸.md"
+                "file": "考试/移动互联.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -188,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/杂/草稿纸.md"
+                "file": "考试/移动互联.md"
               }
             }
           },
@@ -198,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/杂/草稿纸.md"
+                "file": "考试/移动互联.md"
               }
             }
           },
@@ -229,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/杂/草稿纸.md",
+                "file": "考试/移动互联.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/杂/草稿纸.md",
+                "file": "考试/移动互联.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -256,7 +250,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -269,8 +264,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b5263ffa41a34bbc",
+  "active": "4eb8f12e0519ae99",
   "lastOpenFiles": [
+    "考试/移动互联.md",
     "Excalidraw/杂/草稿纸.md",
     "计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
@@ -296,7 +292,6 @@
     "计算机/四大件/操作系统/持久性.md",
     "计算机/四大件/操作系统/基础知识.md",
     "计算机/四大件/操作系统/并发.md",
-    "计算机/JavaWeb/前端/HTML 5.md",
     "计算机/JavaWeb/后端",
     "计算机/JavaWeb/前端",
     "计算机/JavaWeb",
