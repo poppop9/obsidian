@@ -86,8 +86,27 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4eb8f12e0519ae99",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b02fa2a0fc5a41c4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/杂/草稿纸.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -169,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "Excalidraw/杂/草稿纸.md"
               }
             }
           },
@@ -179,7 +198,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "Excalidraw/杂/草稿纸.md"
               }
             }
           },
@@ -210,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md",
+                "file": "Excalidraw/杂/草稿纸.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md",
+                "file": "Excalidraw/杂/草稿纸.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,10 +269,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50a8f51d71867af8",
+  "active": "b5263ffa41a34bbc",
   "lastOpenFiles": [
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
+    "Excalidraw/杂/草稿纸.md",
     "计算机/四大件/计算机网络2.md",
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
     "临时笔记/Obsidian特殊语法.md",
     "计算机/编程语言/Java/idea.md",
@@ -277,7 +297,6 @@
     "计算机/四大件/操作系统/基础知识.md",
     "计算机/四大件/操作系统/并发.md",
     "计算机/JavaWeb/前端/HTML 5.md",
-    "计算机/JavaWeb/后端/Maven.md",
     "计算机/JavaWeb/后端",
     "计算机/JavaWeb/前端",
     "计算机/JavaWeb",
