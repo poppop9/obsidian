@@ -114,6 +114,7 @@ b901561a91f7bad355c5bd2539891b64d490ef79: https://obsidian-1307744200.cos.ap-gua
 307d5d8f2c560c3db71c2e33f94f6bfbf39b4af4: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231008162603.png
 473f636d95d5f62117c8d8a24e38639bde336606: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231008170236.png
 e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231016155137.png
+e1bae1923842974b7821979a13d22b1f0d3a1bf5: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231018153049.png
 
 %%
 # Drawing
@@ -121,7 +122,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.23",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.24",
 	"elements": [
 		{
 			"type": "image",
@@ -2347,8 +2348,8 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 228,
-			"versionNonce": 1721361795,
+			"version": 229,
+			"versionNonce": 838747968,
 			"isDeleted": false,
 			"id": "QtLJGGck72TkYMx26gKKK",
 			"fillStyle": "hachure",
@@ -2372,7 +2373,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697509353002,
+			"updated": 1697511488056,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2476,7 +2477,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"containerId": "Qr758RxJfAiNc6pAJtbCY",
 			"originalText": "对互联网开放的公司设备",
 			"lineHeight": 1.2,
-			"baseline": 35
+			"baseline": 33
 		},
 		{
 			"type": "image",
@@ -2515,8 +2516,8 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 295,
-			"versionNonce": 904412451,
+			"version": 296,
+			"versionNonce": 1093885760,
 			"isDeleted": false,
 			"id": "TjVI5WAghKLWr0q7wJkFu",
 			"fillStyle": "hachure",
@@ -2540,7 +2541,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697509353006,
+			"updated": 1697511488062,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2605,8 +2606,8 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "text",
-			"version": 278,
-			"versionNonce": 1988763804,
+			"version": 280,
+			"versionNonce": 1087672128,
 			"isDeleted": false,
 			"id": "dABIdJKH",
 			"fillStyle": "hachure",
@@ -2615,11 +2616,11 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 679.1262733815043,
+			"x": 679.1182777760356,
 			"y": 3312.6463171032083,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 176,
+			"width": 176.0159912109375,
 			"height": 38.4,
 			"seed": 1792125854,
 			"groupIds": [
@@ -2628,7 +2629,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1697422530892,
+			"updated": 1697511488064,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2640,7 +2641,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"containerId": "HKcKGzZyymT0zFlKoNRC_",
 			"originalText": "地址转换设备【不仅有路由器，还可以是防火墙】",
 			"lineHeight": 1.2,
-			"baseline": 35
+			"baseline": 33
 		},
 		{
 			"type": "image",
@@ -2832,8 +2833,8 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 247,
-			"versionNonce": 617259203,
+			"version": 248,
+			"versionNonce": 771794752,
 			"isDeleted": false,
 			"id": "3cu2yW_5Q06R_k682BzJP",
 			"fillStyle": "hachure",
@@ -2857,7 +2858,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697509353010,
+			"updated": 1697511488067,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2957,7 +2958,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"containerId": "zHzF9ygyM7qe_KqFdzlpZ",
 			"originalText": "电话机",
 			"lineHeight": 1.2,
-			"baseline": 16
+			"baseline": 14
 		},
 		{
 			"type": "ellipse",
@@ -2997,8 +2998,8 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 371,
-			"versionNonce": 1341492227,
+			"version": 373,
+			"versionNonce": 1089460032,
 			"isDeleted": false,
 			"id": "lDSYTrLsFkejiy_akpxPs",
 			"fillStyle": "hachure",
@@ -3022,7 +3023,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697509353014,
+			"updated": 1697511488072,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3130,7 +3131,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"containerId": "abocY8Q6sH6-AQhc6rXPC",
 			"originalText": "用户端分离器",
 			"lineHeight": 1.2,
-			"baseline": 35
+			"baseline": 33
 		},
 		{
 			"type": "arrow",
@@ -3228,8 +3229,8 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 236,
-			"versionNonce": 1560932995,
+			"version": 240,
+			"versionNonce": 799684416,
 			"isDeleted": false,
 			"id": "qiGITENW30qQtejXz6qKg",
 			"fillStyle": "hachure",
@@ -3238,12 +3239,12 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 483.95916560595083,
-			"y": 4191.59859909097,
+			"x": 483.95916560595094,
+			"y": 4191.598599090952,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 44.15094498948906,
-			"height": 7.50015217327109,
+			"width": 44.15094498948895,
+			"height": 7.500152173279275,
 			"seed": 1560714242,
 			"groupIds": [
 				"QYK8P9GO7KL4qlWqyucjt"
@@ -3253,7 +3254,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697509353019,
+			"updated": 1697511488078,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3275,8 +3276,8 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 					0
 				],
 				[
-					44.15094498948906,
-					7.50015217327109
+					44.15094498948895,
+					7.500152173279275
 				]
 			]
 		},
@@ -3326,8 +3327,8 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "text",
-			"version": 223,
-			"versionNonce": 20658716,
+			"version": 225,
+			"versionNonce": 1043633984,
 			"isDeleted": false,
 			"id": "s8IJtfdM",
 			"fillStyle": "hachure",
@@ -3336,11 +3337,11 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 538.6762070883459,
+			"x": 538.6602082480139,
 			"y": 4196.289002656746,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 80,
+			"width": 80.03199768066406,
 			"height": 19.2,
 			"seed": 1896727198,
 			"groupIds": [
@@ -3349,7 +3350,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1697422530903,
+			"updated": 1697511488080,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -3361,12 +3362,12 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"containerId": "2SVjF8AXqUvDDsd-kc2Dx",
 			"originalText": "室内电话线",
 			"lineHeight": 1.2,
-			"baseline": 16
+			"baseline": 14
 		},
 		{
 			"type": "arrow",
-			"version": 424,
-			"versionNonce": 192354563,
+			"version": 428,
+			"versionNonce": 1760020288,
 			"isDeleted": false,
 			"id": "EYVrbK7W56_AbfdvSvL7g",
 			"fillStyle": "hachure",
@@ -3390,7 +3391,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697509353023,
+			"updated": 1697511488084,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3498,12 +3499,12 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"containerId": "WYUm65y4yBGuZdb1ZhY4K",
 			"originalText": "外部电话线",
 			"lineHeight": 1.2,
-			"baseline": 16
+			"baseline": 14
 		},
 		{
 			"type": "arrow",
-			"version": 700,
-			"versionNonce": 148701059,
+			"version": 704,
+			"versionNonce": 1680484160,
 			"isDeleted": false,
 			"id": "bzvMJb-3jN3G2QUW-Ovy2",
 			"fillStyle": "hachure",
@@ -3513,11 +3514,11 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"opacity": 100,
 			"angle": 0,
 			"x": 407.8838011851325,
-			"y": 4277.766473155358,
+			"y": 4277.766473155387,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 45.89364900684717,
-			"height": 12.97145178149367,
+			"width": 45.893649006783676,
+			"height": 12.971451781464566,
 			"seed": 720238686,
 			"groupIds": [
 				"QYK8P9GO7KL4qlWqyucjt"
@@ -3527,7 +3528,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697509353037,
+			"updated": 1697511488089,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3549,8 +3550,8 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 					0
 				],
 				[
-					-45.89364900684717,
-					12.97145178149367
+					-45.893649006783676,
+					12.971451781464566
 				]
 			]
 		},
@@ -3635,12 +3636,12 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 			"containerId": "Cr2gvkVTxvF77wE0BPW0O",
 			"originalText": "电话局的电话电缆",
 			"lineHeight": 1.2,
-			"baseline": 16
+			"baseline": 14
 		},
 		{
 			"type": "arrow",
-			"version": 230,
-			"versionNonce": 347608867,
+			"version": 231,
+			"versionNonce": 48447296,
 			"isDeleted": false,
 			"id": "sKGO6jrlj0PwhUeg0zc6_",
 			"fillStyle": "hachure",
@@ -3664,7 +3665,7 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1697509353037,
+			"updated": 1697511488089,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4463,6 +4464,39 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"type": "image",
+			"version": 14,
+			"versionNonce": 1065338688,
+			"isDeleted": false,
+			"id": "lV5zpHvG",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2058.596993685774,
+			"y": 3823.6252106198826,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 210.9375,
+			"seed": 70820,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1697614259083,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "e1bae1923842974b7821979a13d22b1f0d3a1bf5",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -4480,10 +4514,10 @@ e08bcfe10d64b6202264605ddef6e949a4956008: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 3987.3240024322367,
-		"scrollY": 1466.9534641401056,
+		"scrollX": -1473.0340718571754,
+		"scrollY": -3459.503923495677,
 		"zoom": {
-			"value": 0.1
+			"value": 0.7093421652913093
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
