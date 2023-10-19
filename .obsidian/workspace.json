@@ -99,7 +99,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
               }
             }
           },
@@ -191,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
               }
             }
           },
@@ -233,11 +234,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50a8f51d71867af8",
+  "active": "4eb8f12e0519ae99",
   "lastOpenFiles": [
+    "计算机/四大件/计算机网络2.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "考试/移动互联.md",
-    "计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/魔术.md",
