@@ -99,8 +99,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -192,7 +191,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -234,8 +233,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "be9e9e338af27e52",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
+    "临时笔记/穿搭.md",
     "临时笔记/魔术.md",
     "临时笔记/🌏旅行.md",
     "临时笔记/MarkDown语法.md",
@@ -251,7 +251,6 @@
     "Excalidraw/计算机/JavaWeb Draw.md",
     "Excalidraw/杂/草稿纸.md",
     "计算机/编程语言/Java/idea.md",
-    "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端/Ajax.md",
     "考试/yidong.md",
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
