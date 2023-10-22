@@ -596,12 +596,8 @@ public class FunctionDemo {
 		    }  
 		}
 		```
-
-
-
 ### 接口中的静态方法
 >public static ……
-
 ##### 注意事项
 - <mark style="background: #D2B3FFA6;">静态方法只能通过接口名调用，不能通过实现类名调用</mark>（***所以与默认方法不同，就算有一个实现类同时实现了两个接口，且这两个接口有同名的静态方法，也不会强制重写***）
 	```java
