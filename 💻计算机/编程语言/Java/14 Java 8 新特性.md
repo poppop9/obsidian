@@ -67,9 +67,9 @@ public class EatableDemo {
 - 如果参数只有一个，那么小括号可以省略
 - 如果大括号里的语句只有一条，那么可以省略大括号和分号和return
 	```java
-	useEatable((int a, int b) -> {       ------------>
-		return a + b;                    ------------>   useEatable((a, b) -> a + b);
-	});                                  ------------>
+	useEatable((int a, int b) -> {      --------->
+		return a + b;                   --------->   useEatable((a, b) -> a + b);
+	});                                 --------->
 	```
 # 方法引用
 ### 概述
@@ -281,8 +281,6 @@ public class SupplierDemo {
 
 88
 ```
-
-
 ##### Consumer
 ```
 @FunctionalInterface 
@@ -306,8 +304,6 @@ public class ConsumerDemo {
 
 3
 ```
-
-
 ##### Predicate
 ```
 @FunctionalInterface 
@@ -382,8 +378,6 @@ public interface Predicate<T>
 
 	false
 	```
-
-
 ##### Function
 ```
 @FunctionalInterface
