@@ -91,8 +91,12 @@
             "id": "c5819302ef1c08eb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "💻计算机/编程语言/Java/14 类加载器，反射.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -177,7 +181,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "💻计算机/编程语言/Java/14 类加载器，反射.md"
+              }
             }
           },
           {
@@ -185,7 +191,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "💻计算机/编程语言/Java/14 类加载器，反射.md"
+              }
             }
           },
           {
@@ -215,6 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "💻计算机/编程语言/Java/14 类加载器，反射.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,6 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "💻计算机/编程语言/Java/14 类加载器，反射.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,6 +265,12 @@
   },
   "active": "c5819302ef1c08eb",
   "lastOpenFiles": [
+    "💻计算机/编程语言/Java/13 Java 8 新特性.md",
+    "💻计算机/编程语言/Java/09 类与对象.md",
+    "💻计算机/编程语言/Java/12 接口.md",
+    "💻计算机/编程语言/Java/11 泛型.md",
+    "💻计算机/编程语言/Java/07 常用API.md",
+    "💻计算机/编程语言/Java/01 Java的理论知识.md",
     "临时笔记/穿搭.md",
     "临时笔记/🌏旅行.md",
     "临时笔记/Obsidian特殊语法.md",
@@ -271,16 +287,10 @@
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "Excalidraw/杂/草稿纸.md",
-    "💻计算机/编程语言/Java/idea.md",
+    "💻计算机/编程语言/Java/00 idea.md",
     "💻计算机/JavaWeb/前端/Ajax.md",
     "考试/yidong.md",
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
-    "Excalidraw/Excalidraw.md",
-    "临时笔记/临时笔记.md",
-    "计算机/计算机.md",
-    "Excalidraw/计算机/四大件/计算机组成原理 Draw.md",
-    "临时笔记/🍕美食打分.md",
-    "科技美学/Mac软件.md",
     "💻计算机/JavaWeb/后端",
     "💻计算机/JavaWeb/前端",
     "💻计算机/JavaWeb",

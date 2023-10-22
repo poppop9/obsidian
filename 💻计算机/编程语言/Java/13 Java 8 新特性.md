@@ -7,7 +7,6 @@
 ->：表示指向要做的事情
 {}：大括号里的内容表示需要做的事情（方法体内容）
 ```
-
 ### 有什么用？
 ##### 简化代码
 - [x] 使用匿名内部类实现多线程时
@@ -30,22 +29,16 @@
 	  }).start();
 	}
 	```
-
-
 ##### 简化字节码文件
 - [x] 使用匿名内部类时，会在编译之后，单独产生一个字节码文件[^1]
 - [x] 使用Lambda表达式时，编译之后不会单独产生一个字节码文件，而是在运行时动态生成
 
 [^1]:当然在注释相应的匿名内部类代码之后，该字节码文件会消失
-
 ### 使用前提
 ##### 这个类要有一个接口
 >比如需要的MyRunnable这个类有一个接口Runnable
-
 ##### 这个接口中有且仅有一个抽象方法
 >比如Runnable接口里只有一个抽象方法run方法
-
-
 ### 实现有参数和返回值的抽象方法
 ```java
 public interface Eatable {  
@@ -70,7 +63,6 @@ public class EatableDemo {
 
 3
 ```
-
 ### 还能怎么省略
 ##### 小括号里的参数类型可以省略
 
@@ -82,13 +74,9 @@ useEatable((int a, int b) -> {       -------------->
 	return a + b;                    -------------->        useEatable((a, b) -> a + b);
 });                                  -------------->
 ```
-
-
-
 # 方法引用
 ### 概述
 >方法引用符”::“
-
 ### 引用类的静态方法
 ```java
 public interface parseInt {  
@@ -106,7 +94,6 @@ public class Demo {
     }  
 }
 ```
-
 ### 引用对象的实例方法
 ```java
 public interface Printable {  
@@ -128,7 +115,6 @@ public class Demo {
 
 Hello Java
 ```
-
 ### 引用类的实例方法
 ```java
 public interface SubString {  
@@ -146,7 +132,6 @@ public class Demo {
     }  
 }
 ```
-
 ### 引用构造方法
 ```java
 public class student {  
@@ -193,17 +178,12 @@ public class Demo3 {
     }  
 }
 ```
-
 ### 作用
-- [x] 使得代码更加简洁
-
-
-
+- 使得代码更加简洁
 # 函数式接口
 >有且仅有一个抽象方法的接口[^2]
 
 [^2]:函数式接口完全就是为了Lambda表达式而打造的，它的概念就是Lambda表达式的使用前提
-
 ### 函数式接口用作局部变量
 ```java
 @FunctionalInterface               //这是一个注解，告诉别人这是函数式接口。
@@ -222,10 +202,8 @@ public class Demo {
 
 函数式接口
 ```
-
 ### 函数式接口作为方法参数
 >上述已经写了很多了
-
 ### 函数式接口作为方法的返回值
 ```java
 public class ComparatorDemo {  
@@ -267,7 +245,6 @@ public class ComparatorDemo {
 刘德华
 欧阳娜娜
 ```
-
 ### 常用的函数式接口
 ##### Supplier
 ```
