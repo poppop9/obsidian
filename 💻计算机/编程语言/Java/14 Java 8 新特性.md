@@ -353,29 +353,28 @@ false
 >结果虽然相同但是理念不同
 >>前者表达的是，返回一个predicate对象调用test方法之后结果的非
 >>后者表达的是，返回一个predicate对象的逻辑非后，再调用test方法的结果
+###### and()，or()
+```java
+public static void main(String[] args) {  
+	Boolean b = CheckString("吴彦祖", (String s) -> {  
+		return s.equals("吴彦祖");  
+	}, (String s) -> {  
+		return s.equals("陈冠希");  
+	});  
 
-- [x] and()，or()
-	```java
-	public static void main(String[] args) {  
-		Boolean b = CheckString("吴彦祖", (String s) -> {  
-			return s.equals("吴彦祖");  
-		}, (String s) -> {  
-			return s.equals("陈冠希");  
-		});  
-  
-		System.out.println(b);  
-	}  
-  
-	public static boolean CheckString(String s, Predicate<String> pre1, Predicate<String> pre2)     {  
-		//boolean b1 = pre1.test(s);  
-		//boolean b2 = pre2.test(s);              //可用这三条语句代替，但是表意不同
-		//return b3 = b1 && b2;  
-		return pre1.and(pre2).test(s);  
-	}
+	System.out.println(b);  
+}  
+
+public static boolean CheckString(String s, Predicate<String> pre1, Predicate<String> pre2)     {  
+	//boolean b1 = pre1.test(s);  
+	//boolean b2 = pre2.test(s);              //可用这三条语句代替，但是表意不同
+	//return b3 = b1 && b2;  
+	return pre1.and(pre2).test(s);  
+}
 
 
-	false
-	```
+false
+```
 ##### Function
 ```
 @FunctionalInterface
@@ -403,22 +402,17 @@ public class FunctionDemo {
 
 100
 ```
-
 # 接口的组成更新
 ### 概述
 >***Java 8之前***，接口中只有<u>常量</u>和<u>抽象方法</u>
 >***Java 8 之后***，接口中加入了<u>默认方法</u>和<u>静态方法</u>
 >***Java 9之后***，接口中加入了<u>私有方法</u>
-
 ### 接口中的默认方法
 >public default ……
-
 ##### 注意事项
 - ***默认方法中可以有方法体***
-
-- <mark style="background: #D2B3FFA6;">接口中的默认方法不会让实现类去强制重写</mark>
-
-- <mark style="background: #D2B3FFA6;">而且就算实现类不重写，测试类也可以直接调用</mark>
+- ==接口中的默认方法不会让实现类去强制重写==
+- ==而且就算实现类不重写，测试类也可以直接调用==
 	```java
 	public interface MyInterface {  
 	    void show1();  
@@ -448,8 +442,7 @@ public class FunctionDemo {
 	111show1
 	show3
 	```
-
-- <mark style="background: #D2B3FFA6;">不过需要注意：当一个实现类实现了多个接口且这多个接口中有同名的默认方法时，那么在实现类中也必须重写该默认方法</mark>
+- ==不过需要注意：当一个实现类实现了多个接口且这多个接口中有同名的默认方法时，那么在实现类中也必须重写该默认方法==
 	```java
 	public interface MyInterface1 {  
 	    void show1();  
@@ -492,8 +485,6 @@ public class FunctionDemo {
 	111show1
 	我是1接口中的默认方法
 	```
-
-
 ##### 作用
 >让你更加灵活地在接口中加入新的方法，而不破坏现有代码
 
