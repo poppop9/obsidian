@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💻计算机/编程语言/Java/15 类加载器，反射.md",
+                "file": "💻计算机/编程语言/Java/14 Java 8 新特性.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/编程语言/Java/15 类加载器，反射.md"
+                "file": "💻计算机/编程语言/Java/14 Java 8 新特性.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/编程语言/Java/15 类加载器，反射.md"
+                "file": "💻计算机/编程语言/Java/14 Java 8 新特性.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💻计算机/编程语言/Java/15 类加载器，反射.md",
+                "file": "💻计算机/编程语言/Java/14 Java 8 新特性.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💻计算机/编程语言/Java/15 类加载器，反射.md",
+                "file": "💻计算机/编程语言/Java/14 Java 8 新特性.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,8 +263,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b5263ffa41a34bbc",
+  "active": "c5819302ef1c08eb",
   "lastOpenFiles": [
+    "💻计算机/编程语言/Java/15 类加载器，反射.md",
     "💻计算机/编程语言/Java/14 Java 8 新特性.md",
     "💻计算机/编程语言/Java/10 类与对象.md",
     "💻计算机/编程语言/Java/13 接口.md",
@@ -290,7 +291,6 @@
     "💻计算机/编程语言/Java/01 idea.md",
     "💻计算机/JavaWeb/前端/4 Ajax.md",
     "考试/yidong.md",
-    "Excalidraw/计算机/四大件/操作系统 Draw.md",
     "💻计算机/JavaWeb/后端",
     "💻计算机/JavaWeb/前端",
     "💻计算机/JavaWeb",
