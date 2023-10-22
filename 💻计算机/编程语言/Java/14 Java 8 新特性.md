@@ -248,7 +248,7 @@ public class ComparatorDemo {
 @FunctionalInterface 
 public interface Supplier<T>
 ```
-***是一个<mark style="background: #D2B3FFA6;">生产型接口</mark>，get()方法不用参数，而且还返回（生产）一个泛型***
+***是一个生产型接口，get()方法不用参数，而且还返回（生产）一个泛型***
 >[!summary]
 >T get()  ------返回一个泛型T
 
@@ -315,46 +315,44 @@ public interface Predicate<T>
 >default Predicate<\T> negate()  ------返回一个逻辑的否定（逻辑非）
 >default Predicate<\T> and(Predicate other)  ------返回一个组合判断（逻辑与）
 >default Predicate<\T> or(Predicate other)  ------返回一个组合判断（逻辑或）
+###### test()
+```java
+public static void main(String[] args) {  
+	Boolean b = CheckString("吴彦祖", (String s) -> {  
+		return s.equals("吴彦祖");  
+	});  
+  
+	System.out.println(b);  
+}  
+  
+public static boolean CheckString(String s, Predicate<String> pre) {  
+	return pre.test(s);         
+}
 
-- [x] test()
-	```java
-	public static void main(String[] args) {  
-	    Boolean b = CheckString("吴彦祖", (String s) -> {  
-	        return s.equals("吴彦祖");  
-	    });  
-	  
-	    System.out.println(b);  
-	}  
-	  
-	public static boolean CheckString(String s, Predicate<String> pre) {  
-	    return pre.test(s);         
-	}
-	
-	
-	true
-	```
 
-- [x] negate()
-	```java
-	public static void main(String[] args) {  
-	    Boolean b = CheckString("吴彦祖", (String s) -> {  
-	        return s.equals("吴彦祖");  
-	    });  
-	  
-	    System.out.println(b);  
-	}  
-	  
-	public static boolean CheckString(String s, Predicate<String> pre) {  
-	    return pre.negate().test(s);              //先对pre进行negate操作，然后调用test()
-	}
-	
-	
-	false
-	```
-	- 为什么不直接return !pre.test(s)，而是return pre.negate().test(s)？
-		>结果虽然相同但是理念不同。
-		>		前者表达的是，返回一个predicate对象调用test方法之后结果的非
-		>		后者表达的是，返回一个predicate对象的逻辑非后，再调用test方法的结果
+true
+```
+###### negate()
+```java
+public static void main(String[] args) {  
+	Boolean b = CheckString("吴彦祖", (String s) -> {  
+		return s.equals("吴彦祖");  
+	});  
+  
+	System.out.println(b);  
+}  
+  
+public static boolean CheckString(String s, Predicate<String> pre) {  
+	return pre.negate().test(s);              //先对pre进行negate操作，然后调用test()
+}
+
+
+false
+```
+>[!faq] 为什么不直接return !pre.test(s)，而是return pre.negate().test(s)？
+>结果虽然相同但是理念不同
+>>前者表达的是，返回一个predicate对象调用test方法之后结果的非
+>>后者表达的是，返回一个predicate对象的逻辑非后，再调用test方法的结果
 
 - [x] and()，or()
 	```java
