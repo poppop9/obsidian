@@ -99,8 +99,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "💻计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -192,7 +191,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "💻计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -223,7 +222,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "💻计算机/四大件/计算机网络2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +239,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "💻计算机/四大件/计算机网络2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,12 +262,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b5263ffa41a34bbc",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
+    "临时笔记/穿搭.md",
     "考试/移动开发考试复习.md",
     "💻计算机/JavaWeb/后端/SpringBoot.md",
     "💻计算机/四大件/计算机网络2.md",
-    "临时笔记/穿搭.md",
     "临时笔记/魔术.md",
     "临时笔记/🌏旅行.md",
     "临时笔记/MarkDown语法.md",
