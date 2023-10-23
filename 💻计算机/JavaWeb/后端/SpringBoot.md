@@ -469,10 +469,11 @@ GET请求：`http://localhost:8080/emp`
 ##### 控制反转 IOC
 >对象的创建控制权由程序自身转移到容器【本身由EmpController自身创建EmpService对象，变为由容器创建对象】
 
-***添加`@`注释***
+***添加***`@Component`***注释***
 ##### 依赖注入
 >容器为应用程序提供运行时所依赖的资源【容器为EmpController提供运行时所需要的EmpService对象】
 
+***添加***`@Autowired`***注释***
 
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=g1pvEhriTd5poW0zM1k4o|500]]
 
