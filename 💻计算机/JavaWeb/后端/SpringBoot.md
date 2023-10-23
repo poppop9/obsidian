@@ -473,6 +473,28 @@ GET请求：`http://localhost:8080/emp`
 		@Service  
 		public class EmpServiceB implements EmpServie {……}
 		```
+	- 添加`@Qualifier`注释
+		```java
+		package com.example.web_2.Controller;  
+		
+		@RestController  
+		public class EmpConteoller {  
+		    @Qualifier("empServiceB")  //指定使用哪个Bean对象
+		    @Autowired  
+		    private EmpServie empServie;  
+		  
+		    @RequestMapping("/emp")  
+		    public Result listEmp() {  
+		        List<String> list = empServie.listEmp();  
+		        return Result.buildResult(Result.Status.OK, list);  
+		    }  
+		}
+		```
+
+
+
+
+
 ---
 
 ```java
