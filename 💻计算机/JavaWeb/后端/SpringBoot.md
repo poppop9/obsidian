@@ -365,6 +365,7 @@ public Result<List<Address>> list() {
 ### 分层解耦
 ##### Dao
 >Dao层的作用是获取数据【文件数据，xml数据，json数据等】
+
 ```java
 package com.example.web_2.Dao;  
 
@@ -392,6 +393,7 @@ public class EmpDaoA implements EmpDao {
 ```
 ##### Service
 >Sevice层的作用是处理数据
+
 ```java
 package com.example.web_2.Service;  
   
