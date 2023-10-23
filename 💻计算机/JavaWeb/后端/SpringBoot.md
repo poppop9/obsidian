@@ -454,10 +454,10 @@ GET请求：`http://localhost:8080/emp`
 	- 如果是控制器类上就用`@Controller`
 	- 如果是逻辑处理Service类就用`@Service`
 	- 如果是访问Dao类上就用`@Repository`
-##### 依赖注入
+##### 依赖注入 DI
 >容器为应用程序提供运行时所依赖的资源【容器为EmpController提供运行时所需要的EmpService对象】
 
-***添加***`@Autowired`***注释***
+- ***添加***`@Autowired`***注释***【只有同一个类型的类声明了一个注解时才能使用】
 
 ---
 
