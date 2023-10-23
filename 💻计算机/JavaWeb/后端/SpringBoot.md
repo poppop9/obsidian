@@ -368,8 +368,6 @@ public Result<List<Address>> list() {
 
 ```java
 package com.example.web_2.Dao;  
-
-import java.util.List;  
   
 public interface EmpDao {  //定义一个接口，固定格式
     public List<String> listEmp();  
@@ -378,9 +376,6 @@ public interface EmpDao {  //定义一个接口，固定格式
 
 ```java
 package com.example.web_2.Dao;  
-  
-import java.util.ArrayList;  
-import java.util.List;  
 
 //加载数据【文件数据，xml数据，json数据等】
 public class EmpDaoA implements EmpDao {    
@@ -396,9 +391,7 @@ public class EmpDaoA implements EmpDao {
 
 ```java
 package com.example.web_2.Service;  
-  
-import java.util.List;  
-  
+
 public interface EmpServie {  
     public List<String> listEmp();  
 }
@@ -406,11 +399,6 @@ public interface EmpServie {
 
 ```java
 package com.example.web_2.Service;  
-  
-import com.example.web_2.Dao.EmpDao;  
-import com.example.web_2.Dao.EmpDaoA;  
-  
-import java.util.List;  
   
 //对数据进行逻辑处理，返回给Controller类  
 public class EmpServiceA implements EmpServie {  
@@ -429,15 +417,7 @@ public class EmpServiceA implements EmpServie {
 
 ```java
 package com.example.web_2.Controller;  
-  
-import com.example.web_2.Pojo.Result;  
-import com.example.web_2.Service.EmpServiceA;  
-import com.example.web_2.Service.EmpServie;  
-import org.springframework.web.bind.annotation.RequestMapping;  
-import org.springframework.web.bind.annotation.RestController;  
 
-import java.util.List;  
-  
 //获取Service发来的数据，并响应数据给前端  
 @RestController  
 public class EmpConteoller {  
@@ -466,6 +446,7 @@ GET请求：`http://localhost:8080/emp`
 ```
 ### 解耦
 >以上的分层方式，实现了***高内聚***，但是依然没有实现***低耦合***【Controller中还是有依赖Service，Service还是有依赖Dao】
+>![[Excalidraw/计算机/JavaWeb Draw.md#^group=g1pvEhriTd5poW0zM1k4o|500]]
 ##### 控制反转 IOC
 >对象的创建控制权由程序自身转移到容器【本身由EmpController自身创建EmpService对象，变为由容器创建对象】
 
@@ -475,11 +456,10 @@ GET请求：`http://localhost:8080/emp`
 
 ***添加***`@Autowired`***注释***
 
+---
 
 ```java
-import org.springframework.stereotype.Component;  
-
-@Component  
+@Component  //将这个类交给IOC容器处理，成为IOC容器中的Bean
 public class EmpDaoA implements EmpDao {  
     //加载数据【文件数据，xml数据，json数据等】  
     @Override  
@@ -490,8 +470,36 @@ public class EmpDaoA implements EmpDao {
 }
 ```
 
+```java
+package com.example.web_2.Service;  
 
+@Component //将这个类交给IOC容器处理，成为IOC容器中的Bean  
+public class EmpServiceA implements EmpServie {  
+    @Autowired  //程序运行时，IOC容器会为这个变量提供Bean对象  
+    private EmpDao empDao;  
+  
+    @Override  
+    public List<String> listEmp() {  
+        List<String> emplist = empDao.listEmp();  
+        emplist.add("黎明");  
+        return emplist;  
+    }  
+}
+```
 
+```java
+@RestController  
+public class EmpConteoller {  
+    @Autowired  //程序运行时，IOC容器会为这个变量提供Bean对象
+    private EmpServie empServie;  
+  
+    @RequestMapping("/emp")  
+    public Result listEmp() {  
+        List<String> list = empServie.listEmp();  
+        return Result.buildResult(Result.Status.OK, list);  
+    }  
+}
+```
 
 
 
