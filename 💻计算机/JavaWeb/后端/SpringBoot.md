@@ -458,7 +458,21 @@ GET请求：`http://localhost:8080/emp`
 >容器为应用程序提供运行时所依赖的资源【容器为EmpController提供运行时所需要的EmpService对象】
 
 - ***添加***`@Autowired`***注释***【只有同一个类型的类声明了一个注解时才能使用】
+	- 添加`@Primary`注释
+		```java
+		package com.example.web_2.Service;  
+		  
+		@Service
+		public class EmpServiceA implements EmpServie {……}
+		```
 
+		```java
+		package com.example.web_2.Service;  
+		  
+		@Primary  //表示优先这个Service类
+		@Service  
+		public class EmpServiceB implements EmpServie {……}
+		```
 ---
 
 ```java
