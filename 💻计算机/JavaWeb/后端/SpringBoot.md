@@ -457,7 +457,7 @@ GET请求：`http://localhost:8080/emp`
 ##### 依赖注入 DI
 >容器为应用程序提供运行时所依赖的资源【容器为EmpController提供运行时所需要的EmpService对象】
 
-- ***添加***`@Autowired`***注释***【只有同一个类型的类声明了一个注解时才能使用】
+- ***添加***`@Autowired`***注释***【通过类型注入==单个注解单个依赖==】
 	- 添加`@Primary`注释
 		```java
 		package com.example.web_2.Service;  
@@ -465,7 +465,6 @@ GET请求：`http://localhost:8080/emp`
 		@Service
 		public class EmpServiceA implements EmpServie {……}
 		```
-
 		```java
 		package com.example.web_2.Service;  
 		  
@@ -479,7 +478,7 @@ GET请求：`http://localhost:8080/emp`
 		
 		@RestController  
 		public class EmpConteoller {  
-		    @Qualifier("empServiceB")  //指定使用哪个Bean对象
+		    @Qualifier("empServiceB")  //指定使用的Bean对象的名称【默认为类名首字母小写】
 		    @Autowired  
 		    private EmpServie empServie;  
 		  
@@ -490,7 +489,22 @@ GET请求：`http://localhost:8080/emp`
 		    }  
 		}
 		```
+	- 添加`@Resource`注释【通过名称注入依赖】
+```java
+package com.example.web_2.Controller;  
 
+@RestController  
+public class EmpConteoller {  
+    @Resource(name = "empServiceB")  //直接指定Bean的名称
+    private EmpServie empServie;  
+  
+    @RequestMapping("/emp")  
+    public Result listEmp() {  
+        List<String> list = empServie.listEmp();  
+        return Result.buildResult(Result.Status.OK, list);  
+    }  
+}
+```
 
 
 
