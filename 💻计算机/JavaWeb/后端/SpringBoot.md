@@ -450,12 +450,26 @@ public class EmpConteoller {
     }  
 }
 ```
+---
+GET请求：`http://localhost:8080/emp`
+```json
+{
+    "status": "200",
+    "message": "正确",
+    "data": [
+        "吴彦祖",
+        "陈冠希",
+        "金城武",
+        "黎明"
+    ]
+}
+```
 ### 解耦
 >以上的分层方式，实现了***高内聚***，但是依然没有实现***低耦合***【Controller中还是有依赖Service，Service还是有依赖Dao】
-
 ##### 控制反转 IOC
 >对象的创建控制权由程序自身转移到容器【本身由EmpController自身创建EmpService对象，变为由容器创建对象】
 
+***添加`@`注释***
 ##### 依赖注入
 >容器为应用程序提供运行时所依赖的资源【容器为EmpController提供运行时所需要的EmpService对象】
 
