@@ -362,6 +362,22 @@ public Result<List<Address>> list() {
     ]
 }
 ```
+### 分层解耦
+##### Dao
+```java
+package com.example.web_2.Dao;  
+  
+import java.util.List;  
+  
+public interface EmpDao {  
+    public List<String> listEmp();  
+}
+```
+
+##### Service
+
+
+##### Controller
 
 
 

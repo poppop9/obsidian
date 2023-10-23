@@ -86,21 +86,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c5819302ef1c08eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "💻计算机/编程语言/Java/06 集合.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -182,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/编程语言/Java/06 集合.md"
+                "file": "💻计算机/JavaWeb/后端/SpringBoot.md"
               }
             }
           },
@@ -192,7 +180,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/编程语言/Java/06 集合.md"
+                "file": "💻计算机/JavaWeb/后端/SpringBoot.md"
               }
             }
           },
@@ -217,8 +205,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -235,11 +222,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c5819302ef1c08eb",
+  "active": "0724022f55380538",
   "lastOpenFiles": [
+    "临时笔记/穿搭.md",
+    "💻计算机/编程语言/Java/06 集合.md",
     "💻计算机/编程语言/Java/14 Java 8 新特性.md",
     "💻计算机/JavaWeb/后端/SpringBoot.md",
-    "临时笔记/穿搭.md",
     "💻计算机/编程语言/Java/15 类加载器，反射.md",
     "💻计算机/编程语言/Java/10 类与对象.md",
     "💻计算机/编程语言/Java/13 接口.md",
@@ -262,7 +250,6 @@
     "Excalidraw/杂/草稿纸.md",
     "💻计算机/编程语言/Java/01 idea.md",
     "💻计算机/JavaWeb/前端/4 Ajax.md",
-    "考试/yidong.md",
     "💻计算机/JavaWeb/后端",
     "💻计算机/JavaWeb/前端",
     "💻计算机/JavaWeb",
