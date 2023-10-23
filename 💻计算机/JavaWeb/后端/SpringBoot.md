@@ -475,9 +475,20 @@ GET请求：`http://localhost:8080/emp`
 
 ***添加***`@Autowired`***注释***
 
-![[Excalidraw/计算机/JavaWeb Draw.md#^group=g1pvEhriTd5poW0zM1k4o|500]]
 
+```java
+import org.springframework.stereotype.Component;  
 
+@Component  
+public class EmpDaoA implements EmpDao {  
+    //加载数据【文件数据，xml数据，json数据等】  
+    @Override  
+    public List<String> listEmp() {  
+        List<String> list1 = new ArrayList(List.of("吴彦祖", "陈冠希", "金城武"));  
+        return list1;  
+    }  
+}
+```
 
 
 
