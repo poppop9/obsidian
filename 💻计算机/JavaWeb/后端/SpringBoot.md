@@ -362,7 +362,7 @@ public Result<List<Address>> list() {
     ]
 }
 ```
-### 分层解耦
+### 分层
 ##### Dao
 >Dao层的作用是获取数据【文件数据，xml数据，json数据等】
 
@@ -450,7 +450,8 @@ public class EmpConteoller {
     }  
 }
 ```
-
+### 解耦
+>以上的分层方式，实现了***高内聚***，但是依然没有实现***低耦合***【Controller中还是有依赖Service，Service还是有依赖Dao】
 
 
 
