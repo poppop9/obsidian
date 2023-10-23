@@ -93,14 +93,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💻计算机/编程语言/Java/14 Java 8 新特性.md",
+                "file": "💻计算机/编程语言/Java/06 集合.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/JavaWeb/后端/SpringBoot.md"
+                "file": "💻计算机/编程语言/Java/06 集合.md"
               }
             }
           },
@@ -192,18 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/JavaWeb/后端/SpringBoot.md"
-              }
-            }
-          },
-          {
-            "id": "d0b803412ff90f26",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
+                "file": "💻计算机/编程语言/Java/06 集合.md"
               }
             }
           },
@@ -218,35 +207,18 @@
             }
           },
           {
-            "id": "bd21861bcdcc922e",
+            "id": "d0b803412ff90f26",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "tag",
               "state": {
-                "file": "💻计算机/JavaWeb/后端/SpringBoot.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "99e081fea8f133c5",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "💻计算机/JavaWeb/后端/SpringBoot.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -263,10 +235,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "0724022f55380538",
+  "active": "c5819302ef1c08eb",
   "lastOpenFiles": [
-    "临时笔记/穿搭.md",
     "💻计算机/编程语言/Java/14 Java 8 新特性.md",
+    "💻计算机/JavaWeb/后端/SpringBoot.md",
+    "临时笔记/穿搭.md",
     "💻计算机/编程语言/Java/15 类加载器，反射.md",
     "💻计算机/编程语言/Java/10 类与对象.md",
     "💻计算机/编程语言/Java/13 接口.md",
@@ -277,7 +250,6 @@
     "临时笔记/Obsidian特殊语法.md",
     "💻计算机/四大件/计算机网络2.md",
     "考试/移动开发考试复习.md",
-    "💻计算机/JavaWeb/后端/SpringBoot.md",
     "临时笔记/魔术.md",
     "临时笔记/MarkDown语法.md",
     "临时笔记/微信.md",
