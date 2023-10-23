@@ -364,20 +364,90 @@ public Result<List<Address>> list() {
 ```
 ### 分层解耦
 ##### Dao
+>Dao层的作用是获取数据【文件数据，xml数据，json数据等】
 ```java
 package com.example.web_2.Dao;  
-  
+
 import java.util.List;  
   
-public interface EmpDao {  
+public interface EmpDao {  //定义一个接口，固定格式
     public List<String> listEmp();  
 }
 ```
 
+```java
+package com.example.web_2.Dao;  
+  
+import java.util.ArrayList;  
+import java.util.List;  
+
+//加载数据【文件数据，xml数据，json数据等】
+public class EmpDaoA implements EmpDao {    
+    @Override  
+    public List<String> listEmp() {  
+        List<String> list1 = new ArrayList(List.of("吴彦祖", "陈冠希", "金城武"));  
+        return list1;  
+    }  
+}
+```
 ##### Service
+>Sevice层的作用是处理数据
+```java
+package com.example.web_2.Service;  
+  
+import java.util.List;  
+  
+public interface EmpServie {  
+    public List<String> listEmp();  
+}
+```
 
-
+```java
+package com.example.web_2.Service;  
+  
+import com.example.web_2.Dao.EmpDao;  
+import com.example.web_2.Dao.EmpDaoA;  
+  
+import java.util.List;  
+  
+//对数据进行逻辑处理，返回给Controller类  
+public class EmpServiceA implements EmpServie {  
+    private EmpDao empDao = new EmpDaoA();  //需要从EmpDao获取数据，所以创建接口对象
+  
+    @Override  
+    public List<String> listEmp() {  
+        List<String> emplist = empDao.listEmp();  
+        emplist.add("黎明");  //对数据进行处理【添加数据】
+        return emplist;  
+    }  
+}
+```
 ##### Controller
+>Controller的作用是响应数据给前端
+
+```java
+package com.example.web_2.Controller;  
+  
+import com.example.web_2.Pojo.Result;  
+import com.example.web_2.Service.EmpServiceA;  
+import com.example.web_2.Service.EmpServie;  
+import org.springframework.web.bind.annotation.RequestMapping;  
+import org.springframework.web.bind.annotation.RestController;  
+
+import java.util.List;  
+  
+//获取Service发来的数据，并响应数据给前端  
+@RestController  
+public class EmpConteoller {  
+    private EmpServie empServie = new EmpServiceA();  //创建EmpService对象
+  
+    @RequestMapping("/emp")  
+    public Result listEmp() {  
+        List<String> list = empServie.listEmp();  //获取Service处理过后的数据
+        return Result.buildResult(Result.Status.OK, list);  //返回数据
+    }  
+}
+```
 
 
 
