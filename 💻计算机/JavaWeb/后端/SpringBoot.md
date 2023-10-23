@@ -450,7 +450,10 @@ GET请求：`http://localhost:8080/emp`
 ##### 控制反转 IOC
 >对象的创建控制权由程序自身转移到容器【本身由EmpController自身创建EmpService对象，变为由容器创建对象】
 
-***添加***`@Component`***注释***
+- ***添加***`@Component`***注释***
+	- 如果是控制器类上就用`@Controller`
+	- 如果是逻辑处理Service类就用`@Service`
+	- 如果是
 ##### 依赖注入
 >容器为应用程序提供运行时所依赖的资源【容器为EmpController提供运行时所需要的EmpService对象】
 
@@ -459,7 +462,7 @@ GET请求：`http://localhost:8080/emp`
 ---
 
 ```java
-@Component  //将这个类交给IOC容器处理，成为IOC容器中的Bean
+@Repository  //将这个类交给IOC容器处理，成为IOC容器中的Bean
 public class EmpDaoA implements EmpDao {  
     //加载数据【文件数据，xml数据，json数据等】  
     @Override  
@@ -473,7 +476,7 @@ public class EmpDaoA implements EmpDao {
 ```java
 package com.example.web_2.Service;  
 
-@Component //将这个类交给IOC容器处理，成为IOC容器中的Bean  
+@Service //将这个类交给IOC容器处理，成为IOC容器中的Bean  
 public class EmpServiceA implements EmpServie {  
     @Autowired  //程序运行时，IOC容器会为这个变量提供Bean对象  
     private EmpDao empDao;  
