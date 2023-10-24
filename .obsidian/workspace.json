@@ -86,8 +86,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4b5aeb3dbcaa304a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "临时笔记/Obsidian特殊语法.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -169,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md"
+                "file": "临时笔记/Obsidian特殊语法.md"
               }
             }
           },
@@ -179,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md"
+                "file": "临时笔记/Obsidian特殊语法.md"
               }
             }
           },
@@ -210,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md",
+                "file": "临时笔记/Obsidian特殊语法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md",
+                "file": "临时笔记/Obsidian特殊语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,10 +263,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50a8f51d71867af8",
+  "active": "4b5aeb3dbcaa304a",
   "lastOpenFiles": [
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
+    "临时笔记/MarkDown语法.md",
     "💻计算机/四大件/计算机网络2.md",
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/穿搭.md",
     "💻计算机/JavaWeb/后端/SpringBoot.md",
@@ -269,7 +283,6 @@
     "临时笔记/Obsidian特殊语法.md",
     "考试/移动开发考试复习.md",
     "临时笔记/魔术.md",
-    "临时笔记/MarkDown语法.md",
     "临时笔记/微信.md",
     "临时笔记/测试.md",
     "临时笔记/杭州.md",
