@@ -120,6 +120,7 @@ dfee2da1013a98997413477975beddfe5bb64976: https://obsidian-1307744200.cos.ap-gua
 30dc26744a13395354ee707be43bc1ca519f140d: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231024133902.png
 8c56f333dd0b5cce008553af3dacde93fcb9f38c: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231024133936.png
 511fd86df38ea64c6cea03a53a6fa36ec8696da3: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231024134005.png
+f0b0990964ed94726938ef57869fdae79cab28d2: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231024153708.png
 
 %%
 # Drawing
@@ -4667,6 +4668,39 @@ dfee2da1013a98997413477975beddfe5bb64976: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"type": "image",
+			"version": 28,
+			"versionNonce": 28427161,
+			"isDeleted": false,
+			"id": "xYtR9l01",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 302.3887627806148,
+			"y": 4651.087988471221,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 386.5069356872636,
+			"seed": 34350,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1698133038462,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "f0b0990964ed94726938ef57869fdae79cab28d2",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -4684,8 +4718,8 @@ dfee2da1013a98997413477975beddfe5bb64976: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 22.426619262722305,
-		"scrollY": -4034.3997518015403,
+		"scrollX": 111.70098791762803,
+		"scrollY": -4321.751625909518,
 		"zoom": {
 			"value": 0.8961138701438904
 		},
