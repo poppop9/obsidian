@@ -87,8 +87,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "💻计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -180,7 +179,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "💻计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -204,6 +203,35 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "576ca557fa1bd62a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "💻计算机/四大件/计算机网络2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9e7b183f50bcb21a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "💻计算机/四大件/计算机网络2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ]
       }
@@ -222,11 +250,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "be9e9e338af27e52",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
+    "临时笔记/穿搭.md",
     "💻计算机/JavaWeb/后端/SpringBoot.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
-    "临时笔记/穿搭.md",
     "💻计算机/编程语言/Java/06 集合.md",
     "💻计算机/编程语言/Java/14 Java 8 新特性.md",
     "💻计算机/编程语言/Java/15 类加载器，反射.md",
