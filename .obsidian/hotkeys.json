@@ -75,14 +75,6 @@
       "key": "3"
     }
   ],
-  "editing-toolbar:header5-text": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "5"
-    }
-  ],
   "highlightr-plugin:Blue": [
     {
       "modifiers": [
@@ -133,6 +125,23 @@
         "Mod"
       ],
       "key": "ArrowDown"
+    }
+  ],
+  "workspace:goto-tab-6": [],
+  "editing-toolbar:header5-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "5"
+    }
+  ],
+  "editing-toolbar:header6-text": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "6"
     }
   ]
 }
