@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/文字美学.md",
+                "file": "💻计算机/四大件/计算机网络2.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,13 +93,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/Obsidian特殊语法.md",
+                "file": "临时笔记/文字美学.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -215,35 +216,6 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "576ca557fa1bd62a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "临时笔记/文字美学.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "9e7b183f50bcb21a",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "临时笔记/文字美学.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
         ]
       }
@@ -262,12 +234,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50a8f51d71867af8",
+  "active": "4b5aeb3dbcaa304a",
   "lastOpenFiles": [
+    "临时笔记/Obsidian特殊语法.md",
     "💻计算机/四大件/计算机网络2.md",
     "临时笔记/文字美学.md",
     "临时笔记/穿搭.md",
-    "临时笔记/Obsidian特殊语法.md",
     "临时笔记/MarkDown语法.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
