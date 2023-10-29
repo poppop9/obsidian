@@ -98,9 +98,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bc9c0671537119dd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "临时笔记/魔术.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/文字美学.md"
+                "file": "临时笔记/魔术.md"
               }
             }
           },
@@ -192,7 +204,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/文字美学.md"
+                "file": "临时笔记/魔术.md"
               }
             }
           },
@@ -223,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/文字美学.md",
+                "file": "临时笔记/魔术.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/文字美学.md",
+                "file": "临时笔记/魔术.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,10 +275,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4b5aeb3dbcaa304a",
+  "active": "bc9c0671537119dd",
   "lastOpenFiles": [
-    "临时笔记/穿搭.md",
     "临时笔记/文字美学.md",
+    "临时笔记/穿搭.md",
     "💻计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
