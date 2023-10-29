@@ -1,24 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "文字美学",
-      "path": "临时笔记/文字美学.md"
-    },
-    {
-      "basename": "Obsidian特殊语法",
-      "path": "临时笔记/Obsidian特殊语法.md"
-    },
-    {
-      "basename": "计算机网络2",
-      "path": "💻计算机/四大件/计算机网络2.md"
-    },
-    {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
     },
     {
-      "basename": "MarkDown语法",
-      "path": "临时笔记/MarkDown语法.md"
+      "basename": "文字美学",
+      "path": "临时笔记/文字美学.md"
+    },
+    {
+      "basename": "计算机网络2",
+      "path": "💻计算机/四大件/计算机网络2.md"
     },
     {
       "basename": "计算机网络 Draw",
@@ -29,8 +21,20 @@
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
+      "basename": "4 Ajax",
+      "path": "💻计算机/JavaWeb/前端/4 Ajax.md"
+    },
+    {
       "basename": "SpringBoot",
       "path": "💻计算机/JavaWeb/后端/SpringBoot.md"
+    },
+    {
+      "basename": "Obsidian特殊语法",
+      "path": "临时笔记/Obsidian特殊语法.md"
+    },
+    {
+      "basename": "MarkDown语法",
+      "path": "临时笔记/MarkDown语法.md"
     },
     {
       "basename": "06 集合",
@@ -91,10 +95,6 @@
     {
       "basename": "01 idea",
       "path": "💻计算机/编程语言/Java/01 idea.md"
-    },
-    {
-      "basename": "4 Ajax",
-      "path": "💻计算机/JavaWeb/前端/4 Ajax.md"
     },
     {
       "basename": "操作系统 Draw",

@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "774c6afb70b4c8a1",
+            "id": "28e8240bd4e686dc",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -54,6 +54,16 @@
             }
           },
           {
+            "id": "440c4b393d5fd48c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
+              }
+            }
+          },
+          {
             "id": "3805012690ad8ea8",
             "type": "leaf",
             "state": {
@@ -62,16 +72,6 @@
                 "file": "💻计算机/JavaWeb/前端/4 Ajax.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "a6fc4b4626252617",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
               }
             }
           },
@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/文字美学.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/文字美学.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -216,6 +216,35 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "6c09674d94649a9b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "临时笔记/穿搭.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1e68f74473bbc1c4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "临时笔记/穿搭.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ]
       }
@@ -234,16 +263,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4b5aeb3dbcaa304a",
+  "active": "be9e9e338af27e52",
   "lastOpenFiles": [
-    "临时笔记/Obsidian特殊语法.md",
-    "💻计算机/四大件/计算机网络2.md",
     "临时笔记/文字美学.md",
-    "临时笔记/穿搭.md",
-    "临时笔记/MarkDown语法.md",
+    "💻计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
+    "💻计算机/JavaWeb/前端/4 Ajax.md",
     "💻计算机/JavaWeb/后端/SpringBoot.md",
+    "临时笔记/Obsidian特殊语法.md",
+    "临时笔记/穿搭.md",
+    "临时笔记/MarkDown语法.md",
     "💻计算机/编程语言/Java/06 集合.md",
     "💻计算机/编程语言/Java/14 Java 8 新特性.md",
     "💻计算机/编程语言/Java/15 类加载器，反射.md",
@@ -261,7 +291,6 @@
     "💻计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "考试/移动互联.md",
     "Excalidraw/杂/草稿纸.md",
-    "💻计算机/编程语言/Java/01 idea.md",
     "💻计算机/JavaWeb/后端",
     "💻计算机/JavaWeb/前端",
     "💻计算机/JavaWeb",
