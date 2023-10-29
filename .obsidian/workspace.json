@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "临时笔记/文字美学.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "临时笔记/文字美学.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "临时笔记/文字美学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "临时笔记/文字美学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,8 +263,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "be9e9e338af27e52",
+  "active": "4b5aeb3dbcaa304a",
   "lastOpenFiles": [
+    "临时笔记/穿搭.md",
     "临时笔记/文字美学.md",
     "💻计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
@@ -272,7 +273,6 @@
     "💻计算机/JavaWeb/前端/4 Ajax.md",
     "💻计算机/JavaWeb/后端/SpringBoot.md",
     "临时笔记/Obsidian特殊语法.md",
-    "临时笔记/穿搭.md",
     "临时笔记/MarkDown语法.md",
     "💻计算机/编程语言/Java/06 集合.md",
     "💻计算机/编程语言/Java/14 Java 8 新特性.md",
