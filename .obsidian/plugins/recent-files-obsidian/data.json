@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "MySQL",
+      "path": "💻计算机/数据库/MySQL.md"
+    },
+    {
       "basename": "作业2",
       "path": "考试/作业2.md"
     },
@@ -163,10 +167,6 @@
     {
       "basename": "mysql安装配置",
       "path": "💻计算机/数据库/mysql安装配置.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "💻计算机/数据库/MySQL.md"
     },
     {
       "basename": "虚拟化内存",

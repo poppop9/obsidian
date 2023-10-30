@@ -93,7 +93,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考试/作业2.md",
+                "file": "💻计算机/数据库/MySQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考试/作业2.md"
+                "file": "💻计算机/数据库/MySQL.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "考试/作业2.md"
+                "file": "💻计算机/数据库/MySQL.md"
               }
             }
           },
@@ -223,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考试/作业2.md",
+                "file": "💻计算机/数据库/MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考试/作业2.md",
+                "file": "💻计算机/数据库/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,6 +265,8 @@
   },
   "active": "bf7b63727fa233e1",
   "lastOpenFiles": [
+    "考试/作业2.md",
+    "💻计算机/数据库/MySQL.md",
     "💻计算机/四大件/计算机网络2.md",
     "临时笔记/魔术.md",
     "临时笔记/文字美学.md",
@@ -289,8 +291,6 @@
     "临时笔记/测试.md",
     "临时笔记/杭州.md",
     "💻计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
-    "考试/移动互联.md",
-    "Excalidraw/杂/草稿纸.md",
     "💻计算机/JavaWeb/后端",
     "💻计算机/JavaWeb/前端",
     "💻计算机/JavaWeb",
