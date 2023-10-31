@@ -1,6 +1,11 @@
 #计算机/数据库
 # DDL
 >Data Definition Language 数据库定义语言
+### 数据库操作
+##### 查询
+`SHOW DATABASES;`  查询所有数据库
+`SELECT DATABASE();`  查询当前正在使用的数据库
+
 
 
 # DML
@@ -9,11 +14,6 @@
 # DQL
 >Data Query Language 数据查询语言
 
-查看当前正在使用的数据库：
-```
-SELECT DATABASE();
-```
-这条语句将返回当前活动连接所在的数据库名称
 
 
 # DCL
