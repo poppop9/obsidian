@@ -5,6 +5,8 @@
 ##### 查询
 `SHOW DATABASES;`  查询所有数据库
 `SELECT DATABASE();`  查询当前正在使用的数据库
+##### 创建
+`CREATE DATABASE [IF NOT EXISTS] 数据库名;`  创建数据库
 
 
 
