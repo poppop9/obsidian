@@ -6,7 +6,16 @@
 `SHOW DATABASES;`  查询所有数据库
 `SELECT DATABASE();`  查询当前正在使用的数据库
 ##### 创建
-`CREATE DATABASE [IF NOT EXISTS] 数据库名;`  创建数据库
+创建数据库
+```sql
+CREATE DATABASE  
+    [IF NOT EXISTS]      /*中括号表示可选项*/
+    数据库名  
+    [CHARACTER SET 字符集名]
+    [COLLATE 排序规则];
+```
+##### 使用
+`USE 数据库名;` 切换到某个数据库
 
 
 
