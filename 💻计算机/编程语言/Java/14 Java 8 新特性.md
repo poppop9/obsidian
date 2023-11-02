@@ -8,7 +8,7 @@
 {}：大括号里的内容表示需要做的事情（方法体内容）
 ```
 ### 🌗有什么用？
-##### 🌗简化代码
+##### 🌑简化代码
 - 使用匿名内部类实现多线程时
 	```java
 	public static void main(String[] args) {
@@ -28,15 +28,15 @@
 	  }).start();
 	}
 	```
-##### 🌗简化字节码文件
+##### 🌑简化字节码文件
 - 使用匿名内部类时，会在编译之后，单独产生一个字节码文件[^1]
 - 使用Lambda表达式时，编译之后不会单独产生一个字节码文件，而是在运行时动态生成
 
 [^1]:当然在注释相应的匿名内部类代码之后，该字节码文件会消失
 ### 🌗使用前提
-##### 🌗这个类要有一个接口
+##### 🌑这个类要有一个接口
 >比如需要的MyRunnable这个类有一个接口Runnable
-##### 🌗这个接口中有且仅有一个抽象方法
+##### 🌑这个接口中有且仅有一个抽象方法
 >比如Runnable接口里只有一个抽象方法run方法
 ### 🌗实现有参数和返回值的抽象方法
 ```java
@@ -243,7 +243,7 @@ public class ComparatorDemo {
 欧阳娜娜
 ```
 ### 🌗常用的函数式接口
-##### 🌗Supplier
+##### 🌑Supplier
 ```
 @FunctionalInterface 
 public interface Supplier<T>
@@ -281,7 +281,7 @@ public class SupplierDemo {
 
 88
 ```
-##### 🌗Consumer
+##### 🌑Consumer
 ```
 @FunctionalInterface 
 public interface Consumer<T>
@@ -304,7 +304,7 @@ public class ConsumerDemo {
 
 3
 ```
-##### 🌗Predicate
+##### 🌑Predicate
 ```
 @FunctionalInterface 
 public interface Predicate<T>
@@ -315,7 +315,7 @@ public interface Predicate<T>
 >default Predicate<\T> negate()  ------返回一个逻辑的否定（逻辑非）
 >default Predicate<\T> and(Predicate other)  ------返回一个组合判断（逻辑与）
 >default Predicate<\T> or(Predicate other)  ------返回一个组合判断（逻辑或）
-###### 🌗test()
+###### 🌙test()
 ```java
 public static void main(String[] args) {  
 	Boolean b = CheckString("吴彦祖", (String s) -> {  
@@ -332,7 +332,7 @@ public static boolean CheckString(String s, Predicate<String> pre) {
 
 true
 ```
-###### 🌗negate()
+###### 🌙negate()
 ```java
 public static void main(String[] args) {  
 	Boolean b = CheckString("吴彦祖", (String s) -> {  
@@ -353,7 +353,7 @@ false
 >结果虽然相同但是理念不同
 >>前者表达的是，返回一个predicate对象调用test方法之后结果的非
 >>后者表达的是，返回一个predicate对象的逻辑非后，再调用test方法的结果
-###### 🌗and()，or()
+###### 🌙and()，or()
 ```java
 public static void main(String[] args) {  
 	Boolean b = CheckString("吴彦祖", (String s) -> {  
@@ -375,7 +375,7 @@ public static boolean CheckString(String s, Predicate<String> pre1, Predicate<St
 
 false
 ```
-##### 🌗Function
+##### 🌑Function
 ```
 @FunctionalInterface
 public interface Function<T,R>
@@ -409,7 +409,7 @@ public class FunctionDemo {
 >***Java 9之后***，接口中加入了<u>私有方法</u>
 ### 🌗接口中的默认方法
 >public default ……
-##### 🌗注意事项
+##### 🌑注意事项
 - ***默认方法中可以有方法体***
 - ==接口中的默认方法不会让实现类去强制重写==
 - ==而且就算实现类不重写，测试类也可以直接调用==
@@ -485,7 +485,7 @@ public class FunctionDemo {
 	111show1
 	我是1接口中的默认方法
 	```
-##### 🌗作用
+##### 🌑作用
 >让你更加灵活地在接口中加入新的方法，而不破坏现有代码
 
 >可以减少代码量（比如牛类，羊类，马类都实现了动物接口。但是它们的eat()方法都是吃草。那我没有使用默认方法时，我要在三个类里都实现eat()方法并且写上相同的内容；使用默认方法后，这三个类中就不需要重写eat()方法了）
@@ -598,7 +598,7 @@ public class FunctionDemo {
 		```
 ### 🌗接口中的静态方法
 >public static ……
-##### 🌗注意事项
+##### 🌑注意事项
 - <mark style="background: #D2B3FFA6;">静态方法只能通过接口名调用，不能通过实现类名调用</mark>（***所以与默认方法不同，就算有一个实现类同时实现了两个接口，且这两个接口有同名的静态方法，也不会强制重写***）
 	```java
 	public interface MyInterface1 {  
@@ -630,7 +630,7 @@ public class FunctionDemo {
 
 
 
-##### 🌗作用
+##### 🌑作用
 - [x] 使得代码更加简洁，增加可读性，易于管理
 	>比如我在测试类中需要到MyInterface中的show方法。
 	>- 在show()方法不是静态方法时，我需要先创建一个实现类Imp，然后通过Imp来调用show方法（***可是我只是需要show()方法而已，我不需要Imp类啊，这样就使得代码变得复杂了，可读性也降低了***）；
@@ -642,7 +642,7 @@ public class FunctionDemo {
 >private ……
 >private static ……
 
-##### 🌗作用
+##### 🌑作用
 - [x] 减少接口中代码的重复性
 	- 在不使用接口中的私有方法时
 		```java
@@ -693,7 +693,7 @@ public interface Stream<T> extends BaseStream<T,Stream<T>>
 ### 🌗生成流
 >通过数据源【数组，集合等】生成流
 
-##### 🌗Collection集合生成流
+##### 🌑Collection集合生成流
 >直接用集合调用stream()方法
 ```java
 public static void main(String[] args) {  
@@ -702,7 +702,7 @@ public static void main(String[] args) {
 }
 ```
 
-##### 🌗Map集合生成流
+##### 🌑Map集合生成流
 >通过使用keySet，values，entrySet等方法生成的集合来调用stream()方法
 ```java
 public static void main(String[] args) {  
@@ -713,7 +713,7 @@ public static void main(String[] args) {
 }
 ```
 
-##### 🌗数组生成流
+##### 🌑数组生成流
 >通过调用Stream.of()方法
 ```java
 public static void main(String[] args) {  
@@ -722,7 +722,7 @@ public static void main(String[] args) {
 }
 ```
 
-##### 🌗直接生成流
+##### 🌑直接生成流
 >通过调用Stream.of()方法
 ```
 public static void main(String[] args) {  
@@ -748,7 +748,7 @@ public static void main(String[] args) {
 >Stream\<R> map(Function mapper)  ------返回一个由Function接口处理过的流
 >IntStream mapToInt(ToIntFunction mapper)----返回一个由mapper处理过的IntStream
 
-##### 🌗filter过滤器
+##### 🌑filter过滤器
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -780,7 +780,7 @@ public static void main(String[] args) {
 吴彦祖
 ```
 
-##### 🌗limit，skip
+##### 🌑limit，skip
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -803,7 +803,7 @@ public static void main(String[] args) {
 吴京
 ```
 
-##### 🌗concat，distinct
+##### 🌑concat，distinct
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -836,7 +836,7 @@ public static void main(String[] args) {
 吴京
 ```
 
-##### 🌗sorted
+##### 🌑sorted
 ```java
 public static void main(String[] args) {  
     List<Integer> list = new ArrayList<>();  
@@ -867,7 +867,7 @@ public static void main(String[] args) {
 33
 ```
 
-##### 🌗map，mapToInt
+##### 🌑map，mapToInt
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -913,7 +913,7 @@ public static void main(String[] args) {
 >void forEach(Consumer action)  ------对该流的每个元素执行操作
 >long count()  ------返回该流中的元素个数
 
-##### 🌗forEach
+##### 🌑forEach
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -939,7 +939,7 @@ public static void main(String[] args) {
 331
 ```
 
-##### 🌗count
+##### 🌑count
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -959,7 +959,7 @@ public static void main(String[] args) {
 >[!summary] Method Summary
 >R collect(Collector collector)  ------按照collector的要求，把元素收集到集合中
 
-##### 🌗收集到其他集合
+##### 🌑收集到其他集合
 >Collectors.toList()
 ```java
 public static void main(String[] args) {  
@@ -980,7 +980,7 @@ public static void main(String[] args) {
 [32, 992, 33]
 ```
 
-##### 🌗收集到Map集合
+##### 🌑收集到Map集合
 >Collectors.toMap(new Function<>(){} ,new Function<>(){})
 ```java
 public static void main(String[] args) {  

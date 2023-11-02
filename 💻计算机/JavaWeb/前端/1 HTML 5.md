@@ -76,9 +76,9 @@
 ### 🌗无语义盒子
 >这两个标签都是没有具体意思的，它们就是一个***盒子***【用来装文字，图片，超链接】
 >![[JavaWeb Draw#^group=jLK9MAUa|600]]
-##### 🌗\<div\>
+##### 🌑\<div\>
 一个`<div>`独占一行
-##### 🌗\<span\>
+##### 🌑\<span\>
 多个`<span>`标签占一行
 ***\<span\>标签无法设置width和height，宽度和高度由内容默认撑开***
 
@@ -94,7 +94,7 @@
 ```html
 <a id="h002" href="https://www.zjxu.edu.cn/" target="_blank">嘉兴学院</a>
 ```
-##### 🌗锚点链接
+##### 🌑锚点链接
 就像是PDF的目录一样
 ```html
 <h4 id="live">个人生活</h4>
@@ -179,7 +179,7 @@
 	  file:///E:/VScode/html/9_9.html?username=123&password=456  //URL后面会出现表单数据
 	  ```
 	- `post` 在消息体中传递。【表单数据大小无限制】
-##### 🌗\<input\>
+##### 🌑\<input\>
   - `type` 
     - `text` 单行输入字段
     - `password` 密码字段
@@ -198,9 +198,9 @@
       - `button` 可点击按钮
   - `name` ***name相同表示是同一个表单项***
   - `value` ***提交表单时真正提交的值***
-##### 🌗\<select\>
+##### 🌑\<select\>
   - `option` 
-##### 🌗\<textarea\>
+##### 🌑\<textarea\>
 
 ```html
 <form action="" method="get">

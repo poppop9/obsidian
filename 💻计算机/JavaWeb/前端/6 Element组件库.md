@@ -128,7 +128,7 @@ export default {
     </div>
 </template>
 ```
-##### 🌗事件
+##### 🌑事件
 ```pagination_1.vue
 <template>
     <div>

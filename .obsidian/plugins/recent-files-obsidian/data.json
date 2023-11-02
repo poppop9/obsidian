@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "2 CSS",
+      "path": "💻计算机/JavaWeb/前端/2 CSS.md"
+    },
+    {
+      "basename": "4 Ajax",
+      "path": "💻计算机/JavaWeb/前端/4 Ajax.md"
+    },
+    {
+      "basename": "Maven",
+      "path": "💻计算机/JavaWeb/后端/Maven.md"
+    },
+    {
+      "basename": "计算机组成原理",
+      "path": "💻计算机/四大件/计算机组成原理.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "💻计算机/数据库/MySQL.md"
+    },
+    {
+      "basename": "mysql安装配置",
+      "path": "💻计算机/数据库/mysql安装配置.md"
+    },
+    {
       "basename": "虚拟化CPU",
       "path": "💻计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "计算机网络2",
       "path": "💻计算机/四大件/计算机网络2.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "💻计算机/数据库/MySQL.md"
     },
     {
       "basename": "Obsidian笔记编写规范 Draw",
@@ -47,10 +67,6 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "4 Ajax",
-      "path": "💻计算机/JavaWeb/前端/4 Ajax.md"
     },
     {
       "basename": "SpringBoot",
@@ -145,20 +161,12 @@
       "path": "💻计算机/JavaWeb/前端/1 HTML 5.md"
     },
     {
-      "basename": "Maven",
-      "path": "💻计算机/JavaWeb/后端/Maven.md"
-    },
-    {
       "basename": "5 Vue",
       "path": "💻计算机/JavaWeb/前端/5 Vue.md"
     },
     {
       "basename": "6 Element组件库",
       "path": "💻计算机/JavaWeb/前端/6 Element组件库.md"
-    },
-    {
-      "basename": "2 CSS",
-      "path": "💻计算机/JavaWeb/前端/2 CSS.md"
     },
     {
       "basename": "3 JavaScript",
@@ -173,20 +181,12 @@
       "path": "💻计算机/四大件/计算机网络.md"
     },
     {
-      "basename": "mysql安装配置",
-      "path": "💻计算机/数据库/mysql安装配置.md"
-    },
-    {
       "basename": "虚拟化内存",
       "path": "💻计算机/四大件/操作系统/虚拟化/虚拟化内存.md"
     },
     {
       "basename": "微信分享浏览器",
       "path": "科技美学/微信分享浏览器.md"
-    },
-    {
-      "basename": "计算机组成原理",
-      "path": "💻计算机/四大件/计算机组成原理.md"
     },
     {
       "basename": "继承 Draw",

@@ -68,14 +68,14 @@ default-character-set=utf8mb4
 在path中加入以下代码
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2021052510042863.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 # 🌕使用连接工具连接mysql
-##### 🌗打开DataGrip之后按照以下步骤添加数据库
+##### 🌑打开DataGrip之后按照以下步骤添加数据库
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210531154902665.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210531155954575.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
-##### 🌗输入 **show databases**之后查看结果
+##### 🌑输入 **show databases**之后查看结果
 出现如下结果则**配置成功啦！！！**
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210531160620941.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 # 🌕疑难杂病
-##### 🌗执行mysqld --install mysql时提示该服务已存在
+##### 🌑执行mysqld --install mysql时提示该服务已存在
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525095818371.png)-
 就先删除该服务（使用以下代码）
 `sc delete mysql`

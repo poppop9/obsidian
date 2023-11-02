@@ -12,7 +12,7 @@
 	}
 </style>
 ```
-##### 🌗选择器
+##### 🌑选择器
 ==优先级：id选择器 > 类选择器 > 元素选择器==
 - 元素选择器
 ```css
@@ -75,19 +75,19 @@ h1 {
 ### 🌗文本修饰
 `initial` 默认值
 `inherit` 从其父元素继承属性
-##### 🌗line
+##### 🌑line
 `text-decoration-line: none;` 无
 `text-decoration-line: overline;` 上划线
 `text-decoration-line: underline;` 下划线
 `text-decoration-line: line-through;` 删除线
 `text-decoration-line: overline underline;` 叠加属性
-##### 🌗style
+##### 🌑style
 `text-decoration-style: solid;` 单线
 `text-decoration-style: wavy;` 波浪线
 `text-decoration-style: double;` 双线
 `text-decoration-style: dotted;` 点线
 `text-decoration-style: dashed;` 虚线
-##### 🌗thickness
+##### 🌑thickness
 `text-decoration-thickness: auto;` 浏览器选择装饰线的粗细
 `text-decoration-thickness: 5;` 5像素
 `text-decoration-thickness: 50%;` 百分比值

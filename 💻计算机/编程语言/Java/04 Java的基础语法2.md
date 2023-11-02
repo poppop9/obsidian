@@ -101,21 +101,21 @@ do{
 ```
 
 ### 🌗死循环
-##### 🌗for死循环
+##### 🌑for死循环
 ```java
 for(;;){
 
 }
 ```
 
-##### 🌗while死循环
+##### 🌑while死循环
 ```jaca
 while(true){
 
 }
 ```
 
-##### 🌗do…while死循环
+##### 🌑do…while死循环
 ```java
 do{
 
@@ -124,7 +124,7 @@ do{
 
 
 ### 🌗跳转控制语句
-##### 🌗continue
+##### 🌑continue
 >基于条件控制，跳过某次循环体内容的执行，继续下一次执行
 ```java
 for (int i = 1; i <= 5; i++) {  
@@ -138,7 +138,7 @@ for (int i = 1; i <= 5; i++) {
 135
 ```
 
-##### 🌗break
+##### 🌑break
 >基于条件控制，中止循环体内容的执行
 ```java
 for (int i = 1; i <= 5; i++) {  
@@ -175,12 +175,12 @@ int arr[] = {1, 2, 3};
 ```
 
 ### 🌗访问
-##### 🌗访问数组
+##### 🌑访问数组
 ```java
 System.out.println(arr);          //会输出一个内存地址
 ```
 
-##### 🌗访问数组的元素
+##### 🌑访问数组的元素
 ```java
 System.out.println(arr[0]);      //通过索引，访问数组元素
 ```
@@ -200,7 +200,7 @@ int arr2[] = arr1;            //那么arr2的内存地址也为001
 ***字符串的值在创建之后不能修改***
 
 ### 🌗创建字符串
-##### 🌗利用char数组创建
+##### 🌑利用char数组创建
 ```java
 public static void main(String[] args) {  
     char c[] = {94, 94, 43};  
@@ -211,7 +211,7 @@ public static void main(String[] args) {
 
 ^^+
 ```
-##### 🌗直接创建
+##### 🌑直接创建
 ```java
 public static void main(String[] args) {  
     String s = "^^+";  
@@ -297,7 +297,7 @@ public static void main(String[] args) {
 kcetneerg
 ```
 
-##### 🌗String与StringBuilder的区别
+##### 🌑String与StringBuilder的区别
 - [x] String做拼接的时候会在堆内存那里再创建一个地址，这样会增加缓存；StringBuilder不会增加缓存
 - [x] String创建字符串的值不会改变，要改变只能拼接生成具有新的地址值的字符串；StringBuilder可以在不改变地址值的情况下改变内容
 
