@@ -99,7 +99,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -181,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md"
+                "file": "临时笔记/Obsidian笔记编写规范.md"
               }
             }
           },
@@ -191,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md"
+                "file": "临时笔记/Obsidian笔记编写规范.md"
               }
             }
           },
@@ -222,7 +223,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md",
+                "file": "临时笔记/Obsidian笔记编写规范.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +240,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md",
+                "file": "临时笔记/Obsidian笔记编写规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,14 +263,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50a8f51d71867af8",
+  "active": "be9e9e338af27e52",
   "lastOpenFiles": [
-    "临时笔记/Obsidian笔记编写规范.md",
     "💻计算机/数据库/MySQL.md",
+    "临时笔记/Obsidian笔记编写规范.md",
+    "💻计算机/四大件/计算机网络2.md",
     "Excalidraw/杂/Obsidian笔记编写规范 Draw.md",
     "临时笔记/穿搭.md",
     "科技美学/Mac软件.md",
-    "💻计算机/四大件/计算机网络2.md",
     "考试/作业2.md",
     "临时笔记/魔术.md",
     "临时笔记/文字美学.md",

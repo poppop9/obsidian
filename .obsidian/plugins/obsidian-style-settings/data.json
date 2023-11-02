@@ -172,7 +172,6 @@
   "blue-topaz-theme@@print-h6-color@@light": "#000000",
   "blue-topaz-theme@@print-h6-color@@dark": "#FFFFFF",
   "blue-topaz-theme@@h6-bg-color@@light": "#005B374A",
-  "blue-topaz-theme@@font-weight-h6": "bold",
   "blue-topaz-theme@@highlight-style": "all-rounded-corners-highlight",
   "blue-topaz-theme@@h6-toggle-short-underline": true,
   "blue-topaz-theme@@header-5-background": false,
@@ -194,5 +193,6 @@
   "blue-topaz-theme@@print-h3-color@@light": "#434343",
   "blue-topaz-theme@@print-h3-color@@dark": "#434343",
   "blue-topaz-theme@@print-h5-color@@light": "#767676",
-  "blue-topaz-theme@@print-h5-color@@dark": "#767676"
+  "blue-topaz-theme@@print-h5-color@@dark": "#767676",
+  "blue-topaz-theme@@font-weight-h6": "\"\""
 }
