@@ -146,8 +146,32 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "d0b803412ff90f26",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0e8c8352df3d5020",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "💻计算机/四大件/计算机网络2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "82e190d91877a96e",
@@ -182,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/数据库/MySQL.md"
+                "file": "💻计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -192,7 +216,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/数据库/MySQL.md"
+                "file": "💻计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -205,48 +229,9 @@
                 "sortOrder": "frequency"
               }
             }
-          },
-          {
-            "id": "d0b803412ff90f26",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "6c09674d94649a9b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "💻计算机/数据库/MySQL.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "1e68f74473bbc1c4",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "💻计算机/数据库/MySQL.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -263,7 +248,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "bf7b63727fa233e1",
+  "active": "d0b803412ff90f26",
   "lastOpenFiles": [
     "临时笔记/Obsidian笔记编写规范.md",
     "💻计算机/四大件/计算机网络2.md",

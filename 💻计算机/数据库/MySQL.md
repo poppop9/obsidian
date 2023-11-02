@@ -1,4 +1,7 @@
-#计算机/数据库
+---
+tags:
+  - 计算机/数据库
+---
 # DDL
 >Data Definition Language 数据库定义语言
 ### 数据库操作
