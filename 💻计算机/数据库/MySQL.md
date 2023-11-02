@@ -22,7 +22,7 @@
 
 
 
-# DML
+# DML的
 >Data Manipulation Language 数据库操作语言
 
 # DQL
