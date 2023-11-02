@@ -7,7 +7,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCwkAb55KIogNdPeM4CzEqVcWZPHk08iswbgqi2EnK6
 
 在github上创建库，输入初始化代码：
 ```
-echo "# obsidian" >> README.md
+echo "# 🌕obsidian" >> README.md
 git init
 git add README.md
 git commit -m "first commit"

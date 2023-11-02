@@ -4,17 +4,17 @@ tags:
 cssclasses: []
 ---
 #临时笔记 
-# 字体类型
-### 标题
+# 🌕字体类型
+### 🌗标题
 ```
-# 一级标题    
-## 二级标题       
-### 三级标题       
-#### 四级标题      
-##### 五级标题      
-###### 六级标题    
+# 🌕一级标题    
+## 🌕二级标题       
+### 🌗三级标题       
+#### 🌗四级标题      
+##### 🌑五级标题      
+###### 🌙六级标题    
 ```
-### 字号
+### 🌗字号
 <font size="1">1号字(最小)</font>
 <font size="2">2号字</font>
 <font size="3">3号字</font>
@@ -32,7 +32,7 @@ cssclasses: []
 <font size="6">6号字</font>
 <font size="7">7号字(最大)</font>
 ```
-### 字体颜色
+### 🌗字体颜色
 <font color ="red">红色</font>
 <font color ="green">绿色</font>
 <font color ="blue">蓝色</font>
@@ -47,7 +47,7 @@ cssclasses: []
 ```
 
 ---
-### 斜体，粗体，删除线，下划线，高亮
+### 🌗斜体，粗体，删除线，下划线，高亮
 
 ```
 *斜体*
@@ -63,17 +63,17 @@ cssclasses: []
 ~~删除线~~
 <u>下划线</u>
 ==高亮==
-### 代码块
+### 🌗代码块
 `单行代码块`
 `` 内含`反引号`的代码块 ``
 ```
 多行代码块
 ```
-# 超链接
-### 文本超链接
+# 🌕超链接
+### 🌗文本超链接
  [百度](https://www.baidu.com)
  [**百度一下，链接加粗**](http://www.baidu.com)
-### 图片超链接
+### 🌗图片超链接
 ```
 ![obsidian#right](https://img1.baidu.com/it/u=2473858672,2989677650&fm=253&fmt=auto&app=138&f=PNG?w=192&h=192 "我是提示信息")
 ```
@@ -83,14 +83,14 @@ cssclasses: []
 ![obsidian|inlL|100](https://img1.baidu.com/it/u=2473858672,2989677650&fm=253&fmt=auto&app=138&f=PNG?w=192&h=192)
 ```
 obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian![obsidian|inlL|100](https://img1.baidu.com/it/u=2473858672,2989677650&fm=253&fmt=auto&app=138&f=PNG?w=192&h=192)obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
-### 内部超链接
-##### 链接文件
+### 🌗内部超链接
+##### 🌑链接文件
 [[测试]]
-##### 链接标题
+##### 🌑链接标题
 [[#三、超链接]]
-##### 链接章节详细内容
+##### 🌑链接章节详细内容
 ![[#斜体，粗体，删除线，高亮]]
-##### 链接全局
+##### 🌑链接全局
 ```
 ![[^^存储 运算 控制]]
 ```
@@ -98,7 +98,7 @@ obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
 查找有包含存储，运算，控制这三个关键词的语句
 ```
 ![[作业2#^6bccc9]]
-### 网页超链接
+### 🌗网页超链接
 <iframe src="https://player.bilibili.com/player.html?aid=485269699&bvid=BV1hT411n7gG&cid=1104774731&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="450"> </iframe>
 <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
  padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
@@ -108,8 +108,8 @@ obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
   </iframe>
 </div>
 <iframe src="https://www.bilibili.com/" style="width: 100%; height: 400px;"></iframe>
-# 列表
-### 无序列表
+# 🌕列表
+### 🌗无序列表
 ```
 - 列表1
 	- 二级列表1
@@ -118,7 +118,7 @@ obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
 - 列表1
 	- 二级列表1
 - 列表2
-### 有序列表
+### 🌗有序列表
 ```
 1. 列表1
 2. 列表2
@@ -127,7 +127,7 @@ obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
 1. 列表1
 2. 列表2
 	1. 二级列表1
-### 任务列表
+### 🌗任务列表
 ```
 - [x] 支持 #标签 ，[链接]()，**样式** 
 - [x] 这是一个已经完成的项目 
@@ -136,7 +136,7 @@ obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
 - [x] 支持 #标签 ，[链接]()，**样式** 
 - [x] 这是一个已经完成的项目  
 - [ ] 这是一个未完成的项目 
-# 引用
+# 🌕引用
 ```
 >一级引用
 >>二级引用
@@ -145,13 +145,13 @@ obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
 >一级引用
 >>二级引用
 >>>三级引用
-# 代码
-### 行内代码
+# 🌕代码
+### 🌗行内代码
 ```
 `使用一对反引号`
 ```
 `使用一对反引号`
-### 代码块
+### 🌗代码块
 ```
 使用三对反引号,可以在引号后面声明语言类型来获取高亮
 或者首行连续四个空格
@@ -164,7 +164,7 @@ public class UDPReceiveDemo {
     } 
 }
 ```
-# 脚注
+# 🌕脚注
 ```
 这是一个简单的脚注[^1]
 
@@ -175,7 +175,7 @@ public class UDPReceiveDemo {
 这是一个简单的脚注[^1]
 
 [^1]:这就是脚注
-# 注释
+# 🌕注释
 ```
 这里是行内注释：%%预览模式下你将看不到这句话%%
 
@@ -193,7 +193,7 @@ public class UDPReceiveDemo {
 所谓跨行
 就是可以有很多行
 %%
-# 表格
+# 🌕表格
 ```
 | **标题1** | **标题2** |
 | -- | -- | 
@@ -205,26 +205,26 @@ public class UDPReceiveDemo {
 | -- | -- | 
 | 11 | 12 | 
 | 21 | 22 |
-### 表格内的文字换行
+### 🌗表格内的文字换行
 使用`<br>`
 
 |标题1|标题2 |
 |:-:|:-:|
 |我是一段很长的文字我是一段很长的文字<br>我是一段很长的文字我是一段很长的文字<br>我是一段很长的文字我是一段很长的文字<br>我是一段很长的文字我是一段很长的文字 |我是一段很短的文字 |
-# Front-matter
+# 🌕Front-matter
 ```
 ---
 tags: 标签
 ---
 ```
-# 绘图
-### 流程图
-##### 方向
+# 🌕绘图
+### 🌗流程图
+##### 🌑方向
 graph TB：从上往下
 graph BT：从下往上
 graph LR：从左往右
 graph RL：从右往左
-##### 结点
+##### 🌑结点
 ````
 ```mermaid
 graph           %%形状取决于符号，符号里面是结点的内容%%
@@ -259,7 +259,7 @@ graph
 	id11[/梯形\]
 	id12[\反向梯形/]
 ```
-##### 连线
+##### 🌑连线
 - [!] 实线箭头
 ````
 ```mermaid
@@ -323,7 +323,7 @@ graph LR
     B <-----> C
     C x--x D
 ```
-##### 子图
+##### 🌑子图
 ```mermaid
 graph TB
     c1-->a2
@@ -374,7 +374,7 @@ graph LR
 	
 	n5_帝-->|长子|e3[朱高炽]
 ```
-### 饼图
+### 🌗饼图
 ````
 ```mermaid
 pie
@@ -394,8 +394,8 @@ pie
     "穷" : 500
 	"关你屁事" : 95
 ```
-### 时序图
-### 甘特图
+### 🌗时序图
+### 🌗甘特图
 ```mermaid
 gantt
     title A Gantt Diagram
@@ -407,7 +407,7 @@ gantt
     Task in sec      :2014-01-12  , 12d
     another task      : 24d
 ```
-### 类图
+### 🌗类图
 ```mermaid
 classDiagram
     Animal <|-- Duck
@@ -431,8 +431,8 @@ classDiagram
       +run()
     }
 ```
-# 数学公式
-### 行内公式
+# 🌕数学公式
+### 🌗行内公式
 ```
 $x^2 + 2x + 5 + \sqrt x = 0$
 $e^{i\pi} + 1 = 0$
@@ -443,7 +443,7 @@ $x^2 + 2x + 5 + \sqrt x = 0$
 $e^{i\pi} + 1 = 0$
 $\ce{CO2 + C -> 2 CO}$
 $\ce{2Mg + O2 ->[燃烧] 2 MgO}$
-### 公式块
+### 🌗公式块
 $$
 \ce{Zn^2+  <=>[+ 2OH-][+ 2H+]  $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$  <=>[+ 2OH-][+ 2H+]  $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}
 $$
