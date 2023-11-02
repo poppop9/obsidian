@@ -98,8 +98,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0adbc88fa5338fb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "科技美学/Mac软件.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -181,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md"
+                "file": "科技美学/Mac软件.md"
               }
             }
           },
@@ -191,7 +204,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md"
+                "file": "科技美学/Mac软件.md"
               }
             }
           },
@@ -222,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md",
+                "file": "科技美学/Mac软件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -239,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md",
+                "file": "科技美学/Mac软件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -262,12 +275,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50a8f51d71867af8",
+  "active": "0adbc88fa5338fb2",
   "lastOpenFiles": [
+    "💻计算机/四大件/计算机网络2.md",
     "临时笔记/穿搭.md",
     "💻计算机/数据库/MySQL.md",
     "考试/作业2.md",
-    "💻计算机/四大件/计算机网络2.md",
     "临时笔记/魔术.md",
     "临时笔记/文字美学.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
