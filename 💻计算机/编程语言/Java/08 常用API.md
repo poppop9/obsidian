@@ -1,5 +1,5 @@
 #计算机/编程语言/Java 
-# Arrays
+# 🌕Arrays
 ```
 public class Arrays extends Object
 ```

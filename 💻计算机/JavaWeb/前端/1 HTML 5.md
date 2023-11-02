@@ -1,6 +1,6 @@
-# 网页的结构
+# 🌕网页的结构
 ![[JavaWeb Draw#^group=QUadQUqX|900]]
-# 特殊字符
+# 🌕特殊字符
 `&nbsp;` 空格符
 `&lt;` <
 `&gt;` >
@@ -14,7 +14,7 @@
 `&divide;` 除号
 `&sup2;` 平方²
 `&sup3;` 立方³
-# 骨架标签
+# 🌕骨架标签
 `<!doctype html>` 告诉浏览器使用HTML版本来显示网页
 `<html lang="en">` 设置网页的语言。中文为“zh-CN”
 `<meta charset="UTF-8">` 设置字符集合
@@ -30,10 +30,10 @@
 </html>
 ```
 
-# 常用标签
-### 注释
+# 🌕常用标签
+### 🌗注释
 `<!--注释内容-->`
-### 标题\<h\>
+### 🌗标题\<h\>
 `<h1>标题名称</h1>`
 一个标题独占一行，有6个等级的标题可以选择
 
@@ -43,7 +43,7 @@
 …………
 <h6>我是一级标题</h6>
 ```
-### 段落\<p\>
+### 🌗段落\<p\>
 段落之间会在网页显示时会有空隙
 
 ```html
@@ -54,7 +54,7 @@
 
 你好，我是HTML 5
 ```
-### 换行\<br/\>
+### 🌗换行\<br/\>
 一个段落中的文字会从左到右排列，直到浏览器窗口的右端才会自动换行，***而换行标签可以对文本进行强制换行***
 
 ```html
@@ -68,40 +68,40 @@
 	你好，我是HTML 5 你好，我是HTML 5
 </p>
 ```
-### 文本格式
+### 🌗文本格式
 `<b></b>` 加粗
 `<i></i>` 倾斜
 `<del></del>` 删除线
 `<u></u>` 下划线
-### 无语义盒子
+### 🌗无语义盒子
 >这两个标签都是没有具体意思的，它们就是一个***盒子***【用来装文字，图片，超链接】
 >![[JavaWeb Draw#^group=jLK9MAUa|600]]
-##### \<div\>
+##### 🌗\<div\>
 一个`<div>`独占一行
-##### \<span\>
+##### 🌗\<span\>
 多个`<span>`标签占一行
 ***\<span\>标签无法设置width和height，宽度和高度由内容默认撑开***
 
-### 分割线\<hr\>
+### 🌗分割线\<hr\>
 ```html
 <span id="h001">2023年9月9日 20:38:00</span>
 <hr>
 ```
-### 超链接\<a\>
+### 🌗超链接\<a\>
 `href` 指定的URL
 `target` 以哪种方式打开超链接【在当前页面打开`_self`，在新页面打开`_blank`】
 
 ```html
 <a id="h002" href="https://www.zjxu.edu.cn/" target="_blank">嘉兴学院</a>
 ```
-##### 锚点链接
+##### 🌗锚点链接
 就像是PDF的目录一样
 ```html
 <h4 id="live">个人生活</h4>
 
 <a herf="#live">个人生活</a>
 ```
-### 图片\<img\>
+### 🌗图片\<img\>
 ***属性之间要有空格***
 `src` 指定图片路径
 
@@ -115,7 +115,7 @@
 ```html
 <img src="https://1b2a.net/img/tv/PwGW.avif" width="300" title="装腔启示录" />
 ```
-### 视频\<video\>
+### 🌗视频\<video\>
 `autoplay` 视频就绪后自动播放
 `controls` 视频的控制按钮【暂停，音量调节等】
 `width` 视频的宽度
@@ -127,11 +127,11 @@
 ```html
 <video src="D:\Overthink｜时光代理人ED原创舞蹈【Figo × 王一大只】.mp4" poster="https://img0.baidu.com/it/u=1802578230,1841279071&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" controls loop width="700"></video>
 ```
-### 音频\<audio\>
+### 🌗音频\<audio\>
 ```html
 <audio src="E:\迅雷下载\就是爱你-陶喆.flac" controls>流沙</audio>
 ```
-### 表格\<table\>
+### 🌗表格\<table\>
 `<tr>` 一行
 `<th>` 表头
 `<td>` 表格单元格元素
@@ -167,7 +167,7 @@
 </table>
 ```
 ![[JavaWeb Draw#^group=h6qa99MH|370]]
-### 表单\<form\>
+### 🌗表单\<form\>
 - `action` 指定表单提交时去往的URL地址
 - `method` 表单数据的提交方式。
 	- `get` 会在URL后面拼接表单数据。【当表单数据很长时不推荐】
@@ -179,7 +179,7 @@
 	  file:///E:/VScode/html/9_9.html?username=123&password=456  //URL后面会出现表单数据
 	  ```
 	- `post` 在消息体中传递。【表单数据大小无限制】
-##### \<input\>
+##### 🌗\<input\>
   - `type` 
     - `text` 单行输入字段
     - `password` 密码字段
@@ -198,9 +198,9 @@
       - `button` 可点击按钮
   - `name` ***name相同表示是同一个表单项***
   - `value` ***提交表单时真正提交的值***
-##### \<select\>
+##### 🌗\<select\>
   - `option` 
-##### \<textarea\>
+##### 🌗\<textarea\>
 
 ```html
 <form action="" method="get">
@@ -268,7 +268,7 @@
 </form>
 
 
-# 快捷键
+# 🌕快捷键
 `!` 生成骨架标签
 `ctrl+shift+/` 注释
 `ctrl+alt+l` 格式化代码

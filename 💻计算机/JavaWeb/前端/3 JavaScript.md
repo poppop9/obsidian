@@ -1,13 +1,13 @@
-# 引入方式
+# 🌕引入方式
 
-### 定义在HTML文件中
+### 🌗定义在HTML文件中
 ```html
 <script>
 	…………
 </script>
 ```
 ***一般放置在\<body\>的底部***
-### 定义在外部的.js文件中
+### 🌗定义在外部的.js文件中
 ```html
 <script src="demo.js"></script>
 ```
@@ -15,11 +15,11 @@
 …………
 ```
 
-# 基础语法
+# 🌕基础语法
 
-### 注释，流程控制语句
+### 🌗注释，流程控制语句
 与Java相同
-### 输出语句
+### 🌗输出语句
 - `alert` 
   ***会在浏览器弹出警告框***
   ```js
@@ -30,8 +30,8 @@
   ***会把内容直接写入到浏览器里显示***
 - `console.log` 
   ***写入浏览器的控制台***
-### 变量
-##### var
+### 🌗变量
+##### 🌗var
 ```js
 var a = 20;
 a = "张三"；
@@ -52,12 +52,12 @@ alert(a);
   var a = "js";
 }
   ```
-##### let
+##### 🌗let
 - ***定义的是局部变量***
 - 不可以重复声明
-##### const
+##### 🌗const
 - 定义常量，不可修改
-### 数据类型
+### 🌗数据类型
 ```js
     alert(typeof 1);  //number
     alert(typeof "1");  //string
@@ -67,19 +67,19 @@ alert(a);
     var a;
     alert(typeof a);  //undefined（变量未被初始化，则为undefined）
 ```
-##### 类型转换
-###### string转number
+##### 🌗类型转换
+###### 🌗string转number
 ```js
 alert(parseInt("123"));  //123
 alert(parseInt("123A34"));  //123
 alert(parseInt("A123"));  //NaN
 ```
-###### 其他类型转Boolean
+###### 🌗其他类型转Boolean
 number：0和NaN为`false`，其他为`true`
 string：空字符为`false`，其他为`true`
 null：均为`false`
 undefined：均为`false`
-### 比较运算符
+### 🌗比较运算符
 `==` 会在比较之前进行类型转换
 `===` 只进行比较，不进行类型转换
 ```js
@@ -88,8 +88,8 @@ undefined：均为`false`
     alert(a === "10");  // false
     alert(a === 10);  // true
 ```
-# 函数
-### 定义函数
+# 🌕函数
+### 🌗定义函数
 - 无需写返回值，直接在函数体内`return`，如果无需返回值则不写
 - 参数无需写数据类型【因为JavaScript是弱类型语言】
 ```js
@@ -97,7 +97,7 @@ function 函数名(参数1, 参数2……){
 	函数体
 }
 ```
-### 调用函数
+### 🌗调用函数
 `var result = add(10, 20);`
 
 ***调用函数时可以指定任意数量的参数***
@@ -105,41 +105,41 @@ function 函数名(参数1, 参数2……){
 var result = add(10, 20, 30, 40);
 alert(result);  //30
 ```
-# 对象
-### Array
+# 🌕对象
+### 🌗Array
 ***数组的长度可变**
 ***数组里元素的数据类型可以不一样***
-##### 定义
+##### 🌗定义
 - `var 变量名 = new Array(1, 2, 3, 4);`
 - `var 变量名 = [1, 2, 3, 4];`
-##### 访问
+##### 🌗访问
 `变量名[索引]`
-##### 添加元素
+##### 🌗添加元素
 ```js
 var arr = new Array(1, 2, 3, 4);
 arr.push(5, 6, 7);  //可以添加多个元素到数组的尾部
 ```
-##### 删除
+##### 🌗删除
 ```js
 var arr = new Array(1, 2, 3, 4);
 arr.splice(3, 2);  //从索引3开始删，删2个 
 ```
-##### 遍历
-###### 遍历所有
+##### 🌗遍历
+###### 🌗遍历所有
 ```js
 var arr = new Array(1, 2, 3, 4);
 for (let i = 0; i < arr.length; i++) {
 	console.log(arr[i]);
 }
 ```
-###### 遍历有值的元素
+###### 🌗遍历有值的元素
 ```js
 var arr = new Array(1, 2, 3, 4);
 arr.foreach(function (e){
 	console.log(e);
 })
 ```
-### String
+### 🌗String
 >[!summary]
 >length()  获取字符串长度
 >charAt()  返回指定位置的字符
@@ -159,8 +159,8 @@ v
 4
 va
 ```
-### 自定义对象
-##### 定义
+### 🌗自定义对象
+##### 🌗定义
 ```js
 var 对象名 = {
 	属性名1: 属性值1,
@@ -170,7 +170,7 @@ var 对象名 = {
 	}
 }
 ```
-##### 调用
+##### 🌗调用
 ```js
 对象名.属性名;
 对象名.函数名();
@@ -192,13 +192,13 @@ p1.handsome("帅气");
 吴彦祖
 帅气   
 ```
-### JSON
+### 🌗JSON
 JSON是存储和传输数据的字符串
-##### 书写格式
+##### 🌗书写格式
 ```js
 var jsonstr = '{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}';
 ```
-##### JSON转JS对象
+##### 🌗JSON转JS对象
 `JS js = JSON.parse(JSON json);`
 ```js
 var jsonstr = '{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}';
@@ -208,7 +208,7 @@ console.log(obj.name);
 
 吴彦祖
 ```
-##### JS对象转JSON
+##### 🌗JS对象转JSON
 `JSON json = JSON.stringify(JS js);`
 ```js
 var jsonstr = '{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}';
@@ -220,9 +220,9 @@ console.log(json);
 
 {"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}
 ```
-### BOM
+### 🌗BOM
 BOM是浏览器对象模型，允许JavaScript与浏览器对话
-##### Window 浏览器窗口对象
+##### 🌗Window 浏览器窗口对象
 >[!summary]
 >window.history  返回窗口的History对象
 >window.location  返回窗口的Location对象
@@ -234,9 +234,9 @@ BOM是浏览器对象模型，允许JavaScript与浏览器对话
 >setInterval(函数名,周期)  周期性执行指定的代码
 >setTimeout(函数名,延迟数值)  在经过指定的时间之后执行代码
 
-###### alert()
+###### 🌗alert()
 
-###### confirm()
+###### 🌗confirm()
 ```js
 confirm("hello javascript!\nhello javascript!");
 ```
@@ -252,7 +252,7 @@ if (confirm("点击按钮") == true) {
 
 console.log(text);
 ```
-###### setInterval
+###### 🌗setInterval
 ```js
 setInterval(() => {
 	alert("hello");
@@ -261,7 +261,7 @@ setInterval(() => {
 
 每隔2秒弹出hello
 ```
-###### setTimeout
+###### 🌗setTimeout
 ```js
 setTimeout(() => {
 	alert("hello");
@@ -270,13 +270,13 @@ setTimeout(() => {
 
 打开网页后延迟2秒会弹出hello
 ```
-##### Navigator 浏览器对象
+##### 🌗Navigator 浏览器对象
 
-##### Screen 屏幕对象
+##### 🌗Screen 屏幕对象
 
-##### History 历史记录对象
+##### 🌗History 历史记录对象
 
-##### Location 地址栏对象
+##### 🌗Location 地址栏对象
 >[!summary]
 >location.href	获取整个URL
 
@@ -287,9 +287,9 @@ location.href = "https://www.baidu.com/";
 
 点击完提示框后，会自动跳转到baidu的官网
 ```
-### DOM
+### 🌗DOM
 当 HTML 文档加载到 Web 浏览器中时，它就变成了一个DOM
-##### 核心DOM
+##### 🌗核心DOM
 核心DOM是DOM的通用规范
 - Document 整个文档对象
 - Element 元素对象
@@ -316,9 +316,9 @@ graph TB
 	g-->j{{文本百度}}
 	k((注释))
 ```
-##### XML DOM
+##### 🌗XML DOM
 专门用于XML文件的DOM规范
-##### HTML DOM
+##### 🌗HTML DOM
 HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装成了一个元素***
 >[!summary] 属性
 >innerHTML  设置或返回元素的内容
@@ -331,7 +331,7 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 >
 >Element.innerHTML	设置或返回元素的内容
 
-###### HTMLParagraphElement
+###### 🌗HTMLParagraphElement
 ```html
 <body>
 	<p id="p2">责任编辑：指数爆炸</p>
@@ -347,7 +347,7 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 
 [object HTMLParagraphElement]
 ```
-###### HTMLImageElement
+###### 🌗HTMLImageElement
 >[!summary] 属性
 >src  设置或返回图像的 src 属性值
 
@@ -369,7 +369,7 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 [object HTMLImageElement]
 [object HTMLImageElement]
 ```
-###### HTMLInputElement
+###### 🌗HTMLInputElement
 >[!summary] 属性
 >checked  设置或返回复选框的选中状态。可以设置为`true`或`false`
 	
@@ -388,7 +388,7 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 
 [object HTMLInputElement]
 ```
-###### HTMLDivElement
+###### 🌗HTMLDivElement
 ```html
 <body>
 	<div>
@@ -406,9 +406,9 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 
 [object HTMLDivElement]
 ```
-# 事件监听
+# 🌕事件监听
 事件可以是：按钮被点击了、鼠标移动到某个位置了、按下键盘按键了……
-### 常见事件
+### 🌗常见事件
 `onclick` 鼠标单击
 `onblur` 元素失去焦点
 `onfocus` 元素获得焦点
@@ -418,8 +418,8 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 `onmouseover` 鼠标移到某元素上
 `onmouseout` 鼠标从某元素移开
 
-### 事件绑定
-##### HTML的onclick属性
+### 🌗事件绑定
+##### 🌗HTML的onclick属性
 ```html
 <body>
 	<input id="submit_2" onclick="gotobaidu()" type="submit" value="百度">
@@ -431,7 +431,7 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
     }
 </script>
 ```
-##### 对象调用onclick属性指定函数
+##### 🌗对象调用onclick属性指定函数
 ```html
 <body>
 	<input id="submit_2" type="submit" value="百度">

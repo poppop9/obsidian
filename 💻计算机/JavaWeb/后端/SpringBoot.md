@@ -1,13 +1,13 @@
-# 基本概念
+# 🌕基本概念
 >Spring是一个开发生态圈，它提供了若干个子项目，用于完成特定功能
 >![[JavaWeb Draw#^group=Lu3xncQA90nuAeKIaESZ_]]
-# 准备工作
-### 创建Spring项目
+# 🌕准备工作
+### 🌗创建Spring项目
 - 创建Spring模块
 	- 勾选Web开发相关依赖
 	![[JavaWeb Draw#^group=dMXiaySV]]
 	![[JavaWeb Draw#^group=qCHuJWbK]]
-### 目录结构
+### 🌗目录结构
 - `.mvn` - Maven wrapper文件
 - `src` - 源码目录
     - `main`
@@ -21,23 +21,23 @@
             - `包路径`
 			- `项目名称ApplicationTests.java` - 测试 starters
 - `pom.xml` - Maven项目对象模型配置文件
-# Web服务器
+# 🌕Web服务器
 >Web服务器对HTTP协议的操作进行了封装，使得Web开发更为便携。Web服务器可以用来部署我们我们开发好的Web项目，对外提供网上信息浏览服务
-### HTTP协议
+### 🌗HTTP协议
 - HTTP协议，一次请求对应一次响应
 - HTTP协议每次请求和响应都是独立的，后一次请求无法知道前一次请求的数据
-### Tomcat
+### 🌗Tomcat
 >Tomcat是一款轻量级的Web服务器
 
 SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已经***内置了Tomcat***，当启动类运行时，会自动运行Tomcat服务器
 ![[JavaWeb Draw#^group=yrp52Usr]]
 
-# 请求，响应，分层解耦
+# 🌕请求，响应，分层解耦
 ![[JavaWeb Draw#^group=tMdaT5BlcDIqJIyPd8ixX|770]]
-### 请求
+### 🌗请求
 >***Apifox***
 >Apifox是一款 API设计/开发/测试工具
-##### 简单参数
+##### 🌗简单参数
 GET请求：`http://localhost:8080/simpleParam?name=Tom&age=10`
 ```java
 @RestController  //注释@RestController，表示这是一个Controller类
@@ -53,7 +53,7 @@ public class RequestController {
 Tom:10
 ```
 ***@RestController = @Controller + @ResponseBody***
-##### 简单对象
+##### 🌗简单对象
 GET请求：`http://localhost:8080/simplePojo?name=Tom&age=20`
 ```java
 @RestController  
@@ -80,7 +80,7 @@ public class RequestController {
 
 Tom:20
 ```
-##### 复杂参数
+##### 🌗复杂参数
 GET请求：`http://localhost:8080/complexPojo?name=Tom&age=20&address.province=广东&address.city=广州`
 ```java
 @RequestMapping("/complexPojo")  
@@ -141,7 +141,7 @@ public class Address {
     }  
 }
 ```
-##### 数组参数
+##### 🌗数组参数
 GET请求：`http://localhost:8080/arrayParam?hobby=dance&hobby=game&hobby=sing`
 ```java
 @RequestMapping("/arrayParam")  
@@ -153,7 +153,7 @@ public String ArrayParam(String[] hobby) {    //数组名与请求参数名相�
 
 [dance, game, sing]
 ```
-##### 集合参数
+##### 🌗集合参数
 GET请求：`http://localhost:8080/listParam?hobby=dance&hobby=game&hobby=sing`
 ```java
 @RequestMapping("/listParam")  
@@ -165,7 +165,7 @@ public String ListParam(@RequestParam List<String> hobby) {  //需要添加Reque
 
 [dance, game, sing]
 ```
-##### 日期参数
+##### 🌗日期参数
 GET请求：`http://localhost:8080/dateParam?updateTime=2023-10-09 15:50:20`
 ```java
 @RequestMapping("/dateParam")  
@@ -177,7 +177,7 @@ public String DateParam(@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss") LocalDa
 
 2023-10-09T15:50:20
 ```
-##### Json参数
+##### 🌗Json参数
 POST请求：`http://localhost:8080/jsonParam`
 ```json
 {
@@ -200,7 +200,7 @@ public String JsonParam(@RequestBody User user) {  //注解表示将json数据�
 
 User{name='Tom', age=20, address=Address{province='广东', city='广州'}}
 ```
-##### 路径参数
+##### 🌗路径参数
 GET请求：`http://localhost:8080/123`
 ```java
 @RequestMapping("/{id}")  
@@ -212,8 +212,8 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 
 123
 ```
-### 响应
-##### 首先包装一个Result类
+### 🌗响应
+##### 🌗首先包装一个Result类
 ```java
 public class Result<T> {   
     private String status;      //状态码 
@@ -305,7 +305,7 @@ public class Result<T> {
     }  
 }
 ```
-##### 响应对象
+##### 🌗响应对象
 ```java
 @RequestMapping("/address")  
 public Result<Address> address() {  
@@ -326,7 +326,7 @@ public Result<Address> address() {
     }
 }
 ```
-##### 响应集合
+##### 🌗响应集合
 ```java
 @RequestMapping("/list")  
 public Result<List<Address>> list() {  
@@ -362,8 +362,8 @@ public Result<List<Address>> list() {
     ]
 }
 ```
-### 分层
-##### Dao
+### 🌗分层
+##### 🌗Dao
 >Dao层的作用是获取数据【文件数据，xml数据，json数据等】
 
 ```java
@@ -386,7 +386,7 @@ public class EmpDaoA implements EmpDao {
     }  
 }
 ```
-##### Service
+##### 🌗Service
 >Sevice层的作用是处理数据
 
 ```java
@@ -412,7 +412,7 @@ public class EmpServiceA implements EmpServie {
     }  
 }
 ```
-##### Controller
+##### 🌗Controller
 >Controller的作用是响应数据给前端
 
 ```java
@@ -444,17 +444,17 @@ GET请求：`http://localhost:8080/emp`
     ]
 }
 ```
-### 解耦
+### 🌗解耦
 >以上的分层方式，实现了***高内聚***，但是依然没有实现***低耦合***【Controller中还是有依赖Service，Service还是有依赖Dao】
 >![[Excalidraw/计算机/JavaWeb Draw.md#^group=g1pvEhriTd5poW0zM1k4o|500]]
-##### 控制反转 IOC
+##### 🌗控制反转 IOC
 >对象的创建控制权由程序自身转移到容器【本身由EmpController自身创建EmpService对象，变为由容器创建对象】
 
 - ***添加***`@Component`***注释***【如果某个类不属于以下三类，但是也想交给IOC处理时使用】
 	- 如果是控制器类上就用`@Controller`
 	- 如果是逻辑处理Service类就用`@Service`
 	- 如果是访问Dao类上就用`@Repository`
-##### 依赖注入 DI
+##### 🌗依赖注入 DI
 >容器为应用程序提供运行时所依赖的资源【容器为EmpController提供运行时所需要的EmpService对象】
 
 - ***添加***`@Autowired`***注释***【通过类型注入==单个注解中的单个依赖==】
