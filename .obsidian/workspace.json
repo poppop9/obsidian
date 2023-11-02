@@ -99,8 +99,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/Obsidian特殊语法.md",
+                "file": "💻计算机/四大件/计算机网络2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/Obsidian特殊语法.md"
+                "file": "💻计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -215,7 +214,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/Obsidian特殊语法.md"
+                "file": "💻计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -246,10 +245,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4eb8f12e0519ae99",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
-    "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/Obsidian特殊语法.md",
+    "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/MarkDown语法.md",
     "临时笔记/权游台词.md",
     "临时笔记/魔术.md",
