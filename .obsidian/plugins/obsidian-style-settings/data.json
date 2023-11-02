@@ -194,5 +194,6 @@
   "blue-topaz-theme@@print-h3-color@@dark": "#434343",
   "blue-topaz-theme@@print-h5-color@@light": "#767676",
   "blue-topaz-theme@@print-h5-color@@dark": "#767676",
-  "blue-topaz-theme@@font-weight-h6": "\"\""
+  "blue-topaz-theme@@font-weight-h6": "520",
+  "blue-topaz-theme@@font-weight-h3": "530"
 }
