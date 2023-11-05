@@ -51,6 +51,12 @@ CREATE TABLE 表名(
 
 # 🌕约束
 >约束是处理数据库的规则
+
+`NOT NULL`  非空约束：限制字段不能为NULL
+`UNIQUE`  唯一约束：保证字段所有数据唯一
+`PRIMARY KEY`  主键
+`DEFAULT`  默认
+`FOREIGN KEY`  外键
 ### 🌗主键
 >主键是用于唯一标识数据库表中每一行数据的***字段/字段组合***
 ##### 🌑对于主键的约束
@@ -68,5 +74,8 @@ CREATE TABLE Vendors
 );
 ```
 
-
+```sql
+ALTER TABLE Vendors  //表示需要修改的表是Vendors
+    ADD CONSTRAINT PRIMARY KEY (vend_id);     //给该表添加一个主键 vend_id
+```
 ### 🌗外键
