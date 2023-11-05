@@ -27,11 +27,11 @@ tags:
 - ***创建***
 ```sql
 CREATE TABLE 表名(
-	字段1 字段类型[COMMENT 注释],
-	字段2 字段类型[COMMENT 注释],
-	字段3 字段类型[COMMENT 注释],
+	字段1 字段类型 [约束] [COMMENT 注释],
+	字段2 字段类型 [约束] [COMMENT 注释],
+	字段3 字段类型 [约束] [COMMENT 注释],
 	…………
-	字段n 字段类型[COMMENT 注释]
+	字段n 字段类型 [约束] [COMMENT 注释]
 )[COMMENT 表注释]
 ```
 
@@ -52,11 +52,11 @@ CREATE TABLE 表名(
 # 🌕约束
 >约束是处理数据库的规则
 
-`NOT NULL`  非空约束：限制字段不能为NULL
-`UNIQUE`  唯一约束：保证字段所有数据唯一
-`PRIMARY KEY`  主键
-`DEFAULT`  默认
-`FOREIGN KEY`  外键
+- `NOT NULL`  非空约束：限制字段不能为NULL
+- `UNIQUE`  唯一约束：保证字段所有数据唯一
+- `PRIMARY KEY`  主键约束
+- `FOREIGN KEY`  外键约束
+- `DEFAULT`  默认值约束：如果未指定字段的值，则采用默认值
 ### 🌗主键
 >主键是用于唯一标识数据库表中每一行数据的***字段/字段组合***
 ##### 🌑对于主键的约束
