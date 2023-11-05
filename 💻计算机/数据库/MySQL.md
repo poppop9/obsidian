@@ -84,10 +84,14 @@ ALTER TABLE Vendors  //表示需要修改的表是Vendors
 
 
 # 🌕问题处理
->[!faq] 如果要为表的主键添加auto increment属性，这个表的主键被作为了其他表的外键，每个表中都有数据，我不想数据丢失，那我该怎么办？
->- 在表中添加一个新的自增长主键列，而不删除现有的主键列
-```
-```
-ALTER TABLE customer ADD COLUMN NewID INT AUTO_INCREMENT PRIMARY KEY FIRST;
-```
+>[!faq] 如果要为表的主键添加auto increment属性，这个表的主键被作为了其他表的外键，每个表中都有数据，我不想数据丢失，那我该怎么办？\
 
+- 在表中添加一个新的自增长主键列，而不删除现有的主键列
+	```
+	ALTER TABLE customer ADD COLUMN NewID INT AUTO_INCREMENT PRIMARY KEY FIRST;
+	```
+- 将现有的主键列的值复制到新的主键列中
+	```sql
+	UPDATE customer SET NewID = CustomerID;
+	```
+- 对于引用了表主键的其他表，更新它们的外键引用，将其指向新的主键列 "NewID"
