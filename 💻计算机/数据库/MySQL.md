@@ -49,5 +49,7 @@ CREATE TABLE 表名(
 >Data Control Language 数据库控制语言
 
 
-
+# 🌕约束
+>约束是处理数据库的规则
+### 🌗主键
 
