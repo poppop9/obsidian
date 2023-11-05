@@ -95,3 +95,6 @@ ALTER TABLE Vendors  //表示需要修改的表是Vendors
 	UPDATE customer SET NewID = CustomerID;
 	```
 - 对于引用了表主键的其他表，更新它们的外键引用，将其指向新的主键列 "NewID"
+```sql
+ALTER TABLE other_table ADD CONSTRAINT fk_customer_id FOREIGN KEY (customer_id) REFERENCES customer (NewID);
+```
