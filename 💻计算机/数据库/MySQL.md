@@ -69,7 +69,7 @@ CREATE TABLE 表名(
 CREATE TABLE Vendors  
 (                          //并且还定义了该字段不能为空
     vend_id      CHAR(10) NOT NULL PRIMARY KEY auto increment, //定义了vend_id字段为主键
-    vend_name    CHAR(50) NOT NULL,             //此属性可以自增
+    vend_name    CHAR(50) NOT NULL,             //此属性可以自动自增该字段的值
     vend_address CHAR(50) NULL
 );
 ```
@@ -79,3 +79,15 @@ ALTER TABLE Vendors  //表示需要修改的表是Vendors
     ADD CONSTRAINT PRIMARY KEY (vend_id);     //给该表添加一个主键 vend_id
 ```
 ### 🌗外键
+
+
+
+
+# 🌕问题处理
+>[!faq] 如果要为表的主键添加auto increment属性，这个表的主键被作为了其他表的外键，每个表中都有数据，我不想数据丢失，那我该怎么办？
+>- 在表中添加一个新的自增长主键列，而不删除现有的主键列
+```
+```
+ALTER TABLE customer ADD COLUMN NewID INT AUTO_INCREMENT PRIMARY KEY FIRST;
+```
+
