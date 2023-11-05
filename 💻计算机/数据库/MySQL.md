@@ -2,6 +2,16 @@
 tags:
   - 计算机/数据库
 ---
+# 🌕数据类型
+### 🌗数值
+
+
+### 🌗字符串
+
+
+
+### 🌗日期时间
+
 # 🌕DDL
 >Data Definition Language 数据库定义语言
 ### 🌗数据库操作
@@ -84,7 +94,7 @@ ALTER TABLE Vendors  //表示需要修改的表是Vendors
 
 
 # 🌕问题处理
->[!faq] 如果要为表的主键添加auto increment属性，这个表的主键被作为了其他表的外键，每个表中都有数据，我不想数据丢失，那我该怎么办？\
+>[!faq] 如果要为表的主键添加auto increment属性，这个表的主键被作为了其他表的外键，每个表中都有数据，我不想数据丢失，那我该怎么办？
 
 - 在表中添加一个新的自增长主键列，而不删除现有的主键列
 	```
@@ -95,6 +105,12 @@ ALTER TABLE Vendors  //表示需要修改的表是Vendors
 	UPDATE customer SET NewID = CustomerID;
 	```
 - 对于引用了表主键的其他表，更新它们的外键引用，将其指向新的主键列 "NewID"
-```sql
-ALTER TABLE other_table ADD CONSTRAINT fk_customer_id FOREIGN KEY (customer_id) REFERENCES customer (NewID);
-```
+	```sql
+	ALTER TABLE other_table ADD CONSTRAINT fk_customer_id FOREIGN KEY (customer_id) REFERENCES customer (NewID);
+	```
+- 删除旧的主键列
+	```sql
+	ALTER TABLE customer DROP COLUMN CustomerID;
+	```
+- 最后将“NewID”设置为主键
+
