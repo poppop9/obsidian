@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "💻计算机/数据库/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "💻计算机/数据库/MySQL.md"
               }
             }
           },
@@ -215,7 +215,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "💻计算机/数据库/MySQL.md"
               }
             }
           },
@@ -229,7 +229,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -246,10 +247,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "be9e9e338af27e52",
+  "active": "bf7b63727fa233e1",
   "lastOpenFiles": [
-    "临时笔记/🍕美食打分.md",
     "临时笔记/穿搭.md",
+    "临时笔记/🍕美食打分.md",
     "临时笔记/Obsidian笔记编写规范.md",
     "💻计算机/四大件/计算机网络2.md",
     "临时笔记/Obsidian特殊语法.md",
