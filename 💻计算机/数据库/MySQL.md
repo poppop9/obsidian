@@ -68,8 +68,8 @@ CREATE TABLE 表名(
 ```sql
 CREATE TABLE Vendors  
 (                          //并且还定义了该字段不能为空
-    vend_id      CHAR(10) NOT NULL PRIMARY KEY,  //定义了vend_id字段为主键
-    vend_name    CHAR(50) NOT NULL,  
+    vend_id      CHAR(10) NOT NULL PRIMARY KEY auto increment, //定义了vend_id字段为主键
+    vend_name    CHAR(50) NOT NULL,             //此属性可以自增
     vend_address CHAR(50) NULL
 );
 ```
