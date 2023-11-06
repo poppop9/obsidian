@@ -153,15 +153,16 @@ tags:
 [^2]:可能因为表结构的改变而导致语法错误
 
 >[!hint] 如何插入SELECT出的数据
->
+>```sql
+> INSERT INTO 表1 (column1, column2, ...)  
+> SELECT column1,  
+>        column2, 
+>        ...  
+> FROM 表2;
+> ```
+> ***INSERT只能插入一行，而INSERT-SELECT可以插入多行***
 
-```sql
-INSERT INTO 表1 (column1, column2, ...)  
-SELECT column1,  
-       column2, 
-       ...  
-FROM 表2;
-```
+
 
 ### 🌗UPDATE
 
