@@ -60,11 +60,6 @@ tags:
 - `YEAR`：表示年份
 	- 格式为'YYYY'
 	- 范围从1901到2155
-
-
-
-
-
 # 🌕DDL
 >Data Definition Language 数据库定义语言
 ### 🌗数据库操作
@@ -134,6 +129,33 @@ tags:
 >Data Manipulation Language 数据库操作语言
 
 字符串和日期时间类型都需要包含在`引号''`内
+### 🌗INSERT
+- ***单个插入***
+	- 给指定数量字段插入
+		```sql
+		INSERT INTO 表名
+		```
+	- 给所有字段插入
+		```sql
+		```
+- ***批量插入***
+	- 给指定数量字段插入
+		```sql
+		
+		```
+	- 给所有字段插入
+		```sql
+		```
+
+### 🌗UPDATE
+
+
+### 🌗DELETE
+
+
+
+### 🌗CREATE
+
 
 
 
