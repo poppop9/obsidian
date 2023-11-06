@@ -97,6 +97,9 @@ CREATE TABLE 表名(
 
 # 🌕DCL
 >Data Control Language 数据库控制语言
+# 🌕函数
+### 🌗日期函数
+`now()`  获取当前的系统时间
 
 
 # 🌕约束
