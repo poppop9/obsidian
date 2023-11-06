@@ -100,6 +100,10 @@ CREATE TABLE 表名(
 # 🌕函数
 ### 🌗日期函数
 `now()`  获取当前的系统时间
+```sql
+insert into customer(update_time)  
+values (now());
+```
 
 
 # 🌕约束
