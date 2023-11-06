@@ -99,6 +99,13 @@ CREATE TABLE 表名(
 )[COMMENT 表注释]
 ```
 - ***修改***
+	- 添加
+		```sql
+		ALTER TABLE 表名 ADD 字段名 数据类型[COMMENT 注释] 
+		```
+	- 修改
+		- 修改数据类型
+		- 修改字段名
 - ***删除***
 
 
