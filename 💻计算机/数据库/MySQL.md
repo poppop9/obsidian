@@ -161,10 +161,20 @@ tags:
 > FROM 表2;
 > ```
 > ***INSERT只能插入一行，而INSERT-SELECT可以插入多行***
-
-
-
 ### 🌗UPDATE
+```sql
+UPDATE 表名 SET 字段名1=值1,字段名2=值2 [WHERE 条件];
+```
+
+
+在 MySQL 中，您可以使用 `UPDATE` 语句来从一个表中选择数据，并使用这些数据来更新另一个表的行。
+```sql
+UPDATE table1
+	JOIN table2 ON join_condition
+	SET table1.column1 = table2.column1, table1.column2 = table2.column2, ...
+	WHERE condition;
+```
+在上述语法中，`table1` 是要更新的目标表，`table2` 是提供数据的源表。`JOIN` 子句用于指定两个表之间的连接条件。您可以在 `SET` 子句中指定要更新的列，并将其设置为源表中相应列的值。`WHERE` 子句可选，用于过滤要更新的行。
 
 
 ### 🌗DELETE
