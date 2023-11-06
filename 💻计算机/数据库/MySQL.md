@@ -99,30 +99,31 @@ tags:
 	)[COMMENT 表注释]
 	```
 - ***修改***
-	- 添加
-		```sql
-		ALTER TABLE 表名 ADD 字段名 数据类型[COMMENT 注释] [约束];
-		```
-	- 修改
-		- 修改表名
+	- 对于字段
+		- 添加字段
 			```sql
-			ALTER TABLE 旧表名 RENAME TO 新表名;
+			ALTER TABLE 表名 ADD 字段名 数据类型[COMMENT 注释] [约束];
 			```
-		- 修改表属性
-			```sql
-			
-			```
-		- 修改所有字段属性
+		- 修改属性
 			```sql
 			ALTER TABLE 表名
 				CHANGE 旧字段名 新字段名 新数据类型 [COMMENT 注释]
 				[约束];
 			```
-	- 删除
-		```sql
-		ALTER TABLE 表名 DROP 字段名;   //删除某个字段名
-		```
+	- 对于表
+		- 修改表名
+			```sql
+			ALTER TABLE 旧表名 RENAME TO 新表名;
+			```
+		- 修改表的存储引擎
+			```sql
+			ALTER TABLE 表名
+				ENGINE = 存储引擎类型;       //修改表的存储引擎
+			```
 - ***删除***
+	```sql
+	ALTER TABLE 表名 DROP 字段名;   //删除某个字段名
+	```
 	```sql
 	DROP TABLE [IF EXISTS] 表名;       //删除整张表
 	```
