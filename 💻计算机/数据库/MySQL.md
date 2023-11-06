@@ -204,17 +204,6 @@ DELETE FROM 表名 [WHERE 条件];   //删除n行
 >```sql
 >UPDATE 表名 SET 字段名 = NULL;
 >```
-### 🌗CREATE
-```sql
-CREATE TABLE 新表 AS 
-```
-
-
-
-
-
-
-
 # 🌕DQL
 >Data Query Language 数据查询语言
 
