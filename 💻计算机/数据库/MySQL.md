@@ -104,10 +104,19 @@ CREATE TABLE 表名(
 		ALTER TABLE 表名 ADD 字段名 数据类型[COMMENT 注释] [约束];
 		```
 	- 修改
+		- 修改表名
+			```sql
+			ALTER TABLE 旧表名 RENAME TO 新表名;
+			```
+		- 修改所有字段属性
+			```sql
+			ALTER TABLE 表名
+				CHANGE 旧字段名 新字段名 新数据类型 [COMMENT 注释]
+				[约束];
+			```
+	- 删除
 		```sql
-		ALTER TABLE 表名
-			CHANGE 旧字段名 新字段名 新数据类型 [COMMENT 注释]
-			[约束];
+		ALTER TABLE 表名 DROP zi'duan'm
 		```
 - ***删除***
 
