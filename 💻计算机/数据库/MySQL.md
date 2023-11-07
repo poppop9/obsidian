@@ -266,7 +266,7 @@ SELECT * FROM 表名 WHERE name like '张%';  //表示查询name为姓张什么�
 - ***逻辑不明确时可以加括号***
 ### 🌗分组查询
 ```sql
-SELECT 字段 FROM 表名 [WHERE 条件] GROUP  
+SELECT 字段 FROM 表名 [WHERE 条件] GROUP BY 分组字段名 [HAVING 分组后的过滤条件]; 
 ```
 
 
