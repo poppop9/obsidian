@@ -307,6 +307,13 @@ SELECT 字段 FROM 表名 ORDER BY 字段1 排序方式1,字段2 排序方式2�
 SELECT * FROM table ORDER BY age ASC,entrydate DESC……; 
                                      //DESC为降序，ASC为升序【默认】
 ```
+### 🌗分页查询
+
+
+
+
+
+
 
 # 🌕DCL
 >Data Control Language 数据库控制语言
