@@ -224,7 +224,9 @@ DELETE FROM 表名 [WHERE 条件];   //删除n行
 	SELECT 字段1[别名1],字段2[别名2] FROM 表名;
 	```
 ### 🌗条件查询
-``
+```sql
+SELECT 字段 FROM 表名 WHERE 条件;   //可以有多个条件【用逻辑符连接】
+ ```
 
 
 
