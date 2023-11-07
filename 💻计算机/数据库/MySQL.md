@@ -228,11 +228,11 @@ DELETE FROM 表名 [WHERE 条件];   //删除n行
 SELECT 字段 FROM 表名 WHERE 条件;   //可以有多个条件【用逻辑符连接】
  ```
 
-|运算符|描述|示例|
+|比较运算符|描述 |示例|
 |---|---|---|
-|=|等于|WHERE column_name = value|
+|=|等于|WHERE column_name = value |
 |!= 或 <>|不等于|WHERE column_name != value|
-|>|大于|WHERE column_name > value|
+|>|大于|WHERE column_name > value |
 |< |小于|WHERE column_name < value|
 |>= |大于等于 |WHERE column_name >= value|
 |<= |小于等于|WHERE column_name <= value|
@@ -240,12 +240,18 @@ SELECT 字段 FROM 表名 WHERE 条件;   //可以有多个条件【用逻辑符
 |NOT BETWEEN...AND...|不在范围内|WHERE column_name NOT BETWEEN 值1 AND 值2|
 |IN|在给定值列表中|WHERE column_name IN (值1, 值2, ...)|
 |NOT IN|不在给定值列表中|WHERE column_name NOT IN (值1, 值2, ...)|
-|LIKE|模式匹配|WHERE column_name LIKE pattern|
-|NOT LIKE|不匹配指定模式 |WHERE column_name NOT LIKE pattern|
-|IS NULL|为 NULL|WHERE column_name IS NULL|
-|IS NOT NULL|不为 NULL|WHERE column_name IS NOT NULL|
+|LIKE|模糊匹配|WHERE column_name LIKE `pattern`|
+|NOT LIKE|不匹配指定模式|WHERE column_name NOT LIKE `pattern`|
+|IS NULL |为 NULL|WHERE column_name IS NULL|
+|IS NOT NULL|不为 NULL|WHERE column_name IS NOT NULL |
+`pattern` 中的 `_` 表示单个模糊字符，`%` 表示任意个字符
 
-请注意，在实际使用时，你需要将 `column_name`、`value` 和 `pattern` 替换为具体的列名、值和模式。
+
+|逻辑运算符 |描述|示例|
+|:-:|:-:|:-:|
+|AND|并且|WHERE 字段 > value|
+|  |  |  |
+|  |  |  |
 
 ### 🌗分组查询
 
