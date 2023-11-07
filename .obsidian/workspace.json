@@ -133,9 +133,19 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "4c5e1837a102ae59",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "82e190d91877a96e",
@@ -173,8 +183,19 @@
                 "file": "💻计算机/数据库/MySQL.md"
               }
             }
+          },
+          {
+            "id": "1313091422fab9f4",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "💻计算机/数据库/MySQL.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,9 +212,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d0b803412ff90f26",
+  "active": "4c5e1837a102ae59",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-11-07 13.49.45.excalidraw.md",
     "💻计算机/数据库/MySQL.md",
+    "Excalidraw/Drawing 2023-11-07 13.49.39.excalidraw.md",
     "临时笔记/MarkDown语法.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "💻计算机/四大件/计算机网络2.md",
@@ -217,8 +240,6 @@
     "💻计算机/JavaWeb/后端/Maven.md",
     "💻计算机/四大件/计算机组成原理.md",
     "💻计算机/数据库/mysql安装配置.md",
-    "💻计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
-    "Excalidraw/杂/Obsidian笔记编写规范 Draw.md",
     "💻计算机/JavaWeb/后端",
     "💻计算机/JavaWeb/前端",
     "💻计算机/JavaWeb",
