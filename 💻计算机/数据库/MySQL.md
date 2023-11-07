@@ -267,7 +267,20 @@ SELECT * FROM 表名 WHERE name like '张%';  //表示查询name为姓张什么�
 ### 🌗分组查询
 ```sql
 SELECT 字段 FROM 表名 [WHERE 条件] GROUP BY 分组字段名 [HAVING 分组后的过滤条件]; 
+
+SELECT gender,COUNT(*) FROM table GROUP BY gender;
+
+
 ```
+
+>[!hint] WHERE 与 HAVING 的区别
+>where：
+>- 对分组之前的数据进行过滤，如果不满足则不参与分组；
+>- 而且where不能对聚合函数进行过滤；
+>
+>having：
+>- 对分组之后的数据进行过滤；
+>- having可以对聚合函数进行过滤；
 
 
 
