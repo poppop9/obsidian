@@ -244,17 +244,27 @@ SELECT 字段 FROM 表名 WHERE 条件;   //可以有多个条件【用逻辑符
 |NOT LIKE|不匹配指定模式|WHERE column_name NOT LIKE `pattern`|
 |IS NULL |为 NULL|WHERE column_name IS NULL|
 |IS NOT NULL|不为 NULL|WHERE column_name IS NOT NULL |
-`pattern` 中的 `_` 表示单个模糊字符，`%` 表示任意个字符
+`pattern` 中的 `_` 表示单个模糊字符，`%` 表示任意个字符，***此类通配符只能用于文本字段【字符串】***
 
+```sql
+SELECT * FROM 表名 WHERE name like '张_';  //表示查询name为姓张什么的人
+
+SELECT * FROM 表名 WHERE name like '张%';  //表示查询name为姓张什么什么什么……的人
+```
+
+---
 
 |逻辑运算符 |描述|示例|
 |:-:|:-:|:-:|
 |AND 或 &&|并且 |WHERE 字段 > 1 AND 字段 != 5 |
 |OR 或 \|\||或者|WHERE 字段 > 1 OR 字段 != 5|
-|NOT 或 !|非|WHERE NOT column_name = value |
+|NOT 或 !|非|WHERE NOT 字段 = 2|
 - ***AND 的优先级高于 OR***
 - ***逻辑不明确时可以加括号***
 ### 🌗分组查询
+
+
+
 
 ### 🌗排序查询
 
