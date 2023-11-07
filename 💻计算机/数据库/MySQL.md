@@ -298,7 +298,15 @@ SELECT gender,COUNT(*) FROM table GROUP BY gender;
 > ```
 > 就是正确的，不能在SELECT里再加入customer_year，***因为这是没有意义的***，但是可以加入聚合函数（customer_year）
 ### 🌗排序查询
+```sql
+SELECT 字段 FROM 表名 ORDER BY 字段1 排序方式1,字段2 排序方式2……;
 
+---
+
+根据年龄对公司员工进行升序排序，年龄相同，再按照入职时间进行降序
+SELECT * FROM table ORDER BY age ASC,entrydate DESC……; 
+                                     //DESC为降序，ASC为升序【默认】
+```
 
 # 🌕DCL
 >Data Control Language 数据库控制语言
