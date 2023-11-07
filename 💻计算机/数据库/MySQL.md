@@ -268,10 +268,17 @@ SELECT * FROM 表名 WHERE name like '张%';  //表示查询name为姓张什么�
 ```sql
 SELECT 字段 FROM 表名 [WHERE 条件] GROUP BY 分组字段名 [HAVING 分组后的过滤条件]; 
 
+---
+
 SELECT gender,COUNT(*) FROM table GROUP BY gender;
 
-
+|gender|COUNT(\*)|
+|:-:|:-:|
+|女 |7|
+|男 |9|
 ```
+
+- 如果分组列中包含具有NULL值的行，则NULL将作为一个分组返回
 
 >[!hint] WHERE 与 HAVING 的区别
 >where：
@@ -282,7 +289,15 @@ SELECT gender,COUNT(*) FROM table GROUP BY gender;
 >- 对分组之后的数据进行过滤；
 >- having可以对聚合函数进行过滤；
 
-
+>[!hint] 在有 GROUP BY 子句的SELECT语句中，被SELECT的字段是有限制的
+>使用了GROUP BY的SELECT语句中，只能SELECT已经GROUP BY过的列，和使用了聚集函数的任何列。例如：
+>```sql
+```
+    SELECT customer_name, SUM(order_amount)
+    FROM orders
+    GROUP BY customer_name;
+```
+就是正确的，不能在SELECT里再加入customer_year，但是可以加入聚合函数（customer_year）
 
 ### 🌗排序查询
 
