@@ -230,8 +230,8 @@ SELECT 字段 FROM 表名 WHERE 条件;   //可以有多个条件【用逻辑符
 
 |比较运算符|描述 |示例|
 |---|---|---|
-|=|等于|WHERE column_name = value |
-|!= 或 <>|不等于|WHERE column_name != value|
+|=|等于|WHERE column_name = value|
+|!= 或 <>|不等于|WHERE column_name != value |
 |>|大于|WHERE column_name > value |
 |< |小于|WHERE column_name < value|
 |>= |大于等于 |WHERE column_name >= value|
@@ -249,10 +249,11 @@ SELECT 字段 FROM 表名 WHERE 条件;   //可以有多个条件【用逻辑符
 
 |逻辑运算符 |描述|示例|
 |:-:|:-:|:-:|
-|AND|并且|WHERE 字段 > value|
-|  |  |  |
-|  |  |  |
-
+|AND 或 &&|并且 |WHERE 字段 > 1 AND 字段 != 5 |
+|OR 或 \|\||或者|WHERE 字段 > 1 OR 字段 != 5|
+|NOT 或 !|非|WHERE NOT column_name = value |
+- ***AND 的优先级高于 OR***
+- ***逻辑不明确时可以加括号***
 ### 🌗分组查询
 
 ### 🌗排序查询
