@@ -292,13 +292,11 @@ SELECT gender,COUNT(*) FROM table GROUP BY gender;
 >[!hint] 在有 GROUP BY 子句的SELECT语句中，被SELECT的字段是有限制的
 >使用了GROUP BY的SELECT语句中，只能SELECT已经GROUP BY过的列，和使用了聚集函数的任何列。例如：
 >```sql
-```
-    SELECT customer_name, SUM(order_amount)
-    FROM orders
-    GROUP BY customer_name;
-```
-就是正确的，不能在SELECT里再加入customer_year，但是可以加入聚合函数（customer_year）
-
+> SELECT customer_name, SUM(order_amount)
+> FROM orders
+> GROUP BY customer_name;
+> ```
+> 就是正确的，不能在SELECT里再加入customer_year，***因为这是没有意义的***，但是可以加入聚合函数（customer_year）
 ### 🌗排序查询
 
 
