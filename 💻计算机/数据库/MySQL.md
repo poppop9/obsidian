@@ -391,3 +391,15 @@ ALTER TABLE Vendors  //表示需要修改的表是Vendors
 	```
 - 最后将“NewID”设置为主键
 
+
+A   A
+B   B
+C   C
+D   D
+E   E
+
+AA
+AB
+AC
+AD
+AE
