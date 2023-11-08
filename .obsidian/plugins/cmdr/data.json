@@ -22,11 +22,13 @@
     "statusbar": [
       "keyboard-analyzer",
       "obsidian-git",
-      "obsidian-git"
+      "obsidian-git",
+      "properties"
     ],
     "leftRibbon": [
       "新建 Excalidraw 绘图",
-      "打开快速切换"
+      "打开快速切换",
+      "新建绘图文件"
     ]
   },
   "spacing": "8",

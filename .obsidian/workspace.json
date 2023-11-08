@@ -74,9 +74,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3daf685cd3d4834c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "临时笔记/穿搭.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -180,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/数据库/MySQL.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -190,7 +202,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/数据库/MySQL.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           }
@@ -211,10 +223,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "71d26d0da0095caf",
+  "active": "3daf685cd3d4834c",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-11-07 13.49.45.excalidraw.md",
+    "临时笔记/穿搭.md",
     "💻计算机/数据库/MySQL.md",
+    "Excalidraw/Drawing 2023-11-07 13.49.45.excalidraw.md",
     "Excalidraw/Drawing 2023-11-07 13.49.39.excalidraw.md",
     "临时笔记/MarkDown语法.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
@@ -223,7 +236,6 @@
     "💻计算机/JavaWeb/后端/SpringBoot.md",
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/Obsidian笔记编写规范.md",
-    "临时笔记/穿搭.md",
     "临时笔记/🍕美食打分.md",
     "临时笔记/权游台词.md",
     "临时笔记/魔术.md",
