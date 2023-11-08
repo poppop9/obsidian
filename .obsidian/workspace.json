@@ -33,9 +33,11 @@
             "id": "5150fbe90374fca6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+                "file": "💻计算机/四大件/计算机网络2.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -189,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+                "file": "💻计算机/四大件/计算机网络2.md"
               }
             }
           },
@@ -199,7 +201,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+                "file": "💻计算机/四大件/计算机网络2.md"
               }
             }
           }
@@ -222,6 +224,7 @@
   },
   "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "💻计算机/四大件/计算机网络2.md",
     "临时笔记/穿搭.md",
     "💻计算机/数据库/MYSQL安装配置.md",
@@ -229,7 +232,6 @@
     "Excalidraw/Drawing 2023-11-07 13.49.45.excalidraw.md",
     "Excalidraw/Drawing 2023-11-07 13.49.39.excalidraw.md",
     "临时笔记/MarkDown语法.md",
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "💻计算机/JavaWeb/后端/SpringBoot.md",
     "临时笔记/Obsidian特殊语法.md",
