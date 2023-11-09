@@ -420,10 +420,17 @@ SELECT LENGTH('HELLO');     5
 ##### 🌑COUNT
 ```sql
 SELECT COUNT(cust_email) AS num_cust FROM Customers;
+```
 
+***使用***`COUNT(*)`***对表中行进行计数时，对于***`NULL值`***也会记录***
+```sql
 SELECT COUNT(*) FROM Customers;
 ```
 
+***但是如果只是***`COUNT(某个字段)`，***则不会计数***`NULL值`
+```sql
+SELECT COUNT(numbers) FROM Customers;
+```
 # 🌕约束
 >约束是处理数据库的规则
 
