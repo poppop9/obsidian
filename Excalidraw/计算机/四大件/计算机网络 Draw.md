@@ -120,6 +120,7 @@ dfee2da1013a98997413477975beddfe5bb64976: https://obsidian-1307744200.cos.ap-gua
 f0b0990964ed94726938ef57869fdae79cab28d2: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231024153708.png
 4b4ba84f21db55662b8352bcac48431be13e4fdf: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231024161416.png
 bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231024161445.png
+da10fc5b23d68975d60bc7412698fb7e0fd94ef6: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231109201209.png
 
 %%
 # Drawing
@@ -2353,8 +2354,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 245,
-			"versionNonce": 2141920681,
+			"version": 247,
+			"versionNonce": 389730087,
 			"isDeleted": false,
 			"id": "QtLJGGck72TkYMx26gKKK",
 			"fillStyle": "hachure",
@@ -2378,7 +2379,7 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1699458500960,
+			"updated": 1699531943828,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2521,8 +2522,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 312,
-			"versionNonce": 631996553,
+			"version": 314,
+			"versionNonce": 1300517447,
 			"isDeleted": false,
 			"id": "TjVI5WAghKLWr0q7wJkFu",
 			"fillStyle": "hachure",
@@ -2546,7 +2547,7 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1699458500964,
+			"updated": 1699531943833,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -2838,8 +2839,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 264,
-			"versionNonce": 928810857,
+			"version": 266,
+			"versionNonce": 32534887,
 			"isDeleted": false,
 			"id": "3cu2yW_5Q06R_k682BzJP",
 			"fillStyle": "hachure",
@@ -2863,7 +2864,7 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1699458500967,
+			"updated": 1699531943837,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3003,8 +3004,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 399,
-			"versionNonce": 1905164585,
+			"version": 403,
+			"versionNonce": 1825735591,
 			"isDeleted": false,
 			"id": "lDSYTrLsFkejiy_akpxPs",
 			"fillStyle": "hachure",
@@ -3028,7 +3029,7 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1699458500971,
+			"updated": 1699531943840,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3234,8 +3235,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 286,
-			"versionNonce": 1793336489,
+			"version": 294,
+			"versionNonce": 2024536103,
 			"isDeleted": false,
 			"id": "qiGITENW30qQtejXz6qKg",
 			"fillStyle": "hachure",
@@ -3259,7 +3260,7 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1699458500975,
+			"updated": 1699531943842,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3371,8 +3372,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 474,
-			"versionNonce": 9177129,
+			"version": 482,
+			"versionNonce": 736570535,
 			"isDeleted": false,
 			"id": "EYVrbK7W56_AbfdvSvL7g",
 			"fillStyle": "hachure",
@@ -3396,7 +3397,7 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1699458500979,
+			"updated": 1699531943845,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3508,8 +3509,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 750,
-			"versionNonce": 1466313641,
+			"version": 758,
+			"versionNonce": 1738809639,
 			"isDeleted": false,
 			"id": "bzvMJb-3jN3G2QUW-Ovy2",
 			"fillStyle": "hachure",
@@ -3533,7 +3534,7 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1699458500983,
+			"updated": 1699531943848,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3645,8 +3646,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 247,
-			"versionNonce": 785698441,
+			"version": 249,
+			"versionNonce": 687039559,
 			"isDeleted": false,
 			"id": "sKGO6jrlj0PwhUeg0zc6_",
 			"fillStyle": "hachure",
@@ -3670,7 +3671,7 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1699458500983,
+			"updated": 1699531943848,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4604,8 +4605,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 118,
-			"versionNonce": 777348329,
+			"version": 148,
+			"versionNonce": 83682183,
 			"isDeleted": false,
 			"id": "zAJEaYhl",
 			"fillStyle": "hachure",
@@ -4614,8 +4615,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -339.20525044830765,
-			"y": 5292.111009182458,
+			"x": -422.5807518937389,
+			"y": 5104.185179604764,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 500,
@@ -4627,7 +4628,7 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1699458266262,
+			"updated": 1699531942615,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -4639,8 +4640,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 516,
-			"versionNonce": 399407655,
+			"version": 546,
+			"versionNonce": 1992612519,
 			"isDeleted": false,
 			"id": "TOPpuXFp",
 			"fillStyle": "hachure",
@@ -4649,8 +4650,8 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 141.31791830784397,
-			"y": 5271.213594921221,
+			"x": 57.9424168624127,
+			"y": 5083.287765343527,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 536.5296688533693,
@@ -4662,7 +4663,7 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1699458266262,
+			"updated": 1699531942615,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -4674,32 +4675,32 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 34,
-			"versionNonce": 1154312873,
-			"isDeleted": true,
-			"id": "EBx3SORr",
+			"version": 16,
+			"versionNonce": 989754951,
+			"isDeleted": false,
+			"id": "ebuoNrYm",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 347.02594710806767,
-			"y": 4365.540331114356,
+			"x": 718.7242269915124,
+			"y": 5100.988506374544,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 500.00000000000006,
-			"height": 231.13207547169813,
-			"seed": 10501,
+			"width": 500,
+			"height": 440.8967391304348,
+			"seed": 39860,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1699458502478,
+			"updated": 1699531944796,
 			"link": null,
 			"locked": false,
 			"status": "pending",
-			"fileId": "511fd86df38ea64c6cea03a53a6fa36ec8696da3",
+			"fileId": "da10fc5b23d68975d60bc7412698fb7e0fd94ef6",
 			"scale": [
 				1,
 				1
@@ -4721,10 +4722,10 @@ bbc4e0301783df15a7fc28a544cbdf991835cc7c: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -326.45451853663917,
-		"scrollY": -4266.163515195071,
+		"scrollX": 461.7292371203729,
+		"scrollY": -4471.303860121361,
 		"zoom": {
-			"value": 1.75
+			"value": 0.6044936762616372
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
