@@ -359,10 +359,8 @@ SELECT * FROM emp WHERE (entrydate,job) = (SELECT entrydate,job FROM emp WHERE n
 >子查询返回的结果是多行多列
 
 ```SQL
+SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e.dept_id = dept.id;          //此处把子查询的结果作为了一张表 
 ```
-
-
-
 # 🌕DCL
 >Data Control Language 数据库控制语言
 # 🌕函数
