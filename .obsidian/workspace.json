@@ -88,7 +88,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md"
+                "file": "💻计算机/数据库/MySQL.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md"
+                "file": "💻计算机/数据库/MySQL.md"
               }
             }
           }
@@ -222,10 +222,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "71d26d0da0095caf",
   "lastOpenFiles": [
-    "💻计算机/数据库/MySQL.md",
     "💻计算机/四大件/计算机网络2.md",
+    "💻计算机/数据库/MySQL.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "临时笔记/穿搭.md",
     "考试/草稿纸.md",
