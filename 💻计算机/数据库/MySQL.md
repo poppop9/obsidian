@@ -365,6 +365,11 @@ SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e
 >Data Control Language 数据库控制语言
 # 🌕函数
 ### 🌗日期函数
+>[!summary] 方法
+>now()
+
+
+
 `now()`  获取当前的系统时间
 ```sql
 insert into customer(update_time)  
