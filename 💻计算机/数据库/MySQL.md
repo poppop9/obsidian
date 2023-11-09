@@ -367,10 +367,12 @@ SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e
 ### 🌗日期函数
 >[!summary] 方法
 >now()  获取当前的系统时间
+>YEAR(date)  ------在date数据类型中提取出year
 
 ```sql
-insert into customer(update_time)  
-values (now());         //插入当前时间
+insert into customer(update_time) values (now());         //插入当前时间
+
+SELECT order_num FROM Orders WHERE YEAR(order_date) = 2020;
 ```
 ### 🌗文本函数
 >[!summary] 方法
@@ -407,8 +409,8 @@ SELECT LENGTH('HELLO');     5
 ```
 ### 🌗数值函数
 >[!summary] 方法
->YEAR(date)  ------在date
-
+>
+### 🌗聚合函数
 
 
 
