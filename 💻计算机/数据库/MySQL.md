@@ -206,6 +206,17 @@ DELETE FROM 表名 [WHERE 条件];   //删除n行
 >```
 # 🌕DQL
 >Data Query Language 数据查询语言
+
+>[!hint] DQL语句的执行顺序
+>```sql
+> select 字段列表  // 4
+> from 表名  // 1
+> where 条件  // 2 
+> group by 分组字段列表  // 3
+> having 分组后条件列表  // 7
+> order by 排序字段列表  // 5
+> limit 分页参数； // 6
+>```
 ### 🌗基本查询
 - 查询指定个字段
 	```sql
@@ -320,9 +331,8 @@ select * from emp limit 0,10；//查询的是第1页数据，起始索引可以�
 select * from emp limit 10,10;
 ```
 
-
 ***分页查询是数据库的方言【每个数据库都不同】***
-
+### 🌗子查询
 
 
 
