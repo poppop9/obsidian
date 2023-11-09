@@ -309,8 +309,19 @@ SELECT * FROM table ORDER BY age ASC,entrydate DESC……;
 ```
 ### 🌗分页查询
 ```sql
-SELECT 字段
+SELECT 字段 FROM 表名 LIMIT 起始索引,查询记录数;    //起始索引从0开始
+
+---
+
+查询第1页员工数据，每页展示10条记录
+select * from emp limit 0,10；//查询的是第1页数据，起始索引可以省略，简写为limit 10
+
+查询第二页的员工数据，每页展示10条记录
+select * from emp limit 10,10;
 ```
+
+
+***分页查询是数据库的方言【每个数据库都不同】***
 
 
 
