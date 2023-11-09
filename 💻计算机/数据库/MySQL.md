@@ -333,6 +333,24 @@ select * from emp limit 10,10;
 
 ***分页查询是数据库的方言【每个数据库都不同】***
 ### 🌗子查询
+##### 🌑标量子查询
+>子查询返回的结果是单个值
+
+```sql
+SELECT * FROM emp WHERE dept_id = (SELECT id FROM dept WHERE name = '教研部');
+                                        //这里的子查询只有一个结果
+```
+##### 🌑列子查询
+>子查询返回的结果是一列
+
+```sql
+SELECT * FROM emp WHERE dept_id = (SELECT id FROM dept WHERE name = '教研部');
+```
+##### 🌑行子查询
+>子查询返回的结果是一行
+
+##### 🌑表子查询
+>子查询返回的结果是多行多列
 
 
 
