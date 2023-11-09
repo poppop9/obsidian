@@ -350,12 +350,16 @@ SELECT * FROM emp WHERE dept_id in (SELECT id FROM dept WHERE name = '教研部'
 >子查询返回的结果是一行
 
 ```sql
-SELECT * FROM emp WHERE dept_id = (SELECT id FROM dept WHERE name = '教研部');
+//查询入职日期和工作跟吴彦祖都相同的人
+SELECT * FROM emp WHERE entrydate = (SELECT entrydate FROM emp WHERE name = '吴彦祖'),job = (SELECT job FROM emp WHERE name = '吴彦祖');
+或
+SELECT * FROM emp WHERE (entrydate,job) = (SELECT entrydate,job FROM emp WHERE name = '吴彦祖');
 ```
 ##### 🌑表子查询
 >子查询返回的结果是多行多列
 
-
+```SQL
+```
 
 
 
