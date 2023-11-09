@@ -344,11 +344,14 @@ SELECT * FROM emp WHERE dept_id = (SELECT id FROM dept WHERE name = '教研部')
 >子查询返回的结果是一列
 
 ```sql
-SELECT * FROM emp WHERE dept_id = (SELECT id FROM dept WHERE name = '教研部');
+SELECT * FROM emp WHERE dept_id in (SELECT id FROM dept WHERE name = '教研部' OR name = '咨询部');                    //这里的子查询有多个结果
 ```
 ##### 🌑行子查询
 >子查询返回的结果是一行
 
+```sql
+SELECT * FROM emp WHERE dept_id = (SELECT id FROM dept WHERE name = '教研部');
+```
 ##### 🌑表子查询
 >子查询返回的结果是多行多列
 
