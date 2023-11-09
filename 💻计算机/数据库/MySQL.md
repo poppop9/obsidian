@@ -411,11 +411,18 @@ SELECT LENGTH('HELLO');     5
 >[!summary] 方法
 >
 ### 🌗聚合函数
+>[!summary] 方法
+>AVG()  ------返回某列的平均值
+>COUNT()  ------返回某列的行数
+>MAX()  ------返回某列的最大值
+>MIN()  ------返回某列的最小值
+>SUM()  ------返回某列值之和
+##### 🌑COUNT
+```sql
+SELECT COUNT(cust_email) AS num_cust FROM Customers;
 
-
-
-
-
+SELECT COUNT(*) FROM Customers;
+```
 
 # 🌕约束
 >约束是处理数据库的规则
