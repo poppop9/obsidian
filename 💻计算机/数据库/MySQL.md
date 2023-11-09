@@ -368,8 +368,6 @@ SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e
 >[!summary] 方法
 >now()  获取当前的系统时间
 
-
-
 ```sql
 insert into customer(update_time)  
 values (now());         //插入当前时间
@@ -386,8 +384,10 @@ values (now());         //插入当前时间
 >
 >TRIM(str)  ------去掉字符串头部和尾部的空格
 >SUBSTRING(str,start,len)  ------返回从字符串str从start位置起的len个长度的字符串
+>
 >LEFT(str，len)  ------返回str左边开始数len长度个字符
->RIGHT(str，)
+>RIGHT(str，len)  ------返回str右边开始数len长度个字符
+>LENGTH(str)  ------返回str字符串的长度
 
 ```sql
 select concat ('hello', 'MySQL');         hello MySQL 
@@ -401,7 +401,18 @@ select trim(' Hello MySQL ')       Hello MySQL
 
 select substring('Hello MySQL',1, 5);     Hello
           // 注意索引是从1开始的
+
+SELECT LEFT('HELLO',3);     HEL
+SELECT LENGTH('HELLO');     5
 ```
+### 🌗数值函数
+>[!summary] 方法
+>YEAR(date)  ------在date
+
+
+
+
+
 
 
 # 🌕约束
