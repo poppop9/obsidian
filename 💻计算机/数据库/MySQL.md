@@ -308,7 +308,9 @@ SELECT * FROM table ORDER BY age ASC,entrydate DESC……;
                                      //DESC为降序，ASC为升序【默认】
 ```
 ### 🌗分页查询
-
+```sql
+SELECT 字段
+```
 
 
 
