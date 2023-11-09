@@ -377,15 +377,26 @@ values (now());         //插入当前时间
 ### 🌗文本函数
 >[!summary] 方法
 >CONCAT(S1,S2,..Sn)  ------将S1，S2，….Sn拼接成一个字符串
+>LOWER(str)  ------将字符串str全部转为小写
+>UPPER(str)  ------将字符串str全部转为大写
+>LPAD(str，n，pad)  ------左填充，用字符串pad对str的左边进行填充，达到n个长度
+>RPAD(str，n，pad)  ------右填充，用字符串pad对str的右边进行填充，达到n个长度
+>TRIM(str)  ------去掉字符串头部和尾部的空格
+>SUBSTRING(str,start,len)  ------返回从字符串str从start位置起的len个长度的字符串
 
+```sql
+select concat ('hello', 'MySQL');         hello MySQL 
+select Lower('Hello');       hello
+select upper('Hello');        HELLO
+select lpad('01', 5, '-');       ---01
+select rpad('01', 5, '-');        01---
+select trim(' Hello MySQL ')       Hello MySQL
+						// RTRIM()：去掉字符串右边的空格
+						// LTRIM()：去掉字符串左边的空格
 
-LOWER(str)  ------将字符串str全部转为小写
-UPPER(str)  ------将字符串str全部转为大写
-LPAD(str,n, pad)  ------左填充，用字符串pad对str的左边进行填充，达到n个字符串长度
-RPAD(str，n， pad)  ------右填充，用字符串pad对str的右边进行填充，达到n个字符串长度
-TRIM(str)  ------去掉字符串头部和尾部的空格
-SUBSTRING(str,start,len)
-返回从字符串str从start位置起的len个长度的字符串
+select substring('Hello MySQL',1, 5);     Hello
+          // 注意索引是从1开始的
+```
 
 
 # 🌕约束
