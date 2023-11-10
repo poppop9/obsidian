@@ -450,9 +450,6 @@ SELECT COUNT(numbers) FROM Customers;
 ```sql
 SELECT 字段 FROM 表1，表2 WHERE 条件;   //表1 和 表2 就通过了WHERE条件联结在了一起
 ```
-
-
-
 ##### 🌑显示内联结
 ```sql
 SELECT 字段 FROM 表1 [INNER] JOIN 表2 ON 联结条件;
@@ -469,22 +466,21 @@ INNER JOIN table_name ON table_name.id = user.id;
 |123|陈冠希|45|
 |11|刘诗诗|14|
 |444|吴彦祖|4|
-
+     +
 |产品ID|id|
 |:-:|:-:|
 |乌鸦 |444|
 |狗|11|
 |老虎|123|
-
-```
-
-
-
+     ↓
 |id|name|age|产品ID|
 |:-:|:-:|:-:|:-:|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+|123|陈冠希|45|老虎|
+|444 |吴彦祖|4|乌鸦|
+|11 |刘诗诗|14|狗|
+```
+### 🌗自联结
+
 
 
 
