@@ -639,9 +639,17 @@ ALTER TABLE Vendors  //表示需要修改的表是Vendors
 - 索引可以提高搜索的效率
 - 索引会占用存储空间
 - ***索引降低了***`INSERT`，`UPDATE`，`DELETE`***的效率***【因为修改数据时需要重新维护数据结构】
+
+>[!hint] 当我为一张表创建***主键***后，MYSQL会自动帮我们为主键字段创建一个***主键索引***
+
+>[!hint] 当我为一张表创建***唯一约束***后，MYSQL会自动帮我们为该字段创建一个***唯一索引***
 ##### 🌑创建索引
 ```sql
 CREATE [UNIQUE] INDEX 索引名 ON 表名(字段名);
+
+---
+
+CREATE INDEX idx_emp_name ON emp(name);
 ```
 
 
