@@ -52,6 +52,18 @@
             }
           },
           {
+            "id": "0eebb884babf5a10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "💻计算机/数据库/MyBatis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "71d26d0da0095caf",
             "type": "leaf",
             "state": {
@@ -191,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/数据库/MySQL.md"
+                "file": "💻计算机/数据库/MyBatis.md"
               }
             }
           },
@@ -201,7 +213,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/数据库/MySQL.md"
+                "file": "💻计算机/数据库/MyBatis.md"
               }
             }
           }
@@ -222,12 +234,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "71d26d0da0095caf",
+  "active": "0eebb884babf5a10",
   "lastOpenFiles": [
+    "💻计算机/数据库/MySQL.md",
+    "💻计算机/数据库/MyBatis.md",
     "💻计算机/JavaWeb/后端/SpringBoot.md",
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/MarkDown语法.md",
-    "💻计算机/数据库/MySQL.md",
     "临时笔记/穿搭.md",
     "💻计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
@@ -249,7 +262,6 @@
     "考试/作业2.md",
     "考试/移动互联.md",
     "💻计算机/JavaWeb/前端/2 CSS.md",
-    "💻计算机/JavaWeb/前端/4 Ajax.md",
     "💻计算机/JavaWeb/后端",
     "💻计算机/JavaWeb/前端",
     "💻计算机/JavaWeb",
