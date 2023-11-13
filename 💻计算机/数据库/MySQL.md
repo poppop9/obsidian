@@ -511,13 +511,14 @@ INNER JOIN table_name ON table_name.id = user.id;
 - `START TRANSACTION;`  开始事务
 - `COMMIT;`  结束事务并提交
 - `ROLLBACK;`  回退到事务处理之前
-- `SAVEPOINT`  设置保留点
+- `SAVEPOINT`  设置保留点：允许在事务中的特定位置进行部分回滚，而不必回滚整个事务
 
 ```sql
 START TRANSACTION;    //第一步先执行此语句
 
-UPDATE table SET id = 188;   //然后执行这组语句体
-UPDATE table SET name = Tom;
+UPDATE table SET id = 188;       //-------------------
+UPDATE table SET name = Tom;      //然后执行这组语句体
+UPDATE table SET age = 18;       //-------------------   
 
 COMMIT;      //如果这组语句体都执行成功，则可以执行COMMIT来提交
 
