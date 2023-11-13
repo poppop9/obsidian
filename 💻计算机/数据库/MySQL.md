@@ -516,13 +516,19 @@ INNER JOIN table_name ON table_name.id = user.id;
 ```sql
 START TRANSACTION;    //第一步先执行此语句
 
+SAVEPOINT point1;    //设置一个保留点
+
 UPDATE table SET id = 188;       //-------------------
 UPDATE table SET name = Tom;      //然后执行这组语句体
-UPDATE table SET age = 18;       //-------------------   
+UPDATE table SET age = 18;       //-------------------
+
+---
 
 COMMIT;      //如果这组语句体都执行成功，则可以执行COMMIT来提交
 
 ROLLBACK;     //如果有语句执行失败了，则执行ROLLBACK来回退
+
+ROLLBACK TO point1;  //返回到保留点point1
 ```
 # 🌕游标
 
