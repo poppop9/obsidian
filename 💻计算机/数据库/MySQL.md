@@ -480,8 +480,21 @@ INNER JOIN table_name ON table_name.id = user.id;
 |11 |刘诗诗|14|狗|
 ```
 ### 🌗自联结
+```sql
+SELECT c1.id, c1.name, c1.contact
+FROM customers AS c1,
+     customers AS c2
+WHERE c2.contact = 'jim'    //经过这个条件筛选过后，c2表中只剩下一条记录
+  AND c1.name = c2.name;     //c1表中的name与c2表中的那一条记录进行比较
+```
 
 
+|id|  |  |
+|:-:|:-:|:-:|
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 
 
