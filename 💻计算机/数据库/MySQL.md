@@ -507,10 +507,34 @@ WHERE name = (SELECT name FROM customers WHERE contact = 'Jim');
 ```
 ### 🌗外联结
 ##### 🌑左外联结
->返回左表中所有的行，以及右表zho
+>返回左表中所有的行，以及右表中满足条件的行
+
+```sql
+SELECT 字段列表
+FROM 表A LEFT JOIN 表B ON 联结条件;
+
+---
+
+SELECT customers.id, orders.numbers
+FROM customers
+         LEFT JOIN orders ON customers.id = orders.id;
+```
+
+
+|id|numbers|
+|:-:|:-:|
+|101|null|
+|102 |9|
+|103 |  |
+
+
+
+
+
+
 
 ##### 🌑右外联结
-
+>返回右表中所有的行，以及左表中满足条件的行
 
 
 
