@@ -505,6 +505,12 @@ WHERE name = (SELECT name FROM customers WHERE contact = 'Jim');
 |100|Fun123|Jim|
 |102|Fun123|Mike|
 ```
+### 🌗外联结
+##### 🌑左外联结
+>返回左表中所有的行，以及右表zho
+
+##### 🌑右外联结
+
 
 
 
