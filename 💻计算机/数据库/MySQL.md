@@ -481,20 +481,31 @@ INNER JOIN table_name ON table_name.id = user.id;
 ```
 ### 🌗自联结
 ```sql
+//使用自联结的方式来实现
 SELECT c1.id, c1.name, c1.contact
 FROM customers AS c1,
      customers AS c2
 WHERE c2.contact = 'jim'    //经过这个条件筛选过后，c2表中只剩下一条记录
   AND c1.name = c2.name;     //c1表中的name与c2表中的那一条记录进行比较
+
+//如果使用子查询的方式来实现：
+SELECT id, name, contact
+FROM customers
+WHERE name = (SELECT name FROM customers WHERE contact = 'Jim');
+
+---
+
+|id|name|contact|
+|:-:|:-:|:-:|
+|100|Fun123|Jim|
+|101|Fun566|Tom|     × 2
+|102|Fun123|Mike|
+|103|Fun578|July|
+       ↓
+|100|Fun123|Jim|
+|102|Fun123|Mike|
 ```
 
-
-|id|  |  |
-|:-:|:-:|:-:|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
 
 
 
