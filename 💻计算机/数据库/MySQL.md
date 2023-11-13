@@ -496,13 +496,23 @@ INNER JOIN table_name ON table_name.id = user.id;
 
 >[!hint] 事务处理可以回退INSERT, UPDATE, DALETE。不能回退SELECT, CREATE, DROP
 ### 🌗具体操作
-***如果执行过程中没有发生错误，则COMM整组SQL语句提交到数据库表中；如果发生错误，则回退，将数据库恢复到正常状态***
+***如果执行过程中没有发生错误，则COMMIT整组SQL语句；如果发生错误，则ROLLBACK，将数据库恢复到正常状态***
 
 - `START TRANSACTION;`  开始事务
 - `COMMIT;`  结束事务并提交
 - `ROLLBACK;`  回退到事务处理之前
 
+```sql
+START TRANSACTION;    //第一步先执行此语句
 
+UPDATE table SET id = 188;   //然后执行这组语句体
+UPDATE table SET name = Tom;
+
+COMMIT;      //如果这组语句体都执行成功，则可以执行COMMIT来提交
+
+ROLLBACK;     //如果有语句执行失败了，则执行ROLLBACK来回退
+
+```
 
 
 
