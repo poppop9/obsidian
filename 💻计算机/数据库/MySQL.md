@@ -629,11 +629,20 @@ ALTER TABLE Vendors  //表示需要修改的表是Vendors
 
 ##### 🌑如何创建外键
 - 在创建表时指定
-```sql
-
-```
+	```sql
+	CREATE TABLE(
+		字段名 数据类型，
+		……
+		FOREIGN KEY(外键字段名) REFERENCES 主表(字段名)
+	)
+	```
 
 - 在建表之后指定
+	```sql
+	ALTER TABLE 表名 
+	add constraint
+	FOREIGN KEY(外键字段名) REFERENCES 主表(字段名);
+	```
 
 ### 🌗额外
 在每个表中都需要指定三个基础字段，一个是主键ID，一个是创建时间，一个是更新时间
