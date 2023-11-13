@@ -490,15 +490,19 @@ INNER JOIN table_name ON table_name.id = user.id;
 
 >[!hint] 联结的好处
 >- ***大多数DBMS，处理联结的速度 远大于 子查询***
+# 🌕视图
+
+# 🌕存储过程
+
 # 🌕事务
 >***事务是一组SQL语句***
-
->[!hint] 事务处理可以回退INSERT, UPDATE, DALETE。不能回退SELECT, CREATE, DROP
 
 - 原子性：事务要么完全执行，要么完全不执行
 - 一致性：事务完成时，必须使所有数据都保持一致状态[^3]
 - 隔离性：只要不COMMIT，则别的窗口看不到数据的变化
-- 
+- 持久性：事务一旦COMMIT/ROLLBACK，则数据永久改变
+
+>[!hint] 事务处理可以回退INSERT, UPDATE, DALETE。不能回退SELECT, CREATE, DROP
 
 [^3]:比如部门表中的某个部门被删除了，那员工表中就不会出现该部门下的员工
 ### 🌗具体操作
@@ -507,6 +511,7 @@ INNER JOIN table_name ON table_name.id = user.id;
 - `START TRANSACTION;`  开始事务
 - `COMMIT;`  结束事务并提交
 - `ROLLBACK;`  回退到事务处理之前
+- `SAVEPOINT`  设置保留点
 
 ```sql
 START TRANSACTION;    //第一步先执行此语句
@@ -518,7 +523,7 @@ COMMIT;      //如果这组语句体都执行成功，则可以执行COMMIT来�
 
 ROLLBACK;     //如果有语句执行失败了，则执行ROLLBACK来回退
 ```
-
+# 🌕游标
 
 
 
