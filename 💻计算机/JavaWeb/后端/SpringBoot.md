@@ -403,7 +403,7 @@ package com.example.web_2.Service;
 //对数据进行逻辑处理，返回给Controller类  
 public class EmpServiceA implements EmpServie {  
     private EmpDao empDao = new EmpDaoA();  //需要从EmpDao获取数据，所以创建接口对象
-  
+
     @Override  
     public List<String> listEmp() {  
         List<String> emplist = empDao.listEmp();  
@@ -411,11 +411,15 @@ public class EmpServiceA implements EmpServie {
         return emplist;  
     }  
 }
+
+/*
+使用private EmpDao empDao = new EmpDaoA();的方式是为了遵循编程中的"面向接口编程"原则，这样可以在需要时轻松替换具体的实现类，而无需修改EmpServiceA类的其他部分。这样，代码在处理empDao时只关注EmpDao接口定义的方法，而不依赖于具体的实现细节。
+
+另外，通过使用依赖注入的设计模式，可以将EmpDao对象的创建和管理交给外部的代码（例如使用依赖注入容器或手动注入）。这样可以更好地解耦和组织代码，提高代码的可测试性和可维护性。
+*/
 ```
-
-
 ##### 🌑Controller
->Controller的作用是响应数据给前端
+>Controller的作用是获取来自Service类发来的数据，响应数据给前端
 
 ```java
 package com.example.web_2.Controller;  
