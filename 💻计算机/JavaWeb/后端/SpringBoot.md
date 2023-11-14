@@ -387,7 +387,7 @@ public class EmpDaoA implements EmpDao {
 }
 ```
 ##### 🌑Service
->Sevice层的作用是处理数据
+>Sevice层的作用对数据进行处理，然后返回给Controller类
 
 ```java
 package com.example.web_2.Service;  
@@ -412,6 +412,8 @@ public class EmpServiceA implements EmpServie {
     }  
 }
 ```
+
+
 ##### 🌑Controller
 >Controller的作用是响应数据给前端
 
