@@ -19,21 +19,17 @@ MyBatis是一个开源的Java持久层框架，它提供了一种优雅的方式
 ```mermaid
 graph TB
 	a[Java程序]-->b[JDBC]
-	b-->c[MySql实现]
-	b-->d[Oracle实现]
-	b-->e[SqlServer实现]
+	b--控制-->c[MySql实现]
+	b--控制-->d[Oracle实现]
+	b--控制-->e[SqlServer实现]
 
-	c-->f[Mysql]
-	d-->g[Oracle]
-	e-->h[SqlS]
+	c--控制-->f[Mysql]
+	d--控制-->g[Oracle]
+	e--控制-->h[SqlServer]
 
     subgraph 驱动
     c
+    d
+    e
     end
 ```
-
-
-```mermaid
-
-```
-
