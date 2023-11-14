@@ -40,12 +40,11 @@ graph LR
 	b--访问-->e[数据库]
 ```
 
+![[Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md#^group=8ii8fwyi|700]]
+
 >[!hint] 数据库连接池的优点
 >- 资源的重用【用完的Connection对象无需销毁，还回去即可】
 >- 提升系统的响应速度【无需创建Connection对象，去拿即可】
-
-![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114162849.png)
-
 
 
 

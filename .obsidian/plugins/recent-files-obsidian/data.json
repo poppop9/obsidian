@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "MyBatis Draw",
-      "path": "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md"
-    },
-    {
       "basename": "MyBatis",
       "path": "💻计算机/数据库/MyBatis.md"
+    },
+    {
+      "basename": "计算机网络 Draw",
+      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+    },
+    {
+      "basename": "MyBatis Draw",
+      "path": "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md"
     },
     {
       "basename": "MySQL",
@@ -15,10 +19,6 @@
     {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
-    },
-    {
-      "basename": "计算机网络 Draw",
-      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
     },
     {
       "basename": "Obsidian特殊语法",
