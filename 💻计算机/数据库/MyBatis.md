@@ -14,7 +14,7 @@ tags:
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143538.png)
 
 
-
+MyBatis是一个开源的Java持久层框架，它提供了一种优雅的方式来进行数据库访问。MyBatis的主要目标是简化数据库访问代码的编写，提供灵活性和高度可定制的SQL映射，以及良好的性能。
 
 
 
