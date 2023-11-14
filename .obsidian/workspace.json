@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "💻计算机/JavaWeb/后端/SpringBoot.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -99,7 +99,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -202,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/JavaWeb/后端/SpringBoot.md"
+                "file": "💻计算机/数据库/MyBatis.md"
               }
             }
           },
@@ -212,7 +213,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/JavaWeb/后端/SpringBoot.md"
+                "file": "💻计算机/数据库/MyBatis.md"
               }
             }
           }
@@ -233,11 +234,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "50a8f51d71867af8",
+  "active": "0eebb884babf5a10",
   "lastOpenFiles": [
+    "💻计算机/JavaWeb/后端/SpringBoot.md",
     "💻计算机/数据库/MyBatis.md",
     "💻计算机/数据库/MySQL.md",
-    "💻计算机/JavaWeb/后端/SpringBoot.md",
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/MarkDown语法.md",
     "临时笔记/穿搭.md",
