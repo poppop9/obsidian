@@ -64,6 +64,16 @@
             }
           },
           {
+            "id": "e7d839a96d1cb32b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md"
+              }
+            }
+          },
+          {
             "id": "71d26d0da0095caf",
             "type": "leaf",
             "state": {
@@ -100,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -203,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/数据库/MyBatis.md"
+                "file": "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md"
               }
             }
           },
@@ -213,7 +223,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/数据库/MyBatis.md"
+                "file": "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md"
               }
             }
           }
@@ -234,10 +244,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "0eebb884babf5a10",
+  "active": "b5263ffa41a34bbc",
   "lastOpenFiles": [
-    "💻计算机/数据库/MySQL.md",
     "💻计算机/数据库/MyBatis.md",
+    "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md",
+    "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md",
+    "Excalidraw/计算机/编程语言/数据库",
+    "💻计算机/数据库/MySQL.md",
     "临时笔记/MarkDown语法.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "临时笔记/Obsidian特殊语法.md",
@@ -260,8 +273,6 @@
     "科技美学/微信分享浏览器.md",
     "科技美学/内网穿透.md",
     "考试/作业2.md",
-    "考试/移动互联.md",
-    "💻计算机/JavaWeb/前端/2 CSS.md",
     "💻计算机/JavaWeb/后端",
     "💻计算机/JavaWeb/前端",
     "💻计算机/JavaWeb",
@@ -272,7 +283,6 @@
     "💻计算机/四大件/操作系统",
     "图片库/Pasted Image 20230730095610_153.png",
     "Excalidraw/fonts/清松手写体1.ttf",
-    "Excalidraw/fonts/aa青葱精修版v1.1.ttf",
     "未命名.canvas",
     "未命名 1.canvas",
     "图片库/Pasted Image 20230703181647_013.jpg",
