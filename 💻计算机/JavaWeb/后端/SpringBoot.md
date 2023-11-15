@@ -569,13 +569,89 @@ public class EmpConteoller {
 </dependency>           //不用指定版本号，因为在SpringBoot的父工程里已经集成了lombok
 ```
 ### 🌗具体操作
-``@Getter/@Setter`为所有的属性提供get/set方法
-@ToString会给类自动生成易阅读的toString方法
-@EqualsAndHashCode根据类所拥有的非静态字段自动重写equals方法和hashCode方法
-@Data提供了更综合的生成代码功能（@Getter+@Setter+@ToString+@EqualsAndHashCode）
-@NoArgsConstructor为实体类生成无参的构造器方法
-@AllArgsConstructor为实体类生成除了static修饰的字段之外带有各参数的构造器方法。
+`@Getter/@Setter`  为所有属性提供get/set方法
+`@ToString`  给类自动生成的toString方法
+`@EqualsAndHashCode`  根据类所拥有的非静态字段重写equals方法和hashCode方法
+`@Data`  是@Getter+@Setter+@ToString+@EqualsAndHashCode的集合
+`@NoArgsConstructor`  为实体类生成无参构造方法
+`@AllArgsConstructor`  为实体类生成除了static修饰的字段之外带有所有参数的构造方法
 
+- 未使用lombok
+	```java
+	public class user {  
+	    private Integer id;  
+	    private String name;  
+	    private Integer age;  
+	    private Integer gender;  
+	    private String phone;  
+	  
+	    public user() {  
+	    }  
+	  
+	    public user(Integer id, String name, Integer age, Integer gender, String phone) {  
+	        this.id = id;  
+	        this.name = name;  
+	        this.age = age;  
+	        this.gender = gender;  
+	        this.phone = phone;  
+	    }  
+	  
+	    public Integer getId() {  
+	        return id;  
+	    }  
+	  
+	    public void setId(Integer id) {  
+	        this.id = id;  
+	    }  
+	  
+	    public String getName() {  
+	        return name;  
+	    }  
+	  
+	    public void setName(String name) {  
+	        this.name = name;  
+	    }  
+	  
+	    public Integer getAge() {  
+	        return age;  
+	    }  
+	  
+	    public void setAge(Integer age) {  
+	        this.age = age;  
+	    }  
+	  
+	    public Integer getGender() {  
+	        return gender;  
+	    }  
+	  
+	    public void setGender(Integer gender) {  
+	        this.gender = gender;  
+	    }  
+	  
+	    public String getPhone() {  
+	        return phone;  
+	    }  
+	  
+	    public void setPhone(String phone) {  
+	        this.phone = phone;  
+	    }  
+	  
+	    @Override  
+	    public String toString() {  
+	        return "user{" +  
+	                "id=" + id +  
+	                ", name='" + name + '\'' +  
+	                ", age=" + age +  
+	                ", gender=" + gender +  
+	                ", phone='" + phone + '\'' +  
+	                '}';  
+	    }  
+	}
+	```
+- 使用lombok
+```java
+
+```
 
 
 
