@@ -561,6 +561,8 @@ public class EmpConteoller {
 }
 ```
 # 🌕lombok
+>Lombok是一种Java库，它通过注解的方式来简化Java类的编写，提高代码的可读性和简洁性
+
 ### 🌗引入lombok依赖
 ```xml  
 <dependency>  
@@ -585,8 +587,7 @@ public class EmpConteoller {
 	    private Integer gender;  
 	    private String phone;  
 	  
-	    public user() {  
-	    }  
+	    public user() {  }  
 	  
 	    public user(Integer id, String name, Integer age, Integer gender, String phone) {  
 	        this.id = id;  
@@ -596,45 +597,25 @@ public class EmpConteoller {
 	        this.phone = phone;  
 	    }  
 	  
-	    public Integer getId() {  
-	        return id;  
-	    }  
+	    public Integer getId() {  return id;  }  
 	  
-	    public void setId(Integer id) {  
-	        this.id = id;  
-	    }  
+	    public void setId(Integer id) {  this.id = id;  }  
 	  
-	    public String getName() {  
-	        return name;  
-	    }  
+	    public String getName() {  return name;  }  
 	  
-	    public void setName(String name) {  
-	        this.name = name;  
-	    }  
+	    public void setName(String name) {  this.name = name;  }  
 	  
-	    public Integer getAge() {  
-	        return age;  
-	    }  
+	    public Integer getAge() {  return age;  }  
 	  
-	    public void setAge(Integer age) {  
-	        this.age = age;  
-	    }  
+	    public void setAge(Integer age) {  this.age = age;  }  
 	  
-	    public Integer getGender() {  
-	        return gender;  
-	    }  
+	    public Integer getGender() {  return gender;  }  
 	  
-	    public void setGender(Integer gender) {  
-	        this.gender = gender;  
-	    }  
+	    public void setGender(Integer gender) {  this.gender = gender;  }  
 	  
-	    public String getPhone() {  
-	        return phone;  
-	    }  
+	    public String getPhone() {  return phone;  }  
 	  
-	    public void setPhone(String phone) {  
-	        this.phone = phone;  
-	    }  
+	    public void setPhone(String phone) {  this.phone = phone;  }  
 	  
 	    @Override  
 	    public String toString() {  
@@ -649,9 +630,22 @@ public class EmpConteoller {
 	}
 	```
 - 使用lombok
-```java
-
-```
+	```java
+	import lombok.*;  
+	  
+	@Getter  
+	@Setter  
+	@ToString  
+	@NoArgsConstructor  
+	@AllArgsConstructor  
+	public class user {  
+	    private Integer id;  
+	    private String name;  
+	    private Integer age;  
+	    private Integer gender;  
+	    private String phone;  
+	}
+	```
 
 
 
