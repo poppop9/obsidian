@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SpringBoot",
+      "path": "💻计算机/JavaWeb/后端/SpringBoot.md"
+    },
+    {
       "basename": "MyBatis",
       "path": "💻计算机/数据库/MyBatis.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Obsidian特殊语法",
       "path": "临时笔记/Obsidian特殊语法.md"
-    },
-    {
-      "basename": "SpringBoot",
-      "path": "💻计算机/JavaWeb/后端/SpringBoot.md"
     },
     {
       "basename": "JavaWeb Draw",
