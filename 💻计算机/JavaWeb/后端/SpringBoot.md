@@ -560,8 +560,21 @@ public class EmpConteoller {
     }  
 }
 ```
-
-
+# 🌕lombok
+### 🌗引入lombok依赖
+```xml  
+<dependency>  
+    <groupId>org.projectlombok</groupId>  
+    <artifactId>lombok</artifactId>   
+</dependency>           //不用指定版本号，因为在SpringBoot的父工程里已经集成了lombok
+```
+### 🌗具体操作
+``@Getter/@Setter`为所有的属性提供get/set方法
+@ToString会给类自动生成易阅读的toString方法
+@EqualsAndHashCode根据类所拥有的非静态字段自动重写equals方法和hashCode方法
+@Data提供了更综合的生成代码功能（@Getter+@Setter+@ToString+@EqualsAndHashCode）
+@NoArgsConstructor为实体类生成无参的构造器方法
+@AllArgsConstructor为实体类生成除了static修饰的字段之外带有各参数的构造器方法。
 
 
 
