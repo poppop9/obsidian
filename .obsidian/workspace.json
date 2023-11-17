@@ -15,6 +15,7 @@
               "state": {
                 "file": "💻计算机/JavaWeb/后端/SpringBoot.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -23,10 +24,8 @@
             "id": "51b6f93bd6d7e81a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -37,6 +36,7 @@
               "state": {
                 "file": "💻计算机/四大件/计算机网络2.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -45,10 +45,8 @@
             "id": "95ba3813b3efd2bf",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -59,6 +57,7 @@
               "state": {
                 "file": "💻计算机/数据库/MyBatis.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -71,6 +70,7 @@
               "state": {
                 "file": "💻计算机/数据库/MySQL.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -83,6 +83,7 @@
               "state": {
                 "file": "临时笔记/MarkDown语法.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -95,6 +96,7 @@
               "state": {
                 "file": "临时笔记/穿搭.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -217,6 +219,18 @@
                 "file": "💻计算机/四大件/计算机网络2.md"
               }
             }
+          },
+          {
+            "id": "3d6a769e48fb9326",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "💻计算机/四大件/计算机网络2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ]
       }
@@ -226,13 +240,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "workspaces:管理工作区布局": false,
       "command-palette:打开命令面板": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
   "active": "5150fbe90374fca6",
