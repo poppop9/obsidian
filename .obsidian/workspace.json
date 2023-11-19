@@ -102,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -216,7 +216,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -226,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💻计算机/四大件/计算机网络2.md",
+                "file": "临时笔记/穿搭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,10 +249,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "3daf685cd3d4834c",
   "lastOpenFiles": [
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "💻计算机/四大件/计算机网络2.md",
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "临时笔记/穿搭.md",
     "科技美学/微信.md",
     "💻计算机/JavaWeb/后端/SpringBoot.md",
