@@ -741,7 +741,7 @@ class SpringBootMyBatisApplicationTests {
         user.setAge(47);  
         user.setGender(1);  
         user.setPhone("9898989");  
-  
+
         userMapper.InsertOne(user);  
         System.out.println(user.getId());  
     }  
