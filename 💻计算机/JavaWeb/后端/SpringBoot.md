@@ -707,6 +707,41 @@ class SpringBootMyBatisApplicationTests {
 }
 
 ```
+##### 🌑删除
+```java
+//定义Mapper接口
+package com.example.mapper;  
+  
+import com.example.Pojo.user;  
+ 
+@Mapper    
+public interface UserMapper {  
+    //查询全部用户信息  
+    @Select("SELECT * FROM user")  
+    public List<user> list();  
+  
+    //插入一条数据  
+    @Insert("INSERT INTO user VALUES(#{id},#{name},#{age},#{gender},#{phone})")  
+    public void InsertOne(Integer id, String name, Integer age, Integer gender, String phone);  
+  
+    //删除一条数据  
+    @Delete("DELETE FROM user WHERE id = #{id}")  
+    public void DeleteOne(Integer id);  
+}
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
 
 # 🌕lombok
 >Lombok是一种Java库，它通过注解的方式来简化Java类的编写，提高代码的可读性和简洁性
