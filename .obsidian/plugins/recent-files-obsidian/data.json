@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "MySQL",
+      "path": "💻计算机/数据库/MySQL.md"
+    },
+    {
       "basename": "SpringBoot",
       "path": "💻计算机/JavaWeb/后端/SpringBoot.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "MyBatis Draw",
       "path": "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "💻计算机/数据库/MySQL.md"
     },
     {
       "basename": "MarkDown语法",
