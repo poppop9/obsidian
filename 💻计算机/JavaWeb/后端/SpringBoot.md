@@ -615,8 +615,57 @@ graph LR
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143555.png)
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143538.png)
 ### 🌗基本操作
+##### 🌑查询
+```java
+//配置实体user类
+package com.example.Pojo;  
 
+@Getter     //lombok中的注释
+@Setter        
+@ToString  
+@NoArgsConstructor  
+@AllArgsConstructor  
+public class user {  
+    private Integer id;  
+    private String name;  
+    private Integer age;  
+    private Integer gender;  
+    private String phone;  
+}
+```
 
+```java
+//定义Mapper接口
+package com.example.mapper;  
+  
+import com.example.Pojo.user;  
+
+//表示当前类是MyBatis的Mapper接口，在运行时会自动生成该接口的实现类对象，并将该对象交给IOC容器管理
+@Mapper      
+public interface UserMapper {  
+    @Select("SELECT * FROM user")   //查询全部用户信息  
+    public List<user> list();     //将查询到的信息放到List集合中
+}
+```
+
+```java
+//在测试类中
+package com.example;  
+
+@SpringBootTest  
+class SpringBootMyBatisApplicationTests {  
+    @Autowired  
+    private UserMapper userMapper;  
+  
+    @Test  
+    public void TestListUser() {  
+        List<user> list = userMapper.list();  
+        for (user user : list) {  
+            System.out.println(user.toString());  
+        }  
+    }  
+}
+```
 
 
 
