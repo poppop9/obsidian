@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "草稿纸",
+      "path": "考试/草稿纸.md"
+    },
+    {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
+    },
+    {
+      "basename": "草稿纸",
+      "path": "Excalidraw/杂/草稿纸.md"
     },
     {
       "basename": "SpringBoot",
@@ -23,10 +31,6 @@
     {
       "basename": "计算机网络 Draw",
       "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "Excalidraw/杂/草稿纸.md"
     },
     {
       "basename": "微信",
