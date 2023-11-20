@@ -673,8 +673,40 @@ user(id=3, name=郭富城, age=40, gender=1, phone=82222)
 user(id=4, name=刘亦菲, age=30, gender=2, phone=289083)
 user(id=5, name=王祖贤, age=37, gender=2, phone=8402809)
 ```
+##### 🌑插入
+```java
+//定义Mapper接口
+package com.example.mapper;  
+  
+import com.example.Pojo.user;  
 
+@Mapper   
+public interface UserMapper {    
+    //插入一条数据           //这里的sql语句的数值使用了动态插入占位符“#{}”
+    @Insert("INSERT INTO user VALUES(#{id},#{name},#{age},#{gender},#{phone})")  
+    public void InsertOne(Integer id, String name, Integer age, Integer gender, String phone);  
+}
+```
 
+```java
+//在测试类中启动Mapper接口
+package com.example;  
+  
+import com.example.Pojo.user;  
+import com.example.mapper.UserMapper;  
+  
+@SpringBootTest  
+class SpringBootMyBatisApplicationTests {  
+    @Autowired  
+    private UserMapper userMapper;  
+
+    @Test  
+    public void InsertOne() {  
+        userMapper.InsertOne(6, "hoan", 30, 1, "211");  //给定参数
+    }  
+}
+
+```
 
 # 🌕lombok
 >Lombok是一种Java库，它通过注解的方式来简化Java类的编写，提高代码的可读性和简洁性
