@@ -649,22 +649,29 @@ public interface UserMapper {
 ```
 
 ```java
-//在测试类中
+//在测试启动类中遍历集合
 package com.example;  
 
 @SpringBootTest  
 class SpringBootMyBatisApplicationTests {  
-    @Autowired  
+    @Autowired    //进行依赖注入
     private UserMapper userMapper;  
-  
+
     @Test  
     public void TestListUser() {  
         List<user> list = userMapper.list();  
-        for (user user : list) {  
-            System.out.println(user.toString());  
+        for (user user : list) {          //遍历集合
+            System.out.println(user.toString());    
         }  
     }  
 }
+
+---
+user(id=1, name=吴彦祖, age=40, gender=1, phone=11919191)
+user(id=2, name=陈冠希, age=38, gender=1, phone=398293919)
+user(id=3, name=郭富城, age=40, gender=1, phone=82222)
+user(id=4, name=刘亦菲, age=30, gender=2, phone=289083)
+user(id=5, name=王祖贤, age=37, gender=2, phone=8402809)
 ```
 
 
