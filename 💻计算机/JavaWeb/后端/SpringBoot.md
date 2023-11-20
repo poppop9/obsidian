@@ -707,10 +707,10 @@ class SpringBootMyBatisApplicationTests {
 修改
 ```
 
->[!hint] 以上的SQL语句用了占位符，就是***预编译SQL语句***
+>[!hint] 以上的SQL语句用了“#{}”占位符，就是***预编译SQL语句***
 >预编译SQL语句有两个优点：
 >- 性能高，因为不同参数的SQL语句只用编译一遍【MYSQL有缓存机制】
->- 安全：防止了SQL注入【通过】
+>- 安全：防止了SQL注入【用户使用输入数据来篡改SQL语句】
 
 
 
