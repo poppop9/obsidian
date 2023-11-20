@@ -635,10 +635,78 @@ public class user {
 ```
 
 ```java
-//定义
+//定义Mapper接口
+package com.example.mapper;  
+  
+import com.example.Pojo.user;  
+  
+//表示当前类是MyBatis的Mapper接口，在运行时会自动生成该接口的实现类对象，并将该对象交给IOC容器管理  
+@Mapper    
+public interface UserMapper {  
+    //查询
+    @Select("SELECT * FROM user")  
+    public List<user> list();  
+  
+    //增
+    @Insert("INSERT INTO user VALUES(#{id},#{name},#{age},#{gender},#{phone})")  
+    public int InsertOne(Integer id, String name, Integer age, Integer gender, String phone);  
+  
+    //删  
+    @Delete("DELETE FROM user WHERE id = #{id}")   //这个DELETE语句会返回删除了几条数据  
+    public void DeleteOne(Integer id);  
+  
+    //改  
+    @Update("UPDATE user SET name=#{name},age=#{age},gender=#{gender},phone=#{phone} WHERE id = #{id}")  
+    public void UpdateOne(Integer id, String name, Integer age, Integer gender, String phone);  
+}
 ```
 
+```java
+//启动测试类
+package com.example;  
+  
+import com.example.Pojo.user;  
+import com.example.mapper.UserMapper;  
+  
+@SpringBootTest  
+class SpringBootMyBatisApplicationTests {  
+    @Autowired  
+    private UserMapper userMapper;  
+  
+    @Test  
+    public void SelectUser() {  
+        List<user> list = userMapper.list();  
+        for (user user : list) {  
+            System.out.println(user.toString());  
+        }  
+    }  
+  
+    @Test  
+    public void InsertOne() {  
+        int i = userMapper.InsertOne(6, "hoan", 30, 1, "211");  
+        System.out.println(i);    //输出影响的记录数  
+    }  
+  
+    @Test  
+    public void DeleteOne() {  
+        userMapper.DeleteOne(6);  
+    }  
+  
+    @Test  
+    public void UpdateOne() {  
+        userMapper.UpdateOne(1, "greenteck", 35, 1, "985985");  
+    }  
+}
 
+---
+打印出所有用户数据
+---
+1
+---
+删除
+---
+
+```
 
 
 
