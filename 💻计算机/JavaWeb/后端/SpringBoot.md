@@ -712,11 +712,43 @@ class SpringBootMyBatisApplicationTests {
 >- 性能高，因为不同参数的SQL语句只用编译一遍【MYSQL有缓存机制】
 >- 安全：防止了SQL注入【用户使用输入数据来篡改SQL语句】
 ### 🌗主键返回
->在很多时候我们会在插入一条数据之后，再拿到这条数据的id，
+>在很多时候我们会在插入一条数据之后，再拿到这条数据的id。由于不能简单的通过getId来获取，所以我们要添加***Options注释***
 
 ```java
-
+@Options(useGeneratedKeys = true, keyProperty = "id")    //需要添加这条注释  
+@Insert("INSERT INTO user(name,age,gender,phone) VALUES(#{name},#{age},#{gender},#{phone})") 
+public int InsertOne(user user);
 ```
+
+```java
+package com.example;  
+  
+import com.example.Pojo.user;  
+import com.example.mapper.UserMapper;  
+  
+@SpringBootTest  
+class SpringBootMyBatisApplicationTests {  
+    @Autowired  
+    private UserMapper userMapper;  
+  
+    @Test  
+    public void InsertOne() {  
+        user user = new user();  
+        user.setName("chico");  //有主键自增，所以不用插入id
+        user.setAge(47);  
+        user.setGender(1);  
+        user.setPhone("9898989");  
+  
+        userMapper.InsertOne(user);  
+        System.out.println(user.getId());  
+    }  
+}
+
+---
+17
+```
+
+
 
 # 🌕lombok
 >Lombok是一种Java库，它通过注解的方式来简化Java类的编写，提高代码的可读性和简洁性
