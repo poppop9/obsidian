@@ -92,12 +92,9 @@
             "id": "3daf685cd3d4834c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "临时笔记/穿搭.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/杂/草稿纸.md"
               }
             }
           }
@@ -170,8 +167,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "82e190d91877a96e",
@@ -206,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "Excalidraw/杂/草稿纸.md"
               }
             }
           },
@@ -216,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "Excalidraw/杂/草稿纸.md"
               }
             }
           },
@@ -226,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "Excalidraw/杂/草稿纸.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,9 +247,9 @@
   },
   "active": "3daf685cd3d4834c",
   "lastOpenFiles": [
+    "临时笔记/穿搭.md",
     "💻计算机/四大件/计算机网络2.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
-    "临时笔记/穿搭.md",
     "科技美学/微信.md",
     "💻计算机/JavaWeb/后端/SpringBoot.md",
     "💻计算机/数据库/MyBatis.md",
