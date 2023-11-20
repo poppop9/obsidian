@@ -614,7 +614,7 @@ graph LR
 	- 在idea的数据库配置中添加数据库
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143555.png)
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143538.png)
-### 🌗基本操作
+### 🌗增删改查
 ```java
 //配置实体user类
 package com.example.Pojo;  
@@ -711,9 +711,12 @@ class SpringBootMyBatisApplicationTests {
 >预编译SQL语句有两个优点：
 >- 性能高，因为不同参数的SQL语句只用编译一遍【MYSQL有缓存机制】
 >- 安全：防止了SQL注入【用户使用输入数据来篡改SQL语句】
+### 🌗主键返回
+>在很多时候我们会在插入一条数据之后，再拿到这条数据的id，
 
+```java
 
-
+```
 
 # 🌕lombok
 >Lombok是一种Java库，它通过注解的方式来简化Java类的编写，提高代码的可读性和简洁性
