@@ -615,7 +615,6 @@ graph LR
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143555.png)
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143538.png)
 ### 🌗基本操作
-##### 🌑查询
 ```java
 //配置实体user类
 package com.example.Pojo;  
@@ -705,7 +704,7 @@ class SpringBootMyBatisApplicationTests {
 ---
 删除
 ---
-
+修改
 ```
 
 
