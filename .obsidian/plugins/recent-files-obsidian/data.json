@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "SpringBoot",
+      "path": "💻计算机/JavaWeb/后端/SpringBoot.md"
+    },
+    {
       "basename": "草稿纸",
       "path": "考试/草稿纸.md"
     },
     {
-      "basename": "SpringBoot",
-      "path": "💻计算机/JavaWeb/后端/SpringBoot.md"
+      "basename": "MySQL",
+      "path": "💻计算机/数据库/MySQL.md"
     },
     {
       "basename": "计算机网络2",
@@ -19,10 +23,6 @@
     {
       "basename": "草稿纸",
       "path": "Excalidraw/杂/草稿纸.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "💻计算机/数据库/MySQL.md"
     },
     {
       "basename": "JavaWeb Draw",

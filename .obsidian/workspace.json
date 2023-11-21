@@ -92,8 +92,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考试/草稿纸.md"
+                "file": "💻计算机/JavaWeb/后端/SpringBoot.md"
               }
             }
           },
@@ -207,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "考试/草稿纸.md"
+                "file": "💻计算机/JavaWeb/后端/SpringBoot.md"
               }
             }
           },
@@ -217,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考试/草稿纸.md",
+                "file": "💻计算机/JavaWeb/后端/SpringBoot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,14 +239,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "3daf685cd3d4834c",
+  "active": "50a8f51d71867af8",
   "lastOpenFiles": [
-    "💻计算机/JavaWeb/后端/SpringBoot.md",
     "考试/草稿纸.md",
+    "💻计算机/数据库/MySQL.md",
+    "💻计算机/JavaWeb/后端/SpringBoot.md",
     "💻计算机/四大件/计算机网络2.md",
     "临时笔记/穿搭.md",
     "Excalidraw/杂/草稿纸.md",
-    "💻计算机/数据库/MySQL.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "💻计算机/数据库/MyBatis.md",
