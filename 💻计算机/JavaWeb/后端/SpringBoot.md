@@ -768,7 +768,11 @@ mybatis.configuration.map-underscore-to-camel-case=true
 [^1]:不会把数据库中的数据封装到实体对象中
 ### 🌗通过XML来实现MyBatis
 ##### 🌑三大规范
-- 同包同名，一一对应：XML文件的名称与Mapper接口的名称保持一致，一个XML文件对应一个Mapper接口，XML文件在resource目录下与Mapper接口在javamu'lu'x'a
+- 同包同名，一一对应：XML文件的名称与Mapper接口的名称保持一致，一个XML文件对应一个Mapper接口，XML文件在resource目录下与Mapper接口在java目录下的包一致
+- XML文件的`namespace`属性与Mapper接口的全类名保持一致
+- XML文件中的sql语句的id 与 Mapper接口的方法名一致，且返回类型一致
+
+
 
 
 
