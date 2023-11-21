@@ -614,7 +614,8 @@ graph LR
 	- 在idea的数据库配置中添加数据库
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143555.png)
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143538.png)
-### 🌗增删改查
+### 🌗基本操作
+##### 🌑增删改查
 ```java
 //配置实体user类
 package com.example.Pojo;  
@@ -711,7 +712,7 @@ class SpringBootMyBatisApplicationTests {
 >预编译SQL语句有两个优点：
 >- 性能高，因为不同参数的SQL语句只用编译一遍【MYSQL有缓存机制】
 >- 安全：防止了SQL注入【用户使用输入数据来篡改SQL语句】
-### 🌗主键返回
+##### 🌑主键返回
 >在很多时候我们会在插入一条数据之后，再拿到这条数据的id。由于不能简单的通过getId来获取，所以我们要添加***Options注释***
 
 `useGeneratedKeys = true`表示使用自动生成的主键
@@ -750,6 +751,22 @@ class SpringBootMyBatisApplicationTests {
 ---
 17
 ```
+##### 🌑数据封装
+>当数据库的字段名【采用_命名，dept_id】与实体类的属性名【采用驼峰命名，deptId】不一致时，***默认不会进行封装***[^1]
+
+在`application.properties`文件中配置：
+```
+#开启MyBatis驼峰命名自动映射开关
+mybatis.configuration.map-underscore-to-camel-case=true
+```
+此时a_column 就会自动封装到 aColumn 里
+
+
+
+[^1]:不会把数据库中的数据封装到实体对象中
+
+
+
 
 
 
