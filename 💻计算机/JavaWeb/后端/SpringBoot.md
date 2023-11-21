@@ -753,23 +753,15 @@ class SpringBootMyBatisApplicationTests {
 ```
 ##### 🌑数据封装
 >当数据库的字段名【采用_命名，dept_id】与实体类的属性名【采用驼峰命名，deptId】不一致时，***默认不会进行封装***[^1]
-
+###### 🌙解决办法：
 在`application.properties`文件中配置：
 ```
 #开启MyBatis驼峰命名自动映射开关
 mybatis.configuration.map-underscore-to-camel-case=true
 ```
-此时a_column 就会自动封装到 aColumn 里
-
-
+此时a_column 就会自动封装到 aColumn 或 AColumn 里
 
 [^1]:不会把数据库中的数据封装到实体对象中
-
-
-
-
-
-
 # 🌕lombok
 >Lombok是一种Java库，它通过注解的方式来简化Java类的编写，提高代码的可读性和简洁性
 
