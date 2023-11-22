@@ -614,6 +614,8 @@ graph LR
 	- 在idea的数据库配置中添加数据库
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143555.png)
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143538.png)
+- 安装`MyBatisX`插件
+	- 可以在xml文件 与 Mapper接口 中快速跳转
 ### 🌗通过注解来实现MyBatis
 ##### 🌑基本操作
 ###### 🌙增删改查
@@ -772,20 +774,22 @@ mybatis.configuration.map-underscore-to-camel-case=true
 - XML文件的`namespace`属性与Mapper接口的全类名保持一致
 - XML文件中的sql语句的id 与 Mapper接口的方法名一致，且返回类型一致
 
+![[Excalidraw/计算机/JavaWeb Draw.md#^group=fQSSes2S]]
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.mapper.UserMapperXml">
+<mapper namespace="com.example.mapper.UserMapperXml">    
     <!--resultType表示的是单条记录所封装的类型-->
     <select id="SelectAll" resultType="com.example.Pojo.user">
-        select * from user
+        select * from user     //书写sql语句
     </select>
 </mapper>
 ```
+### 🌗动态SQL
 
-安装`MyBatisX`插件
+
 
 
 
