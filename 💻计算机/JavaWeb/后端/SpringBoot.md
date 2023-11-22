@@ -772,11 +772,20 @@ mybatis.configuration.map-underscore-to-camel-case=true
 - XML文件的`namespace`属性与Mapper接口的全类名保持一致
 - XML文件中的sql语句的id 与 Mapper接口的方法名一致，且返回类型一致
 
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.UserMapperXml">
+    <!--resultType表示的是单条记录所封装的类型-->
+    <select id="SelectAll" resultType="com.example.Pojo.user">
+        select * from user
+    </select>
+</mapper>
 ```
 
-```
-
-
+安装`MyBatisX`插件
 
 
 
