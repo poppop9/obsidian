@@ -772,6 +772,10 @@ mybatis.configuration.map-underscore-to-camel-case=true
 - XML文件的`namespace`属性与Mapper接口的全类名保持一致
 - XML文件中的sql语句的id 与 Mapper接口的方法名一致，且返回类型一致
 
+```
+
+```
+
 
 
 
