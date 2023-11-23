@@ -789,7 +789,7 @@ mybatis.configuration.map-underscore-to-camel-case=true
 ```
 ### 🌗动态SQL
 
-##### 🌑\<where\>\<if\>标签
+##### 🌑动态查询
 - `<where>`标签可以动态的拼接`<if>`标签里的条件，如果只使用WHERE
 	- 如果第一个条件不成立会多出一个AND
 	- 如果所有条件不成立，会多出一个WHERE
@@ -812,6 +812,34 @@ mybatis.configuration.map-underscore-to-camel-case=true
     </where>
 </select>
 ```
+
+🌑动态更新
+
+```xml
+<update id="UpdateUser">
+    UPDATE user
+    <set>          <!--set标签可以dong'tai-->
+        <if test="name != null">
+            name=#{name}
+        </if>
+        <if test="age != null">
+            ,age=#{age}
+        </if>
+        <if test="gender != null">
+            ,gender=#{gender}
+        </if>
+        <if test="phone != null">
+            ,phone=#{phone}
+        </if>
+        <if test="otId != null">
+            ,ot_id=#{otId}
+        </if>
+    </set>
+    WHERE id=#{id}
+</update>
+```
+
+
 
 
 
