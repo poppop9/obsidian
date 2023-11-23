@@ -836,11 +836,21 @@ mybatis.configuration.map-underscore-to-camel-case=true
     WHERE id=#{id}
 </update>
 ```
+##### 🌑动态批量删除
+- `collection`  表示集合的名称
+- `item`  表示集合元素的名称
+- `open`  
 
-
-
-
-##### 🌑\<foreach\>标签
+```xml
+<delete id="DeleteIds">
+    DELETE
+    FROM user
+    WHERE id in
+    <foreach collection="ids" item="id" open="(" separator="," close=")">
+        #{id}
+    </foreach>
+</delete>
+```
 
 
 ##### 🌑\<sql\>\<include\>标签
