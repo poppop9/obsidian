@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "MarkDown语法",
+      "path": "临时笔记/MarkDown语法.md"
+    },
+    {
       "basename": "Obsidian笔记编写规范",
       "path": "临时笔记/Obsidian笔记编写规范.md"
     },
     {
-      "basename": "MarkDown语法",
-      "path": "临时笔记/MarkDown语法.md"
+      "basename": "草稿纸",
+      "path": "考试/草稿纸.md"
+    },
+    {
+      "basename": "草稿纸 Draw",
+      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "穿搭",
@@ -15,10 +23,6 @@
     {
       "basename": "SpringBoot",
       "path": "💻计算机/JavaWeb/后端/SpringBoot.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "考试/草稿纸.md"
     },
     {
       "basename": "JavaWeb Draw",
@@ -31,10 +35,6 @@
     {
       "basename": "计算机网络2",
       "path": "💻计算机/四大件/计算机网络2.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "Excalidraw/杂/草稿纸.md"
     },
     {
       "basename": "计算机网络 Draw",

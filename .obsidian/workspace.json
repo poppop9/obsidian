@@ -72,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/Obsidian笔记编写规范.md",
+                "file": "临时笔记/MarkDown语法.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "考试/草稿纸.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -161,8 +161,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "82e190d91877a96e",
@@ -197,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/Obsidian笔记编写规范.md"
+                "file": "临时笔记/MarkDown语法.md"
               }
             }
           },
@@ -207,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/Obsidian笔记编写规范.md"
+                "file": "临时笔记/MarkDown语法.md"
               }
             }
           },
@@ -217,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/Obsidian笔记编写规范.md",
+                "file": "临时笔记/MarkDown语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -242,14 +241,15 @@
   },
   "active": "af3e331d5134c430",
   "lastOpenFiles": [
-    "临时笔记/MarkDown语法.md",
-    "临时笔记/穿搭.md",
-    "💻计算机/JavaWeb/后端/SpringBoot.md",
+    "临时笔记/Obsidian笔记编写规范.md",
     "考试/草稿纸.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
+    "临时笔记/穿搭.md",
+    "临时笔记/MarkDown语法.md",
+    "💻计算机/JavaWeb/后端/SpringBoot.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "💻计算机/数据库/MySQL.md",
     "💻计算机/四大件/计算机网络2.md",
-    "Excalidraw/杂/草稿纸.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "💻计算机/数据库/MyBatis.md",
     "科技美学/微信.md",
@@ -260,7 +260,6 @@
     "💻计算机/数据库/MYSQL安装配置.md",
     "Excalidraw/Drawing 2023-11-07 13.49.45.excalidraw.md",
     "Excalidraw/Drawing 2023-11-07 13.49.39.excalidraw.md",
-    "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/🍕美食打分.md",
     "临时笔记/权游台词.md",
     "临时笔记/魔术.md",

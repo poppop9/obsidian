@@ -51,7 +51,8 @@
 粗体`ctrl+b`
 斜体`ctrl+i`
 删除线`ctrl+d`
-单行代码块`ctrl+``
+单行代码块
+$$ctrl+`$$
 
 清除格式`ctrl+e`
 
