@@ -85,8 +85,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💻计算机/编程语言/Java/06 集合.md",
-                "mode": "preview",
+                "file": "临时笔记/文字美学.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💻计算机/编程语言/Java/06 集合.md"
+                "file": "临时笔记/文字美学.md"
               }
             }
           },
@@ -206,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "💻计算机/编程语言/Java/06 集合.md"
+                "file": "临时笔记/文字美学.md"
               }
             }
           },
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💻计算机/编程语言/Java/06 集合.md",
+                "file": "临时笔记/文字美学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,6 +241,7 @@
   },
   "active": "3daf685cd3d4834c",
   "lastOpenFiles": [
+    "💻计算机/编程语言/Java/06 集合.md",
     "考试/草稿纸.md",
     "💻计算机/JavaWeb/后端/SpringBoot.md",
     "临时笔记/MarkDown语法.md",
@@ -267,7 +268,6 @@
     "科技美学/Mac软件.md",
     "科技美学/支付宝购买外区App Store应用.md",
     "科技美学/微信分享浏览器.md",
-    "科技美学/内网穿透.md",
     "💻计算机/JavaWeb/后端",
     "💻计算机/JavaWeb/前端",
     "💻计算机/JavaWeb",
