@@ -143,5 +143,14 @@
       ],
       "key": "6"
     }
+  ],
+  "editing-toolbar:header0-text": [],
+  "editor:toggle-code": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
   ]
 }
