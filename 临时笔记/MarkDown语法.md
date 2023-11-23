@@ -69,15 +69,6 @@ cssclasses: []
 ```
 多行代码块
 ```
-### 🌗公式块
-```
-$$
-这里是居中公式块，This is the center formula block
-$$
-```
-$$
-这里是居中公式块，This is the center formula block
-$$
 # 🌕超链接
 ### 🌗文本超链接
  [百度](https://www.baidu.com)
@@ -203,12 +194,6 @@ obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
 |标题1|标题2 |
 |:-:|:-:|
 |我是一段很长的文字我是一段很长的文字<br>我是一段很长的文字我是一段很长的文字<br>我是一段很长的文字我是一段很长的文字<br>我是一段很长的文字我是一段很长的文字 |我是一段很短的文字 |
-# 🌕Front-matter
-```
----
-tags: 标签
----
-```
 # 🌕绘图
 ### 🌗流程图
 ##### 🌑方向

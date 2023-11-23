@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Obsidian笔记编写规范",
-      "path": "临时笔记/Obsidian笔记编写规范.md"
+      "basename": "SpringBoot",
+      "path": "💻计算机/JavaWeb/后端/SpringBoot.md"
     },
     {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
     },
     {
-      "basename": "SpringBoot",
-      "path": "💻计算机/JavaWeb/后端/SpringBoot.md"
+      "basename": "Obsidian笔记编写规范",
+      "path": "临时笔记/Obsidian笔记编写规范.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "💻计算机/数据库/MySQL.md"
+    },
+    {
+      "basename": "JavaWeb Draw",
+      "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
       "basename": "草稿纸",
@@ -23,14 +31,6 @@
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
-    },
-    {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "💻计算机/数据库/MySQL.md"
     },
     {
       "basename": "计算机网络2",
