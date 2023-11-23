@@ -788,7 +788,6 @@ mybatis.configuration.map-underscore-to-camel-case=true
 </mapper>
 ```
 ### 🌗动态SQL
-
 ##### 🌑动态查询
 - `<where>`标签可以动态的拼接`<if>`标签里的条件，如果只使用WHERE
 	- 如果第一个条件不成立会多出一个AND
@@ -812,13 +811,12 @@ mybatis.configuration.map-underscore-to-camel-case=true
     </where>
 </select>
 ```
-
-🌑动态更新
-
+##### 🌑动态更新
+- `<set>`标签可以动态删除语句中的逗号
 ```xml
 <update id="UpdateUser">
     UPDATE user
-    <set>          <!--set标签可以dong'tai-->
+    <set>          
         <if test="name != null">
             name=#{name}
         </if>
