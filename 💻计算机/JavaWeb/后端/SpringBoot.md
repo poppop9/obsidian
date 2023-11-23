@@ -788,7 +788,29 @@ mybatis.configuration.map-underscore-to-camel-case=true
 </mapper>
 ```
 ### 🌗动态SQL
-##### 🌑\<if\>标签
+
+##### 🌑\<where\>\<if\>标签
+`<where>`标签可以动态的拼接`<if>``
+```xml
+<select id="SelectCondition" resultType="com.example.Pojo.user">
+    select *
+    from user
+    <where>
+        <if test="name != null">
+            name like concat('%',#{name},'%')
+        </if>
+        <if test="age != null">
+            and age = #{age}
+        </if>
+        <if test="gender != null">
+            and gender = #{gender}
+        </if>
+    </where>
+</select>
+```
+
+
+
 
 
 ##### 🌑\<foreach\>标签
