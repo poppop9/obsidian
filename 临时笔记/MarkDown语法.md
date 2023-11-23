@@ -72,9 +72,12 @@ cssclasses: []
 ### 🌗公式块
 ```
 $$
-这里是居中公式块，英文有斜体显示
+这里是居中公式块，This is the center formula block
 $$
 ```
+$$
+这里是居中公式块，This is the center formula block
+$$
 # 🌕超链接
 ### 🌗文本超链接
  [百度](https://www.baidu.com)
@@ -114,6 +117,8 @@ obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
   </iframe>
 </div>
 <iframe src="https://www.bilibili.com/" style="width: 100%; height: 400px;"></iframe>
+
+---
 # 🌕列表
 ### 🌗无序列表
 ```
@@ -151,25 +156,6 @@ obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
 >一级引用
 >>二级引用
 >>>三级引用
-# 🌕代码
-### 🌗行内代码
-```
-`使用一对反引号`
-```
-`使用一对反引号`
-### 🌗代码块
-```
-使用三对反引号,可以在引号后面声明语言类型来获取高亮
-或者首行连续四个空格
-```
-
-```java
-public class UDPReceiveDemo { 
-    public static void main(String[] args) throws SocketException {  
-        DatagramSocket dgsr=new DatagramSocket(10086);  
-    } 
-}
-```
 # 🌕脚注
 ```
 这是一个简单的脚注[^1]
