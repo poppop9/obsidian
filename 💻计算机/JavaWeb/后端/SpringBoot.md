@@ -790,13 +790,17 @@ mybatis.configuration.map-underscore-to-camel-case=true
 ### 🌗动态SQL
 
 ##### 🌑\<where\>\<if\>标签
-`<where>`标签可以动态的拼接`<if>``
+- `<where>`标签可以动态的拼接`<if>`标签里的条件，如果只使用WHERE
+	- 如果第一个条件不成立会多出一个AND
+	- 如果所有条件不成立，会多出一个WHERE
+- `<if>`标签可以根据test条件判断是否要拼接标签里的sql
+
 ```xml
 <select id="SelectCondition" resultType="com.example.Pojo.user">
     select *
     from user
     <where>
-        <if test="name != null">
+        <if test="name != null">  <!--test条件成立，则拼接sql-->
             name like concat('%',#{name},'%')
         </if>
         <if test="age != null">
