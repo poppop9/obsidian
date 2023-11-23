@@ -839,7 +839,9 @@ mybatis.configuration.map-underscore-to-camel-case=true
 ##### 🌑动态批量删除
 - `collection`  表示集合的名称
 - `item`  表示集合元素的名称
-- `open`  
+- `open`  在遍历元素的之前加的字符
+- `separator`  遍历每个元素之后要加的字符
+- `close`  遍历完所有元素之后要加的字符
 
 ```xml
 <delete id="DeleteIds">
@@ -850,6 +852,11 @@ mybatis.configuration.map-underscore-to-camel-case=true
         #{id}
     </foreach>
 </delete>
+
+---
+DELETE
+FROM user
+WHERE id in (A,B,C……)
 ```
 
 
