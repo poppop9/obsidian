@@ -890,8 +890,13 @@ mybatis.configuration.map-underscore-to-camel-case=true
 此时a_column字段名 就会自动封装到 aColumn 或 AColumn 属性里
 
 [^1]:不会把数据库中的数据封装到实体对象中
-##### 🌑输出日志到控制台
+##### 🌑输出MyBatis日志到控制台
+>配置之后，会在控制台输出要执行的sql语句 和 各种日志
 
+在`application.properties`文件中配置：
+```
+mybatis.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
+```
 
 
 
