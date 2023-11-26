@@ -864,6 +864,15 @@ DELETE
 FROM user
 WHERE id in (A,B,C……)
 ```
+
+```java
+@Mapper  
+public interface UserMapperXml {  
+    public List<user> SelectAll();  
+    //根据id集合来批量删除记录  
+    public void DeleteIds(List<Integer> ids); 
+}
+```
 ##### 🌑\<sql\>\<include\>标签
 
 
