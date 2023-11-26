@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot.md"
+    },
+    {
       "basename": "前后端开发规范",
       "path": "计算机/JavaWeb/前后端开发规范.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot.md"
     },
     {
       "basename": "穿搭",
