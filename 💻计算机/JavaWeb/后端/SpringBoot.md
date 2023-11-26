@@ -864,8 +864,6 @@ DELETE
 FROM user
 WHERE id in (A,B,C……)
 ```
-
-
 ##### 🌑\<sql\>\<include\>标签
 
 
