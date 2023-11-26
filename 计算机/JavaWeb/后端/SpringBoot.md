@@ -421,13 +421,13 @@ public class EmpServiceA implements EmpServie {
 ##### 🌑Controller
 >Controller的作用是获取来自Service类发来的数据，响应数据给前端
 
-@RestController的子集：
-- @GetController  用于处理 HTTP GET 请求的注解
-- @PostController  用于处理 HTTP POST 请求的注解
+`RequestMapping`的子集：
+- `@GetMapping`  用于处理 HTTP GET 请求的注解
+- `@PostMapping`  用于处理 HTTP POST 请求的注解
 - `@PutMapping`：用于处理 HTTP PUT 请求的注解
-
-
-
+- `@DeleteMapping`  用于处理 HTTP DELETE 请求的注解
+……
+---
 ```java
 package com.example.web_2.Controller;  
 
@@ -442,10 +442,11 @@ public class EmpController {
         return Result.buildResult(Result.Status.OK, list);  //返回数据
     }  
 }
-```
+
+
 ---
 GET请求：`http://localhost:8080/emp`
-```json
+json：
 {
     "status": "200",
     "message": "正确",
