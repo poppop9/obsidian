@@ -422,10 +422,10 @@ public class EmpServiceA implements EmpServie {
 >Controller的作用是获取来自Service类发来的数据，响应数据给前端
 
 `RequestMapping`的子集：
-- `@GetMapping`  用于处理 HTTP GET 请求的注解
-- `@PostMapping`  用于处理 HTTP POST 请求的注解
-- `@PutMapping`：用于处理 HTTP PUT 请求的注解
-- `@DeleteMapping`  用于处理 HTTP DELETE 请求的注解
+- `@GetMapping`  限定路径的请求方式只能是 HTTP GET
+- `@PostMapping`  限定路径的请求方式只能是 HTTP POST
+- `@PutMapping`：限定路径的请求方式只能是 HTTP PUT
+- `@DeleteMapping`  限定路径的请求方式只能是 HTTP DELETE
 ……
 ---
 ```java
