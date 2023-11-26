@@ -876,7 +876,19 @@ public interface UserMapperXml {
 ##### 🌑sql片段的抽取与引用
 >如果像上面一样每个语句都独立写代码，那复用性会很差，如果要更改表名或者其他参数，则要一个一个语句标签更改。引入了==\<sql\>\<include\>标签==可以解决这个问题
 
+```xml
+<sql id="select1">             //声明sql片段，定义id属性
+	select id, name, age, gender, phone, ot_id
+	from user
+</sql>                
 
+<select id="SelectCondition" resultType="com.example.Pojo.user">
+	<include refid="select1"></include>    //引入sql片段，指定refid属性
+	<where>
+		……
+	</where>
+</select>
+```
 
 
 
