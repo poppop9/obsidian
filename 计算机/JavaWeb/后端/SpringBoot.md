@@ -458,6 +458,25 @@ json：
     ]
 }
 ```
+###### 🌙公共路径
+```java
+@RestController  
+@RequestMapping("/user")    //指定公共路径
+public class UserController {  
+    @Autowired  
+    private UserService us;  
+  
+    //根据POST请求传递过来的json数据，插入到数据库  
+    @PostMapping       //表示
+    public Result InsertUser(@RequestBody user user) {  
+        us.InsertUser(user);  
+        return Result.buildResult(Result.Status.OK);  
+    }  
+}
+```
+
+
+
 ### 🌗解耦
 >以上的分层方式，实现了***高内聚***，但是依然没有实现***低耦合***【Controller中还是有依赖Service，Service还是有依赖Dao】
 >![[Excalidraw/计算机/JavaWeb Draw.md#^group=g1pvEhriTd5poW0zM1k4o|500]]
