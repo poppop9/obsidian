@@ -49,6 +49,35 @@
 
 # 🌕数据类型
 ![[Java的基础语法1 Draw#^group=GEbYHyys|750]]
+- 基本数类
+	- 数值类
+		- 整数
+			- `byte`
+			- `short`
+			- `int`
+			- `long`
+		- 浮点数
+			- `float`
+			- `double`
+		- 字符
+			- `char`
+		- 时间
+			- `LocalDate`  表示一个日期，不包含具体时间部分
+			- `LocalTime`  表示一个时间，不包含日期部分
+			- `LocalDateTime`：表示日期和时间，不包含时区信息
+			- `java.time.ZonedDateTime`：表示带时区的日期和时间。
+			- `java.time.Duration`：表示时间间隔，例如持续时间或持续时间段。
+			- `java.time.Period`：表示日期间隔，例如持续天数、月数或年数。
+			- `java.time.Instant`：表示时间线上的一个特定时刻，通常与协调世界时（UTC）一起使用
+	- 非数值类
+- 引用数类
+	- 类
+	- 接口
+	- 数组
+
+
+
+
 
 # 🌕标识符
 >在写程序时，自己定义的一些名字
