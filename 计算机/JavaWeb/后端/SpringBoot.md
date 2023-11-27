@@ -37,6 +37,13 @@ SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已�
 ### 🌗请求
 >***Apifox***
 >Apifox是一款 API设计/开发/测试工具
+
+`RequestMapping`的子集：
+- `@GetMapping`  限定路径的请求方式只能是 HTTP GET
+- `@PostMapping`  限定路径的请求方式只能是 HTTP POST
+- `@PutMapping`：限定路径的请求方式只能是 HTTP PUT
+- `@DeleteMapping`  限定路径的请求方式只能是 HTTP DELETE
+……
 ##### 🌑简单参数
 GET请求：`http://localhost:8080/simpleParam?name=Tom&age=10`
 ```java
@@ -421,13 +428,6 @@ public class EmpServiceA implements EmpServie {
 ##### 🌑Controller
 >Controller的作用是获取来自Service类发来的数据，响应数据给前端
 
-`RequestMapping`的子集：
-- `@GetMapping`  限定路径的请求方式只能是 HTTP GET
-- `@PostMapping`  限定路径的请求方式只能是 HTTP POST
-- `@PutMapping`：限定路径的请求方式只能是 HTTP PUT
-- `@DeleteMapping`  限定路径的请求方式只能是 HTTP DELETE
-……
----
 ```java
 package com.example.web_2.Controller;  
 
