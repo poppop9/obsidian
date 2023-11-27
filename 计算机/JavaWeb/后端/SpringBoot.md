@@ -157,6 +157,8 @@ public String ListParam(@RequestParam List<String> hobby) {  //需要添加Reque
 
 [dance, game, sing]
 ```
+
+`@RequestParam`***注解用于从请求的URL查询参数中获取值，并将其绑定到Controller类方法的参数上***，其属性可以指定参数是否是必需的；可以设置参数的默认值
 ##### 🌑日期参数
 GET请求：`http://localhost:8080/dateParam?updateTime=2023-10-09 15:50:20`
 ```java
