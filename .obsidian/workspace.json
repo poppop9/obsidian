@@ -92,7 +92,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -195,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -205,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -215,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot.md",
+                "file": "临时笔记/穿搭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,10 +239,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50a8f51d71867af8",
+  "active": "3daf685cd3d4834c",
   "lastOpenFiles": [
-    "临时笔记/临时.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
+    "临时笔记/临时.md",
     "临时笔记/穿搭.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",
     "Excalidraw/计算机/编程语言/Java/Java的基础语法1 Draw.md",
