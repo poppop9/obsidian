@@ -557,7 +557,7 @@ public class EmpServiceA implements EmpServie {
 
 ```java
 @RestController  
-public class EmpConteoller {  
+public class EmpController {  
     @Autowired  //程序运行时，IOC容器会为这个变量提供Bean对象
     private EmpServie empServie;  
   
