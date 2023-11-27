@@ -188,11 +188,11 @@ public String DateParam(@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss") LocalDa
 POST请求：`http://localhost:8080/jsonParam`
 ```json
 {
-    "name":"Tom",
-    "age":20,
-    "address":{
-        "province":"广东",
-        "city":"广州"
+    "name": "Tom",
+    "age": 20,
+    "address": {
+        "province": "广东",
+        "city": "广州"
     }
 }
 ```
