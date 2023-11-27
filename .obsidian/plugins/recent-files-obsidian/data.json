@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "03 Java的基础语法1",
-      "path": "计算机/编程语言/Java/03 Java的基础语法1.md"
-    },
-    {
-      "basename": "02 Java的理论知识",
-      "path": "计算机/编程语言/Java/02 Java的理论知识.md"
+      "basename": "SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot.md"
     },
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
     },
     {
-      "basename": "SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot.md"
+      "basename": "03 Java的基础语法1",
+      "path": "计算机/编程语言/Java/03 Java的基础语法1.md"
+    },
+    {
+      "basename": "Java的基础语法1 Draw",
+      "path": "Excalidraw/计算机/编程语言/Java/Java的基础语法1 Draw.md"
+    },
+    {
+      "basename": "02 Java的理论知识",
+      "path": "计算机/编程语言/Java/02 Java的理论知识.md"
     },
     {
       "basename": "MySQL",
@@ -195,10 +199,6 @@
     {
       "basename": "3 JavaScript",
       "path": "计算机/JavaWeb/前端/3 JavaScript.md"
-    },
-    {
-      "basename": "如何使用把笔记同步到Github",
-      "path": "临时笔记/如何使用把笔记同步到Github.md"
     }
   ],
   "omittedPaths": [],
