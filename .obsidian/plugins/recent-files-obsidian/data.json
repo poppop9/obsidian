@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/后端/SpringBoot.md"
     },
     {
+      "basename": "临时",
+      "path": "临时笔记/临时.md"
+    },
+    {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "6 Element组件库",
       "path": "计算机/JavaWeb/前端/6 Element组件库.md"
-    },
-    {
-      "basename": "3 JavaScript",
-      "path": "计算机/JavaWeb/前端/3 JavaScript.md"
     }
   ],
   "omittedPaths": [],
