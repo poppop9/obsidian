@@ -459,24 +459,27 @@ json：
 }
 ```
 ###### 🌙公共路径
+>在类的头部指定`@RequestMapping`注解
+
 ```java
 @RestController  
-@RequestMapping("/user")    //指定公共路径
+@RequestMapping("/user")             //指定公共路径
 public class UserController {  
     @Autowired  
     private UserService us;  
-  
-    //根据POST请求传递过来的json数据，插入到数据库  
-    @PostMapping       //表示
+
+    @PostMapping                   //表示路径为POST请求的/user
     public Result InsertUser(@RequestBody user user) {  
         us.InsertUser(user);  
         return Result.buildResult(Result.Status.OK);  
     }  
+    
+    @GetMapping("/1")              //表示路径为Get请求的/user/1
+    public List<user> SelectUser(Integer id) {  
+	    return ……
+    }  
 }
 ```
-
-
-
 ### 🌗解耦
 >以上的分层方式，实现了***高内聚***，但是依然没有实现***低耦合***【Controller中还是有依赖Service，Service还是有依赖Dao】
 >![[Excalidraw/计算机/JavaWeb Draw.md#^group=g1pvEhriTd5poW0zM1k4o|500]]
@@ -921,12 +924,6 @@ mybatis.configuration.map-underscore-to-camel-case=true
 ```
 mybatis.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 ```
-
-
-
-
-
-
 # 🌕lombok
 >Lombok是一种Java库，它通过注解的方式来简化Java类的编写，提高代码的可读性和简洁性
 
