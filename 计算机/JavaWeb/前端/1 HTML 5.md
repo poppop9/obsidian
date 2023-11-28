@@ -179,6 +179,9 @@
 	  file:///E:/VScode/html/9_9.html?username=123&password=456  //URL后面会出现表单数据
 	  ```
 	- `post` 在消息体中传递。【表单数据大小无限制】
+- `enctype`  指定表单数据提交的格式
+	- `默认`  
+	- `multipart/form-data`  ***用于提交文件的格式***【其他格式提交文件会只提交文件名】
 ##### 🌑\<input\>
   - `type` 
     - `text` 单行输入字段
@@ -201,6 +204,20 @@
 ##### 🌑\<select\>
   - `option` 
 ##### 🌑\<textarea\>
+```html
+<form action="" method="get">
+    <select name="degree">
+        <option value="0">请选择</option>
+        <option value="1">小学</option>
+        <option value="2">高中</option>
+        <option value="3">大学</option>
+        <option value="4">博士</option>
+    </select><br><br>
+</form>
+```
+
+
+
 
 ```html
 <form action="" method="get">
@@ -220,13 +237,7 @@
     邮箱: <input type="email" name="email"><br><br>
     年龄: <input type="number" name="age"><br><br>
     学历:
-    <select name="degree">
-        <option value="0">请选择</option>
-        <option value="1">小学</option>
-        <option value="2">高中</option>
-        <option value="3">大学</option>
-        <option value="4">博士</option>
-    </select><br><br>
+
     描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
 
 	<input type="hidden" name="id" value="1">
