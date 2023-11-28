@@ -218,7 +218,7 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 
 - 后端
 ```Properties
-
+#在配置文件中限制上传文件的Size
 
 #配置单个文件上传大小限制（默认值为1M）  
 spring.servlet.multipart.max-file-size=10MB  
