@@ -207,6 +207,8 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 123
 ```
 ##### 🌑文件参数
+`MultipartFile` ***是SpringBoot提供的保存文件的一种格式***
+
 - 前端
 	```html
 	<form action="/upload" method="get" enctype="multipart/form-data">
@@ -225,10 +227,7 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 	}
 	```
 
-
-
-
-
+>[!hint] 文件通过MultipartFile传递到服务器后，会产生一个临时文件，如果这时不对文件做任何操作。只要请求响应完毕之后，***这个文件就会被自动删除，不会保存***
 ### 🌗响应
 ##### 🌑首先包装一个Result类
 ```java
