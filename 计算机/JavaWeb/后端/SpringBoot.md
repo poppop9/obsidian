@@ -856,7 +856,7 @@ class SpringBootMyBatisApplicationTests {
 <delete id="DeleteIds">
     DELETE
     FROM user
-    WHERE id in
+    WHERE id in       //ids集合名需要与Mapper接口传递的集合名保持一致
     <foreach collection="ids" item="id" open="(" separator="," close=")">
         #{id}
     </foreach>
