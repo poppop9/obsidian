@@ -216,17 +216,16 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 > - `getContentType()`  返回文件的内容类型
 > - `isEmpty()`  判断上传的文件是否有内容
 > - `getSize()`  返回文件大小【单位为字节】
-> - `getBytes()`：返回一个将文件内容转化成一个以byte为元素的数组
-> - `getInputStream()`：返回InputStream读取文件的内容
-> - `transferTo(File var1)`：复制file文件到指定位置，比如D盘下的某个位置，不然程序执行完，文件就会消失，程序运行时，临时存储在temp这个文件夹中。
-
+> - `getBytes()`  返回一个将文件内容转化成一个以byte为元素的数组
+> - `getInputStream()`  返回InputStream读取文件的内容
+> - `transferTo(File var1)`  复制file文件到指定位置
 
 - 前端
-	```html
-	<form action="/upload" method="get" enctype="multipart/form-data">
-	    图像: <input type="file" name="image">
-	</form>
-	```
+```html
+<form action="/upload" method="get" enctype="multipart/form-data">
+	图像: <input type="file" name="image">
+</form>
+```
 
 - 后端
 ```Properties
