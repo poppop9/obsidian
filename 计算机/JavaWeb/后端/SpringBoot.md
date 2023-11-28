@@ -217,15 +217,41 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 	```
 
 - 后端
-	```java
-	@RestController  
-	public class UploadController {  
-	    @PostMapping("/upload")  
-	    public Result UploadFile(MultipartFile image) {  
-	        return Result.buildResult(Result.Status.OK);  
-	    }  
-	}
-	```
+```Properties
+
+
+#配置单个文件上传大小限制（默认值为1M）  
+spring.servlet.multipart.max-file-size=10MB  
+#配置单次请求上传文件总大小限制（默认值为10M）  
+spring.servlet.multipart.max-request-size=100MB
+```
+
+```java
+@RestController  
+public class UploadController {  
+    @PostMapping("/upload")  
+    public Result UploadFile(MultipartFile image) throws IOException {  
+	    //获取到image对象的文件名
+        String originalFilename = image.getOriginalFilename();  
+        //拿到文件名的最后一个.的索引
+        int indexOf = originalFilename.lastIndexOf(".");  
+        //获取到该文件的后缀名
+        String suffixName = originalFilename.substring(indexOf);  
+
+		//获取uuid
+        String uuid = UUID.randomUUID().toString();  
+        //拼接uuid和后缀名
+        String newFileName = uuid + suffixName;  
+
+		//将文件保存到指定路径
+        image.transferTo(new File("E:/抖音/" + newFileName));  
+  
+        return Result.buildResult(Result.Status.OK);  
+    }  
+}
+```
+
+
 
 >[!hint] 文件通过MultipartFile传递到服务器后，会产生一个临时文件，如果这时不对文件做任何操作。只要请求响应完毕之后，***这个文件就会被自动删除，不会保存***
 ### 🌗响应
