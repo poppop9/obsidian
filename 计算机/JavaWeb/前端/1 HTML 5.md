@@ -249,6 +249,14 @@
     <input type="button" value="按钮">
 </form>
 
+###### 🌙file
+>如果要提交的表单里有 `file` 类型的数据，则要设置指定的编码格式
+
+```html
+<form action="" method="get" enctype="multipart/form-data"> //需要指定编码格式enctype
+    图像: <input type="file" name="image"><br><br>
+</form>
+```
 ##### 🌑\<select\>
   - `option` 
 
