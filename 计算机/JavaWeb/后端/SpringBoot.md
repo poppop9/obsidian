@@ -208,11 +208,22 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 ```
 ##### 🌑文件参数
 - 前端
-
-
+	```html
+	<form action="/upload" method="get" enctype="multipart/form-data">
+	    图像: <input type="file" name="image">
+	</form>
+	```
 
 - 后端
-
+	```java
+	@RestController  
+	public class UploadController {  
+	    @PostMapping("/upload")  
+	    public Result UploadFile(MultipartFile image) {  
+	        return Result.buildResult(Result.Status.OK);  
+	    }  
+	}
+	```
 
 
 

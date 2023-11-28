@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/后端/SpringBoot.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "计算机/JavaWeb/前端/1 HTML 5.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -240,8 +240,8 @@
   },
   "active": "50a8f51d71867af8",
   "lastOpenFiles": [
-    "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端/1 HTML 5.md",
+    "临时笔记/穿搭.md",
     "计算机/JavaWeb/后端/SpringBoot.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/四大件/计算机网络2.md",
