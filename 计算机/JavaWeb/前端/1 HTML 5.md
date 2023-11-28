@@ -178,7 +178,7 @@
 	  
 	  file:///E:/VScode/html/9_9.html?username=123&password=456  //URL后面会出现表单数据
 	  ```
-	- `post` 在消息体中传递。【表单数据大小无限制】
+	- `post` 在消息体中传递【表单数据大小无限制】
 - `enctype`  指定表单数据提交的格式
 	- `默认`  
 	- `multipart/form-data`  ***用于提交文件的格式***【其他格式提交文件会只提交文件名】
@@ -201,23 +201,6 @@
       - `button` 可点击按钮
   - `name` ***name相同表示是同一个表单项***
   - `value` ***提交表单时真正提交的值***
-##### 🌑\<select\>
-  - `option` 
-##### 🌑\<textarea\>
-```html
-<form action="" method="get">
-    <select name="degree">
-        <option value="0">请选择</option>
-        <option value="1">小学</option>
-        <option value="2">高中</option>
-        <option value="3">大学</option>
-        <option value="4">博士</option>
-    </select><br><br>
-</form>
-```
-
-
-
 
 ```html
 <form action="" method="get">
@@ -236,9 +219,6 @@
     日期时间: <input type="datetime-local" name="datatime"><br><br>
     邮箱: <input type="email" name="email"><br><br>
     年龄: <input type="number" name="age"><br><br>
-    学历:
-
-    描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
 
 	<input type="hidden" name="id" value="1">
     <input type="submit" value="提交">
@@ -247,36 +227,68 @@
 </form>
 ```
 <form action="" method="get">
-	用户名: <input type="text" name="username"><br><br>
-	密码: <input type="password" name="password"><br><br>
-	性别:
-	<label><input type="radio" name="gender" value="男">男</label>
-	<label><input type="radio" name="gender" value="女">女</label><br><br>
-	爱好:
-	<label><input type="checkbox" name="hobby" value="java">java</label>
-	<label><input type="checkbox" name="hobby" value="c">c</label>
-	<label><input type="checkbox" name="hobby" value="python">python</label><br><br>
-	图像: <input type="file" name="image"><br><br>
-	生日: <input type="date" name="birthday"><br><br>
-	时间: <input type="time" name="time"><br><br>
-	日期时间: <input type="datetime-local" name="datatime"><br><br>
-	邮箱: <input type="email" name="email"><br><br>
-	年龄: <input type="number" name="age"><br><br>
-	学历:
-	<select name="degree">
-		<option value="0">请选择</option>
-		<option value="1">小学</option>
-		<option value="2">高中</option>
-		<option value="3">大学</option>
-		<option value="4">博士</option>
-	</select><br><br>
-	描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
+    用户名: <input type="text" name="username"><br><br>
+    密码: <input type="password" name="password"><br><br>
+    性别:
+    <input type="radio" name="gender" value="男">男
+    <input type="radio" name="gender" value="女">女<br><br>
+    爱好:
+    <input type="checkbox" name="hobby" value="java">java
+    <input type="checkbox" name="hobby" value="c">c
+    <input type="checkbox" name="hobby" value="python">python<br><br>
+    图像: <input type="file" name="image"><br><br>
+    生日: <input type="date" name="birthday"><br><br>
+    时间: <input type="time" name="time"><br><br>
+    日期时间: <input type="datetime-local" name="datatime"><br><br>
+    邮箱: <input type="email" name="email"><br><br>
+    年龄: <input type="number" name="age"><br><br>
 
 	<input type="hidden" name="id" value="1">
-	<input type="submit" value="提交">
-	<input type="reset" value="重置">
-	<input type="button" value="按钮">
+    <input type="submit" value="提交">
+    <input type="reset" value="重置">
+    <input type="button" value="按钮">
 </form>
+
+##### 🌑\<select\>
+  - `option` 
+
+```html
+<form action="" method="get">
+    <select name="degree">
+        <option value="0">请选择</option>
+        <option value="1">小学</option>
+        <option value="2">高中</option>
+        <option value="3">大学</option>
+        <option value="4">博士</option>
+    </select><br><br>
+</form>
+```
+<form action="" method="get">
+    <select name="degree">
+        <option value="0">请选择</option>
+        <option value="1">小学</option>
+        <option value="2">高中</option>
+        <option value="3">大学</option>
+        <option value="4">博士</option>
+    </select><br><br>
+</form>
+
+##### 🌑\<textarea\>
+```html
+<form action="" method="get">
+    描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
+</form>
+```
+<form action="" method="get">
+    描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
+</form>
+
+
+
+
+
+
+
 
 
 # 🌕快捷键
