@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
+    },
+    {
+      "basename": "07 异常",
+      "path": "计算机/编程语言/Java/07 异常.md"
+    },
+    {
+      "basename": "SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md"
+    },
+    {
       "basename": "文件上传",
       "path": "计算机/JavaWeb/后端/SpringBoot/文件上传.md"
     },
@@ -9,24 +21,12 @@
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
-      "basename": "07 异常",
-      "path": "计算机/编程语言/Java/07 异常.md"
-    },
-    {
       "basename": "1 HTML 5",
       "path": "计算机/JavaWeb/前端/1 HTML 5.md"
     },
     {
       "basename": "计算机网络2",
       "path": "计算机/四大件/计算机网络2.md"
-    },
-    {
-      "basename": "SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md"
-    },
-    {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "计算机网络 Draw",

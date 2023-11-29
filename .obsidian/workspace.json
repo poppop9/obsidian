@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/文件上传.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -85,14 +85,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/07 异常.md",
+                "file": "临时笔记/穿搭.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -160,8 +161,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "82e190d91877a96e",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/文件上传.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -206,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/文件上传.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/文件上传.md",
+                "file": "临时笔记/穿搭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,14 +239,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "50a8f51d71867af8",
+  "active": "3daf685cd3d4834c",
   "lastOpenFiles": [
-    "Excalidraw/计算机/JavaWeb Draw.md",
-    "计算机/JavaWeb/后端/SpringBoot/文件上传.md",
     "计算机/编程语言/Java/07 异常.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
+    "计算机/JavaWeb/后端/SpringBoot/文件上传.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/1 HTML 5.md",
     "计算机/四大件/计算机网络2.md",
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
     "计算机/JavaWeb/后端/SpringBoot",
     "临时笔记/穿搭.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
