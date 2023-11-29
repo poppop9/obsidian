@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "文件上云",
+      "path": "计算机/JavaWeb/后端/SpringBoot/文件上云.md"
+    },
+    {
       "basename": "SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md"
     },
     {
-      "basename": "文件上云",
-      "path": "计算机/JavaWeb/后端/SpringBoot/文件上云.md"
+      "basename": "MarkDown语法",
+      "path": "临时笔记/MarkDown语法.md"
+    },
+    {
+      "basename": "Obsidian特殊语法",
+      "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
       "basename": "草稿纸",
@@ -73,10 +81,6 @@
       "path": "计算机/编程语言/Java/06 集合.md"
     },
     {
-      "basename": "MarkDown语法",
-      "path": "临时笔记/MarkDown语法.md"
-    },
-    {
       "basename": "Obsidian笔记编写规范",
       "path": "临时笔记/Obsidian笔记编写规范.md"
     },
@@ -91,10 +95,6 @@
     {
       "basename": "MyBatis Draw",
       "path": "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md"
-    },
-    {
-      "basename": "Obsidian特殊语法",
-      "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
       "basename": "🍕美食打分",
