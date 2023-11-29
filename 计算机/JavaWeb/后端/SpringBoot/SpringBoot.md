@@ -1056,7 +1056,15 @@ mybatis.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 >将项目中的参数集中化管理【***如果将参数分散在各个java类中，会导致==查找困难==，而且这种硬编码的方式，==在每次更改参数时都要重新编译项目==***】，然后在java文件中使用 `@Value` 注解来注入配置文件中的值
 
 - 未采用参数配置化
-
+```java
+@RestController
+public class Test {
+	public void test(){
+		String secretId = "AKIDtlYAZjRbefnkT4Siz8Zz";  
+		String secretKey = "IOQKLDty66wcBlDTh";
+	}
+}
+```
 
 
 
