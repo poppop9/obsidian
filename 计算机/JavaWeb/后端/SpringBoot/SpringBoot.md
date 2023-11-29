@@ -1059,12 +1059,28 @@ mybatis.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 ```java
 @RestController
 public class Test {
-	public void test(){
+	public void test() {
 		String secretId = "AKIDtlYAZjRbefnkT4Siz8Zz";  
 		String secretKey = "IOQKLDty66wcBlDTh";
+		String bucketName = "test-1307744200";
+	}
+}
+```
+- 采用参数配置化
+```java
+@RestController
+public class Test {
+	public void test() {
+		@Value()
+		String secretId;
+		String secretKey;
+		String bucketName;
 	}
 }
 ```
 
-
-
+```properties
+String secretId = AKIDtlYAZjRbefnkT4Siz8Zz
+String secretKey = IOQKLDty66wcBlDTh
+String bucketName = test-1307744200
+```
