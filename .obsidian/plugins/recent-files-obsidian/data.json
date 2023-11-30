@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
     },
     {
+      "basename": "MarkDown语法",
+      "path": "临时笔记/MarkDown语法.md"
+    },
+    {
       "basename": "MySQL",
       "path": "计算机/数据库/MySQL.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "1 SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
-    },
-    {
-      "basename": "MarkDown语法",
-      "path": "临时笔记/MarkDown语法.md"
     },
     {
       "basename": "Obsidian特殊语法",
