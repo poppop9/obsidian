@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
     },
     {
+      "basename": "计算机网络2",
+      "path": "计算机/四大件/计算机网络2.md"
+    },
+    {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
     },
@@ -51,10 +55,6 @@
     {
       "basename": "1 HTML 5",
       "path": "计算机/JavaWeb/前端/1 HTML 5.md"
-    },
-    {
-      "basename": "计算机网络2",
-      "path": "计算机/四大件/计算机网络2.md"
     },
     {
       "basename": "计算机网络 Draw",
