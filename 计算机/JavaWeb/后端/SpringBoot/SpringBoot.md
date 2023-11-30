@@ -1052,8 +1052,8 @@ mybatis.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 	}
 	```
 # 🌕配置文件
-##### 🌑properties 配置文件
-###### 🌙参数配置化
+### 🌗properties 配置文件
+##### 🌑参数配置化
 >将项目中的参数集中化管理，然后在java文件中使用 `@Value` 注解来注入配置文件中的值
 
 - 未采用参数配置化
@@ -1093,11 +1093,17 @@ tencent.secretId=AKIDtlYAZjRbefnkT4Siz8Zz
 tencent.secretKey=IOQKLDty66wcBlDTh  
 tencent.bucketName=test-1307744200
 ```
-##### 🌑yml 配置文件
+### 🌗yml 配置文件
 - 大小写敏感
 - 数值前面必须有 `空格` 作为分割符
 - `#` 表示注释
+##### 🌑数据格式
+- 对象 / Map集合
 
+
+
+
+- 数组 / List集合 / Set集合
 
 
 
