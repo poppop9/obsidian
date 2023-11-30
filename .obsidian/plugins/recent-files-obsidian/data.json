@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "3 文件上云",
-      "path": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
-    },
-    {
       "basename": "4 登录认证",
       "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "计算机/数据库/MySQL.md"
+    },
+    {
+      "basename": "3 文件上云",
+      "path": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
     },
     {
       "basename": "2 MyBatis",
@@ -71,10 +75,6 @@
     {
       "basename": "02 Java的理论知识",
       "path": "计算机/编程语言/Java/02 Java的理论知识.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "计算机/数据库/MySQL.md"
     },
     {
       "basename": "前后端开发规范",

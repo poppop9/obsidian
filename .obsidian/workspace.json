@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +60,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/数据库/MySQL.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -195,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
               }
             }
           },
@@ -205,7 +205,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
               }
             }
           },
@@ -215,7 +215,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,6 +240,7 @@
   },
   "active": "50a8f51d71867af8",
   "lastOpenFiles": [
+    "计算机/数据库/MySQL.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
@@ -259,7 +260,6 @@
     "计算机/编程语言/Java/03 Java的基础语法1.md",
     "Excalidraw/计算机/编程语言/Java/Java的基础语法1 Draw.md",
     "计算机/编程语言/Java/02 Java的理论知识.md",
-    "计算机/数据库/MySQL.md",
     "计算机/JavaWeb/前后端开发规范.md",
     "考试/草稿纸.md",
     "临时笔记/文字美学.md",
