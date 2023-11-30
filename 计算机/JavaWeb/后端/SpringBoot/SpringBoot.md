@@ -1109,7 +1109,14 @@ user:
 
 
 - 数组 / List集合 / Set集合
-
+```yml
+style:  
+  - popping  
+  - locking  
+  - breaking  
+  - house  
+  - hip-hop
+```
 
 
 
