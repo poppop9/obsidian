@@ -1106,8 +1106,6 @@ user:
   age: 37
 ```
 
-
-
 - 数组 / List集合 / Set集合
 ```yml
 style:  
@@ -1118,8 +1116,51 @@ style:
   - hip-hop
 ```
 
-
-
+>[!hint] properties 对比 yml
+>>properties
+> ```properties
+> spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+> spring.datasource.url=jdbc:mysql://localhost:3306/mybatis
+> spring.datasource.username=root
+> spring.datasource.password=13433026660
+> 
+> spring.servlet.multipart.max-file-size=10MB
+> spring.servlet.multipart.max-request-size=100MB
+> 
+> mybatis.configuration.map-underscore-to-camel-case=true
+> mybatis.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
+> 
+> tencent.secretId=AKIDtlYAZjgQwiMmzxhDi7RbefnkT4Siz8Zz
+> tencent.secretKey=IOQKLDtOirptnjbN0Tkooqy66wcBlDTh
+> tencent.bucketName=test-1307744200
+> ```
+> >
+> ```yml
+> spring:
+>   #数据库连接信息
+>   datasource:
+>     driver-class-name: com.mysql.cj.jdbc.Driver
+>     url: jdbc:mysql://localhost:3306/mybatis
+>     username: root
+>     password: 13433026660
+>   #文件上传撇配置
+>   servlet:
+>     multipart:
+>       max-file-size: 10MB
+>       max-request-size: 100MB
+> 
+> #mybatis配置
+> mybatis:
+>   configuration:
+>     map-underscore-to-camel-case: true
+>     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+> 
+> #腾讯云对象存储
+> tencent:
+>   secretId: AKIDtlYAZjgQwiMmzxhDi7RbefnkT4Siz8Zz
+>   secretKey: IOQKLDtOirptnjbN0Tkooqy66wcBlDTh
+>   bucketName: test-1307744200
+> ```
 
 
 
