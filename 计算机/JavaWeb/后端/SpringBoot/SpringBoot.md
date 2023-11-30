@@ -1070,15 +1070,17 @@ public class Test {
 ```java
 @RestController
 public class Test {
+	@Value("${tencent.secretId}")
+	String secretId;
+
+	@Value("${tencent.secretKey}")
+	String secretKey;
+
+	@Value("${tencent.bucketName}")
+	String bucketName;
+	
 	public void test() {
-		@Value(${tencent.secretId})
-		String secretId;
-
-		@Value(${tencent.secretKey})
-		String secretKey;
-
-		@Value(${tencent.bucketName})
-		String bucketName;
+		……
 	}
 }
 ```
