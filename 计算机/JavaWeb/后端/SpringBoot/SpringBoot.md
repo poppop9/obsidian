@@ -1144,10 +1144,10 @@ public class Test2 {
 	private Test1 t1;
 
 	public void summart(){
-		t1.getSecretId
-		String secretId;
-		String secretKey;
-		String bucketName;
+		String secretId = t1.getSecretId;
+		String secretKey = t1.getSecretKey;
+		String bucketName = t1.getBucketName;
+		……
 	}
 }
 ```
