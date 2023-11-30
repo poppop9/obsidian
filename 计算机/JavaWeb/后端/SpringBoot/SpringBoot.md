@@ -1115,9 +1115,14 @@ style:
   - house  
   - hip-hop
 ```
+##### 🌑@ConfigurationProperties
+>简化每次注入yml里的数值都要使用 `@Value`注解的麻烦 
+
+
+---
 
 >[!hint] properties 对比 yml
->>properties
+>- properties
 > ```properties
 > spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 > spring.datasource.url=jdbc:mysql://localhost:3306/mybatis
@@ -1134,7 +1139,7 @@ style:
 > tencent.secretKey=IOQKLDtOirptnjbN0Tkooqy66wcBlDTh
 > tencent.bucketName=test-1307744200
 > ```
-> >
+>- yml
 > ```yml
 > spring:
 >   #数据库连接信息
