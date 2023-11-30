@@ -1071,16 +1071,20 @@ public class Test {
 @RestController
 public class Test {
 	public void test() {
-		@Value($secretId)
+		@Value(${tencent.secretId})
 		String secretId;
+
+		@Value(${tencent.secretKey})
 		String secretKey;
+
+		@Value(${tencent.bucketName})
 		String bucketName;
 	}
 }
 ```
 
 ```properties
-String secretId = AKIDtlYAZjRbefnkT4Siz8Zz
-String secretKey = IOQKLDty66wcBlDTh
-String bucketName = test-1307744200
+tencent.secretId=AKIDtlYAZjRbefnkT4Siz8Zz  
+tencent.secretKey=IOQKLDty66wcBlDTh  
+tencent.bucketName=test-1307744200
 ```
