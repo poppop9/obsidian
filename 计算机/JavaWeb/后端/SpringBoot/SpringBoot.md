@@ -1071,7 +1071,6 @@ public class Test {
 
 - 采用参数配置化
 ```java
-@RestController
 public class Test {
 	@Value("${tencent.secretId}")
 	String secretId;
@@ -1116,7 +1115,35 @@ style:
   - hip-hop
 ```
 ##### 🌑@ConfigurationProperties
->简化每次注入yml里的数值都要使用 `@Value`注解的麻烦 
+>使用该注释之后，会自动将配置文件中的值注入到bean对象的简化每次注入yml里的数值都要使用 `@Value`注解 的麻烦 
+
+- `@Data`
+- `@Component`
+- `@ConfigurationProperties`
+
+```properties
+tencent.secretId=AKIDtlYAZjRbefnkT4Siz8Zz  
+tencent.secretKey=IOQKLDty66wcBlDTh  
+tencent.bucketName=test-1307744200
+```
+
+```java
+@Data  //指定变量的get，set方法
+@Component    //将这个类交给IOC容器管理
+@ConfigurationProperties(prefix = "tencent")
+
+public class Test {
+	String secretId;
+	String secretKey;
+	String bucketName;
+	
+	public void test() {
+		……
+	}
+}
+```
+
+
 
 
 ---
