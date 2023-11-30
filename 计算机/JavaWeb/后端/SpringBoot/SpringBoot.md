@@ -1071,7 +1071,7 @@ public class Test {
 @RestController
 public class Test {
 	public void test() {
-		@Value()
+		@Value($secretId)
 		String secretId;
 		String secretKey;
 		String bucketName;
