@@ -1099,7 +1099,12 @@ tencent.bucketName=test-1307744200
 - `#` 表示注释
 ##### 🌑数据格式
 - 对象 / Map集合
-
+```yml
+user:  
+  name: "Ness"  
+  style: "popping style"  
+  age: 37
+```
 
 
 
