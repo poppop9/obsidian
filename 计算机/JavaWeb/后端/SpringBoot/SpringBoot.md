@@ -1115,7 +1115,7 @@ style:
   - hip-hop
 ```
 ##### 🌑@ConfigurationProperties
->使用该注释之后，会自动将配置文件中的值注入到bean对象的简化每次注入yml里的数值都要使用 `@Value`注解 的麻烦 
+>使用该注释之后，会自动将配置文件中的值注入到bean对象对应的属性中去，***简化了每次注入yml里的数值都要使用 ***`@Value` ***的麻烦 ***
 
 - `@Data`
 - `@Component`
@@ -1130,20 +1130,27 @@ tencent.bucketName=test-1307744200
 ```java
 @Data  //指定变量的get，set方法
 @Component    //将这个类交给IOC容器管理
-@ConfigurationProperties(prefix = "tencent")
-
-public class Test {
+@ConfigurationProperties(prefix = "tencent")  //指定属性值的前缀
+public class Test1 {
 	String secretId;
 	String secretKey;
 	String bucketName;
-	
-	public void test() {
-		……
-	}
 }
 ```
 
+```java
+public class Test2 {
+	@Autowired
+	private Test1 t1;
 
+	public void summart(){
+		t1.getSecretId
+		String secretId;
+		String secretKey;
+		String bucketName;
+	}
+}
+```
 
 
 ---
