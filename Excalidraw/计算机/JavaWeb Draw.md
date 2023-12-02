@@ -192,6 +192,10 @@ postHandle ^dmJyWrqZ
 
 afterCompletion ^KPbjmOGW
 
+除了访问/login，
+访问其他路径时必须要在请求头中传递令牌，
+否则请求就会失败 ^MRSOadYv
+
 
 # Embedded files
 b058a56ee0dc39f760fa99ec8b82953ecd6bcb93: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230909160945.png
@@ -10747,8 +10751,8 @@ ed1089ed56150c4183a2e4407891deebc674b084: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 30,
-			"versionNonce": 852490571,
+			"version": 31,
+			"versionNonce": 1785226059,
 			"isDeleted": false,
 			"id": "gri50A3q",
 			"fillStyle": "hachure",
@@ -10764,11 +10768,13 @@ ed1089ed56150c4183a2e4407891deebc674b084: https://obsidian-1307744200.cos.ap-gua
 			"width": 500,
 			"height": 157.38498789346247,
 			"seed": 97296,
-			"groupIds": [],
+			"groupIds": [
+				"jQITCOp3mZW1vUzrm0918"
+			],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1701533679891,
+			"updated": 1701533807985,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -10777,6 +10783,45 @@ ed1089ed56150c4183a2e4407891deebc674b084: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"id": "MRSOadYv",
+			"type": "text",
+			"x": 257.1267657009041,
+			"y": 1624.5550648705594,
+			"width": 247.0399780273437,
+			"height": 44.4849938436673,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#ffec99",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"jQITCOp3mZW1vUzrm0918"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 2031518059,
+			"version": 265,
+			"versionNonce": 423267045,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1701533807985,
+			"link": null,
+			"locked": false,
+			"text": "除了访问/login，\n访问其他路径时必须要在请求头中传递令牌，\n否则请求就会失败",
+			"rawText": "除了访问/login，\n访问其他路径时必须要在请求头中传递令牌，\n否则请求就会失败",
+			"fontSize": 12.356942734352028,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 40,
+			"containerId": null,
+			"originalText": "除了访问/login，\n访问其他路径时必须要在请求头中传递令牌，\n否则请求就会失败",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -10794,10 +10839,10 @@ ed1089ed56150c4183a2e4407891deebc674b084: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 366.6399070692786,
-		"scrollY": -824.0884434716332,
+		"scrollX": 50.97324040261151,
+		"scrollY": -1324.8551060692898,
 		"zoom": {
-			"value": 0.5999999999999996
+			"value": 1
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
