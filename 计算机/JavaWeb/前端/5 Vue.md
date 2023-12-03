@@ -30,7 +30,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 </html>
 ```
 ### 🌗v-model
-为***表单元素***创建双向数据绑定
+> 为***表单元素***创建双向数据绑定
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -63,7 +63,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 文本框里的链接一改变，那么<a>标签里的也会跟着变
 ```
 ### 🌗v-on
-为标签绑定***事件***
+> 为标签绑定***事件***
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -97,7 +97,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 点击按钮就会跳出警告框
 ```
 ### 🌗v-if，v-else if，v-else
-条件性的渲染某元素
+> 条件性的渲染某元素
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -119,6 +119,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
         </p>             //三个span只渲染一个
     </div>
 </body>
+
 <script>
     new Vue({
         el: "div",
