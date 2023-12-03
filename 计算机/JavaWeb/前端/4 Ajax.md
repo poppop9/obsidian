@@ -60,6 +60,7 @@
     <input type="button" value="获取数据" onclick="get()">
     <input type="button" value="提交数据" onclick="post()">
 </body>
+
 <script>
     function get() {
         axios.get("data.json").then(result => {
