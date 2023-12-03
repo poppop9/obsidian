@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
       "basename": "Spring Security",
       "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "13 接口",
       "path": "计算机/编程语言/Java/13 接口.md"
-    },
-    {
-      "basename": "12 泛型",
-      "path": "计算机/编程语言/Java/12 泛型.md"
     }
   ],
   "omittedPaths": [],
