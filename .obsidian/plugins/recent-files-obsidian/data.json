@@ -5,6 +5,14 @@
       "path": "计算机/JavaWeb/前端/5 Vue.md"
     },
     {
+      "basename": "4 Ajax",
+      "path": "计算机/JavaWeb/前端/4 Ajax.md"
+    },
+    {
+      "basename": "3 JavaScript",
+      "path": "计算机/JavaWeb/前端/3 JavaScript.md"
+    },
+    {
       "basename": "1 HTML 5",
       "path": "计算机/JavaWeb/前端/1 HTML 5.md"
     },
@@ -149,10 +157,6 @@
       "path": "计算机/JavaWeb/前端/2 CSS.md"
     },
     {
-      "basename": "4 Ajax",
-      "path": "计算机/JavaWeb/前端/4 Ajax.md"
-    },
-    {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "01 idea",
       "path": "计算机/编程语言/Java/01 idea.md"
-    },
-    {
-      "basename": "操作系统 Draw",
-      "path": "Excalidraw/计算机/四大件/操作系统 Draw.md"
     }
   ],
   "omittedPaths": [],
