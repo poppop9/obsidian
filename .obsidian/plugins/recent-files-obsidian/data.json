@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+    },
+    {
+      "basename": "1 HTML 5",
+      "path": "计算机/JavaWeb/前端/1 HTML 5.md"
+    },
+    {
+      "basename": "2 CSS",
+      "path": "计算机/JavaWeb/前端/2 CSS.md"
+    },
+    {
       "basename": "5 Vue",
       "path": "计算机/JavaWeb/前端/5 Vue.md"
     },
@@ -17,16 +29,8 @@
       "path": "计算机/JavaWeb/前端/3 JavaScript.md"
     },
     {
-      "basename": "1 HTML 5",
-      "path": "计算机/JavaWeb/前端/1 HTML 5.md"
-    },
-    {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
     {
       "basename": "4 登录认证",
@@ -155,10 +159,6 @@
     {
       "basename": "移动互联",
       "path": "考试/移动互联.md"
-    },
-    {
-      "basename": "2 CSS",
-      "path": "计算机/JavaWeb/前端/2 CSS.md"
     },
     {
       "basename": "Maven",
