@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/5 Vue.md",
+                "file": "计算机/JavaWeb/前端/1 HTML 5.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/5 Vue.md"
+                "file": "计算机/JavaWeb/前端/1 HTML 5.md"
               }
             }
           },
@@ -206,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/5 Vue.md"
+                "file": "计算机/JavaWeb/前端/1 HTML 5.md"
               }
             }
           },
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/5 Vue.md",
+                "file": "计算机/JavaWeb/前端/1 HTML 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,6 +241,7 @@
   },
   "active": "3daf685cd3d4834c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/5 Vue.md",
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
@@ -267,7 +268,6 @@
     "临时笔记/文字美学.md",
     "计算机/编程语言/Java/06 集合.md",
     "Excalidraw/杂/草稿纸 Draw.md",
-    "💻计算机/数据库/MyBatis.md",
     "Excalidraw/计算机/编程语言/数据库",
     "计算机/JavaWeb/后端",
     "计算机/JavaWeb/前端",
