@@ -20,7 +20,7 @@
 >
 >***responseText***	以字符串形式返回响应数据
 # 🌕Axios
-Axios 对原生的 Ajax 进行了封装，简化了书写
+> Axios 对原生的 Ajax 进行了封装，简化了书写
 ### 🌗安装Axios
 ##### 🌑在Vue项目中使用Axios
 - 在项目目录下的cmd输入`npm install axios`
