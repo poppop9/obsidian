@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+    },
+    {
+      "basename": "1 HTML 5",
+      "path": "计算机/JavaWeb/前端/1 HTML 5.md"
+    },
+    {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
@@ -21,10 +29,6 @@
       "path": "计算机/Docker.md"
     },
     {
-      "basename": "1 HTML 5",
-      "path": "计算机/JavaWeb/前端/1 HTML 5.md"
-    },
-    {
       "basename": "Spring Security",
       "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "3 JavaScript",
       "path": "计算机/JavaWeb/前端/3 JavaScript.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
     {
       "basename": "2 CSS",
