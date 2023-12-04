@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
       "basename": "MYSQL安装配置",
       "path": "计算机/数据库/MYSQL安装配置.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Docker Draw",
       "path": "Excalidraw/计算机/Docker Draw.md"
-    },
-    {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "Docker",

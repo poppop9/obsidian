@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MYSQL安装配置.md",
+                "file": "计算机/JavaWeb/后端/Maven.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/MYSQL安装配置.md"
+                "file": "计算机/JavaWeb/后端/Maven.md"
               }
             }
           },
@@ -219,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/MYSQL安装配置.md"
+                "file": "计算机/JavaWeb/后端/Maven.md"
               }
             }
           },
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/数据库/MYSQL安装配置.md",
+                "file": "计算机/JavaWeb/后端/Maven.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,6 +254,7 @@
   },
   "active": "c40ca0d3443785f4",
   "lastOpenFiles": [
+    "计算机/数据库/MYSQL安装配置.md",
     "计算机/数据库/MySQL.md",
     "Excalidraw/计算机/Docker Draw.md",
     "计算机/JavaWeb/后端/Maven.md",
@@ -280,7 +281,6 @@
     "临时笔记/临时.md",
     "计算机/编程语言/Java/07 异常.md",
     "计算机/JavaWeb/后端/SpringBoot",
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "Excalidraw/计算机/编程语言/数据库",
     "计算机/JavaWeb/后端",
     "计算机/JavaWeb/前端",
