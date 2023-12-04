@@ -79,3 +79,7 @@ default-character-set=utf8mb4
 就先删除该服务（使用以下代码）
 `sc delete mysql`
 然后在执行mysqld --install mysql
+
+
+
+2023-12-04T11:55:04.849922Z 6 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: srvddqgtr9/X
