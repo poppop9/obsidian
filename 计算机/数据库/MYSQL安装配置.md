@@ -80,6 +80,15 @@ default-character-set=utf8mb4
 `sc delete mysql`
 然后在执行mysqld --install mysql
 
+##### 🌑cmd运行net start mysql发生系统错误193 *** 不是有效的 Win32 应用程序。
+报错：
+发生系统错误193 *** 不是有效的 Win32 应用程序。
+
+删除bin目录下0KB的mysqld文件
+
+启动成功！
+
+---
 
 
 2023-12-04T11:55:04.849922Z 6 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: srvddqgtr9/X
