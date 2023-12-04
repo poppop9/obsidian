@@ -10,7 +10,7 @@
 		   | Default: ${user.home}/.m2/repository
 		  <localRepository>/path/to/local/repo</localRepository>
 		  -->
-		  <localRepository>D:\apache-maven-3.8.8\mvn_repo</localRepository> //添加这行
+		  <localRepository>D:\apache-maven-3.9.6\mvn_repo</localRepository>
 		```
 - 在`conf`文件夹下的`setting.xml`中配置阿里云私服
 	```xml
