@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
       "basename": "5 Vue",
       "path": "计算机/JavaWeb/前端/5 Vue.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Docker Draw",
       "path": "Excalidraw/计算机/Docker Draw.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "Spring Security",
