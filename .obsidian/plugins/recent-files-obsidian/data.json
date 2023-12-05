@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "5 Vue",
+      "path": "计算机/JavaWeb/前端/5 Vue.md"
+    },
+    {
+      "basename": "4 Ajax",
+      "path": "计算机/JavaWeb/前端/4 Ajax.md"
+    },
+    {
+      "basename": "2 CSS",
+      "path": "计算机/JavaWeb/前端/2 CSS.md"
+    },
+    {
+      "basename": "1 HTML 5",
+      "path": "计算机/JavaWeb/前端/1 HTML 5.md"
+    },
+    {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
@@ -17,10 +33,6 @@
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
     {
-      "basename": "1 HTML 5",
-      "path": "计算机/JavaWeb/前端/1 HTML 5.md"
-    },
-    {
       "basename": "Docker Draw",
       "path": "Excalidraw/计算机/Docker Draw.md"
     },
@@ -33,20 +45,8 @@
       "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
     {
-      "basename": "4 Ajax",
-      "path": "计算机/JavaWeb/前端/4 Ajax.md"
-    },
-    {
-      "basename": "5 Vue",
-      "path": "计算机/JavaWeb/前端/5 Vue.md"
-    },
-    {
       "basename": "3 JavaScript",
       "path": "计算机/JavaWeb/前端/3 JavaScript.md"
-    },
-    {
-      "basename": "2 CSS",
-      "path": "计算机/JavaWeb/前端/2 CSS.md"
     },
     {
       "basename": "6 Element组件库",
