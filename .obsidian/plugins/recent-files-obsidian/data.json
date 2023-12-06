@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian特殊语法",
+      "path": "临时笔记/Obsidian特殊语法.md"
+    },
+    {
+      "basename": "MYSQL安装配置",
+      "path": "计算机/数据库/MYSQL安装配置.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
-      "basename": "MYSQL安装配置",
-      "path": "计算机/数据库/MYSQL安装配置.md"
     },
     {
       "basename": "MySQL",
@@ -75,10 +79,6 @@
     {
       "basename": "计算机网络2",
       "path": "计算机/四大件/计算机网络2.md"
-    },
-    {
-      "basename": "Obsidian特殊语法",
-      "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
       "basename": "Obsidian笔记编写规范",
