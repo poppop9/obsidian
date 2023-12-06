@@ -14,9 +14,11 @@
 
 
 
+在Linux上安装Docker Desktop后，默认会在启动时创建一个虚拟机（VM），并使用一个名为"desktop-linux"的自定义Docker上下文。这个虚拟机是在Docker Desktop中运行的，而不是直接在Linux的Docker引擎上。
 
+由于Docker Desktop在虚拟机中运行，所以在安装Docker Desktop之前在Linux的Docker引擎上部署的镜像和容器是不可用的。这是因为Docker Desktop和Linux的Docker引擎是独立的，它们有各自的镜像和容器存储。因此，你需要重新在Docker Desktop中部署你的镜像和容器，它们不会直接从Linux的Docker引擎中导入或复制过来。
 
-
+<u>Linux的Docker Engine上部署的镜像和容器</u>与<u>Linux上安装的Docker Desktop里部署的镜像和容器</u>是独立的
 
 
 
