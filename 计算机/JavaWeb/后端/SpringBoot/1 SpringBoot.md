@@ -864,7 +864,17 @@ public class Test2 {
 	}
 	```
 # 🌕异常处理
+```java
+package com.example.exception;
 
+@RestControllerAdvice  //表示这是一个全局异常处理器
+public class GlobalExceptionHandle {
+    @ExceptionHandler(Exception.class)  //Exception.class表示要捕获所有的异常
+    public Result ex(Exception ex) {
+        return Result.buildResult(Result.Status.UNAUTHORIZED, "禁止访问", "http://localhost:7000/Exception#/Exception");
+    }
+}
+```
 
 
 
