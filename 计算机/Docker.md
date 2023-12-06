@@ -18,9 +18,7 @@
 
 由于Docker Desktop在虚拟机中运行，所以在安装Docker Desktop之前在Linux的Docker引擎上部署的镜像和容器是不可用的。这是因为Docker Desktop和Linux的Docker引擎是独立的，它们有各自的镜像和容器存储。因此，你需要重新在Docker Desktop中部署你的镜像和容器，它们不会直接从Linux的Docker引擎中导入或复制过来。
 
-Linux上安装的Docker Desktop会在这个Linux的基础上创建yi'ge
-
-<u>Linux的Docker Engine上部署的镜像和容器</u>与<u>Linux上安装的Docker Desktop里部署的镜像和容器</u>是独立的
+Linux上安装的Docker Desktop会在这个Linux的基础上创建一个虚拟机，这个虚拟机是在Docker Desktop中运行的，而不是直接在Linux的Docker引擎上。所以<u>Linux的Docker Engine上部署的镜像和容器</u>与<u>Linux上安装的Docker Desktop里部署的镜像和容器</u>是独立的
 
 
 
