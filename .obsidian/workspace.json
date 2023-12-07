@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -219,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "计算机/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,10 +252,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fb289d977ec54f75",
+  "active": "84ca075ee97f849c",
   "lastOpenFiles": [
-    "临时笔记/🌏旅行.md",
     "临时笔记/草稿纸.md",
+    "临时笔记/🌏旅行.md",
     "计算机/Docker.md",
     "科技美学/软件.md",
     "考试/JSP复习.md",

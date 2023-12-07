@@ -17,9 +17,7 @@
 
 Linux上安装的Docker Desktop会在这个Linux的基础上创建一个虚拟机，这个虚拟机是在Docker Desktop中运行的，而不是直接在Linux的Docker引擎上。所以<u>Linux的Docker Engine上部署的镜像和容器</u>与<u>Linux上安装的Docker Desktop里部署的镜像和容器</u>是独立的
 
-
-
-
+Docker Desktop只允许在本机上运行，不允许在虚拟机中运行
 
 
 
