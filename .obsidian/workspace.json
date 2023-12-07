@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "临时笔记/🌏旅行.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "临时笔记/🌏旅行.md"
               }
             }
           },
@@ -219,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "临时笔记/🌏旅行.md"
               }
             }
           },
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "临时笔记/🌏旅行.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,6 +254,8 @@
   },
   "active": "fb289d977ec54f75",
   "lastOpenFiles": [
+    "临时笔记/草稿纸.md",
+    "临时笔记/🌏旅行.md",
     "计算机/Docker.md",
     "科技美学/软件.md",
     "考试/JSP复习.md",
@@ -273,13 +275,11 @@
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
-    "临时笔记/草稿纸.md",
     "计算机/四大件/计算机网络2.md",
     "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/MarkDown语法.md",
     "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
-    "临时笔记/临时.md",
     "计算机/JavaWeb/后端/SpringBoot",
     "Excalidraw/计算机/编程语言/数据库",
     "计算机/JavaWeb/后端",
