@@ -98,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/🌏旅行.md",
+                "file": "临时笔记/草稿纸.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -209,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/🌏旅行.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -219,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/🌏旅行.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -229,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/🌏旅行.md",
+                "file": "临时笔记/草稿纸.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -254,8 +254,8 @@
   },
   "active": "fb289d977ec54f75",
   "lastOpenFiles": [
-    "临时笔记/草稿纸.md",
     "临时笔记/🌏旅行.md",
+    "临时笔记/草稿纸.md",
     "计算机/Docker.md",
     "科技美学/软件.md",
     "考试/JSP复习.md",
