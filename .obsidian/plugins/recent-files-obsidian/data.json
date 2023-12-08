@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
     {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
+      "basename": "Obsidian特殊语法",
+      "path": "临时笔记/Obsidian特殊语法.md"
+    },
+    {
+      "basename": "计算机网络2",
+      "path": "计算机/四大件/计算机网络2.md"
     },
     {
       "basename": "🌏旅行",
@@ -23,10 +31,6 @@
     {
       "basename": "1 SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
-    },
-    {
-      "basename": "Obsidian特殊语法",
-      "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
       "basename": "MYSQL安装配置",
@@ -83,10 +87,6 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "计算机网络2",
-      "path": "计算机/四大件/计算机网络2.md"
     },
     {
       "basename": "Obsidian笔记编写规范",
