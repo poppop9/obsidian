@@ -165,13 +165,13 @@ class SpringBootMyBatisApplicationTests {
 ###### 🌙主键返回
 >在很多时候我们会在插入一条数据之后，再拿到这条数据的id。由于不能简单的通过getId来获取，所以我们要添加***Options注释***
 
-`useGeneratedKeys = true`  表示使用自动生成的主键
+`useGeneratedKeys = true`  表示我们要拿到生成的主键值
 `keyProperty = "id"`  表示将自动生成的主键值映射到`user`对象的`id`属性
 
 ```java
 @Options(useGeneratedKeys = true, keyProperty = "id")    //需要添加这条注释  
 @Insert("INSERT INTO user(name,age,gender,phone) VALUES(#{name},#{age},#{gender},#{phone})") 
-public int InsertOne(user user);
+public void InsertOne(user user);
 ```
 
 ```java
