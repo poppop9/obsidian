@@ -10,19 +10,20 @@
             "type": "tabs",
             "children": [
               {
-                "id": "50a8f51d71867af8",
+                "id": "db49ce6ee1268ec2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "💻计算机/JavaWeb/后端/SpringBoot.md",
-                    "mode": "source",
+                    "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
+                    "mode": "preview",
+                    "backlinks": false,
                     "source": false
                   }
                 }
               },
               {
-                "id": "51b6f93bd6d7e81a",
+                "id": "6c1b8f6fb044e11c",
                 "type": "leaf",
                 "state": {
                   "type": "excalidraw",
@@ -37,14 +38,15 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "💻计算机/四大件/计算机网络2.md",
+                    "file": "计算机/四大件/计算机网络2.md",
                     "mode": "source",
+                    "backlinks": false,
                     "source": false
                   }
                 }
               },
               {
-                "id": "95ba3813b3efd2bf",
+                "id": "944df8a69b6699ee",
                 "type": "leaf",
                 "state": {
                   "type": "excalidraw",
@@ -59,8 +61,9 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "💻计算机/数据库/MySQL.md",
+                    "file": "计算机/数据库/MySQL.md",
                     "mode": "source",
+                    "backlinks": false,
                     "source": false
                   }
                 }
@@ -71,26 +74,41 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "临时笔记/MarkDown语法.md",
+                    "file": "临时笔记/Obsidian特殊语法.md",
                     "mode": "source",
+                    "backlinks": false,
                     "source": false
                   }
                 }
               },
               {
-                "id": "3daf685cd3d4834c",
+                "id": "84ca075ee97f849c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "临时笔记/穿搭.md",
+                    "file": "计算机/Docker.md",
                     "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "fb289d977ec54f75",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "临时笔记/Dance.md",
+                    "mode": "source",
+                    "backlinks": false,
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 7
           }
         ],
         "direction": "vertical"
@@ -120,7 +138,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#问题",
+                    "query": "mounted",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -145,16 +163,6 @@
                   "state": {
                     "sortOrder": "frequency",
                     "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "4c5e1837a102ae59",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency"
                   }
                 }
               }
@@ -193,7 +201,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "💻计算机/四大件/计算机网络2.md"
+                    "file": "临时笔记/Dance.md"
                   }
                 }
               },
@@ -203,7 +211,17 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "💻计算机/四大件/计算机网络2.md"
+                    "file": "临时笔记/Dance.md"
+                  }
+                }
+              },
+              {
+                "id": "4c5e1837a102ae59",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency"
                   }
                 }
               }
@@ -215,16 +233,16 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-excalidraw-plugin:新建绘图文件": false,
           "switcher:打开快速切换": false,
           "graph:查看关系图谱": false,
           "canvas:新建白板": false,
           "workspaces:管理工作区布局": false,
           "command-palette:打开命令面板": false,
-          "remotely-save:Remotely Save": false
+          "remotely-save:Remotely Save": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false
         }
       },
-      "active": "b5263ffa41a34bbc"
+      "active": "59c5ef1e731e284b"
     }
   },
   "active": "默认"

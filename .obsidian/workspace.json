@@ -163,16 +163,6 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "4c5e1837a102ae59",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
           }
         ]
       },
@@ -224,18 +214,17 @@
             }
           },
           {
-            "id": "501f3ff6de457aea",
+            "id": "4c5e1837a102ae59",
             "type": "leaf",
             "state": {
-              "type": "outgoing-link",
+              "type": "all-properties",
               "state": {
-                "file": "临时笔记/Dance.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "sortOrder": "frequency"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -252,7 +241,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fb289d977ec54f75",
+  "active": "4c5e1837a102ae59",
   "lastOpenFiles": [
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/Dance.md",
