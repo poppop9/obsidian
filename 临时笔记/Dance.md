@@ -13,15 +13,37 @@
 
 # 🌕历史
 ### 🌗C Walk
-C Walk元素，一种从帮派文化衍生的特殊脚步。十几年前国内刚流行Hiphop文化时候，C Walk小火过一阵子。
+> C Walk 是一种从帮派文化衍生的特殊脚步
 
+十几年前国内刚流行Hiphop文化时候，C Walk小火过一阵子
 ##### 🌑元素
-Heel-Toe，C Walk中的Step
+- Heel-Toe，C Walk中的Step
+### 🌗Soul Dance / Party Dance
+> Soul Dance 是从20世纪随着Jazz、Soul、Funk【乃至日后的Hiphop】等美国本土各种通俗音乐文化的兴起，***大众在聚会、舞厅等社交场合进行的舞蹈***
+
+这些与音乐紧密结合的自由化、社交化的舞蹈里，诞生了Funky Chicken、Party Machine、The Jerk、Boogaloo等经典舞蹈动作，其中的相当一部分成为了Popping、Locking等街舞舞种的早期灵感来源或者动作元素
+
+比如Funky Chicken直接影响了Locking的发明
+而The Jerk是Popping中Pop技术的灵感来源之一
+
+你可以理解Party Dance是很多街舞舞种和动作的根源和祖师爷。但因为Party Dance的音乐基础已经不属于主流，所以几乎没有谁开始接触街舞时候会直接接触或者学习Party Dance
+
+大部分街舞舞者都是在具备一定舞蹈水平，再深入学习的时候才会慢慢去通过学习Party Dance了解本源，然后进一步提升。
+
+Party Dance特有的那种Chill、Old School的感觉
+
 
 Charleston 是一种很Soul Dance的Step，如果你有兴趣深入了解的话，Soul Dance可是对当今的街舞文化影响非常深远，是一种跳起来很舒服的很Old school的舞。且非常适合party蹦迪
-
 ### 🌗POPPING
-Popping是很要质感的舞种，而质感这种东西是最容易被视频吃掉的【感觉自己Pop练得贼大，一录视频先砍掉一半儿】【Vibration这种连续的震动，如果现场看到的视觉冲击力是100分的话，回来看视频恐怕能有40分就不错了】
+Popping是很要质感的舞种，而***质感这种东西是最容易被视频吃掉的***【感觉自己Pop练得贼大，一录视频先砍掉一半儿】【Vibration这种连续的震动，如果现场看到的视觉冲击力是100分的话，回来看视频恐怕能有40分就不错了】
+
+### 🌗Animation
+Animation当年发明这个动作的人就是照着这种老式黏土电影，模仿那种卡顿效果来的舞蹈风格。
+
+这种Style的具体内容与技术灵感大多都来自各种早期定格动画，后来还有各种科幻片、电子游戏等作品中的人物或形象。
+
+Sinbad（Cyclops） Style非常经典，来自1958年的黏土动画《The 7th Voyage Of Sinbad》里独眼巨人Cyclops的走路行动方式。另外这部电影中还有一个持剑骷髅兵的形象，Skeleton Style就是根据这个来的
+
 
 
 ---
