@@ -195,5 +195,6 @@
   "blue-topaz-theme@@font-weight-h6": "520",
   "blue-topaz-theme@@font-weight-h3": "550",
   "blue-topaz-theme@@print-h1-color@@light": "#000000",
-  "blue-topaz-theme@@print-h1-color@@dark": "#000000"
+  "blue-topaz-theme@@print-h1-color@@dark": "#000000",
+  "blue-topaz-theme@@folder-style-change-options-colorful": "folder-style-change-options-colorful"
 }
