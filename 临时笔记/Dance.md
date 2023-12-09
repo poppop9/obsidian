@@ -12,8 +12,40 @@
 
 
 # 🌕历史
-C Walk元素，一种从帮派文化衍生的特殊脚步。十几年前国内刚流行Hiphop文化时候，C Walk小火过一阵子。Heel-Toe，C Walk中的一种Step
+### 🌗C Walk
+C Walk元素，一种从帮派文化衍生的特殊脚步。十几年前国内刚流行Hiphop文化时候，C Walk小火过一阵子。
 
-一个小重点画出来，【00:45:10】Jawn Ha做的不是什么简单的“街舞脚步”，人家有名字的，叫Charleston，直接音译，查尔斯顿。
+##### 🌑元素
+Heel-Toe，C Walk中的Step
 
-是一种很Soul Dance的Step，如果你有兴趣深入了解的话，Soul Dance可是对当今的街舞文化影响非常深远，是一种跳起来很舒服的很Old school的舞。且非常适合party蹦迪。
+Charleston 是一种很Soul Dance的Step，如果你有兴趣深入了解的话，Soul Dance可是对当今的街舞文化影响非常深远，是一种跳起来很舒服的很Old school的舞。且非常适合party蹦迪
+
+### 🌗POPPING
+Popping是很要质感的舞种，而质感这种东西是最容易被视频吃掉的【感觉自己Pop练得贼大，一录视频先砍掉一半儿】【Vibration这种连续的震动，如果现场看到的视觉冲击力是100分的话，回来看视频恐怕能有40分就不错了】
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
