@@ -105,8 +105,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/Dance.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
               }
             }
           },
@@ -209,7 +208,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/Dance.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
               }
             }
           },
@@ -223,8 +222,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -241,10 +239,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4c5e1837a102ae59",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "临时笔记/Obsidian特殊语法.md",
     "临时笔记/Dance.md",
+    "临时笔记/Obsidian特殊语法.md",
     "计算机/Docker.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "临时笔记/草稿纸.md",
