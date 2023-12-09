@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -98,14 +98,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "临时笔记/Dance.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -208,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+                "file": "临时笔记/Dance.md"
               }
             }
           },
@@ -218,7 +219,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+                "file": "临时笔记/Dance.md"
               }
             }
           },
@@ -228,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
+                "file": "临时笔记/Dance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,11 +252,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "fb289d977ec54f75",
   "lastOpenFiles": [
-    "临时笔记/草稿纸.md",
-    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/Docker.md",
+    "临时笔记/Dance.md",
+    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
+    "临时笔记/草稿纸.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/Obsidian特殊语法.md",
     "计算机/四大件/计算机网络2.md",
     "临时笔记/🌏旅行.md",
@@ -274,11 +277,9 @@
     "计算机/JavaWeb/前端/6 Element组件库.md",
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
-    "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/MarkDown语法.md",
     "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
-    "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot",
     "Excalidraw/计算机/编程语言/数据库",
     "计算机/JavaWeb/后端",
