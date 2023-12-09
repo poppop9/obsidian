@@ -98,14 +98,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/Dance.md",
+                "file": "临时笔记/穿搭.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -198,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -208,7 +209,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -239,12 +240,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "fb289d977ec54f75",
   "lastOpenFiles": [
     "临时笔记/Dance.md",
+    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "临时笔记/Obsidian特殊语法.md",
     "计算机/Docker.md",
-    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "临时笔记/草稿纸.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/四大件/计算机网络2.md",
