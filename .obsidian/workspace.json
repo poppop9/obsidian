@@ -11,9 +11,12 @@
             "id": "db49ce6ee1268ec2",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/杂/草稿纸 Draw.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -93,12 +96,9 @@
             "id": "fb289d977ec54f75",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "临时笔记/草稿纸.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           }
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -206,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -226,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "Excalidraw/杂/草稿纸 Draw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,6 +251,8 @@
   },
   "active": "fb289d977ec54f75",
   "lastOpenFiles": [
+    "临时笔记/草稿纸.md",
+    "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "Excalidraw/杂/草稿纸 Draw.md",
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",
@@ -260,10 +262,8 @@
     "图片库/Pasted Image 20231210110016_042.png",
     "图片库/Pasted Image 20231210105539_665.png",
     "图片库/Pasted Image 20231210105213_103.png",
-    "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
-    "临时笔记/草稿纸.md",
     "临时笔记/穿搭.md",
     "临时笔记/Dance.md",
     "临时笔记/Obsidian特殊语法.md",
