@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Docker.md",
+                "file": "临时笔记/草稿纸.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -103,7 +103,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -196,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/杂/草稿纸 Draw.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -206,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/杂/草稿纸 Draw.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -226,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/杂/草稿纸 Draw.md",
+                "file": "临时笔记/草稿纸.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,11 +249,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fb289d977ec54f75",
+  "active": "84ca075ee97f849c",
   "lastOpenFiles": [
+    "计算机/Docker.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
-    "Excalidraw/杂/草稿纸 Draw.md",
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",
     "图片库/Pasted Image 20231210135344_127.png",
@@ -267,7 +268,6 @@
     "临时笔记/穿搭.md",
     "临时笔记/Dance.md",
     "临时笔记/Obsidian特殊语法.md",
-    "计算机/Docker.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/四大件/计算机网络2.md",
     "临时笔记/🌏旅行.md",
