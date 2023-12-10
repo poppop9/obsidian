@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
+                "file": "计算机/JavaWeb/前端/5 Vue.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -102,8 +102,7 @@
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/JavaWeb/前端/5 Vue.md"
               }
             }
           },
@@ -206,7 +205,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/JavaWeb/前端/5 Vue.md"
               }
             }
           },
@@ -226,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "计算机/JavaWeb/前端/5 Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -249,12 +248,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "84ca075ee97f849c",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
+    "临时笔记/草稿纸.md",
     "计算机/Docker.md",
     "Excalidraw/杂/草稿纸 Draw.md",
-    "临时笔记/草稿纸.md",
-    "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",
     "图片库/Pasted Image 20231210135344_127.png",
