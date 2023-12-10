@@ -141,6 +141,18 @@ n ^V3zkL1Po
 •销售和市场推广：通过多种渠道推广和销售产品
 •客户支持：提供及时的技术支持和售后服务 ^fmI360jx
 
+载入文章头部页面 ^iRTktmwK
+
+文章遍历并分页展示 ^OplKfeEW
+
+博主信息描述 ^HJjpFlUe
+
+
+# Embedded files
+6c745419be219774044aad8b67dc019c1ae0f09c: [[Pasted Image 20231210105539_665.png]]
+8fb49023b4e67606e7ed5d5832ec24e011190d6b: [[Pasted Image 20231210110016_042.png]]
+1cde8ea2193c19a292a8a538e6f54c1885aa65bb: [[Pasted Image 20231210110016_058.png]]
+
 %%
 # Drawing
 ```json
@@ -4212,6 +4224,317 @@ n ^V3zkL1Po
 			"locked": false
 		},
 		{
+			"id": "Kn7_mL4Iffy-xH-E65MlK",
+			"type": "image",
+			"x": -24.63163046224389,
+			"y": 611.2136039460868,
+			"width": 855.5183232760733,
+			"height": 470.5350778018403,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"2LGpO8vautQYiOzFtV0zm"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1431164204,
+			"version": 73,
+			"versionNonce": 2076477972,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1702177059482,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "6c745419be219774044aad8b67dc019c1ae0f09c",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "iJ9LouviK-O_-ZHTlPGX5",
+			"type": "rectangle",
+			"x": 104.3913910112473,
+			"y": 684.916652856697,
+			"width": 602.5632030867913,
+			"height": 35.256337141402355,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"2LGpO8vautQYiOzFtV0zm"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 156731564,
+			"version": 87,
+			"versionNonce": 2016399660,
+			"isDeleted": false,
+			"boundElements": [],
+			"updated": 1702177059482,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "iRTktmwK",
+			"type": "text",
+			"x": 624.2222530254273,
+			"y": 725.9822789010879,
+			"width": 160,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"2LGpO8vautQYiOzFtV0zm"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 232600212,
+			"version": 235,
+			"versionNonce": 1079125908,
+			"isDeleted": false,
+			"boundElements": [],
+			"updated": 1702177059482,
+			"link": null,
+			"locked": false,
+			"text": "载入文章头部页面",
+			"rawText": "载入文章头部页面",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "载入文章头部页面",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "0IjwJObQ-dRPF7s-e4DoI",
+			"type": "rectangle",
+			"x": 49.5036679999443,
+			"y": 750.6216850941594,
+			"width": 472.755675771502,
+			"height": 298.877734671069,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"2LGpO8vautQYiOzFtV0zm"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1374774420,
+			"version": 59,
+			"versionNonce": 1123339180,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1702177059482,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "OplKfeEW",
+			"type": "text",
+			"x": 18.25370432406686,
+			"y": 1055.709358241344,
+			"width": 180,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"2LGpO8vautQYiOzFtV0zm"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 784379540,
+			"version": 41,
+			"versionNonce": 743445780,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1702177059482,
+			"link": null,
+			"locked": false,
+			"text": "文章遍历并分页展示",
+			"rawText": "文章遍历并分页展示",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "文章遍历并分页展示",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "_fI2d_aUbS4E_PP7qk-fG",
+			"type": "rectangle",
+			"x": 538.8858960509385,
+			"y": 767.4486003682616,
+			"width": 223.55735721004783,
+			"height": 300.48030239714086,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"2LGpO8vautQYiOzFtV0zm"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1364369556,
+			"version": 119,
+			"versionNonce": 272004652,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1702177059482,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "HJjpFlUe",
+			"type": "text",
+			"x": 766.85026101642,
+			"y": 867.6086400344345,
+			"width": 120,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"2LGpO8vautQYiOzFtV0zm"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1943132844,
+			"version": 34,
+			"versionNonce": 221532820,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1702177059482,
+			"link": null,
+			"locked": false,
+			"text": "博主信息描述",
+			"rawText": "博主信息描述",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "博主信息描述",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "9Oo-c9e3X0KPmw1jp7tRO",
+			"type": "image",
+			"x": -87.43579218977257,
+			"y": 1165.0695651374806,
+			"width": 464.89822879985985,
+			"height": 502.4040896598861,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 873142956,
+			"version": 29,
+			"versionNonce": 476811284,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1702177202995,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "8fb49023b4e67606e7ed5d5832ec24e011190d6b",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "ScpeFaFTkZga8-3treS-V",
+			"type": "image",
+			"x": 390.8692091543826,
+			"y": 1375.4350968947374,
+			"width": 655.8003663733148,
+			"height": 69.96900126194436,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 661494548,
+			"version": 147,
+			"versionNonce": 185174292,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1702177214803,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "1cde8ea2193c19a292a8a538e6f54c1885aa65bb",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
 			"id": "xW7oNtC8Hl6fxfTSmGolV",
 			"type": "image",
 			"x": -99.47099682653419,
@@ -4243,12 +4566,64 @@ n ^V3zkL1Po
 				1,
 				1
 			]
+		},
+		{
+			"id": "VDX_fGI1BrqND3yECcjbL",
+			"type": "arrow",
+			"x": 715.768609608906,
+			"y": 712.172483131365,
+			"width": 44.62064477722788,
+			"height": 45.66071088046351,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 349765268,
+			"version": 241,
+			"versionNonce": 1092701716,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1702177000699,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					44.62064477722788,
+					45.66071088046351
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "iJ9LouviK-O_-ZHTlPGX5",
+				"focus": -0.9430147073664528,
+				"gap": 8.81401551086742
+			},
+			"endBinding": {
+				"elementId": "iRTktmwK",
+				"focus": -0.5277275654487619,
+				"gap": 11.418260661022487
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 1,
@@ -4260,10 +4635,10 @@ n ^V3zkL1Po
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 178.90931243581133,
-		"scrollY": -376.5717670371962,
+		"scrollX": 231.12165448999673,
+		"scrollY": -822.6063580098067,
 		"zoom": {
-			"value": 0.7990902649735021
+			"value": 0.7484015511389284
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
