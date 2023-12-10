@@ -102,7 +102,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -195,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/5 Vue.md"
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -205,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/5 Vue.md"
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -225,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/5 Vue.md",
+                "file": "Excalidraw/杂/草稿纸 Draw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,8 +249,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "fb289d977ec54f75",
   "lastOpenFiles": [
+    "图片库/Pasted Image 20231211013829_043.png",
+    "计算机/JavaWeb/前端/5 Vue.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "临时笔记/草稿纸.md",
     "计算机/Docker.md",
@@ -273,7 +276,6 @@
     "科技美学/软件.md",
     "考试/JSP复习.md",
     "计算机/数据库/MYSQL安装配置.md",
-    "计算机/JavaWeb/前端/5 Vue.md",
     "计算机/JavaWeb/前端/4 Ajax.md",
     "计算机/JavaWeb/前端/2 CSS.md",
     "计算机/JavaWeb/前端/1 HTML 5.md",
