@@ -11,12 +11,9 @@
             "id": "db49ce6ee1268ec2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -198,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -208,7 +205,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -228,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
+                "file": "Excalidraw/杂/草稿纸 Draw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,6 +250,9 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "图片库/Pasted Image 20231210105213_103.png",
+    "Excalidraw/杂/草稿纸 Draw.md",
+    "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "临时笔记/草稿纸.md",
@@ -276,9 +276,6 @@
     "计算机/JavaWeb/后端/Spring Security.md",
     "计算机/JavaWeb/前端/3 JavaScript.md",
     "计算机/JavaWeb/前端/6 Element组件库.md",
-    "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
-    "临时笔记/Obsidian笔记编写规范.md",
-    "临时笔记/MarkDown语法.md",
     "计算机/JavaWeb/后端/SpringBoot",
     "Excalidraw/计算机/编程语言/数据库",
     "计算机/JavaWeb/后端",
@@ -299,7 +296,6 @@
     "图片库/屏幕截图 2023-07-03 160404.jpg",
     "图片库/Pasted Image 20230703150223_648.png",
     "图片库/Pasted Image 20230703150138_636.png",
-    "图片库/Pasted image 20230703114703.png",
-    "图片库/Pasted Image 20230703111433_733.png"
+    "图片库/Pasted image 20230703114703.png"
   ]
 }
