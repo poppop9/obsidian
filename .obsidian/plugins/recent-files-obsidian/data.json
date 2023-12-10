@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2 MyBatis",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
+      "basename": "4 登录认证",
+      "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
     },
     {
       "basename": "1 SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+    },
+    {
+      "basename": "2 MyBatis",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
     },
     {
       "basename": "草稿纸",
@@ -91,10 +95,6 @@
     {
       "basename": "6 Element组件库",
       "path": "计算机/JavaWeb/前端/6 Element组件库.md"
-    },
-    {
-      "basename": "4 登录认证",
-      "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
     },
     {
       "basename": "Obsidian笔记编写规范",
