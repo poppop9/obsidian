@@ -98,14 +98,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/4 Ajax.md",
+                "file": "临时笔记/穿搭.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -198,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -208,7 +209,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -228,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
+                "file": "临时笔记/穿搭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,18 +252,19 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "fb289d977ec54f75",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/前端/4 Ajax.md",
+    "临时笔记/草稿纸.md",
+    "临时笔记/Obsidian特殊语法.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
+    "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",
     "计算机/编程语言/Java/02 Java的理论知识.md",
     "计算机/数据库/MySQL.md",
     "Excalidraw/杂/草稿纸 Draw.md",
     "计算机/JavaWeb/前端/6 Element组件库.md",
     "计算机/JavaWeb/前端/5 Vue.md",
-    "临时笔记/草稿纸.md",
     "图片库/Pasted Image 20231211013829_043.png",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/Docker.md",
@@ -276,7 +278,6 @@
     "图片库/Pasted Image 20231210105213_103.png",
     "临时笔记/穿搭.md",
     "临时笔记/Dance.md",
-    "临时笔记/Obsidian特殊语法.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/四大件/计算机网络2.md",
     "临时笔记/🌏旅行.md",
