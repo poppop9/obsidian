@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL.md",
+                "file": "计算机/编程语言/Java/03 Java的基础语法1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -254,8 +254,11 @@
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/4 Ajax.md",
-    "Excalidraw/杂/草稿纸 Draw.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
+    "计算机/编程语言/Java/03 Java的基础语法1.md",
+    "计算机/编程语言/Java/02 Java的理论知识.md",
+    "计算机/数据库/MySQL.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
     "计算机/JavaWeb/前端/6 Element组件库.md",
     "计算机/JavaWeb/前端/5 Vue.md",
     "临时笔记/草稿纸.md",
@@ -283,10 +286,8 @@
     "计算机/JavaWeb/前端/2 CSS.md",
     "计算机/JavaWeb/前端/1 HTML 5.md",
     "计算机/JavaWeb/后端/Maven.md",
-    "计算机/数据库/MySQL.md",
     "Excalidraw/计算机/Docker Draw.md",
     "计算机/JavaWeb/后端/Spring Security.md",
-    "计算机/JavaWeb/前端/3 JavaScript.md",
     "计算机/JavaWeb/后端/SpringBoot",
     "Excalidraw/计算机/编程语言/数据库",
     "计算机/JavaWeb/后端",
