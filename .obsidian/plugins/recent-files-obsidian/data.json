@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+    },
+    {
       "basename": "4 Ajax",
       "path": "计算机/JavaWeb/前端/4 Ajax.md"
+    },
+    {
+      "basename": "草稿纸 Draw",
+      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "6 Element组件库",
@@ -11,10 +19,6 @@
     {
       "basename": "5 Vue",
       "path": "计算机/JavaWeb/前端/5 Vue.md"
-    },
-    {
-      "basename": "草稿纸 Draw",
-      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "草稿纸",
@@ -27,10 +31,6 @@
     {
       "basename": "Docker",
       "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
     {
       "basename": "2 MyBatis",
