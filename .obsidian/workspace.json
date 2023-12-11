@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
               }
             }
           },
@@ -208,7 +208,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
               }
             }
           },
@@ -228,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -253,8 +253,9 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
+    "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/前端/4 Ajax.md",
+    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",
     "计算机/编程语言/Java/02 Java的理论知识.md",
     "计算机/数据库/MySQL.md",
@@ -273,7 +274,6 @@
     "图片库/Pasted Image 20231210110016_042.png",
     "图片库/Pasted Image 20231210105539_665.png",
     "图片库/Pasted Image 20231210105213_103.png",
-    "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "临时笔记/穿搭.md",
     "临时笔记/Dance.md",
     "临时笔记/Obsidian特殊语法.md",
