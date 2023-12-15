@@ -91,4 +91,9 @@ default-character-set=utf8mb4
 ---
 
 
-2023-12-04T11:55:04.849922Z 6 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: srvddqgtr9/X
+
+2023-12-12T14:25:33.956603Z 0 [System] [MY-013169] [Server] D:\mysql-8.0.34-winx64\bin\mysqld.exe (mysqld 8.0.34) initializing of server in progress as process 8860
+2023-12-12T14:25:33.959149Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
+2023-12-12T14:25:33.959168Z 0 [ERROR] [MY-013236] [Server] The designated data directory D:\mysql-8.0.34-winx64\data\ is unusable. You can remove all files that the server added to it.
+2023-12-12T14:25:33.961599Z 0 [ERROR] [MY-010119] [Server] Aborting
+2023-12-12T14:25:33.961849Z 0 [System] [MY-010910] [Server] D:\mysql-8.0.34-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.34)  MySQL Community Server - GPL.

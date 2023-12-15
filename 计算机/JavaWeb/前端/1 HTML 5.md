@@ -29,7 +29,6 @@
 </head>
 </html>
 ```
-
 # 🌕常用标签
 ### 🌗注释
 `<!--注释内容-->`
@@ -290,12 +289,6 @@
 <form action="" method="get">
     描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
 </form>
-
-
-
-
-
-
 
 
 

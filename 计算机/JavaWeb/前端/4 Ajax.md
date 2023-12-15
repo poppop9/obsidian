@@ -23,21 +23,42 @@
 > Axios 对原生的 Ajax 进行了封装，简化了书写
 ### 🌗安装Axios
 ##### 🌑在Vue项目中使用Axios
-- 在项目目录下的cmd输入`npm install axios`
-- 需要Axios时，在`script标签`中导入`import axios from 'axios'`
-- 然后就可以在`script标签`中使用axios了
+- 在项目目录下的cmd输入 `npm install axios`
+- 需要Axios时，在 `script标签` 中导入 `import axios from 'axios'`
+- 然后就可以在 `script标签` 中使用axios了
 ##### 🌑在HTML文件中使用Axios
-- 在`head标签`中导入`axios.js`文件
+- 在 `head标签` 中导入 `axios.js` 文件
 	```html
 	<head>
 	    <script src="JS/axios.js"></script>         <!--引入axios.js文件-->
 	</head>
 	```
-- 然后就可以在`script标签`中使用axios了
+- 然后就可以在 `script标签` 中使用axios了
 ### 🌗方法
 
 ##### 🌑get请求
-![[JavaWeb Draw#^group=MCFLFBbf|600]]
+```js
+// 向指定ID的用户发起请求
+axios.get('/user?ID=12345')
+	.then(result => {       // 处理成功情况
+		console.log(response);
+	})
+	.catch(function (error) {         // 处理错误情况
+		console.log(error);
+	})
+	.finally(function () {         // 总是会执行
+		……
+	});
+```
+
+```js
+//get带参数的另一种写法
+axios.get('/user', {
+    params: {
+      ID: 12345
+    }
+  }).……
+```
 ##### 🌑post请求
 ![[JavaWeb Draw#^group=jnhZ6xju|600]]
 ##### 🌑delete

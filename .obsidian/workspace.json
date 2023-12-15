@@ -13,20 +13,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/前端/2 CSS.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "6c1b8f6fb044e11c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
               }
             }
           },
@@ -40,16 +30,6 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "944df8a69b6699ee",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
               }
             }
           },
@@ -93,20 +73,29 @@
             }
           },
           {
+            "id": "73a54f31f8d948c8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
+              }
+            }
+          },
+          {
             "id": "fb289d977ec54f75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "临时笔记/Obsidian特殊语法.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -136,7 +125,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mounted",
+                "query": "tag:计算机/JavaWeb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +153,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "82e190d91877a96e",
@@ -199,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "计算机/JavaWeb/前端/2 CSS.md"
               }
             }
           },
@@ -209,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "计算机/JavaWeb/前端/2 CSS.md"
               }
             }
           },
@@ -229,7 +219,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "计算机/JavaWeb/前端/2 CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +229,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 273.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,22 +242,35 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "fb289d977ec54f75",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/4 Ajax.md",
-    "临时笔记/草稿纸.md",
     "临时笔记/Obsidian特殊语法.md",
+    "计算机/JavaWeb/前端/2 CSS.md",
+    "临时笔记/Dance.md",
+    "计算机/四大件/计算机网络2.md",
+    "计算机/JavaWeb/前端/1 HTML 5.md",
+    "计算机/JavaWeb/前端/3 JavaScript.md",
+    "计算机/JavaWeb/前端/4 Ajax.md",
+    "未命名.md",
+    "临时笔记/草稿纸.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
+    "计算机/JavaWeb/前端/0 VSCode.md",
+    "计算机/编程语言/Java/01 idea.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
+    "计算机/编程语言/Java/03 Java的基础语法1.md",
+    "计算机/编程语言/Java/06 集合.md",
+    "计算机/编程语言/Java/08 常用API.md",
+    "计算机/JavaWeb/前端/5 Vue.md",
+    "科技美学/软件.md",
+    "临时笔记/穿搭.md",
+    "计算机/数据库/MYSQL安装配置.md",
+    "计算机/编程语言/Java/配置.md",
+    "计算机/数据库/MySQL.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
-    "计算机/编程语言/Java/03 Java的基础语法1.md",
     "计算机/编程语言/Java/02 Java的理论知识.md",
-    "计算机/数据库/MySQL.md",
-    "Excalidraw/杂/草稿纸 Draw.md",
     "计算机/JavaWeb/前端/6 Element组件库.md",
-    "计算机/JavaWeb/前端/5 Vue.md",
     "图片库/Pasted Image 20231211013829_043.png",
-    "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
-    "计算机/Docker.md",
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",
     "图片库/Pasted Image 20231210135344_127.png",
@@ -276,19 +279,6 @@
     "图片库/Pasted Image 20231210110016_042.png",
     "图片库/Pasted Image 20231210105539_665.png",
     "图片库/Pasted Image 20231210105213_103.png",
-    "临时笔记/穿搭.md",
-    "临时笔记/Dance.md",
-    "Excalidraw/计算机/JavaWeb Draw.md",
-    "计算机/四大件/计算机网络2.md",
-    "临时笔记/🌏旅行.md",
-    "科技美学/软件.md",
-    "考试/JSP复习.md",
-    "计算机/数据库/MYSQL安装配置.md",
-    "计算机/JavaWeb/前端/2 CSS.md",
-    "计算机/JavaWeb/前端/1 HTML 5.md",
-    "计算机/JavaWeb/后端/Maven.md",
-    "Excalidraw/计算机/Docker Draw.md",
-    "计算机/JavaWeb/后端/Spring Security.md",
     "计算机/JavaWeb/后端/SpringBoot",
     "Excalidraw/计算机/编程语言/数据库",
     "计算机/JavaWeb/后端",

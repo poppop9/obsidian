@@ -117,7 +117,11 @@ tag:问题
 > 描述问题
 
 >[!hint]
->额外说明，注意事项
+>额外说明，提示
+
+> [!attention] 
+> 注意事项
+
 
 >[!blank | nowrap]
 >![](https://computerhistory.org/wp-content/uploads/2022/09/MS-121-scaled-325x184-c-default.jpg)
@@ -132,8 +136,6 @@ tag:问题
 ![](https://s1.ax1x.com/2022/05/18/OI7Io9.png)
 ![](https://user-images.githubusercontent.com/42957010/184872220-f9b52079-8695-46a7-b517-0588426aa7b5.jpg)
 ![](https://user-images.githubusercontent.com/42957010/165482534-f0ef2dd2-cf3a-4347-b141-e8bbae63566d.png)
-
-> [!attention]
 
 >[!done]
 

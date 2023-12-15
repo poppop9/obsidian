@@ -16,20 +16,21 @@
 ```
 
 # 🌕基础语法
-
+---
+$$
+JavaScript不分单双引号
+$$
+---
 ### 🌗注释，流程控制语句
 与Java相同
 ### 🌗输出语句
-- `alert` 
-  ***会在浏览器弹出警告框***
+- `alert`   ***会在浏览器弹出警告框***
   ```js
   alert("hello javascript");
   ```
   ![[JavaWeb Draw#^group=L84gWEf4]]
-- `document.write` 
-  ***会把内容直接写入到浏览器里显示***
-- `console.log` 
-  ***写入浏览器的控制台***
+- `document.write`   ***会把内容直接写入到浏览器里显示***
+- `console.log`   ***写入浏览器的控制台***
 ### 🌗变量
 ##### 🌑var
 ```js
@@ -53,7 +54,7 @@ alert(a);
 }
   ```
 ##### 🌑let
-- ***定义的是局部变量***
+- ***定义的是局部变量***，声明的变量具有块级作用域，它们只在声明它们的代码块内可见，在代码块外部无法访问这些变量
 - 不可以重复声明
 ##### 🌑const
 - 定义常量，不可修改
@@ -289,37 +290,7 @@ location.href = "https://www.baidu.com/";
 ```
 ### 🌗DOM
 当 HTML 文档加载到 Web 浏览器中时，它就变成了一个DOM
-##### 🌑核心DOM
-核心DOM是DOM的通用规范
-- Document 整个文档对象
-- Element 元素对象
-- Attribute 属性对象
-- Text 文本对象
-- Comment 注释对象
-```html
-<html>
-	<head>
-		<title>DOM</title>
-	</head>           <!--注释-->
-	<body>
-		<h1>我是DOM</h1>
-		<a href="https://www.baidu.com/">百度</a>
-	</body>
-</html>
-```
-```mermaid
-graph TB
-	l[/Document整个文档对象\]-->a
-	a[根元素html]-->b[元素head]-->d[元素title]-->e{{文本DOM}}
-	a-->c[元素body]-->f[元素h1]-->h{{文本我是DOMfsd}}
-	c-->g[元素a]-->i{属性href}
-	g-->j{{文本百度}}
-	k((注释))
-```
-##### 🌑XML DOM
-专门用于XML文件的DOM规范
-##### 🌑HTML DOM
-HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装成了一个元素***
+
 >[!summary] 属性
 >innerHTML  设置或返回元素的内容
 
@@ -328,9 +299,21 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 >getElementsByClassName()  返回指定***类名***的Element对象数组
 >getElementsByName()  返回***name属性***的Element对象数组
 >getElementsByTagName()  返回指定***标签名称***的Element对象数组
->
->Element.innerHTML	设置或返回元素的内容
+##### 🌑核心 DOM
+- Document 整个文档对象
+- Element 元素对象
+- Attribute 属性对象
+- Text 文本对象
+- Comment 注释对象
 
+```js
+//document是整个文档对象，调用getElementById方法找到id为demo的Element对象，再调用innerHTML设置这个元素的内容
+document.getElementById("demo").innerHTML = "Hello JavaScript";
+```
+##### 🌑XML DOM
+专门用于XML文件的DOM规范
+##### 🌑HTML DOM
+HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装成了一个元素***
 ###### 🌙HTMLParagraphElement
 ```html
 <body>
