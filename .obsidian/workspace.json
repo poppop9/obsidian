@@ -21,6 +21,16 @@
             }
           },
           {
+            "id": "3ebd335a2f42bb65",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
+              }
+            }
+          },
+          {
             "id": "5150fbe90374fca6",
             "type": "leaf",
             "state": {
@@ -88,7 +98,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/Obsidian特殊语法.md",
+                "file": "临时笔记/草稿纸.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -125,7 +135,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:计算机/JavaWeb",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -153,8 +163,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "82e190d91877a96e",
@@ -244,16 +253,17 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "临时笔记/Obsidian特殊语法.md",
+    "临时笔记/草稿纸.md",
+    "临时笔记/文字美学.md",
     "计算机/JavaWeb/前端/2 CSS.md",
-    "临时笔记/Dance.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/四大件/计算机网络2.md",
+    "临时笔记/Obsidian特殊语法.md",
+    "临时笔记/Dance.md",
     "计算机/JavaWeb/前端/1 HTML 5.md",
     "计算机/JavaWeb/前端/3 JavaScript.md",
     "计算机/JavaWeb/前端/4 Ajax.md",
     "未命名.md",
-    "临时笔记/草稿纸.md",
-    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/0 VSCode.md",
     "计算机/编程语言/Java/01 idea.md",
     "Excalidraw/杂/草稿纸 Draw.md",
@@ -269,7 +279,6 @@
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/编程语言/Java/02 Java的理论知识.md",
-    "计算机/JavaWeb/前端/6 Element组件库.md",
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",

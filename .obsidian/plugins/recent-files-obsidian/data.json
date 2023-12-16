@@ -5,16 +5,28 @@
       "path": "计算机/JavaWeb/前端/2 CSS.md"
     },
     {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
+      "basename": "文字美学",
+      "path": "临时笔记/文字美学.md"
+    },
+    {
+      "basename": "JavaWeb Draw",
+      "path": "Excalidraw/计算机/JavaWeb Draw.md"
+    },
+    {
+      "basename": "计算机网络2",
+      "path": "计算机/四大件/计算机网络2.md"
+    },
+    {
       "basename": "Obsidian特殊语法",
       "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
       "basename": "Dance",
       "path": "临时笔记/Dance.md"
-    },
-    {
-      "basename": "计算机网络2",
-      "path": "计算机/四大件/计算机网络2.md"
     },
     {
       "basename": "1 HTML 5",
@@ -27,14 +39,6 @@
     {
       "basename": "4 Ajax",
       "path": "计算机/JavaWeb/前端/4 Ajax.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
-    },
-    {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
       "basename": "0 VSCode",
@@ -159,10 +163,6 @@
     {
       "basename": "前后端开发规范",
       "path": "计算机/JavaWeb/前后端开发规范.md"
-    },
-    {
-      "basename": "文字美学",
-      "path": "临时笔记/文字美学.md"
     },
     {
       "basename": "微信",
