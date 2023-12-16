@@ -89,7 +89,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -183,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 JavaScript.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -193,7 +194,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 JavaScript.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -213,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 JavaScript.md",
+                "file": "临时笔记/草稿纸.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,10 +237,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "84ca075ee97f849c",
   "lastOpenFiles": [
-    "Excalidraw/计算机/JavaWeb Draw.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
     "计算机/JavaWeb/前端/3 JavaScript.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/草稿纸.md",
     "临时笔记/Dance.md",
     "计算机/JavaWeb/前端/1 HTML 5.md",
@@ -254,7 +256,6 @@
     "未命名.md",
     "计算机/JavaWeb/前端/0 VSCode.md",
     "计算机/编程语言/Java/01 idea.md",
-    "Excalidraw/杂/草稿纸 Draw.md",
     "计算机/编程语言/Java/06 集合.md",
     "计算机/编程语言/Java/08 常用API.md",
     "计算机/JavaWeb/前端/5 Vue.md",

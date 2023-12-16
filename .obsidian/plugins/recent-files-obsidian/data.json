@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
+      "basename": "草稿纸 Draw",
+      "path": "Excalidraw/杂/草稿纸 Draw.md"
+    },
+    {
       "basename": "3 JavaScript",
       "path": "计算机/JavaWeb/前端/3 JavaScript.md"
     },
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
     },
     {
       "basename": "Dance",
@@ -59,10 +63,6 @@
     {
       "basename": "01 idea",
       "path": "计算机/编程语言/Java/01 idea.md"
-    },
-    {
-      "basename": "草稿纸 Draw",
-      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "06 集合",
