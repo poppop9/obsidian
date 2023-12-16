@@ -2,6 +2,7 @@
 
 ### 🌗定义在HTML文件中
 ```html
+<!--一般script标签放置在body标签底部，这样不会被编译，可以改善显示速度-->
 <script>
 	…………
 </script>
@@ -9,9 +10,14 @@
 ***一般放置在\<body\>的底部***
 ### 🌗定义在外部的.js文件中
 ```html
-<script src="demo.js"></script>
+<!--可以引入多个js文件-->
+<script src="demo.js"></script>     <!--相对位置-->
+<script src="demo2.js"></script>
+<script src="https://www.w3school.com.cn/js/myScript1.js"></script>  <!--完整url-->
 ```
+
 ```js
+//不包含script标签
 …………
 ```
 
