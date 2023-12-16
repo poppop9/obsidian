@@ -116,8 +116,6 @@ alert(a);
 	  const x = 3;   
 	}
 	```
-
-
 ### 🌗数据类型
 ```js
     alert(typeof 1);  //number
