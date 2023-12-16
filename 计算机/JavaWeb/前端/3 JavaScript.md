@@ -60,18 +60,11 @@ $$
 ```
 
 >[!attention] 在HTML文档完全加载后，使用 `document.write()` 将清除所有已有的HTML内容
-xai'jian'tou
-```html
-<!DOCTYPE html>
-<html>
-	<body>
-		<h2>我的第一张网页</h2>
-		<p>我的第一个段落</p>
-		<button type="button" onclick="document.write(5 + 6)">清除</button>
-	</body>
-</html>
-```
+> ![[Excalidraw/计算机/JavaWeb Draw.md#^group=zUFg61Zr|600]]
 
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231216213523.png)
+
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231216213523.png)
 
 
 
