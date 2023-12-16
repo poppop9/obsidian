@@ -59,6 +59,24 @@ $$
 11
 ```
 
+>[!attention] 在HTML文档完全加载后，使用 `document.write()` 将清除所有已有的HTML内容
+xai'jian'tou
+```html
+<!DOCTYPE html>
+<html>
+	<body>
+		<h2>我的第一张网页</h2>
+		<p>我的第一个段落</p>
+		<button type="button" onclick="document.write(5 + 6)">清除</button>
+	</body>
+</html>
+```
+
+
+
+
+
+
 ##### 🌑console.log
 >写入浏览器的控制台
 
