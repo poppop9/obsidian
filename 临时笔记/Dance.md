@@ -145,6 +145,14 @@ style:
   - not applicable
   - not specified
 
+---
+
+至于Flexing，也就是你们看了头皮发麻那个撅胳膊的风格，是牙买加本土舞蹈BrukUp在美国的演化形态，被Mr.Wiggles称为雷鬼版Animation。
+
+---
+
+
+
 
 
 
