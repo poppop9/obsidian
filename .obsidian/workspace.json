@@ -105,7 +105,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -198,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/2 CSS.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -208,7 +209,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/2 CSS.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -228,7 +229,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/2 CSS.md",
+                "file": "临时笔记/草稿纸.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -251,11 +252,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "fb289d977ec54f75",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/2 CSS.md",
     "临时笔记/草稿纸.md",
     "临时笔记/文字美学.md",
-    "计算机/JavaWeb/前端/2 CSS.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/四大件/计算机网络2.md",
     "临时笔记/Obsidian特殊语法.md",
