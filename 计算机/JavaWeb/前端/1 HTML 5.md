@@ -298,25 +298,24 @@
 	<head>
 		<title>Google Icons</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">         <!DOCTYPE html>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">         <!--引入谷歌icon库-->
 	</head>
 	<body>
-		<p>一些 Google 图标：</p>
 		<i class="material-icons">cloud</i>
 		<i class="material-icons">favorite</i>
-		<i class="material-icons">attachment</i>
+		<i class="material-icons">attachment</i>   <!--指定class，再指定icon名-->
 		<i class="material-icons">computer</i>
 		<i class="material-icons">traffic</i>
-		<br><br>
-		
-		<p>有样式的 Google 图标（尺寸和颜色）：</p>
+		<br>
+
+		<!--可以通过css更改icon的样式-->
 		<i class="material-icons" style="font-size:24px;">cloud</i>
-		<i class="material-icons" style="font-size:36px;">cloud</i>
 		<i class="material-icons" style="font-size:48px;color:red;">cloud</i>
-		<i class="material-icons" style="font-size:60px;color:lightblue;">cloud</i>
 	</body>
 </html>
 ```
+
+
 
 
 
