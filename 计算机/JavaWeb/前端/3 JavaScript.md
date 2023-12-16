@@ -62,10 +62,6 @@ $$
 >[!attention] 在HTML文档完全加载后，使用 `document.write()` 将清除所有已有的HTML内容
 > ![[Excalidraw/计算机/JavaWeb Draw.md#^group=zUFg61Zr|600]]
 
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231216213523.png)
-
-![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231216213523.png)
-
 
 
 
