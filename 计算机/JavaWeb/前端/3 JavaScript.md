@@ -108,7 +108,14 @@ alert(a);
 	car.color = "White";
 	car.owner = "Bill";
 	```
-
+- 在另外的块中重新声明 `const` 是允许的
+	```js
+	const x = 2;     
+	
+	{
+	  const x = 3;   
+	}
+	```
 
 
 ### 🌗数据类型
