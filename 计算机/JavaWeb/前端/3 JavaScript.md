@@ -29,13 +29,40 @@ $$
 ### 🌗注释，流程控制语句
 与Java相同
 ### 🌗输出
-- `alert`   ***会在浏览器弹出警告框***
+##### 🌑alert
+>在浏览器弹出警告框
+
   ```js
   alert("hello javascript");
   ```
   ![[JavaWeb Draw#^group=L84gWEf4]]
-- `document.write`   ***会把内容直接写入到浏览器里显示***
-- `console.log`   ***写入浏览器的控制台***
+##### 🌑document.write
+>把内容直接写入到浏览器里显示
+
+```html
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>网页</h2>
+</body>
+
+<script>
+    document.write(5 + 6);
+</script>
+
+</html>
+
+---
+网页
+
+11
+```
+
+##### 🌑console.log
+>写入浏览器的控制台
+
+
 ### 🌗变量
 ##### 🌑var
 ```js
