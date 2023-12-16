@@ -483,8 +483,28 @@ h1 {
 - `a:hover`  鼠标悬停时
 - `a:active`  被点击时
 
+>[!attention]  链接的状态属性不是html的属性，所以不能使用行内样式
+
 ```css
-<a :link:>这是一个链接</a>
+/* 未访问过的链接 */
+a:link {
+  color: red;
+}
+
+/* 访问过的链接 */
+a:visited {
+  color: green;
+}
+
+/* 鼠标悬停时 */
+a:hover {
+  color: hotpink;
+}
+
+/* 被点击时 */
+a:active {
+  color: blue;
+}
 ```
 
 
