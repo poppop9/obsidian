@@ -101,8 +101,13 @@ alert(a);
 ##### 🌑const
 - 定义常量，不可修改
 - 其他特点与 `let` 类似
-- `const` 只是无法修改原始值，但是可以修改属性值
-
+- `const` 定义的是一个常量引用，而不是常量值【所以可以修改 `const` 变量的属性值
+	```js
+	const car = {type:"porsche", model:"911", color:"Black"};
+	
+	car.color = "White";
+	car.owner = "Bill";
+	```
 
 
 
