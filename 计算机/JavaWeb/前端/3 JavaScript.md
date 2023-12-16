@@ -63,8 +63,6 @@ $$
 > ![[Excalidraw/计算机/JavaWeb Draw.md#^group=zUFg61Zr|600]]
 ##### 🌑console.log
 >写入浏览器的控制台
-
-
 ### 🌗变量
 ##### 🌑var
 ```js
