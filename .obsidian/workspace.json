@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/1 HTML 5.md",
+                "file": "计算机/JavaWeb/前端/3 JavaScript.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -89,8 +89,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/2 CSS.md"
+                "file": "计算机/JavaWeb/前端/3 JavaScript.md"
               }
             }
           },
@@ -193,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/2 CSS.md"
+                "file": "计算机/JavaWeb/前端/3 JavaScript.md"
               }
             }
           },
@@ -213,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/2 CSS.md",
+                "file": "计算机/JavaWeb/前端/3 JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,12 +235,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "facb55a91e253178",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/1 HTML 5.md",
+    "计算机/JavaWeb/前端/2 CSS.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "().md",
-    "计算机/JavaWeb/前端/2 CSS.md",
     "计算机/四大件/计算机网络2.md",
     "临时笔记/Obsidian特殊语法.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",
