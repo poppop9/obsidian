@@ -27,7 +27,7 @@ JavaScript不分单双引号
 $$
 ---
 ### 🌗注释，流程控制语句
-与Java相同
+>与Java相同
 ### 🌗输出
 ##### 🌑alert
 >在浏览器弹出警告框
@@ -61,11 +61,6 @@ $$
 
 >[!attention] 在HTML文档完全加载后，使用 `document.write()` 将清除所有已有的HTML内容
 > ![[Excalidraw/计算机/JavaWeb Draw.md#^group=zUFg61Zr|600]]
-
-
-
-
-
 ##### 🌑console.log
 >写入浏览器的控制台
 
