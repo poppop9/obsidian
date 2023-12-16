@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "displ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,7 +138,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "82e190d91877a96e",
@@ -226,7 +227,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "facb55a91e253178",
+  "active": "a90c3998237f05b5",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/1 HTML 5.md",
     "计算机/JavaWeb/前端/2 CSS.md",
