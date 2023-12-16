@@ -85,9 +85,19 @@ alert(a);
   var a = "js";
 }
   ```
+- `var` 关键词定义的全局变量属于 window 对象
+	```js
+	var carName = "porsche";
+	// 此处的代码可使用 window.carName
+	```
 ##### 🌑let
 - ***定义的是局部变量***，声明的变量具有块级作用域，它们只在声明它们的代码块内可见，在代码块外部无法访问这些变量
-- 不可以重复声明
+- 在相同的作用域，不可以重复声明
+- `let` 关键词定义的全局变量不属于 window 对象
+	```js
+	let carName = "porsche";
+	// 此处的代码不可使用 window.carName
+	```
 ##### 🌑const
 - 定义常量，不可修改
 ### 🌗数据类型
