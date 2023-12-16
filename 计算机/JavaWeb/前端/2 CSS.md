@@ -485,6 +485,10 @@ h1 {
 
 >[!attention]  链接的状态属性不是html的属性，所以不能使用行内样式
 
+>[!attention] 
+>- a:hover 必须定义在 a:link 和 a:visited 之后，以确保鼠标悬停时的优先级高
+>- a:active 必须定义在 a:hover 之后
+
 ```css
 /* 未访问过的链接 */
 a:link {
