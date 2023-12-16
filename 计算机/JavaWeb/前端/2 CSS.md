@@ -476,7 +476,12 @@ h1 {
 ```
 <p style="text-shadow: 2px 2px 5px red;">文本阴影效果！</p>
 
-
+# 🌕链接
+根据链接处于什么状态来设置链接的不同样式：
+- `a:link`  未访问过的链接
+- `a:visited`  访问过的链接
+- `a:hover`  鼠标悬停时
+- `a:active`  被点击时
 
 
 
