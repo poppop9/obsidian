@@ -120,6 +120,7 @@ alert(a);
 ```js
     alert(typeof 1);  //number
     alert(typeof "1");  //string
+    alert(typeof "["Porsche", "Volvo", "BMW"]");    // 数组
     alert(typeof true);  //boolean
     alert(typeof null);  //object
 
