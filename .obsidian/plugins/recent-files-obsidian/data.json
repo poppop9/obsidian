@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "基础",
-      "path": "计算机/JavaWeb/前端/1 JacaScript/基础.md"
+      "basename": "2 工具对象",
+      "path": "计算机/JavaWeb/前端/JavaScript/2 工具对象.md"
+    },
+    {
+      "basename": "1 基础",
+      "path": "计算机/JavaWeb/前端/JavaScript/1 基础.md"
+    },
+    {
+      "basename": "3 浏览器对象",
+      "path": "计算机/JavaWeb/前端/JavaScript/3 浏览器对象.md"
+    },
+    {
+      "basename": "4 Ajax",
+      "path": "计算机/JavaWeb/前端/4 Ajax.md"
     },
     {
       "basename": "草稿纸",
@@ -21,12 +33,12 @@
       "path": "临时笔记/Dance.md"
     },
     {
-      "basename": "1 HTML 5",
-      "path": "计算机/JavaWeb/前端/1 HTML 5.md"
+      "basename": "2 HTML 5",
+      "path": "计算机/JavaWeb/前端/2 HTML 5.md"
     },
     {
-      "basename": "2 CSS",
-      "path": "计算机/JavaWeb/前端/2 CSS.md"
+      "basename": "3 CSS",
+      "path": "计算机/JavaWeb/前端/3 CSS.md"
     },
     {
       "basename": "()",
@@ -53,12 +65,8 @@
       "path": "临时笔记/文字美学.md"
     },
     {
-      "basename": "3 Ajax",
-      "path": "计算机/JavaWeb/前端/3 Ajax.md"
-    },
-    {
-      "basename": "0 VSCode",
-      "path": "计算机/JavaWeb/前端/0 VSCode.md"
+      "basename": "1 VSCode",
+      "path": "计算机/JavaWeb/前端/1 VSCode.md"
     },
     {
       "basename": "01 idea",
@@ -73,8 +81,8 @@
       "path": "计算机/编程语言/Java/08 常用API.md"
     },
     {
-      "basename": "4 Vue",
-      "path": "计算机/JavaWeb/前端/4 Vue.md"
+      "basename": "5 Vue",
+      "path": "计算机/JavaWeb/前端/5 Vue.md"
     },
     {
       "basename": "穿搭",
@@ -105,8 +113,8 @@
       "path": "计算机/编程语言/Java/02 Java的理论知识.md"
     },
     {
-      "basename": "5 Element组件库",
-      "path": "计算机/JavaWeb/前端/5 Element组件库.md"
+      "basename": "6 Element组件库",
+      "path": "计算机/JavaWeb/前端/6 Element组件库.md"
     },
     {
       "basename": "4 登录认证",
@@ -191,14 +199,6 @@
     {
       "basename": "支付宝购买外区App Store应用",
       "path": "科技美学/支付宝购买外区App Store应用.md"
-    },
-    {
-      "basename": "微信分享浏览器",
-      "path": "科技美学/微信分享浏览器.md"
-    },
-    {
-      "basename": "内网穿透",
-      "path": "科技美学/内网穿透.md"
     }
   ],
   "omittedPaths": [],
