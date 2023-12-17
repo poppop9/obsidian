@@ -117,6 +117,11 @@ alert(a);
 	}
 	```
 ### 🌗数据类型
+---
+$$
+数值，字符串，对象，布尔值
+$$
+---
 ```js
     alert(typeof 1);  //number 数值
     alert(typeof "1");  //string
@@ -126,6 +131,16 @@ alert(a);
 
     var a;
     alert(typeof a);  //undefined（变量未被初始化，则为undefined）
+
+	// 创建对象：
+	var person = {
+	    firstName: "Bill",
+	    lastName : "Gates",
+	    id       : 12345,
+	    fullName : function() {      //fullName
+	       return this.firstName + " " + this.lastName;
+	    }
+	};
 ```
 ##### 🌑类型转换
 ###### 🌙string转number
