@@ -124,6 +124,7 @@ $$
 ---
 ```js
     alert(typeof 1);  //number 数值
+	alert(typeof 9999999999999999n);  //bigint 大数值类型
     alert(typeof "1");  //string
     alert(typeof "["Porsche", "Volvo", "BMW"]");    // object【数组也属于对象】
     alert(typeof true);  //boolean
@@ -150,15 +151,16 @@ JavaScript中，所有数字都以 64位 浮点格式存储，因此 JavaScript 
 ***如果需要表示大数值，可以使用BigInt***
 ```js
 //末尾加n，表示这是BigInt数值类型
-let y = ==9999999999999999n;
+let y = 9999999999999999n;
 
-//还可以diao'yo
+//还可以调用BigInt方法
 let y = BigInt(1234567890123456789012345)
 ```
 
+>[!attention] 除非显示转换，否则 BigInt 不能与其他类型混用
 
-
-
+>[!attention] BigInt不能用于处理小数
+ 
 ##### 🌑数组对象
 - ***数组的长度可变***
 - ***数组里元素的数据类型可以不一样***
