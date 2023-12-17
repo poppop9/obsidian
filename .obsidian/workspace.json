@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 JavaScript.md",
+                "file": "计算机/JavaWeb/前端/1 JacaScript/基础.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 JavaScript.md"
+                "file": "计算机/JavaWeb/前端/1 JacaScript/基础.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 JavaScript.md"
+                "file": "计算机/JavaWeb/前端/1 JacaScript/基础.md"
               }
             }
           },
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 JavaScript.md",
+                "file": "计算机/JavaWeb/前端/1 JacaScript/基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,11 +235,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "b5263ffa41a34bbc",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/1 JacaScript",
     "临时笔记/草稿纸.md",
     "Excalidraw/杂/草稿纸 Draw.md",
-    "计算机/JavaWeb/前端/3 JavaScript.md",
+    "计算机/JavaWeb/前端/1 JacaScript/基础.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/Dance.md",
     "计算机/JavaWeb/前端/1 HTML 5.md",
@@ -250,19 +251,18 @@
     "计算机/编程语言/Java/03 Java的基础语法1.md",
     "科技美学/软件.md",
     "临时笔记/文字美学.md",
-    "计算机/JavaWeb/前端/4 Ajax.md",
+    "计算机/JavaWeb/前端/3 Ajax.md",
     "未命名.md",
     "计算机/JavaWeb/前端/0 VSCode.md",
     "计算机/编程语言/Java/01 idea.md",
     "计算机/编程语言/Java/06 集合.md",
     "计算机/编程语言/Java/08 常用API.md",
-    "计算机/JavaWeb/前端/5 Vue.md",
+    "计算机/JavaWeb/前端/4 Vue.md",
     "临时笔记/穿搭.md",
     "计算机/数据库/MYSQL安装配置.md",
     "计算机/编程语言/Java/配置.md",
     "计算机/数据库/MySQL.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
-    "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",
