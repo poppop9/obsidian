@@ -101,7 +101,7 @@ alert(a);
 ##### 🌑const
 - 定义常量，不可修改
 - 其他特点与 `let` 类似
-- `const` 定义的是一个常量引用，而不是常量值【所以可以修改 `const` 变量的属性值
+- `const` 定义的是一个常量引用，而不是常量值【所以可以修改 `const` 对象的属性值】
 	```js
 	const car = {type:"porsche", model:"911", color:"Black"};
 	
@@ -118,9 +118,9 @@ alert(a);
 	```
 ### 🌗数据类型
 ```js
-    alert(typeof 1);  //number
+    alert(typeof 1);  //number 数值
     alert(typeof "1");  //string
-    alert(typeof "["Porsche", "Volvo", "BMW"]");    // 数组
+    alert(typeof "["Porsche", "Volvo", "BMW"]");    // object【数组也属于对象】
     alert(typeof true);  //boolean
     alert(typeof null);  //object
 
@@ -152,11 +152,6 @@ undefined：均为`false`
 ##### 🌑类型运算符
 `typeof`  返回变量的类型
 `instanceof`  返回 true【如果对象是对象类型的实例】
-
-
-
-
-
 # 🌕函数
 ### 🌗定义函数
 - 无需写返回值，直接在函数体内`return`，如果无需返回值则不写
