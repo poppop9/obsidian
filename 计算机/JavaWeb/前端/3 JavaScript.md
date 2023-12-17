@@ -119,7 +119,7 @@ alert(a);
 ### 🌗数据类型
 ---
 $$
-数值，字符串，对象【数组，Json】，布尔值
+数值，字符串【JSON】，对象【数组，js对象】，布尔值
 $$
 ---
 ```js
@@ -165,11 +165,24 @@ var 对象名 = {
 对象名.属性名;
 对象名.函数名();
 ```
-##### 🌑JSON对象
-> JSON是存储和传输数据的字符串
+##### 🌑JS对象
+> JS对象 不同于 JSON【存储和传输数据的字符串】
+
 
 ```js
+//json
 var jsonstr = '{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}';
+
+//json转js对象
+var obj = JSON.parse(jsonstr);
+console.log(obj.name);
+
+//js对象转json
+var json = JSON.stringify(obj);
+console.log(json);
+
+
+{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}
 ```
 
 
@@ -220,29 +233,10 @@ alert(result);  //30
 # 🌕对象
 ### 🌗JSON
 
-##### 🌑书写格式
-
-##### 🌑JSON转JS对象
-`JS js = JSON.parse(JSON json);`
-```js
-var jsonstr = '{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}';
-var obj = JSON.parse(jsonstr);
-console.log(obj.name);
-
-
-吴彦祖
-```
 ##### 🌑JS对象转JSON
 `JSON json = JSON.stringify(JS js);`
 ```js
-var jsonstr = '{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}';
-var obj = JSON.parse(jsonstr);
 
-var json = JSON.stringify(obj);
-console.log(json);
-
-
-{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}
 ```
 ### 🌗BOM
 > BOM是浏览器对象模型，允许JavaScript与浏览器对话
