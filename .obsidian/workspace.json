@@ -89,7 +89,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -192,7 +193,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -212,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础.md",
+                "file": "临时笔记/草稿纸.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,10 +236,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "84ca075ee97f849c",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/JavaScript/2 工具对象.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础.md",
+    "计算机/JavaWeb/前端/JavaScript/2 工具对象.md",
     "计算机/JavaWeb/前端/JavaScript/3 浏览器对象.md",
     "计算机/JavaWeb/前端/4 Ajax.md",
     "计算机/JavaWeb/前端/JavaScript",
