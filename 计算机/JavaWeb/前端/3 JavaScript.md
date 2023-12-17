@@ -184,22 +184,21 @@ console.log(json);
 吴彦祖
 {"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}
 ```
-
-
-
-
-##### 🌑类型转换
-###### 🌙string转number
+##### 🌑反引号字符串
 ```js
-alert(parseInt("123"));  //123
-alert(parseInt("123A34"));  //123
-alert(parseInt("A123"));  //NaN
+//可以在字符串中同时使用单引号和双引号
+let text = `He's often called "Johnny"`;
+
+//可以对字符串进行插值
+let firstName = "Bill";
+let lastName = "Gates";
+let text = `Welcome ${firstName}, ${lastName}!`;
 ```
-###### 🌙其他类型转Boolean
-number：0和NaN为`false`，其他为`true`
-string：空字符为`false`，其他为`true`
-null：均为`false`
-undefined：均为`false`
+
+
+
+
+
 ### 🌗运算符
 ##### 🌑比较运算符
 `==` 会在比较之前进行类型转换
