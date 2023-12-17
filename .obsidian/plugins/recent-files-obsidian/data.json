@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/前端/JavaScript/4 杂.md"
     },
     {
+      "basename": "3 CSS",
+      "path": "计算机/JavaWeb/前端/3 CSS.md"
+    },
+    {
       "basename": "1 基础",
       "path": "计算机/JavaWeb/前端/JavaScript/1 基础.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "2 HTML 5",
       "path": "计算机/JavaWeb/前端/2 HTML 5.md"
-    },
-    {
-      "basename": "3 CSS",
-      "path": "计算机/JavaWeb/前端/3 CSS.md"
     },
     {
       "basename": "()",
