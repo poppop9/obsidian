@@ -194,11 +194,6 @@ let firstName = "Bill";
 let lastName = "Gates";
 let text = `Welcome ${firstName}, ${lastName}!`;
 ```
-
-
-
-
-
 ### 🌗运算符
 ##### 🌑比较运算符
 `==` 会在比较之前进行类型转换
@@ -212,6 +207,15 @@ let text = `Welcome ${firstName}, ${lastName}!`;
 ##### 🌑类型运算符
 `typeof`  返回变量的类型
 `instanceof`  返回 true【如果对象是对象类型的实例】
+
+>[!hint] 在所有数字运算中，JavaScript 会尝试将字符串转换为数字
+> ```js
+> var x = "100";
+> var y = "10";
+> var z = x / y;       // z 将是 10
+> ```
+> ***在运算符不是 + 的前提下***
+
 # 🌕函数
 ### 🌗定义函数
 - 无需写返回值，直接在函数体内`return`，如果无需返回值则不写
