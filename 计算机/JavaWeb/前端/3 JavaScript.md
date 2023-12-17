@@ -168,7 +168,6 @@ var 对象名 = {
 ##### 🌑JS对象
 > JS对象 不同于 JSON【存储和传输数据的字符串】
 
-
 ```js
 //json
 var jsonstr = '{"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}';
@@ -181,7 +180,8 @@ console.log(obj.name);
 var json = JSON.stringify(obj);
 console.log(json);
 
-
+---
+吴彦祖
 {"name":"吴彦祖","age":48,"isman":true,"works":["新警察故事","环游地球80天"]}
 ```
 
@@ -231,13 +231,6 @@ var result = add(10, 20, 30, 40);
 alert(result);  //30
 ```
 # 🌕对象
-### 🌗JSON
-
-##### 🌑JS对象转JSON
-`JSON json = JSON.stringify(JS js);`
-```js
-
-```
 ### 🌗BOM
 > BOM是浏览器对象模型，允许JavaScript与浏览器对话
 ##### 🌑Window 浏览器窗口对象
@@ -406,9 +399,10 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 
 [object HTMLDivElement]
 ```
-# 🌕事件监听
-事件可以是：按钮被点击了、鼠标移动到某个位置了、按下键盘按键了……
+# 🌕事件
+>事件可以是：按钮被点击了、鼠标移动到某个位置了、按下键盘按键了……
 ### 🌗常见事件
+`onchange`  html元素已被改变
 `onclick` 鼠标单击
 `onblur` 元素失去焦点
 `onfocus` 元素获得焦点
@@ -417,7 +411,6 @@ HTML DOM是专门用于HTML的DOM规范，***其中把每个HTML标签都封装�
 `onkeydown` 按下键盘某个键时
 `onmouseover` 鼠标移到某元素上
 `onmouseout` 鼠标从某元素移开
-
 ### 🌗事件绑定
 ##### 🌑HTML的onclick属性
 ```html
