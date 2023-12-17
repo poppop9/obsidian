@@ -137,7 +137,7 @@ $$
 	    firstName: "Bill",
 	    lastName : "Gates",
 	    id       : 12345,
-	    fullName : function() {      //fullName
+	    fullName : function() {      //fullName属性的值是一个函数
 	       return this.firstName + " " + this.lastName;
 	    }
 	};
