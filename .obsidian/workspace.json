@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
+                "file": "计算机/JavaWeb/前端/5 Vue.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+                "file": "计算机/JavaWeb/前端/5 Vue.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+                "file": "计算机/JavaWeb/前端/5 Vue.md"
               }
             }
           },
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
+                "file": "计算机/JavaWeb/前端/5 Vue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,11 +237,11 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/4 Ajax.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/前端/2 HTML 5.md",
-    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
     "未命名.md",
     "计算机/JavaWeb/前端/JavaScript/6 杂.md",
