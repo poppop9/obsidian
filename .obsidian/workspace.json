@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/4 Ajax.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/4 Ajax.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/4 Ajax.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
               }
             }
           },
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/4 Ajax.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,6 +237,8 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/2 HTML 5.md",
+    "计算机/JavaWeb/前端/4 Ajax.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
@@ -247,12 +249,10 @@
     "计算机/JavaWeb/前端/3 CSS.md",
     "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
     "临时笔记/草稿纸.md",
-    "计算机/JavaWeb/前端/4 Ajax.md",
     "计算机/JavaWeb/前端/JavaScript",
     "Excalidraw/杂/草稿纸 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/Dance.md",
-    "计算机/JavaWeb/前端/2 HTML 5.md",
     "().md",
     "计算机/四大件/计算机网络2.md",
     "临时笔记/Obsidian特殊语法.md",
