@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+    },
+    {
       "basename": "2 基础Ⅱ",
       "path": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md"
     },
@@ -115,10 +119,6 @@
     {
       "basename": "MySQL",
       "path": "计算机/数据库/MySQL.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
     {
       "basename": "2 MyBatis",
