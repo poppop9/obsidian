@@ -1,32 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "1 基础",
-      "path": "计算机/JavaWeb/前端/JavaScript/1 基础.md"
+      "basename": "2 基础Ⅱ",
+      "path": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md"
+    },
+    {
+      "basename": "1 基础Ⅰ",
+      "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
     },
     {
       "basename": "未命名",
       "path": "未命名.md"
     },
     {
-      "basename": "5 杂",
-      "path": "计算机/JavaWeb/前端/JavaScript/5 杂.md"
+      "basename": "6 杂",
+      "path": "计算机/JavaWeb/前端/JavaScript/6 杂.md"
     },
     {
-      "basename": "3 事件",
-      "path": "计算机/JavaWeb/前端/JavaScript/3 事件.md"
+      "basename": "4 事件",
+      "path": "计算机/JavaWeb/前端/JavaScript/4 事件.md"
     },
     {
-      "basename": "4 浏览器对象",
-      "path": "计算机/JavaWeb/前端/JavaScript/4 浏览器对象.md"
+      "basename": "5 浏览器对象",
+      "path": "计算机/JavaWeb/前端/JavaScript/5 浏览器对象.md"
     },
     {
       "basename": "3 CSS",
       "path": "计算机/JavaWeb/前端/3 CSS.md"
     },
     {
-      "basename": "2 工具对象",
-      "path": "计算机/JavaWeb/前端/JavaScript/2 工具对象.md"
+      "basename": "3 工具对象",
+      "path": "计算机/JavaWeb/前端/JavaScript/3 工具对象.md"
     },
     {
       "basename": "草稿纸",
@@ -195,10 +199,6 @@
     {
       "basename": "MyBatis Draw",
       "path": "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md"
-    },
-    {
-      "basename": "🍕美食打分",
-      "path": "临时笔记/🍕美食打分.md"
     }
   ],
   "omittedPaths": [],

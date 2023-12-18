@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础.md",
+                "file": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础.md"
+                "file": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md"
               }
             }
           },
@@ -192,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础.md"
+                "file": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md"
               }
             }
           },
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础.md",
+                "file": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,13 +237,14 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
+    "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
     "未命名.md",
-    "计算机/JavaWeb/前端/JavaScript/1 基础.md",
-    "计算机/JavaWeb/前端/JavaScript/5 杂.md",
-    "计算机/JavaWeb/前端/JavaScript/3 事件.md",
-    "计算机/JavaWeb/前端/JavaScript/4 浏览器对象.md",
+    "计算机/JavaWeb/前端/JavaScript/6 杂.md",
+    "计算机/JavaWeb/前端/JavaScript/4 事件.md",
+    "计算机/JavaWeb/前端/JavaScript/5 浏览器对象.md",
     "计算机/JavaWeb/前端/3 CSS.md",
-    "计算机/JavaWeb/前端/JavaScript/2 工具对象.md",
+    "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/前端/4 Ajax.md",
     "计算机/JavaWeb/前端/JavaScript",
@@ -263,7 +264,6 @@
     "计算机/编程语言/Java/08 常用API.md",
     "计算机/JavaWeb/前端/5 Vue.md",
     "临时笔记/穿搭.md",
-    "计算机/数据库/MYSQL安装配置.md",
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",
