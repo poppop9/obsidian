@@ -33,6 +33,7 @@
 	    <script src="JS/axios.js"></script>         <!--引入axios.js文件-->
 	</head>
 	```
+
 - 然后就可以在 `script标签` 中使用axios了
 ### 🌗方法
 ##### 🌑get请求
