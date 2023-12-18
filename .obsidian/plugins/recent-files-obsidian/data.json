@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/前端/JavaScript/1 基础.md"
     },
     {
+      "basename": "未命名",
+      "path": "未命名.md"
+    },
+    {
       "basename": "5 杂",
       "path": "计算机/JavaWeb/前端/JavaScript/5 杂.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "🍕美食打分",
       "path": "临时笔记/🍕美食打分.md"
-    },
-    {
-      "basename": "权游台词",
-      "path": "临时笔记/权游台词.md"
     }
   ],
   "omittedPaths": [],
