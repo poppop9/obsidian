@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "1 基础Ⅰ",
-      "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
-    },
-    {
-      "basename": "7 杂",
-      "path": "计算机/JavaWeb/前端/JavaScript/7 杂.md"
-    },
-    {
       "basename": "2 基础Ⅱ",
       "path": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md"
     },
     {
+      "basename": "1 基础Ⅰ",
+      "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+    },
+    {
       "basename": "3 工具对象",
       "path": "计算机/JavaWeb/前端/JavaScript/3 工具对象.md"
+    },
+    {
+      "basename": "6 浏览器对象",
+      "path": "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md"
+    },
+    {
+      "basename": "7 杂",
+      "path": "计算机/JavaWeb/前端/JavaScript/7 杂.md"
     },
     {
       "basename": "5 JSON",
@@ -23,10 +27,6 @@
     {
       "basename": "3 CSS",
       "path": "计算机/JavaWeb/前端/3 CSS.md"
-    },
-    {
-      "basename": "6 浏览器对象",
-      "path": "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md"
     },
     {
       "basename": "4 事件",
