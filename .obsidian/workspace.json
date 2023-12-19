@@ -89,8 +89,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
               }
             }
           },
@@ -193,7 +192,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
               }
             }
           },
@@ -213,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,8 +235,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "84ca075ee97f849c",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
@@ -248,7 +248,6 @@
     "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
     "计算机/JavaWeb/前端/3 CSS.md",
     "计算机/JavaWeb/前端/JavaScript/4 事件.md",
-    "临时笔记/草稿纸.md",
     "临时笔记/Obsidian特殊语法.md",
     "计算机/JavaWeb/前端/5 Vue.md",
     "计算机/JavaWeb/前端/4 Ajax.md",
