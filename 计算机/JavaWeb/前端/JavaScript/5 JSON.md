@@ -1,9 +1,12 @@
 JSON 是存储和传输数据的格式
 
+
+
 ```js
-{
-	"employees":[
-	    {"firstName":"Bill", "lastName":"Gates"}, 
+{         // 数据是键值对
+	"age":18,         // 数据之间由逗号分隔
+	"employees":[   // 方括号保存数组
+	    {"firstName":"Bill", "lastName":"Gates"},    // 花括号保存对象
 	    {"firstName":"Steve", "lastName":"Jobs"},
 	    {"firstName":"Alan", "lastName":"Turing"}
 	]
