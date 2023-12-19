@@ -72,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "临时笔记/Obsidian特殊语法.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -89,7 +89,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -182,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/5 JSON.md"
+                "file": "临时笔记/Obsidian特殊语法.md"
               }
             }
           },
@@ -192,7 +193,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/5 JSON.md"
+                "file": "临时笔记/Obsidian特殊语法.md"
               }
             }
           },
@@ -212,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
+                "file": "临时笔记/Obsidian特殊语法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -235,15 +236,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b5263ffa41a34bbc",
+  "active": "84ca075ee97f849c",
   "lastOpenFiles": [
+    "临时笔记/草稿纸.md",
+    "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/JavaScript/7 杂.md",
     "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md",
     "计算机/JavaWeb/前端/JavaScript/4 事件.md",
     "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
     "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
-    "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
     "计算机/JavaWeb/前端/3 CSS.md",
     "计算机/JavaWeb/前端/5 Vue.md",
     "计算机/JavaWeb/前端/4 Ajax.md",
@@ -251,7 +253,6 @@
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/前端/2 HTML 5.md",
     "未命名.md",
-    "临时笔记/草稿纸.md",
     "计算机/JavaWeb/前端/JavaScript",
     "Excalidraw/杂/草稿纸 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",

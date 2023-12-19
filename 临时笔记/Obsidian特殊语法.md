@@ -238,57 +238,6 @@ tag:问题
 |:----|:------------|:-------------|
 |**这是很长的表格内容通过添加nowrap属性实现表格不换行** |这是很长的表格内容看会不会自动换行| 这是很长的表格内容看会不会自动换行  |
 |这是很长的表格内容看会不会自动换行 这是很长的表格内容看会不会自动换行 这是很长的表格内容看会不会自动换行 |这是很长的表格内容看会不会自动换行 这是很长的表格内容看会不会自动换行 这是很长的表格内容看会不会自动换行|
-
-### 🌗Admonition
-##### 🌑自动分栏
-````ad-flex
-title: ◼ 自动ad分栏案例（放在ad框的块自适应分栏）
-collapse: open
-
-```ad-note
-title: 📝 To-Do's 
-- [ ] 健身
-- [ ] 马拉松
-- [ ] ...
-```
-
-```ad-tip
-title: ✅ Done
-- [x] Go 学习
-- [x] 2021 目标
-- [x] ...
-```
-
-```ad-example
-title: ⏳ Doing
-- [ ] 学习
-- [x] 考证
-```
-
-````
-##### 🌑看板
-```ad-kanban
-- **快速导航**
-	- `button-richeng`
-	- `button-kanban`
-	- `button-suibi2`
-	-  `button-renwu2`
-	- 👉日记统计
-- **教程**
-	- [Cuman的B站](https://b23.tv/2Uqt2dn)
-	- 🥑Blue Topaz Themes Tips|🥑 主题TIPS
-	- 魔方配色设置说明|🎲 魔方配色
-	- 分栏效果示例|💶 分栏效果
-	- 伪看板-yaml声明|📊 伪看板
-	- ob提示框(callout)样式展示|🌈Callout效果
-
-- **帮助**
-	- css基础教学|🥏 CSS教学
-	- MarkDown教程 Obsidian版 2022.4.22|📙 Markdown超级教程
-	- [Obsidian中文教程](https://publish.obsidian.md/chinesehelp/README)
-	- Johnny学OB 资料汇总|💾 Johnny学OB
-	- Lillian Who Obsidian新手入门教程| 🥠 Ob新手入门教程系列
-```
 # 🌕插件
 ***Better footnote***  阅读视图时，脚注可以鼠标悬浮显示
 
