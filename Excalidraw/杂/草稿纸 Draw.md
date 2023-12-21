@@ -166,6 +166,7 @@ n ^V3zkL1Po
 
 # Embedded files
 b536ddc1189da41352e01863fe9ecaa48f75e05d: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231221163823.png
+cee47cf13f60baf811092f03a039d95b9afaa667: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231221164819.png
 
 %%
 # Drawing
@@ -5495,6 +5496,39 @@ b536ddc1189da41352e01863fe9ecaa48f75e05d: https://obsidian-1307744200.cos.ap-gua
 			"locked": false,
 			"status": "pending",
 			"fileId": "b536ddc1189da41352e01863fe9ecaa48f75e05d",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"type": "image",
+			"version": 1,
+			"versionNonce": 828767676,
+			"isDeleted": false,
+			"id": "e3pJyKNr",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 291.9619920447965,
+			"y": 1074.893115086329,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500.00000000000006,
+			"height": 214.18873048200953,
+			"seed": 1807,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1703148504074,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "cee47cf13f60baf811092f03a039d95b9afaa667",
 			"scale": [
 				1,
 				1
