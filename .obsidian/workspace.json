@@ -72,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "考试/计网.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "考试/计网.md"
               }
             }
           },
@@ -193,7 +193,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "考试/计网.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "考试/计网.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,6 +238,11 @@
   },
   "active": "84ca075ee97f849c",
   "lastOpenFiles": [
+    "考试/JSP复习.md",
+    "考试/计网.md",
+    "考试/作业2.md",
+    "临时笔记/穿搭.md",
+    "考试/移动互联.md",
     "临时笔记/草稿纸.md",
     "().md",
     "计算机/JavaWeb/前端/3 CSS.md",
@@ -260,11 +265,6 @@
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/Dance.md",
     "计算机/四大件/计算机网络2.md",
-    "计算机/编程语言/Java/03 Java的基础语法1.md",
-    "科技美学/软件.md",
-    "临时笔记/文字美学.md",
-    "计算机/JavaWeb/前端/1 VSCode.md",
-    "计算机/编程语言/Java/01 idea.md",
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",
