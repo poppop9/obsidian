@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "考试/计网.md"
               }
             }
           },
@@ -193,7 +193,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "考试/计网.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "考试/计网.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,8 +236,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4bae9f3e9f59955d",
+  "active": "21a6e61eee614b71",
   "lastOpenFiles": [
+    "临时笔记/草稿纸.md",
     "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/穿搭.md",
     "考试/计网.md",
@@ -248,7 +249,6 @@
     "考试/JSP复习.md",
     "考试/作业2.md",
     "考试/移动互联.md",
-    "临时笔记/草稿纸.md",
     "().md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
