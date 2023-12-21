@@ -72,7 +72,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "临时笔记/穿搭.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -193,7 +193,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "临时笔记/穿搭.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -238,9 +238,10 @@
   },
   "active": "84ca075ee97f849c",
   "lastOpenFiles": [
+    "临时笔记/草稿纸.md",
+    "().md",
     "计算机/JavaWeb/前端/3 CSS.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
-    "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/前端/2 HTML 5.md",
     "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
@@ -258,7 +259,6 @@
     "Excalidraw/杂/草稿纸 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/Dance.md",
-    "().md",
     "计算机/四大件/计算机网络2.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",
     "科技美学/软件.md",
