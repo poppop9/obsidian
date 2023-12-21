@@ -31,19 +31,6 @@
             }
           },
           {
-            "id": "facb55a91e253178",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3ebd335a2f42bb65",
             "type": "leaf",
             "state": {
@@ -67,7 +54,7 @@
             }
           },
           {
-            "id": "84ca075ee97f849c",
+            "id": "21a6e61eee614b71",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,7 +67,7 @@
             }
           },
           {
-            "id": "73a54f31f8d948c8",
+            "id": "84ca075ee97f849c",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -90,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -236,18 +223,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "84ca075ee97f849c",
+  "active": "21a6e61eee614b71",
   "lastOpenFiles": [
+    "Excalidraw/计算机/JavaWeb Draw.md",
+    "计算机/JavaWeb/前端/3 CSS.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
+    "考试/计网.md",
     "未命名 2.md",
     "未命名 1.md",
-    "考试/计网.md",
     "考试/JSP复习.md",
     "考试/作业2.md",
     "临时笔记/穿搭.md",
     "考试/移动互联.md",
     "临时笔记/草稿纸.md",
     "().md",
-    "计算机/JavaWeb/前端/3 CSS.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/前端/2 HTML 5.md",
@@ -263,8 +252,6 @@
     "计算机/JavaWeb/前端/4 Ajax.md",
     "未命名.md",
     "计算机/JavaWeb/前端/JavaScript",
-    "Excalidraw/杂/草稿纸 Draw.md",
-    "Excalidraw/计算机/JavaWeb Draw.md",
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",
