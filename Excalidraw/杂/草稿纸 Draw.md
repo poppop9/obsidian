@@ -183,6 +183,11 @@ n ^V3zkL1Po
 
 第一位为0，上面写0 ^9bSfwGFy
 
+A的码片序列：00011011 ^khGfG5td
+
+所以A发送1就是发送00011011
+A发送0就是发送11100100 ^37lTtm77
+
 
 # Embedded files
 b536ddc1189da41352e01863fe9ecaa48f75e05d: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231221163823.png
@@ -7024,12 +7029,86 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"id": "khGfG5td",
+			"type": "text",
+			"x": 393.82101012705357,
+			"y": 1396.3295584269642,
+			"width": 188.5599365234375,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 457582140,
+			"version": 59,
+			"versionNonce": 1931879356,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1703245001100,
+			"link": null,
+			"locked": false,
+			"text": "A的码片序列：00011011",
+			"rawText": "A的码片序列：00011011",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "A的码片序列：00011011",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "37lTtm77",
+			"type": "text",
+			"x": 410.2262184841575,
+			"y": 1453.9701861646508,
+			"width": 233.55992126464844,
+			"height": 48,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 426863932,
+			"version": 69,
+			"versionNonce": 611684996,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1703245028199,
+			"link": null,
+			"locked": false,
+			"text": "所以A发送1就是发送00011011\nA发送0就是发送11100100",
+			"rawText": "所以A发送1就是发送00011011\nA发送0就是发送11100100",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 42,
+			"containerId": null,
+			"originalText": "所以A发送1就是发送00011011\nA发送0就是发送11100100",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#e03131",
+		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 1,
@@ -7041,10 +7120,10 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 699.6828905883787,
-		"scrollY": -1910.4923934587819,
+		"scrollX": -178.1268767157212,
+		"scrollY": -1216.157632801541,
 		"zoom": {
-			"value": 0.9138752933712782
+			"value": 1.540288728421621
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
