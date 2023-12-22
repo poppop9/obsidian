@@ -191,6 +191,8 @@ A发送0就是发送11100100 ^37lTtm77
 假设A发送00011011，那就是发送
 向量-1-1-1+1+1-1+1+1 ^MHpSWE0y
 
+B发送了-1-1+1-1 ^qsvbEPEB
+
 
 # Embedded files
 b536ddc1189da41352e01863fe9ecaa48f75e05d: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231221163823.png
@@ -7251,6 +7253,43 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
+		},
+		{
+			"id": "qsvbEPEB",
+			"type": "text",
+			"x": 686.9740019523806,
+			"y": 1529.479711701742,
+			"width": 131.27996826171875,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 699345791,
+			"version": 19,
+			"versionNonce": 106790431,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1703247718830,
+			"link": null,
+			"locked": false,
+			"text": "B发送了-1-1+1-1",
+			"rawText": "B发送了-1-1+1-1",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "B发送了-1-1+1-1",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -7268,7 +7307,7 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -229.59222215975603,
+		"scrollX": -310.74583816270575,
 		"scrollY": -1305.3009658271278,
 		"zoom": {
 			"value": 1.540288728421622
