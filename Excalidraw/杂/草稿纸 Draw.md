@@ -171,11 +171,14 @@ n ^V3zkL1Po
 
 让后面的转义字符失去意义 ^5C6Q63N8
 
+1110011对应的多项式为 ^8kpRHnLJ
+
 
 # Embedded files
 b536ddc1189da41352e01863fe9ecaa48f75e05d: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231221163823.png
 cee47cf13f60baf811092f03a039d95b9afaa667: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231221164819.png
 d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231222163353.png
+4b9982599c64a9cc9d1010fcb9063fa0e5164eb8: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231222184026.png
 
 %%
 # Drawing
@@ -6032,12 +6035,135 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 			"originalText": "让后面的转义字符失去意义",
 			"lineHeight": 1.2,
 			"baseline": 18
+		},
+		{
+			"type": "image",
+			"version": 143,
+			"versionNonce": 580756740,
+			"isDeleted": false,
+			"id": "HI66uiPp",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -314.1099087759805,
+			"y": 1635.7578606702864,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 305.4651919323357,
+			"seed": 24474,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1703241681956,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "4b9982599c64a9cc9d1010fcb9063fa0e5164eb8",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "8kpRHnLJ",
+			"type": "text",
+			"x": -271.7797555364077,
+			"y": 1606.884063133371,
+			"width": 182.47996520996094,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 680963132,
+			"version": 64,
+			"versionNonce": 827191044,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "SV0RHTJmAhPP2h2nnekS5",
+					"type": "arrow"
+				}
+			],
+			"updated": 1703241678401,
+			"link": null,
+			"locked": false,
+			"text": "1110011对应的多项式为",
+			"rawText": "1110011对应的多项式为",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "1110011对应的多项式为",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "SV0RHTJmAhPP2h2nnekS5",
+			"type": "arrow",
+			"x": -88.65702818257,
+			"y": 1619.162675571587,
+			"width": 62.845307068976524,
+			"height": 17.427683931758338,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 112518588,
+			"version": 93,
+			"versionNonce": 1428841604,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1703241681956,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					62.845307068976524,
+					17.427683931758338
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "8kpRHnLJ",
+				"focus": -0.6756093206715253,
+				"gap": 1
+			},
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 1,
@@ -6049,10 +6175,10 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 383.9611011476066,
-		"scrollY": -1146.836952558957,
+		"scrollX": 531.9408337039827,
+		"scrollY": -1485.8804700448995,
 		"zoom": {
-			"value": 1.0427860326434188
+			"value": 1.5148308862990112
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
