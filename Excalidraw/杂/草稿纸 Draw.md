@@ -188,6 +188,10 @@ A的码片序列：00011011 ^khGfG5td
 所以A发送1就是发送00011011
 A发送0就是发送11100100 ^37lTtm77
 
+假设A发送00011011，那就是发送
+向量-1-1-1+1+1-1+1+1
+ ^MHpSWE0y
+
 
 # Embedded files
 b536ddc1189da41352e01863fe9ecaa48f75e05d: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231221163823.png
@@ -7049,11 +7053,16 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"seed": 457582140,
-			"version": 59,
-			"versionNonce": 1931879356,
+			"version": 60,
+			"versionNonce": 557743164,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1703245001100,
+			"boundElements": [
+				{
+					"id": "7R0HCwPLWljCPE0fjgI3n",
+					"type": "arrow"
+				}
+			],
+			"updated": 1703245032512,
 			"link": null,
 			"locked": false,
 			"text": "A的码片序列：00011011",
@@ -7070,8 +7079,8 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 		{
 			"id": "37lTtm77",
 			"type": "text",
-			"x": 410.2262184841575,
-			"y": 1453.9701861646508,
+			"x": 377.5050646614526,
+			"y": 1452.9314159172343,
 			"width": 233.55992126464844,
 			"height": 48,
 			"angle": 0,
@@ -7086,11 +7095,16 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"seed": 426863932,
-			"version": 69,
-			"versionNonce": 611684996,
+			"version": 90,
+			"versionNonce": 1322727300,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1703245028199,
+			"boundElements": [
+				{
+					"id": "7R0HCwPLWljCPE0fjgI3n",
+					"type": "arrow"
+				}
+			],
+			"updated": 1703245033571,
 			"link": null,
 			"locked": false,
 			"text": "所以A发送1就是发送00011011\nA发送0就是发送11100100",
@@ -7102,6 +7116,132 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 			"baseline": 42,
 			"containerId": null,
 			"originalText": "所以A发送1就是发送00011011\nA发送0就是发送11100100",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "7R0HCwPLWljCPE0fjgI3n",
+			"type": "arrow",
+			"x": 459.54268511129925,
+			"y": 1421.5087397634709,
+			"width": 16.002385265342525,
+			"height": 28.046697615777475,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 315474308,
+			"version": 65,
+			"versionNonce": 852108932,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1703245033572,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-16.002385265342525,
+					28.046697615777475
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "khGfG5td",
+				"focus": 0.2060280270030391,
+				"gap": 1.1791813365066446
+			},
+			"endBinding": {
+				"elementId": "37lTtm77",
+				"focus": -0.5086431156675961,
+				"gap": 3.3759785379859295
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "MHpSWE0y",
+			"type": "text",
+			"x": 349.45840667146433,
+			"y": 1535.9028848063867,
+			"width": 268.4399108886719,
+			"height": 72,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1448084740,
+			"version": 129,
+			"versionNonce": 2018130620,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1703245106277,
+			"link": null,
+			"locked": false,
+			"text": "假设A发送00011011，那就是发送\n向量-1-1-1+1+1-1+1+1\n",
+			"rawText": "假设A发送00011011，那就是发送\n向量-1-1-1+1+1-1+1+1\n",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 66,
+			"containerId": null,
+			"originalText": "假设A发送00011011，那就是发送\n向量-1-1-1+1+1-1+1+1\n",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "gotEmGmY",
+			"type": "text",
+			"x": 481.64140056675336,
+			"y": 1618.8743338826448,
+			"width": 10.239990234375,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 152824124,
+			"version": 2,
+			"versionNonce": 1827252228,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1703245103700,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "",
 			"lineHeight": 1.2
 		}
 	],
@@ -7120,10 +7260,10 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -178.1268767157212,
-		"scrollY": -1216.157632801541,
+		"scrollX": 329.15133801211556,
+		"scrollY": -823.1345692099957,
 		"zoom": {
-			"value": 1.540288728421621
+			"value": 0.5902887284216201
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
