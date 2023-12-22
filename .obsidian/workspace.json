@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -183,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/杂/草稿纸 Draw.md"
+                "file": "考试/计网.md"
               }
             }
           },
@@ -193,7 +193,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/杂/草稿纸 Draw.md"
+                "file": "考试/计网.md"
               }
             }
           },
@@ -213,7 +213,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/杂/草稿纸 Draw.md",
+                "file": "考试/计网.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -236,10 +236,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "84ca075ee97f849c",
+  "active": "21a6e61eee614b71",
   "lastOpenFiles": [
-    "考试/计网.md",
     "Excalidraw/杂/草稿纸 Draw.md",
+    "考试/计网.md",
     "临时笔记/MarkDown语法.md",
     "临时笔记/草稿纸.md",
     "临时笔记/🌏旅行.md",
