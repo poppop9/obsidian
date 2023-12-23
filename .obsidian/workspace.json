@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "考试/计网.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "考试/计网.md"
               }
             }
           },
@@ -203,7 +203,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md",
+                "file": "考试/计网.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,10 +226,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "21a6e61eee614b71",
   "lastOpenFiles": [
-    "考试/计网.md",
     "计算机/四大件/计算机网络2.md",
+    "考试/计网.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/3 CSS.md",
     "Excalidraw/杂/草稿纸 Draw.md",
