@@ -11,5 +11,6 @@
   "better-fn",
   "ob-table-enhancer",
   "obsidian-git",
-  "file-order"
+  "file-order",
+  "obsidian-quiet-outline"
 ]

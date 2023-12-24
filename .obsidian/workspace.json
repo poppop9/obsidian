@@ -158,13 +158,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "59c5ef1e731e284b",
+            "id": "1726e13dfa44179b",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "考试/计网.md"
-              }
+              "type": "quiet-outline",
+              "state": {}
             }
           },
           {
@@ -188,7 +186,7 @@
             }
           },
           {
-            "id": "dd9fd37cbec04ea5",
+            "id": "8c3567e43bf47064",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -196,6 +194,16 @@
                 "file": "考试/计网.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "161416d78a7e8390",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "考试/计网.md"
               }
             }
           }
@@ -218,10 +226,10 @@
   },
   "active": "21a6e61eee614b71",
   "lastOpenFiles": [
-    "Excalidraw/杂/草稿纸 Draw.md",
-    "考试/计网.md",
     "计算机/四大件/计算机网络2.md",
+    "考试/计网.md",
     "计算机/JavaWeb/前端/3 CSS.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/穿搭.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/MarkDown语法.md",
