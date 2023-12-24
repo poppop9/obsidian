@@ -198,5 +198,6 @@
   "blue-topaz-theme@@bg-panel-page-opacity-cp": 0.25,
   "blue-topaz-theme@@bg-panel-page-option-dark": "panel-page-bg-theme-dark-sea",
   "blue-topaz-theme@@text-color-code@@light": "#90AEC9",
-  "blue-topaz-theme@@text-color-code@@dark": "#90AEC9"
+  "blue-topaz-theme@@text-color-code@@dark": "#90AEC9",
+  "blue-topaz-theme@@quiet-outline-optimize": false
 }
