@@ -366,6 +366,8 @@ DF：don‘t 分片，为1表示不能分片 ^6X69WnZY
 
 修改收到的路由表 ^A8FrUNbf
 
+发送给一个组播地址【一组地址】 ^vkgyxm7r
+
 
 # Embedded files
 b536ddc1189da41352e01863fe9ecaa48f75e05d: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231221163823.png
@@ -382,6 +384,7 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 5463bacdd739c41f7f621cafbaca5fbd18849859: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231224122518.png
 39345e8cf9e8dd5633242ea5cf1e344aaf06e483: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231224163153.png
 79d8b33e04bbdd0b1f0f2921e62d7356df4f27ed: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231224163213.png
+0eb67e801b98dab1e52d1e539a653c36d0b91a5d: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231224192558.png
 
 %%
 # Drawing
@@ -14595,6 +14598,170 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "修改收到的路由表",
 			"lineHeight": 1.2
+		},
+		{
+			"type": "image",
+			"version": 20,
+			"versionNonce": 930106783,
+			"isDeleted": false,
+			"id": "WqnRcXUl",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 440.1542102743357,
+			"y": 2616.176601421054,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 192.89940828402368,
+			"seed": 40700,
+			"groupIds": [
+				"B3qpCKphV2-ZFNs84mzTl"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1703417262294,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "0eb67e801b98dab1e52d1e539a653c36d0b91a5d",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "Z05yk4B9s_bRsllx2T3dC",
+			"type": "arrow",
+			"x": 864.4593290227457,
+			"y": 2662.8466821750208,
+			"width": 49.38018035127925,
+			"height": 0.8322532627348664,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"B3qpCKphV2-ZFNs84mzTl"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 117478495,
+			"version": 38,
+			"versionNonce": 2125627089,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1703417273900,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					49.38018035127925,
+					-0.8322532627348664
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "vkgyxm7r",
+				"focus": 0.45653615122645025,
+				"gap": 2.774166959842262
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "vkgyxm7r",
+			"type": "text",
+			"x": 916.6136763338671,
+			"y": 2657.752133030064,
+			"width": 159.34495544433594,
+			"height": 12.828,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"B3qpCKphV2-ZFNs84mzTl"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 2089320785,
+			"version": 121,
+			"versionNonce": 544424383,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "Z05yk4B9s_bRsllx2T3dC",
+					"type": "arrow"
+				}
+			],
+			"updated": 1703417262295,
+			"link": null,
+			"locked": false,
+			"text": "发送给一个组播地址【一组地址】",
+			"rawText": "发送给一个组播地址【一组地址】",
+			"fontSize": 10.69,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 9,
+			"containerId": null,
+			"originalText": "发送给一个组播地址【一组地址】",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "IZZW6NjP",
+			"type": "text",
+			"x": 750.4875639527212,
+			"y": 2729.959628723873,
+			"width": 10.239990234375,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1751856689,
+			"version": 2,
+			"versionNonce": 1578055633,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1703417217697,
+			"link": null,
+			"locked": false,
+			"text": "",
+			"rawText": "",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -14608,14 +14775,14 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 		"currentItemRoughness": 1,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 4,
-		"currentItemFontSize": 20,
+		"currentItemFontSize": 10.69,
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -729.0276569963579,
-		"scrollY": -1504.268023675938,
+		"scrollX": -343.0366289295606,
+		"scrollY": -2401.9329012202716,
 		"zoom": {
-			"value": 0.7775946985764363
+			"value": 0.8803062174639483
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,
