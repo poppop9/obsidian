@@ -127,8 +127,17 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "f330c1866d244d34",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "82e190d91877a96e",
@@ -202,10 +211,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "21a6e61eee614b71",
+  "active": "f330c1866d244d34",
   "lastOpenFiles": [
-    "Excalidraw/杂/草稿纸 Draw.md",
+    "临时笔记/临时笔记.md",
+    "计算机/计算机.md",
+    "Excalidraw/杂/杂.md",
+    "Spaces/Home",
+    "Spaces",
     "考试/计网.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/穿搭.md",
     "计算机/四大件/计算机网络2.md",
     "计算机/JavaWeb/前端/3 CSS.md",
@@ -227,9 +241,6 @@
     "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
     "计算机/JavaWeb/前端/JavaScript/7 杂.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
-    "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md",
-    "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
-    "计算机/JavaWeb/前端/JavaScript/4 事件.md",
     "计算机/JavaWeb/前端/JavaScript",
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
@@ -247,8 +258,6 @@
     "计算机/JavaWeb",
     "计算机/数据库",
     "计算机/四大件/操作系统/并发",
-    "计算机/四大件/操作系统/虚拟化",
-    "Projects - Demo Project",
     "图片库/Pasted Image 20230730095610_153.png",
     "未命名.canvas",
     "未命名 1.canvas"
