@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "考试/计网.md"
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -202,10 +202,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "21a6e61eee614b71",
+  "active": "a8a13fb8483030de",
   "lastOpenFiles": [
-    "Excalidraw/杂/草稿纸 Draw.md",
     "考试/计网.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
     "计算机/四大件/计算机网络2.md",
     "计算机/JavaWeb/前端/3 CSS.md",
     "临时笔记/穿搭.md",
