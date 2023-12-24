@@ -12431,8 +12431,8 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 17,
-			"versionNonce": 685010482,
+			"version": 18,
+			"versionNonce": 1489383154,
 			"isDeleted": false,
 			"id": "y8cHqzxl",
 			"fillStyle": "hachure",
@@ -12448,7 +12448,9 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 			"width": 500,
 			"height": 212.1405750798722,
 			"seed": 61557,
-			"groupIds": [],
+			"groupIds": [
+				"nFFLz2Iky2r2QY43U2NK8"
+			],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [
@@ -12457,7 +12459,7 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 					"type": "arrow"
 				}
 			],
-			"updated": 1703350349614,
+			"updated": 1703350415112,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -12482,17 +12484,19 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"nFFLz2Iky2r2QY43U2NK8"
+			],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"seed": 2025884334,
-			"version": 28,
-			"versionNonce": 1335248366,
+			"version": 38,
+			"versionNonce": 498731890,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1703350349614,
+			"updated": 1703350452932,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12508,9 +12512,9 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 			"lastCommittedPoint": null,
 			"startBinding": null,
 			"endBinding": {
-				"elementId": "y8cHqzxl",
-				"focus": 0.6539660031832425,
-				"gap": 19.934967318837778
+				"elementId": "43Mof20U",
+				"focus": 0.3253263750221625,
+				"gap": 5.20467643040007
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
@@ -12530,15 +12534,22 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"nFFLz2Iky2r2QY43U2NK8"
+			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 1756667954,
-			"version": 97,
-			"versionNonce": 1347147762,
+			"version": 99,
+			"versionNonce": 281465202,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1703350349614,
+			"boundElements": [
+				{
+					"id": "RyQH5hKk2zjgcImI084v2",
+					"type": "arrow"
+				}
+			],
+			"updated": 1703350425161,
 			"link": null,
 			"locked": false,
 			"text": "主机号全为0，\n表示所有主机，\n也就是整个网络",
@@ -12567,15 +12578,17 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"nFFLz2Iky2r2QY43U2NK8"
+			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 1630628082,
-			"version": 118,
-			"versionNonce": 217274414,
+			"version": 119,
+			"versionNonce": 2096339822,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1703350349614,
+			"updated": 1703350415112,
 			"link": null,
 			"locked": false,
 			"text": "主机号全为1，\n表示该网络的广播地址",
@@ -12604,17 +12617,19 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"nFFLz2Iky2r2QY43U2NK8"
+			],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"seed": 2123607218,
-			"version": 19,
-			"versionNonce": 1890585010,
+			"version": 20,
+			"versionNonce": 842570354,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1703350349614,
+			"updated": 1703350415112,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -12648,15 +12663,17 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"nFFLz2Iky2r2QY43U2NK8"
+			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 1131851250,
-			"version": 49,
-			"versionNonce": 521239854,
+			"version": 50,
+			"versionNonce": 520748462,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1703350359403,
+			"updated": 1703350415112,
 			"link": null,
 			"locked": false,
 			"text": "127.0.0.1 表示本机",
@@ -12685,15 +12702,17 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"groupIds": [],
+			"groupIds": [
+				"nFFLz2Iky2r2QY43U2NK8"
+			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 1914250222,
-			"version": 62,
-			"versionNonce": 1145706926,
+			"version": 63,
+			"versionNonce": 752909362,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1703350384376,
+			"updated": 1703350415112,
 			"link": null,
 			"locked": false,
 			"text": "0.0.0.0 表示本机",
