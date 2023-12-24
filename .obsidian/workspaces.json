@@ -15,20 +15,10 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
-                    "mode": "preview",
+                    "file": "计算机/JavaWeb/前端/3 CSS.md",
+                    "mode": "source",
                     "backlinks": false,
                     "source": false
-                  }
-                }
-              },
-              {
-                "id": "6c1b8f6fb044e11c",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/计算机/JavaWeb Draw.md"
                   }
                 }
               },
@@ -46,69 +36,42 @@
                 }
               },
               {
-                "id": "944df8a69b6699ee",
+                "id": "21a6e61eee614b71",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "考试/计网.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4bae9f3e9f59955d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "临时笔记/穿搭.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a8a13fb8483030de",
                 "type": "leaf",
                 "state": {
                   "type": "excalidraw",
                   "state": {
-                    "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
-                  }
-                }
-              },
-              {
-                "id": "71d26d0da0095caf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "计算机/数据库/MySQL.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "af3e331d5134c430",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "临时笔记/Obsidian特殊语法.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "84ca075ee97f849c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "计算机/Docker.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "fb289d977ec54f75",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "临时笔记/Dance.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
+                    "file": "Excalidraw/杂/草稿纸 Draw.md"
                   }
                 }
               }
-            ],
-            "currentTab": 7
+            ]
           }
         ],
         "direction": "vertical"
@@ -138,7 +101,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "mounted",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -196,13 +159,11 @@
             "type": "tabs",
             "children": [
               {
-                "id": "59c5ef1e731e284b",
+                "id": "1726e13dfa44179b",
                 "type": "leaf",
                 "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "临时笔记/Dance.md"
-                  }
+                  "type": "quiet-outline",
+                  "state": {}
                 }
               },
               {
@@ -211,7 +172,7 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "临时笔记/Dance.md"
+                    "file": "计算机/JavaWeb/前端/3 CSS.md"
                   }
                 }
               },
@@ -229,7 +190,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 297.5
+        "width": 273.5
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -242,7 +203,7 @@
           "obsidian-excalidraw-plugin:新建绘图文件": false
         }
       },
-      "active": "59c5ef1e731e284b"
+      "active": "db49ce6ee1268ec2"
     }
   },
   "active": "默认"

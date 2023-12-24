@@ -5,20 +5,24 @@
       "path": "考试/计网.md"
     },
     {
-      "basename": "计算机网络2",
-      "path": "计算机/四大件/计算机网络2.md"
-    },
-    {
       "basename": "3 CSS",
       "path": "计算机/JavaWeb/前端/3 CSS.md"
     },
     {
-      "basename": "草稿纸 Draw",
-      "path": "Excalidraw/杂/草稿纸 Draw.md"
+      "basename": "计算机网络2",
+      "path": "计算机/四大件/计算机网络2.md"
     },
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
+    },
+    {
+      "basename": "Obsidian特殊语法",
+      "path": "临时笔记/Obsidian特殊语法.md"
+    },
+    {
+      "basename": "草稿纸 Draw",
+      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "JavaWeb Draw",
@@ -79,10 +83,6 @@
     {
       "basename": "4 事件",
       "path": "计算机/JavaWeb/前端/JavaScript/4 事件.md"
-    },
-    {
-      "basename": "Obsidian特殊语法",
-      "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
       "basename": "5 Vue",
