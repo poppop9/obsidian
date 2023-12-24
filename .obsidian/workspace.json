@@ -127,17 +127,8 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "f330c1866d244d34",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "82e190d91877a96e",
@@ -211,18 +202,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f330c1866d244d34",
+  "active": "21a6e61eee614b71",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/3 CSS.md",
+    "考试/计网.md",
     "临时笔记/临时笔记.md",
     "计算机/计算机.md",
     "Excalidraw/杂/杂.md",
     "Spaces/Home",
     "Spaces",
-    "考试/计网.md",
     "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/穿搭.md",
     "计算机/四大件/计算机网络2.md",
-    "计算机/JavaWeb/前端/3 CSS.md",
     "临时笔记/Obsidian特殊语法.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/MarkDown语法.md",
