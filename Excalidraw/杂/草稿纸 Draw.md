@@ -344,6 +344,7 @@ d2085b73133e0ea45f34e8a3e41d4101ac990922: https://obsidian-1307744200.cos.ap-gua
 67f2a0385e807abda0d5f96005e89db14cd72131: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231224002257.png
 f39ad10e1c5b68e481366efe6b32d8e6b54323eb: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231224003843.png
 a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231224004909.png
+5463bacdd739c41f7f621cafbaca5fbd18849859: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231224122518.png
 
 %%
 # Drawing
@@ -12710,6 +12711,39 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 			"originalText": "0.0.0.0 表示本机",
 			"lineHeight": 1.2,
 			"baseline": 18
+		},
+		{
+			"type": "image",
+			"version": 54,
+			"versionNonce": 1661505215,
+			"isDeleted": false,
+			"id": "7zvJu5d2",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1044.951914550899,
+			"y": 1193.0893212068188,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 934.4184874695616,
+			"height": 96.98887028895213,
+			"seed": 3667,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1703391933252,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "5463bacdd739c41f7f621cafbaca5fbd18849859",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -12727,10 +12761,10 @@ a4470e62b166c96222f746f6b83cd3dc8a007761: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 4620.302679731771,
-		"scrollY": 851.3657302752238,
+		"scrollX": -1089.2882293591374,
+		"scrollY": -978.8882829404288,
 		"zoom": {
-			"value": 0.15000000000000002
+			"value": 1
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
