@@ -47,6 +47,16 @@
             }
           },
           {
+            "id": "ac2297c9d782f2ec",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
+              }
+            }
+          },
+          {
             "id": "4bae9f3e9f59955d",
             "type": "leaf",
             "state": {
@@ -58,19 +68,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "7470bcbb469bda99",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/杂/草稿纸 Draw.md"
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/杂/草稿纸 Draw.md"
+                "file": "考试/计网.md"
               }
             }
           },
@@ -202,10 +202,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7470bcbb469bda99",
+  "active": "21a6e61eee614b71",
   "lastOpenFiles": [
-    "考试/计网.md",
     "Excalidraw/杂/草稿纸 Draw.md",
+    "考试/计网.md",
     "计算机/四大件/计算机网络2.md",
     "临时笔记/穿搭.md",
     "临时笔记/MarkDown语法.md",
