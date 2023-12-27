@@ -199,6 +199,6 @@
   "blue-topaz-theme@@text-color-code@@dark": "#90AEC9",
   "blue-topaz-theme@@quiet-outline-optimize": false,
   "blue-topaz-theme@@list-indent": 2,
-  "blue-topaz-theme@@list-spacing-bt": 2,
+  "blue-topaz-theme@@list-spacing-bt": 1.8,
   "blue-topaz-theme@@line-height-list": 1.5
 }
