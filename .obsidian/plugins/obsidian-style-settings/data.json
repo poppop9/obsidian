@@ -182,8 +182,6 @@
   "blue-topaz-theme@@colorful-unordered-list": true,
   "blue-topaz-theme@@unordered-list-style-options": "custom-unordered-list",
   "blue-topaz-theme@@accent-em@@light": "#000000",
-  "blue-topaz-theme@@line-height-list": 1.4,
-  "blue-topaz-theme@@list-spacing-bt": 1,
   "blue-topaz-theme@@retain-header-color": false,
   "blue-topaz-theme@@print-h3-color@@light": "#434343",
   "blue-topaz-theme@@print-h5-color@@light": "#767676",
@@ -199,5 +197,8 @@
   "blue-topaz-theme@@bg-panel-page-option-dark": "panel-page-bg-theme-dark-sea",
   "blue-topaz-theme@@text-color-code@@light": "#90AEC9",
   "blue-topaz-theme@@text-color-code@@dark": "#90AEC9",
-  "blue-topaz-theme@@quiet-outline-optimize": false
+  "blue-topaz-theme@@quiet-outline-optimize": false,
+  "blue-topaz-theme@@list-indent": 2,
+  "blue-topaz-theme@@list-spacing-bt": 2,
+  "blue-topaz-theme@@line-height-list": 1.8
 }
