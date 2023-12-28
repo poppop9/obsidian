@@ -21,7 +21,7 @@
             }
           },
           {
-            "id": "5150fbe90374fca6",
+            "id": "1077c180b28cd513",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "临时笔记/Obsidian笔记编写规范.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md"
+                "file": "临时笔记/Obsidian笔记编写规范.md"
               }
             }
           },
@@ -188,18 +188,19 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "632b2e3e1356c50e",
+  "active": "4bae9f3e9f59955d",
   "lastOpenFiles": [
-    "计算机/计算机.md",
+    "().md",
+    "临时笔记/Obsidian笔记编写规范.md",
+    "临时笔记/穿搭.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
+    "计算机/四大件/计算机网络2.md",
+    "计算机/JavaWeb/前端/3 CSS.md",
     "Spaces/Home",
     "Spaces",
-    "Excalidraw/杂/草稿纸 Draw.md",
-    "临时笔记/穿搭.md",
-    "临时笔记/Obsidian笔记编写规范.md",
+    "计算机/计算机.md",
     "科技美学/微信.md",
     "科技美学/内网穿透.md",
-    "计算机/JavaWeb/前端/3 CSS.md",
-    "计算机/四大件/计算机网络2.md",
     "考试/计网.md",
     "临时笔记/MarkDown语法.md",
     "临时笔记/🌏旅行.md",
@@ -213,7 +214,6 @@
     "考试/JSP复习.md",
     "考试/作业2.md",
     "考试/移动互联.md",
-    "().md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/前端/2 HTML 5.md",
