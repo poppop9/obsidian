@@ -85,6 +85,14 @@
         "dimension": 64.68446601941747,
         "children": [
           {
+            "id": "632b2e3e1356c50e",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          },
+          {
             "id": "b5263ffa41a34bbc",
             "type": "leaf",
             "state": {
@@ -119,17 +127,9 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "632b2e3e1356c50e",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "82e190d91877a96e",
@@ -202,8 +202,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a6dd0cb7d2fc3076",
+  "active": "b5263ffa41a34bbc",
   "lastOpenFiles": [
+    "计算机/计算机.md",
+    "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端/3 CSS.md",
     "Spaces/Home",
@@ -214,7 +216,6 @@
     "临时笔记/MarkDown语法.md",
     "临时笔记/🌏旅行.md",
     "临时笔记/临时笔记.md",
-    "计算机/计算机.md",
     "Excalidraw/杂/杂.md",
     "临时笔记/Obsidian特殊语法.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
