@@ -2,9 +2,9 @@
   "newNotePlaceholder": "Untitled",
   "defaultInitialization": false,
   "filePreviewOnHover": false,
-  "flowMenuEnabled": true,
+  "flowMenuEnabled": false,
   "markSans": false,
-  "blinkEnabled": true,
+  "blinkEnabled": false,
   "makeMenuPlaceholder": true,
   "mobileMakeBar": true,
   "inlineStyler": true,
@@ -44,8 +44,7 @@
     "spaces://$tags/spaces://#科技美学",
     "spaces://$tags/spaces://#临时笔记",
     "spaces://$tags/spaces://#标签",
-    "spaces://$tags/spaces://#科技美学",
-    "//Spaces/Spaces/Home"
+    "spaces://$tags/spaces://#科技美学"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
