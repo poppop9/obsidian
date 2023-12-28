@@ -197,7 +197,7 @@
   "blue-topaz-theme@@bg-panel-page-option-dark": "panel-page-bg-theme-dark-sea",
   "blue-topaz-theme@@text-color-code@@light": "#90AEC9",
   "blue-topaz-theme@@text-color-code@@dark": "#90AEC9",
-  "blue-topaz-theme@@quiet-outline-optimize": false,
+  "blue-topaz-theme@@quiet-outline-optimize": true,
   "blue-topaz-theme@@list-indent": 2,
   "blue-topaz-theme@@list-spacing-bt": 1.4,
   "blue-topaz-theme@@line-height-list": 1.6
