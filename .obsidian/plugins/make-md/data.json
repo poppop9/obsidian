@@ -8,7 +8,7 @@
   "makeMenuPlaceholder": true,
   "mobileMakeBar": true,
   "inlineStyler": true,
-  "makerMode": true,
+  "makerMode": false,
   "spacesMDBInHidden": true,
   "inlineStylerColors": false,
   "editorFlow": true,
@@ -46,7 +46,8 @@
     "spaces://$tags/spaces://#标签",
     "spaces://$tags/spaces://#科技美学",
     "//临时笔记",
-    "//科技美学"
+    "//科技美学",
+    "//计算机"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
