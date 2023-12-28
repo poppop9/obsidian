@@ -90,21 +90,6 @@
             }
           },
           {
-            "id": "a90c3998237f05b5",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#问题",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "d0b803412ff90f26",
             "type": "leaf",
             "state": {
@@ -129,8 +114,24 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "a90c3998237f05b5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#问题",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
