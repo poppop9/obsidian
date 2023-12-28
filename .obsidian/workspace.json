@@ -71,6 +71,14 @@
         "dimension": 64.68446601941747,
         "children": [
           {
+            "id": "c91f583929b9c544",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          },
+          {
             "id": "b5263ffa41a34bbc",
             "type": "leaf",
             "state": {
@@ -86,7 +94,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#问题",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +122,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "82e190d91877a96e",
@@ -188,8 +197,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "202e13012971683d",
+  "active": "a90c3998237f05b5",
   "lastOpenFiles": [
+    "Spaces/Home",
+    "Spaces",
     "计算机/四大件/计算机网络2.md",
     "考试/计网.md",
     "Excalidraw/杂/草稿纸 Draw.md",
@@ -200,8 +211,6 @@
     "临时笔记/临时笔记.md",
     "计算机/计算机.md",
     "Excalidraw/杂/杂.md",
-    "Spaces/Home",
-    "Spaces",
     "临时笔记/Obsidian特殊语法.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/草稿纸.md",
@@ -217,7 +226,6 @@
     "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
     "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
     "计算机/JavaWeb/前端/JavaScript/7 杂.md",
-    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/JavaScript",
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
