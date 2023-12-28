@@ -44,7 +44,8 @@
     "spaces://$tags/spaces://#科技美学",
     "spaces://$tags/spaces://#临时笔记",
     "spaces://$tags/spaces://#标签",
-    "spaces://$tags/spaces://#科技美学"
+    "spaces://$tags/spaces://#科技美学",
+    "//Spaces/Spaces/Home"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

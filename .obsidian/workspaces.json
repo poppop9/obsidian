@@ -36,15 +36,12 @@
                 }
               },
               {
-                "id": "21a6e61eee614b71",
+                "id": "ac2297c9d782f2ec",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "excalidraw",
                   "state": {
-                    "file": "考试/计网.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
+                    "file": "Excalidraw/杂/草稿纸 Draw.md"
                   }
                 }
               },
@@ -60,18 +57,9 @@
                     "source": false
                   }
                 }
-              },
-              {
-                "id": "a8a13fb8483030de",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/杂/草稿纸 Draw.md"
-                  }
-                }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -85,6 +73,14 @@
             "type": "tabs",
             "dimension": 64.68446601941747,
             "children": [
+              {
+                "id": "632b2e3e1356c50e",
+                "type": "leaf",
+                "state": {
+                  "type": "mk-path-view",
+                  "state": {}
+                }
+              },
               {
                 "id": "b5263ffa41a34bbc",
                 "type": "leaf",
@@ -101,21 +97,13 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "tag:#问题",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical"
                   }
-                }
-              },
-              {
-                "id": "3ce613d2ef5081f1",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
                 }
               },
               {
@@ -172,7 +160,7 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "计算机/JavaWeb/前端/3 CSS.md"
+                    "file": "临时笔记/穿搭.md"
                   }
                 }
               },
@@ -196,14 +184,13 @@
         "hiddenItems": {
           "switcher:打开快速切换": false,
           "graph:查看关系图谱": false,
-          "canvas:新建白板": false,
           "workspaces:管理工作区布局": false,
           "command-palette:打开命令面板": false,
           "remotely-save:Remotely Save": false,
           "obsidian-excalidraw-plugin:新建绘图文件": false
         }
       },
-      "active": "db49ce6ee1268ec2"
+      "active": "4bae9f3e9f59955d"
     }
   },
   "active": "默认"
