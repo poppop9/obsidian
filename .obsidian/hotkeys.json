@@ -154,5 +154,19 @@
     }
   ],
   "editor:save-file": [],
-  "file-explorer:new-file": []
+  "file-explorer:new-file": [],
+  "workspace:goto-tab-7": [],
+  "app:open-help": [],
+  "app:go-back": [],
+  "workspace:close-window": [],
+  "app:go-forward": [],
+  "file-explorer:new-file-in-new-pane": [],
+  "markdown:add-metadata-property": [],
+  "workspace:undo-close-pane": [],
+  "workspace:goto-tab-2": [],
+  "workspace:goto-tab-4": [],
+  "workspace:goto-tab-8": [],
+  "workspace:previous-tab": [],
+  "workspace:next-tab": [],
+  "workspace:goto-last-tab": []
 }

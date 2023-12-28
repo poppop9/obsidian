@@ -44,11 +44,16 @@
             }
           },
           {
-            "id": "4bae9f3e9f59955d",
+            "id": "92dd5a95b0cdcfe3",
             "type": "leaf",
             "state": {
-              "type": "keyboard-shortcuts-visualization",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "临时笔记/Obsidian笔记编写规范.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -152,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "临时笔记/Obsidian笔记编写规范.md"
+              }
             }
           },
           {
@@ -181,15 +188,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4bae9f3e9f59955d",
+  "active": "92dd5a95b0cdcfe3",
   "lastOpenFiles": [
+    "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/Obsidian笔记编写规范.md",
+    "计算机/JavaWeb/前端/3 CSS.md",
     "临时笔记/MarkDown语法.md",
     "计算机/四大件/计算机网络.md",
     "计算机/四大件/计算机组成原理.md",
-    "计算机/JavaWeb/前端/3 CSS.md",
     "临时笔记/临时笔记.md",
-    "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/穿搭.md",
     "计算机/四大件/计算机网络2.md",
     "().md",
