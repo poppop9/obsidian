@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "MarkDown语法",
+      "path": "临时笔记/MarkDown语法.md"
+    },
+    {
+      "basename": "计算机网络",
+      "path": "计算机/四大件/计算机网络.md"
+    },
+    {
+      "basename": "计算机组成原理",
+      "path": "计算机/四大件/计算机组成原理.md"
+    },
+    {
       "basename": "3 CSS",
       "path": "计算机/JavaWeb/前端/3 CSS.md"
     },
@@ -35,10 +47,6 @@
     {
       "basename": "计网",
       "path": "考试/计网.md"
-    },
-    {
-      "basename": "MarkDown语法",
-      "path": "临时笔记/MarkDown语法.md"
     },
     {
       "basename": "🌏旅行",
@@ -191,14 +199,6 @@
     {
       "basename": "07 异常",
       "path": "计算机/编程语言/Java/07 异常.md"
-    },
-    {
-      "basename": "计算机网络 Draw",
-      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
-    },
-    {
-      "basename": "Java的基础语法1 Draw",
-      "path": "Excalidraw/计算机/编程语言/Java/Java的基础语法1 Draw.md"
     }
   ],
   "omittedPaths": [],

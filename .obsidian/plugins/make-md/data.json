@@ -31,7 +31,7 @@
   "spaceRowHeight": 29,
   "spacesDisablePatch": false,
   "folderNoteInsideFolder": true,
-  "sidebarTabs": true,
+  "sidebarTabs": false,
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
@@ -44,7 +44,9 @@
     "spaces://$tags/spaces://#科技美学",
     "spaces://$tags/spaces://#临时笔记",
     "spaces://$tags/spaces://#标签",
-    "spaces://$tags/spaces://#科技美学"
+    "spaces://$tags/spaces://#科技美学",
+    "//临时笔记",
+    "//科技美学"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -67,8 +69,8 @@
   "waypoints": [
     "Spaces/Home",
     "/",
-    "spaces://$tags",
-    "计算机"
+    "计算机",
+    "spaces://$tags"
   ],
   "spacesUseAlias": false,
   "fmKeyAlias": "aliases",

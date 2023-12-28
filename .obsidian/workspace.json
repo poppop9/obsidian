@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md",
+                "file": "临时笔记/MarkDown语法.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -130,8 +130,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -159,7 +158,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md"
+                "file": "临时笔记/MarkDown语法.md"
               }
             }
           },
@@ -192,8 +191,10 @@
   },
   "active": "4bae9f3e9f59955d",
   "lastOpenFiles": [
-    "临时笔记/Obsidian笔记编写规范.md",
+    "计算机/四大件/计算机网络.md",
+    "计算机/四大件/计算机组成原理.md",
     "计算机/JavaWeb/前端/3 CSS.md",
+    "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/临时笔记.md",
     "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/穿搭.md",
@@ -218,7 +219,6 @@
     "考试/移动互联.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
-    "计算机/JavaWeb/前端/2 HTML 5.md",
     "计算机/JavaWeb/前端/JavaScript",
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
