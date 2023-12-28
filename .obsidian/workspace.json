@@ -128,8 +128,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "82e190d91877a96e",
@@ -202,10 +201,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b5263ffa41a34bbc",
+  "active": "a6dd0cb7d2fc3076",
   "lastOpenFiles": [
-    "计算机/计算机.md",
+    "科技美学/微信.md",
+    "科技美学/内网穿透.md",
     "临时笔记/Obsidian笔记编写规范.md",
+    "计算机/计算机.md",
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端/3 CSS.md",
     "Spaces/Home",
@@ -230,8 +231,6 @@
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/前端/2 HTML 5.md",
     "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
-    "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
-    "计算机/JavaWeb/前端/JavaScript/7 杂.md",
     "计算机/JavaWeb/前端/JavaScript",
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
