@@ -1,6 +1,5 @@
 [
   "settings-search",
-  "cmdr",
   "obsidian-style-settings",
   "keyboard-analyzer",
   "obsidian-excalidraw-plugin",
@@ -13,5 +12,6 @@
   "obsidian-git",
   "file-order",
   "obsidian-quiet-outline",
-  "make-md"
+  "make-md",
+  "cmdr"
 ]

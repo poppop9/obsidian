@@ -47,13 +47,8 @@
             "id": "4bae9f3e9f59955d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "临时笔记/MarkDown语法.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "keyboard-shortcuts-visualization",
+              "state": {}
             }
           }
         ],
@@ -157,9 +152,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "临时笔记/MarkDown语法.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,8 +165,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,10 +183,11 @@
   },
   "active": "4bae9f3e9f59955d",
   "lastOpenFiles": [
+    "临时笔记/Obsidian笔记编写规范.md",
+    "临时笔记/MarkDown语法.md",
     "计算机/四大件/计算机网络.md",
     "计算机/四大件/计算机组成原理.md",
     "计算机/JavaWeb/前端/3 CSS.md",
-    "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/临时笔记.md",
     "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/穿搭.md",
@@ -206,7 +199,6 @@
     "科技美学/微信.md",
     "科技美学/内网穿透.md",
     "考试/计网.md",
-    "临时笔记/MarkDown语法.md",
     "临时笔记/🌏旅行.md",
     "Excalidraw/杂/杂.md",
     "临时笔记/Obsidian特殊语法.md",
