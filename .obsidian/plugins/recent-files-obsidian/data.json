@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian笔记编写规范",
+      "path": "临时笔记/Obsidian笔记编写规范.md"
+    },
+    {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
+    },
+    {
       "basename": "3 CSS",
       "path": "计算机/JavaWeb/前端/3 CSS.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "草稿纸 Draw",
       "path": "Excalidraw/杂/草稿纸 Draw.md"
-    },
-    {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "MarkDown语法",
@@ -163,10 +167,6 @@
     {
       "basename": "Spring Security",
       "path": "计算机/JavaWeb/后端/Spring Security.md"
-    },
-    {
-      "basename": "Obsidian笔记编写规范",
-      "path": "临时笔记/Obsidian笔记编写规范.md"
     },
     {
       "basename": "3 文件上云",

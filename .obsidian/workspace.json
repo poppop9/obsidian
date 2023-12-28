@@ -55,8 +55,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a6dd0cb7d2fc3076",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "临时笔记/Obsidian笔记编写规范.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -70,14 +84,6 @@
         "type": "tabs",
         "dimension": 64.68446601941747,
         "children": [
-          {
-            "id": "c91f583929b9c544",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
-          },
           {
             "id": "b5263ffa41a34bbc",
             "type": "leaf",
@@ -104,14 +110,6 @@
             }
           },
           {
-            "id": "3ce613d2ef5081f1",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
             "id": "d0b803412ff90f26",
             "type": "leaf",
             "state": {
@@ -121,9 +119,17 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "632b2e3e1356c50e",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "82e190d91877a96e",
@@ -166,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md"
+                "file": "临时笔记/Obsidian笔记编写规范.md"
               }
             }
           },
@@ -190,24 +196,23 @@
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
       "workspaces:管理工作区布局": false,
       "command-palette:打开命令面板": false,
       "remotely-save:Remotely Save": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a90c3998237f05b5",
+  "active": "a6dd0cb7d2fc3076",
   "lastOpenFiles": [
+    "临时笔记/穿搭.md",
+    "计算机/JavaWeb/前端/3 CSS.md",
     "Spaces/Home",
     "Spaces",
     "计算机/四大件/计算机网络2.md",
     "考试/计网.md",
     "Excalidraw/杂/草稿纸 Draw.md",
-    "临时笔记/穿搭.md",
     "临时笔记/MarkDown语法.md",
     "临时笔记/🌏旅行.md",
-    "计算机/JavaWeb/前端/3 CSS.md",
     "临时笔记/临时笔记.md",
     "计算机/计算机.md",
     "Excalidraw/杂/杂.md",
