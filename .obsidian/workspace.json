@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
               }
             }
           },
@@ -201,9 +200,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "64530c86702320b2",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/3 CSS.md",
+    "临时笔记/草稿纸.md",
     "计算机/计算机.md",
     "临时笔记/Obsidian笔记编写规范.md",
     "Excalidraw/杂/草稿纸 Draw.md",
@@ -224,7 +224,6 @@
     "临时笔记/🌏旅行.md",
     "临时笔记/Obsidian特殊语法.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
-    "临时笔记/草稿纸.md",
     "未命名 2.md",
     "未命名 1.md",
     "考试/JSP复习.md",
