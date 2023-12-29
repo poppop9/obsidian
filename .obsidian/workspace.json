@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -170,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -200,8 +201,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "64530c86702320b2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/前端/3 CSS.md",
     "临时笔记/草稿纸.md",
     "计算机/计算机.md",
@@ -229,7 +231,6 @@
     "考试/JSP复习.md",
     "考试/作业2.md",
     "考试/移动互联.md",
-    "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/前端/JavaScript",
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
