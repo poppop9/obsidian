@@ -62,7 +62,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "临时笔记/草稿纸.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -171,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -203,6 +203,7 @@
   },
   "active": "64530c86702320b2",
   "lastOpenFiles": [
+    "临时笔记/穿搭.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/前端/3 CSS.md",
@@ -216,7 +217,6 @@
     "计算机/四大件/计算机网络2.md",
     "计算机/四大件/计算机网络.md",
     "计算机/四大件/计算机组成原理.md",
-    "临时笔记/穿搭.md",
     "().md",
     "Spaces/Home",
     "Spaces",
