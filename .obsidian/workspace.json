@@ -134,7 +134,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\"]",
+                "query": "\"| 高大上 | asb | 九分零四 | 房贷首付 || :--: | :--: | :--: | :--: || 发射点犯得上 | 发射点犯得上 | 开发技术djlk | ljfdk ||  |  |  |  |\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,7 +143,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -203,7 +204,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "64530c86702320b2",
+  "active": "a90c3998237f05b5",
   "lastOpenFiles": [
     "临时笔记/穿搭.md",
     "临时笔记/草稿纸.md",
