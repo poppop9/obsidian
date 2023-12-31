@@ -68,9 +68,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6b485d1d08890d94",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -181,7 +191,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -201,7 +213,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "64530c86702320b2",
+  "active": "6b485d1d08890d94",
   "lastOpenFiles": [
     "临时笔记/穿搭.md",
     "临时笔记/草稿纸.md",
