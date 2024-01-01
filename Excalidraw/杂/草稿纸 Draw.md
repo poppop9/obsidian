@@ -215,11 +215,11 @@ tags: [excalidraw]
 				"type": 2
 			},
 			"seed": 709204375,
-			"version": 189,
-			"versionNonce": 962300985,
+			"version": 207,
+			"versionNonce": 656549017,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1704120186236,
+			"updated": 1704120373883,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -352,11 +352,11 @@ tags: [excalidraw]
 				"type": 2
 			},
 			"seed": 263879641,
-			"version": 150,
-			"versionNonce": 1150194169,
+			"version": 168,
+			"versionNonce": 2098369113,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1704120186236,
+			"updated": 1704120373883,
 			"link": null,
 			"locked": false,
 			"points": [
