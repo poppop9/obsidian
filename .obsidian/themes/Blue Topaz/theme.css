@@ -11027,10 +11027,11 @@ body.codebox-frosted-glass pre[class*='language-'] {
   backdrop-filter: blur(calc(var(--blur-codebox-frosted-glass)*2px));
 }
 
-body.code-box-option-folder {
+/* oooookkkk */
+body.code-box-option-folder::before {
 	content: '';
 	display: block;
-	background: url("./neil-jetbrains-mono/svg/code.svg") 10px 10px / 40px no-repeat rgb(255, 255, 255, 0);
+	background: url("https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/www.alltoall.net_code_TIsQAE49wV.jpg") 10px 10px / 40px no-repeat rgb(255, 255, 255, 0);
 	height: 30px;
 	width: 100%;
 	margin-bottom: -7px;
