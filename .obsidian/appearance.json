@@ -10,9 +10,7 @@
   "enabledCssSnippets": [
     "no 6 header",
     "custom-admonitions.35d68d",
-    "neil-jetbrains-mono",
     "CodeMirror",
-    "font",
-    "vars"
+    "neil-jetbrains-mono"
   ]
 }
