@@ -34,7 +34,7 @@
   "minimal-style@@code-size": "15px",
   "minimal-style@@minimal-code-scroll": false,
   "minimal-style@@code-background@@light": "#EFEFEF",
-  "minimal-style@@callouts-style": "callouts-default",
+  "minimal-style@@callouts-style": "callouts-outlined",
   "minimal-style@@callout-blend-mode": "var(--highlight-mix-blend-mode)",
   "minimal-style@@blockquote-color@@light": "#661890",
   "minimal-style@@blockquote-border-thickness": 4,
