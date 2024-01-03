@@ -30,7 +30,6 @@
 	      <url>http://maven.aliyun.com/nexus/content/groups/public</url>
 		  <mirrorOf>central</mirrorOf>
 	    </mirror>
-	<!--          -->
 	  </mirrors>
 	```
 - 配置环境变量
