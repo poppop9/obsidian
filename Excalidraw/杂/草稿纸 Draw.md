@@ -76,8 +76,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "text",
-			"version": 114,
-			"versionNonce": 761859777,
+			"version": 115,
+			"versionNonce": 1718031705,
 			"isDeleted": false,
 			"id": "RkkZ35Xu",
 			"fillStyle": "solid",
@@ -99,7 +99,7 @@ tags: [excalidraw]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1704184203173,
+			"updated": 1704277750049,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -159,8 +159,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "text",
-			"version": 41,
-			"versionNonce": 1052948001,
+			"version": 42,
+			"versionNonce": 640785849,
 			"isDeleted": false,
 			"id": "ip3SfnHq",
 			"fillStyle": "solid",
@@ -182,7 +182,7 @@ tags: [excalidraw]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1704184203176,
+			"updated": 1704277750052,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -198,8 +198,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "arrow",
-			"version": 209,
-			"versionNonce": 594743937,
+			"version": 211,
+			"versionNonce": 383931161,
 			"isDeleted": false,
 			"id": "05OXV3LLHobliFHQeLH2x",
 			"fillStyle": "solid",
@@ -208,11 +208,11 @@ tags: [excalidraw]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -414.2611436115714,
+			"x": -414.26114361157136,
 			"y": -324.40145169800843,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 138.1391631232646,
+			"width": 138.13916312326455,
 			"height": 0.6676203026530061,
 			"seed": 709204375,
 			"groupIds": [
@@ -223,7 +223,7 @@ tags: [excalidraw]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1704184203175,
+			"updated": 1704277750050,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -245,15 +245,15 @@ tags: [excalidraw]
 					0
 				],
 				[
-					138.1391631232646,
+					138.13916312326455,
 					0.6676203026530061
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 69,
-			"versionNonce": 1793452207,
+			"version": 71,
+			"versionNonce": 628416951,
 			"isDeleted": false,
 			"id": "gIHYhFdL",
 			"fillStyle": "solid",
@@ -280,7 +280,7 @@ tags: [excalidraw]
 					"type": "arrow"
 				}
 			],
-			"updated": 1704184206940,
+			"updated": 1704277751451,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -296,8 +296,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "text",
-			"version": 107,
-			"versionNonce": 223182273,
+			"version": 108,
+			"versionNonce": 1108113721,
 			"isDeleted": false,
 			"id": "j611qUUj",
 			"fillStyle": "solid",
@@ -319,7 +319,7 @@ tags: [excalidraw]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1704184206941,
+			"updated": 1704277751452,
 			"link": null,
 			"locked": false,
 			"fontSize": 17.292276196235942,
@@ -335,8 +335,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "arrow",
-			"version": 172,
-			"versionNonce": 2115970625,
+			"version": 176,
+			"versionNonce": 410591449,
 			"isDeleted": false,
 			"id": "d2fd4suquYu5J1moE3Lcv",
 			"fillStyle": "solid",
@@ -360,7 +360,7 @@ tags: [excalidraw]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1704184203176,
+			"updated": 1704277750052,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -389,8 +389,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "text",
-			"version": 45,
-			"versionNonce": 1453521615,
+			"version": 47,
+			"versionNonce": 234722007,
 			"isDeleted": false,
 			"id": "buUX6LiZ",
 			"fillStyle": "solid",
@@ -412,7 +412,7 @@ tags: [excalidraw]
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1704184206943,
+			"updated": 1704277751453,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -475,10 +475,10 @@ tags: [excalidraw]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1016.9899458562722,
-		"scrollY": 457.4341221224645,
+		"scrollX": 858.2059418099848,
+		"scrollY": 371.3751037795568,
 		"zoom": {
-			"value": 1
+			"value": 2
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
