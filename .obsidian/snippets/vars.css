@@ -1,0 +1,53 @@
+@import url("./font.css");
+
+/*快速自定义配置*/
+:root {
+    /*代码字体*/
+    --jetbrains-mono-font: "JetBrains Mono", "Fira Code", "Cascadia Code", Menlo, "Ubuntu Mono", Consolas, HYZhengYuan;
+    /*正文字体*/
+    --text-font: var(--jetbrains-mono-font);
+    /*标题字体*/
+    --title-font: var(--jetbrains-mono-font);
+    /*LaTeX字体(不含英语)*/
+    --latex-font: var(--jetbrains-mono-font);
+    --monospace: var(--jetbrains-mono-font);
+    /*正文行间距*/
+    --text-line-height: 1.6;
+    /*代码块行间距*/
+    --code-line-height: 1.6;
+    /*段间距*/
+    --p-spacing: 0.8rem;
+    /*文本文字*/
+    --text-size: 12px;
+
+    /*colors begin*/
+    --main-color: rgb(179, 229, 252);
+    --main-color-major: rgb(61, 192, 253);
+    --main-color-slave-36: rgb(179, 229, 252, 0.36);
+    
+    /*header*/
+    --h-border-color: var(--main-color);
+    --h-bg-color: var(--main-color-slave-36);
+
+    /*task-list-done*/
+    --task-list-item-color: var(--main-color-major);
+    --task-list-checked-box-color: rgb(255,0,0);
+    --task-list-checked-font-color: rgb(255,0,0,0.5);
+
+    /*blockquote*/
+    --blockquote-background-color: rgba(189, 195, 199,0.3);
+    --tooltip-background-color: rgba(189, 195, 199,0.3);
+
+    /*table*/
+    --thead-background-color: var(--main-color);
+    --tbody-background-color: var(--main-color-slave-36);
+    
+    /*toc*/
+    --toc-border-color: rgb(153, 153, 153);
+
+    /*tag a*/
+    --tag-a-hover:rgb(255, 255, 68);
+
+    /*code*/
+    --code-background-color: rgba(189, 195, 199,0.3);
+}
