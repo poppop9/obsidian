@@ -3,10 +3,12 @@ fonts initalization
 */
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap);
+
 @font-face {
 	font-family: "Source Code Pro Regular";
 	src: url(./rainbow/SourceCodePro-Regular.ttf);
 }
+
 @font-face {
 	font-family: "Noto Sans SC Medium";
 	src: url(./rainbow/NotoSansSC-Medium.otf);
@@ -68,6 +70,7 @@ headers settings
 	text-align: center;
 	text-shadow: 0.15rem 0.15rem 0.3rem rgb(187, 187, 187);
 }
+
 #write h2 {
 	font-size: 1.8rem;
 	margin-top: 1.8rem;
@@ -79,10 +82,12 @@ headers settings
 	border-left: 0.5rem solid var(--h-border-color);
 	border-radius: 0.4rem;
 }
+
 #write h3 {
 	font-size: 1.6rem;
 	text-decoration: underline double var(--h-border-color) 0.15rem;
 }
+
 #write h4 {
 	text-decoration: underline dotted var(--h-border-color) 0.2rem;
 }
@@ -94,17 +99,22 @@ tables settings
 	border-collapse: collapse;
 	border: 0.25rem solid var(--table-border-color);
 }
+
 #write table th {
 	background-color: var(--th-bg-color);
 }
-#write table th, td {
+
+#write table th,
+td {
 	text-align: center;
 	border: 0.13rem dashed var(--table-border-color);
 	padding: 0.5rem;
 }
+
 #write table tr:nth-child(even) {
 	background-color: var(--tr-bg-color);
 }
+
 #write table tr:hover {
 	background-color: var(--tr-hover-bg-color);
 }
@@ -112,11 +122,13 @@ tables settings
 /*
 checkboxes settings
 */
-#write .task-list-item input[type = "checkbox"] {
+#write .task-list-item input[type="checkbox"] {
 	width: 0;
 	height: 0;
 }
-#write .task-list-item input[type = "checkbox"]::before, #write input[type = "checkbox"]:checked::before {
+
+#write .task-list-item input[type="checkbox"]::before,
+#write input[type="checkbox"]:checked::before {
 	content: "";
 	display: inline-block;
 	vertical-align: middle;
@@ -129,15 +141,18 @@ checkboxes settings
 	border-radius: 50%;
 	transition: all 0.2s;
 }
-#write .task-list-item input[type = "checkbox"]:checked::before {
+
+#write .task-list-item input[type="checkbox"]:checked::before {
 	padding: 0.12rem;
 	background-clip: content-box;
 	background-color: black;
 }
-#write .task-list-item input[type = "checkbox"]:checked + p {
+
+#write .task-list-item input[type="checkbox"]:checked+p {
 	text-decoration: line-through;
 	color: var(--del-color);
 }
+
 #write input[type='checkbox']:hover::before {
 	transition: all 0.2s;
 	background-color: rgb(228, 228, 228);
@@ -147,10 +162,11 @@ checkboxes settings
 blockquotes settings
 */
 #write blockquote {
-	color:rgb(102, 102, 102);
+	color: rgb(102, 102, 102);
 	border-left: 0.25rem solid rgb(169, 202, 255);
 	padding: 0.5rem 1rem 0.6rem 1rem;
 }
+
 #write blockquote::before {
 	display: block;
 	height: 2rem;
@@ -186,39 +202,51 @@ code blocks settings
 	border-radius: 0.4rem;
 	box-shadow: var(--block-shadow);
 }
+
 #write .cm-s-inner .CodeMirror-gutters {
 	border: none;
 }
+
 #write .cm-s-inner .CodeMirror-linenumber {
 	color: rgb(212, 212, 212);
 }
+
 #write .cm-s-inner .cm-keyword {
 	color: rgb(204, 35, 35);
 }
+
 #write .cm-s-inner .cm-number {
 	color: rgb(27, 57, 226);
 }
+
 #write .cm-s-inner .cm-def {
 	color: rgb(146, 50, 255);
 }
+
 #write .cm-s-inner .cm-operator {
 	color: rgb(204, 35, 35);
 }
+
 #write .cm-s-inner .cm-variable2 {
 	color: rgb(38, 129, 219);
 }
+
 #write .cm-s-inner .cm-variable3 {
 	color: rgb(204, 35, 35);
 }
+
 #write .cm-s-inner .cm-comment {
 	color: rgb(18, 129, 18);
 }
+
 #write .cm-s-inner .cm-string {
 	color: rgb(18, 129, 18);
 }
+
 #write .cm-s-inner .cm-builtin {
 	color: rgb(218, 135, 12);
 }
+
 #write .cm-tag {
 	color: rgb(139, 10, 10);
 }
@@ -242,14 +270,18 @@ tooltips settings
 /*
 selected texts in code blocks settings
 */
-#write .CodeMirror-selected, #write .CodeMirror-selectedtext, #write .in-text-selection {
+#write .CodeMirror-selected,
+#write .CodeMirror-selectedtext,
+#write .in-text-selection {
 	background-color: var(--selection-bg-color) !important;
 }
 
 /*
 diagrams settings
 */
-#write pre[lang=’sequence’], #write pre[lang=’flow’], #write pre[lang=’mermaid’] {
+#write pre[lang=’sequence’],
+#write pre[lang=’flow’],
+#write pre[lang=’mermaid’] {
 	background-color: var(--code-bg-color);
 	border-radius: 0.4rem;
 	box-shadow: var(--block-shadow);
@@ -274,6 +306,7 @@ urls settings
 #write a {
 	color: rgb(31, 117, 255);
 }
+
 #write a:hover {
 	color: rgb(108, 164, 255);
 }
@@ -308,4 +341,33 @@ selected texts settings
 */
 #write ::selection {
 	background-color: var(--selection-bg-color);
+}
+
+.HyperMD-codeblock HyperMD-codeblock-begin HyperMD-codeblock-begin-bg HyperMD-codeblock-bg cm-line {
+	content: '';
+	display: block;
+	background: url("https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/www.alltoall.net_code_TIsQAE49wV.jpg") 10px 10px / 40px no-repeat rgb(255, 255, 255, 0);
+	height: 30px;
+	width: 100%;
+	margin-bottom: -7px;
+	border-radius: 5px;
+}
+
+.language-java {
+	content: '';
+	display: block;
+	background: url("https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/www.alltoall.net_code_TIsQAE49wV.jpg") 10px 10px / 40px no-repeat rgb(255, 255, 255, 0);
+	height: 30px;
+	width: 100%;
+	margin-bottom: -7px;
+	border-radius: 5px;
+}
+
+pre.language-java::before {
+	content: '';
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url("https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/www.alltoall.net_code_TIsQAE49wV.jpg") center center no-repeat;
+	/* 添加其他样式属性，例如边距、定位等 */
 }
