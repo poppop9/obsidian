@@ -200,5 +200,6 @@
   "blue-topaz-theme@@quiet-outline-optimize": true,
   "blue-topaz-theme@@list-indent": 2,
   "blue-topaz-theme@@list-spacing-bt": 1.4,
-  "blue-topaz-theme@@line-height-list": 1.6
+  "blue-topaz-theme@@line-height-list": 1.6,
+  "Blue-Topaz-Codebox-Highlight@@blur-codebox-frosted-glass": 2
 }
