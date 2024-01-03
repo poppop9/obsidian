@@ -5762,7 +5762,6 @@ body.all-dark .print.theme-light,
   --window-shadow2: 0 0 9px hsla(217, 15%, 83%, 0.7);
 }
 
-
 body.color-scheme-options-topaz-nord.all-dark .print.theme-light,
 body.color-scheme-options-topaz-nord.theme-dark {
   --background-primary: var(--background-primary-bg-4-bt, #2E3440);
@@ -6050,10 +6049,6 @@ body.default-tab.background-image-settings-switch.background-image-settings-mark
   --tab-background-active: transparent;
 }
 
-
-
-/*==============*/
-/*==============*/
 /*======@cuman--end========*/
 
 body.font-family-change-to-default .markdown-source-view,
@@ -11030,6 +11025,16 @@ body.codebox-frosted-glass .cm-s-obsidian div.HyperMD-codeblock-bg,
 body.codebox-frosted-glass :not(pre)>code[class*='language-'],
 body.codebox-frosted-glass pre[class*='language-'] {
   backdrop-filter: blur(calc(var(--blur-codebox-frosted-glass)*2px));
+}
+
+body.code-box-option-folder {
+	content: '';
+	display: block;
+	background: url("./neil-jetbrains-mono/svg/code.svg") 10px 10px / 40px no-repeat rgb(255, 255, 255, 0);
+	height: 30px;
+	width: 100%;
+	margin-bottom: -7px;
+	border-radius: 5px;
 }
 
 code[class*="language-"] {
