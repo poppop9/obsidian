@@ -1,5 +1,5 @@
-@import url("./neil-jetbrains-mono/vars.css");
-@import url("./neil-jetbrains-mono/CodeMirror.css");
+@import url("./vars.css");
+@import url("./CodeMirror.css");
 
 :root {
 	/*header img*/
