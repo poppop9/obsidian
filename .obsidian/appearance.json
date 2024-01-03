@@ -2,15 +2,13 @@
   "accentColor": "",
   "theme": "system",
   "baseFontSize": 20,
-  "cssTheme": "",
+  "cssTheme": "Blue Topaz",
   "interfaceFontFamily": "",
   "showViewHeader": true,
   "nativeMenus": false,
   "translucency": false,
   "enabledCssSnippets": [
     "no 6 header",
-    "custom-admonitions.35d68d",
-    "CodeMirror",
-    "neil-jetbrains-mono"
+    "custom-admonitions.35d68d"
   ]
 }
