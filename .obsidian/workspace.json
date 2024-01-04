@@ -157,11 +157,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1726e13dfa44179b",
+            "id": "ccca8284c94f2a62",
             "type": "leaf",
             "state": {
-              "type": "quiet-outline",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
+              }
             }
           },
           {
