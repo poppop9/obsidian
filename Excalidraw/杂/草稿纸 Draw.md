@@ -34,10 +34,16 @@ tags: [excalidraw]
 
 CPU ^wdKBh90W
 
+前提条件：
+- 互斥信号量mutex，初始值为1
+- empty为可使用的缓冲区数，初始值为n
+- full为缓冲区内的产品数，初始值为0 ^UUWyKE73
+
 
 # Embedded files
 5da0c3aa0de4c7df4efcca15e0985a71085136f0: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240102163106.png
 994562a6fef2ce98da3aeb82cfeba8d3501ca650: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240104224727.png
+85d4ccb0a76bd2fd92092b1cfdd67101f1d671f1: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240104235700.png
 
 %%
 # Drawing
@@ -1153,12 +1159,117 @@ CPU ^wdKBh90W
 			"updated": 1704379849035,
 			"link": null,
 			"locked": false
+		},
+		{
+			"type": "image",
+			"version": 13,
+			"versionNonce": 1848347828,
+			"isDeleted": false,
+			"id": "LG0LVtMH",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -783.0816526900398,
+			"y": 580.8866430433081,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500.00000000000006,
+			"height": 84.9264705882353,
+			"seed": 81453,
+			"groupIds": [
+				"TAVIDZQqYhkMlFTAAaGCc"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1704384076092,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "85d4ccb0a76bd2fd92092b1cfdd67101f1d671f1",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "UUWyKE73",
+			"type": "text",
+			"x": -777.0815916548836,
+			"y": 676.1498050952383,
+			"width": 296.33990478515625,
+			"height": 79.1250971446187,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"TAVIDZQqYhkMlFTAAaGCc"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 35736460,
+			"version": 272,
+			"versionNonce": 94881932,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1704384076092,
+			"link": null,
+			"locked": false,
+			"text": "前提条件：\n- 互斥信号量mutex，初始值为1\n- empty为可使用的缓冲区数，初始值为n\n- full为缓冲区内的产品数，初始值为0",
+			"rawText": "前提条件：\n- 互斥信号量mutex，初始值为1\n- empty为可使用的缓冲区数，初始值为n\n- full为缓冲区内的产品数，初始值为0",
+			"fontSize": 16.484395238462245,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 72.99999999999993,
+			"containerId": null,
+			"originalText": "前提条件：\n- 互斥信号量mutex，初始值为1\n- empty为可使用的缓冲区数，初始值为n\n- full为缓冲区内的产品数，初始值为0",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "i1AZN7Umoi1EtlOgKdh_G",
+			"type": "rectangle",
+			"x": -784.6816893111336,
+			"y": 670.5498295093008,
+			"width": 316.00006103515625,
+			"height": 93.60000610351562,
+			"angle": 0,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"TAVIDZQqYhkMlFTAAaGCc"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1353319180,
+			"version": 56,
+			"versionNonce": 1610602036,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1704384076092,
+			"link": null,
+			"locked": false
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#e03131",
+		"currentItemStrokeColor": "#2f9e44",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 1,
@@ -1171,7 +1282,7 @@ CPU ^wdKBh90W
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"scrollX": 956.9816771041023,
-		"scrollY": -65.84984019045316,
+		"scrollY": -315.84984019045316,
 		"zoom": {
 			"value": 1
 		},
