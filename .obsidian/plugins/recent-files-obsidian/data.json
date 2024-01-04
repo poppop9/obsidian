@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "操作系统考试",
+      "path": "考试/操作系统考试.md"
+    },
+    {
+      "basename": "Obsidian特殊语法",
+      "path": "临时笔记/Obsidian特殊语法.md"
+    },
+    {
+      "basename": "Obsidian笔记编写规范",
+      "path": "临时笔记/Obsidian笔记编写规范.md"
+    },
+    {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
     },
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
-    },
-    {
-      "basename": "操作系统考试",
-      "path": "考试/操作系统考试.md"
     },
     {
       "basename": "草稿纸 Draw",
@@ -53,10 +61,6 @@
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
     {
-      "basename": "Obsidian笔记编写规范",
-      "path": "临时笔记/Obsidian笔记编写规范.md"
-    },
-    {
       "basename": "计算机网络",
       "path": "计算机/四大件/计算机网络.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "🌏旅行",
       "path": "临时笔记/🌏旅行.md"
-    },
-    {
-      "basename": "Obsidian特殊语法",
-      "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
       "basename": "JavaWeb Draw",
