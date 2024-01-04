@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "考试/操作系统.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -171,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "考试/操作系统.md"
               }
             }
           },
@@ -203,10 +203,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "cbe0705f2ffa0b6f",
+  "active": "64530c86702320b2",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/3 CSS.md",
     "临时笔记/草稿纸.md",
+    "计算机/JavaWeb/前端/3 CSS.md",
     "考试/操作系统.md",
     "neil-jetbrains-mono.css",
     "Excalidraw/杂/草稿纸 Draw.md",
