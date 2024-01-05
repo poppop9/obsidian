@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "科技美学/软件.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md"
+                "file": "科技美学/软件.md"
               }
             }
           },
@@ -172,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md"
+                "file": "科技美学/软件.md"
               }
             }
           },
@@ -204,13 +205,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "92dd5a95b0cdcfe3",
   "lastOpenFiles": [
+    "临时笔记/穿搭.md",
+    "计算机/JavaWeb/前端/3 CSS.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化内存.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "考试/操作系统考试.md",
     "Excalidraw/杂/草稿纸 Draw.md",
-    "临时笔记/穿搭.md",
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/MarkDown语法.md",
@@ -219,7 +221,6 @@
     "计算机/四大件/操作系统/持久性.md",
     "计算机/JavaWeb/后端/Maven.md",
     "临时笔记/草稿纸.md",
-    "计算机/JavaWeb/前端/3 CSS.md",
     "neil-jetbrains-mono.css",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/计算机.md",

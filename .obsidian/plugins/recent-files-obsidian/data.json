@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "软件",
+      "path": "科技美学/软件.md"
+    },
+    {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
+    },
+    {
       "basename": "3 CSS",
       "path": "计算机/JavaWeb/前端/3 CSS.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "草稿纸 Draw",
       "path": "Excalidraw/杂/草稿纸 Draw.md"
-    },
-    {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "Obsidian特殊语法",
@@ -139,10 +143,6 @@
     {
       "basename": "03 Java的基础语法1",
       "path": "计算机/编程语言/Java/03 Java的基础语法1.md"
-    },
-    {
-      "basename": "软件",
-      "path": "科技美学/软件.md"
     },
     {
       "basename": "文字美学",
