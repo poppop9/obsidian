@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/四大件/操作系统/虚拟化/虚拟化内存.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/操作系统/虚拟化/虚拟化内存.md"
+                "file": "考试/操作系统考试.md"
               }
             }
           },
@@ -172,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/操作系统/虚拟化/虚拟化内存.md"
+                "file": "考试/操作系统考试.md"
               }
             }
           },
@@ -204,10 +205,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "64530c86702320b2",
   "lastOpenFiles": [
-    "考试/操作系统考试.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化内存.md",
+    "考试/操作系统考试.md",
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
     "计算机/JavaWeb/前端/3 CSS.md",
     "临时笔记/穿搭.md",
