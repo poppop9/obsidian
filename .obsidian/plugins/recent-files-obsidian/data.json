@@ -5,6 +5,10 @@
       "path": "考试/操作系统考试.md"
     },
     {
+      "basename": "虚拟化CPU",
+      "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
+    },
+    {
       "basename": "草稿纸 Draw",
       "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
-    },
-    {
-      "basename": "虚拟化CPU",
-      "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
     },
     {
       "basename": "计算机网络2",
