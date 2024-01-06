@@ -85,6 +85,8 @@ FCFS: ^kXjgrfO6
 
 SSTF: ^do8UtMr8
 
+110先到100，从100到68…… ^n2626deA
+
 
 # Embedded files
 5da0c3aa0de4c7df4efcca15e0985a71085136f0: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240102163106.png
@@ -3409,6 +3411,43 @@ d696d0f843efdf94f24b086030b9bfe87fc3a293: https://obsidian-1307744200.cos.ap-gua
 			"locked": false
 		},
 		{
+			"id": "n2626deA",
+			"type": "text",
+			"x": -762.3190086106795,
+			"y": 2505.219492359649,
+			"width": 222.63990783691406,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 696278708,
+			"version": 75,
+			"versionNonce": 1173771020,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1704551711762,
+			"link": null,
+			"locked": false,
+			"text": "110先到100，从100到68……",
+			"rawText": "110先到100，从100到68……",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "110先到100，从100到68……",
+			"lineHeight": 1.2
+		},
+		{
 			"id": "PUoTK6kc",
 			"type": "text",
 			"x": -749.118935368492,
@@ -3523,7 +3562,7 @@ d696d0f843efdf94f24b086030b9bfe87fc3a293: https://obsidian-1307744200.cos.ap-gua
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#e03131",
+		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 1,
@@ -3535,7 +3574,7 @@ d696d0f843efdf94f24b086030b9bfe87fc3a293: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 846.618935368492,
+		"scrollX": 1221.618935368492,
 		"scrollY": -2030.3194603161917,
 		"zoom": {
 			"value": 1
