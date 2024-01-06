@@ -56,12 +56,20 @@ P0运行完后，需要归还已分配的资源
 
 说明尚需资源为0 10 7 2 ^5U1QKuoi
 
+OPT: ^sjVGRUct
+
+首先是2 3 1 进来了 ^u1FPTyIv
+
+，2再进来了更新了原来的2，还是2 3 1，4进来，
+3在后面要使用，2也要使用，所以淘汰1 ^AS2Z5zlN
+
 
 # Embedded files
 5da0c3aa0de4c7df4efcca15e0985a71085136f0: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240102163106.png
 994562a6fef2ce98da3aeb82cfeba8d3501ca650: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240104224727.png
 85d4ccb0a76bd2fd92092b1cfdd67101f1d671f1: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240104235700.png
 a041a9e831914c2ddb555c4f0ebea45d6ce8d1a3: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240105105116.png
+e1da97656258e1f8031b3dec765b6b218b788c4f: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240106132849.png
 
 %%
 # Drawing
@@ -2276,12 +2284,211 @@ a041a9e831914c2ddb555c4f0ebea45d6ce8d1a3: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "说明尚需资源为0 10 7 2",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "sjVGRUct",
+			"type": "text",
+			"x": -704.0816526900398,
+			"y": 1522.1586598062127,
+			"width": 50.05593683053695,
+			"height": 28.373723517663908,
+			"angle": 0,
+			"strokeColor": "#1971c2",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 2081439924,
+			"version": 124,
+			"versionNonce": 958920332,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1704518991039,
+			"link": null,
+			"locked": false,
+			"text": "OPT:",
+			"rawText": "OPT:",
+			"fontSize": 23.64476959805326,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 21,
+			"containerId": null,
+			"originalText": "OPT:",
+			"lineHeight": 1.2
+		},
+		{
+			"type": "image",
+			"version": 141,
+			"versionNonce": 689365684,
+			"isDeleted": false,
+			"id": "anExIFJM",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -700.8500637445627,
+			"y": 1280.4488368652628,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 712.9681791507611,
+			"height": 232.43035285890016,
+			"seed": 44048,
+			"groupIds": [
+				"bXqV8oojYcv7wLQIQ1bJF"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1704519102470,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "e1da97656258e1f8031b3dec765b6b218b788c4f",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "rnirAR3jb8_36glS19B04",
+			"type": "line",
+			"x": -215.8816404830086,
+			"y": 1356.2998473112218,
+			"width": 142.39996337890625,
+			"height": 0,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"bXqV8oojYcv7wLQIQ1bJF"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1142688564,
+			"version": 27,
+			"versionNonce": 1111806604,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1704519102470,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					142.39996337890625,
+					0
+				]
+			],
+			"lastCommittedPoint": [
+				142.39996337890625,
+				0
+			],
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": null
+		},
+		{
+			"id": "u1FPTyIv",
+			"type": "text",
+			"x": -649.0816526900398,
+			"y": 1521.499829000675,
+			"width": 175.2399444580078,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"bXqV8oojYcv7wLQIQ1bJF"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 945731980,
+			"version": 85,
+			"versionNonce": 252734516,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1704519102470,
+			"link": null,
+			"locked": false,
+			"text": "首先是2 3 1 进来了",
+			"rawText": "首先是2 3 1 进来了",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "首先是2 3 1 进来了",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "AS2Z5zlN",
+			"type": "text",
+			"x": -484.08165269003985,
+			"y": 1521.499829000675,
+			"width": 434.8199157714844,
+			"height": 48,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"bXqV8oojYcv7wLQIQ1bJF"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1587012620,
+			"version": 179,
+			"versionNonce": 359753740,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1704519111297,
+			"link": null,
+			"locked": false,
+			"text": "，2再进来了更新了原来的2，还是2 3 1，4进来，\n3在后面要使用，2也要使用，所以淘汰1",
+			"rawText": "，2再进来了更新了原来的2，还是2 3 1，4进来，\n3在后面要使用，2也要使用，所以淘汰1",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 42,
+			"containerId": null,
+			"originalText": "，2再进来了更新了原来的2，还是2 3 1，4进来，\n3在后面要使用，2也要使用，所以淘汰1",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1971c2",
+		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 1,
@@ -2293,10 +2500,10 @@ a041a9e831914c2ddb555c4f0ebea45d6ce8d1a3: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1008.8150104374357,
-		"scrollY": -471.41650838299876,
+		"scrollX": 846.9816771041023,
+		"scrollY": -1096.7998396818273,
 		"zoom": {
-			"value": 0.7499999999999998
+			"value": 1
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
