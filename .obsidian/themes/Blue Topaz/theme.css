@@ -6187,40 +6187,7 @@ body.reduce-bottom-padding:not(.plugin-cm-typewriter-scroll) .cm-s-obsidian .cm-
 /* cssclass: kanban */
 /* adapted from spectrum theme, thanks to @Braweria. https://github.com/Braweria/Spectrum */
 /* a kind of css-based pseudo-kanban feature */
-.kanban ul {
-  display: flex;
-  flex-direction: row;
-  border: 0px solid var(--p-kanban-border-color);
-  padding: 0rem;
-  border-radius: var(--radius-m);
-  flex-wrap: wrap;
-}
 
-.kanban ul>li .list-bullet:after {
-  display: none;
-}
-
-.kanban ul>li {
-  flex: 1 1 20%;
-  padding: 0.1em 1em 0.1em 0.8em;
-  margin: 0 0.3em 0.3em 0 !important;
-  list-style: none;
-  border: 1px solid var(--p-kanban-border-color);
-  border-left: 1px solid var(--p-kanban-border-color) !important;
-  border-radius: var(--radius-s);
-  word-wrap: break-word;
-  word-break: break-word;
-}
-
-.kanban ul li.task-list-item .task-list-item-checkbox {
-  margin-left: auto;
-}
-
-
-.kanban ul .list-collapse-indicator.collapse-indicator.collapse-icon::before {
-  color: var(--text-accent);
-  transition: transform 10ms linear 0s
-}
 
 body.colorful-p-kanban .kanban ul>li:nth-of-type(8n+1) {
   background-color: var(--p-kanban-color-1);
