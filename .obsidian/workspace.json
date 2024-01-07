@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "64530c86702320b2",
+            "id": "9e43f4535d8baf4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "考试/JSP复习.md",
+                "file": "考试/操作系统考试.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md"
+                "file": "考试/操作系统考试.md"
               }
             }
           },
@@ -172,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md"
+                "file": "考试/操作系统考试.md"
               }
             }
           },
@@ -204,10 +205,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "9e43f4535d8baf4f",
   "lastOpenFiles": [
-    "考试/JSP复习.md",
     "计算机/JavaWeb/前端/3 CSS.md",
+    "考试/JSP复习.md",
     "考试/操作系统考试.md",
     "临时笔记/草稿纸.md",
     "Excalidraw/杂/草稿纸 Draw.md",
