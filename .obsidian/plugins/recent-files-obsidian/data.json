@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "JSP复习",
+      "path": "考试/JSP复习.md"
+    },
+    {
+      "basename": "操作系统考试",
+      "path": "考试/操作系统考试.md"
+    },
+    {
       "basename": "3 CSS",
       "path": "计算机/JavaWeb/前端/3 CSS.md"
     },
@@ -15,14 +23,6 @@
     {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
-      "basename": "操作系统考试",
-      "path": "考试/操作系统考试.md"
-    },
-    {
-      "basename": "JSP复习",
-      "path": "考试/JSP复习.md"
     },
     {
       "basename": "草稿纸 Draw",
