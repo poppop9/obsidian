@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Spring Security",
+      "path": "计算机/JavaWeb/后端/Spring Security.md"
+    },
+    {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
       "basename": "3 CSS",
       "path": "计算机/JavaWeb/前端/3 CSS.md"
     },
@@ -67,10 +75,6 @@
     {
       "basename": "持久性",
       "path": "计算机/四大件/操作系统/持久性.md"
-    },
-    {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "1 SpringBoot",
@@ -195,10 +199,6 @@
     {
       "basename": "Docker",
       "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "Docker Draw",
-      "path": "Excalidraw/计算机/Docker Draw.md"
     }
   ],
   "omittedPaths": [],
