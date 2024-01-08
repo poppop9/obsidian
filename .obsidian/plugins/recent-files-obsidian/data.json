@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "操作系统考试",
-      "path": "考试/操作系统考试.md"
+      "basename": "7 杂",
+      "path": "计算机/JavaWeb/前端/JavaScript/7 杂.md"
+    },
+    {
+      "basename": "1 基础Ⅰ",
+      "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+    },
+    {
+      "basename": "3 CSS",
+      "path": "计算机/JavaWeb/前端/3 CSS.md"
     },
     {
       "basename": "虚拟化内存",
       "path": "计算机/四大件/操作系统/虚拟化/虚拟化内存.md"
     },
     {
-      "basename": "虚拟化CPU",
-      "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
+      "basename": "操作系统考试",
+      "path": "考试/操作系统考试.md"
     },
     {
-      "basename": "3 CSS",
-      "path": "计算机/JavaWeb/前端/3 CSS.md"
+      "basename": "虚拟化CPU",
+      "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
     },
     {
       "basename": "穿搭",
@@ -115,14 +123,6 @@
     {
       "basename": "3 工具对象",
       "path": "计算机/JavaWeb/前端/JavaScript/3 工具对象.md"
-    },
-    {
-      "basename": "7 杂",
-      "path": "计算机/JavaWeb/前端/JavaScript/7 杂.md"
-    },
-    {
-      "basename": "1 基础Ⅰ",
-      "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
     },
     {
       "basename": "6 浏览器对象",
