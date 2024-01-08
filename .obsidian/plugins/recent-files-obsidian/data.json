@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "虚拟化CPU",
+      "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
+    },
+    {
       "basename": "操作系统考试",
       "path": "考试/操作系统考试.md"
     },
     {
       "basename": "7 杂",
       "path": "计算机/JavaWeb/前端/JavaScript/7 杂.md"
+    },
+    {
+      "basename": "草稿纸 Draw",
+      "path": "Excalidraw/杂/草稿纸 Draw.md"
+    },
+    {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "1 基础Ⅰ",
@@ -19,14 +31,6 @@
     {
       "basename": "虚拟化内存",
       "path": "计算机/四大件/操作系统/虚拟化/虚拟化内存.md"
-    },
-    {
-      "basename": "虚拟化CPU",
-      "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
-    },
-    {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "JSP复习",
@@ -43,10 +47,6 @@
     {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
-      "basename": "草稿纸 Draw",
-      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "2 HTML 5",
