@@ -377,7 +377,7 @@ Servlet是javax.Servlet包中HttpServlet类的子类，运行在Web服务器的S
 Servlet容器，从属于Java虚拟机，根据Servlet的生命周期的规范，负责执行Servlet对象的初始化、运行和卸载等动作。
 Servlet的生命周期：Servlet在容器中从创建到删除的过程。
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223019.png)
-## 生命周期
+## 生命周期阶段
 1. 初始化阶段
 	1. 装载：由servlet容器装载1个servlet类，把它装载到java内存中，servlet容器可创建1个servlet对象并与web.xml中的配置对应起来
 	2. 初始化子阶段：调用servlet中的init()方法
@@ -386,9 +386,25 @@ Servlet的生命周期：Servlet在容器中从创建到删除的过程。
 3. 消亡阶段
 >当Servlet应用被终止后，Servlet容器会调用destory()方法对Servlet对象进行销毁动作。在消亡的过程中，Servlet容器将释放它所占的资源。
 
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223329.png)
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223522.png)
+## 生命周期过程
+①装载Servlet，装载情形：Servlet容器启动时自动加载某些Servlet；在Servlet容器启动后,客户首次向Servlet发出请求；Servlet的类文件被更新后，重新加载Servlet。
+②实例化一个Servlet实例对象。
+③调用Servlet的init( )方法进行初始化。
+④服务。容器收到对该Servlet的请求，则调用该Servlet对象的service（）方法处理请求。
+⑤卸载。
+当服务器端不再需要该Servlet的时候，服务器调用destroy（）方法卸载该Servlet，释放Servlet运行时占用的资源。
 
-
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223634.png)
+## 编写和部署Servlet
+1. 创建Java工程
+2. 添加web框架
+3. 加载lib包
+4. 创建servlet类
+5. 编写servlet类
+	1. FirstServlet：![Uploading file...d4ugs](
+6. 配置xml
+7. 运行
 
 
 
