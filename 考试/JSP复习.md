@@ -402,8 +402,14 @@ Servlet的生命周期：Servlet在容器中从创建到删除的过程。
 3. 加载lib包
 4. 创建servlet类
 5. 编写servlet类
-	1. FirstServlet：![Uploading file...d4ugs](
+	1. FirstServlet：定义了init()方法、doGet()方法、doPost()方法和destory()方法
+		1. 多次刷新，init方法只会执行一次，doGet方法会执行多次
+
+![700](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223959.png)
+
 6. 配置xml
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110224046.png)
+
 7. 运行
 
 
