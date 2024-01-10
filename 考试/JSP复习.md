@@ -367,16 +367,26 @@ JSP的实质就是Servlet，所有JSP页面传回服务端都要转为Servlet进
 Servlet是服务器端运行的一种Java应用程序。当浏览器端有请求则将其结果传递给浏览器。
 在JSP中使用到的所有对象都将被转换为Servlet或者非Servlet的Java对象，然后被执行，所以执行JSP实际上与执行Servlet是一样的。
 由于JSP编写HTML页面直观且易调试，因此JSP逐步取代Servlet在开发页面中的作用
-
 ### 区别
 - 编程方式不同：JSP是为了解决Servlet中相对困难的编程技术而开发的技术，JSP比servlet编写起来简单
-- Servlet必须在编译以后才能执行：JSP并不需要另外进行编译，JSP容器会自动完成这一工作，而Servlet在每次修改代码之后都需要编译完才能执行，JSP页面部署到WEB应用时只需将JSP页面复制到指定的目录下，当它第一次被访问时，WEB服务器自动将JSP代码转换为Java代码并自动编译。
-③运行速度不同：由于JSP容器将JSP程序编译成Servlet的时候需要一些时间，所以JSP的运行速度比Servlet要慢一些，不过，如果JSP文件能毫无变化的重复使用，它在第一次以后的调用中运行速度就会和Servlet一样了，这是因为JSP 容器接到请求以后会确认传递过来的JSP是否有改动，如果没有改动的话，将直接调用JSP编译过的Servlet类，并提供给客户端解释执行，如果JSP文件有所改变，JSP 容器将重新将它编译成Servlet，然后再提交给客户端；
-④Servlet用来写业务逻辑层是很强大的，但是对于写表示层就很不方便。JSP则主要是为了方便写表示层而设计的。
+- Servlet必须在编译以后才能执行：JSP并不需要另外进行编译，JSP容器会自动完成这一工作，而Servlet在每次修改代码之后都需要编译完才能执行，JSP页面部署到WEB应用时只需将JSP页面复制到指定的目录下，当它第一次被访问时，WEB服务器自动将JSP代码转换为Java代码并自动编译
+- 运行速度不同：由于JSP容器将JSP程序编译成Servlet的时候需要一些时间，所以JSP的运行速度比Servlet要慢一些，不过，如果JSP文件能毫无变化的重复使用，它在第一次以后的调用中运行速度就会和Servlet一样了，这是因为JSP 容器接到请求以后会确认传递过来的JSP是否有改动，如果没有改动的话，将直接调用JSP编译过的Servlet类，并提供给客户端解释执行，如果JSP文件有所改变，JSP 容器将重新将它编译成Servlet，然后再提交给客户端
+- Servlet用来写业务逻辑层是很强大的，但是对于写表示层就很不方便。JSP则主要是为了方便写表示层而设计的。
+## 工作原理
+Servlet是javax.Servlet包中HttpServlet类的子类，运行在Web服务器的Servlet容器里。
+Servlet容器，从属于Java虚拟机，根据Servlet的生命周期的规范，负责执行Servlet对象的初始化、运行和卸载等动作。
+Servlet的生命周期：Servlet在容器中从创建到删除的过程。
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223019.png)
+## 生命周期
+1. 初始化阶段
+	1. 装载：由servlet容器装载1个servlet类，把它装载到java内存中，servlet容器可创建1个servlet对象并与web.xml中的配置对应起来
+	2. 初始化子阶段：调用servlet中的init()方法
+2. 运行阶段【这个阶段中是实际响应客户端的请求】
+>当有请求时，Servlet会创建HttpServletRequest和HttpServletResponse对象，然后调用service(HttpServletRequest request, HttpServletResponse response)方法。service()方法通过request对象获得请求对象的信息并加以处理，再由response对象 对客户端做出响应。
+3. 消亡阶段
+>当Servlet应用被终止后，Servlet容器会调用destory()方法对Servlet对象进行销毁动作。在消亡的过程中，Servlet容器将释放它所占的资源。
 
-
-
-
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223329.png)
 
 
 
