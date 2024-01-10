@@ -36821,7 +36821,7 @@ function get_custom_element_value(prop, value, props_definition, transform) {
 var SvelteComponent = class {
   constructor() {
     /**
-     * ### PRIVATE API
+     * ## PRIVATE API
      *
      * Do not use, may change at any time
      *
@@ -36829,7 +36829,7 @@ var SvelteComponent = class {
      */
     __publicField(this, "$$");
     /**
-     * ### PRIVATE API
+     * ## PRIVATE API
      *
      * Do not use, may change at any time
      *

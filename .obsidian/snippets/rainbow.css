@@ -4,14 +4,29 @@ fonts initalization
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap);
 
+
 @font-face {
-	font-family: "Source Code Pro Regular";
-	src: url(./rainbow/SourceCodePro-Regular.ttf);
+	font-family: "dymht";
+	src: url(抖音美好体.otf);
 }
 
 @font-face {
 	font-family: "Noto Sans SC Medium";
 	src: url(./rainbow/NotoSansSC-Medium.otf);
+}
+
+/* 行内代码字体 */
+@font-face {
+	font-family: "Source Code Pro Regular";
+	src: url(./rainbow/SourceCodePro-Regular.ttf);
+}
+
+/* 代码块字体 */
+@font-face {
+	font-family: 'JetBrains Mono';
+	src: url("https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2") format("woff2"), url("https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
 }
 
 @page {
@@ -65,28 +80,6 @@ yaml header settings
 /*
 headers settings
 */
-#write h1 {
-	font-size: 2.2rem;
-	text-align: center;
-	text-shadow: 0.15rem 0.15rem 0.3rem rgb(187, 187, 187);
-}
-
-#write h2 {
-	font-size: 1.8rem;
-	margin-top: 1.8rem;
-	margin-left: -1.5rem;
-	margin-right: -1.5rem;
-	background-color: var(--h-bg-color);
-	padding-left: 1rem;
-	padding-right: 1rem;
-	border-left: 0.5rem solid var(--h-border-color);
-	border-radius: 0.4rem;
-}
-
-#write h3 {
-	font-size: 1.6rem;
-	text-decoration: underline double var(--h-border-color) 0.15rem;
-}
 
 #write h4 {
 	text-decoration: underline dotted var(--h-border-color) 0.2rem;
@@ -159,23 +152,6 @@ checkboxes settings
 }
 
 /*
-blockquotes settings
-*/
-#write blockquote {
-	color: rgb(102, 102, 102);
-	border-left: 0.25rem solid rgb(169, 202, 255);
-	padding: 0.5rem 1rem 0.6rem 1rem;
-}
-
-#write blockquote::before {
-	display: block;
-	height: 2rem;
-	width: 1.5rem;
-	content: "🌈";
-	font-size: 1.2rem;
-}
-
-/*
 horizontal rules settings
 */
 #write hr {
@@ -189,18 +165,6 @@ horizontal rules settings
 #write p {
 	font-size: 1rem;
 	line-height: 1.6rem;
-}
-
-/*
-code blocks settings
-*/
-#write .md-fences {
-	font-family: var(--monospace-font);
-	font-size: 1rem;
-	padding: 0.6rem;
-	background-color: var(--code-bg-color);
-	border-radius: 0.4rem;
-	box-shadow: var(--block-shadow);
 }
 
 #write .cm-s-inner .CodeMirror-gutters {
@@ -288,19 +252,6 @@ diagrams settings
 }
 
 /*
-inline codes settings
-*/
-#write code {
-	font-family: var(--monospace-font);
-	margin-left: 0.25rem;
-	margin-right: 0.25rem;
-	padding: 0.05rem 0.3rem;
-	background-color: var(--code-bg-color);
-	border-radius: 0.4rem;
-	box-shadow: 0.13rem 0.13rem 0.26rem rgb(197, 197, 197);
-}
-
-/*
 urls settings
 */
 #write a {
@@ -343,26 +294,616 @@ selected texts settings
 	background-color: var(--selection-bg-color);
 }
 
-.HyperMD-codeblock HyperMD-codeblock-begin HyperMD-codeblock-begin-bg HyperMD-codeblock-bg cm-line::before {
-	content: '';
-	display: block;
-	height: 27px;
-	width: 16%;
-	background: url("https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/www.alltoall.net_code_TIsQAE49wV.jpg") center center no-repeat;
-	background-size: 100%;
-	/* 添加其他样式属性，例如边距、定位等 */
-	text-align: left;
-	/* 居左对齐 */
+/* ----------------------------------------------------------------------------------- */
+/* 特殊字体 */
+/* 高亮 */
+.theme-light .cm-s-obsidian span.cm-highlight:not([class*="code"]) {
+	background-color: hsla(34, 100%, 80%, 0.847);
+	border-radius: 5px;
+	padding: 1px 2px;
+	margin: 0 2px;
+	-webkit-box-decoration-break: clone
 }
 
-pre.language-java::before {
+
+.theme-dark .cm-s-obsidian span.cm-highlight:not([class*="code"]) {
+	background-color: hsla(57, 40%, 38%, 0.541);
+	border-radius: 5px;
+	padding: 1px 2px;
+	margin: 0 2px;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* 正文字体 */
+/* .markdown-source-view {
+	font-size: 20px;
+}
+
+.markdown-preview-view {
+	font-size: 20px;
+} */
+
+/* ------------------------------------------------------------ */
+/* 标题 */
+.HyperMD-header .cm-header-1 {
+	font-size: 1.28em !important;
+	font-weight: 10px;
+	font-family: 'dymht';
+}
+
+.HyperMD-header-1 {
+	text-align: center;
+	border-bottom-style: groove;
+	border-color: hsla(210, 34%, 63%, 0.4);
+	border-width: 3.3px;
+	margin: 15rem;
+}
+
+/* 阅读模式 */
+h1,
+.markdown-rendered h1 {
+	font-weight: 10px;
+	text-align: center;
+	font-size: 2.3em !important;
+	border-bottom-style: groove;
+	border-color: hsla(210, 34%, 63%, 0.4);
+	border-width: 3.3px;
+
+	font-family: 'dymht';
+}
+
+/* 标题2 */
+.cm-header.cm-header-2:not(.cm-formatting-header-2) {
+	font-size: 1.1em !important;
+	border-left: 0.7rem solid hsla(210, 34%, 63%, 0.4);
+	border-radius: 0.4rem;
+	background-color: hsla(210, 67%, 74%, 0.4);
+	line-height: 1.45em;
+	padding-left: 0.7rem;
+	padding-bottom: 0.05rem;
+	position: absolute;
+	width: 100%;
+	top: 8px;
+
+	outline-style: double;
+	outline-color: hsla(210, 34%, 63%, 0.575);
+	outline-offset: 2px;
+
+	font-family: 'dymht';
+}
+
+.theme-light span.cm-header.cm-header-2 {
+	color: #0f112e;
+}
+
+/* 编辑模式下标题2的前面的##号 */
+span.cm-formatting.cm-formatting-header.cm-formatting-header-2.cm-header.cm-header-2 {
+	font-size: 1.1em !important;
+}
+
+/* 编辑模式下，与文字上下间距 */
+.cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-2 {
+	padding-bottom: 1rem;
+	margin-top: 1rem !important;
+}
+
+h2,
+.markdown-rendered h2 {
+	font-size: 1.75em !important;
+	border-left: 0.5rem solid hsla(210, 34%, 63%, 0.4);
+	border-radius: 0.4rem;
+	background-color: hsla(210, 67%, 74%, 0.4);
+	line-height: 1.45em;
+	padding-left: 0.7rem;
+	padding-bottom: 0.05rem;
+	width: 100%;
+	margin-bottom: 0.1rem;
+
+	outline-style: double;
+	outline-color: hsla(210, 34%, 63%, 0.575);
+	outline-offset: 2px;
+
+	font-family: 'dymht';
+}
+
+.theme-light h2 {
+	color: #2a2b2e;
+}
+
+/* 标题3 */
+.cm-header.cm-header-3:not(.cm-formatting-header-3) {
+	font-size: 0.88em !important;
+	border-radius: 0.4rem;
+	background-color: hsla(210, 34%, 63%, 0.575);
+	line-height: 1.45em;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-bottom: 0.2rem;
+	color: #ffffff;
+
+	outline-style: dashed;
+	outline-color: hsla(210, 34%, 63%, 0.833);
+	outline-offset: 1px;
+}
+
+/* 编辑模式下，与文字上下间距 */
+.cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-3 {
+	padding-top: 0.9rem;
+	padding-bottom: 0.7rem;
+}
+
+h3,
+.markdown-rendered h3 {
+	font-size: 1.25em !important;
+	background-color: hsla(210, 34%, 63%, 0.575);
+	border-radius: 0.4rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-bottom: 0.2rem;
+	display: inline-block;
+	line-height: 1.4em;
+	margin-top: 1.5rem;
+	margin-bottom: 0rem;
+
+	outline-style: dashed;
+	outline-color: hsla(210, 34%, 63%, 0.833);
+	outline-offset: 1px;
+}
+
+.theme-light h3 {
+	color: #ffffff;
+}
+
+/* 标题3的另一种样式
+h3,
+.markdown-rendered h3 {
+	font-size: 1.25em !important;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-bottom: 0.2rem;
+	display: inline-block;
+	line-height: 1.4em;
+	margin-top: 1.5rem;
+	margin-bottom: 0rem;
+
+	border-left:double;
+	border-right:double;
+	border-color: hsla(210, 34%, 63%, 0.833);
+	border-width: 0.3rem;
+
+	text-shadow: 2px 2px 5px hsla(210, 34%, 63%, 0.833);
+} */
+
+
+.markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h3) {
+	margin-top: 0.2rem;
+}
+
+/* 标题4 */
+.cm-header.cm-header-4:not(.cm-formatting-header-4) {
+	font-size: 0.86em !important;
+	position: relative;
+}
+
+.cm-header.cm-header-4:not(.cm-formatting-header-4)::after {
+	content: "";
+	position: absolute;
+	bottom: -0.03em;
+	left: 0;
+	width: calc(100% + 0.1ch);
+	border-bottom: 0.2em double hsla(209, 64%, 53%, 0.66);
+}
+
+/* 编辑模式下，与文字上下间距 */
+.cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-4 {
+	padding-top: 0.2rem;
+	padding-bottom: 0.5rem;
+}
+
+h4[data-heading] {
+	font-size: 1.1em;
+	display: inline-block;
+	position: relative;
+	line-height: 1.5em;
+	margin-top: 0.6rem;
+	margin-bottom: 0rem;
+}
+
+h4[data-heading]::after {
+	content: "";
+	position: absolute;
+	bottom: -0.03em;
+	/* 调整下划线与文本之间的距离 */
+	left: 0;
+	width: calc(100% + 0.1ch);
+	border-bottom: 0.2em double hsla(209, 64%, 53%, 0.66);
+}
+
+.markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h4) {
+	margin-top: 0.2rem;
+}
+
+/* -------------------------------------------------------------- */
+/*
+行内代码
+*/
+/* 行内代码的头尾两个点 */
+.cm-s-obsidian .cm-formatting {
+	margin: 0.2rem;
+}
+
+/* 编辑模式，行内代码 */
+.cm-s-obsidian .cm-inline-code:not(.cm-formatting) {
+	font-family: "Source Code Pro Regular", "Source Code Pro", monospace;
+	padding: 0.1rem 0.17rem;
+	margin-left: 0.25rem;
+	margin-right: 0.28rem;
+	box-shadow: 0.12rem 0.02rem 0.4rem rgb(150, 150, 150);
+}
+
+.theme-light .cm-s-obsidian .cm-inline-code:not(.cm-formatting) {
+	background-color: rgb(247, 247, 247);
+}
+
+/* .theme-dark .cm-s-obsidian .cm-inline-code:not(.cm-formatting) {
+	background-color: rgb(63, 60, 60);
+} */
+
+/* 阅读模式，行内代码 */
+.markdown-rendered code:not(pre code) {
+	margin-right: 0.25rem;
+	font-family: "Source Code Pro Regular", "Source Code Pro", monospace;
+	box-shadow: 0.12rem 0.02rem 0.4rem rgb(150, 150, 150);
+	margin-left: 0.25rem;
+	margin-right: 0.28rem;
+}
+
+.theme-light .markdown-rendered code:not(pre code) {
+	/* color: rgb(0, 0, 0); */
+	background-color: rgb(247, 247, 247);
+}
+
+/* -------------------------------------------------------------- */
+/*
+代码块
+*/
+/* 编辑模式下的代码块的前面 */
+.HyperMD-codeblock-begin-bg::before {
 	content: '';
 	display: block;
 	height: 27px;
-	width: 16%;
+	width: 48px;
 	background: url("https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/www.alltoall.net_code_TIsQAE49wV.jpg") center center no-repeat;
 	background-size: 100%;
-	/* 添加其他样式属性，例如边距、定位等 */
 	text-align: left;
-	/* 居左对齐 */
+	margin-left: -5px;
+	/* 调整数值以向下移动图片 */
+	background-position: center 10px;
+}
+
+/* 阅读模式下的代码块的前面 */
+pre::before {
+	content: '';
+	display: block;
+	height: 20px;
+	width: 48px;
+	background: url("https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/www.alltoall.net_code_TIsQAE49wV.jpg") center center no-repeat;
+	background-size: 100%;
+	text-align: left;
+	margin-left: -5px;
+	background-position: center 1px;
+}
+
+
+/* 编辑模式下的代码块设置背景和圆角 */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-begin {
+	border-radius: 0.4rem;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock-end {
+	border-radius: 0.4rem;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+/* 编辑模式下的代码块内代码设置字体 */
+.markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
+	font-family: 'JetBrains Mono' !important;
+	font-size: 16px;
+}
+
+/* 阅读模式下的代码块设置背景和圆角 */
+.markdown-rendered pre {
+	/* background-color: rgb(247, 247, 247); */
+	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
+	border-bottom: none;
+	border-radius: 0.5rem;
+}
+
+/* 阅读模式下的代码块内代码设置字体 */
+.markdown-rendered pre code {
+	font-family: 'JetBrains Mono' !important;
+	font-size: 16px;
+}
+
+/* 阅读模式的代码块不换行 */
+body:not(.whole-code-wrap) code[class*='language-'],
+body:not(.whole-code-wrap) pre[class*='language-'] {
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: break-word;
+	white-space: pre;
+	white-space-collapse: preserve;
+	text-wrap: nowrap;
+	-moz-tab-size: 4 !important;
+	-o-tab-size: 4 !important;
+	tab-size: 4 !important;
+}
+
+/* 代码高亮 */
+/* 编辑模式 */
+.theme-light span.cm-hmd-codeblock.cm-type,
+.theme-light span.cm-hmd-codeblock.cm-keyword,
+.theme-light span.cm-hmd-codeblock.cm-tag {
+	color: #174ad4;
+}
+
+.theme-light span.cm-hmd-codeblock.cm-variable {
+	color: #851691;
+}
+
+.theme-light span.cm-hmd-codeblock.cm-operator {
+	color: #000000;
+}
+
+.theme-light span.cm-def.cm-hmd-codeblock {
+	color: #000000;
+}
+
+.theme-light .cm-property,
+.theme-light .cm-qualifier,
+.theme-light .cm-string,
+.theme-light .cm-string-2 {
+	color: #067D17;
+}
+
+.theme-light span.cm-atom.cm-hmd-codeblock {
+	color: #000000;
+}
+
+
+/* 阅读模式 */
+.theme-light span.token.keyword,
+.theme-light span.token.boolean,
+.theme-light span.token.number,
+.theme-light span.token.tag {
+	color: #174ad4;
+}
+
+.theme-light span.token.annotation.punctuation {
+	color: #9E880D;
+}
+
+.theme-light span.token.class-name {
+	color: #000000;
+}
+
+.theme-light span.token.generics {
+	color: #000000;
+}
+
+.theme-light span.token.function {
+	color: #00627A;
+}
+
+.theme-light span.token.operator {
+	color: #000000;
+}
+
+.theme-light .token.property-access,
+.theme-light .token.property,
+.theme-light span.token.string {
+	color: #067D17;
+}
+
+.theme-light span.token.namespace {
+	color: #000000;
+}
+
+.theme-light .token.constant,
+.theme-light .token.selector,
+.theme-light code[class*='language-'] {
+	color: #851691;
+}
+
+/* 关闭代码块缩进的线 */
+.markdown-source-view.mod-cm6 .cm-indent::before {
+	content: none;
+	display: none;
+}
+
+
+/* ----------------------------------------------------------------- */
+/* 无序列表 */
+/* 编辑模式 */
+/*after表示那个点*/
+.cm-list-1>.list-bullet::after {
+	background-color: #ed6c60;
+	height: 0.4rem;
+	width: 0.4rem;
+}
+
+.cm-list-2>.list-bullet::after {
+	background-color: #f7c151;
+	height: 0.4rem;
+	width: 0.4rem;
+}
+
+.cm-list-3>.list-bullet::after {
+	background-color: #64c856;
+	height: 0.4rem;
+	width: 0.4rem;
+}
+
+/* 阅读模式 */
+/* 一级无序列表 */
+.has-list-bullet>li>.list-bullet::after {
+	background-color: #ed6c60;
+	height: 0.4rem;
+	width: 0.4rem;
+}
+
+/* 二级无序列表 */
+.has-list-bullet>li>.has-list-bullet>li>.list-bullet::after {
+	background-color: #f7c151;
+}
+
+/* 三级无序列表 */
+.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.list-bullet::after {
+	background-color: #64c856;
+}
+
+/* 四级无序列表 */
+.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.list-bullet::after {
+	background-color: #ed6c60;
+	height: 0.4rem;
+	width: 0.4rem;
+}
+
+/* 五级无序列表 */
+.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.list-bullet::after {
+	background-color: #f7c151;
+	height: 0.4rem;
+	width: 0.4rem;
+}
+
+/* 六级无序列表 */
+.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.list-bullet::after {
+	background-color: #64c856;
+	height: 0.4rem;
+	width: 0.4rem;
+}
+
+/* 七级无序列表 */
+.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.has-list-bullet>li>.list-bullet::after {
+	background-color: #ed6c60;
+	height: 0.4rem;
+	width: 0.4rem;
+}
+
+/* callout里的无序列表 */
+ul>li::marker {
+	color: #ed6c60;
+	font-weight: bold;
+}
+
+ul>li>ul>li::marker {
+	color: #f7c151;
+	font-weight: bold;
+}
+
+ul>li>ul>li>ul>li::marker {
+	color: #64c856;
+	font-weight: bold;
+}
+
+ul>li>ul>li>ul>li>ul>li::marker {
+	color: #ed6c60;
+	font-weight: bold;
+}
+
+ul>li>ul>li>ul>li>ul>li>ul>li::marker {
+	color: #f7c151;
+	font-weight: bold;
+}
+
+ul>li>ul>li>ul>li>ul>li>ul>li>ul>li::marker {
+	color: #64c856;
+	font-weight: bold;
+}
+
+ul>li>ul>li>ul>li>ul>li>ul>li>ul>li>ul>li::marker {
+	color: #ed6c60;
+	font-weight: bold;
+}
+
+/* ----------------------------------------------------------------- */
+/* 有序列表 */
+/* 编辑模式 */
+.cm-list-1>.list-number {
+	color: #ed6c60;
+	font-weight: bold;
+}
+
+.cm-list-2>.list-number {
+	color: #f7c151;
+	font-weight: bold;
+}
+
+.cm-list-3>.list-number {
+	color: #64c856;
+	font-weight: bold;
+}
+
+/* 阅读模式 */
+ol>li::marker {
+	color: #ed6c60;
+	font-weight: bold;
+}
+
+ol>li>ol>li::marker {
+	color: #f7c151;
+	font-weight: bold;
+}
+
+ol>li>ol>li>ol>li::marker {
+	color: #64c856;
+	font-weight: bold;
+}
+
+ol>li>ol>li>ol>li>ol>li::marker {
+	color: #ed6c60;
+	font-weight: bold;
+}
+
+ol>li>ol>li>ol>li>ol>li>ol>li::marker {
+	color: #f7c151;
+	font-weight: bold;
+}
+
+/* 引用框 */
+/* 编辑模式 */
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
+.markdown-source-view.mod-cm6 .cm-blockquote-border:before {
+	width: 1px;
+	border-left: 3.5px solid hsla(210, 34%, 63%, 0.4);
+	color: transparent;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
+/* 阅读模式 */
+.markdown-rendered blockquote {
+	border: 3px solid hsla(210, 34%, 63%, 0.4);
+	border-radius: 0.6rem;
+	padding: 0.5em 0.5em 0.5em 0.6em;
+	margin-inline-start: 2.5%;
+	margin-inline-end: 2.5%;
+}
+
+/* 分割线 */
+/* 编辑模式 */
+.markdown-source-view.mod-cm6 hr {
+	border-image: linear-gradient(to right, transparent 0%, hsl(210, 34%, 63%) 20%, hsl(210, 34%, 63%) 40%, hsl(210, 34%, 63%) 60%, hsl(210, 34%, 63%) 80%, transparent 100%) 1;
+	border-width: 2px;
+}
+
+/* 阅读模式 */
+.markdown-rendered hr {
+	border-image: linear-gradient(to right, transparent 0%, hsl(210, 34%, 63%) 20%, hsl(210, 34%, 63%) 40%, hsl(210, 34%, 63%) 60%, hsl(210, 34%, 63%) 80%, transparent 100%) 1;
+	border-width: 2px;
 }

@@ -58391,7 +58391,7 @@ var default_default2 = [
   },
   {
     label: "h3",
-    value: "### ",
+    value: "## ",
     icon: "ui//mk-make-h3"
   },
   {
