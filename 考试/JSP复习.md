@@ -7,10 +7,14 @@
 ~~七~~
 八，增删改查，如何指定数据源
 ~~九~~
-十，servlet，1，3
+十，1，3
 十一，
 十二，
 ~~十三~~
+
+```java
+dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+```
 # 概述
 Web访问可以简单划分为两个过程：客户端请求和服务端响应
 
@@ -436,6 +440,9 @@ JSP内置对象和Servlet的Java对象是有对应关系：【==JSP与Servlet是
 - 当请求来到容器时，Web容器会转发给对应的Servlet来处理请求
 
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110230843.png)
+Web服务器：提供web服务的软件或主机【Web服务器软件或装有Web服务器软件的计算机】，可以处理 HTTP 协议。常见的Web服务器有：Apache、IIS、Tomcat、Jetty、JBoss、webLogic等
+
+Servlet容器：是与Servlet交互的Web服务器的一部分，它可以从Web页面接收请求后再将这些请求重定向到Servlet对象中，然后将动态生成的结果返回到正确的位置中
 #### 响应过程
 当客户端请求Web服务器时，会使用HTTP来传递请求、标头、参数等信息
 1. 当Web服务器将请求转给Web容器时
@@ -507,9 +514,7 @@ MIME类型有text/html、application/pdf、application/jar、application/x-zip�
 > 还可以***自定义错误信息***，如下：
 > `response.sendError(HttpServletResponse.SC_NOT_FOUND，”页面错误”);`
 
-Web服务器：提供web服务的软件或主机，即Web服务器软件或装有Web服务器软件的计算机，可以处理 HTTP 协议。常见的Web服务器有：Apache、IIS、Tomcat、Jetty、JBoss、webLogic等。
 
-Servlet容器：是与Servlet交互的Web服务器的一部分，它可以从Web页面接收请求后再将这些请求重定向到Servlet对象中，然后将动态生成的结果返回到正确的位置中。
 
 
 
