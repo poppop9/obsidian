@@ -445,19 +445,27 @@ JSP内置对象和Servlet的Java对象是有对应关系：【==JSP与Servlet是
 ### 请求到响应的流程
 Web容器会根据配置信息（例如web.xml），查找相对应的Servlet并调用它的service()方法。service()方法会根据HTTP请求的方式，决定是调用doPost()方法或者是doGet()方法。
 
-如示意图中，doPost()方法中，可以使用HttpServletRequest对象和HttpServletResponse对象。使用getParameter()取得请求参数值，使用getWriter()取得输出流对象并进行响应处理，后由Web容器转换为HTTP响应，由HTTP服务器对浏览器做出响应。随后Web容器将HttpServletRequest对象和
-HttpServletResponse对象
+如示意图中，doPost()方法中，可以使用HttpServletRequest对象和HttpServletResponse对象。使用getParameter()取得请求参数值，使用getWriter()取得输出流对象并进行响应处理，后由Web容器转换为HTTP响应，由HTTP服务器对浏览器做出响应。随后Web容器将HttpServletRequest对象和HttpServletResponse对象
 销毁回收，请求响应结束。
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110231223.png)
 ### doXXX()方法
-Servlet中的service()方法包括多种：doGet()、doPost()、doHead()等
+Servlet中的service()方法包括多种：doGet()、doPost()、doHead()等：
 - 当Method是POST时，请求会调用doPost()方法
 - 当Method是GET时，请求会调用doGet()方法
 
 在定义Servlet时，一般是继承HttpServlet类，然后定义doPost()或者doGet()方法
 
+在自定义Servlet时不实现doGet()或者doPost()方法，那么程序会调用默认的doGet()或doPost()方法，而默认的doGet()或doPost()方法会将页面重定向到错误页面
+### HttpServletRequest对象
+>HttpServletRequest对象是请求封装对象，***由Web容器生成***，使用该对象可以取得HTTP请求中的信息
 
+在Servlet中，也是使用该对象进行请求处理的。如果要==共享==request中的属性，可以将请求对象设置到该对象中，那么Servlet在同一请求中就可以共享其对象
 
+JSP内置对象request实质就是HttpServletRequest。可实现读取body内容、取得上传文件和调派请求等功能
+
+·读取body内容：运用getReader()方法获取Body内容
+·获取上传文件的内容：使用getInputStream()方法或getPart()和getParts()方法
+·实现调派请求：使用getRequestDispatcher()方法实现多个Servlet之间的调整
 
 
 
