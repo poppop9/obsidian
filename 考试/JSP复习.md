@@ -349,10 +349,14 @@ JSP的实质就是Servlet，所有JSP页面传回服务端都要转为Servlet进
 
 - 发送响应的数据
 >Servlet在对客户端做出响应并处理得出结果后，会对客户端发送响应的数据，以便让客户端获取请求的结果数据。在Web应用程序中，Servlet的这个作用相当突出，无论现有的技术多么突出，都是基于这个作用点出发的。
-
-
-
-
+## Servlet运行顺序
+![[Excalidraw/杂/草稿纸 Draw.md#^group=E9go_c9fX7nkr7ocSUrYL]]
+## Servlet基本流程
+1. 客户端通过HTTP提出请求
+2. Web服务器接收该请求交给Servlet容器，然后再调用Servlet中的方法来处理。如果这个Servlet尚未被加载，Servlet容器将把它加载到Java虚拟机并且执行它
+3. Servlet将接收该HTTP请求并用特定的方法进行处理：可能会访问数据库、调用Web服务、EJB调用或直接给出结果，并生成一个响应
+4. 这个响应由Servlet容器返回给Web服务器
+5. Web服务器包装这个响应，以HTTP响应的方式发送给Web浏览器。
 
 
 
