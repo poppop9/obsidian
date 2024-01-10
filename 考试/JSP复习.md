@@ -413,6 +413,9 @@ Servlet的生命周期：Servlet在容器中从创建到删除的过程。
 7. 运行：访问路径`localhost:8080/HelloServlet_war_exploded/firstServlet `
 
 
+---
+
+请求与响应
 
 
 
