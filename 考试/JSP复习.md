@@ -161,14 +161,6 @@ java注解与JSP注解的混用
 ```
 # JSP内置对象
 >JSP内置对象可以直接在JSP页面中使用，而不需要提前声明
-
-response
-session
-application
-out
-page
-config
-
 ## request对象
 用户访问页面，会产生HTTP请求【包含了请求所需的参数值或信息】。可以通过request来获取客户端和服务端的信息【如IP地址、传递的参数名和参数值、应用系统名称、服务器主机名称等】
 
@@ -215,6 +207,7 @@ http://localhost:8080/{工程目录地址}/getParameter.jsp?name=John&city=Beiji
 | setCharacterEncoding (String charset) | 设定页面响应的编码类型 |
 | setHeader (String name, String value) |  |
 ```jsp
+// 设置重定向
 response.sendRedirect ("index.jsp")
 ```
 
@@ -222,7 +215,6 @@ response.sendRedirect ("index.jsp")
 
 ## session对象
 >session对象可以用来判断是否为同一用户【HTTP协议是一种无状态的协议】，还可以用来记录客户的连接信息等
-
 
 | sessioin对象常用方法 | 方法说明 |
 | :--: | :--: |
@@ -339,9 +331,11 @@ config对象一般用于在页面初始化时传递参数。
 ==session对象与Cookie对象==：session对象与Cookie对象是一一对应关系。JSP引擎会将创建好的session对象存放在对应的Cookie中
 
 Cookie对象：将只需在客户端处理的数据存放在本地计算机上，不需要通过网络传输，提高处理效率，如记住密码
+# Servlet
+>
 
 
-
+⚠️upload failed, check dev console
 
 
 
