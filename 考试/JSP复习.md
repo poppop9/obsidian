@@ -463,9 +463,11 @@ Servlet中的service()方法包括多种：doGet()、doPost()、doHead()等：
 
 JSP内置对象request实质就是HttpServletRequest。可实现读取body内容、取得上传文件和调派请求等功能
 #### 方法
-读取body内容：运用getReader()方法获取Body内容
-获取上传文件的内容：使用getInputStream()方法或getPart()和getParts()方法
-实现调派请求：使用getRequestDispatcher()方法实现多个Servlet之间的调整
+- 读取body内容：运用getReader()方法获取Body内容
+- 获取上传文件的内容：使用getInputStream()方法 / getPart()和getParts()方法
+- 实现调派请求：使用getRequestDispatcher()方法实现多个Servlet之间的调整
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111002320.png)
+在web程序中，经常是由多个Servlet来完成请求。RequestDispatcher接口就是为了多个Servlet之间的调整而实现的。该接口可以由HttpServletRequest的getRequestDispatcher()方法取得。调用时指定跳转的URL地址即可完成跳转动作。RequestDispatcher接口有两种方法实现跳转Servlet：include()和forward()。
 
 
 
