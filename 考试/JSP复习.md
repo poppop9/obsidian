@@ -462,10 +462,10 @@ Servlet中的service()方法包括多种：doGet()、doPost()、doHead()等：
 在Servlet中，也是使用该对象进行请求处理的。如果要==共享==request中的属性，可以将请求对象设置到该对象中，那么Servlet在同一请求中就可以共享其对象
 
 JSP内置对象request实质就是HttpServletRequest。可实现读取body内容、取得上传文件和调派请求等功能
-
-·读取body内容：运用getReader()方法获取Body内容
-·获取上传文件的内容：使用getInputStream()方法或getPart()和getParts()方法
-·实现调派请求：使用getRequestDispatcher()方法实现多个Servlet之间的调整
+#### 方法
+读取body内容：运用getReader()方法获取Body内容
+获取上传文件的内容：使用getInputStream()方法或getPart()和getParts()方法
+实现调派请求：使用getRequestDispatcher()方法实现多个Servlet之间的调整
 
 
 
