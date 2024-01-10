@@ -427,7 +427,7 @@ JSP内置对象和Servlet的Java对象是有对应关系：【==JSP与Servlet是
 - application对象---ServletContext
 
 ### Web容器
->Web容器是一种服务程序，在服务器一个端口就有一个提供相应服务的程序，而这个程序就是处理从客户端发出的请求，如JAVA中的Tomcat容器。一个服务器可以有多个容器
+>Web容器是一种服务程序，在服务器一个端口就有一个提供相应服务的程序，而这个程序就是处理从客户端发出的请求，如JAVA中的Tomcat容器。一个服务器可以有多个容器，常见的Web容器有：IIS(asp容器)、Tomcat(servlet容器)、Jboss(EJB容器)
 
 #### 作用
 - 创建一个servlet实例
@@ -501,10 +501,15 @@ MIME类型有text/html、application/pdf、application/jar、application/x-zip�
 >![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111003753.png)
 
 - sendError()发送错误消息
-如果在处理请求的时候发生错误，就可以用sendError()方法传递服务器的状态和错误消息【例如，请求的页面地址不存在，则可发送如下错误信息：`response.sendError(HttpServletResponse.SC_NOT_FOUND);`
-`SC_NOT_FOUND`表示资源文件不存在，服务器会响应404错误代码，错误代码统一定义在httpServletResponse接口上，还可以自定义错误信息，如下：
-response.sendError(HttpServletResponse.SC_NOT_FOUND，”页面错误”);
+>如果在处理请求的时候发生错误，就可以用sendError()方法传递服务器的状态和错误消息【例如，请求的页面地址不存在，则可发送如下错误信息：`response.sendError(HttpServletResponse.SC_NOT_FOUND);`
+> `SC_NOT_FOUND`表示资源文件不存在，服务器会响应404错误代码，错误代码统一定义在httpServletResponse接口上】
+> 
+> 还可以***自定义错误信息***，如下：
+> `response.sendError(HttpServletResponse.SC_NOT_FOUND，”页面错误”);`
 
+Web服务器：提供web服务的软件或主机，即Web服务器软件或装有Web服务器软件的计算机，可以处理 HTTP 协议。常见的Web服务器有：Apache、IIS、Tomcat、Jetty、JBoss、webLogic等。
+
+Servlet容器：是与Servlet交互的Web服务器的一部分，它可以从Web页面接收请求后再将这些请求重定向到Servlet对象中，然后将动态生成的结果返回到正确的位置中。
 
 
 
