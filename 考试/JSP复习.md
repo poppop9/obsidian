@@ -375,7 +375,7 @@ Servlet是javax.Servlet包中HttpServlet类的子类，运行在Web服务器的S
 Servlet容器，从属于Java虚拟机，根据Servlet的生命周期的规范，负责执行Servlet对象的初始化、运行和卸载等动作。
 Servlet的生命周期：Servlet在容器中从创建到删除的过程。
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223019.png)
-## 运行顺序
+### 运行顺序
 ![[Excalidraw/杂/草稿纸 Draw.md#^group=E9go_c9fX7nkr7ocSUrYL]]
 ## 基本流程
 1. 客户端通过HTTP提出请求
@@ -513,9 +513,19 @@ MIME类型有text/html、application/pdf、application/jar、application/x-zip�
 > 
 > 还可以***自定义错误信息***，如下：
 > `response.sendError(HttpServletResponse.SC_NOT_FOUND，”页面错误”);`
+## 会话管理
+>在人机交互过程中，会话管理是指保持用户的整个会话活动的交互与计算机系统跟踪的过程
+>
+>会话管理分为：
+>- 桌面会话管理
+>- 浏览器会话管理
+>- Web会话管理【Web会话管理（通常指的是session以及Cookie），也称为==会话跟踪==】
+### 会话管理解决方案
+使用隐藏域
 
 
-
+- 使用URL重写
+- 使用Cookie
 
 
 
