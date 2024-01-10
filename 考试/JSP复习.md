@@ -493,11 +493,17 @@ out.close();
 在Servlet开发中，须告诉浏览器以何种方式处理响应，所以要设置标头，在设置context-type中，指定MIME类型后，浏览器就能知道标头类型。
 MIME类型有text/html、application/pdf、application/jar、application/x-zip、image/jpeg等。在应用程序中，可以在web.xml中设置MIME类型。
 
-- getOutputStream()取得ServletOutputStream流对象
+- getOutputStream()取得ServletOutputStream流对象，可用于下载文件
+>![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111003602.png)
 - serHeader()和addHeader()设置标头
-- sendRedirect()对页面进行重定向
-- sendError()发送错误消息
+- sendRedirect(),用于对页面进行重定向
+>sendRedirect()方法会在响应中设置HTTP状态码和Location标头，当客户端接收到这个标头时，会重新请求指定的URL，所以地址栏上的地址会发生改变
+>![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111003753.png)
 
+- sendError()发送错误消息
+如果在处理请求的时候发生错误，就可以用sendError()方法传递服务器的状态和错误消息【例如，请求的页面地址不存在，则可发送如下错误信息：`response.sendError(HttpServletResponse.SC_NOT_FOUND);`
+`SC_NOT_FOUND`表示资源文件不存在，服务器会响应404错误代码，错误代码统一定义在httpServletResponse接口上，还可以自定义错误信息，如下：
+response.sendError(HttpServletResponse.SC_NOT_FOUND，”页面错误”);
 
 
 
