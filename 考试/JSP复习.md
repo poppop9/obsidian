@@ -357,12 +357,20 @@ JSP的实质就是Servlet，所有JSP页面传回服务端都要转为Servlet进
 - 持久性，Servlet只需Web服务器加载一次，可以在不同请求之间保持服务
 - 可扩展性，Servlet是java编写的，具备java的所有特点
 - 安全性，从外界调用一个servlet的唯一方法就是通过Web服务器，提供了高水平的安全保障。
+### JSP与Servlet
+Servlet是服务器端运行的一种Java应用程序。当浏览器端有请求则将其结果传递给浏览器。
+在JSP中使用到的所有对象都将被转换为Servlet或者非Servlet的Java对象，然后被执行，所以执行JSP实际上与执行Servlet是一样的。
+由于JSP编写HTML页面直观且易调试，因此JSP逐步取代Servlet在开发页面中的作用
+#### 区别
+- 编程方式不同：JSP是为了解决Servlet中相对困难的编程技术而开发的技术，JSP比servlet编写起来简单
+- Servlet必须在编译以后才能执行：JSP并不需要另外进行编译，JSP容器会自动完成这一工作，而Servlet在每次修改代码之后都需要编译完才能执行，JSP页面部署到WEB应用时只需将JSP页面复制到指定的目录下，当它第一次被访问时，WEB服务器自动将JSP代码转换为Java代码并自动编译
+- 运行速度不同：由于JSP容器将JSP程序编译成Servlet的时候需要一些时间，所以JSP的运行速度比Servlet要慢一些，不过，如果JSP文件能毫无变化的重复使用，它在第一次以后的调用中运行速度就会和Servlet一样了，这是因为JSP 容器接到请求以后会确认传递过来的JSP是否有改动，如果没有改动的话，将直接调用JSP编译过的Servlet类，并提供给客户端解释执行，如果JSP文件有所改变，JSP 容器将重新将它编译成Servlet，然后再提交给客户端
+- Servlet用来写业务逻辑层是很强大的，但是对于写表示层就很不方便。JSP则主要是为了方便写表示层而设计的。
 ### 工作原理
 Servlet是javax.Servlet包中HttpServlet类的子类，运行在Web服务器的Servlet容器里。
 Servlet容器，从属于Java虚拟机，根据Servlet的生命周期的规范，负责执行Servlet对象的初始化、运行和卸载等动作。
 Servlet的生命周期：Servlet在容器中从创建到删除的过程。
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223019.png)
-
 ## 运行顺序
 ![[Excalidraw/杂/草稿纸 Draw.md#^group=E9go_c9fX7nkr7ocSUrYL]]
 ## 基本流程
@@ -371,15 +379,6 @@ Servlet的生命周期：Servlet在容器中从创建到删除的过程。
 3. Servlet将接收该HTTP请求并用特定的方法进行处理：可能会访问数据库、调用Web服务、EJB调用或直接给出结果，并生成一个响应
 4. 这个响应由Servlet容器返回给Web服务器
 5. Web服务器包装这个响应，以HTTP响应的方式发送给Web浏览器。
-## JSP与Servlet
-Servlet是服务器端运行的一种Java应用程序。当浏览器端有请求则将其结果传递给浏览器。
-在JSP中使用到的所有对象都将被转换为Servlet或者非Servlet的Java对象，然后被执行，所以执行JSP实际上与执行Servlet是一样的。
-由于JSP编写HTML页面直观且易调试，因此JSP逐步取代Servlet在开发页面中的作用
-### 区别
-- 编程方式不同：JSP是为了解决Servlet中相对困难的编程技术而开发的技术，JSP比servlet编写起来简单
-- Servlet必须在编译以后才能执行：JSP并不需要另外进行编译，JSP容器会自动完成这一工作，而Servlet在每次修改代码之后都需要编译完才能执行，JSP页面部署到WEB应用时只需将JSP页面复制到指定的目录下，当它第一次被访问时，WEB服务器自动将JSP代码转换为Java代码并自动编译
-- 运行速度不同：由于JSP容器将JSP程序编译成Servlet的时候需要一些时间，所以JSP的运行速度比Servlet要慢一些，不过，如果JSP文件能毫无变化的重复使用，它在第一次以后的调用中运行速度就会和Servlet一样了，这是因为JSP 容器接到请求以后会确认传递过来的JSP是否有改动，如果没有改动的话，将直接调用JSP编译过的Servlet类，并提供给客户端解释执行，如果JSP文件有所改变，JSP 容器将重新将它编译成Servlet，然后再提交给客户端
-- Servlet用来写业务逻辑层是很强大的，但是对于写表示层就很不方便。JSP则主要是为了方便写表示层而设计的。
 ## 生命周期阶段
 1. 初始化阶段
 	1. 装载：由servlet容器装载1个servlet类，把它装载到java内存中，servlet容器可创建1个servlet对象并与web.xml中的配置对应起来
@@ -414,19 +413,13 @@ Servlet是服务器端运行的一种Java应用程序。当浏览器端有请求
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110224046.png)
 
 7. 运行：访问路径`localhost:8080/HelloServlet_war_exploded/firstServlet `
+## 请求与响应
+> - Web访问最基本的两个过程
+> - JSP最基本的两个内置对象
+> - 是一个Web应用系统构建一个完整程序的必要条件
+> - 是前端人员开发所要了解的原理与方法
 
-
----
-
-请求与响应：
-- 请Web访问最基本的两个过程
-- JSP最基本的两个内置对象
-- 是一个Web应用系统构建一个完整程序的必要条件
-- 是前端人员开发所要了解的原理与方法
-
----
-
-JSP内置对象和Servlet的Java对象是有对应关系：
+JSP内置对象和Servlet的Java对象是有对应关系：【==JSP与Servlet是依靠Web容器结合起来使用的==】
 - request对象---HttpServletRequest
 - response对象---HttpServletResponse
 - session对象---HttpSession
@@ -435,8 +428,6 @@ JSP内置对象和Servlet的Java对象是有对应关系：
 
 ### Web容器
 >Web容器是一种服务程序，在服务器一个端口就有一个提供相应服务的程序，而这个程序就是处理从客户端发出的请求，如JAVA中的Tomcat容器。一个服务器可以有多个容器
-
-***JSP与Servlet是依靠Web容器结合起来使用的***
 
 #### 作用
 - 创建一个servlet实例
@@ -451,15 +442,19 @@ JSP内置对象和Servlet的Java对象是有对应关系：
 2. Web容器会创建一个HttpServletRequest和HttpServletResponse对象，将请求中的信息传递给HttpServletRequest对象
 3. 而HttpServletResponse对象则作为对客户端响应的Java对象
 
----
-
-请求到响应的流程：
+### 请求到响应的流程
 Web容器会根据配置信息（例如web.xml），查找相对应的Servlet并调用它的service()方法。service()方法会根据HTTP请求的方式，决定是调用doPost()方法或者是doGet()方法。
 
 如示意图中，doPost()方法中，可以使用HttpServletRequest对象和HttpServletResponse对象。使用getParameter()取得请求参数值，使用getWriter()取得输出流对象并进行响应处理，后由Web容器转换为HTTP响应，由HTTP服务器对浏览器做出响应。随后Web容器将HttpServletRequest对象和
 HttpServletResponse对象
 销毁回收，请求响应结束。
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110231223.png)
+### doXXX()方法
+Servlet中的service()方法包括多种：doGet()、doPost()、doHead()等
+- 当Method是POST时，请求会调用doPost()方法
+- 当Method是GET时，请求会调用doGet()方法
+
+在定义Servlet时，一般是继承HttpServlet类，然后定义doPost()或者doGet()方法
 
 
 
