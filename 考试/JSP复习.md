@@ -332,10 +332,12 @@ config对象一般用于在页面初始化时传递参数。
 
 Cookie对象：将只需在客户端处理的数据存放在本地计算机上，不需要通过网络传输，提高处理效率，如记住密码
 # Servlet
->
+>Servlet【Server Applet】，是利用Java类编写的服务端程序，可以被看作是位于客户端和服务端的一个中间层，负责接收和请求客户端用户的响应
 
 
-⚠️upload failed, check dev console
+- Servlet使用了很多Web服务器都支持的API，可调用和扩展Java中提供的大量程序设计接口、类、方法等功能
+- JSP的实质就是Servlet，所有JSP页面传回服务端都要转为Servlet进行编译、运行
+
 
 
 
