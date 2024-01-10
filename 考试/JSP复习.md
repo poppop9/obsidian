@@ -337,7 +337,8 @@ Cookie对象：将只需在客户端处理的数据存放在本地计算机上�
 Servlet使用了很多Web服务器都支持的API，可调用和扩展Java中提供的大量程序设计接口、类、方法等功能
 
 JSP的实质就是Servlet，所有JSP页面传回服务端都要转为Servlet进行编译、运行
-## 功能
+## 介绍
+### 功能
  - 对客户端发送的数据进行读取和拦截
 >客户端在发送一个请求时，一般会携带一些数据，当一个servlet接收到这些请求时，Java Servlet中的类通过所提供的方法就能得到这些参数，也正为这个原因，Servlet可以对发送请求起到拦截作用，它在某些请求前先做一个预处理分析，从而判断客户端是否可以做某些请求，当Servlet具有如上功能时，一般称之为拦截器。
 
@@ -349,6 +350,19 @@ JSP的实质就是Servlet，所有JSP页面传回服务端都要转为Servlet进
 
 - 发送响应的数据
 >Servlet在对客户端做出响应并处理得出结果后，会对客户端发送响应的数据，以便让客户端获取请求的结果数据。在Web应用程序中，Servlet的这个作用相当突出，无论现有的技术多么突出，都是基于这个作用点出发的。
+
+### 特点
+- 高效率，Servlet本身就是一个Java类，在运行的时候位于同一个Java虚拟机中，可以快速地响应客户端的请求并生成结果。在Web服务器中处理一个请求使用的都是线程而非进程，也就是说在性能开销方面就小很多，无须大量的启动进程时间，在高并发量访问时，一个进程可以有多个线程，并发是线程在CPU使用的开销代价要远小于进程的开销
+- 简单方便，开发一个Web程序时，从开发顺序上说比较简单，首先定义一个Servlet类，然后在系统（web.xml）中配置程序，继而发布程序，这样一个Web程序就完成了。在开发的过程中，系统提供了大量的实用工具方法，可以处理复杂的HTML表单数据、处理cookie、跟踪网页会话等
+- 持久性，Servlet只需Web服务器加载一次，可以在不同请求之间保持服务
+- 可扩展性，Servlet是java编写的，具备java的所有特点
+- 安全性，从外界调用一个servlet的唯一方法就是通过Web服务器，提供了高水平的安全保障。
+### 工作原理
+Servlet是javax.Servlet包中HttpServlet类的子类，运行在Web服务器的Servlet容器里。
+Servlet容器，从属于Java虚拟机，根据Servlet的生命周期的规范，负责执行Servlet对象的初始化、运行和卸载等动作。
+Servlet的生命周期：Servlet在容器中从创建到删除的过程。
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223019.png)
+
 ## 运行顺序
 ![[Excalidraw/杂/草稿纸 Draw.md#^group=E9go_c9fX7nkr7ocSUrYL]]
 ## 基本流程
@@ -357,12 +371,6 @@ JSP的实质就是Servlet，所有JSP页面传回服务端都要转为Servlet进
 3. Servlet将接收该HTTP请求并用特定的方法进行处理：可能会访问数据库、调用Web服务、EJB调用或直接给出结果，并生成一个响应
 4. 这个响应由Servlet容器返回给Web服务器
 5. Web服务器包装这个响应，以HTTP响应的方式发送给Web浏览器。
-## 特点
-- 高效率，Servlet本身就是一个Java类，在运行的时候位于同一个Java虚拟机中，可以快速地响应客户端的请求并生成结果。在Web服务器中处理一个请求使用的都是线程而非进程，也就是说在性能开销方面就小很多，无须大量的启动进程时间，在高并发量访问时，一个进程可以有多个线程，并发是线程在CPU使用的开销代价要远小于进程的开销
-- 简单方便，开发一个Web程序时，从开发顺序上说比较简单，首先定义一个Servlet类，然后在系统（web.xml）中配置程序，继而发布程序，这样一个Web程序就完成了。在开发的过程中，系统提供了大量的实用工具方法，可以处理复杂的HTML表单数据、处理cookie、跟踪网页会话等
-- 持久性，Servlet只需Web服务器加载一次，可以在不同请求之间保持服务
-- 可扩展性，Servlet是java编写的，具备java的所有特点
-- 安全性，从外界调用一个servlet的唯一方法就是通过Web服务器，提供了高水平的安全保障。
 ## JSP与Servlet
 Servlet是服务器端运行的一种Java应用程序。当浏览器端有请求则将其结果传递给浏览器。
 在JSP中使用到的所有对象都将被转换为Servlet或者非Servlet的Java对象，然后被执行，所以执行JSP实际上与执行Servlet是一样的。
@@ -372,11 +380,6 @@ Servlet是服务器端运行的一种Java应用程序。当浏览器端有请求
 - Servlet必须在编译以后才能执行：JSP并不需要另外进行编译，JSP容器会自动完成这一工作，而Servlet在每次修改代码之后都需要编译完才能执行，JSP页面部署到WEB应用时只需将JSP页面复制到指定的目录下，当它第一次被访问时，WEB服务器自动将JSP代码转换为Java代码并自动编译
 - 运行速度不同：由于JSP容器将JSP程序编译成Servlet的时候需要一些时间，所以JSP的运行速度比Servlet要慢一些，不过，如果JSP文件能毫无变化的重复使用，它在第一次以后的调用中运行速度就会和Servlet一样了，这是因为JSP 容器接到请求以后会确认传递过来的JSP是否有改动，如果没有改动的话，将直接调用JSP编译过的Servlet类，并提供给客户端解释执行，如果JSP文件有所改变，JSP 容器将重新将它编译成Servlet，然后再提交给客户端
 - Servlet用来写业务逻辑层是很强大的，但是对于写表示层就很不方便。JSP则主要是为了方便写表示层而设计的。
-## 工作原理
-Servlet是javax.Servlet包中HttpServlet类的子类，运行在Web服务器的Servlet容器里。
-Servlet容器，从属于Java虚拟机，根据Servlet的生命周期的规范，负责执行Servlet对象的初始化、运行和卸载等动作。
-Servlet的生命周期：Servlet在容器中从创建到删除的过程。
-![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223019.png)
 ## 生命周期阶段
 1. 初始化阶段
 	1. 装载：由servlet容器装载1个servlet类，把它装载到java内存中，servlet容器可创建1个servlet对象并与web.xml中的配置对应起来
@@ -443,11 +446,20 @@ JSP内置对象和Servlet的Java对象是有对应关系：
 
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110230843.png)
 #### 响应过程
-当客户端请求Web服务器时，会使用HTTP来传递请求、标头、参数等信息。
-HTTP协议是无意识的协议，通过文本信息传递消息，而Servlet是Java对象，运行在Web容器中。
-当Web服务器将请求转给Web容器时，Web容器会创建一个HttpServletRequest和HttpServletResponse对象，将请求中的信息传递给HttpServletRequest对象，而HttpServletResponse对象则作为对客户端响应的Java对象。
+当客户端请求Web服务器时，会使用HTTP来传递请求、标头、参数等信息
+1. 当Web服务器将请求转给Web容器时
+2. Web容器会创建一个HttpServletRequest和HttpServletResponse对象，将请求中的信息传递给HttpServletRequest对象
+3. 而HttpServletResponse对象则作为对客户端响应的Java对象
 
+---
 
+请求到响应的流程：
+Web容器会根据配置信息（例如web.xml），查找相对应的Servlet并调用它的service()方法。service()方法会根据HTTP请求的方式，决定是调用doPost()方法或者是doGet()方法。
+
+如示意图中，doPost()方法中，可以使用HttpServletRequest对象和HttpServletResponse对象。使用getParameter()取得请求参数值，使用getWriter()取得输出流对象并进行响应处理，后由Web容器转换为HTTP响应，由HTTP服务器对浏览器做出响应。随后Web容器将HttpServletRequest对象和
+HttpServletResponse对象
+销毁回收，请求响应结束。
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110231223.png)
 
 
 
