@@ -476,6 +476,23 @@ JSP内置对象request实质就是HttpServletRequest。可实现读取body内容
 
 - setContentType()设置JSP响应类型
 - getWriter()取得PrintWriter对象，可用于输出字符
+```java
+response.setContentType（＂ text／ html； charset＝ UTF - 8＂）；／／ 设置响应的类型和编码
+PrintWriter out＝ response.getWriter（）；／／ 取得PrintWriter（） 对象
+out.println("<!DOCTYPE HTML>");
+out.println("<HTML>");
+out.println(" <HEAD><TITLE>A Servlet</TITLE></HEAD>");
+out.println(" < BODY > ");
+out.print(body);
+out.println(" </BODY>");
+out.println("</HTML>");
+out.flush();
+out.close();
+```
+
+在Servlet开发中，须告诉浏览器以何种方式处理响应，所以要设置标头，在设置context-type中，指定MIME类型后，浏览器就能知道标头类型。
+MIME类型有text/html、application/pdf、application/jar、application/x-zip、image/jpeg等。在应用程序中，可以在web.xml中设置MIME类型。
+
 - getOutputStream()取得ServletOutputStream流对象
 - serHeader()和addHeader()设置标头
 - sendRedirect()对页面进行重定向
