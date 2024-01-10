@@ -415,8 +415,21 @@ Servlet的生命周期：Servlet在容器中从创建到删除的过程。
 
 ---
 
-请求与响应
+请求与响应：
+- 请Web访问最基本的两个过程
+- JSP最基本的两个内置对象
+- 是一个Web应用系统构建一个完整程序的必要条件
+- 是前端人员开发所要了解的原理与方法
 
+---
 
+JSP内置对象和Servlet的Java对象是有对应关系，JSP与Servlet是依靠Web容器结合起来使用的：
+- request对象---HttpServletRequest
+- response对象---HttpServletResponse
+- session对象---HttpSession
+- out对象---PrintWriter
+- application对象---ServletContext
 
+Web容器是一种服务程序，在服务器一个端口就有一个提供相应服务的程序，而这个程序就是处理从客户端发出的请求，如JAVA中的Tomcat容器。一个服务器可以有多个容器。
 
+Web容器的作用就是创建一个servlet实例，并完成servlet注册以及根据web.xml中的URL进行响应。当请求来到容器时，Web容器会转发给对应的Servlet来处理请求。
