@@ -7,7 +7,7 @@
 ~~七~~
 八，增删改查，如何指定数据源
 九，不管
-十，servlet，1，3，生命周期
+十，servlet，1，3
 十一，
 十二，
 ~~十三~~
@@ -349,9 +349,9 @@ JSP的实质就是Servlet，所有JSP页面传回服务端都要转为Servlet进
 
 - 发送响应的数据
 >Servlet在对客户端做出响应并处理得出结果后，会对客户端发送响应的数据，以便让客户端获取请求的结果数据。在Web应用程序中，Servlet的这个作用相当突出，无论现有的技术多么突出，都是基于这个作用点出发的。
-## Servlet运行顺序
+## 运行顺序
 ![[Excalidraw/杂/草稿纸 Draw.md#^group=E9go_c9fX7nkr7ocSUrYL]]
-## Servlet基本流程
+## 基本流程
 1. 客户端通过HTTP提出请求
 2. Web服务器接收该请求交给Servlet容器，然后再调用Servlet中的方法来处理。如果这个Servlet尚未被加载，Servlet容器将把它加载到Java虚拟机并且执行它
 3. Servlet将接收该HTTP请求并用特定的方法进行处理：可能会访问数据库、调用Web服务、EJB调用或直接给出结果，并生成一个响应
@@ -410,8 +410,7 @@ Servlet的生命周期：Servlet在容器中从创建到删除的过程。
 6. 配置xml
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110224046.png)
 
-7. 运行
-
+7. 运行：访问路径`localhost:8080/HelloServlet_war_exploded/firstServlet `
 
 
 
