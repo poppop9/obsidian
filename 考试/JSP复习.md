@@ -466,10 +466,20 @@ JSP内置对象request实质就是HttpServletRequest。可实现读取body内容
 - 读取body内容：运用getReader()方法获取Body内容
 - 获取上传文件的内容：使用getInputStream()方法 / getPart()和getParts()方法
 - 实现调派请求：使用getRequestDispatcher()方法实现多个Servlet之间的调整
+	- include()
+	- forward()
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111002320.png)
-在web程序中，经常是由多个Servlet来完成请求。RequestDispatcher接口就是为了多个Servlet之间的调整而实现的。该接口可以由HttpServletRequest的getRequestDispatcher()方法取得。调用时指定跳转的URL地址即可完成跳转动作。RequestDispatcher接口有两种方法实现跳转Servlet：include()和forward()。
+在web程序中，经常是由多个Servlet来完成请求。RequestDispatcher接口【该接口可以由HttpServletRequest的getRequestDispatcher()方法取得】就是为了多个Servlet之间的调整而实现的。调用时指定跳转的URL地址即可完成跳转动作。RequestDispatcher接口有两种方法实现跳转Servlet：include()和forward()。
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111002641.png)
+### HttpServletResponse对象
+>HttpServletResponse是用于浏览器做出响应的操作对象，可以设置响应类型，也可以直接输出HTML内容
 
-
+- setContentType()设置JSP响应类型
+- getWriter()取得PrintWriter对象，可用于输出字符
+- getOutputStream()取得ServletOutputStream流对象
+- serHeader()和addHeader()设置标头
+- sendRedirect()对页面进行重定向
+- sendError()发送错误消息
 
 
 
