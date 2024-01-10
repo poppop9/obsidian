@@ -84,20 +84,6 @@ tag:问题
 ```
 比如，你可以通过这种方式式同时在几行内容之前加上`-`，从而将它们快速地变为列表。
 ```
-## 🌗自定义文本框
-```note-orange-bg
-背景颜色文本框
-```
-```note-green
-字体颜色文本框
-```
-```note-imp
-重要文本框
-```
-<p class="stickies2"> 你想说的话 </p>
-我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你
-<p class="stickies"> 你想说的话 </p>
-我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱你我爱
 
 ## 🌗Callout
 >[!quote]
@@ -128,13 +114,6 @@ tag:问题
 >![](https://s1.ax1x.com/2022/05/18/OI7Io9.png)
 >![](https://user-images.githubusercontent.com/42957010/184872220-f9b52079-8695-46a7-b517-0588426aa7b5.jpg)
 >![](https://user-images.githubusercontent.com/42957010/165482534-f0ef2dd2-cf3a-4347-b141-e8bbae63566d.png)
-
-> [!blank|grid]
-![](https://computerhistory.org/wp-content/uploads/2022/09/MS-121-scaled-325x184-c-default.jpg)
-![](https://user-images.githubusercontent.com/42957010/184835015-c7ab01ec-39a3-437b-9d41-69af0473588c.jpg)
-![](https://s1.ax1x.com/2022/05/18/OI7Io9.png)
-![](https://user-images.githubusercontent.com/42957010/184872220-f9b52079-8695-46a7-b517-0588426aa7b5.jpg)
-![](https://user-images.githubusercontent.com/42957010/165482534-f0ef2dd2-cf3a-4347-b141-e8bbae63566d.png)
 
 >[!done]
 

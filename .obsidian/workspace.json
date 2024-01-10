@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/四大件/计算机网络2.md",
-                "mode": "preview",
+                "file": "考试/JSP复习.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/Obsidian特殊语法.md"
+                "file": "考试/JSP复习.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/Obsidian特殊语法.md"
+                "file": "考试/JSP复习.md"
               }
             }
           },
@@ -205,10 +205,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "92dd5a95b0cdcfe3",
+  "active": "9e43f4535d8baf4f",
   "lastOpenFiles": [
-    "临时笔记/穿搭.md",
     "计算机/四大件/计算机网络2.md",
+    "临时笔记/Obsidian特殊语法.md",
+    "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
@@ -226,7 +227,6 @@
     "计算机/JavaWeb/后端/Maven.md",
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
     "科技美学/软件.md",
-    "临时笔记/Obsidian特殊语法.md",
     "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/MarkDown语法.md",
     "计算机/四大件/操作系统/基础知识.md",
