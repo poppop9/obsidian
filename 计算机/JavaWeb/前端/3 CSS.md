@@ -158,7 +158,7 @@ h1 {
 > - `background-origin`
 > - `background-size`
 
-#####🌑指定颜色的 6 种方式
+### 🌑指定颜色的 6 种方式
 <h1 style="background-color:Tomato;">Tomato</h1>
 <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
 <h1 style="background-color:#ff6347;">#ff6347</h1>
@@ -166,23 +166,23 @@ h1 {
 <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
 <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
 
-#####🌑内容
-######🌙颜色
+### 🌑内容
+#### 🌙颜色
 ```css
 /*background-color，opacity*/
 <h1 style="background-color:DodgerBlue; opacity: 0.3;">Hello World</h1>
 ```
 <h1 style="background-color:DodgerBlue; opacity: 0.3; ">Hello World</h1>
 
-######🌙图像
+#### 🌙图像
 ```css
 /*background-image*/
 <h1 style="background-image: url('https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87%2F20230805115646.png');">Hello</h1>
 ```
 <h1 style="background-image: url('https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87%2F20230805115646.png');">Hello</h1>
 
-#####🌑参数
-######🌙重复
+### 🌑参数
+#### 🌙重复
 默认情况下，`background-image` 属性在水平和垂直方向上都重复显示图像，直到铺满整个指定元素
 
 ```css
@@ -194,7 +194,7 @@ body {
   background-repeat: no-repeat;   /* 不重复 */
 }
 ```
-######🌙位置
+#### 🌙位置
 ```css
 body {
   background-image: url("tree.png");
@@ -202,7 +202,7 @@ body {
   background-position: right top;  /* 右上角 */
 }
 ```
-######🌙附着
+#### 🌙附着
 ```css
 body {
   background-image: url("tree.png");
@@ -220,7 +220,7 @@ body {
 
 >[!hint] 简写
 > `border: width style color;`
-#####🌑样式
+### 🌑样式
 ```css
 <p style="border-style: dotted;">hello</p>
 <p style="border-style: dashed;">hello</p>
@@ -254,8 +254,8 @@ p {
 <p style="border-style: hidden;">hello</p>
 <p style="border-style: dotted dashed solid double;">hello</p>
 
-#####🌑参数
-######🌙宽度
+### 🌑参数
+#### 🌙宽度
 ```css
 /* 直接指定数值 */
 <p style="border-style: groove; border-width: 10px;">hello</p>
@@ -274,7 +274,7 @@ p {
 <p style="border-style: groove; border-width: thick;">hello</p>
 <p style="border-style: groove; border-width: 25px 10px 4px 35px;">hello</p>
 
-######🌙颜色
+#### 🌙颜色
 ```css
 <p style="border-style: groove; border-color: red;">hello</p>
 
@@ -284,7 +284,7 @@ p {
 <p style="border-style: groove; border-color: red;">hello</p>
 <p style="border-style: groove; border-color: red green blue yellow;">hello</p>
 
-######🌙圆角
+#### 🌙圆角
 ```css
 <p style="border-style: groove; border-radius: 12px;">hello</p>
 ```
@@ -318,7 +318,7 @@ p {
 > - `outline-offset`  轮廓偏移【轮廓与border之间的空间】
 # 🌕文本
 ## 🌗基础属性
-#####🌑颜色，大小，字体，斜粗变体
+### 🌑颜色，大小，字体，斜粗变体
 >[!summary] 属性
 >- `color`  指定文本的颜色
 >- `font-size`  指定文本的大小【普通文本默认大小为 16px】
@@ -363,7 +363,7 @@ p {
 }
 ```
 ## 🌗位置
-#####🌑水平对齐，垂直对齐，方向
+### 🌑水平对齐，垂直对齐，方向
 >[!summary] 属性
 >- `text-align`  水平对齐
 >	- `left`
@@ -390,7 +390,7 @@ p {
 <p style="direction:rtl;"> hello </p>
 
 ## 🌗其他属性
-#####🌑装饰
+### 🌑装饰
 >[!summary] 属性
 > - `initial` 默认值
 > - `inherit` 从其父元素继承属性
@@ -405,7 +405,7 @@ p {
 >	- `auto`
 >	- `……px`
 >	- `……%`
-######🌙line
+#### 🌙line
 ```css
 /* 删除所有文本装饰【常用于删除超链接的下划线】 */
 <p style="text-decoration:none;">hello</p>
@@ -423,7 +423,7 @@ p {
 <p style="text-decoration:line-through;">hello</p>
 <p style="text-decoration:overline underline;">hello</p>
 
-#####🌑文本间距
+### 🌑文本间距
 ```css
 p {
   text-indent: 50px;  /* 指定文本的首行缩进 */
@@ -445,7 +445,7 @@ p {
   white-space: nowrap;  /* 空白处理，防止文本换行 */
 }
 ```
-#####🌑文本转换
+### 🌑文本转换
 ```css
 p.uppercase {
   text-transform: uppercase;   /* 把文本全部大写 */
@@ -459,7 +459,7 @@ p.capitalize {
   text-transform: capitalize;  /* 把文本首字母大写 */
 }
 ```
-#####🌑文本阴影
+### 🌑文本阴影
 ```css
 h1 {
   text-shadow: 2px 2px;  /* 指定水平阴影，垂直阴影 */

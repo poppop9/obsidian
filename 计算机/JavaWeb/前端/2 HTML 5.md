@@ -83,9 +83,9 @@
 ## 🌗无语义盒子
 >这两个标签都是没有具体意思的，它们就是一个***盒子***【用来装文字，图片，超链接】
 >![[JavaWeb Draw#^group=jLK9MAUa|600]]
-#####🌑\<div\>
+### 🌑\<div\>
 > 一个`<div>`独占一行
-#####🌑\<span\>
+### 🌑\<span\>
 > 多个`<span>`标签占一行
 
 ***\<span\>标签无法设置width和height，宽度和高度由内容默认撑开***
@@ -101,7 +101,7 @@
 ```html
 <a id="h002" href="https://www.zjxu.edu.cn/" target="_blank">嘉兴学院</a>
 ```
-#####🌑锚点链接
+### 🌑锚点链接
 就像是PDF的目录一样
 ```html
 <h4 id="live">个人生活</h4>
@@ -189,7 +189,7 @@
 - `enctype`  指定表单数据提交的格式
 	- `默认`  
 	- `multipart/form-data`  ***用于提交文件的格式***【其他格式提交文件会只提交文件名】
-#####🌑\<input\>
+### 🌑\<input\>
   - `type` 
     - `text` 单行输入字段
     - `password` 密码字段
@@ -257,7 +257,7 @@
 </form>
 
 
-######🌙file
+#### 🌙file
 >如果要提交的表单里有 `file` 类型的数据，则要设置指定的编码格式
 
 ```html
@@ -265,7 +265,7 @@
     图像: <input type="file" name="image"><br><br>
 </form>
 ```
-#####🌑\<select\>
+### 🌑\<select\>
   - `option` 
 
 ```html
@@ -289,7 +289,7 @@
     </select><br><br>
 </form>
 
-#####🌑\<textarea\>
+### 🌑\<textarea\>
 ```html
 <form action="" method="get">
     描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>

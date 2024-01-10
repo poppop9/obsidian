@@ -35537,14 +35537,14 @@ var require_heading = __commonJS({
       }
       state.line = startLine + 1;
       token = state.push("heading_open", "h" + String(level), 1);
-      token.markup = "########".slice(0, level);
+      token.markup = "#### ##".slice(0, level);
       token.map = [startLine, state.line];
       token = state.push("inline", "", 0);
       token.content = state.src.slice(pos, max2).trim();
       token.map = [startLine, state.line];
       token.children = [];
       token = state.push("heading_close", "h" + String(level), -1);
-      token.markup = "########".slice(0, level);
+      token.markup = "#### ##".slice(0, level);
       return true;
     };
   }

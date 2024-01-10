@@ -44,7 +44,7 @@ SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已�
 - `@PutMapping`：限定路径的请求方式只能是 HTTP PUT
 - `@DeleteMapping`  限定路径的请求方式只能是 HTTP DELETE
 ……
-#####🌑简单参数
+### 🌑简单参数
 GET请求：`http://localhost:8080/simpleParam?name=Tom&age=10`
 ```java
 @RestController  //注释@RestController，表示这是一个Controller类
@@ -60,7 +60,7 @@ public class RequestController {
 Tom:10
 ```
 ***@RestController = @Controller + @ResponseBody***
-#####🌑简单对象
+### 🌑简单对象
 GET请求：`http://localhost:8080/simplePojo?name=Tom&age=20`
 ```java
 @RestController  
@@ -87,7 +87,7 @@ public class RequestController {
 
 Tom:20
 ```
-#####🌑复杂参数
+### 🌑复杂参数
 GET请求：`http://localhost:8080/complexPojo?name=Tom&age=20&address.province=广东&address.city=广州`
 ```java
 @RequestMapping("/complexPojo")  
@@ -133,7 +133,7 @@ public class Address {
     }  
 }
 ```
-#####🌑数组参数
+### 🌑数组参数
 GET请求：`http://localhost:8080/arrayParam?hobby=dance&hobby=game&hobby=sing`
 ```java
 @RequestMapping("/arrayParam")  
@@ -145,7 +145,7 @@ public String ArrayParam(String[] hobby) {    //数组名与请求参数名相�
 
 [dance, game, sing]
 ```
-#####🌑集合参数
+### 🌑集合参数
 GET请求：`http://localhost:8080/listParam?hobby=dance&hobby=game&hobby=sing`
 ```java
 @RequestMapping("/listParam")  
@@ -159,7 +159,7 @@ public String ListParam(@RequestParam List<String> hobby) {  //需要添加Reque
 ```
 
 `@RequestParam`***注解用于从请求的URL查询参数中获取值，并将其绑定到Controller类方法的参数上***，其属性可以指定参数是否是必需的；可以设置参数的默认值
-#####🌑日期参数
+### 🌑日期参数
 GET请求：`http://localhost:8080/dateParam?updateTime=2023-10-09 15:50:20`
 ```java
 @RequestMapping("/dateParam")  
@@ -171,7 +171,7 @@ public String DateParam(@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss") LocalDa
 
 2023-10-09T15:50:20
 ```
-#####🌑Json参数
+### 🌑Json参数
 POST请求：`http://localhost:8080/jsonParam`
 ```json
 {
@@ -194,7 +194,7 @@ public String JsonParam(@RequestBody User user) {  //注解表示将json数据�
 
 User{name='Tom', age=20, address=Address{province='广东', city='广州'}}
 ```
-#####🌑路径参数
+### 🌑路径参数
 GET请求：`http://localhost:8080/123`
 ```java
 @RequestMapping("/{id}")  
@@ -206,8 +206,8 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 
 123
 ```
-#####🌑文件参数
-######🌙MultipartFile
+### 🌑文件参数
+#### 🌙MultipartFile
 >`MultipartFile` ***是SpringBoot提供的保存文件的一种格式***
 
 >[!summary] 方法
@@ -266,7 +266,7 @@ public class UploadController {
 
 >[!hint] 文件通过MultipartFile传递到服务器后，会产生一个临时文件，如果这时不对文件做任何操作。只要请求响应完毕之后，***这个文件就会被自动删除，不会保存***
 ## 🌗响应
-#####🌑首先包装一个Result类
+### 🌑首先包装一个Result类
 ```java
 public class Result<T> {   
     private String status;      //状态码 
@@ -358,7 +358,7 @@ public class Result<T> {
     }  
 }
 ```
-#####🌑响应对象
+### 🌑响应对象
 ```java
 @RequestMapping("/address")  
 public Result<Address> address() {  
@@ -379,7 +379,7 @@ public Result<Address> address() {
     }
 }
 ```
-#####🌑响应集合
+### 🌑响应集合
 ```java
 @RequestMapping("/list")  
 public Result<List<Address>> list() {  
@@ -416,7 +416,7 @@ public Result<List<Address>> list() {
 }
 ```
 ## 🌗分层
-#####🌑Dao
+### 🌑Dao
 >Dao层的作用是获取数据【文件数据，xml数据，json数据等】，==在MyBatis中叫Mapper==
 
 ```java
@@ -439,7 +439,7 @@ public class EmpDaoA implements EmpDao {
     }  
 }
 ```
-#####🌑Service
+### 🌑Service
 >Sevice层的作用对数据进行处理，然后返回给Controller类
 
 ```java
@@ -471,7 +471,7 @@ public class EmpServiceA implements EmpServie {
 另外，通过使用依赖注入的设计模式，可以将EmpDao对象的创建和管理交给外部的代码（例如使用依赖注入容器或手动注入）。这样可以更好地解耦和组织代码，提高代码的可测试性和可维护性。
 */
 ```
-#####🌑Controller
+### 🌑Controller
 >Controller的作用是获取来自Service类发来的数据，响应数据给前端
 
 ```java
@@ -504,7 +504,7 @@ json：
     ]
 }
 ```
-######🌙公共路径
+#### 🌙公共路径
 >在类的头部指定`@RequestMapping`注解
 
 ```java
@@ -530,14 +530,14 @@ public class UserController {
 >以上的分层方式，实现了***高内聚***，但是依然没有实现***低耦合***【Controller中还是有依赖Service，Service还是有依赖Dao】
 >![[Excalidraw/计算机/JavaWeb Draw.md#^group=g1pvEhriTd5poW0zM1k4o|500]]
 >EmpController需要EmpService，那我们可以把EmpService放到IOC容器里，然后EmpController需要时就到容器中取
-#####🌑控制反转 IOC
+### 🌑控制反转 IOC
 >对象的创建控制权由程序自身转移到容器【本身由EmpController自身创建EmpService对象，变为由容器创建对象】
 
 - ***添加***`@Component`***注释***【如果某个类不属于以下三类，但是也想交给IOC处理时使用】
 	- 如果是控制器类上就用`@Controller`
 	- 如果是逻辑处理Service类就用`@Service`
 	- 如果是访问Dao类上就用`@Repository`，==如果Dao层中需要使用MyBatis，那要将`@Repository`注解改为`@Mapper`==
-#####🌑依赖注入 DI
+### 🌑依赖注入 DI
 >容器为应用程序提供运行时所依赖的资源【容器为EmpController提供运行时所需要的EmpService对象】
 
 - ***添加***`@Autowired`***注释***【通过类型注入==单个注解中的单个依赖==】
@@ -635,7 +635,7 @@ public class EmpController {
 ```
 # 🌕配置文件
 ## 🌗properties 配置文件
-#####🌑参数配置化
+### 🌑参数配置化
 >将项目中的参数集中化管理，然后在java文件中使用 `@Value` 注解来注入配置文件中的值
 
 - 未采用参数配置化
@@ -678,7 +678,7 @@ tencent.bucketName=test-1307744200
 - 大小写敏感
 - 数值前面必须有 `空格` 作为分割符
 - `#` 表示注释
-#####🌑数据格式
+### 🌑数据格式
 - 对象 / Map集合
 ```yml
 user:  
@@ -696,7 +696,7 @@ style:
   - house  
   - hip-hop
 ```
-#####🌑@ConfigurationProperties
+### 🌑@ConfigurationProperties
 >使用该注释之后，会自动将配置文件中的值注入到bean对象对应的属性中去，***简化了每次注入yml里的数值都要使用 ***`@Value` ***的麻烦 ***
 
 - `@Data`
@@ -785,14 +785,14 @@ public class Test2 {
 # 🌕依赖
 ## 🌗lombok
 >Lombok是一种Java库，它通过注解的方式来简化Java类的编写，提高代码的可读性和简洁性
-#####🌑引入lombok依赖
+### 🌑引入lombok依赖
 ```xml  
 <dependency>  
     <groupId>org.projectlombok</groupId>  
     <artifactId>lombok</artifactId>   
 </dependency>           //不用指定版本号，因为在SpringBoot的父工程里已经集成了lombok
 ```
-#####🌑具体操作
+### 🌑具体操作
 `@Getter/@Setter`  为所有属性提供get/set方法
 `@ToString`  给类自动生成的toString方法
 `@EqualsAndHashCode`  根据类所拥有的非静态字段重写equals方法和hashCode方法

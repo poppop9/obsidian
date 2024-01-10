@@ -16,7 +16,7 @@
 > C Walk 是一种从帮派文化衍生的特殊脚步
 
 十几年前国内刚流行Hiphop文化时候，C Walk小火过一阵子
-#####🌑元素
+### 🌑元素
 - Heel-Toe
 ## 🌗Soul Dance / Party Dance
 > Soul Dance 是从20世纪随着Jazz、Soul、Funk【乃至日后的Hiphop】等美国本土各种通俗音乐文化的兴起，***大众在聚会、舞厅等社交场合进行的舞蹈***
@@ -26,7 +26,7 @@
 
 - Party Dance 的音乐基础已经不属于主流
 - Party Dance 有那种Chill、Old School的感觉
-#####🌑元素
+### 🌑元素
 Charleston 是一种很Soul Dance的Step
 ## 🌗POPPING
 Popping是很要质感的舞种，而***质感这种东西是最容易被视频吃掉的***【感觉自己Pop练得贼大，一录视频先砍掉一半儿】【Vibration这种连续的震动，如果现场看到的视觉冲击力是100分的话，回来看视频恐怕能有40分就不错了】
