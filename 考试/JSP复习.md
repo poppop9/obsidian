@@ -681,6 +681,52 @@ ServletContextListener被称为“ServletContext生命周期监听器”，可�
 	```
 ### HttpSession事件监听器
 ![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111190906.png)
+- HttpSessionIdListener用来监听session ID的变化。
+- HttpSessionListener是“HttpSession生命周期监听器”，用来监听HttpSession对象初始化或者结束时响应的动作事件。
+- HttpSessionActivationListener是“HttpSession对象转移监听器”，用来实现它对同一会话在不同的JVM中转移。
+- HttpSessionAttributeListener是“HttpSession属性改变监听器”，用来监听HttpSession对象加入属性、移除属性或者替换属性时响应的动作事件。
+- HttpSessionBindingListener是“HttpSession对象绑定监听器”，用来监听HttpSession中设置成HttpSession属性或者从HttpSession中移除时得到session的通知。
+### HttpSessionIdListener
+请求的session ID发生变化时（场景：在失效瞬间生成新Session，SessionID会改变），会触发sessionIDChanged()方法，并传入HttpSessionEvent和oldSessionId参数，使用HttpSessionEvent中的getSession().getId()获取新的session ID,oldSessionId代表改变之前的session ID。
+
+实现方式有2种：
+- 注入方式
+	```
+	@WebListener
+	public class MyHttpSessionIdListener implements HttpSessionIdListener{
+	}
+	```
+- web.xml配置
+	```
+	<listener>
+		<listener-class>
+		com.wujialiang.MyHttpSessionIdListener
+		</listener-class>
+	</listener>
+	```
+### HttpSessionListener
+在HttpSession对象初始化或者结束前，会自动调用sessionCreated()方法和sessionDestroyed()方法，并传入HttpSessionEvent参数，它封装了HttpSession对象，通过HttpSessionEvent的getSession()方法取得HttpSession对象。
+
+在Web应用程序中，实现HttpSessionListener的方法同样有两种，形式如下。
+- 注入方法
+	```
+	@WebListener
+	public class MyHttpSessionListener implements HttpSessionListener{
+	}
+	```
+- web.xml方法
+	```
+	<listener>
+		<listener-class>
+		com.test.MyHttpSessionListener
+		</listener-class>
+	</listener>
+	```
+
+利用HttpSessionListener记录在线人数：
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111192231.png)
+
+
 
 
 
