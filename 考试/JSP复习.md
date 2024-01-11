@@ -608,7 +608,23 @@ HttpSession会话管理是利用服务器来管理会话的机制，当程序为
 GenericServlet类同时实现Servlet和ServletConfig两个接口
 
 GenericServlet类使得编写Servlet更加方便，提供了一个简单的方法，这个方法用来执行有关servlet生命周期的方法以及在初始化时对ServletConfig对象和ServletContext对象进行说明。
+### ServletContext
+ServletContext对象是Servlet中的全局存储信息，当服务器启动时，Web容器为Web应用创建唯一的ServletContext对象，应用内的Servlet共享同一个ServletContext。
+
+在ServletContext中存放着共享数据，应用内的Servlet可以通过ServletContext对象提供的方法获取共享数据。ServletContext接口中定义了运行Servlet应用程序的环境信息，可以用来获取请求资源的URL、设置与存储全局属性、Web应用程序初始化参数。
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111185031.png)
+
+
 ## 注解
+### @WebServlet主要属性列表
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111184618.png)
+
+利用初始化信息设定跳转信息
+![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111184757.png)
+
+### @WebInitParam主要属性列表
+![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111184642.png)
+
 
 
 
