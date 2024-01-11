@@ -597,11 +597,14 @@ HttpSession会话管理是利用服务器来管理会话的机制，当程序为
 在编写完一个Servlet类后，通常需要在`web.xml`中或者`通过注解`进行相关配置，这样Web容器才能读取Servlet设置的信息【包括其类地址、初始化等】
 
 对于每个Servlet的配置，Web都会生成与之相对应的ServletConfig对象，从ServletConfig对象中可以得到Servlet的初始化参数
-
+### ServletConfig
 在Web容器启动后，通过加载web.xml文件读取Servlet的配置信息，实例化Servlet类，并且为每个Servlet配置信息产生唯一一个ServletConfig对象。在运行Servlet时，调用Servlet接口的init()方法，将产生的ServletConfig作为参数传入Servlet中
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111183502.png)
 初始化方法只会被调用一次，即容器在启动时实例化Servlet和创建ServletConfig对象，且Servlet与ServletConfig是一一对应关系，之后就直接执行service()方法。
+### GenericServlet
+GenericServlet类同时实现Servlet和ServletConfig两个接口
 
+GenericServlet类使得编写Servlet更加方便，提供了一个简单的方法，这个方法用来执行有关servlet生命周期的方法以及在初始化时对ServletConfig对象和ServletContext对象进行说明。
 
 
 
