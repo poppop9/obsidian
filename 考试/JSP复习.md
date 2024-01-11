@@ -1,3 +1,5 @@
+[TOC]
+
 第一章
 ~~第二章~~
 三，注释生命，指令，动作
@@ -60,7 +62,7 @@ JSP的执行顺序：
 	- 方便维护，提高执行效率，加大了部署困难的程度
 - N层架构
 	- 维护方便，进一步加大了部署的困难程度
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240107131928.png)
+	![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240107131928.png)
 ### C/S，B/S
 C/S为客户机服务器架构【***早期***】：
 - 用于有固定用户端/少量用户端
@@ -475,9 +477,9 @@ JSP内置对象request实质就是HttpServletRequest。可实现读取body内容
 - 实现调派请求：使用getRequestDispatcher()方法实现多个Servlet之间的调整
 	- include()
 	- forward()
-![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111002320.png)
-在web程序中，经常是由多个Servlet来完成请求。RequestDispatcher接口【该接口可以由HttpServletRequest的getRequestDispatcher()方法取得】就是为了多个Servlet之间的调整而实现的。调用时指定跳转的URL地址即可完成跳转动作。RequestDispatcher接口有两种方法实现跳转Servlet：include()和forward()。
-![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111002641.png)
+	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111002320.png)
+	在web程序中，经常是由多个Servlet来完成请求。RequestDispatcher接口【该接口可以由HttpServletRequest的getRequestDispatcher()方法取得】就是为了多个Servlet之间的调整而实现的。调用时指定跳转的URL地址即可完成跳转动作。RequestDispatcher接口有两种方法实现跳转Servlet：include()和forward()。
+	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111002641.png)
 ### HttpServletResponse对象
 >HttpServletResponse是用于浏览器做出响应的操作对象，可以设置响应类型，也可以直接输出HTML内容
 
