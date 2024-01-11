@@ -1,5 +1,4 @@
 [TOC]
-
 第一章
 ~~第二章~~
 三，注释生命，指令，动作
@@ -769,6 +768,22 @@ public class MyServletRequestAttributeListener implements HttpSessionAttributeLi
 阻挡某些事件的发生。在Web应用程序中，过滤器在Servlet之前，既可以拦截、过滤浏览器的请求，也可以改变对浏览器的响应。它在服务器端与客户端起到了一个中间组件的作用，对二者之间的数据信息进行过滤。
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111194314.png)
 1个Web应用程序，可以有多个过滤器，组成一个过滤器链，如经常使用过滤器完成字符编码的设定和验证用户的合法性。过滤器链中的每个过滤器都各司其职地处理并转发数据。
+### 实现与设置过滤器
+在Servlet中要实现过滤器，必须实现Filter接口，并用注入的方式或者在web.xml中定义过滤器，让Web容器知道应该加载哪些过滤器。主要分以下5个步骤：
+- 实现Filter接口
+	- init()方法:用来初始化过滤器，利用该对象可以得到过滤器中初始化的配置参数信息。
+	- doFilter()方法:过滤器中主要实现过滤的方法。当客户端请求目标资源时，Wb应用程序会调用与此目标资源相关的doFilter()方法，在该方法中，实现对请求和响应的数据处理。
+	- destroy()方法:用于释放过滤器中使用的资源。
+- 实现FilterConfig接口
+	- getFilterName():用于得到过滤器的名字。
+	- getlnitParameter():得到过滤器中初始化的参数值。
+	- getInitParameterNames():得到过滤器配置中的所有初始化参数名字的枚举类型。
+	- getServletContext():得到Servlet上下文文件对象。
+- 设置过滤器
+- 请求封装器
+- 响应封装器
+
+
 
 
 
