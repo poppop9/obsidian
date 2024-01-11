@@ -756,8 +756,14 @@ ServletRequestListener提供2个监听接口：
 - attributeRemoved():该方法用于通知监听器，已经在Request中移除一个对象或者变量。
 - attributeReplaced():该方法用于通知监听器，已经在Request中替换一个对象或者变量。
 
-当对request范围的对象或者变量进行操作时，Web容器会自动调用与实现接口类相对应的方法。ServletRequestAttributeEvent是一个对象，可以利用其getName()方法得到操作对象或者变量的名称，利用getValue()方法得到操作对象或者变量的值，有2种实现方式。
-
+当对request范围的对象或者变量进行操作时，Web容器会自动调用与实现接口类相对应的方法。ServletRequestAttributeEvent是一个对象，可以利用其getName()方法得到操作对象或者变量的名称，利用getValue()方法得到操作对象或者变量的值，有2种实现方式：
+注入方式
+```
+@WebListener
+public class MyServletRequestAttributeListener implements HttpSessionAttributeListener{
+}
+```
+## 
 
 
 
