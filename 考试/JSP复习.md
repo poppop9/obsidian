@@ -659,22 +659,28 @@ ServletContextListener被称为“ServletContext生命周期监听器”，可�
 	</context-param>
 	```
 ### ServletContextAttributeListener - 属性监听器
-用来监听Application属性的添加、移除或者替换时响应的动作事件，提供3个监听方法。
-    attributeAdded()方法:该方法用于通知监听器，有对象或者属性被添加到Application中。
-    attributeRemoved()方法:该方法用于通知监听器，有对象或者属性被移除到Application中。
-    attributeReplaced()方法:该方法用于通知监听器，有对象或者属性被更改到Application中。
+>用来监听Application属性的添加、移除或者替换时响应的动作事件，提供3个监听方法：
+> - attributeAdded()方法:该方法用于通知监听器，有对象或者属性被添加到Application中。
+> - attributeRemoved()方法:该方法用于通知监听器，有对象或者属性被移除到Application中。
+> - attributeReplaced()方法:该方法用于通知监听器，有对象或者属性被更改到Application中。
 
-    在ServletContext中添加属性、移除属性或者更改属性时，与其相对应的方法就会被调用。同样，在Web应用程序中，实现ServletContextAttributeListener的方法也有两种：
-利用注入的方式注入监听类：
-@WebListener
-public class MyServletContextAttributeListener implements ServletContextAttributeListener{
-}
-在web.xml中配置
-<listener>
-	<listener-class>
-	com.test.MyServletContextAttributeListener
-	</listener-class>
-</listener>
+在ServletContext中添加属性、移除属性或者更改属性时，与其相对应的方法就会被调用。同样，在Web应用程序中，实现ServletContextAttributeListener的方法也有两种：
+- 利用注入的方式注入监听类：
+	```java
+	@WebListener
+	public class MyServletContextAttributeListener implements ServletContextAttributeListener{
+	}
+	```
+- 在web.xml中配置
+	```xml
+	<listener>
+		<listener-class>
+		com.test.MyServletContextAttributeListener
+		</listener-class>
+	</listener>
+	```
+### HttpSession事件监听器
+![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111190906.png)
 
 
 
