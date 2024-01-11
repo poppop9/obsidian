@@ -1058,9 +1058,43 @@ EL标签具有以下功能：
 </c:choose>
 ```
 ### 迭代标签
-<c:forEach>标签是核心标签中的迭代标签，功能类似于Java中的for循环语句
+`<c:forEach>`标签是核心标签中的迭代标签，功能类似于Java中的for循环语句
 
+```
+/*
+varname用来存放当前迭代到的成员值，collection用来迭代集合，varstatusName用于存放当前迭代成员的状态信息；begin是指迭代开始，end是指迭代结束，step是指迭代的步长。collection集合可以是数组、Java集合（list容器和Map容器）。
+varstatusName中存放的信息有index（当前迭代的索引号）、count（当前迭代的次数）、first（是否第一次迭代）、last。
+*/
 
+<c:forEach [var=”varname”] [varStatus=”varstatusName”] [begin=”开始”] [end=”结束”] [step=”step”]>
+Java程序或者HTML代码
+</c:forEach>
+
+<c:forEach item=”collection” [var=”varname”] [varStatus=”varstatusName”] [begin=”开始”] [end=”结束”] [step=”step”]>
+Java程序或者HTML代码
+</c:forEach>
+```
+## fmt标签库
+格式化标签库在JSP开发中也是经常使用，可以通过简单的方式将日期、数字进行转换
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240112001842.png)
+## fn标签库
+fn标签库可以将字符串处理变得简单，若要使用fn标签库，需要在JSP页面的头部加入语句：
+`<%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>`
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240112001929.png)
+## SQL标签库
+通过JSTL的SQL标签库可以较方便地操作数据库，在使用SQL标签库时，需要在JSP页面的头部加入如下语句：
+`<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>`
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240112002000.png)
+## XML标签库
+通过JSTL的XML标签库，可以轻松处理XML文件，在使用XML标签库时，需要在JSP页面的头部加入语句：
+`<%@taglib prefix="x" uri="http://java.sun.com/jsp/jstl/xml"%>`
+
+XML标签库主要包括:
+<x:out>标签用于输出XML文件中指定的内容
+<x:parse>标签用来解析XML文件
+<x:set>标签用于把XML文件中XPath表达式的值设置为一个变量
+<x:choose>、<x:when>、<x:othersise>、<x:if>标签用于分支
+<x:transform>标签可以将XML文档转化为HTML格式
 
 
 
