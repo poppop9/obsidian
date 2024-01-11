@@ -624,10 +624,12 @@ ServletContext对象是Servlet中的全局存储信息，当服务器启动时�
 
 ### @WebInitParam主要属性列表
 ![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111184642.png)
+## 监听器
+>监听器就是应用监听事件来监听请求中的行为而创建的一组类
 
+HttpServletRequest、HttpSession、ServletContext对象在Web容器中遵循生成、运行、销毁这样的生命周期。当进行相关的监听配置后，Web容器就会调用监听器上的方法，进行对应的事件处理，从而了解运行的情况或者运行其他的程序。
 
-
-
+使用监听器需要实现相应的监听接口。在触发监听事件时，应用服务器会自动调用监听方法。
 
 
 
