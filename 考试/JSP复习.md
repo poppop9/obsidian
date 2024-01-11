@@ -591,9 +591,21 @@ HttpSession会话管理是利用服务器来管理会话的机制，当程序为
 # Servlet过滤器，监听器
 >过滤器和监听器是Servlet规范里的两个高级特性
 
-过滤器的作用是通过对request、response的修改实现特定的功能【例如请求数据字符编码、IP地址过滤、异常过滤、用户身份认证等】
-监听器的作用是用于监听Web程序中正在执行的程序，根据发生的时间做出特定的响应。
-合理利用这两个特性，能够轻松解决某些Web特殊问题。
+- 过滤器的作用是通过对request、response的修改实现特定的功能【例如请求数据字符编码、IP地址过滤、异常过滤、用户身份认证等】
+- 监听器的作用是用于监听Web程序中正在执行的程序，根据发生的时间做出特定的响应
+## Servlet进阶API
+在编写完一个Servlet类后，通常需要在`web.xml`中或者`通过注解`进行相关配置，这样Web容器才能读取Servlet设置的信息【包括其类地址、初始化等】
+
+对于每个Servlet的配置，Web都会生成与之相对应的ServletConfig对象，从ServletConfig对象中可以得到Servlet的初始化参数
+
+在Web容器启动后，通过加载web.xml文件读取Servlet的配置信息，实例化Servlet类，并且为每个Servlet配置信息产生唯一一个ServletConfig对象。在运行Servlet时，调用Servlet接口的init()方法，将产生的ServletConfig作为参数传入Servlet中
+![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111183502.png)
+初始化方法只会被调用一次，即容器在启动时实例化Servlet和创建ServletConfig对象，且Servlet与ServletConfig是一一对应关系，之后就直接执行service()方法。
+
+
+
+
+
 
 
 
