@@ -854,10 +854,35 @@ Java Bean完全符合Java语言编码规范的要求和特性，形式上就是�
 - 当指定的范围为application时，JSP引擎为访问用户分配同一个Bean对象。==它的生命周期就是该Web应用的存在时间，即Web应用在服务器中存在的时间==
 
 Bean的作用范围是由标签中的scope属性指定的，默认是page范围，即该Bean在当前页有效。scope属性决定了在使用<jsp:useBean>标签时是否要重新创建新的对象。如果某个Bean在其有效的范围内又出现一个id和scope都相同的Bean,那么就可以重用已经被实例化的Bean,而不是重新新建。
+# JDBC
+>JDBC【Java DataBase Connectivity】就是用Java语言操作关系型数据库的一套API
+>
+>数据库（Database）是指存储数据的容器，也被称为数据存储库（Data Store）。数据库能够存储大量结构化和非结构化的数据，包括文本、数字、图像、音频等各种类型的数据。它们是计算机系统中最重要的组件之一，被广泛用于各种应用程序和业务领域
+
+常见的数据库软件有MySQL、Oracle、SQL Server、PostgreSQL等。这些软件具有管理、查询、更新、删除数据的功能，可以通过编写SQL语句来操作数据库中的数据
+
+在Java中主要是使用JDBC来访问数据库。JDBC API是Java语言访问数据库的一种规范，是Java数据库的编程接口，是一组标准的Java接口和类
 ## Dao设计模式
-DAO设计模式可以提高开发效率、实现模块化开发
+DAO【Data Access Object】设计模式可以提高开发效率、实现模块化开发，在数据操作过程中，主要是以面向接口编程为主。
 
-
+- 客户层：实际上就是客户端浏览器。
+- 显示层：利用JSP和Servlet进行页面显示。
+- 业务层：对数据层的原子性DAO操作进行整合。
+- 数据层：对数据库进行原子操作，例如增加、删除、修改等。
+- 数据库：保存数据的信息库。
+### Dao划分
+- VO(Value Object)：一个用于存放网页的数据，比如网页要显示一条用户的信息，则这个类就是用户类，主要由属性以及属性的setter和getter方法组成，VO类中的成员变量与表中的字段是相对应的。
+- DatabaseConnection：用于打开和关闭数据库操作的类。
+- DAO接口：用于声明数据库的操作，定义对数据库的原子性操作，例如增加、修改、删除等。
+- DAOImpl：实现DAO接口的类，但是不负责数据库的打开和关闭。
+- DAOProxy：也是实现DAO接口，主要完成数据库的打开和关闭。
+- DAOFactory：工厂类，通过getInstance()取得DAO的实例化对象。
+### DAO命名规则
+- DAO命名为XxxDao，有的开发人员喜欢在其前加一个Ⅰ表示是接口类，例如UserDao或者IUserDao
+- DAOImpl命名为XxxDaoImpl，表示是接口实现类，例如UserDaoImpl
+- DAOProxy命名为XxxDaoProxy或者XxxService，例如UserDaoProxy或者UserService
+- DAOFactory命名为XxxFactory，例如UserDaoFactory
+- VO的命名与表名一致，VO中的属性与表字段一致
 
 
 
