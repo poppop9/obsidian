@@ -786,6 +786,18 @@ public class MyServletRequestAttributeListener implements HttpSessionAttributeLi
 >请求封装器是指利用HttpServletRequestWrapper类将请求中的内容进行统一修改，例如修改请求字符编码、替换字符、权限验证等
 - 响应封装器
 >响应封装器是指利用HttpServletResponseWrapper类将响应中的内容进行统一修改，例如压缩输出内容、替换输出内容等。有些时候需要对网站的输出内容进行控制，一般有两种方法：一是在保存数据库前对不合法的内容进行替换：二是在输出端进行替换。若是对每一个Servlet都进行输出控制，则任务量将非常大而且烦琐。可利用过滤器对Servlet进行统一处理，但是因为HttpServletResponse不能缓存输出内容，所以需要自定义一个具备缓存功能的response。
+## 异步处理
+一个普通的Servlet工作流程大致是：
+- 首先，Servlet接收请求，对数据进行处理
+- 然后，调用业务接口方法，完成业务处理【在Servlet中最耗时，因为它会执行一些数据库操作或者其他的跨网络调用等，在处理业务的过程中，该线程占用的资源不会被释放，这有可能造成性能的瓶颈。】
+- 最后，将结果返回到客户端
+
+
+异步处理可以先释放容器被占用的资源，将请求交给另一个异步线程来执行，业务方法执行完成后再生成响应数据。可以通过异步处理接口AsyncContext实现，ServletRequest提供了两个方法来启动AsyncContext：
+- AsyncContext startAsync()
+- AsyncContext startAsync(ServletRequest servletRequest,ServletResponse servletResponse)
+
+上述两个方法都能得到AsyncContext接口的实现对象。当一个Servlet调用了startAsync()方法之后，该Servlet的响应就会被延迟，并释放容器分配的线程。AsyncContext接口的主要方法如下表所示。
 
 
 
