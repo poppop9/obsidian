@@ -780,8 +780,13 @@ public class MyServletRequestAttributeListener implements HttpSessionAttributeLi
 	- getInitParameterNames():得到过滤器配置中的所有初始化参数名字的枚举类型。
 	- getServletContext():得到Servlet上下文文件对象。
 - 设置过滤器
+	- 注入
+	- web.xml中配置
 - 请求封装器
+>请求封装器是指利用HttpServletRequestWrapper类将请求中的内容进行统一修改，例如修改请求字符编码、替换字符、权限验证等
 - 响应封装器
+>响应封装器是指利用HttpServletResponseWrapper类将响应中的内容进行统一修改，例如压缩输出内容、替换输出内容等。有些时候需要对网站的输出内容进行控制，一般有两种方法：一是在保存数据库前对不合法的内容进行替换：二是在输出端进行替换。若是对每一个Servlet都进行输出控制，则任务量将非常大而且烦琐。可利用过滤器对Servlet进行统一处理，但是因为HttpServletResponse不能缓存输出内容，所以需要自定义一个具备缓存功能的response。
+
 
 
 
