@@ -1,12 +1,12 @@
 [TOC]
 第一章
 ~~第二章~~
-三，注释生命，指令，动作
+三，√√√
 四，
 五，√√√
 六，√√√
 ~~七~~
-八，增删改查，如何指定数据源
+八，√√√
 ~~九~~
 十，1，3
 十一，
@@ -395,12 +395,11 @@ Servlet的生命周期：Servlet在容器中从创建到删除的过程。
 
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223522.png)
 ## 生命周期过程
-①装载Servlet，装载情形：Servlet容器启动时自动加载某些Servlet；在Servlet容器启动后,客户首次向Servlet发出请求；Servlet的类文件被更新后，重新加载Servlet。
-②实例化一个Servlet实例对象。
-③调用Servlet的init( )方法进行初始化。
-④服务。容器收到对该Servlet的请求，则调用该Servlet对象的service（）方法处理请求。
-⑤卸载。
-当服务器端不再需要该Servlet的时候，服务器调用destroy（）方法卸载该Servlet，释放Servlet运行时占用的资源。
+1. 装载Servlet，装载情形：Servlet容器启动时自动加载某些Servlet；在Servlet容器启动后,客户首次向Servlet发出请求；Servlet的类文件被更新后，重新加载Servlet
+2. 实例化一个Servlet实例对象
+3. 调用Servlet的init( )方法进行初始化
+4. 服务。容器收到对该Servlet的请求，则调用该Servlet对象的service（）方法处理请求
+5. 卸载：当服务器端不再需要该Servlet的时候，服务器调用destroy（）方法卸载该Servlet，释放Servlet运行时占用的资源
 
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240110223634.png)
 ## 编写和部署Servlet
@@ -1090,11 +1089,11 @@ fn标签库可以将字符串处理变得简单，若要使用fn标签库，需�
 `<%@taglib prefix="x" uri="http://java.sun.com/jsp/jstl/xml"%>`
 
 XML标签库主要包括:
-<x:out>标签用于输出XML文件中指定的内容
-<x:parse>标签用来解析XML文件
-<x:set>标签用于把XML文件中XPath表达式的值设置为一个变量
-<x:choose>、<x:when>、<x:othersise>、<x:if>标签用于分支
-<x:transform>标签可以将XML文档转化为HTML格式
+- <x:out>标签用于输出XML文件中指定的内容
+- <x:parse>标签用来解析XML文件
+- <x:set>标签用于把XML文件中XPath表达式的值设置为一个变量
+- <x:choose>、<x:when>、<x:othersise>、<x:if>标签用于分支
+- <x:transform>标签可以将XML文档转化为HTML格式
 
 
 
