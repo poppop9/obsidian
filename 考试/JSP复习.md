@@ -826,8 +826,34 @@ Java Bean完全符合Java语言编码规范的要求和特性，形式上就是�
 >![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111211758.png)
 
 - 在JSP页面中利用<jsp:useBean>标签使用Bean类
+## 设置Bean属性
+- 使用<jsp:setProperty>
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111212040.png)
+```jsp
+// 在使用该标签时， 注意必须使用<jsp:useBean>标签创建一个Bean
 
+<jsp:setProperty name="beanInstanceName"
+                 property="*|propertyName [param='parameterName']|propertyName value='{String|<%=expression%>}'">
+</jsp:setProperty>
+```
 
+使用<jsp:setProperty>标签有3种方式：
+- 使用字符串或者表达式给Bean属性赋值， 其要求是表达式的值与Bean属性的值类型相同。
+- 使用表单参数形式给Bean属性赋值， 其要求是表单中提供的参数名字与Bean属性的名字相同。
+- 使用表单参数值给Bean属性赋值， 其要求是表单中提供的参数名字与<jsp:setProperty>标签中的param属性值名字相同。
+
+表单参数是指在HTML表单中定义的输入字段的名称，而表单参数值是用户在该字段中输入的实际值
+## 取得Bean属性
+<jsp:getProperty>标签用来获得Bean属性值，并可以显示在浏览器中。该标签必须和<jsp:useBean>标签一起使用
+## Bean的作用域
+<jsp:useBean>标签中Bean的作用域有4个：page、request、session、application。JSP引擎会根据作用域给用户分配不同的Bean，运行多个用户拥有相同的Bean，每个客户的Bean是相互独立的。
+
+当指定的范围为request时，针对同一用户的不同请求，JSP引擎都会给用户分配不同的Bean对象。当响应结束时，取消分配的Bean。Bean的生命周期就是从客户请求开始到响应结束这段时间。
+当指定的范围为page时，针对同一用户访问不同的页面，JSP引擎都会给用户分配不同的Bea对象。当客户进入当前页时，JSP引擎给用户分配一个Bean对象，当用户离开当前页时，取消分配的Bean对象。因此，该Bean的生命周期就位于当前页。
+当指定的范围为session时，针对同一用户访问同一Web项目下的不同页面时，JSP引擎都会给用户分配不同的Bean对象。当客户访问Web项目中某一目录下的页面时，JSP引擎给用户分配一个Bean对象，当用户离开Web目录时，取消分配的Bean对象，因此，该Bean的生命周期是Web项目的一个Session时间。
+当指定的范围为application时，JSP引擎为访问用户分配同一个Bean对象。它的生命周期就是该Web应用的存在时间，即Web应用在服务器中存在的时间。
+
+Bean的作用范围是由标签中的scope属性指定的，默认是page范围，即该Bean在当前页有效。scope属性决定了在使用<jsp:useBean>标签时是否要重新创建新的对象。如果某个Bean在其有效的范围内又出现一个id和scope都相同的Bean,那么就可以重用已经被实例化的Bean,而不是重新新建。
 
 
 
