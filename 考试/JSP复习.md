@@ -1036,11 +1036,29 @@ EL标签具有以下功能：
 	<c:out value=”表达式”/>
 	```
 ### 流程控制标签
+- `<c:if>标签`，用于条件判断
+```
+// test参数是<c:if>标签必须设置的，var参数是条件的执行结果，scope是var的有效范围
+<c:if test=”判断条件” [var=”varName”][scope=”request|page|session|application”]>
+条件为真时执行的语句
+</c:if>
+```
+- `<c:choose>标签`，`<c:when>标签`，`<c:otherwise>标签`
+```
+// 
+当<c:when>标签中的判断语句为假时，才会执行<c:otherwise>中的内容
+<c:choose>
+<c:when test=”表达式”>
+表达式为真时执行的语句
+</c:when>
 
-
-
-
-
+[<c:otherwise>
+表达式为假时执行的语句
+</c:otherwise>]
+</c:choose>
+```
+### 迭代标签
+<c:forEach>标签是核心标签中的迭代标签，功能类似于Java中的for循环语句
 
 
 
