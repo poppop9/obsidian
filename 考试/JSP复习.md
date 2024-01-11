@@ -997,11 +997,29 @@ DAO【Data Access Object】设计模式可以提高开发效率、实现模块�
 # EL标签
 >在JSP页面中，经常利用JSP表达式<%=变量或者表达式%>来输出声明的变量以及页面传递的参数，当变量很多的时候，书写这样的表达式会显得累赘，EL标签很好地解决了这个问题，它简化了表达式
 ## 语法
-`${参数名}`
+`${参数名}`，例如：`${param.name}`获得参数name值，等同于`<%=request.getParameter(‘name’)%>`
 
-例如：${param.name}获得参数name值，等同于<%=request.getParameter(‘name’)%>
+从形式和用法上看，这种EL表达式简化了JSP原有的表达式，也是目前开发中经常使用的方式。
+## 功能
+EL标签提供了更为简洁、方便的形式来访问变量，不但可以简化JSP页面代码，而且使得开发者的逻辑更加清晰
 
+EL标签具有以下功能：
+- 可以访问JSP中不同域的对象
+- 可以访问JavaBean中的属性：在JavaBean中，经常是用JavaBean做内部变量，在JSP表达式中访问这些JavaBean中的变量比较麻烦，但是应用EL标签却极其简单、方便
+- 可以访问集合元素
+- 支持简单的运算符操作
+## EL标签的隐含变量
+隐含变量：pageScope、requestScope、sessionScope、applicationScope
 
+分别对应于JSP隐含变量page、request、session、application，利用JSP中对应的作用域发送请求的参数变量，可以用相应的EL标签变量获取参数值
+
+隐含变量param【取得某一个参数】、paramValues【取得参数集合中的变量值】包含请求参数集合变量，相当于JSP的：
+`request.getParameter(String name)`和`request.getParameterValues(String name)`
+## 其他变量
+- header、headerValues变量用于获取请求HTTP表头信息，header表示取得HTTP表头信息，headerValues表示取得表头数组信息，它们分别对应于request.getHeader()和request.getHeaders()
+- cookie变量用于取得所有请求的cookie参数，参数中的每个对象对应javax.servlet.http.Cookie。例如，要获取cookie中名称为username的值，可以直接使用${cookie.username}来获取
+- initParam变量用于取得应用程序的初始化参数，相当于application.getInitParameter()方法。例如，一般页面获取初始化的方法String url=application.getInitParameter(“url”)可以用${initParam.url}
+- pageContext变量用于取得其他相关用户的请求或页面的详细信息，其等同于JSP中的PageContext对象
 
 
 
