@@ -924,8 +924,35 @@ DAO【Data Access Object】设计模式可以提高开发效率、实现模块�
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111214540.png)
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111214604.png)
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111214615.png)
+# XML
+>XML是一种可扩展的标记语言，被设计用来传输和存储数据，是由万维网协会推出的一套数据交换标准。可以用于定义网页上的文档元素，以及复杂的表述和传输。
+   
+在目前的开发系统中，会有很多XML文件，如strus.xml、spring.xml、web.xml、server.xml以及自定义的XML文件
 
-
+- XML与HTML类似，设计的宗旨是传输数据，它没有固定的标签体，需要自定义标签，也是一种自我描述的语言，可以储存数据和共享数据
+- XML与HTML的主要差异在于：HTML用来显示数据，XML用来传输和存储数据；HTML用来显示信息，XML用来传输信息
+- XML的最大特点是它的自我描述和任意扩展，当用其描述数据时，用户可以根据需要，组织符合- XML规范形式的任意内容，并且标签的名称也可以由用户指定
+## XML用途
+- 传输数据
+> 通过XML可以在不同的系统之间传输数据，在开发过程中难免会遇到多个系统之间相互通信，且各系统的存储数据又是多种多样的情况，对于开发者而言，这些工作量是巨大的，通过转换为XML格式来传输数据可以减少传输数据时的复杂性，并且还可以具备通用性。
+> 例如，目前流行的SOA协议、Web Service服务、json、Ajax等，其实都是利用XML数据格式在不同的系统之间交互数据
+- 存储数据
+> 利用XML来存储数据是其最基本的用途，因为它可以作为数据文件，所以当需要持久化保存数据时，可以利用XML数据格式进行存储，例如web.xml、struts.xml、spring.xml等
+## XML的技术架构
+- 数据定义Schema、DTD：XML数据文件按照一定的协议进行定义，有两种可遵循的定义规则，即DTD和Schema。
+- 数据风格样式XSLT：XSLT是可扩展样式转换，使用XSLT可以将XML中存放的内容按照指定的样式转换为HTML页面。
+- 解析XML文件工具：目前比较盛行的工具是使用dom、dom4j、SAX。
+- 操作XML数据：目前将XML数据作为具体操作，其功能是由额外的程序实现的，一般采用Java比较多，也可以使用JavaScript。
+## XML基本语法
+- XML文档的基本结构
+- 标记必须闭合
+- 必须合理嵌套
+- XML元素
+- XML属性
+- 只有一个根元素
+- 大小写敏感
+- 空白被保留
+- 注释的写法
 
 
 
