@@ -14,6 +14,13 @@
       "icon": "lucide-search",
       "name": "在当前笔记中查找并替换",
       "mode": "any"
+    },
+    {
+      "id": "editor:open-search",
+      "icon": "lucide-search",
+      "name": "在当前笔记中查找",
+      "mode": "any",
+      "color": "#ffffff"
     }
   ],
   "macros": [],

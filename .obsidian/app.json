@@ -3,7 +3,7 @@
   "strictLineBreaks": false,
   "showFrontmatter": true,
   "readableLineLength": false,
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "propertiesInDocument": "hidden",
   "pdfExportSettings": {
