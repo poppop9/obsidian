@@ -798,6 +798,8 @@ public class MyServletRequestAttributeListener implements HttpSessionAttributeLi
 - AsyncContext startAsync(ServletRequest servletRequest,ServletResponse servletResponse)
 
 上述两个方法都能得到AsyncContext接口的实现对象。当一个Servlet调用了startAsync()方法之后，该Servlet的响应就会被延迟，并释放容器分配的线程。AsyncContext接口的主要方法如下表所示。
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111203425.png)
+# JavaBean
 
 
 
