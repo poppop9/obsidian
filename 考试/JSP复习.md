@@ -766,6 +766,7 @@ public class MyServletRequestAttributeListener implements HttpSessionAttributeLi
 ## 过滤器
 阻挡某些事件的发生。在Web应用程序中，过滤器在Servlet之前，既可以拦截、过滤浏览器的请求，也可以改变对浏览器的响应。它在服务器端与客户端起到了一个中间组件的作用，对二者之间的数据信息进行过滤。
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111194314.png)
+1个Web应用程序，可以有多个过滤器，组成一个过滤器链，如经常使用过滤器完成字符编码的设定和验证用户的合法性。过滤器链中的每个过滤器都各司其职地处理并转发数据。
 
 
 

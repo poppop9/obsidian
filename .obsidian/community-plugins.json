@@ -11,5 +11,7 @@
   "file-order",
   "make-md",
   "cmdr",
-  "css-snippets"
+  "css-snippets",
+  "obsidian-enhancing-export",
+  "obsidian-pandoc"
 ]
