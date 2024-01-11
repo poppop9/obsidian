@@ -554,6 +554,11 @@ MIME类型有text/html、application/pdf、application/jar、application/x-zip�
  Session.setAttribute(“username”,”John”);	
 ```
 
+- 利用session来保存登录信息
+![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111181435.png)
+#### HttpSession管理会话的原理
+HttpSession会话管理是利用服务器来管理会话的机制，当程序为某个客户端的请求创建了一个session的时候，服务器会检查客户端的请求是否已经包含了一个session标识，如果已经有了session标识，服务器就把该session检索出来使用；如果请求不包含session标识，就为客户端创建一个该请求的唯一session标识。
+![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111181557.png)
 
 
 
