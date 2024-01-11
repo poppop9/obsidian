@@ -802,9 +802,30 @@ public class MyServletRequestAttributeListener implements HttpSessionAttributeLi
 # JavaBean
 >软件设计分层的概念主要就是将软件各个部分进行解耦合设计，对于JSP动态开发技术而言，JavaBean是最基础的分层技术。
 
-在JSP中，经常利用Java Bean实现核心的业务逻辑，而JSP页面用于表现层。
-Java Bean完全符合Java语言编码规范的要求和特性，形式上就是纯Java代码，它是可以重复使用的一个组件。在这种设计模式下，JSP页面只用于接收用户的输入以及显示处理之后的结果，因此不需要在JSP页面中嵌入大量的Java代码，不但提高了系统的可维护性，而且方便工作的分工。
+在JSP中，经常利用Java Bean实现核心的业务逻辑，而JSP页面用于表现层
 
+Java Bean完全符合Java语言编码规范的要求和特性，形式上就是纯Java代码，它是可以重复使用的一个组件。在这种设计模式下，JSP页面只用于接收用户的输入以及显示处理之后的结果，因此不需要在JSP页面中嵌入大量的Java代码，不但提高了系统的可维护性，而且方便工作的分工。
+## 特性
+- 支持反射机制：利用反射机制可以分析出Java Bean是如何运行的
+- 支持事件：事件是一种简单的通信机制，利用它可以将相应的信息通知给Java Bean
+- 支持属性：可以自定义属性，利用标准标签与JSP页面交互数据
+- 支持持久性：可以将Java Bean进行保存，在需要的时候又可以重新载入
+
+![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111211539.png)
+## 创建规范
+- Java Bean类必须是public类
+- 提供给JSP页面调用的方法，必须赋予public访问权限。
+- Java Bean类中的属性，提供给JSP页面调用时必须提供public的get和set方法。
+- 必须拥有不带参数的构造方法
+
+使用Bean注意3个问题：
+- 按规范定义Bean类【常见有2种部署方法】，并给出类属性的相应get和set方法
+	- 将Bean的Class文件部署在Web服务器的公共目录中
+	- 将Bean的Class文件部署在Web服务器的特定项目的目录中，即将Bean类的Class文件部署在Web项目的指定文件夹下。例如\ch09\src\com\eshore\pojo\User.class
+- 在页面中要导入相应的Bean类
+>![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111211758.png)
+
+- 在JSP页面中利用<jsp:useBean>标签使用Bean类
 
 
 
