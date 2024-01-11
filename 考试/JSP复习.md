@@ -800,6 +800,10 @@ public class MyServletRequestAttributeListener implements HttpSessionAttributeLi
 上述两个方法都能得到AsyncContext接口的实现对象。当一个Servlet调用了startAsync()方法之后，该Servlet的响应就会被延迟，并释放容器分配的线程。AsyncContext接口的主要方法如下表所示。
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111203425.png)
 # JavaBean
+>软件设计分层的概念主要就是将软件各个部分进行解耦合设计，对于JSP动态开发技术而言，JavaBean是最基础的分层技术。
+
+在JSP中，经常利用Java Bean实现核心的业务逻辑，而JSP页面用于表现层。
+Java Bean完全符合Java语言编码规范的要求和特性，形式上就是纯Java代码，它是可以重复使用的一个组件。在这种设计模式下，JSP页面只用于接收用户的输入以及显示处理之后的结果，因此不需要在JSP页面中嵌入大量的Java代码，不但提高了系统的可维护性，而且方便工作的分工。
 
 
 
