@@ -883,6 +883,30 @@ DAO【Data Access Object】设计模式可以提高开发效率、实现模块�
 - DAOProxy命名为XxxDaoProxy或者XxxService，例如UserDaoProxy或者UserService
 - DAOFactory命名为XxxFactory，例如UserDaoFactory
 - VO的命名与表名一致，VO中的属性与表字段一致
+## JDBC建立过程
+- 创建数据库
+- 导入JDBC驱动包
+>![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111213507.png)
+
+- 建立数据库的一个连接
+- 执行SQL语言
+>![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111213650.png)
+> ```
+> MySQL注册方式为com.mysql.jdbc.Driver
+> 连接方式为jdbc:mysql://IP:3306/database
+> IP为连接的IP地址(示例中是localhost)，默认端口是3306
+> database是连接的数据库(示例中是test)
+> “root”和“123456”是数据库的用户名和密码
+> rs = st.executeQuery("select * from person");执行SQL查询并返回结果
+> ```
+
+- 处理数据库返回结果
+>![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111213738.png)
+
+- 关闭数据库的连接
+>![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111213750.png)
+## 增删改查
+### 增
 
 
 
