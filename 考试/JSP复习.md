@@ -613,8 +613,6 @@ ServletContext对象是Servlet中的全局存储信息，当服务器启动时�
 
 在ServletContext中存放着共享数据，应用内的Servlet可以通过ServletContext对象提供的方法获取共享数据。ServletContext接口中定义了运行Servlet应用程序的环境信息，可以用来获取请求资源的URL、设置与存储全局属性、Web应用程序初始化参数。
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111185031.png)
-
-
 ## 注解
 ### @WebServlet主要属性列表
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111184618.png)
@@ -630,6 +628,53 @@ ServletContext对象是Servlet中的全局存储信息，当服务器启动时�
 HttpServletRequest、HttpSession、ServletContext对象在Web容器中遵循生成、运行、销毁这样的生命周期。当进行相关的监听配置后，Web容器就会调用监听器上的方法，进行对应的事件处理，从而了解运行的情况或者运行其他的程序。
 
 使用监听器需要实现相应的监听接口。在触发监听事件时，应用服务器会自动调用监听方法。
+### ServletContext事件监听器
+ServletContextListener被称为“ServletContext生命周期监听器”，可以用来监听Web程序初始化或者结束时响应的动作事件，提供两个监听方法：
+- contextInitialized()：该方法用于通知监听器，已经加载Web应用和初始化参数。
+- contextDestroyed()：该方法用于通知监听器， Web应用即将关闭。
+---
+- Web应用程序启动时，自动开始监听，调用contextInitialized()方法，传入ServletContextEvent参数，它封装了ServletContext对象，可以通过ServletContextEvent的getServletContext()方法取得ServletContext对象，通过getInitParameter()方法取得初始化参数。
+- Web应用关闭时，自动调用contextDestroyed()方法，同样会传入ServletContextEvent参数。在contextInitialized()中可以实现应用程序资源的准备事件， 在contextDestroyed()中可以实现对资源的释放。例如，可以在contextInitialized()方法中实现Web应用的数据库连接、读取应用程序设置等，在contextDestroyed()中设置数据库资源的释放。
+#### 实现ServletContextListener的步骤
+1. 编写一个监听类并实现ServletContextListener接口
+2. 用web.xml进行相关的配置
+	```xml
+	<listener>
+	  <listener-class>com.test.MyServletContextListener</listener-class>
+	</listener>
+	```
+
+3. 或者利用注入的方式注入监听类
+	```java
+	@WebListener
+	public class MyServletContextListener implements ServletContextListener{
+	}
+	```
+
+4. 若需要初始化参数， 则需要在web.xml中进行配置
+	```xml
+	<context-param>
+	  <param-name>user_name</param-name>
+	  <param-value>test</param-value>
+	</context-param>
+	```
+### ServletContextAttributeListener - 属性监听器
+用来监听Application属性的添加、移除或者替换时响应的动作事件，提供3个监听方法。
+    attributeAdded()方法:该方法用于通知监听器，有对象或者属性被添加到Application中。
+    attributeRemoved()方法:该方法用于通知监听器，有对象或者属性被移除到Application中。
+    attributeReplaced()方法:该方法用于通知监听器，有对象或者属性被更改到Application中。
+
+    在ServletContext中添加属性、移除属性或者更改属性时，与其相对应的方法就会被调用。同样，在Web应用程序中，实现ServletContextAttributeListener的方法也有两种：
+利用注入的方式注入监听类：
+@WebListener
+public class MyServletContextAttributeListener implements ServletContextAttributeListener{
+}
+在web.xml中配置
+<listener>
+	<listener-class>
+	com.test.MyServletContextAttributeListener
+	</listener-class>
+</listener>
 
 
 
