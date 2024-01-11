@@ -542,7 +542,17 @@ MIME类型有text/html、application/pdf、application/jar、application/x-zip�
 - 特点：利用Cookie实现会话管理是目前开发中采用的主流方法，大多数的动态页面开发技术都实现了这一功能，并且其管理流程是自动完成的，在实现上并不需要多大的开发工作量。
 
 ![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111010905.png)
+### HttpSession会话管理
+服务端不能主动连接客户端，只能等待并答复客户端请求。HTTP协议本身并不支持服务端保存客户端的状态等信息。于是，Web服务器中引入了session的概念，用来保存客户端的信息
 
+在java中，使用`javax.servlet.http.HttpSession类`来实现session会话。每个请求者对应一个session对象，客户的所有状态信息都保存在该对象里。当用户第一次请求服务器时，就创建了session对象。它以`key-value`的形式进行保存，通过相对应的读写方法来保存客户的状态信息。
+
+```java
+ //获取Session对象
+ HttpSession session = request.getSession();	 
+//设置Session中的属性
+ Session.setAttribute(“username”,”John”);	
+```
 
 
 
