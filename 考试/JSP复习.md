@@ -576,6 +576,18 @@ HttpSession会话管理是利用服务器来管理会话的机制，当程序为
 
 关闭浏览器，这样会使浏览器端的session失效，服务器端session并不会失效。如果服务器进程终止了，那么session会被结束。在session结束时，服务器会清空当前浏览器的相关数据信息。
 #### HttpSession的有效期
+>当某用户访问的session超过这个有效期时，那么session就失效了，服务器会将它从内存中清除
+
+设定session的有效期有以下三种方法：、
+- 在对应的Web服务器配置中设置所有session的有效期
+- 调用session的setMaxInactiveInterval(long interval)进行设定
+- 在web.xml中修改，例如：
+	```xml
+	<session-config>
+	<!--会话超时时长为30分钟-->
+	<session-timeout>30</session-timeout>
+	</session-config>
+	```
 
 
 
