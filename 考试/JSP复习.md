@@ -559,6 +559,26 @@ MIME类型有text/html、application/pdf、application/jar、application/x-zip�
 #### HttpSession管理会话的原理
 HttpSession会话管理是利用服务器来管理会话的机制，当程序为某个客户端的请求创建了一个session的时候，服务器会检查客户端的请求是否已经包含了一个session标识，如果已经有了session标识，服务器就把该session检索出来使用；如果请求不包含session标识，就为客户端创建一个该请求的唯一session标识。
 ![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111181557.png)
+#### HttpSession中禁用Cookie
+可以通过配置的方式在Web项目中禁用Cookie，禁用方法如下：
+- 在Web项目中的web目录中的META-INF文件夹下，打开或者创建context.xml文件，并编辑内容如图【仅对单个项目的Cookie禁止】
+- 打开Tomcat的配置文件context.xml，将cookies禁用掉【禁止部署在Tomcat服务器里的Web项目使用Cookie】
+#### HttpSession的生命周期
+1. 创建：当客户端第一次访问服务器时，服务器为每个浏览器创建不同Session的ID值。在服务器端使用request.getSession()方法来获得HttpSession对象
+2. 使用：创建HttpSession对象后，使用Session对象进行数据的存取和传输。
+	1. 将产生的sessionID存入Cookie
+	2. 当客户端再次发送请求时，会将sessionID与request一起传送给服务端。
+	3. 服务端根据请求过来的sessionID与保存在服务器端的session对应起来，判断是否为同一session。
+3. 消亡：有3种方式可以结束session对象
+	1. 将浏览器关闭
+	2. 调用HttpSession的invalidate()方法
+	3. session超时
+
+关闭浏览器，这样会使浏览器端的session失效，服务器端session并不会失效。如果服务器进程终止了，那么session会被结束。在session结束时，服务器会清空当前浏览器的相关数据信息。
+#### HttpSession的有效期
+
+
+
 
 
 
