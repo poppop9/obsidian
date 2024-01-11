@@ -725,6 +725,39 @@ ServletContextListener被称为“ServletContext生命周期监听器”，可�
 
 利用HttpSessionListener记录在线人数：
 ![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111192231.png)
+### HttpServletRequest事件监听器
+![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111192330.png)
+- ServletRequestListener是“Request生命周期监听器”，用来监听Reuqest对象初始化或者结束时响应的动作事件
+- ServletRequestAttributeListener是“Request属性改变监听器”，用来监听Request对象加入属性、移除属性或者替换属性时响应的动作事件
+### ServletRequestListener
+ServletRequestListener提供2个监听接口：
+- requestInitialized():该方法用于通知监听器，产生了新的request对象。
+- requestDestroyed():该方法用于通知监听器，已经消除一个request对象。
+
+在request对象初始化或者结束前，会自动调用requestInitialized()方法和requestDestroyed()方法，并传入ServletRequestEvent参数，它封装了ServletRequest对象，可以通过ServletRequestEvent的getServletContext()方法取得Servlet上下文对象，通过getServletRequest()方法得到请求对象，有2种实现方式：
+- 注入方式监听
+	```
+	@WebListener
+	public class MyServletRequestListener implements ServletRequestListener{
+	}
+	```
+
+- web.xml配置
+	```
+	<listener>
+		<listener-class>
+		com.wujialiang.MyServletRequestListener
+		</listener-class>
+	</listener>
+	```
+### ServletRequestAttributeListener
+该接口提供3个监听方法：
+- attributeAdded():该方法用于通知监听器，已经在Request中添加一个对象或者变量。
+- attributeRemoved():该方法用于通知监听器，已经在Request中移除一个对象或者变量。
+- attributeReplaced():该方法用于通知监听器，已经在Request中替换一个对象或者变量。
+
+当对request范围的对象或者变量进行操作时，Web容器会自动调用与实现接口类相对应的方法。ServletRequestAttributeEvent是一个对象，可以利用其getName()方法得到操作对象或者变量的名称，利用getValue()方法得到操作对象或者变量的值，有2种实现方式。
+
 
 
 
