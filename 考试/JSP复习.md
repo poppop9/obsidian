@@ -1020,11 +1020,22 @@ EL标签具有以下功能：
 - cookie变量用于取得所有请求的cookie参数，参数中的每个对象对应javax.servlet.http.Cookie。例如，要获取cookie中名称为username的值，可以直接使用${cookie.username}来获取
 - initParam变量用于取得应用程序的初始化参数，相当于application.getInitParameter()方法。例如，一般页面获取初始化的方法String url=application.getInitParameter(“url”)可以用${initParam.url}
 - pageContext变量用于取得其他相关用户的请求或页面的详细信息，其等同于JSP中的PageContext对象
-
-
-
-
-
+# JSTL标签库
+>JSTL标签是一组与HTML标签相似但又比HTML标签强大的功能标签，编程人员可通过它编写出动态的JSP页面。包括5类标签库：core标签库、fmt标签库、fn标签库、xml标签库和SQL标签库
+>![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240111221107.png)
+## core标签库
+### 表达式标签
+- `<c:set>标签`：用于在某个范围中设定某个值，作用范围可以是request、page、session、application
+	```java
+	<c:set value=”表达式” var=”varname”[scope=”request|page|session|application”]/>
+	// value是参数值，var是参数名
+	// ”[]”中的内容是可选项，”|”是或的意思，scope默认值是page
+	```
+- `<c:out>标签`，用于把表达式中的结果输出到页面中
+	```java
+	<c:out value=”表达式”/>
+	```
+### 流程控制标签
 
 
 
