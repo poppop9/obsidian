@@ -533,13 +533,11 @@ a:hover, a:active {
 >`list-style-image` 用图像作为列表项目标记
 >`list-style-positon` 指定列表项目标记的位置
 
-
-
 ```css
 list-style-type: circle;
 list-style-type: square;
-list-style-type: disc; 
-list-style-type: none;  /* 表示删除项目符号 */
+list-style-type: disc;      /* 空心圆 */
+list-style-type: none;        /* 表示删除项目符号 */
 
 list-style-image: url('/i/photo/sqpurple.gif');
 
@@ -549,8 +547,6 @@ list-style-position: outside;
 list-style-position: inside;
 
 ```
-
-
 ## 有序列表 ol
 >[!summary] 属性
 >`list-style-type` 设置列表项目标记
@@ -558,11 +554,12 @@ list-style-position: inside;
 ```css
 list-style-type: upper-roman;
 list-style-type: lower-alpha;
-
-
-
-
 ```
+# 表格
+
+
+
+
 
 
 
