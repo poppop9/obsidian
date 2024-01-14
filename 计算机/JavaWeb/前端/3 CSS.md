@@ -556,8 +556,18 @@ list-style-type: upper-roman;
 list-style-type: lower-alpha;
 ```
 # 表格
-
-
+## 边框
+```css
+table, th, td {
+  border: 1px solid black;
+}
+```
+## 大小
+```css
+table {
+  width: 100%;  /* 表格将铺满页面宽度*/
+}
+```
 
 
 
