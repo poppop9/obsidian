@@ -1,14 +1,15 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "baseFontSize": 21,
-  "cssTheme": "Blue Topaz",
+  "baseFontSize": 19,
+  "cssTheme": "",
   "interfaceFontFamily": "",
   "showViewHeader": true,
   "nativeMenus": false,
   "translucency": false,
   "enabledCssSnippets": [
     "no 6 header",
-    "custom-admonitions.35d68d"
+    "custom-admonitions.35d68d",
+    "rainbow"
   ]
 }
