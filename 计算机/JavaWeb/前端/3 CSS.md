@@ -584,7 +584,14 @@ th {
 tr:hover {background-color: #f5f5f5;}
 ```
 ## 斑马线表格
+```css
+/* 使用nth-child选择器选择odd奇数 */
+tr:nth-child(odd) {background-color: #f2f2f2;}
 
+/* even为偶数 */
+tr:nth-child(even) {background-color: #f2f2f2;}
+```
+## 滚动条
 
 
 
