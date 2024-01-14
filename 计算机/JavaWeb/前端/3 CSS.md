@@ -530,12 +530,20 @@ a:hover, a:active {
 ## 无序列表 ul
 >[!summary] 属性
 >`list-style-type` 设置列表项目标记
+>`list-style-image` 用图像作为列表项目标记
+>`list-style-positon` 指定列表项目标记的位置
 
 
 ```css
 list-style-type: circle;
 list-style-type: square;
 
+list-style-image: url('/i/photo/sqpurple.gif');
+
+/* 默认 */
+list-style-position: outside;
+/* 项目符号将在列表项内。列表项为文本的一部分 */
+list-style-position: inside;
 
 ```
 
