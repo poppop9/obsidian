@@ -561,14 +561,22 @@ list-style-type: lower-alpha;
 table, th, td {
   border: 1px solid black;
 }
+
+table {
+	border-collapse: collapse;       /* 将td的边框与table边框合并为单一边框 */
+}
 ```
-## 大小
+## 宽高
 ```css
 table {
   width: 100%;  /* 表格将铺满页面宽度*/
 }
-```
 
+th {
+	height: 50px; /* 仅设置标题的高度 */
+}
+```
+## wen
 
 
 
