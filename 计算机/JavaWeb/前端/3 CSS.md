@@ -592,7 +592,26 @@ tr:nth-child(odd) {background-color: #f2f2f2;}
 tr:nth-child(even) {background-color: #f2f2f2;}
 ```
 ## 滚动条
-
+```css
+<div style="overflow-x:auto;">  /* 加入overflow属性 */
+  <table>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Points</th>
+      <th>Points</th>
+      <th>Points</th>
+    </tr>
+    <tr>
+      <td>Elon</td>
+      <td>Musk</td>
+      <td>67</td>
+      <td>67</td>
+      <td>67</td>
+    </tr>
+  </table>
+</div>
+```
 
 
 
