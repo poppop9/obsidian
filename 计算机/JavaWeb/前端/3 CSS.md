@@ -534,15 +534,18 @@ a:hover, a:active {
 >`list-style-positon` 指定列表项目标记的位置
 
 
+
 ```css
 list-style-type: circle;
 list-style-type: square;
+list-style-type: disc; 
+list-style-type: none;  /* 表示删除项目符号 */
 
 list-style-image: url('/i/photo/sqpurple.gif');
 
 /* 默认 */
 list-style-position: outside;
-/* 项目符号将在列表项内。列表项为文本的一部分 */
+/* 项目符号将在列表项内，列表项为文本的一部分 */
 list-style-position: inside;
 
 ```
