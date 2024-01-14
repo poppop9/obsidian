@@ -579,7 +579,10 @@ th {
 ## 文本属性
 `text-align` 设置文本水平对齐方式
 `vertical-align` 设置文本垂直对齐方式
-
+## 可悬停
+```css
+tr:hover {background-color: #f5f5f5;}
+```
 
 
 
