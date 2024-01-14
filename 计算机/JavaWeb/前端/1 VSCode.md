@@ -1,4 +1,4 @@
-# 🌕插件
+# 插件
 - `Comment Translate`  对注释进行快速翻译
 - `Chinese`  中文简体
 - `Debugger for java`

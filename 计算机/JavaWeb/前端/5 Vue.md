@@ -1,6 +1,6 @@
 Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向数据绑定，***简化了DOM操作***
-# 🌕常用指令
-## 🌗v-bind
+# 常用指令
+## v-bind
 >为标签绑定属性值
 ```html
 <!DOCTYPE html>
@@ -29,7 +29,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 </script>
 </html>
 ```
-## 🌗v-model
+## v-model
 > 为***表单元素***创建双向数据绑定
 ```html
 <!DOCTYPE html>
@@ -62,7 +62,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 
 文本框里的链接一改变，那么<a>标签里的也会跟着变
 ```
-## 🌗v-on
+## v-on
 > 为标签绑定***事件***
 ```html
 <!DOCTYPE html>
@@ -96,7 +96,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 
 点击按钮就会跳出警告框
 ```
-## 🌗v-if，v-else if，v-else
+## v-if，v-else if，v-else
 > 条件性的渲染某元素
 ```html
 <!DOCTYPE html>
@@ -134,7 +134,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 请输入你的年龄：age
 经判定你的年龄是：年轻人
 ```
-## 🌗v-show
+## v-show
 不管条件成立与否都渲染，只是不成立的使用`display`来将其不显示
 ```html
 <!DOCTYPE html>
@@ -177,7 +177,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 <span style="display: none;"><b>中年人</b></span>
 <span style="display: none;"><b>老年人</b></span>
 ```
-## 🌗v-for
+## v-for
 列表渲染
 ```html
 <!DOCTYPE html>
@@ -208,16 +208,16 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 </script>
 </html>
 ```
-# 🌕生命周期
+# 生命周期
 生命周期：vue对象从创建到销毁的过程
-## 🌗beforeCreate 创建前
+## beforeCreate 创建前
 
 
-## 🌗created 创建后
+## created 创建后
 
-## 🌗beforeMount 载入前
+## beforeMount 载入前
 
-## 🌗mounted 挂载完成
+## mounted 挂载完成
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -247,14 +247,14 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 
 弹出警告框：Vue挂载完毕，发送请求到服务器获取数据
 ```
-## 🌗beforeUpdate 更新前
-## 🌗updated 更新后
+## beforeUpdate 更新前
+## updated 更新后
 
-## 🌗beforeDestroy 销毁前
+## beforeDestroy 销毁前
 
-## 🌗destroyed 销毁后
-# 🌕脚手架
-## 🌗安装前端环境Node.js
+## destroyed 销毁后
+# 脚手架
+## 安装前端环境Node.js
 - 官网安装Node.js
 - 验证Node.js环境变量
   - `node -v`
@@ -264,14 +264,14 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
   - 验证是否设置成功`npm config get prefix`【成功则返回Node.js安装目录】
 - 切换npm的淘宝镜像
   - `npm config set registry https://registry.npm.taobao.org`【成功不做任何操作】
-## 🌗安装Vue的脚手架工具 vue-cli
+## 安装Vue的脚手架工具 vue-cli
 - 在cmd中运行 `npm install -g @vue/cli`
 - 确认是否安装成功
 	- `vue --version`。【成功则返回版本号】
-## 🌗创建Vue项目
+## 创建Vue项目
 - 在cmd中输入`vue ui`
 - 在UI界面中创建项目
-## 🌗Vue项目的目录结构
+## Vue项目的目录结构
 - `node_modules` 整个项目的依赖包
 - `public` 项目的静态文件
 - `src` 项目的源代码
@@ -306,9 +306,9 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 - `package-lock.json`
 - `package.json` 基本信息，版本信息
 - `vue.config.js` vue的配置文件【端口】
-## 🌗启动Vue项目
+## 启动Vue项目
 ![[JavaWeb Draw#^group=KQ8yyjCW|400]]
-## 🌗修改端口号
+## 修改端口号
 ```js
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
@@ -318,21 +318,21 @@ module.exports = defineConfig({
   }
 })
 ```
-# 🌕Vue路由
+# Vue路由
 >Vue路由可以使用户在应用程序中进行导航时，可以根据URL路径加载相应的组件
-## 🌗准备工作
-### 🌑安装Vue Router
+## 准备工作
+### 安装Vue Router
 - 在安装Vue脚手架时勾选即可
 - 如果没有勾选，则运行`npm install vue-router@3.5.1`
-## 🌗三大核心
-### 🌑VueRouter
+## 三大核心
+### VueRouter
 >VueRouter是路由器类，里面维护了一张路由表【记录了URL的哈希片段与组件的对应关系】。它可以根据路由请求在路由视图中渲染出对应的组件
-### 🌑\<router-link\>
+### \<router-link\>
 >\<router-link\>是请求链接组件。它可以指定我们要访问的URL哈希片段
-### 🌑\<router-view\>
+### \<router-view\>
 >\<router-view\>是动态视图组件。在想要展示组件的地方放置标签即可
-## 🌗具体操作
-### 🌑定义路由表
+## 具体操作
+### 定义路由表
 - 在`router`文件夹下的`index.js`文件中定义
 ```js
 import Vue from 'vue'
@@ -361,7 +361,7 @@ const routes = [
   }
 ]
 ```
-### 🌑在组件中定义\<router-link\>
+### 在组件中定义\<router-link\>
 ```vue
 <el-menu-item index="1-1">
 	<router-link to="/staff">员工页面</router-link>  //点击则跳转到/staff页面
@@ -370,7 +370,7 @@ const routes = [
 	<router-link to="/form_1">表单页面</router-link>
 </el-menu-item>
 ```
-### 🌑在App.vue中声明\<router-view\>
+### 在App.vue中声明\<router-view\>
 ```vue
 <template>
   <div id="app">
@@ -386,21 +386,21 @@ export default {
 
 <style></style>
 ```
-# 🌕打包部署
-## 🌗打包
+# 打包部署
+## 打包
 - 运行npm脚本中的`build`
 ![[JavaWeb Draw#^group=2bfxmrHr]]
 - 打包好的文件会出现在`dist`文件夹下
 
 ***dist文件夹就是打包后的文件***
-## 🌗部署
+## 部署
 - 在nginx网站`https://nginx.org/en/download.html`下载稳定版
 - 将打包好的`dist`下面的内容放置到`html`文件夹中
 - 运行nginx
 	- 默认端口号为80，如果端口被占用则在`conf`文件夹下的`nginx.conf`中的`listen 80;`处修改端口号
 - 如果在任务管理器中查看到nginx已经启动了，那就表示已经部署成功
 - 可以在浏览器输入`localhost:端口号`
-### 🌑介绍nginx的安装目录
+### 介绍nginx的安装目录
 - `conf` 配置文件
 - `contrib` 
 - `docs`

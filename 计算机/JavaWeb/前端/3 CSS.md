@@ -2,13 +2,13 @@
 tags:
   - 计算机/JavaWeb/前端
 ---
-# 🌕语法注意事项
+# 语法注意事项
 - 注释：`/* 我是注释 */`
 
 - 使用多个引号时，注意双引号里要使用单引号
-# 🌕选择器
+# 选择器
 >[!hint] 优先级：id选择器 > 类选择器 > 元素选择器
-## 🌗元素选择器
+## 元素选择器
 ```css
 <style>
 	h1,h2,h3 {          /*可以一次性选取多个元素*/
@@ -19,7 +19,7 @@ tags:
 	}
 </style>
 ```
-## 🌗类选择器
+## 类选择器
 - 类名相当于是一个标签，可以被多个元素重用
 - 一个元素也可以贴多个标签【多个类】
 - ***类名不能以数字开头***
@@ -39,7 +39,7 @@ tags:
 <h1 class="a01">我是一级标题</h1>
 <span class="a01 a02">我是正文</span>  <!-- 这个元素引用了两个类 -->
 ```
-## 🌗id选择器
+## id选择器
 - id不能重用
 - id不能以数字开头
 
@@ -68,7 +68,7 @@ tags:
 >   color: red;
 > }
 > ```
-## 🌗通用选择器
+## 通用选择器
 >通用选择器会影响页面上的每个 HTML 元素
 
 ```css
@@ -77,13 +77,13 @@ tags:
   color: blue;
 }
 ```
-# 🌕引入方式
-## 🌗行内样式
+# 引入方式
+## 行内样式
 ***只作用于当前标签***
 `<h1 style="xxx:yyy; xxx:yyy;">HTML 5</h1>`
 
 >[!attention] 不推荐采用，会降低可读性
-## 🌗内嵌样式
+## 内嵌样式
 ```html
 <!DOCTYPE html>
 <html>
@@ -103,7 +103,7 @@ tags:
 
 </html>
 ```
-## 🌗外联样式
+## 外联样式
 ```css
 h1 {
 	xxx:yyy;
@@ -127,7 +127,7 @@ h1 {
 
 >[!hint] 引入方式的优先级
 >行内样式 > 在 `head标签` 里内嵌样式和外联样式的顺序【靠后优先】
-# 🌕框模型
+# 框模型
 元素总宽度 = width + 左右padding + 左右border + 左右margin + outline
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=42TgzTKXcFDmL_5ajKxmy|600]]
 
@@ -144,7 +144,7 @@ h1 {
 >	- `padding-box`  包括内容，padding
 >	- `inherit`  继承父元素
 >- `outline`  轮廓
-## 🌗背景
+## 背景
 >背景 = padding + 内容
 
 >[!summary] 属性
@@ -158,7 +158,7 @@ h1 {
 > - `background-origin`
 > - `background-size`
 
-### 🌑指定颜色的 6 种方式
+### 指定颜色的 6 种方式
 <h1 style="background-color:Tomato;">Tomato</h1>
 <h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
 <h1 style="background-color:#ff6347;">#ff6347</h1>
@@ -166,23 +166,23 @@ h1 {
 <h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
 <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
 
-### 🌑内容
-#### 🌙颜色
+### 内容
+#### 颜色
 ```css
 /*background-color，opacity*/
 <h1 style="background-color:DodgerBlue; opacity: 0.3;">Hello World</h1>
 ```
 <h1 style="background-color:DodgerBlue; opacity: 0.3; ">Hello World</h1>
 
-#### 🌙图像
+#### 图像
 ```css
 /*background-image*/
 <h1 style="background-image: url('https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87%2F20230805115646.png');">Hello</h1>
 ```
 <h1 style="background-image: url('https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87%2F20230805115646.png');">Hello</h1>
 
-### 🌑参数
-#### 🌙重复
+### 参数
+#### 重复
 默认情况下，`background-image` 属性在水平和垂直方向上都重复显示图像，直到铺满整个指定元素
 
 ```css
@@ -194,7 +194,7 @@ body {
   background-repeat: no-repeat;   /* 不重复 */
 }
 ```
-#### 🌙位置
+#### 位置
 ```css
 body {
   background-image: url("tree.png");
@@ -202,7 +202,7 @@ body {
   background-position: right top;  /* 右上角 */
 }
 ```
-#### 🌙附着
+#### 附着
 ```css
 body {
   background-image: url("tree.png");
@@ -211,7 +211,7 @@ body {
   background-attachment: scroll;  /* 滚动 */
 }
 ```
-## 🌗边框
+## 边框
 >[!summary] 属性
 >- `border-style`  边框的样式
 >- `border-width`  宽度
@@ -220,7 +220,7 @@ body {
 
 >[!hint] 简写
 > `border: width style color;`
-### 🌑样式
+### 样式
 ```css
 <p style="border-style: dotted;">hello</p>
 <p style="border-style: dashed;">hello</p>
@@ -254,8 +254,8 @@ p {
 <p style="border-style: hidden;">hello</p>
 <p style="border-style: dotted dashed solid double;">hello</p>
 
-### 🌑参数
-#### 🌙宽度
+### 参数
+#### 宽度
 ```css
 /* 直接指定数值 */
 <p style="border-style: groove; border-width: 10px;">hello</p>
@@ -274,7 +274,7 @@ p {
 <p style="border-style: groove; border-width: thick;">hello</p>
 <p style="border-style: groove; border-width: 25px 10px 4px 35px;">hello</p>
 
-#### 🌙颜色
+#### 颜色
 ```css
 <p style="border-style: groove; border-color: red;">hello</p>
 
@@ -284,13 +284,13 @@ p {
 <p style="border-style: groove; border-color: red;">hello</p>
 <p style="border-style: groove; border-color: red green blue yellow;">hello</p>
 
-#### 🌙圆角
+#### 圆角
 ```css
 <p style="border-style: groove; border-radius: 12px;">hello</p>
 ```
 <p style="border-style: groove; border-radius: 12px;">hello</p>
 
-## 🌗内外边距
+## 内外边距
 ```css
 /* 允许指定单个外边距 */
 p {
@@ -300,7 +300,7 @@ p {
   margin-left: 80px;
 }
 ```
-## 🌗轮廓
+## 轮廓
 >[!summary] 属性
 > - `outline-style`  样式
 > 	- `dotted`  点状轮廓
@@ -316,9 +316,9 @@ p {
 > - `outline-color`  
 > - `outline-width`
 > - `outline-offset`  轮廓偏移【轮廓与border之间的空间】
-# 🌕文本
-## 🌗基础属性
-### 🌑颜色，大小，字体，斜粗变体
+# 文本
+## 基础属性
+### 颜色，大小，字体，斜粗变体
 >[!summary] 属性
 >- `color`  指定文本的颜色
 >- `font-size`  指定文本的大小【普通文本默认大小为 16px】
@@ -362,8 +362,8 @@ p {
   font-variant: small-caps;  /* 将所有字母大写，但是大写的字母size和小写差不多 */
 }
 ```
-## 🌗位置
-### 🌑水平对齐，垂直对齐，方向
+## 位置
+### 水平对齐，垂直对齐，方向
 >[!summary] 属性
 >- `text-align`  水平对齐
 >	- `left`
@@ -389,8 +389,8 @@ p {
 <p style = "vertical-align:top;">一幅 <img src="https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87%2F20230805115646.png"> 上对齐的图像</p>
 <p style="direction:rtl;"> hello </p>
 
-## 🌗其他属性
-### 🌑装饰
+## 其他属性
+### 装饰
 >[!summary] 属性
 > - `initial` 默认值
 > - `inherit` 从其父元素继承属性
@@ -405,7 +405,7 @@ p {
 >	- `auto`
 >	- `……px`
 >	- `……%`
-#### 🌙line
+#### line
 ```css
 /* 删除所有文本装饰【常用于删除超链接的下划线】 */
 <p style="text-decoration:none;">hello</p>
@@ -423,7 +423,7 @@ p {
 <p style="text-decoration:line-through;">hello</p>
 <p style="text-decoration:overline underline;">hello</p>
 
-### 🌑文本间距
+### 文本间距
 ```css
 p {
   text-indent: 50px;  /* 指定文本的首行缩进 */
@@ -445,7 +445,7 @@ p {
   white-space: nowrap;  /* 空白处理，防止文本换行 */
 }
 ```
-### 🌑文本转换
+### 文本转换
 ```css
 p.uppercase {
   text-transform: uppercase;   /* 把文本全部大写 */
@@ -459,7 +459,7 @@ p.capitalize {
   text-transform: capitalize;  /* 把文本首字母大写 */
 }
 ```
-### 🌑文本阴影
+### 文本阴影
 ```css
 h1 {
   text-shadow: 2px 2px;  /* 指定水平阴影，垂直阴影 */
@@ -475,7 +475,7 @@ h1 {
 ```
 <p style="text-shadow: 2px 2px 5px red;">文本阴影效果！</p>
 
-# 🌕链接
+# 链接
 根据链接处于什么状态来设置链接的不同样式：
 - `a:link`  未访问过的链接
 - `a:visited`  访问过的链接

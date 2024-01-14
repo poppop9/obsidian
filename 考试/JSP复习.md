@@ -826,7 +826,7 @@ Java Bean完全符合Java语言编码规范的要求和特性，形式上就是�
 表单参数是指在HTML表单中定义的输入字段的名称，而表单参数值是用户在该字段中输入的实际值
 ## 取得Bean属性
 <jsp:getProperty>标签用来获得Bean属性值，并可以显示在浏览器中。该标签必须和<jsp:useBean>标签一起使用
-## 🌗Bean的作用域
+## Bean的作用域
 <jsp:useBean>标签中Bean的作用域有4个：page、request、session、application。JSP引擎会根据作用域给用户分配不同的Bean，运行多个用户拥有相同的Bean，每个客户的Bean是相互独立的。
 
 - 当指定的范围为request时，针对同一用户的不同请求，JSP引擎都会给用户分配不同的Bean对象。当响应结束时，取消分配的Bean。==Bean的生命周期就是从客户请求开始到响应结束这段时间==
