@@ -564,6 +564,7 @@ table, th, td {
 
 table {
 	border-collapse: collapse;       /* 将td的边框与table边框合并为单一边框 */
+	border-spacing: 0px;    /* 设置相邻单元格之间的边框的距离 */
 }
 ```
 ## 宽高
