@@ -576,7 +576,10 @@ th {
 	height: 50px; /* 仅设置标题的高度 */
 }
 ```
-## wen
+## 文本属性
+`text-align` 设置文本水平对齐方式
+`vertical-align` 设置文本垂直对齐方式
+
 
 
 
