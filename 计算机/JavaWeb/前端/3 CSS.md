@@ -583,6 +583,7 @@ th {
 ```css
 tr:hover {background-color: #f5f5f5;}
 ```
+## 斑马线表格
 
 
 
