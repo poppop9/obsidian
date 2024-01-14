@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md",
+                "file": "计算机/JavaWeb/前端/CSS/CSS 中级.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md"
+                "file": "计算机/JavaWeb/前端/CSS/CSS 中级.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/3 CSS.md"
+                "file": "计算机/JavaWeb/前端/CSS/CSS 中级.md"
               }
             }
           },
@@ -206,8 +206,12 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/CSS/CSS 初级.md",
+    "计算机/JavaWeb/前端/CSS/CSS 中级.md",
+    "计算机/JavaWeb/前端/前端.md",
+    "计算机/JavaWeb/前端/CSS/CSS.md",
+    "计算机/JavaWeb/前端/CSS",
     "临时笔记/Obsidian特殊语法.md",
-    "计算机/JavaWeb/前端/3 CSS.md",
     "临时笔记/草稿纸.md",
     "考试/JSP复习.md",
     "考试/试打印.md",
@@ -229,10 +233,7 @@
     "科技美学/软件.md",
     "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/MarkDown语法.md",
-    "计算机/四大件/操作系统/基础知识.md",
-    "计算机/四大件/操作系统/持久性.md",
     "neil-jetbrains-mono.css",
-    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "Spaces/Home",
     "Spaces",
     "计算机/JavaWeb/前端/JavaScript",
@@ -250,7 +251,6 @@
     "计算机/JavaWeb/后端",
     "计算机/JavaWeb/前端",
     "计算机/JavaWeb",
-    "计算机/数据库",
     "图片库/Pasted Image 20230730095610_153.png",
     "未命名.canvas",
     "未命名 1.canvas"

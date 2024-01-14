@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "3 CSS",
-      "path": "计算机/JavaWeb/前端/3 CSS.md"
+      "basename": "CSS 中级",
+      "path": "计算机/JavaWeb/前端/CSS/CSS 中级.md"
+    },
+    {
+      "basename": "CSS 初级",
+      "path": "计算机/JavaWeb/前端/CSS/CSS 初级.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "计算机/JavaWeb/前端/CSS/CSS.md"
     },
     {
       "basename": "Obsidian特殊语法",
@@ -191,14 +199,6 @@
     {
       "basename": "02 Java的理论知识",
       "path": "计算机/编程语言/Java/02 Java的理论知识.md"
-    },
-    {
-      "basename": "6 Element组件库",
-      "path": "计算机/JavaWeb/前端/6 Element组件库.md"
-    },
-    {
-      "basename": "4 登录认证",
-      "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
     }
   ],
   "omittedPaths": [],

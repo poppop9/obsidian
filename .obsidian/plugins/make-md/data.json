@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "/",
+  "activeView": "计算机",
   "hideFrontmatter": false,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -56,7 +56,9 @@
     "//计算机/计算机/四大件/计算机/四大件/操作系统",
     "//计算机/计算机/四大件/计算机/四大件/操作系统/计算机/四大件/操作系统/虚拟化",
     "//计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/JavaScript",
-    "//考试"
+    "//考试",
+    "计算机/计算机/JavaWeb/计算机/JavaWeb/前端",
+    "计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/CSS"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
