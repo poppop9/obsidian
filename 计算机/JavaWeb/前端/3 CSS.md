@@ -527,7 +527,34 @@ a:hover, a:active {
 }
 ```
 # 列表
-列表：
+## 无序列表 ul
+>[!summary] 属性
+>`list-style-type` 设置列表项目标记
+
+
+```css
+list-style-type: circle;
+list-style-type: square;
+
+
+```
+
+
+## 有序列表 ol
+>[!summary] 属性
+>`list-style-type` 设置列表项目标记
+
+```css
+list-style-type: upper-roman;
+list-style-type: lower-alpha;
+
+
+
+
+```
+
+
+
 
 
 
