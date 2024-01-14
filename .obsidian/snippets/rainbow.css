@@ -151,16 +151,6 @@ checkboxes settings
 	background-color: rgb(228, 228, 228);
 }
 
-/*
-horizontal rules settings
-*/
-#write hr {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	background-color: rgb(226, 226, 226);
-	height: 0.13rem;
-	border: 0;
-}
 
 #write p {
 	font-size: 1rem;
@@ -216,13 +206,6 @@ horizontal rules settings
 }
 
 /*
-formulas settings
-*/
-#write mjx-container {
-	font-size: 1.1rem;
-}
-
-/*
 tooltips settings
 */
 #write .code-tooltip {
@@ -252,59 +235,70 @@ diagrams settings
 }
 
 /*
-urls settings
-*/
-#write a {
-	color: rgb(31, 117, 255);
-}
-
-#write a:hover {
-	color: rgb(108, 164, 255);
-}
-
-/*
-images settings
-*/
-#write img {
-	display: block;
-	margin: 0 auto;
-	border: 0;
-	border-radius: 5px;
-	box-shadow: var(--block-shadow);
-}
-
-/*
-highlights settings
-*/
-#write mark {
-	background-color: rgb(252, 255, 200);
-}
-
-/*
 deletes settings
 */
 #write del {
 	color: var(--del-color);
 }
 
-/*
-selected texts settings
-*/
-#write ::selection {
-	background-color: var(--selection-bg-color);
+/* ---------------------------------------------------------------------------------- */
+/* 链接 */
+/* 编辑模式 */
+.cm-s-obsidian span.cm-url {
+	text-decoration: none;
+	color: hsla(210, 34%, 63%);
+}
+
+/* 光标在链接上时，鼠标悬浮时 */
+.cm-s-obsidian span.cm-url:hover {
+	color: hsla(210, 34%, 63%);
+}
+
+/* 光标不在链接上时，鼠标悬浮时 */
+@media (hover: hover) {
+	.markdown-source-view.mod-cm6 .cm-url .cm-underline:hover {
+		color: hsla(210, 34%, 63%);
+		/* text-decoration-line: var(--link-external-decoration-hover); */
+		text-decoration: none;
+	}
+}
+
+@media (hover: hover) {
+	.markdown-source-view.mod-cm6 .cm-url .cm-underline {
+		color: hsla(210, 34%, 63%);
+		text-decoration: none;
+		/* text-decoration-line: var(--link-external-decoration-hover); */
+	}
+}
+
+/* 阅读模式 */
+a:link {
+	text-decoration: none;
+	color: hsla(210, 34%, 63%);
+}
+
+a:visited {
+	text-decoration: none;
+	color: hsla(210, 34%, 63%);
+}
+
+a.external-link:hover {
+	color: hsla(210, 34%, 63%);
+}
+
+a:active {
+	text-decoration: underline;
+	color: hsla(210, 34%, 63%);
 }
 
 /* ----------------------------------------------------------------------------------- */
 /* 特殊字体 */
 /* 高亮 */
-.theme-light .cm-s-obsidian span.cm-highlight:not([class*="code"]) {
+.theme-light span.cm-highlight {
 	background-color: hsla(34, 100%, 80%, 0.847);
-	border-radius: 5px;
-	padding: 1px 2px;
-	margin: 0 2px;
-	-webkit-box-decoration-break: clone
+	border-radius: 4px;
+	padding: 1px 3px;
 }
-
 
 .theme-dark .cm-s-obsidian span.cm-highlight:not([class*="code"]) {
 	background-color: hsla(57, 40%, 38%, 0.541);
@@ -313,6 +307,16 @@ selected texts settings
 	margin: 0 2px;
 }
 
+span.cm-formatting.cm-formatting-highlight.cm-highlight {
+	margin-left: -3.8px;
+	margin-right: -3.8px;
+}
+
+.markdown-rendered mark {
+	background-color: hsla(34, 100%, 80%, 0.847);
+	border-radius: 4px;
+	padding: 1px 3px;
+}
 
 /* -------------------------------------------------------------------------- */
 /* 正文字体 */
@@ -725,7 +729,6 @@ body:not(.whole-code-wrap) pre[class*='language-'] {
 	display: none;
 }
 
-
 /* ----------------------------------------------------------------- */
 /* 无序列表 */
 /* 编辑模式 */
@@ -746,6 +749,10 @@ body:not(.whole-code-wrap) pre[class*='language-'] {
 	background-color: #64c856;
 	height: 0.4rem;
 	width: 0.4rem;
+}
+
+.cm-formatting-list-ul {
+	padding-inline-start: 0em;
 }
 
 /* 阅读模式 */
@@ -830,6 +837,28 @@ ul>li>ul>li>ul>li>ul>li>ul>li>ul>li>ul>li::marker {
 	font-weight: bold;
 }
 
+/* 任务列表 */
+input[type=checkbox] {
+	width: 17px;
+	height: 17px;
+}
+
+.markdown-rendered.show-indentation-guide ul.contains-task-list .has-list-bullet::before {
+	left: -1.05em;
+}
+
+input[type=checkbox]:checked {
+	background-color: hsla(210, 34%, 63%, 0.8);
+	border-color: hsla(210, 34%, 63%, 0.8);
+}
+
+@media (hover:hover) {
+	input[type=checkbox]:checked:hover {
+		background-color: #ffffff;
+		border-color: hsla(210, 34%, 63%, 0.8);
+	}
+}
+
 /* ----------------------------------------------------------------- */
 /* 有序列表 */
 /* 编辑模式 */
@@ -906,4 +935,30 @@ ol>li>ol>li>ol>li>ol>li>ol>li::marker {
 .markdown-rendered hr {
 	border-image: linear-gradient(to right, transparent 0%, hsl(210, 34%, 63%) 20%, hsl(210, 34%, 63%) 40%, hsl(210, 34%, 63%) 60%, hsl(210, 34%, 63%) 80%, transparent 100%) 1;
 	border-width: 2px;
+}
+
+/* ---------------------------------------------------------------------------------------------- */
+/* 表格 */
+/* 编辑模式 */
+:is(.markdown-preview-view, .markdown-rendered) table {
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.markdown-rendered table {
+	border-collapse: collapse;
+	line-height: 1.3;
+}
+
+.table-cell-wrapper {
+	white-space: nowrap;
+}
+
+.markdown-rendered th {
+	text-align: center;
+	background-color: #81a1c13c !important;
+}
+
+:is(.markdown-preview-view, .markdown-rendered) table tbody>tr,
+.markdown-source-view table tbody>tr {
+	background-color: #f2f2f2;
 }
