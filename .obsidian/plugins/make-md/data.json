@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "计算机",
+  "activeView": "/",
   "hideFrontmatter": false,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -58,7 +58,9 @@
     "//计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/JavaScript",
     "//考试",
     "计算机/计算机/JavaWeb/计算机/JavaWeb/前端",
-    "计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/CSS"
+    "计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/CSS",
+    "//Excalidraw",
+    "//Excalidraw/Excalidraw/计算机"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
