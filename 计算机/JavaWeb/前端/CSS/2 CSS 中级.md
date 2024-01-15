@@ -48,8 +48,8 @@ h1.hidden {
 > - `static`【默认】：不受 top、bottom、left 和 right 属性的影响，始终根据页面的正常流进行定位
 > - `relative`：相对于其正常位置进行定位
 > - `fixed`：相对于视口定位【意味着即使滚动页面，也始终位于同一位置】
-> - `absolute`：相对于<u>最近的定位祖先元素</u>【除`static`】进行定位，如果没有祖先则祖先为整个文档zhu'ti
-> - `sticky`
+> - `absolute`：相对于<u>最近的定位祖先元素</u>【除`static`】进行定位，如果没有祖先则祖先为整个文档主体`body`
+> - `sticky`：根据用户的滚动位置进行定位【起先会被`relative`，而后为`fixed`】
 
 ```css
 div.static {
@@ -72,6 +72,24 @@ div.fixed {
   right: 0;
   width: 300px;
   border: 3px solid #73AD21;
+}
+
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+
+div.sticky {
+  position: -webkit-sticky;    /* 为了匹配safari */
+  position: sticky;
+  top: 0;                /* 页面向下滚动时，将粘在页面的shagn'fang */
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
 }
 ```
 
