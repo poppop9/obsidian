@@ -29,7 +29,17 @@ li {
 ### 隐藏元素 none
 默认情况下`<script>元素`使用`display: none;`
 
+```css
+/* 元素被隐藏，不会占用空间 */
+h1.hidden {
+  display: none;
+}
 
+/* 元素被隐藏，但仍然占用空间 */
+h1.hidden {
+  visibility: hidden;
+}
+```
 
 
 
