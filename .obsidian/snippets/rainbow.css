@@ -246,7 +246,7 @@ deletes settings
 /* 编辑模式 */
 div.internal-embed.media-embed.image-embed.is-loaded img {
 	display: block;
-	margin: 2rem auto;
+	margin: 0 auto;
 	box-shadow: 2px 5px 13px 7px rgba(0, 0, 0, .15);
 	max-width: 96%;
 }
@@ -254,11 +254,17 @@ div.internal-embed.media-embed.image-embed.is-loaded img {
 /* 阅读模式 */
 span.internal-embed.media-embed.image-embed.is-loaded>img {
 	display: block;
-	margin: 2rem auto;
+	margin: 0 auto;
 	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
 	max-width: 102%;
 }
 
+div.excalidraw-svg.excalidraw-embedded-img.excalidraw-canvas-immersive {
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
+	max-width: 102%;
+}
 
 /* ---------------------------------------------------------------------------------- */
 /* 链接 */

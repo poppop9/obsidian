@@ -9,6 +9,7 @@
   "translucency": false,
   "enabledCssSnippets": [
     "no 6 header",
-    "custom-admonitions.35d68d"
+    "custom-admonitions.35d68d",
+    "rainbow"
   ]
 }
