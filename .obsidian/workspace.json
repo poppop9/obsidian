@@ -34,11 +34,13 @@
             }
           },
           {
-            "id": "bb858639c25ebe5e",
+            "id": "e0ebcde8e2f11559",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
+              }
             }
           },
           {
@@ -58,8 +60,10 @@
             "id": "ac2297c9d782f2ec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
+              }
             }
           },
           {
@@ -75,8 +79,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
+                "file": "计算机/JavaWeb/前端/2 HTML 5.md"
               }
             }
           },
@@ -179,7 +182,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
+                "file": "计算机/JavaWeb/前端/2 HTML 5.md"
               }
             }
           },
@@ -211,10 +214,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "9e43f4535d8baf4f",
   "lastOpenFiles": [
-    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
     "计算机/JavaWeb/前端/2 HTML 5.md",
     "考试/JSP复习.md",
@@ -224,7 +228,6 @@
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/草稿纸.md",
     "考试/试打印.md",
-    "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/穿搭.md",
     "计算机/四大件/计算机网络2.md",
     "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md",
