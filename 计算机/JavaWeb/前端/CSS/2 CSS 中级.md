@@ -93,27 +93,28 @@ div.sticky {
 ```
 ## 重叠
 ```css
+/* 由于所有元素都设置了absolute，所以会重叠 */
 <style>
-h1{
-  position: absolute;
-	color:red;
-    z-index:1;
+h1 {
+	position: absolute;
+	color: red;
+	z-index: 1;       /* h1的z-index最大，所以图层在最上面 */
 }
 
-p{
-	position:absolute;
-	color:red;
+p {                       /* p 和 img 未指定z-index，所以按照html的标签顺序自动指定，后面的元素后渲染 */
+	position: absolute;
+	color: red;                 
 }
 
 img {
-  position: absolute;
+	position: absolute;
 }
 </style>
 
-  <h1>这是标题</h1> 
-  <p>p1111111111111111111111111111111111111111111111</p> 
-  <img src="/i/logo/w3logo-1.png" width="188" height="267" /> 
-  <p>p2222222222222222222222222222222222222222222222</p>   
+<h1>这是标题</h1> 
+<p>p1111111111111111111111111111111111111111111111</p> 
+<img src="/i/logo/w3logo-1.png" width="188" height="267" /> 
+<p>p2222222222222222222222222222222222222222222222</p>   
 ```
 
 
