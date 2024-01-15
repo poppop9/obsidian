@@ -120,10 +120,24 @@ img {
 - `overflow` 元素内容太大而无法放入指定区域时是***剪裁内容***还是***添加滚动条***，==仅适用于具有指定高度的块元素==
 	- `visible` ***默认***，溢出没有被剪裁，内容在元素框外渲染
 	- `hidden` 溢出被剪裁，其余内容将不可见
-	- `scroll` 溢出被剪裁，同时添加滚动条以查看其余内容
+	- `scroll` 溢出被剪裁，同时在水平竖直都添加滚动条以查看其余内容
 	- `auto` 与 `scroll` 类似，但仅在必要时添加滚动条
 
-![Uploading file...f86xf]()
+```css
+div {
+  width: 200px;
+  height: 50px;
+  border: 1px dotted black;
+  background-color: #eee;
+
+  overflow: visible;
+  overflow: hidden;
+  overflow: scroll;
+  overflow: auto;
+}
+```
+
+![[Excalidraw/计算机/JavaWeb Draw.md#^group=b8rxkPi3|800]]
 
 
 
