@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Surge 5",
-      "path": "科技美学/Surge 5.md"
-    },
-    {
       "basename": "2 CSS 中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
+    },
+    {
+      "basename": "1 CSS 初级",
+      "path": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
+    },
+    {
+      "basename": "CSS",
+      "path": "计算机/JavaWeb/前端/CSS/CSS.md"
+    },
+    {
+      "basename": "Surge 5",
+      "path": "科技美学/Surge 5.md"
     },
     {
       "basename": "2 HTML 5",
@@ -21,16 +29,8 @@
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
-      "basename": "1 CSS 初级",
-      "path": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
-    },
-    {
       "basename": "JSP复习",
       "path": "考试/JSP复习.md"
-    },
-    {
-      "basename": "CSS",
-      "path": "计算机/JavaWeb/前端/CSS/CSS.md"
     },
     {
       "basename": "Obsidian特殊语法",
