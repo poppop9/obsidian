@@ -91,7 +91,30 @@ div.sticky {
   border: 2px solid #4CAF50;
 }
 ```
+## 重叠
+```css
+<style>
+h1{
+  position: absolute;
+	color:red;
+    z-index:1;
+}
 
+p{
+	position:absolute;
+	color:red;
+}
+
+img {
+  position: absolute;
+}
+</style>
+
+  <h1>这是标题</h1> 
+  <p>p1111111111111111111111111111111111111111111111</p> 
+  <img src="/i/logo/w3logo-1.png" width="188" height="267" /> 
+  <p>p2222222222222222222222222222222222222222222222</p>   
+```
 
 
 
