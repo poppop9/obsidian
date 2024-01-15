@@ -5,6 +5,14 @@
       "path": "计算机/JavaWeb/前端/CSS/CSS 中级.md"
     },
     {
+      "basename": "2 HTML 5",
+      "path": "计算机/JavaWeb/前端/2 HTML 5.md"
+    },
+    {
+      "basename": "JSP复习",
+      "path": "考试/JSP复习.md"
+    },
+    {
       "basename": "CSS 初级",
       "path": "计算机/JavaWeb/前端/CSS/CSS 初级.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "草稿纸",
       "path": "临时笔记/草稿纸.md"
-    },
-    {
-      "basename": "JSP复习",
-      "path": "考试/JSP复习.md"
     },
     {
       "basename": "试打印",
@@ -51,10 +55,6 @@
     {
       "basename": "3 工具对象",
       "path": "计算机/JavaWeb/前端/JavaScript/3 工具对象.md"
-    },
-    {
-      "basename": "2 HTML 5",
-      "path": "计算机/JavaWeb/前端/2 HTML 5.md"
     },
     {
       "basename": "1 基础Ⅰ",

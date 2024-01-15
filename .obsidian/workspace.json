@@ -8,6 +8,19 @@
         "type": "tabs",
         "children": [
           {
+            "id": "9e43f4535d8baf4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机/JavaWeb/前端/2 HTML 5.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "db49ce6ee1268ec2",
             "type": "leaf",
             "state": {
@@ -28,19 +41,6 @@
               "state": {
                 "file": "临时笔记/Obsidian特殊语法.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9e43f4535d8baf4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "考试/JSP复习.md",
-                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,14 +207,15 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/CSS/CSS 初级.md",
+    "计算机/JavaWeb/前端/2 HTML 5.md",
     "计算机/JavaWeb/前端/CSS/CSS 中级.md",
+    "考试/JSP复习.md",
+    "计算机/JavaWeb/前端/CSS/CSS 初级.md",
     "计算机/JavaWeb/前端/前端.md",
     "计算机/JavaWeb/前端/CSS/CSS.md",
     "计算机/JavaWeb/前端/CSS",
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/草稿纸.md",
-    "考试/JSP复习.md",
     "考试/试打印.md",
     "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/穿搭.md",
@@ -221,7 +223,6 @@
     "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
-    "计算机/JavaWeb/前端/2 HTML 5.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
     "考试/操作系统考试.md",
