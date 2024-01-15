@@ -45,13 +45,26 @@ h1.hidden {
 >`max-width` 可以改善浏览器对小窗口的处理，当浏览器窗口小于元素的宽度时，会自动换行
 ## position
 >[!hint] 属性值
-> - static
-> - relative
-> - fixed
-> - absolute
-> - sticky
+> - `static`【默认】：不受 top、bottom、left 和 right 属性的影响，始终根据页面的正常流进行定位
+> - `relative`：相对于其正常位置进行定位
+> - `fixed`
+> - `absolute`
+> - `sticky`
 
+```css
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
 
+/* 上留30px， */
+div.relative {
+  position: relative;
+  left: 30px;
+  top: 50px;
+  border: 3px solid #73AD21;
+}
+```
 
 
 
