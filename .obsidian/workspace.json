@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/2 HTML 5.md",
+                "file": "科技美学/Surge 5.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/2 HTML 5.md"
+                "file": "科技美学/Surge 5.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/2 HTML 5.md"
+                "file": "科技美学/Surge 5.md"
               }
             }
           },
@@ -216,11 +216,12 @@
   },
   "active": "9e43f4535d8baf4f",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/2 HTML 5.md",
+    "科技美学/Surge 5.md",
     "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
     "Excalidraw/杂/草稿纸 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
-    "计算机/JavaWeb/前端/2 HTML 5.md",
     "考试/JSP复习.md",
     "计算机/JavaWeb/前端/前端.md",
     "计算机/JavaWeb/前端/CSS/CSS.md",
@@ -242,7 +243,6 @@
     "计算机/JavaWeb/后端/Maven.md",
     "Excalidraw/计算机/四大件/操作系统 Draw.md",
     "科技美学/软件.md",
-    "临时笔记/Obsidian笔记编写规范.md",
     "neil-jetbrains-mono.css",
     "Spaces/Home",
     "Spaces",
