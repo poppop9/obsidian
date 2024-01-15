@@ -37,10 +37,8 @@
             "id": "bb858639c25ebe5e",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -60,10 +58,8 @@
             "id": "ac2297c9d782f2ec",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/杂/草稿纸 Draw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -207,12 +203,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
       "command-palette:打开命令面板": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "db49ce6ee1268ec2",
