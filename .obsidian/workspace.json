@@ -44,13 +44,13 @@
             }
           },
           {
-            "id": "92dd5a95b0cdcfe3",
+            "id": "cbe0705f2ffa0b6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/Obsidian特殊语法.md",
-                "mode": "preview",
+                "file": "临时笔记/草稿纸.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -63,19 +63,6 @@
               "type": "excalidraw",
               "state": {
                 "file": "Excalidraw/杂/草稿纸 Draw.md"
-              }
-            }
-          },
-          {
-            "id": "cbe0705f2ffa0b6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "临时笔记/草稿纸.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
               }
             }
           }
@@ -216,9 +203,9 @@
   },
   "active": "9e43f4535d8baf4f",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/2 HTML 5.md",
-    "科技美学/Surge 5.md",
     "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
+    "科技美学/Surge 5.md",
+    "计算机/JavaWeb/前端/2 HTML 5.md",
     "Excalidraw/杂/草稿纸 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
