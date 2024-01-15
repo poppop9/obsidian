@@ -40,8 +40,16 @@ h1.hidden {
   visibility: hidden;
 }
 ```
-
-
+## max-width
+>`width` 当浏览器窗口小于元素的宽度时，浏览器会将水平滚动条添加到页面
+>`max-width` 可以改善浏览器对小窗口的处理，当浏览器窗口小于元素的宽度时，会自动换行
+## position
+>[!hint] 属性值
+> - static
+> - relative
+> - fixed
+> - absolute
+> - sticky
 
 
 
