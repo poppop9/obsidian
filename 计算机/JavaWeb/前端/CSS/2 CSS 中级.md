@@ -47,8 +47,8 @@ h1.hidden {
 >[!hint] 属性值
 > - `static`【默认】：不受 top、bottom、left 和 right 属性的影响，始终根据页面的正常流进行定位
 > - `relative`：相对于其正常位置进行定位
-> - `fixed`
-> - `absolute`
+> - `fixed`：相对于视口定位【意味着即使滚动页面，也始终位于同一位置】
+> - `absolute`：相对于<u>最近的定位祖先元素</u>【除`static`】进行定位，如果没有祖先则祖先为整个文档zhu'ti
 > - `sticky`
 
 ```css
@@ -57,11 +57,20 @@ div.static {
   border: 3px solid #73AD21;
 }
 
-/* 上留30px， */
+/* 左留30px，上留50px */
 div.relative {
   position: relative;
   left: 30px;
   top: 50px;
+  border: 3px solid #73AD21;
+}
+
+/* 始终位于右下角 */
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
   border: 3px solid #73AD21;
 }
 ```
