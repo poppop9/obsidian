@@ -86,8 +86,7 @@ div.absolute {
 div.sticky {
   position: -webkit-sticky;    /* 为了匹配safari */
   position: sticky;
-  top: 0;                /* 页面向下滚动时，将粘在页面的shagn'fang */
-  padding: 5px;
+  top: 0;                /* 页面向下滚动时，将粘在页面的上方 */
   background-color: #cae8ca;
   border: 2px solid #4CAF50;
 }
