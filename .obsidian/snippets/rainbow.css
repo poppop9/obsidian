@@ -1190,6 +1190,7 @@ div.mermaid>svg {
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
 /* 上方工具栏 */
+/* 视图按钮 */
 body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-header .view-actions svg.svg-icon.lucide-edit-3 {
 	-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>');
 }
@@ -1199,10 +1200,24 @@ body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-header .view-ac
 	background-color: var(--theme-color);
 }
 
-body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-header .view-actions svg.svg-icon.lucide-edit-3, body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-header .view-actions svg.svg-icon.lucide-book-open {
-    background-color: currentColor;
+body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-header .view-actions svg.svg-icon.lucide-edit-3,
+body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-header .view-actions svg.svg-icon.lucide-book-open {
+	background-color: currentColor;
 }
 
+/* 页面内的标签属性 */
+.multi-select-pill {
+	color: hsla(210, 34%, 63%);
+	background-color: hsla(210, 34%, 63%, 0.17);
+}
 
+@media (hover: hover) {
+	.multi-select-pill:hover {
+		color: hsla(210, 34%, 63%);
+		background-color: hsla(210, 34%, 63%, 0.3);
+	}
+}
 
-
+.multi-select-pill-remove-button {
+	color: hsla(210, 34%, 63%);
+}
