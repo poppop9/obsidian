@@ -300,7 +300,7 @@ div.excalidraw-svg.excalidraw-embedded-img.excalidraw-canvas-immersive {
 	}
 }
 
-.cm-s-obsidian span.cm-link:not(span.cm-hmd-footnote.cm-link) {
+.cm-s-obsidian span.cm-link {
 	color: hsla(210, 34%, 63%);
 	border-bottom: 2px dashed hsla(210, 34%, 63%);
 }
@@ -1150,4 +1150,9 @@ span.cm-hmd-barelink.cm-link {
 
 span.cm-hmd-footnote.cm-link {
 	margin: auto 0.3rem auto auto;
+	border-bottom: none;
+}
+
+sup.footnote-ref {
+	color: hsla(210, 34%, 63%);
 }
