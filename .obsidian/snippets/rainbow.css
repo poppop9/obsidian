@@ -872,7 +872,7 @@ body:not(.whole-code-wrap) pre[class*='language-'] {
 
 /* callout里的代码块 */
 .markdown-source-view.mod-cm6 .cm-embed-block pre {
-	margin: 1rem auto;
+	margin: 1rem auto 1rem 0.3rem;
 	max-width: 96%;
 }
 
