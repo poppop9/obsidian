@@ -358,6 +358,14 @@ a.external-link:hover {
 	border-bottom: 2px solid hsla(210, 34%, 63%);
 }
 
+div.cm-active.cm-line>span.cm-hmd-internal-link>span {
+	color: hsla(210, 34%, 63%);
+}
+
+div.cm-line.cm-line>span.cm-hmd-internal-link>span {
+	color: hsla(210, 34%, 63%);
+}
+
 .markdown-source-view.mod-cm6 .cm-underline {
 	color: hsla(210, 34%, 63%);
 	text-decoration-line: none;
@@ -369,6 +377,10 @@ a.external-link:hover {
 	.markdown-source-view.mod-cm6 .cm-hmd-internal-link .cm-underline:hover {
 		text-decoration-line: none;
 	}
+}
+
+.markdown-source-view.mod-cm6 .is-unresolved .cm-underline {
+	text-decoration-line: none;
 }
 
 .markdown-embed {
