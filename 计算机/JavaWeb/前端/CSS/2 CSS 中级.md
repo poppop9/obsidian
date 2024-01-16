@@ -49,9 +49,11 @@ h1.hidden {
   visibility: hidden;
 }
 ```
+
 ## max-width
 >`width` 当浏览器窗口小于元素的宽度时，浏览器会将水平滚动条添加到页面
 >`max-width` 可以改善浏览器对小窗口的处理，当浏览器窗口小于元素的宽度时，会自动换行
+
 ## position
 >[!hint] 属性值
 > - `static`【默认】：不受 top、bottom、left 和 right 属性的影响，始终根据页面的正常流进行定位
@@ -100,6 +102,7 @@ div.sticky {
   border: 2px solid #4CAF50;
 }
 ```
+
 ## 重叠
 ```css
 /* 由于所有元素都设置了absolute，所以会重叠 */
@@ -125,6 +128,7 @@ img {
 <img src="/i/logo/w3logo-1.png" width="188" height="267" /> 
 <p>p2222222222222222222222222222222222222222222222</p>   
 ```
+
 ## 溢出 overflow
 - `overflow` 元素内容太大而无法放入指定区域时是***剪裁内容***还是***添加滚动条***，==仅适用于具有指定高度的块元素==
 	- `visible` ***默认***，溢出没有被剪裁，内容在元素框外渲染
