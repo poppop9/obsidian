@@ -1156,3 +1156,10 @@ span.cm-hmd-footnote.cm-link {
 sup.footnote-ref {
 	color: hsla(210, 34%, 63%);
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+/* mermaid */
+div.mermaid>svg {
+	display: block;
+	margin: auto auto;
+}
