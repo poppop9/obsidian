@@ -391,6 +391,8 @@ span.cm-formatting.cm-formatting-header.cm-formatting-header-2.cm-header.cm-head
 /* 编辑模式下，与文字上下间距 */
 .cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-2 {
 	padding-bottom: 1rem;
+	/* margin-top: 1rem !important; */
+	margin-bottom:1rem !important;
 }
 
 h2,
