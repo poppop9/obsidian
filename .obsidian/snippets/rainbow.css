@@ -858,7 +858,7 @@ body:not(.whole-code-wrap) pre[class*='language-'] {
 
 /* callout里的无序列表 */
 .callout-content>ul>li:last-child {
-	margin-bottom: -20px;
+	margin-bottom: -15px;
 }
 
 ul>li::marker {
