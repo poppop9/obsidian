@@ -254,7 +254,7 @@ div.internal-embed.media-embed.image-embed.is-loaded img {
 /* 阅读模式 */
 span.internal-embed.media-embed.image-embed.is-loaded>img {
 	display: block;
-	margin: 0.6rem auto;
+	margin: 0 auto;
 	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
 	max-width: 102%;
 }
@@ -272,11 +272,14 @@ div.excalidraw-svg.excalidraw-embedded-img.excalidraw-canvas-immersive {
 .cm-s-obsidian span.cm-url {
 	text-decoration: none;
 	color: hsla(210, 34%, 63%);
+	border-bottom: 2px dashed hsla(210, 34%, 63%);
 }
 
 /* 光标在链接上时，鼠标悬浮时 */
 .cm-s-obsidian span.cm-url:hover {
 	color: hsla(210, 34%, 63%);
+	text-decoration: none;
+	border-bottom: 2px solid hsla(210, 34%, 63%);
 }
 
 /* 光标不在链接上时，鼠标悬浮时 */
@@ -296,24 +299,51 @@ div.excalidraw-svg.excalidraw-embedded-img.excalidraw-canvas-immersive {
 	}
 }
 
+.cm-s-obsidian span.cm-link {
+	color: hsla(210, 34%, 63%);
+	border-bottom: 2px dashed hsla(210, 34%, 63%);
+}
+
+.markdown-source-view.mod-cm6 .cm-link .cm-underline,
+.markdown-source-view.mod-cm6 .cm-url .cm-underline {
+	text-decoration-line: none;
+}
+
+@media (hover: hover) {
+	.cm-s-obsidian span.cm-link:hover {
+		color: hsla(210, 34%, 63%);
+		text-decoration-line: none;
+	}
+}
+
+@media (hover: hover) {
+	.markdown-source-view.mod-cm6 .cm-link .cm-underline:hover {
+		color: hsla(210, 34%, 63%);
+		text-decoration-line: none;
+		border-bottom: 2px solid hsla(210, 34%, 63%);
+	}
+}
+
 /* 阅读模式 */
 a:link {
 	text-decoration: none;
 	color: hsla(210, 34%, 63%);
 }
 
-a:visited {
+.external-link {
+	padding-right: 0;
+	background-image: none;
 	text-decoration: none;
 	color: hsla(210, 34%, 63%);
+
+	border-bottom: 2px dashed hsla(210, 34%, 63%);
 }
 
 a.external-link:hover {
+	text-decoration: none;
 	color: hsla(210, 34%, 63%);
-}
 
-a:active {
-	text-decoration: underline;
-	color: hsla(210, 34%, 63%);
+	border-bottom: 2px solid hsla(210, 34%, 63%);
 }
 
 /* ----------------------------------------------------------------------------------- */
@@ -416,7 +446,6 @@ span.cm-formatting.cm-formatting-header.cm-formatting-header-2.cm-header.cm-head
 	padding-bottom: 1rem;
 	/* margin-top: 1rem !important; */
 }
-
 
 h2,
 .markdown-rendered h2 {
