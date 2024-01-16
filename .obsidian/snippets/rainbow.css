@@ -557,7 +557,7 @@ h3,
 /* 编辑模式下，与文字上下间距 */
 .cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-4 {
 	padding-top: 0.2rem;
-	padding-bottom: 0.5rem;
+	padding-bottom: 0.2rem;
 }
 
 h4[data-heading] {
