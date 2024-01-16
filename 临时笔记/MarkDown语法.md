@@ -240,7 +240,7 @@ graph
 	id12[\反向梯形/]
 ```
 ### 连线
-- [!] 实线箭头
+- 实线箭头
 ````
 ```mermaid
 graph LR
@@ -251,7 +251,7 @@ graph LR
 	graph LR
 	a-->b--文本-->c
 ```
-- [!] 粗实线箭头
+- 粗实线箭头
 ````
 ```mermaid
 graph LR
@@ -262,7 +262,7 @@ graph LR
 	graph LR
 	a==>b==文本==>c
 ```
-- [!] 虚线箭头
+- 虚线箭头
 ````
 ```mermaid
 graph LR
@@ -273,7 +273,7 @@ graph LR
 	graph LR
 	a-.->b-.文本.->c
 ```
-- [!] 无箭头线
+- 无箭头线
 ````
 ```mermaid
 graph LR
@@ -288,7 +288,7 @@ graph LR
 	b===e
 	e-.-g
 ```
-- [!] 其他连线
+- 其他连线
 ````
 ```mermaid
 graph LR
