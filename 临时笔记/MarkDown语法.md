@@ -47,6 +47,8 @@ tags:
 ---
 ## 斜体，粗体，删除线，下划线，高亮
 
+^7b4f97
+
 ```
 *斜体*
 **粗体**
@@ -84,10 +86,13 @@ obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
 ## 内部超链接
 ### 链接文件
 [[测试]]
+
 ### 链接标题
 [[#三、超链接]]
+
 ### 链接章节详细内容
-![[#斜体，粗体，删除线，高亮]]
+![[#^7b4f97]]
+
 ### 链接全局
 ```
 ![[^^存储 运算 控制]]
