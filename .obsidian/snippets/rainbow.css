@@ -870,6 +870,17 @@ body:not(.whole-code-wrap) pre[class*='language-'] {
 	display: none;
 }
 
+/* callout里的代码块 */
+.markdown-source-view.mod-cm6 .cm-embed-block pre {
+	margin: 1rem auto;
+	max-width: 96%;
+}
+
+.callout-content > pre {
+	margin: 1rem auto 1rem 1rem;
+	max-width: 94%;
+}
+
 /* ----------------------------------------------------------------- */
 /* 无序列表 */
 /* 编辑模式 */
