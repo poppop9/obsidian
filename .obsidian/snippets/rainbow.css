@@ -375,13 +375,13 @@ span.cm-formatting.cm-formatting-highlight.cm-highlight {
 
 /* -------------------------------------------------------------------------- */
 /* 正文字体 */
-/* .markdown-source-view {
-	font-size: 20px;
+.markdown-source-view.mod-cm6 .cm-scroller {
+	font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen, ubuntu, cantarell, fira sans, droid sans, pingfang sc, hiragino sans gb, microsoft yahei, wenquanyi micro hei, helvetica neue, sans-serif;
 }
 
 .markdown-preview-view {
-	font-size: 20px;
-} */
+	font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen, ubuntu, cantarell, fira sans, droid sans, pingfang sc, hiragino sans gb, microsoft yahei, wenquanyi micro hei, helvetica neue, sans-serif;
+}
 
 /* ------------------------------------------------------------ */
 /* 标题 */
