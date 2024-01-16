@@ -268,6 +268,7 @@ div.excalidraw-svg.excalidraw-embedded-img.excalidraw-canvas-immersive {
 
 /* ---------------------------------------------------------------------------------- */
 /* 链接 */
+/* 外链 */
 /* 编辑模式 */
 .cm-s-obsidian span.cm-url {
 	text-decoration: none;
@@ -345,6 +346,34 @@ a.external-link:hover {
 
 	border-bottom: 2px solid hsla(210, 34%, 63%);
 }
+
+/* 内链 */
+.cm-s-obsidian span.cm-hmd-internal-link {
+	color: hsla(210, 34%, 63%);
+}
+
+.markdown-source-view.mod-cm6 .cm-underline {
+	color: hsla(210, 34%, 63%);
+	text-decoration-line: none;
+
+	border-bottom: 2px dashed hsla(210, 34%, 63%);
+}
+
+@media (hover: hover) {
+	.markdown-source-view.mod-cm6 .cm-hmd-internal-link .cm-underline:hover {
+		text-decoration-line: none;
+	}
+}
+
+.cm-s-obsidian span.cm-hmd-internal-link:hover {
+	text-decoration-line: none;
+	border-bottom: 2px solid hsla(210, 34%, 63%);
+}
+
+.markdown-embed {
+	border-left: 3.5px solid hsla(210, 34%, 63%, 0.4);
+}
+
 
 /* ----------------------------------------------------------------------------------- */
 /* 特殊字体 */
