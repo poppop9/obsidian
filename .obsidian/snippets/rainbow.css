@@ -348,6 +348,7 @@ a.external-link:hover {
 }
 
 /* 内链 */
+/* 编辑模式 */
 .cm-s-obsidian span.cm-hmd-internal-link {
 	color: hsla(210, 34%, 63%);
 }
@@ -387,6 +388,34 @@ div.cm-line.cm-line>span.cm-hmd-internal-link>span {
 	border-left: 3.5px solid hsla(210, 34%, 63%, 0.4);
 }
 
+/* 阅读模式 */
+.markdown-rendered a.internal-link.is-unresolved {
+	color: hsla(210, 34%, 63%);
+}
+
+.markdown-rendered a.internal-link {
+	color: hsla(210, 34%, 63%);
+	text-decoration:none;
+	border-bottom: 2px dashed hsla(210, 34%, 63%);
+}
+
+@media (hover: hover){
+	.metadata-container .internal-link:hover,
+		.markdown-rendered .internal-link:hover {
+			color: hsla(210, 34%, 63%);
+			text-decoration: none;
+			border-bottom: 2px solid hsla(210, 34%, 63%);
+		}
+}
+
+@media (hover: hover){
+	.metadata-container .internal-link.is-unresolved:hover,
+		.markdown-rendered .internal-link.is-unresolved:hover {
+			color: hsla(210, 34%, 63%);
+			text-decoration: none;
+			border-bottom: 2px solid hsla(210, 34%, 63%);
+		}
+}
 
 /* ----------------------------------------------------------------------------------- */
 /* 特殊字体 */
