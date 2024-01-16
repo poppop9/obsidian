@@ -367,7 +367,14 @@ div.cm-line.cm-line>span.cm-hmd-internal-link>span {
 	color: hsla(210, 34%, 63%);
 }
 
-.markdown-source-view.mod-cm6 .cm-underline:not(.cm-hmd-footnote.cm-link>.cm-underline) {
+/* .markdown-source-view.mod-cm6 .cm-underline:not(.cm-hmd-footnote.cm-link>.cm-underline) {
+	color: hsla(210, 34%, 63%);
+	text-decoration-line: none;
+
+	border-bottom: 2px dashed hsla(210, 34%, 63%);
+} */
+
+.markdown-source-view.mod-cm6 .cm-underline {
 	color: hsla(210, 34%, 63%);
 	text-decoration-line: none;
 
@@ -883,7 +890,7 @@ body:not(.whole-code-wrap) pre[class*='language-'] {
 	padding-right: 20;
 }
 
-div.markdown-reading-view .callout-content>pre{
+div.markdown-reading-view .callout-content>pre {
 	left: -11px;
 }
 
@@ -1180,3 +1187,22 @@ div.mermaid>svg {
 	display: block;
 	margin: auto auto;
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+/* 上方工具栏 */
+body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-header .view-actions svg.svg-icon.lucide-edit-3 {
+	-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>');
+}
+
+body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-header .view-actions svg.svg-icon.lucide-book-open {
+	-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m7 17.013 4.413-.015 9.632-9.54c.378-.378.586-.88.586-1.414s-.208-1.036-.586-1.414l-1.586-1.586c-.756-.756-2.075-.752-2.825-.003L7 12.583v4.43zM18.045 4.458l1.589 1.583-1.597 1.582-1.586-1.585 1.594-1.58zM9 13.417l6.03-5.973 1.586 1.586-6.029 5.971L9 15.006v-1.589z"></path><path d="M5 21h14c1.103 0 2-.897 2-2v-8.668l-2 2V19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2z"></path></svg>');
+	background-color: var(--theme-color);
+}
+
+body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-header .view-actions svg.svg-icon.lucide-edit-3, body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-header .view-actions svg.svg-icon.lucide-book-open {
+    background-color: currentColor;
+}
+
+
+
+
