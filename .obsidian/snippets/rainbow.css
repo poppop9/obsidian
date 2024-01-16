@@ -876,9 +876,15 @@ body:not(.whole-code-wrap) pre[class*='language-'] {
 	max-width: 96%;
 }
 
-.callout-content > pre {
-	margin: 1rem auto 1rem 1rem;
+.callout-content>pre {
+	position: relative;
+	margin: 1rem 1rem 1rem 1rem;
 	max-width: 94%;
+	padding-right: 20;
+}
+
+div.markdown-reading-view .callout-content>pre{
+	left: -11px;
 }
 
 /* ----------------------------------------------------------------- */
