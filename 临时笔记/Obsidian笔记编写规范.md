@@ -162,6 +162,8 @@ excalidraw里拷贝内部链接`ctrl+shift+k`
 ☄️ 彗星
 🥏 飞碟
 🪩 镜面球
+🃏 小丑牌
+🧩
 
 
 
