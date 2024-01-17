@@ -237,6 +237,7 @@ ec88b5fda864736cc72d356f22c941b8470c7729: https://obsidian-1307744200.cos.ap-gua
 363897f95b20200e6c854d3785cc56556dc0f9c8: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240115142540.png
 635c32d36f5fb059877fa45d399d0614d101571c: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240115142713.png
 fbd673b96ae58872c5c781607c440ba8be97279a: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240115142749.png
+9ff70db4e7b4aa18ceb761d5747e24b2afad41ae: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240117142006.png
 
 %%
 # Drawing
@@ -11053,6 +11054,39 @@ fbd673b96ae58872c5c781607c440ba8be97279a: https://obsidian-1307744200.cos.ap-gua
 			"originalText": "auto",
 			"lineHeight": 1.2,
 			"baseline": 24
+		},
+		{
+			"type": "image",
+			"version": 9,
+			"versionNonce": 95371390,
+			"isDeleted": false,
+			"id": "vCuuJ0iq",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1135.9641729953853,
+			"y": 673.8393341343476,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500.00000000000006,
+			"height": 55.139186295503215,
+			"seed": 19867,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705472414642,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "9ff70db4e7b4aa18ceb761d5747e24b2afad41ae",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -11070,10 +11104,10 @@ fbd673b96ae58872c5c781607c440ba8be97279a: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 4376.035745624405,
-		"scrollY": 2898.614878850867,
+		"scrollX": -230.6309210422603,
+		"scrollY": 152.59106254537494,
 		"zoom": {
-			"value": 0.15000000000000002
+			"value": 0.44999999999999996
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
