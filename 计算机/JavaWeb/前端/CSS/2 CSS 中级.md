@@ -183,9 +183,15 @@ img {
 
 >[!attention] 被设置为浮动的元素 不在文档的普通流中，所以文档的普通流中的块框表现得就像浮动框不存在一样
 >![[Excalidraw/计算机/JavaWeb Draw.md#^group=vCuuJ0iq|700]]
+>==要解决这个问题，可以对==`div2`==使用==`clear`==属性==
 
-
-
+# 清除 clear
+>[!hint] 属性值
+> - `none`  【默认值】允许两侧都有浮动元素
+> - `left`  左侧不允许浮动元素
+> - `right` 右侧不允许浮动元素
+> - `both`  左侧或右侧均不允许浮动元素
+> - `inherit`  元素继承其父级的 clear 值
 
 
 

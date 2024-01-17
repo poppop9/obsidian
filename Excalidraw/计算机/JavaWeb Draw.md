@@ -206,6 +206,8 @@ scroll ^MUTTg3gI
 
 auto ^dIFLUiZq
 
+原本的div是占据一行的，但是div1被设置为了float，div2会当div1的框不存在，但是内容存在 ^aTcOEIXM
+
 
 # Embedded files
 b058a56ee0dc39f760fa99ec8b82953ecd6bcb93: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230909160945.png
@@ -11057,8 +11059,8 @@ fbd673b96ae58872c5c781607c440ba8be97279a: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "image",
-			"version": 9,
-			"versionNonce": 95371390,
+			"version": 10,
+			"versionNonce": 1494285154,
 			"isDeleted": false,
 			"id": "vCuuJ0iq",
 			"fillStyle": "hachure",
@@ -11074,11 +11076,13 @@ fbd673b96ae58872c5c781607c440ba8be97279a: https://obsidian-1307744200.cos.ap-gua
 			"width": 500.00000000000006,
 			"height": 55.139186295503215,
 			"seed": 19867,
-			"groupIds": [],
+			"groupIds": [
+				"KWt79kffEc-tZbCiFn2NJ"
+			],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1705472414642,
+			"updated": 1705472558455,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -11087,6 +11091,45 @@ fbd673b96ae58872c5c781607c440ba8be97279a: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"id": "aTcOEIXM",
+			"type": "text",
+			"x": 1143.0601545286777,
+			"y": 737.0939127573743,
+			"width": 551.322509765625,
+			"height": 16.639241141177983,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"KWt79kffEc-tZbCiFn2NJ"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1101271422,
+			"version": 307,
+			"versionNonce": 957899710,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1705472558455,
+			"link": null,
+			"locked": false,
+			"text": "原本的div是占据一行的，但是div1被设置为了float，div2会当div1的框不存在，但是内容存在",
+			"rawText": "原本的div是占据一行的，但是div1被设置为了float，div2会当div1的框不存在，但是内容存在",
+			"fontSize": 13.866034284314987,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 11,
+			"containerId": null,
+			"originalText": "原本的div是占据一行的，但是div1被设置为了float，div2会当div1的框不存在，但是内容存在",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -11104,10 +11147,10 @@ fbd673b96ae58872c5c781607c440ba8be97279a: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -230.6309210422603,
-		"scrollY": 152.59106254537494,
+		"scrollX": -769.15875394687,
+		"scrollY": -338.3207274076027,
 		"zoom": {
-			"value": 0.44999999999999996
+			"value": 0.9402714012186317
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
