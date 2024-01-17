@@ -56,6 +56,9 @@ h1.hidden {
 ```
 
 ### 行内块元素 inline-block
+>`inline-block` 结合了 `inline` 和 `block` 的优点
+![[Excalidraw/计算机/JavaWeb Draw.md#^group=tsmJGJs5|500]]
+
 
 
 
