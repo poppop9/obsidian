@@ -138,8 +138,8 @@ h1 {
 >- `padding`  内边距【***呈现元素的背景***，不允许负值】
 >- `width`  宽度【只是内容，***不包括padding，margin，border***】
 >- `height`  高度
->- `box-sizing`  设定width和height指的是哪个盒子
->	- `content-box`  仅包括内容区域
+>- `box-sizing`  设定 width 和 height 指的是哪个盒子
+>	- `content-box`  【默认值】仅包括内容区域
 >	- `border-box`  包括内容，padding，border
 >	- `padding-box`  包括内容，padding
 >	- `inherit`  继承父元素
