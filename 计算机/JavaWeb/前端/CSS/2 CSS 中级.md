@@ -14,13 +14,16 @@
 > - `<footer>`
 > - `<section>`
 
->[!hint] 居中技巧
-> ```css
-> 某个需要居中的元素 {
-> 	display: block;
-> 	margin: auto auto;
-> }
-> ```
+#### 居中
+```css
+某个需要居中的块级元素 {
+    display: block;
+    margin: auto auto;
+    width: 30%;       /* 设置时需要she'zhi */    
+}
+```
+
+#### 
 
 ### 行内元素 inline
 >不从新行开始，仅占用所需的宽度
