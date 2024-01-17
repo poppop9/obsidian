@@ -136,6 +136,8 @@ img {
 	- `scroll` 溢出被剪裁，同时在水平竖直都添加滚动条以查看其余内容
 	- `auto` 与 `scroll` 类似，但仅在必要时添加滚动条
 
+>[!hint] 可以单独设置 `overflow-x` 和 `overflow-y`
+
 ```css
 div {
   width: 200px;
@@ -152,6 +154,12 @@ div {
 
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=b8rxkPi3|800]]
 
+# 浮动
+`float` ：
+- left - 元素浮动到其容器的左侧
+- right - 元素浮动在其容器的右侧
+- none - 元素不会浮动（将显示在文本中刚出现的位置）。默认值。
+- inherit - 元素继承其父级的 float 值
 
 
 
