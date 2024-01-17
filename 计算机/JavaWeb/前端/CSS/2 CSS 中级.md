@@ -154,14 +154,32 @@ div {
 
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=b8rxkPi3|800]]
 
-# 浮动
-`float` ：
-- left - 元素浮动到其容器的左侧
-- right - 元素浮动在其容器的右侧
-- none - 元素不会浮动（将显示在文本中刚出现的位置）。默认值。
-- inherit - 元素继承其父级的 float 值
+# 浮动 float
+>[!hint] 属性值
+> - `left`  元素浮动到其容器的左侧
+> - `right`  元素浮动在其容器的右侧
+> - `none`  【默认值】，元素不会浮动（将显示在文本中刚出现的位置）
+> - `inherit`  元素继承其父级的 float 值
 
+```css
+<p><img src="/i/logo/w3logo-3.png" alt="W3School" style="width:170px;height:170px;margin-left:15px;">
+领先的 Web 技术教程 - 全部免费。在 W3School，你可以找到你所需要的所有的网站建设教程。从基础的 HTML 到 CSS，乃至进阶的 XML、SQL、JS、PHP。
+我们的参考手册涵盖了网站技术的方方面面。其中包括W3C标准技术：HTML、CSS、XML 。以及其他技术，诸如 JavaScript、PHP、SQL 等。
+在 W3School，我们提供上千个实例。通过使用我们的在线编辑器，你可以编辑这些例子，并对代码进行实验。</p>
 
+---
+/* 图像会浮动在文字的左侧 */
+img {
+  float: left;
+}
+
+/* 图像会浮动在文字的右侧 */
+img {
+  float: right;
+}
+
+/*  */
+```
 
 
 
