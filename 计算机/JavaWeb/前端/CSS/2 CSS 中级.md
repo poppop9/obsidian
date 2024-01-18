@@ -240,6 +240,53 @@ img {
 # 伪类
 >伪类用于定义元素的***特殊状态***
 
+## 链接状态
+根据链接处于什么状态来设置链接的不同样式：
+- `a:link`  未访问过的链接
+- `a:visited`  访问过的链接
+- `a:hover`  鼠标悬停时
+- `a:active`  被点击时
+
+>[!attention]  链接的状态属性不是html的属性，所以不能使用行内样式
+
+>[!attention] 
+>- a:hover 必须定义在 a:link 和 a:visited 之后，以确保鼠标悬停时的优先级高
+>- a:active 必须定义在 a:hover 之后，以确保点击时的优先级高于悬停时
+
+```css
+/* 未访问过的链接 */
+a:link {
+  color: red;
+}
+
+/* 访问过的链接 */
+a:visited {
+  color: green;
+}
+
+/* 鼠标悬停时 */
+a:hover {
+  color: hotpink;
+}
+
+/* 被点击时 */
+a:active {
+  color: blue;
+}
+```
+## 提示悬停
+```css
+p {
+	display: none;
+	background-color: yellow;
+	padding: 20px;
+}
+
+/* 数鼠标悬浮在div时，把<p>元素设置为显示 */
+div:hover p {
+	display: block;
+}
+```
 
 
 
