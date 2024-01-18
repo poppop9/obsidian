@@ -264,19 +264,19 @@ img {
 	```
 
 - `:lang`
-```css
-<p>Some text <q lang="en">A quote in a paragraph</q> Some text.</p>
-
-<style>
-	q:lang(en) {
-	    quotes: "~" "~";
-	}
-</style>
-
-
----
-Some text A quote in a paragraph Some text.
-```
+	```css
+	<p>Some text <q lang="en">A quote in a paragraph</q> Some text.</p>
+	
+	<style>
+		q:lang(en) {
+		    quotes: "~" "~";   /* 为 lang="en" 的 q 元素定义引号 */
+		}
+	</style>
+		
+	
+	---
+	Some text  ~A quote in a paragraph~ Some text.
+	```
 
 ---
 
