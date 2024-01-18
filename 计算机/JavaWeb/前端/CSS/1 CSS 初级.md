@@ -613,6 +613,14 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 </div>
 ```
 
+# 透明度
+>`opacity` 用于指定元素的透明度，取值范围为 0.0【透明】 - 1.0【不透明】
+
+```css
+img {
+    opacity: 0.5;
+}
+```
 
 
 
