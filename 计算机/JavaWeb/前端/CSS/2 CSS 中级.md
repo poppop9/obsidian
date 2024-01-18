@@ -342,9 +342,7 @@ div:hover p {
 ```
 
 >[!hint] 适用于`::first-line`的属性
-> - 字体属性
-> - 颜色属性
-> - 背景属性
+> - 字体，颜色，背景
 > - word-spacing
 > - letter-spacing
 > - text-decoration
@@ -364,32 +362,36 @@ p::first-letter {
 ```
 
 >[!hint] 适用于`::first-letter`的属性
+> - 字体，颜色，背景
+> - 内外边距
+> - 边框
+> - text-decoration
+> - vertical-align（仅当 "float" 为 "none"）
+> - text-transform
+> - line-height
+> - float
+> - clear
 
+## ::before
+>在元素内容之前插入一些内容
 
+```css
+/* 在每个<h1>元素之前插入一幅图像 */
+h1::before {
+    content: url(/i/photo/smile.gif);
+}
+```
 
-- 字体属性
-- 颜色属性
-- 背景属性
-- 外边距属性
-- 内边距属性
-- 边框属性
-- text-decoration
-- vertical-align（仅当 "float" 为 "none"）
-- text-transform
-- line-height
-- float
-- clear
+## ::after
+>在元素内容之后插入一些内容
 
+## ::selection
+>匹配用户选择的元素部分
 
-
-
-
-
-
-
-
-
-
-
+>[!hint] 适用于`::selection`的属性
+> - `color`
+> - `background`
+> - `cursor`
+> - `outline`
 
 
