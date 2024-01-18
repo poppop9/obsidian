@@ -237,7 +237,8 @@ img {
 }
 ```
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=sgLQHiif|700]]
-# 伪元素
+# 伪类
+>伪类用于定义元素的***特殊状态***
 
 
 
