@@ -388,10 +388,72 @@ h1::before {
 ## ::selection
 >匹配用户选择的元素部分
 
+```css
+/* 会对鼠标选择的文本进行处理 */
+::selection {
+    color: red;
+    background: yellow;
+}
+
+/* 针对 Firefox 的代码 */
+::-moz-selection { 
+    color: red;
+    background: yellow;
+}
+```
+
 >[!hint] 适用于`::selection`的属性
 > - `color`
 > - `background`
 > - `cursor`
 > - `outline`
+
+# 透明度
+>`opacity` 用于指定元素的透明度，取值范围为 0.0【透明】 - 1.0【不透明】，子元素会继承父元素的透明度
+
+```css
+img {
+    opacity: 0.5;
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
