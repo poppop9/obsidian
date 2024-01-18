@@ -263,6 +263,21 @@ img {
 	}
 	```
 
+- `:lang`
+```css
+<p>Some text <q lang="en">A quote in a paragraph</q> Some text.</p>
+
+<style>
+	q:lang(en) {
+	    quotes: "~" "~";
+	}
+</style>
+
+
+---
+Some text A quote in a paragraph Some text.
+```
+
 ---
 
 - 链接的设置
