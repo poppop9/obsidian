@@ -324,15 +324,16 @@ div:hover p {
 # 伪元素
 >伪元素用于设置元素指定部分的样式，可以在内容之前或之后插入内容
 
-- `::first-line` 向文本的首行添加特殊样式
+## ::first-line
+>向文本的 ***首行*** 添加特殊样式，==只能应用于块级元素==
 
 ```css
 <p>您可以使用 ::first-line 伪元素将特殊效果添加到文本的第一行。一些更多的文字。越来越多，越来越多，越来越多，越来越多，越来越多，越来越多，越来越多，越来越多，越来越多，越来越多。</p>
 
 <style>
 	p::first-line {
-	    color: red;
-	    font-variant: small-caps;
+		color: red;
+		font-variant: small-caps;
 	}
 </style>
 
@@ -340,19 +341,44 @@ div:hover p {
 <p>元素太长会换行，则第一行会被设置为红色
 ```
 
+>[!hint] 适用于`::first-line`的属性
+> - 字体属性
+> - 颜色属性
+> - 背景属性
+> - word-spacing
+> - letter-spacing
+> - text-decoration
+> - vertical-align
+> - text-transform
+> - line-height
+> - clear
+
+## ::first-letter
+>向文本的 ***首字母*** 添加特殊样式，==只适用于块级元素==
+
+```css
+p::first-letter {
+    color: red;
+    font-size: xx-large;
+}
+```
+
+>[!hint] 适用于`::first-letter`的属性
 
 
 
-
-
-
-
-
-
-
-
-
-
+- 字体属性
+- 颜色属性
+- 背景属性
+- 外边距属性
+- 内边距属性
+- 边框属性
+- text-decoration
+- vertical-align（仅当 "float" 为 "none"）
+- text-transform
+- line-height
+- float
+- clear
 
 
 
