@@ -237,7 +237,7 @@ img {
 }
 ```
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=sgLQHiif|700]]
-# 伪类
+# 伪类 - 状态选择器
 >伪类用于定义元素的***特殊状态***
 
 根据元素处于什么状态来设置不同样式：
@@ -251,6 +251,17 @@ img {
 >- a:active 必须定义在 a:hover 之后，以确保点击时的优先级高于悬停时
 
 - `:first-child` 匹配某个元素的第一个子元素
+	```css
+	/* 选择所有<P>元素的第一个<p>元素 */
+	p:first-child {
+		color: blue;
+	}
+
+	/* 选择第一个<p>元素中的所有<i>元素 */
+	p:first-child i {
+	    color: blue;
+	}
+	```
 
 ---
 
