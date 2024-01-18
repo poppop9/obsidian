@@ -412,8 +412,9 @@ h1::before {
 >导航栏基本上是链接列表
 
 >[!hint] 设置导航时的注意点
-> - `display: block;` - 将链接显示为块元素***可以使整个链接区域都可以被单击***，我们还可以指定更多的参数
-> - `width: 60px;` - 默认情况下，块元素会占用全部可用宽度，我们需要指定合适的 width
+> - `display: block;` 将链接显示为块元素***可以使整个链接区域都可以被单击***，我们还可以指定更多的参数
+> - `width: 60px;` 默认情况下，块元素会占用全部可用宽度，我们需要指定合适的 width
+> - `position: fixed;` 固定导航栏
 
 ## 垂直导航栏
 >列表本身就是垂直的，相对简单些
@@ -422,7 +423,14 @@ h1::before {
 >使用 ***行内*** 或 ***浮动***
 
 ```css
-/* 使用行内 */
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+/* 使用行内---------------------- */
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -433,8 +441,16 @@ li {
 	display: inline;
 }
 
+/* 使用浮动------------------- */
+li {
+	float: left;
+}
 
-
+a {
+	display: block;
+	padding: 8px;
+	background-color: #dddddd;
+}
 ```
 
 
