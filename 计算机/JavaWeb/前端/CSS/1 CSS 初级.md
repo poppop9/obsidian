@@ -91,7 +91,7 @@ tags:
 >指定元素后代的所有元素
 
 ```css
-/* 选择 <div> 元素内的所有 <p> 元素 */
+/* 选择 <div> 元素内的所有 <p>元素 */
 div p {
     background-color: yellow;
 }
@@ -101,11 +101,34 @@ div p {
 >指定元素子元素里的所有元素
 
 ```css
-/* 选择 <div> 元素内第一子元素的元素 */
+/* 选择 <div> 元素内第一子元素的 <p>元素，不包含嵌套的 <p>元素 */
 div > p {
     background-color: yellow;
 }
 ```
+
+### 相邻兄弟选择器
+>指定元素的相邻元素
+
+```css
+/* 选择紧随<div>元素之后的<p>元素 */
+div + p {
+    background-color: yellow;
+}
+```
+
+### 通用兄弟选择器
+>zh属于指定元素的同级元素的所有元素
+
+```css
+/* 选择属于<div>元素的同级元素的所有<p>元素 */
+div ~ p {
+    background-color: yellow;
+}
+```
+
+
+
 
 # 引入方式
 ## 行内样式
