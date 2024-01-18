@@ -453,7 +453,15 @@ a {
 }
 ```
 
-
+## 响应式顶部导航栏
+```css
+/* 在屏幕尺寸小于或等于600像素时垂直堆叠导航栏 */
+@media screen and (max-width: 600px) {
+	ul.topnav li {
+		float: none;
+	}
+}
+```
 
 
 
