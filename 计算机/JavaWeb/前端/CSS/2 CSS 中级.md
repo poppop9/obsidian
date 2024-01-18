@@ -464,6 +464,11 @@ a {
 ```
 
 ## 悬浮下拉菜单
+>基本思路：
+>1. 先把下拉菜单创建好
+>2. 再将其设置为`display: none;` 
+>3. 设置悬浮`:hover` 时 `display: block;`
+
 ```css
 <li><a href="#home">Home</a></li>
 <li><a href="#news">News</a></li>
@@ -481,10 +486,13 @@ a {
 	position: absolute;
 	background-color: #f9f9f9;
 	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  /* 一般下拉菜单会设置阴影 */
 	z-index: 1;
 }
 
+.dropdown:hover .dropdown-content {
+	display: block;
+}
 ```
 
 
