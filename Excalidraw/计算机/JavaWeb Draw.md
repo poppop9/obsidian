@@ -244,6 +244,7 @@ fbd673b96ae58872c5c781607c440ba8be97279a: https://obsidian-1307744200.cos.ap-gua
 9ff70db4e7b4aa18ceb761d5747e24b2afad41ae: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240117142006.png
 0d2c2d4849b2dfe2ee0b51d375b876abe540a231: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240117142644.png
 170858a81d53ee134cbaa50a91f688aaf6b1b023: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240117181812.png
+a8cf8206ccc2b6f02e0107e684613e199d0faa52: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240119113939.png
 
 %%
 # Drawing
@@ -11241,6 +11242,39 @@ fbd673b96ae58872c5c781607c440ba8be97279a: https://obsidian-1307744200.cos.ap-gua
 			"originalText": "黄色方框为inline-block，可以在行内，并且可以设置宽度，高度",
 			"lineHeight": 1.2,
 			"baseline": 15
+		},
+		{
+			"type": "image",
+			"version": 7,
+			"versionNonce": 141891047,
+			"isDeleted": false,
+			"id": "FEjVXHLN",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1913.1312465630945,
+			"y": -598.2816167252163,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 399,
+			"height": 182,
+			"seed": 53165,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1705636004398,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "a8cf8206ccc2b6f02e0107e684613e199d0faa52",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -11258,7 +11292,7 @@ fbd673b96ae58872c5c781607c440ba8be97279a: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 4376.035745624405,
+		"scrollX": 1876.0357456244053,
 		"scrollY": 2898.614878850867,
 		"zoom": {
 			"value": 0.15000000000000002

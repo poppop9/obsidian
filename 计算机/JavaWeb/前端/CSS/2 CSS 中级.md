@@ -522,7 +522,7 @@ a {
 	}
 </style>
 ```
-![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240119113939.png)
+![[Excalidraw/计算机/JavaWeb Draw.md#^group=FEjVXHLN|300]]
 
 
 
