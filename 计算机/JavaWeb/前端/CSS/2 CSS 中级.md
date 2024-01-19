@@ -498,6 +498,13 @@ a {
 }
 ```
 
+# 计数器
+>计数器使您可以根据内容在文档中的位置来调整其外观
+
+- `counter-reset`  创建或重置计数器
+- `counter-increment`  递增计数器值
+- `content`  插入生成的内容
+- `counter()` /`counters()`  将计数器的值添加到元素
 
 
 
