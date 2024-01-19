@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -66,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
+                "file": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
               }
             }
           },
@@ -169,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
+                "file": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
               }
             }
           },
@@ -201,10 +202,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "9e43f4535d8baf4f",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
     "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
+    "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
     "临时笔记/草稿纸.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/四大件/计算机网络2.md",
