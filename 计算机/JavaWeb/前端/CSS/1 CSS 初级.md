@@ -104,16 +104,37 @@ a[target=_blank] {
 ```
 
 ```css
-<h1 class="top-header">Welcome</h1>
-<p class="top-text">Hello world!</p>
-<p class="topcontent">Are you learning CSS?</p>
+<h1 class="top-header">Welcome</h1>         /* 匹配 */
+<p class="top-text">Hello world!</p>      /* 匹配 */
+<p class="topcontent">Are you learning CSS?</p>   /* 不匹配 */
 
-/* 选取class属性以 "top" 开头的所有元素 */
+/* 选取class属性以 "top" 开头的所有元素，值要是完整单词 */
 <style>
 	[class|=top] {
 		background: yellow;
 	}
 </style>
+```
+
+```css
+/* 选取class属性以 "top" 开头的所有元素，值不用是完整单词 */
+[class^="top"] {
+	background: yellow;
+}
+```
+
+```css
+/* 选取class属性以 "test" 结尾的所有元素，值不必是完整单词 */
+[class$="test"] {
+	background: yellow;
+}
+```
+
+```css
+/* 选取class属性包含 "te" 的所有元素，值不必是完整单词 */
+[class*="te"] {
+	background: yellow;
+}
 ```
 
 ---
