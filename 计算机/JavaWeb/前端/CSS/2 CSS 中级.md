@@ -506,6 +506,23 @@ a {
 - `content`  插入生成的内容
 - `counter()` /`counters()`  将计数器的值添加到元素
 
+```css
+<h2>HTML 教程</h2>
+<h2>CSS 教程</h2>
+<h2>JavaScript 教程</h2>
+
+<style>
+	body {
+		counter-reset: index;   /* 创建 */
+	}
+	
+	h2::before {
+		counter-increment: index;      /* 递增 */
+		content: "Section " counter(index) ": ";    /* 插入内容 */
+	}
+</style>
+```
+![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240119113939.png)
 
 
 
