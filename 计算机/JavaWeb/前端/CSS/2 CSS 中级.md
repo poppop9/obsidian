@@ -506,6 +506,8 @@ a {
 - `content`  插入生成的内容
 - `counter()` /`counters()`  将计数器的值添加到元素
 
+---
+
 ```css
 <h2>HTML 教程</h2>
 <h2>CSS 教程</h2>
@@ -524,6 +526,28 @@ a {
 ```
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=FEjVXHLN|300]]
 
+---
+
+```css
+/* 嵌套计数器 */
+body {
+	counter-reset: section;
+}
+
+h1 {
+	counter-reset: subsection;
+}
+
+h1::before {
+	counter-increment: section;
+	content: "Section " counter(section) ". ";
+}
+
+h2::before {
+	counter-increment: subsection;
+	content: counter(section) "." counter(subsection) " ";
+}
+```
 
 
 
