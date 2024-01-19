@@ -68,6 +68,7 @@ tags:
 >   color: red;
 > }
 > ```
+
 ## 通用选择器
 >通用选择器会影响页面上的每个 HTML 元素
 
@@ -76,6 +77,28 @@ tags:
   text-align: center;
   color: blue;
 }
+```
+
+## 属性选择器
+>选取带有指定属性的元素
+
+```css
+<a href="https://www.w3school.com">w3school.com.cn</a>
+<a href="http://www.disney.com" target="_blank">disney.com</a>
+<a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+
+<style>
+	a[target] {     /* 选取带有target属性的链接 */
+		background-color: yellow;
+	}
+
+	a[target=_blank] {     /* 选取带有target属性，且属性值为_blank的链接 */
+		background-color: blue;
+	}
+[title~=flower] {
+  border: 5px solid yellow;
+}
+</style>
 ```
 
 ---
