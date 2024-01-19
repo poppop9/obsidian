@@ -83,21 +83,36 @@ tags:
 >选取带有指定属性的元素
 
 ```css
-<a href="https://www.w3school.com">w3school.com.cn</a>
-<a href="http://www.disney.com" target="_blank">disney.com</a>
-<a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
-
-<style>
-	a[target] {     /* 选取带有target属性的链接 */
-		background-color: yellow;
-	}
-
-	a[target=_blank] {     /* 选取带有target属性，且属性值为_blank的链接 */
-		background-color: blue;
-	}
-[title~=flower] {
-  border: 5px solid yellow;
+/* 选取带有target属性的链接 */
+a[target] {     
+	background-color: yellow;
 }
+```
+
+```css
+/* 选取带有target属性，且属性值为_blank的链接 */
+a[target=_blank] {    
+	background-color: blue;
+}
+```
+
+```css
+/* 选取title属性包含单独的 "flower" 单词的所有元素，不包含title="my-flower" 或 title="flowers" */
+[title~=flower] {     
+	border: 5px solid yellow;
+}
+```
+
+```css
+<h1 class="top-header">Welcome</h1>
+<p class="top-text">Hello world!</p>
+<p class="topcontent">Are you learning CSS?</p>
+
+/* 选取class属性以 "top" 开头的所有元素 */
+<style>
+	[class|=top] {
+		background: yellow;
+	}
 </style>
 ```
 
