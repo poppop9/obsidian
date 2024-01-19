@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "计算机",
+  "activeView": "/",
   "hideFrontmatter": false,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -56,9 +56,12 @@
     "//计算机/计算机/四大件/计算机/四大件/操作系统/计算机/四大件/操作系统/虚拟化",
     "//计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/JavaScript",
     "计算机/计算机/JavaWeb/计算机/JavaWeb/前端",
-    "计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/CSS",
     "//Excalidraw",
-    "//Excalidraw/Excalidraw/计算机"
+    "//Excalidraw/Excalidraw/计算机",
+    "计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/CSS",
+    "计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/CSS",
+    "//计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/CSS",
+    "//计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/CSS"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
