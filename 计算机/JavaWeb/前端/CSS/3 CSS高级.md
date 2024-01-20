@@ -88,6 +88,25 @@ background-image: radial-gradient(ellipse, red, yellow, green);    /* 默认为�
 background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
 ```
 
+# 阴影
+- `text-shadow` 文本阴影
+- `box-shadow` 元素阴影
+
+```css
+/* 水平阴影 2px，垂直阴影 2px */
+h1 {
+	text-shadow: 2px 2px;
+}
+
+/* 阴影的颜色 */
+text-shadow: 2px 2px red;
+
+/* 阴影的模糊扩散效果 */
+text-shadow: 2px 2px 5px red;
+
+/* 多个阴影用逗号分隔 */
+text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+```
 
 
 
