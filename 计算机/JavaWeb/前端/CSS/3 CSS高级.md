@@ -18,13 +18,49 @@
 # 图像边框
 >接受图像，将其***切成九部分***【井字】，将拐角放置在拐角处，并 <u>重复/拉伸</u> 中间部分
 
-`border-image` ：
-- `border-image-source`
-- `border-image-slice`
-- `border-image-width`
-- `border-image-outset`
-- `border-image-repeat`
+| 属性 | 描述 |
+| ---- | ---- |
+| [border-image-source](https://www.w3school.com.cn/cssref/pr_border-image-source.asp "CSS border-image-source Property") | 边框图像的路径 |
+| [border-image-slice](https://www.w3school.com.cn/cssref/pr_border-image-slice.asp "CSS border-image-slice Property") | 如何裁切边框图像 |
+| [border-image-width](https://www.w3school.com.cn/cssref/pr_border-image-width.asp "CSS border-image-width Property") | 边框图像的宽度 |
+| [border-image-outset](https://www.w3school.com.cn/cssref/pr_border-image-outset.asp "CSS border-image-outset Property") | 边框图像区域超出边框盒的量 |
+| [border-image-repeat](https://www.w3school.com.cn/cssref/pr_border-image-repeat.asp "CSS border-image-repeat Property") | 边框图像应重复、圆角、还是拉伸 |
 
+```html
+<head>
+	<style>
+		span {
+				display: inline-block;
+				border: 10px solid transparent;
+				padding: 2px 8px;
+		}
+		.round20 {
+		
+				border-image: url(https://www.w3school.com.cn/i/css/border.png) 20% round;
+		}
+		
+		.round33 {
+				border-image: url(https://www.w3school.com.cn/i/css/border.png) 33% round;
+		}
+		
+		.round49 {
+				border-image: url(https://www.w3school.com.cn/i/css/border.png) 49% round;
+		}
+		
+		.stretch {
+				border-image: url(https://www.w3school.com.cn/i/css/border.png) 30 stretch;
+		}
+	</style>
+</head>
+
+<body>
+	<span class="round20">图像的拉伸方式为 round 20%</span>
+	<span class="round33">图像的拉伸方式为 round 33%</span>
+	<span class="round49">图像的拉伸方式为 round 49%</span>
+	<span class="stretch">图像的拉伸方式为 stretch</span>
+</body>
+
+```
 
 
 
