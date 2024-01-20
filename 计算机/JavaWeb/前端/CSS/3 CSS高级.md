@@ -106,7 +106,3 @@ background-image: linear-gradient(2700deg, red, yellow);
 
 
 
-
-
-
-
