@@ -64,16 +64,23 @@ background-image: linear-gradient(to bottom right, red, yellow);
 /* 0deg 向上，90deg 向右，180deg 向下 */
 background-image: linear-gradient(2700deg, red, yellow);
 
-/* 重复线性渐变 */
-
+/* 重复线性渐变，渐变的起始颜色为红色，在距离起始位置10%的地方，渐变到黄色，在距离起始位置50%的地方，渐变到绿色 */
+background-image: repeating-linear-gradient(red, yellow 10%, green 50%);
 ```
-
-
 
 ## 径向渐变
 >由中心向外扩散
 
+```css
+/* 中心为red，向外扩散 */
+background-image: radial-gradient(red, yellow, green);
 
+/*  */
+background-image: radial-gradient(red 5%, yellow 15%, green 60%);
+
+
+
+```
 
 
 
