@@ -45,20 +45,31 @@
 ```
 
 # 渐变
-> - ***线性渐变***【向下/向上/向左/向右/对角线】
-> - ***径向渐变***【由其中心定义】
+## 线性渐变
+>`linear-gradient` 向下 / 向上 / 向左 / 向右 / 对角线
+
+语法：`background-image: linear-gradient(_direction_, _color-stop1_, _color-stop2_, ...);`
+
+```css
+/* 从上到下 */
+background-image: linear-gradient(red, yellow);
+
+/* 从左到右 */
+background-image: linear-gradient(to right, red , yellow);
+
+/*  */
+
+
+/*  */
+
+
+/*  */
+```
 
 
 
-
-
-
-
-
-
-
-
-
+## 径向渐变
+>由中心向外扩散
 
 
 
