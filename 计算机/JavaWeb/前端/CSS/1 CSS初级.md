@@ -390,8 +390,22 @@ background-size: cover;     /* 背景框中会显示不完整的覆盖整个背�
 
 - 绘制区域
 ```css
-
+background-clip: border-box;
+background-clip: padding-box;
+background-clip: content-box;
 ```
+
+>[!hint] 多重背景
+>>可以为背景指定多张图片
+> ```css
+> #example1 {
+> 	background-image: url(/i/photo/flower.gif), url(/i/paper.jpg);
+> 	background-position: right bottom, left top;
+> 	background-repeat: no-repeat, repeat;
+> 	background-size: 30%, 100%;
+> 	padding: 15px;
+> }
+> ```
 
 
 ## 边框
