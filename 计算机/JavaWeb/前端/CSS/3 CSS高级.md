@@ -48,20 +48,21 @@
 ## 线性渐变
 >`linear-gradient` 向下 / 向上 / 向左 / 向右 / 对角线
 
-语法：`background-image: linear-gradient(_direction_, _color-stop1_, _color-stop2_, ...);`
+语法：`background-image: linear-gradient(direction/angle, color-stop1, color-stop2, ...);`
 
 ```css
-/* 从上到下 */
+/* 从上到下，红色到黄色的渐变 */
 background-image: linear-gradient(red, yellow);
+background-image: linear-gradient(red, yellow, green);
 
 /* 从左到右 */
 background-image: linear-gradient(to right, red , yellow);
 
-/*  */
+/* 左上角到右下角 */
+background-image: linear-gradient(to bottom right, red, yellow);
 
-
-/*  */
-
+/* 0deg 向上，90deg 向右，180deg 向下 */
+background-image: linear-gradient(2700deg, red, yellow);
 
 /*  */
 ```
