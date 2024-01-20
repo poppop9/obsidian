@@ -433,6 +433,9 @@ p {
 /* 上红、右绿、下蓝、左黄 */
 <p style="border-style: groove; border-color: red green blue yellow;">hello</p>
 ```
+
+>[!hint] 如果不要颜色的话可以指定为 `color:transparent;` ，表示***透明色***
+
 <p style="border-style: groove; border-color: red;">hello</p>
 <p style="border-style: groove; border-color: red green blue yellow;">hello</p>
 

@@ -481,6 +481,11 @@ del {
 	color: #797979;
 }
 
+/* 粗体 */
+/* .callout-title-inner > strong{
+	color: #000000;
+} */
+
 /* -------------------------------------------------------------------------- */
 /* 正文字体 */
 .markdown-source-view.mod-cm6 .cm-scroller {
