@@ -279,6 +279,14 @@ h1 {
 
 >[!hint] em 和 rem 可用于创建完美的可扩展布局！
 
+# 指定颜色的 6 种方式
+<h1 style="background-color:Tomato;">Tomato</h1>
+<h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
+<h1 style="background-color:#ff6347;">#ff6347</h1>
+<h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
+<h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
+<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
+
 # 框模型
 元素总宽度 = width + 左右padding + 左右border + 左右margin + outline
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=42TgzTKXcFDmL_5ajKxmy|600]]
@@ -310,23 +318,17 @@ h1 {
 > - `background-origin`
 > - `background-size`
 
-### 指定颜色的 6 种方式
-<h1 style="background-color:Tomato;">Tomato</h1>
-<h1 style="background-color:rgb(255, 99, 71);">rgb(255, 99, 71)</h1>
-<h1 style="background-color:#ff6347;">#ff6347</h1>
-<h1 style="background-color:hsl(9, 100%, 64%);">hsl(9, 100%, 64%)</h1>
-<h1 style="background-color:rgba(255, 99, 71, 0.5);">rgba(255, 99, 71, 0.5)</h1>
-<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">hsla(9, 100%, 64%, 0.5)</h1>
-
 ### 内容
-#### 颜色
+- 颜色
 ```css
 /*background-color，opacity*/
 <h1 style="background-color:DodgerBlue; opacity: 0.3;">Hello World</h1>
 ```
 <h1 style="background-color:DodgerBlue; opacity: 0.3; ">Hello World</h1>
 
-#### 图像
+---
+
+- 图像
 ```css
 /*background-image*/
 <h1 style="background-image: url('https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87%2F20230805115646.png');">Hello</h1>
@@ -334,9 +336,7 @@ h1 {
 <h1 style="background-image: url('https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87%2F20230805115646.png');">Hello</h1>
 
 ### 参数
-#### 重复
-默认情况下，`background-image` 属性在水平和垂直方向上都重复显示图像，直到铺满整个指定元素
-
+- 重复
 ```css
 body {
   background-image: url("……");
@@ -346,7 +346,12 @@ body {
   background-repeat: no-repeat;   /* 不重复 */
 }
 ```
-#### 位置
+
+>[!hint] 默认情况下，`background-image` 在水平和垂直方向上都重复图像，直到铺满整个指定元素
+
+---
+
+- 位置
 ```css
 body {
   background-image: url("tree.png");
@@ -354,7 +359,10 @@ body {
   background-position: right top;  /* 右上角 */
 }
 ```
-#### 附着
+
+---
+
+- 附着
 ```css
 body {
   background-image: url("tree.png");
