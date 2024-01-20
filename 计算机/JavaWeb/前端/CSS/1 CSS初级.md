@@ -440,11 +440,10 @@ p {
 <p style="border-style: groove; border-color: red green blue yellow;">hello</p>
 
 #### 圆角
-单独设置上右下左：
-- `border-top-left-radius`
-- `border-top-right-radius`
-- `border-bottom-right-radius`
-- `border-bottom-left-radius`
+- `border-top-left-radius` 左上
+- `border-top-right-radius` 右上
+- `border-bottom-right-radius` 右下
+- `border-bottom-left-radius` 左下
 
 ```css
 <p style="border-style: groove; border-radius: 12px;">hello</p>

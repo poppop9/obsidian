@@ -482,9 +482,13 @@ del {
 }
 
 /* 粗体 */
-/* .callout-title-inner > strong{
+.theme-light .callout-title-inner > strong{
 	color: #000000;
-} */
+}
+
+.theme-dark .callout-title-inner>strong {
+	color: #dadada;
+}
 
 /* -------------------------------------------------------------------------- */
 /* 正文字体 */

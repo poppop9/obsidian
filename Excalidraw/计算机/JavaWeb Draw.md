@@ -11278,7 +11278,7 @@ a8cf8206ccc2b6f02e0107e684613e199d0faa52: https://obsidian-1307744200.cos.ap-gua
 		}
 	],
 	"appState": {
-		"theme": "dark",
+		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
