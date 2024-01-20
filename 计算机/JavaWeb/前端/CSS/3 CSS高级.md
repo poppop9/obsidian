@@ -71,15 +71,18 @@ background-image: repeating-linear-gradient(red, yellow 10%, green 50%);
 ## 径向渐变
 >由中心向外扩散
 
+语法：`background-image: radial-gradient(shape, start-color, ..., last-color);`
+
 ```css
 /* 中心为red，向外扩散 */
 background-image: radial-gradient(red, yellow, green);
 
-/*  */
+/* 中心red占据5% */
 background-image: radial-gradient(red 5%, yellow 15%, green 60%);
 
-
-
+/* shape为椭圆或者圆 */
+background-image: radial-gradient(circle, red, yellow, green);    /* 圆 */
+background-image: radial-gradient(ellipse, red, yellow, green);    /* 默认为椭圆 */
 ```
 
 
