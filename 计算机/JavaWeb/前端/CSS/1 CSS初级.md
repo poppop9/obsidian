@@ -332,12 +332,17 @@ h1 {
 ### 参数
 >[!summary] 属性
 > - `background-repeat`  指定背景内容是否重复显示
-> - `background-position`  指定背景的位置
+> - `background-origin` 模糊的背景位置
+> 	- border-box  从边框的左上角开始
+> 	- padding-box  【默认】从内边距边缘的左上角开始
+> 	- content-box  从内容的左上角开始
+> - `background-position`  指定具体背景的位置
 > - `background-attachment`  指定背景滚动 / 固定
 > - `background-size` 背景的尺寸
-> - `background-clip`
-> - `background-origin`
-
+> - `background-clip` 背景的绘制区域
+> 	- border-box  【默认】背景绘制到边框的外部边缘
+> 	- padding-box  背景绘制到内边距的外边缘
+> 	- content-box  在内容框中绘制背景
 
 - 重复
 ```css
@@ -350,7 +355,16 @@ background-repeat: no-repeat;   /* 不重复 */
 
 ---
 
-- 位置
+- 模糊位置
+```css
+background-origin: border-box;
+background-origin: padding-box;
+background-origin: content-box;
+```
+
+---
+
+- 具体位置
 ```css
 background-position: right top;  /* 右上角 */
 ```
@@ -371,6 +385,14 @@ background-size: 30%;    /* 固定尺寸 */
 background-size: contain;    /* 背景框中会显示完整的最大尺寸的图像 */
 background-size: cover;     /* 背景框中会显示不完整的覆盖整个背景框的图像 */
 ```
+
+---
+
+- 绘制区域
+```css
+
+```
+
 
 ## 边框
 >[!summary] 属性
