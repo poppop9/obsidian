@@ -64,7 +64,8 @@ background-image: linear-gradient(to bottom right, red, yellow);
 /* 0deg 向上，90deg 向右，180deg 向下 */
 background-image: linear-gradient(2700deg, red, yellow);
 
-/*  */
+/* 重复线性渐变 */
+
 ```
 
 
