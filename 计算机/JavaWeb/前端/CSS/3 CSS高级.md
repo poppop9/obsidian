@@ -108,6 +108,13 @@ text-shadow: 2px 2px 5px red;
 text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 ```
 
+>[!hint] 阴影可以制造出围绕文本的效果
+>上下左右都偏移出阴影
+> ```css
+> text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+> ```
+<p style="color: yellow; font-size: 30px; text-align: center; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">围绕</p>
+
 
 
 
