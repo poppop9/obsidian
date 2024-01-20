@@ -15,6 +15,13 @@
 }
 ```
 
+# 图像边框
+`border-image` ：
+- `border-image-source`
+- `border-image-slice`
+- `border-image-width`
+- `border-image-outset`
+- `border-image-repeat`
 
 
 
