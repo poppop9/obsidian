@@ -16,6 +16,8 @@
 ```
 
 # 图像边框
+>接受图像，将其***切成九部分***【井字】，将拐角放置在拐角处，并 <u>重复/拉伸</u> 中间部分
+
 `border-image` ：
 - `border-image-source`
 - `border-image-slice`
