@@ -1,22 +1,5 @@
-# 圆角
-> `border-radius` 可以为任何元素添加圆角
-
-也可以单独设置：
-- `border-top-left-radius`
-- `border-top-right-radius`
-- `border-bottom-right-radius`
-- `border-bottom-left-radius`
-
----
-
-```css
-.aaa {
-	border-radius: 25px;
-}
-```
-
 # 图像边框
->接受图像，将其***切成九部分***【井字】，将拐角放置在拐角处，并 <u>重复/拉伸</u> 中间部分
+>`border-image` 接受图像，将其***切成九部分***【井字】，将拐角放置在拐角处，并 <u>重复/拉伸</u> 中间部分
 
 | 属性 | 描述 |
 | ---- | ---- |
@@ -30,25 +13,25 @@
 <head>
 	<style>
 		span {
-				display: inline-block;
-				border: 10px solid transparent;
-				padding: 2px 8px;
+			display: inline-block;
+			border: 10px solid transparent;
+			padding: 2px 8px;
 		}
-		.round20 {
 		
-				border-image: url(https://www.w3school.com.cn/i/css/border.png) 20% round;
+		.round20 {
+			border-image: url(https://www.w3school.com.cn/i/css/border.png) 20% round;
 		}
 		
 		.round33 {
-				border-image: url(https://www.w3school.com.cn/i/css/border.png) 33% round;
+			border-image: url(https://www.w3school.com.cn/i/css/border.png) 33% round;
 		}
 		
 		.round49 {
-				border-image: url(https://www.w3school.com.cn/i/css/border.png) 49% round;
+			border-image: url(https://www.w3school.com.cn/i/css/border.png) 49% round;
 		}
 		
 		.stretch {
-				border-image: url(https://www.w3school.com.cn/i/css/border.png) 30 stretch;
+			border-image: url(https://www.w3school.com.cn/i/css/border.png) 30 stretch;
 		}
 	</style>
 </head>
@@ -59,7 +42,6 @@
 	<span class="round49">图像的拉伸方式为 round 49%</span>
 	<span class="stretch">图像的拉伸方式为 stretch</span>
 </body>
-
 ```
 
 
