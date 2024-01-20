@@ -338,13 +338,9 @@ h1 {
 ### 参数
 - 重复
 ```css
-body {
-  background-image: url("……");
-  
-  background-repeat: repeat-x;  /* 在水平方向重复 */
-  background-repeat: repeat-y;   /* 在垂直方向重复 */
-  background-repeat: no-repeat;   /* 不重复 */
-}
+background-repeat: repeat-x;  /* 在水平方向重复 */
+background-repeat: repeat-y;   /* 在垂直方向重复 */
+background-repeat: no-repeat;   /* 不重复 */
 ```
 
 >[!hint] 默认情况下，`background-image` 在水平和垂直方向上都重复图像，直到铺满整个指定元素
@@ -353,24 +349,24 @@ body {
 
 - 位置
 ```css
-body {
-  background-image: url("tree.png");
-
-  background-position: right top;  /* 右上角 */
-}
+background-position: right top;  /* 右上角 */
 ```
 
 ---
 
 - 附着
 ```css
-body {
-  background-image: url("tree.png");
-
-  background-attachment: fixed;  /* 固定 */
-  background-attachment: scroll;  /* 滚动 */
-}
+background-attachment: fixed;  /* 固定 */
+background-attachment: scroll;  /* 滚动 */
 ```
+
+---
+
+- 尺寸
+```css
+background-size: 30%;
+```
+
 ## 边框
 >[!summary] 属性
 >- `border-style`  边框的样式
