@@ -83,6 +83,9 @@ background-image: radial-gradient(red 5%, yellow 15%, green 60%);
 /* shape为椭圆或者圆 */
 background-image: radial-gradient(circle, red, yellow, green);    /* 圆 */
 background-image: radial-gradient(ellipse, red, yellow, green);    /* 默认为椭圆 */
+
+/* 重复径向渐变 */
+background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
 ```
 
 
