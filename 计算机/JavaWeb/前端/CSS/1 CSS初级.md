@@ -311,12 +311,6 @@ h1 {
 > - `background-color`  指定背景色【可以为任何HTML元素设置背景颜色】
 > 	- `opacity`  指定透明度【会影响子元素，***使用RGBa不会***】
 > - `background-image`   指定背景图像
-> - `background-repeat`  指定背景内容是否重复显示
-> - `background-attachment`  指定背景滚动 / 固定
-> - `background-position`  指定背景的位置
-> - `background-clip`
-> - `background-origin`
-> - `background-size`
 
 ### 内容
 - 颜色
@@ -336,6 +330,15 @@ h1 {
 <h1 style="background-image: url('https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87%2F20230805115646.png');">Hello</h1>
 
 ### 参数
+>[!summary] 属性
+> - `background-repeat`  指定背景内容是否重复显示
+> - `background-position`  指定背景的位置
+> - `background-attachment`  指定背景滚动 / 固定
+> - `background-size` 背景的尺寸
+> - `background-clip`
+> - `background-origin`
+
+
 - 重复
 ```css
 background-repeat: repeat-x;  /* 在水平方向重复 */
@@ -364,7 +367,9 @@ background-attachment: scroll;  /* 滚动 */
 
 - 尺寸
 ```css
-background-size: 30%;
+background-size: 30%;    /* 固定尺寸 */
+background-size: contain;    /* 背景框中会显示完整的最大尺寸的图像 */
+background-size: cover;     /* 背景框中会显示不完整的覆盖整个背景框的图像 */
 ```
 
 ## 边框
