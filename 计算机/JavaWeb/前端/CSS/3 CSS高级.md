@@ -120,7 +120,7 @@ text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 
 ```css
 p.test1 {
-	white-space: nowrap; 
+	white-space: nowrap;    /* 表示不换行 */
 	overflow: hidden;
 	width: 200px; 
 	border: 1px solid #000000;
@@ -129,8 +129,19 @@ p.test1 {
 	text-overflow: ellipsis;       /* 呈现为省略号... */
 }
 ```
+![[Excalidraw/计算机/JavaWeb Draw.md#^group=wsbAlVNe|300]]
 
+---
+- `word-wrap` 是否允许长单词换行
 
+```css
+p.test {
+	width: 11em; 
+	border: 1px solid #000000;
+	word-wrap: break-word;
+}
+```
+![[Excalidraw/计算机/JavaWeb Draw.md#^group=38Wunzyo|440]]
 
 
 
