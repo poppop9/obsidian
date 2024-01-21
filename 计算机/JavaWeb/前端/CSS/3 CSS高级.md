@@ -185,8 +185,3 @@ writing-mode: vertical-rl;
 
 
 
-
-
-
-
-
