@@ -172,19 +172,27 @@ writing-mode: vertical-rl;
 >使用 `transform` 属性下的各种方法实现
 
 - `translate()` 从其当前位置移动元素
-- `rotate()`
-- `scaleX()`
-- `scaleY()`
-- `scale()`
-- `skewX()`
-- `skewY()`
-- `skew()`
+- `rotate()` 根据角度旋转元素
+- `scale()` <u>增加/减少</u>元素的大小
+- `skew()` 使元素沿 X 和 Y 轴倾斜给定角度
 - `matrix()`
 
 ```css
-/* 把<div>元素向右移动 50 个像素，向下移动 100 个像素 */
 div {
-	transform: translate(50px, 100px);
+/* 把<div>元素向右移动 50 个像素，向下移动 100 个像素 */
+transform: translate(50px, 100px);
+
+/* 以中心点顺时针旋转 20 度 */
+transform: rotate(20deg);
+
+/* 把<div>元素的宽度的增大两倍，原始高度增大三倍 */
+transform: scale(2, 3);
+
+/*  */
+
+/*  */
+
+/*  */
 }
 ```
 
