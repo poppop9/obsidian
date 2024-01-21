@@ -251,7 +251,7 @@ div.internal-embed.media-embed.image-embed.is-loaded img {
 	max-width: 96%;
 }
 
-.markdown-source-view.mod-cm6 .cm-content > img {
+.markdown-source-view.mod-cm6 .cm-content>img {
 	display: block;
 	margin: 0.6rem auto !important;
 	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
@@ -481,7 +481,7 @@ del {
 }
 
 /* 粗体 */
-.theme-light .callout-title-inner > strong{
+.theme-light .callout-title-inner>strong {
 	color: #000000;
 }
 
@@ -536,7 +536,7 @@ div.HyperMD-header.HyperMD-header-2.cm-line {
 	background-color: hsla(210, 67%, 74%, 0.4);
 
 	padding: 0.12rem 0rem 0.26rem 0.3rem !important;
-	margin:0 0 1rem 0 !important;
+	margin: 0 0 1rem 0 !important;
 	width: 100%;
 	top: 8px;
 
@@ -575,25 +575,24 @@ h2,
 }
 
 /* 标题3 */
-.cm-header.cm-header-3:not(.cm-formatting-header-3) {
-	font-size: 0.88em !important;
+div.HyperMD-header.HyperMD-header-3.cm-line {
+	font-size: 1.23em !important;
 	border-radius: 0.4rem;
 	background-color: hsla(210, 34%, 63%, 0.575);
-	line-height: 1.45em;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-	padding-bottom: 0.2rem;
 	color: #ffffff;
+
+	padding: 0.13rem 0.5rem 0.2rem 0.5rem;
+	margin: 1rem 0 0.4rem 0 !important;
 
 	outline-style: dashed;
 	outline-color: hsla(210, 34%, 63%, 0.833);
 	outline-offset: 1px;
+
+	display: inline-block;
 }
 
-/* 编辑模式下，与文字上下间距 */
-.cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-3 {
-	padding-top: 0.9rem;
-	padding-bottom: 0.7rem;
+span.cm-formatting.cm-formatting-header.cm-formatting-header-3.cm-header.cm-header-3 {
+	color: #ffffff;
 }
 
 h3,
