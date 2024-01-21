@@ -542,12 +542,29 @@ p {
 <p style="color:Tomato; font-size:30px; font-family: serif, Times;">China</p>
 
 p {
-  font-size: 1em;  /* em允许用户在浏览器菜单中调整文本大小，1em = 16px */
-  font-size:10vw;  /* vm可以根据浏览器窗口的大小，调整字体大小 */
+	color:Tomato;
+	
+	font-size: 1em;  /* em允许用户在浏览器菜单中调整文本大小，1em = 16px */
+	font-size:10vw;  /* vm可以根据浏览器窗口的大小，调整字体大小 */
 }
 ```
 
 <p style="color:Tomato; font-size:30px; font-family: serif, Times;">China</p>
+
+```css
+/* 指定字体文件 */
+font-family: serif, Times;
+
+/* 指定网络字体 */
+@font-face {
+	font-family: myFirstFont;     /* 定义字体的名称 */
+	src: url(sansation_light.woff);    /* 指定字体url */
+}
+
+div {
+	font-family: myFirstFont;     /* 使用 */
+}
+```
 
 ```css
 p {
