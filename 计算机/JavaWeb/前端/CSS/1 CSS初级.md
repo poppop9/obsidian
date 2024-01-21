@@ -543,12 +543,10 @@ p {
 
 p {
   font-size: 1em;  /* em允许用户在浏览器菜单中调整文本大小，1em = 16px */
-}
-
-p {
   font-size:10vw;  /* vm可以根据浏览器窗口的大小，调整字体大小 */
-}               /* 10vm表示为字体占窗口的10% */
+}
 ```
+
 <p style="color:Tomato; font-size:30px; font-family: serif, Times;">China</p>
 
 ```css
