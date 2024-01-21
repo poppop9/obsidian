@@ -138,17 +138,31 @@ p.test1 {
 p.test {
 	width: 11em; 
 	border: 1px solid #000000;
-	word-wrap: break-word;
+	word-wrap: break-word;   /* 强制换行 */
 }
 ```
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=38Wunzyo|440]]
 
+---
+- `word-break` 指定换行规则
 
+```css
+p.test1 {
+	word-break: keep-all;    /* 以单词为单位打断 */
+}
 
+p.test2 {
+	word-break: break-all;    /* 以字符为单位打断 */
+}
+```
+![[Excalidraw/计算机/JavaWeb Draw.md#^group=PrpPRQ2b]]
 
+---
+- `writing-mode` 文本行放置是 <u>水平/垂直</u>
 
+```css
 
-
+```
 
 
 
