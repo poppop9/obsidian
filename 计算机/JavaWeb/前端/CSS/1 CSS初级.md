@@ -568,17 +568,14 @@ div {
 
 ```css
 p {
-  font-style: normal;
   font-style: italic;  /* 斜体 */
 }
 
 p {
-  font-weight: normal;
   font-weight: bold;  /* 粗体 */
 }
 
 p {
-  font-variant: normal;
   font-variant: small-caps;  /* 将所有字母大写，但是大写的字母size和小写差不多 */
 }
 ```

@@ -168,7 +168,25 @@ writing-mode: horizontal-tb;
 writing-mode: vertical-rl;
 ```
 
+# 2D转换
+>使用 `transform` 属性下的各种方法实现
 
+- `translate()` 从其当前位置移动元素
+- `rotate()`
+- `scaleX()`
+- `scaleY()`
+- `scale()`
+- `skewX()`
+- `skewY()`
+- `skew()`
+- `matrix()`
+
+```css
+/* 把<div>元素向右移动 50 个像素，向下移动 100 个像素 */
+div {
+	transform: translate(50px, 100px);
+}
+```
 
 
 
