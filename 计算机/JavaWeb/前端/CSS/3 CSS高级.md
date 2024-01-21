@@ -168,8 +168,9 @@ writing-mode: horizontal-tb;
 writing-mode: vertical-rl;
 ```
 
-# 2D转换
->使用 `transform` 属性下的各种方法实现
+# 空间移动
+## 2D
+>使用 `transform` 属性下的各种方法实现，可以使用 `transform-origin` 调整位置
 
 - `translate()` 从其当前位置移动元素
 - `rotate()` 根据角度旋转元素
@@ -195,8 +196,13 @@ transform: skew(0deg,20deg);
 
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=YnDnv7xz|330]]
 
-
-
+## 3D
+| 函数 | 描述 |
+| ---- | ---- |
+| translate3d(_x_,y,z) | 定义 3D 转化 |
+| scale3d(x,y,z) | 定义 3D 缩放转换 |
+| rotate3d(x,y,z,angle) | 定义 3D 旋转 |
+| perspective(n) | 定义 3D 转换元素的透视视图 |
 
 
 
