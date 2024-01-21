@@ -201,9 +201,16 @@ transform: skew(0deg,20deg);
 | ---- | ---- |
 | translate3d(_x_,y,z) | 定义 3D 转化 |
 | scale3d(x,y,z) | 定义 3D 缩放转换 |
-| rotate3d(x,y,z,angle) | 定义 3D 旋转 |
+| rotate3d(x,y,z,angle) | 以3D方式旋转 |
 | perspective(n) | 定义 3D 转换元素的透视视图 |
+```css
 
+
+/* 看不到了 */
+transform: rotate3d(150deg, 0, 0);
+/* 就是顺时针转了90度 */
+transform: rotate3d(0deg, 0, 90deg);
+```
 
 
 
