@@ -188,15 +188,19 @@ transform: rotate(20deg);
 /* 把<div>元素的宽度的增大两倍，原始高度增大三倍 */
 transform: scale(2, 3);
 
-/*  */
-
-/*  */
-
-/*  */
+/* 沿X轴倾斜 20度 */
+transform: skew(20deg,0deg); 
+/* 沿Y轴倾斜 20度 */
+transform: skew(0deg,20deg); 
 }
 ```
 
+![[Excalidraw/计算机/JavaWeb Draw.md#^group=YnDnv7xz|330]]
+```css
+/*  */
 
+
+```
 
 
 
