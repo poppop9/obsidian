@@ -197,21 +197,34 @@ transform: skew(0deg,20deg);
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=YnDnv7xz|330]]
 
 ## 3D
-| 函数 | 描述 |
+|所有属性 |描述|
+|---|---|
+|[transform](https://www.w3school.com.cn/cssref/pr_transform.asp "CSS3 transform 属性")|向元素应用 2D 或 3D 转换 |
+|[transform-origin](https://www.w3school.com.cn/cssref/pr_transform-origin.asp "CSS3 transform-origin 属性")|允许你改变被转换元素的位置 |
+|[transform-style](https://www.w3school.com.cn/cssref/pr_transform-style.asp "CSS3 transform-style 属性")|规定被嵌套元素如何在 3D 空间中显示 |
+|[perspective](https://www.w3school.com.cn/cssref/pr_perspective.asp "CSS3 perspective 属性")|规定 3D 元素的透视效果 |
+|[perspective-origin](https://www.w3school.com.cn/cssref/pr_perspective-origin.asp "CSS3 perspective-origin 属性")|规定 3D 元素的底部位置 |
+|[backface-visibility](https://www.w3school.com.cn/cssref/pr_backface-visibility.asp "CSS3 backface-visibility 属性")|定义元素在不面对屏幕时是否可见 |
+
+| transform的函数 | 描述 |
 | ---- | ---- |
 | translate3d(_x_,y,z) | 定义 3D 转化 |
 | scale3d(x,y,z) | 定义 3D 缩放转换 |
 | rotate3d(x,y,z,angle) | 以3D方式旋转 |
 | perspective(n) | 定义 3D 转换元素的透视视图 |
 ```css
-
-
 /* 看不到了 */
 transform: rotate3d(150deg, 0, 0);
 /* 就是顺时针转了90度 */
 transform: rotate3d(0deg, 0, 90deg);
 ```
 
+# 过渡
+- `transition`
+- `transition-delay`
+- `transition-duration`
+- `transition-property`
+- `transition-timing-function`
 
 
 
