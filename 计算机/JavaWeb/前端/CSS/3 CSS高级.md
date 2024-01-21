@@ -161,7 +161,11 @@ p.test2 {
 - `writing-mode` 文本行放置是 <u>水平/垂直</u>
 
 ```css
+/* 水平放置 */
+writing-mode: horizontal-tb;
 
+/* 竖直放置 */
+writing-mode: vertical-rl;
 ```
 
 

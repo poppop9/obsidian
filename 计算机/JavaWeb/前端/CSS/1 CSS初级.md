@@ -664,21 +664,6 @@ p.capitalize {
   text-transform: capitalize;  /* 把文本首字母大写 */
 }
 ```
-### 文本阴影
-```css
-h1 {
-  text-shadow: 2px 2px;  /* 指定水平阴影，垂直阴影 */
-}
-
-h1 {
-  text-shadow: 2px 2px red;  /* 指定水平阴影，垂直阴影，颜色 */
-}
-
-h1 {
-  text-shadow: 2px 2px 5px red;  /* 指定水平阴影，垂直阴影，模糊效果，颜色 */
-}
-```
-<p style="text-shadow: 2px 2px 5px red;">文本阴影效果！</p>
 
 # 列表
 ## 无序列表 ul
