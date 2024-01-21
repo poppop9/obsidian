@@ -280,7 +280,6 @@ img {
 	max-width: 102%;
 }
 
-
 /* ---------------------------------------------------------------------------------- */
 /* 链接 */
 /* 外链 */
@@ -469,7 +468,7 @@ span.cm-formatting.cm-formatting-highlight.cm-highlight {
 .markdown-rendered mark {
 	background-color: hsla(34, 100%, 80%, 0.847);
 	border-radius: 4px;
-	padding: 1px 3px;
+	padding: 0px 3px;
 }
 
 /* 删除线 */
@@ -530,15 +529,14 @@ h1,
 }
 
 /* 标题2 */
-.cm-header.cm-header-2:not(.cm-formatting-header-2) {
-	font-size: 1.1em !important;
+div.HyperMD-header.HyperMD-header-2.cm-line {
+	font-size: 1.8em !important;
 	border-left: 0.7rem solid hsla(210, 34%, 63%, 0.4);
 	border-radius: 0.4rem;
 	background-color: hsla(210, 67%, 74%, 0.4);
-	line-height: 1.45em;
-	padding-left: 0.7rem;
-	padding-bottom: 0.05rem;
-	position: absolute;
+
+	padding: 0.12rem 0rem 0.26rem 0.3rem;
+	margin:0 0 1rem 0 !important;
 	width: 100%;
 	top: 8px;
 
@@ -553,21 +551,10 @@ h1,
 	color: #0f112e;
 }
 
-/* 编辑模式下标题2的前面的##号 */
-span.cm-formatting.cm-formatting-header.cm-formatting-header-2.cm-header.cm-header-2 {
-	font-size: 1.1em !important;
-}
-
-/* 编辑模式下，与文字上下间距 */
-.cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-2 {
-	padding-bottom: 1rem;
-	/* margin-top: 1rem !important; */
-}
-
 h2,
 .markdown-rendered h2 {
 	font-size: 1.75em !important;
-	border-left: 0.5rem solid hsla(210, 34%, 63%, 0.4);
+	border-left: 0.7rem solid hsla(210, 34%, 63%, 0.4);
 	border-radius: 0.4rem;
 	background-color: hsla(210, 67%, 74%, 0.4);
 	line-height: 1.45em;
