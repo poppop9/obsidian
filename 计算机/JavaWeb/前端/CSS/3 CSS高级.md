@@ -116,7 +116,19 @@ text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 <p style="color: yellow; font-size: 30px; text-align: center; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">围绕</p>
 
 # 文本效果
-## 文字溢出
+- `text-overflow` <u>未显示出的溢出</u>【`overflow: hidden;`】的呈现方式
+
+```css
+p.test1 {
+	white-space: nowrap; 
+	overflow: hidden;
+	width: 200px; 
+	border: 1px solid #000000;
+
+	text-overflow: clip;     /* 被裁剪 */
+	text-overflow: ellipsis;       /* 呈现为省略号... */
+}
+```
 
 
 
