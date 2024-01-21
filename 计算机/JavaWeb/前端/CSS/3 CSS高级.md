@@ -175,7 +175,6 @@ writing-mode: vertical-rl;
 - `rotate()` 根据角度旋转元素
 - `scale()` <u>增加/减少</u>元素的大小
 - `skew()` 使元素沿 X 和 Y 轴倾斜给定角度
-- `matrix()`
 
 ```css
 div {
@@ -192,15 +191,10 @@ transform: scale(2, 3);
 transform: skew(20deg,0deg); 
 /* 沿Y轴倾斜 20度 */
 transform: skew(0deg,20deg); 
-}
 ```
 
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=YnDnv7xz|330]]
-```css
-/*  */
 
-
-```
 
 
 
