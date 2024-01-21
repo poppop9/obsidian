@@ -547,6 +547,24 @@ div.HyperMD-header.HyperMD-header-2.cm-line {
 	font-family: 'dymht';
 }
 
+div.cm-active.HyperMD-header.HyperMD-header-2.cm-line {
+	font-size: 1.8em !important;
+	border-left: 0.7rem solid hsla(210, 34%, 63%, 0.4);
+	border-radius: 0.4rem;
+	background-color: hsla(210, 67%, 74%, 0.4);
+
+	padding: 0.12rem 0rem 0.26rem 0.3rem;
+	margin:0 0 1rem 0 !important;
+	width: 100%;
+	top: 8px;
+
+	outline-style: double;
+	outline-color: hsla(210, 34%, 63%, 0.575);
+	outline-offset: 2px;
+
+	font-family: 'dymht';
+}
+
 .theme-light span.cm-header.cm-header-2 {
 	color: #0f112e;
 }
