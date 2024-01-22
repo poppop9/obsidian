@@ -386,6 +386,14 @@ div {
 }
 ```
 
+# 响应式
+
+```css
+img {
+	max-width: 100%;
+	height: auto;
+}
+```
 
 
 
