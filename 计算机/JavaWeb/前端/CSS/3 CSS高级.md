@@ -236,14 +236,27 @@ div {
 	height: 100px;
 	background: red;
 	transition: width 2s;     /* 指定需要添加过渡效果的属性为width，过渡时间为2s */
+	transition-delay: 1s;     /* 悬浮后会等待1s */
+	transition-timing-function: linear;
 }
 
 div:hover {
 	width: 300px;    /* 悬浮时会增加宽度 */
-	transition-delay: 1s;     /* 悬浮后会等待1s */
 }
 ```
 
+```css
+/* 过渡+转换 */
+div {
+	width: 100px;
+	height: 100px;
+	background: red;
+	transition: width 2s, height 2s,transform 2s ;     /* 指定需要添加过渡效果的属性为width，过渡时间为2s */
+
+}
+
+
+```
 
 
 
