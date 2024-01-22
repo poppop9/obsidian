@@ -220,13 +220,30 @@ transform: rotate3d(0deg, 0, 90deg);
 ```
 
 # 过渡
-- `transition`
+- `transition` 指定需要过渡效果的属性，过渡时间
 - `transition-delay`
 - `transition-duration`
 - `transition-property`
-- `transition-timing-function`
+- `transition-timing-function` 过渡效果的速度曲线
+	- `ease`  规定过渡效果，先缓慢地开始，然后加速，然后缓慢地结束（默认）
+	- `linear`  规定从开始到结束具有相同速度的过渡效果
+	- `ease-in` 规定缓慢开始的过渡效果
+	- `ease-out`  规定缓慢结束的过渡效果
+	- `ease-in-out`  规定开始和结束较慢的过渡效果
+	- `cubic-bezier(n,n,n,n)`  允许您在三次贝塞尔函数中定义自己的值
 
+```css
+div {
+	width: 100px;
+	height: 100px;
+	background: red;
+	transition: width 2s;     /* 指定需要添加过渡效果的属性为width，过渡时间为2s */
+}
 
+div:hover {
+	width: 300px;
+}
+```
 
 
 
