@@ -290,7 +290,10 @@ div:hover {
 	- `ease-in-out`  慢开始-慢结束
 	- `cubic-bezier(n,n,n,n)`  在三次贝塞尔函数中定义自己的值
 - `animation-fill-mode`
-- `animation`
+	- `none` 【默认】动画执行之后保持原样
+	- `forwards` 元素会保留动画执行之后最后一个关键帧的样式值
+	- `backwards` 在动画延迟期间元素将应用第一个关键帧的样式值
+	- `both` 结合了`forward` + `backwards`
 
 ```css
 /* 动画代码 */
