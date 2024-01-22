@@ -275,8 +275,13 @@ div:hover {
 - `animation-name` 用于元素指定动画名
 - `animation-duration` 动画持续时间
 - `animation-delay` 动画延迟时间
-- `animation-iteration-count`
+- `animation-iteration-count` 动画运行的次数
+	- `infinite` 表示永远运行下去
 - `animation-direction`
+	- `normal` 【默认】动画正常播放（0%-100%）
+	- `reverse` 动画以反方向播放（100%-0%）
+	- `alternate` 动画先向前播放，然后向后
+	- `alternate-reverse` 动画先向后播放，然后向前
 - `animation-timing-function`
 - `animation-fill-mode`
 - `animation`
@@ -300,6 +305,7 @@ div {
 	background-color: red;
 	animation-name: example;    /* 将对应的动画名绑定到该元素 */
 	animation-duration: 4s;          /* 指定动画持续时间 */
+	animation-iteration-count: 3;   /* 动画运行3次 */
 }
 ```
 
