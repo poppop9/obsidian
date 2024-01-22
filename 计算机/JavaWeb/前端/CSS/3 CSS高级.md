@@ -318,6 +318,10 @@ div {
 }
 ```
 
+# 提示
+>提示 通常用于***提供某内容的额外信息***
+>![[Excalidraw/计算机/JavaWeb Draw.md#^group=MOa3PP06|200]]
+
 
 
 
