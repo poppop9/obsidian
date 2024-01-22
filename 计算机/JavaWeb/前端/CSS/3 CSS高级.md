@@ -264,6 +264,10 @@ div:hover {
 
 # 动画
 >动画使元素逐渐从一种样式变为另一种样式，***而不使用 JavaScript 或 Flash***
+>
+>- 编写动画代码
+>- 将动画代码绑定到需要产生效果的元素上
+
 
 - `@keyframes`
 - `animation-name`
@@ -275,7 +279,22 @@ div:hover {
 - `animation-fill-mode`
 - `animation`
 
+```css
+/* 动画代码 */
+@keyframes example {
+	from {background-color: red;}
+	to {background-color: yellow;}
+}
 
+/* 向此元素应用动画效果 */
+div {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+}
+```
 
 
 
