@@ -228,7 +228,7 @@ transform: rotate3d(0deg, 0, 90deg);
 	- `ease-in` 慢开始
 	- `ease-out`  慢结束
 	- `ease-in-out`  慢开始-慢结束
-	- `cubic-bezier(n,n,n,n)`  允许您在三次贝塞尔函数中定义自己的值
+	- `cubic-bezier(n,n,n,n)`  在三次贝塞尔函数中定义自己的值
 
 ```css
 div {
@@ -282,7 +282,13 @@ div:hover {
 	- `reverse` 动画以反方向播放（100%-0%）
 	- `alternate` 动画先向前播放，然后向后
 	- `alternate-reverse` 动画先向后播放，然后向前
-- `animation-timing-function`
+- `animation-timing-function` 动画速度曲线
+	- `ease`  【默认】慢-快-极慢
+	- `linear`  匀速
+	- `ease-in` 慢开始
+	- `ease-out`  慢结束
+	- `ease-in-out`  慢开始-慢结束
+	- `cubic-bezier(n,n,n,n)`  在三次贝塞尔函数中定义自己的值
 - `animation-fill-mode`
 - `animation`
 
