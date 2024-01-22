@@ -333,11 +333,34 @@ div {
 >提示框的位置可以上下左右
 
 ```css
+/* 上------------------------------------------------- */
 .tooltip .tooltiptext {
 	width: 120px;
 	bottom: 100%;       /* 底部有100%空间，说明位置到顶了 */
-	left: 50%;            /* 左侧liu'you让提示框的左侧居中 */
-	margin-left: -60px;   /* Use half of the width (120/2 = 60), to center the tooltip */
+	left: 50%;            /* 左侧留有50%，让提示框的左侧居中 */
+	margin-left: -60px;   /* 根据宽度再向左移动60px，是的文本框的中心与父元素居中 */
+}
+
+/* 下------------------------------------------------- */
+.tooltip .tooltiptext {
+	width: 120px;
+	top: 100%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+/* 左------------------------------------------------- */
+.tooltip .tooltiptext {
+	top: -5px;   /* 平衡内边距 */
+	right: 100%; 
+}
+
+/* 右------------------------------------------------- */
+.tooltip .tooltiptext {
+	top: -5px;
+	left: 100%; 
 }
 ```
+
+## 提示框箭头
 
