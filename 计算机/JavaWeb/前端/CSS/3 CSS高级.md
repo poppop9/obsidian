@@ -365,7 +365,22 @@ div {
 ## 提示框箭头
 >边框的上下左右其中***只有一边有颜色，并且没有内容，就会变成一个箭头***
 
+```css
+.tooltip .tooltiptext {
+	……
+}
 
+.tooltip .tooltiptext::after {    /* 添加一个伪元素 */
+	content: "";       /* 指定内容为空 */
+	position: absolute;
+	top: 100%;       
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: black transparent transparent transparent;   /* 只有上边框有颜色 */
+}
+```
 
 
 
