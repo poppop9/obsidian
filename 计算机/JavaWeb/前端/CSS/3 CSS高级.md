@@ -324,8 +324,10 @@ div {
 
 >[!hint] 提示的思路
 >- 在<u>父元素</u>里包含<u>提示元素</u>
+>	- 一般将父元素设置为`position: relative;` ，<u>提示元素</u>设置为`position: absolute;`
+>	- <u>提示元素</u>的层级一般高于<u>父元素</u>【`z-index: 1;`】
 >- 将<u>提示元素</u>设置为隐藏 `display: none;`
->- xuanfu
+>- 悬浮<u>父元素</u>时，将<u>提示元素</u>设置为显示 `display: inline-block;`
 
 
 
