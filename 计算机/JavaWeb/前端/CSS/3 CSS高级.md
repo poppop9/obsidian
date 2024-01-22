@@ -329,5 +329,15 @@ div {
 >- 将<u>提示元素</u>设置为隐藏 `display: none;`
 >- 悬浮<u>父元素</u>时，将<u>提示元素</u>设置为显示 `display: inline-block;`
 
+## 提示框的位置
+>提示框的位置可以上下左右
 
+```css
+.tooltip .tooltiptext {
+	width: 120px;
+	bottom: 100%;       /* 底部有100%空间，说明位置到顶了 */
+	left: 50%;            /* 左侧liu'you让提示框的左侧居中 */
+	margin-left: -60px;   /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+```
 
