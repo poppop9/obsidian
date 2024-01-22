@@ -272,9 +272,9 @@ div:hover {
 - `@keyframes`
 	- 使用`from to`
 	- 使用百分比
-- `animation-name`
-- `animation-duration`
-- `animation-delay`
+- `animation-name` 用于元素指定动画名
+- `animation-duration` 动画持续时间
+- `animation-delay` 动画延迟时间
 - `animation-iteration-count`
 - `animation-direction`
 - `animation-timing-function`
@@ -287,10 +287,11 @@ div:hover {
 	from {background-color: red;}
 	to {background-color: yellow;}
 -------------------------------------------------
-	0%   {background-color: red;}
-	25%  {background-color: yellow;}
-	50%  {background-color: blue;}
-	100% {background-color: green;}
+	0%   {background-color:red; left:0px; top:0px;}
+	25%  {background-color:yellow; left:200px; top:0px;}
+	50%  {background-color:blue; left:200px; top:200px;}
+	75%  {background-color:green; left:0px; top:200px;}
+	100% {background-color:red; left:0px; top:0px;}
 }
 
 div {
