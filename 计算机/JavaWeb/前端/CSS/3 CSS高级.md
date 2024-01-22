@@ -270,6 +270,8 @@ div:hover {
 
 
 - `@keyframes`
+	- 使用`from to`
+	- 使用百分比
 - `animation-name`
 - `animation-duration`
 - `animation-delay`
@@ -281,18 +283,22 @@ div:hover {
 
 ```css
 /* 动画代码 */
-@keyframes example {
+@keyframes example {     /* 定义动画名 */
 	from {background-color: red;}
 	to {background-color: yellow;}
+-------------------------------------------------
+	0%   {background-color: red;}
+	25%  {background-color: yellow;}
+	50%  {background-color: blue;}
+	100% {background-color: green;}
 }
 
-/* 向此元素应用动画效果 */
 div {
 	width: 100px;
 	height: 100px;
 	background-color: red;
-	animation-name: example;
-	animation-duration: 4s;
+	animation-name: example;    /* 将对应的动画名绑定到该元素 */
+	animation-duration: 4s;          /* 指定动画持续时间 */
 }
 ```
 
