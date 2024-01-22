@@ -251,12 +251,29 @@ div {
 	width: 100px;
 	height: 100px;
 	background: red;
-	transition: width 2s, height 2s,transform 2s ;     /* 指定需要添加过渡效果的属性为width，过渡时间为2s */
-
+	transition: width 2s, height 2s, transform 2s, background 2s;
 }
 
-
+div:hover {
+	width: 300px;
+	height: 300px;
+	background: black;
+	transform: rotate(180deg);
+}
 ```
+
+# 动画
+>动画使元素逐渐从一种样式变为另一种样式，***而不使用 JavaScript 或 Flash***
+
+- `@keyframes`
+- `animation-name`
+- `animation-duration`
+- `animation-delay`
+- `animation-iteration-count`
+- `animation-direction`
+- `animation-timing-function`
+- `animation-fill-mode`
+- `animation`
 
 
 
