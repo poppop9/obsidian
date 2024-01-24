@@ -53,6 +53,10 @@
 > - 屁股要垫高一点【更容易碰到上面的G点】
 > - 女生的脚不要打的太开【没有夹的感觉】
 
+### 女上位
+>[!hint]
+>- 女生不要蹲着，要跪着【因为蹲着脚是打开的，而且容易对不准】
+>- 女生不要上下，要前后动【***很容易刺激龟头***】
 
 ### 后入式
 > 比较有深的进入感，比较会容易有快感
@@ -66,7 +70,7 @@
 - 插入深度很够，男女的快感都很高
 - 女性无法看到男性，最好前面有镜子
 - 无法互动
-- 手抓出骨盆靠近自己，然后动腰
+- 手抓出腰靠近自己，然后动腰
 
 #### 人鱼卧岩式
 > 是一个男性快感度相对低的后入式
@@ -100,6 +104,8 @@
 [https://www.youtube.com/@qudouxueyuan4520/videos](https://www.youtube.com/@qudouxueyuan4520/videos)
 
 https://www.youtube.com/@junchicheung/videos
+
+https://www.youtube.com/@intimacylab/videos
 
 [https://www.ifulicn.com/blog/9](https://www.ifulicn.com/blog/9)
 [https://www.zixidao.com/%E6%9D%8E%E5%BF%83%E4%BA%88%E9%94%80%E9%AD%82%E5%90%BB%E6%8A%80%E8%AF%BE/](https://www.zixidao.com/%E6%9D%8E%E5%BF%83%E4%BA%88%E9%94%80%E9%AD%82%E5%90%BB%E6%8A%80%E8%AF%BE/)
