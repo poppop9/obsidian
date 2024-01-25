@@ -5,12 +5,20 @@
       "path": "科技美学/软件.md"
     },
     {
-      "basename": "Dance",
-      "path": "临时笔记/Dance.md"
-    },
-    {
       "basename": "3 CSS高级",
       "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+    },
+    {
+      "basename": "JavaWeb Draw",
+      "path": "Excalidraw/计算机/JavaWeb Draw.md"
+    },
+    {
+      "basename": "草稿纸 Draw",
+      "path": "Excalidraw/杂/草稿纸 Draw.md"
+    },
+    {
+      "basename": "Dance",
+      "path": "临时笔记/Dance.md"
     },
     {
       "basename": "穿搭",
@@ -29,10 +37,6 @@
       "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
       "basename": "2 HTML 5",
       "path": "计算机/JavaWeb/前端/2 HTML 5.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "计算机网络2",
       "path": "计算机/四大件/计算机网络2.md"
-    },
-    {
-      "basename": "草稿纸 Draw",
-      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "Obsidian笔记编写规范",

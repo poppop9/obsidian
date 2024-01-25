@@ -37,8 +37,10 @@
             "id": "e0ebcde8e2f11559",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
+              }
             }
           },
           {
@@ -58,8 +60,10 @@
             "id": "ac2297c9d782f2ec",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
+              }
             }
           }
         ],
@@ -200,19 +204,20 @@
   },
   "active": "cbe0705f2ffa0b6f",
   "lastOpenFiles": [
-    "临时笔记/Dance.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
+    "科技美学/软件.md",
+    "临时笔记/Dance.md",
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "临时笔记/DDED.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
-    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/2 HTML 5.md",
     "图片库/Pasted Image 20240121113940_598.png",
     "计算机/JavaWeb/前端/CSS/CSS.md",
     "计算机/四大件/计算机网络2.md",
-    "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/Obsidian笔记编写规范.md",
     "临时笔记/MarkDown语法.md",
     "科技美学/Surge 5.md",
@@ -227,7 +232,6 @@
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
     "考试/操作系统考试.md",
-    "计算机/JavaWeb/前端/JavaScript/7 杂.md",
     "neil-jetbrains-mono.css",
     "Spaces/Home",
     "Spaces",
