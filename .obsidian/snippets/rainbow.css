@@ -499,6 +499,14 @@ del {
 	font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen, ubuntu, cantarell, fira sans, droid sans, pingfang sc, hiragino sans gb, microsoft yahei, wenquanyi micro hei, helvetica neue, sans-serif;
 }
 
+/* ----------------------------------------------------------------------------------------------- */
+/* 下划线 */
+u {
+	text-decoration: underline;
+	text-decoration-thickness: 0.22rem;
+	text-decoration-color: rgba(129, 161, 193, 0.853);
+}
+
 /* ------------------------------------------------------------ */
 /* 标题 */
 .HyperMD-header .cm-header-1 {
@@ -646,16 +654,37 @@ h3,
 .cm-header.cm-header-4:not(.cm-formatting-header-4) {
 	font-size: 0.86em !important;
 	position: relative;
+	font-weight: 500;
 }
 
-.cm-header.cm-header-4:not(.cm-formatting-header-4)::after {
+.theme-dark .cm-header.cm-header-4:not(.cm-formatting-header-4) {
+	color: #d0d0d0;
+	font-weight: 500;
+}
+
+.cm-header-4:not(.cm-formatting-header-4, .cm-hmd-escape-backslash)::before {
+	content: "";
+	position: absolute;
+	top: 0.8rem;
+	left: 0rem;
+	right: 0;
+	bottom: 0.1rem;
+
+	padding: 0rem 0rem 0rem 0rem;
+	background-color: hsla(210, 67%, 74%, 0.7);
+	border-radius: 5px;
+	z-index: -1;
+}
+
+/* 另一种样式：双下划线
+ .cm-header.cm-header-4:not(.cm-formatting-header-4)::after {
 	content: "";
 	position: absolute;
 	bottom: -0.03em;
 	left: 0;
 	width: calc(100% + 0.1ch);
 	border-bottom: 0.2em double hsla(209, 64%, 53%, 0.66);
-}
+} */
 
 /* 编辑模式下，与文字上下间距 */
 .cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-4 {
@@ -670,17 +699,33 @@ h4[data-heading] {
 	line-height: 1.5em;
 	margin-top: 0.6rem;
 	margin-bottom: 0rem;
+
+	font-weight: 500;
+	z-index: 0;
 }
 
-h4[data-heading]::after {
+h4[data-heading]::before {
+	content: "";
+	position: absolute;
+	top: 0.88rem;
+	left: 0rem;
+	right: 0;
+	bottom: 0.3rem;
+
+	padding: 0rem 0rem 0rem 0rem;
+	background-color: hsla(210, 67%, 74%, 0.7);
+	border-radius: 5px;
+	z-index: -1;
+}
+
+/* h4[data-heading]::after {
 	content: "";
 	position: absolute;
 	bottom: -0.03em;
-	/* 调整下划线与文本之间的距离 */
 	left: 0;
 	width: calc(100% + 0.1ch);
 	border-bottom: 0.2em double hsla(209, 64%, 53%, 0.66);
-}
+} */
 
 .markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h4) {
 	margin-top: 0.2rem;
