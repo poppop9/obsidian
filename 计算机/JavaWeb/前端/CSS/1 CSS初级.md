@@ -8,6 +8,7 @@ tags:
 - 使用多个引号时，注意双引号里要使用单引号
 # 选择器
 >[!hint] 优先级：id选择器 > 类选择器 > 元素选择器
+
 ## 元素选择器
 ```css
 <style>
@@ -19,6 +20,7 @@ tags:
 	}
 </style>
 ```
+
 ## 类选择器
 - 类名相当于是一个标签，可以被多个元素重用
 - 一个元素也可以贴多个标签【多个类】
@@ -39,6 +41,7 @@ tags:
 <h1 class="a01">我是一级标题</h1>
 <span class="a01 a02">我是正文</span>  <!-- 这个元素引用了两个类 -->
 ```
+
 ## id选择器
 - id不能重用
 - id不能以数字开头
@@ -201,6 +204,7 @@ div ~ p {
 `<h1 style="xxx:yyy; xxx:yyy;">HTML 5</h1>`
 
 >[!attention] 不推荐采用，会降低可读性
+
 ## 内嵌样式
 ```html
 <!DOCTYPE html>
@@ -221,6 +225,7 @@ div ~ p {
 
 </html>
 ```
+
 ## 外联样式
 ```css
 h1 {
@@ -258,7 +263,6 @@ h1 {
 | px | 像素 (1px = 1/96th of 1in) |
 | pt   | 点 (1pt = 1/72 of 1in)    |
 | pc   | 派卡 (1pc = 12 pt)         |
-
 
 ## 相对单位
 >相对长度规定相对于另一个长度属性的长度，相对长度单位在不同渲染介质之间缩放表现得更好
@@ -304,6 +308,7 @@ h1 {
 >	- `padding-box`  包括内容，padding
 >	- `inherit`  继承父元素
 >- `outline`  轮廓
+
 ## 背景
 >背景 = padding + 内容
 
@@ -407,7 +412,6 @@ background-clip: content-box;
 > }
 > ```
 
-
 ## 边框
 >[!summary] 属性
 >- `border-style`  边框的样式
@@ -505,6 +509,7 @@ p {
   margin-left: 80px;
 }
 ```
+
 ## 轮廓
 >[!summary] 属性
 > - `outline-style`  样式
@@ -579,6 +584,7 @@ p {
   font-variant: small-caps;  /* 将所有字母大写，但是大写的字母size和小写差不多 */
 }
 ```
+
 ## 位置
 ### 水平对齐，垂直对齐，方向
 >[!summary] 属性
@@ -698,6 +704,7 @@ list-style-position: outside;
 list-style-position: inside;
 
 ```
+
 ## 有序列表 ol
 >[!summary] 属性
 >`list-style-type` 设置列表项目标记
@@ -719,6 +726,7 @@ table {
 	empty-cells:hide;      /* 不在空单元格上显示边框 */
 }
 ```
+
 ## 宽高
 ```css
 table {
@@ -729,13 +737,16 @@ th {
 	height: 50px; /* 仅设置标题的高度 */
 }
 ```
+
 ## 文本属性
 `text-align` 设置文本水平对齐方式
 `vertical-align` 设置文本垂直对齐方式
+
 ## 可悬停
 ```css
 tr:hover {background-color: #f5f5f5;}
 ```
+
 ## 斑马线表格
 ```css
 /* 使用nth-child选择器选择odd奇数 */
@@ -744,6 +755,7 @@ tr:nth-child(odd) {background-color: #f2f2f2;}
 /* even为偶数 */
 tr:nth-child(even) {background-color: #f2f2f2;}
 ```
+
 ## 滚动条
 ```css
 <div style="overflow-x:auto;">  /* 加入overflow属性 */
