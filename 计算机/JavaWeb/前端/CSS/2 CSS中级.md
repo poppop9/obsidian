@@ -255,6 +255,8 @@ img {
 
 | 选择器 | 例子 | 例子描述 |
 | :--: | :--: | :--: |
+| :root | root | 选择元素的根元素 |
+| ***:not(selector)*** | ***:not(p)*** | ***选择每个非\<p\>元素的元素*** |
 | ***:focus*** | ***input:focus*** | ***选择获得焦点的 \<input> 元素*** |
 | ***:first-child*** | ***p:first-child*** | ***选择所有\<p\>元素的第一个*** |
 | :last-child | p:last-child | 选择所有\<p\>元素的最后一个 |
@@ -264,19 +266,17 @@ img {
 | :empty | p:empty | 选择没有子元素的 \<p\> 元素 |
 | :first-of-type | p:first-of-type | 选择作为其父的首个\<p\>元素的每个\<p\>元素 |
 | :last-of-type | p:last-of-type | 选择作为其父的最后一个\<p\>元素的每个 \<p\> 元素 |
-| ***:not(selector)*** | ***:not(p)*** | ***选择每个非\<p\>元素的元素*** |
+| :nth-of-type(n) | p:nth-of-type(2) |  |
+| :nth-last-of-type(n) | p:nth-last-of-type(2) |  |
+| :only-of-type | p:only-of-type | 选择作为其父的唯一\<p\>元素的每个\<p\>元素 |
 | :lang(language) | p:lang(it) | 选择每个 lang 属性值以 "it" 开头的\<p\>元素 |
 | :target | \#news\:target | 选择当前活动的 \#news 元素（单击包含该锚名称的 URL） |
-| :root | root | 选择元素的根元素 |
 | :checked | input:checked | 选择每个被选中的 \<input\> 元素 |
 | :disabled | input:disabled | 选择每个被禁用的 \<input\> 元素 |
 | :enabled | input:enabled | 选择每个已启用的 \<input> 元素 |
 | :in-range | input:in-range | 选择具有指定范围内的值的 \<input> 元素 |
 | :valid | input:valid | 选择所有具有有效值的 \<input> 元素 |
 | :invalid | input:invalid | 选择所有具有无效值的 \<input> 元素 |
-| :nth-last-of-type(n) | p:nth-last-of-type(2) |  |
-| :nth-of-type(n) | p:nth-of-type(2) |  |
-| :only-of-type | p:only-of-type | 选择作为其父的唯一\<p\>元素的每个\<p\>元素 |
 | :optional | input:optional | 选择不带 "required" 属性的 <input> 元素 |
 | :out-of-range | input:out-of-range | 选择值在指定范围之外的 <input> 元素 |
 | :read-only | input:read-only | 选择指定了 "readonly" 属性的 <input> 元素 |
