@@ -69,18 +69,6 @@ h1.hidden {
 >`inline-block` 结合了 `inline` 和 `block` 的优点
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=tsmJGJs5|500]]
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## max-width
 >`width` 当浏览器窗口小于元素的宽度时，浏览器会将水平滚动条添加到页面
 >`max-width` 可以改善浏览器对小窗口的处理，当浏览器窗口小于元素的宽度时，会自动换行
