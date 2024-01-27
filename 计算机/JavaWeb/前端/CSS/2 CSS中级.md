@@ -256,9 +256,9 @@ img {
 | 选择器 | 例子 | 例子描述 |
 | :--: | :--: | :--: |
 | :focus | input:focus | 选择获得焦点的 <input> 元素 |
-| :first-child | p:first-child | 匹配\<p\>元素的第一个子元素 |
+| :first-child | p:first-child | 选择所有\<p\>元素的第一个 |
 | :last-child | p:last-child | 选择作为其父的最后一个子元素的每个\<p\>元素 |
-| :nth-child(n) | p:nth-child(2) | 选择作为其父的第二个子元素的每个\<p\>元素 |
+| :nth-child(n) | div p:nth-child(2) | 选择\<div\>里面的所有\<p\>的第二个 |
 | :nth-last-child(n) | p:nth-last-child(2) | 选择作为父的第二个子元素的每个\<p\>元素，从最后一个子元素计数 |
 | :only-child | p:only-child | 选择作为其父的唯一子元素的\<p\>元素 |
 | :lang(language) | p:lang(it) | 选择每个 lang 属性值以 "it" 开头的\<p\>元素 |
