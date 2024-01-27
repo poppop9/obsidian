@@ -257,16 +257,16 @@ img {
 | :--: | :--: | :--: |
 | :focus | input:focus | 选择获得焦点的 <input> 元素 |
 | :first-child | p:first-child | 选择所有\<p\>元素的第一个 |
-| :last-child | p:last-child | 选择作为其父的最后一个子元素的每个\<p\>元素 |
+| :last-child | p:last-child | 选择所有\<p\>元素的最后一个 |
 | :nth-child(n) | div p:nth-child(2) | 选择\<div\>里面的所有\<p\>的第二个 |
-| :nth-last-child(n) | p:nth-last-child(2) | 选择作为父的第二个子元素的每个\<p\>元素，从最后一个子元素计数 |
-| :only-child | p:only-child | 选择作为其父的唯一子元素的\<p\>元素 |
+| :nth-last-child(n) | p:nth-last-child(2) | 选择所有\<p\>元素的倒数第二个 |
+| :only-child | p:only-child | 选择\<p\>同级里没有其他\<p\>的\<p\> |
+| :empty | p:empty | 选择没有子元素的 \<p\> 元素 |
 | :lang(language) | p:lang(it) | 选择每个 lang 属性值以 "it" 开头的\<p\>元素 |
 | :target | \#news\:target | 选择当前活动的 \#news 元素（单击包含该锚名称的 URL） |
 | :root | root | 选择元素的根元素 |
 | :checked | input:checked | 选择每个被选中的 <input> 元素 |
 | :disabled | input:disabled | 选择每个被禁用的 <input> 元素 |
-| :empty | p:empty | 选择没有子元素的每个 \<p\> 元素 |
 | :enabled | input:enabled | 选择每个已启用的 <input> 元素 |
 | :first-of-type | p:first-of-type | 选择作为其父的首个\<p\>元素的每个\<p\>元素 |
 | :in-range | input:in-range | 选择具有指定范围内的值的 <input> 元素 |
