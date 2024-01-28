@@ -676,15 +676,6 @@ h3,
 	z-index: -1;
 }
 
-/* 另一种样式：双下划线
- .cm-header.cm-header-4:not(.cm-formatting-header-4)::after {
-	content: "";
-	position: absolute;
-	bottom: -0.03em;
-	left: 0;
-	width: calc(100% + 0.1ch);
-	border-bottom: 0.2em double hsla(209, 64%, 53%, 0.66);
-} */
 
 /* 编辑模式下，与文字上下间距 */
 .cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-4 {
