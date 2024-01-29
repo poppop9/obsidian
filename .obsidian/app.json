@@ -2,7 +2,7 @@
   "attachmentFolderPath": "图片库",
   "strictLineBreaks": false,
   "showFrontmatter": true,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "showInlineTitle": false,
   "alwaysUpdateLinks": true,
   "propertiesInDocument": "hidden",

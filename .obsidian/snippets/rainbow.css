@@ -481,12 +481,16 @@ del {
 }
 
 /* 粗体 */
-.theme-light .callout-title-inner>strong {
-	color: #000000;
+.theme-light .cm-strong {
+	color: #004faa !important;
 }
 
-.theme-dark .callout-title-inner>strong {
-	color: #dadada;
+.theme-dark .cm-strong {
+	color: #004faa !important;
+}
+
+strong {
+	color: #004faa !important;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -504,36 +508,69 @@ del {
 u {
 	text-decoration: underline;
 	text-decoration-thickness: 0.22rem;
-	text-decoration-color: rgba(129, 161, 193, 0.853);
+	text-decoration-color: #3481c5;
 }
-
 /* ------------------------------------------------------------ */
 /* 标题 */
 .HyperMD-header .cm-header-1 {
-	font-size: 1.28em !important;
-	font-weight: 10px;
-	font-family: 'dymht';
+	font-size: 1.13em !important;
+	font-family: "dymht";
+}
+
+.HyperMD-header .cm-header-1:not(.cm-formatting-header-1.cm-header.cm-header-1)::before {
+	content: 'Ⅰ';
+	font-size: 2.7rem;
+	font-style: italic;
+
+	color: #004faa;
+	position: absolute;
+	display: inline-block;
+	left: -0.3rem;
+	bottom: 0.1rem;
+
+	z-index: -1;
 }
 
 .HyperMD-header-1 {
 	text-align: center;
 	border-bottom-style: groove;
-	border-color: hsla(210, 34%, 63%, 0.4);
-	border-width: 3.3px;
-	margin: 15rem;
+	border-color: #004faa;
+	border-width: 0.2rem;
+	padding-bottom: 0.1rem !important;
+	line-height: 2.4rem;
+}
+
+.markdown-source-view.mod-cm6 .cm-content>.HyperMD-header-1 {
+	margin: auto auto 0.3rem auto !important;
 }
 
 /* 阅读模式 */
 h1,
 .markdown-rendered h1 {
-	font-weight: 10px;
 	text-align: center;
-	font-size: 2.3em !important;
+	font-size: 2em !important;
 	border-bottom-style: groove;
-	border-color: hsla(210, 34%, 63%, 0.4);
-	border-width: 3.3px;
+	border-color: #004faa;
+	border-width: 0.2rem;
+	padding-bottom: 0 !important;
+	line-height: 2.9rem;
+	margin-block-end: 0.5rem;
+
+	position: relative;
 
 	font-family: 'dymht';
+}
+
+h1::before {
+	content: 'Ⅰ';
+	font-size: 2.7rem;
+	font-style: italic;
+
+	color: #004faa;
+	position: absolute;
+	display: inline-block;
+	left: -0.3rem;
+	bottom: -0.1rem;
 }
 
 /* 标题2 */
@@ -583,46 +620,77 @@ h2,
 }
 
 /* 标题3 */
-div.HyperMD-header.HyperMD-header-3.cm-line {
-	font-size: 1.23em !important;
-	border-radius: 0.4rem;
-	background-color: hsla(210, 34%, 63%, 0.575);
-	color: #ffffff;
-
-	padding: 0.13rem 0.5rem 0.2rem 0.5rem;
-	margin: 1rem 0 0.4rem 0 !important;
-
-	outline-style: dashed;
-	outline-color: hsla(210, 34%, 63%, 0.833);
-	outline-offset: 1px;
-
-	display: inline-block;
+span.cm-header.cm-header-3 {
+	font-size: 1.5rem !important;
+	position: relative;
 }
 
-span.cm-formatting.cm-formatting-header.cm-formatting-header-3.cm-header.cm-header-3 {
-	color: #ffffff;
+span.cm-header.cm-header-3:not(.cm-formatting-header-3.cm-header.cm-header-3)::before {
+	content: '';
+	bottom: -0.03em;
+	left: 0;
+	width: calc(100% + 1.5ch);
+	border-bottom: 0.2em solid #3481c57a;
+
+	position: absolute;
+	bottom: 0.2rem;
+}
+
+span.cm-header.cm-header-3:not(.cm-formatting-header-3.cm-header.cm-header-3)::after {
+	content: '3';
+	font-size: 3rem;
+	font-style: italic;
+	color: #3481c5;
+
+	opacity: 70%;
+
+	position: absolute;
+	top: -1.4rem;
+	right: -1.2rem;
+}
+
+.markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h3) {
+	margin-top: 0.7rem;
 }
 
 h3,
 .markdown-rendered h3 {
-	font-size: 1.25em !important;
-	background-color: hsla(210, 34%, 63%, 0.575);
-	border-radius: 0.4rem;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-	padding-bottom: 0.2rem;
-	display: inline-block;
-	line-height: 1.4em;
-	margin-top: 1.5rem;
-	margin-bottom: 0rem;
+	font-size: 1.5rem !important;
 
-	outline-style: dashed;
-	outline-color: hsla(210, 34%, 63%, 0.833);
-	outline-offset: 1px;
+	margin-block-start: 0.5rem;
+	margin-block-end: 0.2rem;
+
+	display: inline-block;
+	position: relative;
 }
 
-.theme-light h3 {
-	color: #ffffff;
+h3::before {
+	content: '';
+	bottom: -0.03em;
+	left: 0;
+	width: calc(100% + 1.5ch);
+	border-bottom: 0.2em solid #3481c57a;
+
+	position: absolute;
+	bottom: 0.2rem;
+}
+
+h3::after {
+	content: '3';
+	font-size: 3rem;
+	font-style: italic;
+	color: #3481c5;
+
+	opacity: 70%;
+
+	display: inline-block;
+	position: absolute;
+	top: -1.4rem;
+	right: -1.2rem;
+}
+
+.HyperMD-header-2.cm-line+.HyperMD-header-3.cm-line {
+	padding-top: 0.2rem;
 }
 
 /* 标题3的另一种样式
@@ -645,10 +713,6 @@ h3,
 	text-shadow: 2px 2px 5px hsla(210, 34%, 63%, 0.833);
 } */
 
-
-.markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h3) {
-	margin-top: 0.2rem;
-}
 
 /* 标题4 */
 .cm-header.cm-header-4:not(.cm-formatting-header-4) {
@@ -1127,21 +1191,37 @@ ol>li>ol>li>ol>li>ol>li>ol>li::marker {
 /* 编辑模式 */
 .markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
 .markdown-source-view.mod-cm6 .cm-blockquote-border:before {
-	width: 1px;
-	border-left: 3.5px solid hsla(210, 34%, 63%, 0.4);
-	color: transparent;
+	border-left: 0.27rem solid #004faa;
 	position: absolute;
-	top: 0;
-	bottom: 0;
+}
+
+.HyperMD-quote-1 {
+	background-color: #88b9e63d !important;
+	border-radius: 0 0.3rem 0.3rem 0;
+}
+
+.markdown-source-view.mod-cm6 .cm-content>.HyperMD-quote-1 {
+	margin-left: 0.1rem !important;
+}
+
+.HyperMD-quote-1 .cm-quote-1 {
+	margin: 0.2rem;
 }
 
 /* 阅读模式 */
 .markdown-rendered blockquote {
-	border: 3px solid hsla(210, 34%, 63%, 0.4);
-	border-radius: 0.6rem;
-	padding: 0.5em 0.5em 0.5em 0.6em;
-	margin-inline-start: 2.5%;
-	margin-inline-end: 2.5%;
+	border-left: 0.27rem solid #004faa;
+	background-color: #88b9e63d !important;
+
+	padding: 0.8rem 0.5rem 0.8rem 1rem;
+	margin-left: 0.1rem;
+
+	border-radius: 0 0.3rem 0.3rem 0;
+}
+
+blockquote {
+	margin-block-start: 0.5rem;
+	margin-block-end: 0.5rem;
 }
 
 /* 分割线 */
@@ -1266,4 +1346,25 @@ body:not(.remove-custom-svg-icons) .workspace-leaf-content .view-header .view-ac
 
 .multi-select-pill-remove-button {
 	color: hsla(210, 34%, 63%);
+}
+
+/* 背景图片 */
+.markdown-reading-view {
+	background-image: linear-gradient(90deg, #c7c7c740 3%, transparent 0), linear-gradient(#c7c7c740 3%, transparent 0);
+	background-size: 25px 25px;
+}
+
+.theme-dark .markdown-reading-view {
+	background-image: linear-gradient(90deg, #6b6b6b40 3%, transparent 0), linear-gradient(#6b6b6b40 3%, transparent 0);
+	background-size: 25px 25px;
+}
+
+.cm-editor.ͼ1.ͼ2 {
+	background-image: linear-gradient(90deg, #c7c7c740 3%, transparent 0), linear-gradient(#c7c7c740 3%, transparent 0);
+	background-size: 25px 25px;
+}
+
+.theme-dark .cm-editor.ͼ1.ͼ2 {
+	background-image: linear-gradient(90deg, #6b6b6b40 3%, transparent 0), linear-gradient(#6b6b6b40 3%, transparent 0);
+	background-size: 25px 25px;
 }
