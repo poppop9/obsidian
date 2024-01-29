@@ -33,8 +33,12 @@
 
 >[!attention] 不要摸脸【妆会掉】，不要摸头【发型会乱】
 ### 胸
-
-![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240129164408.png)
+>- 一开始避开奶头，把奶头放在食指和中指之间
+>- 往中间绕
+>
+>![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20240129164408.png)
+>- 然后拨弄奶头
+>
 
 
 ### 背部【趴躺】
