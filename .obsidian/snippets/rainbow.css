@@ -3,11 +3,13 @@ fonts initalization
 */
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Sofia);
 
 
 @font-face {
-	font-family: "dymht";
-	src: url(抖音美好体.otf);
+	font-family: 'dymht';
+	src: url('DouyinSansBold.otf');
+	font-weight: bold;
 }
 
 @font-face {
@@ -25,8 +27,12 @@ fonts initalization
 @font-face {
 	font-family: 'JetBrains Mono';
 	src: url("https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/webfonts/JetBrainsMono-Regular.woff2") format("woff2"), url("https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/ttf/JetBrainsMono-Regular.ttf") format("truetype");
-	font-weight: normal;
-	font-style: normal;
+}
+
+/* 标题2字体 */
+@font-face {
+	font-family: 'mellow aaa';
+	src: url('ChillRoundF.ttf');
 }
 
 @page {
@@ -241,6 +247,8 @@ deletes settings
 	color: var(--del-color);
 }
 
+
+
 /* ----------------------------------------------------------------------------------------- */
 /* 图片 */
 /* 编辑模式 */
@@ -286,21 +294,21 @@ img {
 /* 编辑模式 */
 .cm-s-obsidian span.cm-url {
 	text-decoration: none;
-	color: hsla(210, 34%, 63%);
-	border-bottom: 2px dashed hsla(210, 34%, 63%);
+	color: #3481c5;
+	border-bottom: 2px dashed #3481c5;
 }
 
 /* 光标在链接上时，鼠标悬浮时 */
 .cm-s-obsidian span.cm-url:hover {
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 	text-decoration: none;
-	border-bottom: 2px solid hsla(210, 34%, 63%);
+	border-bottom: 2px solid #3481c5;
 }
 
 /* 光标不在链接上时，鼠标悬浮时 */
 @media (hover: hover) {
 	.markdown-source-view.mod-cm6 .cm-url .cm-underline:hover {
-		color: hsla(210, 34%, 63%);
+		color: #3481c5;
 		/* text-decoration-line: var(--link-external-decoration-hover); */
 		text-decoration: none;
 	}
@@ -308,15 +316,15 @@ img {
 
 @media (hover: hover) {
 	.markdown-source-view.mod-cm6 .cm-url .cm-underline {
-		color: hsla(210, 34%, 63%);
+		color: #3481c5;
 		text-decoration: none;
 		/* text-decoration-line: var(--link-external-decoration-hover); */
 	}
 }
 
 .cm-s-obsidian span.cm-link {
-	color: hsla(210, 34%, 63%);
-	border-bottom: 2px dashed hsla(210, 34%, 63%);
+	color: #3481c5;
+	border-bottom: 2px dashed #3481c5;
 }
 
 .markdown-source-view.mod-cm6 .cm-link .cm-underline,
@@ -326,77 +334,70 @@ img {
 
 @media (hover: hover) {
 	.cm-s-obsidian span.cm-link:hover {
-		color: hsla(210, 34%, 63%);
+		color: #3481c5;
 		text-decoration-line: none;
 	}
 }
 
 @media (hover: hover) {
 	.markdown-source-view.mod-cm6 .cm-link .cm-underline:hover {
-		color: hsla(210, 34%, 63%);
+		color: #3481c5;
 		text-decoration-line: none;
-		border-bottom: 2px solid hsla(210, 34%, 63%);
+		border-bottom: 2px solid #3481c5;
 	}
 }
 
 /* 阅读模式 */
 a:link {
 	text-decoration: none;
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 }
 
 .external-link {
 	padding-right: 0;
 	background-image: none;
 	text-decoration: none;
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 
-	border-bottom: 2px dashed hsla(210, 34%, 63%);
+	border-bottom: 2px dashed #3481c5;
 }
 
 a.external-link:hover {
 	text-decoration: none;
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 
-	border-bottom: 2px solid hsla(210, 34%, 63%);
+	border-bottom: 2px solid #3481c5;
 }
 
 /* 内链 */
 /* 编辑模式 */
 .cm-s-obsidian span.cm-hmd-internal-link {
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 }
 
 .cm-s-obsidian span.cm-hmd-internal-link:hover {
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 	text-decoration-line: none;
-	border-bottom: 2px solid hsla(210, 34%, 63%);
+	border-bottom: 2px solid #3481c5;
 }
 
 div.cm-active.cm-line>span.cm-hmd-internal-link>span {
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 }
 
 div.cm-line.cm-line>span.cm-hmd-internal-link>span {
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 }
 
-/* .markdown-source-view.mod-cm6 .cm-underline:not(.cm-hmd-footnote.cm-link>.cm-underline) {
-	color: hsla(210, 34%, 63%);
-	text-decoration-line: none;
-
-	border-bottom: 2px dashed hsla(210, 34%, 63%);
-} */
-
 .markdown-source-view.mod-cm6 .cm-underline {
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 	text-decoration-line: none;
 
-	border-bottom: 2px dashed hsla(210, 34%, 63%);
+	border-bottom: 2px dashed #3481c5;
 }
 
 .cm-hmd-footnote.cm-link>.cm-underline {
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 }
 
 @media (hover: hover) {
@@ -415,11 +416,11 @@ div.cm-line.cm-line>span.cm-hmd-internal-link>span {
 
 /* 阅读模式 */
 .markdown-rendered a.internal-link.is-unresolved {
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 }
 
 .markdown-rendered a.internal-link {
-	color: hsla(210, 34%, 63%);
+	color: #3481c5;
 	text-decoration: none;
 	border-bottom: 2px dashed hsla(210, 34%, 63%);
 }
@@ -428,7 +429,7 @@ div.cm-line.cm-line>span.cm-hmd-internal-link>span {
 
 	.metadata-container .internal-link:hover,
 	.markdown-rendered .internal-link:hover {
-		color: hsla(210, 34%, 63%);
+		color: #3481c5;
 		text-decoration: none;
 		border-bottom: 2px solid hsla(210, 34%, 63%);
 	}
@@ -438,7 +439,7 @@ div.cm-line.cm-line>span.cm-hmd-internal-link>span {
 
 	.metadata-container .internal-link.is-unresolved:hover,
 	.markdown-rendered .internal-link.is-unresolved:hover {
-		color: hsla(210, 34%, 63%);
+		color: #3481c5;
 		text-decoration: none;
 		border-bottom: 2px solid hsla(210, 34%, 63%);
 	}
@@ -503,6 +504,11 @@ strong {
 	font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen, ubuntu, cantarell, fira sans, droid sans, pingfang sc, hiragino sans gb, microsoft yahei, wenquanyi micro hei, helvetica neue, sans-serif;
 }
 
+.markdown-rendered p {
+	margin-block-start: 0;
+	margin-block-end: 0.5rem;
+}
+
 /* ----------------------------------------------------------------------------------------------- */
 /* 下划线 */
 u {
@@ -510,6 +516,7 @@ u {
 	text-decoration-thickness: 0.22rem;
 	text-decoration-color: #3481c5;
 }
+
 /* ------------------------------------------------------------ */
 /* 标题 */
 .HyperMD-header .cm-header-1 {
@@ -575,49 +582,48 @@ h1::before {
 
 /* 标题2 */
 div.HyperMD-header.HyperMD-header-2.cm-line {
-	font-size: 1.8em !important;
-	border-left: 0.7rem solid hsla(210, 34%, 63%, 0.4);
-	border-radius: 0.4rem;
-	background-color: hsla(210, 67%, 74%, 0.4);
-
-	padding: 0.12rem 0rem 0.26rem 0.7rem !important;
-	margin: 0 0 1rem 0 !important;
-	width: 100%;
-	top: 8px;
-
-	outline-style: double;
-	outline-color: hsla(210, 34%, 63%, 0.575);
-	outline-offset: 2px;
-
-	font-family: 'dymht';
+	padding: 0.2rem 0 0 0rem;
+	margin-top: 0.8rem !important;
+	margin-bottom: 0 !important;
 }
 
-.theme-light span.cm-header.cm-header-2 {
-	color: #0f112e;
+span.cm-header.cm-header-2 {
+	color: #004faa;
+	font-weight: bold;
+	font-size: 1.86rem !important;
+
+	position: relative;
+	display: inline-block;
+}
+
+span.cm-header.cm-header-2::first-letter {
+	font-size: 3.4rem !important;
+	letter-spacing: -0.03em; 
 }
 
 h2,
 .markdown-rendered h2 {
-	font-size: 1.75em !important;
-	border-left: 0.7rem solid hsla(210, 34%, 63%, 0.4);
-	border-radius: 0.4rem;
-	background-color: hsla(210, 67%, 74%, 0.4);
-	line-height: 1.45em;
-	padding-left: 0.7rem;
-	padding-bottom: 0.05rem;
-	width: 100%;
-	margin-bottom: 0.1rem;
+	font-size: 1.86rem !important;
+	padding: 0.4rem 0 0 0rem;
+	margin-bottom: 0 !important;
+	color: #004faa;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-	outline-style: double;
-	outline-color: hsla(210, 34%, 63%, 0.575);
-	outline-offset: 2px;
+	position: relative;
 
-	font-family: 'dymht';
+	margin-block-start: 0.7rem;
 }
 
-.theme-light h2 {
-	color: #2a2b2e;
+h2::first-letter{
+	font-size: 3.4rem !important;
+	letter-spacing: -0.03em; 
 }
+
+
+.markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h2) {
+	margin-top: 1rem !important;
+}
+
 
 /* 标题3 */
 span.cm-header.cm-header-3 {
@@ -693,26 +699,6 @@ h3::after {
 	padding-top: 0.2rem;
 }
 
-/* 标题3的另一种样式
-h3,
-.markdown-rendered h3 {
-	font-size: 1.25em !important;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
-	padding-bottom: 0.2rem;
-	display: inline-block;
-	line-height: 1.4em;
-	margin-top: 1.5rem;
-	margin-bottom: 0rem;
-
-	border-left:double;
-	border-right:double;
-	border-color: hsla(210, 34%, 63%, 0.833);
-	border-width: 0.3rem;
-
-	text-shadow: 2px 2px 5px hsla(210, 34%, 63%, 0.833);
-} */
-
 
 /* 标题4 */
 .cm-header.cm-header-4:not(.cm-formatting-header-4) {
@@ -722,24 +708,27 @@ h3,
 }
 
 .theme-dark .cm-header.cm-header-4:not(.cm-formatting-header-4) {
-	color: #d0d0d0;
+	color: #ededed;
 	font-weight: 500;
 }
 
 .cm-header-4:not(.cm-formatting-header-4, .cm-hmd-escape-backslash)::before {
 	content: "";
 	position: absolute;
-	top: 0.8rem;
+	top: 0.6rem;
 	left: 0rem;
 	right: 0;
 	bottom: 0.1rem;
 
 	padding: 0rem 0rem 0rem 0rem;
-	background-color: hsla(210, 67%, 74%, 0.7);
+	background-color: #88b9e677;
 	border-radius: 5px;
 	z-index: -1;
 }
 
+.theme-dark .cm-header-4:not(.cm-formatting-header-4, .cm-hmd-escape-backslash)::before {
+	background-color: #88b9e6b2;
+}
 
 /* 编辑模式下，与文字上下间距 */
 .cm-s-obsidian .cm-line.HyperMD-header.HyperMD-header-4 {
@@ -752,7 +741,7 @@ h4[data-heading] {
 	display: inline-block;
 	position: relative;
 	line-height: 1.5em;
-	margin-top: 0.6rem;
+	margin-top: 0;
 	margin-bottom: 0rem;
 
 	font-weight: 500;
@@ -761,6 +750,10 @@ h4[data-heading] {
 
 h4[data-heading]::before {
 	content: "";
+}
+
+h4[data-heading]::after {
+	content: "";
 	position: absolute;
 	top: 0.88rem;
 	left: 0rem;
@@ -768,22 +761,13 @@ h4[data-heading]::before {
 	bottom: 0.3rem;
 
 	padding: 0rem 0rem 0rem 0rem;
-	background-color: hsla(210, 67%, 74%, 0.7);
+	background-color: #88b9e6b2;
 	border-radius: 5px;
 	z-index: -1;
 }
 
-/* h4[data-heading]::after {
-	content: "";
-	position: absolute;
-	bottom: -0.03em;
-	left: 0;
-	width: calc(100% + 0.1ch);
-	border-bottom: 0.2em double hsla(209, 64%, 53%, 0.66);
-} */
-
 .markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h4) {
-	margin-top: 0.2rem;
+	margin-top: 0;
 }
 
 /* -------------------------------------------------------------- */
@@ -791,7 +775,7 @@ h4[data-heading]::before {
 行内代码
 */
 /* 行内代码的头尾两个点 */
-.cm-s-obsidian .cm-formatting {
+div.cm-active.cm-line .cm-s-obsidian .cm-formatting {
 	margin: 0.2rem;
 }
 
@@ -1007,6 +991,15 @@ div.markdown-reading-view .callout-content>pre {
 /* ----------------------------------------------------------------- */
 /* 无序列表 */
 /* 编辑模式 */
+.markdown-rendered ul {
+	margin-block-start: 0.5rem;
+	margin-block-end: 0.5rem;
+}
+
+div>ul {
+	padding-inline-start: 1.3rem !important;
+}
+
 /*after表示那个点*/
 .cm-list-1>.list-bullet::after {
 	background-color: #ed6c60;
@@ -1077,6 +1070,10 @@ div.markdown-reading-view .callout-content>pre {
 }
 
 /* callout里的无序列表 */
+blockquote ul {
+	padding-inline-start: 1.3rem !important;
+}
+
 .callout-content>ul>li:last-child {
 	margin-bottom: -15px;
 }
@@ -1145,6 +1142,14 @@ ul>li.task-list-item[data-task="X"] {
 
 /* ----------------------------------------------------------------- */
 /* 有序列表 */
+div>ol {
+	padding-inline-start: 1.3rem !important;
+}
+
+.cm-formatting-list-ol {
+	padding-inline-start: 0.2rem;
+}
+
 /* 编辑模式 */
 .cm-list-1>.list-number {
 	color: #ed6c60;
@@ -1162,6 +1167,11 @@ ul>li.task-list-item[data-task="X"] {
 }
 
 /* 阅读模式 */
+.markdown-rendered ol {
+	margin-block-start: 0.4rem;
+}
+
+
 ol>li::marker {
 	color: #ed6c60;
 	font-weight: bold;
@@ -1200,9 +1210,7 @@ ol>li>ol>li>ol>li>ol>li>ol>li::marker {
 	border-radius: 0 0.3rem 0.3rem 0;
 }
 
-.markdown-source-view.mod-cm6 .cm-content>.HyperMD-quote-1 {
-	margin-left: 0.1rem !important;
-}
+
 
 .HyperMD-quote-1 .cm-quote-1 {
 	margin: 0.2rem;
@@ -1253,14 +1261,30 @@ blockquote {
 	white-space: nowrap;
 }
 
-.markdown-rendered th {
+.theme-light .markdown-rendered th {
 	text-align: center;
 	background-color: #81a1c13c !important;
 }
 
-:is(.markdown-preview-view, .markdown-rendered) table tbody>tr,
-.markdown-source-view table tbody>tr {
+.theme-dark .markdown-rendered th {
+	text-align: center;
+	background-color: #8fb2d56c !important;
+}
+
+.theme-light .markdown-rendered tbody tr {
 	background-color: #f2f2f2;
+}
+
+.theme-light .markdown-rendered tbody tr:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+.theme-dark .markdown-rendered tbody tr {
+	background-color: #444444;
+}
+
+.theme-dark .markdown-rendered tbody tr:nth-child(odd) {
+	background-color: #252525;
 }
 
 /* ---------------------------------------------------------------------------------- */
