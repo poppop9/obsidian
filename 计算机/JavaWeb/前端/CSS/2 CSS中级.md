@@ -265,11 +265,11 @@ img {
 | :in-range | input:in-range | 选择具有指定范围内的值的 \<input> 元素 |
 | :valid | input:valid | 选择所有具有有效值的 \<input> 元素 |
 | :invalid | input:invalid | 选择所有具有无效值的 \<input> 元素 |
-| :optional | input:optional | 选择不带 "required" 属性的 <input> 元素 |
-| :out-of-range | input:out-of-range | 选择值在指定范围之外的 <input> 元素 |
-| :read-only | input:read-only | 选择指定了 "readonly" 属性的 <input> 元素 |
-| :read-write | input:read-write | 选择不带 "readonly" 属性的 <input> 元素 |
-| :required | input:required | 选择指定了 "required" 属性的 <input> 元素 |
+| :optional | input:optional | 选择不带 "required" 属性的 \<input> 元素 |
+| :out-of-range | input:out-of-range | 选择值在指定范围之外的 \<input> 元素 |
+| :read-only | input:read-only | 选择指定了 "readonly" 属性的 \<input> 元素 |
+| :read-write | input:read-write | 选择不带 "readonly" 属性的 \<input> 元素 |
+| :required | input:required | 选择指定了 "required" 属性的 \<input> 元素 |
 
 ---
 
