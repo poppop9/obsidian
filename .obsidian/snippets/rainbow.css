@@ -466,8 +466,14 @@ span.cm-formatting.cm-formatting-highlight.cm-highlight {
 	margin-right: -3.8px;
 }
 
-.markdown-rendered mark {
+.theme-light .markdown-rendered mark {
 	background-color: hsla(34, 100%, 80%, 0.847);
+	border-radius: 4px;
+	padding: 0px 3px;
+}
+
+.theme-dark .markdown-rendered mark {
+	background-color: hsla(57, 40%, 38%, 0.541);
 	border-radius: 4px;
 	padding: 0px 3px;
 }
