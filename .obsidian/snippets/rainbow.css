@@ -261,7 +261,7 @@ div.internal-embed.media-embed.image-embed.is-loaded img {
 
 .markdown-source-view.mod-cm6 .cm-content>img {
 	display: block;
-	margin: 0.6rem auto !important;
+	margin: 0rem auto 0.6rem auto !important;
 	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
 	max-width: 96%;
 }
@@ -830,7 +830,6 @@ div.cm-active.cm-line .cm-s-obsidian .cm-formatting {
 	background-size: 100%;
 	text-align: left;
 	margin-left: -5px;
-	/* 调整数值以向下移动图片 */
 	background-position: center 10px;
 }
 
