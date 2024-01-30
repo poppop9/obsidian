@@ -267,7 +267,26 @@ div.internal-embed.media-embed.image-embed.is-loaded img {
 }
 
 /* 阅读模式 */
+span.internal-embed.media-embed.image-embed.is-loaded>img {
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
+	max-width: 102%;
+}
 
+div.excalidraw-svg.excalidraw-embedded-img.excalidraw-canvas-immersive {
+	display: block;
+	margin: 0.6rem auto;
+	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
+	max-width: 102%;
+}
+
+img {
+	display: block;
+	margin: 0.6rem auto !important;
+	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
+	max-width: 102%;
+}
 
 /* ---------------------------------------------------------------------------------- */
 /* 链接 */
