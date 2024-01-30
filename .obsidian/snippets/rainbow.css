@@ -604,9 +604,10 @@ h1::before {
 /* 标题2 */
 div.HyperMD-header.HyperMD-header-2.cm-line {
 	padding: 0.2rem 0 0 0rem;
-	margin-top: 0.8rem !important;
+	border-top: 0.4rem solid transparent;
 	margin-bottom: 0 !important;
 }
+
 
 span.cm-header.cm-header-2 {
 	color: #004faa;
