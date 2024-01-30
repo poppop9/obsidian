@@ -1006,7 +1006,7 @@ div>ul {
 	padding-inline-start: 1.3rem !important;
 }
 
-/*after表示那个点*/
+/* 那个点 */
 .cm-list-1>.list-bullet::after {
 	background-color: #ed6c60;
 	height: 0.4rem;
