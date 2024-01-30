@@ -265,8 +265,8 @@ div.internal-embed.media-embed.image-embed.is-loaded img {
 	box-shadow: none;
 	max-width: 96%;
 
-	border-top: 10px solid transparent;
-	border-bottom: 10px solid transparent;
+	border-top: 0.6rem solid transparent;
+	border-bottom: 0.6rem solid transparent;
 
 	position: relative;
 }
@@ -276,11 +276,11 @@ div.internal-embed.media-embed.image-embed.is-loaded img {
 	max-width: 96%;
 	box-shadow: none;
 
+	border-top: 0.6rem solid transparent;
+	border-bottom: 0.6rem solid transparent;
 
-	border-top: 10px solid transparent;
-	border-bottom: 10px solid transparent;
-
-	position: relative;
+	display: inline-block;
+	position: absolute;
 }
 
 /* 阅读模式 */
