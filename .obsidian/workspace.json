@@ -8,20 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9e43f4535d8baf4f",
+            "id": "db49ce6ee1268ec2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "db49ce6ee1268ec2",
+            "id": "5150fbe90374fca6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,22 +34,12 @@
             }
           },
           {
-            "id": "e0ebcde8e2f11559",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
-              }
-            }
-          },
-          {
-            "id": "f7140d41dfd3c05b",
+            "id": "4bae9f3e9f59955d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "临时笔记/穿搭.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -67,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,6 +90,21 @@
             }
           },
           {
+            "id": "a90c3998237f05b5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#问题",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
             "id": "d0b803412ff90f26",
             "type": "leaf",
             "state": {
@@ -124,21 +129,6 @@
               "type": "recent-files",
               "state": {}
             }
-          },
-          {
-            "id": "a90c3998237f05b5",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "是",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
           }
         ]
       }
@@ -155,12 +145,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ccca8284c94f2a62",
+            "id": "10e458ad4488a9ec",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -170,7 +160,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -190,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 273.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,19 +188,19 @@
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f7140d41dfd3c05b",
+  "active": "4bae9f3e9f59955d",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
+    "计算机/四大件/计算机网络2.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
+    "临时笔记/穿搭.md",
     "临时笔记/草稿纸.md",
     "临时笔记/DDED.md",
-    "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
-    "临时笔记/穿搭.md",
     "考试/操作系统考试.md",
-    "计算机/四大件/计算机网络2.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "临时笔记/Obsidian笔记编写规范.md",
     "科技美学/软件.md",

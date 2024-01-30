@@ -278,9 +278,6 @@ div.internal-embed.media-embed.image-embed.is-loaded img {
 
 	border-top: 0.6rem solid transparent;
 	border-bottom: 0.6rem solid transparent;
-
-	display: inline-block;
-	position: absolute;
 }
 
 /* 阅读模式 */

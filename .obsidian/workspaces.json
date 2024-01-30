@@ -13,13 +13,8 @@
                 "id": "db49ce6ee1268ec2",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "计算机/JavaWeb/前端/3 CSS.md",
-                    "mode": "source",
-                    "backlinks": false,
-                    "source": false
-                  }
+                  "type": "empty",
+                  "state": {}
                 }
               },
               {
@@ -147,11 +142,13 @@
             "type": "tabs",
             "children": [
               {
-                "id": "1726e13dfa44179b",
+                "id": "10e458ad4488a9ec",
                 "type": "leaf",
                 "state": {
-                  "type": "quiet-outline",
-                  "state": {}
+                  "type": "outline",
+                  "state": {
+                    "file": "临时笔记/穿搭.md"
+                  }
                 }
               },
               {
@@ -170,7 +167,9 @@
                 "state": {
                   "type": "all-properties",
                   "state": {
-                    "sortOrder": "frequency"
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
                   }
                 }
               }
@@ -190,7 +189,7 @@
           "obsidian-excalidraw-plugin:新建绘图文件": false
         }
       },
-      "active": "4bae9f3e9f59955d"
+      "active": "10e458ad4488a9ec"
     }
   },
   "active": "默认"
