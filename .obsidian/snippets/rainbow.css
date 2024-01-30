@@ -271,6 +271,18 @@ div.internal-embed.media-embed.image-embed.is-loaded img {
 	position: relative;
 }
 
+.HyperMD-quote-1 img {
+	margin: 0rem auto !important;
+	max-width: 96%;
+	box-shadow: none;
+
+
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+
+	position: relative;
+}
+
 /* 阅读模式 */
 span.internal-embed.media-embed.image-embed.is-loaded>img {
 	display: block;
@@ -286,7 +298,7 @@ div.excalidraw-svg.excalidraw-embedded-img.excalidraw-canvas-immersive {
 	max-width: 102%;
 }
 
-img {
+img:not(.HyperMD-quote-1 img) {
 	display: block;
 	margin: 0.6rem auto !important;
 	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
