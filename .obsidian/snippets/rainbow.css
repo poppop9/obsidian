@@ -251,7 +251,20 @@ deletes settings
 
 /* ----------------------------------------------------------------------------------------- */
 /* 图片 */
+/* 编辑模式 */
+div.internal-embed.media-embed.image-embed.is-loaded img {
+	display: block;
+	margin: 0.6rem auto;
+	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
+	max-width: 96%;
+}
 
+.markdown-source-view.mod-cm6 .cm-content>img {
+	display: block;
+	margin: 0.6rem auto !important;
+	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
+	max-width: 96%;
+}
 
 /* 阅读模式 */
 span.internal-embed.media-embed.image-embed.is-loaded>img {
