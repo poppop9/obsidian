@@ -260,23 +260,15 @@ div.internal-embed.media-embed.image-embed.is-loaded img {
 }
 
 .markdown-source-view.mod-cm6 .cm-content>img {
-	margin: 0.6rem auto !important;
-	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
+	margin: 0rem auto !important;
+	/* box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150); */
+	box-shadow: none;
 	max-width: 96%;
 
 	border-top: 10px solid transparent;
 	border-bottom: 10px solid transparent;
 
 	position: relative;
-}
-
-img::before {
-	content: "111";
-	display: block;
-	background-color: #000000;
-	position: absolute;
-	width: 100%;
-	height: 10rem;	
 }
 
 /* 阅读模式 */
@@ -296,11 +288,10 @@ div.excalidraw-svg.excalidraw-embedded-img.excalidraw-canvas-immersive {
 
 img {
 	display: block;
-	margin: 0rem auto !important;
-	/* box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150); */
+	margin: 0.6rem auto !important;
+	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
 	max-width: 102%;
 }
-
 
 
 /* ---------------------------------------------------------------------------------- */
