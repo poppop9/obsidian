@@ -189,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 305.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,7 +201,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "9e43f4535d8baf4f",
+  "active": "ccca8284c94f2a62",
   "lastOpenFiles": [
     "临时笔记/穿搭.md",
     "考试/操作系统考试.md",
