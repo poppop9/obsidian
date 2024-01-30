@@ -260,8 +260,8 @@ div.internal-embed.media-embed.image-embed.is-loaded img {
 }
 
 .markdown-source-view.mod-cm6 .cm-content>img {
-	margin: 0 auto !important;
-	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
+	margin: 0rem auto !important;
+	/* box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150); */
 	max-width: 96%;
 
 	border-top: 10px solid transparent;
@@ -278,7 +278,6 @@ img::before {
 	width: 100%;
 	height: 10rem;	
 }
-
 
 /* 阅读模式 */
 span.internal-embed.media-embed.image-embed.is-loaded>img {
@@ -298,7 +297,7 @@ div.excalidraw-svg.excalidraw-embedded-img.excalidraw-canvas-immersive {
 img {
 	display: block;
 	margin: 0rem auto !important;
-	box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150);
+	/* box-shadow: 0.12rem 0.02rem 0.6rem rgb(150, 150, 150); */
 	max-width: 102%;
 }
 
