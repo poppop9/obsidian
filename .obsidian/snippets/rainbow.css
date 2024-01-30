@@ -1216,8 +1216,6 @@ ol>li>ol>li>ol>li>ol>li>ol>li::marker {
 	border-radius: 0 0.3rem 0.3rem 0;
 }
 
-
-
 .HyperMD-quote-1 .cm-quote-1 {
 	margin: 0.2rem;
 }
@@ -1236,6 +1234,11 @@ ol>li>ol>li>ol>li>ol>li>ol>li::marker {
 blockquote {
 	margin-block-start: 0.5rem;
 	margin-block-end: 0.5rem;
+}
+
+/* callout */
+div.callout-content {
+	margin-top: 0.5rem;
 }
 
 /* 分割线 */
