@@ -5,6 +5,14 @@
       "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
     },
     {
+      "basename": "2 CSS中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
+    },
+    {
+      "basename": "1 CSS初级",
+      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+    },
+    {
       "basename": "读心术",
       "path": "临时笔记/读心术.md"
     },
@@ -27,14 +35,6 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "2 CSS中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
-    },
-    {
-      "basename": "1 CSS初级",
-      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
     },
     {
       "basename": "计算机网络2",

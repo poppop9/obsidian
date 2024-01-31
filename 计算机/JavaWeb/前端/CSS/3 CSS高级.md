@@ -535,7 +535,14 @@ h2 {
 
 
 
-# 响应式
+# 用户，响应式
+`resize` 规定元素应如何被用户调整大小
+
+```css
+resize: horizontal;
+```
+
+
 
 ```css
 img {
