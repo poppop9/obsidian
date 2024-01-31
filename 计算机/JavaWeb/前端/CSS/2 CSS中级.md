@@ -275,7 +275,8 @@ img {
 	- `flex-start`
 	- `flex-end`
 	- `stretch` 【默认】，拉伸flex项目填充满整个高度
-- `align-content`
+	- `baseline` 根据文本的底部线居中对齐
+- `align-content` 用于对齐弹性线
 
 
 
