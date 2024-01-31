@@ -505,10 +505,28 @@ ul.breadcrumb li+li:before {
 	- `column-rule-style` 规定列之间的分隔样式
 	- `column-rule-width` 规定列之间的分隔样式的宽度
 	- `column-rule-color` 规定列之间的分隔样式的颜色
-- `column-span` 规定元素应跨越多少列
-- `column-width`
+- `column-span` 规定元素应跨越多少列，<u>属性值为shu'zi</u>
+![[Excalidraw/计算机/JavaWeb Draw.md#^group=ePvyGHSk|900]]
+- `column-width` 为每一列指定最佳宽度
 
-![[Excalidraw/计算机/JavaWeb Draw.md#^group=ePvyGHSk]]
+```css
+div {
+	column-count: 3;   /* div将被划分为3列 */
+	column-gap: 40px;
+	column-rule: 1px solid lightblue;
+	column-width: 100px;
+}
+
+h2 {
+	column-span: all;
+}
+
+/* html */
+<div class="newspaper">
+<h2>第一回 宴桃园豪杰三结义 斩黄巾英雄首立功</h2>
+…………………………………………
+</div>
+```
 
 
 
