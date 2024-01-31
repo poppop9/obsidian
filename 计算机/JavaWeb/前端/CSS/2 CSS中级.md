@@ -68,7 +68,8 @@ h1.hidden {
 ### 行内块元素 inline-block
 >`inline-block` 结合了 `inline` 和 `block` 的优点
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=tsmJGJs5|500]]
-
+### 弹性容器 Flexbox
+[[#Flexbox]]
 ## max-width
 >`width` 当浏览器窗口小于元素的宽度时，浏览器会将水平滚动条添加到页面
 >`max-width` 可以改善浏览器对小窗口的处理，当浏览器窗口小于元素的宽度时，会自动换行
@@ -227,6 +228,34 @@ img {
 }
 ```
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=sgLQHiif|700]]
+# Flexbox
+>`Flexbox`可以更轻松地设计灵活的响应式布局结构，而无需使用 `float` 和`position`
+
+```css
+.flex-container {
+	display: flex;      /* 必须将父元素设置为flex */
+	background-color: DodgerBlue;
+}
+
+.flex-container > div {
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+}
+
+/* html */
+<div class="flex-container">
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>  
+</div>
+```
+
+
+
+
+
 # 伪类 - 状态选择器
 >伪类用于定义元素的***特殊状态***
 
