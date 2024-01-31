@@ -453,7 +453,6 @@ div {
 # 导航，分页
 >- 使用`<div>`中包含`<a>`
 >- 使用`<ul>`无序列表
-
 ## 分页
 ```css
 <div class="pagination">
@@ -499,6 +498,23 @@ ul.breadcrumb li+li:before {
 	<li>Italy</li>
 </ul>
 ```
+# 多列
+- `column-count` 规定元素应被划分的列数
+- `column-gap` 规定列之间的间隔大小
+- `column-rule` ***类比为border***
+	- `column-rule-style` 规定列之间的分隔样式
+	- `column-rule-width` 规定列之间的分隔样式的宽度
+	- `column-rule-color` 规定列之间的分隔样式的颜色
+- `column-rule`
+- `column-span`
+- `column-width`
+
+
+
+
+
+
+
 # 响应式
 
 ```css
