@@ -57,6 +57,16 @@
             }
           },
           {
+            "id": "ea5ec7dd16011e6b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/杂/杂 Draw.md"
+              }
+            }
+          },
+          {
             "id": "ac2297c9d782f2ec",
             "type": "leaf",
             "state": {
@@ -67,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -160,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-31 15.40.38.excalidraw.md"
+                "file": "Excalidraw/杂/杂 Draw.md"
               }
             }
           },
@@ -170,7 +180,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/Drawing 2024-01-31 15.40.38.excalidraw.md"
+                "file": "Excalidraw/杂/杂 Draw.md"
               }
             }
           },
@@ -202,45 +212,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "floating": {
-    "id": "b320cea062febbdf",
-    "type": "floating",
-    "children": [
-      {
-        "id": "16e8df1dc4fc2eca",
-        "type": "window",
-        "children": [
-          {
-            "id": "2bd73190ab3202fa",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0fb45e58deb82612",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2024-01-31 15.40.38.excalidraw.md"
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 256,
-        "y": 12,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "0fb45e58deb82612",
+  "active": "ea5ec7dd16011e6b",
   "lastOpenFiles": [
     "临时笔记/读心术.md",
-    "Excalidraw/Drawing 2024-01-31 15.40.38.excalidraw.md",
+    "Excalidraw/杂/杂 Draw.md",
+    "Excalidraw/杂/杂.md",
+    "Excalidraw/Excalidraw.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
     "Excalidraw/未命名.md",
     "临时笔记/穿搭.md",
     "临时笔记/草稿纸.md",
@@ -253,7 +231,6 @@
     "考试/操作系统考试.md",
     "临时笔记/Obsidian笔记编写规范.md",
     "科技美学/软件.md",
-    "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/Dance.md",
     "计算机/JavaWeb/前端/2 HTML 5.md",
     "图片库/Pasted Image 20240121113940_598.png",
@@ -265,8 +242,6 @@
     "计算机/JavaWeb/前端/CSS",
     "临时笔记/Obsidian特殊语法.md",
     "考试/试打印.md",
-    "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md",
-    "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "neil-jetbrains-mono.css",
     "Spaces/Home",
     "Spaces",
