@@ -237,6 +237,7 @@ img {
 	display: flex;      /* 必须将父元素设置为flex */
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .flex-container > div {
@@ -254,21 +255,22 @@ img {
 </div>
 ```
 
-- `flex-direction` 定义容器要在哪个方向上堆叠 flex 项目
+- `flex-direction` ***定义容器要在哪个方向上堆叠 flex 项目***
 	- `column` 在竖直方向上堆叠
 	- `column-reverse` 竖直，但是是从下到上
 	- `row` 水平
 	- `row-reverse`
-- `flex-wrap` 规定是否应该对 flex 项目换行
+- `flex-wrap` ***规定是否应该对 flex 项目换行***
 	- `wrap` 在必要时进行换行
 	- `nowrap` 【默认】，不对flex项目换行
 	- `wrap-reverse` 在必要时，flex项目将从下到上换行
-- `justify-content` 用于对齐flex项目
+- `justify-content` ***用于水平对齐flex项目***
 	- `center` 将flex项目在flex容器里居中
 	- `flex-start` 【默认】
 	- `flex-end` 在末端对齐
-	- 
-- `align-items`
+	- `space-around` 在每个flex项目的两侧都添加空间
+	- `space-between` 第一个flex项目的左侧不添加空间，最后一个flex项目的右侧不添加空间，其他都类似 `space-around`
+- `align-items` ***用于垂直对齐flex项目***
 - `align-content`
 
 
