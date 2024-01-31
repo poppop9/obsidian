@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Drawing 2024-01-31 15.40.38.excalidraw",
+      "path": "Excalidraw/Drawing 2024-01-31 15.40.38.excalidraw.md"
+    },
+    {
       "basename": "读心术",
       "path": "临时笔记/读心术.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "08 常用API",
       "path": "计算机/编程语言/Java/08 常用API.md"
-    },
-    {
-      "basename": "MYSQL安装配置",
-      "path": "计算机/数据库/MYSQL安装配置.md"
     }
   ],
   "omittedPaths": [],

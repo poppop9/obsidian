@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/读心术.md"
+                "file": "Excalidraw/Drawing 2024-01-31 15.40.38.excalidraw.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/读心术.md"
+                "file": "Excalidraw/Drawing 2024-01-31 15.40.38.excalidraw.md"
               }
             }
           },
@@ -202,10 +202,47 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4bae9f3e9f59955d",
+  "floating": {
+    "id": "b320cea062febbdf",
+    "type": "floating",
+    "children": [
+      {
+        "id": "16e8df1dc4fc2eca",
+        "type": "window",
+        "children": [
+          {
+            "id": "2bd73190ab3202fa",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0fb45e58deb82612",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2024-01-31 15.40.38.excalidraw.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 256,
+        "y": 12,
+        "width": 1024,
+        "height": 800,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "0fb45e58deb82612",
   "lastOpenFiles": [
-    "临时笔记/穿搭.md",
     "临时笔记/读心术.md",
+    "Excalidraw/Drawing 2024-01-31 15.40.38.excalidraw.md",
+    "Excalidraw/未命名.md",
+    "临时笔记/穿搭.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
@@ -230,8 +267,6 @@
     "考试/试打印.md",
     "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md",
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
-    "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
-    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "neil-jetbrains-mono.css",
     "Spaces/Home",
     "Spaces",
