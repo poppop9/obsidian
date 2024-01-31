@@ -77,7 +77,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/读心术.md"
+                "file": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
               }
             }
           },
@@ -180,7 +180,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/读心术.md"
+                "file": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
               }
             }
           },
@@ -212,10 +212,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4bae9f3e9f59955d",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
-    "Excalidraw/杂/杂 Draw.md",
     "临时笔记/读心术.md",
+    "Excalidraw/杂/杂 Draw.md",
     "临时笔记/穿搭.md",
     "Excalidraw/杂/杂.md",
     "Excalidraw/Excalidraw.md",
