@@ -24,6 +24,7 @@ tags:
 
 # Embedded files
 1027b37ce4dd43ab5dde83b78aecc1d4891b3741: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/%E5%9B%BE%E5%83%8F.png
+0da5070ee287eac9e95d28b76e40da9de91e6dda: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/%E5%9B%BE%E5%83%8F%20(1).png
 
 %%
 # Drawing
@@ -733,6 +734,39 @@ tags:
 			"containerId": null,
 			"originalText": "最诚实的大脑",
 			"lineHeight": 1.2
+		},
+		{
+			"type": "image",
+			"version": 32,
+			"versionNonce": 1079316876,
+			"isDeleted": false,
+			"id": "TcPfSLf8",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -251.62874418111204,
+			"y": 211.35744494096184,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 374.251497005988,
+			"height": 500,
+			"seed": 94768,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1706688312856,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "0da5070ee287eac9e95d28b76e40da9de91e6dda",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -751,7 +785,7 @@ tags:
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"scrollX": 454.713641073075,
-		"scrollY": 345.5535919257857,
+		"scrollY": 122.57608027152462,
 		"zoom": {
 			"value": 1.1211892990699381
 		},
