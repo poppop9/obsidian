@@ -505,9 +505,11 @@ ul.breadcrumb li+li:before {
 	- `column-rule-style` 规定列之间的分隔样式
 	- `column-rule-width` 规定列之间的分隔样式的宽度
 	- `column-rule-color` 规定列之间的分隔样式的颜色
-- `column-rule`
-- `column-span`
+- `column-span` 规定元素应跨越多少列
 - `column-width`
+
+![[Excalidraw/计算机/JavaWeb Draw.md#^group=ePvyGHSk]]
+
 
 
 
