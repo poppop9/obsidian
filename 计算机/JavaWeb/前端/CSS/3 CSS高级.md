@@ -403,6 +403,7 @@ div {
 >- 悬停时出现<u>同色系的阴影效果</u>/<u>黑白灰色系的阴影效果</u>
 >- 禁用某个按钮时，***降低***`opacity`透明度
 >- 点击时，出现涟漪效果
+>- 点击时，出现按钮被按下的效果
 
 ```css
 /* 对于涟漪效果的解析 */
@@ -416,17 +417,39 @@ div {
 	margin-left: -20px !important;
 	margin-top: -120%;
 	opacity: 0;
-	transition: all 0.8s
-}
+	transition: all 0.8s  /* 点击操作完成后，那就会以0.8s回到原始状态 */
+}               /* ::after会慢慢变大，但是会越来越透明 */
 
 .button:active:after {
 	padding: 0;
 	margin: 0;
 	opacity: 1;
 	transition: 0s   /* 按钮被点击，会以0s将::after伪元素设置为一个不透明的看不见的点 */
-}     /* ::after */
+}     /* ::after在button的后面，所以点击后，::after会出现在button的左下角 */
 ```
 
+```css
+.button {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;    /* 先设置一个长的阴影 */
+}
+
+.button:active {
+	background-color: #3e8e41;
+	transform: translateY(4px);      /* 被点击时，按钮向下移动Y */
+	box-shadow: 0 5px #666;   /* 阴影相应减少Y */
+}
+```
 
 # 响应式
 
