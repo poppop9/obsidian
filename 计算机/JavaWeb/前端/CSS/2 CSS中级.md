@@ -254,7 +254,7 @@ img {
 	<div>3</div>  
 </div>
 ```
-
+## 弹性容器
 - `flex-direction` ***定义容器要在哪个方向上堆叠 flex 项目***
 	- `column` 在竖直方向上堆叠
 	- `column-reverse` 竖直，但是是从下到上
@@ -283,6 +283,19 @@ img {
 	- `center` 每一行的无间距的挤到中间
 	- `flex-start` 每一行都挤到上面
 	- `flex-end` 每一行都挤到下面
+## 弹性项目
+- `order`
+- `flex-grow`
+- `flex-shrink`
+- `flex-basis`
+- `flex`
+- `align-self`
+
+
+
+
+
+
 
 
 
