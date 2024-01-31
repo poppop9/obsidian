@@ -450,6 +450,28 @@ div {
 	box-shadow: 0 5px #666;   /* 阴影相应减少Y */
 }
 ```
+# 分页
+>一般使用`<div>`中包含`<a>`
+
+```css
+<div class="pagination">
+	<a href="#">«</a>
+	<a href="#">1</a>
+	<a class="active" href="#">2</a>
+	<a href="#">3</a>
+	<a href="#">»</a>
+</div>
+```
+<div class="pagination">
+	<a href="#">«</a>
+	<a href="#">1</a>
+	<a class="active" href="#">2</a>
+	<a href="#">3</a>
+	<a href="#">4</a>
+	<a href="#">5</a>
+	<a href="#">6</a>
+	<a href="#">»</a>
+</div>
 
 # 响应式
 
