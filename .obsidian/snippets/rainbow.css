@@ -801,22 +801,18 @@ div.cm-active.cm-line .cm-s-obsidian .cm-formatting {
 	margin: 0.2rem;
 }
 
-/* 编辑模式，行内代码 */
+/* 编辑模式 */
 .cm-s-obsidian .cm-inline-code:not(.cm-formatting) {
 	font-family: "Source Code Pro Regular", "Source Code Pro", monospace;
 	padding: 0.1rem 0.17rem;
-	margin-left: 0.25rem;
-	margin-right: 0.28rem;
+	margin-left: 0.07rem;
+	margin-right: 0.2rem;
 	box-shadow: 0.12rem 0.02rem 0.4rem rgb(150, 150, 150);
 }
 
 .theme-light .cm-s-obsidian .cm-inline-code:not(.cm-formatting) {
 	background-color: rgb(247, 247, 247);
 }
-
-/* .theme-dark .cm-s-obsidian .cm-inline-code:not(.cm-formatting) {
-	background-color: rgb(63, 60, 60);
-} */
 
 /* 阅读模式，行内代码 */
 .markdown-rendered code:not(pre code) {
