@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "3 CSS高级",
-      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+      "basename": "2 CSS中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "1 CSS初级",
       "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+    },
+    {
+      "basename": "3 CSS高级",
+      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
     },
     {
       "basename": "草稿纸",
@@ -27,10 +31,6 @@
     {
       "basename": "操作系统考试",
       "path": "考试/操作系统考试.md"
-    },
-    {
-      "basename": "2 CSS中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "Obsidian笔记编写规范",

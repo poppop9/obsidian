@@ -314,7 +314,6 @@ div:hover p {
 
 # 伪元素
 >伪元素用于设置元素指定部分的样式，可以在内容之前或之后插入内容
-
 ## ::first-line
 >向文本的 ***首行*** 添加特殊样式，==只能应用于块级元素==
 
@@ -341,7 +340,6 @@ div:hover p {
 > - text-transform
 > - line-height
 > - clear
-
 ## ::first-letter
 >向文本的 ***首字母*** 添加特殊样式，==只适用于块级元素==
 
@@ -362,7 +360,6 @@ p::first-letter {
 > - line-height
 > - float
 > - clear
-
 ## ::before
 >在元素内容之前插入一些内容
 
@@ -372,10 +369,8 @@ h1::before {
     content: url(/i/photo/smile.gif);
 }
 ```
-
 ## ::after
 >在元素内容之后插入一些内容
-
 ## ::selection
 >匹配用户选择的元素部分
 
