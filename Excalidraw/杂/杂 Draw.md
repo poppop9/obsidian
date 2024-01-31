@@ -29,6 +29,7 @@ tags:
 eac7faa8e583c9d9e993182c6e43cf66ba10e433: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/%E5%9B%BE%E5%83%8F%20(2).png
 3f87fb48c470aa9ba72505b7d6ec3f92fe94b545: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/%E5%9B%BE%E5%83%8F%20(3).png
 5bc21df4939703cf87233926fef0dbadce6b7510: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/%E5%9B%BE%E5%83%8F%20(4).png
+0b9cc45ea857e1890590c8c8e021970a6fcc920a: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/%E5%9B%BE%E5%83%8F%20(5).png
 
 %%
 # Drawing
@@ -903,6 +904,39 @@ eac7faa8e583c9d9e993182c6e43cf66ba10e433: https://obsidian-1307744200.cos.ap-gua
 			"locked": false,
 			"status": "pending",
 			"fileId": "5bc21df4939703cf87233926fef0dbadce6b7510",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"type": "image",
+			"version": 26,
+			"versionNonce": 511939084,
+			"isDeleted": false,
+			"id": "SmbgmaLJ",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 144.3283718294191,
+			"y": 1104.1365956957668,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 293.2551319648094,
+			"height": 500.00000000000006,
+			"seed": 12383,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1706696958312,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "0b9cc45ea857e1890590c8c8e021970a6fcc920a",
 			"scale": [
 				1,
 				1
