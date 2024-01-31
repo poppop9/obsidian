@@ -262,8 +262,12 @@ img {
 - `flex-wrap` 规定是否应该对 flex 项目换行
 	- `wrap` 在必要时进行换行
 	- `nowrap` 【默认】，不对flex项目换行
-- `flex-flow`
-- `justify-content`
+	- `wrap-reverse` 在必要时，flex项目将从下到上换行
+- `justify-content` 用于对齐flex项目
+	- `center` 将flex项目在flex容器里居中
+	- `flex-start` 【默认】
+	- `flex-end` 在末端对齐
+	- 
 - `align-items`
 - `align-content`
 
