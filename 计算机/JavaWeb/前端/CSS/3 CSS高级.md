@@ -450,9 +450,11 @@ div {
 	box-shadow: 0 5px #666;   /* 阴影相应减少Y */
 }
 ```
-# 分页
->一般使用`<div>`中包含`<a>`
+# 导航，分页
+>- 使用`<div>`中包含`<a>`
+>- 使用`<ul>`无序列表
 
+## 分页
 ```css
 <div class="pagination">
 	<a href="#">«</a>
@@ -473,6 +475,30 @@ div {
 	<a href="#">»</a>
 </div>
 
+## 面包屑导航
+```css
+ul.breadcrumb {
+	padding: 8px 16px;
+	list-style: none;
+	background-color: #eee;
+}
+
+ul.breadcrumb li {display: inline;}
+
+ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+}
+
+/* html */
+<ul class="breadcrumb">
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Pictures</a></li>
+	<li><a href="#">Summer 15</a></li>
+	<li>Italy</li>
+</ul>
+```
 # 响应式
 
 ```css
