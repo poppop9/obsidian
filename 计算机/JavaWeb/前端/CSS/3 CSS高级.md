@@ -555,6 +555,15 @@ img {
 	height: auto;
 }
 ```
+# CSS 变量
+>使用var函数来创建变量，`var(name, value)`，CSS 变量可以访问 DOM，这意味着您可以创建局部或全局变量，使用 JavaScript 来修改变量，以及基于媒体查询来修改变量
+
+
+
+
+
+
+
 
 # 问题
 ```html
