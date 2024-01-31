@@ -233,8 +233,10 @@ img {
 
 ```css
 .flex-container {
-	display: flex;      /* 必须将父元素设置为flex */
 	background-color: DodgerBlue;
+	display: flex;      /* 必须将父元素设置为flex */
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 .flex-container > div {
@@ -245,16 +247,22 @@ img {
 }
 
 /* html */
-<div class="flex-container">
-	<div>1</div>
+<div class="flex-container">   /* flex容器 */
+	<div>1</div>        /* flex项目 */
 	<div>2</div>
 	<div>3</div>  
 </div>
 ```
 
-- `[flex-direction]` 定义容器要在哪个方向上堆叠 flex 项目
-- `[flex-wrap]`
-- `[flex-flow]`
+- `flex-direction` 定义容器要在哪个方向上堆叠 flex 项目
+	- `column` 在竖直方向上堆叠
+	- `column-reverse` 竖直，但是是从下到上
+	- `row` 水平
+	- `row-reverse`
+- `flex-wrap` 规定是否应该对 flex 项目换行
+	- `wrap` 在必要时进行换行
+	- `nowrap` 【默认】，不对flex项目换行
+- `flex-flow`
 - `justify-content`
 - `align-items`
 - `align-content`
