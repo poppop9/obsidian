@@ -404,6 +404,29 @@ div {
 >- 禁用某个按钮时，***降低***`opacity`透明度
 >- 点击时，出现涟漪效果
 
+```css
+/* 对于涟漪效果的解析 */
+.button:after {
+	content: "";
+	background: #f1f1f1;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px !important;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s
+}
+
+.button:active:after {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s   /* 按钮被点击，会以0s将::after伪元素设置为一个不透明的看不见的点 */
+}     /* ::after */
+```
+
 
 # 响应式
 
