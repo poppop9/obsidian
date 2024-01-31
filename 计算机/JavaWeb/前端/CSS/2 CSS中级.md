@@ -271,6 +271,10 @@ img {
 	- `space-around` 在每个flex项目的两侧都添加空间
 	- `space-between` 第一个flex项目的左侧不添加空间，最后一个flex项目的右侧不添加空间，其他都类似 `space-around`
 - `align-items` ***用于垂直对齐flex项目***
+	- `center`
+	- `flex-start`
+	- `flex-end`
+	- `stretch` 【默认】，拉伸flex项目填充满整个高度
 - `align-content`
 
 
