@@ -536,13 +536,18 @@ h2 {
 
 
 # 用户，响应式
-`resize` 规定元素应如何被用户调整大小
+## 自由调整大小
+>`resize` 规定元素应如何被用户调整大小
+>![[Excalidraw/计算机/JavaWeb Draw.md#^group=L6YLgDod]]
 
 ```css
-resize: horizontal;
+resize: horizontal;   /* 只允许用户调整宽度 */
+resize: vertical;    /* 只允许用户调整高度 */
+resize: both;     /* 允许用户调整 高度 和 宽度 */
+resize: none;    /* 禁止用户调整 */
 ```
 
-
+---
 
 ```css
 img {
