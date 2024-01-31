@@ -558,12 +558,21 @@ img {
 # CSS 变量
 >CSS 变量可以访问 DOM，这意味着您可以创建局部或全局变量，使用 JavaScript 来修改变量，以及基于媒体查询来修改变量
 
-语法：`var(name, value)`，`name` 必须以两个破折号（--）开头，且区分大小写！
+`var(name, value)`，`name` 必须以两个破折号“--”开头，且区分大小写
 
-发大水了 `fds` 必须
-发大水了`fds`必须
+- 创建具有全局作用域的变量，在 `:root选择器` 中声明
+- 创建具有局部作用域的变量，在<u>将要使用它的选择器</u>中声明它
 
+```css
+:root {
+	--blue: #1e90ff;
+	--white: #ffffff;
+}
 
+body {
+	background-color: var(--blue); 
+}
+```
 
 
 # 问题
