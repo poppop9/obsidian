@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/穿搭.md",
+                "file": "临时笔记/读心术.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "临时笔记/读心术.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "临时笔记/读心术.md"
               }
             }
           },
@@ -204,13 +204,14 @@
   },
   "active": "4bae9f3e9f59955d",
   "lastOpenFiles": [
+    "临时笔记/穿搭.md",
+    "临时笔记/读心术.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "临时笔记/DDED.md",
-    "临时笔记/穿搭.md",
     "计算机/四大件/计算机网络2.md",
     "考试/操作系统考试.md",
     "临时笔记/Obsidian笔记编写规范.md",
@@ -231,7 +232,6 @@
     "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md",
     "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
-    "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
     "neil-jetbrains-mono.css",
     "Spaces/Home",
     "Spaces",
