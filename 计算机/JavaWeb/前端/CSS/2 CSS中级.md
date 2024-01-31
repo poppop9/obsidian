@@ -252,6 +252,12 @@ img {
 </div>
 ```
 
+- `[flex-direction]` 定义容器要在哪个方向上堆叠 flex 项目
+- `[flex-wrap]`
+- `[flex-flow]`
+- `justify-content`
+- `align-items`
+- `align-content`
 
 
 
