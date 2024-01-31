@@ -277,7 +277,12 @@ img {
 	- `stretch` 【默认】，拉伸flex项目填充满整个高度
 	- `baseline` 根据文本的底部线居中对齐
 - `align-content` ***用于不同行之间的flex项目应该如何垂直对齐***
-
+	- `stretch` 【默认】，拉伸每一行以填充满整个高度
+	- `space-around` 在有多行时，每一行的上下都添加相同间距
+	- `space-between` 在有多行时，第一行的上面无间距，最后一行的下面无间距，其他行平分间距
+	- `center` 每一行的无间距的挤到中间
+	- `flex-start` 每一行都挤到上面
+	- `flex-end` 每一行都挤到下面
 
 
 
