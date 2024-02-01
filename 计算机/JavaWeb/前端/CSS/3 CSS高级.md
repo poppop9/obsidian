@@ -566,34 +566,54 @@ resize: none;    /* 禁止用户调整 */
 	- `speech` 大声“读出”页面的屏幕阅读器
 - `expressions` 表达式的值可以为<u>true</u> / <u>false</u>
 ## 例子
-- 响应式菜单
 ```css
-#leftsidebar {
-	float: none;   /* 窗口小时菜单占一行 */
-	width: auto;
+* {
+	box-sizing: border-box;  /* 表明宽度是包括padding，border的 */
 }
-……
 
-/* 窗口大时，将菜单左侧浮动 */
-@media screen and (min-width: 480px) { 
-	#leftsidebar {width: 200px; float: left;}
+.row {
+	display: flex;   
+	flex-wrap: wrap;  /* 在必要时，换行 */
 }
+
+.column {
+	flex: 25%;
+	padding: 20px;
+}
+
+/* 在 992px 或更小的屏幕上，从四列变为两列 */
+@media screen and (max-width: 992px) {
+	.column {
+		flex: 50%;
+	}
+}
+
+/* 在宽度小于或等于 60px 的屏幕上，使列堆叠在一起，而不是彼此相邻 */
+@media screen and (max-width: 600px) {
+	.row {
+		flex-direction: column;
+	}
+}
+
+
 
 /* html */
-<div class="wrapper">
-	<div id="leftsidebar">
-		<ul id="menulist">
-			<li class="menuitem">Menu-item 1</li>
-			<li class="menuitem">Menu-item 2</li>
-			<li class="menuitem">Menu-item 3</li>
-			<li class="menuitem">Menu-item 4</li>
-			<li class="menuitem">Menu-item 5</li>
-		</ul>
+<div class="row">
+	<div class="column" style="background-color:#aaa;">
+		<h2>Column 1</h2>
+		<p>Some text..</p>
 	</div>
-  
-	<div id="main">
-		<h1>请调整浏览器窗口大小来查看效果！</h1>
-		<p>本例显示了一个菜单，如果视口为 480 像素或更宽，它将向页面左侧浮动。如果视口小于 480 像素，则菜单将位于内容的顶部。</p>
+	<div class="column" style="background-color:#bbb;">
+		<h2>Column 2</h2>
+		<p>Some text..</p>
+	</div>
+	<div class="column" style="background-color:#ccc;">
+		<h2>Column 3</h2>
+		<p>Some text..</p>
+	</div>
+	<div class="column" style="background-color:#ddd;">
+		<h2>Column 4</h2>
+		<p>Some text..</p>
 	</div>
 </div>
 ```
