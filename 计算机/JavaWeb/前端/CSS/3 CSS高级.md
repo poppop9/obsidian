@@ -527,7 +527,7 @@ h2 {
 </div>
 ```
 
-# 用户，响应式
+# 响应式
 ## 自由调整大小
 >`resize` 规定元素应如何被用户调整大小
 >![[Excalidraw/计算机/JavaWeb Draw.md#^group=L6YLgDod]]
@@ -538,15 +538,20 @@ resize: vertical;    /* 只允许用户调整高度 */
 resize: both;     /* 允许用户调整 高度 和 宽度 */
 resize: none;    /* 禁止用户调整 */
 ```
+## 媒体查询
+媒体查询可用于检查：
+- 视口的宽度和高度
+- 设备的宽度和高度
+- 方向【平板电脑/手机处于<u>横向/纵向模式</u>】
+- 分辨率
 
----
 
-```css
-img {
-	max-width: 100%;
-	height: auto;
-}
-```
+
+
+
+
+
+
 # CSS 变量
 > `var(name, [value])`，`name` 必须以两个破折号“--”开头，且区分大小写
 > 
