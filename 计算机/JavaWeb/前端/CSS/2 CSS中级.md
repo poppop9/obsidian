@@ -284,14 +284,21 @@ img {
 	- `flex-start` 每一行都挤到上面
 	- `flex-end` 每一行都挤到下面
 ## 弹性项目
-- `order`
+- `order` 规定flex项目的顺序
 - `flex-grow`
 - `flex-shrink`
 - `flex-basis`
 - `flex`
 - `align-self`
 
-
+```html
+<div class="flex-container">
+  <div style="order: 3">1</div>
+  <div style="order: 2">2</div>
+  <div style="order: 4">3</div> 
+  <div style="order: 1">4</div>
+</div>
+```
 
 
 

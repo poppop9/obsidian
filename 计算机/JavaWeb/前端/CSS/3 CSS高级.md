@@ -508,7 +508,6 @@ ul.breadcrumb li+li:before {
 - `column-span` 规定元素应跨越多少列，<u>属性值为阿拉伯数字</u>
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=ePvyGHSk|900]]
 - `column-width` 为每一列指定最佳宽度
-
 ```css
 div {
 	column-count: 3;   /* div将被划分为3列 */
@@ -527,13 +526,6 @@ h2 {
 …………………………………………
 </div>
 ```
-
-
-
-
-
-
-
 
 # 用户，响应式
 ## 自由调整大小
