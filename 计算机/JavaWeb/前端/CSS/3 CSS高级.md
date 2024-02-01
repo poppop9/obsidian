@@ -568,21 +568,33 @@ resize: none;    /* 禁止用户调整 */
 
 ---
 ```css
+#leftsidebar {
+	float: none;   /* 窗口小时菜单占一行 */
+	width: auto;
+}
+……
+
+/* 窗口大时，将菜单左侧浮动 */
+@media screen and (min-width: 480px) { 
+	#leftsidebar {width: 200px; float: left;}
+}
+
+/* html */
 <div class="wrapper">
 	<div id="leftsidebar">
 		<ul id="menulist">
-	<li class="menuitem">Menu-item 1</li>
-	<li class="menuitem">Menu-item 2</li>
-	<li class="menuitem">Menu-item 3</li>
-	<li class="menuitem">Menu-item 4</li>
-	<li class="menuitem">Menu-item 5</li>
+			<li class="menuitem">Menu-item 1</li>
+			<li class="menuitem">Menu-item 2</li>
+			<li class="menuitem">Menu-item 3</li>
+			<li class="menuitem">Menu-item 4</li>
+			<li class="menuitem">Menu-item 5</li>
 		</ul>
 	</div>
   
-  <div id="main">
-    <h1>请调整浏览器窗口大小来查看效果！</h1>
-    <p>本例显示了一个菜单，如果视口为 480 像素或更宽，它将向页面左侧浮动。如果视口小于 480 像素，则菜单将位于内容的顶部。</p>
-  </div>
+	<div id="main">
+		<h1>请调整浏览器窗口大小来查看效果！</h1>
+		<p>本例显示了一个菜单，如果视口为 480 像素或更宽，它将向页面左侧浮动。如果视口小于 480 像素，则菜单将位于内容的顶部。</p>
+	</div>
 </div>
 ```
 
