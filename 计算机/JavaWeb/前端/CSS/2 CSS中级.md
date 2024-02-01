@@ -287,9 +287,9 @@ img {
 - `order` 规定flex项目的顺序
 - `flex-grow` 规定某个flex项目相对于其余flex项目将增长多少， https://www.w3school.com.cn/tiy/t.asp?f=css3_flexbox_flex-grow
 - `flex-shrink` 规定某个flex项目相对于其余flex项目将收缩多少
-- `flex-basis`
-- `flex`
-- `align-self`
+- `flex-basis` 规定flex项目的初始长度
+- `flex` 
+- `align-self` 
 
 ```html
 /* order */
@@ -305,6 +305,12 @@ img {
 	<div style="flex-grow: 1">1</div>
 	<div style="flex-grow: 1">2</div>
 	<div style="flex-grow: 8">3</div> /* 该flex项目增长速度比其他flex项目8倍*/
+</div>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div style="flex-shrink: 3">3</div> /* 该flex项目比其他flex项目缩小3倍*/
 </div>
 ```
 
