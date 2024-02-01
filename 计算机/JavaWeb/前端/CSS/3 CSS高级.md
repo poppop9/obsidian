@@ -558,6 +558,11 @@ resize: none;    /* 禁止用户调整 */
 		background-color: lightgreen;
 	}
 }
+
+/* 当浏览器的宽度在600~900px之间时…… */
+@media screen and (max-width: 900px) and (min-width: 600px) {……}
+
+@media screen and (max-width: 900px), (min-width: 1100px) {……}
 ```
 - `mediatype`
 	- `all` 所有媒体类型设备
@@ -594,8 +599,6 @@ resize: none;    /* 禁止用户调整 */
 		flex-direction: column;
 	}
 }
-
-
 
 /* html */
 <div class="row">
