@@ -565,8 +565,8 @@ resize: none;    /* 禁止用户调整 */
 	- `screen` 计算机屏幕、平板电脑、智能手机等等
 	- `speech` 大声“读出”页面的屏幕阅读器
 - `expressions` 表达式的值可以为<u>true</u> / <u>false</u>
-
----
+## 例子
+- 响应式菜单
 ```css
 #leftsidebar {
 	float: none;   /* 窗口小时菜单占一行 */
