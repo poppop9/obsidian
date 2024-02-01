@@ -285,18 +285,26 @@ img {
 	- `flex-end` 每一行都挤到下面
 ## 弹性项目
 - `order` 规定flex项目的顺序
-- `flex-grow`
-- `flex-shrink`
+- `flex-grow` 规定某个flex项目相对于其余flex项目将增长多少， https://www.w3school.com.cn/tiy/t.asp?f=css3_flexbox_flex-grow
+- `flex-shrink` 规定某个flex项目相对于其余flex项目将收缩多少
 - `flex-basis`
 - `flex`
 - `align-self`
 
 ```html
+/* order */
 <div class="flex-container">
-  <div style="order: 3">1</div>
-  <div style="order: 2">2</div>
-  <div style="order: 4">3</div> 
-  <div style="order: 1">4</div>
+	<div style="order: 3">1</div>   /* 虽然在布局中是第一个，但不是flex项目的第一个 */
+	<div style="order: 2">2</div>
+	<div style="order: 4">3</div> 
+	<div style="order: 1">4</div>
+</div>
+
+/* flex-grow */
+<div class="flex-container">
+	<div style="flex-grow: 1">1</div>
+	<div style="flex-grow: 1">2</div>
+	<div style="flex-grow: 8">3</div> /* 该flex项目增长速度比其他flex项目8倍*/
 </div>
 ```
 
