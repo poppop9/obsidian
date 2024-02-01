@@ -941,6 +941,39 @@ eac7faa8e583c9d9e993182c6e43cf66ba10e433: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"type": "image",
+			"version": 22,
+			"versionNonce": 1133092748,
+			"isDeleted": true,
+			"id": "fTedsClv",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 515.9933352954697,
+			"y": 1135.5212486404785,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 347.46351633078524,
+			"height": 500,
+			"seed": 67180,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1706797925772,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "82eebffe23436d395b7dc5b377c93fcf266b6772",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -958,8 +991,8 @@ eac7faa8e583c9d9e993182c6e43cf66ba10e433: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -15.417419933217872,
-		"scrollY": -365.3673813590776,
+		"scrollX": -15.4174199332179,
+		"scrollY": -749.9827659744624,
 		"zoom": {
 			"value": 0.6499999999999997
 		},
