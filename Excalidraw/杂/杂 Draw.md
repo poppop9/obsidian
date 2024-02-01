@@ -7,23 +7,23 @@ tags:
 
 
 # Text Elements
-人类大脑 ^xqbo1e9G
+人类大脑 ^1hJApFFU
 
-边缘系统 ^SpU3l0Od
+边缘系统 ^JaovgRxB
 
-脑干 ^ezGVKXoq
+边缘系统 ^Ngpud6DI
 
-最会说谎的大脑 ^waljKySz
+脑干 ^FEAfxGWY
 
-边缘系统 ^4vw8feEY
+最会说谎的大脑 ^mP5y8PaN
 
-哺乳动物类脑 ^nAYeCfYW
+哺乳动物类脑 ^3U3v2kIx
 
-最诚实的大脑 ^dmn4499G
+最诚实的大脑 ^V8KdHbFF
 
 
 # Embedded files
-1027b37ce4dd43ab5dde83b78aecc1d4891b3741: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/%E5%9B%BE%E5%83%8F.png
+43f505886936dcfe2d4ce42bb2dc39e6bc69a46c: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/%E5%9B%BE%20(1).png
 
 %%
 # Drawing
@@ -35,34 +35,32 @@ tags:
 	"elements": [
 		{
 			"type": "image",
-			"version": 67,
-			"versionNonce": 1775996852,
+			"version": 98,
+			"versionNonce": 1511968918,
 			"isDeleted": false,
-			"id": "GB79DpDR",
+			"id": "YMlSBk1Z",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -172.7981701726249,
-			"y": -339.4700712482889,
+			"x": -232.75606068962222,
+			"y": -361.95348410919695,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 356.2360636776789,
-			"height": 512.62369563218,
-			"seed": 94695,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 500.00000000000006,
+			"height": 335.8355091383812,
+			"seed": 16459,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706689978546,
+			"updated": 1706798974566,
 			"link": null,
 			"locked": false,
 			"status": "pending",
-			"fileId": "1027b37ce4dd43ab5dde83b78aecc1d4891b3741",
+			"fileId": "43f505886936dcfe2d4ce42bb2dc39e6bc69a46c",
 			"scale": [
 				1,
 				1
@@ -70,32 +68,30 @@ tags:
 		},
 		{
 			"type": "line",
-			"version": 73,
-			"versionNonce": 1596814732,
+			"version": 230,
+			"versionNonce": 2097146262,
 			"isDeleted": false,
-			"id": "RAuPapjhdFt4kwv1K5-SR",
+			"id": "1q4wmS7GNYwJvJ3gI3Zex",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -214.34391072871603,
-			"y": -139.7899264789261,
+			"x": -221.0386396881218,
+			"y": -274.18637560191684,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 89.191031880639,
-			"height": 5.708218854562176,
-			"seed": 807092108,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 94.35982006530237,
+			"height": 6.03902088195007,
+			"seed": 595105750,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706689978546,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -109,40 +105,38 @@ tags:
 					0
 				],
 				[
-					89.191031880639,
-					-5.708218854562176
+					94.35982006530237,
+					-6.03902088195007
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 91,
-			"versionNonce": 722962857,
+			"version": 248,
+			"versionNonce": 1740261078,
 			"isDeleted": false,
-			"id": "xqbo1e9G",
+			"id": "1hJApFFU",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -254.30146992958583,
-			"y": -131.76276327830723,
+			"x": -263.3118146580954,
+			"y": -265.6940231840318,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 80.03999328613281,
-			"height": 24,
-			"seed": 1936092340,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 84.67846155894695,
+			"height": 25.390845175980623,
+			"seed": 260254998,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706798908786,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
-			"fontSize": 20,
+			"fontSize": 21.15903764665052,
 			"fontFamily": 4,
 			"text": "人类大脑",
 			"rawText": "人类大脑",
@@ -151,36 +145,34 @@ tags:
 			"containerId": null,
 			"originalText": "人类大脑",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 18.999999999999993
 		},
 		{
 			"type": "line",
-			"version": 68,
-			"versionNonce": 1467933708,
+			"version": 225,
+			"versionNonce": 1572273174,
 			"isDeleted": false,
-			"id": "rbNFsfr6_5AYrm6CeyLip",
+			"id": "ruZoyIXdWeQatKXaFfdq5",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 170.24768504119282,
-			"y": -21.344283175756402,
+			"x": 185.84076298592333,
+			"y": -148.87658431524153,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 71.35280372936359,
-			"height": 0.7135443686543681,
-			"seed": 1344190860,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 75.48783301518348,
+			"height": 0.7548956079456626,
+			"seed": 1611209302,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706689978546,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -194,40 +186,38 @@ tags:
 					0
 				],
 				[
-					71.35280372936359,
-					0.7135443686543681
+					75.48783301518348,
+					0.7548956079456626
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 95,
-			"versionNonce": 1530790247,
+			"version": 252,
+			"versionNonce": 1961560406,
 			"isDeleted": false,
-			"id": "SpU3l0Od",
+			"id": "JaovgRxB",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 214.48645601611958,
-			"y": -16.70636726470849,
+			"x": 232.64325401092447,
+			"y": -143.9698924470484,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 80.03999328613281,
-			"height": 24,
-			"seed": 629625652,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 84.67846155894695,
+			"height": 25.390845175980623,
+			"seed": 467623830,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706798908787,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
-			"fontSize": 20,
+			"fontSize": 21.15903764665052,
 			"fontFamily": 4,
 			"text": "边缘系统",
 			"rawText": "边缘系统",
@@ -236,37 +226,35 @@ tags:
 			"containerId": null,
 			"originalText": "边缘系统",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 18.999999999999993
 		},
 		{
 			"type": "text",
-			"version": 98,
-			"versionNonce": 11168905,
+			"version": 255,
+			"versionNonce": 1017867926,
 			"isDeleted": false,
-			"id": "4vw8feEY",
+			"id": "Ngpud6DI",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -228.9712300494487,
-			"y": 14.688877263785287,
+			"x": -236.51363969696973,
+			"y": -110.75523440183849,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 80.03999328613281,
-			"height": 24,
-			"seed": 684012428,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 84.67846155894695,
+			"height": 25.390845175980623,
+			"seed": 658177238,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706798908787,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
-			"fontSize": 20,
+			"fontSize": 21.15903764665052,
 			"fontFamily": 4,
 			"text": "边缘系统",
 			"rawText": "边缘系统",
@@ -275,36 +263,34 @@ tags:
 			"containerId": null,
 			"originalText": "边缘系统",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 18.999999999999993
 		},
 		{
 			"type": "line",
-			"version": 74,
-			"versionNonce": 1885977652,
+			"version": 231,
+			"versionNonce": 296561622,
 			"isDeleted": false,
-			"id": "Tn15PBRQ-Yhm5dcj1SXVV",
+			"id": "gOhD_ohj7A9gPkASXFpw4",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -183.6622105688766,
-			"y": 10.050961352737374,
+			"x": -188.57887725085746,
+			"y": -115.66192627003161,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 69.21225228020407,
+			"width": 73.22323258031557,
 			"height": 0,
-			"seed": 2138663820,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"seed": 397472278,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706689978546,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -318,39 +304,37 @@ tags:
 					0
 				],
 				[
-					69.21225228020407,
+					73.22323258031557,
 					0
 				]
 			]
 		},
 		{
 			"type": "line",
-			"version": 62,
-			"versionNonce": 1900433676,
+			"version": 219,
+			"versionNonce": 1912946966,
 			"isDeleted": false,
-			"id": "fGIj-23WU4nk-QK_7xhOm",
+			"id": "ygAxujwWO-CNegQwg-KxY",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -88.04944268395559,
-			"y": 50.008520553607184,
+			"x": -87.42516949198239,
+			"y": -73.38875130005805,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 93.47216199789244,
-			"height": 0.7135171497198485,
-			"seed": 1642234036,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 98.88904973136111,
+			"height": 0.7548668116226525,
+			"seed": 137772886,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706689978546,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -364,40 +348,38 @@ tags:
 					0
 				],
 				[
-					93.47216199789244,
-					-0.7135171497198485
+					98.88904973136111,
+					-0.7548668116226525
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 91,
-			"versionNonce": 115817607,
+			"version": 248,
+			"versionNonce": 1361620566,
 			"isDeleted": false,
-			"id": "ezGVKXoq",
+			"id": "FEAfxGWY",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 6.849753613376436,
-			"y": 40.73268873151136,
+			"x": 12.97361386262395,
+			"y": -83.20213503644426,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 40.03999328613281,
-			"height": 24,
-			"seed": 1378807692,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 42.360386265645914,
+			"height": 25.390845175980623,
+			"seed": 1830806678,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706798908788,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
-			"fontSize": 20,
+			"fontSize": 21.15903764665052,
 			"fontFamily": 4,
 			"text": "脑干",
 			"rawText": "脑干",
@@ -406,37 +388,35 @@ tags:
 			"containerId": null,
 			"originalText": "脑干",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 18.999999999999993
 		},
 		{
 			"type": "text",
-			"version": 151,
-			"versionNonce": 731771753,
+			"version": 308,
+			"versionNonce": 1810658198,
 			"isDeleted": false,
-			"id": "waljKySz",
+			"id": "mP5y8PaN",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -337.2491314839055,
-			"y": -178.32047859929077,
+			"x": -351.06644933456914,
+			"y": -314.9498457449682,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 140.0399932861328,
-			"height": 24,
-			"seed": 1498625972,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 148.15557449889852,
+			"height": 25.390845175980623,
+			"seed": 1747116502,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706798908790,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
-			"fontSize": 20,
+			"fontSize": 21.15903764665052,
 			"fontFamily": 4,
 			"text": "最会说谎的大脑",
 			"rawText": "最会说谎的大脑",
@@ -445,36 +425,34 @@ tags:
 			"containerId": null,
 			"originalText": "最会说谎的大脑",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 18.999999999999993
 		},
 		{
 			"type": "line",
-			"version": 102,
-			"versionNonce": 145178420,
+			"version": 259,
+			"versionNonce": 478515414,
 			"isDeleted": false,
-			"id": "2oYeHaZofcxp28dwq_Gq3",
+			"id": "01l0rL-l6U2MwhihBKo-1",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -185.08924486831626,
-			"y": 9.337416984083006,
+			"x": -190.08861087410264,
+			"y": -116.41682187797727,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 69.92571499205485,
-			"height": 27.82760434202561,
-			"seed": 1366358540,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 73.97804179929216,
+			"height": 29.440266394450767,
+			"seed": 475281174,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706689978546,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -488,47 +466,45 @@ tags:
 					0
 				],
 				[
-					4.9946744859078365,
-					-26.400515604716873
+					5.284125274004437,
+					-27.93047517855944
 				],
 				[
-					65.64455765586683,
-					-27.11405997337124
+					69.44878333691035,
+					-28.685370786505104
 				],
 				[
-					69.92571499205485,
-					0.7135443686543681
+					73.97804179929216,
+					0.7548956079456626
 				]
 			]
 		},
 		{
 			"type": "line",
-			"version": 103,
-			"versionNonce": 668368396,
+			"version": 260,
+			"versionNonce": 780731926,
 			"isDeleted": false,
-			"id": "2KotAnXddfd2sUOt2VVM7",
+			"id": "UtCVewB8UiF22g_MSrijl",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 170.96125662878177,
-			"y": -22.05780032547625,
+			"x": 186.59568739019198,
+			"y": -149.6314511268642,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 69.92571499205485,
-			"height": 35.67640186468179,
-			"seed": 1870412044,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 73.97804179929216,
+			"height": 37.74391650759174,
+			"seed": 36234326,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706689978546,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -542,47 +518,45 @@ tags:
 					0
 				],
 				[
-					9.275831822095824,
-					-32.822306046867936
+					9.813383736386221,
+					-34.724420464778184
 				],
 				[
-					64.93104050614704,
-					-29.25466586039977
+					68.69391652528776,
+					-30.95002881401902
 				],
 				[
-					69.92571499205485,
-					2.8540958178138567
+					73.97804179929216,
+					3.01949604281356
 				]
 			]
 		},
 		{
 			"type": "line",
-			"version": 83,
-			"versionNonce": 1163999412,
+			"version": 240,
+			"versionNonce": 854315862,
 			"isDeleted": false,
-			"id": "qLhXJo-4AmFzZ-_5McFg0",
+			"id": "_1R1fTsaPzI-srcR15axz",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -99.46588039308,
-			"y": 89.25256260475709,
+			"x": -99.50321125588258,
+			"y": -31.8704431417072,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 63.5040062067074,
-			"height": 3.567640186468168,
-			"seed": 1952983092,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 67.18418290204251,
+			"height": 3.774391650759162,
+			"seed": 997583254,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706689978546,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -596,40 +570,38 @@ tags:
 					0
 				],
 				[
-					63.5040062067074,
-					-3.567640186468168
+					67.18418290204251,
+					-3.774391650759162
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 102,
-			"versionNonce": 1543246759,
+			"version": 259,
+			"versionNonce": 1409480854,
 			"isDeleted": false,
-			"id": "nAYeCfYW",
+			"id": "3U3v2kIx",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -93.75768875745234,
-			"y": 93.53371994094505,
+			"x": -93.46421917025549,
+			"y": -27.341184679325444,
 			"strokeColor": "#1971c2",
 			"backgroundColor": "transparent",
-			"width": 120.03999328613281,
-			"height": 24,
-			"seed": 22053004,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 126.996536852248,
+			"height": 25.390845175980623,
+			"seed": 1735411414,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706798908791,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
-			"fontSize": 20,
+			"fontSize": 21.15903764665052,
 			"fontFamily": 4,
 			"text": "哺乳动物类脑",
 			"rawText": "哺乳动物类脑",
@@ -638,36 +610,34 @@ tags:
 			"containerId": null,
 			"originalText": "哺乳动物类脑",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 18.999999999999993
 		},
 		{
 			"type": "line",
-			"version": 73,
-			"versionNonce": 463471156,
+			"version": 230,
+			"versionNonce": 696481238,
 			"isDeleted": false,
-			"id": "ck9hih9ErB4ysy6_60luN",
+			"id": "AHBJJPXe8mVHEbQXjs34a",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -90.90356572070397,
-			"y": 119.93428998353107,
+			"x": -90.44469433111897,
+			"y": 0.5893480918801401,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 126.29449526369496,
-			"height": 1.4270887373087362,
-			"seed": 1719864244,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 133.61349899246238,
+			"height": 1.5097912158913251,
+			"seed": 1991048214,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1706689978546,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -681,40 +651,38 @@ tags:
 					0
 				],
 				[
-					126.29449526369496,
-					-1.4270887373087362
+					133.61349899246238,
+					-1.5097912158913251
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 105,
-			"versionNonce": 4038217,
+			"version": 262,
+			"versionNonce": 209865494,
 			"isDeleted": false,
-			"id": "dmn4499G",
+			"id": "V8KdHbFF",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -0.9990439092796919,
-			"y": 124.75057157254167,
+			"x": 4.669963749483031,
+			"y": 5.684742264817395,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
-			"width": 120.03999328613281,
-			"height": 24,
-			"seed": 1196151476,
-			"groupIds": [
-				"oF5TRPfKd9pni5YIAFxOY"
-			],
+			"width": 126.996536852248,
+			"height": 25.390845175980623,
+			"seed": 2132871510,
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706798908792,
+			"updated": 1706798987177,
 			"link": null,
 			"locked": false,
-			"fontSize": 20,
+			"fontSize": 21.15903764665052,
 			"fontFamily": 4,
 			"text": "最诚实的大脑",
 			"rawText": "最诚实的大脑",
@@ -723,7 +691,7 @@ tags:
 			"containerId": null,
 			"originalText": "最诚实的大脑",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 18.999999999999993
 		}
 	],
 	"appState": {
@@ -741,10 +709,10 @@ tags:
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 436.51647286902806,
-		"scrollY": 281.21405237248746,
+		"scrollX": 511.03889955165073,
+		"scrollY": 473.9351612822775,
 		"zoom": {
-			"value": 1.85
+			"value": 0.9614167374298417
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
