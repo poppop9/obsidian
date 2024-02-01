@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "DDED",
+      "path": "临时笔记/DDED.md"
+    },
+    {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
+    },
+    {
+      "basename": "杂 Draw",
+      "path": "Excalidraw/杂/杂 Draw.md"
+    },
+    {
       "basename": "3 CSS高级",
       "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
     },
     {
       "basename": "2 CSS中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
-    },
-    {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "读心术",
@@ -23,10 +31,6 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "杂 Draw",
-      "path": "Excalidraw/杂/杂 Draw.md"
     },
     {
       "basename": "草稿纸 Draw",
@@ -195,10 +199,6 @@
     {
       "basename": "06 集合",
       "path": "计算机/编程语言/Java/06 集合.md"
-    },
-    {
-      "basename": "08 常用API",
-      "path": "计算机/编程语言/Java/08 常用API.md"
     }
   ],
   "omittedPaths": [],
