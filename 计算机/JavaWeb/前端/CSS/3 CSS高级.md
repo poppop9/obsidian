@@ -546,10 +546,12 @@ resize: none;    /* 禁止用户调整 */
 > - 分辨率
 
 ```css
+/* 语法 */
 @media not|only mediatype and (expressions) {
 	……
 }
 
+/* 例子 */
 /* 在视口宽度为480px以及更宽时，将背景颜色更改为浅绿色 */
 @media screen and (min-width: 480px) {
 	body {
@@ -564,6 +566,25 @@ resize: none;    /* 禁止用户调整 */
 	- `speech` 大声“读出”页面的屏幕阅读器
 - `expressions` 表达式的值可以为<u>true</u> / <u>false</u>
 
+---
+```css
+<div class="wrapper">
+	<div id="leftsidebar">
+		<ul id="menulist">
+	<li class="menuitem">Menu-item 1</li>
+	<li class="menuitem">Menu-item 2</li>
+	<li class="menuitem">Menu-item 3</li>
+	<li class="menuitem">Menu-item 4</li>
+	<li class="menuitem">Menu-item 5</li>
+		</ul>
+	</div>
+  
+  <div id="main">
+    <h1>请调整浏览器窗口大小来查看效果！</h1>
+    <p>本例显示了一个菜单，如果视口为 480 像素或更宽，它将向页面左侧浮动。如果视口小于 480 像素，则菜单将位于内容的顶部。</p>
+  </div>
+</div>
+```
 
 
 
