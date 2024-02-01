@@ -545,31 +545,29 @@ resize: none;    /* 禁止用户调整 */
 > - 方向【平板电脑/手机处于<u>横向/纵向模式</u>】
 > - 分辨率
 
-```css
-/* 语法 */
-@media not|only mediatype and (expressions) {
-	……
-}
-
-/* 例子 */
-/* 在视口宽度为480px以及更宽时，将背景颜色更改为浅绿色 */
-@media screen and (min-width: 480px) {
-	body {
-		background-color: lightgreen;
-	}
-}
-
-/* 当浏览器的宽度在600~900px之间时…… */
-@media screen and (max-width: 900px) and (min-width: 600px) {……}
-
-@media screen and (max-width: 900px), (min-width: 1100px) {……}
-```
 - `mediatype`
 	- `all` 所有媒体类型设备
 	- `print` 打印机
 	- `screen` 计算机屏幕、平板电脑、智能手机等等
 	- `speech` 大声“读出”页面的屏幕阅读器
 - `expressions` 表达式的值可以为<u>true</u> / <u>false</u>
+
+```css
+/* 语法 */
+@media not|only mediatype and (expressions) {
+	……
+}
+---
+
+/* 在视口宽度大于480px时…… */
+@media screen and (min-width: 480px) {……}
+
+/* 当浏览器的宽度在600~900px之间时…… */
+@media screen and (max-width: 900px) and (min-width: 600px) {……}
+
+/* 当宽度小于900px时，或大于1100px时…… */
+@media screen and (max-width: 900px), (min-width: 1100px) {……}
+```
 ## 例子
 ```css
 * {
@@ -620,11 +618,6 @@ resize: none;    /* 禁止用户调整 */
 	</div>
 </div>
 ```
-
-
-
-
-
 
 # CSS 变量
 > `var(name, [value])`，`name` 必须以两个破折号“--”开头，且区分大小写
