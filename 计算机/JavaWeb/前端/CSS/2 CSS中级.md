@@ -285,11 +285,11 @@ img {
 	- `flex-end` 每一行都挤到下面
 ## 弹性项目
 - `order` 规定flex项目的顺序
-- `flex-grow` 规定某个flex项目相对于其余flex项目将增长多少， https://www.w3school.com.cn/tiy/t.asp?f=css3_flexbox_flex-grow
-- `flex-shrink` 规定某个flex项目相对于其余flex项目将收缩多少
+- `flex-grow` 规定某个flex项目相对于其余flex项目将增长多少，***默认值为1，0表示不可增长***， https://www.w3school.com.cn/tiy/t.asp?f=css3_flexbox_flex-grow
+- `flex-shrink` 规定某个flex项目相对于其余flex项目将收缩多少，***默认值为1，0表示不可收缩***
 - `flex-basis` 规定flex项目的初始长度
-- `flex` 
-- `align-self` 
+- `flex` 是 `flex-grow`，`flex-shrink` ， `flex-basis` 的简写
+- `align-self` 规定弹性容器内所选项目的对齐方式
 
 ```html
 /* order */
@@ -307,10 +307,11 @@ img {
 	<div style="flex-grow: 8">3</div> /* 该flex项目增长速度比其他flex项目8倍*/
 </div>
 
+/* flex-shrink，flex-basis */
 <div class="flex-container">
   <div>1</div>
-  <div>2</div>
-  <div style="flex-shrink: 3">3</div> /* 该flex项目比其他flex项目缩小3倍*/
+  <div style="flex-shrink: 3">2</div>   /* 该flex项目比其他flex项目缩小3倍*/
+  <div style="flex-basis: 200px">3</div> /* 该flex项目的初始长度为200px */
 </div>
 ```
 
