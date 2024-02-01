@@ -121,6 +121,11 @@
 
 ```html
 <a id="h002" href="https://www.zjxu.edu.cn/" target="_blank">嘉兴学院</a>
+
+/* 用一张图片作为链接 */
+<a href="/example/html/lastpage.html">
+	<img border="0" src="/i/eg_buttonnext.gif" />
+</a>
 ```
 ### 锚点链接
 就像是PDF的目录一样
