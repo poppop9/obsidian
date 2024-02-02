@@ -229,6 +229,40 @@
 </table>
 ```
 ![[JavaWeb Draw#^group=h6qa99MH|370]]
+## 横跨多行多列表格
+```html
+/* 横跨两列 */
+<table border="1">
+<tr>
+	<th>姓名</th>
+	<th colspan="2">电话</th>
+</tr>
+<tr>
+	<td>Bill Gates</td>
+	<td>555 77 854</td>
+	<td>555 77 855</td>
+</tr>
+</table>
+
+/* 横跨两行 */
+<table border="1">
+<tr>
+	<th>姓名</th>
+	<td>Bill Gates</td>
+</tr>
+<tr>
+	<th rowspan="2">电话</th>
+	<td>555 77 854</td>
+</tr>
+<tr>
+	<td>555 77 855</td>
+</tr>
+</table>
+```
+![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402022212467.png)
+
+
+
 ## 表单\<form\>
 - `action` 指定表单提交时去往的URL地址
 - `method` 表单数据的提交方式。
