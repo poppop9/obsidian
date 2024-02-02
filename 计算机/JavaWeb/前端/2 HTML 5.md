@@ -39,7 +39,8 @@
 > 	- 常见：div，h，table，form
 > 
 > 例如：想让一个链接位于水平居中，必须
-> ![[Excalidraw/计算机/JavaWeb Draw.md#^group=7TskywFx|600]]
+> ![200](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402021844689.png)
+
 ## 注释
 `<!--注释内容-->`
 ## 标题\<h\>
@@ -106,10 +107,9 @@
 - `<blockquote></blockquote>` 长引用，浏览器会插入换行和外边距
 - `<q></q>` 短引用
 
-
 ## 无语义盒子
 >这两个标签都是没有具体意思的，它们就是一个***盒子***【用来装文字，图片，超链接】
->![[JavaWeb Draw#^group=jLK9MAUa|600]]
+>![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402021848521.png)
 ### \<div\>
 > 一个`<div>`独占一行
 ### \<span\>
