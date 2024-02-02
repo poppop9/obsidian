@@ -452,9 +452,12 @@
 </html>
 ```
 ## 网页内网页\<ifame>
-
-
-
+```html
+<iframe src="https://www.baidu.com/" width="700" height="200"></iframe>
+```
+	
+<iframe src="https://www.baidu.com/" name="baidu" width="700" height="200"></iframe>
+<a href="https://www.bilibili.com/" target="baidu">W3School.com.cn</a>
 
 # 快捷键
 `!` 生成骨架标签
