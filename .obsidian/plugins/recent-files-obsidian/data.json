@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2 HTML 5",
-      "path": "计算机/JavaWeb/前端/2 HTML 5.md"
+      "basename": "1 基础Ⅰ",
+      "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
     },
     {
       "basename": "1 CSS初级",
       "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+    },
+    {
+      "basename": "2 HTML 5",
+      "path": "计算机/JavaWeb/前端/2 HTML 5.md"
     },
     {
       "basename": "JavaWeb Draw",
@@ -95,10 +99,6 @@
     {
       "basename": "3 工具对象",
       "path": "计算机/JavaWeb/前端/JavaScript/3 工具对象.md"
-    },
-    {
-      "basename": "1 基础Ⅰ",
-      "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
     },
     {
       "basename": "5 JSON",
