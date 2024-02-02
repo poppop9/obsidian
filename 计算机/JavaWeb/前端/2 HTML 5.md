@@ -127,6 +127,10 @@
 	<img border="0" src="/i/eg_buttonnext.gif" />
 </a>
 ```
+
+>[!hint] 尽量在链接之后添加`/`
+>√：`http://www.w3school.com.cn/html/`
+>×：`http://www.w3school.com.cn/html`，会产生两次HTTP请求
 ### 锚点链接
 就像是PDF的目录一样
 ```html
@@ -134,6 +138,9 @@
 
 <a herf="#live">个人生活</a>
 ```
+
+>[!hint] 浏览器找不到命名锚，那么就会定位到文档的顶端
+
 ## 图片\<img\>
 ***属性之间要有空格***
 `src` 指定图片路径
