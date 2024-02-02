@@ -24,8 +24,7 @@ tags:
 
 # Embedded files
 43f505886936dcfe2d4ce42bb2dc39e6bc69a46c: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/%E5%9B%BE%20(1).png
-8e9e70c2ff0fdb21a6bd59baa5c2c6ef399b7fd9: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/3jkhkjhjkds.png
-5f61caca88d163f4f0f5826ca7d265e98459e32e: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/99hfkjsdhjkfhj.png
+9dee4388c34d6e0c5fedd5ffa20c0c4919066baa: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/%E5%9B%BE%E5%83%8F.png
 
 %%
 # Drawing
@@ -697,98 +696,36 @@ tags:
 		},
 		{
 			"type": "image",
-			"version": 257,
-			"versionNonce": 1425539274,
+			"version": 85,
+			"versionNonce": 1514626646,
 			"isDeleted": false,
-			"id": "N3Dp9PLC",
+			"id": "mJad2guZ",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -159.7576601632531,
-			"y": 110.16199406145267,
+			"x": -235.30763400235878,
+			"y": 167.21600964585912,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 239.65545419272186,
-			"height": 456.99005725965105,
-			"seed": 88054,
+			"width": 260.5212540270177,
+			"height": 268.27285666947745,
+			"seed": 85748,
 			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706847406858,
+			"updated": 1706847734755,
 			"link": null,
 			"locked": false,
 			"status": "pending",
-			"fileId": "8e9e70c2ff0fdb21a6bd59baa5c2c6ef399b7fd9",
+			"fileId": "9dee4388c34d6e0c5fedd5ffa20c0c4919066baa",
 			"scale": [
 				1,
 				1
 			]
-		},
-		{
-			"type": "image",
-			"version": 148,
-			"versionNonce": 123325526,
-			"isDeleted": false,
-			"id": "VZWOmZ1X",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 80.46966792789271,
-			"y": 279.56857565648266,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 237.78546926928755,
-			"height": 289.3389575646457,
-			"seed": 33208,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1706847404110,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "5f61caca88d163f4f0f5826ca7d265e98459e32e",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
-			"id": "XNFGD-Pdinr10GHHeioo2",
-			"type": "rectangle",
-			"x": -378.74312974062286,
-			"y": 77.5250887639516,
-			"width": 332.668876088961,
-			"height": 116.74132098619128,
-			"angle": 0,
-			"strokeColor": "#e03131",
-			"backgroundColor": "#ffc9c9",
-			"fillStyle": "solid",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": {
-				"type": 3
-			},
-			"seed": 742036822,
-			"version": 24,
-			"versionNonce": 1006917962,
-			"isDeleted": true,
-			"boundElements": null,
-			"updated": 1706847402682,
-			"link": null,
-			"locked": false
 		}
 	],
 	"appState": {
