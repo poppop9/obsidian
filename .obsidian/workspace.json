@@ -34,6 +34,16 @@
             }
           },
           {
+            "id": "f7b3f94e4a56fdc5",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
+              }
+            }
+          },
+          {
             "id": "04d2bb5befedae63",
             "type": "leaf",
             "state": {
@@ -76,7 +86,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -169,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/2 HTML 5.md"
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
               }
             }
           },
@@ -179,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/2 HTML 5.md"
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
               }
             }
           },
@@ -211,7 +222,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "f7b3f94e4a56fdc5",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/2 HTML 5.md",
