@@ -157,6 +157,23 @@
 ```
 
 >[!attention] 加载图片需要时间，慎用图片
+### 图像映射
+```html
+        <img src="/i/eg_planets.jpg" border="0" usemap="#planetmap" alt="Planets" />
+
+        <map name="planetmap" id="planetmap">
+
+                <area shape="circle" coords="180,139,14" href="/example/html/venus.html" target="_blank" alt="Venus" />
+
+                <area shape="circle" coords="129,161,10" href="/example/html/mercur.html" target="_blank"
+                        alt="Mercury" />
+
+                <area shape="rect" coords="0,0,110,260" href="/example/html/sun.html" target="_blank" alt="Sun" />
+
+        </map>
+```
+
+
 ## 视频\<video\>
 `autoplay` 视频就绪后自动播放
 `controls` 视频的控制按钮【暂停，音量调节等】
