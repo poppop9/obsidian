@@ -198,12 +198,6 @@
 `<th>` 表头
 `<td>` 表格单元格元素
 
-`align` 表格相对周围元素的对齐方式
-`border` 表格边框宽度
-`width` 表格整体宽度
-`height` 表格整体高度
-`cellspacing` 边框之间的空间
-
 ```html
 <table border="1px" cellspacing="0" width="300px" align="center">
 	<tr>
@@ -228,8 +222,13 @@
 	</tr>
 </table>
 ```
-![[JavaWeb Draw#^group=h6qa99MH|370]]
+
+![370](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402022212743.png)
+
 ## 横跨多行多列表格
+- `colspan` 跨多列
+- `rowspan` 跨多行
+![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402022212467.png)
 ```html
 /* 横跨两列 */
 <table border="1">
@@ -259,7 +258,7 @@
 </tr>
 </table>
 ```
-![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402022212467.png)
+
 
 
 
