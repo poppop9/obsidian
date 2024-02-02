@@ -1,5 +1,6 @@
 # 网页的结构
-![[JavaWeb Draw#^group=QUadQUqX|900]]
+![900](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402021842575.png)
+
 # 特殊字符
 `&nbsp;` 空格符
 `&lt;` <
@@ -158,21 +159,23 @@
 
 >[!attention] 加载图片需要时间，慎用图片
 ### 图像映射
+>在图像里面划分区域创建链接
+
+- `<area shape="circle" coords="180,139,14" href="/example/html/venus.html" target="_blank" alt="Venus" />`：定义了一个圆形区域，圆心位于`(180,139)`，半径为`14`，点击这个区域会跳转到`/example/html/venus.html`页面
+- ……
+- `<area shape="rect" coords="0,0,110,260" href="/example/html/sun.html" target="_blank" alt="Sun" />`：定义了一个矩形区域，坐标从`(0,0)`到`(110,260)`
 ```html
-        <img src="/i/eg_planets.jpg" border="0" usemap="#planetmap" alt="Planets" />
+<img src="/i/eg_planets.jpg" usemap="#planetmap" />
 
-        <map name="planetmap" id="planetmap">
-
-                <area shape="circle" coords="180,139,14" href="/example/html/venus.html" target="_blank" alt="Venus" />
-
-                <area shape="circle" coords="129,161,10" href="/example/html/mercur.html" target="_blank"
-                        alt="Mercury" />
-
-                <area shape="rect" coords="0,0,110,260" href="/example/html/sun.html" target="_blank" alt="Sun" />
-
-        </map>
+<map id="planetmap">
+	<area shape="circle" coords="180,139,14" href="/example/html/venus.html" target="_blank" alt="Venus" />
+	
+	<area shape="circle" coords="129,161,10" href="/example/html/mercur.html" target="_blank"
+			alt="Mercury" />
+	
+	<area shape="rect" coords="0,0,110,260" href="/example/html/sun.html" target="_blank" alt="Sun" />
+</map>
 ```
-
 
 ## 视频\<video\>
 `autoplay` 视频就绪后自动播放
