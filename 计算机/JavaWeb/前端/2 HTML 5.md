@@ -141,7 +141,7 @@
 
 >[!hint] 浏览器找不到命名锚，那么就会定位到文档的顶端
 
-## 图片\<img\>
+## 图片\<img/\>
 ***属性之间要有空格***
 `src` 指定图片路径
 
@@ -155,6 +155,8 @@
 ```html
 <img src="https://1b2a.net/img/tv/PwGW.avif" width="300" title="装腔启示录" />
 ```
+
+>[!attention] 加载图片需要时间，慎用图片
 ## 视频\<video\>
 `autoplay` 视频就绪后自动播放
 `controls` 视频的控制按钮【暂停，音量调节等】
