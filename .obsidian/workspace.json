@@ -86,8 +86,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
+                "file": "计算机/JavaWeb/前端/2 HTML 5.md"
               }
             }
           },
@@ -190,7 +189,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
+                "file": "计算机/JavaWeb/前端/2 HTML 5.md"
               }
             }
           },
@@ -222,11 +221,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f7b3f94e4a56fdc5",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
-    "计算机/JavaWeb/前端/2 HTML 5.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
+    "计算机/JavaWeb/前端/2 HTML 5.md",
     "临时笔记/穿搭.md",
     "临时笔记/读心术.md",
     "Excalidraw/杂/杂 Draw.md",

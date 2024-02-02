@@ -295,7 +295,7 @@ h1 {
 
 # 框模型
 元素总宽度 = width + 左右padding + 左右border + 左右margin + outline
-![[Excalidraw/计算机/JavaWeb Draw.md#^group=42TgzTKXcFDmL_5ajKxmy|600]]
+![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402022232532.png)
 
 >[!summary] 属性
 >- `background`  背景
