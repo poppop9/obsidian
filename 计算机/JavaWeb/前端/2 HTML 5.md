@@ -200,6 +200,7 @@
 
 ```html
 <table border="1px" cellspacing="0" width="300px" align="center">
+	<caption>明星信息</caption>
 	<tr>
 		<th>姓名</th>
 		<th>性别</th>
@@ -225,7 +226,31 @@
 
 ![370](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402022212743.png)
 
-## 横跨多行多列表格
+<table border="1px" cellspacing="0" width="300px" align="center">
+	<caption>明星信息</caption>
+	<tr>
+		<th>姓名</th>
+		<th>性别</th>
+		<th>年龄</th>
+	</tr>
+	<tr>
+		<td>吴彦祖</td>
+		<td>男</td>
+		<td>48</td>
+	</tr>
+	<tr>
+		<td>刘德华</td>
+		<td>男</td>
+		<td>58</td>
+	</tr>
+	<tr>
+		<td>张学友</td>
+		<td>男</td>
+		<td>59</td>
+	</tr>
+</table>
+
+### 横跨多行多列表格
 - `colspan` 跨多列
 - `rowspan` 跨多行
 ![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402022212467.png)
