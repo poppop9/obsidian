@@ -197,6 +197,7 @@
 `<tr>` 一行
 `<th>` 表头
 `<td>` 表格单元格元素
+`<caption>` 表格标题
 
 ```html
 <table border="1px" cellspacing="0" width="300px" align="center">
@@ -223,8 +224,6 @@
 	</tr>
 </table>
 ```
-
-![370](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402022212743.png)
 
 <table border="1px" cellspacing="0" width="300px" align="center">
 	<caption>明星信息</caption>
@@ -284,8 +283,21 @@
 </table>
 ```
 
-
-
+## 列表
+### 无序列表
+```html
+<ul>
+	<li>Coffee</li>
+	<li>Milk</li>
+</ul>
+```
+### 有序列表
+```html
+<ol>
+	<li>Coffee</li>
+	<li>Milk</li>
+</ol>
+```
 
 ## 表单\<form\>
 - `action` 指定表单提交时去往的URL地址
