@@ -138,6 +138,7 @@
 - `<sub></sub>` 下标
 - `<sup></sup>` 上标
 - `<pre></pre>` 预格式保留文本标签
+- `<code>` 代码
 
 ```html
 <pre>
