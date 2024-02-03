@@ -5,12 +5,16 @@
       "path": "计算机/JavaWeb/前端/2 HTML 5.md"
     },
     {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
+      "basename": "2 CSS中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "1 基础Ⅰ",
       "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+    },
+    {
+      "basename": "JavaWeb Draw",
+      "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
       "basename": "1 CSS初级",
@@ -27,10 +31,6 @@
     {
       "basename": "杂 Draw",
       "path": "Excalidraw/杂/杂 Draw.md"
-    },
-    {
-      "basename": "2 CSS中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "3 CSS高级",

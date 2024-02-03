@@ -620,7 +620,7 @@ span.cm-header.cm-header-2 {
 
 span.cm-header.cm-header-2::first-letter {
 	font-size: 3.4rem !important;
-	letter-spacing: -0.03em; 
+	letter-spacing: -0.03em;
 }
 
 h2,
@@ -636,9 +636,9 @@ h2,
 	margin-block-start: 0.7rem;
 }
 
-h2::first-letter{
+h2::first-letter {
 	font-size: 3.4rem !important;
-	letter-spacing: -0.03em; 
+	letter-spacing: -0.03em;
 }
 
 
@@ -664,7 +664,7 @@ span.cm-header.cm-header-3:not(.cm-formatting-header-3.cm-header.cm-header-3)::b
 	bottom: 0.2rem;
 }
 
-span.cm-header.cm-header-3:not(.cm-formatting-header-3.cm-header.cm-header-3)::after {
+div.HyperMD-header.HyperMD-header-3.cm-line span.cm-header.cm-header-3:last-child:not(.cm-formatting-escape.cm-header.cm-header-3.cm-hmd-escape-backslash):not(span.cm-escape.cm-header.cm-header-3.cm-hmd-escape-char)::after {
 	content: '3';
 	font-size: 3rem;
 	font-style: italic;
