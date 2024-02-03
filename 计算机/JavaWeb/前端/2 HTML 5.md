@@ -31,9 +31,9 @@
 `&sup2;` 平方²
 `&sup3;` 立方³
 # 骨架标签
-`<!doctype html>` 告诉浏览器使用HTML版本来显示网页
-`<html lang="en">` 设置网页的语言。中文为“zh-CN”
-`<meta charset="UTF-8">` 设置字符集合
+- `<!doctype html>` 告诉浏览器使用HTML版本来显示网页
+- `<html lang="en">` 设置网页的语言。中文为“zh-CN”
+- `<meta charset="UTF-8">` 设置字符集合
 
 ```html
 <!DOCTYPE html>   
@@ -45,6 +45,19 @@
 </head>
 </html>
 ```
+# 头部标签
+- `<title>` 文档的标题
+- `<base/>` 为页面上的所有链接<u>规定默认地址，默认目标</u>
+
+```html
+<head>
+	<title>我是HTML 5</title>
+	<base href="http://www.w3school.com.cn/images/" />
+	<base target="_blank" />    /* 页面上的链接只要不指定，默认就是 */
+</head>
+```
+
+
 # 常用标签
 >[!hint] 内联标签 和 块级标签
 >
