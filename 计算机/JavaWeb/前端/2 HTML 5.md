@@ -180,9 +180,9 @@
 ## 无语义盒子
 >这两个标签都是没有具体意思的，它们就是一个***盒子***【用来装文字，图片，超链接】
 >![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402021848521.png)
-### \<div\>
+### \<div>
 > 一个`<div>`独占一行
-### \<span\>
+### \<span>
 > 多个`<span>`标签占一行
 
 ***\<span\>标签无法设置width和height，宽度和高度由内容默认撑开***
@@ -401,7 +401,7 @@
 - `enctype`  指定表单数据提交的格式
 	- `默认`  
 	- `multipart/form-data`  ***用于提交文件的格式***【其他格式提交文件会只提交文件名】
-### \<input\>
+### \<input>
   - `type` 
     - `text` 单行输入字段
     - `password` 密码字段
@@ -415,9 +415,9 @@
     - `email` 邮件输入框
     - `hidden` 隐藏域
     - `按钮` 
-      - `submit` 提交按钮
-      - `reset` 重置按钮【重置表单数据】
-      - `button` 可点击按钮
+		- `submit` 提交按钮
+		- `reset` 重置按钮【重置表单数据】
+		- `button` 可点击按钮
   - `name` ***name相同表示是同一个表单项***
   - `value` ***提交表单时真正提交的值***
 
@@ -477,7 +477,7 @@
     图像: <input type="file" name="image"><br><br>
 </form>
 ```
-### \<select\>
+### \<select>
   - `option` 
 
 ```html
@@ -501,7 +501,7 @@
     </select><br><br>
 </form>
 
-### \<textarea\>
+### \<textarea>
 ```html
 <form action="" method="get">
     描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
