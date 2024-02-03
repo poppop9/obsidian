@@ -75,7 +75,9 @@
 | \<aside>   | 定义内容之外的内容（比如侧栏）  |
 | \<footer>  | 定义文档或节的页脚        |
 | \<details> | 定义额外的细节          |
-| \<summary> | 定义 details 元素的标题 |
+| \<summary> | 定义\<details>的标题 |
+
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402031804546.png)
 
 
 
