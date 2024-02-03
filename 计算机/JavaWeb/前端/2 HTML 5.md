@@ -391,7 +391,7 @@
 - `method` 表单数据的提交方式。
 	- `get` 会在URL后面拼接表单数据。【当表单数据很长时不推荐】
 	  ```html
-	  <form action="" method="get">        //action不写默认提交到当前页面
+	  <form action="去往的url" method="get">        //action不写默认提交到当前页面
 	  </form>
 	  
 	  
@@ -401,6 +401,8 @@
 - `enctype`  指定表单数据提交的格式
 	- `默认`  
 	- `multipart/form-data`  ***用于提交文件的格式***【其他格式提交文件会只提交文件名】
+- `<fieldset>` 组合表单数据
+	- `<legend>` 
 ### \<input>
   - `type` 
     - `text` 单行输入字段
@@ -418,7 +420,7 @@
 		- `submit` 提交按钮
 		- `reset` 重置按钮【重置表单数据】
 		- `button` 可点击按钮
-  - `name` ***name相同表示是同一个表单项***
+  - `name` ***name相同表示是同一个表单项***，必须指定
   - `value` ***提交表单时真正提交的值***
 
 ```html
