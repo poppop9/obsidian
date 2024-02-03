@@ -49,6 +49,7 @@
 - `<title>` 文档的标题
 - `<base/>` 为页面上的所有链接<u>规定默认地址，默认目标</u>
 - `<link/>` 定义外部资源
+- `<meta/>` 元数据【对页面的描述，==重定向页面==……】，***搜索引擎会根据meta的数据，来推荐给用户搜索结果***
 
 ```html
 <head>
@@ -57,8 +58,25 @@
 	<base href="http://www.w3school.com.cn/images/" />  
 	<base target="_blank" />    /* 页面上的链接只要不指定，默认就是在新页面打开 */
 	<link rel="stylesheet" type="text/css" href="mystyle.css" />
+
+	<meta name="description" content="Free Web tutorials on HTML, CSS, XML" />
+	<meta name="keywords" content="HTML, CSS, XML" />
+	/* 在5s之后，页面会重定向到指定的url */
+	<meta http-equiv="Refresh" content="5;url=http://www.w3school.com.cn" />
 </head>
 ```
+# 布局标签
+|   |   |
+|---|---|
+|header|定义文档或节的页眉|
+|nav|定义导航链接的容器|
+|section|定义文档中的节|
+|article|定义独立的自包含文章|
+|aside|定义内容之外的内容（比如侧栏）|
+|footer|定义文档或节的页脚|
+|details|定义额外的细节|
+|summary|定义 details 元素的标题|
+
 
 
 # 常用标签
