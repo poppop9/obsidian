@@ -31,7 +31,9 @@
 `&sup2;` 平方²
 `&sup3;` 立方³
 
-字符手册： https://www.w3school.com.cn/charsets/ref_html_8859.asp
+`&#65;` 字母A【使用UTF-8字符集（可以用字符集插入emoji）】
+
+字符集手册： https://www.w3school.com.cn/charsets/ref_html_8859.asp
 # 骨架标签
 - `<!doctype html>` 告诉浏览器使用HTML版本来显示网页
 - `<html lang="en">` 设置网页的语言。中文为“zh-CN”
