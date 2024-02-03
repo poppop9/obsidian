@@ -57,7 +57,7 @@
 	/* 页面上的链接只要不指定，默认就是打开以下链接 */
 	<base href="http://www.w3school.com.cn/images/" />  
 	<base target="_blank" />    /* 页面上的链接只要不指定，默认就是在新页面打开 */
-	<link rel="stylesheet" type="text/css" href="mystyle.css" />
+	<link rel="stylesheet" href="mystyle.css" />
 
 	<meta name="description" content="Free Web tutorials on HTML, CSS, XML" />
 	<meta name="keywords" content="HTML, CSS, XML" />
