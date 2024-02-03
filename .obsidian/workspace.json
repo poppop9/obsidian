@@ -66,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+                "file": "计算机/JavaWeb/前端/2 HTML 5.md"
               }
             }
           },
@@ -170,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+                "file": "计算机/JavaWeb/前端/2 HTML 5.md"
               }
             }
           },
@@ -202,8 +201,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/2 HTML 5.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
@@ -231,7 +231,6 @@
     "计算机/JavaWeb/前端/前端.md",
     "计算机/JavaWeb/前端/CSS",
     "临时笔记/Obsidian特殊语法.md",
-    "考试/试打印.md",
     "neil-jetbrains-mono.css",
     "Spaces/Home",
     "Spaces",
