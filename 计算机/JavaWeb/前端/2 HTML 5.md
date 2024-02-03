@@ -78,11 +78,6 @@
 | \<summary> | 定义\<details>的标题 |
 
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402031808644.png)
-
-
-
-
-
 # 常用标签
 >[!hint] 内联标签 和 块级标签
 >
@@ -143,6 +138,7 @@
 - `<sub></sub>` 下标
 - `<sup></sup>` 上标
 - `<pre></pre>` 预格式保留文本标签
+
 ```html
 <pre>
 	这是
