@@ -72,12 +72,11 @@
 | \<nav> | 导航链接的容器 |  |
 | \<section> | 文档中的<u>节</u>[^12] |  |
 | \<article> | 独立的<u>自包含文章</u>[^11] |  |
-| \<aside> | 内容之外的内容【侧栏】 | aside 内容应该与周围内容相关aside 内容应该与周围内容相关文档或节 的页脚 | 文档的作者、版权信息、使用条款链接、联系信息… |
+| \<aside> | 内容之外的内容【侧栏】 | 内容应该与周围的内容有关 |
+| \<footer> | 文档或节 的页脚 | 文档的作者、版权信息、使用条款链接、联系信息… |
 | \<summary> | \<details>的标题 |  |
 
 ```
-- <figcaption>
-- <figure>
 - <main>
 - <mark>
 - <summary>
@@ -241,6 +240,7 @@
 	<area shape="rect" coords="0,0,110,260" href="/example/html/sun.html" target="_blank" alt="Sun" />
 </map>
 ```
+### 图片文字解释\<figure>
 
 ## 视频\<video\>
 `autoplay` 视频就绪后自动播放
