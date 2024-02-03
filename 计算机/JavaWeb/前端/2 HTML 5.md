@@ -145,6 +145,7 @@
 - `<i></i>` 倾斜
 - `<del></del>` 删除线
 - `<u></u>` 下划线
+- `<mark>` 高亮
 - `<sub></sub>` 下标
 - `<sup></sup>` 上标
 - `<pre></pre>` 预格式保留文本标签
@@ -241,6 +242,16 @@
 </map>
 ```
 ### 图片文字解释\<figure>
+<figure>
+  <img src="https://img-blog.csdnimg.cn/img_convert/e59a39b29154bf82e42061c447792a88.png" alt="The Pulpit Rock" width="304" height="228">
+  <figcaption>我来解释BootStrap 4</figcaption>
+</figure>
+```html
+<figure>
+	<img src="https://img-blog.csdnimg.cn/img_convert/e59a39b29154bf82e42061c447792a88.png" alt="The Pulpit Rock" width="304" height="228">
+	<figcaption>我来解释BootStrap 4</figcaption>
+</figure>
+```
 
 ## 视频\<video\>
 `autoplay` 视频就绪后自动播放
