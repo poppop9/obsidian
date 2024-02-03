@@ -48,12 +48,15 @@
 # 头部标签
 - `<title>` 文档的标题
 - `<base/>` 为页面上的所有链接<u>规定默认地址，默认目标</u>
+- `<link/>` 定义外部资源
 
 ```html
 <head>
 	<title>我是HTML 5</title>
-	<base href="http://www.w3school.com.cn/images/" />
-	<base target="_blank" />    /* 页面上的链接只要不指定，默认就是 */
+	/* 页面上的链接只要不指定，默认就是打开以下链接 */
+	<base href="http://www.w3school.com.cn/images/" />  
+	<base target="_blank" />    /* 页面上的链接只要不指定，默认就是在新页面打开 */
+	<link rel="stylesheet" type="text/css" href="mystyle.css" />
 </head>
 ```
 
