@@ -523,13 +523,14 @@
 </form>
 ```
 ### \<select>
-  - `option` 
+  - `option` 定义选项
+  - `selected` 可以指定预选项，不指定则默认第一个
 
 ```html
 <form action="" method="get">
     <select name="degree">
         <option value="0">请选择</option>
-        <option value="1">小学</option>
+        <option value="1" selected>小学</option>
         <option value="2">高中</option>
         <option value="3">大学</option>
         <option value="4">博士</option>
@@ -539,7 +540,7 @@
 <form action="" method="get">
     <select name="degree">
         <option value="0">请选择</option>
-        <option value="1">小学</option>
+        <option value="1" selected>小学</option>
         <option value="2">高中</option>
         <option value="3">大学</option>
         <option value="4">博士</option>
@@ -549,11 +550,11 @@
 ### \<textarea>
 ```html
 <form action="" method="get">
-    描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
+    描述:<textarea name="description" cols="30" rows="10">aaa</textarea><br><br>
 </form>
 ```
 <form action="" method="get">
-    描述:<textarea name="description" cols="30" rows="10"></textarea><br><br>
+    描述:<textarea name="description" cols="30" rows="10">aaa</textarea><br><br>
 </form>
 
 ## 图标\<i\>
