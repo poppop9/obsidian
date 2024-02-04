@@ -78,6 +78,19 @@
 		- `button` 可点击按钮
 - `name` ***name相同表示是同一个表单项***，必须指定
 - `value` ***规定输入字段的初始值***
+- `autocomplete` 是否记录用户上次填写的数据
+	- **on** 可以在下一次填写时，记忆上次填写的内容
+	- **off**
+- autofocus
+- form
+- formaction
+- formenctype
+- formmethod
+- formnovalidate
+- formtarget
+- list
+- multiple
+- placeholder
 
 ---
 ```html
@@ -138,16 +151,15 @@
 >
 > | 属性 | 描述 |
 > | ---- | ---- |
-> | disabled | 规定输入字段应该被禁用 |
 > | max | 规定输入字段的最大值 |
 > | maxlength | 规定输入字段的最大字符数 |
 > | min | 规定输入字段的最小值 |
 > | pattern | 规定通过其检查输入值的正则表达式 |
-> | ***readonly*** | 规定输入字段为只读（无法修改） |
+> | ***readonly*** | 规定输入字段为只读（无法修改），可提交 |
+> | ***disabled*** | 规定输入字段被禁用，不可修改，不可提交 |
 > | required | 规定输入字段是必需的（必需填写） |
 > | size | 规定输入字段的宽度（以字符计） |
 > | step | 规定输入字段的合法数字间隔 |
-> | value | 规定输入字段的默认值 |
 
 #### \<datalist>
 >为input设置预选值
