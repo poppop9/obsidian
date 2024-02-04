@@ -82,12 +82,6 @@
 	- **on** 可以在下一次填写时，记忆上次填写的内容
 	- **off**
 - `autofocus` 当页面加载完成后，某个 `input` 自动获得焦点
-- formaction
-- formenctype
-- formmethod
-- formnovalidate
-- formtarget
-- list
 - multiple
 - placeholder
 
