@@ -81,8 +81,7 @@
 - `autocomplete` 是否记录用户上次填写的数据
 	- **on** 可以在下一次填写时，记忆上次填写的内容
 	- **off**
-- autofocus
-- form
+- `autofocus` 当页面加载完成后，某个 `input` 自动获得焦点
 - formaction
 - formenctype
 - formmethod
