@@ -402,7 +402,34 @@
 	- `默认`  
 	- `multipart/form-data`  ***用于提交文件的格式***【其他格式提交文件会只提交文件名】
 - `<fieldset>` 组合表单数据
-	- `<legend>` 
+	- `<legend>` 为 `<fieldset>` 定义标题
+```html
+<form action="action_page.php">
+	<fieldset>
+		<legend>Personal information:</legend>
+		First name:
+		<input type="text" name="firstname" value="Mickey">
+		<br>
+		Last name:
+		<input type="text" name="lastname" value="Mouse">
+		<br>
+		<input type="submit" value="Submit">
+	</fieldset>
+</form>
+```
+<form action="action_page.php">
+	<fieldset>
+		<legend>Personal information:</legend>
+		First name:
+		<input type="text" name="firstname" value="Mickey">
+		<br>
+		Last name:
+		<input type="text" name="lastname" value="Mouse">
+		<br>
+		<input type="submit" value="Submit">
+	</fieldset>
+</form>
+
 ### \<input>
   - `type` 
     - `text` 单行输入字段
