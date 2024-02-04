@@ -65,7 +65,10 @@
 	- `date` 日期
 	- `time` 时间
 	- `datetime-local` 日期＋时间
-	- `number` 数字输入框
+	- `number` 数字输入框，***可以设置允许输入数字的最大最小值***
+		```html
+		<input type="number" name="quantity" min="1" max="5">
+		```
 	- `email` 邮件输入框
 	- `hidden` 隐藏域
 	- `按钮` 
