@@ -466,6 +466,7 @@
 		- `button` 可点击按钮
   - `name` ***name相同表示是同一个表单项***，必须指定
   - `value` ***提交表单时真正提交的值***
+  - `datalist` 为input设置预选值
 
 ```html
 <form action="" method="get">
@@ -556,6 +557,13 @@
 <form action="" method="get">
     描述:<textarea name="description" cols="30" rows="10">aaa</textarea><br><br>
 </form>
+
+## 按钮\<button>
+```html
+<button type="button">Click Me!</button>
+```
+<button type="button">Click Me!</button>
+
 
 ## 图标\<i\>
 ```html
