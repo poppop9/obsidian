@@ -440,12 +440,12 @@
 </form>
 
 ### \<input>
-  - `type` 
-    - `text` 单行输入字段
-    - `password` 密码字段
-    - `radio` 单选按钮
-    - `checkbox` 复选框
-    - `file` 文件上传按钮
+- `type` 
+	- `text` 单行输入字段
+	- `password` 密码字段
+	- `radio` 单选按钮
+	- `checkbox` 复选框
+	- `file` 文件上传按钮
 		>需要设置指定的编码格式
 
 		```html
@@ -454,20 +454,45 @@
 		</form>
 		```
 
-    - `date` 日期
-    - `time` 时间
-    - `datetime-local` 日期＋时间
-    - `number` 数字输入框
-    - `email` 邮件输入框
-    - `hidden` 隐藏域
-    - `按钮` 
+	- `date` 日期
+	- `time` 时间
+	- `datetime-local` 日期＋时间
+	- `number` 数字输入框
+	- `email` 邮件输入框
+	- `hidden` 隐藏域
+	- `按钮` 
 		- `submit` 提交按钮
 		- `reset` 重置按钮【重置表单数据】
 		- `button` 可点击按钮
-  - `name` ***name相同表示是同一个表单项***，必须指定
-  - `value` ***提交表单时真正提交的值***
-  - `datalist` 为input设置预选值
+- `name` ***name相同表示是同一个表单项***，必须指定
+- `value` ***提交表单时真正提交的值***
+- `<datalist>` 为input设置预选值
+	```html
+	<form action="/demo/demo_form.asp">
+		<input list="browsers" name="browser">
+		<datalist id="browsers">
+			<option value="Internet Explorer">
+			<option value="Firefox">
+			<option value="Chrome">
+			<option value="Opera">
+			<option value="Safari">
+		</datalist>
+		<input type="submit">
+	</form>
+	```
+	<form action="/demo/demo_form.asp">
+		<input list="browsers" name="browser">
+		<datalist id="browsers">
+			<option value="Internet Explorer">
+			<option value="Firefox">
+			<option value="Chrome">
+			<option value="Opera">
+			<option value="Safari">
+		</datalist>
+		<input type="submit">
+	</form>
 
+---
 ```html
 <form action="" method="get">
     用户名: <input type="text" name="username"><br><br>
@@ -516,13 +541,7 @@
 </form>
 
 
-#### file
 
-```html
-<form action="" method="get" enctype="multipart/form-data"> //需要指定编码格式enctype
-    图像: <input type="file" name="image"><br><br>
-</form>
-```
 ### \<select>
   - `option` 定义选项
   - `selected` 可以指定预选项，不指定则默认第一个
