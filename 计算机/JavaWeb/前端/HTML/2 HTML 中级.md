@@ -64,6 +64,9 @@
 
 	- `date` 日期
 	- `time` 时间
+	- `month` 月份年份
+	- `color` 颜色
+	- `range` 一个范围
 	- `datetime-local` 日期＋时间
 	- `number` 数字输入框
 	- `email` 邮件输入框
@@ -90,6 +93,9 @@
     图像: <input type="file" name="image"><br><br>
     生日: <input type="date" name="birthday"><br><br>
     时间: <input type="time" name="time"><br><br>
+    月份年份：<input type="month" name="bdaymonth">
+	颜色:<input type="color" name="favcolor"><br><br>
+	范围：<input type="range" name="points" min="0" max="10"><br><br>
     日期时间: <input type="datetime-local" name="datatime"><br><br>
     邮箱: <input type="email" name="email"><br><br>
     年龄: <input type="number" name="age"><br><br>
@@ -113,6 +119,8 @@
     图像: <input type="file" name="image"><br><br>
     生日: <input type="date" name="birthday"><br><br>
     时间: <input type="time" name="time"><br><br>
+	颜色:<input type="color" name="favcolor"><br><br>
+	范围：<input type="range" name="points" min="0" max="10"><br><br>
     日期时间: <input type="datetime-local" name="datatime"><br><br>
     邮箱: <input type="email" name="email"><br><br>
     年龄: <input type="number" name="age"><br><br>
