@@ -231,6 +231,26 @@
 <a href="https://www.bilibili.com/" target="baidu">点我</a>
 ```
 
+# 图像
+## Canvas
+>`<canvas>` 元素使用 `JavaScript` 绘制图像
+
+1. 规定id，高度，宽度
+	```html
+	<canvas id="myCanvas" width="200" height="100"></canvas>
+	```
+2. JavaScript 通过 `id` 找到 `<canvas>`
+3. 创建 context 对象
+4. ……
+```js
+var c=document.getElementById("myCanvas");
+var cxt=c.getContext("2d");
+cxt.fillStyle="#FF0000";
+cxt.fillRect(0,0,150,75);
+```
+
+## SVG
+
 
 
 
