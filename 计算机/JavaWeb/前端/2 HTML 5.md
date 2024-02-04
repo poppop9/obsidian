@@ -188,7 +188,15 @@
 ***\<span\>标签无法设置width和height，宽度和高度由内容默认撑开***
 ## 超链接\<a\>
 `href` 指定的URL
-`target` 以哪种方式打开超链接【在当前页面打开`_self`，在新页面打开`_blank`】
+`target` 以哪种方式打开超链接
+
+| 值 | 描述 |
+| ---- | ---- |
+| _self | 【默认】在当前页面打开 |
+| _blank | 在新页面打开 |
+| _parent | 在该链接的父容器中打开 |
+| _top | 在该链接的最顶级父容器中打开 |
+| frame名 | 在某个指定的frame中打开 |
 
 ```html
 <a id="h002" href="https://www.zjxu.edu.cn/" target="_blank">嘉兴学院</a>
