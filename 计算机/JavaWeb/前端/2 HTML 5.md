@@ -447,10 +447,12 @@
     - `checkbox` 复选框
     - `file` 文件上传按钮
 		>需要设置指定的编码格式
-		>```html
-		>
-		>```
 
+		```html
+		<form action="" method="get" enctype="multipart/form-data"> //需要指定编码格式enctype
+		    图像: <input type="file" name="image"><br><br>
+		</form>
+		```
 
     - `date` 日期
     - `time` 时间
