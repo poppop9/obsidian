@@ -84,9 +84,10 @@
 - `autofocus` 当页面加载完成后，某个 `input` 自动获得焦点
 - `multiple` 允许输入多个值【适用于 `file`，`email`】
 - `placeholder` 输入值时的提示
-- `formaction` 指定按钮的提交地址，***会覆盖 `<form>` 表单的 `action`***
-- ``
 
+- `formaction` 指定按钮的提交地址，***会覆盖 `<form>` 表单的 `action`***
+- `formenctype` 指定按钮的提交编码，***会覆盖 `<form>` 的 `enctype`***
+- `formmethod` 指定按钮的提交方式，***会覆盖 `<form>` 的 `method`***
 
 ---
 ```html
@@ -112,7 +113,7 @@
     年龄: <input type="number" name="age" placeholder="写年轻点"><br><br>
 	<input type="hidden" name="id" value="1">
     <input type="submit" value="提交">
-	<input type="submit" value="提交给管理员" formaction="">
+	<input type="submit" value="提交给管理员" formaction="" formenctype="multipart/form-data">
     <input type="reset" value="重置">
     <input type="button" value="按钮">
 </form>
@@ -139,7 +140,7 @@
     年龄: <input type="number" name="age" placeholder="写年轻点"><br><br>
 	<input type="hidden" name="id" value="1">
     <input type="submit" value="提交">
-	<input type="submit" value="提交给管理员" formaction="">
+	<input type="submit" value="提交给管理员" formaction="" formenctype="multipart/form-data">
     <input type="reset" value="重置">
     <input type="button" value="按钮">
 </form>
