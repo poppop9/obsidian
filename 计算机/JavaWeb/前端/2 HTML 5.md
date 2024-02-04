@@ -394,7 +394,7 @@
 ## 表单\<form\>
 - `action` 指定表单提交时去往的URL地址
 - `method` 表单数据的提交方式。
-	- `get` 会在URL后面拼接表单数据。【当表单数据很长时不推荐】
+	- **get** 会在URL后面拼接表单数据。【当表单数据很长时不推荐】
 	  ```html
 	  <form action="去往的url" method="get">        //action不写默认提交到当前页面
 	  </form>
@@ -402,14 +402,15 @@
 	  
 	  file:///E:/VScode/html/9_9.html?username=123&password=456  //URL后面会出现表单数据
 	  ```
-	- `post` 在消息体中传递【表单数据大小无限制】
+	- **post** 在消息体中传递【表单数据大小无限制】
 - `enctype`  指定表单数据提交的格式
-	- `默认`  
-	- `multipart/form-data`  ***用于提交文件的格式***【其他格式提交文件会只提交文件名】
+	- **默认**  
+	- **multipart/form-data**  用于提交文件的格式【其他格式提交文件会只提交文件名】
 - `<fieldset>` 组合表单数据
 	- `<legend>` 为 `<fieldset>` 定义标题
 - `autocomplete` 是否记录用户上次填写的数据
-
+	- **on** 可以在下一次填写时，记忆上次填写的内容
+	- **off**
 
 ```html
 <form action="action_page.php">
