@@ -252,15 +252,18 @@ cxt.fillRect(0,0,150,75);
 >[!hint] 优缺点
 >- 由于基于像素绘制，依赖分辨率
 >- 由于基于像素绘制，不支持事件处理
+>- 适合需要频繁重绘场景【因为只需要修改部分像素】
 
 https://www.w3school.com.cn/graphics/canvas_intro.asp
 ## 矢量图\<SVG>
 >SVG 指可伸缩矢量图形，使用 XML 格式定义图形
 
 >[!hint] SVG 的优点
+> - 支持事件处理
 > - SVG 图像可通过文本编辑器来创建和修改
 > - SVG 图像可被脚本化【利用JavaScript实现交互性，动态效果】
 > - ***SVG放大，其图形质量不会有损失***
+> - 不如 `canvas` 快
 
 ==<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
   <polygon points="100,10 40,180 190,60 10,60 160,180"
