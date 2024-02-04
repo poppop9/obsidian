@@ -446,6 +446,12 @@
     - `radio` 单选按钮
     - `checkbox` 复选框
     - `file` 文件上传按钮
+		>需要设置指定的编码格式
+		>```html
+		>
+		>```
+
+
     - `date` 日期
     - `time` 时间
     - `datetime-local` 日期＋时间
@@ -508,7 +514,6 @@
 
 
 #### file
->如果要提交的表单里有 `file` 类型的数据，则要设置指定的编码格式
 
 ```html
 <form action="" method="get" enctype="multipart/form-data"> //需要指定编码格式enctype
