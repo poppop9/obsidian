@@ -82,8 +82,8 @@
 	- **on** 可以在下一次填写时，记忆上次填写的内容
 	- **off**
 - `autofocus` 当页面加载完成后，某个 `input` 自动获得焦点
-- multiple
-- placeholder
+- `multiple` 允许输入多个值【适用于 `file`，`email`】
+- `placeholder` 输入值时的提示
 
 ---
 ```html
@@ -106,8 +106,7 @@
 	范围：<input type="range" name="points" min="0" max="10"><br><br>
     日期时间: <input type="datetime-local" name="datatime"><br><br>
     邮箱: <input type="email" name="email"><br><br>
-    年龄: <input type="number" name="age"><br><br>
-
+    年龄: <input type="number" name="age" placeholder="写年轻点"><br><br>
 	<input type="hidden" name="id" value="1">
     <input type="submit" value="提交">
     <input type="reset" value="重置">
@@ -133,7 +132,7 @@
 	范围：<input type="range" name="points" min="0" max="10"><br><br>
     日期时间: <input type="datetime-local" name="datatime"><br><br>
     邮箱: <input type="email" name="email"><br><br>
-    年龄: <input type="number" name="age"><br><br>
+    年龄: <input type="number" name="age" placeholder="写年轻点"><br><br>
 	<input type="hidden" name="id" value="1">
     <input type="submit" value="提交">
     <input type="reset" value="重置">
@@ -147,7 +146,7 @@
 > | max | 规定输入字段的最大值 |
 > | maxlength | 规定输入字段的最大字符数 |
 > | min | 规定输入字段的最小值 |
-> | pattern | 规定通过其检查输入值的正则表达式 |
+> | pattern | 规定检查输入值的正则表达式 |
 > | ***readonly*** | 规定输入字段为只读（无法修改），可提交 |
 > | ***disabled*** | 规定输入字段被禁用，不可修改，不可提交 |
 > | required | 规定输入字段是必需的（必需填写） |
