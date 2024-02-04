@@ -232,7 +232,7 @@
 ```
 
 # 图像
-## Canvas
+## 画布\<Canvas>
 >`<canvas>` 元素使用 `JavaScript` 绘制图像
 
 1. 规定id，高度，宽度
@@ -249,15 +249,27 @@ cxt.fillStyle="#FF0000";
 cxt.fillRect(0,0,150,75);
 ```
 
+>[!hint] 优缺点
+>- 由于基于像素绘制，依赖分辨率
+>- 由于基于像素绘制，不支持事件处理
+
 https://www.w3school.com.cn/graphics/canvas_intro.asp
-## SVG
+## 矢量图\<SVG>
 >SVG 指可伸缩矢量图形，使用 XML 格式定义图形
 
 >[!hint] SVG 的优点
 > - SVG 图像可通过文本编辑器来创建和修改
-> - SVG 图像可被搜索、索引、脚本化或压缩
-> - SVG 是可伸缩的
+> - SVG 图像可被脚本化【利用JavaScript实现交互性，动态效果】
 > - ***SVG放大，其图形质量不会有损失***
+
+==<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
+  <polygon points="100,10 40,180 190,60 10,60 160,180"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+</svg>==
+
+https://www.w3school.com.cn/graphics/svg_intro.asp
+
+
 
 
 
