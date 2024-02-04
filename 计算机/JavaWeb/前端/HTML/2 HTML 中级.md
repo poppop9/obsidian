@@ -65,10 +65,7 @@
 	- `date` 日期
 	- `time` 时间
 	- `datetime-local` 日期＋时间
-	- `number` 数字输入框，***可以设置允许输入数字的最大最小值……***[^1]
-		```html
-		<input type="number" name="quantity" min="1" max="5">
-		```
+	- `number` 数字输入框
 	- `email` 邮件输入框
 	- `hidden` 隐藏域
 	- `按钮` 
@@ -119,12 +116,26 @@
     日期时间: <input type="datetime-local" name="datatime"><br><br>
     邮箱: <input type="email" name="email"><br><br>
     年龄: <input type="number" name="age"><br><br>
-
 	<input type="hidden" name="id" value="1">
     <input type="submit" value="提交">
     <input type="reset" value="重置">
     <input type="button" value="按钮">
 </form>
+
+>[!hint] 可以使用以下属性对 `type` 进行数据的限制
+>
+> | 属性 | 描述 |
+> | ---- | ---- |
+> | disabled | 规定输入字段应该被禁用 |
+> | max | 规定输入字段的最大值 |
+> | maxlength | 规定输入字段的最大字符数 |
+> | min | 规定输入字段的最小值 |
+> | pattern | 规定通过其检查输入值的正则表达式 |
+> | readonly | 规定输入字段为只读（无法修改） |
+> | required | 规定输入字段是必需的（必需填写） |
+> | size | 规定输入字段的宽度（以字符计） |
+> | step | 规定输入字段的合法数字间隔 |
+> | value | 规定输入字段的默认值 |
 
 #### \<datalist>
 >为input设置预选值
@@ -203,18 +214,7 @@
 
 
 
-[^1]:|属性|描述|
-|---|---|
-|disabled|规定输入字段应该被禁用|
-|max|规定输入字段的最大值|
-|maxlength|规定输入字段的最大字符数|
-|min|规定输入字段的最小值|
-|pattern|规定通过其检查输入值的正则表达式|
-|readonly|规定输入字段为只读（无法修改）|
-|required|规定输入字段是必需的（必需填写）|
-|size|规定输入字段的宽度（以字符计）|
-|step|规定输入字段的合法数字间隔|
-|value|规定输入字段的默认值|
+
 
 
 
