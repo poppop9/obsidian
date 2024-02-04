@@ -64,7 +64,8 @@
 
 	- `date` 日期
 	- `time` 时间
-	- `month` 月份年份
+	- `month` 月份，年份
+	- `week` 周，年
 	- `color` 颜色
 	- `range` 一个范围
 	- `datetime-local` 日期＋时间
@@ -93,7 +94,8 @@
     图像: <input type="file" name="image"><br><br>
     生日: <input type="date" name="birthday"><br><br>
     时间: <input type="time" name="time"><br><br>
-    月份年份：<input type="month" name="bdaymonth">
+    月份年份：<input type="month" name="bdaymonth"><br><br>
+    周，年：<input type="week" name="week_year"><br><br>
 	颜色:<input type="color" name="favcolor"><br><br>
 	范围：<input type="range" name="points" min="0" max="10"><br><br>
     日期时间: <input type="datetime-local" name="datatime"><br><br>
@@ -119,6 +121,8 @@
     图像: <input type="file" name="image"><br><br>
     生日: <input type="date" name="birthday"><br><br>
     时间: <input type="time" name="time"><br><br>
+	月份年份：<input type="month" name="bdaymonth"><br><br>
+    周，年：<input type="week" name="week_year"><br><br>
 	颜色:<input type="color" name="favcolor"><br><br>
 	范围：<input type="range" name="points" min="0" max="10"><br><br>
     日期时间: <input type="datetime-local" name="datatime"><br><br>
