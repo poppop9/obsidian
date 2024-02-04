@@ -187,3 +187,44 @@
 <form action="" method="get">
     描述:<textarea name="description" cols="30" rows="10">aaa</textarea><br><br>
 </form>
+
+## 网页内网页\<ifame>
+```html
+/* 单击链接，会iframe里的内容就会跳转到b站 */
+<iframe src="https://www.baidu.com/" name="baidu" width="700" height="200"></iframe>
+<a href="https://www.bilibili.com/" target="baidu">点我</a>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
