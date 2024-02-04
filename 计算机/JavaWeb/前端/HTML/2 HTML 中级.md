@@ -249,10 +249,15 @@ cxt.fillStyle="#FF0000";
 cxt.fillRect(0,0,150,75);
 ```
 
+https://www.w3school.com.cn/graphics/canvas_intro.asp
 ## SVG
+>SVG 指可伸缩矢量图形，使用 XML 格式定义图形
 
-
-
+>[!hint] SVG 的优点
+> - SVG 图像可通过文本编辑器来创建和修改
+> - SVG 图像可被搜索、索引、脚本化或压缩
+> - SVG 是可伸缩的
+> - ***SVG放大，其图形质量不会有损失***
 
 
 
