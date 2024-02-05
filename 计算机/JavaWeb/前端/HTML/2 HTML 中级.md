@@ -313,9 +313,12 @@ https://www.w3school.com.cn/graphics/svg_intro.asp
 /* data里面可以放音频，视频等 */
 <object width="100%" height="500px" data="https://www.w3school.com.cn/html/html_object.asp"></object>
 ```
-
-
-
+# 新标签
+| 标签 | 描述 |
+| ---- | ---- |
+| \<dialog> | 定义对话框或窗口 |
+| \<progress> | 定义任务进度 |
+| <rt> | 定义关于字符的解释/发音（用于东亚字体） |
 
 
 
