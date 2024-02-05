@@ -31,6 +31,18 @@ Bootstrap 5 网格系统有六个类：
 
 每个类都是按比例放大的，所以如果你想为 `sm` 和 `md` 设置相同的宽度，你只需要指定 `sm`
 
+### 自定义列宽
+```html
+/* 第一颗星 (*) 代表响应度：sm、md、lg、xl 或 xxl */
+/*  */
+<div class="row">
+	<div class="col-*-*"></div>
+	<div class="col-*-*"></div>
+	<div class="col-*-*"></div>
+</div>
+```
+
+### 自动均分列宽
 
 
 
