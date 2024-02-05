@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md",
+                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -66,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md"
+                "file": "计算机/JavaWeb/前端/Svelte.md"
               }
             }
           },
@@ -170,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md"
+                "file": "计算机/JavaWeb/前端/Svelte.md"
               }
             }
           },
@@ -202,14 +201,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
-    "计算机/JavaWeb/前端/JavaScript/4 事件.md",
-    "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
-    "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/JavaScript/JavaScript.md",
+    "计算机/JavaWeb/前端/JavaScript/7 杂.md",
+    "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md",
+    "计算机/JavaWeb/前端/JavaScript/4 事件.md",
+    "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
+    "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
+    "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/前端/Svelte.md",
     "计算机/JavaWeb/前端/前端.md",
@@ -229,8 +230,6 @@
     "Excalidraw/杂/杂.md",
     "Excalidraw/Excalidraw.md",
     "Excalidraw/杂/草稿纸 Draw.md",
-    "Excalidraw/未命名.md",
-    "计算机/四大件/计算机网络2.md",
     "图片库/Pasted Image 20240121113940_598.png",
     "计算机/JavaWeb/前端/CSS",
     "neil-jetbrains-mono.css",
