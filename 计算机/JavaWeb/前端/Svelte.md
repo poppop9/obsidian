@@ -1,12 +1,16 @@
 >[!hint] 无需操作 DOM
 
 # 基础
+>在 `<sript>` 中声明变量，在需要使用时用 `{…}` 包含变量名
+
 ```html
 <script>
 	let name = 'world';   /* 声明一个 `name` 变量 */
+	let src = 'tutorial/image.gif';
 </script>
 
 <h1>Hello {name}!</h1>    /* 引用 `name` 变量 */
+<img src={src} alt="A man dances.">
 ```
 
 
