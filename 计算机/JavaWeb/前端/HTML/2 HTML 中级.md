@@ -273,6 +273,16 @@ https://www.w3school.com.cn/graphics/canvas_intro.asp
 https://www.w3school.com.cn/graphics/svg_intro.asp
 
 # 多媒体
+## 嵌入式对象\<object>
+>可以把 PDF 阅读器，Flash 播放器，网页嵌入网页中
+
+```html
+<object width="100%" height="500px" data="https://www.w3school.com.cn/html/html_object.asp"></object>
+```
+
+<object width="100%" height="500px" data="https://www.w3school.com.cn/html/html_object.asp"></object>
+
+
 ## 视频\<video\>
 `autoplay` 视频就绪后自动播放
 `controls` 视频的控制按钮【暂停，音量调节等】
