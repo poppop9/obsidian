@@ -1,4 +1,6 @@
-Bootstrap 可以轻松地创建响应式设计，而且提供了丰富的 JavaScript 插件
+>[!hint] Bootstrap 可以轻松地创建响应式设计，而且提供了丰富的 JavaScript 插件
+
+>[!hint] Bootstrap的核心是***移动优先***，所以为一个较小的视口设置了样式，这个样式会在所有更大的视口中继续适用，除非对更大视口的添加新的样式
 
 # 布局
 ## 容器
@@ -26,8 +28,6 @@ Bootstrap 可以轻松地创建响应式设计，而且提供了丰富的 JavaSc
 - `.col-lg-` (大型设备 - 屏幕宽度等于或大于 992 像素)
 - `.col-xl-` (xlarge 设备 - 屏幕宽度等于或大于 1200px)
 - `.col-xxl-` (xxlarge 设备 - 屏幕宽度等于或大于 1400px)
-
-每个类都是按比例放大的，所以如果你想为 `sm` 和 `md` 设置相同的宽度，你只需要指定 `sm`
 
 ### 自定义列宽
 ```html
@@ -57,7 +57,10 @@ Bootstrap 可以轻松地创建响应式设计，而且提供了丰富的 JavaSc
 	<div class="col"></div>
 </div>
 ```
-
+## 排版
+- `font-size` ：1rem
+- `line-height` ：1.5
+- `<p>` ：`margin-top: 0` 和 `margin-bottom: 1rem` 
 
 
 
