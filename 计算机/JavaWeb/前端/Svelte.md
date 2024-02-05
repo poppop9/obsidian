@@ -1,6 +1,13 @@
 >[!hint] 无需操作 DOM
 
+# 基础
+```html
+<script>
+	let name = 'world';   /* 声明一个 `name` 变量 */
+</script>
 
+<h1>Hello {name}!</h1>    /* 引用 `name` 变量 */
+```
 
 
 
