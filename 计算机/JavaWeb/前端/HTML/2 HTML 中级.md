@@ -273,6 +273,13 @@ https://www.w3school.com.cn/graphics/canvas_intro.asp
 https://www.w3school.com.cn/graphics/svg_intro.asp
 
 # 多媒体
+## 使用超链接
+>用户点击包含文件的链接时，浏览器会启动“辅助应用程序”来播放该文件
+
+```css
+<a href="song.mp3">Play the sound</a>
+```
+
 ## 音频\<audio\>
 ```html
 <audio src="E:\迅雷下载\就是爱你-陶喆.flac" controls>流沙</audio>
