@@ -279,6 +279,14 @@ https://www.w3school.com.cn/graphics/svg_intro.asp
 ```css
 <a href="song.mp3">Play the sound</a>
 ```
+## 上传到视频平台，使用\<frame>
+```html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i5o_VNh4VTM?si=JdS8CI8FGHZ6OhK_"
+		title="YouTube video player" frameborder="0"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		allowfullscreen>
+</iframe>
+```
 
 ## 音频\<audio\>
 ```html
