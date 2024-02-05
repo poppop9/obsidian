@@ -34,7 +34,7 @@ Bootstrap 5 网格系统有六个类：
 ### 自定义列宽
 ```html
 /* 第一颗星 (*) 代表响应度：sm、md、lg、xl 或 xxl */
-/*  */
+/* 第二颗星代表占用列数，所有列加起来应为 12 */
 <div class="row">
 	<div class="col-*-*"></div>
 	<div class="col-*-*"></div>
@@ -43,7 +43,14 @@ Bootstrap 5 网格系统有六个类：
 ```
 
 ### 自动均分列宽
-
+```html
+/* 有三个col，所以每列会占用33.3% */
+<div class="row">
+	<div class="col"></div>
+	<div class="col"></div>
+	<div class="col"></div>
+</div>
+```
 
 
 
