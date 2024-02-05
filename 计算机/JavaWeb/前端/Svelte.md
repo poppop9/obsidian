@@ -3,7 +3,19 @@
 # 基础
 >在 `<sript>` 中声明变量，在需要使用时用 `{…}` 包含变量名
 
+
+## CSS规则
+>[!hint] 在 `svelte文件` 中的 `<style>` 的作用域被限定在当前组件中【不会意外地更改应用程序中其他地方的 `<p>` 元素的样式】
+
 ```html
+<style>
+	h1 {
+		color: purple;
+		font-family: 'Comic Sans MS', cursive;
+		font-size: 2em;
+	}
+</style>
+
 <script>
 	let name = 'world';   /* 声明一个 `name` 变量 */
 	let src = 'tutorial/image.gif';
@@ -12,10 +24,6 @@
 <h1>Hello {name}!</h1>    /* 引用 `name` 变量 */
 <img src={src} alt="A man dances.">
 ```
-
-
-
-
 
 
 
