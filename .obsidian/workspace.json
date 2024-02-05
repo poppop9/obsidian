@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -66,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -159,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Svelte.md"
+                "file": "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md"
               }
             }
           },
@@ -169,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Svelte.md"
+                "file": "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md"
               }
             }
           },
@@ -201,15 +202,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
+    "计算机/JavaWeb/前端/JavaScript/4 事件.md",
+    "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
+    "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
+    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
+    "计算机/JavaWeb/前端/JavaScript/JavaScript.md",
+    "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
+    "计算机/JavaWeb/前端/Svelte.md",
     "计算机/JavaWeb/前端/前端.md",
     "计算机/JavaWeb/前端/Bootstrap.md",
-    "计算机/JavaWeb/前端/Svelte.md",
-    "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
-    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/HTML/HTML.md",
@@ -225,12 +231,7 @@
     "Excalidraw/杂/草稿纸 Draw.md",
     "Excalidraw/未命名.md",
     "计算机/四大件/计算机网络2.md",
-    "考试/操作系统考试.md",
-    "临时笔记/Obsidian笔记编写规范.md",
-    "科技美学/软件.md",
-    "临时笔记/Dance.md",
     "图片库/Pasted Image 20240121113940_598.png",
-    "计算机/JavaWeb/前端/CSS/CSS.md",
     "计算机/JavaWeb/前端/CSS",
     "neil-jetbrains-mono.css",
     "Spaces/Home",

@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "6 浏览器对象",
+      "path": "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md"
+    },
+    {
+      "basename": "5 JSON",
+      "path": "计算机/JavaWeb/前端/JavaScript/5 JSON.md"
+    },
+    {
+      "basename": "4 事件",
+      "path": "计算机/JavaWeb/前端/JavaScript/4 事件.md"
+    },
+    {
+      "basename": "3 工具对象",
+      "path": "计算机/JavaWeb/前端/JavaScript/3 工具对象.md"
+    },
+    {
+      "basename": "2 基础Ⅱ",
+      "path": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md"
+    },
+    {
+      "basename": "1 基础Ⅰ",
+      "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+    },
+    {
+      "basename": "1 HTML 初级",
+      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
+    },
+    {
       "basename": "Svelte",
       "path": "计算机/JavaWeb/前端/Svelte.md"
     },
@@ -13,20 +41,12 @@
       "path": "计算机/JavaWeb/前端/Bootstrap.md"
     },
     {
-      "basename": "1 HTML 初级",
-      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
-    },
-    {
       "basename": "2 CSS中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "3 CSS高级",
       "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
-    },
-    {
-      "basename": "1 基础Ⅰ",
-      "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
     },
     {
       "basename": "2 HTML 中级",
@@ -105,20 +125,8 @@
       "path": "考试/试打印.md"
     },
     {
-      "basename": "6 浏览器对象",
-      "path": "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md"
-    },
-    {
       "basename": "虚拟化CPU",
       "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
-    },
-    {
-      "basename": "3 工具对象",
-      "path": "计算机/JavaWeb/前端/JavaScript/3 工具对象.md"
-    },
-    {
-      "basename": "5 JSON",
-      "path": "计算机/JavaWeb/前端/JavaScript/5 JSON.md"
     },
     {
       "basename": "7 杂",
@@ -175,14 +183,6 @@
     {
       "basename": "2 MyBatis",
       "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
-    },
-    {
-      "basename": "2 基础Ⅱ",
-      "path": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md"
-    },
-    {
-      "basename": "4 事件",
-      "path": "计算机/JavaWeb/前端/JavaScript/4 事件.md"
     },
     {
       "basename": "5 Vue",
