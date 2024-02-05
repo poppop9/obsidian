@@ -15,11 +15,11 @@ Bootstrap 可以轻松地创建响应式设计，而且提供了丰富的 JavaSc
 | `.container-xxl` | 100% | 100% | 100% | 100% | 100% | 1320px |
 ### .container-fluid 全宽容器
 >提供了一个***全宽容器***【`width` 总是 `100%`】
-## 网格
+## 网格布局
 >利用 `flexbox` ，共有12列【会根据屏幕大小，自动重排】
 >![800](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402051753353.png)
 
-Bootstrap 5 网格系统有六个类：
+网格系统有六个类：
 - `.col-` (超小型设备 - 屏幕宽度小于 576px)
 - `.col-sm-` (小型设备 - 屏幕宽度等于或大于 576px)
 - `.col-md-` (中型设备 - 屏幕宽度等于或大于 768 像素)
@@ -34,11 +34,19 @@ Bootstrap 5 网格系统有六个类：
 ### 自定义列宽
 ```html
 /* 第一颗星 (*) 代表响应度：sm、md、lg、xl 或 xxl */
-/* 第二颗星代表占用列数，所有列加起来应为 12 */
+/* 第二颗星代表占用列数，所有列加起来不超过12 */
 <div class="row">
 	<div class="col-*-*"></div>
 	<div class="col-*-*"></div>
 	<div class="col-*-*"></div>
+</div>
+------
+
+/* 当屏幕小于576px时，每一列会占据宽度的100%，并向下堆叠 */
+<div class="row">
+	<div class="col-sm-4">.col-sm-4</div>
+	<div class="col-sm-4">.col-sm-4</div>
+	<div class="col-sm-4">.col-sm-4</div>
 </div>
 ```
 
