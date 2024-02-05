@@ -63,8 +63,12 @@
 - `<p>` ：`margin-top: 0` ，`margin-bottom: 1rem` 
 - `<h1>~<h6>` ：更粗的 `font-weight`，响应式的 `font-size`
 - `<table>` 
-
-
+	- `.table-responsive` 需要时向表格添加滚动条
+- `<img>`
+	- `.float-start` 图片左对齐
+	- `.float-end` 图片右对齐
+	- `.mx-auto` + `.d-block` 图片居中
+ 
 
 
 
