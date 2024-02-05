@@ -62,7 +62,7 @@
 - `line-height` ：1.5
 - `<p>` ：`margin-top: 0` ，`margin-bottom: 1rem` 
 - `<h1>~<h6>` ：更粗的 `font-weight`，响应式的 `font-size`
-
+- `<table>` 
 
 
 
