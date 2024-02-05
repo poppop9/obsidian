@@ -306,12 +306,12 @@ https://www.w3school.com.cn/graphics/svg_intro.asp
 ```html
 <video src="D:\Overthink｜时光代理人ED原创舞蹈【Figo × 王一大只】.mp4" poster="https://img0.baidu.com/it/u=1802578230,1841279071&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" controls loop width="700"></video>
 ```
-## 嵌入式对象\<object>
+## 嵌入式对象\<embed>
 >可以把 PDF 阅读器，Flash 播放器，网页嵌入网页中，***最重要的是可以嵌入插件***
 
 ```html
 /* data里面可以放音频，视频等 */
-<object width="100%" height="500px" data="https://www.w3school.com.cn/html/html_object.asp"></object>
+<embed width="100%" height="500px" data="https://www.w3school.com.cn/html/html_object.asp">
 ```
 # 新标签
 | 标签 | 描述 |
