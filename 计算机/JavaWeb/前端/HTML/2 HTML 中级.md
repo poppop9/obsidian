@@ -298,15 +298,7 @@ https://www.w3school.com.cn/graphics/svg_intro.asp
 /* data里面可以放音频，视频等 */
 <object width="100%" height="500px" data="https://www.w3school.com.cn/html/html_object.asp"></object>
 ```
-## 雅虎媒体播放器
->完全免费，操作方便
 
-```html
-<a href="https://test-1307744200.cos.ap-shanghai.myqcloud.com/%E5%91%A8%E6%9D%B0%E4%BC%A6-%E4%B8%80%E7%82%B9%E7%82%B9.flac">Play Sound</a>
-
-<script type="text/javascript" src="http://mediaplayer.yahoo.com/js">
-</script>
-```
 
 
 
