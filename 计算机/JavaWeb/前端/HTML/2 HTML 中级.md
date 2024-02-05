@@ -277,7 +277,7 @@ https://www.w3school.com.cn/graphics/svg_intro.asp
 >可以把 PDF 阅读器，Flash 播放器，网页嵌入网页中，***最重要的是可以嵌入插件***
 
 ```html
-/* data里面 */
+/* data里面可以放音频，视频等 */
 <object width="100%" height="500px" data="https://www.w3school.com.cn/html/html_object.asp"></object>
 ```
 
