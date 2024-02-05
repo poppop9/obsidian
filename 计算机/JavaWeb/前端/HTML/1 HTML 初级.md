@@ -269,22 +269,6 @@
 </figure>
 ```
 
-## 视频\<video\>
-`autoplay` 视频就绪后自动播放
-`controls` 视频的控制按钮【暂停，音量调节等】
-`width` 视频的宽度
-`height` 视频的高度
-`loop` 视频播放完成后再次播放
-`muted` 视频播放默认静音
-`poster` 视频未播放时显示的图片
-
-```html
-<video src="D:\Overthink｜时光代理人ED原创舞蹈【Figo × 王一大只】.mp4" poster="https://img0.baidu.com/it/u=1802578230,1841279071&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" controls loop width="700"></video>
-```
-## 音频\<audio\>
-```html
-<audio src="E:\迅雷下载\就是爱你-陶喆.flac" controls>流沙</audio>
-```
 ## 表格\<table\>
 `<tr>` 一行
 `<th>` 表头
