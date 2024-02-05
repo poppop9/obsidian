@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Bootstrap",
+      "path": "计算机/JavaWeb/前端/Bootstrap.md"
+    },
+    {
+      "basename": "前端",
+      "path": "计算机/JavaWeb/前端/前端.md"
+    },
+    {
       "basename": "2 HTML 中级",
       "path": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
     },
@@ -191,10 +199,6 @@
     {
       "basename": "1 VSCode",
       "path": "计算机/JavaWeb/前端/1 VSCode.md"
-    },
-    {
-      "basename": "01 idea",
-      "path": "计算机/编程语言/Java/01 idea.md"
     }
   ],
   "omittedPaths": [],
