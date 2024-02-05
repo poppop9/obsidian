@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Svelte",
+      "path": "计算机/JavaWeb/前端/Svelte.md"
+    },
+    {
+      "basename": "前端",
+      "path": "计算机/JavaWeb/前端/前端.md"
+    },
+    {
       "basename": "Bootstrap",
       "path": "计算机/JavaWeb/前端/Bootstrap.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "1 基础Ⅰ",
       "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
-    },
-    {
-      "basename": "前端",
-      "path": "计算机/JavaWeb/前端/前端.md"
     },
     {
       "basename": "2 HTML 中级",
@@ -195,10 +199,6 @@
     {
       "basename": "文字美学",
       "path": "临时笔记/文字美学.md"
-    },
-    {
-      "basename": "1 VSCode",
-      "path": "计算机/JavaWeb/前端/1 VSCode.md"
     }
   ],
   "omittedPaths": [],
