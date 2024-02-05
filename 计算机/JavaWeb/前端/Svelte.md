@@ -3,6 +3,22 @@
 # 基础
 ## JS规则
 >在 `<sript>` 中声明变量，在需要使用时用 `{…}` 包含变量名
+
+### {@html …}
+>允许将包含HTML代码的表达式直接插入到DOM中
+
+```html
+<script>
+	let string = `this string contains some <strong>HTML!!!</strong>`;
+</script>
+
+<p>{@html string}</p>
+---
+
+网页将粗体显示"HTML!!!"，而不是显示”<strong>HTML!!!</strong>“
+```
+
+>[!attention] Svelte 不会对 `{@html ...}` 内的表达式的输出做任何清理的【如果使用 `` ，则必须手动转义来自不信任源的 HTML 代码，否则会使用户面临 XSS 攻击的风险】
 ## CSS规则
 >[!hint] 在 `svelte文件` 中的 `<style>` 的作用域被限定在当前组件中【不会意外地更改应用程序中其他地方的 `<p>` 元素的样式】
 
