@@ -1,9 +1,8 @@
 >[!hint] 无需操作 DOM
 
 # 基础
+## JS规则
 >在 `<sript>` 中声明变量，在需要使用时用 `{…}` 包含变量名
-
-
 ## CSS规则
 >[!hint] 在 `svelte文件` 中的 `<style>` 的作用域被限定在当前组件中【不会意外地更改应用程序中其他地方的 `<p>` 元素的样式】
 
@@ -25,8 +24,18 @@
 <img src={src} alt="A man dances.">
 ```
 
+## 嵌套组件
+>将整个网页放在一个组件中是不切实际的，所以我们需要从其他 `svelte文件` 中导入组件
 
+>[!attention] 导入的组件的名称的首字母大写
 
+```html
+<script>
+	import Nested from './Nested.svelte';    /* 导入 */
+</script>
+
+<Nested/>    /* 应用导入的文件名 */
+```
 
 
 
