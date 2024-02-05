@@ -156,6 +156,11 @@
 
 - `<blockquote></blockquote>` 长引用，浏览器会插入换行和外边距
 - `<q></q>` 短引用
+- `abbr` 缩写，悬浮时显示完整内容
+```html
+<abbr title="World Health Organization">WHO</abbr>
+```
+
 - `<code>` 代码
 - `<pre></pre>` 预格式保留文本标签
 ```html
