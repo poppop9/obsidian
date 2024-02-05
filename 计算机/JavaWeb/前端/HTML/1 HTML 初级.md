@@ -44,6 +44,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    /* 页面的宽度以跟随设备的屏幕宽度，并设置浏览器首次加载页面时的初始缩放级别 */
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我是HTML 5</title>
 </head>
