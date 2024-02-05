@@ -273,14 +273,12 @@ https://www.w3school.com.cn/graphics/canvas_intro.asp
 https://www.w3school.com.cn/graphics/svg_intro.asp
 
 # 多媒体
-## 嵌入式对象\<object>
->可以把 PDF 阅读器，Flash 播放器，网页嵌入网页中，***最重要的是可以嵌入插件***
-
+## 音频\<audio\>
 ```html
-/* data里面可以放音频，视频等 */
-<object width="100%" height="500px" data="https://www.w3school.com.cn/html/html_object.asp"></object>
+<audio src="E:\迅雷下载\就是爱你-陶喆.flac" controls>流沙</audio>
 ```
 
+>[!attention] 不推荐使用，跨平台性不好，而且复杂
 ## 视频\<video\>
 `autoplay` 视频就绪后自动播放
 `controls` 视频的控制按钮【暂停，音量调节等】
@@ -293,9 +291,21 @@ https://www.w3school.com.cn/graphics/svg_intro.asp
 ```html
 <video src="D:\Overthink｜时光代理人ED原创舞蹈【Figo × 王一大只】.mp4" poster="https://img0.baidu.com/it/u=1802578230,1841279071&fm=253&fmt=auto&app=120&f=JPEG?w=800&h=500" controls loop width="700"></video>
 ```
-## 音频\<audio\>
+## 嵌入式对象\<object>
+>可以把 PDF 阅读器，Flash 播放器，网页嵌入网页中，***最重要的是可以嵌入插件***
+
 ```html
-<audio src="E:\迅雷下载\就是爱你-陶喆.flac" controls>流沙</audio>
+/* data里面可以放音频，视频等 */
+<object width="100%" height="500px" data="https://www.w3school.com.cn/html/html_object.asp"></object>
+```
+## 雅虎媒体播放器
+>完全免费，操作方便
+
+```html
+<a href="song.mp3">Play Sound</a>
+
+<script type="text/javascript" src="http://mediaplayer.yahoo.com/js">
+</script>
 ```
 
 
