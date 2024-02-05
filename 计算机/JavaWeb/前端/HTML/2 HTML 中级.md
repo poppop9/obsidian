@@ -274,14 +274,12 @@ https://www.w3school.com.cn/graphics/svg_intro.asp
 
 # 多媒体
 ## 嵌入式对象\<object>
->可以把 PDF 阅读器，Flash 播放器，网页嵌入网页中
+>可以把 PDF 阅读器，Flash 播放器，网页嵌入网页中，***最重要的是可以嵌入插件***
 
 ```html
+/* data里面 */
 <object width="100%" height="500px" data="https://www.w3school.com.cn/html/html_object.asp"></object>
 ```
-
-<object width="100%" height="500px" data="https://www.w3school.com.cn/html/html_object.asp"></object>
-
 
 ## 视频\<video\>
 `autoplay` 视频就绪后自动播放
