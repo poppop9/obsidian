@@ -37,10 +37,8 @@
             "id": "04d2bb5befedae63",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -50,7 +48,7 @@
               "type": "markdown",
               "state": {
                 "file": "临时笔记/读心术.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -202,7 +200,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "4bae9f3e9f59955d",
+  "active": "202e13012971683d",
   "lastOpenFiles": [
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/前端/5 Vue.md",
