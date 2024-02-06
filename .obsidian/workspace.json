@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/Svelte.md",
+                "file": "计算机/JavaWeb/前端/5 Vue.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Svelte.md"
+                "file": "计算机/JavaWeb/前端/5 Vue.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Svelte.md"
+                "file": "计算机/JavaWeb/前端/5 Vue.md"
               }
             }
           },
@@ -203,6 +203,7 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/Svelte.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/JavaScript/JavaScript.md",
     "计算机/JavaWeb/前端/JavaScript/7 杂.md",
@@ -212,7 +213,6 @@
     "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
     "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
-    "计算机/JavaWeb/前端/Svelte.md",
     "计算机/JavaWeb/前端/前端.md",
     "计算机/JavaWeb/前端/Bootstrap.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",

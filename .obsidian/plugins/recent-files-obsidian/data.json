@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "5 Vue",
+      "path": "计算机/JavaWeb/前端/5 Vue.md"
+    },
+    {
       "basename": "Svelte",
       "path": "计算机/JavaWeb/前端/Svelte.md"
     },
@@ -187,10 +191,6 @@
     {
       "basename": "2 MyBatis",
       "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
-    },
-    {
-      "basename": "5 Vue",
-      "path": "计算机/JavaWeb/前端/5 Vue.md"
     },
     {
       "basename": "4 Ajax",
