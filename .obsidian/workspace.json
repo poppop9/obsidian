@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/5 Vue.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -56,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
               }
             }
           },
@@ -160,7 +159,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
               }
             }
           },
@@ -192,13 +191,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/Vue/Vue 2.md",
+    "计算机/JavaWeb/前端/Vue/Vue 3.md",
+    "计算机/JavaWeb/前端/Vue/Vue.md",
+    "计算机/JavaWeb/前端/Vue",
+    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "临时笔记/读心术.md",
     "临时笔记/草稿纸.md",
-    "计算机/JavaWeb/前端/5 Vue.md",
     "计算机/JavaWeb/前端/Svelte.md",
-    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/JavaScript/JavaScript.md",
     "计算机/JavaWeb/前端/JavaScript/7 杂.md",
     "计算机/JavaWeb/前端/JavaScript/6 浏览器对象.md",
@@ -219,8 +221,6 @@
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "Excalidraw/杂/杂 Draw.md",
     "临时笔记/DDED.md",
-    "Excalidraw/杂/杂.md",
-    "Excalidraw/Excalidraw.md",
     "图片库/Pasted Image 20240121113940_598.png",
     "计算机/JavaWeb/前端/CSS",
     "neil-jetbrains-mono.css",
@@ -239,7 +239,6 @@
     "计算机/JavaWeb/后端/SpringBoot",
     "Excalidraw/计算机/编程语言/数据库",
     "计算机/JavaWeb/后端",
-    "计算机/JavaWeb/前端",
     "未命名.canvas",
     "未命名 1.canvas"
   ]

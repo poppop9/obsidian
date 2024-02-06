@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Vue 3",
+      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+    },
+    {
+      "basename": "Vue 2",
+      "path": "计算机/JavaWeb/前端/Vue/Vue 2.md"
+    },
+    {
+      "basename": "Vue",
+      "path": "计算机/JavaWeb/前端/Vue/Vue.md"
+    },
+    {
       "basename": "1 基础Ⅰ",
       "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "草稿纸",
       "path": "临时笔记/草稿纸.md"
-    },
-    {
-      "basename": "5 Vue",
-      "path": "计算机/JavaWeb/前端/5 Vue.md"
     },
     {
       "basename": "Svelte",
@@ -191,14 +199,6 @@
     {
       "basename": "2 MyBatis",
       "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
-    },
-    {
-      "basename": "4 Ajax",
-      "path": "计算机/JavaWeb/前端/4 Ajax.md"
-    },
-    {
-      "basename": "03 Java的基础语法1",
-      "path": "计算机/编程语言/Java/03 Java的基础语法1.md"
     }
   ],
   "omittedPaths": [],
