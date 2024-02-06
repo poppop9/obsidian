@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "临时笔记/读心术.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -159,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/5 Vue.md"
+                "file": "临时笔记/读心术.md"
               }
             }
           },
@@ -169,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/5 Vue.md"
+                "file": "临时笔记/读心术.md"
               }
             }
           },
@@ -201,8 +202,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "4bae9f3e9f59955d",
   "lastOpenFiles": [
+    "临时笔记/草稿纸.md",
+    "计算机/JavaWeb/前端/5 Vue.md",
     "计算机/JavaWeb/前端/Svelte.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/JavaScript/JavaScript.md",
@@ -221,7 +224,6 @@
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/HTML/HTML.md",
     "计算机/JavaWeb/前端/HTML",
-    "临时笔记/草稿纸.md",
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "临时笔记/读心术.md",
@@ -229,7 +231,6 @@
     "临时笔记/DDED.md",
     "Excalidraw/杂/杂.md",
     "Excalidraw/Excalidraw.md",
-    "Excalidraw/杂/草稿纸 Draw.md",
     "图片库/Pasted Image 20240121113940_598.png",
     "计算机/JavaWeb/前端/CSS",
     "neil-jetbrains-mono.css",
