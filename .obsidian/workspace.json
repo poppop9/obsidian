@@ -56,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -150,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
               }
             }
           },
@@ -160,7 +159,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
               }
             }
           },
@@ -192,13 +191,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "计算机/JavaWeb/前端/Vue/Vue 2.md",
     "计算机/JavaWeb/前端/Vue/Vue.md",
     "计算机/JavaWeb/前端/Vue",
-    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "临时笔记/读心术.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/前端/Svelte.md",
