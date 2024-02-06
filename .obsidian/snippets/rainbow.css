@@ -302,6 +302,86 @@ img:not(.HyperMD-quote-1 img) {
 	max-width: 102%;
 }
 
+img[alt="50"] {
+	width: 50px;
+}
+
+img[alt="100"] {
+	width: 100px;
+}
+
+img[alt="150"] {
+	width: 150px;
+}
+
+img[alt="200"] {
+	width: 200px;
+}
+
+img[alt="250"] {
+	width: 250px;
+}
+
+img[alt="300"] {
+	width: 300px;
+}
+
+img[alt="350"] {
+	width: 350px;
+}
+
+img[alt="400"] {
+	width: 400px;
+}
+
+img[alt="450"] {
+	width: 450px;
+}
+
+img[alt="500"] {
+	width: 500px;
+}
+
+img[alt="550"] {
+	width: 550px;
+}
+
+img[alt="600"] {
+	width: 600px;
+}
+
+img[alt="650"] {
+	width: 650px;
+}
+
+img[alt="700"] {
+	width: 700px;
+}
+
+img[alt="750"] {
+	width: 750px;
+}
+
+img[alt="800"] {
+	width: 800px;
+}
+
+img[alt="850"] {
+	width: 850px;
+}
+
+img[alt="900"] {
+	width: 900px;
+}
+
+img[alt="950"] {
+	width: 950px;
+}
+
+img[alt="1000"] {
+	width: 1000px;
+}
+
 
 /* ---------------------------------------------------------------------------------- */
 /* 链接 */
