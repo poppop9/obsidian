@@ -228,6 +228,21 @@ https://cn.vuejs.org/guide/quick-start.html
 - `beforeMount`：挂载前
 - `mounted`：挂载后
 
+```html
+<body>
+	……
+</body>
+
+<script type="module">
+    import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'  
+
+    createApp({     
+        mounted() {
+            alert("Vue挂载完毕，发送请求获取数据");
+        }
+    }).mount('#app')   
+</script>
+```
 
 - `beforeUpdate`：数据更新前
 - `updated`：数据更新后
