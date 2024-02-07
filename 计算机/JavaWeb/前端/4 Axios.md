@@ -41,8 +41,13 @@ https://www.axios-http.cn/docs/intro
 	- `result` 服务器返回的所有数据【响应头，响应体】
 	- `result.data` 服务器返回的核心数据
 
+```html
+// 不带参数的get请求
+
+```
+
 ```js
-// 向指定ID的用户发起请求
+// 向指定ID（带参数）的用户发起请求
 axios.get('/user?ID=12345')
 	.then(result => {       // 处理成功情况
 		console.log(result.data);
