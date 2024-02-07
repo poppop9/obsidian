@@ -36,15 +36,20 @@ https://www.axios-http.cn/docs/intro
 
 - 然后就可以在 `script标签` 中使用axios了
 ## 方法
-### get请求
+### get
+- 成功
+	- `result` 服务器返回的所有数据【xiang'y】
+	- `result.data` 服务器返回的核心数据
+
+
 ```js
 // 向指定ID的用户发起请求
 axios.get('/user?ID=12345')
 	.then(result => {       // 处理成功情况
-		console.log(response);
+		console.log(result.data);
 	})
-	.catch(function (error) {         // 处理错误情况
-		console.log(error);
+	.catch(err => {         // 处理错误情况
+		console.log(err);
 	})
 	.finally(function () {         // 总是会执行
 		……
@@ -59,7 +64,7 @@ axios.get('/user', {
     }
   }).……
 ```
-### post请求
+### post
 ![[JavaWeb Draw#^group=jnhZ6xju|600]]
 ### delete
 
