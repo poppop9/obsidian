@@ -35,7 +35,7 @@ https://cn.vuejs.org/guide/quick-start.html
 ```
 ## 常用指令
 ### v-for
->列表渲染
+>列表渲染，遍历<u>容器的元素/对象的属性</u>
 
 
 ### v-bind
