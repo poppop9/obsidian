@@ -18,7 +18,7 @@ https://cn.vuejs.org/guide/quick-start.html
 4. 命名项目名称
 5. `cd <your-project-name>` 进入项目
 6. `npm install`
-7. `npm run dev` ***启动Vue项目***
+7. `npm run dev`/在VSCode的NPM脚本中点击`dev`  ***启动Vue项目***
 ### Vue项目的目录结构
 - `node_modules` 项目下载的第三方依赖包
 - `public` 项目的静态文件
@@ -36,7 +36,7 @@ https://cn.vuejs.org/guide/quick-start.html
 ## CDN 局部化
 `<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>`
 
-# 局部使用
+# 局部使用Vue
 >局部使用 表示使用CDN来引入 `Vue`
 
 - 使用 `{{……}}` 来插入数据
@@ -274,17 +274,5 @@ https://cn.vuejs.org/guide/quick-start.html
 - `beforeUnmount`：组件销毁前
 - `unmounted`：组件销毁后
 
-# 全局工程使用
+# 全局工程使用Vue
 
-### 启动Vue项目
-![[JavaWeb Draw#^group=KQ8yyjCW|400]]
-### 修改端口号
-```js
-const { defineConfig } = require('@vue/cli-service')
-module.exports = defineConfig({
-  transpileDependencies: true,
-  devServer: {
-    port: 7000
-  }
-})
-```
