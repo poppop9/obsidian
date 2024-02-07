@@ -98,10 +98,27 @@ https://cn.vuejs.org/guide/quick-start.html
 </script>
 ```
 ### v-model
-> 为***表单元素***创建双向数据绑定
+> 为<u>表单元素</u>创建***双向***数据绑定
 
 ```html
+<body>
+    <div id="app">
+        <input type="text" v-model="msg">
+		<p>{{ msg }}</p>   /* 文本框的内容更改，这里也动态变化 */
+    </div>
+</body>
 
+<script type="module">
+    import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+    createApp({
+        data() {
+            return {
+                msg: 'Hello Vue 3!'
+            }
+        }
+    }).mount('#app')
+</script>
 ```
 
 

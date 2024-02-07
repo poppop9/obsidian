@@ -1,38 +1,5 @@
 Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向数据绑定，***简化了DOM操作***
 # 常用指令
-## v-model
-> 为***表单元素***创建双向数据绑定
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="JS/vue.js"></script>
-</head>
-
-<body>
-    <div id="input_1">
-        <input type="text" v-model="url">  <!--使用v-model指令，绑定文本框里的内容-->
-        <a v-bind:href="url">Go to</a>  <!--绑定a链接里的href属性-->
-    </div>
-</body>
-
-<script>
-    new Vue({
-        el: "#input_1",
-        data: {
-            url: "https://www.baidu.com"  //此处的url一修改，会影响以上的所有url变量
-        }
-    })
-</script>
-</html>
-
-
-文本框里的链接一改变，那么<a>标签里的也会跟着变
-```
 ## v-on
 > 为标签绑定***事件***
 ```html
