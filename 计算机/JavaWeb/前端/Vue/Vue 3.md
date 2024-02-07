@@ -100,6 +100,8 @@ https://cn.vuejs.org/guide/quick-start.html
 ### v-model
 > 为<u>表单元素</u>创建***双向***数据绑定
 
+- ***语法***：`v-model="数据名"`
+
 ```html
 <body>
     <div id="app">
@@ -120,14 +122,71 @@ https://cn.vuejs.org/guide/quick-start.html
     }).mount('#app')
 </script>
 ```
+### v-on
+>为标签绑定***事件***
+
+```html
+
+```
 
 
 ### v-if，v-else if，v-else
 >条件性的渲染某元素
 
+- ***语法***：`v-if="表达式"`
 
+```html
+<body>
+    <div id="app">   /* 根据条件，三个span只渲染一个 */
+        <span v-if="age<=35"><b>年轻人</b></span>
+        <span v-else-if="age>35&&age<=60"><b>中年人</b></span>
+        <span v-else="age>60"><b>老年人</b></span>
+    </div>
+</body>
+
+<script type="module">
+    import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+    createApp({
+        data() {
+            return {
+                age: 18
+            }
+        }
+    }).mount('#app')
+</script>
+```
 ### v-show
+>不管条件成立与否都渲染，只是不成立的使用`display`来隐藏
+
+- ***语法***：`v-show="表达式"`
+
+```html
+<body>
+    <div id="app"> 
+		<span v-show="age<=35"><b>年轻人</b></span>
+		<span v-show="age>35&&age<=60"><b>中年人</b></span>
+		<span v-show="age>60"><b>老年人</b></span>
+    </div>
+</body>
+
+<script type="module">
+    import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+    createApp({
+        data() {
+            return {
+                age: 18
+            }
+        }
+    }).mount('#app')
+</script>
 
 
+---
+<span><b>年轻人</b></span>
+<span style="display: none;"><b>中年人</b></span>
+<span style="display: none;"><b>老年人</b></span>
+```
 
 # 工程使用
