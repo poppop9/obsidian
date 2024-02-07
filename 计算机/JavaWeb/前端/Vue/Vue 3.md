@@ -275,4 +275,51 @@ https://cn.vuejs.org/guide/quick-start.html
 - `unmounted`：组件销毁后
 
 # 全局工程使用Vue
+>[!attention] 注意
+>- 在全局使用Vue时，导入数据不能使用 `createApp` ，因为 `createApp` 创建Vue实例，而Vue实例已经在<u>入口文件</u> `main.js` 里面创建过了
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
