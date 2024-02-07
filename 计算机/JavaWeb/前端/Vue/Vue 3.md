@@ -221,14 +221,18 @@ https://cn.vuejs.org/guide/quick-start.html
 ## 生命周期
 >生命周期 就是vue对象从创建到销毁的过程
 
-1. ***beforeCreate*** 创建前调用
-2. ***created*** 创建后
-3. ***beforeMount*** 挂载前
-4. ***mounted*** 挂载后
-5. ***beforeUpdate*** 数据更新前
-7. ***updated***
-8. ***beforeUnmount***
-9. ***unmounted***
+>[!attention] 生命周期中的函数 与 `data()`， `methods{}` 同级
+
+- `beforeCreate`：创建前调用
+- `created`：创建后
+- `beforeMount`：挂载前
+- `mounted`：挂载后
+
+
+- `beforeUpdate`：数据更新前
+- `updated`：数据更新后
+- `beforeUnmount`：组件销毁前
+- `unmounted`：组件销毁后
 
 
 

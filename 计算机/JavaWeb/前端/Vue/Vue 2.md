@@ -1,13 +1,6 @@
 Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向数据绑定，***简化了DOM操作***
 
 # 生命周期
-## beforeCreate 创建前
-
-
-## created 创建后
-
-## beforeMount 载入前
-
 ## mounted 挂载完成
 ```html
 <!DOCTYPE html>
@@ -38,12 +31,7 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 
 弹出警告框：Vue挂载完毕，发送请求到服务器获取数据
 ```
-## beforeUpdate 更新前
-## updated 更新后
 
-## beforeDestroy 销毁前
-
-## destroyed 销毁后
 # 脚手架
 ## 安装前端环境Node.js
 - 官网安装Node.js
