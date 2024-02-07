@@ -14,6 +14,10 @@ https://cn.vuejs.org/guide/quick-start.html
 # 局部使用
 >局部使用 表示使用CDN来引入 `Vue`
 
+- 使用 `{{……}}` 来插入数据
+- 所有在html里用到的数据都要定义到 `data(){……}` 函数中
+- 所有在html里用到的函数都要定义到 `method:{……}` 中
+
 ```html
 <body>
 	<div id="app">
@@ -124,6 +128,10 @@ https://cn.vuejs.org/guide/quick-start.html
 ```
 ### v-on
 >为标签绑定***事件***
+
+- ***语法***
+	- `v-on:事件名="函数名"`
+	- `@事件名="函数名"`
 
 ```html
 
