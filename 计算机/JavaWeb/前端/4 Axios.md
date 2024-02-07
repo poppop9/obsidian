@@ -53,8 +53,8 @@ axios.get('http://localhost:8080/hello').then(res => {      // 处理成功情�
 ```
 - 带参数的请求
 ```js
-axios.get('http://localhost:8080/hello?id=1').then(result => {  
-	console.log(result.data);
+axios.get('http://localhost:8080/helloparam?id=1').then(result => {
+	alert(result.data);
 });
 ```
 ### post
