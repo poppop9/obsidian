@@ -37,7 +37,29 @@ https://cn.vuejs.org/guide/quick-start.html
 ### v-for
 >列表渲染，遍历<u>容器的元素/对象的属性</u>
 
+```html
+<body>
+	<div id="app">
+		/* 无索引的遍历 */
+		<span v-for="e in list">{{e}} &nbsp</span>
+		<br>
+		/* 有索引的遍历 */
+		<span v-for="(e, index) in list">{{index}}: {{e}} &nbsp</span>
+	</div>
+</body>
 
+<script type="module">
+	import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+	createApp({
+		data() {
+			return {    /* 准备数组 */
+				list: ['吴彦祖', '郭富城', '张学友', '刘德华', '梁朝伟']
+			}
+		}
+	}).mount('#app')
+</script>
+```
 ### v-bind
 
 
