@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "72530cf88b10b2b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4bae9f3e9f59955d",
             "type": "leaf",
             "state": {
@@ -194,8 +207,10 @@
   },
   "active": "5150fbe90374fca6",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/Vue/Vue 3.md",
+    "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
+    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/Vue/Vue 2.md",
+    "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/Vue/Vue.md",
     "计算机/JavaWeb/前端/Vue",
@@ -209,10 +224,8 @@
     "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
     "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
     "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
-    "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/前端/前端.md",
     "计算机/JavaWeb/前端/Bootstrap.md",
-    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
