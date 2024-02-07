@@ -22,6 +22,7 @@ https://cn.vuejs.org/guide/quick-start.html
 <body>
 	<div id="app">
 		<h1>{{msg}}</h1>
+		<button @click="handle">点击我</button>
 	</div>
 </body>
 
@@ -33,6 +34,9 @@ https://cn.vuejs.org/guide/quick-start.html
 			return {      /* 使用return返回数据 */
 				msg: "hello Vue3"      /* 定义数据 */
 			}
+		},
+		methods: {
+			……
 		}
 	}).mount('#app')    /* 挂载到某个html元素 */
 </script>
@@ -134,10 +138,24 @@ https://cn.vuejs.org/guide/quick-start.html
 	- `@事件名="函数名"`
 
 ```html
+<body>
+    <div id="app">
+        <button @click="handle">点击我</button>
+    </div>
+</body>
 
+<script type="module">
+    import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+    createApp({
+        methods: {
+            handle: function () {    //声明某个方法
+                alert("我被点击了")
+            }
+        }
+    }).mount('#app')
+</script>
 ```
-
-
 ### v-if，v-else if，v-else
 >条件性的渲染某元素
 
