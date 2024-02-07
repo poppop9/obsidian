@@ -71,7 +71,7 @@ https://cn.vuejs.org/guide/quick-start.html
 0: 吴彦祖  1: 郭富城  2: 张学友  3: 刘德华  4: 梁朝伟
 ```
 ### v-bind
->为标签绑定属性值
+>为标签绑定***属性值***
 
 - ***使用方法***：在需要属性值的标签内写上 `v-bind`
 - ***写法***
@@ -97,6 +97,14 @@ https://cn.vuejs.org/guide/quick-start.html
 	}).mount('#app')
 </script>
 ```
+### v-model
+> 为***表单元素***创建双向数据绑定
+
+```html
+
+```
+
+
 ### v-if，v-else if，v-else
 >条件性的渲染某元素
 
