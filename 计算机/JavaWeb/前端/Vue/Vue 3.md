@@ -19,17 +19,11 @@ https://cn.vuejs.org/guide/quick-start.html
 	<div id="app">{{ message }}</div>
 </body>
 
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script>
-	const { createApp, ref } = Vue
-	
-	createApp({
-		setup() {
-			const message = ref('Hello vue!')
-			return {
-				message
-			}
-		}
+<script type="module">
+	import {createApp} from 'https://unpkg.com/vue@3/dist/vue.global.js'   /* 导入 */
+
+	createApp({       /**
+		……
 	}).mount('#app')
 </script>
 ```
