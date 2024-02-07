@@ -73,12 +73,14 @@ https://cn.vuejs.org/guide/quick-start.html
 ### v-bind
 >为标签绑定属性值
 
+- ***使用方法***：在需要属性值的标签内写上 `v-bind`
+- ***写法***
+	- `v-bind:属性名="属性值"`
+	- `:属性值="属性值"`
+
 ```html
 <body>
 	<div id="app">
-		<span v-for="e in list">{{e}} &nbsp</span>
-		<br>
-		<span v-for="(e, index) in list">{{index}}: {{e}} &nbsp</span>
 		<a v-bind:href="url">百度</a>
 	</div>
 </body>
@@ -89,14 +91,17 @@ https://cn.vuejs.org/guide/quick-start.html
 	createApp({
 		data() {
 			return {
-				list: ['吴彦祖', '郭富城', '张学友', '刘德华', '梁朝伟'],
-				url: 'https://www.baidu.com'
+				url: 'https://www.baidu.com' /* 定义属性值 */
 			}
 		}
 	}).mount('#app')
 </script>
 ```
+### v-if，v-else if，v-else
+>条件性的渲染某元素
 
+
+### v-show
 
 
 
