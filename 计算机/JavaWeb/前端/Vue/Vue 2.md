@@ -177,37 +177,6 @@ Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向
 <span style="display: none;"><b>中年人</b></span>
 <span style="display: none;"><b>老年人</b></span>
 ```
-## v-for
-列表渲染
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>v-for</title>
-    <script src="JS/vue.js"></script>
-</head>
-
-<body>
-    <div id="list">
-        <span v-for="e in list">{{e}}</span>  //第一种写法
-        <br>
-        <span v-for="(e, index) in list">{{index}}:{{e}}</span>
-    </div>                      //第二种写法【加索引的】
-</body>
-
-<script>
-    new Vue({
-        el: "#list",
-        data: {
-            list: ["吴彦祖 ", "陈冠希 ", "郭富城"],
-        }
-    })
-</script>
-</html>
-```
 # 生命周期
 生命周期：vue对象从创建到销毁的过程
 ## beforeCreate 创建前

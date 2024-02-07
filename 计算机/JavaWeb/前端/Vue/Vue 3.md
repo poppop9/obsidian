@@ -37,6 +37,11 @@ https://cn.vuejs.org/guide/quick-start.html
 ### v-for
 >列表渲染，遍历<u>容器的元素/对象的属性</u>
 
+- ***使用方法***：要让哪个标签循环展示多次，就在哪个标签上使用 `v-for`
+- ***写法***
+	- `item in items` item为数组元素，items为数组名
+	- `(item, index) in items` index为索引
+
 ```html
 <body>
 	<div id="app">
@@ -59,9 +64,18 @@ https://cn.vuejs.org/guide/quick-start.html
 		}
 	}).mount('#app')
 </script>
+
+
+---
+吴彦祖  郭富城  张学友  刘德华  梁朝伟    
+0: 吴彦祖  1: 郭富城  2: 张学友  3: 刘德华  4: 梁朝伟
 ```
 ### v-bind
+>为标签绑定属性值
 
+```html
+
+```
 
 
 
