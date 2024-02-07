@@ -41,18 +41,24 @@ https://www.axios-http.cn/docs/intro
 	- `result` 服务器返回的所有数据【响应头，响应体】
 	- `result.data` 服务器返回的核心数据
 
-```html
+```js
 // 不带参数的get请求
-
+axios.get('http://localhost:8080/hello').then(res => {      // 处理成功情况
+	alert(res.data);
+}).catch(err => {          // 处理错误情况
+	alert(err);
+}).finally(function () {         // 总是会执行
+	……
+});
 ```
 
 ```js
-// 向指定ID（带参数）的用户发起请求
+// 带参数的get请求
 axios.get('/user?ID=12345')
-	.then(result => {       // 处理成功情况
+	.then(result => {    
 		console.log(result.data);
 	})
-	.catch(err => {         // 处理错误情况
+	.catch(err => {       
 		console.log(err);
 	})
 	.finally(function () {         // 总是会执行
