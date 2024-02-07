@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Vue 3",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+      "basename": "4 Axios",
+      "path": "计算机/JavaWeb/前端/4 Axios.md"
+    },
+    {
+      "basename": "1 HTML 初级",
+      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
     },
     {
       "basename": "Vue 2",
       "path": "计算机/JavaWeb/前端/Vue/Vue 2.md"
     },
     {
-      "basename": "1 HTML 初级",
-      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
+      "basename": "Vue 3",
+      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     },
     {
       "basename": "2 CSS中级",
@@ -195,10 +199,6 @@
     {
       "basename": "🌏旅行",
       "path": "临时笔记/🌏旅行.md"
-    },
-    {
-      "basename": "2 MyBatis",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
     }
   ],
   "omittedPaths": [],

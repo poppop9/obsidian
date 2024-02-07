@@ -1,36 +1,5 @@
 Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向数据绑定，***简化了DOM操作***
 
-# 生命周期
-## mounted 挂载完成
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mounted</title>
-    <script src="JS/vue.js"></script>
-</head>
-
-<body>
-    <div id="div_1">
-
-    </div>
-</body>
-<script>
-    new Vue({
-        el: "#div_1",
-        mounted() {
-            alert("Vue挂载完毕，发送请求到服务器获取数据")  
-        }              //只要挂载div_1完成则执行mounted方法
-    })
-</script>
-</html>
-
-
-弹出警告框：Vue挂载完毕，发送请求到服务器获取数据
-```
 
 # 脚手架
 ## 安装前端环境Node.js

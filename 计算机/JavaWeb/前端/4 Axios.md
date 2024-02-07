@@ -21,6 +21,8 @@
 >***responseText***	以字符串形式返回响应数据
 # Axios
 > Axios 对原生的 Ajax 进行了封装，简化了书写
+
+https://www.axios-http.cn/docs/intro
 ## 安装Axios
 ### 在Vue项目中使用Axios
 - 在项目目录下的cmd输入 `npm install axios`
@@ -29,9 +31,7 @@
 ### 在HTML文件中使用Axios
 - 在 `head标签` 中导入 `axios.js` 文件
 	```html
-	<head>
-	    <script src="JS/axios.js"></script>         <!--引入axios.js文件-->
-	</head>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	```
 
 - 然后就可以在 `script标签` 中使用axios了
