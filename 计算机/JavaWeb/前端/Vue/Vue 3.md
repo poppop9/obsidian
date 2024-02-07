@@ -18,7 +18,6 @@ https://cn.vuejs.org/guide/quick-start.html
 <body>
 	<div id="app">
 		<h1>{{msg}}</h1>
-		{{ msg }}
 	</div>
 </body>
 
@@ -31,9 +30,17 @@ https://cn.vuejs.org/guide/quick-start.html
 				msg: "hello Vue3"      /* 定义数据 */
 			}
 		}
-	}).mount('#app')    /* 挂载 */
+	}).mount('#app')    /* 挂载到某个html元素 */
 </script>
 ```
+## 常用指令
+### v-for
+>列表渲染
+
+
+### v-bind
+
+
 
 
 
