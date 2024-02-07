@@ -17,6 +17,7 @@ https://cn.vuejs.org/guide/quick-start.html
 - 使用 `{{……}}` 来插入数据
 - 所有在html里用到的数据都要定义到 `data(){……}` 函数中
 - 所有在html里用到的函数都要定义到 `method:{……}` 中
+	- 在 `methods` 中要使用到 `da't`
 
 ```html
 <body>
