@@ -58,7 +58,11 @@ axios.get('http://localhost:8080/helloparam?id=1').then(result => {
 });
 ```
 ### post
-
+```js
+axios.post('http://localhost:8080/helloparam', jsondata).then(result => {
+	alert(result.data);
+});
+```
 
 
 ### delete
