@@ -18,42 +18,21 @@ https://cn.vuejs.org/guide/quick-start.html
 4. 命名项目名称
 5. `cd <your-project-name>` 进入项目
 6. `npm install`
-7. `npm run dev`
+7. `npm run dev` ***启动Vue项目***
 ### Vue项目的目录结构
-- `node_modules` 整个项目的依赖包
+- `node_modules` 项目下载的第三方依赖包
 - `public` 项目的静态文件
 - `src` 项目的源代码
-	- `assets` 静态资源
+	- `assets` 静态资源【图片，字体…】
 	- `components` 可重用组件
 	- `router` 路由配置
-	- `views` 视图组件
 	- `App.vue` 入口页面【根组件】
-    ```vue
-    <template>          <!-- 模板代码，在此处定义原生HTML页面 -->
-      <div id="app">
-        <h1>{{ message }}</h1>
-      </div>
-    </template>
-    
-    <script>            //此处控制页面的行为
-    export default {
-      data() {
-        return {
-          message: "Hello Vue!"
-        }
-      }
-    }
-    </script>
-    
-    <style></style>
-    ```
-	- `main.js` 入口js文件
+	- `main.js` 入口文件
 - `.gitignore`
-- `babel.config.js`
-- `jsconfig.json`
-- `package-lock.json`
-- `package.json` 基本信息，版本信息
-- `vue.config.js` vue的配置文件【端口】
+- `index.html` 默认首页
+- `package-lock.json` 项目配置文件【无需修改，会自动生成】
+- `package.json` 项目配置文件【基本信息，版本信息，依赖包】
+- `vite.config.js` vue的配置文件【端口】
 ## CDN 局部化
 `<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>`
 
