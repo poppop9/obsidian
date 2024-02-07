@@ -37,12 +37,12 @@ https://www.axios-http.cn/docs/intro
 - 然后就可以在 `script标签` 中使用axios了
 ## 方法
 ### get
-- 成功
-	- `result` 服务器返回的所有数据【响应头，响应体】
-	- `result.data` 服务器返回的核心数据
+- `result` 服务器返回的所有数据【响应头，响应体】
+- `result.data` 服务器返回的核心数据
 
+---
+- 不带参数的请求
 ```js
-// 不带参数的get请求
 axios.get('http://localhost:8080/hello').then(res => {      // 处理成功情况
 	alert(res.data);
 }).catch(err => {          // 处理错误情况
@@ -51,19 +51,11 @@ axios.get('http://localhost:8080/hello').then(res => {      // 处理成功情�
 	……
 });
 ```
-
+- 带参数的请求
 ```js
-// 带参数的get请求
-axios.get('/user?ID=12345')
-	.then(result => {    
-		console.log(result.data);
-	})
-	.catch(err => {       
-		console.log(err);
-	})
-	.finally(function () {         // 总是会执行
-		……
-	});
+axios.get('http://localhost:8080/hello?id=1').then(result => {  
+	console.log(result.data);
+});
 ```
 ### post
 

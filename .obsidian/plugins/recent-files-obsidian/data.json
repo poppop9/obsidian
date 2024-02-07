@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+    },
+    {
+      "basename": "读心术",
+      "path": "临时笔记/读心术.md"
+    },
+    {
       "basename": "4 Axios",
       "path": "计算机/JavaWeb/前端/4 Axios.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "Vue",
       "path": "计算机/JavaWeb/前端/Vue/Vue.md"
-    },
-    {
-      "basename": "读心术",
-      "path": "临时笔记/读心术.md"
     },
     {
       "basename": "草稿纸",
@@ -175,10 +179,6 @@
     {
       "basename": "持久性",
       "path": "计算机/四大件/操作系统/持久性.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
     {
       "basename": "计算机网络",
