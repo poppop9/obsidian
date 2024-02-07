@@ -16,16 +16,19 @@ https://cn.vuejs.org/guide/quick-start.html
 
 ```html
 <body>
-	<div id="app">{{ msg }}</div>
+	<div id="app">
+		<h1>{{msg}}</h1>
+		{{ msg }}
+	</div>
 </body>
 
 <script type="module">
-	import {createApp} from 'https://unpkg.com/vue@3/dist/vue.global.js'   /* 导入 */
+	import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'   /* 导入 */
 
 	createApp({       /* 使用 */
 		data() {    /* 定义data函数插入数据 */
 			return {      /* 使用return返回数据 */
-				msg: "hello Vue3"      /* 定义数据 */ 
+				msg: "hello Vue3"      /* 定义数据 */
 			}
 		}
 	}).mount('#app')    /* 挂载 */
