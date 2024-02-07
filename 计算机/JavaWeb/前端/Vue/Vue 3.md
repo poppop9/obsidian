@@ -12,8 +12,27 @@ https://cn.vuejs.org/guide/quick-start.html
 `<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>`
 
 # 局部使用
+>局部使用 表示使用CDN来引入 `Vue`
 
+```html
+<body>
+	<div id="app">{{ message }}</div>
+</body>
 
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+<script>
+	const { createApp, ref } = Vue
+
+	createApp({
+		setup() {
+				const message = ref('Hello vue!')
+				return {
+						message
+				}
+		}
+	}).mount('#app')
+</script>
+```
 
 
 
