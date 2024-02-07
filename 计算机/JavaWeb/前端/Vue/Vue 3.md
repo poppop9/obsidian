@@ -218,5 +218,20 @@ https://cn.vuejs.org/guide/quick-start.html
 <span style="display: none;"><b>中年人</b></span>
 <span style="display: none;"><b>老年人</b></span>
 ```
+## 生命周期
+>生命周期 就是vue对象从创建到销毁的过程
+
+1. ***beforeCreate*** 创建前调用
+2. ***created*** 创建后
+3. ***beforeMount*** 挂载前
+4. ***mounted*** 挂载后
+5. ***beforeUpdate*** 数据更新前
+7. ***updated***
+8. ***beforeUnmount***
+9. ***unmounted***
+
+
+
+
 
 # 工程使用

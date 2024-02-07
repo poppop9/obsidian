@@ -1,42 +1,6 @@
 Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向数据绑定，***简化了DOM操作***
-# 常用指令
-## v-on
-> 为标签绑定***事件***
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>v-on</title>
-    <script src="JS/vue.js"></script>
-</head>
-
-<body>
-    <div id="input_1">
-		<input type="button" value="点击一下" v-on:click="handle"> //绑定handle方法
-    </div>
-</body>
-
-<script>
-    new Vue({
-        el: "#input_1",
-        methods: {    //声明方法结构体
-            handle: function () {    //声明某个方法
-                alert("我被点击了")
-            }
-        }
-    })
-</script>
-</html>
-
-
-点击按钮就会跳出警告框
-```
 
 # 生命周期
-生命周期：vue对象从创建到销毁的过程
 ## beforeCreate 创建前
 
 
