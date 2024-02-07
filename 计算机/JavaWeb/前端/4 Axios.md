@@ -38,9 +38,8 @@ https://www.axios-http.cn/docs/intro
 ## 方法
 ### get
 - 成功
-	- `result` 服务器返回的所有数据【xiang'y】
+	- `result` 服务器返回的所有数据【响应头，响应体】
 	- `result.data` 服务器返回的核心数据
-
 
 ```js
 // 向指定ID的用户发起请求
@@ -55,17 +54,10 @@ axios.get('/user?ID=12345')
 		……
 	});
 ```
-
-```js
-//get带参数的另一种写法
-axios.get('/user', {
-    params: {
-      ID: 12345
-    }
-  }).……
-```
 ### post
-![[JavaWeb Draw#^group=jnhZ6xju|600]]
+
+
+
 ### delete
 
 ### put
