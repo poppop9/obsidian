@@ -24,11 +24,11 @@
 
 https://www.axios-http.cn/docs/intro
 ## 安装Axios
-### 在Vue项目中使用Axios
+### 工程化 Axios
 - 在项目目录下的cmd输入 `npm install axios`
 - 需要Axios时，在 `script标签` 中导入 `import axios from 'axios'`
 - 然后就可以在 `script标签` 中使用axios了
-### 在HTML文件中使用Axios
+### 局部化 Axios
 - 在 `head标签` 中导入 `axios.js` 文件
 	```html
 	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -59,14 +59,16 @@ axios.get('http://localhost:8080/helloparam?id=1').then(result => {
 ```
 ### post
 ```js
-axios.post('http://localhost:8080/helloparam', jsondata).then(result => {
+let jsondata = {
+	id: 1,
+	name: '张三'
+};
+
+axios.post('http://localhost:8080/hellojson', jsondata).then(result => {
 	alert(result.data);
 });
 ```
-
-
 ### delete
-
 ### put
 
 ## 示例1 - 用get，post获取提交数据
