@@ -74,7 +74,27 @@ https://cn.vuejs.org/guide/quick-start.html
 >为标签绑定属性值
 
 ```html
+<body>
+	<div id="app">
+		<span v-for="e in list">{{e}} &nbsp</span>
+		<br>
+		<span v-for="(e, index) in list">{{index}}: {{e}} &nbsp</span>
+		<a v-bind:href="url">百度</a>
+	</div>
+</body>
 
+<script type="module">
+	import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
+
+	createApp({
+		data() {
+			return {
+				list: ['吴彦祖', '郭富城', '张学友', '刘德华', '梁朝伟'],
+				url: 'https://www.baidu.com'
+			}
+		}
+	}).mount('#app')
+</script>
 ```
 
 
