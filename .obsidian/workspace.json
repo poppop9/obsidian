@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前端/Vue/Vue 3.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前端/4 Axios.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -208,9 +208,9 @@
   "active": "72530cf88b10b2b7",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
+    "计算机/JavaWeb/前端/4 Axios.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "临时笔记/读心术.md",
-    "计算机/JavaWeb/前端/4 Axios.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/前端/Vue/Vue 2.md",
