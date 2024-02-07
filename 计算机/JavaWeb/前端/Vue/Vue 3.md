@@ -17,7 +17,7 @@ https://cn.vuejs.org/guide/quick-start.html
 - 使用 `{{……}}` 来插入数据
 - 所有在html里用到的数据都要定义到 `data(){……}` 函数中
 - 所有在html里用到的函数都要定义到 `method:{……}` 中
-	- 在 `methods` 中要使用到 `da't`
+	- 在 `methods` 中要使用到 `data()函数` 中的数据时，***使用 `this` 关键字***
 
 ```html
 <body>
@@ -37,6 +37,9 @@ https://cn.vuejs.org/guide/quick-start.html
 			}
 		},
 		methods: {
+			handle: function(){
+				this.msg="我被点击了";
+			}
 			……
 		}
 	}).mount('#app')    /* 挂载到某个html元素 */
