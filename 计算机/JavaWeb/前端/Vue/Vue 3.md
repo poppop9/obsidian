@@ -349,8 +349,17 @@ function removeTodo(todo) {
 }
 ```
 
+## 动态赋值computed()
+>可以响应式地根据某个表达式，来响应式地赋值
 
+```js
 
+const filteredTodos = computed(() => {
+  return hideCompleted.value    
+    ? todos.value.filter((todo) => todo.done===false)
+    : todos.value
+})
+```
 
 
 
