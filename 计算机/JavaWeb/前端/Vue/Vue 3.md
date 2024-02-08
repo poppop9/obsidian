@@ -81,7 +81,7 @@ https://cn.vuejs.org/guide/quick-start.html
 
 - ***使用方法***：要让哪个标签循环展示多次，就在哪个标签上使用 `v-for`
 - ***写法***
-	- `item in items` item为数组元素，items为数组名
+	- `v-for="item in items" :key="item"` item为数组元素，items为数组名
 	- `(item, index) in items` index为索引
 
 ```html
