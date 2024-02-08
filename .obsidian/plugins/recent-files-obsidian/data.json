@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "14 Java 8 新特性",
+      "path": "计算机/编程语言/Java/14 Java 8 新特性.md"
+    },
+    {
+      "basename": "4 Axios",
+      "path": "计算机/JavaWeb/前端/4 Axios.md"
+    },
+    {
       "basename": "Vue 3",
       "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "4 Axios",
-      "path": "计算机/JavaWeb/前端/4 Axios.md"
     },
     {
       "basename": "读心术",
@@ -195,10 +199,6 @@
     {
       "basename": "内网穿透",
       "path": "科技美学/内网穿透.md"
-    },
-    {
-      "basename": "🌏旅行",
-      "path": "临时笔记/🌏旅行.md"
     }
   ],
   "omittedPaths": [],
