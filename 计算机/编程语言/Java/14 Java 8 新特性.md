@@ -379,10 +379,12 @@ false
 @FunctionalInterface
 public interface Function<T,R>
 ```
-***是一个转唤型接口，接收一个参数将其转换为另一个参数***
+
+***是一个转换型接口，接收一个参数将其转换为另一个参数***
+
 >[!summary]
 >R apply(T t)  ------
->default<\V> Function<\T,\V> andThen(Function after)  ------
+>default\<V> Function\<T,V> andThen(Function after)  ------
 
 ```java
 public class FunctionDemo {  
