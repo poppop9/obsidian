@@ -280,10 +280,12 @@ https://cn.vuejs.org/guide/quick-start.html
 
 ## 模板
 - `<script setup>` 必须指定
-- 从已经下载的 `vue` 文件中导入<u>各种函数</u>
-- 使用 `ref()` 定义***响应式变量***，`ref()` 会返回一个对象，这个对象的有一个指向内部值的属性 `value`
-- 定义方法可以直接定义，***不需要在 `methods` 里面***
-- 钩子方法使用 `onMounted()`
+	- 从已经下载的 `vue` 文件中导入<u>各种函数</u>
+	- 使用 `ref()` 定义***响应式变量***，`ref()` 会返回一个对象，这个对象的有一个指向内部值的属性 `value`
+	- 定义方法可以直接定义，***不需要在 `methods` 里面***
+	- 钩子方法使用 `onMounted()`
+- `<template>` html代码
+- `<style>` css代码
 
 ```html
 <script setup>    /* 必须指明setup */
@@ -306,6 +308,8 @@ onMounted(() => {
         <button @click="increment">Increment</button>
     </div>
 </template>
+
+<style></style>
 ```
 
 
