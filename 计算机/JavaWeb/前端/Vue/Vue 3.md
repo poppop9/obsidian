@@ -328,11 +328,25 @@ onMounted(() => {
 
 # 如何操作数据
 ## 数组
-todos.value.push(newTodo)
+>[!hint] 方法
+>>此处 `todos` 为数组，`todo` 为数组元素
+>- todos.value.push(newTodo) ***给数组的末尾添加元素***
+>- todos.value.filter(……) ***根据条件过滤出数组***
 
-todos.value = todos.value.filter(() => 表达式)
+```js
+const todos = ref([
+  { id: id++, text: 'Learn HTML' },
+  { id: id++, text: 'Learn JavaScript' },
+  { id: id++, text: 'Learn Vue' }
+])
 
-```
+---
+todos.value.push({ id: id++, text: newTodo.value })
+
+---
+function removeTodo(todo) {
+  todos.value = todos.value.filter((todos) => todos !== todo)
+}
 ```
 
 
