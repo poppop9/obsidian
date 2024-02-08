@@ -292,13 +292,12 @@ import { onMounted, ref } from 'vue';   /* 从vue中导入ref()函数，onMounte
 const count = ref(0);      /* 使用ref()函数定义响应式变量 */
 
 function increment() {
-    count.value++;
+    count.value++;    /* 使用count的value属性 拿到值 */
 }
 
 onMounted(() => {
     alert('mounted!');
 });
-
 </script>
 
 <template>
