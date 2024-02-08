@@ -326,7 +326,14 @@ onMounted(() => {
 <style></style>
 ```
 
+# 如何操作数据
+## 数组
+todos.value.push(newTodo)
 
+todos.value = todos.value.filter(() => 表达式)
+
+```
+```
 
 
 
