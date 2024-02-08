@@ -296,7 +296,7 @@ import { onMounted, ref } from 'vue';   /* 从vue中导入ref()函数，onMounte
 const count = ref(0);      /* 使用ref()函数定义响应式变量 */
 
 function increment() {
-    count.value++;    /* 使用count的value属性 拿到值 */
+    count.value++;    /* 在方法中使用count，需要.value拿到值 */
 }
 
 onMounted(() => {
@@ -306,7 +306,7 @@ onMounted(() => {
 
 <template>
     <div>
-        <h1>{{ count }}</h1>
+        <h1>{{ count }}</h1>     <!--在<template>里使用变量不需要.value -->
         <button @click="increment">Increment</button>
     </div>
 </template>
