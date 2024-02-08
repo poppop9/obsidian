@@ -353,7 +353,7 @@ function removeTodo(todo) {
 >可以响应式地根据某个表达式，来响应式地赋值
 
 ```js
-
+// hideCompleted是个动态数据，根据这个值，使用三元运算符来动态返回数据，并使用返回地数据定义filteredTodos
 const filteredTodos = computed(() => {
   return hideCompleted.value    
     ? todos.value.filter((todo) => todo.done===false)
