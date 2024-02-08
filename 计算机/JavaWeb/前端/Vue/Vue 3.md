@@ -81,17 +81,19 @@ https://cn.vuejs.org/guide/quick-start.html
 
 - ***使用方法***：要让哪个标签循环展示多次，就在哪个标签上使用 `v-for`
 - ***写法***
-	- `v-for="item in items" :key="item"` item为数组元素，items为数组名
-	- `(item, index) in items` index为索引
+	- `v-for="item in items" :key="item.id"` item为数组元素，items为数组名，`:key` 是给每个数组元素绑定一个id值【***最好是items里唯一的值***】，让vue可以顺利的遍历
+	- `v-for="(item, index) in items" :key="item.id"` index为索引
 
 ```html
 <body>
 	<div id="app">
-		/* 无索引的遍历 */
-		<span v-for="e in list">{{e}} &nbsp</span>
-		<br>
-		/* 有索引的遍历 */
-		<span v-for="(e, index) in list">{{index}}: {{e}} &nbsp</span>
+        <table>
+            <tr v-for="data in tabledata" :key="data.id">
+                <td>{{ data.id }}</td>
+                <td>{{ data.name }}</td>
+                <td>{{ data.age }}</td>
+            </tr>
+        </table>
 	</div>
 </body>
 
@@ -101,7 +103,12 @@ https://cn.vuejs.org/guide/quick-start.html
 	createApp({
 		data() {
 			return {    /* 准备数组 */
-				list: ['吴彦祖', '郭富城', '张学友', '刘德华', '梁朝伟']
+				const tabledata = [
+				    { id: 1, name: 'John', age: 30 },
+				    { id: 2, name: 'Paul', age: 20 },
+				    { id: 3, name: 'George', age: 40 },
+				    { id: 4, name: 'Ringo', age: 25 }
+				];
 			}
 		}
 	}).mount('#app')
