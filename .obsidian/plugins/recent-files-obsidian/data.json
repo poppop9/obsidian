@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
+    },
+    {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
       "basename": "Vue 3",
       "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "4 Axios",
       "path": "计算机/JavaWeb/前端/4 Axios.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
     },
     {
       "basename": "1 SpringBoot",
@@ -95,10 +99,6 @@
     {
       "basename": "2 HTML 中级",
       "path": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
-    },
-    {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "1 CSS初级",
@@ -195,10 +195,6 @@
     {
       "basename": "微信",
       "path": "科技美学/微信.md"
-    },
-    {
-      "basename": "内网穿透",
-      "path": "科技美学/内网穿透.md"
     }
   ],
   "omittedPaths": [],

@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "临时笔记/穿搭.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -172,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -204,12 +205,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "4bae9f3e9f59955d",
   "lastOpenFiles": [
+    "临时笔记/草稿纸.md",
+    "穿他.md",
+    "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "计算机/编程语言/Java/14 Java 8 新特性.md",
     "计算机/JavaWeb/前端/4 Axios.md",
-    "计算机/JavaWeb/前端/Vue/Vue 3.md",
-    "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/前端/Vue/Vue 2.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
@@ -233,7 +235,6 @@
     "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
     "计算机/JavaWeb/前端/HTML/HTML.md",
     "计算机/JavaWeb/前端/HTML",
-    "临时笔记/穿搭.md",
     "图片库/Pasted Image 20240121113940_598.png",
     "计算机/JavaWeb/前端/CSS",
     "neil-jetbrains-mono.css",
