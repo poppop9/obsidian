@@ -106,9 +106,29 @@ axios.post('http://localhost:8080/hellojson', jsondata).then(result => {
 ### delete
 ### put
 ## 同步与异步
+### 同步
+>`js代码` 与 `axios请求代码` 顺序执行
 
+当需要等待请求结果来渲染页面时，那就需要***同步***：
+```js
+<script setup>
+import { hello } from '@/api/hello.js';
 
+// 定义数据
+const msg2 = ref({
+    id: 111,
+    name: 'John'
+});
 
+// 
+const getData = async () => {
+    const data1 = await hello(msg2);
+    alert(data1);
+};
+
+getData();
+</script>
+```
 
 
 
