@@ -153,10 +153,22 @@ getData();
 >[!attention] `async` 是异步的意思，为什么用于==同步==呢
 >由于 JavaScript 是赶工出来的语言，这是它的设计缺陷，`await` 必须在 `async` 定义的函数<u>里面才能使用</u>
 
+## 公共路径baseURL
+>如果每一个 `axios请求` 都包含完整的路径，那么后续改动时将非常麻烦，所以我们<u>会定义一个公共路径</u> `baseURL`
 
+- 未定义 `baseURL`
+```js
+axios.get('http://localhost:8080/helloparam').then(result => {
+	alert(result.data);
+});
 
+```
 
+- 定义 `baseURL`
+```js
+const baseURL = 'http://localhost:8080';
 
+```
 
 
 
