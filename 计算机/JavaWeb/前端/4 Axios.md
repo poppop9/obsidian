@@ -107,10 +107,30 @@ axios.post('http://localhost:8080/hellojson', jsondata).then(result => {
 ### put
 ## 同步与异步
 ### 同步
->`js代码` 与 `axios请求代码` 顺序执行
+>`js代码` 与 `axios请求代码` 顺序执行，<u>使用</u> `async`，`await`
 
 当需要等待请求结果来渲染页面时，那就需要***同步***：
 ```js
+// hello.js
+import axios from 'axios';
+
+// 使用export暴露函数，async定义异步函数
+export async function hello(msg2) {   
+    return await axios.get('http://localhost:8080/helloparam', {  // await定义同步
+        params: {
+            id: msg2.value.id,
+            name: msg2.value.name
+        }
+    }).then(res => {
+        return res.data;
+    }).catch(err => {
+        console.log(err);
+    });
+}
+```
+
+```js
+// 需要等待请求结果之后再alert，如果是异步执行，那么将alert出来空数据
 <script setup>
 import { hello } from '@/api/hello.js';
 
@@ -120,8 +140,8 @@ const msg2 = ref({
     name: 'John'
 });
 
-// 
-const getData = async () => {
+// 定义同步方法
+const getData = async function() {
     const data1 = await hello(msg2);
     alert(data1);
 };
@@ -130,7 +150,7 @@ getData();
 </script>
 ```
 
-
+>[!attention] `async` 是异步的意思，为什么用于***同步***呢
 
 
 
