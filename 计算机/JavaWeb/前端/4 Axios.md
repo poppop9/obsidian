@@ -57,12 +57,24 @@ axios.get('http://localhost:8080/hello').then(res => {      // 处理成功情�
 	……
 });
 ```
-- 带参数的请求
+- 带明确参数的请求
 ```js
 axios.get('http://localhost:8080/helloparam?id=1').then(result => {
 	alert(result.data);
 });
 ```
+- 带变量参数的请求
+```js
+const msg2 = ref({
+    id: 1,
+    name: 'John'
+});
+
+axios.get('http://localhost:8080/helloparam',{params:{...msg2.value}}).then(res => {
+    alert(res.data);
+});
+```
+
 ### post
 ```js
 let jsondata = {
