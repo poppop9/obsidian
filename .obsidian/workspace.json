@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/14 Java 8 新特性.md",
+                "file": "计算机/JavaWeb/前端/4 Axios.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/4 Axios.md"
               }
             }
           },
@@ -172,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/4 Axios.md"
               }
             }
           },
@@ -204,7 +205,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "72530cf88b10b2b7",
   "lastOpenFiles": [
     "计算机/编程语言/Java/14 Java 8 新特性.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
