@@ -105,102 +105,10 @@ axios.post('http://localhost:8080/hellojson', jsondata).then(result => {
 ```
 ### delete
 ### put
-
-## 示例1 - 用get，post获取提交数据
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axios</title>
-    <script src="JS/axios.js"></script>         <!--引入axios.js文件-->
-</head>
-
-<body>
-    <input type="button" value="获取数据" onclick="get()">
-    <input type="button" value="提交数据" onclick="post()">
-</body>
-
-<script>
-    function get() {
-        axios.get("data.json").then(result => {
-            console.log(result.data);
-        })
-    }
-
-    function post() {
-        axios.post("http://127.0.0.1:10088", "id=1").then(result => {
-            console.log(result.data);
-        })
-    }
-</script>
-</html>
-```
-## 示例2 - 用异步请求填充表格
-```html
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Axios案例</title>
-    <script src="JS/axios.js"></script>
-    <script src="JS/vue.js"></script>
-
-</head>
-
-<body>
-    <div id="app">
-        <table border="1px" cellspacing="0" width="300px">
-            <tr>
-                <th>编号</th>
-                <th>姓名</th>
-                <th>年龄</th>
-                <th>性别</th>
-                <th>地址</th>
-            </tr>
-            <tr v-for="(element, index) in arr" align="center">  //数组元素为element
-                <td>{{index+1}}</td>
-                <td>{{element.name}}</td>
-                <td>{{element.age}}</td>
-                <td>
-                    <span v-if="element.gender==1">男</span>
-                    <span v-else="element.gender==2">女</span>
-                </td>
-                <td>{{element.address}}</td>
-            </tr>
-        </table>
-    </div>
-
-</body>
-<script>
-    new Vue({
-        el: "#app",
-        data: {
-            arr: []  //定义了一个数组
-        },
-        mounted() {
-            axios.get("data.json").then(result => {
-                this.arr = result.data.data; 
-            })          //result.data表示拿到了对象的数据，再加.data表示data键的值
-        }
-    })
-</script>
-</html>
+## 同步与异步
 
 
-以下为data.json的结构
-{
-    "code": 1,
-    "msg": "success",
-    "data": [
-        {……},{……}
-    ]
-}
-```
+
 
 
 
