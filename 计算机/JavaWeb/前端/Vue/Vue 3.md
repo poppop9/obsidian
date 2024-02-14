@@ -125,7 +125,7 @@ https://cn.vuejs.org/guide/quick-start.html
 - ***使用方法***：在需要属性值的标签内写上 `v-bind`
 - ***写法***
 	- `v-bind:属性名="属性值"`
-	- `:属性值="属性值"`
+	- `:属性名="属性值"`
 
 ```html
 <body>
