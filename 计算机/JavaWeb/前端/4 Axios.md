@@ -156,18 +156,24 @@ getData();
 ## 公共路径baseURL
 >如果每一个 `axios请求` 都包含完整的路径，那么后续改动时将非常麻烦，所以我们<u>会定义一个公共路径</u> `baseURL`
 
-- 未定义 `baseURL`
+- ~~未定义~~ `baseURL`
 ```js
 axios.get('http://localhost:8080/helloparam').then(result => {
 	alert(result.data);
 });
-
 ```
 
 - 定义 `baseURL`
 ```js
+// 定义基础路径
 const baseURL = 'http://localhost:8080';
+// 将基础路径作为js对象，传递给axios，拿到instance对象
+const instance = axios.create({ baseURL });
 
+// 使用instance对象
+instance.get('/helloparam').then(result => {
+	alert(result.data);
+});
 ```
 
 
