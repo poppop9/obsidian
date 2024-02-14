@@ -114,11 +114,10 @@ axios.post('http://localhost:8080/hellojson', jsondata).then(result => {
 // hello.js
 import axios from 'axios';
 
-// 使用export暴露函数，async定义异步函数
-export async function hello(msg2) {   
+// 使用export暴露函数
+export function hello(msg2) {   
 	// 使用return返回结果
-	// await定义同步
-    return await axios.get('http://localhost:8080/helloparam', {  
+    return axios.get('http://localhost:8080/helloparam', {  
         params: {
             id: msg2.value.id,
             name: msg2.value.name
@@ -140,9 +139,9 @@ const msg2 = ref({
     name: 'John'
 });
 
-// 定义同步方法
+// async定义异步函数
 const getData = async function() {
-    const data1 = await hello(msg2);
+    const data1 = await hello(msg2);  	// await定义同步
     alert(data1);
 };
 
