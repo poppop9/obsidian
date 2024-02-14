@@ -116,15 +116,15 @@ import axios from 'axios';
 
 // 使用export暴露函数，async定义异步函数
 export async function hello(msg2) {   
-    return await axios.get('http://localhost:8080/helloparam', {  // await定义同步
+	// 使用return返回结果
+	// await定义同步
+    return await axios.get('http://localhost:8080/helloparam', {  
         params: {
             id: msg2.value.id,
             name: msg2.value.name
         }
     }).then(res => {
         return res.data;
-    }).catch(err => {
-        console.log(err);
     });
 }
 ```
@@ -150,7 +150,8 @@ getData();
 </script>
 ```
 
->[!attention] `async` 是异步的意思，为什么用于***同步***呢
+>[!attention] `async` 是异步的意思，为什么用于==同步==呢
+>由于 JavaScript 是赶工出来的语言，这是它的设计缺陷，`await` 必须在 `async` 定义的函数<u>里面才能使用</u>
 
 
 
