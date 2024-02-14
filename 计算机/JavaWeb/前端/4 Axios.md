@@ -139,9 +139,10 @@ const msg2 = ref({
     name: 'John'
 });
 
-// async定义异步函数
+// async定义异步函数，表示函数是异步的
 const getData = async function() {
-    const data1 = await hello(msg2);  	// await定义同步
+	// await定义同步，表示这行代码是同步的，这行代码不执行完，不会执行下一行
+    const data1 = await hello(msg2);  	
     alert(data1);
 };
 
