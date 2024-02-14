@@ -70,8 +70,15 @@ const msg2 = ref({
     name: 'John'
 });
 
-axios.get('http://localhost:8080/helloparam',{params:{...msg2.value}}).then(res => {
+axios.get('http://localhost:8080/helloparam', {
+    params: {
+        id: msg2.value.id,
+        name: msg2.value.name
+    }
+}).then(res => {
     alert(res.data);
+}).catch(err => {
+    alert(err);
 });
 ```
 
