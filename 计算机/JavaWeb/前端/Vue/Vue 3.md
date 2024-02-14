@@ -370,7 +370,9 @@ const filteredTodos = computed(() => {
 
 # 组件库
 ## Element+
-
+- 安装： https://element-plus.org/zh-CN/guide/installation.html
+- 引入： https://element-plus.org/zh-CN/guide/quickstart.html
+- 组件： https://element-plus.org/zh-CN/component/button.html
 
 
 
