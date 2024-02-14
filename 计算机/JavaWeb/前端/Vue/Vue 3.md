@@ -1,3 +1,9 @@
+# 文件路径
+[[1 HTML 初级#文件路径]]
+
+补充：
+`@/api/hello.js` 位于src文件夹下的api文件夹下的hello.js文件
+
 # 创建Vue项目
 https://cn.vuejs.org/guide/quick-start.html
 ## npm 工程化
