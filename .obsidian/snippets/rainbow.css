@@ -817,14 +817,14 @@ h3::after {
 .cm-header-4:not(.cm-formatting-header-4, .cm-hmd-escape-backslash)::before {
 	content: "";
 	position: absolute;
-	top: 0.6rem;
+	top: 1.05rem;
 	left: 0rem;
 	right: 0;
-	bottom: 0.1rem;
+
+	height: 0.85rem;
 
 	padding: 0rem 0rem 0rem 0rem;
 	background-color: #88b9e677;
-	border-radius: 5px;
 	z-index: -1;
 }
 
@@ -857,15 +857,19 @@ h4[data-heading]::before {
 h4[data-heading]::after {
 	content: "";
 	position: absolute;
-	top: 0.88rem;
+	top: 1.15rem;
 	left: 0rem;
 	right: 0;
-	bottom: 0.3rem;
+
+	height: 0.85rem;
 
 	padding: 0rem 0rem 0rem 0rem;
-	background-color: #88b9e6b2;
-	border-radius: 5px;
+	background-color: #88b9e677;
 	z-index: -1;
+}
+
+.theme-dark h4[data-heading]::after {
+	background-color: #88b9e6b2;
 }
 
 .markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h4) {
