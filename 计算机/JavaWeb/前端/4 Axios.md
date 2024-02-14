@@ -45,6 +45,12 @@ import axios from 'axios';
 ## 使用与定义
 >我们一般会把异步请求封装到一个单独的 `.js文件` 中，并暴露调用函数，这样在其他文件中可以直接调用，不用重复书写相同的 `axios代码`
 
+```js
+export function getHello() {
+
+}
+```
+
 ## 方法
 ### get
 - `result` 服务器返回的所有数据【响应头，响应体】
