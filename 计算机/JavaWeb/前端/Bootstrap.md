@@ -3,6 +3,7 @@
 >[!hint] Bootstrap的核心是***移动优先***，所以为一个较小的视口设置了样式，这个样式会在所有更大的视口中继续适用，除非对更大视口的添加新的样式
 
 # 引入
+## CDN
 https://v5.bootcss.com/docs/getting-started/introduction/#quick-start
 
 ```html
@@ -25,6 +26,11 @@ https://v5.bootcss.com/docs/getting-started/introduction/#quick-start
 
 </html>
 ```
+## npm
+https://v5.bootcss.com/docs/getting-started/download/#npm
+
+`npm install bootstrap@5.3.0-alpha1`
+
 # 布局
 ## 容器
 ![800](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402051731979.png)
