@@ -817,11 +817,11 @@ h3::after {
 .cm-header-4:not(.cm-formatting-header-4, .cm-hmd-escape-backslash)::before {
 	content: "";
 	position: absolute;
-	top: 1.05rem;
+	top: 19px;
 	left: 0rem;
 	right: 0;
 
-	height: 0.85rem;
+	height: 0.75rem;
 
 	padding: 0rem 0rem 0rem 0rem;
 	background-color: #88b9e677;
@@ -857,11 +857,11 @@ h4[data-heading]::before {
 h4[data-heading]::after {
 	content: "";
 	position: absolute;
-	top: 1.15rem;
+	top: 21px;
 	left: 0rem;
 	right: 0;
 
-	height: 0.85rem;
+	height: 0.8rem;
 
 	padding: 0rem 0rem 0rem 0rem;
 	background-color: #88b9e677;
