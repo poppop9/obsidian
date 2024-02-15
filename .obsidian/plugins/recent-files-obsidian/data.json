@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "DDED",
+      "path": "临时笔记/DDED.md"
+    },
+    {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
+    },
+    {
       "basename": "Bootstrap",
       "path": "计算机/JavaWeb/前端/Bootstrap.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Vue 3",
       "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
-    },
-    {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "1 基础Ⅰ",
