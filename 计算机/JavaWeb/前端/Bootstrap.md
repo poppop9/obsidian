@@ -98,6 +98,8 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.float-end` 图片右对齐
 	- `.mx-auto` + `.d-block` 图片居中
 	- `.img-fluid` 响应式图像
+# 组件
+## 警告框
 
 
 
