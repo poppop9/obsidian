@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/前端/Bootstrap.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/Bootstrap.md"
               }
             }
           },
@@ -172,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/Bootstrap.md"
               }
             }
           },
@@ -204,11 +205,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
-    "临时笔记/穿搭.md",
-    "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
+    "计算机/JavaWeb/前端/Vue/Vue 3.md",
+    "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端/6 Element组件库.md",
     "计算机/JavaWeb/前端/4 Axios.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
