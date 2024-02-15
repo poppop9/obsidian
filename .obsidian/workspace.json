@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/穿搭.md",
-                "mode": "source",
+                "file": "临时笔记/读心术.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "临时笔记/读心术.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/穿搭.md"
+                "file": "临时笔记/读心术.md"
               }
             }
           },
@@ -207,8 +207,8 @@
   },
   "active": "4bae9f3e9f59955d",
   "lastOpenFiles": [
-    "临时笔记/DDED.md",
     "临时笔记/穿搭.md",
+    "临时笔记/DDED.md",
     "计算机/JavaWeb/前端/Bootstrap.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/前端/4 Axios.md",
