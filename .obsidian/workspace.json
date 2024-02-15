@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Bootstrap.md"
+                "file": "计算机/JavaWeb/前端/4 Axios.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Bootstrap.md"
+                "file": "计算机/JavaWeb/前端/4 Axios.md"
               }
             }
           },
@@ -205,8 +205,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "72530cf88b10b2b7",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/Bootstrap.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "临时笔记/穿搭.md",
@@ -232,7 +233,6 @@
     "计算机/JavaWeb/前端/JavaScript/3 工具对象.md",
     "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
     "计算机/JavaWeb/前端/前端.md",
-    "计算机/JavaWeb/前端/Bootstrap.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "计算机/JavaWeb/前端/HTML",
     "图片库/Pasted Image 20240121113940_598.png",
