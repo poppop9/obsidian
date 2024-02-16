@@ -112,8 +112,14 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.alert-light`
 	- `.alert-dark`
 - 关闭按钮
+	- `.alert-dismissible`
+	- `btn-close`
+	- `data-bs-dismiss`
 ```html
-
+<div class="alert alert-success alert-dismissible">
+	<strong>成功！</strong>此警报框表示成功或积极的动作
+	<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+</div>
 ```
 
 
