@@ -32,6 +32,30 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 `npm install bootstrap@5.3.0-alpha1`
 
 # 简化版CSS
+## 文本
+| 类 | 描述 |
+| ---- | ---- |
+| `.text-left` | 左对齐文本 |
+| `.text-center` | 居中对齐的文本 |
+| `.text-end` | 右对齐文本 |
+| `.text-break` | 防止长文本破坏布局 |
+| `.text-decoration-none` | 删除链接中的下划线 |
+| `.text-nowrap` | 文本不换行 |
+| `.text-lowercase` | 小写文本 |
+| `.text-uppercase` | 大写文本 |
+| `.text-capitalize` | 大写文本 |
+| `.initialism` | 以稍小的字体显示 \<abbr> 元素内的文本 |
+| `.list-unstyled` | 删除列表项的默认 list-style 和左外边距（适用于 <ul> 和 <ol>）<br>此类仅适用于直接子列表项。  <br>如需从任何嵌套列表中删除默认列表样式，也请将此类应用于嵌套列表。 |
+| `.list-inline` | 将所有列表项放在一行上。  <br>请与每个 \<li> 元素上的 .list-inline-item 一起使用 |
+
+
+- `<table>` 
+	- `.table-responsive` 需要时向表格添加滚动条
+- `<img>`
+	- `.float-start` 图片左对齐
+	- `.float-end` 图片右对齐
+	- `.mx-auto` + `.d-block` 图片居中
+	- `.img-fluid` 响应式图像
 ## Flexbox
 
 
@@ -92,18 +116,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	<div class="col"></div>
 </div>
 ```
-## 排版
-- `font-size` ：1rem
-- `line-height` ：1.5
-- `<p>` ：`margin-top: 0` ，`margin-bottom: 1rem` 
-- `<h1>~<h6>` ：更粗的 `font-weight`，响应式的 `font-size`
-- `<table>` 
-	- `.table-responsive` 需要时向表格添加滚动条
-- `<img>`
-	- `.float-start` 图片左对齐
-	- `.float-end` 图片右对齐
-	- `.mx-auto` + `.d-block` 图片居中
-	- `.img-fluid` 响应式图像
+
 # 组件
 ## 警告框
 >在 `class属性` 上添加 `alert`
