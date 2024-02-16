@@ -50,8 +50,11 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.mx-auto` + `.d-block` 图片居中
 	- `.img-fluid` 响应式图像
 ## Flexbox
+- `d-md-flex` display-middle-flex，表示***当屏幕宽度达到中等及以上时，设置弹性容器***
+- `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
+
 ```html
-<!--  -->
+<!-- 实现了按钮堆叠右对齐 -->
 <div class="gap-2 d-md-flex justify-content-md-end">
 	<button class="btn btn-primary" type="button">第一</button>
 	<button class="btn btn-primary" type="button">第二</button>
