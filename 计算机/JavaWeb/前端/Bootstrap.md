@@ -115,7 +115,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.alert-dark`
 - 关闭警告框按钮
 	- `.alert-dismissible`
-	- `btn-close`
+	- `.btn-close`
 	- `data-bs-dismiss`
 ```html
 <div class="alert alert-success alert-dismissible">
@@ -155,7 +155,15 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 <button type="button" class="btn btn-primary btn-sm">小型</button>
 ```
 ### 禁用
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402161619053.png)
+- `.active` 活跃
+- `disabled` 禁用
 
+```html
+<button type="button" class="btn btn-primary">主要按钮</button>
+<button type="button" class="btn btn-primary active">活动的主要按钮</button>
+<button type="button" class="btn btn-primary" disabled>禁用的主要按钮</button>
+```
 
 - 杂
 	- `.text-nowrap` 按钮内的文字不换行
