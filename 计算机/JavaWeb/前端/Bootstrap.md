@@ -87,8 +87,6 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 </div>
 ```
 ## 排版
-- `.d-grid` 让其子元素铺满父元素
-	- `.gap-数字` 控制子元素之间的间距 
 - `font-size` ：1rem
 - `line-height` ：1.5
 - `<p>` ：`margin-top: 0` ，`margin-bottom: 1rem` 
@@ -164,7 +162,17 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 <button type="button" class="btn btn-primary active">活动的主要按钮</button>
 <button type="button" class="btn btn-primary" disabled>禁用的主要按钮</button>
 ```
-### xaing'yign
+### 响应式全宽按钮
+- `.d-grid` 让按钮铺满父元素
+- `.gap-数字` 规定按钮之间的间隔
+
+```html
+<div class="d-grid gap-2">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+```
+
 
 - 杂
 	- `.text-nowrap` 按钮内的文字不换行
