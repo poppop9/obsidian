@@ -41,14 +41,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 | `.text-break` | 防止长文本破坏布局 |
 | `.text-decoration-none` | 删除链接中的下划线 |
 | `.text-nowrap` | 文本不换行 |
-| `.text-lowercase` | 小写文本 |
-| `.text-uppercase` | 大写文本 |
-| `.text-capitalize` | 大写文本 |
-| `.initialism` | 以稍小的字体显示 \<abbr> 元素内的文本 |
-| `.list-unstyled` | 删除列表项的默认 list-style 和左外边距（适用于 <ul> 和 <ol>）<br>此类仅适用于直接子列表项。  <br>如需从任何嵌套列表中删除默认列表样式，也请将此类应用于嵌套列表。 |
-| `.list-inline` | 将所有列表项放在一行上。  <br>请与每个 \<li> 元素上的 .list-inline-item 一起使用 |
-
-
+## 表格，图片
 - `<table>` 
 	- `.table-responsive` 需要时向表格添加滚动条
 - `<img>`
@@ -57,8 +50,26 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.mx-auto` + `.d-block` 图片居中
 	- `.img-fluid` 响应式图像
 ## Flexbox
+```html
+<!--  -->
+<div class="gap-2 d-md-flex justify-content-md-end">
+	<button class="btn btn-primary" type="button">第一</button>
+	<button class="btn btn-primary" type="button">第二</button>
+</div>
+```
 
 
+## 杂
+### 全宽响应式
+- `.d-grid` 让按钮铺满父元素
+- `.gap-数字` 规定子元素之间的间隔
+
+```html
+<div class="d-grid gap-2">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+```
 
 
 # 布局
@@ -181,20 +192,8 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 <button type="button" class="btn btn-primary active">活动的主要按钮</button>
 <button type="button" class="btn btn-primary" disabled>禁用的主要按钮</button>
 ```
-### 响应式全宽按钮
-- `.d-grid` 让按钮铺满父元素
-- `.gap-数字` 规定按钮之间的间隔
-
-```html
-<div class="d-grid gap-2">
-  <button class="btn btn-primary" type="button">Button</button>
-  <button class="btn btn-primary" type="button">Button</button>
-</div>
-```
 
 
-- 杂
-	- `.text-nowrap` 按钮内的文字不换行
 
 
 
