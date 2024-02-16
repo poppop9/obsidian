@@ -164,6 +164,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 <button type="button" class="btn btn-primary active">活动的主要按钮</button>
 <button type="button" class="btn btn-primary" disabled>禁用的主要按钮</button>
 ```
+### xaing'yign
 
 - 杂
 	- `.text-nowrap` 按钮内的文字不换行
