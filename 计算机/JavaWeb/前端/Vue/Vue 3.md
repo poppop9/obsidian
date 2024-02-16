@@ -133,11 +133,10 @@ https://cn.vuejs.org/guide/quick-start.html
 	- `v-bind:属性名="属性值"`
 	- `:属性名="属性值"`
 
+#### 绑定单个属性
 ```html
 <body>
-	<div id="app">
-		<a v-bind:href="url">百度</a>
-	</div>
+	<a v-bind:href="url">百度</a>
 </body>
 
 <script type="module">
@@ -152,6 +151,22 @@ https://cn.vuejs.org/guide/quick-start.html
 	}).mount('#app')
 </script>
 ```
+#### 绑定多个属性
+```js
+<div :class="['alert', 'alert-' + alert.type, 'alert-dismissible']"></div>
+
+const alerts = ref([
+        message: 'Nice, you triggered this alert message!',
+        type: 'success'
+]);
+
+
+---
+<div class="alert alert-success alert-dismissible"></div>
+```
+
+
+
 ### v-model
 > 为<u>表单元素</u>创建***双向***数据绑定
 
