@@ -133,7 +133,7 @@ https://cn.vuejs.org/guide/quick-start.html
 	- `v-bind:属性名="属性值"`
 	- `:属性名="属性值"`
 
-#### 绑定单个属性
+#### 绑定单个属性值
 ```html
 <body>
 	<a v-bind:href="url">百度</a>
@@ -151,7 +151,7 @@ https://cn.vuejs.org/guide/quick-start.html
 	}).mount('#app')
 </script>
 ```
-#### 绑定多个属性
+#### 绑定多个属性值
 ```js
 <div :class="['alert', 'alert-' + alert.type, 'alert-dismissible']"></div>
 
