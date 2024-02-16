@@ -87,6 +87,8 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 </div>
 ```
 ## 排版
+- `.d-grid` 让其子元素铺满父元素
+	- `.gap-`
 - `font-size` ：1rem
 - `line-height` ：1.5
 - `<p>` ：`margin-top: 0` ，`margin-bottom: 1rem` 
