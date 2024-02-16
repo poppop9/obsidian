@@ -126,7 +126,6 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 >在 `class属性` 上添加 `btn`
 
 - 样式
-
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402161545012.png)
 ```html
 <button type="button" class="btn">基础</button>
@@ -141,6 +140,8 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 <button type="button" class="btn btn-link">链接</button>
 ```
 
+- 杂
+	- `.text-nowrap` 按钮内的文字不换行
 
 
 
