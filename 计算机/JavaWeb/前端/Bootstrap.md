@@ -100,10 +100,21 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.img-fluid` 响应式图像
 # 组件
 ## 警告框
+>在 `class属性` 上添加 `alert`
 
+- 样式
+	- `.alert-success`
+	- `.alert-info`
+	- `.alert-warning`
+	- `.alert-danger`
+	- `.alert-primary`
+	- `.alert-secondary`
+	- `.alert-light`
+	- `.alert-dark`
+- 关闭按钮
+```html
 
-
-
+```
 
 
 
