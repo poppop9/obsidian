@@ -31,6 +31,12 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 
 `npm install bootstrap@5.3.0-alpha1`
 
+# 简化版CSS
+## Flexbox
+
+
+
+
 # 布局
 ## 容器
 ![800](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402051731979.png)
