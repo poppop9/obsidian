@@ -126,19 +126,26 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 >在 `class属性` 上添加 `btn`
 
 - 样式
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402161545012.png)
-```html
-<button type="button" class="btn">基础</button>
-<button type="button" class="btn btn-primary">主要</button>
-<button type="button" class="btn btn-secondary">次要</button>
-<button type="button" class="btn btn-success">成功</button>
-<button type="button" class="btn btn-info">信息</button>
-<button type="button" class="btn btn-warning">警告</button>
-<button type="button" class="btn btn-danger">危险</button>
-<button type="button" class="btn btn-dark">深色</button>
-<button type="button" class="btn btn-light">浅色</button>
-<button type="button" class="btn btn-link">链接</button>
-```
+	- 颜色背景按钮
+		![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402161545012.png)
+		```html
+		<button type="button" class="btn">基础</button>
+		<button type="button" class="btn btn-primary">主要</button>
+		<button type="button" class="btn btn-secondary">次要</button>
+		<button type="button" class="btn btn-success">成功</button>
+		<button type="button" class="btn btn-info">信息</button>
+		<button type="button" class="btn btn-warning">警告</button>
+		<button type="button" class="btn btn-danger">危险</button>
+		<button type="button" class="btn btn-dark">深色</button>
+		<button type="button" class="btn btn-light">浅色</button>
+		<button type="button" class="btn btn-link">链接</button>
+		```
+	- 轮廓线按钮
+		![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402161554945.png)
+		```html
+		<button type="button" class="btn btn-outline-primary">主要</button>
+		……
+		```
 
 - 杂
 	- `.text-nowrap` 按钮内的文字不换行
