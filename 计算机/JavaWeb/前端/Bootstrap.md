@@ -147,6 +147,13 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 		……
 		```
 
+- 尺寸
+```html
+<button type="button" class="btn btn-primary btn-lg">大型</button>
+<button type="button" class="btn btn-primary">默认</button>
+<button type="button" class="btn btn-primary btn-sm">小型</button>
+```
+
 - 杂
 	- `.text-nowrap` 按钮内的文字不换行
 
