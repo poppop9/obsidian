@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1 CSS初级",
+      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+    },
+    {
+      "basename": "1 HTML 初级",
+      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
+    },
+    {
       "basename": "Bootstrap",
       "path": "计算机/JavaWeb/前端/Bootstrap.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
-    },
-    {
-      "basename": "1 HTML 初级",
-      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
     },
     {
       "basename": "草稿纸",
@@ -101,10 +105,6 @@
       "path": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
     },
     {
-      "basename": "1 CSS初级",
-      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
-    },
-    {
       "basename": "杂 Draw",
       "path": "Excalidraw/杂/杂 Draw.md"
     },
@@ -131,10 +131,6 @@
     {
       "basename": "Dance",
       "path": "临时笔记/Dance.md"
-    },
-    {
-      "basename": "CSS",
-      "path": "计算机/JavaWeb/前端/CSS/CSS.md"
     },
     {
       "basename": "MarkDown语法",
