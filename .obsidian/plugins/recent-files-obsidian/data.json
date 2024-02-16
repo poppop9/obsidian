@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Bootstrap",
+      "path": "计算机/JavaWeb/前端/Bootstrap.md"
+    },
+    {
+      "basename": "Vue 3",
+      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+    },
+    {
       "basename": "读心术",
       "path": "临时笔记/读心术.md"
     },
@@ -9,16 +17,8 @@
       "path": "临时笔记/穿搭.md"
     },
     {
-      "basename": "Vue 3",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
-    },
-    {
       "basename": "1 HTML 初级",
       "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
-    },
-    {
-      "basename": "Bootstrap",
-      "path": "计算机/JavaWeb/前端/Bootstrap.md"
     },
     {
       "basename": "草稿纸",
