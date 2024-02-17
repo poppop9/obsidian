@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
-    },
-    {
       "basename": "读心术",
       "path": "临时笔记/读心术.md"
+    },
+    {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "2 CSS中级",
@@ -91,10 +91,6 @@
     {
       "basename": "2 基础Ⅱ",
       "path": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md"
-    },
-    {
-      "basename": "前端",
-      "path": "计算机/JavaWeb/前端/前端.md"
     },
     {
       "basename": "3 CSS高级",
