@@ -195,6 +195,11 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 <button type="button" class="btn btn-primary active">活动的主要按钮</button>
 <button type="button" class="btn btn-primary" disabled>禁用的主要按钮</button>
 ```
+### 按钮组
+>使用带有 `.btn-group` 的 `<div>` 元素来创建按钮组
+
+>[!attention] 不可以单独控制按钮组内按钮的大小，只能一起通过按钮组控制
+
 
 
 
