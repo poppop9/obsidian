@@ -32,6 +32,11 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 `npm install bootstrap@5.3.0-alpha1`
 
 # 简化版CSS
+## 颜色
+>BootStrap 用8种颜色表示了文字的重要性
+
+primary
+
 ## 文本
 | 类 | 描述 |
 | ---- | ---- |
@@ -210,6 +215,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.btn-group-vertical` 垂直
 	- …… 水平
 
+---
 - 普通
 ```html
 <div class="btn-group">
