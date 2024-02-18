@@ -36,6 +36,28 @@
 </div>
 ```
 
+- ***导航卡片***
+```html
+<div class="card text-center">
+  <div class="card-header">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="true" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+  </div>
+  <!-- 内容 -->
+  <div class="card-body">
+    <p class="card-text">内容</p>
+  </div>
+</div>
+```
 
 
 
