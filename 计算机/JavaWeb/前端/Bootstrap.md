@@ -301,5 +301,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 </div>
 ```
 
+## 加载器
+>使用 `.spinner-border`
 
 
