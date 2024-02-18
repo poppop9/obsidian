@@ -285,6 +285,8 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 </button>
 ```
 
+## 进度条
+>将 `.progress` 添加到父元素，将 `.progress-bar` 添加到子元素，用 `width`
 
 
 

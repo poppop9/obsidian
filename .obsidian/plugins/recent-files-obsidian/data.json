@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Bootstrap",
+      "path": "计算机/JavaWeb/前端/Bootstrap.md"
+    },
+    {
       "basename": "3 CSS高级",
       "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Vue 3",
       "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
-    },
-    {
-      "basename": "Bootstrap",
-      "path": "计算机/JavaWeb/前端/Bootstrap.md"
     },
     {
       "basename": "读心术",
