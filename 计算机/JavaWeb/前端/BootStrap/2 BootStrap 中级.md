@@ -110,14 +110,18 @@
 ```
 
 ### 网格卡
+>使用 `.row-cols-*` 控制一行要显示多少列
+>![200](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402182347837.png)
+
 ```html
+<!-- 正常一行显示1列，当屏幕超过middle时，一行2列 -->
 <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
     <div class="card">
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">This is</p>
       </div>
     </div>
   </div>
@@ -126,7 +130,7 @@
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">This is</p>
       </div>
     </div>
   </div>
@@ -135,7 +139,7 @@
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text">This is</p>
       </div>
     </div>
   </div>
@@ -144,7 +148,7 @@
       <img src="..." class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">This is</p>
       </div>
     </div>
   </div>
