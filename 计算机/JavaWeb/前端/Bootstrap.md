@@ -35,7 +35,14 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 ## 颜色
 >BootStrap 用8种颜色表示了文字的重要性
 
-primary
+- `primary` 重要蓝
+- `secondary` 次要灰
+- `success` 成功绿
+- `info` 信息青
+- `warning` 警告黄
+- `danger` 危险红
+- `dark` 深色
+- `light` 浅色
 
 ## 文本
 | 类 | 描述 |
