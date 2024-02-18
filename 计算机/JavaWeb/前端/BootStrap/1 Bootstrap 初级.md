@@ -52,7 +52,12 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 - `bg-danger`
 - ……
 ### 文本背景对比色
+>用于设置背景色，并且把文本色设置成背景色的对比色【黑/白】
 
+- `text-bg-primary`
+- `text-bg-danger`
+- ……
+### 
 ## 文本
 
 
