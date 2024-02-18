@@ -42,7 +42,7 @@
   <div class="card-header">
     <ul class="nav nav-tabs card-header-tabs">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="true" href="#">Active</a>
+		<button type="button" class="nav-link btn">Active</button>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
