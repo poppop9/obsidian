@@ -183,6 +183,8 @@ writing-mode: vertical-rl;
 div {
 /* 把<div>元素向右移动 50 个像素，向下移动 100 个像素 */
 transform: translate(50px, 100px);
+/* 向左移动自己的50%，向上移动自己的50% */
+transform: translate(-50%, -50%);
 
 /* 以中心点顺时针旋转 20 度 */
 transform: rotate(20deg);
