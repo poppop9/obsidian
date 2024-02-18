@@ -43,24 +43,25 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 - `danger` 危险红
 - `dark` 深色
 - `light` 浅色
-### 文本色
-- `text-primary`
-- `text-danger`
-- ……
-### 背景色
-- `bg-primary`
-- `bg-danger`
-- ……
-### 文本背景对比色
->用于设置背景色，并且把文本色设置成背景色的对比色【黑/白】
 
-- `text-bg-primary`
-- `text-bg-danger`
-- ……
-### 
+---
+- 文本色
+	- `text-primary`
+	- `text-danger`
+	- ……
+- 背景色
+	- `bg-primary`
+	- `bg-danger`
+	- ……
+- 文本背景对比色：***用于设置背景色，并且把文本色设置成背景色的对比色【黑/白】***
+	- `text-bg-primary`
+	- `text-bg-danger`
+	- ……
+- 边框色
+	- `border-primary`
+	- ……
+
 ## 文本
-
-
 | 类 | 描述 |
 | ---- | ---- |
 | `.text-left` | 左对齐文本 |
