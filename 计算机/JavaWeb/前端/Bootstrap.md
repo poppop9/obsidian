@@ -66,7 +66,8 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 - `justify-content-center` 子元素水平居中
 - `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
 - `justify-content-between` 让子元素分布在容器的左右两端
-- `align-items-center` 让子元素垂直居中予父元素
+- `align-items-center` 让子元素垂直居中于父元素
+- `align-self-center` 自己居中于父元素
 
 ```html
 <!-- 实现了按钮堆叠右对齐 -->
