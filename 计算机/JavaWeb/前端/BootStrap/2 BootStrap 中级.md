@@ -76,6 +76,41 @@
 </div>
 ```
 
+### 卡片组
+>使用 `.card-group` 包含多个 `card`
+>![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402182338798.png)
+
+
+```html
+```html
+<div class="card-group">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card</p>
+      <p class="card-text">Last updated 3 mins ago</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card</p>
+      <p class="card-text">Last updated 3 mins ago</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">This is a wider card</p>
+    </div>
+  </div>
+</div>
+```
+
+### 网格卡
+
 
 
 
