@@ -5,6 +5,8 @@
 - `.card-body` 卡片主体
 - `.card-footer` 卡片页脚
 
+---
+- ***全宽图片卡片***
 ```html
 <div class="card" style="width:400px">
 	<img class="card-img-top" src="https://img0.baidu.com/it/u=3505745567,4189381360&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500" style="width:100%">
@@ -16,7 +18,10 @@
 </div>
 ```
 
+- ***外边距图片卡片***
+```html
 
+```
 
 
 
