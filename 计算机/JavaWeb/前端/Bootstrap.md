@@ -286,9 +286,16 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 ```
 
 ## 进度条
->将 `.progress` 添加到父元素，将 `.progress-bar` 添加到子元素，用 `width`
+>将 `.progress` 添加到父元素，将 `.progress-bar` 添加到子元素
 
+- 进度：`width`
+- 高度：`height`
 
+```html
+<div class="progress" style="height:10px">
+	<div class="progress-bar" style="width:40%">40%</div>
+</div>
+```
 
 
 
