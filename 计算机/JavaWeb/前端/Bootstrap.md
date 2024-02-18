@@ -63,6 +63,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.img-fluid` 响应式图像
 ## Flexbox
 - `d-md-flex` display-middle-flex，表示***当屏幕宽度达到中等及以上时，设置弹性容器***
+- `justify-content-center` 子元素水平居中
 - `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
 
 ```html
@@ -322,9 +323,11 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 ```
 
 ## 分页
-- `pagination` 分页父容器
-- `page-item` 子页面
-- `active` 突出显示当前页面
+- `.pagination` 分页父容器
+- `.page-item` 子页面
+- `.page-link` 子页面的链接
+- `.disabled` 不可点击
+- `.active` 突出显示当前页面
 
 ```html
 <ul class="pagination">
