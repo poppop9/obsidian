@@ -263,17 +263,21 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 >`.badge` ，用于计数，打标签……，会自动匹配父元素的大小
 >![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402181053369.png)
 
+### 样式
+- 矩形徽章
 ```html
 <span class="badge bg-primary">主要</span>
 <span class="badge bg-secondary">次要</span>
 <span class="badge bg-success">成功</span>
-<span class="badge bg-danger">危险</span>
-<span class="badge bg-warning">警告</span>
-<span class="badge bg-info">信息</span>
-<span class="badge bg-light">浅色</span>
-<span class="badge bg-dark">深色</span>
+……
 ```
 
+- 胶囊徽章
+```html
+<span class="badge bg-primary rounded-pill"></span>
+```
+
+### 用途
 - 按钮内消息计数
 ```html
 <button type="button" class="btn btn-primary">
