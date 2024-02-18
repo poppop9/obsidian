@@ -177,6 +177,8 @@ writing-mode: vertical-rl;
 - `scale()` <u>增加/减少</u>元素的大小
 - `skew()` 使元素沿 X 和 Y 轴倾斜给定角度
 
+>[!attention] 空间移动是相对于父元素的起始像素点移动
+
 ```css
 div {
 /* 把<div>元素向右移动 50 个像素，向下移动 100 个像素 */
