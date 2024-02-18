@@ -370,7 +370,20 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 
 - ***徽章列表组***
 ```html
-
+<ul class="list-group">
+	<li class="list-group-item d-flex justify-content-between align-items-center">
+		收件箱
+		<span class="badge bg-primary rounded-pill">12</span>
+	</li>
+	<li class="list-group-item d-flex justify-content-between align-items-center">
+		广告邮件
+		<span class="badge bg-primary rounded-pill">50</span>
+	</li>
+	<li class="list-group-item d-flex justify-content-between align-items-center">
+		垃圾箱
+		<span class="badge bg-primary rounded-pill">99</span>
+	</li>
+</ul>
 ```
 
 
