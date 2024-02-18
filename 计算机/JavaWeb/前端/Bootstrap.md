@@ -302,6 +302,21 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 ```
 
 ## 加载器
->使用 `.spinner-border`
+- 样式
+	- `.spinner-border` 旋转
+	- `.spinner-grow` 增长
+- 尺寸
+	- `.spinner-border-lg`
+	- ……
+	- `.spinner-border-sm`
 
+```html
+<div class="spinner-border text-primary"></div>
+```
 
+```html
+<!-- 向按钮添加加载器 -->
+<button class="btn btn-primary">
+	<span class="spinner-border spinner-border-sm"></span>
+</button>
+```
