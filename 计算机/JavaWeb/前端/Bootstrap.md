@@ -322,7 +322,19 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 ```
 
 ## 分页
+- `pagination` 分页父容器
+- `page-item` 子页面
+- `active` 突出显示当前页面
 
+```html
+<ul class="pagination">
+	<li class="page-item"><a class="page-link" href="#">上一页</a></li>
+	<li class="page-item active"><a class="page-link" href="#">1</a></li>
+	<li class="page-item"><a class="page-link" href="#">2</a></li>
+	<li class="page-item"><a class="page-link" href="#">3</a></li>
+	<li class="page-item"><a class="page-link" href="#">下一页</a></li>
+</ul>
+```
 
 
 
