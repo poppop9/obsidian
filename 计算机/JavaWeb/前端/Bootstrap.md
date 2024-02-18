@@ -290,10 +290,14 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 
 - 进度：`width`
 - 高度：`height`
+- 动画：`.progress-bar-striped`，`.progress-bar-animated`
+
 
 ```html
 <div class="progress" style="height:10px">
 	<div class="progress-bar" style="width:40%">40%</div>
+	// 多个进度条
+	<div class="progress-bar bg-success" style="width:10%">40%</div>
 </div>
 ```
 
