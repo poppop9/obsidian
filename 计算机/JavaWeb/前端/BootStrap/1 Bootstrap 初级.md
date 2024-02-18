@@ -43,8 +43,19 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 - `danger` 危险红
 - `dark` 深色
 - `light` 浅色
+### 文本色
+- `text-primary`
+- `text-danger`
+- ……
+### 背景色
+- `bg-primary`
+- `bg-danger`
+- ……
+### 文本背景对比色
 
 ## 文本
+
+
 | 类 | 描述 |
 | ---- | ---- |
 | `.text-left` | 左对齐文本 |
