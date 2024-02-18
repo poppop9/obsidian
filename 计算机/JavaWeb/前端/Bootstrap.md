@@ -204,17 +204,31 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 
 - 尺寸
 	- `.btn-group-lg`
-	- ……
+	- ……默认
+	- `.btn-group-sm`
 - 方向
 	- `.btn-group-vertical` 垂直
 	- …… 水平
 
-
+- 普通
 ```html
 <div class="btn-group">
 	<button type="button" class="btn btn-primary">华为</button>
 	<button type="button" class="btn btn-primary">大疆</button>
 	<button type="button" class="btn btn-primary">小米</button>
+</div>
+```
+
+- 嵌套
+```html
+<div class="btn-group" role="group">
+	<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+  Dropdown
+	</button>
+	<ul class="dropdown-menu">
+		<li><a class="dropdown-item" href="#">Dropdown link</a></li>
+		<li><a class="dropdown-item" href="#">Dropdown link</a></li>
+	</ul>
 </div>
 ```
 
