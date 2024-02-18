@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
+                "file": "计算机/JavaWeb/前端/Bootstrap.md"
               }
             }
           },
@@ -172,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
+                "file": "计算机/JavaWeb/前端/Bootstrap.md"
               }
             }
           },
@@ -204,12 +205,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "计算机/JavaWeb/前端/Bootstrap.md",
-    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "临时笔记/读心术.md",
     "临时笔记/健康.md",
