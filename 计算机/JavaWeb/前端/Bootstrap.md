@@ -342,6 +342,8 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 ## 列表组
 - `.list-group` 列表组父容器
 - `.list-group-item` 列表项
+- `.list-group-numbered` 带有数字
+- `.list-group-horizontal` 水平列表组
 
 ---
 - ***普通列表组***
@@ -349,13 +351,18 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 <ul class="list-group">
 	<li class="list-group-item active">活动项目</li>
 	<li class="list-group-item disabled">第二项</li>
-	<li class="list-group-item">第三项</li>
+	<li class="list-group-item list-group-item-info">第三项</li>
 </ul>
 ```
 
-- 链接列表组
+- ***链接列表组***
 ```html
-
+<div class="list-group">
+<!-- list-group-item-action 表示悬停灰色效果 -->
+	<a href="#" class="list-group-item list-group-item-action">第一项</a>
+	<a href="#" class="list-group-item list-group-item-action">第二项</a>
+	<a href="#" class="list-group-item list-group-item-action">第三项</a>
+</div>
 ```
 
 
