@@ -59,6 +59,22 @@
 </div>
 ```
 
+- ***水平卡片***
+```html
+<div class="card">
+	<div class="row">
+		<div class="col-md-4">
+			<img src="https://img0.baidu.com/it/u=3505745567,4189381360&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"
+				class="img-fluid">
+		</div>
+		<div class="col-md-8">
+			<div class="card-body">
+				<p class="card-text">Last updated 3 mins ago</p>
+			</div>
+		</div>
+	</div>
+</div>
+```
 
 
 
