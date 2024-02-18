@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
+                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
               }
             }
           },
@@ -206,8 +206,8 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
+    "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/JavaScript/JavaScript.md",
     "计算机/JavaWeb/前端/BootStrap/BootStrap.md",
