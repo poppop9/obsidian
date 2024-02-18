@@ -200,7 +200,37 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 
 >[!attention] 不可以单独控制按钮组内按钮的大小，只能一起通过按钮组控制
 
+>[!hint] 按钮组是 `inline`
 
+- 尺寸
+	- `.btn-group-lg`
+	- ……
+- 方向
+	- `.btn-group-vertical` 垂直
+	- …… 水平
+
+
+```html
+<div class="btn-group">
+	<button type="button" class="btn btn-primary">华为</button>
+	<button type="button" class="btn btn-primary">大疆</button>
+	<button type="button" class="btn btn-primary">小米</button>
+</div>
+```
+
+- 无缝复选框按钮组
+```html
+<div class="btn-group">
+  <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btncheck1">Checkbox 1</label>
+
+  <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+
+  <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+</div>
+```
 
 
 
