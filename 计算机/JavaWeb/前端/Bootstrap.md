@@ -260,7 +260,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 ```
 
 ## 徽章
->`.badge` ，用于计数，
+>`.badge` ，用于计数，打标签……，会自动匹配父元素的大小
 >![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402181053369.png)
 
 ```html
@@ -274,7 +274,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 <span class="badge bg-dark">深色</span>
 ```
 
-- 按钮内消息通知
+- 按钮内消息计数
 ```html
 <button type="button" class="btn btn-primary">
   消息 <span class="badge bg-danger">4</span>
