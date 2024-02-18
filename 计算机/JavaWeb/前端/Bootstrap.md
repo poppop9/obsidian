@@ -259,10 +259,27 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 </div>
 ```
 
+## 徽章
+>`.badge` ，用于计数，
+>![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402181053369.png)
 
+```html
+<span class="badge bg-primary">主要</span>
+<span class="badge bg-secondary">次要</span>
+<span class="badge bg-success">成功</span>
+<span class="badge bg-danger">危险</span>
+<span class="badge bg-warning">警告</span>
+<span class="badge bg-info">信息</span>
+<span class="badge bg-light">浅色</span>
+<span class="badge bg-dark">深色</span>
+```
 
-
-
+- 按钮内消息通知
+```html
+<button type="button" class="btn btn-primary">
+  消息 <span class="badge bg-danger">4</span>
+</button>
+```
 
 
 
