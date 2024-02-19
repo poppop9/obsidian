@@ -159,7 +159,9 @@
 >由于有副作用，BootStrap不直接支持，可以使用插件 [Masonry](https://masonry.desandro.com/)，这是[例子](https://v5.bootcss.com/docs/examples/masonry/)
 
 ## 下拉菜单
-
+- `.dropdown` 用于下拉列表父元素
+- `.dropdown-menu` 下拉列表菜单
+- `.dropdown-item` 下拉列表子项目
 
 
 
