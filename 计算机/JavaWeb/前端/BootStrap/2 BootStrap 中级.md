@@ -164,7 +164,7 @@
 	- 在 `<button>` 上放置 `data-bs-toggle="dropdown"` ***指定了按钮的点击行为，点击时，它将触发下拉菜单的显示或隐藏***
 	- `.dropdown-menu` 下拉列表菜单
 		- `.dropdown-item` 下拉列表子项目
-		- `.dropdown-divider` 分割线
+		- 在 `<hr>`里添加 `.dropdown-divider` 分割线
 
 ```html
 <div class="dropdown">
