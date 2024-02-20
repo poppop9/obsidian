@@ -162,6 +162,7 @@
 - `.dropdown` 用于下拉列表父元素
 - `.dropdown-menu` 下拉列表菜单
 - `.dropdown-item` 下拉列表子项目
+- 在 `<button>` 上放置
 
 
 
