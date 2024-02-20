@@ -162,7 +162,7 @@
 >由于有副作用，BootStrap不直接支持，可以使用插件 [Masonry](https://masonry.desandro.com/)，这是[例子](https://v5.bootcss.com/docs/examples/masonry/)
 
 ## 下拉菜单
-- `.dropdown` 用于下拉列表父元素
+- `.dropdown` 用于下拉列表父元素【~~可以省略~~】
 	- 在 `<button>` 上放置 `.dropdown-toggle` ***显示下箭头按钮***
 	- 在 `<button>` 上放置 `data-bs-toggle="dropdown"` ***指定了按钮的点击行为，点击时，它将触发下拉菜单的显示或隐藏***
 	- `.dropdown-menu` 下拉列表菜单
