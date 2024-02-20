@@ -160,10 +160,11 @@
 
 ## 下拉菜单
 - `.dropdown` 用于下拉列表父元素
-- `.dropdown-menu` 下拉列表菜单
-- `.dropdown-item` 下拉列表子项目
-- 在 `<button>` 上放置 `.dropdown-toggle` ***显示下箭头logo***
-- 在 `<button>` 上放置 `data-bs-toggle="dropdown"` ***指定了按钮的点击行为，点击时，它将触发下拉菜单的显示或隐藏***
+	- 在 `<button>` 上放置 `.dropdown-toggle` ***显示下箭头logo***
+	- 在 `<button>` 上放置 `data-bs-toggle="dropdown"` ***指定了按钮的点击行为，点击时，它将触发下拉菜单的显示或隐藏***
+	- `.dropdown-menu` 下拉列表菜单
+		- `.dropdown-item` 下拉列表子项目
+		- `.dropdown-divider` 分割线
 
 ```html
 <div class="dropdown">
@@ -173,6 +174,7 @@
 	<ul class="dropdown-menu">
 		<li><a class="dropdown-item" href="#">Action</a></li>
 		<li><a class="dropdown-item" href="#">Another action</a></li>
+		<li><hr class="dropdown-divider"></li>
 		<li><a class="dropdown-item" href="#">Something else here</a></li>
 	</ul>
 </div>
