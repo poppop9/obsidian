@@ -178,6 +178,15 @@
 	- `.dropdown-item` 可交互的子项目
 	- `.dropdown-item-text` 文本子项目【不可点击】
 	- 在 `<hr>`里添加 `.dropdown-divider` 分割线
+		```html
+		<ul class="dropdown-menu">
+			<li><a class="dropdown-item" href="#">Another action</a></li>
+			<li>
+				<hr class="dropdown-divider">
+			</li>
+			<li><a class="dropdown-item" href="#">Separated link</a></li>
+		</ul>
+		```
 	- `.dropdown-header` 小标题
 		```html
 		<ul class="dropdown-menu">
@@ -214,9 +223,6 @@
 	<button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
 	<ul class="dropdown-menu">
 		<li><a class="dropdown-item" href="#">Another action</a></li>
-		<li>
-			<hr class="dropdown-divider">
-		</li>
 		<li><a class="dropdown-item" href="#">Separated link</a></li>
 	</ul>
 </div>
