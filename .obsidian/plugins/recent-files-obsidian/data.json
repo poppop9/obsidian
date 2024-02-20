@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Vue 2",
+      "path": "计算机/JavaWeb/前端/Vue/Vue 2.md"
+    },
+    {
+      "basename": "1 CSS初级",
+      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+    },
+    {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "读心术",
       "path": "临时笔记/读心术.md"
-    },
-    {
-      "basename": "1 CSS初级",
-      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
     },
     {
       "basename": "3 CSS高级",
@@ -51,10 +55,6 @@
     {
       "basename": "1 基础Ⅰ",
       "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
-    },
-    {
-      "basename": "Vue 2",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 2.md"
     },
     {
       "basename": "14 Java 8 新特性",
