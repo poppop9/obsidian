@@ -160,7 +160,7 @@
 
 ## 下拉菜单
 - `.dropdown` 用于下拉列表父元素
-	- 在 `<button>` 上放置 `.dropdown-toggle` ***显示下箭头logo***
+	- 在 `<button>` 上放置 `.dropdown-toggle` ***显示下箭头按钮***
 	- 在 `<button>` 上放置 `data-bs-toggle="dropdown"` ***指定了按钮的点击行为，点击时，它将触发下拉菜单的显示或隐藏***
 	- `.dropdown-menu` 下拉列表菜单
 		- `.dropdown-item` 下拉列表子项目
@@ -176,6 +176,25 @@
 		<li><a class="dropdown-item" href="#">Another action</a></li>
 		<li><hr class="dropdown-divider"></li>
 		<li><a class="dropdown-item" href="#">Something else here</a></li>
+	</ul>
+</div>
+```
+
+### 按钮下拉分离
+```html
+<!-- btn-group 让两个按钮组合在一起没有间隙 -->
+<div class="btn-group">
+	<button type="button" class="btn btn-danger">Action</button>
+	<button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+		data-bs-toggle="dropdown"></button>
+	<ul class="dropdown-menu">
+		<li><a class="dropdown-item" href="#">Action</a></li>
+		<li><a class="dropdown-item" href="#">Another action</a></li>
+		<li><a class="dropdown-item" href="#">Something else here</a></li>
+		<li>
+			<hr class="dropdown-divider">
+		</li>
+		<li><a class="dropdown-item" href="#">Separated link</a></li>
 	</ul>
 </div>
 ```
