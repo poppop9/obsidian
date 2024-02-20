@@ -325,23 +325,10 @@
 	- `.nav-fill` 强制将导航项铺满整个宽度，但是每个导航项宽度不同
 	- `.nav-justified` 强制将导航项铺满整个宽度，每个导航项宽度相同
 - 导航项子容器
-	- `.nav-item` ***可以省略***
+	- `.nav-item` 
 	- `.nav-link` 用于 `<a>` 内，表示导航项【***必须***】
 
 
-```html
-<ul class="nav nav-tabs">
-	<li class="nav-item">
-		<a class="nav-link" href="#">链接</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link" href="#">链接</a>
-	</li>
-	<li class="nav-item">
-		<a class="nav-link disabled" href="#">禁用</a>
-	</li>
-</ul>
-```
 
 
 
