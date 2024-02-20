@@ -176,9 +176,20 @@
 	- `.dropdown-menu-end` 下拉列表右对齐
 - 下拉列表子项目
 	- `.dropdown-item` 可交互的子项目
-	- 在 `<hr>`里添加 `.dropdown-divider` 分割线
 	- `.dropdown-item-text` 文本子项目【不可点击】
+	- 在 `<hr>`里添加 `.dropdown-divider` 分割线
+	- `.dropdown-header` 小标题
+		```html
+		<ul class="dropdown-menu">
+			<li><h6 class="dropdown-header">Dropdown header</h6></li>
+			<li><a class="dropdown-item" href="#">Action</a></li>
+			<li><a class="dropdown-item" href="#">Another action</a></li>
+		</ul>
+		```
 
+
+
+---
 ```html
 <div class="dropdown">
 	<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
