@@ -263,8 +263,7 @@
 	- `.accordion-button` 触发折叠的按钮
 	- `.accordion-collapse` 折叠的隐藏内容容器
 		- `.accordion-body` 折叠的隐藏内容
-		- `.show` 表示自动展示该手风琴隐藏d
-
+		- `.show` ***表示自动展示该手风琴隐藏的内容***
 
 ```html
 <div class="accordion" id="accordionExample">
@@ -316,6 +315,25 @@
 </div>
 ```
 
+## 导航
+>将 `.nav` 添加到 `<ul>`，然后为每个 `<li>` 添加 `.nav-item`，并将 `.nav-link` 添加到它们的链接
+
+```html
+<ul class="nav">
+	<li class="nav-item">
+		<a class="nav-link" href="#">链接</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" href="#">链接</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link disabled" href="#">禁用</a>
+	</li>
+</ul>
+```
+
+
+### 导航栏
 
 
 
