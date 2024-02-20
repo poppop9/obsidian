@@ -165,6 +165,9 @@
 - 下拉列表父容器
 	- `.dropdown` 用于创建下拉列表父容器【~~可以省略~~】
 	- `.dropdown-center` 用于创建下拉列表父容器，使下拉列表居中
+	- `.dropup` 上拉列表
+	- `.dropstart` 前拉列表
+	- `.dropend` 后拉列表
 - 下拉按钮
 	- `.dropdown-toggle` ***显示下箭头按钮***
 	- `data-bs-toggle="dropdown"` ***指定了按钮的点击行为，点击时，它将触发下拉菜单的显示或隐藏***
@@ -205,19 +208,6 @@
 	</ul>
 </div>
 ```
-
-### 上拉列表
-- `dropup`
-
-```html
-<div class="dropup">
-	<button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">点我</button>
-	<ul class="dropdown-menu">
-		<li class="dropdown-item">ddd</li>
-	</ul>
-</div>
-```
-
 
 
 
