@@ -256,6 +256,10 @@
 ```
 
 ## 折叠
+- 父容器
+	- `.accordion` 必须
+	- `.accordion-flush` 五边框的手风琴
+
 ```html
 <div class="accordion" id="accordionExample">
 	// 第一个卡片
