@@ -328,7 +328,22 @@
 	- `.nav-item` 
 	- `.nav-link` 用于 `<a>` 内，表示导航项【***必须***】
 
-
+```html
+<ul class="nav nav-pills nav-fill flex-xxl-row flex-column ">
+	<li class="nav-item">
+		<a class="nav-link active" aria-current="page" href="#">Active</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" href="#">Much longer nav link</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" href="#">Link</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link disabled">Disabled</a>
+	</li>
+</ul>
+```
 
 
 

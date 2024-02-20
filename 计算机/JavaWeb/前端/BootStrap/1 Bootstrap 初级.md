@@ -81,6 +81,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 ## Flexbox
 - `d-md-flex` display-middle-flex，表示***当屏幕宽度达到中等及以上时，设置弹性容器***
 - `.flex-column` 让其子元素垂直排列
+- `.flex-row` 让其子元素水平排列
 - `justify-content-center` 子元素水平居中
 - `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
 - `justify-content-between` 让子元素分布在容器的左右两端
