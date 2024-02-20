@@ -1,3 +1,6 @@
+# 深色模式
+在容器添加 `data-bs-theme="dark"`
+
 # 组件
 ## 卡片
 >卡片是一种灵活且可扩展的内容容器
@@ -181,16 +184,15 @@
 ```
 
 ### 按钮下拉分离
+- `.dropdown-toggle-split` 让<u>下拉按钮</u>与<u>按钮</u>更近
+
 ```html
 <!-- btn-group 让两个按钮组合在一起没有间隙 -->
 <div class="btn-group">
 	<button type="button" class="btn btn-danger">Action</button>
-	<button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
-		data-bs-toggle="dropdown"></button>
+	<button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"></button>
 	<ul class="dropdown-menu">
-		<li><a class="dropdown-item" href="#">Action</a></li>
 		<li><a class="dropdown-item" href="#">Another action</a></li>
-		<li><a class="dropdown-item" href="#">Something else here</a></li>
 		<li>
 			<hr class="dropdown-divider">
 		</li>
