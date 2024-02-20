@@ -162,13 +162,17 @@
 >由于有副作用，BootStrap不直接支持，可以使用插件 [Masonry](https://masonry.desandro.com/)，这是[例子](https://v5.bootcss.com/docs/examples/masonry/)
 
 ## 下拉菜单
-- `.dropdown` 用于创建下拉列表父容器【~~可以省略~~】
-- `.dropdown-center` 用于创建下拉列表父容器，使下拉列表居中
-	- 在 `<button>` 上放置 `.dropdown-toggle` ***显示下箭头按钮***
-	- 在 `<button>` 上放置 `data-bs-toggle="dropdown"` ***指定了按钮的点击行为，点击时，它将触发下拉菜单的显示或隐藏***
-	- `.dropdown-menu` 下拉列表菜单
-		- `.dropdown-item` 下拉列表子项目
-		- 在 `<hr>`里添加 `.dropdown-divider` 分割线
+- 下拉列表父容器
+	- `.dropdown` 用于创建下拉列表父容器【~~可以省略~~】
+	- `.dropdown-center` 用于创建下拉列表父容器，使下拉列表居中
+- 下拉按钮
+	- `.dropdown-toggle` ***显示下箭头按钮***
+	- `data-bs-toggle="dropdown"` ***指定了按钮的点击行为，点击时，它将触发下拉菜单的显示或隐藏***
+- 下拉列表菜单 
+	- `.dropdown-menu`
+- 下拉列表子项目
+	- `.dropdown-item` 
+	- 在 `<hr>`里添加 `.dropdown-divider` 分割线
 
 ```html
 <div class="dropdown">
@@ -202,6 +206,17 @@
 </div>
 ```
 
+### 上拉列表
+- `dropup`
+
+```html
+<div class="dropup">
+	<button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">点我</button>
+	<ul class="dropdown-menu">
+		<li class="dropdown-item">ddd</li>
+	</ul>
+</div>
+```
 
 
 
