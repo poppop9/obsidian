@@ -318,8 +318,14 @@
 ## 导航
 >将 `.nav` 添加到 `<ul>`，然后为每个 `<li>` 添加 `.nav-item`，并将 `.nav-link` 添加到它们的链接
 
+- 父容器
+	- `.nav` 必须
+	- `.nav-tabs` 可以将导航项显示成标签页【~~类似浏览器~~】
+	- `nav-pills` 将导航项显示成按钮形式
+
+
 ```html
-<ul class="nav">
+<ul class="nav nav-tabs">
 	<li class="nav-item">
 		<a class="nav-link" href="#">链接</a>
 	</li>
@@ -331,6 +337,9 @@
 	</li>
 </ul>
 ```
+
+
+
 ### 导航栏
 
 
