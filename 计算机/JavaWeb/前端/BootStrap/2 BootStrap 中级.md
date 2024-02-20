@@ -256,7 +256,55 @@
 ```
 
 ## 折叠
+```html
+<div class="accordion" id="accordionExample">
+	// 第一个卡片
+	<div class="accordion-item">
+		<h2 class="accordion-header" id="headingOne">
+			<button class="accordion-button" type="button" data-bs-toggle="collapse"
+				data-bs-target="#collapseOne">
+				Item 1
+			</button>
+		</h2>
+		<div id="collapseOne" class="accordion-collapse collapse show"
+			data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+				the transition does limit overflow.
+			</div>
+		</div>
+	</div>
 
+	// 第二个卡片
+	<div class="accordion-item">
+		<h2 class="accordion-header" id="headingTwo">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+				data-bs-target="#collapseTwo">
+				Item 2
+			</button>
+		</h2>
+		<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+				the transition does limit overflow
+			</div>
+		</div>
+	</div>
+
+	// 第三个卡片
+	<div class="accordion-item">
+		<h2 class="accordion-header" id="headingThree">
+			<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+				data-bs-target="#collapseThree">
+				Item 3
+			</button>
+		</h2>
+		<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+			<div class="accordion-body">
+				overflow
+			</div>
+		</div>
+	</div>
+</div>
+```
 
 
 
