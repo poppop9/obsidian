@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 2.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 2.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
               }
             }
           },
@@ -205,8 +205,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "72530cf88b10b2b7",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/Vue/Vue 2.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
@@ -227,7 +228,6 @@
     "计算机/JavaWeb/前端/4 Axios.md",
     "计算机/JavaWeb/前端/6 Element组件库.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
-    "计算机/JavaWeb/前端/Vue/Vue 2.md",
     "计算机/编程语言/Java/14 Java 8 新特性.md",
     "穿他.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
