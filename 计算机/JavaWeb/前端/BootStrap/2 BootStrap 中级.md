@@ -163,10 +163,20 @@
 - `.dropdown-menu` 下拉列表菜单
 - `.dropdown-item` 下拉列表子项目
 - 在 `<button>` 上放置 `.dropdown-toggle` ***显示下箭头logo***
-- 在 `<button>` 上放置 `data-bs-toggle="dropdown"` ***js代码，表示
+- 在 `<button>` 上放置 `data-bs-toggle="dropdown"` ***指定了按钮的点击行为，点击时，它将触发下拉菜单的显示或隐藏***
 
-
-
+```html
+<div class="dropdown">
+	<button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown">
+	Dropdown button
+	</button>
+	<ul class="dropdown-menu">
+		<li><a class="dropdown-item" href="#">Action</a></li>
+		<li><a class="dropdown-item" href="#">Another action</a></li>
+		<li><a class="dropdown-item" href="#">Something else here</a></li>
+	</ul>
+</div>
+```
 
 
 
