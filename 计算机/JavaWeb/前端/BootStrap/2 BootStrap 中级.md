@@ -256,20 +256,26 @@
 ```
 
 ## 折叠
-- 父容器
-	- `.accordion` 必须
+- 父容器 `.accordion` 
 	- `.accordion-flush` 五边框的手风琴
+- 单个手风琴 `.accordion-item` 
+	- `.accordion-header` 标题
+	- `.accordion-button` 触发折叠的按钮
+	- `.accordion-collapse` 折叠的隐藏内容容器
+		- `.accordion-body` 折叠的隐藏内容
+		- `.show` 表示自动展示该手风琴隐藏d
+
 
 ```html
 <div class="accordion" id="accordionExample">
 	// 第一个卡片
 	<div class="accordion-item">
 		<h2 class="accordion-header" id="headingOne">
-			<button class="accordion-button" type="button" data-bs-toggle="collapse"
-				data-bs-target="#collapseOne">
+			<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
 				Item 1
 			</button>
 		</h2>
+		<!-- show 表示自动展示 -->
 		<div id="collapseOne" class="accordion-collapse collapse show"
 			data-bs-parent="#accordionExample">
 			<div class="accordion-body">
