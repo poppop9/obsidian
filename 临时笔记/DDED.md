@@ -23,6 +23,11 @@
 - 平常休息的时候喜欢做什么【~~问兴趣~~】
 - 可以夸奖有气质
 
+>[!attention] 
+> - 前戏：15min
+> - 抽插：10min
+> - 后戏：5min
+
 # 前戏
 ## 牵手
 1. 用 ***拇指*** 去抚摸更有安全感
@@ -166,13 +171,17 @@
 
 女生在浪漫放松享受时，比较想做爱
 
+# 按摩
+- 所有的按摩都遵循从不敏感的地方开始，逐步蔓延到敏感的地方
+
+## 胸部
+- 先按摩颈部，肩部，腰部
+- 再顺着乳房的外边缘线按摩【从上到下，由外到内】
+- 一只手
+
+
 ---
 
-- 前戏：15min
-- 抽插：10min
-- 后戏：5min
-
-![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/IMG_9543.PNG)
 
 [https://www.youtube.com/@zixidao/videos](https://www.youtube.com/@zixidao/videos)
 
@@ -187,6 +196,4 @@ https://www.youtube.com/@intimacylab/videos
 
 [https://pua7777.com/1611.html](https://pua7777.com/1611.html)
 
-> [!hint] 女性无法看到男性，最好前面有镜子
-> 
-> [!hint] 女性无法看到男性，最好前面有镜子
+
