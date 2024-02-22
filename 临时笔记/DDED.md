@@ -182,7 +182,10 @@
 - 一只手摸着心脏，一只手的虎口上下按摩下乳房【跟心跳频率差不多】
 ![200](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402220847455.png)
 - 再双手上推
-![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402220850723.gif)
+![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402220852357.gif)
+- 双手围着乳房绕，先外圈大圈，再到内圈小圈
+![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402220855886.gif)
+
 
 
 ---
