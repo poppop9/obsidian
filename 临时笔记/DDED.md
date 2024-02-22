@@ -183,9 +183,12 @@
 ![200](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402220847455.png)
 - 再双手上推
 ![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402220852357.gif)
-- 双手围着乳房绕，先外圈大圈，再到内圈小圈
+- 双手围着乳房绕，先外圈大圈，再到内圈小圈，在乳头附近旋转
 ![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402220855886.gif)
-
+- 在用食指，拇指刮蹭，按压乳头
+- 龙爪手，轮播推，画8字
+![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402220900780.gif)
+- 在兴奋时，可以接受一定程度的疼痛，***可以使用
 
 
 ---
