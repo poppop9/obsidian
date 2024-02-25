@@ -726,35 +726,29 @@ h2::first-letter {
 	margin-top: 1rem !important;
 }
 
-
 /* 标题3 */
+div.HyperMD-header.HyperMD-header-3.cm-line {
+	text-align: center;
+}
+
 span.cm-header.cm-header-3 {
 	font-size: 1.5rem !important;
 	position: relative;
 }
 
-span.cm-header.cm-header-3:not(.cm-formatting-header-3.cm-header.cm-header-3)::before {
-	content: '';
-	bottom: -0.03em;
-	left: 0;
-	width: calc(100% + 1.5ch);
-	border-bottom: 0.2em solid #3481c57a;
-
-	position: absolute;
-	bottom: 0.2rem;
-}
-
 div.HyperMD-header.HyperMD-header-3.cm-line span.cm-header.cm-header-3:last-child:not(.cm-formatting-escape.cm-header.cm-header-3.cm-hmd-escape-backslash):not(span.cm-escape.cm-header.cm-header-3.cm-hmd-escape-char)::after {
-	content: '3';
-	font-size: 3rem;
+	content: '###';
+	font-size: 1.5rem;
 	font-style: italic;
 	color: #3481c5;
 
 	opacity: 70%;
+	border-radius: 0.6rem;
 
 	position: absolute;
-	top: -1.4rem;
-	right: -1.2rem;
+	top: 0.2rem;
+	/* right: -3.4rem; */
+	left: -3rem;
 }
 
 .markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h3) {
