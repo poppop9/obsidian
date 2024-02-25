@@ -736,7 +736,7 @@ span.cm-header.cm-header-3 {
 	position: relative;
 }
 
-div.HyperMD-header.HyperMD-header-3.cm-line span.cm-header.cm-header-3:last-child:not(.cm-formatting-escape.cm-header.cm-header-3.cm-hmd-escape-backslash):not(span.cm-escape.cm-header.cm-header-3.cm-hmd-escape-char)::after {
+div.HyperMD-header.HyperMD-header-3.cm-line span.cm-header.cm-header-3:last-child:not(.cm-formatting-escape.cm-header.cm-header-3.cm-hmd-escape-backslash):not(span.cm-escape.cm-header.cm-header-3.cm-hmd-escape-char)::before {
 	content: '###';
 	font-size: 1.5rem;
 	font-style: italic;
@@ -746,9 +746,7 @@ div.HyperMD-header.HyperMD-header-3.cm-line span.cm-header.cm-header-3:last-chil
 	border-radius: 0.6rem;
 
 	position: absolute;
-	top: 0.1rem;
-	/* right: -3.4rem; */
-	left: -3rem;
+	transform: translate(-47px, 5px);
 }
 
 .markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h3) {
@@ -776,7 +774,7 @@ h3::before {
 	display: inline-block;
 	position: absolute;
 
-	left: 13.8rem;
+	transform: translate(-47px, 1px);
 }
 
 .HyperMD-header-2.cm-line+.HyperMD-header-3.cm-line {
