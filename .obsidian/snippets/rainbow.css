@@ -746,7 +746,7 @@ div.HyperMD-header.HyperMD-header-3.cm-line span.cm-header.cm-header-3:last-chil
 	border-radius: 0.6rem;
 
 	position: absolute;
-	top: 0.2rem;
+	top: 0.1rem;
 	/* right: -3.4rem; */
 	left: -3rem;
 }
@@ -758,28 +758,16 @@ div.HyperMD-header.HyperMD-header-3.cm-line span.cm-header.cm-header-3:last-chil
 h3,
 .markdown-rendered h3 {
 	font-size: 1.5rem !important;
-
 	margin-block-start: 0.5rem;
 	margin-block-end: 0.2rem;
+	text-align: center;
 
-	display: inline-block;
 	position: relative;
 }
 
 h3::before {
-	content: '';
-	bottom: -0.03em;
-	left: 0;
-	width: calc(100% + 1.5ch);
-	border-bottom: 0.2em solid #3481c57a;
-
-	position: absolute;
-	bottom: 0.2rem;
-}
-
-h3::after {
-	content: '3';
-	font-size: 3rem;
+	content: '###';
+	font-size: 1.5rem;
 	font-style: italic;
 	color: #3481c5;
 
@@ -787,8 +775,8 @@ h3::after {
 
 	display: inline-block;
 	position: absolute;
-	top: -1.4rem;
-	right: -1.2rem;
+
+	left: 13.8rem;
 }
 
 .HyperMD-header-2.cm-line+.HyperMD-header-3.cm-line {
