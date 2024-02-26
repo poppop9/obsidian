@@ -12,13 +12,12 @@
 ## 镜像与容器的关系
 ==镜像== 是一个只读的模板，而 ==容器== 是一个运行实例【类似***类与实例的关系***】，==仓库== 是用来存储Docker镜像的地方
 
-
 Linux上安装的Docker Desktop会在这个Linux的基础上创建一个虚拟机，这个虚拟机是在Docker Desktop中运行的，而不是直接在Linux的Docker引擎上。所以<u>Linux的Docker Engine上部署的镜像和容器</u>与<u>Linux上安装的Docker Desktop里部署的镜像和容器</u>是独立的
 
 Docker Desktop只允许在本机上运行，不允许在虚拟机中运行
 
 ## Docker Desktop
->Docker Desktop = Docker Engine + Docker Build + Docker Extensions + Docker Compose
+>Docker Desktop = <u>Docker Engine</u> + <u>Docker Build</u> + <u>Docker Extensions</u> + <u>Docker Compose</u>
 
 
 
