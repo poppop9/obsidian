@@ -728,12 +728,14 @@ h2::first-letter {
 
 /* 标题3 */
 div.HyperMD-header.HyperMD-header-3.cm-line {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
 }
 
 span.cm-header.cm-header-3 {
 	font-size: 1.5rem !important;
-	position: relative;
 }
 
 div.HyperMD-header.HyperMD-header-3.cm-line span.cm-header.cm-header-3:last-child:not(.cm-formatting-escape.cm-header.cm-header-3.cm-hmd-escape-backslash):not(span.cm-escape.cm-header.cm-header-3.cm-hmd-escape-char)::before {
@@ -745,21 +747,24 @@ div.HyperMD-header.HyperMD-header-3.cm-line span.cm-header.cm-header-3:last-chil
 	opacity: 70%;
 	border-radius: 0.6rem;
 
-	position: absolute;
-	transform: translate(-47px, 5px);
+	margin-right: 0.5rem;
 }
 
 .markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h3) {
 	margin-top: 0.7rem;
 }
 
-h3,
-.markdown-rendered h3 {
+h3 {
+	display: flex;
+	/* Establishes a flex container */
+	justify-content: center;
+	/* Centers content horizontally */
+	align-items: center;
+	/* Centers content vertically */
 	font-size: 1.5rem !important;
 	margin-block-start: 0.5rem;
 	margin-block-end: 0.2rem;
 	text-align: center;
-
 	position: relative;
 }
 
@@ -768,13 +773,11 @@ h3::before {
 	font-size: 1.5rem;
 	font-style: italic;
 	color: #3481c5;
-
 	opacity: 70%;
-
 	display: inline-block;
-	position: absolute;
-
-	transform: translate(-47px, 1px);
+	/* Allows for centering with flexbox */
+	margin-right: 0.5rem;
+	/* Adds spacing between the symbol and the text */
 }
 
 .HyperMD-header-2.cm-line+.HyperMD-header-3.cm-line {
@@ -822,16 +825,13 @@ h4[data-heading] {
 	font-size: 1.1em;
 	display: inline-block;
 	position: relative;
+
 	line-height: 1.5em;
 	margin-top: 0;
 	margin-bottom: 0rem;
 
 	font-weight: 500;
 	z-index: 0;
-}
-
-h4[data-heading]::before {
-	content: "";
 }
 
 h4[data-heading]::after {
