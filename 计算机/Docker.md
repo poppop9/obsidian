@@ -18,7 +18,7 @@ Linux上安装的Docker Desktop会在这个Linux的基础上创建一个虚拟�
 Docker Desktop只允许在本机上运行，不允许在虚拟机中运行
 
 ## Docker Desktop
->Docker Desktop = Docker Engine + Docker Build + Docker Extensions 
+>Docker Desktop = Docker Engine + Docker Build + Docker Extensions + Docker Compose
 
 
 
