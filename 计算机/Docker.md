@@ -25,6 +25,8 @@
 - 创建一个 Dockerfile
 - 使用 Dockerfile 构建镜像
 - 使用镜像创建，运行容器
+## Docker Compose
+>Docker Compose 可以把<u>一组互相关联的容器</u>【前端，后端，数据库，redis，负载均衡……】组合到一起
 ## Docker Desktop
 >Docker Desktop = <u>Docker Engine</u> + <u>Docker Build</u> + <u>Docker Extensions</u> + <u>Docker Compose</u>
 
