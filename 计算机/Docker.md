@@ -12,20 +12,24 @@
 ## 体系结构
 ![900](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402261429382.png)
 
-
-
-
 ## 镜像与容器的关系
 ==镜像== 是一个只读的模板，而 ==容器== 是一个运行实例【类似***类与实例的关系***】，==仓库== 是用来存储Docker镜像的地方
 
+## 容器化的步骤
+>[!hint] 什么是 Dockerfile
+>Dockerfile 是一个文本文件，里面包含一系列指令，用来告诉 Docker 如何构建镜像
+
+- 创建一个 Dockerfile
+- 使用 Dockerfile 构建镜像
+- 使用镜像创建，运行容器
 
 
-Linux上安装的Docker Desktop会在这个Linux的基础上创建一个虚拟机，这个虚拟机是在Docker Desktop中运行的，而不是直接在Linux的Docker引擎上。所以<u>Linux的Docker Engine上部署的镜像和容器</u>与<u>Linux上安装的Docker Desktop里部署的镜像和容器</u>是独立的
 
-Docker Desktop只允许在本机上运行，不允许在虚拟机中运行
 
 ## Docker Desktop
 >Docker Desktop = <u>Docker Engine</u> + <u>Docker Build</u> + <u>Docker Extensions</u> + <u>Docker Compose</u>
 
+Linux上安装的Docker Desktop会在这个Linux的基础上创建一个虚拟机，这个虚拟机是在Docker Desktop中运行的，而不是直接在Linux的Docker引擎上。所以<u>Linux的Docker Engine上部署的镜像和容器</u>与<u>Linux上安装的Docker Desktop里部署的镜像和容器</u>是独立的
 
+Docker Desktop只允许在本机上运行，不允许在虚拟机中运行
 
