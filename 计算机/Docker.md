@@ -9,8 +9,13 @@
 - **可移植性**：Docker容器可以在不同的平台和操作系统上运行，包括Linux、Windows和macOS等。这使得应用程序可以轻松地在开发、测试和生产环境之间进行迁移和部署。
 - **版本控制和复制**：Docker使用镜像来构建容器。镜像是一个可重复的、可版本控制的文件，包含了应用程序的所有代码和依赖项
 - **扩展性和弹性**：Docker容器可以轻松地进行水平扩展，通过使用容器编排工具如Docker Compose和Kubernetes，可以实现自动化的容器管理和部署
+## 体系结构
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402261418894.png)
+
 ## 镜像与容器的关系
 ==镜像== 是一个只读的模板，而 ==容器== 是一个运行实例【类似***类与实例的关系***】，==仓库== 是用来存储Docker镜像的地方
+
+
 
 Linux上安装的Docker Desktop会在这个Linux的基础上创建一个虚拟机，这个虚拟机是在Docker Desktop中运行的，而不是直接在Linux的Docker引擎上。所以<u>Linux的Docker Engine上部署的镜像和容器</u>与<u>Linux上安装的Docker Desktop里部署的镜像和容器</u>是独立的
 

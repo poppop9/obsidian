@@ -613,10 +613,13 @@ strong {
 /* ----------------------------------------------------------------------------------------------- */
 /* 下划线 */
 u {
-	text-decoration: underline;
-	text-decoration-thickness: 0.22rem;
-	text-decoration-color: #3481c5;
+    text-decoration: underline;
+    text-decoration-thickness: 0.22rem;
+    text-decoration-color: #3481c5;
+    text-underline-offset: 0.24em; /* 调整下划线与文字之间的距离 */
+    text-decoration-skip-ink: auto; /* 控制下划线避开文字的部分 */
 }
+
 
 /* ------------------------------------------------------------ */
 /* 标题 */
@@ -756,14 +759,11 @@ div.HyperMD-header.HyperMD-header-3.cm-line span.cm-header.cm-header-3:last-chil
 
 h3 {
 	display: flex;
-	/* Establishes a flex container */
 	justify-content: center;
-	/* Centers content horizontally */
 	align-items: center;
-	/* Centers content vertically */
 	font-size: 1.5rem !important;
 	margin-block-start: 0.5rem;
-	margin-block-end: 0.2rem;
+	margin-block-end: 0.1rem !important;
 	text-align: center;
 	position: relative;
 }
@@ -775,9 +775,7 @@ h3::before {
 	color: #3481c5;
 	opacity: 70%;
 	display: inline-block;
-	/* Allows for centering with flexbox */
 	margin-right: 0.5rem;
-	/* Adds spacing between the symbol and the text */
 }
 
 .HyperMD-header-2.cm-line+.HyperMD-header-3.cm-line {
