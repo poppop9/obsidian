@@ -37,7 +37,7 @@
 
 
 ```mermaid
-graph
+graph LR
     A(请求) -->|...| B(UsernamePasswordAuthenticationFilter)
     B -->|...| C(ExceptionTranslationFilter)
     C --> D(FilterSecurityInterceptor)
