@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
     {
+      "basename": "草稿纸 Draw",
+      "path": "Excalidraw/杂/草稿纸 Draw.md"
+    },
+    {
       "basename": "软件测试",
       "path": "考试/软件测试.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Docker",
       "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "草稿纸 Draw",
-      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "杂 Draw",
