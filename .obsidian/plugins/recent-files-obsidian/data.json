@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Spring Security",
+      "path": "计算机/JavaWeb/后端/Spring Security.md"
+    },
+    {
       "basename": "软件测试",
       "path": "考试/软件测试.md"
     },
@@ -163,10 +167,6 @@
     {
       "basename": "虚拟化内存",
       "path": "计算机/四大件/操作系统/虚拟化/虚拟化内存.md"
-    },
-    {
-      "basename": "Spring Security",
-      "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
     {
       "basename": "Maven",
