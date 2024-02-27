@@ -33,7 +33,7 @@
 	- 获取token
 	- 解析token获取UserId
 	- 从redis中获取用户信息
-	- 把用户信息存入 `SecurityContextHolder`【为了JWT认证过滤器后续的过滤器可以使用用户信息做某些事情】
+	- 把用户信息存入 `SecurityContextHolder`【为了<u>JWT认证过滤器</u>后续的过滤器可以使用用户信息做某些事情】
 
 
 
