@@ -9,7 +9,7 @@
 ```
 
 # 过程
-![700](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402271446629.png)
+![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402271600507.png)
 ## 登录
 - 自定义登录Controller接口
 	- 调用 ProviderManager 方法进行认证
