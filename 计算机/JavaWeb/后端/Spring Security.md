@@ -36,7 +36,13 @@
 	- 把用户信息存入 `SecurityContextHolder`【为了<u>JWT认证过滤器</u>后续的过滤器可以使用用户信息做某些事情】
 
 
-
+```mermaid
+graph LR
+    A(请求) -->|...| B(UsernamePasswordAuthentication Filter)
+    B -->|...| C(ExceptionTranslationFilter)
+    C --> D(FilterSecurityInterceptor)
+    D --> E(API)
+```
 
 
 
