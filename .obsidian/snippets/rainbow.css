@@ -613,11 +613,13 @@ strong {
 /* ----------------------------------------------------------------------------------------------- */
 /* 下划线 */
 u {
-    text-decoration: underline;
-    text-decoration-thickness: 0.22rem;
-    text-decoration-color: #3481c5;
-    text-underline-offset: 0.24em; /* 调整下划线与文字之间的距离 */
-    text-decoration-skip-ink: auto; /* 控制下划线避开文字的部分 */
+	text-decoration: underline;
+	text-decoration-thickness: 0.22rem;
+	text-decoration-color: #3481c5;
+	text-underline-offset: 0.24em;
+	/* 调整下划线与文字之间的距离 */
+	text-decoration-skip-ink: auto;
+	/* 控制下划线避开文字的部分 */
 }
 
 
@@ -1415,9 +1417,13 @@ sup.footnote-ref {
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 /* mermaid */
-div.mermaid>svg {
-	display: block;
-	margin: auto auto;
+.mermaid {
+	overflow: auto;
+	scrollbar-color: gray darkgray;
+}
+
+.mermaid::-webkit-scrollbar {
+	width: 10px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------ */
