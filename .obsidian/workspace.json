@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "临时笔记/MarkDown语法.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -208,12 +208,12 @@
   },
   "active": "72530cf88b10b2b7",
   "lastOpenFiles": [
+    "Excalidraw/杂/草稿纸 Draw.md",
+    "计算机/JavaWeb/后端/Spring Security.md",
     "临时笔记/MarkDown语法.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
-    "计算机/JavaWeb/后端/Spring Security.md",
     "计算机/Docker.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
-    "Excalidraw/杂/草稿纸 Draw.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",

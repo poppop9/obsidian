@@ -16,7 +16,15 @@
 	- ***ExceptionTranslationFilter*** ：处理在认证授权时的所有异常
 	- ***FilterSecurityInterceptor*** ：当登录成功后，判断用户是谁，有没有权限
 
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402271610511.png)
+```mermaid
+graph LR
+	subgraph 过滤器链
+	    A(请求) -->|...| B(UsernamePasswordAuthenticationFilter)
+	    B -->|...| C(ExceptionTranslationFilter)
+	    C --> D(FilterSecurityInterceptor)
+	    D --> E(API)
+    end
+```
 ## UsernamePasswordAuthenticationFilter
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402271650139.png)
 
@@ -36,13 +44,7 @@
 	- 把用户信息存入 `SecurityContextHolder`【为了<u>JWT认证过滤器</u>后续的过滤器可以使用用户信息做某些事情】
 
 
-```mermaid
-graph LR
-    A(请求) -->|...| B(UsernamePasswordAuthenticationFilter)
-    B -->|...| C(ExceptionTranslationFilter)
-    C --> D(FilterSecurityInterceptor)
-    D --> E(API)
-```
+
 
 
 
