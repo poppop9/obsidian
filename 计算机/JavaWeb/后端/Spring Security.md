@@ -17,6 +17,9 @@
 	- ***FilterSecurityInterceptor*** ：当登录成功后，判断用户是谁，有没有权限
 
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402271610511.png)
+
+>[!warning] 目前的Spring Security的流程是不符合我们的开发要求的，我们要进行修改
+
 ## 登录
 - 自定义登录Controller接口
 	- 调用 ProviderManager 方法进行认证
