@@ -12,7 +12,7 @@
 ## 登录
 - 自定义登录Controller接口
 	- 调用 ProviderManager 方法进行认证
-		- 如果认证通过，生成JWT令牌
+		- 如果认证通过，生成 JWT令牌
 		- 再把用户信息存入redis
 - 自定义 `UserDetailsService`，在这个类中去查询数据库
 ## 校验
