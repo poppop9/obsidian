@@ -12,6 +12,11 @@
 - 宏观流程
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402271600507.png)
 - 微观流程
+	- ***UsernamePasswordAuthenticationFilter*** ：判断用户名和密码是否正确
+	- ***ExceptionTranslationFilter*** ：处理在认证授权时的所有异常
+	- ***FilterSecurityInterceptor*** ：当登录成功后，判断用户是谁，有没有权限
+
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402271610511.png)
 
 
 
