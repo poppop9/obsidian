@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "草稿纸 Draw",
+      "path": "Excalidraw/杂/草稿纸 Draw.md"
+    },
+    {
       "basename": "1 SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Spring Security",
       "path": "计算机/JavaWeb/后端/Spring Security.md"
-    },
-    {
-      "basename": "草稿纸 Draw",
-      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "软件测试",
