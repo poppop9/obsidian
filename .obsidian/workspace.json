@@ -128,7 +128,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "82e190d91877a96e",
@@ -207,6 +208,10 @@
   },
   "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
+    "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
+    "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
+    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/后端/Spring Security.md",
     "Excalidraw/杂/草稿纸 Draw.md",
@@ -231,10 +236,6 @@
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "临时笔记/健康.md",
     "临时笔记/穿搭.md",
-    "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
-    "计算机/JavaWeb/前端/CSS/CSS.md",
-    "计算机/JavaWeb/前端/4 Axios.md",
-    "计算机/JavaWeb/前端/6 Element组件库.md",
     "计算机/JavaWeb/前端/Vue",
     "计算机/JavaWeb/前端/HTML",
     "图片库/Pasted Image 20240121113940_598.png",

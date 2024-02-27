@@ -5,6 +5,18 @@
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
     {
+      "basename": "4 登录认证",
+      "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
+    },
+    {
+      "basename": "3 文件上云",
+      "path": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
+    },
+    {
+      "basename": "2 MyBatis",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
+    },
+    {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
@@ -187,14 +199,6 @@
     {
       "basename": "计算机网络",
       "path": "计算机/四大件/计算机网络.md"
-    },
-    {
-      "basename": "计算机组成原理",
-      "path": "计算机/四大件/计算机组成原理.md"
-    },
-    {
-      "basename": "微信",
-      "path": "科技美学/微信.md"
     }
   ],
   "omittedPaths": [],
