@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2 MyBatis",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
+    },
+    {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
     },
@@ -25,24 +37,12 @@
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
     {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
-    },
-    {
       "basename": "4 登录认证",
       "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
     },
     {
       "basename": "3 文件上云",
       "path": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
-    },
-    {
-      "basename": "2 MyBatis",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
     },
     {
       "basename": "2 BootStrap 中级",
