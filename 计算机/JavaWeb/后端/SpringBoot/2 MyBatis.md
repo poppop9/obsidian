@@ -58,7 +58,7 @@ spring.datasource.password=13433026660
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143555.png)
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143538.png)
 - 安装`MyBatisX`插件
-	- 可以在xml文件 与 Mapper接口 中快速跳转
+	- 可以在 <u>xml文件</u> 与 <u>Mapper接口</u> 中快速跳转
 # 通过注解来实现MyBatis
 ## 基本操作
 ### 增删改查
