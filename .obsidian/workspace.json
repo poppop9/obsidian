@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/🌏旅行.md",
+                "file": "临时笔记/穿搭.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/🌏旅行.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/🌏旅行.md"
+                "file": "临时笔记/穿搭.md"
               }
             }
           },
@@ -208,6 +208,7 @@
   },
   "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "临时笔记/🌏旅行.md",
     "临时笔记/MarkDown语法.md",
     "计算机/JavaWeb/后端/Spring Security.md",
     "Excalidraw/杂/草稿纸 Draw.md",
@@ -235,7 +236,6 @@
     "计算机/JavaWeb/前端/前端.md",
     "计算机/JavaWeb/前端/BootStrap",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
-    "临时笔记/健康.md",
     "计算机/JavaWeb/前端/Vue",
     "计算机/JavaWeb/前端/HTML",
     "图片库/Pasted Image 20240121113940_598.png",
