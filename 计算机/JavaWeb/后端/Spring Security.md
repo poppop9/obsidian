@@ -28,7 +28,7 @@ graph LR
 ## UsernamePasswordAuthenticationFilter
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402271650139.png)
 
->[!warning] 目前的Spring Security的流程是不符合我们的开发要求的，我们要进行修改
+>[!warning] 目前的Spring Security的流程是不符合我们的开发要求的，我们要进行修改，要替换不符合要求的实现类
 
 ## 登录
 - 自定义登录Controller接口
