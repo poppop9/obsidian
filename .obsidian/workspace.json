@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
               }
             }
           },
@@ -208,6 +208,7 @@
   },
   "active": "ea5ec7dd16011e6b",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/Docker.md",
     "临时笔记/穿搭.md",
     "临时笔记/🌏旅行.md",
@@ -215,7 +216,6 @@
     "计算机/JavaWeb/后端/Spring Security.md",
     "Excalidraw/杂/草稿纸 Draw.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
-    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
