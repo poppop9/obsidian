@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Spring Security",
-      "path": "计算机/JavaWeb/后端/Spring Security.md"
+      "basename": "🌏旅行",
+      "path": "临时笔记/🌏旅行.md"
     },
     {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
+    },
+    {
+      "basename": "Spring Security",
+      "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
     {
       "basename": "草稿纸 Draw",
@@ -195,10 +199,6 @@
     {
       "basename": "持久性",
       "path": "计算机/四大件/操作系统/持久性.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "计算机/四大件/计算机网络.md"
     }
   ],
   "omittedPaths": [],
