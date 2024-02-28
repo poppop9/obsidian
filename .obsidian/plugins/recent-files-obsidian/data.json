@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Spring Security",
+      "path": "计算机/JavaWeb/后端/Spring Security.md"
+    },
+    {
       "basename": "2 MyBatis",
       "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
-    },
-    {
-      "basename": "Spring Security",
-      "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
     {
       "basename": "草稿纸 Draw",
