@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "摄影",
+      "path": "临时笔记/摄影.md"
+    },
+    {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "操作系统 Draw",
       "path": "Excalidraw/计算机/四大件/操作系统 Draw.md"
-    },
-    {
-      "basename": "基础知识",
-      "path": "计算机/四大件/操作系统/基础知识.md"
     }
   ],
   "omittedPaths": [],
