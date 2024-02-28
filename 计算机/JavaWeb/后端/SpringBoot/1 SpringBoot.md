@@ -636,9 +636,9 @@ public class EmpController {
 # 配置文件
 ## properties 配置文件
 ### 参数配置化
->将项目中的参数集中化管理，然后在java文件中使用 `@Value` 注解来注入配置文件中的值
+>将项目中的参数定义在 `properties文件中` 集中化管理，然后在java文件中使用 `@Value` 注解来注入配置文件中的值
 
-- 未采用参数配置化
+- ***未采用参数配置化***
 ```java
 @RestController
 public class Test {
@@ -651,7 +651,7 @@ public class Test {
 ```
 【如果将参数分散在各个java类中，会导致***查找困难***，而且这种硬编码的方式，在***每次更改参数时都要重新编译项目***】
 
-- 采用参数配置化
+- ***采用参数配置化***
 ```java
 public class Test {
 	@Value("${tencent.secretId}")
@@ -698,10 +698,6 @@ style:
 ```
 ### @ConfigurationProperties
 >使用该注释之后，会自动将配置文件中的值注入到bean对象对应的属性中去，***简化了每次注入yml里的数值都要使用 ***`@Value` ***的麻烦 ***
-
-- `@Data`
-- `@Component`
-- `@ConfigurationProperties`
 
 ```properties
 tencent.secretId=AKIDtlYAZjRbefnkT4Siz8Zz  
