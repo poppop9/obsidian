@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
               }
             }
           },
@@ -204,12 +204,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ea5ec7dd16011e6b",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
-    "计算机/数据库/MySQL.md",
-    "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
-    "计算机/JavaWeb/后端/SpringBoot/未命名.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
+    "计算机/数据库/MySQL.md",
+    "计算机/JavaWeb/后端/SpringBoot/未命名.md",
+    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+    "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
     "计算机/数据库/MYSQL安装配置.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "临时笔记/Obsidian特殊语法.md",
@@ -222,7 +224,6 @@
     "临时笔记/🌏旅行.md",
     "临时笔记/MarkDown语法.md",
     "Excalidraw/杂/草稿纸 Draw.md",
-    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
@@ -231,7 +232,6 @@
     "Excalidraw/计算机/Docker Draw.md",
     "Excalidraw/杂/杂 Draw.md",
     "临时笔记/草稿纸.md",
-    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
     "计算机/JavaWeb/前端/Vue",
