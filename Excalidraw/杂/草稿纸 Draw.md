@@ -91,12 +91,18 @@ B会加入到A的事务 ^fIP2GLWA
 
 但是会执行finally中的内容 ^MKYXWo4o
 
-由于REQUIRED的特性，
-B会加入到A的事务 ^A1UAHR47
-
-执行完B之后，B和C一起回滚 ^v5peQUPR
+由于REQUIRED_NEW的特性，
+创建新事务B，停止事务A ^A1UAHR47
 
 事务B ^0ld0ZJd3
+
+执行任务B ^vQkHE4QJ
+
+事务B提交 ^eVR4J2yo
+
+开启事务A ^lZhsY2AP
+
+回滚任务C ^llhOGnSD
 
 
 # Embedded files
@@ -3188,8 +3194,8 @@ B会加入到A的事务 ^A1UAHR47
 		},
 		{
 			"type": "rectangle",
-			"version": 153,
-			"versionNonce": 1340638973,
+			"version": 183,
+			"versionNonce": 358267005,
 			"isDeleted": false,
 			"id": "7eHgU0_YZPB0hrbFTLL4w",
 			"fillStyle": "solid",
@@ -3198,29 +3204,27 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 619.507388056406,
-			"y": 466.2641863018325,
+			"x": 617.62499203159,
+			"y": 495.4406784318877,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 461.605322165648,
 			"height": 291.11946099095076,
 			"seed": 2061528243,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1709195305435,
+			"updated": 1709195539600,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 117,
-			"versionNonce": 1318625117,
+			"version": 147,
+			"versionNonce": 1506320605,
 			"isDeleted": false,
 			"id": "9G0lKPV5",
 			"fillStyle": "solid",
@@ -3229,20 +3233,18 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 632.4329939917773,
-			"y": 474.19947888180013,
+			"x": 630.5505979669613,
+			"y": 503.3759710118553,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 65.89535522460938,
 			"height": 29.783127546482998,
 			"seed": 943087187,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709195305435,
+			"updated": 1709195539600,
 			"link": null,
 			"locked": false,
 			"fontSize": 24.8192729554025,
@@ -3258,8 +3260,8 @@ B会加入到A的事务 ^A1UAHR47
 		},
 		{
 			"type": "text",
-			"version": 134,
-			"versionNonce": 1147579325,
+			"version": 164,
+			"versionNonce": 1025146173,
 			"isDeleted": false,
 			"id": "M8cSZTmT",
 			"fillStyle": "solid",
@@ -3268,16 +3270,14 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 640.6316017139909,
-			"y": 518.9961128181601,
+			"x": 638.7492056891749,
+			"y": 548.1726049482153,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 92.5,
 			"height": 24,
 			"seed": 1696406515,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [
@@ -3286,7 +3286,7 @@ B会加入到A的事务 ^A1UAHR47
 					"type": "arrow"
 				}
 			],
-			"updated": 1709195305435,
+			"updated": 1709195539600,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3302,8 +3302,8 @@ B会加入到A的事务 ^A1UAHR47
 		},
 		{
 			"type": "rectangle",
-			"version": 140,
-			"versionNonce": 1437769853,
+			"version": 170,
+			"versionNonce": 364909053,
 			"isDeleted": false,
 			"id": "grXskt9QBLgwU4pzFjSyn",
 			"fillStyle": "solid",
@@ -3312,29 +3312,27 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 628.8316139210222,
-			"y": 510.9961128181601,
+			"x": 626.9492178962062,
+			"y": 540.1726049482153,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 439.99999999999994,
 			"height": 237.60000610351562,
 			"seed": 1838884243,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1709195305435,
+			"updated": 1709195539600,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 150,
-			"versionNonce": 384010461,
+			"version": 180,
+			"versionNonce": 658950749,
 			"isDeleted": false,
 			"id": "ZvZvXXAN",
 			"fillStyle": "solid",
@@ -3343,16 +3341,14 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 773.2315162647722,
-			"y": 518.996082300582,
+			"x": 771.3491202399562,
+			"y": 548.1725744306372,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 80,
 			"height": 24,
 			"seed": 2028403507,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [
@@ -3361,7 +3357,7 @@ B会加入到A的事务 ^A1UAHR47
 					"type": "arrow"
 				}
 			],
-			"updated": 1709195305435,
+			"updated": 1709195539600,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3377,8 +3373,8 @@ B会加入到A的事务 ^A1UAHR47
 		},
 		{
 			"type": "text",
-			"version": 140,
-			"versionNonce": 942847389,
+			"version": 170,
+			"versionNonce": 517183261,
 			"isDeleted": false,
 			"id": "beQleT2x",
 			"fillStyle": "solid",
@@ -3387,16 +3383,14 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 928.0315650928972,
-			"y": 518.9961128181601,
+			"x": 926.1491690680812,
+			"y": 548.1726049482153,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 112.97999572753906,
 			"height": 24,
 			"seed": 57089235,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [
@@ -3409,7 +3403,7 @@ B会加入到A的事务 ^A1UAHR47
 					"type": "arrow"
 				}
 			],
-			"updated": 1709195305435,
+			"updated": 1709195539600,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3425,8 +3419,8 @@ B会加入到A的事务 ^A1UAHR47
 		},
 		{
 			"type": "text",
-			"version": 194,
-			"versionNonce": 56712893,
+			"version": 224,
+			"versionNonce": 369864765,
 			"isDeleted": false,
 			"id": "MKYXWo4o",
 			"fillStyle": "solid",
@@ -3435,16 +3429,14 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 832.0315650928972,
-			"y": 582.9961128181601,
+			"x": 830.1491690680812,
+			"y": 612.1726049482153,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 227.27993774414062,
 			"height": 24,
 			"seed": 951192179,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [
@@ -3457,7 +3449,7 @@ B会加入到A的事务 ^A1UAHR47
 					"type": "arrow"
 				}
 			],
-			"updated": 1709195305435,
+			"updated": 1709195539600,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3473,8 +3465,8 @@ B会加入到A的事务 ^A1UAHR47
 		},
 		{
 			"type": "text",
-			"version": 292,
-			"versionNonce": 861346781,
+			"version": 438,
+			"versionNonce": 591453533,
 			"isDeleted": false,
 			"id": "A1UAHR47",
 			"fillStyle": "solid",
@@ -3483,16 +3475,14 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 636.4315284718034,
-			"y": 617.3960761970663,
+			"x": 637.7491446540187,
+			"y": 660.972592741184,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 196.0025634765625,
-			"height": 43.99999999999999,
+			"width": 288.55267333984375,
+			"height": 52.79998779296874,
 			"seed": 227427347,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [
@@ -3501,28 +3491,28 @@ B会加入到A的事务 ^A1UAHR47
 					"type": "arrow"
 				},
 				{
-					"id": "vgWwoS7OXMEjMHByABnMc",
+					"id": "o7NHuB99t0pgU5ffWLmFg",
 					"type": "arrow"
 				}
 			],
-			"updated": 1709195305435,
+			"updated": 1709195539600,
 			"link": null,
 			"locked": false,
-			"fontSize": 18.333333333333332,
+			"fontSize": 21.999994913736977,
 			"fontFamily": 4,
-			"text": "由于REQUIRED的特性，\nB会加入到A的事务",
-			"rawText": "由于REQUIRED的特性，\nB会加入到A的事务",
+			"text": "由于REQUIRED_NEW的特性，\n创建新事务B，停止事务A",
+			"rawText": "由于REQUIRED_NEW的特性，\n创建新事务B，停止事务A",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "由于REQUIRED的特性，\nB会加入到A的事务",
+			"originalText": "由于REQUIRED_NEW的特性，\n创建新事务B，停止事务A",
 			"lineHeight": 1.2,
-			"baseline": 37
+			"baseline": 46
 		},
 		{
 			"type": "arrow",
-			"version": 112,
-			"versionNonce": 1652914355,
+			"version": 173,
+			"versionNonce": 1118554611,
 			"isDeleted": false,
 			"id": "F44Ln2SuYpnCQpfMo6zUR",
 			"fillStyle": "solid",
@@ -3531,22 +3521,20 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 736.8316139210222,
-			"y": 531.9961128181601,
+			"x": 734.9492178962062,
+			"y": 561.1726049482153,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 36.79998779296875,
 			"height": 0.800018310546875,
 			"seed": 435308979,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709195305524,
+			"updated": 1709195540029,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3571,8 +3559,8 @@ B会加入到A的事务 ^A1UAHR47
 		},
 		{
 			"type": "arrow",
-			"version": 160,
-			"versionNonce": 401549299,
+			"version": 252,
+			"versionNonce": 153233715,
 			"isDeleted": false,
 			"id": "fxmkIXu3exzz1VlTn4U7m",
 			"fillStyle": "solid",
@@ -3581,22 +3569,20 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 859.2316383350847,
-			"y": 531.1960945076132,
+			"x": 857.3492423102687,
+			"y": 560.3725866376684,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 64.79998779296875,
 			"height": 1.600006103515625,
 			"seed": 855939923,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709195305524,
+			"updated": 1709195540029,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3625,8 +3611,8 @@ B会加入到A的事务 ^A1UAHR47
 		},
 		{
 			"type": "arrow",
-			"version": 180,
-			"versionNonce": 1336280883,
+			"version": 272,
+			"versionNonce": 444184691,
 			"isDeleted": false,
 			"id": "zwWDLGUH9AY2_TdjZOq_p",
 			"fillStyle": "solid",
@@ -3635,22 +3621,20 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 976.6311771025173,
-			"y": 545.5960884040976,
+			"x": 974.7487810777013,
+			"y": 574.7725805341528,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 1.9349444267900253,
 			"height": 32.8000183105469,
 			"seed": 1159444723,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709195305524,
+			"updated": 1709195540029,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3679,8 +3663,8 @@ B会加入到A的事务 ^A1UAHR47
 		},
 		{
 			"type": "arrow",
-			"version": 179,
-			"versionNonce": 1545475699,
+			"version": 388,
+			"versionNonce": 874936243,
 			"isDeleted": false,
 			"id": "YYCqQrlCw47iYZFYqL7do",
 			"fillStyle": "solid",
@@ -3689,22 +3673,20 @@ B会加入到A的事务 ^A1UAHR47
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 828.0316261280534,
-			"y": 592.7961006111288,
+			"x": 826.1492301032374,
+			"y": 621.972592741184,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 82.23221985964915,
-			"height": 26.399993896484375,
+			"width": 72.79998779296875,
+			"height": 40.800018310546875,
 			"seed": 1841177235,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
+			"groupIds": [],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709195305524,
+			"updated": 1709195540029,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3714,7 +3696,7 @@ B会加入到A的事务 ^A1UAHR47
 			},
 			"endBinding": {
 				"elementId": "A1UAHR47",
-				"focus": -0.0014706852871199997,
+				"focus": -0.0014706852871196982,
 				"gap": 10.199981689453125
 			},
 			"lastCommittedPoint": null,
@@ -3730,113 +3712,15 @@ B会加入到A的事务 ^A1UAHR47
 					-12
 				],
 				[
-					-82.23221985964915,
-					14.399993896484375
-				]
-			]
-		},
-		{
-			"type": "text",
-			"version": 155,
-			"versionNonce": 1185121917,
-			"isDeleted": false,
-			"id": "v5peQUPR",
-			"fillStyle": "solid",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 645.0316261280534,
-			"y": 713.3960761970663,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 256.1799621582031,
-			"height": 24,
-			"seed": 1436702771,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [
-				{
-					"id": "vgWwoS7OXMEjMHByABnMc",
-					"type": "arrow"
-				}
-			],
-			"updated": 1709195305435,
-			"link": null,
-			"locked": false,
-			"fontSize": 20,
-			"fontFamily": 4,
-			"text": "执行完B之后，B和C一起回滚",
-			"rawText": "执行完B之后，B和C一起回滚",
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "执行完B之后，B和C一起回滚",
-			"lineHeight": 1.2,
-			"baseline": 18
-		},
-		{
-			"type": "arrow",
-			"version": 153,
-			"versionNonce": 46880179,
-			"isDeleted": false,
-			"id": "vgWwoS7OXMEjMHByABnMc",
-			"fillStyle": "solid",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 734.4315895069597,
-			"y": 665.5960884040976,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
-			"width": 4,
-			"height": 42.4000244140625,
-			"seed": 1252973011,
-			"groupIds": [
-				"aGB9qNdC_KJM3-a93U_kf"
-			],
-			"frameId": null,
-			"roundness": {
-				"type": 2
-			},
-			"boundElements": [],
-			"updated": 1709195305524,
-			"link": null,
-			"locked": false,
-			"startBinding": {
-				"elementId": "A1UAHR47",
-				"focus": -0.024503088454359823,
-				"gap": 4.20001220703125
-			},
-			"endBinding": {
-				"elementId": "v5peQUPR",
-				"focus": -0.34306467596229046,
-				"gap": 5.39996337890625
-			},
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					-4,
-					42.4000244140625
+					-57.80319520534249,
+					28.800018310546875
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 202,
-			"versionNonce": 2121434675,
+			"version": 203,
+			"versionNonce": 1612259101,
 			"isDeleted": false,
 			"id": "IQIu3NEIHfPQgqgKNQThS",
 			"fillStyle": "solid",
@@ -3857,8 +3741,13 @@ B会加入到A的事务 ^A1UAHR47
 			"roundness": {
 				"type": 3
 			},
-			"boundElements": [],
-			"updated": 1709195321318,
+			"boundElements": [
+				{
+					"id": "o7NHuB99t0pgU5ffWLmFg",
+					"type": "arrow"
+				}
+			],
+			"updated": 1709195412455,
 			"link": null,
 			"locked": false
 		},
@@ -3898,6 +3787,508 @@ B会加入到A的事务 ^A1UAHR47
 			"originalText": "事务B",
 			"lineHeight": 1.2,
 			"baseline": 21
+		},
+		{
+			"id": "o7NHuB99t0pgU5ffWLmFg",
+			"type": "arrow",
+			"x": 933.5490760453521,
+			"y": 674.2353797561975,
+			"width": 207.56089985169035,
+			"height": 140.811456855374,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 723089747,
+			"version": 397,
+			"versionNonce": 1126493405,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709195539833,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					105.96092426575285,
+					-5.611475165920865
+				],
+				[
+					207.56089985169035,
+					-140.811456855374
+				]
+			],
+			"lastCommittedPoint": [
+				207.199951171875,
+				-126.39999389648438
+			],
+			"startBinding": {
+				"elementId": "A1UAHR47",
+				"focus": -0.150197969297056,
+				"gap": 7.247258051489609
+			},
+			"endBinding": {
+				"elementId": "IQIu3NEIHfPQgqgKNQThS",
+				"focus": 0.9412866780912396,
+				"gap": 5.997387745301012
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "0CE2Hsf1k--1kXw5uY871",
+			"type": "rectangle",
+			"x": 1159.1100369321987,
+			"y": 543.8239167973079,
+			"width": 425.60003662109375,
+			"height": 228,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1119075965,
+			"version": 77,
+			"versionNonce": 870851325,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709195429727,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "vQkHE4QJ",
+			"type": "text",
+			"x": 1177.31004913923,
+			"y": 560.2239412113704,
+			"width": 91.93998718261719,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1781483453,
+			"version": 99,
+			"versionNonce": 1243892819,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "BYpeTuFmDGctroGG8-xrw",
+					"type": "arrow"
+				}
+			],
+			"updated": 1709195467330,
+			"link": null,
+			"locked": false,
+			"text": "执行任务B",
+			"rawText": "执行任务B",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "执行任务B",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "eVR4J2yo",
+			"type": "text",
+			"x": 1177.3099881040737,
+			"y": 733.4238923832454,
+			"width": 91.93998718261719,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1601404701,
+			"version": 60,
+			"versionNonce": 325424019,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "BYpeTuFmDGctroGG8-xrw",
+					"type": "arrow"
+				}
+			],
+			"updated": 1709195467330,
+			"link": null,
+			"locked": false,
+			"text": "事务B提交",
+			"rawText": "事务B提交",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "事务B提交",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "BYpeTuFmDGctroGG8-xrw",
+			"type": "arrow",
+			"x": 1222.3099881040737,
+			"y": 591.8239167973079,
+			"width": 8.79998779296875,
+			"height": 137.5999755859375,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1769818717,
+			"version": 33,
+			"versionNonce": 522013171,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709195467330,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-8.79998779296875,
+					137.5999755859375
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "vQkHE4QJ",
+				"focus": -0.006064318051839505,
+				"gap": 7.5999755859375
+			},
+			"endBinding": {
+				"elementId": "eVR4J2yo",
+				"focus": -0.23093342778506423,
+				"gap": 4
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "lZhsY2AP",
+			"type": "text",
+			"x": 941.4275920792577,
+			"y": 738.6003845133006,
+			"width": 93.13998413085938,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1540683603,
+			"version": 90,
+			"versionNonce": 1155397629,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "RB_XEzhZ791PnsQGhoYXb",
+					"type": "arrow"
+				},
+				{
+					"id": "nGP0DYVAdCtN510zDb-KM",
+					"type": "arrow"
+				}
+			],
+			"updated": 1709195539600,
+			"link": null,
+			"locked": false,
+			"text": "开启事务A",
+			"rawText": "开启事务A",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "开启事务A",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "RB_XEzhZ791PnsQGhoYXb",
+			"type": "arrow",
+			"x": 1178.1100369321987,
+			"y": 747.8239167973079,
+			"width": 137.08240823184724,
+			"height": 0.5945683826616914,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 2132641811,
+			"version": 49,
+			"versionNonce": 1292716349,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709195539833,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-137.08240823184724,
+					-0.5945683826616914
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "lZhsY2AP",
+				"focus": -0.29511941395498154,
+				"gap": 6.460052490234375
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "llhOGnSD",
+			"type": "text",
+			"x": 742.0276287003514,
+			"y": 741.0004089273631,
+			"width": 92.5,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1859049011,
+			"version": 89,
+			"versionNonce": 62078237,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "nGP0DYVAdCtN510zDb-KM",
+					"type": "arrow"
+				}
+			],
+			"updated": 1709195539601,
+			"link": null,
+			"locked": false,
+			"text": "回滚任务C",
+			"rawText": "回滚任务C",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "回滚任务C",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "nGP0DYVAdCtN510zDb-KM",
+			"type": "arrow",
+			"x": 938.4275920792577,
+			"y": 751.4004333414256,
+			"width": 96,
+			"height": 3.199951171875,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1679130579,
+			"version": 118,
+			"versionNonce": 1184655091,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709195540029,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-96,
+					3.199951171875
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "lZhsY2AP",
+				"focus": 0.06288662722273802,
+				"gap": 3
+			},
+			"endBinding": {
+				"elementId": "llhOGnSD",
+				"focus": 0.2514426637342179,
+				"gap": 7.89996337890625
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"type": "text",
+			"version": 157,
+			"versionNonce": 1922984861,
+			"isDeleted": true,
+			"id": "v5peQUPR",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 645.0316261280534,
+			"y": 713.3960761970663,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 256.1799621582031,
+			"height": 24,
+			"seed": 1436702771,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [
+				{
+					"id": "vgWwoS7OXMEjMHByABnMc",
+					"type": "arrow"
+				}
+			],
+			"updated": 1709195390822,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 4,
+			"text": "执行完B之后，B和C一起回滚",
+			"rawText": "执行完B之后，B和C一起回滚",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "执行完B之后，B和C一起回滚",
+			"lineHeight": 1.2,
+			"baseline": 18
+		},
+		{
+			"type": "arrow",
+			"version": 272,
+			"versionNonce": 1739790323,
+			"isDeleted": true,
+			"id": "vgWwoS7OXMEjMHByABnMc",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 750.0315160433404,
+			"y": 665.5960884040976,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 15.878576073959039,
+			"height": 42.4000244140625,
+			"seed": 1252973011,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1709195391672,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "A1UAHR47",
+				"focus": -0.024503088454359823,
+				"gap": 4.20001220703125
+			},
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-15.878576073959039,
+					42.4000244140625
+				]
+			]
 		},
 		{
 			"type": "text",
@@ -4426,10 +4817,10 @@ B会加入到A的事务 ^A1UAHR47
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -402.01000031110493,
-		"scrollY": -234.72390306439775,
+		"scrollX": -583.4511767816932,
+		"scrollY": -189.74154985394847,
 		"zoom": {
-			"value": 1
+			"value": 0.8499999999999999
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
