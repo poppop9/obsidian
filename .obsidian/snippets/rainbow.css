@@ -738,7 +738,7 @@ h2::first-letter {
 }
 
 .theme-dark h2,
-.markdown-rendered h2 {
+.theme-dark .markdown-rendered h2 {
 	color: #3481c5;
 }
 
