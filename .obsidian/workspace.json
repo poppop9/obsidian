@@ -34,6 +34,16 @@
             }
           },
           {
+            "id": "44206d9cf7636459",
+            "type": "leaf",
+            "state": {
+              "type": "make-file-view",
+              "state": {
+                "path": "https://www.make.md/static/latest.md"
+              }
+            }
+          },
+          {
             "id": "ea5ec7dd16011e6b",
             "type": "leaf",
             "state": {
@@ -63,14 +73,12 @@
             "id": "196310dc34b93960",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/杂/草稿纸 Draw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -84,14 +92,6 @@
         "type": "tabs",
         "dimension": 64.68446601941747,
         "children": [
-          {
-            "id": "632b2e3e1356c50e",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
-          },
           {
             "id": "b5263ffa41a34bbc",
             "type": "leaf",
@@ -127,8 +127,17 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "3400ff4d25be42a6",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "82e190d91877a96e",
@@ -162,9 +171,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "临时笔记/摄影.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,9 +179,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "临时笔记/摄影.md"
-              }
+              "state": {}
             }
           },
           {
@@ -201,17 +206,17 @@
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
       "command-palette:打开命令面板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "remotely-save:Remotely Save": false
+      "remotely-save:Remotely Save": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "44206d9cf7636459",
   "lastOpenFiles": [
+    "临时笔记/摄影.md",
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/后端/Spring Security.md",
-    "临时笔记/摄影.md",
     "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md",
     "计算机/Docker.md",
     "临时笔记/🌏旅行.md",
