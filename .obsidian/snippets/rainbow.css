@@ -595,6 +595,10 @@ strong {
 	color: #004faa !important;
 }
 
+.theme-dark strong {
+	color: #3481c5 !important;
+}
+
 /* -------------------------------------------------------------------------- */
 /* 正文字体 */
 .markdown-source-view.mod-cm6 .cm-scroller {

@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/数据库/MySQL.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -206,9 +206,9 @@
   },
   "active": "ea5ec7dd16011e6b",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/未命名.md",
     "计算机/数据库/MySQL.md",
     "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
+    "计算机/JavaWeb/后端/SpringBoot/未命名.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/数据库/MYSQL安装配置.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
