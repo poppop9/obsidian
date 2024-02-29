@@ -36,7 +36,7 @@
 #complete
 #inprogress
 ```
-![image.png|169](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230807093415.png)
+![169](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230807093415.png)
 ## 挖空
 ```
 *~~你看不见我~~*
@@ -106,14 +106,6 @@ tag:问题
 > [!attention] 
 > 注意事项
 
-
->[!blank | nowrap]
->![](https://computerhistory.org/wp-content/uploads/2022/09/MS-121-scaled-325x184-c-default.jpg)
->![](https://user-images.githubusercontent.com/42957010/184835015-c7ab01ec-39a3-437b-9d41-69af0473588c.jpg)
->![](https://s1.ax1x.com/2022/05/18/OI7Io9.png)
->![](https://user-images.githubusercontent.com/42957010/184872220-f9b52079-8695-46a7-b517-0588426aa7b5.jpg)
->![](https://user-images.githubusercontent.com/42957010/165482534-f0ef2dd2-cf3a-4347-b141-e8bbae63566d.png)
-
 >[!done]
 
 >[!fail]
@@ -148,13 +140,6 @@ tag:问题
 >- 让文字环绕显示【打开阅读视图】
 
 环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕环绕
-
-### 自动隐藏
->[!hibox]
->你看不见我
-### 模糊显示
->[!cloze]
->模糊显示
 ### 伪看板
 > [!kanban]+ Callout看板
 >- [ ] 第一个菜单
@@ -171,13 +156,7 @@ tag:问题
 >- [ ] 2234444
 >- 555555
 >- 777777
-### 表格不换行
-> [!table|nowrap]+ callout表格
-> 
-| 表头1 | 表头2 | 表头3                      |
-|:----|:------------|:-------------|
-|**这是很长的表格内容通过添加nowrap属性实现表格不换行** |这是很长的表格内容看会不会自动换行| 这是很长的表格内容看会不会自动换行  |
-|这是很长的表格内容看会不会自动换行 这是很长的表格内容看会不会自动换行 这是很长的表格内容看会不会自动换行 |这是很长的表格内容看会不会自动换行 这是很长的表格内容看会不会自动换行 这是很长的表格内容看会不会自动换行|
+
 # 插件
 ***Better footnote***  阅读视图时，脚注可以鼠标悬浮显示
 
@@ -188,8 +167,6 @@ tag:问题
 ***Editing Toolbar***  悬浮的快捷编辑栏
 
 ***Excalidraw***
-
-***floating toc***  悬浮大纲
 
 ***Image auto upload Plugin***  图床
 
@@ -206,8 +183,6 @@ tag:问题
 ***Setting Search***  ob的原生搜素不全面，这个设置搜索好用
 
 ***Style Settings***  对于主题的css设置
-
-***Table Enhancer***  对于表格的快捷输入
 
 ***quiet outline*** 大纲
 

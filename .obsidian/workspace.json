@@ -26,20 +26,10 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/摄影.md",
-                "mode": "preview",
+                "file": "临时笔记/Obsidian特殊语法.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "44206d9cf7636459",
-            "type": "leaf",
-            "state": {
-              "type": "make-file-view",
-              "state": {
-                "path": "https://www.make.md/static/latest.md"
               }
             }
           },
@@ -78,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "临时笔记/Obsidian特殊语法.md"
+              }
             }
           },
           {
@@ -179,7 +171,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "临时笔记/Obsidian特殊语法.md"
+              }
             }
           },
           {
@@ -210,7 +204,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "44206d9cf7636459",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
     "临时笔记/摄影.md",
     "临时笔记/穿搭.md",
