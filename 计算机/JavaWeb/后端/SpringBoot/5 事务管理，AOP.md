@@ -74,6 +74,7 @@ public void workA (){
 		……异常
 		D
 	} finally {
+		// 此处一般用来记录日志
 		// 这个方法在B中加入了事务
 		B.workB();
 	}
@@ -82,7 +83,37 @@ public void workA (){
 
 ![900](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291632083.png)
 
-
 # AOP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
