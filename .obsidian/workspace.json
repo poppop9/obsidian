@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+                "file": "计算机/编程语言/Java/07 异常.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -67,8 +67,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
+                "file": "计算机/编程语言/Java/07 异常.md"
               }
             }
           },
@@ -172,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
+                "file": "计算机/编程语言/Java/07 异常.md"
               }
             }
           },
@@ -204,15 +203,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ea5ec7dd16011e6b",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+    "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/数据库/MySQL.md",
     "计算机/JavaWeb/后端/SpringBoot/未命名.md",
-    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
-    "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
     "计算机/数据库/MYSQL安装配置.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "临时笔记/Obsidian特殊语法.md",
