@@ -63,12 +63,14 @@
             "id": "196310dc34b93960",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -162,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -172,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -204,11 +206,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ea5ec7dd16011e6b",
+  "active": "196310dc34b93960",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
+    "计算机/JavaWeb/后端/Spring Security.md",
     "计算机/编程语言/Java/07 异常.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
-    "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
@@ -220,12 +224,10 @@
     "临时笔记/摄影.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "临时笔记/穿搭.md",
-    "计算机/JavaWeb/后端/Spring Security.md",
     "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md",
     "计算机/Docker.md",
     "临时笔记/🌏旅行.md",
     "临时笔记/MarkDown语法.md",
-    "Excalidraw/杂/草稿纸 Draw.md",
     "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "考试/软件测试.md",

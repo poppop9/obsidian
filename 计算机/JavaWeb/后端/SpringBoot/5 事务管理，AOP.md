@@ -48,7 +48,18 @@ public void DeleteDanceType(Integer id) {
 | NESTED             | 如果当前存在事务，则在嵌套事务内执行；如果没有，就新建一个事务        |
 
 ### REQUIRED
-
+```java
+@Transactional
+public void workA (){
+	try {
+		C
+		……异常
+	} finally {
+		// 这个方法在B中加入了事务
+		B.workB();
+	}
+}
+```
 
 
 

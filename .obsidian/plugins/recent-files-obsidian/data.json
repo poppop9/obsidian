@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "草稿纸 Draw",
+      "path": "Excalidraw/杂/草稿纸 Draw.md"
+    },
+    {
       "basename": "5 事务管理，AOP",
       "path": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
+    },
+    {
+      "basename": "Spring Security",
+      "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
     {
       "basename": "07 异常",
@@ -53,10 +61,6 @@
       "path": "临时笔记/穿搭.md"
     },
     {
-      "basename": "Spring Security",
-      "path": "计算机/JavaWeb/后端/Spring Security.md"
-    },
-    {
       "basename": "MyBatis Draw",
       "path": "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md"
     },
@@ -71,10 +75,6 @@
     {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
-    },
-    {
-      "basename": "草稿纸 Draw",
-      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "3 文件上云",
