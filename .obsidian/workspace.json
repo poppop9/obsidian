@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
-                "mode": "preview",
+                "file": "计算机/数据库/MYSQL安装配置.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+                "file": "计算机/数据库/MYSQL安装配置.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+                "file": "计算机/数据库/MYSQL安装配置.md"
               }
             }
           },
@@ -204,14 +204,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ea5ec7dd16011e6b",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
-    "临时笔记/Obsidian特殊语法.md",
+    "计算机/数据库/MySQL.md",
+    "计算机/数据库/MYSQL安装配置.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
+    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
+    "临时笔记/Obsidian特殊语法.md",
     "临时笔记/摄影.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "临时笔记/穿搭.md",
-    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/Spring Security.md",
     "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md",
     "计算机/Docker.md",
@@ -231,8 +233,6 @@
     "计算机/四大件/计算机网络2.md",
     "临时笔记/DDED.md",
     "图片库/Pasted Image 20240221115326_136.png",
-    "计算机/JavaWeb/前端/Vue/Vue 2.md",
-    "临时笔记/读心术.md",
     "计算机/JavaWeb/前端/BootStrap",
     "计算机/JavaWeb/前端/Vue",
     "计算机/JavaWeb/前端/HTML",
