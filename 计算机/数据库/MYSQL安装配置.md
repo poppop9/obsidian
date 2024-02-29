@@ -1,6 +1,6 @@
 ## 官网下载MySQL
 下载Mysql[点击下载mysql](https://dev.mysql.com/downloads/mysql/)
-![点击Download|700](https://img-blog.csdnimg.cn/2021052417324674.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)-
+![点击Download|700](https://img-blog.csdnimg.cn/2021052417324674.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 **下载完成后解压到某一个文件夹**（记住这个路径，一会要用到）
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210524173506685.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 ## 配置初始化文件my.ini
@@ -71,18 +71,18 @@ default-character-set=utf8mb4
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210531154902665.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210531155954575.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 ### 输入 show databases之后查看结果
-出现如下结果则**配置成功啦！**
+出现如下结果则**配置成功**
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210531160620941.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 ## 疑难杂病
-#### 执行mysqld --install mysql时提示该服务已存在
+### 执行mysqld --install mysql时提示该服务已存在
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525095818371.png)-
 就先删除该服务（使用以下代码）
 `sc delete mysql`
 然后在执行mysqld --install mysql
 
-#### cmd运行net start mysql发生系统错误193 *** 不是有效的 Win32 应用程序。
+### cmd运行net start mysql发生系统错误193 *** 不是有效的 Win32 应用程序。
 报错：
-发生系统错误193 *** 不是有效的 Win32 应用程序。
+发生系统错误193 *** 不是有效的 Win32 应用程序
 
 删除bin目录下0KB的mysqld文件
 
