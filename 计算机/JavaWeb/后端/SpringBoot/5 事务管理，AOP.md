@@ -54,6 +54,7 @@ public void workA (){
 	try {
 		C
 		……异常
+		D
 	} finally {
 		// 这个方法在B中加入了事务
 		B.workB();
@@ -61,7 +62,22 @@ public void workA (){
 }
 ```
 
+![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291623087.png)
 
+### REQUIRES_NEW
+```java
+@Transactional()
+public void workA (){
+	try {
+		C
+		……异常
+		D
+	} finally {
+		// 这个方法在B中加入了事务
+		B.workB();
+	}
+}
+```
 
 # AOP
 
