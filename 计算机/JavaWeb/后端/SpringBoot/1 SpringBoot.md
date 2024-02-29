@@ -860,6 +860,9 @@ public class Test2 {
 	}
 	```
 # 异常处理
+>通过定义<u>全局异常处理器</u>来统一处理三层架构抛出的异常
+
+- `@RestControllerAdvice` 
 ```java
 package com.example.exception;
 
