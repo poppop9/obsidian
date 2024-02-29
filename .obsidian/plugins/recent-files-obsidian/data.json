@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "5 事务管理，AOP",
+      "path": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
+    },
+    {
       "basename": "MySQL",
       "path": "计算机/数据库/MySQL.md"
+    },
+    {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
     {
       "basename": "MYSQL安装配置",
@@ -11,10 +19,6 @@
     {
       "basename": "1 CSS初级",
       "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
     {
       "basename": "Obsidian特殊语法",
@@ -195,10 +199,6 @@
     {
       "basename": "虚拟化CPU",
       "path": "计算机/四大件/操作系统/虚拟化/虚拟化CPU.md"
-    },
-    {
-      "basename": "虚拟化内存",
-      "path": "计算机/四大件/操作系统/虚拟化/虚拟化内存.md"
     }
   ],
   "omittedPaths": [],
