@@ -1,14 +1,13 @@
 # 基本概念
 >Spring是一个开发生态圈，它提供了若干个子项目，用于完成特定功能
->![700](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291445627.png)
-
+>![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291445627.png)
 
 # 准备工作
 ## 创建Spring项目
 - 创建Spring模块
 	- 勾选Web开发相关依赖
-	![[JavaWeb Draw#^group=dMXiaySV]]
-	![[JavaWeb Draw#^group=qCHuJWbK]]
+	![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291445346.png)	![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291446733.png)
+
 ## 目录结构
 - `.mvn` - Maven wrapper文件
 - `src` - 源码目录
@@ -32,13 +31,14 @@
 >Tomcat是一款轻量级的Web服务器
 
 SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已经***内置了Tomcat***，当启动类运行时，会自动运行Tomcat服务器
-![[JavaWeb Draw#^group=yrp52Usr]]
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291447345.png)
+
 
 # 请求，响应，分层解耦
-![[JavaWeb Draw#^group=tMdaT5BlcDIqJIyPd8ixX|770]]
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291447633.png)
+
 ## 请求
->***Apifox***
->Apifox是一款 API设计/开发/测试工具
+>使用 <u>Apifox</u>【API设计/开发/测试工具】
 
 `RequestMapping`的子集：
 - `@GetMapping`  限定路径的请求方式只能是 HTTP GET
