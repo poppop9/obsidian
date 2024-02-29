@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "摄影",
+      "path": "临时笔记/摄影.md"
+    },
+    {
       "basename": "Obsidian特殊语法",
       "path": "临时笔记/Obsidian特殊语法.md"
     },
     {
-      "basename": "摄影",
-      "path": "临时笔记/摄影.md"
+      "basename": "2 MyBatis",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
     },
     {
       "basename": "穿搭",
@@ -15,10 +19,6 @@
     {
       "basename": "1 SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
-    },
-    {
-      "basename": "2 MyBatis",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
     },
     {
       "basename": "Spring Security",
