@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -67,7 +67,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/07 异常.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
               }
             }
           },
@@ -171,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/07 异常.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
               }
             }
           },
@@ -203,8 +204,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "ea5ec7dd16011e6b",
   "lastOpenFiles": [
+    "计算机/编程语言/Java/07 异常.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
@@ -230,7 +232,6 @@
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "Excalidraw/计算机/Docker Draw.md",
     "Excalidraw/杂/杂 Draw.md",
-    "临时笔记/草稿纸.md",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
     "计算机/JavaWeb/前端/Vue",

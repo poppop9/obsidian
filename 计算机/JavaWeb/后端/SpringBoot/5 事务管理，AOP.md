@@ -23,4 +23,15 @@ public class DancerService implements com.example.service.DancerService {
 }
 ```
 
+## rollbackFor
+>事务管理默认只在 `RuntimeException运行时异常` 出现时才事务回滚，我们可以使用 `rollbackFor属性` 用来指定什么异常需要回滚
+
+```java
+@Override
+@Transactional(rollbackFor = Exception.class)  // 此处指定所有异常都回滚
+public void DeleteDanceType(Integer id) {
+	……
+}
+```
+
 # AOP
