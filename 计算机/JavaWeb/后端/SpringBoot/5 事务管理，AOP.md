@@ -66,7 +66,7 @@ public void workA (){
 
 ### REQUIRES_NEW
 ```java
-@Transactional()
+@Transactional(propagation = Propagation.REQUIRES_NEW)
 public void workA (){
 	try {
 		C
@@ -78,6 +78,8 @@ public void workA (){
 	}
 }
 ```
+
+
 
 # AOP
 
