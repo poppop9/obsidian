@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
               }
             }
           },
@@ -204,8 +204,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "ea5ec7dd16011e6b",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/数据库/MySQL.md",
@@ -224,7 +225,6 @@
     "临时笔记/🌏旅行.md",
     "临时笔记/MarkDown语法.md",
     "Excalidraw/杂/草稿纸 Draw.md",
-    "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "考试/软件测试.md",

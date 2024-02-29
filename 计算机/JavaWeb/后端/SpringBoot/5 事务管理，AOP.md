@@ -5,6 +5,22 @@
 
 >[!warning] 事务管理一般添加在 `Service逻辑层`，用于处理多个数据操作
 
+```java
+@Service
+public class DancerService implements com.example.service.DancerService {
+    @Autowired
+    private DancerMapper DancerMapper;
 
+    @Override
+    @Transactional
+    public void DeleteDanceType(Integer id) {
+	    // 删除舞种表
+        DancerMapper.DeleteDanceType(id);  
+        // 可能出现异常
+        // 删除对应舞种的舞者
+        DancerMapper.DeleteDancer(id);
+    }
+}
+```
 
 # AOP
