@@ -588,7 +588,7 @@ del {
 }
 
 .theme-dark .cm-strong {
-	color: #004faa !important;
+	color: #3481c5 !important;
 }
 
 strong {
@@ -693,7 +693,6 @@ div.HyperMD-header.HyperMD-header-2.cm-line {
 	margin-bottom: 0 !important;
 }
 
-
 span.cm-header.cm-header-2 {
 	color: #004faa;
 	font-weight: bold;
@@ -706,6 +705,14 @@ span.cm-header.cm-header-2 {
 span.cm-header.cm-header-2::first-letter {
 	font-size: 3.4rem !important;
 	letter-spacing: -0.03em;
+}
+
+/* .theme-dark span.cm-header.cm-header-2 {
+	text-shadow: 3px 2px 0.1rem #ededed, -2px -2px 0.1rem #ededed;
+} */
+
+.theme-dark span.cm-header.cm-header-2 {
+	color: #3481c5;
 }
 
 h2,
@@ -726,6 +733,10 @@ h2::first-letter {
 	letter-spacing: -0.03em;
 }
 
+.theme-dark h2,
+.markdown-rendered h2 {
+	color: #3481c5;
+}
 
 .markdown-rendered div:has(> :is(p, pre, table, ul, ol))+div> :is(h2) {
 	margin-top: 1rem !important;
