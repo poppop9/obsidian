@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
+                "file": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
+                "file": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
+                "file": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
               }
             }
           },
@@ -207,6 +207,8 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
+    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/编程语言/Java/07 异常.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
@@ -221,7 +223,6 @@
     "计算机/数据库/MySQL.md",
     "计算机/JavaWeb/后端/SpringBoot/未命名.md",
     "计算机/数据库/MYSQL安装配置.md",
-    "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/摄影.md",
     "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md",
@@ -232,7 +233,6 @@
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "考试/软件测试.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
-    "Excalidraw/计算机/Docker Draw.md",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
     "计算机/JavaWeb/前端/Vue",

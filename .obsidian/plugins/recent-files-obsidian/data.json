@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1 HTML 初级",
+      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
+    },
+    {
+      "basename": "1 CSS初级",
+      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+    },
+    {
       "basename": "2 CSS中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
@@ -55,10 +63,6 @@
     {
       "basename": "MYSQL安装配置",
       "path": "计算机/数据库/MYSQL安装配置.md"
-    },
-    {
-      "basename": "1 CSS初级",
-      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
     },
     {
       "basename": "Obsidian特殊语法",
@@ -127,10 +131,6 @@
     {
       "basename": "健康",
       "path": "临时笔记/健康.md"
-    },
-    {
-      "basename": "1 HTML 初级",
-      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
     },
     {
       "basename": "4 Axios",
