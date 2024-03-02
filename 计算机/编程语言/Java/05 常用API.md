@@ -1,3 +1,8 @@
+# Random
+```java
+Random r = new Random();
+int number = r.nextInt(10);   //代表的数据范围是0-9
+```
 
 # Arrays
 ```

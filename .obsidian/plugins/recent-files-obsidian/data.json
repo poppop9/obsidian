@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "08 常用API",
-      "path": "计算机/编程语言/Java/08 常用API.md"
-    },
-    {
-      "basename": "05 随机数",
-      "path": "计算机/编程语言/Java/05 随机数.md"
-    },
-    {
       "basename": "04 Java的基础语法2",
       "path": "计算机/编程语言/Java/04 Java的基础语法2.md"
     },
     {
       "basename": "03 Java的基础语法1",
       "path": "计算机/编程语言/Java/03 Java的基础语法1.md"
+    },
+    {
+      "basename": "配置",
+      "path": "计算机/编程语言/Java/配置.md"
+    },
+    {
+      "basename": "05 常用API",
+      "path": "计算机/编程语言/Java/05 常用API.md"
     },
     {
       "basename": "01 idea",
@@ -25,12 +25,8 @@
       "path": "计算机/编程语言/Java/02 Java的理论知识.md"
     },
     {
-      "basename": "配置",
-      "path": "计算机/编程语言/Java/配置.md"
-    },
-    {
-      "basename": "14 Java 8 新特性",
-      "path": "计算机/编程语言/Java/14 Java 8 新特性.md"
+      "basename": "13 Java 8 新特性",
+      "path": "计算机/编程语言/Java/13 Java 8 新特性.md"
     },
     {
       "basename": "5 事务管理，AOP",
