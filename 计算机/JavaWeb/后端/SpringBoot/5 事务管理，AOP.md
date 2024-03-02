@@ -84,6 +84,9 @@ public void workA (){
 ![900](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291632083.png)
 
 # AOP
+## 作用
+>当你想操作项目中的所有方法
+
 ## 引入依赖
 ```xml
 
