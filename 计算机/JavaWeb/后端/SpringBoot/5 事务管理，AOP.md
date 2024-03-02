@@ -109,7 +109,7 @@ public void workA (){
 >- `execution((方法修饰符) 返回值 包名.类名.方法名(方法参数) (throws 异常))`
 >	- `*` 可以通配任意类型的一个参数，`execution(* 包名.类名.update*(*)` 匹配任意返回值的，指定包名类名下，以 `update` 开头的只能有一个任意类型参数的方法
 >	- `..` 通配任意数量的任意类型参数，`execution(* com..类名.update(..)` 匹配任意返回值的，com包下任意层级的指定类名的 `update(..)` 方法
->- `@annotation(……)` ***用于biao'shi
+>- `@annotation(……)` ***用于标识带有特定注解的方法***
 ><br/>
 >>[!hint] 切入点的表达式尽量基于接口描述
 
