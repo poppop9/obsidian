@@ -86,13 +86,43 @@ public void workA (){
 >[!hint] 事务管理 的底层就是 AOP
 
 # AOP
->AOP 是面向切面编程
+>AOP 是面向切面编程。当你想操作项目中的所有方法时【比如<u>计算各个方法的耗时</u>，<u>记录方法的参数，返回值</u>，<u>权限控制</u>】，你可以不用一个一个添加，而是可以在 AOP 中统一管理
 
-当你想操作项目中的所有方法时【比如<u>计算各个方法的耗时</u>，<u>记录方法的参数，返回值</u>，<u>权限控制</u>】，你可以不用一个一个添加，而是可以在 AOP 中统一管理
-
+- 代码无侵入【无需修改原有代码，就可以增强功能】
+- 维护方便
+- 减少重复代码
 
 ## 引入依赖
 ```xml
+<dependency>  
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-starter-aop</artifactId>  
+</dependency>
+```
+
+## 计算各个方法的耗时
+- 创建 aop包，aop类【`Component`，`Aspect`】
+```java
+package com.example.spring_aop.aop;
+
+@Component  // 交给IOC容器管理
+@Aspect    // 声明为aop类
+public class TimeAspect {
+    @Around("execution(* com.example.spring_aop.controller.*.*(..))")
+    public Object recordTime(ProceedingJoinPoint joinPoint) throws Throwable {
+        // 记录开始时间
+        long start = System.currentTimeMillis();
+
+        // 调用原始方法
+        Object proceed = joinPoint.proceed();
+
+        // 记录结束时间，计算耗时
+        long end = System.currentTimeMillis();
+        System.out.println(joinPoint.getSignature() + "耗时：" + (end - start) + "ms");
+
+        return proceed;
+    }
+}
 
 ```
 
