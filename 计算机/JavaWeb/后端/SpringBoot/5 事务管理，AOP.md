@@ -100,6 +100,18 @@ public void workA (){
 </dependency>
 ```
 
+## 概念
+>[!quote]
+
+
+
+- 连接点
+- 通知
+- 切入点
+- 切面
+- 目标对象
+
+
 ## 计算各个方法的耗时
 - 创建 aop包，aop类【`Component`，`Aspect`，`Around`】
 ```java
