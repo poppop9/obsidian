@@ -104,8 +104,8 @@ public void workA (){
 >>被 AOP 声明为要控制的方法
 >
 >表达式：
->- `execution(……)`
->- 
+>- `execution((方法修饰符) 返回值 包名.类名.方法名(方法参数) (throws 异常))`
+>- `@annotation(……)`
 
 >[!quote] 目标对象 Target
 >某个对象里有方法被 AOP 声明为要控制了，那这个对象就是目标对象
