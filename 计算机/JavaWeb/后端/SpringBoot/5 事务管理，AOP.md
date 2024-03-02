@@ -101,19 +101,20 @@ public void workA (){
 ```
 
 ## 计算各个方法的耗时
-- 创建 aop包，aop类【`Component`，`Aspect`】
+- 创建 aop包，aop类【`Component`，`Aspect`，`Around`】
 ```java
 package com.example.spring_aop.aop;
 
 @Component  // 交给IOC容器管理
 @Aspect    // 声明为aop类
 public class TimeAspect {
+	// 拦截 com.example.spring_aop.controller 包下的所有类的所有方法，并且这些方法可以有任意数量的参数（..），且方法的返回值可以任意（*）
     @Around("execution(* com.example.spring_aop.controller.*.*(..))")
     public Object recordTime(ProceedingJoinPoint joinPoint) throws Throwable {
         // 记录开始时间
         long start = System.currentTimeMillis();
 
-        // 调用原始方法
+        // 调用原始方法，比如调用 re'c
         Object proceed = joinPoint.proceed();
 
         // 记录结束时间，计算耗时
