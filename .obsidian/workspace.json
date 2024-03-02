@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
-                "mode": "source",
+                "file": "计算机/编程语言/Java/03 Java的基础语法1.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
+                "file": "计算机/编程语言/Java/03 Java的基础语法1.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
+                "file": "计算机/编程语言/Java/03 Java的基础语法1.md"
               }
             }
           },
@@ -208,8 +208,13 @@
   },
   "active": "ea5ec7dd16011e6b",
   "lastOpenFiles": [
-    "Excalidraw/杂/草稿纸 Draw.md",
+    "计算机/编程语言/Java/02 Java的理论知识.md",
+    "计算机/编程语言/Java/03 Java的基础语法1.md",
+    "计算机/编程语言/Java/01 idea.md",
+    "计算机/编程语言/Java/配置.md",
+    "计算机/编程语言/Java/14 Java 8 新特性.md",
     "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
+    "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/后端/Spring Security.md",
@@ -229,11 +234,6 @@
     "临时笔记/摄影.md",
     "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md",
     "计算机/Docker.md",
-    "临时笔记/🌏旅行.md",
-    "临时笔记/MarkDown语法.md",
-    "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
-    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
-    "考试/软件测试.md",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
     "计算机/JavaWeb/前端/Vue",

@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "03 Java的基础语法1",
+      "path": "计算机/编程语言/Java/03 Java的基础语法1.md"
+    },
+    {
+      "basename": "02 Java的理论知识",
+      "path": "计算机/编程语言/Java/02 Java的理论知识.md"
+    },
+    {
+      "basename": "01 idea",
+      "path": "计算机/编程语言/Java/01 idea.md"
+    },
+    {
+      "basename": "配置",
+      "path": "计算机/编程语言/Java/配置.md"
+    },
+    {
+      "basename": "14 Java 8 新特性",
+      "path": "计算机/编程语言/Java/14 Java 8 新特性.md"
+    },
+    {
       "basename": "5 事务管理，AOP",
       "path": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
     },
@@ -141,10 +161,6 @@
       "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
     },
     {
-      "basename": "14 Java 8 新特性",
-      "path": "计算机/编程语言/Java/14 Java 8 新特性.md"
-    },
-    {
       "basename": "Svelte",
       "path": "计算机/JavaWeb/前端/Svelte.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Obsidian笔记编写规范",
       "path": "临时笔记/Obsidian笔记编写规范.md"
-    },
-    {
-      "basename": "软件",
-      "path": "科技美学/软件.md"
-    },
-    {
-      "basename": "Surge 5",
-      "path": "科技美学/Surge 5.md"
-    },
-    {
-      "basename": "JSP复习",
-      "path": "考试/JSP复习.md"
-    },
-    {
-      "basename": "试打印",
-      "path": "考试/试打印.md"
     }
   ],
   "omittedPaths": [],
