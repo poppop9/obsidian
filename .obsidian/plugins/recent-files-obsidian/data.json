@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "03 Java的基础语法1",
-      "path": "计算机/编程语言/Java/03 Java的基础语法1.md"
+      "basename": "08 常用API",
+      "path": "计算机/编程语言/Java/08 常用API.md"
+    },
+    {
+      "basename": "05 随机数",
+      "path": "计算机/编程语言/Java/05 随机数.md"
     },
     {
       "basename": "04 Java的基础语法2",
       "path": "计算机/编程语言/Java/04 Java的基础语法2.md"
+    },
+    {
+      "basename": "03 Java的基础语法1",
+      "path": "计算机/编程语言/Java/03 Java的基础语法1.md"
     },
     {
       "basename": "01 idea",
@@ -191,14 +199,6 @@
     {
       "basename": "2 基础Ⅱ",
       "path": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md"
-    },
-    {
-      "basename": "2 HTML 中级",
-      "path": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
-    },
-    {
-      "basename": "操作系统考试",
-      "path": "考试/操作系统考试.md"
     }
   ],
   "omittedPaths": [],

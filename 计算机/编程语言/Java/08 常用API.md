@@ -1,4 +1,4 @@
-#计算机/编程语言/Java 
+
 # Arrays
 ```
 public class Arrays extends Object
