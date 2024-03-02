@@ -5,12 +5,16 @@
       "path": "计算机/编程语言/Java/03 Java的基础语法1.md"
     },
     {
-      "basename": "02 Java的理论知识",
-      "path": "计算机/编程语言/Java/02 Java的理论知识.md"
+      "basename": "04 Java的基础语法2",
+      "path": "计算机/编程语言/Java/04 Java的基础语法2.md"
     },
     {
       "basename": "01 idea",
       "path": "计算机/编程语言/Java/01 idea.md"
+    },
+    {
+      "basename": "02 Java的理论知识",
+      "path": "计算机/编程语言/Java/02 Java的理论知识.md"
     },
     {
       "basename": "配置",
@@ -195,10 +199,6 @@
     {
       "basename": "操作系统考试",
       "path": "考试/操作系统考试.md"
-    },
-    {
-      "basename": "Obsidian笔记编写规范",
-      "path": "临时笔记/Obsidian笔记编写规范.md"
     }
   ],
   "omittedPaths": [],

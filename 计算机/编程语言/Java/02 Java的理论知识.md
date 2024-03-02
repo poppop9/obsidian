@@ -1,4 +1,3 @@
-#计算机/编程语言/Java 
 # JRE
 >java runtime environment，是java程序运行的环境
 

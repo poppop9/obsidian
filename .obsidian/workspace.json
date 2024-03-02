@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/编程语言/Java/03 Java的基础语法1.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -208,9 +208,10 @@
   },
   "active": "ea5ec7dd16011e6b",
   "lastOpenFiles": [
-    "计算机/编程语言/Java/02 Java的理论知识.md",
+    "计算机/编程语言/Java/04 Java的基础语法2.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",
     "计算机/编程语言/Java/01 idea.md",
+    "计算机/编程语言/Java/02 Java的理论知识.md",
     "计算机/编程语言/Java/配置.md",
     "计算机/编程语言/Java/14 Java 8 新特性.md",
     "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
@@ -233,7 +234,6 @@
     "临时笔记/Obsidian特殊语法.md",
     "临时笔记/摄影.md",
     "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md",
-    "计算机/Docker.md",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
     "计算机/JavaWeb/前端/Vue",
