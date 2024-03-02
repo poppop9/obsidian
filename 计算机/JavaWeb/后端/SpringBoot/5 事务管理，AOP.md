@@ -113,8 +113,8 @@ public void workA (){
 >- `@Around` 围绕目标方法执行，通知方法在目标方法的前，后都执行
 >- `@Before` 在目标方法执行之前执行
 >- `@AfterReturning` 在目标方法正常完成后执行
->- `@After` 无论目标方法如何结束，都将执行
->- `@AfterThrowing` 在目标方法抛出异常后执行
+>- `@After` 在目标方法完成后执行，无论是否发生异常
+>- `@AfterThrowing` 在目标方法抛出异常后才会执行
 
 >[!quote] 切面 Aspect
 >切面 = 切入点 + 通知
