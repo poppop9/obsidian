@@ -129,6 +129,9 @@ public void workA (){
 </dependency>
 ```
 
+## 通知顺序
+当多个切面类中的切入点相同时，<u>默认：在 `Before`</u>
+
 ## 例子
 ### 计算各个方法的耗时
 - 创建 aop包，aop类【`Component`，`Aspect`，`Around`】
