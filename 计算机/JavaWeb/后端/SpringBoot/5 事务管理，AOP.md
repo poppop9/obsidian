@@ -110,7 +110,7 @@ public void workA (){
 >也就是具体的工作内容，要从切入点怎么切入，也就是切面类中定义的方法内容
 >
 >通知的类型有 <u>5</u> 种：
->- `@Around` 围绕目标方法执行，通知方法在目标方法的前，后都执行
+>- `@Around` 围绕目标方法执行，通知方法在目标方法的前，后都执行。***必须
 >- `@Before` 在目标方法执行之前执行
 >- `@AfterReturning` 在目标方法正常完成后执行
 >- `@After` 在目标方法完成后执行，无论是否发生异常
@@ -138,7 +138,7 @@ package com.example.spring_aop.aop;
 public class TimeAspect {
 	// 拦截 com.example.spring_aop.controller 包下的所有类的所有方法，并且这些方法可以有任意数量的参数（..），且方法的返回值可以任意（*）
     @Around("execution(* com.example.spring_aop.controller.*.*(..))")
-    // 原始方法执行可能有返回值
+    // 原始方法执行可能有返回值，所以定义返回值为Object
     public Object recordTime(ProceedingJoinPoint joinPoint) throws Throwable {
         // 记录开始时间
         long start = System.currentTimeMillis();
@@ -169,6 +169,12 @@ public class NameAspect {
     }
 }
 ```
+
+
+
+
+
+
 
 
 
