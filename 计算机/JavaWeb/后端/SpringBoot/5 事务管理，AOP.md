@@ -92,6 +92,27 @@ public void workA (){
 - 维护方便
 - 减少重复代码
 
+>[!hint] 当某个方法被 AOP 控制后，将不再运行原始目标对象，而是会生成一个基于原始目标对象的<u>动态代理对象</u>【】
+
+
+## 概念
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403021349901.png)
+
+>[!quote] 连接点 JoinPoint
+>可以被 AOP 控制的所有方法
+
+>[!quote] 切入点 PointCut
+>被 AOP 声明为要控制的方法
+
+>[!quote] 目标对象 Target
+>某个对象里有方法被 AOP 声明为要控制了，那这个对象就是目标对象
+
+>[!quote] 通知 Advice
+>也就是具体的工作内容，要从切入点怎么切入，也就是切面类中定义的方法内容
+
+>[!quote] 切面 Aspect
+>切面 = 切入点 + 通知
+
 ## 引入依赖
 ```xml
 <dependency>  
@@ -99,27 +120,6 @@ public void workA (){
     <artifactId>spring-boot-starter-aop</artifactId>  
 </dependency>
 ```
-
-## 概念
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403021349901.png)
-
->[!quote] 连接点
->可以被 AOP 控制的所有方法
-
->[!quote] 切入点
->被 AOP 声明为要控制的方法
-
->[!quote] 目标对象
->某个对象里有方法被 AOP 声明为要控制了，那这个对象就是目标对象
-
->[!quote] 通知
->也就是具体的工作内容，要从切入点怎么切入，也就是切面类中定义的方法内容
-
->[!quote] 切面
->切面 = 切入点 + 通知
-
-
-
 
 ## 计算各个方法的耗时
 - 创建 aop包，aop类【`Component`，`Aspect`，`Around`】
