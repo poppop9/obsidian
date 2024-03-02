@@ -92,8 +92,7 @@ public void workA (){
 - 维护方便
 - 减少重复代码
 
->[!hint] 当某个方法被 AOP 控制后，将不再运行原始目标对象，而是会生成一个基于原始目标对象的<u>动态代理对象</u>【】
-
+>[!hint] 当某个方法被 AOP 控制后，将不再运行原始目标对象，而是会生成一个基于原始目标对象的<u>动态代理对象</u>【这个对象中会自动加入 AOP 增强后的功能】
 
 ## 概念
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403021349901.png)
@@ -109,6 +108,13 @@ public void workA (){
 
 >[!quote] 通知 Advice
 >也就是具体的工作内容，要从切入点怎么切入，也就是切面类中定义的方法内容
+>
+>通知的类型有 5 种：
+>- `@Around` 围绕目标方法执行，通知方法在目标方法的前，后都执行
+>- `@Before` 在目标方法执行之前执行
+>- `@After` 
+>- `@AfterReturning` 
+>- `@AfterThrowing` 
 
 >[!quote] 切面 Aspect
 >切面 = 切入点 + 通知
