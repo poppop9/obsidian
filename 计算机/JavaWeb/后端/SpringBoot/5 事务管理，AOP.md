@@ -114,7 +114,7 @@ public class TimeAspect {
         // 记录开始时间
         long start = System.currentTimeMillis();
 
-        // 调用原始方法，比如调用 re'c
+        // 调用原始方法，比如调用recordTime()的是A方法，那么joinPoint.proceed()就是A方法
         Object proceed = joinPoint.proceed();
 
         // 记录结束时间，计算耗时
@@ -124,7 +124,6 @@ public class TimeAspect {
         return proceed;
     }
 }
-
 ```
 
 
