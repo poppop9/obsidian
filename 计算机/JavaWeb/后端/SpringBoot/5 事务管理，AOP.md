@@ -109,12 +109,12 @@ public void workA (){
 >[!quote] 通知 Advice
 >也就是具体的工作内容，要从切入点怎么切入，也就是切面类中定义的方法内容
 >
->通知的类型有 5 种：
+>通知的类型有 <u>5</u> 种：
 >- `@Around` 围绕目标方法执行，通知方法在目标方法的前，后都执行
 >- `@Before` 在目标方法执行之前执行
->- `@After` 
->- `@AfterReturning` 
->- `@AfterThrowing` 
+>- `@AfterReturning` 在目标方法正常完成后执行
+>- `@After` 无论目标方法如何结束，都将执行
+>- `@AfterThrowing` 在目标方法抛出异常后执行
 
 >[!quote] 切面 Aspect
 >切面 = 切入点 + 通知
