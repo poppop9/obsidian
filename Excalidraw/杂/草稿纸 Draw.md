@@ -4201,6 +4201,106 @@ B会加入到A的事务 ^fIP2GLWA
 			"endArrowhead": "arrow"
 		},
 		{
+			"id": "Q64wgXeZ8tNVLN2to_qJB",
+			"type": "ellipse",
+			"x": 863.1983340569263,
+			"y": 958.1515913988096,
+			"width": 494.4000244140625,
+			"height": 164.00000000000009,
+			"angle": 6.048394463781195,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"pslTt7RBhcHHRh1OAXB0r"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 771320445,
+			"version": 261,
+			"versionNonce": 823581213,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709358109556,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "TQZY16ARAlVsdYR7cRMGG",
+			"type": "line",
+			"x": 867.9983218498951,
+			"y": 1092.5516158128721,
+			"width": 515.2000122070312,
+			"height": 303.1999816894531,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"pslTt7RBhcHHRh1OAXB0r"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 790850611,
+			"version": 328,
+			"versionNonce": 416255613,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709358109556,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					21.60003662109375,
+					98.4000244140625
+				],
+				[
+					220.800048828125,
+					188.79998779296875
+				],
+				[
+					404,
+					160
+				],
+				[
+					505.60003662109375,
+					79.20001220703125
+				],
+				[
+					515.2000122070312,
+					-5.600006103515625
+				],
+				[
+					484.00006103515625,
+					-114.39999389648438
+				]
+			],
+			"lastCommittedPoint": [
+				484.00006103515625,
+				-114.39999389648438
+			],
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": null
+		},
+		{
 			"type": "text",
 			"version": 157,
 			"versionNonce": 1922984861,
@@ -4817,10 +4917,10 @@ B会加入到A的事务 ^fIP2GLWA
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -583.4511767816932,
-		"scrollY": -189.74154985394847,
+		"scrollX": -580.8982852288013,
+		"scrollY": -677.0516081834776,
 		"zoom": {
-			"value": 0.8499999999999999
+			"value": 1
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
