@@ -127,7 +127,8 @@ public void workA (){
 </dependency>
 ```
 
-## 计算各个方法的耗时
+## 例子
+### 计算各个方法的耗时
 - 创建 aop包，aop类【`Component`，`Aspect`，`Around`】
 ```java
 package com.example.spring_aop.aop;
@@ -137,6 +138,7 @@ package com.example.spring_aop.aop;
 public class TimeAspect {
 	// 拦截 com.example.spring_aop.controller 包下的所有类的所有方法，并且这些方法可以有任意数量的参数（..），且方法的返回值可以任意（*）
     @Around("execution(* com.example.spring_aop.controller.*.*(..))")
+    // 原始方法执行可能有返回值
     public Object recordTime(ProceedingJoinPoint joinPoint) throws Throwable {
         // 记录开始时间
         long start = System.currentTimeMillis();
@@ -153,11 +155,20 @@ public class TimeAspect {
 }
 ```
 
+### 在各个方法运行结束，打印方法名
+```java
+package com.example.spring_aop.aop;
 
-
-
-
-
+@Component
+@Aspect
+public class NameAspect {
+    @AfterReturning("execution(* com.example.spring_aop.controller.*.*(..))")
+    // 获取到连接点对象
+    public void AfterReturning(JoinPoint joinPoint) throws Throwable {
+        System.out.println(joinPoint.getSignature().getName());
+    }
+}
+```
 
 
 
