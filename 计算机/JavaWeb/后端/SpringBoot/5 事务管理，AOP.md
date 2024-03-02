@@ -130,7 +130,19 @@ public void workA (){
 ```
 
 ## 通知顺序
-当多个切面类中的切入点相同时，<u>默认：在 `Before`</u>
+当多个切面类中的切入点相同时，<u>默认</u>：在 `Before` 通知类型时优先执行类名靠前的 AOP 类；在 `After` 通知类型时，优先执行类名靠后的 AOP 类
+
+### 自定义通知顺序
+>在 AOP 类前加上 `@Order(*)` 注解，***数字越小，`Before` 通知类型越先执行，`After` 通知类型越后执行***
+
+```java
+@Component  // 交给IOC容器管理
+@Aspect    // 声明为aop类
+@Order(3) 
+public class TimeAspect {
+	……
+}
+```
 
 ## 例子
 ### 计算各个方法的耗时
