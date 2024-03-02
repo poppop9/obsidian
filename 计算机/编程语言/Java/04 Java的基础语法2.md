@@ -184,14 +184,12 @@ System.out.println(arr);          //会输出一个内存地址
 System.out.println(arr[0]);      //通过索引，访问数组元素
 ```
 
-
-## 多个数组指向相同
-```java
-int arr1[] = new int[3];      //假设arr1的内存地址为001
-int arr2[] = arr1;            //那么arr2的内存地址也为001
-```
->如果修改arr2的元素值，arr1的元素值也会相应改变
-
+>[!hint] 多个数组指向相同
+>>如果修改arr2的元素值，arr1的元素值也会相应改变
+> ```java
+> int arr1[] = new int[3];      //假设arr1的内存地址为001
+> int arr2[] = arr1;            //那么arr2的内存地址也为001
+> ```
 
 # 字符串
 >是一种特殊的数据类型，不属于基本数类
