@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/05 常用API.md",
+                "file": "计算机/编程语言/Java/09 类与对象.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/05 常用API.md"
+                "file": "计算机/编程语言/Java/09 类与对象.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/05 常用API.md"
+                "file": "计算机/编程语言/Java/09 类与对象.md"
               }
             }
           },
@@ -208,10 +208,12 @@
   },
   "active": "ea5ec7dd16011e6b",
   "lastOpenFiles": [
+    "计算机/编程语言/Java/06 集合.md",
+    "计算机/编程语言/Java/05 常用API.md",
     "计算机/编程语言/Java/04 Java的基础语法2.md",
+    "Excalidraw/计算机/编程语言/Java/Java的基础语法2 Draw.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",
     "计算机/编程语言/Java/配置.md",
-    "计算机/编程语言/Java/05 常用API.md",
     "计算机/编程语言/Java/05 随机数.md",
     "计算机/编程语言/Java/01 idea.md",
     "计算机/编程语言/Java/02 Java的理论知识.md",
@@ -232,8 +234,6 @@
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/数据库/MySQL.md",
     "计算机/JavaWeb/后端/SpringBoot/未命名.md",
-    "计算机/数据库/MYSQL安装配置.md",
-    "临时笔记/Obsidian特殊语法.md",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
     "计算机/JavaWeb/前端/Vue",
