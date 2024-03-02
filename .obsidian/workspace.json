@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/09 类与对象.md",
-                "mode": "source",
+                "file": "计算机/编程语言/Java/08 修饰符.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/09 类与对象.md"
+                "file": "计算机/编程语言/Java/08 修饰符.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/09 类与对象.md"
+                "file": "计算机/编程语言/Java/08 修饰符.md"
               }
             }
           },
@@ -208,6 +208,7 @@
   },
   "active": "ea5ec7dd16011e6b",
   "lastOpenFiles": [
+    "计算机/编程语言/Java/09 类与对象.md",
     "计算机/编程语言/Java/06 集合.md",
     "计算机/编程语言/Java/05 常用API.md",
     "计算机/编程语言/Java/04 Java的基础语法2.md",
@@ -233,7 +234,6 @@
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/数据库/MySQL.md",
-    "计算机/JavaWeb/后端/SpringBoot/未命名.md",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
     "计算机/JavaWeb/前端/Vue",
