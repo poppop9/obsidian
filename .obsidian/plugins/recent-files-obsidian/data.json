@@ -5,16 +5,20 @@
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
     },
     {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+    },
+    {
+      "basename": "Dance",
+      "path": "临时笔记/Dance.md"
+    },
+    {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
     {
       "basename": "5 事务管理，AOP",
@@ -27,10 +31,6 @@
     {
       "basename": "07 异常",
       "path": "计算机/编程语言/Java/07 异常.md"
-    },
-    {
-      "basename": "Dance",
-      "path": "临时笔记/Dance.md"
     },
     {
       "basename": "1 HTML 初级",
