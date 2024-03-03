@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
+      "basename": "JavaWeb Draw",
+      "path": "Excalidraw/计算机/JavaWeb Draw.md"
+    },
+    {
       "basename": "SpringBoot 原理",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
     },
@@ -107,10 +111,6 @@
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
       "basename": "MySQL",

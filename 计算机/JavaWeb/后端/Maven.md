@@ -43,18 +43,20 @@
 ## 在idea中安装
 ### 配置单个项目
 - 设置-构建-构建工具-Maven
-![[JavaWeb Draw#^group=nbor17Ei|780]]
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031421719.png)
 - 设置-构建-构建工具-Maven-runner
 查看jre的配置是否正确
 - 设置-构建-构建工具-compiler-java complier
 配置正确的字节码版本
 ### 配置全局项目【推荐】
-![[JavaWeb Draw#^group=b9Q6iSUb|500]]
+![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031422200.png)
+
 ## 在idea中创建Maven项目
 - 新建Maven模块
-![[JavaWeb Draw#^group=9k6ZEAZA|600]]
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031422374.png)
 - 设置信息
-![[JavaWeb Draw#^group=C5fG4EIs]]
+![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031422705.png)
+
 # 基本概念
 >Maven是构建和管理Java项目的工具
 ## 作用
@@ -101,10 +103,12 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 </dependencies>
 ```
 ## 依赖传递
-![[JavaWeb Draw#^group=L9zUCejmwM7J5nO09dTMN|600]]
+![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031423203.png)
+
 ### 查看依赖关系
 右键`pom.xml`，选择`diagrams`的`show dependencies`
-![[JavaWeb Draw#^group=B2BAxMME|600]]
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031423533.png)
+
 ### 排除依赖
 >排除依赖就是，`A项目`引用了`B项目`但是不想引用`B项目`底下的jar包
 ```xml
