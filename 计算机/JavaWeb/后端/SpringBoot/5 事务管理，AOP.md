@@ -98,7 +98,7 @@ public void workA (){
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403021349901.png)
 
 ### 连接点
->可以被 AOP 控制的所有方法，在 AOP 类中可以使用连接点获取<u>相关信息</u>【目标类名，方法名，方法参数……】
+>可以被 AOP 控制的所有方法，在 AOP 类中可以使用连接点获取<u>相关信息</u>【目标对象的类名，方法名，方法参数……】
 
 - 对于 `@Around`，连接点对象为 `ProceedingJoinPoint`
 ```java
