@@ -85,6 +85,18 @@ POP 没效果，或余震过大。那就要练习 POP stop
 >- 固定点旋转
 >- 碰撞
 
+三种 TUTTING：
+- ***common TUTTING***
+- ***half TUTTING***：手指与手掌成90°，手掌与手臂成90°
+	- 框架比 common TUTTING 小巧
+- ***box***
+	- 更加立体
+
+## 练习
+
+
+
+
 
 # 编舞
 ## 编舞的顺序
