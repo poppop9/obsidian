@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/05 常用API.md",
+                "file": "计算机/编程语言/Java/07 异常.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/05 常用API.md"
+                "file": "计算机/编程语言/Java/07 异常.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/05 常用API.md"
+                "file": "计算机/编程语言/Java/07 异常.md"
               }
             }
           },
@@ -208,9 +208,9 @@
   },
   "active": "ea5ec7dd16011e6b",
   "lastOpenFiles": [
+    "计算机/编程语言/Java/05 常用API.md",
     "计算机/编程语言/Java/13 Java 8 新特性.md",
     "计算机/编程语言/Java/12 接口.md",
-    "计算机/编程语言/Java/05 常用API.md",
     "计算机/编程语言/Java/06 集合.md",
     "计算机/编程语言/Java/09 类与对象.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",

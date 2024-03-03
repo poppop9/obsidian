@@ -37,7 +37,8 @@ public class Arrays extends Object
 
 # Object
 >[!hint] 方法
->`toString()`  
+>`toString()`  在类中创建此方法，可以在打印对象名称时更加的简明
+>`equals()`  用来比较两个对象【包含字符串】的<u>内容</u>【而不是地址】，在比较对象的内容时，需要在对象所属类里重写 `equals()`，`hashcode()`
 
 
 
