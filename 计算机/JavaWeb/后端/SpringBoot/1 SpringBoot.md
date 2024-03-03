@@ -33,7 +33,6 @@
 SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已经***内置了Tomcat***，当启动类运行时，会自动运行Tomcat服务器
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291447345.png)
 
-
 # 请求，响应，分层解耦
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291447633.png)
 
@@ -161,6 +160,7 @@ public String ListParam(@RequestParam List<String> hobby) {  //需要添加Reque
 ```
 
 `@RequestParam`***注解用于从请求的URL查询参数中获取值，并将其绑定到Controller类方法的参数上***，其属性可以指定参数是否是必需的；可以设置参数的默认值
+
 ### 日期参数
 GET请求：`http://localhost:8080/dateParam?updateTime=2023-10-09 15:50:20`
 ```java
@@ -173,6 +173,7 @@ public String DateParam(@DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss") LocalDa
 
 2023-10-09T15:50:20
 ```
+
 ### Json参数
 POST请求：`http://localhost:8080/jsonParam`
 ```json
@@ -196,6 +197,7 @@ public String JsonParam(@RequestBody User user) {  //注解表示将json数据�
 
 User{name='Tom', age=20, address=Address{province='广东', city='广州'}}
 ```
+
 ### 路径参数
 GET请求：`http://localhost:8080/123`
 ```java
@@ -208,6 +210,7 @@ public String PathParam(@PathVariable Integer id) {  //注解表示id是路径�
 
 123
 ```
+
 ### 文件参数
 #### MultipartFile
 >`MultipartFile` ***是SpringBoot提供的保存文件的一种格式***
@@ -360,6 +363,7 @@ public class Result<T> {
     }  
 }
 ```
+
 ### 响应对象
 ```java
 @RequestMapping("/address")  
@@ -381,6 +385,7 @@ public Result<Address> address() {
     }
 }
 ```
+
 ### 响应集合
 ```java
 @RequestMapping("/list")  
@@ -441,6 +446,7 @@ public class EmpDaoA implements EmpDao {
     }  
 }
 ```
+
 ### Service
 >Sevice层的作用对数据进行处理，然后返回给Controller类
 
@@ -473,6 +479,7 @@ public class EmpServiceA implements EmpServie {
 另外，通过使用依赖注入的设计模式，可以将EmpDao对象的创建和管理交给外部的代码（例如使用依赖注入容器或手动注入）。这样可以更好地解耦和组织代码，提高代码的可测试性和可维护性。
 */
 ```
+
 ### Controller
 >Controller的作用是获取来自Service类发来的数据，响应数据给前端
 
@@ -532,6 +539,7 @@ public class UserController {
 >以上的分层方式，实现了***高内聚***，但是依然没有实现***低耦合***【Controller中还是有依赖Service，Service还是有依赖Dao】
 >![[Excalidraw/计算机/JavaWeb Draw.md#^group=g1pvEhriTd5poW0zM1k4o|500]]
 >EmpController需要EmpService，那我们可以把EmpService放到IOC容器里，然后EmpController需要时就到容器中取
+
 ### 控制反转 IOC
 >对象的创建控制权由程序自身转移到容器【本身由EmpController自身创建EmpService对象，变为由容器创建对象】
 
@@ -539,6 +547,7 @@ public class UserController {
 	- 如果是控制器类上就用`@Controller`
 	- 如果是逻辑处理Service类就用`@Service`
 	- 如果是访问Dao类上就用`@Repository`，==如果Dao层中需要使用MyBatis，那要将`@Repository`注解改为`@Mapper`==
+
 ### 依赖注入 DI
 >容器为应用程序提供运行时所依赖的资源【容器为EmpController提供运行时所需要的EmpService对象】
 
@@ -635,6 +644,7 @@ public class EmpController {
     }  
 }
 ```
+
 # 配置文件
 ## properties 配置文件
 ### 参数配置化
@@ -698,6 +708,7 @@ style:
   - house  
   - hip-hop
 ```
+
 ### @ConfigurationProperties
 >使用该注释之后，会自动将配置文件中的值注入到bean对象对应的属性中去，***简化了每次注入yml里的数值都要使用 ***`@Value` ***的麻烦 ***
 
@@ -780,9 +791,11 @@ public class Test2 {
 >   secretKey: IOQKLDtOirptnjbN0Tkooqy66wcBlDTh
 >   bucketName: test-1307744200
 > ```
+
 # 依赖
 ## lombok
 >Lombok是一种Java库，它通过注解的方式来简化Java类的编写，提高代码的可读性和简洁性
+
 ### 引入lombok依赖
 ```xml  
 <dependency>  
@@ -790,6 +803,7 @@ public class Test2 {
     <artifactId>lombok</artifactId>   
 </dependency>           //不用指定版本号，因为在SpringBoot的父工程里已经集成了lombok
 ```
+
 ### 具体操作
 `@Getter/@Setter`  为所有属性提供get/set方法
 `@ToString`  给类自动生成的toString方法
@@ -861,6 +875,7 @@ public class Test2 {
 	    private String phone;  
 	}
 	```
+
 # 异常处理
 >通过定义<u>全局异常处理器</u>来统一处理三层架构抛出的异常
 
