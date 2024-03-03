@@ -98,8 +98,21 @@ public void workA (){
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403021349901.png)
 
 ### 连接点
->可以被 AOP 控制的所有方法
+>可以被 AOP 控制的所有方法，在 AOP 类中可以使用连接点获取<u>相关信息</u>【目标类名，方法名，方法参数……】
 
+- 对于 `@Around`，连接点对象为 `ProceedingJoinPoint`
+```java
+public Object recordTime(ProceedingJoinPoint joinPoint) {
+	……
+}
+```
+
+- 对于其它四种通知类型，连接点对象为 `JoinPoint`
+```java
+public void AfterReturning(JoinPoint joinPoint) {
+	……
+}
+```
 ### 切入点
 >被 AOP 声明为要控制的方法
 
@@ -117,22 +130,19 @@ public void workA (){
 >某个对象里有方法被 AOP 声明为要控制了，那这个对象就是目标对象
 
 ### 通知
->[!quote] 通知 Advice
->>也就是具体的工作内容，要从切入点怎么切入，也就是切面类中定义的方法内容
->
-><br/>
->
->通知的类型有 <u>5</u> 种：
->- `@Around` 围绕目标方法执行，通知方法在目标方法的前，后都执行。***必须指定返回值为 `Object`，来接收原始方法的返回值***
->- `@Before` 在目标方法执行之前执行
->- `@AfterReturning` 在目标方法正常完成后执行
->- `@After` 在目标方法完成后执行，无论是否发生异常
->- `@AfterThrowing` 在目标方法抛出异常后才会执行
-><br/>
->>[!warning] 后 4 种方法无需考虑目标方法的执行
+
+>也就是具体的工作内容，要从切入点怎么切入，也就是切面类中定义的方法内容
+
+通知的类型有 <u>5</u> 种：
+- `@Around` 围绕目标方法执行，通知方法在目标方法的前，后都执行。***必须指定返回值为 `Object`，来接收原始方法的返回值***
+- `@Before` 在目标方法执行之前执行
+- `@AfterReturning` 在目标方法正常完成后执行
+- `@After` 在目标方法完成后执行，无论是否发生异常
+- `@AfterThrowing` 在目标方法抛出异常后才会执行
+
+>[!warning] 后 4 种方法无需考虑目标方法的执行
 
 ### 切面
->[!quote] 切面 Aspect
 >切面 = 切入点 + 通知
 
 ## 引入依赖
