@@ -14,10 +14,19 @@ SpringBoot 中正常支持<u>三种</u>配置文件【`properties`，`yml`，`ya
 >***命令行参数*** > ***Java系统属性*** > `properties` > `yml` > `yaml`
 
 # Bean管理
-Spring 项目启动后，会把 Bean 都
+Spring 项目启动后，会把 Bean 都创建好放入到 IOC 容器中
 
 ## 手动获取Bean
+### 根据 name 获取
 
+
+
+
+### 根据类型获取
+
+
+
+### 根据 name，类型获取
 
 
 
