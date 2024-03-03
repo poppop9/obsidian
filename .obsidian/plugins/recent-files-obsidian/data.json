@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Dance",
+      "path": "临时笔记/Dance.md"
+    },
+    {
+      "basename": "1 HTML 初级",
+      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
+    },
+    {
       "basename": "07 异常",
       "path": "计算机/编程语言/Java/07 异常.md"
     },
@@ -73,10 +81,6 @@
       "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
     {
-      "basename": "1 HTML 初级",
-      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
-    },
-    {
       "basename": "1 CSS初级",
       "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
     },
@@ -87,10 +91,6 @@
     {
       "basename": "1 SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
-    },
-    {
-      "basename": "Dance",
-      "path": "临时笔记/Dance.md"
     },
     {
       "basename": "4 登录认证",

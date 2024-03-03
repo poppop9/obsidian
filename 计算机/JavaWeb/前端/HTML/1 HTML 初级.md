@@ -268,6 +268,7 @@
   <img src="https://img-blog.csdnimg.cn/img_convert/e59a39b29154bf82e42061c447792a88.png" alt="The Pulpit Rock" width="304" height="228">
   <figcaption>我来解释BootStrap 4</figcaption>
 </figure>
+
 ```html
 <figure>
 	<img src="https://img-blog.csdnimg.cn/img_convert/e59a39b29154bf82e42061c447792a88.png" alt="The Pulpit Rock" width="304" height="228">
