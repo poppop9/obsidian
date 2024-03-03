@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
       "basename": "SpringBoot 原理",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Svelte",
       "path": "计算机/JavaWeb/前端/Svelte.md"
-    },
-    {
-      "basename": "7 杂",
-      "path": "计算机/JavaWeb/前端/JavaScript/7 杂.md"
     }
   ],
   "omittedPaths": [],
