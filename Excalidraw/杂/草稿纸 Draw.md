@@ -124,9 +124,12 @@ B方法 ^6QLo5wkz
 
 通知 ^503G0EwF
 
+例如硬件层面问题，内存资源不足 ^perVgBGK
+
 
 # Embedded files
 84eb8fa021ceb976df62422e93f43acff587a58e: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402261418894.png
+2133848e5f3c103e7b2e144cf1d154d9633a2781: [[Pasted Image 20240303101354_873.png]]
 
 %%
 # Drawing
@@ -223,8 +226,8 @@ B方法 ^6QLo5wkz
 		},
 		{
 			"type": "arrow",
-			"version": 815,
-			"versionNonce": 810472531,
+			"version": 817,
+			"versionNonce": 1795077043,
 			"isDeleted": false,
 			"id": "Xfq2tzbZFQsoeOe4hPvpH",
 			"fillStyle": "solid",
@@ -249,7 +252,7 @@ B方法 ^6QLo5wkz
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709358250384,
+			"updated": 1709432034959,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -278,8 +281,8 @@ B方法 ^6QLo5wkz
 		},
 		{
 			"type": "arrow",
-			"version": 810,
-			"versionNonce": 1183718291,
+			"version": 812,
+			"versionNonce": 429236979,
 			"isDeleted": false,
 			"id": "LAuzygNsl5cDwYhcWjhhc",
 			"fillStyle": "solid",
@@ -304,7 +307,7 @@ B方法 ^6QLo5wkz
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709358250384,
+			"updated": 1709432034959,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1809,8 +1812,8 @@ B方法 ^6QLo5wkz
 		},
 		{
 			"type": "arrow",
-			"version": 178,
-			"versionNonce": 307640851,
+			"version": 180,
+			"versionNonce": 892277107,
 			"isDeleted": false,
 			"id": "0pY1w3vl7FOnW2_Nt1GsZ",
 			"fillStyle": "solid",
@@ -1835,7 +1838,7 @@ B方法 ^6QLo5wkz
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709358250400,
+			"updated": 1709432034974,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1864,8 +1867,8 @@ B方法 ^6QLo5wkz
 		},
 		{
 			"type": "arrow",
-			"version": 150,
-			"versionNonce": 1388777811,
+			"version": 152,
+			"versionNonce": 1645842611,
 			"isDeleted": false,
 			"id": "6DCmquy3sgOhRYAoAV0da",
 			"fillStyle": "solid",
@@ -1890,7 +1893,7 @@ B方法 ^6QLo5wkz
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709358250400,
+			"updated": 1709432034974,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2150,8 +2153,8 @@ B方法 ^6QLo5wkz
 		},
 		{
 			"type": "rectangle",
-			"version": 172,
-			"versionNonce": 1678455091,
+			"version": 173,
+			"versionNonce": 795528339,
 			"isDeleted": false,
 			"id": "ZBGEYwXCfNAuBJTslGrvd",
 			"fillStyle": "solid",
@@ -2160,7 +2163,7 @@ B方法 ^6QLo5wkz
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 247.8937715675975,
+			"x": 247.89377156759747,
 			"y": 1353.8851587039524,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -2181,14 +2184,14 @@ B方法 ^6QLo5wkz
 					"id": "TdzSjEOV"
 				}
 			],
-			"updated": 1709358250397,
+			"updated": 1709432034972,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 40,
-			"versionNonce": 680825555,
+			"version": 41,
+			"versionNonce": 1344913971,
 			"isDeleted": false,
 			"id": "TdzSjEOV",
 			"fillStyle": "solid",
@@ -2197,7 +2200,7 @@ B方法 ^6QLo5wkz
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 255.3417479864637,
+			"x": 255.34174798646367,
 			"y": 1381.7153552828538,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -2211,7 +2214,7 @@ B方法 ^6QLo5wkz
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709358250398,
+			"updated": 1709432034973,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -5707,6 +5710,181 @@ B方法 ^6QLo5wkz
 			"lineHeight": 1.2
 		},
 		{
+			"id": "QVNsInL7Y16yh69obDSZd",
+			"type": "image",
+			"x": 786.4350780363648,
+			"y": 1365.4577272877577,
+			"width": 783.4491059337794,
+			"height": 380.0530579064237,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"IWqS9d-nIoUCad5ZU1Q-Y"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 274758931,
+			"version": 39,
+			"versionNonce": 931075795,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709432076166,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "2133848e5f3c103e7b2e144cf1d154d9633a2781",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "G3CnrSWycPJXFg8jqR-V1",
+			"type": "line",
+			"x": 896.1848439452567,
+			"y": 1679.9209396156575,
+			"width": 101.34743222322322,
+			"height": 0.817305932810541,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"IWqS9d-nIoUCad5ZU1Q-Y"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 593313779,
+			"version": 24,
+			"versionNonce": 1421915101,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709432076166,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					101.34743222322322,
+					-0.817305932810541
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": null
+		},
+		{
+			"id": "ZWZX2qkBrIF_nIcW8cy5Z",
+			"type": "arrow",
+			"x": 1047.3887487037264,
+			"y": 1633.3338155245451,
+			"width": 61.29888030748771,
+			"height": 3.269286087688215,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"IWqS9d-nIoUCad5ZU1Q-Y"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 606183677,
+			"version": 19,
+			"versionNonce": 1538966643,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709432076166,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					61.29888030748771,
+					-3.269286087688215
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "perVgBGK",
+				"focus": 0.4505826582255399,
+				"gap": 4.699555880995604
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "perVgBGK",
+			"type": "text",
+			"x": 1113.3871848922097,
+			"y": 1618.826401380484,
+			"width": 299.9399719238281,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"IWqS9d-nIoUCad5ZU1Q-Y"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1822445811,
+			"version": 61,
+			"versionNonce": 1704472637,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "ZWZX2qkBrIF_nIcW8cy5Z",
+					"type": "arrow"
+				}
+			],
+			"updated": 1709432076166,
+			"link": null,
+			"locked": false,
+			"text": "例如硬件层面问题，内存资源不足",
+			"rawText": "例如硬件层面问题，内存资源不足",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "例如硬件层面问题，内存资源不足",
+			"lineHeight": 1.2
+		},
+		{
 			"id": "3dOt2ni9",
 			"type": "text",
 			"x": 864.6782840080982,
@@ -5747,7 +5925,7 @@ B方法 ^6QLo5wkz
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#f08c00",
+		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "#b2f2bb",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 1,
@@ -5759,10 +5937,10 @@ B方法 ^6QLo5wkz
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -578.3501121370657,
-		"scrollY": -651.4279037689048,
+		"scrollX": -485.54040467111315,
+		"scrollY": -1092.515442756253,
 		"zoom": {
-			"value": 0.978810700930062
+			"value": 0.8288107009300618
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

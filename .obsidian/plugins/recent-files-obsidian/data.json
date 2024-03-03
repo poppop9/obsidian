@@ -5,6 +5,10 @@
       "path": "计算机/编程语言/Java/07 异常.md"
     },
     {
+      "basename": "草稿纸 Draw",
+      "path": "Excalidraw/杂/草稿纸 Draw.md"
+    },
+    {
       "basename": "05 常用API",
       "path": "计算机/编程语言/Java/05 常用API.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "5 事务管理，AOP",
       "path": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
-    },
-    {
-      "basename": "草稿纸 Draw",
-      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "穿搭",
