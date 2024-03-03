@@ -14,19 +14,34 @@ SpringBoot 中正常支持<u>三种</u>配置文件【`properties`，`yml`，`ya
 >***命令行参数*** > ***Java系统属性*** > `properties` > `yml` > `yaml`
 
 # Bean管理
-Spring 项目启动后，***默认***会把 Bean 都创建好放入到 IOC 容器中【<u>还受到作用域，延迟chu'shi'hau</u>】
+Spring 项目启动后，***默认***会把 Bean 都创建好放入到 IOC 容器中【还受到<u>作用域</u>，<u>延迟初始化</u>的影响】
 
 ## 手动获取Bean
 ### 根据 name 获取
 
-
-
-
 ### 根据类型获取
 
-
-
 ### 根据 name，类型获取
+
+```java
+@SpringBootTest
+class SpringAopApplicationTests {
+    @Autowired
+    private ApplicationContext applicationContext;
+
+    @Test
+    public void TestGetBean() {
+	// 根据name获取bean
+    System.out.println(applicationContext.getBean("helloController"));
+
+	// 根据类型获取bean
+	System.out.println(applicationContext.getBean(HelloController.class));
+
+	// 根据name, 类型获取bean
+	System.out.println(applicationContext.getBean("helloController", HelloController.class));
+    }
+}
+```
 
 
 
