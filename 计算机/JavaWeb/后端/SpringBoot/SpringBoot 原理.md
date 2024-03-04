@@ -127,8 +127,48 @@ com.example.spring_aop.controller.HelloController@38fb151a
 |    `request`    |    每个请求范围内，会创建新的实例    |
 |    `session`    |    每个会话范围，会创建新的实例     |
 |  `application`  |    每个应用范围内，会创建新的实例    |
+### prototype
+```java
+// Test 测试类
+package com.example.spring_aop;
 
+import com.example.spring_aop.controller.HelloController;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.ApplicationContext;
 
+@SpringBootTest
+class SpringAopApplicationTests {
+    @Autowired
+    private ApplicationContext applicationContext;
+
+//    @Test
+//    public void TestGetBean() {
+//        // 根据name获取bean
+//        System.out.println(applicationContext.getBean("helloController"));
+//
+//        // 根据类型获取bean
+//        System.out.println(applicationContext.getBean(HelloController.class));
+//
+//        // 根据name, 类型获取bean
+//        System.out.println(applicationContext.getBean("helloController", HelloController.class));
+//    }
+
+//    @Test
+//    public void TestLazyInitialization() {
+//        System.out.println(applicationContext.getBean("helloController"));
+//    }
+
+    @Test
+    public void TestScope() {
+        for (int i = 0; i < 4; i++) {
+            System.out.println(applicationContext.getBean("helloController"));
+        }
+    }
+}
+
+```
 
 
 
