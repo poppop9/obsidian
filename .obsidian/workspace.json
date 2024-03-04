@@ -53,9 +53,9 @@
               "type": "markdown",
               "state": {
                 "file": "临时笔记/草稿纸.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           },
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -206,12 +206,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "72530cf88b10b2b7",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
     "计算机/编程语言/Java/07 异常.md",
     "临时笔记/草稿纸.md",
     "临时笔记/Dance.md",
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/Spring Security.md",
     "计算机/JavaWeb/后端/Maven.md",

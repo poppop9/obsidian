@@ -47,6 +47,11 @@ com.example.spring_aop.controller.HelloController@65af05b2
 com.example.spring_aop.controller.HelloController@65af05b2
 ```
 
+## 延迟初始化
+>
+
+
+
 ## Bean的作用域
 
 |       作用域       |          说明           |
