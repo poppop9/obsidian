@@ -183,18 +183,13 @@ com.example.spring_aop.controller.HelloController@69d667a5
 有时我们会在项目中引入第三方的依赖，其中会用到第三方包的对象，如果重复创建对象会消耗资源，我们会想将这个对象放到 IOC 容器中，但是***第三方包是只读的，无法修改***，这时我们就需要使用 `@Bean` 
 
 ```java
-// 启动类
-package com.example.spring_aop;
+// 配置类
+package com.example.spring_aop.config;
 
-@SpringBootApplication
-public class SpringAopApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(SpringAopApplication.class, args);
-	}
-
-	// 声明第三方 Bean
-	@Bean  // 将当前方法的返回值将给IOC容器管理
-	public SAXReader putIOCSaxReader(){
+@Configuration
+public class OthersBeansConfig {
+	@Bean
+	public SAXReader putIOCSaxReader {
 		return new SAXReader();
 	}
 }
