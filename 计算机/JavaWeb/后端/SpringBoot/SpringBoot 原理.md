@@ -21,19 +21,31 @@
 			- java
 				- com.example
 					- `EnableHeaderConfig` 用来给主项目导入整个依赖包
-					- HeaderConfig
-					- HeaderGenerator
-					- HeaderParser
-					- MyImportSelector
-					- TokenParser
+					- `HeaderConfig`
+					- `HeaderGenerator`
+					- `HeaderParser`
+					- `MyImportSelector`
+					- `TokenParser`
 
 ```java
-// EnableHeaderConfig
-
+// 定义了一个注解EnableHeaderConfig
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE)
+@Import(MyImportSelector.class)  // 指定到底要导入哪些配置类
+public @interface EnableHeaderConfig {}
 ```
 
 ## 主项目
-
+```java
+// 启动类
+@EnableHeaderConfig  // 引入注解
+@SpringBootApplication  
+public class SpringAopApplication {  
+    public static void main(String[] args) {  
+       SpringApplication.run(SpringAopApplication.class, args);  
+    }  
+}
+```
 
 
 
