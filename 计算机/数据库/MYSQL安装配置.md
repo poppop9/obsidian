@@ -4,9 +4,8 @@
 - 下载完成后解压到某一个文件夹
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210524173506685.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 ## 配置初始化文件my.ini
-在安装文件的根目录下创建一个txt文件，名字叫my，文件后缀为ini
-之后复制下面这个代码放在my.ini里
-***以下代码除安装目录和数据的存放目录需修改，其余不用修改***
+- 在安装文件的根目录下创建一个txt文件，名字叫my，文件后缀为ini
+- 之后复制下面这个代码放在my.ini里【***以下代码除安装目录和数据的存放目录需修改，其余不用修改***】
 
 ```
 [mysqld]
@@ -35,8 +34,9 @@ default-character-set=utf8mb4
 port=3306
 default-character-set=utf8mb4
 ```
+
 ## 初始化MySQL
-使用**管理员**身份运行CMD
+- 使用**管理员**身份运行CMD
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210524174426362.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)-
 进入mysql的bin目录
 `cd E:\mysql\mysql\bin\`
