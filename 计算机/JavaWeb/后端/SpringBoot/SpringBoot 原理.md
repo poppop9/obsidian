@@ -48,8 +48,10 @@ com.example.spring_aop.controller.HelloController@65af05b2
 ```
 
 ## 延迟初始化
->
-
+### 不延迟初始化
+```java
+// He
+```
 
 
 ## Bean的作用域

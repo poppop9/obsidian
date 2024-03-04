@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
               }
             }
           },
@@ -206,11 +206,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "72530cf88b10b2b7",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
     "计算机/编程语言/Java/07 异常.md",
-    "临时笔记/草稿纸.md",
     "临时笔记/Dance.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/Spring Security.md",
