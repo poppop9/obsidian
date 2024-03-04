@@ -189,7 +189,7 @@ package com.example.spring_aop.config;
 @Configuration
 public class OthersBeansConfig {
 	@Bean
-	public SAXReader putIOCSaxReader {
+	public SAXReader saxReader {  // 这里的方法名就是 Bean 对象名
 		return new SAXReader();
 	}
 }
