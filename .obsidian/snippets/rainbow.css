@@ -1121,8 +1121,8 @@ div>ul {
 	width: 0.4rem;
 }
 
-.cm-formatting-list-ul.cm-list-1 {
-	padding-inline-start: 0em;
+div.HyperMD-list-line {
+	transform: translate(-14px, 0px);
 }
 
 /* 阅读模式 */
@@ -1246,10 +1246,6 @@ ul>li.task-list-item[data-task="X"] {
 /* 有序列表 */
 div>ol {
 	padding-inline-start: 1.3rem !important;
-}
-
-.cm-formatting-list-ol {
-	padding-inline-start: 0.2rem;
 }
 
 /* 编辑模式 */
