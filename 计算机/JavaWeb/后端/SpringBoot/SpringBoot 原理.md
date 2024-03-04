@@ -53,7 +53,9 @@ com.example.spring_aop.controller.HelloController@65af05b2
 | --------------- | --------------------- |
 | `singleton`【默认】 | 容器内同名称的 Bean，只有一个实例对象 |
 | `prototype`     | 每次使用 Bean，都会创建新的实例对象  |
-|                 |                       |
+| `request`       | 每个请求范围内，会创建新的实例       |
+| `session`       | 每个会话范围，会创建新的实例        |
+| `application`   | 每个应用范围内，会创建新的实例       |
 
 
 
