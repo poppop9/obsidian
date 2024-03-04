@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
+                "file": "临时笔记/自行车.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
+                "file": "临时笔记/自行车.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
+                "file": "临时笔记/自行车.md"
               }
             }
           },
@@ -208,10 +208,11 @@
   },
   "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "临时笔记/自行车.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/编程语言/Java/07 异常.md",
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
     "计算机/JavaWeb/后端/Maven.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
@@ -234,7 +235,6 @@
     "计算机/编程语言/Java/04 Java的基础语法2.md",
     "Excalidraw/计算机/编程语言/Java/Java的基础语法2 Draw.md",
     "计算机/编程语言/Java/配置.md",
-    "计算机/编程语言/Java/05 随机数.md",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
     "计算机/JavaWeb/前端/Vue",

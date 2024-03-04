@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "自行车",
+      "path": "临时笔记/自行车.md"
+    },
+    {
       "basename": "SpringBoot 原理",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "4 Axios",
       "path": "计算机/JavaWeb/前端/4 Axios.md"
-    },
-    {
-      "basename": "1 基础Ⅰ",
-      "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
     }
   ],
   "omittedPaths": [],

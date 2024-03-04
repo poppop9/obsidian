@@ -5865,7 +5865,7 @@ B方法 ^6QLo5wkz
 		}
 	],
 	"appState": {
-		"theme": "dark",
+		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#e03131",
 		"currentItemBackgroundColor": "#b2f2bb",
