@@ -50,6 +50,22 @@ com.example.spring_aop.controller.HelloController@65af05b2
 ## 延迟初始化
 >添加 `@Lazy` 注解
 
+我们用测试类来测试<u>默认</u>，与<u>延迟初始化</u>
+```java
+// Test 测试类
+package com.example.spring_aop;
+
+@SpringBootTest
+class SpringAopApplicationTests {
+    @Autowired
+    private ApplicationContext applicationContext;
+
+    @Test
+    public void TestLazyInitialization() {
+        System.out.println(applicationContext.getBean("helloController"));
+    }
+}
+```
 ### 不延迟初始化
 >项目已启动，各种 Bean 就创建好了
 
@@ -66,23 +82,8 @@ public class HelloController {
     ……
     接口方法……
 }
-```
 
-```java
-// Test 测试类
-package com.example.spring_aop;
-
-@SpringBootTest
-class SpringAopApplicationTests {
-    @Autowired
-    private ApplicationContext applicationContext;
-
-    @Test
-    public void TestLazyInitialization() {
-        System.out.println(applicationContext.getBean("helloController"));
-    }
-}
-
+// 在测试类中打印出
 ---
 HelloController实例化了
 ……
@@ -106,6 +107,12 @@ public class HelloController {
     ……
     接口方法……
 }
+
+// 在测试类中打印出
+---
+……
+HelloController实例化了
+com.example.spring_aop.controller.HelloController@38fb151a
 ```
 
 
