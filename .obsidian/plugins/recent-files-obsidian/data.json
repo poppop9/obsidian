@@ -5,12 +5,16 @@
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
     },
     {
-      "basename": "配置优先级，Bean管理",
-      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "1 SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+    },
+    {
+      "basename": "配置优先级，Bean管理",
+      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
     },
     {
       "basename": "草稿纸",
@@ -27,10 +31,6 @@
     {
       "basename": "Spring Security",
       "path": "计算机/JavaWeb/后端/Spring Security.md"
-    },
-    {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "JavaWeb Draw",
