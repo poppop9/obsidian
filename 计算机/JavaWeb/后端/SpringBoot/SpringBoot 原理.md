@@ -189,7 +189,7 @@ package com.example.spring_aop.config;
 @Configuration
 public class OthersBeansConfig {
 	@Bean
-	public SAXReader saxReader {  // 这里的方法名就是 Bean 对象名
+	public SAXReader saxReader() {  // 这里的方法名就是 Bean 对象名
 		return new SAXReader();
 	}
 }
@@ -204,8 +204,16 @@ SAXReader saxReader = new SaxReader();
 private SAXReader saxReader;
 ```
 
+>[!hint] 如果在定义第三方 Bean 的过程中需要进行依赖注入怎么办 ？
+>直接声明，不用使用 `@AutoWired`，SpringBoot 会自动进行依赖注入
 
-
+```java
+@Bean
+public SAXReader saxReader(DeptService deptService) {  // Spring会自动对deptService注入
+	sout(deptService);
+	return new SAXReader();
+}
+```
 
 
 
