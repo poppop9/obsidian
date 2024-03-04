@@ -36,57 +36,44 @@ default-character-set=utf8mb4
 ```
 
 ## 初始化MySQL
-- 使用**管理员**身份运行CMD
+- 使用管理员身份运行CMD
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210524174426362.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)-
-进入mysql的bin目录
-`cd E:\mysql\mysql\bin\`
+- 进入mysql的bin目录 `cd E:\mysql\mysql\bin\`
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210524174552515.png)-
-在MySQL目录下的bin目录下执行命令：
-`mysqld --initialize --console`
-复制root@localhost:之后的密码到本地文件夹，保存好( **: 后有一个空格，不复制**)
+- 在MySQL目录下的bin目录下执行命令 `mysqld --initialize --console`
+- 复制root@localhost:之后的密码到本地文件夹，保存好( **: 后有一个空格，不复制**)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525093717642.png)
+
 ## 安装mysql服务并启动+修改密码
-### 安装mysql服务
-`mysqld --install mysql`
-之后会提示服务已经成功安装-
+- 安装mysql服务 `mysqld --install mysql`，之后会提示服务已经成功安装-
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525093910256.png)
-### 启动mysql服务
-`net start mysql`
-**输入之后提示以下内容**-
+- 启动mysql服务 `net start mysql`，输入之后提示以下内容
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525094002685.png)
-### 连接mysql
-`mysql -uroot -p`
-**输入之后去复制一下刚刚保存下来的密码，并粘贴到命令台**-
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2021052509403911.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)-
-输入以下命令修改密码(把新的密码修改成你想要的密码)
-`ALTER USER 'root'@'localhost' IDENTIFIED BY '新的密码';`
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525094411413.png)-
-**密码修改完成**
+- 连接mysql `mysql -uroot -p` 输入之后去复制一下刚刚保存下来的密码，并粘贴到命令台
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2021052509403911.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
+- 输入以下命令修改密码(把新的密码修改成你想要的密码) `ALTER USER 'root'@'localhost' IDENTIFIED BY '新的密码';`
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525094411413.png)
+
 ## 配置环境变量
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525100357202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525100357202.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 在path中加入以下代码
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2021052510042863.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
+
 ## 使用连接工具连接mysql
-### 打开DataGrip之后按照以下步骤添加数据库
+- 打开DataGrip之后添加数据库
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210531154902665.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210531155954575.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
-### 输入 show databases之后查看结果
-出现如下结果则**配置成功**
+- 输入 show databases之后查看结果，出现如下结果则**配置成功**
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210531160620941.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
+
 ## 疑难杂病
 ### 执行mysqld --install mysql时提示该服务已存在
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525095818371.png)-
-就先删除该服务（使用以下代码）
-`sc delete mysql`
-然后在执行mysqld --install mysql
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210525095818371.png)
+- 就先删除该服务
+- 输入`sc delete mysql`
+- 然后再执行mysqld --install mysql
 
 ### cmd运行net start mysql发生系统错误193 *** 不是有效的 Win32 应用程序。
-报错：
-发生系统错误193 *** 不是有效的 Win32 应用程序
+- 删除bin目录下0KB的mysqld文件
 
-删除bin目录下0KB的mysqld文件
-
-启动成功！
-
----
 
