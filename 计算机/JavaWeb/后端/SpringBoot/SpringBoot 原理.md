@@ -48,10 +48,67 @@ com.example.spring_aop.controller.HelloController@65af05b2
 ```
 
 ## 延迟初始化
+>添加 `@Lazy` 注解
+
 ### 不延迟初始化
+>项目已启动，各种 Bean 就创建好了
+
 ```java
-// He
+// HelloController
+package com.example.spring_aop.controller;
+
+@RestController
+public class HelloController {
+    // 无参构造
+    public HelloController() {
+        System.out.println("HelloController实例化了");
+    }
+    ……
+    接口方法……
+}
 ```
+
+```java
+// Test 测试类
+package com.example.spring_aop;
+
+@SpringBootTest
+class SpringAopApplicationTests {
+    @Autowired
+    private ApplicationContext applicationContext;
+
+    @Test
+    public void TestLazyInitialization() {
+        System.out.println(applicationContext.getBean("helloController"));
+    }
+}
+
+---
+HelloController实例化了
+……
+com.example.spring_aop.controller.HelloController@65af05b2
+```
+
+### 添加延迟初始化
+>在要使用到 Bean 时，才创建 Bean 对象
+
+```java
+// HelloController
+package com.example.spring_aop.controller;
+
+@Lazy
+@RestController
+public class HelloController {
+    // 无参构造
+    public HelloController() {
+        System.out.println("HelloController实例化了");
+    }
+    ……
+    接口方法……
+}
+```
+
+
 
 
 ## Bean的作用域
