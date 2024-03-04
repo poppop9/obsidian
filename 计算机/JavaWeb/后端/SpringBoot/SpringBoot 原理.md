@@ -12,9 +12,10 @@
 >Spring 容器启动后，会自动将一些<u>配置类</u>，<u>Bean 对象</u>放入到 IOC 容器中，我们就可以直接使用
 
 由于，直接讲解很晦涩，所以我们自己编写一个第三方依赖，然后在项目中手动导入，来解释 SpringBoot 底层是如何实现自动配置的
-⬇⬇⬇
-## 依赖包项目
-### 项目结构
+
+## 自定义依赖导入
+### 依赖包项目
+#### 项目结构
 - DependencyTool
 	- src
 		- main
@@ -35,7 +36,7 @@
 public @interface EnableHeaderConfig {}
 ```
 
-## 主项目
+### 主项目
 ```java
 // 启动类
 @EnableHeaderConfig  // 引入注解
@@ -46,6 +47,19 @@ public class SpringAopApplication {
     }  
 }
 ```
+
+通过添加依赖包中的注解，即可将依赖包中的对象加入到 IOC 容器，从而引入项目
+
+## @SpringBootApplication
+
+
+
+
+
+
+
+
+
 
 
 
