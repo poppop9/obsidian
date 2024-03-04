@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "MYSQL安装配置",
+      "path": "计算机/数据库/MYSQL安装配置.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "计算机/数据库/MySQL.md"
+    },
+    {
+      "basename": "3 CSS高级",
+      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+    },
+    {
       "basename": "自行车",
       "path": "临时笔记/自行车.md"
     },
     {
       "basename": "SpringBoot 原理",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
-    },
-    {
-      "basename": "3 CSS高级",
-      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
     },
     {
       "basename": "2 CSS中级",
@@ -127,14 +135,6 @@
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "计算机/数据库/MySQL.md"
-    },
-    {
-      "basename": "MYSQL安装配置",
-      "path": "计算机/数据库/MYSQL安装配置.md"
     },
     {
       "basename": "Obsidian特殊语法",

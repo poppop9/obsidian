@@ -1,7 +1,7 @@
 ## 官网下载MySQL
-下载Mysql[点击下载mysql](https://dev.mysql.com/downloads/mysql/)
+- [下载Mysql](https://dev.mysql.com/downloads/mysql/)
 ![点击Download|700](https://img-blog.csdnimg.cn/2021052417324674.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
-**下载完成后解压到某一个文件夹**（记住这个路径，一会要用到）
+- 下载完成后解压到某一个文件夹
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210524173506685.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzU3OTAxNQ==,size_16,color_FFFFFF,t_70)
 ## 配置初始化文件my.ini
 在安装文件的根目录下创建一个txt文件，名字叫my，文件后缀为ini
@@ -90,10 +90,3 @@ default-character-set=utf8mb4
 
 ---
 
-
-
-2023-12-12T14:25:33.956603Z 0 [System] [MY-013169] [Server] D:\mysql-8.0.34-winx64\bin\mysqld.exe (mysqld 8.0.34) initializing of server in progress as process 8860
-2023-12-12T14:25:33.959149Z 0 [ERROR] [MY-010457] [Server] --initialize specified but the data directory has files in it. Aborting.
-2023-12-12T14:25:33.959168Z 0 [ERROR] [MY-013236] [Server] The designated data directory D:\mysql-8.0.34-winx64\data\ is unusable. You can remove all files that the server added to it.
-2023-12-12T14:25:33.961599Z 0 [ERROR] [MY-010119] [Server] Aborting
-2023-12-12T14:25:33.961849Z 0 [System] [MY-010910] [Server] D:\mysql-8.0.34-winx64\bin\mysqld.exe: Shutdown complete (mysqld 8.0.34)  MySQL Community Server - GPL.
