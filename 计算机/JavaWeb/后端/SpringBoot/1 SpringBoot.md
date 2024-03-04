@@ -543,6 +543,8 @@ public class UserController {
 ### 控制反转 IOC
 >对象的创建控制权由程序自身转移到容器【本身由EmpController自身创建EmpService对象，变为由容器创建对象】
 
+>[!hint] 对象在 IOC 容器中叫 Bean 对象，Bean 对象的mign'c
+
 - ***添加***`@Component`***注释***【如果某个类不属于以下三类，但是也想交给IOC处理时使用】
 	- 如果是控制器类上就用`@Controller`
 	- 如果是逻辑处理Service类就用`@Service`
