@@ -47,9 +47,15 @@ com.example.spring_aop.controller.HelloController@65af05b2
 com.example.spring_aop.controller.HelloController@65af05b2
 ```
 
-
-
 ## Bean的作用域
+
+| 作用域             | 说明                    |
+| --------------- | --------------------- |
+| `singleton`【默认】 | 容器内同名称的 Bean，只有一个实例对象 |
+| `prototype`     | 每次使用 Bean，都会创建新的实例对象  |
+|                 |                       |
+
+
 
 
 
