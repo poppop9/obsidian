@@ -20,14 +20,17 @@
 		- main
 			- java
 				- com.example
-					- EnableHeaderConfig
+					- `EnableHeaderConfig` 用来给主项目导入整个依赖包
 					- HeaderConfig
 					- HeaderGenerator
 					- HeaderParser
 					- MyImportSelector
 					- TokenParser
 
+```java
+// EnableHeaderConfig
 
+```
 
 ## 主项目
 
