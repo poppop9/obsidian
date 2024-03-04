@@ -186,6 +186,23 @@ com.example.spring_aop.controller.HelloController@69d667a5
 SAXReader saxReader = new SaxReader();
 ```
 
+```java
+// 启动类
+package com.example.spring_aop;
+
+@SpringBootApplication
+public class SpringAopApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(SpringAopApplication.class, args);
+	}
+
+	// 声明第三方 Bean
+	@Bean
+	public SAXReader putIOCSaxReader(){
+		return new SAXReader();
+	}
+}
+```
 
 
 
