@@ -106,6 +106,7 @@ public SSSBean getSSSBean {
 - 自定义的起步依赖：`……-spring-boot-starter`
 
 自定义起步依赖时，我们会定义两个包【<u>依赖管理包</u>，<u>自动配置包</u>】
+![550](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403052319660.png)
 
 
 

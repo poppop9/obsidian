@@ -126,10 +126,15 @@ B方法 ^6QLo5wkz
 
 例如硬件层面问题，内存资源不足 ^perVgBGK
 
+依赖管理包 ^5pq7jji5
+
+自动配置包 ^ScKjSKEA
+
 
 # Embedded files
 2133848e5f3c103e7b2e144cf1d154d9633a2781: [[Pasted Image 20240303101354_873.png]]
 84eb8fa021ceb976df62422e93f43acff587a58e: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402261418894.png
+4d08527ca201fef605abccdd0c81e54e0d8d436c: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403052319660.png
 
 %%
 # Drawing
@@ -5862,6 +5867,119 @@ B方法 ^6QLo5wkz
 			"originalText": "例如硬件层面问题，内存资源不足",
 			"lineHeight": 1.2,
 			"baseline": 18
+		},
+		{
+			"type": "image",
+			"version": 26,
+			"versionNonce": 2103326138,
+			"isDeleted": false,
+			"id": "saxt9a4H",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -887.4327891814802,
+			"y": 542.5947910203524,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 446.0093896713615,
+			"seed": 10938,
+			"groupIds": [
+				"7Wy9kKbjFPrZQk2tKla22"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1709652050192,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "4d08527ca201fef605abccdd0c81e54e0d8d436c",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "5pq7jji5",
+			"type": "text",
+			"x": -434.6327403533551,
+			"y": 822.727243458301,
+			"width": 100,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"7Wy9kKbjFPrZQk2tKla22"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1242096614,
+			"version": 61,
+			"versionNonce": 924097254,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709652050192,
+			"link": null,
+			"locked": false,
+			"text": "依赖管理包",
+			"rawText": "依赖管理包",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "依赖管理包",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "ScKjSKEA",
+			"type": "text",
+			"x": -451.2327159392926,
+			"y": 565.1272526135745,
+			"width": 100,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"7Wy9kKbjFPrZQk2tKla22"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1078413094,
+			"version": 50,
+			"versionNonce": 1715695226,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709652050192,
+			"link": null,
+			"locked": false,
+			"text": "自动配置包",
+			"rawText": "自动配置包",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "自动配置包",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -5879,10 +5997,10 @@ B方法 ^6QLo5wkz
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 996.321678070369,
-		"scrollY": -7.599455338455073,
+		"scrollX": 1152.93278918148,
+		"scrollY": -463.42724803593774,
 		"zoom": {
-			"value": 0.45
+			"value": 1
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

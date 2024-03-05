@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
+                "file": "Excalidraw/杂/草稿纸 Draw.md"
               }
             }
           },
@@ -206,11 +206,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "196310dc34b93960",
   "lastOpenFiles": [
+    "临时笔记/草稿纸.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
+    "计算机/JavaWeb/前端/JavaScript/Untitled.md",
     "计算机/编程语言/Java/01 idea.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md",
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
     "临时笔记/自行车.md",
     "计算机/数据库/MYSQL安装配置.md",
     "计算机/数据库/MySQL.md",
@@ -219,7 +221,6 @@
     "计算机/编程语言/Java/07 异常.md",
     "计算机/JavaWeb/后端/Maven.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
-    "临时笔记/草稿纸.md",
     "临时笔记/Dance.md",
     "计算机/JavaWeb/后端/Spring Security.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
@@ -234,7 +235,6 @@
     "计算机/编程语言/Java/06 集合.md",
     "计算机/编程语言/Java/09 类与对象.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",
-    "计算机/编程语言/Java/08 修饰符.md",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
     "计算机/JavaWeb/前端/Vue",
