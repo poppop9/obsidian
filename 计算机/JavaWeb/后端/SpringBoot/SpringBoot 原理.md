@@ -51,8 +51,15 @@ public class SpringAopApplication {
 通过添加依赖包中的注解，即可将依赖包中的对象加入到 IOC 容器，从而引入项目
 
 ## @SpringBootApplication
+- `@SpringBootApplication`
 
-
+@Target({ElementType.TYPE})  
+@Retention(RetentionPolicy.RUNTIME)  
+@Documented  
+@Inherited  
+@SpringBootConfiguration  
+@EnableAutoConfiguration  
+@ComponentScan(
 
 
 
