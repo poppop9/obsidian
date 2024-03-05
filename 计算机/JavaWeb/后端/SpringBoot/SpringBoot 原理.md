@@ -69,9 +69,42 @@ public class SpringAopApplication {
 ### 条件装配注释树
 - `@Conditional` 条件装配的父注解【可以加在类，方法上】
 	- `@ConditionalOnClass` 判断环境中是否有对应的字节码文件，有才注册 Bean
-	- `@ConditionalOnMissingBean` 判断环境中是否没有对应的 Bean，没有才注册 Bean
+	- `@ConditionalOnMissingBean` 判断环境中是否没有对应的 Bean，没有才注册 Bean；如果有，则用我们自己生成的 Bean
 	- `@ConditionalOnProperty` 判断环境中是否有对应的属性名，属性值
 	- ……
+
+### @ConditionalOnClass
+当引入了 jwt 依赖后，项目中就会存在这个类，那么该 Bean 就会装配到 IOC 容器；
+
+```java
+@Bean
+// 此处是jwt依赖里的类
+@ConditionalOnClass(name = io.jsonwebtoken.Jwts)
+public SSSBean getSSSBean {
+    return new SSSBean();
+}
+```
+
+### @ConditionalOnProperty
+当在配置文件 `application.yml` 中，有指定的 `name` 和 `value` ，则装配 Bean
+
+```yml
+status: yes
+```
+
+```java
+@Bean
+// 此处是jwt依赖里的类
+@ConditionalOnProperty(name = “status ”, value = “yes”)
+public SSSBean getSSSBean {
+    return new SSSBean();
+}
+```
+
+# 自定义起步依赖
+- SpringBoot 官方整合的起步依赖：`spring-boot-starter-……`
+- 自定义的起步依赖：`……-spring-boot-starter`
+
 
 
 
