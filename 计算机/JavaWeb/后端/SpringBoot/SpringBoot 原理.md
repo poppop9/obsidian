@@ -59,7 +59,7 @@ public class SpringAopApplication {
 	- `@SpringBootConfiguration`  表示是一个<u>配置类</u>【所以可以在启动类里配置第三方 Bean，不过不推荐】
 	- `@EnableAutoConfiguration`  
 		- `@AutoConfigurationPackage` 
-		- `@Import({AutoConfigurationImportSelector.class})`
+		- `@Import({AutoConfigurationImportSelector.class})` 导入了一个 `ImportSelector接口` 的实现类，`ImportSelector接口` 的其中一个方法的返回值是一个 `String[]` ，里面是导入到 IOC 容器中的类  
 	- `@ComponentScan(……)` 表示扫描包的范围【默认是扫描包及其子包】
 
 
