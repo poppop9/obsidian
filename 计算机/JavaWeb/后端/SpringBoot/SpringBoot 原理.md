@@ -66,9 +66,12 @@ public class SpringAopApplication {
 ## 条件装配
 `org.springframework.boot.autoconfigure.AutoConfiguration.imports` 文件里所有的配置类基本都不是一次性就直接装配到 IOC 容器中的，都是***条件装配的***
 
-- `@Conditional` 条件装配的父注解
-	- `@ConditionalOnClass` 判断环境中是否有对应的字节码文件
-
+### 条件装配注释树
+- `@Conditional` 条件装配的父注解【可以加在类，方法上】
+	- `@ConditionalOnClass` 判断环境中是否有对应的字节码文件，有才注册 Bean
+	- `@ConditionalOnMissingBean` 判断环境中是否没有对应的 Bean，没有才注册 Bean
+	- `@ConditionalOnProperty` 判断环境中是否有对应的属性名，属性值
+	- ……
 
 
 
