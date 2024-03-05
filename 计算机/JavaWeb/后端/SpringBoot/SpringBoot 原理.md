@@ -60,10 +60,14 @@ public class SpringAopApplication {
 	- `@EnableAutoConfiguration`  
 		- `@AutoConfigurationPackage` 
 		- `@Import({AutoConfigurationImportSelector.class})` 导入了一个 `ImportSelector接口` 的实现类，`ImportSelector接口` 的其中一个方法的返回值是一个 `String[]` ，里面是导入到 IOC 容器中的类
-			- 
+			- 最终会跟踪到一个文件 `org.springframework.boot.autoconfigure.AutoConfiguration.imports` 里面包含了所有的配置类
 	- `@ComponentScan(……)` 表示扫描包的范围【默认是扫描当前包及其子包】
 
+## 条件装配
+`org.springframework.boot.autoconfigure.AutoConfiguration.imports` 文件里所有的配置类基本都不是一次性就直接装配到 IOC 容器中的，都是***条件装配的***
 
+- `@Conditional` 条件装配的父注解
+	- `@ConditionalOnClass` 判断环境中是否有对应的字节码文件
 
 
 
