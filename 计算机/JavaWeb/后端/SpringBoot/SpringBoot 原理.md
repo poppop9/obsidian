@@ -52,14 +52,15 @@ public class SpringAopApplication {
 
 ## @SpringBootApplication
 - `@SpringBootApplication`
-
-@Target({ElementType.TYPE})  
-@Retention(RetentionPolicy.RUNTIME)  
-@Documented  
-@Inherited  
-@SpringBootConfiguration  
-@EnableAutoConfiguration  
-@ComponentScan(
+	- `@Target({ElementType.TYPE})`  源注解，用于描述注解的使用范围【可以指定注解可以用于类、方法、字段……】
+	- `@Retention(RetentionPolicy.RUNTIME)`  源注解，用于描述注解的生命周期【可以指定注解在编译时、运行时或两者都保留】
+	- `@Documented`  源注解，用于描述注解是否应该包含在Javadoc中
+	- `@Inherited`  源注解，用于描述注解是否应该继承到子类中
+	- `@SpringBootConfiguration`  表示是一个<u>配置类</u>【所以可以在启动类里配置第三方 Bean，不过不推荐】
+	- `@EnableAutoConfiguration`  
+		- `@AutoConfigurationPackage` 
+		- `@Import({AutoConfigurationImportSelector.class})`
+	- `@ComponentScan(……)` 表示扫描包的范围【默认是扫描包及其子包】
 
 
 
