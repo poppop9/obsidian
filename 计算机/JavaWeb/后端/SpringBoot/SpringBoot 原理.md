@@ -105,7 +105,7 @@ public SSSBean getSSSBean {
 - SpringBoot 官方整合的起步依赖：`spring-boot-starter-……`
 - 自定义的起步依赖：`……-spring-boot-starter`
 
-
+自定义起步依赖时，我们会定义两个包【<u>依赖管理包</u>，<u>自动配置包</u>】
 
 
 
