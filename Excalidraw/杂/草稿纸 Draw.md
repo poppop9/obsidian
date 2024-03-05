@@ -126,15 +126,10 @@ B方法 ^6QLo5wkz
 
 例如硬件层面问题，内存资源不足 ^perVgBGK
 
-依赖管理包 ^5pq7jji5
-
-自动配置包 ^ScKjSKEA
-
 
 # Embedded files
 2133848e5f3c103e7b2e144cf1d154d9633a2781: [[Pasted Image 20240303101354_873.png]]
 84eb8fa021ceb976df62422e93f43acff587a58e: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402261418894.png
-4d08527ca201fef605abccdd0c81e54e0d8d436c: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403052319660.png
 
 %%
 # Drawing
@@ -231,8 +226,8 @@ B方法 ^6QLo5wkz
 		},
 		{
 			"type": "arrow",
-			"version": 819,
-			"versionNonce": 419927334,
+			"version": 821,
+			"versionNonce": 274249318,
 			"isDeleted": false,
 			"id": "Xfq2tzbZFQsoeOe4hPvpH",
 			"fillStyle": "solid",
@@ -257,7 +252,7 @@ B方法 ^6QLo5wkz
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709517084738,
+			"updated": 1709652060477,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -286,8 +281,8 @@ B方法 ^6QLo5wkz
 		},
 		{
 			"type": "arrow",
-			"version": 814,
-			"versionNonce": 1146422182,
+			"version": 816,
+			"versionNonce": 2084492518,
 			"isDeleted": false,
 			"id": "LAuzygNsl5cDwYhcWjhhc",
 			"fillStyle": "solid",
@@ -312,7 +307,7 @@ B方法 ^6QLo5wkz
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709517084739,
+			"updated": 1709652060478,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1817,8 +1812,8 @@ B方法 ^6QLo5wkz
 		},
 		{
 			"type": "arrow",
-			"version": 182,
-			"versionNonce": 215679142,
+			"version": 184,
+			"versionNonce": 1907503590,
 			"isDeleted": false,
 			"id": "0pY1w3vl7FOnW2_Nt1GsZ",
 			"fillStyle": "solid",
@@ -1843,7 +1838,7 @@ B方法 ^6QLo5wkz
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709517084741,
+			"updated": 1709652060495,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1872,8 +1867,8 @@ B方法 ^6QLo5wkz
 		},
 		{
 			"type": "arrow",
-			"version": 154,
-			"versionNonce": 467898150,
+			"version": 156,
+			"versionNonce": 51343462,
 			"isDeleted": false,
 			"id": "6DCmquy3sgOhRYAoAV0da",
 			"fillStyle": "solid",
@@ -1898,7 +1893,7 @@ B方法 ^6QLo5wkz
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709517084741,
+			"updated": 1709652060496,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2158,8 +2153,8 @@ B方法 ^6QLo5wkz
 		},
 		{
 			"type": "rectangle",
-			"version": 174,
-			"versionNonce": 662806246,
+			"version": 175,
+			"versionNonce": 2090813478,
 			"isDeleted": false,
 			"id": "ZBGEYwXCfNAuBJTslGrvd",
 			"fillStyle": "solid",
@@ -2168,7 +2163,7 @@ B方法 ^6QLo5wkz
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 247.8937715675975,
+			"x": 247.89377156759747,
 			"y": 1353.8851587039524,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -2189,14 +2184,14 @@ B方法 ^6QLo5wkz
 					"id": "TdzSjEOV"
 				}
 			],
-			"updated": 1709517084740,
+			"updated": 1709652060493,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 42,
-			"versionNonce": 150524454,
+			"version": 43,
+			"versionNonce": 1460622182,
 			"isDeleted": false,
 			"id": "TdzSjEOV",
 			"fillStyle": "solid",
@@ -2205,7 +2200,7 @@ B方法 ^6QLo5wkz
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 255.3417479864637,
+			"x": 255.34174798646367,
 			"y": 1381.7153552828538,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -2219,7 +2214,7 @@ B方法 ^6QLo5wkz
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709517084740,
+			"updated": 1709652060494,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -5870,9 +5865,9 @@ B方法 ^6QLo5wkz
 		},
 		{
 			"type": "image",
-			"version": 26,
-			"versionNonce": 2103326138,
-			"isDeleted": false,
+			"version": 27,
+			"versionNonce": 360814586,
+			"isDeleted": true,
 			"id": "saxt9a4H",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -5893,7 +5888,7 @@ B方法 ^6QLo5wkz
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709652050192,
+			"updated": 1709652059946,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -5924,11 +5919,11 @@ B方法 ^6QLo5wkz
 			"frameId": null,
 			"roundness": null,
 			"seed": 1242096614,
-			"version": 61,
-			"versionNonce": 924097254,
-			"isDeleted": false,
+			"version": 62,
+			"versionNonce": 788495526,
+			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1709652050192,
+			"updated": 1709652059946,
 			"link": null,
 			"locked": false,
 			"text": "依赖管理包",
@@ -5963,11 +5958,11 @@ B方法 ^6QLo5wkz
 			"frameId": null,
 			"roundness": null,
 			"seed": 1078413094,
-			"version": 50,
-			"versionNonce": 1715695226,
-			"isDeleted": false,
+			"version": 51,
+			"versionNonce": 1614842042,
+			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1709652050192,
+			"updated": 1709652059946,
 			"link": null,
 			"locked": false,
 			"text": "自动配置包",
