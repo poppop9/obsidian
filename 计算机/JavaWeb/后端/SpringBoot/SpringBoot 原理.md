@@ -122,8 +122,25 @@ public SSSBean getSSSBean {
 ```
 
 ## 自动配置包
+- org.springframework.boot.autoconfigure.AutoConfiguration.imports
+```imports
+// 里面写的是所有配置类的全类名
+org.mybatis.spring.boot.autoconfigure.MybatisLanguageDriverAutoConfiguration  
+org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration
+```
 
-
+- MybatisAutoConfiguration
+```java
+@Configuration(  
+    proxyBeanMethods = false  
+)  
+…………各种条件装配
+@EnableConfigurationProperties({MybatisProperties.class})  
+@AutoConfigureAfter({DataSourceAutoConfiguration.class, MybatisLanguageDriverAutoConfiguration.class})
+public class MybatisAutoConfiguration implements InitializingBean {
+	……
+}
+```
 
 
 
