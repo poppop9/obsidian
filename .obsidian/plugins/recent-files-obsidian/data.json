@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "配置优先级，Bean管理",
+      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+    },
+    {
       "basename": "SpringBoot 原理",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
-      "basename": "配置优先级，Bean管理",
-      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
     },
     {
       "basename": "Dance",

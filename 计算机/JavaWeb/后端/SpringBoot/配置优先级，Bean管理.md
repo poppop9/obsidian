@@ -204,6 +204,8 @@ SAXReader saxReader = new SaxReader();
 private SAXReader saxReader;
 ```
 
+---
+
 >[!hint] 如果在定义第三方 Bean 的过程中需要进行依赖注入怎么办 ？
 >直接声明，不用使用 `@AutoWired`，SpringBoot 会自动进行依赖注入
 
@@ -215,6 +217,18 @@ public SAXReader saxReader(DeptService deptService) {  // Spring会自动对dept
 }
 ```
 
+```java
+@Configuration
+// 将一个带有@ConfigurationProperties注解的类注册为一个Bean
+@EnableConfigurationProperties(DeptService.class)
+public class SaxReaderConfiguration {
+	@Bean
+	public SAXReader saxReader(DeptService deptService) {  // Spring会自动对deptService注入
+		sout(deptService);
+		return new SAXReader();
+	}
+}
+```
 
 
 
