@@ -248,12 +248,24 @@
 
 >[!warning] Maven 中项目只能 <u>单继承</u>【只能继承一个项目】
 
+#### 父工程
+>父工程下不写代码，只进行子工程共用的依赖管理
+
 >[!warning] 在设置父工程时，需要将打包方式设置为 `pom`【默认是 `jar`】
 > ```xml
 > <packing>pom</packing>
 > ```
 
-父工程下不写代码，只进行子工程共用的依赖管理
+#### 子工程
+```xml
+<parent>
+	<groupId>com.blog</groupId>  
+	<artifactId>blog-parent</artifactId>  
+	<version>……</version>  
+	<relativePath>../blog-parent/pom.xml</relativePath>  //指定父工程的pom文件位置
+</parent>
+```
+
 
 
 ### 聚合
