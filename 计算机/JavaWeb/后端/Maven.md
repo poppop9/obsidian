@@ -190,7 +190,12 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 # Maven 高级
 ## 分模块设计与开发
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403061147795.png)
-
+- idea_project
+	- ***blog_pojo***
+	- ***blog_utils***
+	- ***blog_manegement***
+		- src
+			- 
 
 
 
