@@ -189,7 +189,9 @@
 >![[JavaWeb Draw#^group=QqvDzj8c|300]]
 
 # Maven 的打包方式
-
+- `jar` 【默认】Java 应用程序的标准打包格式，内嵌了 Tomcat
+- `war` Web 应用程序的打包格式，需要自己部署到服务器上yun'xing
+- `pom` ***通常用在父级工程或聚合工程中***
 
 
 # Maven 高级
