@@ -1090,7 +1090,7 @@ div.markdown-reading-view .callout-content>pre {
 	left: -11px;
 }
 
-/* ----------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------- */
 /* 无序列表 */
 /* 编辑模式 */
 .markdown-rendered ul {
@@ -1242,10 +1242,14 @@ ul>li.task-list-item[data-task="X"] {
 	color: #797979;
 }
 
-/* ----------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
 /* 有序列表 */
-div>ol {
-	padding-inline-start: 1.3rem !important;
+div>ol li[data-line]:not(:nth-child(n+10)) {
+	transform: translate(-22px, 0px);
+}
+
+div>ol li[data-line]:nth-child(n+10) {
+	transform: translate(-12px, 0px);
 }
 
 /* 编辑模式 */
@@ -1268,7 +1272,6 @@ div>ol {
 .markdown-rendered ol {
 	margin-block-start: 0.4rem;
 }
-
 
 ol>li::marker {
 	color: #ed6c60;

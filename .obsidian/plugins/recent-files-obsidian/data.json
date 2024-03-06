@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2 CSS中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
+    },
+    {
+      "basename": "3 CSS高级",
+      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+    },
+    {
+      "basename": "MYSQL安装配置",
+      "path": "计算机/数据库/MYSQL安装配置.md"
+    },
+    {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
@@ -21,10 +33,6 @@
       "path": "临时笔记/草稿纸.md"
     },
     {
-      "basename": "MYSQL安装配置",
-      "path": "计算机/数据库/MYSQL安装配置.md"
-    },
-    {
       "basename": "配置优先级，Bean管理",
       "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
     },
@@ -39,14 +47,6 @@
     {
       "basename": "MySQL",
       "path": "计算机/数据库/MySQL.md"
-    },
-    {
-      "basename": "3 CSS高级",
-      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
-    },
-    {
-      "basename": "2 CSS中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "07 异常",
