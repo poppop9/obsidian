@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
       "basename": "SpringBoot 原理",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "07 异常",
       "path": "计算机/编程语言/Java/07 异常.md"
-    },
-    {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "Dance",
