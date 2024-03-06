@@ -178,6 +178,10 @@ Java项目 ^HGsJ9mNc
 
 …… ^fcfLXYuv
 
+项目5 ^tKu05NcE
+
+通用模块 ^M64huwhE
+
 
 # Embedded files
 2133848e5f3c103e7b2e144cf1d154d9633a2781: [[Pasted Image 20240303101354_873.png]]
@@ -278,8 +282,8 @@ Java项目 ^HGsJ9mNc
 		},
 		{
 			"type": "arrow",
-			"version": 836,
-			"versionNonce": 1053394554,
+			"version": 838,
+			"versionNonce": 669726202,
 			"isDeleted": false,
 			"id": "Xfq2tzbZFQsoeOe4hPvpH",
 			"fillStyle": "solid",
@@ -304,7 +308,7 @@ Java项目 ^HGsJ9mNc
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709696726477,
+			"updated": 1709696790474,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -333,8 +337,8 @@ Java项目 ^HGsJ9mNc
 		},
 		{
 			"type": "arrow",
-			"version": 831,
-			"versionNonce": 1700900858,
+			"version": 833,
+			"versionNonce": 511541114,
 			"isDeleted": false,
 			"id": "LAuzygNsl5cDwYhcWjhhc",
 			"fillStyle": "solid",
@@ -359,7 +363,7 @@ Java项目 ^HGsJ9mNc
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709696726477,
+			"updated": 1709696790475,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1864,8 +1868,8 @@ Java项目 ^HGsJ9mNc
 		},
 		{
 			"type": "arrow",
-			"version": 199,
-			"versionNonce": 2056577786,
+			"version": 201,
+			"versionNonce": 361558650,
 			"isDeleted": false,
 			"id": "0pY1w3vl7FOnW2_Nt1GsZ",
 			"fillStyle": "solid",
@@ -1874,11 +1878,11 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -32.08717718456836,
+			"x": -32.08717718456839,
 			"y": 1365.4364067109987,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 566.562631634371,
+			"width": 566.5626316343711,
 			"height": 0.000020983155309295398,
 			"seed": 312261740,
 			"groupIds": [
@@ -1890,7 +1894,7 @@ Java项目 ^HGsJ9mNc
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709696726505,
+			"updated": 1709696790505,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1912,15 +1916,15 @@ Java项目 ^HGsJ9mNc
 					0
 				],
 				[
-					566.562631634371,
+					566.5626316343711,
 					-0.000020983155309295398
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 171,
-			"versionNonce": 1784671354,
+			"version": 173,
+			"versionNonce": 1530534906,
 			"isDeleted": false,
 			"id": "6DCmquy3sgOhRYAoAV0da",
 			"fillStyle": "solid",
@@ -1945,7 +1949,7 @@ Java项目 ^HGsJ9mNc
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1709696726505,
+			"updated": 1709696790506,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2205,8 +2209,8 @@ Java项目 ^HGsJ9mNc
 		},
 		{
 			"type": "rectangle",
-			"version": 183,
-			"versionNonce": 1818075322,
+			"version": 184,
+			"versionNonce": 1079214138,
 			"isDeleted": false,
 			"id": "ZBGEYwXCfNAuBJTslGrvd",
 			"fillStyle": "solid",
@@ -2215,7 +2219,7 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 247.8937715675975,
+			"x": 247.89377156759747,
 			"y": 1353.8851587039524,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -2236,14 +2240,14 @@ Java项目 ^HGsJ9mNc
 					"id": "TdzSjEOV"
 				}
 			],
-			"updated": 1709696726499,
+			"updated": 1709696790499,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 51,
-			"versionNonce": 941455738,
+			"version": 52,
+			"versionNonce": 1630234874,
 			"isDeleted": false,
 			"id": "TdzSjEOV",
 			"fillStyle": "solid",
@@ -2252,7 +2256,7 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 255.3417479864637,
+			"x": 255.34174798646367,
 			"y": 1381.7153552828538,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -2266,7 +2270,7 @@ Java项目 ^HGsJ9mNc
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709696726500,
+			"updated": 1709696790500,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -6595,8 +6599,8 @@ Java项目 ^HGsJ9mNc
 				"type": 2
 			},
 			"seed": 1797841018,
-			"version": 488,
-			"versionNonce": 709943162,
+			"version": 492,
+			"versionNonce": 2060930810,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -6604,7 +6608,7 @@ Java项目 ^HGsJ9mNc
 					"id": "hvkKqTkm"
 				}
 			],
-			"updated": 1709696726510,
+			"updated": 1709696790513,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -6743,16 +6747,16 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 872493478,
-			"version": 71,
-			"versionNonce": 394128166,
+			"version": 73,
+			"versionNonce": 400215078,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709696767431,
+			"updated": 1709696837574,
 			"link": null,
 			"locked": false,
 			"text": "不分模块设计",
@@ -6782,15 +6786,15 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
 			"seed": 769594150,
-			"version": 53,
-			"versionNonce": 403063354,
+			"version": 55,
+			"versionNonce": 19132730,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -6798,7 +6802,7 @@ Java项目 ^HGsJ9mNc
 					"type": "arrow"
 				}
 			],
-			"updated": 1709696767431,
+			"updated": 1709696837574,
 			"link": null,
 			"locked": false
 		},
@@ -6818,16 +6822,16 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 265107686,
-			"version": 53,
-			"versionNonce": 69310054,
+			"version": 55,
+			"versionNonce": 138041190,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709696767431,
+			"updated": 1709696837574,
 			"link": null,
 			"locked": false,
 			"text": "Java项目",
@@ -6857,15 +6861,15 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
 			"seed": 1362076666,
-			"version": 42,
-			"versionNonce": 2033576698,
+			"version": 44,
+			"versionNonce": 1892006394,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -6873,7 +6877,7 @@ Java项目 ^HGsJ9mNc
 					"id": "VrzEM7Al"
 				}
 			],
-			"updated": 1709696767431,
+			"updated": 1709696837574,
 			"link": null,
 			"locked": false
 		},
@@ -6893,16 +6897,16 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 1132681530,
-			"version": 19,
-			"versionNonce": 1303239078,
+			"version": 21,
+			"versionNonce": 856062630,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709696767431,
+			"updated": 1709696837574,
 			"link": null,
 			"locked": false,
 			"text": "商品模块",
@@ -6932,15 +6936,15 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
 			"seed": 2127680038,
-			"version": 35,
-			"versionNonce": 267549626,
+			"version": 37,
+			"versionNonce": 1118857914,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -6948,7 +6952,7 @@ Java项目 ^HGsJ9mNc
 					"id": "Ukbaj6lH"
 				}
 			],
-			"updated": 1709696767431,
+			"updated": 1709696837574,
 			"link": null,
 			"locked": false
 		},
@@ -6968,16 +6972,16 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 644987430,
-			"version": 17,
-			"versionNonce": 2068821222,
+			"version": 19,
+			"versionNonce": 1324103142,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709696767431,
+			"updated": 1709696837574,
 			"link": null,
 			"locked": false,
 			"text": "搜索模块",
@@ -7007,15 +7011,15 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
 			"seed": 1725577210,
-			"version": 31,
-			"versionNonce": 1784607866,
+			"version": 33,
+			"versionNonce": 226952058,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -7023,7 +7027,7 @@ Java项目 ^HGsJ9mNc
 					"id": "3ONrMOsu"
 				}
 			],
-			"updated": 1709696767431,
+			"updated": 1709696837574,
 			"link": null,
 			"locked": false
 		},
@@ -7043,16 +7047,16 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 1297423610,
-			"version": 29,
-			"versionNonce": 647243814,
+			"version": 31,
+			"versionNonce": 888703270,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709696767431,
+			"updated": 1709696837574,
 			"link": null,
 			"locked": false,
 			"text": "购物车模块",
@@ -7082,15 +7086,15 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
 			"seed": 226872186,
-			"version": 31,
-			"versionNonce": 1514034490,
+			"version": 33,
+			"versionNonce": 462193722,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -7098,7 +7102,7 @@ Java项目 ^HGsJ9mNc
 					"id": "dLIbb8Lw"
 				}
 			],
-			"updated": 1709696767431,
+			"updated": 1709696837574,
 			"link": null,
 			"locked": false
 		},
@@ -7118,16 +7122,16 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 458780794,
-			"version": 25,
-			"versionNonce": 795358054,
+			"version": 27,
+			"versionNonce": 345535590,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709696767431,
+			"updated": 1709696837574,
 			"link": null,
 			"locked": false,
 			"text": "订单模块",
@@ -7143,8 +7147,8 @@ Java项目 ^HGsJ9mNc
 		},
 		{
 			"type": "text",
-			"version": 152,
-			"versionNonce": 15965690,
+			"version": 180,
+			"versionNonce": 1097363962,
 			"isDeleted": false,
 			"id": "4g4Gd0Pv",
 			"fillStyle": "hachure",
@@ -7153,8 +7157,8 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1373.4449913252886,
-			"y": 103.74069599180439,
+			"x": 1372.6450035323198,
+			"y": 72.54068378477314,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
 			"width": 99.97999572753906,
@@ -7162,12 +7166,12 @@ Java项目 ^HGsJ9mNc
 			"seed": 316169146,
 			"groupIds": [
 				"1d5QISWW9Bp0L92WIcOiP",
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709696767431,
+			"updated": 1709696845355,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -7184,8 +7188,8 @@ Java项目 ^HGsJ9mNc
 		{
 			"id": "qQaX4XCIFHeORLngL-Sz0",
 			"type": "rectangle",
-			"x": 1373.4349891890581,
-			"y": 137.34071735410907,
+			"x": 1372.6350013960894,
+			"y": 106.14070514707782,
 			"width": 167.199951171875,
 			"height": 45.5999755859375,
 			"angle": 0,
@@ -7199,26 +7203,31 @@ Java项目 ^HGsJ9mNc
 			"groupIds": [
 				"64Oj1nVhb_7Dl0vQKisGg",
 				"1d5QISWW9Bp0L92WIcOiP",
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
 			"seed": 306717734,
-			"version": 214,
-			"versionNonce": 1880676006,
+			"version": 243,
+			"versionNonce": 1580999354,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1709696767431,
+			"boundElements": [
+				{
+					"id": "5kYbhR2G_hra4wpIC14IX",
+					"type": "arrow"
+				}
+			],
+			"updated": 1709696845355,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "diXYCZ60",
 			"type": "text",
-			"x": 1380.6349403609331,
-			"y": 138.5406990435622,
+			"x": 1379.8349525679644,
+			"y": 107.34068683653095,
 			"width": 44.99998474121094,
 			"height": 24,
 			"angle": 0,
@@ -7232,16 +7241,16 @@ Java项目 ^HGsJ9mNc
 			"groupIds": [
 				"64Oj1nVhb_7Dl0vQKisGg",
 				"1d5QISWW9Bp0L92WIcOiP",
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 907786470,
-			"version": 99,
-			"versionNonce": 1535233722,
+			"version": 127,
+			"versionNonce": 562707514,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709696767432,
+			"updated": 1709696845355,
 			"link": null,
 			"locked": false,
 			"text": "项目1",
@@ -7258,8 +7267,8 @@ Java项目 ^HGsJ9mNc
 		{
 			"id": "lsCpVAiO",
 			"type": "text",
-			"x": 1450.8349525679644,
-			"y": 153.5406990435622,
+			"x": 1450.0349647749956,
+			"y": 122.34068683653095,
 			"width": 79.97999572753906,
 			"height": 24,
 			"angle": 0,
@@ -7273,16 +7282,16 @@ Java项目 ^HGsJ9mNc
 			"groupIds": [
 				"64Oj1nVhb_7Dl0vQKisGg",
 				"1d5QISWW9Bp0L92WIcOiP",
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 1057027386,
-			"version": 98,
-			"versionNonce": 1901269478,
+			"version": 126,
+			"versionNonce": 1680516346,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709696767432,
+			"updated": 1709696845355,
 			"link": null,
 			"locked": false,
 			"text": "商品模块",
@@ -7298,8 +7307,8 @@ Java项目 ^HGsJ9mNc
 		},
 		{
 			"type": "rectangle",
-			"version": 244,
-			"versionNonce": 1317791610,
+			"version": 273,
+			"versionNonce": 1883239866,
 			"isDeleted": false,
 			"id": "hpOOYDFNGEFpffr1BDSCG",
 			"fillStyle": "hachure",
@@ -7308,8 +7317,8 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1372.4349891890581,
-			"y": 199.9407234576247,
+			"x": 1371.6350013960894,
+			"y": 168.74071125059345,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 167.199951171875,
@@ -7318,7 +7327,7 @@ Java项目 ^HGsJ9mNc
 			"groupIds": [
 				"uASjtQyLAfB0o9x1FLi-W",
 				"1d5QISWW9Bp0L92WIcOiP",
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": {
@@ -7328,16 +7337,20 @@ Java项目 ^HGsJ9mNc
 				{
 					"id": "qYbBLwZUSR_XQOv7Q_k-s",
 					"type": "arrow"
+				},
+				{
+					"id": "PnbNuiIuktCHN0kq7L9Rp",
+					"type": "arrow"
 				}
 			],
-			"updated": 1709696767432,
+			"updated": 1709696845355,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 130,
-			"versionNonce": 505668902,
+			"version": 158,
+			"versionNonce": 1950501050,
 			"isDeleted": false,
 			"id": "LryyZFqh",
 			"fillStyle": "hachure",
@@ -7346,8 +7359,8 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1379.6349403609331,
-			"y": 201.14070514707782,
+			"x": 1378.8349525679644,
+			"y": 169.94069294004657,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 50.21998596191406,
@@ -7356,12 +7369,12 @@ Java项目 ^HGsJ9mNc
 			"groupIds": [
 				"uASjtQyLAfB0o9x1FLi-W",
 				"1d5QISWW9Bp0L92WIcOiP",
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709696767432,
+			"updated": 1709696845356,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -7377,8 +7390,8 @@ Java项目 ^HGsJ9mNc
 		},
 		{
 			"type": "text",
-			"version": 143,
-			"versionNonce": 844425274,
+			"version": 171,
+			"versionNonce": 757932410,
 			"isDeleted": false,
 			"id": "QhwlSx3e",
 			"fillStyle": "hachure",
@@ -7387,8 +7400,8 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1449.8349525679644,
-			"y": 216.14070514707782,
+			"x": 1449.0349647749956,
+			"y": 184.94069294004657,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 79.97999572753906,
@@ -7397,12 +7410,12 @@ Java项目 ^HGsJ9mNc
 			"groupIds": [
 				"uASjtQyLAfB0o9x1FLi-W",
 				"1d5QISWW9Bp0L92WIcOiP",
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709696767432,
+			"updated": 1709696845356,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -7418,8 +7431,8 @@ Java项目 ^HGsJ9mNc
 		},
 		{
 			"type": "rectangle",
-			"version": 274,
-			"versionNonce": 2012762214,
+			"version": 302,
+			"versionNonce": 1556013626,
 			"isDeleted": false,
 			"id": "8CDFhzUSRml0ev87DNgW9",
 			"fillStyle": "hachure",
@@ -7428,8 +7441,8 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1372.8349525679644,
-			"y": 268.3407173541091,
+			"x": 1372.0349647749956,
+			"y": 237.14070514707782,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 167.199951171875,
@@ -7438,21 +7451,21 @@ Java项目 ^HGsJ9mNc
 			"groupIds": [
 				"m_K00HV18LTyDZohaCJuF",
 				"1d5QISWW9Bp0L92WIcOiP",
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": {
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1709696767432,
+			"updated": 1709696845356,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 163,
-			"versionNonce": 1589629178,
+			"version": 191,
+			"versionNonce": 1574603514,
 			"isDeleted": false,
 			"id": "dpS2gjHH",
 			"fillStyle": "hachure",
@@ -7461,8 +7474,8 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1380.0349037398394,
-			"y": 269.5406990435622,
+			"x": 1379.2349159468706,
+			"y": 238.34068683653095,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 49.45997619628906,
@@ -7471,12 +7484,12 @@ Java项目 ^HGsJ9mNc
 			"groupIds": [
 				"m_K00HV18LTyDZohaCJuF",
 				"1d5QISWW9Bp0L92WIcOiP",
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1709696767432,
+			"updated": 1709696845356,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -7492,8 +7505,8 @@ Java项目 ^HGsJ9mNc
 		},
 		{
 			"type": "text",
-			"version": 199,
-			"versionNonce": 1251824550,
+			"version": 228,
+			"versionNonce": 922950586,
 			"isDeleted": false,
 			"id": "z5EN0Dua",
 			"fillStyle": "hachure",
@@ -7502,8 +7515,8 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1438.2349159468706,
-			"y": 285.34068683653095,
+			"x": 1437.4349281539019,
+			"y": 254.1406746294997,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
 			"width": 99.97999572753906,
@@ -7512,12 +7525,17 @@ Java项目 ^HGsJ9mNc
 			"groupIds": [
 				"m_K00HV18LTyDZohaCJuF",
 				"1d5QISWW9Bp0L92WIcOiP",
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
-			"boundElements": [],
-			"updated": 1709696767432,
+			"boundElements": [
+				{
+					"id": "QhlQPFcO68z4O6N2tjoi5",
+					"type": "arrow"
+				}
+			],
+			"updated": 1709696845356,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -7534,8 +7552,8 @@ Java项目 ^HGsJ9mNc
 		{
 			"id": "fcfLXYuv",
 			"type": "text",
-			"x": 1422.2349159468706,
-			"y": 330.1406746294997,
+			"x": 1421.4349281539019,
+			"y": 298.94066242246845,
 			"width": 40,
 			"height": 24,
 			"angle": 0,
@@ -7548,16 +7566,16 @@ Java项目 ^HGsJ9mNc
 			"opacity": 100,
 			"groupIds": [
 				"1d5QISWW9Bp0L92WIcOiP",
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": null,
 			"seed": 330955194,
-			"version": 80,
-			"versionNonce": 927965626,
+			"version": 108,
+			"versionNonce": 765916474,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709696767432,
+			"updated": 1709696845356,
 			"link": null,
 			"locked": false,
 			"text": "……",
@@ -7575,9 +7593,9 @@ Java项目 ^HGsJ9mNc
 			"id": "qYbBLwZUSR_XQOv7Q_k-s",
 			"type": "arrow",
 			"x": 1283.8350136031206,
-			"y": 198.6964963140303,
-			"width": 78.39996337890625,
-			"height": 3.0842078024783746,
+			"y": 185.4967752951876,
+			"width": 77.5999755859375,
+			"height": 6.0503599661949465,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -7587,18 +7605,18 @@ Java项目 ^HGsJ9mNc
 			"roughness": 1,
 			"opacity": 100,
 			"groupIds": [
-				"BkY2x6qYT-WY0AlzTXJNg"
+				"gWfr7EG7STbW2dx3GKbTQ"
 			],
 			"frameId": null,
 			"roundness": {
 				"type": 2
 			},
 			"seed": 664000570,
-			"version": 77,
-			"versionNonce": 1614802662,
+			"version": 131,
+			"versionNonce": 217403194,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709696767432,
+			"updated": 1709696845356,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -7607,8 +7625,8 @@ Java项目 ^HGsJ9mNc
 					0
 				],
 				[
-					78.39996337890625,
-					3.0842078024783746
+					77.5999755859375,
+					-6.0503599661949465
 				]
 			],
 			"lastCommittedPoint": null,
@@ -7624,12 +7642,323 @@ Java项目 ^HGsJ9mNc
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
+		},
+		{
+			"type": "rectangle",
+			"version": 356,
+			"versionNonce": 2142364134,
+			"isDeleted": false,
+			"id": "oI-Ru351lmAF6JwJ0g_qk",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1369.0350258101519,
+			"y": 333.9407539752028,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 167.199951171875,
+			"height": 45.5999755859375,
+			"seed": 404544058,
+			"groupIds": [
+				"gR2jw4dg417cB98InbwEV",
+				"mvuHJ7AgfaG5QSdN_k-QZ",
+				"gWfr7EG7STbW2dx3GKbTQ"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"id": "5kYbhR2G_hra4wpIC14IX",
+					"type": "arrow"
+				},
+				{
+					"id": "PnbNuiIuktCHN0kq7L9Rp",
+					"type": "arrow"
+				},
+				{
+					"id": "QhlQPFcO68z4O6N2tjoi5",
+					"type": "arrow"
+				}
+			],
+			"updated": 1709696847955,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 246,
+			"versionNonce": 548847334,
+			"isDeleted": false,
+			"id": "tKu05NcE",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1376.2349769820269,
+			"y": 335.14073566465595,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 50.05998229980469,
+			"height": 24,
+			"seed": 1790542586,
+			"groupIds": [
+				"gR2jw4dg417cB98InbwEV",
+				"mvuHJ7AgfaG5QSdN_k-QZ",
+				"gWfr7EG7STbW2dx3GKbTQ"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1709696847956,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 4,
+			"text": "项目5",
+			"rawText": "项目5",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "项目5",
+			"lineHeight": 1.2,
+			"baseline": 18
+		},
+		{
+			"type": "text",
+			"version": 323,
+			"versionNonce": 1586098726,
+			"isDeleted": false,
+			"id": "M64huwhE",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1449.6350013960894,
+			"y": 351.74071125059345,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 79.97999572753906,
+			"height": 24,
+			"seed": 1027806138,
+			"groupIds": [
+				"gR2jw4dg417cB98InbwEV",
+				"mvuHJ7AgfaG5QSdN_k-QZ",
+				"gWfr7EG7STbW2dx3GKbTQ"
+			],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1709696847956,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 4,
+			"text": "通用模块",
+			"rawText": "通用模块",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "通用模块",
+			"lineHeight": 1.2,
+			"baseline": 18
+		},
+		{
+			"id": "5kYbhR2G_hra4wpIC14IX",
+			"type": "arrow",
+			"x": 1549.4349891890581,
+			"y": 135.4653308683001,
+			"width": 65.60003662109375,
+			"height": 217.02541367674496,
+			"angle": 0,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"gWfr7EG7STbW2dx3GKbTQ"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1054736230,
+			"version": 174,
+			"versionNonce": 405320998,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709696847956,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					64.00006103515625,
+					129.87535596823085
+				],
+				[
+					-1.5999755859375,
+					217.02541367674496
+				]
+			],
+			"lastCommittedPoint": [
+				-1.5999755859375,
+				206.39999389648438
+			],
+			"startBinding": {
+				"elementId": "qQaX4XCIFHeORLngL-Sz0",
+				"focus": -0.9488527191516501,
+				"gap": 9.60003662109375
+			},
+			"endBinding": {
+				"elementId": "oI-Ru351lmAF6JwJ0g_qk",
+				"focus": 0.9130509747563017,
+				"gap": 11.60003662109375
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "PnbNuiIuktCHN0kq7L9Rp",
+			"type": "arrow",
+			"x": 1549.4349891890581,
+			"y": 201.21900961782518,
+			"width": 42.4000244140625,
+			"height": 138.19825500407035,
+			"angle": 0,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"gWfr7EG7STbW2dx3GKbTQ"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 2077509734,
+			"version": 99,
+			"versionNonce": 2028150886,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709696847956,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					35.20001220703125,
+					59.32168942573702
+				],
+				[
+					-7.20001220703125,
+					138.19825500407035
+				]
+			],
+			"lastCommittedPoint": [
+				-7.20001220703125,
+				130.4000244140625
+			],
+			"startBinding": {
+				"elementId": "hpOOYDFNGEFpffr1BDSCG",
+				"focus": -0.910718905810131,
+				"gap": 10.60003662109375
+			},
+			"endBinding": {
+				"elementId": "oI-Ru351lmAF6JwJ0g_qk",
+				"focus": 0.8375864111416064,
+				"gap": 6
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "QhlQPFcO68z4O6N2tjoi5",
+			"type": "arrow",
+			"x": 1547.0350258101519,
+			"y": 263.9018591618687,
+			"width": 28.200415554638084,
+			"height": 66.24409213079929,
+			"angle": 0,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"gWfr7EG7STbW2dx3GKbTQ"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 929949626,
+			"version": 108,
+			"versionNonce": 95298470,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709696847956,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					17.5999755859375,
+					22.23884598520914
+				],
+				[
+					-10.600439968700584,
+					66.24409213079929
+				]
+			],
+			"lastCommittedPoint": [
+				-16,
+				64.80001831054688
+			],
+			"startBinding": {
+				"elementId": "z5EN0Dua",
+				"focus": -1.0318563249349715,
+				"gap": 9.620101928710938
+			},
+			"endBinding": {
+				"elementId": "oI-Ru351lmAF6JwJ0g_qk",
+				"focus": 0.6797243482449273,
+				"gap": 3.800048828125
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemStrokeColor": "#2f9e44",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 1,
