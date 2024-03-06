@@ -191,11 +191,24 @@ Maven规定了一套统一的Java开发目录，这样***可以让不同开发�
 ## 分模块设计与开发
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403061147795.png)
 - idea_project
-	- ***blog_pojo***
-	- ***blog_utils***
+	- ***blog_pojo*** 创建时创建 Maven 就好，不用创建 Spring
+		- src
+			- main
+				- java
+					- com.blog
+						- `Dept`
+						- `Emp`
+						- ……
+	- ***blog_utils*** 创建时创建 Maven 就好，不用创建 Spring
 	- ***blog_manegement***
 		- src
-			- 
+			- main
+				- java
+					- com.blog
+						- controller
+						- service
+						- mapper
+						- ……
 
 
 

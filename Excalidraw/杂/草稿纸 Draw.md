@@ -7956,7 +7956,7 @@ Java项目 ^HGsJ9mNc
 		}
 	],
 	"appState": {
-		"theme": "light",
+		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#2f9e44",
 		"currentItemBackgroundColor": "transparent",
