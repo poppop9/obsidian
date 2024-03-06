@@ -134,10 +134,15 @@ org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration
 @Configuration(  
     proxyBeanMethods = false  
 )  
+
 …………各种条件装配
+
+// 导入Mybatis所需的配置信息
 @EnableConfigurationProperties({MybatisProperties.class})  
-@AutoConfigureAfter({DataSourceAutoConfiguration.class, MybatisLanguageDriverAutoConfiguration.class})
+
+……
 public class MybatisAutoConfiguration implements InitializingBean {
+	// 注册各种Bean
 	……
 }
 ```

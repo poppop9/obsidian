@@ -126,6 +126,14 @@ B方法 ^6QLo5wkz
 
 例如硬件层面问题，内存资源不足 ^perVgBGK
 
+Spring主项目 ^5y0krdQ9
+
+org.springframework.boot.
+autoconfigure.
+AutoConfiguration.imports ^eeFznvk8
+
+加载进 ^zMNCsNyO
+
 
 # Embedded files
 2133848e5f3c103e7b2e144cf1d154d9633a2781: [[Pasted Image 20240303101354_873.png]]
@@ -5864,6 +5872,237 @@ B方法 ^6QLo5wkz
 			"baseline": 18
 		},
 		{
+			"id": "TF8VOmMrkWaaUtiGhJTfL",
+			"type": "rectangle",
+			"x": -130.03364970245906,
+			"y": 1576.252012453757,
+			"width": 128,
+			"height": 52,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1868184186,
+			"version": 117,
+			"versionNonce": 107694650,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "5y0krdQ9"
+				}
+			],
+			"updated": 1709693884790,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "5y0krdQ9",
+			"type": "text",
+			"x": -122.03361918488093,
+			"y": 1590.252012453757,
+			"width": 111.99993896484375,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1103771770,
+			"version": 94,
+			"versionNonce": 1706685178,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709693884790,
+			"link": null,
+			"locked": false,
+			"text": "Spring主项目",
+			"rawText": "Spring主项目",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 18,
+			"containerId": "TF8VOmMrkWaaUtiGhJTfL",
+			"originalText": "Spring主项目",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "9b_DlhFKvF7nXIQaeVX-o",
+			"type": "rectangle",
+			"x": 76.36631367644719,
+			"y": 1556.2520429713352,
+			"width": 242.39990234375,
+			"height": 82.3999633789062,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"oafGzfjhUNgkpE8IhkWEM"
+			],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 2072050810,
+			"version": 223,
+			"versionNonce": 1231870970,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709693983828,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "eeFznvk8",
+			"type": "text",
+			"x": 85.16630146941594,
+			"y": 1561.052030764304,
+			"width": 224.37977600097656,
+			"height": 72,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [
+				"oafGzfjhUNgkpE8IhkWEM"
+			],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1133436518,
+			"version": 210,
+			"versionNonce": 71327910,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "znkLnr67jhdh9wPCWHlby",
+					"type": "arrow"
+				}
+			],
+			"updated": 1709693987183,
+			"link": null,
+			"locked": false,
+			"text": "org.springframework.boot.\nautoconfigure.\nAutoConfiguration.imports",
+			"rawText": "org.springframework.boot.\nautoconfigure.\nAutoConfiguration.imports",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 66,
+			"containerId": null,
+			"originalText": "org.springframework.boot.\nautoconfigure.\nAutoConfiguration.imports",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "znkLnr67jhdh9wPCWHlby",
+			"type": "arrow",
+			"x": 78.76633809050969,
+			"y": 1596.251981936179,
+			"width": 86.4000244140625,
+			"height": 4.800018310546875,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1563354682,
+			"version": 30,
+			"versionNonce": 1144585574,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709693987183,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-86.4000244140625,
+					4.800018310546875
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "eeFznvk8",
+				"focus": 0.17494455258367614,
+				"gap": 6.39996337890625
+			},
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "zMNCsNyO",
+			"type": "text",
+			"x": 37.36631367644719,
+			"y": 1547.8519880396946,
+			"width": 60,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1097920294,
+			"version": 12,
+			"versionNonce": 945034874,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1709693993058,
+			"link": null,
+			"locked": false,
+			"text": "加载进",
+			"rawText": "加载进",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "加载进",
+			"lineHeight": 1.2
+		},
+		{
 			"type": "image",
 			"version": 27,
 			"versionNonce": 360814586,
@@ -5980,8 +6219,8 @@ B方法 ^6QLo5wkz
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#e03131",
-		"currentItemBackgroundColor": "#b2f2bb",
+		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 1,
 		"currentItemStrokeStyle": "solid",
@@ -5992,8 +6231,8 @@ B方法 ^6QLo5wkz
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1152.93278918148,
-		"scrollY": -463.42724803593774,
+		"scrollX": 241.1336863235528,
+		"scrollY": -1283.9519865138157,
 		"zoom": {
 			"value": 1
 		},
