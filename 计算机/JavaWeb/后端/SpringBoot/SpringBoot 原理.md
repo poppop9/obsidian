@@ -111,7 +111,7 @@ public SSSBean getSSSBean {
 ![550](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403061104964.png)
 
 ---
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403061126071.png)
+![550](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403061131566.png)
 
 ## 依赖管理包
 - `pom.xml` 中有一项依赖：

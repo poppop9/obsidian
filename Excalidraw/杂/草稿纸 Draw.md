@@ -5965,8 +5965,8 @@ AutoConfiguration.imports ^eeFznvk8
 		{
 			"id": "9b_DlhFKvF7nXIQaeVX-o",
 			"type": "rectangle",
-			"x": 19.71712934904349,
-			"y": 1736.5998859627825,
+			"x": 2.650775364612798,
+			"y": 1705.0927574317304,
 			"width": 242.39990234375,
 			"height": 82.3999633789062,
 			"angle": 0,
@@ -5986,19 +5986,19 @@ AutoConfiguration.imports ^eeFznvk8
 				"type": 3
 			},
 			"seed": 2072050810,
-			"version": 655,
-			"versionNonce": 799530726,
+			"version": 687,
+			"versionNonce": 1511965606,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1709695843753,
+			"updated": 1709695903650,
 			"link": null,
 			"locked": false
 		},
 		{
 			"id": "eeFznvk8",
 			"type": "text",
-			"x": 28.51711714201224,
-			"y": 1741.3998737557513,
+			"x": 11.450763157581548,
+			"y": 1709.8927452246992,
 			"width": 224.37977600097656,
 			"height": 72,
 			"angle": 0,
@@ -6016,8 +6016,8 @@ AutoConfiguration.imports ^eeFznvk8
 			"frameId": null,
 			"roundness": null,
 			"seed": 1133436518,
-			"version": 645,
-			"versionNonce": 1173461114,
+			"version": 677,
+			"versionNonce": 1578327782,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -6045,7 +6045,7 @@ AutoConfiguration.imports ^eeFznvk8
 					"type": "arrow"
 				}
 			],
-			"updated": 1709695851689,
+			"updated": 1709695903650,
 			"link": null,
 			"locked": false,
 			"text": "org.springframework.boot.\nautoconfigure.\nAutoConfiguration.imports",
@@ -6062,8 +6062,8 @@ AutoConfiguration.imports ^eeFznvk8
 		{
 			"id": "VvW0Ww0g",
 			"type": "text",
-			"x": 27.623826463920864,
-			"y": 1712.6462152769868,
+			"x": 10.557472479490173,
+			"y": 1681.1390867459347,
 			"width": 149.75999450683594,
 			"height": 19.979647893967133,
 			"angle": 0,
@@ -6080,11 +6080,11 @@ AutoConfiguration.imports ^eeFznvk8
 			"frameId": null,
 			"roundness": null,
 			"seed": 1179179322,
-			"version": 520,
-			"versionNonce": 69324582,
+			"version": 552,
+			"versionNonce": 1063079718,
 			"isDeleted": false,
 			"boundElements": [],
-			"updated": 1709695843753,
+			"updated": 1709695903650,
 			"link": null,
 			"locked": false,
 			"text": "自动配置包下的文件",
@@ -6101,8 +6101,8 @@ AutoConfiguration.imports ^eeFznvk8
 		{
 			"id": "NkzME1o4",
 			"type": "text",
-			"x": 309.8133283858609,
-			"y": 1722.970225714018,
+			"x": -122.09695553634663,
+			"y": 1690.150294944251,
 			"width": 75.15998840332031,
 			"height": 24,
 			"angle": 0,
@@ -6119,8 +6119,8 @@ AutoConfiguration.imports ^eeFznvk8
 			"frameId": null,
 			"roundness": null,
 			"seed": 1575164922,
-			"version": 485,
-			"versionNonce": 2057894502,
+			"version": 586,
+			"versionNonce": 1114929766,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -6128,7 +6128,7 @@ AutoConfiguration.imports ^eeFznvk8
 					"type": "arrow"
 				}
 			],
-			"updated": 1709695843753,
+			"updated": 1709695903650,
 			"link": null,
 			"locked": false,
 			"text": "配置类 1",
@@ -6144,8 +6144,8 @@ AutoConfiguration.imports ^eeFznvk8
 		},
 		{
 			"type": "text",
-			"version": 463,
-			"versionNonce": 2051938534,
+			"version": 556,
+			"versionNonce": 1698273510,
 			"isDeleted": false,
 			"id": "kiiCfHGK",
 			"fillStyle": "hachure",
@@ -6154,8 +6154,8 @@ AutoConfiguration.imports ^eeFznvk8
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 309.76026457660475,
-			"y": 1766.031573036431,
+			"x": -134.62160305396213,
+			"y": 1731.242451428402,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#fdefef",
 			"width": 80.37998962402344,
@@ -6172,7 +6172,7 @@ AutoConfiguration.imports ^eeFznvk8
 					"type": "arrow"
 				}
 			],
-			"updated": 1709695843753,
+			"updated": 1709695903650,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -6188,8 +6188,8 @@ AutoConfiguration.imports ^eeFznvk8
 		},
 		{
 			"type": "text",
-			"version": 513,
-			"versionNonce": 1159567206,
+			"version": 666,
+			"versionNonce": 187242342,
 			"isDeleted": false,
 			"id": "X352AYaU",
 			"fillStyle": "hachure",
@@ -6198,8 +6198,8 @@ AutoConfiguration.imports ^eeFznvk8
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 299.43622913452293,
-			"y": 1817.8155083257648,
+			"x": -124.59724135539653,
+			"y": 1769.8983893702093,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#fdefef",
 			"width": 79.61997985839844,
@@ -6216,7 +6216,7 @@ AutoConfiguration.imports ^eeFznvk8
 					"type": "arrow"
 				}
 			],
-			"updated": 1709695843753,
+			"updated": 1709695903650,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -6233,10 +6233,10 @@ AutoConfiguration.imports ^eeFznvk8
 		{
 			"id": "2ByVF4VjneVK8R_K2dpFW",
 			"type": "arrow",
-			"x": 308.1745973642704,
-			"y": 1737.3841515257184,
-			"width": 41.95147414463747,
-			"height": 16.311776450782872,
+			"x": -45.298236111435806,
+			"y": 1713.8772984380196,
+			"width": 43.42276919237319,
+			"height": 4.39252140959502,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#fdefef",
@@ -6253,11 +6253,11 @@ AutoConfiguration.imports ^eeFznvk8
 				"type": 2
 			},
 			"seed": 750458618,
-			"version": 1309,
-			"versionNonce": 739587706,
+			"version": 1547,
+			"versionNonce": 589411962,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709695843838,
+			"updated": 1709695903734,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -6266,20 +6266,20 @@ AutoConfiguration.imports ^eeFznvk8
 					0
 				],
 				[
-					-41.95147414463747,
-					16.311776450782872
+					43.42276919237319,
+					4.39252140959502
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "NkzME1o4",
-				"focus": 0.48231145246246115,
-				"gap": 1.6387310215905018
+				"focus": 0.4910773795943968,
+				"gap": 1.6387310215905089
 			},
 			"endBinding": {
 				"elementId": "eeFznvk8",
-				"focus": 0.31523666241492915,
-				"gap": 13.326230076644151
+				"focus": 0.31523666241492837,
+				"gap": 13.326230076644165
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
@@ -6287,10 +6287,10 @@ AutoConfiguration.imports ^eeFznvk8
 		{
 			"id": "SbLQ3hJKGij7KozrQgvRc",
 			"type": "arrow",
-			"x": 304.2416529144733,
-			"y": 1779.6891645012581,
-			"width": 34.085585245043376,
-			"height": 3.9633995964738915,
+			"x": -48.72300176780726,
+			"y": 1741.9585234589795,
+			"width": 42.91459039894767,
+			"height": 5.187885458022947,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#fdefef",
@@ -6307,11 +6307,11 @@ AutoConfiguration.imports ^eeFznvk8
 				"type": 2
 			},
 			"seed": 1085397094,
-			"version": 1348,
-			"versionNonce": 1468096506,
+			"version": 1570,
+			"versionNonce": 1433264122,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709695843838,
+			"updated": 1709695903734,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -6320,19 +6320,19 @@ AutoConfiguration.imports ^eeFznvk8
 					0
 				],
 				[
-					-34.085585245043376,
-					-3.9633995964738915
+					42.91459039894767,
+					5.187885458022947
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "kiiCfHGK",
-				"focus": -0.418185365503835,
+				"focus": -0.4039251990201474,
 				"gap": 5.518611662131434
 			},
 			"endBinding": {
 				"elementId": "eeFznvk8",
-				"focus": -0.3410358328358347,
+				"focus": -0.3410358328358324,
 				"gap": 17.259174526441143
 			},
 			"startArrowhead": null,
@@ -6341,10 +6341,10 @@ AutoConfiguration.imports ^eeFznvk8
 		{
 			"id": "oswRME6Mq3KlfUoGmpsBQ",
 			"type": "arrow",
-			"x": 294.40921677482777,
-			"y": 1827.4093299220683,
-			"width": 28.84162597191272,
-			"height": 16.85765971152273,
+			"x": -39.95024913730293,
+			"y": 1770.520799021526,
+			"width": 38.73031463495825,
+			"height": 1.9613411409284254,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "#fdefef",
@@ -6361,11 +6361,11 @@ AutoConfiguration.imports ^eeFznvk8
 				"type": 2
 			},
 			"seed": 924101306,
-			"version": 1426,
-			"versionNonce": 168896890,
+			"version": 1768,
+			"versionNonce": 1457367418,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709695843838,
+			"updated": 1709695903734,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -6374,20 +6374,20 @@ AutoConfiguration.imports ^eeFznvk8
 					0
 				],
 				[
-					-28.84162597191272,
-					-16.85765971152273
+					38.73031463495825,
+					-1.9613411409284254
 				]
 			],
 			"lastCommittedPoint": null,
 			"startBinding": {
 				"elementId": "X352AYaU",
-				"focus": -0.6748397137670774,
+				"focus": -0.6497566733754383,
 				"gap": 5.0270123596951635
 			},
 			"endBinding": {
 				"elementId": "eeFznvk8",
-				"focus": -0.3921088951930317,
-				"gap": 12.670697659926248
+				"focus": -0.392108895193036,
+				"gap": 12.670697659926233
 			},
 			"startArrowhead": null,
 			"endArrowhead": "arrow"
@@ -6651,10 +6651,10 @@ AutoConfiguration.imports ^eeFznvk8
 		{
 			"id": "iuDd4PuyrCnMRAB4Nx20q",
 			"type": "arrow",
-			"x": 312.93520532591197,
-			"y": 1606.2251668006088,
-			"width": 155.01506723057213,
-			"height": 125.33999393321997,
+			"x": 320.15558007941263,
+			"y": 1605.5687656812515,
+			"width": 129.10180451812445,
+			"height": 93.41848251542206,
 			"angle": 0,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
@@ -6669,11 +6669,11 @@ AutoConfiguration.imports ^eeFznvk8
 				"type": 2
 			},
 			"seed": 1194618470,
-			"version": 182,
-			"versionNonce": 1361290406,
+			"version": 264,
+			"versionNonce": 1207024614,
 			"isDeleted": false,
 			"boundElements": null,
-			"updated": 1709695862347,
+			"updated": 1709695903650,
 			"link": null,
 			"locked": false,
 			"points": [
@@ -6682,12 +6682,12 @@ AutoConfiguration.imports ^eeFznvk8
 					0
 				],
 				[
-					62.87123446354224,
-					-1.319204899119459
+					47.11770775744628,
+					42.659507340292066
 				],
 				[
-					-92.14383276702989,
-					124.02078903410052
+					-81.98409676067817,
+					93.41848251542206
 				]
 			],
 			"lastCommittedPoint": [
@@ -6696,12 +6696,12 @@ AutoConfiguration.imports ^eeFznvk8
 			],
 			"startBinding": {
 				"elementId": "4jVNqs79",
-				"focus": 0.21812359743775872,
-				"gap": 1.273844470741949
+				"focus": -0.9236280530573443,
+				"gap": 8.494219224242613
 			},
 			"endBinding": {
 				"elementId": "eeFznvk8",
-				"focus": 0.13889358081719866,
+				"focus": -0.02341030892331856,
 				"gap": 11.153917921041966
 			},
 			"startArrowhead": null,
@@ -6944,7 +6944,7 @@ AutoConfiguration.imports ^eeFznvk8
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
 		"scrollX": 222.19566303774192,
-		"scrollY": -1465.4589176381692,
+		"scrollY": -1362.8966339826477,
 		"zoom": {
 			"value": 1.2187716141329377
 		},
