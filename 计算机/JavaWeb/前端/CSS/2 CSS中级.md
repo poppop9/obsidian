@@ -408,7 +408,19 @@ div:hover p {
 }
 ```
 
-- 对符合要求的类的元素
+- 匹配符合要求的类的元素
+```css
+/* 对data-line大于等于10的li应用样式 */
+li[data-line]:nth-child(n+10) {
+  transform: translate(-2px, 0px);
+}
+
+---
+<li data-line="1"></li>
+……
+<li data-line="10"></li>      //从这里开始被选中
+<li data-line="11"></li> 
+```
 # 伪元素
 >伪元素用于设置元素指定部分的样式，可以在内容之前或之后插入内容
 ## ::first-line
