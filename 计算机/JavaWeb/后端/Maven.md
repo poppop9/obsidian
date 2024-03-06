@@ -190,9 +190,8 @@
 
 # Maven 的打包方式
 - `jar` 【默认】Java 应用程序的标准打包格式，内嵌了 Tomcat
-- `war` Web 应用程序的打包格式，需要自己部署到服务器上yun'xing
+- `war` Web 应用程序的打包格式，需要自己部署到服务器上运行
 - `pom` ***通常用在父级工程或聚合工程中***
-
 
 # Maven 高级
 ## 分模块设计
@@ -247,8 +246,14 @@
 >Maven 继承同 Java 类似，描述了 Maven 项目之间的关系，使用 `<parent>……</parent>` 实现
 >![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403061328780.png)
 
->[!warning] 在设置父工程时，需要将打包方式设置为 `pom`【默认是 `jar`】
+>[!warning] Maven 中项目只能 <u>单继承</u>【只能继承一个项目】
 
+>[!warning] 在设置父工程时，需要将打包方式设置为 `pom`【默认是 `jar`】
+> ```xml
+> <packing>pom</packing>
+> ```
+
+父工程下不写代码，只进行子工程共用的依赖管理
 
 
 ### 聚合
