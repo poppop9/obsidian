@@ -259,8 +259,7 @@
 ```
 
 #### 子工程
-- **如果是次要项目**【比如 `pojo`，`utils`】，那就新建模块，选择 Maven 项目，选择父项
-	![700](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403070914405.png)
+- **如果是次要项目**【比如 `pojo`，`utils`】，那就新建模块，选择 Maven 项目，选择父项![700](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403070914405.png)
 - **如果是主项目**【`management`】，那就新建模块选择 Spring Initializr，再手动修改父工程的依赖
 	```xml
 	<parent>
