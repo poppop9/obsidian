@@ -359,10 +359,29 @@
 
 - 配置允许 `SNAPSHOT` 版本运行上传依赖到仓库【~~默认是不允许的~~】
 	- 找到 Maven 的安装目录里的 `setting.xml`
-	- 找到里面的 `<servers>……</servers>` 标签
-```xml
-
-```
+	- 找到里面的 `<profiles>……</profiles>` 标签
+		```xml
+		<profiles>
+			<profile>
+				<id>allow-snapshots</id>
+				<activation>
+					<activeByDefault>true</activeByDefault>
+				</activation>
+				<repositories>
+					<repository>
+						<id>maven-public</id>
+						<ur1>http://192.168.150.101:8081/repository/maven-public/</url>
+						<releases>
+							<enabled>true</enabled>
+						</releases>
+						<snapshots>
+							<enabled>true</enabled>
+						</snapshots>
+					</repository>
+				</repositories> 
+			</profile>
+		</profiles>
+		```
 
 - 配置上传资源的目的地
 
