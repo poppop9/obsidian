@@ -19,7 +19,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "/",
+  "activeView": "计算机",
   "hideFrontmatter": false,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -38,8 +38,6 @@
   "expandedSpaces": [
     "/",
     "//计算机/计算机/JavaWeb",
-    "计算机/计算机/JavaWeb",
-    "计算机/计算机/编程语言",
     "计算机/计算机/四大件",
     "spaces://$tags/spaces://#问题",
     "spaces://$tags/spaces://#科技美学",
