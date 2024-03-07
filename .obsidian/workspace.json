@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/MySQL.md"
+                "file": "计算机/Linux.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/MySQL.md"
+                "file": "计算机/Linux.md"
               }
             }
           },
@@ -205,12 +206,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
+    "计算机/数据库/MySQL.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
     "计算机/Linux.md",
     "计算机/JavaWeb/后端/Maven.md",
-    "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "临时笔记/草稿纸.md",
     "科技美学/软件.md",
@@ -223,7 +225,6 @@
     "计算机/JavaWeb/前端/JavaScript/Untitled.md",
     "计算机/编程语言/Java/01 idea.md",
     "临时笔记/自行车.md",
-    "计算机/数据库/MySQL.md",
     "计算机/编程语言/Java/07 异常.md",
     "临时笔记/Dance.md",
     "计算机/JavaWeb/后端/Spring Security.md",
