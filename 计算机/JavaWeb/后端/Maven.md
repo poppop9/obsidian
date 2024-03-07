@@ -257,6 +257,15 @@
 ```xml
 <packing>pom</packing>
 ```
+- 指定 SpringBoot 父工程
+```xml
+<parent>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-parent</artifactId>
+	<version>3.2.3</version>
+	<relativePath/> <!-- lookup parent from repository -->
+</parent>
+```
 
 #### 子工程
 - **如果是次要项目**【比如 `pojo`，`utils`】，那就新建模块，选择 Maven 项目，选择父项![700](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403070914405.png)
@@ -270,7 +279,7 @@
 	</parent>
 	```
 
->[!hint] 子工程会自动继承父工程的 `<groupId>`，子工程无需再添加 `<groupId>`
+>[!warning] 子工程会自动继承父工程的 `<groupId>`，子工程无需再添加 `<groupId>`
 
 
 ### 聚合
