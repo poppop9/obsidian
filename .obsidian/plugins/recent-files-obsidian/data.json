@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "MySQL",
+      "path": "计算机/数据库/MySQL.md"
+    },
+    {
+      "basename": "SpringBoot 原理",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
+    },
+    {
       "basename": "Linux",
       "path": "计算机/Linux.md"
     },
@@ -41,10 +49,6 @@
       "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
-      "basename": "SpringBoot 原理",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
-    },
-    {
       "basename": "1 SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "自行车",
       "path": "临时笔记/自行车.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "计算机/数据库/MySQL.md"
     },
     {
       "basename": "07 异常",
