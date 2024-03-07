@@ -241,8 +241,7 @@
 >[!warning] 分模块设计会引发一些问题，所以我们需要 <u>继承与聚合</u>
 >- 各个模块引入了相同的依赖
 
-## 继承与聚合
-### 继承
+## 继承
 >Maven 继承同 Java 类似，描述了 Maven 项目之间的关系，使用 `<parent>……</parent>` 实现
 >![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403061328780.png)
 
@@ -250,7 +249,7 @@
 
 ---
 
-#### 父工程
+### 父工程
 - 新建模块，选择 Maven 项目
 - 父工程下不写代码，只进行子工程共用的依赖管理，~~所以可以把 `src` 目录直接删除~~
 - 在设置父工程时，需要将打包方式设置为 `pom`【~~默认是 `jar`~~】
@@ -267,7 +266,7 @@
 </parent>
 ```
 
-#### 子工程
+### 子工程
 - **如果是次要项目**【比如 `pojo`，`utils`】，那就新建模块，选择 Maven 项目，选择父项![700](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403070914405.png)
 - **如果是主项目**【`management`】，那就新建模块选择 Spring Initializr，再手动修改父工程的依赖
 	```xml
@@ -281,8 +280,23 @@
 
 >[!warning] 子工程会自动继承父工程的 `<groupId>`，子工程无需再添加 `<groupId>`
 
+### 版本锁定
+当拆分的模块越多，有部分模块需要用到某个依赖时，依赖的版本将变得难以管理，所以我们使用 ***版本锁定*** `<dependencyManagement>`
 
-### 聚合
+- 在父工程中使用
+```xml
+<dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+	</dependencies>
+</dependencyManagement>
+```
+
+
+## 聚合
 
 
 
