@@ -339,6 +339,26 @@
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403071340879.png)
 ### 上传
 - 配置访问私服的用户名和密码
+	- 找到 Maven 的安装目录里的 `setting.xml`
+	- 找到里面的 `<servers>……</servers>` 标签
+		```xml
+		<servers>
+			<server>
+				<id>maven-releases</id>
+				<username>admin</username>
+				<password>123456</password>
+			</server>
+			
+			<server>
+				<id>maven-snapshots</id>
+				<username>admin</username>
+				<password>123456</password>
+			</server>
+		</servers>
+		```
+
+
+
 - 配置上传资源的目的地
 
 
