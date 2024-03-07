@@ -357,13 +357,28 @@
 		</servers>
 		```
 
+- 配置允许 `SNAPSHOT` 版本运行上传依赖到仓库【~~默认是不允许的~~】
+	- 找到 Maven 的安装目录里的 `setting.xml`
+	- 找到里面的 `<servers>……</servers>` 标签
+```xml
 
+```
 
 - 配置上传资源的目的地
 
-
 ### 下载
-
+- 配置连接私服的地址
+	- 找到 Maven 的安装目录里的 `setting.xml`
+	- 找到里面的 `<mirrors>……</mirrors>` 标签
+		```xml
+		<mirrors>
+			<mirror>
+				<id>maven-public</id>
+				<mirrorOf>*</mirrorOf>
+				<url>私服仓库组的地址</url>  // 私服仓库中所有仓库的集合
+			</mirror>
+		</mirrors>
+		```
 
 
 
