@@ -309,9 +309,20 @@
 ```
 
 ## 聚合
+- 在父工程下的 `pom.xml` 文件中指定 `<modules></modules>`
+```xml
+<modules>
+	// module里写相对路径
+	<module>blog-pojo</module>
+	<module>blog-utils</module>
+	<module>blog-management</module>
+</modules>
+```
+- 直接在父工程下执行 `package`
+
+---
+
 >[!hint] 如果没有聚合，我们要将<u>除了主项目的所有模块</u>都一个一个执行 `install` 生命周期，安装到本地的 Maven 仓库，然后在主项目中执行 `package` 打包
-
-
 
 ## 私服
 

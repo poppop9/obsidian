@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
+                "file": "计算机/JavaWeb/后端/Maven.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
+                "file": "计算机/JavaWeb/后端/Maven.md"
               }
             }
           },
@@ -206,8 +206,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ea5ec7dd16011e6b",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/后端/Maven.md",
     "临时笔记/草稿纸.md",
@@ -229,7 +230,6 @@
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
-    "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "图片库/Pasted Image 20240303101354_873.png",
     "计算机/编程语言/Java/05 常用API.md",
     "计算机/编程语言/Java/13 Java 8 新特性.md",
