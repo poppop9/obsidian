@@ -176,7 +176,7 @@
 20. `post-integration-test`：在集成测试之后执行任何必要的操作。
 21. `verify`：对集成测试的结果进行验证。
 22. ==install==：将打包的项目安装到本地仓库，以供其他项目使用
-23. deploy：将最终的包复制到远程仓库，以供其他开发人员和项目使用
+23. ==deploy==：将最终的包复制到远程仓库，以供其他开发人员和项目使用
 
 #### site
 1. `pre-site`：在生成站点之前运行的阶段。在此阶段，可以执行一些准备工作，例如准备生成站点所需的资源或检查先决条件。
@@ -384,21 +384,21 @@
 		```
 
 - 配置上传资源的目的地【在父工程中的 `pom.xml` 中配置】
-```xml
-<distributionManagement>
-	<repository>
-		<id>私服发行版仓库ID</id>
-		<url>私服发行版仓库地址</url>
-	</repository>
-	
-	<snapshotRepository>
-		<id>私服快照仓库ID</id>
-		<url>私服快照仓库地址</url>
-	</snapshotRepository>
-</distributionManagement>
-```
+	```xml
+	<distributionManagement>
+		<repository>
+			<id>私服发行版仓库ID</id>
+			<url>私服发行版仓库地址</url>
+		</repository>
+		
+		<snapshotRepository>
+			<id>私服快照仓库ID</id>
+			<url>私服快照仓库地址</url>
+		</snapshotRepository>
+	</distributionManagement>
+	```
 
-
+***配置完成后，执行  Maven 生命周期*** `deploy` 
 
 ### 下载
 - 配置连接私服的地址
