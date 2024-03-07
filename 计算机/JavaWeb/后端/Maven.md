@@ -251,15 +251,21 @@
 ---
 
 #### 父工程
-
-> 父工程下不写代码，只进行子工程共用的依赖管理，~~所以可以把 `src` 目录直接删除~~
-
->[!warning] 在设置父工程时，需要将打包方式设置为 `pom`【默认是 `jar`】
-> ```xml
-> <packing>pom</packing>
-> ```
+- 新建模块，选择 Maven 项目
+- 父工程下不写代码，只进行子工程共用的依赖管理，~~所以可以把 `src` 目录直接删除~~
+- 在设置父工程时，需要将打包方式设置为 `pom`【~~默认是 `jar`~~】
+```xml
+<packing>pom</packing>
+```
 
 #### 子工程
+
+- 如果是次要项目【比如 `pojo`，`utils`】，那就
+- 新建模块，选择 Maven 项目，选择父项
+
+![700](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403070914405.png)
+
+- 引入父工程的依赖
 ```xml
 <parent>
 	<groupId>com.blog</groupId>  
