@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1 HTML 初级",
+      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
+    },
+    {
+      "basename": "2 CSS中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
+    },
+    {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "软件",
       "path": "科技美学/软件.md"
-    },
-    {
-      "basename": "2 CSS中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "穿搭",
@@ -79,10 +83,6 @@
     {
       "basename": "4 登录认证",
       "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
-    },
-    {
-      "basename": "1 HTML 初级",
-      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
     },
     {
       "basename": "05 常用API",
