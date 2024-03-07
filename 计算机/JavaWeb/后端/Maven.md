@@ -283,18 +283,29 @@
 ### 版本锁定
 当拆分的模块越多，有部分模块需要用到某个依赖时，依赖的版本将变得难以管理，所以我们使用 ***版本锁定*** `<dependencyManagement>`
 
-- 在父工程中使用
+---
+
+- 在父工程中版本锁定【***并没有将此依赖引入项目，只是如果子工程使用此依赖时，只能使用此版本***】
 ```xml
 <dependencyManagement>
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+		<dependency>  
+		    <groupId>org.mybatis.spring.boot</groupId>  
+		    <artifactId>mybatis-spring-boot-starter</artifactId>  
+		    <version>3.0.3</version>  
 		</dependency>
 	</dependencies>
 </dependencyManagement>
 ```
-
+- 在子工程中引入
+```xml
+<dependencies>
+	<dependency>  
+		<groupId>org.mybatis.spring.boot</groupId>  
+		<artifactId>mybatis-spring-boot-starter</artifactId>  
+	</dependency>
+</dependencies>
+```
 
 ## 聚合
 
