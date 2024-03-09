@@ -66,33 +66,25 @@ touch love_{1..10}_shiyanlou.txt
 #### su，su- 与 sudo
 `su <user>` 可以切换到用户 user，执行时需要输入目标用户的密码
 `sudo <cmd>` 可以以特权级别运行 cmd 命令，需要当前用户属于 sudo 组，且需要输入当前用户的密码
-`su - <user>` 命令也是切换用户，但是同时用户的环境变量和工作目录也会跟着改变成目标用户所对应的。
+`su - <user>` 命令也是切换用户，但是同时用户的环境变量和工作目录也会跟着改变成目标用户所对应的
 
-现在我们新建一个叫 `lilei` 的用户：
+现在我们新建一个叫 `lilei` 的用户
 ```bash
 sudo adduser lilei
 ```
 
-实验楼的环境目前设置为 shiyanlou 用户执行 sudo 不需要输入密码，通常此处需要按照提示输入 shiyanlou 密码（**Linux 下密码输入是不显示任何内容的，shiyanlou 用户密码可以在右侧环境信息里查看，请勿自行设置密码**）。然后是给 lilei 用户设置密码，后面的选项的一些内容你可以选择直接回车使用默认值。
-
-![3-2.2-1](https://doc.shiyanlou.com/document-uid735639labid3timestamp1531731216215.png)
-
-这个命令不但可以添加用户到系统，同时也会默认为新用户在 /home 目录下创建一个工作目录：
-
+这个命令不但可以添加用户到系统，同时还会为新用户在 /home 目录下创建一个工作目录：
 ```bash
 ls /home
 ```
-
 ![图片描述](https://doc.shiyanlou.com/courses/uid871732-20200302-1583141675216)
 
 现在你已经创建好一个用户，并且你可以使用你创建的用户登录了，使用如下命令切换登录用户：
-
 ```bash
 su -l lilei
 ```
 
 输入刚刚设置的 lilei 的密码，然后输入如下命令并查看输出：
-
 ```bash
 who am i
 whoami
