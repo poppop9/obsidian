@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "1 CSS初级",
+      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "计算机/数据库/MySQL.md"
+    },
+    {
       "basename": "Linux",
       "path": "计算机/Linux.md"
     },
     {
       "basename": "1 HTML 初级",
       "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "计算机/数据库/MySQL.md"
     },
     {
       "basename": "SpringBoot 原理",
@@ -135,10 +139,6 @@
     {
       "basename": "2 MyBatis",
       "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
-    },
-    {
-      "basename": "1 CSS初级",
-      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
     },
     {
       "basename": "1 Bootstrap 初级",
