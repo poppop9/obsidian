@@ -40,10 +40,13 @@ linux 的哲学：没有结果就是最好的结果
 | `[c1-c2]`               | 匹配 c1-c2 中的任意单一字符 如：[0-9][a-z]  |
 | `{string1,string2,...}` | 匹配 string1 或 string2 (或更多)其一字符串 |
 | `{c1..c2}`              | 匹配 c1-c2 中全部字符 如{1..10}         |
-```
-ls *.txt 查找多个 `.txt` 后缀的文件
 
-touch love_{1..10}_shiyanlou.txt 一次性创建多个文件【 `love1linux.txt`，`love2linux.txt`，... ，`love10linux.txt`】
+```bash
+ls *.txt 
+查找多个 `.txt` 后缀的文件
+
+touch love_{1..10}_shiyanlou.txt 
+一次性创建多个文件【 `love1linux.txt`，`love2linux.txt`，... ，`love10linux.txt`】
 ```
 
 
