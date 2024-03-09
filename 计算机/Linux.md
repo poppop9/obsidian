@@ -106,7 +106,8 @@ pwd
 
 ### 删除用户
 ```bash
-
+// 将lilei用户删除，--remove-home是删除用户时会一并将该用户的工作目录
+sudo deluser lilei --remove-home
 ```
 
 
