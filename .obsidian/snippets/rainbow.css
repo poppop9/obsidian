@@ -1361,10 +1361,6 @@ div.callout-content {
 	line-height: 1.3;
 }
 
-.table-cell-wrapper {
-	white-space: nowrap;
-}
-
 .theme-light .markdown-rendered th {
 	text-align: center;
 	background-color: #81a1c13c !important;
