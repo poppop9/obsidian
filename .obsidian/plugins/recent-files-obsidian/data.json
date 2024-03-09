@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "2 HTML 中级",
+      "path": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
+    },
+    {
+      "basename": "1 HTML 初级",
+      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
+    },
+    {
       "basename": "1 CSS初级",
       "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+    },
+    {
+      "basename": "3 CSS高级",
+      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+    },
+    {
+      "basename": "2 CSS中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "MySQL",
@@ -13,20 +29,12 @@
       "path": "计算机/Linux.md"
     },
     {
-      "basename": "1 HTML 初级",
-      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
-    },
-    {
       "basename": "SpringBoot 原理",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
     },
     {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
-      "basename": "2 CSS中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "草稿纸",
@@ -39,10 +47,6 @@
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
-    },
-    {
-      "basename": "3 CSS高级",
-      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
     },
     {
       "basename": "MYSQL安装配置",
@@ -195,10 +199,6 @@
     {
       "basename": "读心术",
       "path": "临时笔记/读心术.md"
-    },
-    {
-      "basename": "Vue 3",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     }
   ],
   "omittedPaths": [],
