@@ -150,6 +150,11 @@ sudo groupdel 用户名
 >[!hint] 文件的详细信息
 >![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403101054357.png)
 
+### 创建文件
+```bash
+touch /opt/forloutest
+```
+
 ### 文件类型
 - 设备文件：`/dev` 目录下有各种设备文件，大都跟具体的硬件设备相关
 - `socket`：网络套接字
