@@ -166,10 +166,10 @@ sudo groupdel 用户名
 
 >[!hint] 文件的权限有三种：所有者，所属用户组，其他用户
 
-- 修改文件权限【`rwx` 表示 `111` 表示 `7`；`rw-` 表示 `110` 表示 `6`】
+- 修改文件权限【`g` 表示 group，`o` 表示 others，`u` 表示 user。用 `+/-` 来修改】
 ```bash
 cd ……/testdir
-chmod 600 testdir    // 600表示
+chmod go-rw iphone11  // group，others同时减去r权限，和w权限
 ```
 
 ### 链接数
