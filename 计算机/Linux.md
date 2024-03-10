@@ -145,9 +145,18 @@ sudo groupdel 用户名
 
 | 参数   | 描述           |
 | ---- | ------------ |
-| `-l` | 详细当前目录下的列出文件 |
+| `-l` | 详细列出当前目录下的文件 |
 
+```bash
+ls -l
 
+---
+lrwxrwxrwx 1 root root 14 3月 10 02:37 anaconda3 -> /opt/anaconda3 
+drwxr-xr-x 2 shiyanlou shiyanlou 4096 1月 6 2021 Code 
+drwxr-xr-x 2 shiyanlou shiyanlou 4096 1月 6 2021 Desktop 
+```
+
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403101044014.png)
 
 
 
