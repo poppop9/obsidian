@@ -173,6 +173,12 @@ sudo groupdel 用户名
 
 ---
 
+- ***所有者***
+	- 更改所有者
+```bash
+cd ……/testdir
+sudo chown shiyanlou testdir
+```
 ### ls 命令
 | 参数        | 描述                      |
 | --------- | ----------------------- |
