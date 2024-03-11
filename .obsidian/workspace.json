@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Java 语法糖，提高代码效率神器！.md",
+                "file": "计算机/Java 语法糖.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/编程语言/Java/11 泛型.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/11 泛型.md"
+                "file": "计算机/Java 语法糖.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/11 泛型.md"
+                "file": "计算机/Java 语法糖.md"
               }
             }
           },
@@ -206,10 +206,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ea5ec7dd16011e6b",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
-    "计算机/Java 语法糖，提高代码效率神器！.md",
     "计算机/编程语言/Java/11 泛型.md",
+    "计算机/Java 语法糖.md",
     "计算机/编程语言/Java/08 修饰符.md",
     "计算机/编程语言/Java/09 类与对象.md",
     "计算机/编程语言/Java/10 继承.md",
