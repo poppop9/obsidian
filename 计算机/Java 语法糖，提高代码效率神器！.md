@@ -2,30 +2,6 @@
 语法糖是一种编译器提供的便利性，使代码更易读、更易写，提高了开发效率。在运行时，编译器会将使用语法糖的代码转换为等价的底层代码
 
 ### Java 语法糖
-
-#### 泛型
-对于 Java 虚拟机来说，需要在编译阶段通过类型擦除的方式进行解语法糖
-
-类型擦除的主要过程如下：
-- 将所有的泛型参数用其最左边界（最顶级的父类型）类型替换
-- 移除所有的类型参数。
-
-举个例子
-
-    Map<String,String>map=newHashMap<String,String>();
-    map.put("xiaobaitiao","nihao");
-
-解语法糖之后
-
-    Mapmap=newHashMap();
-    map.put("xiaobaitiao","nihao");
-
-在虚拟机中，泛型的实现涉及到类型擦除（Type Erasure）的概念。类型擦除是指在编译时泛型类型信息被擦除，而在运行时，泛型的实例仅保留原始类型（raw type）的信息。这导致在虚拟机中，所有泛型类的类型参数在编译时都会被擦除，并且泛型类并没有自己独有的 `Class` 类对象。
-
-具体来说，泛型类在编译后的字节码中不会保留其泛型信息，而是被替换为原始类型。例如，对于 `List<String>` 或 `List<Integer>`，在运行时只存在一个 `List` 类的对象，而无法通过 `List<String>.class` 或 `List<Integer>.class` 这样的语法来获取类对象。
-
-这样的设计是为了保持 Java 的向后兼容性，因为泛型是在 Java 5引入的，而在引入泛型之前的代码中是没有泛型信息的。因此，为了确保与旧代码的互操作性，Java 编译器使用了类型擦除来处理泛型。
-
 #### 自动装箱和拆箱
 
 这个语法糖应该是较为熟知的，自动装箱就是 Java 自动将原始类型值转换成对应的对象，比如将 int 的变量转换成 Integer 对象，这个过程叫做装箱，反之将 Integer 对象转换成 int 类型值，这个过程叫做拆箱。因为不用人工去转化，因此是自动装箱和拆箱。
@@ -62,18 +38,6 @@
     }
 
 总结：装箱用 valueOf() 方法，拆箱用 xxxValue 方法，比如 intValue。
-
-#### 可变长参数
-
-    publicstaticvoidprint(String...strs)
-    {
-    for(inti=0;i<strs.length;i++)
-    {
-    System.out.println(strs[i]);
-    }
-    }
-
-可以用... 去代表可变长参数，相当于一个一维字符串数组。一般不太常用。
 
 #### 断言
 
@@ -144,14 +108,15 @@ For-Each 是程序员都会经常用到的，底层也是普遍都讲过是利�
 ### 注意事项
 
 1）方法重载，但由于泛型擦除，导致编译失败
-
-    publicstaticvoidmethod(List<String>list){
-    System.out.println("HelloWorldStringlist");
+```java
+    public static void method(List<String> list) {
+        System.out.println("HelloWorldStringlist");
     }
 
-    publicstaticvoidmethod(List<Long>list){
-    System.out.println("HelloWorldLonglist");
+    public static void method(List<Long> list) {
+        System.out.println("HelloWorldLonglist");
     }
+```
 
 2）try catch 中的异常不能再去区别异常的泛型类型，同样是泛型擦除机制。
 
