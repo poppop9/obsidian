@@ -362,13 +362,14 @@ rename 'y/a-z/A-Z/' *.c
 ```
 
 ### 查看文件
-- `cat` 命令【~~concatenate~~】
-
-正序打印文件内容到终端
+- `cat` 命令【~~concatenate~~】：正序打印文件内容到终端
+```bash
+cat file
+```
 
 - `tac` 命令【~~`cat` 的倒序~~】
 
-倒序打印文件到终端
+倒序【从最后一行向上打印】打印文件到终端
 
 - `nl` 命令【~~number lines~~】
 
