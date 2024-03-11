@@ -291,8 +291,12 @@ touch /opt/forloutest
 ```
 
 ### 复制文件
->使用
+>使用 `cp` 命令【~~copy~~】
 
+```bash
+# 将之前创建的 `test` 文件复制到 `/home/shiyanlou/father/son/grandson` 目录中
+cp test father/son/grandson
+```
 
 
 
