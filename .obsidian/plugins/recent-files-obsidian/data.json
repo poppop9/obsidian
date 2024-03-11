@@ -5,6 +5,22 @@
       "path": "计算机/编程语言/Java/11 泛型.md"
     },
     {
+      "basename": "08 修饰符",
+      "path": "计算机/编程语言/Java/08 修饰符.md"
+    },
+    {
+      "basename": "09 类与对象",
+      "path": "计算机/编程语言/Java/09 类与对象.md"
+    },
+    {
+      "basename": "10 继承",
+      "path": "计算机/编程语言/Java/10 继承.md"
+    },
+    {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
       "basename": "Java 语法糖，提高代码效率神器！",
       "path": "计算机/Java 语法糖，提高代码效率神器！.md"
     },
@@ -23,10 +39,6 @@
     {
       "basename": "1 HTML 初级",
       "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
-    },
-    {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
     {
       "basename": "2 BootStrap 中级",
@@ -141,16 +153,8 @@
       "path": "计算机/编程语言/Java/06 集合.md"
     },
     {
-      "basename": "09 类与对象",
-      "path": "计算机/编程语言/Java/09 类与对象.md"
-    },
-    {
       "basename": "03 Java的基础语法1",
       "path": "计算机/编程语言/Java/03 Java的基础语法1.md"
-    },
-    {
-      "basename": "08 修饰符",
-      "path": "计算机/编程语言/Java/08 修饰符.md"
     },
     {
       "basename": "04 Java的基础语法2",
@@ -195,10 +199,6 @@
     {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
-    },
-    {
-      "basename": "3 文件上云",
-      "path": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
     }
   ],
   "omittedPaths": [],
