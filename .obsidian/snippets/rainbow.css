@@ -574,8 +574,8 @@ span.cm-formatting.cm-formatting-highlight.cm-highlight {
 }
 
 /* 删除线 */
-span.cm-strikethrough {
-	color: #797979;
+.cm-strikethrough {
+	color: #797979 !important;
 }
 
 del {
