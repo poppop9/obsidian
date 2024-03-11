@@ -290,16 +290,21 @@ mkdir -p ./father/son/grandson
 touch /opt/forloutest
 ```
 
-### 复制文件
+### 复制文件，目录
 >使用 `cp` 命令【~~copy~~】
+
+| 参数   | 描述                                  |
+| ---- | ----------------------------------- |
+| `-r` | ~~recursive~~，***复制目录时使用***，表示要递归复制 |
 
 ```bash
 # 将之前创建的 `test` 文件复制到 `/home/shiyanlou/father/son/grandson` 目录中
 cp test father/son/grandson
 ```
 
-
-
+```bash
+cp -r father family
+```
 
 
 
