@@ -255,6 +255,15 @@ FHS 依据<u>文件系统使用的频繁程度</u>，<u>是否允许用户随意
 	- `-` 表示上一次所在目录【`cd -` 表示进入上一次所在的目录】
 	- `～` 表示当前用户的 `home` 目录下的 `用户目录`【`cd ~` 将进入用户目录】
 
+```bash
+# 绝对路径
+cd /usr/local/bin
+# 相对路径，现在在/home/shiyanlou
+cd ../../usr/local/bin
+# 相对路径，现在在/usr下，要进入到/bin下
+cd ./local/bin
+```
+
 ### 创建文件
 ```bash
 touch /opt/forloutest
@@ -263,14 +272,7 @@ touch /opt/forloutest
 
 
 
-```bash
-# 绝对路径
-cd /usr/local/bin
-# 相对路径，上一级，再上一级的/usr/local/bin
-cd ../../usr/local/bin
-# 相对路径
 
-```
 
 
 
