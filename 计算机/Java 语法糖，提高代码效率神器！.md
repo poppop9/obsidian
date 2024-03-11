@@ -3,35 +3,12 @@
 
 ### Java 语法糖
 
-#### Switch 支持 String 与枚举
-
-举个例子
-
-```java
-public class demo {
-    public static void main(String[] args) {
-        String str = "nihao";
-        switch (str) {
-            case "nihao":
-                System.out.println("nihao");
-                break;
-            case "hello":
-                System.out.println("hello");
-                break;
-            default:
-                break;
-        }
-    }
-}
-```
-
-Switch (字符串) 是用字符串的 hashcode 进行比较，case 中再利用 equals 进行判断，因为可能会产生 hash 冲突的情况。
-
 #### 泛型
+对于 Java 虚拟机来说，需要在编译阶段通过类型擦除的方式进行解语法糖
 
-对于 Java 虚拟机来说，需要在编译阶段通过类型擦除的方式进行解语法糖。
-
-类型擦除的主要过程如下：1.将所有的泛型参数用其最左边界（最顶级的父类型）类型替换。2.移除所有的类型参数。
+类型擦除的主要过程如下：
+- 将所有的泛型参数用其最左边界（最顶级的父类型）类型替换
+- 移除所有的类型参数。
 
 举个例子
 
