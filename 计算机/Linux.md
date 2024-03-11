@@ -264,7 +264,7 @@ cd ../../usr/local/bin
 cd ./local/bin
 ```
 
-### 新建目录
+### 创建目录
 >使用 `mkdir` 命令【“~~make directory~~”】
 
 | 参数   | 描述                       |
@@ -297,17 +297,34 @@ touch /opt/forloutest
 | ---- | ----------------------------------- |
 | `-r` | ~~recursive~~，***复制目录时使用***，表示要递归复制 |
 
+---
+
+- 复制文件
 ```bash
 # 将之前创建的 `test` 文件复制到 `/home/shiyanlou/father/son/grandson` 目录中
 cp test father/son/grandson
 ```
 
+- 复制目录
 ```bash
-cp -r father family
+# 将father里的son目录，复制到family目录里
+cp -r father/son family
 ```
 
+### 删除文件，目录
+>使用 `rm` 命令【~~remove~~】
 
+| 参数   | 描述                          |
+| ---- | --------------------------- |
+| `-f` | ~~force~~，当删除只读文件遇到阻碍时，强制删除 |
+| `-r` |                             |
 
+---
+
+- 删除文件
+```bash
+rm test
+```
 
 
 
