@@ -347,9 +347,11 @@ mv file1 file11
 ```
 
 #### 批量重命名文件
-`rename` 来实现。不过它要用 perl 正则表达式来作为参数，关于正则表达式我们要在后面才会介绍到，这里只做演示，你只要记得这个 `rename` 命令可以批量重命名就好了，以后再重新学习也不会有任何问题，毕竟你已经掌握了一个更常用的 `mv` 命令。
+>使用 `rename` 命令
 
-`rename` 命令并不是内置命令，若提示无该命令可以使用 `sudo apt-get install rename` 命令自行安装。
+>[!hint] `rename` 命令<u>不是内置命令</u>，若提示无该命令，可以使用 `sudo apt-get install rename` 命令安装
+
+`rename` 命令要用 perl 正则表达式来作为参数
 
 ```bash
 cd /home/shiyanlou/
