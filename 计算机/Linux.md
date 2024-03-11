@@ -356,7 +356,7 @@ mv file1 file11
 ```bash
 cd /home/shiyanlou/
 
-# 使用通配符批量创建 5 个文件:
+# 使用通配符批量创建 5 个文件
 touch file{1..5}.txt
 
 # 批量将这 5 个后缀为 .txt 的文本文件重命名为以 .c 为后缀的文件:
