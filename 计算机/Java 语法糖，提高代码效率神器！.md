@@ -7,21 +7,23 @@
 
 举个例子
 
-    publicclassswitchDemoString{
-    publicstaticvoidmain(String[]args){
-    Stringstr="nihao";
-    switch(str){
-    case"nihao":
-    System.out.println("nihao");
-    break;
-    case"hello":
-    System.out.println("hello");
-    break;
-    default:
-    break;
+```java
+public class demo {
+    public static void main(String[] args) {
+        String str = "nihao";
+        switch (str) {
+            case "nihao":
+                System.out.println("nihao");
+                break;
+            case "hello":
+                System.out.println("hello");
+                break;
+            default:
+                break;
+        }
     }
-    }
-    }
+}
+```
 
 Switch (字符串) 是用字符串的 hashcode 进行比较，case 中再利用 equals 进行判断，因为可能会产生 hash 冲突的情况。
 

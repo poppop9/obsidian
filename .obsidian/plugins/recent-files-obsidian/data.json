@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Java 语法糖，提高代码效率神器！",
+      "path": "计算机/Java 语法糖，提高代码效率神器！.md"
+    },
+    {
       "basename": "Linux",
       "path": "计算机/Linux.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "软件测试",
       "path": "考试/软件测试.md"
-    },
-    {
-      "basename": "杂 Draw",
-      "path": "Excalidraw/杂/杂 Draw.md"
     }
   ],
   "omittedPaths": [],

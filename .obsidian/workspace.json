@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux.md",
-                "mode": "source",
+                "file": "计算机/Java 语法糖，提高代码效率神器！.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux.md"
+                "file": "计算机/Java 语法糖，提高代码效率神器！.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux.md"
+                "file": "计算机/Java 语法糖，提高代码效率神器！.md"
               }
             }
           },
@@ -208,9 +208,9 @@
   },
   "active": "ea5ec7dd16011e6b",
   "lastOpenFiles": [
+    "计算机/Linux.md",
     "计算机/Java 语法糖，提高代码效率神器！.md",
     "Excalidraw/杂/草稿纸 Draw.md",
-    "计算机/Linux.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
