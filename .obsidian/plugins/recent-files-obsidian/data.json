@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "11 泛型",
+      "path": "计算机/编程语言/Java/11 泛型.md"
+    },
+    {
       "basename": "Java 语法糖，提高代码效率神器！",
       "path": "计算机/Java 语法糖，提高代码效率神器！.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "3 文件上云",
       "path": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
-    },
-    {
-      "basename": "软件测试",
-      "path": "考试/软件测试.md"
     }
   ],
   "omittedPaths": [],
