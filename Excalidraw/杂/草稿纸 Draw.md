@@ -9269,7 +9269,7 @@ p 管道
 		}
 	],
 	"appState": {
-		"theme": "dark",
+		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#f08c00",
 		"currentItemBackgroundColor": "#b2f2bb",
