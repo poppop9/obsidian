@@ -267,11 +267,17 @@ cd ./local/bin
 ### 新建目录
 >使用 `mkdir` 命令【“~~make directory~~”】
 
-
 | 参数   | 描述                       |
 | ---- | ------------------------ |
 | `-p` | ~~parent~~，创建目录时，同时创建父目录 |
 
+```bash
+mkdir -p ./father/son/grandson
+```
+
+>[!warning] 如果当前目录有 `test` 文件，则无法创建 `test` 目录
+
+>[!hint] 如果当前目录存在 `test` 目录，则创建 `test` 文件时，会更改 `test` 目录的时间戳，而不是创建文件
 
 ### 创建文件
 >>使用 `touch` 命令
@@ -284,7 +290,8 @@ cd ./local/bin
 touch /opt/forloutest
 ```
 
-
+### 复制文件
+>使用
 
 
 
