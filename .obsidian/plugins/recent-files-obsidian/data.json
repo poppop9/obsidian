@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "09 类与对象",
+      "path": "计算机/编程语言/Java/09 类与对象.md"
+    },
+    {
+      "basename": "08 修饰符",
+      "path": "计算机/编程语言/Java/08 修饰符.md"
+    },
+    {
+      "basename": "07 异常",
+      "path": "计算机/编程语言/Java/07 异常.md"
+    },
+    {
       "basename": "05 常用 API",
       "path": "计算机/编程语言/Java/05 常用 API.md"
     },
@@ -23,14 +35,6 @@
     {
       "basename": "11 泛型",
       "path": "计算机/编程语言/Java/11 泛型.md"
-    },
-    {
-      "basename": "08 修饰符",
-      "path": "计算机/编程语言/Java/08 修饰符.md"
-    },
-    {
-      "basename": "09 类与对象",
-      "path": "计算机/编程语言/Java/09 类与对象.md"
     },
     {
       "basename": "10 继承",
@@ -123,10 +127,6 @@
     {
       "basename": "自行车",
       "path": "临时笔记/自行车.md"
-    },
-    {
-      "basename": "07 异常",
-      "path": "计算机/编程语言/Java/07 异常.md"
     },
     {
       "basename": "Dance",
