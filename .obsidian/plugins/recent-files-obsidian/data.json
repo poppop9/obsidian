@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "4 Axios",
+      "path": "计算机/JavaWeb/前端/4 Axios.md"
+    },
+    {
+      "basename": "Vue 3",
+      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+    },
+    {
+      "basename": "05 字符串",
+      "path": "计算机/编程语言/Java/05 字符串.md"
+    },
+    {
+      "basename": "08 修饰符",
+      "path": "计算机/编程语言/Java/08 修饰符.md"
+    },
+    {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
@@ -13,10 +29,6 @@
       "path": "计算机/编程语言/Java/01 idea.md"
     },
     {
-      "basename": "05 字符串",
-      "path": "计算机/编程语言/Java/05 字符串.md"
-    },
-    {
       "basename": "04 Java的基础语法2",
       "path": "计算机/编程语言/Java/04 Java的基础语法2.md"
     },
@@ -27,10 +39,6 @@
     {
       "basename": "09 类与对象",
       "path": "计算机/编程语言/Java/09 类与对象.md"
-    },
-    {
-      "basename": "08 修饰符",
-      "path": "计算机/编程语言/Java/08 修饰符.md"
     },
     {
       "basename": "11 泛型",
@@ -79,10 +87,6 @@
     {
       "basename": "Svelte",
       "path": "计算机/JavaWeb/前端/Svelte.md"
-    },
-    {
-      "basename": "Vue 3",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     },
     {
       "basename": "2 HTML 中级",
@@ -195,10 +199,6 @@
     {
       "basename": "MyBatis Draw",
       "path": "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     }
   ],
   "omittedPaths": [],
