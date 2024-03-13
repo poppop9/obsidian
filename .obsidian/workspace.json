@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
               }
             }
           },
@@ -208,6 +208,7 @@
   },
   "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/编程语言/Java/01 idea.md",
     "计算机/编程语言/Java/05 字符串.md",
     "计算机/编程语言/Java/04 Java的基础语法2.md",
@@ -217,7 +218,6 @@
     "计算机/编程语言/Java/11 泛型.md",
     "计算机/编程语言/Java/10 继承.md",
     "计算机/Java 语法糖.md",
-    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/编程语言/Java/07 异常.md",
     "计算机/编程语言/Java/15 网络编程.md",
     "计算机/编程语言/Java/12 接口，内部类.md",
