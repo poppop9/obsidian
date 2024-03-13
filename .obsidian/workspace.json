@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
+                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
               }
             }
           },
@@ -206,11 +206,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ea5ec7dd16011e6b",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
-    "计算机/JavaWeb/前端/4 Axios.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
+    "计算机/JavaWeb/前端/4 Axios.md",
     "计算机/编程语言/Java/05 字符串.md",
     "计算机/编程语言/Java/08 修饰符.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
