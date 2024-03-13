@@ -29,7 +29,7 @@
 					- `TokenParser`
 
 ```java
-// 定义了一个注解EnableHeaderConfig
+// 定义一个注解 EnableHeaderConfig
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 @Import(MyImportSelector.class)  // 指定到底要导入哪些配置类
