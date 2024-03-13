@@ -165,10 +165,8 @@ const alerts = ref([
 <div class="alert alert-success alert-dismissible"></div>
 ```
 
-
-
 ### v-model
-> 为<u>表单元素</u>创建***双向***数据绑定
+> 为<u>表单元素</u>创建**双向**数据绑定
 
 - ***语法***：`v-model="数据名"`
 
