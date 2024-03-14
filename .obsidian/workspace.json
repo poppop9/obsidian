@@ -11,12 +11,9 @@
             "id": "db49ce6ee1268ec2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "计算机/四大件/数据结构/物理结构.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/计算机/四大件/数据结构 Draw.md"
               }
             }
           },
@@ -163,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/数据结构/物理结构.md"
+                "file": "Excalidraw/计算机/四大件/数据结构 Draw.md"
               }
             }
           },
@@ -173,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/数据结构/物理结构.md"
+                "file": "Excalidraw/计算机/四大件/数据结构 Draw.md"
               }
             }
           },
@@ -207,8 +204,8 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "Excalidraw/计算机/四大件/数据结构 Draw.md",
     "计算机/四大件/数据结构/物理结构.md",
+    "Excalidraw/计算机/四大件/数据结构 Draw.md",
     "计算机/四大件/数据结构/逻辑结构.md",
     "Excalidraw/杂/草稿纸 Draw.md",
     "临时笔记/草稿纸.md",
