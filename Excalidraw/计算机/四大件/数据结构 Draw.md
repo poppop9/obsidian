@@ -157,7 +157,6 @@ top一直是最后一个元素的下标 ^J1vgTBQp
 
 
 # Embedded files
-73e88175c61eff316b320898f57ee6f2e94eb4e1: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/A1A853408B5B78D9F196546ACF84ED91.png
 4fcbf8181b81d08fe171635936e782a594c79e2e: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/ADE73FAD45E33DE1B1D2E4C618BE721B.png
 5b2c0eeecf84ef985937c0452d31c0e1d23d1599: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/754C70F1FC4A9756F0F5D730EA75DD98.png
 b7e6c5d4b64375489812c3c1ea5a31330547caa3: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230703173126.png
@@ -196,39 +195,6 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 	"version": 2,
 	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.24",
 	"elements": [
-		{
-			"type": "image",
-			"version": 54,
-			"versionNonce": 1837559344,
-			"isDeleted": false,
-			"id": "Ak31QtTi",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": -273.7037609229691,
-			"y": 381.23630166894526,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 500,
-			"height": 275.78599007170436,
-			"seed": 2003,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1688545825278,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "73e88175c61eff316b320898f57ee6f2e94eb4e1",
-			"scale": [
-				1,
-				1
-			]
-		},
 		{
 			"type": "rectangle",
 			"version": 117,
@@ -1470,7 +1436,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.25,
-			"baseline": 17
+			"baseline": 18
 		},
 		{
 			"type": "rectangle",
@@ -2298,7 +2264,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.25,
-			"baseline": 17
+			"baseline": 18
 		},
 		{
 			"type": "image",
@@ -4461,7 +4427,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "(1)",
 			"lineHeight": 1.25,
-			"baseline": 11
+			"baseline": 10
 		},
 		{
 			"type": "rectangle",
@@ -4804,7 +4770,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "(2)",
 			"lineHeight": 1.25,
-			"baseline": 11
+			"baseline": 10
 		},
 		{
 			"type": "rectangle",
@@ -7417,7 +7383,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.25,
-			"baseline": 17
+			"baseline": 18
 		},
 		{
 			"type": "text",
@@ -9122,6 +9088,39 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 				1,
 				1
 			]
+		},
+		{
+			"type": "image",
+			"version": 55,
+			"versionNonce": 1088106448,
+			"isDeleted": true,
+			"id": "Ak31QtTi",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -273.7037609229691,
+			"y": 381.23630166894526,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 275.78599007170436,
+			"seed": 2003,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1710384326419,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "73e88175c61eff316b320898f57ee6f2e94eb4e1",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -9139,10 +9138,10 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -293.2712021233883,
-		"scrollY": 155.5615286074954,
+		"scrollX": 293.4259831451913,
+		"scrollY": -311.93484547866893,
 		"zoom": {
-			"value": 1
+			"value": 1.8
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
