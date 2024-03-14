@@ -1,20 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "物理结构",
-      "path": "计算机/四大件/数据结构/物理结构.md"
+      "basename": "逻辑结构",
+      "path": "计算机/四大件/数据结构/逻辑结构.md"
     },
     {
       "basename": "数据结构 Draw",
       "path": "Excalidraw/计算机/四大件/数据结构 Draw.md"
     },
     {
-      "basename": "4 Axios",
-      "path": "计算机/JavaWeb/前端/4 Axios.md"
+      "basename": "物理结构",
+      "path": "计算机/四大件/数据结构/物理结构.md"
+    },
+    {
+      "basename": "草稿纸 Draw",
+      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "草稿纸",
       "path": "临时笔记/草稿纸.md"
+    },
+    {
+      "basename": "4 Axios",
+      "path": "计算机/JavaWeb/前端/4 Axios.md"
     },
     {
       "basename": "Dance",
@@ -23,10 +31,6 @@
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
-    },
-    {
-      "basename": "草稿纸 Draw",
-      "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
       "basename": "Vue 3",
@@ -195,10 +199,6 @@
     {
       "basename": "2 MyBatis",
       "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
-    },
-    {
-      "basename": "Obsidian特殊语法",
-      "path": "临时笔记/Obsidian特殊语法.md"
     }
   ],
   "omittedPaths": [],
