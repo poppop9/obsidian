@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "物理结构",
+      "path": "计算机/四大件/数据结构/物理结构.md"
+    },
+    {
+      "basename": "数据结构 Draw",
+      "path": "Excalidraw/计算机/四大件/数据结构 Draw.md"
+    },
+    {
+      "basename": "4 Axios",
+      "path": "计算机/JavaWeb/前端/4 Axios.md"
+    },
+    {
       "basename": "草稿纸",
       "path": "临时笔记/草稿纸.md"
     },
@@ -27,10 +39,6 @@
     {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
-    },
-    {
-      "basename": "4 Axios",
-      "path": "计算机/JavaWeb/前端/4 Axios.md"
     },
     {
       "basename": "05 字符串",
@@ -191,14 +199,6 @@
     {
       "basename": "Obsidian特殊语法",
       "path": "临时笔记/Obsidian特殊语法.md"
-    },
-    {
-      "basename": "摄影",
-      "path": "临时笔记/摄影.md"
-    },
-    {
-      "basename": "MyBatis Draw",
-      "path": "Excalidraw/计算机/编程语言/数据库/MyBatis Draw.md"
     }
   ],
   "omittedPaths": [],
