@@ -144,6 +144,10 @@ removeNode ^O1jn4b0J
 
 步骤1 ^zFaURTNu
 
+preNode ^Pqh0u9nj
+
+步骤2 ^h2cDIdRA
+
 
 # Embedded files
 bb8f7351053d83cf6beece0c3e70ce663f3e482f: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20230703180150.png
@@ -6893,8 +6897,8 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "rectangle",
-			"version": 239,
-			"versionNonce": 846492112,
+			"version": 240,
+			"versionNonce": 97620784,
 			"isDeleted": false,
 			"id": "gD-5j2JrgglZHfsUKx-0U",
 			"fillStyle": "hachure",
@@ -6926,9 +6930,13 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 				{
 					"id": "Iy1tVSIFiIEjQ4BucAgTV",
 					"type": "arrow"
+				},
+				{
+					"id": "9g99XCZoH4Jm_9eABqS6t",
+					"type": "arrow"
 				}
 			],
-			"updated": 1710397863471,
+			"updated": 1710397925485,
 			"link": null,
 			"locked": false
 		},
@@ -7618,6 +7626,137 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "步骤1",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "Pqh0u9nj",
+			"type": "text",
+			"x": 300.3612800068679,
+			"y": 1549.5714222741392,
+			"width": 74.5799560546875,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#1971c2",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1976517584,
+			"version": 38,
+			"versionNonce": 1848352560,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "9g99XCZoH4Jm_9eABqS6t",
+					"type": "arrow"
+				}
+			],
+			"updated": 1710397925485,
+			"link": null,
+			"locked": false,
+			"text": "preNode",
+			"rawText": "preNode",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "preNode",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "9g99XCZoH4Jm_9eABqS6t",
+			"type": "arrow",
+			"x": 326.9612555928054,
+			"y": 1547.9714161706236,
+			"width": 12.800048828125,
+			"height": 25.5999755859375,
+			"angle": 0,
+			"strokeColor": "#1971c2",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1595880400,
+			"version": 21,
+			"versionNonce": 265304368,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1710397925485,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					12.800048828125,
+					-25.5999755859375
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "Pqh0u9nj",
+				"focus": -0.4040202179813233,
+				"gap": 1.600006103515625
+			},
+			"endBinding": {
+				"elementId": "gD-5j2JrgglZHfsUKx-0U",
+				"focus": 0.005915766073894321,
+				"gap": 6.087612125277246
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "h2cDIdRA",
+			"type": "text",
+			"x": 194.9612555928054,
+			"y": 1644.7714344811704,
+			"width": 50.13999938964844,
+			"height": 24,
+			"angle": 0,
+			"strokeColor": "#f08c00",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 2108212176,
+			"version": 33,
+			"versionNonce": 2076364752,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1710397933251,
+			"link": null,
+			"locked": false,
+			"text": "步骤2",
+			"rawText": "步骤2",
+			"fontSize": 20,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 18,
+			"containerId": null,
+			"originalText": "步骤2",
+			"lineHeight": 1.2
 		}
 	],
 	"appState": {
@@ -7635,7 +7774,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 159.33873220016335,
+		"scrollX": 34.33873220016335,
 		"scrollY": -1179.6714207482603,
 		"zoom": {
 			"value": 1
