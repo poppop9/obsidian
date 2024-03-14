@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/06 集合.md",
-                "mode": "preview",
+                "file": "科技美学/软件.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/06 集合.md"
+                "file": "科技美学/软件.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/06 集合.md"
+                "file": "科技美学/软件.md"
               }
             }
           },
@@ -208,10 +208,10 @@
   },
   "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "计算机/编程语言/Java/06 集合.md",
     "计算机/四大件/数据结构/逻辑结构.md",
     "计算机/Docker.md",
     "计算机/编程语言/Java/05 常用 API.md",
-    "计算机/编程语言/Java/06 集合.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "Excalidraw/计算机/四大件/数据结构 Draw.md",
