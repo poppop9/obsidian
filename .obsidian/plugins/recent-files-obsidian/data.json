@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "06 集合",
+      "path": "计算机/编程语言/Java/06 集合.md"
+    },
+    {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
       "basename": "05 常用 API",
       "path": "计算机/编程语言/Java/05 常用 API.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "穿搭",
       "path": "临时笔记/穿搭.md"
-    },
-    {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
     {
       "basename": "2 BootStrap 中级",
@@ -175,10 +179,6 @@
     {
       "basename": "13 Java 8 新特性",
       "path": "计算机/编程语言/Java/13 Java 8 新特性.md"
-    },
-    {
-      "basename": "06 集合",
-      "path": "计算机/编程语言/Java/06 集合.md"
     },
     {
       "basename": "03 Java的基础语法1",
