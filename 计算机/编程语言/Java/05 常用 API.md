@@ -15,7 +15,6 @@ public class Arrays extends Object
 >`String toString(arr)`  返回指定数组内容的字符串表示形式
 >`sort(arr)`  将数组从小到大排列
 >`List<\T> asList(T…a)`  将多个参数转成一个固定大小的List集合【这个集合无法做增删操作】
-> `int binarySearch(数组, 数组元素);` 根据数组元素，返回该元素在数组中的索引
 
 # Math
 >其中集合了基本的数学运算方法
