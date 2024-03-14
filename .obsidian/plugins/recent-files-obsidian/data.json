@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Surge 5",
+      "path": "科技美学/Surge 5.md"
+    },
+    {
+      "basename": "支付宝购买外区App Store应用",
+      "path": "科技美学/支付宝购买外区App Store应用.md"
+    },
+    {
       "basename": "软件",
       "path": "科技美学/软件.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Java的基础语法2 Draw",
       "path": "Excalidraw/计算机/编程语言/Java/Java的基础语法2 Draw.md"
-    },
-    {
-      "basename": "配置",
-      "path": "计算机/编程语言/Java/配置.md"
-    },
-    {
-      "basename": "02 Java的理论知识",
-      "path": "计算机/编程语言/Java/02 Java的理论知识.md"
     }
   ],
   "omittedPaths": [],

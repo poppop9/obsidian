@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科技美学/软件.md",
+                "file": "科技美学/Surge 5.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科技美学/软件.md"
+                "file": "科技美学/Surge 5.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "科技美学/软件.md"
+                "file": "科技美学/Surge 5.md"
               }
             }
           },
@@ -208,6 +208,8 @@
   },
   "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "科技美学/支付宝购买外区App Store应用.md",
+    "科技美学/软件.md",
     "计算机/编程语言/Java/06 集合.md",
     "计算机/四大件/数据结构/逻辑结构.md",
     "计算机/Docker.md",
@@ -232,8 +234,6 @@
     "计算机/Java 语法糖.md",
     "计算机/编程语言/Java/07 异常.md",
     "计算机/编程语言/Java/15 网络编程.md",
-    "计算机/编程语言/Java/12 接口，内部类.md",
-    "计算机/Linux.md",
     "图片库/Pasted Image 20240303101354_873.png",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
