@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "05 常用 API",
+      "path": "计算机/编程语言/Java/05 常用 API.md"
+    },
+    {
+      "basename": "Vue 3",
+      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+    },
+    {
       "basename": "逻辑结构",
       "path": "计算机/四大件/数据结构/逻辑结构.md"
     },
@@ -33,10 +41,6 @@
       "path": "临时笔记/穿搭.md"
     },
     {
-      "basename": "Vue 3",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
-    },
-    {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "04 Java的基础语法2",
       "path": "计算机/编程语言/Java/04 Java的基础语法2.md"
-    },
-    {
-      "basename": "05 常用 API",
-      "path": "计算机/编程语言/Java/05 常用 API.md"
     },
     {
       "basename": "09 类与对象",

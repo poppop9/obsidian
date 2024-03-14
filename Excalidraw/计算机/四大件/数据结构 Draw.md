@@ -1359,8 +1359,8 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "text",
-			"version": 81,
-			"versionNonce": 1461564880,
+			"version": 82,
+			"versionNonce": 114195920,
 			"isDeleted": false,
 			"id": "0F14hkGP",
 			"fillStyle": "hachure",
@@ -1387,7 +1387,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 					"type": "arrow"
 				}
 			],
-			"updated": 1710399898040,
+			"updated": 1710407390699,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1399,7 +1399,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 17
 		},
 		{
 			"type": "rectangle",
@@ -2187,8 +2187,8 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "text",
-			"version": 63,
-			"versionNonce": 326216656,
+			"version": 64,
+			"versionNonce": 1908213552,
 			"isDeleted": false,
 			"id": "w7WDD4ni",
 			"fillStyle": "hachure",
@@ -2215,7 +2215,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 					"type": "arrow"
 				}
 			],
-			"updated": 1710399898041,
+			"updated": 1710407390700,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2227,7 +2227,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 17
 		},
 		{
 			"type": "rectangle",
@@ -6630,8 +6630,8 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "text",
-			"version": 192,
-			"versionNonce": 665879856,
+			"version": 193,
+			"versionNonce": 1507738576,
 			"isDeleted": false,
 			"id": "AP28eSgx",
 			"fillStyle": "hachure",
@@ -6656,7 +6656,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 					"type": "arrow"
 				}
 			],
-			"updated": 1710405520830,
+			"updated": 1710407390709,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -6668,40 +6668,7 @@ b41f857b43cd6fec125b9664611629df67d09c68: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.2,
-			"baseline": 18
-		},
-		{
-			"type": "image",
-			"version": 73,
-			"versionNonce": 939963856,
-			"isDeleted": true,
-			"id": "pZmIIFSJ",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 1781.8194555823316,
-			"y": 2238.7871648646446,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 500,
-			"height": 37.875,
-			"seed": 95011,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1710405973202,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "27d2f1e4d72139af39c41772ba6c338f3b699a18",
-			"scale": [
-				1,
-				1
-			]
+			"baseline": 17
 		}
 	],
 	"appState": {

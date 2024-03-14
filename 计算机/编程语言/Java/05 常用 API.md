@@ -16,6 +16,10 @@ public class Arrays extends Object
 >`sort(arr)`  将数组从小到大排列
 >`List<\T> asList(T…a)`  将多个参数转成一个固定大小的List集合【这个集合无法做增删操作】
 
+
+`Arrays.binarySearch(数组, shu);`
+
+
 # Math
 >其中集合了基本的数学运算方法
 
