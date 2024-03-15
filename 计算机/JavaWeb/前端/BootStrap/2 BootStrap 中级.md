@@ -377,6 +377,40 @@
 ```
 
 #### 归类导航栏
+![100](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403152318948.png)
+
+- 归类按钮
+	- `navbar-toggler`
+	- `.data-bs-toggle="collapse"`
+	- `data-bs-target="#collapsibleNavbar"`
+- 被归类的导航 `<div>`
+	- `collapse`
+	- `navbar-collapse`
+	- `id="collapsibleNavbar"`
+
+```html
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">链接</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">链接</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">链接</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+```
 
 
 
