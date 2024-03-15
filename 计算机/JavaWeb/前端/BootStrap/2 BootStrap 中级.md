@@ -11,8 +11,8 @@
 - `.card-footer` 卡片页脚
 - `.card-text` ***用于去除页眉，主题，页脚内最后一个子元素的底边距***
 
-
 ---
+
 - ***全宽图片卡片***
 ```html
 <div class="card" style="width:400px">
@@ -40,6 +40,7 @@
 ```
 
 - ***导航卡片***
+![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403152236751.png)
 ```html
 <div class="card text-center">
   <div class="card-header">
