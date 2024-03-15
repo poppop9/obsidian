@@ -15,4 +15,5 @@
 - `Vue 3 Snippets`  vue3的代码提示
 - `Vue Language Features (Volar)`
 - `vue-helper`  增强编写
+- `bootstarp 5 quick snippets` Bootstarp5 的代码提示
 

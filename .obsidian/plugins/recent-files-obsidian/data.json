@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1 VSCode",
+      "path": "计算机/JavaWeb/前端/1 VSCode.md"
+    },
+    {
+      "basename": "职业",
+      "path": "考试/职业.md"
+    },
+    {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "Docker",
       "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "职业",
-      "path": "考试/职业.md"
     },
     {
       "basename": "草稿纸",
