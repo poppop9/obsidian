@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "穿搭",
+      "path": "临时笔记/穿搭.md"
+    },
+    {
+      "basename": "1 VSCode",
+      "path": "计算机/JavaWeb/前端/1 VSCode.md"
+    },
+    {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
@@ -9,20 +17,12 @@
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
-      "basename": "1 VSCode",
-      "path": "计算机/JavaWeb/前端/1 VSCode.md"
-    },
-    {
       "basename": "职业",
       "path": "考试/职业.md"
     },
     {
       "basename": "2 CSS中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
-    },
-    {
-      "basename": "穿搭",
-      "path": "临时笔记/穿搭.md"
     },
     {
       "basename": "逻辑结构",
