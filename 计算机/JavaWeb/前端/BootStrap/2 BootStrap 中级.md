@@ -427,8 +427,7 @@
 </nav>
 ```
 
->[!hint] 可以使用 OffCanvas 来实现点击之后侧边导航栏
-
+#### 点击后侧边导航栏
 ```html
 <nav class="navbar bg-body-tertiary fixed-top">
   <div class="container-fluid">
@@ -472,5 +471,7 @@
   </div>
 </nav>
 ```
+
+## 轮播
 
 
