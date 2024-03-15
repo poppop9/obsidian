@@ -26,6 +26,8 @@
 </div>
 ```
 
+---
+
 - ***外边距图片卡片***
 ```html
 <div class="card" style="width:400px">
@@ -38,6 +40,8 @@
 	</div>
 </div>
 ```
+
+---
 
 - ***导航卡片***
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403152236751.png)
@@ -63,7 +67,10 @@
 </div>
 ```
 
+---
+
 - ***水平卡片***
+![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403152242833.png)
 ```html
 <div class="card">
 	<div class="row">
