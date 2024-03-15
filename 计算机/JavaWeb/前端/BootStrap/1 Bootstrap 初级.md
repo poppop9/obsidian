@@ -127,6 +127,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 | `.container-xxl` | 100% | 100% | 100% | 100% | 100% | 1320px |
 ### .container-fluid 全宽容器
 >提供了一个***全宽容器***【`width` 总是 `100%`】
+
 ## 网格布局
 >利用 `flexbox` ，共有12列【会根据屏幕大小，自动重排】
 >![800](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402051753353.png)
