@@ -375,6 +375,9 @@ background-origin: content-box;
 - 具体位置
 ```css
 background-position: right top;  /* 右上角 */
+
+// 裁剪图片的这个部分
+background-position: 100px 200px;
 ```
 
 ---
