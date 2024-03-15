@@ -1345,8 +1345,8 @@ NULL ^AP28eSgx
 		},
 		{
 			"type": "text",
-			"version": 82,
-			"versionNonce": 114195920,
+			"version": 83,
+			"versionNonce": 660467036,
 			"isDeleted": false,
 			"id": "0F14hkGP",
 			"fillStyle": "hachure",
@@ -1373,7 +1373,7 @@ NULL ^AP28eSgx
 					"type": "arrow"
 				}
 			],
-			"updated": 1710407390699,
+			"updated": 1710483562405,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1385,7 +1385,7 @@ NULL ^AP28eSgx
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 17
 		},
 		{
 			"type": "rectangle",
@@ -2173,8 +2173,8 @@ NULL ^AP28eSgx
 		},
 		{
 			"type": "text",
-			"version": 64,
-			"versionNonce": 1908213552,
+			"version": 65,
+			"versionNonce": 2009540196,
 			"isDeleted": false,
 			"id": "w7WDD4ni",
 			"fillStyle": "hachure",
@@ -2201,7 +2201,7 @@ NULL ^AP28eSgx
 					"type": "arrow"
 				}
 			],
-			"updated": 1710407390700,
+			"updated": 1710483562405,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2213,7 +2213,7 @@ NULL ^AP28eSgx
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 17
 		},
 		{
 			"type": "rectangle",
@@ -6176,8 +6176,8 @@ NULL ^AP28eSgx
 		},
 		{
 			"type": "text",
-			"version": 193,
-			"versionNonce": 1507738576,
+			"version": 194,
+			"versionNonce": 678420956,
 			"isDeleted": false,
 			"id": "AP28eSgx",
 			"fillStyle": "hachure",
@@ -6202,7 +6202,7 @@ NULL ^AP28eSgx
 					"type": "arrow"
 				}
 			],
-			"updated": 1710407390709,
+			"updated": 1710483562415,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -6214,40 +6214,7 @@ NULL ^AP28eSgx
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.2,
-			"baseline": 18
-		},
-		{
-			"type": "image",
-			"version": 68,
-			"versionNonce": 754339120,
-			"isDeleted": true,
-			"id": "x8xylF2s",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 748.8589390832751,
-			"y": 1965.6506396671398,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 500,
-			"height": 50.25,
-			"seed": 43264,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1710470298564,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "2b0d61cb1f1fdb401e9aab8d8d9f508b7e6e8388",
-			"scale": [
-				1,
-				1
-			]
+			"baseline": 17
 		}
 	],
 	"appState": {
@@ -6265,10 +6232,10 @@ NULL ^AP28eSgx
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -729.136716861053,
-		"scrollY": -1783.5811884410114,
+		"scrollX": 532.2664534080891,
+		"scrollY": -401.63793755417385,
 		"zoom": {
-			"value": 1.8
+			"value": 0.45
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
