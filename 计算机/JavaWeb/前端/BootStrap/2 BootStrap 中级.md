@@ -356,11 +356,13 @@
 ### 导航栏
 - 父容器
 	- `.navbar` **必须**
-	- `.navbar-expand-xxl|xl|lg|md|sm` 设置响应式堆叠
+	- `.navbar-expand-xxl|xl|lg|md|sm` 设置响应式堆叠，**如果不设置，则导航栏默认垂直堆叠**
 - 子容器
-	- `.navbar-nav` 常见于添加到 `<ul>`
-
-
+	- `.navbar-nav` 常见于添加到 `<ul>`，`<div>`
+- 孙子容器
+	- `.nav-item` 
+	- `.nav-link` 用于 `<a>` 内，表示导航项【***必须***】
+	- `.navbar-brand` 用于突出显示网站 LOGO
 
 
 
