@@ -337,7 +337,7 @@
 	- `.nav-link` 用于 `<a>` 内，表示导航项【***必须***】
 
 ```html
-<ul class="nav nav-pills nav-fill flex-xxl-row flex-column ">
+<ul class="nav nav-pills nav-fill flex-xxl-row flex-column">
 	<li class="nav-item">
 		<a class="nav-link active" aria-current="page" href="#">Active</a>
 	</li>
@@ -353,11 +353,12 @@
 </ul>
 ```
 
-
-
 ### 导航栏
-
-
+- 父容器
+	- `.navbar` **必须**
+	- `.navbar-expand-xxl|xl|lg|md|sm` 设置响应式堆叠
+- 子容器
+	- `.navbar-nav` 常见于添加到 `<ul>`
 
 
 

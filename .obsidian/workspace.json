@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -208,12 +208,13 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+    "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
+    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
+    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端/1 VSCode.md",
     "考试/职业.md",
-    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "css、.md",
     "计算机/四大件/数据结构/逻辑结构.md",
     "计算机/编程语言/Java/06 集合.md",
@@ -233,7 +234,6 @@
     "临时笔记/Dance.md",
     "计算机/编程语言/Java/05 字符串.md",
     "计算机/编程语言/Java/08 修饰符.md",
-    "计算机/编程语言/Java/01 idea.md",
     "图片库/Pasted Image 20240303101354_873.png",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
