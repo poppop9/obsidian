@@ -473,5 +473,49 @@
 ```
 
 ## 轮播
+| 类                             | 描述                                               |
+| ----------------------------- | ------------------------------------------------ |
+| `.carousel`                   | 创建轮播                                             |
+| `.carousel-indicators`        | 下方的指示器【幻灯片数量……】                                  |
+| `.carousel-inner`             | 将幻灯片添加到轮播                                        |
+| `.carousel-item`              | 规定每张幻灯片的内容。                                      |
+| `.carousel-control-prev`      | 向轮播添加一个向左（上一个）按钮，允许用户在幻灯片之间回退                    |
+| `.carousel-control-next`      | 向轮播添加一个向右（下一个）按钮，允许用户在幻灯片之间前进                    |
+| `.carousel-control-prev-icon` | 与 .carousel-control-prev 一起使用，创建“上一个”按钮          |
+| `.carousel-control-next-icon` | 与 .carousel-control-next 一起使用，创建“下一个”按钮          |
+| `.slide`                      | 从一个项目滑到下一个项目时添加 CSS 过渡和动画效果<br>如果您不想要这种效果，请删除此类。 |
 
+```html
+<!-- 轮播 -->
+<div class="carousel slide" data-bs-ride="carousel">
+
+  <!-- 指标/点 -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- 幻灯片/轮播 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="la.jpg" alt="Los Angeles" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="chicago.jpg" alt="Chicago" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="ny.jpg" alt="New York" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- 左右控件/图标 -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+```
 
