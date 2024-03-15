@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "考试/Untitled.md"
+      "basename": "1 CSS初级",
+      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+    },
+    {
+      "basename": "3 CSS高级",
+      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+    },
+    {
+      "basename": "2 CSS中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
+      "basename": "职业",
+      "path": "考试/职业.md"
     },
     {
       "basename": "草稿纸",
@@ -15,10 +31,6 @@
     {
       "basename": "数据结构 Draw",
       "path": "Excalidraw/计算机/四大件/数据结构 Draw.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "06 集合",
@@ -135,18 +147,6 @@
     {
       "basename": "2 HTML 中级",
       "path": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
-    },
-    {
-      "basename": "1 CSS初级",
-      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
-    },
-    {
-      "basename": "3 CSS高级",
-      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
-    },
-    {
-      "basename": "2 CSS中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "MySQL",
