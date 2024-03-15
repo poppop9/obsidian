@@ -363,8 +363,18 @@
 	- `.nav-item` 
 	- `.nav-link` 用于 `<a>` 内，表示导航项【***必须***】
 	- `.navbar-brand` 用于突出显示网站 LOGO
+	- `.navbar-text` 导航栏内文本
 
-
+```html
+<nav class="navbar navbar-expand-sm text-bg-dark">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">
+			<img src="https://img1.baidu.com/it/u=1621616811,1488147250&fm=253&fmt=auto&app=138&f=JPEG?w=683&h=697"
+				alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+		</a>
+	</div>
+</nav>
+```
 
 
 
