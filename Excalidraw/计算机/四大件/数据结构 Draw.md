@@ -134,7 +134,6 @@ NULL ^AP28eSgx
 
 
 # Embedded files
-2b0d61cb1f1fdb401e9aab8d8d9f508b7e6e8388: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/907E1ACCCC946249F558EB857D386737.png
 953e890d56abc536efb15f09cec0507c816be57e: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/A22E620F8CFBB09B77DCBBA2A1FD968C.png
 
 %%
@@ -3695,39 +3694,6 @@ NULL ^AP28eSgx
 		},
 		{
 			"type": "image",
-			"version": 67,
-			"versionNonce": 1679977776,
-			"isDeleted": false,
-			"id": "x8xylF2s",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 748.8589390832751,
-			"y": 1965.6506396671398,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 500,
-			"height": 50.25,
-			"seed": 43264,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1710399898042,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "2b0d61cb1f1fdb401e9aab8d8d9f508b7e6e8388",
-			"scale": [
-				1,
-				1
-			]
-		},
-		{
-			"type": "image",
 			"version": 71,
 			"versionNonce": 929709520,
 			"isDeleted": false,
@@ -6249,6 +6215,39 @@ NULL ^AP28eSgx
 			"originalText": "NULL",
 			"lineHeight": 1.2,
 			"baseline": 18
+		},
+		{
+			"type": "image",
+			"version": 68,
+			"versionNonce": 754339120,
+			"isDeleted": true,
+			"id": "x8xylF2s",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 748.8589390832751,
+			"y": 1965.6506396671398,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 50.25,
+			"seed": 43264,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1710470298564,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "2b0d61cb1f1fdb401e9aab8d8d9f508b7e6e8388",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -6266,10 +6265,10 @@ NULL ^AP28eSgx
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -1514.7315932850006,
-		"scrollY": -1092.8801545078352,
+		"scrollX": -729.136716861053,
+		"scrollY": -1783.5811884410114,
 		"zoom": {
-			"value": 1.4000000000000001
+			"value": 1.8
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
