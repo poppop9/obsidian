@@ -473,17 +473,24 @@
 ```
 
 ## 轮播
-| 类                             | 描述                          |
-| ----------------------------- | --------------------------- |
-| `.carousel`                   | 创建轮播                        |
-| `.carousel-indicators`        | 下方的指示器【幻灯片数量……】             |
-| `.carousel-inner`             | 幻灯片父容器                      |
-| `.carousel-item`              | 幻灯片子容器                      |
-| `.carousel-control-prev`      | 向轮播添加一个向左按钮                 |
-| `.carousel-control-next`      | 向轮播添加一个向右按钮                 |
-| `.carousel-control-prev-icon` | 创建“上一个”按钮                   |
-| `.carousel-control-next-icon` | 创建“下一个”按钮                   |
-| `.slide`                      | 从一个项目滑到下一个项目时添加 CSS 过渡和动画效果 |
+- 父容器
+	- `.carousel` 创建轮播
+	- `.slide` 项目滑动时的过渡动画效果
+- 子容器
+	- 指示器
+		- `.carousel-indicators` 下方的指示器【幻灯片数量……】
+	- 幻灯片
+		- `.carousel-inner` 幻灯片父容器
+- 孙子容器
+	- `.carousel-item` 幻灯片子容器
+
+| 类                             | 描述          |
+| ----------------------------- | ----------- |
+| `.carousel-control-prev`      | 向轮播添加一个向左按钮 |
+| `.carousel-control-next`      | 向轮播添加一个向右按钮 |
+| `.carousel-control-prev-icon` | 创建“上一个”按钮   |
+| `.carousel-control-next-icon` | 创建“下一个”按钮   |
+
 
 ```html
 <!-- 轮播 -->
