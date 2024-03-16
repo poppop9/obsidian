@@ -116,10 +116,8 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 </div>
 ```
 
->[!hint] 为什么水平部分居右堆叠要使用 `.ms-auto`，而不是其他居右的属性 ？
->因为此处的父容器 `.hstack`，已
-
-
+>[!warning] 为什么水平部分居右堆叠要使用 `.ms-auto`，而不是其他居右的属性 ？
+>因为此处的父容器 `.hstack` 已经使用了关于 flex 的属性了，为了不冲突，所以使 `margin-left: auto;`
 
 # 组件
 ## 警告框

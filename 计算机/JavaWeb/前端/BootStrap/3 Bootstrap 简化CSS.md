@@ -38,6 +38,8 @@
 | `.text-break`           | 防止长文本破坏布局 |
 | `.text-decoration-none` | 删除链接中的下划线 |
 | `.text-nowrap`          | 文本不换行     |
+# 分割线
+- `.vr` 竖直的分割线【~~对标 `<hr>`~~】
 
 # 表格，图片
 - `<table>` 
