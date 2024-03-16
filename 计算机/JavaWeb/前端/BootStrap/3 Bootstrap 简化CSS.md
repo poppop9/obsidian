@@ -104,12 +104,5 @@
 
 # 杂
 ## 全宽响应式
-- `.d-grid` 让按钮铺满父元素
 - `.gap-数字` 规定子元素之间的间隔
 
-```html
-<div class="d-grid gap-2">
-  <button class="btn btn-primary" type="button">Button</button>
-  <button class="btn btn-primary" type="button">Button</button>
-</div>
-```
