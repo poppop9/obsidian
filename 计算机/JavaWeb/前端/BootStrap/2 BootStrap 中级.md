@@ -630,6 +630,8 @@
 
 >[!warning] 提示必须用 JavaScript 初始化才能工作
 
+- `data-bs-placement="top/bottom/left/right"` 设置提示的位置
+
 ```html
 <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="太棒了！">请悬停在我上面！</button>
 
@@ -640,6 +642,20 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 })
 </script>
 ```
+
+When triggered from hyperlinks that span multiple lines, tooltips will be centered. Use `white-space: nowrap;` on your `<a>`s to avoid this behavior.
+
+
+
+
+
+
+
+
+
+
+
+
 ### 点击提示
 
 
