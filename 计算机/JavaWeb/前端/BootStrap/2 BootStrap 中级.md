@@ -634,6 +634,7 @@
 
 ```html
 <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="太棒了！">请悬停在我上面！</button>
+<a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="太棒了！">Hover</a>
 
 <script>
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')

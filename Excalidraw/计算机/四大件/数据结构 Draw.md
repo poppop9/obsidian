@@ -1345,8 +1345,8 @@ NULL ^AP28eSgx
 		},
 		{
 			"type": "text",
-			"version": 84,
-			"versionNonce": 1787960016,
+			"version": 85,
+			"versionNonce": 1095640397,
 			"isDeleted": false,
 			"id": "0F14hkGP",
 			"fillStyle": "hachure",
@@ -1373,7 +1373,7 @@ NULL ^AP28eSgx
 					"type": "arrow"
 				}
 			],
-			"updated": 1710503666572,
+			"updated": 1710565864627,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1385,7 +1385,7 @@ NULL ^AP28eSgx
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 17
 		},
 		{
 			"type": "rectangle",
@@ -2173,8 +2173,8 @@ NULL ^AP28eSgx
 		},
 		{
 			"type": "text",
-			"version": 66,
-			"versionNonce": 1397602864,
+			"version": 67,
+			"versionNonce": 1577804291,
 			"isDeleted": false,
 			"id": "w7WDD4ni",
 			"fillStyle": "hachure",
@@ -2201,7 +2201,7 @@ NULL ^AP28eSgx
 					"type": "arrow"
 				}
 			],
-			"updated": 1710503666572,
+			"updated": 1710565864627,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2213,7 +2213,7 @@ NULL ^AP28eSgx
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 17
 		},
 		{
 			"type": "rectangle",
@@ -6176,8 +6176,8 @@ NULL ^AP28eSgx
 		},
 		{
 			"type": "text",
-			"version": 195,
-			"versionNonce": 489046224,
+			"version": 196,
+			"versionNonce": 1683354541,
 			"isDeleted": false,
 			"id": "AP28eSgx",
 			"fillStyle": "hachure",
@@ -6202,7 +6202,7 @@ NULL ^AP28eSgx
 					"type": "arrow"
 				}
 			],
-			"updated": 1710503666580,
+			"updated": 1710565864637,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -6214,7 +6214,7 @@ NULL ^AP28eSgx
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.2,
-			"baseline": 18
+			"baseline": 17
 		}
 	],
 	"appState": {
