@@ -95,15 +95,21 @@
 - `d-inline-flex` 创建行内弹性容器【~~内容多少占多少~~】
 ![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403162112488.png)
 ---
+
 - **方向**
 	- `.flex-column` 让其子元素垂直排列
+	- `.flex-column-reverse` 让其子元素反向垂直排列
 	- `.flex-row` 让其子元素水平排列
-	- `.flex-column` 让其子元素垂直排列
-	- `.flex-row` 让其子元素水平排列
+	- `.flex-row` 让其子元素反向水平排列
+
 ---
-- `justify-content-center` 子元素水平居中
-- `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
-- `justify-content-between` 让子元素分布在容器的左右两端
+
+- **对齐**
+	- `justify-content-center` 子元素水平居中
+	- `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
+	- `justify-content-between` 让子元素分布在容器的左右两端
+	- `justify-content-around` 在每个 flex 子项目的两侧都添加空间
+
 ---
 - `align-items-center` 让子元素垂直居中于父元素
 - `align-self-center` 自己居中于父元素
