@@ -477,6 +477,8 @@
 	- `.carousel` 创建轮播
 	- `.slide` 项目滑动时的过渡动画效果
 	- `.carousel-fade` 过渡动画效果为淡入淡出
+	- ` data-bs-ride="carousel"` 自动轮播
+	- `data-bs-ride="true"` 会在用户第一次点击轮播后，自动轮播
 - 子容器
 	- 指示器
 		- `.carousel-indicators` 下方的指示器【幻灯片数量……】
@@ -498,7 +500,6 @@
 ```html
 <!-- 轮播 -->
 <div id="demo" class="carousel slide carousel-fade" data-bs-ride="carousel">
-
 	<!-- 指标/点 -->
 	<div class="carousel-indicators">
 		<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
