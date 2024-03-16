@@ -643,13 +643,14 @@
 
 - 父容器
 	- `data-bs-toggle="offcanvas"` 在触发按钮上使用
-	- `data-bs-target="#demo"` 在触发按钮上指定触发目标
+	- `data-bs-target="id值"` 在触发按钮上指定对应的id值，以触发目标
 	- `offcanvas` 创建offcanvas
-	- `.offcanvas-start` 定位 offcanvas，并将其宽度设置为 400px
+	- `.offcanvas-start/end/top/bottom` 定位 offcanvas，并将其宽度设置为 400px
+	- `data-bs-scroll="true"` 当触发侧边栏时，依旧可以滚动主页面
 - 子容器
 	- `offcanvas-header` 标题部分
 		- `offcanvas-title` 突出标题部分
-		- `data-bs-dismiss="offcanvas"`
+		- `data-bs-dismiss="offcanvas"` 在 `<button>` 上使用，是关闭 offcanvas 的按钮
 	- `offcanvas-body` 主体部分
 
 
