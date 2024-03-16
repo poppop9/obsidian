@@ -78,11 +78,16 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.float-end` 图片右对齐
 	- `.mx-auto` + `.d-block` 图片居中
 	- `.img-fluid` 响应式图像
+
+## display
+- `d-none`
+- `d-md-flex` display-middle-flex，表示***当屏幕宽度达到中等及以上时，设置弹性容器***
+
 ## position
 - `.fixed-top` 相对于视口将元素定位在顶上
 - `.sticky-top` 根据用户滚动位置，将元素定位在顶上
+
 ## Flexbox
-- `d-md-flex` display-middle-flex，表示***当屏幕宽度达到中等及以上时，设置弹性容器***
 - `.flex-column` 让其子元素垂直排列
 - `.flex-row` 让其子元素水平排列
 - `justify-content-center` 子元素水平居中
