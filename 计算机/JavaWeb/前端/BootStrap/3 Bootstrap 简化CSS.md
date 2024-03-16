@@ -55,6 +55,11 @@
 - `.fixed-top` 相对于视口将元素定位在顶上
 - `.sticky-top` 根据用户滚动位置，将元素定位在顶上
 
+# float
+- `.float-start` 使元素向左浮动
+- `.float-end` 使元素向右浮动
+- `.clearfix` 清除浮动
+
 # Flexbox
 - `.flex-column` 让其子元素垂直排列
 - `.flex-row` 让其子元素水平排列
