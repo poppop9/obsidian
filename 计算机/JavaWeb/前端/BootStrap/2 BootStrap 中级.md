@@ -479,6 +479,7 @@
 	- `.carousel-fade` 过渡动画效果为淡入淡出
 	- ` data-bs-ride="carousel"` 自动轮播
 	- `data-bs-ride="true"` 会在用户第一次点击轮播后，自动轮播
+	- `data-bs-touch="false"` 禁用在触摸屏幕上的左右滑动
 - 子容器
 	- 指示器
 		- `.carousel-indicators` 下方的指示器【幻灯片数量……】
