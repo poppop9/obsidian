@@ -490,6 +490,10 @@
 	- `.carousel-control-prev-icon` 创建“上一个”按钮
 	- `.carousel-control-next-icon` 创建“下一个”按钮
 
+>[!warning] 必须将 `.active` 添加到其中一张幻灯片中，否则轮播界面将不可见
+
+确保在可选控件上 `.carousel` 设置唯一 `id` 值，尤其是在单个页面上使用多个轮播界面时。控件和指示器元素必须具有 `data-bs-target` 与元素匹配 `id` 的属性（或 `href` 链接 `.carousel` 属性）。
+
 ```html
 <!-- 轮播 -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -531,3 +535,4 @@
 </div>
 ```
 
+出于性能原因，必须使用轮播构造函数方法手动初始化轮播。如果不进行初始化，则在用户显式激活控件或指示器之前，不会注册某些事件侦听器（特别是需要触摸/轻扫支持的事件）。唯一的例外是带有该属性的 `data-bs-ride="carousel"` 自动播放轮播，因为这些轮播是在页面加载时自动初始化的。如果使用带有 data 属性的自动播放轮播，请不要使用 constructor 方法显式初始化相同的轮播。
