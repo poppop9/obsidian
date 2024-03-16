@@ -107,8 +107,8 @@
 - **对齐**
 	- `justify-content-center` 子元素水平居中
 	- `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
-	- `justify-content-between` 让子元素分布在容器的左右两端
 	- `justify-content-around` 在每个 flex 子项目的两侧都添加空间
+	- `justify-content-between` 第一个 flex 子项目的左侧不添加空间，最后一个 flex 子项目的右侧不添加空间，其他都类似 `around`
 
 ---
 - `align-items-center` 让子元素垂直居中于父元素
