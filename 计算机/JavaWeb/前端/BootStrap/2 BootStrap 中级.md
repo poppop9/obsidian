@@ -626,10 +626,20 @@
 
 ## 弹出框
 ### 悬停提示
+>将 `data-bs-toggle="tooltip"` 添加到元素，并使用 `title` 属性指定提示内显示的文本
 
+>[!warning] 提示必须用 JavaScript 初始化才能工作
 
+```html
+<button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="太棒了！">请悬停在我上面！</button>
 
-
+<script>
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+```
 ### 点击提示
 
 
