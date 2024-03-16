@@ -109,6 +109,17 @@
 	- `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
 	- `justify-content-around` 在每个 flex 子项目的两侧都添加空间
 	- `justify-content-between` 第一个 flex 子项目的左侧不添加空间，最后一个 flex 子项目的右侧不添加空间，其他都类似 `around`
+	- `ms-auto` 让元素居右对齐
+	- `me-auto` 让元素居左对齐
+
+```html
+<div class="d-flex">
+	<div class="p-2 bg-info">弹性项目 1</div>
+	<div class="p-2 bg-warning ms-auto">弹性项目 2</div>
+	<div class="p-2 bg-primary">弹性项目 3</div>
+</div>
+```
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403162149327.png)
 
 ---
 
@@ -124,6 +135,7 @@
 ```
 
 ---
+
 
 
 
