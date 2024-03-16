@@ -490,6 +490,7 @@
 - 孙子容器
 	- `.carousel-item` 幻灯片子容器
 		- `.carousel-caption` 作为幻灯片标题
+	- `data-bs-interval="数值"` 规定幻灯片的延迟时间
 	- `.carousel-control-prev-icon` 创建“上一个”按钮
 	- `.carousel-control-next-icon` 创建“下一个”按钮
 
@@ -517,7 +518,7 @@
 				<p>beautiful</p>
 			</div>
 		</div>
-		<div class="carousel-item">
+		<div class="carousel-item" data-bs-interval="200">
 			<img src="https://img2.baidu.com/it/u=1252757541,3049039935&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"
 				alt="Chicago" class="d-block w-100">
 		</div>
