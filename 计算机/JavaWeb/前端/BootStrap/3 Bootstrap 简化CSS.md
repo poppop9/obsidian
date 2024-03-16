@@ -86,13 +86,17 @@
 - `.float-end` 使元素向右浮动
 	- `float-sm-end` 在小型屏幕或更宽的屏幕上向右浮动
 
-
 # Flexbox
+- `.d-flex` 设置弹性容器
+	- `.d-md-flex`
+	- ……
 - `.flex-column` 让其子元素垂直排列
 - `.flex-row` 让其子元素水平排列
+
 - `justify-content-center` 子元素水平居中
 - `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
 - `justify-content-between` 让子元素分布在容器的左右两端
+
 - `align-items-center` 让子元素垂直居中于父元素
 - `align-self-center` 自己居中于父元素
 
