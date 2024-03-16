@@ -116,8 +116,10 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 >在 `class属性` 上添加 `btn`
 
 ### 样式
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402161545012.png)
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403161654341.png)
+
 ```html
+<button type="button" class="btn-close"></button>
 <button type="button" class="btn">基础</button>
 <button type="button" class="btn btn-primary">主要</button>
 <button type="button" class="btn btn-secondary">次要</button>
