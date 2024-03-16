@@ -545,7 +545,41 @@
 ## 模态
 >模态是一种弹出窗口，显示在当前页面的最上层
 
+- 父容器
+	- `.fade` 在 `.modal` 添加淡入淡出效果
+- 子容器
+	- `.modal-sm/lg/xl`
 
+```html
+<!-- 打开模态的按钮 -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  Open modal
+</button>
+
+<!-- 模态 -->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <!-- 模态标题 -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- 模态主体 -->
+      <div class="modal-body">
+        模态主体 ..
+      </div>
+
+      <!-- 模态页脚 -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">关闭</button>
+      </div>
+    </div>
+  </div>
+</div>
+```
 
 
 
