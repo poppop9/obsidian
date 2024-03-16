@@ -48,6 +48,20 @@
 	- `.mx-auto` + `.d-block` 图片居中
 	- `.img-fluid` 响应式图像
 
+# 纵横比
+根据父容器的宽度，响应式处理子容器的视频或幻灯片
+
+- `ratio` 设置 ratio 父容器
+- `ratio-1x1` 
+
+```html
+<div class="ratio ratio-1x1">
+	<iframe src="//player.bilibili.com/player.html?aid=1951552392&bvid=BV12C411a7eV&cid=1468271866&p=1"
+		scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+```
+
+
 # display
 - `d-none` 隐藏元素，在任何屏幕尺寸下都不可见
 - `d-md-block` 中等屏幕尺寸及以上时显示元素，而在较小的屏幕尺寸下隐藏元素
