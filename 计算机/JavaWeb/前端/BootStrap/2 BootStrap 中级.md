@@ -552,7 +552,7 @@
 	- `.modal-sm/lg/xl` 在 `.modal-dialog` 里设置大小
 	- `modal-fullscreen` 在 `.modal-dialog` 里设置弹出窗口为全屏
 	- `modal-dialog-scrollable` 在 `.modal-dialog` 里设置溢出时的滚动条
-	- `modal-dialog-centered` 在 `.modal-dialog` 里设置溢
+	- `modal-dialog-centered` 在 `.modal-dialog` 里设置模态垂直居中
 
 ```html
 <!-- 打开模态的按钮 -->
