@@ -548,7 +548,8 @@
 - 父容器
 	- `.fade` 在 `.modal` 添加淡入淡出效果
 - 子容器
-	- `.modal-sm/lg/xl`
+	- `.modal-sm/lg/xl` 在 `.modal-dialog` 里设置大小
+	- `modal-fullscreen` 在 `.modal-dialog` 里设置弹出窗口为全屏
 
 ```html
 <!-- 打开模态的按钮 -->
@@ -558,7 +559,7 @@
 
 <!-- 模态 -->
 <div class="modal fade" id="myModal">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-sm">
     <div class="modal-content">
     
       <!-- 模态标题 -->
