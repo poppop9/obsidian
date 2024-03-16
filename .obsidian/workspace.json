@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
               }
             }
           },
@@ -205,10 +206,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "7c87ec38a7e4aa89",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
