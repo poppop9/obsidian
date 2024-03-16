@@ -12,21 +12,21 @@
 
 ---
 - 文本色
-	- `text-primary`
-	- `text-danger`
+	- `.text-primary`
+	- `.text-danger`
 	- ……
 - 背景色
-	- `bg-primary`
-	- `bg-danger`
+	- `.bg-primary`
+	- `.bg-danger`
 	- ……
 - 文本背景对比色：***用于设置背景色，并且把文本色设置成背景色的对比色【黑/白】***
-	- `text-bg-primary`
-	- `text-bg-danger`
+	- `.text-bg-primary`
+	- `.text-bg-danger`
 	- ……
-- 链接色
-	- `link`
+- 链接色【**可以有 `:hover`，`:focus` 效果**】
+	- `.link-*`
 - 边框色
-	- `border-primary`
+	- `.border-primary`
 	- ……
 
 # 文本
@@ -55,11 +55,14 @@
 
 # position
 - `.fixed-top` 相对于视口将元素定位在顶上
+- `.fixed-bottom` 相对于视口将元素定位在底部
 - `.sticky-top` 根据用户滚动位置，将元素定位在顶上
+	- `sticky-sm-top` 当视口是 sm 或更宽尺寸时，黏着在视口的顶部
 
 # float
 - `.float-start` 使元素向左浮动
 - `.float-end` 使元素向右浮动
+	- `float-sm-end` 在小型屏幕或更宽的屏幕上向右浮动
 
 
 # Flexbox
