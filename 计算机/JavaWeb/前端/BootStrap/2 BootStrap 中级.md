@@ -639,10 +639,44 @@
 ## OffCanvas
 >构建隐藏的侧边栏
 
-
 >[!warning] 不能在 `.offcanvas` 元素上使用 `margin` 或 `translate` ，如果一定要用，在该元素的父元素上使用
 
+- 父容器
+	- `data-bs-toggle="offcanvas"` 在触发按钮上使用
+	- `data-bs-target="#demo"` 在触发按钮上指定触发目标
 
+
+
+
+```html
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+	aria-controls="offcanvasExample">
+	Button
+</button>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
+	<div class="offcanvas-header">
+		<h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+		<button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+	</div>
+	<div class="offcanvas-body">
+		<div>
+			Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
+			images, lists, etc.
+		</div>
+		<div class="dropdown mt-3">
+			<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+				Dropdown button
+			</button>
+			<ul class="dropdown-menu">
+				<li><a class="dropdown-item" href="#">Action</a></li>
+				<li><a class="dropdown-item" href="#">Another action</a></li>
+				<li><a class="dropdown-item" href="#">Something else here</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+```
 
 
 
