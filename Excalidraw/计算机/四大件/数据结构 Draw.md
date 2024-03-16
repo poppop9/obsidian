@@ -6218,7 +6218,7 @@ NULL ^AP28eSgx
 		}
 	],
 	"appState": {
-		"theme": "dark",
+		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#f08c00",
 		"currentItemBackgroundColor": "transparent",
