@@ -54,10 +54,13 @@
 - `d-md-flex` display-middle-flex，表示***当屏幕宽度达到中等及以上时，设置弹性容器***
 
 # position
+- `.mx-auto` 相当于 `margin-left: auto; margin-right: auto;`
+---
 - `.fixed-top` 相对于视口将元素定位在顶上
 - `.fixed-bottom` 相对于视口将元素定位在底部
 - `.sticky-top` 根据用户滚动位置，将元素定位在顶上
 	- `sticky-sm-top` 当视口是 sm 或更宽尺寸时，黏着在视口的顶部
+- `.sticky-bottom`
 
 # float
 - `.float-start` 使元素向左浮动
