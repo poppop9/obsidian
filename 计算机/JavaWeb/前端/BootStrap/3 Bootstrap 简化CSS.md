@@ -105,12 +105,19 @@
 ---
 
 - **对齐**
-	- `justify-content-center` 子元素水平居中
-	- `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
-	- `justify-content-around` 在每个 flex 子项目的两侧都添加空间
-	- `justify-content-between` 第一个 flex 子项目的左侧不添加空间，最后一个 flex 子项目的右侧不添加空间，其他都类似 `around`
-	- `ms-auto` 让元素居右对齐
-	- `me-auto` 让元素居左对齐
+	- 水平时的对齐
+		- `justify-content-center` 子元素水平居中
+		- `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
+		- `justify-content-around` 在每个 flex 子项目的两侧都添加空间
+		- `justify-content-between` 第一个 flex 子项目的左侧不添加空间，最后一个 flex 子项目的右侧不添加空间，其他都类似 `around`
+		- `ms-auto` 让元素居右对齐
+		- `me-auto` 让元素居左对齐
+	- 垂直时的对齐
+		- `.align-content-end` 堆叠到下面
+		- `.align-content-center` 堆叠到中间
+		- `.align-content-between` 平均堆叠，上下无空间
+		- `.align-content-around` 平均堆叠，上下有空间
+		- `.align-content-stretch` 拉伸平均堆叠满父 Flexbox
 
 ```html
 <div class="d-flex">
@@ -136,10 +143,10 @@
 
 ---
 
-- **换行**
-	- 
+- **换行**【默认不换行】
+	- `.flex-wrap` 对 flex 子项目进行换行
 
-
+---
 
 - `align-items-center` 让子元素垂直居中于父元素
 - `align-self-center` 自己居中于父元素
