@@ -36,6 +36,7 @@
 | `.text-break`           | 防止长文本破坏布局 |
 | `.text-decoration-none` | 删除链接中的下划线 |
 | `.text-nowrap`          | 文本不换行     |
+
 # 表格，图片
 - `<table>` 
 	- `.table-responsive` 需要时向表格添加滚动条
