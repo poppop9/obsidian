@@ -473,17 +473,17 @@
 ```
 
 ## 轮播
-| 类                             | 描述                                               |
-| ----------------------------- | ------------------------------------------------ |
-| `.carousel`                   | 创建轮播                                             |
-| `.carousel-indicators`        | 下方的指示器【幻灯片数量……】                                  |
-| `.carousel-inner`             | 将幻灯片添加到轮播                                        |
-| `.carousel-item`              | 规定每张幻灯片的内容。                                      |
-| `.carousel-control-prev`      | 向轮播添加一个向左（上一个）按钮，允许用户在幻灯片之间回退                    |
-| `.carousel-control-next`      | 向轮播添加一个向右（下一个）按钮，允许用户在幻灯片之间前进                    |
-| `.carousel-control-prev-icon` | 与 .carousel-control-prev 一起使用，创建“上一个”按钮          |
-| `.carousel-control-next-icon` | 与 .carousel-control-next 一起使用，创建“下一个”按钮          |
-| `.slide`                      | 从一个项目滑到下一个项目时添加 CSS 过渡和动画效果<br>如果您不想要这种效果，请删除此类。 |
+| 类                             | 描述                          |
+| ----------------------------- | --------------------------- |
+| `.carousel`                   | 创建轮播                        |
+| `.carousel-indicators`        | 下方的指示器【幻灯片数量……】             |
+| `.carousel-inner`             | 幻灯片父容器                      |
+| `.carousel-item`              | 幻灯片子容器                      |
+| `.carousel-control-prev`      | 向轮播添加一个向左按钮                 |
+| `.carousel-control-next`      | 向轮播添加一个向右按钮                 |
+| `.carousel-control-prev-icon` | 创建“上一个”按钮                   |
+| `.carousel-control-next-icon` | 创建“下一个”按钮                   |
+| `.slide`                      | 从一个项目滑到下一个项目时添加 CSS 过渡和动画效果 |
 
 ```html
 <!-- 轮播 -->
