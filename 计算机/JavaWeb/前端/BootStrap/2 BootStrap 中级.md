@@ -644,8 +644,13 @@
 - 父容器
 	- `data-bs-toggle="offcanvas"` 在触发按钮上使用
 	- `data-bs-target="#demo"` 在触发按钮上指定触发目标
-
-
+	- `offcanvas` 创建offcanvas
+	- `.offcanvas-start` 定位 offcanvas，并将其宽度设置为 400px
+- 子容器
+	- `offcanvas-header` 标题部分
+		- `offcanvas-title` 突出标题部分
+		- `data-bs-dismiss="offcanvas"`
+	- `offcanvas-body` 主体部分
 
 
 ```html
