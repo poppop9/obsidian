@@ -551,6 +551,8 @@
 - 子容器
 	- `.modal-sm/lg/xl` 在 `.modal-dialog` 里设置大小
 	- `modal-fullscreen` 在 `.modal-dialog` 里设置弹出窗口为全屏
+		- `.modal-fullscreen-sm-down` 576px 以下全屏
+		- `.modal-fullscreen-xxl-down` 1400px 以下全屏
 	- `modal-dialog-scrollable` 在 `.modal-dialog` 里设置溢出时的滚动条
 	- `modal-dialog-centered` 在 `.modal-dialog` 里设置模态垂直居中
 
