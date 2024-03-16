@@ -80,7 +80,8 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.img-fluid` 响应式图像
 
 ## display
-- `d-none`
+- `d-none` 隐藏元素，在任何屏幕尺寸下都不可见
+- `d-md-block` 中等屏幕尺寸及以上时显示元素，而在较小的屏幕尺寸下隐藏元素
 - `d-md-flex` display-middle-flex，表示***当屏幕宽度达到中等及以上时，设置弹性容器***
 
 ## position

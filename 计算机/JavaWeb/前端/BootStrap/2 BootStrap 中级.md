@@ -476,6 +476,7 @@
 - 父容器
 	- `.carousel` 创建轮播
 	- `.slide` 项目滑动时的过渡动画效果
+	- `.carousel-fade` 过渡动画效果为淡入淡出
 - 子容器
 	- 指示器
 		- `.carousel-indicators` 下方的指示器【幻灯片数量……】
@@ -496,7 +497,7 @@
 
 ```html
 <!-- 轮播 -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+<div id="demo" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
 	<!-- 指标/点 -->
 	<div class="carousel-indicators">
