@@ -88,6 +88,31 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 </div>
 ```
 
+## 栈式布局
+- `.vstack` 让其子元素垂直堆叠
+- `.hstack` 让其子元素水平堆叠
+- `.gap-*` 规定子元素之间的间隔
+
+```html
+// 垂直堆叠
+<div class="vstack gap-3">
+  <div class="bg-body-tertiary border">First item</div>
+  <div class="bg-body-tertiary border">Second item</div>
+  <div class="bg-body-tertiary border">Third item</div>
+</div>
+
+// 水平堆叠
+<div class="hstack gap-3">
+	<div class="bg-body-tertiary border">First item</div>
+	<div class="bg-body-tertiary border">Second item</div>
+	<div class="bg-body-tertiary border">Third item</div>
+</div>
+```
+
+
+
+
+
 # 组件
 ## 警告框
 >在 `class属性` 上添加 `alert`
