@@ -107,9 +107,17 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	<div class="bg-body-tertiary border">Second item</div>
 	<div class="bg-body-tertiary border">Third item</div>
 </div>
+
+// 水平部分居右堆叠
+<div class="hstack gap-3">
+  <div class="bg-body-tertiary border">First item</div>
+  <div class="bg-body-tertiary border ms-auto">Second item</div>
+  <div class="bg-body-tertiary border">Third item</div>
+</div>
 ```
 
-
+>[!hint] 为什么水平部分居右堆叠要使用 `.ms-auto`，而不是其他居右的属性 ？
+>因为此处的父容器 `.hstack`，已
 
 
 
