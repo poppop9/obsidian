@@ -111,6 +111,19 @@
 	- `justify-content-between` 第一个 flex 子项目的左侧不添加空间，最后一个 flex 子项目的右侧不添加空间，其他都类似 `around`
 
 ---
+
+- **占比**
+	- `.flex-fill` 强制拉伸能拉伸到的最大宽度
+
+```html
+<div class="d-flex">
+	<div class="p-2 bg-info flex-fill">弹性项目 1</div>
+	<div class="p-2 bg-warning flex-fill">弹性项目 2</div>
+	<div class="p-2 bg-primary flex-fill">弹性项目 3</div>
+</div>
+```
+
+---
 - `align-items-center` 让子元素垂直居中于父元素
 - `align-self-center` 自己居中于父元素
 
