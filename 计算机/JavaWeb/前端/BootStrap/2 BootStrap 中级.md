@@ -481,48 +481,53 @@
 		- `.carousel-indicators` 下方的指示器【幻灯片数量……】
 	- 幻灯片
 		- `.carousel-inner` 幻灯片父容器
+	- 左右切换按钮
+		- `.carousel-control-prev` 向轮播添加一个向左按钮
+		- `.carousel-control-next` 向轮播添加一个向右按钮
 - 孙子容器
 	- `.carousel-item` 幻灯片子容器
-
-| 类                             | 描述          |
-| ----------------------------- | ----------- |
-| `.carousel-control-prev`      | 向轮播添加一个向左按钮 |
-| `.carousel-control-next`      | 向轮播添加一个向右按钮 |
-| `.carousel-control-prev-icon` | 创建“上一个”按钮   |
-| `.carousel-control-next-icon` | 创建“下一个”按钮   |
-
+		- `.carousel-caption` 作为幻灯片标题
+	- `.carousel-control-prev-icon` 创建“上一个”按钮
+	- `.carousel-control-next-icon` 创建“下一个”按钮
 
 ```html
 <!-- 轮播 -->
-<div class="carousel slide" data-bs-ride="carousel">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-  <!-- 指标/点 -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-  </div>
+	<!-- 指标/点 -->
+	<div class="carousel-indicators">
+		<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+		<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+		<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+	</div>
 
-  <!-- 幻灯片/轮播 -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="la.jpg" alt="Los Angeles" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="chicago.jpg" alt="Chicago" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="ny.jpg" alt="New York" class="d-block w-100">
-    </div>
-  </div>
+	<!-- 幻灯片/轮播 -->
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="https://img0.baidu.com/it/u=654488740,3936603920&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500"
+				alt="Los Angeles" class="d-block w-100">
+			<div class="carousel-caption">
+				<h3>beautiful</h3>
+				<p>beautiful</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="https://img2.baidu.com/it/u=1252757541,3049039935&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"
+				alt="Chicago" class="d-block w-100">
+		</div>
+		<div class="carousel-item">
+			<img src="https://img1.baidu.com/it/u=3010889845,4227116112&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500"
+				alt="New York" class="d-block w-100">
+		</div>
+	</div>
 
-  <!-- 左右控件/图标 -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
+	<!-- 左右控件/图标 -->
+	<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon"></span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+		<span class="carousel-control-next-icon"></span>
+	</button>
 </div>
 ```
 
