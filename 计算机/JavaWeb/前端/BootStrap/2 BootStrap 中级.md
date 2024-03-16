@@ -653,7 +653,6 @@
 		- `data-bs-dismiss="offcanvas"` 在 `<button>` 上使用，是关闭 offcanvas 的按钮
 	- `offcanvas-body` 主体部分
 
-
 ```html
 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
 	aria-controls="offcanvasExample">

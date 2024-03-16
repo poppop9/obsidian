@@ -1,0 +1,84 @@
+# 颜色
+>BootStrap 用8种颜色表示了文字的重要性
+
+- `primary` 重要蓝
+- `secondary` 次要灰
+- `success` 成功绿
+- `info` 信息青
+- `warning` 警告黄
+- `danger` 危险红
+- `dark` 深色
+- `light` 浅色
+
+---
+- 文本色
+	- `text-primary`
+	- `text-danger`
+	- ……
+- 背景色
+	- `bg-primary`
+	- `bg-danger`
+	- ……
+- 文本背景对比色：***用于设置背景色，并且把文本色设置成背景色的对比色【黑/白】***
+	- `text-bg-primary`
+	- `text-bg-danger`
+	- ……
+- 边框色
+	- `border-primary`
+	- ……
+
+# 文本
+| 类                       | 描述        |
+| ----------------------- | --------- |
+| `.text-left`            | 左对齐文本     |
+| `.text-center`          | 居中对齐的文本   |
+| `.text-end`             | 右对齐文本     |
+| `.text-break`           | 防止长文本破坏布局 |
+| `.text-decoration-none` | 删除链接中的下划线 |
+| `.text-nowrap`          | 文本不换行     |
+# 表格，图片
+- `<table>` 
+	- `.table-responsive` 需要时向表格添加滚动条
+- `<img>`
+	- `.float-start` 图片左对齐
+	- `.float-end` 图片右对齐
+	- `.mx-auto` + `.d-block` 图片居中
+	- `.img-fluid` 响应式图像
+
+# display
+- `d-none` 隐藏元素，在任何屏幕尺寸下都不可见
+- `d-md-block` 中等屏幕尺寸及以上时显示元素，而在较小的屏幕尺寸下隐藏元素
+- `d-md-flex` display-middle-flex，表示***当屏幕宽度达到中等及以上时，设置弹性容器***
+
+# position
+- `.fixed-top` 相对于视口将元素定位在顶上
+- `.sticky-top` 根据用户滚动位置，将元素定位在顶上
+
+# Flexbox
+- `.flex-column` 让其子元素垂直排列
+- `.flex-row` 让其子元素水平排列
+- `justify-content-center` 子元素水平居中
+- `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
+- `justify-content-between` 让子元素分布在容器的左右两端
+- `align-items-center` 让子元素垂直居中于父元素
+- `align-self-center` 自己居中于父元素
+
+```html
+<!-- 实现了按钮堆叠右对齐 -->
+<div class="gap-2 d-md-flex justify-content-md-end">
+	<button class="btn btn-primary" type="button">第一</button>
+	<button class="btn btn-primary" type="button">第二</button>
+</div>
+```
+
+# 杂
+## 全宽响应式
+- `.d-grid` 让按钮铺满父元素
+- `.gap-数字` 规定子元素之间的间隔
+
+```html
+<div class="d-grid gap-2">
+  <button class="btn btn-primary" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+```
