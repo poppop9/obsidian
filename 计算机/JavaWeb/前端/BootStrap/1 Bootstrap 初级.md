@@ -89,6 +89,8 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 ```
 
 ## 栈式布局
+>栈式布局是一种简化的使用 `flexbox` 的功能
+
 - `.vstack` 让其子元素垂直堆叠
 - `.hstack` 让其子元素水平堆叠
 - `.gap-*` 规定子元素之间的间隔
