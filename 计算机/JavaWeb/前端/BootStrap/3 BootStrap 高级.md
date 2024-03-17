@@ -265,19 +265,18 @@
 >[!warning] 不支持 下拉表单的多重选择
 
 >[!warning] 输入字段的反馈应放在 `.form-floating` 之外，`.input-group` 之内
-
-```html
-<div class="input-group has-validation">
-  <span class="input-group-text">@</span>
-  <div class="form-floating is-invalid">
-    <input type="text" class="form-control is-invalid" id="floatingInputGroup2" placeholder="Username" required>
-    <label for="floatingInputGroup2">Username</label>
-  </div>
-  <div class="invalid-feedback">
-    Please choose a username.
-  </div>
-</div>
-```
+> ```html
+> \<div class="input-group has-validation">
+>   \<div class="form-floating is-invalid">
+>     \<input type="text" class="form-control is-invalid" id="floatingInputGroup2" placeholder="Username" required>
+>     \<label for="floatingInputGroup2">Username\</label>
+>   \</div>
+>   
+>   \<div class="invalid-feedback">
+>     Please choose a username.
+>   \</div>
+> \</div>
+> ```
 
 ---
 
