@@ -47,8 +47,27 @@
 <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
 ```
 
+---
 
+- **禁用**
+	- `disabled`
 
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171331964.png)
+```html
+<input class="form-control" type="text" placeholder="Disabled input" disabled>
+```
+
+---
+
+- **只读**
+	- `readonly`
+
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171332192.png)
+```html
+<input class="form-control" type="text" value="Disabled readonly input" readonly>
+```
+
+---
 ## \<textarea>
 
 ```html
