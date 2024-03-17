@@ -202,36 +202,23 @@
 </select>
 ```
 
-## 表单两侧固定文字
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171531416.png)
+## 表单组
+>表单组可以让**某几个元素成为一个整体**
+>- 实现表单两侧固定文字
+>- 实现表单与按钮的无违和感结合
 
 - `.input-group` 创建一个表单组
 	- `.input-group-text` 在里面放置固定文字
 
-```html
-<div class="input-group mb-3">
-  <span class="input-group-text" id="basic-addon1">@</span>
-  <input type="text" class="form-control" placeholder="Username">
-</div>
 
+
+---
+![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171717569.png)
+
+```html
 <div class="input-group mb-3">
   <input type="text" class="form-control" placeholder="Recipient's username">
   <span class="input-group-text" id="basic-addon2">@example.com</span>
-</div>
-
-<div class="mb-3">
-  <label for="basic-url" class="form-label">Your vanity URL</label>
-  <div class="input-group">
-    <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-    <input type="text" class="form-control" id="basic-url">
-  </div>
-  <div class="form-text">Example help text goes outside the input group.</div>
-</div>
-
-<div class="input-group mb-3">
-  <span class="input-group-text">$</span>
-  <input type="text" class="form-control">
-  <span class="input-group-text">.00</span>
 </div>
 
 <div class="input-group mb-3">
@@ -246,6 +233,15 @@
 </div>
 ```
 
+---
+![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171720264.png)
+```html
+<div class="input-group mb-3">
+	<button class="btn btn-outline-secondary" type="button" id="button-addon1">Button</button>
+	<input type="text" class="form-control" placeholder="" aria-label="Example text with button addon"
+		aria-describedby="button-addon1">
+</div>
+```
 
 
 
