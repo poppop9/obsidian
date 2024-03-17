@@ -129,11 +129,33 @@
 
 - **大小**
 	- `.form-select-lg` 
+	- 默认
+	- `.form-select-sm`
 
+---
 
+- **每页的个数**
+	- `size="数值"`
+```html
+// 一次只显示一个选项
+<select class="form-select" size="1">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+</select>
+```
 
+---
 
-
+- **多重属性**
+	- `multiple`
+```html
+<select class="form-select" multiple>
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+</select>
+```
 
 
 
