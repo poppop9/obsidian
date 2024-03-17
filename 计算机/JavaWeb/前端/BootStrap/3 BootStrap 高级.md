@@ -47,17 +47,20 @@
 		- `reset` 重置按钮【重置表单数据】
 		- `button` 可点击按钮
 
+### file
 >[!hint] 使用 `multiple` 属性，一次上传多个文件
 > ```html
 > \<label for="formFileMultiple" class="form-label">Multiple files input example\</label>
 > \<input class="form-control" type="file" id="formFileMultiple" multiple>
 > ```
 
+### color
 >[!hint] 使用 `.form-control-color` ，优化<u>颜色表单</u>
 > ```html
 > \<input class="form-control form-control-color" type="color">
 > ```
 
+### radio，checkbox
 >[!hint] 使用 `.form-check`，优化<u>单选框</u>，<u>复选框</u>
 >![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171443947.png)
 > ```html
@@ -90,6 +93,17 @@
 > 	\</label>
 > \</div>
 > ```
+
+>[!hint] 复选框的开关样式
+>![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171451101.png)
+
+```html
+\<div class="form-check form-switch">
+	\<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+	\<label class="form-check-label" for="flexSwitchCheckChecked">switch checkbox\</label>
+\</div>
+```
+
 
  
 ---
