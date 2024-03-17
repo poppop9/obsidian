@@ -34,6 +34,8 @@
 ```
 
 ## \<input>
+>在 `<input>` 标签中添加 `form-control`
+
 - **类型**
 	- `text` 单行输入字段
 	- `password` 密码字段
@@ -59,6 +61,11 @@
 > ```html
 > \<label for="formFileMultiple" class="form-label">Multiple files input example\</label>
 > \<input class="form-control" type="file" id="formFileMultiple" multiple>
+> ```
+
+>[!hint] 使用 `.form-control-color` ，优化颜色表单
+> ```html
+> \<input class="form-control form-control-color" type="color">
 > ```
 
 ---
