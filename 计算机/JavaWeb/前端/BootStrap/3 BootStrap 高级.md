@@ -105,7 +105,6 @@
 
 ---
 ## \<textarea>
-
 ```html
 <div>
   <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
@@ -113,11 +112,23 @@
 </div>
 ```
 
+## 下拉表单\<select>
+>在 `<select>` 标签上使用 `.form-select`
 
+- **预选**
+	- `selected`
+```html
+<select class="form-select">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+</select>
+```
 
+---
 
-
-
+- **大小**
+	- `.form-select-lg` 
 
 
 
