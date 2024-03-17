@@ -51,19 +51,22 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 >利用 `flexbox` ，共有12列【会根据屏幕大小，自动重排】
 >![800](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402051753353.png)
 
-网格系统有六个类：
-- `.col-` (超小型设备 - 屏幕宽度小于 576px)
-- `.col-sm-` (小型设备 - 屏幕宽度等于或大于 576px)
-- `.col-md-` (中型设备 - 屏幕宽度等于或大于 768 像素)
-- `.col-lg-` (大型设备 - 屏幕宽度等于或大于 992 像素)
-- `.col-xl-` (xlarge 设备 - 屏幕宽度等于或大于 1200px)
-- `.col-xxl-` (xxlarge 设备 - 屏幕宽度等于或大于 1400px)
-
+- **行**
+	- `.row`
+- **列**
+	- `.col-` (超小型设备 - 屏幕宽度小于 576px)
+	- `.col-sm-` (小型设备 - 屏幕宽度等于或大于 576px)
+	- `.col-md-` (中型设备 - 屏幕宽度等于或大于 768 像素)
+	- `.col-lg-` (大型设备 - 屏幕宽度等于或大于 992 像素)
+	- `.col-xl-` (xlarge 设备 - 屏幕宽度等于或大于 1200px)
+	- `.col-xxl-` (xxlarge 设备 - 屏幕宽度等于或大于 1400px)
+- **间隙**
+	- `.g-*` 控制一行中，列的间隙
 ### 自定义列宽
 ```html
 /* 第一颗星 (*) 代表响应度：sm、md、lg、xl 或 xxl */
 /* 第二颗星代表占用列数，所有列加起来不超过12 */
-<div class="row">
+<div class="row g-3">
 	<div class="col-*-*"></div>
 	<div class="col-*-*"></div>
 	<div class="col-*-*"></div>
