@@ -4,7 +4,7 @@
 
 # 表单
 ## 禁用表单
->在 `<fieldset>` 上添加 `disabled` 属性
+>在 `<fieldset>标签`【功能是为表单分组】 添加 `disabled` 属性
 
 ```html
 <form>
