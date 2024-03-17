@@ -58,25 +58,40 @@
 > \<input class="form-control form-control-color" type="color">
 > ```
 
->[!hint] 使用 `.form-check`，优化<u>复选框</u>
+>[!hint] 使用 `.form-check`，优化<u>单选框</u>，<u>复选框</u>
+>![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171443947.png)
+> ```html
+> \<div class="form-check">
+>   \<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+>   \<label class="form-check-label" for="flexRadioDefault1">
+>     Default radio
+>   \</label>
+> \</div>
+> \<div class="form-check">
+>   \<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+>   \<label class="form-check-label" for="flexRadioDefault2">
+>     Default checked radio
+>   \</label>
+> \</div>
+> ```
+> 
+> ```html
+> // 复选框
+> \<div class="form-check">
+> 	\<input class="form-check-input" name="check1" type="checkbox" value="" id="flexCheckDefault">
+> 	\<label class="form-check-label" for="flexCheckDefault">
+> 		Default checkbox
+> 	\</label>
+> \</div>
+> \<div class="form-check">
+> 	\<input class="form-check-input" name="check1" type="checkbox" value="" id="flexCheckChecked" checked>
+> 	\<label class="form-check-label" for="flexCheckChecked">
+> 		Checked checkbox
+> 	\</label>
+> \</div>
+> ```
 
-```html
-\<div class="form-check">
-	\<input class="form-check-input" name="check1" type="checkbox" value="" id="flexCheckDefault">
-	\<label class="form-check-label" for="flexCheckDefault">
-		Default checkbox
-	\</label>
-\</div>
-<div class="form-check">
-	<input class="form-check-input" name="check1" type="checkbox" value="" id="flexCheckChecked" checked>
-	<label class="form-check-label" for="flexCheckChecked">
-		Checked checkbox
-	</label>
-</div>
-```
-
-
-
+ 
 ---
 
 - **大小**
