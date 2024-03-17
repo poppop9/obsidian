@@ -163,14 +163,4 @@
 
 ---
 
-- `align-items-center` 让子元素垂直居中于父元素
-- `align-self-center` 自己居中于父元素
-
-```html
-<!-- 实现了按钮堆叠右对齐 -->
-<div class="gap-2 d-md-flex justify-content-md-end">
-	<button class="btn btn-primary" type="button">第一</button>
-	<button class="btn btn-primary" type="button">第二</button>
-</div>
-```
 
