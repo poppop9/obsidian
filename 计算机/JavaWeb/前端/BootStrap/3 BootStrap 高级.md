@@ -34,8 +34,14 @@
 ```
 
 ## \<input>
-### 大小
+- **大小**
+	- `form-control-lg`
+	- 默认
+	- `form-control-sm`
+
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171327820.png)
 ```html
+// placeholder表示占位符
 <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
 <input class="form-control" type="text" placeholder="Default input">
 <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
