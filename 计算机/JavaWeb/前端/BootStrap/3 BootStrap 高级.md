@@ -170,7 +170,7 @@
 </div>
 ```
 
-## 下拉表单\<select>
+## 下拉表单 \<select>
 >在 `<select>` 标签上使用 `.form-select`
 
 - **预选**
@@ -258,9 +258,13 @@
 ## 表单浮动标签
 >在单击输入字段<u>有值/获取到焦点</u>时，使标签浮动
 
->[!warning] \<label> 元素必须在 \<input> 元素之后
+>[!warning] 使用前提
+>- \<label> 元素必须在 \<input> 元素之后
+>- 每个 \<input> 元素都必须有 `placeholder` 属性
 
->[!warning] 每个 \<input> 元素都必须有 `placeholder` 属性
+
+
+>[!warning] 不支持下拉表单的多重选择
 
 ---
 
