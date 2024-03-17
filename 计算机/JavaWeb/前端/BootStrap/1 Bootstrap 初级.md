@@ -75,10 +75,16 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 ------
 
 /* 当屏幕小于576px时，每一列会占据宽度的100%，并向下堆叠 */
+	<div class="row">
+	<div class="col-sm-4">.col-sm-4</div>
+	<div class="col-sm-4">.col-sm-4</div>
+	<div class="col-sm-4">.col-sm-4</div>
+</div>
+
+/* 在小屏幕设备时，3:9，而在中等屏幕设备时，55开 */
 <div class="row">
-	<div class="col-sm-4">.col-sm-4</div>
-	<div class="col-sm-4">.col-sm-4</div>
-	<div class="col-sm-4">.col-sm-4</div>
+	<div class="col-sm-3 col-md-6">....</div>
+	<div class="col-sm-9 col-md-6">....</div>
 </div>
 ```
 
