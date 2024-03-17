@@ -61,8 +61,8 @@
 > ```
 
 ### radio，checkbox
->[!hint] 使用 `.form-check`，优化<u>单选框</u>，<u>复选框</u>
->![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171443947.png)
+>[!hint] 使用 `.form-check`/`.form-check-inline`，优化<u>单选框</u>，<u>复选框</u>
+>![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171443947.png)![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171456299.png)
 > ```html
 > \<div class="form-check">
 >   \<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
@@ -96,16 +96,14 @@
 
 >[!hint] 复选框的开关样式
 >![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171451101.png)
+>
+> ```html
+> \<div class="form-check form-switch">
+> 	\<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+> 	\<label class="form-check-label" for="flexSwitchCheckChecked">switch checkbox\</label>
+> \</div>
+> ```
 
-```html
-\<div class="form-check form-switch">
-	\<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-	\<label class="form-check-label" for="flexSwitchCheckChecked">switch checkbox\</label>
-\</div>
-```
-
-
- 
 ---
 
 - **大小**
