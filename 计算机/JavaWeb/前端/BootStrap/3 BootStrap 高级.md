@@ -315,16 +315,17 @@
 ```
 
 ## 表单验证
-- 设置按钮的 `type="submit"`
+- 设置按钮 `type="submit"`
+- 为 `<input>` 标签添加 `required` 属性
 
 ```html
 <form class="row g-3">
-	<div class="col-md-4">
+	<div class="col-4">
 		<label for="validationDefault01" class="form-label">First name</label>
-		<input type="text" class="form-control" id="validationDefault01" value="Mark">
+		<input type="text" class="form-control" id="validationDefault01" required>
 	</div>
 	<div class="col-12">
-		<button class="btn btn-primary" type="submit">Submit form</button>
+		<button class="btn btn-primary" type="submit">Submit</button>
 	</div>
 </form>
 ```
