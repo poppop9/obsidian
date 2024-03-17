@@ -7,8 +7,8 @@
 - `disabled` 禁用
 - `readonly` 只读
 
-
 ```html
+// 禁用
 <form>
   <fieldset disabled>
     <legend>Disabled fieldset example</legend>
@@ -16,26 +16,12 @@
       <label for="disabledTextInput" class="form-label">Disabled input</label>
       <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
     </div>
-    <div class="mb-3">
-      <label for="disabledSelect" class="form-label">Disabled select menu</label>
-      <select id="disabledSelect" class="form-select">
-        <option>Disabled select</option>
-      </select>
-    </div>
-    <div class="mb-3">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
-        <label class="form-check-label" for="disabledFieldsetCheck">
-          Can't check this
-        </label>
-      </div>
+    ……
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </fieldset>
 </form>
 ```
-
-
 
 ## \<input>
 >在 `<input>` 标签中添加 `form-control`
@@ -88,27 +74,10 @@
 ```
 
 ---
-
-- **禁用**
-	- `disabled`
-
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171331964.png)
-```html
-<input class="form-control" type="text" placeholder="Disabled input" disabled>
-```
-
----
-
-- **只读**
-	- `readonly`
-
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171332192.png)
-```html
-<input class="form-control" type="text" value="Disabled readonly input" readonly>
-```
-
----
 ## \<textarea>
+- 默认行数
+	- `rows="数值"`
+
 ```html
 <div>
   <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
