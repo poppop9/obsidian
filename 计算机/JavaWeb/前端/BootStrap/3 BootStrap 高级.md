@@ -34,6 +34,35 @@
 ```
 
 ## \<input>
+- **类型**
+	- `text` 单行输入字段
+	- `password` 密码字段
+	- `radio` 单选按钮
+	- `checkbox` 复选框
+	- `file` 文件上传
+	- `date` 日期
+	- `time` 时间
+	- `month` 月份，年份
+	- `week` 周，年
+	- `color` 颜色
+	- `range` 一个范围
+	- `datetime-local` 日期＋时间
+	- `number` 数字输入框
+	- `email` 邮件输入框
+	- `hidden` 隐藏域
+	- `按钮` 
+		- `submit` 提交按钮
+		- `reset` 重置按钮【重置表单数据】
+		- `button` 可点击按钮
+
+>[!hint] 使用 `multiple` 属性，一次上传多个文件
+> ```html
+> \<label for="formFileMultiple" class="form-label">Multiple files input example\</label>
+> \<input class="form-control" type="file" id="formFileMultiple" multiple>
+> ```
+
+---
+
 - **大小**
 	- `form-control-lg`
 	- 默认
