@@ -61,7 +61,18 @@
 >[!hint] 使用 `.form-check`，优化<u>复选框</u>
 
 ```html
-
+\<div class="form-check">
+	\<input class="form-check-input" name="check1" type="checkbox" value="" id="flexCheckDefault">
+	\<label class="form-check-label" for="flexCheckDefault">
+		Default checkbox
+	\</label>
+\</div>
+<div class="form-check">
+	<input class="form-check-input" name="check1" type="checkbox" value="" id="flexCheckChecked" checked>
+	<label class="form-check-label" for="flexCheckChecked">
+		Checked checkbox
+	</label>
+</div>
 ```
 
 
