@@ -26,7 +26,10 @@
 ```
 
 ## 表单布局
-- 表单标签与表单输入在同一行
+### 表单标签与表单输入同行
+>`<label>` 要添加 `.col-form-label`，使得标签与输入垂直居中
+>![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403172112015.png)
+
 ```html
 <div class="row">
 	<div class="col-2">
@@ -40,6 +43,7 @@
 </div>
 ```
 
+>[!hint] 
 
 
 ## \<input>
