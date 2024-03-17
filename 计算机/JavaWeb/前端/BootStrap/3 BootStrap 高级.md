@@ -47,6 +47,21 @@
 		- `reset` 重置按钮【重置表单数据】
 		- `button` 可点击按钮
 
+---
+
+- **大小**
+	- `form-control-lg`
+	- 默认
+	- `form-control-sm`
+
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171327820.png)
+```html
+// placeholder表示占位符
+<input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+<input class="form-control" type="text" placeholder="Default input">
+<input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+```
+
 ### file
 >[!hint] 使用 `multiple` 属性，一次上传多个文件
 > ```html
@@ -121,22 +136,15 @@
 > \</div>
 > ```
 
----
+### range
+>使用 `.form-range` 来优化<u>范围表单</u>
 
-- **大小**
-	- `form-control-lg`
-	- 默认
-	- `form-control-sm`
-
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171327820.png)
 ```html
-// placeholder表示占位符
-<input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
-<input class="form-control" type="text" placeholder="Default input">
-<input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+<label for="customRange1" class="form-label">Example range</label>
+<input type="range" class="form-range" id="customRange1">
 ```
 
----
+
 ## \<textarea>
 - 默认行数
 	- `rows="数值"`
