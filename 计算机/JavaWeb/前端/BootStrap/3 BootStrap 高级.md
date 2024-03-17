@@ -139,12 +139,13 @@
 ### range
 >使用 `.form-range` 来优化<u>范围表单</u>
 
+- **步长**
+	- `step="0.5"` 如果是 0-5，那将滑动 10 次
+
 ```html
 <label for="customRange1" class="form-label">Example range</label>
-<input type="range" class="form-range" id="customRange1">
+<input type="range" class="form-range" id="customRange1" min="0" max="5" step="0.5">
 ```
-
-
 ## \<textarea>
 - 默认行数
 	- `rows="数值"`
@@ -201,6 +202,7 @@
 </select>
 ```
 
+## 表单两侧文字
 
 
 
