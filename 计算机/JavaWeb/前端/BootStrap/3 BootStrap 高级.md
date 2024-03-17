@@ -53,10 +53,18 @@
 > \<input class="form-control" type="file" id="formFileMultiple" multiple>
 > ```
 
->[!hint] 使用 `.form-control-color` ，优化颜色表单
+>[!hint] 使用 `.form-control-color` ，优化<u>颜色表单</u>
 > ```html
 > \<input class="form-control form-control-color" type="color">
 > ```
+
+>[!hint] 使用 `.form-check`，优化<u>复选框</u>
+
+```html
+
+```
+
+
 
 ---
 
