@@ -55,6 +55,7 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.row`
 - **列**
 	- `.col-` (超小型设备 - 屏幕宽度小于 576px)
+	- `.col-auto` 自动所需分配空间
 	- `.col-sm-` (小型设备 - 屏幕宽度等于或大于 576px)
 	- `.col-md-` (中型设备 - 屏幕宽度等于或大于 768 像素)
 	- `.col-lg-` (大型设备 - 屏幕宽度等于或大于 992 像素)

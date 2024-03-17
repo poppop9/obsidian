@@ -43,8 +43,7 @@
 </div>
 ```
 
->[!hint] 
-
+>[!hint] `<label>` 还可以使用 `.col-form-label-sm/lg`，来匹配 `<input>` 的大小
 
 ## \<input>
 >在 `<input>` 标签中添加 `form-control`
