@@ -62,6 +62,19 @@
 <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
 ```
 
+---
+
+- **样式**
+	- `.is-invalid` 红色的无效表单框
+
+```html
+<form class="form-floating">
+  <input type="email" class="form-control is-invalid" id="floatingInputInvalid">
+  <label for="floatingInputInvalid">Invalid input</label>
+</form>
+```
+
+---
 ### file
 >[!hint] 使用 `multiple` 属性，一次上传多个文件
 > ```html
@@ -243,11 +256,13 @@
 ```
 
 ## 表单浮动标签
->在单击输入字段时使标签浮动
+>在单击输入字段<u>有值/获取到焦点</u>时，使标签浮动
 
 >[!warning] \<label> 元素必须在 \<input> 元素之后
 
 >[!warning] 每个 \<input> 元素都必须有 `placeholder` 属性
+
+---
 
 ```html
 <div class="form-floating mb-3">
