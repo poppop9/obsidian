@@ -33,9 +33,24 @@
 </form>
 ```
 
+## \<input>
+### 大小
+```html
+<input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+<input class="form-control" type="text" placeholder="Default input">
+<input class="form-control form-control-sm" type="text" placeholder=".form-control-sm">
+```
 
 
 
+## \<textarea>
+
+```html
+<div>
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+```
 
 
 
