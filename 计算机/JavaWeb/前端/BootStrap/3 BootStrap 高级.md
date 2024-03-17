@@ -3,6 +3,8 @@
 >![150](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171020883.png)
 
 # 表单
+在 BootStrap 中，最好把所有的表单字段都包含在 `<form>` 标签中
+
 ## 通用表单属性
 - `disabled` 禁用
 - `readonly` 只读
