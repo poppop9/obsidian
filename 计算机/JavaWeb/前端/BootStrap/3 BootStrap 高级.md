@@ -25,6 +25,23 @@
 </form>
 ```
 
+## 表单布局
+- 表单标签与表单输入在同一行
+```html
+<div class="row">
+	<div class="col-2">
+		<label for="text1" class="col-form-label">Text</label>
+	</div>
+	<div class="col-10">
+		<form action="">
+			<input type="text" class="form-control" id="text1">
+		</form>
+	</div>
+</div>
+```
+
+
+
 ## \<input>
 >在 `<input>` 标签中添加 `form-control`
 
