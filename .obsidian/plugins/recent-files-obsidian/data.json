@@ -5,16 +5,20 @@
       "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
     },
     {
+      "basename": "3 Bootstrap 简化CSS",
+      "path": "计算机/JavaWeb/前端/BootStrap/3 Bootstrap 简化CSS.md"
+    },
+    {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
       "basename": "2 HTML 中级",
       "path": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
     },
     {
       "basename": "2 CSS中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
-    },
-    {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
     {
       "basename": "穿搭",
@@ -27,10 +31,6 @@
     {
       "basename": "Vue 3",
       "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
-    },
-    {
-      "basename": "3 Bootstrap 简化CSS",
-      "path": "计算机/JavaWeb/前端/BootStrap/3 Bootstrap 简化CSS.md"
     },
     {
       "basename": "2 BootStrap 中级",
