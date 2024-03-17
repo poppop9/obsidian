@@ -3,8 +3,10 @@
 >![150](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403171020883.png)
 
 # 表单
-## 禁用表单
->在 `<fieldset>标签`【功能是为表单分组】 添加 `disabled` 属性
+## 通用表单属性
+- `disabled` 禁用
+- `readonly` 只读
+
 
 ```html
 <form>
@@ -32,6 +34,8 @@
   </fieldset>
 </form>
 ```
+
+
 
 ## \<input>
 >在 `<input>` 标签中添加 `form-control`
