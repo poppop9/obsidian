@@ -51,6 +51,9 @@
 
 - **颜色**
 	- `.table-primary/danger……`
+- **样式**
+	- `table-striped` 为行添加斑马纹
+	- `table-striped-columns` 为列添加斑马纹
 - `.table-responsive` 需要时向表格添加滚动条
 
 # 图片
