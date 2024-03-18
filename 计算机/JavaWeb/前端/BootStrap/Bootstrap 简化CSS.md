@@ -51,11 +51,20 @@
 
 - **颜色**
 	- `.table-primary/danger……`
+- **大小**
+	- `table-sm`
+	- 默认
 - **样式**
-	- `table-striped` 为行添加斑马纹
-	- `table-striped-columns` 为列添加斑马纹
+	- **斑马纹**
+		- `table-striped` 为行添加斑马纹
+		- `table-striped-columns` 为列添加斑马纹
 	- `table-hover` 添加悬浮效果
 	- `table-active` 突出显示某个单元格【应用于 `<tr>`，`<th>`，`<td>`】
+	- **边框**
+		- `table-bordered` 表格边框
+			- `border-primary/……` 边框颜色
+		- `table-borderless` 无边框
+	- `table-group-divider` 深色分割线
 - `.table-responsive` 需要时向表格添加滚动条
 
 # 图片
