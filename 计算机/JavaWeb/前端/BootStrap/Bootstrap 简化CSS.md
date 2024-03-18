@@ -64,7 +64,7 @@
 		- `table-bordered` 表格边框
 			- `border-primary/……` 边框颜色
 		- `table-borderless` 无边框
-	- `table-group-divider` 深色分割线
+	- `table-group-divider` 深色分割线【只用于 `<thead>`，`<tbody>`，`<tfoot>`】
 - `.table-responsive` 需要时向表格添加滚动条
 
 # 图片
