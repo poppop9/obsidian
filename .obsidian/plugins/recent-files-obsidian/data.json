@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
+      "basename": "3 CSS高级",
+      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+    },
+    {
+      "basename": "杂 Draw",
+      "path": "Excalidraw/杂/杂 Draw.md"
+    },
+    {
       "basename": "Bootstrap 简化CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "3 BootStrap 高级",
       "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
-    },
-    {
-      "basename": "3 CSS高级",
-      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
     },
     {
       "basename": "1 CSS初级",
@@ -65,10 +73,6 @@
       "path": "计算机/Docker.md"
     },
     {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
-    },
-    {
       "basename": "数据结构 Draw",
       "path": "Excalidraw/计算机/四大件/数据结构 Draw.md"
     },
@@ -97,8 +101,8 @@
       "path": "Excalidraw/杂/草稿纸 Draw.md"
     },
     {
-      "basename": "4 Axios",
-      "path": "计算机/JavaWeb/前端/4 Axios.md"
+      "basename": "Axios",
+      "path": "计算机/JavaWeb/前端/Axios.md"
     },
     {
       "basename": "Dance",
@@ -195,10 +199,6 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "5 事务管理，AOP",
-      "path": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
     }
   ],
   "omittedPaths": [],
