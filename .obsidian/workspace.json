@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+                "file": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+                "file": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
               }
             }
           },
@@ -204,8 +204,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7c87ec38a7e4aa89",
+  "active": "72530cf88b10b2b7",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "临时笔记/穿搭.md",
@@ -216,7 +217,6 @@
     "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
-    "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/1 VSCode.md",
     "考试/职业.md",
     "css、.md",
