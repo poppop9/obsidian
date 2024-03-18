@@ -27,6 +27,7 @@ get,set方法，构造方法   `alt+insert`
 # 插件
 - Mybatis
 - 中文简体
+- `leetcode editor` 在idea里做题
 
 
 

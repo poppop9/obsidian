@@ -85,18 +85,6 @@
 ```
 
 ---
-
-- **样式**
-	- `.is-invalid` 红色的无效表单框
-
-```html
-<form class="form-floating">
-  <input type="email" class="form-control is-invalid" id="floatingInputInvalid">
-  <label for="floatingInputInvalid">Invalid input</label>
-</form>
-```
-
----
 ### file
 >[!hint] 使用 `multiple` 属性，一次上传多个文件
 > ```html

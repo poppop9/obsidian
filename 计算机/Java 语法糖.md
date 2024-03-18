@@ -103,7 +103,7 @@ For-Each 是程序员都会经常用到的，底层也是普遍都讲过是利�
     s=(String)iterator.next();
     }
 
-### 注意事项
+#### 注意事项
 
 2）try catch 中的异常不能再去区别异常的泛型类型，同样是泛型擦除机制。
 
@@ -127,7 +127,7 @@ For-Each 是程序员都会经常用到的，底层也是普遍都讲过是利�
 
 4）增强 for 循环，上文有提到过，增强 for 底层有用到迭代器，迭代器在遍历的时候对象不允许修改或者删除。因此 CMS 异常也就是 fail-fast 多线程修改，解决方法可以直接用迭代器或者 Stream 流的方法，推荐 Stream 流掌握。
 
-### 总结
+#### 总结
 语法糖在大多数情况下被我们所使用，能够较大地提升开发效率，但是在开发效率提升的同时，我们要明白语法糖的底层原理，也就是反编译后的代码，JVM 虚拟机是怎么优化的，有哪些优化机制，可能会发生什么问题，这是我们需要注意的点，避免踩坑。
 
 2.
@@ -151,3 +151,42 @@ For-Each 是程序员都会经常用到的，底层也是普遍都讲过是利�
 
 3）如何避免或解决 Lambda 表达式的闭包问题？
 
+# 有趣的判断
+```java
+Class cache = Integer.class.getDeclaredClasses()[0];
+Field c = cache.getDeclaredField("cache");
+c.setAccessible(true);
+Integer[] array = (Integer[]) c.get(cache);
+// array[129] is 1
+array[130] = array[129]; // Set 2 to be 1
+array[131] = array[129]; // Set 3 to be 1
+Integer a = 1;
+if (a == (Integer) 1 && a == (Integer) 2 && a == (Integer) 3) {
+    System.out.println("Success");
+}
+```
+
+```java
+@PrepareForTest(Integer.class)
+@RunWith(PowerMockRunner.class)
+public class Ais123 {
+
+    @Before
+    public void before() {
+        //"value" is just a place to store an incrementing integer
+        AtomicInteger value = new AtomicInteger(1);
+        replace(method(Integer.class, "intValue"))
+                .with((proxy, method, args) -> value.getAndIncrement());
+    }
+
+    @Test
+    public void test() {
+        Integer a = 1;
+        if (a == 1 && a == 2 && a == 3) {
+            System.out.println("Success");
+        } else {
+            Assert.fail("(a == 1 && a == 2 && a == 3) != true, a = " + a.intValue());
+        }
+    }
+}
+```
