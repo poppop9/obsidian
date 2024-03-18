@@ -65,9 +65,47 @@
 			- `border-primary/……` 边框颜色
 		- `table-borderless` 无边框
 	- `table-group-divider` 深色分割线【只用于 `<thead>`，`<tbody>`，`<tfoot>`】
-- `.table-responsive` 需要时向表格添加滚动条
+- `.table-responsive` 需要时向表格**添加滚动条**
 - **表格说明**
 	- `caption-top` 让表格说明放在开头【~~默认是在结尾~~】
+
+```html
+<table class="table table-striped table-hover table-bordered caption-top">
+	<caption>example</caption>
+	<thead>
+		<tr>
+			<th scope="col">#</th>
+			<th scope="col">First</th>
+			<th scope="col">Last</th>
+			<th scope="col">Handle</th>
+		</tr>
+	</thead>
+	<tbody class="table-group-divider">
+		<tr>
+			<th scope="row">1</th>
+			<td>Mark</td>
+			<td>Otto</td>
+			<td>@mdo</td>
+		</tr>
+		<tr class="table-success">
+			<th scope="row">2</th>
+			<td>Jacob</td>
+			<td>Thornton</td>
+			<td>@fat</td>
+		</tr>
+		<tr>
+			<th scope="row">3</th>
+			<td colspan="2">Larry the Bird</td>
+			<td>@twitter</td>
+		</tr>
+		<tr>
+			<th scope="row">4</th>
+			<td colspan="2">Larry the Bird</td>
+			<td class="table-active">@twitter</td>
+		</tr>
+	</tbody>
+</table>
+```
 
 # 图片
 - `<img>`
