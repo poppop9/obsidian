@@ -46,9 +46,14 @@
 # 分割线
 - `.vr` 竖直的分割线【~~对标 `<hr>`~~】
 
-# 表格，图片
-- `<table>` 
-	- `.table-responsive` 需要时向表格添加滚动条
+# 表格
+>将 `.table` 添加到 `<table>` 标签
+
+- **颜色**
+	- `.table-primary/danger……`
+- `.table-responsive` 需要时向表格添加滚动条
+
+# 图片
 - `<img>`
 	- `.float-start` 图片左对齐
 	- `.float-end` 图片右对齐
