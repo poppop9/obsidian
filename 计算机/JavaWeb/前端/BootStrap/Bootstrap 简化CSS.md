@@ -54,6 +54,8 @@
 - **样式**
 	- `table-striped` 为行添加斑马纹
 	- `table-striped-columns` 为列添加斑马纹
+	- `table-hover` 添加悬浮效果
+	- `table-active` 突出显示某个单元格【应用于 `<tr>`，`<th>`，`<td>`】
 - `.table-responsive` 需要时向表格添加滚动条
 
 # 图片
