@@ -66,6 +66,8 @@
 		- `table-borderless` 无边框
 	- `table-group-divider` 深色分割线【只用于 `<thead>`，`<tbody>`，`<tfoot>`】
 - `.table-responsive` 需要时向表格添加滚动条
+- **表格说明**
+	- `caption-top` 让表格说明放在开头【~~默认是在结尾~~】
 
 # 图片
 - `<img>`
