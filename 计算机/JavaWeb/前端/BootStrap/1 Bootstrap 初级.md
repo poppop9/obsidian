@@ -62,7 +62,8 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 	- `.col-xl-` (xlarge 设备 - 屏幕宽度等于或大于 1200px)
 	- `.col-xxl-` (xxlarge 设备 - 屏幕宽度等于或大于 1400px)
 - **间隙**
-	- `.g-*` 控制一行中，列的间隙
+	- `.g-*` 控制一行中<u>列的间隙</u>
+
 ### 自定义列宽
 ```html
 /* 第一颗星 (*) 代表响应度：sm、md、lg、xl 或 xxl */
