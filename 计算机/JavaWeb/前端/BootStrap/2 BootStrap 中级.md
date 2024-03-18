@@ -15,7 +15,7 @@
 
 - ***全宽图片卡片***
 ```html
-<div class="card" style="width:400px">
+<div class="card">
 	<!-- img在card-body的外面 -->
 	<img class="card-img-top" src="https://img0.baidu.com/it/u=3505745567,4189381360&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500" style="width:100%">
 	<div class="card-body">
