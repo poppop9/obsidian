@@ -38,6 +38,11 @@
 | `.text-break`           | 防止长文本破坏布局 |
 | `.text-decoration-none` | 删除链接中的下划线 |
 | `.text-nowrap`          | 文本不换行     |
+
+# 边距
+- `.mx-auto` 左右的 margin 都 auto
+
+
 # 分割线
 - `.vr` 竖直的分割线【~~对标 `<hr>`~~】
 
@@ -47,7 +52,6 @@
 - `<img>`
 	- `.float-start` 图片左对齐
 	- `.float-end` 图片右对齐
-	- `.mx-auto` + `.d-block` 图片居中
 	- `.img-fluid` 响应式图像
 
 # 纵横比
