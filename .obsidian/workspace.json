@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "科技美学/Surge 5.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "科技美学/Surge 5.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "科技美学/Surge 5.md"
               }
             }
           },
@@ -208,8 +208,9 @@
   },
   "active": "72530cf88b10b2b7",
   "lastOpenFiles": [
-    "Excalidraw/计算机/JavaWeb Draw.md",
+    "科技美学/Surge 5.md",
     "临时笔记/草稿纸.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/编程语言/Java/07 异常.md",
     "图片库/Pasted Image 20240319202618_931.png",
     "Excalidraw/杂/杂 Draw.md",
@@ -237,7 +238,6 @@
     "css、.md",
     "计算机/四大件/数据结构/逻辑结构.md",
     "计算机/编程语言/Java/06 集合.md",
-    "计算机/Docker.md",
     "图片库/Pasted Image 20240303101354_873.png",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
