@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/07 异常.md",
+                "file": "临时笔记/草稿纸.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/杂/杂 Draw.md"
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
               }
             }
           }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/07 异常.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/07 异常.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -208,6 +208,13 @@
   },
   "active": "72530cf88b10b2b7",
   "lastOpenFiles": [
+    "计算机/编程语言/Java/07 异常.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
+    "图片库/Pasted Image 20240319202618_931.png",
+    "Excalidraw/杂/杂 Draw.md",
+    "图片库/Pasted Image 20230627101729_054.jpg",
+    "图片库/Pasted image 20230623134447.png",
+    "图片库/Pasted image 20230623113323.png",
     "临时笔记/草稿纸.md",
     "临时笔记/DDED.md",
     "临时笔记/🍕美食打分.md",
@@ -216,7 +223,6 @@
     "临时笔记/文字美学.md",
     "临时笔记/穿搭.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
-    "Excalidraw/杂/杂 Draw.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
@@ -232,8 +238,6 @@
     "计算机/四大件/数据结构/逻辑结构.md",
     "计算机/编程语言/Java/06 集合.md",
     "计算机/Docker.md",
-    "Excalidraw/计算机/四大件/数据结构 Draw.md",
-    "科技美学/软件.md",
     "图片库/Pasted Image 20240303101354_873.png",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",
@@ -248,10 +252,6 @@
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",
-    "图片库/Pasted Image 20231210135344_127.png",
-    "图片库/Pasted Image 20231210110028_790.png",
-    "图片库/Pasted Image 20231210110016_058.png",
-    "图片库/Pasted Image 20231210110016_042.png",
     "计算机/JavaWeb/后端/SpringBoot",
     "Excalidraw/计算机/编程语言/数据库",
     "未命名.canvas",
