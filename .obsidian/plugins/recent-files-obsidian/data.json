@@ -5,6 +5,10 @@
       "path": "计算机/编程语言/Java/05 字符串.md"
     },
     {
+      "basename": "05 常用 API",
+      "path": "计算机/编程语言/Java/05 常用 API.md"
+    },
+    {
       "basename": "09 类与对象",
       "path": "计算机/编程语言/Java/09 类与对象.md"
     },
@@ -111,10 +115,6 @@
     {
       "basename": "支付宝购买外区App Store应用",
       "path": "科技美学/支付宝购买外区App Store应用.md"
-    },
-    {
-      "basename": "05 常用 API",
-      "path": "计算机/编程语言/Java/05 常用 API.md"
     },
     {
       "basename": "物理结构",
