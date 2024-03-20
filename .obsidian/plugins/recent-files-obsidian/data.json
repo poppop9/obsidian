@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "职业",
+      "path": "考试/职业.md"
+    },
+    {
+      "basename": "Java Draw",
+      "path": "Excalidraw/计算机/编程语言/Java Draw.md"
+    },
+    {
       "basename": "3 CSS高级",
       "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "08 修饰符",
       "path": "计算机/编程语言/Java/08 修饰符.md"
-    },
-    {
-      "basename": "Java Draw",
-      "path": "Excalidraw/计算机/编程语言/Java Draw.md"
     },
     {
       "basename": "10 继承",
@@ -67,10 +71,6 @@
     {
       "basename": "软件",
       "path": "科技美学/软件.md"
-    },
-    {
-      "basename": "职业",
-      "path": "考试/职业.md"
     },
     {
       "basename": "软件测试",

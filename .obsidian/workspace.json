@@ -50,9 +50,12 @@
             "id": "d9f37405f40d6c99",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/计算机/编程语言/Java Draw.md"
+                "file": "考试/职业.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -67,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -161,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+                "file": "考试/职业.md"
               }
             }
           },
@@ -171,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+                "file": "考试/职业.md"
               }
             }
           },
@@ -203,13 +206,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "7c87ec38a7e4aa89",
+  "active": "d9f37405f40d6c99",
   "lastOpenFiles": [
+    "Excalidraw/计算机/编程语言/Java Draw.md",
+    "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "临时笔记/摄影.md",
     "计算机/编程语言/Java/08 修饰符.md",
-    "Excalidraw/计算机/编程语言/Java Draw.md",
     "计算机/编程语言/Java/10 继承.md",
     "计算机/编程语言/Java/09 类与对象.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
@@ -230,7 +234,6 @@
     "Excalidraw/计算机/编程语言/Java/继承 Draw.md",
     "Excalidraw/Excalidraw.md",
     "科技美学/软件.md",
-    "考试/职业.md",
     "图片库/Pasted Image 20240319202618_931.png",
     "图片库/Pasted Image 20230627101729_054.jpg",
     "图片库/Pasted image 20230623134447.png",
