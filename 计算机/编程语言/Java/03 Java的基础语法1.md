@@ -97,7 +97,8 @@ a = 20;
 >把数据范围小的数值或变量赋值给另一个表示数据范围大的变量
 
 ### 规则
-![[Java的基础语法1 Draw#^group=KCUWE3Or|675]]
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403201523477.png)
+
 ```java
 例如
 double d = 10;    //10是int，而经过赋值转换成了double
