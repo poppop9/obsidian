@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/四大件/计算机网络/Untitled.md",
+                "file": "计算机/四大件/计算机网络/计算机网络 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
+                "file": "计算机/四大件/计算机网络/1 基础概念知识.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络/Untitled.md"
+                "file": "计算机/四大件/计算机网络/计算机网络 1.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络/Untitled.md"
+                "file": "计算机/四大件/计算机网络/计算机网络 1.md"
               }
             }
           },
@@ -208,13 +208,16 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/四大件/计算机网络/计算机网络 2.md",
-    "计算机/四大件/计算机网络/Untitled.md",
-    "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
-    "计算机/四大件/计算机网络/3 协议栈, 网卡, 网线.md",
-    "计算机/四大件/计算机网络/2 Web浏览器.md",
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/四大件/计算机网络/计算机网络 1.md",
+    "计算机/四大件/计算机网络/3 协议栈, 网卡, 网线.md",
     "计算机/四大件/计算机网络/1 基础概念知识.md",
+    "计算机/四大件/计算机网络/计算机网络 2.md",
+    "计算机/四大件/计算机网络/7 Web服务器.md",
+    "计算机/四大件/计算机网络/6 防火墙, 缓存服务器.md",
+    "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
+    "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
+    "计算机/四大件/计算机网络/2 Web浏览器.md",
     "计算机/编程语言/Java/14 类加载器，反射.md",
     "计算机/编程语言/Java/09 类与对象.md",
     "计算机/四大件/计算机网络/计算机网络.md",
@@ -232,9 +235,6 @@
     "Excalidraw/计算机/编程语言/Java Draw.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
-    "临时笔记/摄影.md",
-    "计算机/编程语言/Java/08 修饰符.md",
-    "计算机/编程语言/Java/10 继承.md",
     "图片库/Pasted Image 20240319202618_931.png",
     "图片库/Pasted Image 20230627101729_054.jpg",
     "图片库/Pasted image 20230623134447.png",
