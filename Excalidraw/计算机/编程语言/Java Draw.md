@@ -39,20 +39,6 @@ double ^ObZtw5Pr
 并且跟随箭头方向，
 小数据赋值给大数据时，类型会自动转换 ^3hV0DDHL
 
-包1 ^qRCntam5
-
-包2 ^2FMPwlpX
-
-Demo类 ^RbUjw1Cf
-
-Demo类 ^s8LCnnDg
-
-fu类 ^Sb8xb4Ol
-
-zi类 ^OcOVY4Zp
-
-zi类 ^ita45MgM
-
 %%
 # Drawing
 ```json
@@ -1681,11 +1667,11 @@ zi类 ^ita45MgM
 				"type": 3
 			},
 			"seed": 1684777247,
-			"version": 46,
-			"versionNonce": 2089052863,
-			"isDeleted": false,
+			"version": 47,
+			"versionNonce": 871643455,
+			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1710920125793,
+			"updated": 1710920674558,
 			"link": null,
 			"locked": false
 		},
@@ -1708,11 +1694,11 @@ zi类 ^ita45MgM
 			"frameId": null,
 			"roundness": null,
 			"seed": 965347071,
-			"version": 63,
-			"versionNonce": 437870961,
-			"isDeleted": false,
+			"version": 64,
+			"versionNonce": 1601584689,
+			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1710920138013,
+			"updated": 1710920674558,
 			"link": null,
 			"locked": false,
 			"text": "包1",
@@ -1728,9 +1714,9 @@ zi类 ^ita45MgM
 		},
 		{
 			"type": "rectangle",
-			"version": 90,
-			"versionNonce": 2045602655,
-			"isDeleted": false,
+			"version": 91,
+			"versionNonce": 683194719,
+			"isDeleted": true,
 			"id": "q4GSj1wNrFfI68OsbI2rP",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1751,15 +1737,15 @@ zi类 ^ita45MgM
 				"type": 3
 			},
 			"boundElements": [],
-			"updated": 1710920141847,
+			"updated": 1710920674558,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 111,
-			"versionNonce": 755985201,
-			"isDeleted": false,
+			"version": 112,
+			"versionNonce": 1733382161,
+			"isDeleted": true,
 			"id": "2FMPwlpX",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1778,7 +1764,7 @@ zi类 ^ita45MgM
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710920145468,
+			"updated": 1710920674558,
 			"link": null,
 			"locked": false,
 			"fontSize": 31.980246893705605,
@@ -1811,11 +1797,11 @@ zi类 ^ita45MgM
 			"frameId": null,
 			"roundness": null,
 			"seed": 296035519,
-			"version": 49,
-			"versionNonce": 2094278399,
-			"isDeleted": false,
+			"version": 50,
+			"versionNonce": 1832400255,
+			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1710920157566,
+			"updated": 1710920674558,
 			"link": null,
 			"locked": false,
 			"text": "Demo类",
@@ -1831,9 +1817,9 @@ zi类 ^ita45MgM
 		},
 		{
 			"type": "text",
-			"version": 71,
-			"versionNonce": 341721809,
-			"isDeleted": false,
+			"version": 72,
+			"versionNonce": 1236215281,
+			"isDeleted": true,
 			"id": "s8LCnnDg",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1852,7 +1838,7 @@ zi类 ^ita45MgM
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710920160534,
+			"updated": 1710920674558,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1885,11 +1871,11 @@ zi类 ^ita45MgM
 			"frameId": null,
 			"roundness": null,
 			"seed": 556643103,
-			"version": 80,
-			"versionNonce": 515459121,
-			"isDeleted": false,
+			"version": 81,
+			"versionNonce": 1219702175,
+			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1710920192440,
+			"updated": 1710920674558,
 			"link": null,
 			"locked": false,
 			"text": "fu类",
@@ -1922,11 +1908,11 @@ zi类 ^ita45MgM
 			"frameId": null,
 			"roundness": null,
 			"seed": 1856376895,
-			"version": 69,
-			"versionNonce": 106050033,
-			"isDeleted": false,
+			"version": 70,
+			"versionNonce": 831995857,
+			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1710920191272,
+			"updated": 1710920674558,
 			"link": null,
 			"locked": false,
 			"text": "zi类",
@@ -1942,9 +1928,9 @@ zi类 ^ita45MgM
 		},
 		{
 			"type": "text",
-			"version": 41,
-			"versionNonce": 1241493201,
-			"isDeleted": false,
+			"version": 42,
+			"versionNonce": 1180311999,
+			"isDeleted": true,
 			"id": "ita45MgM",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
@@ -1963,7 +1949,7 @@ zi类 ^ita45MgM
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1710920188372,
+			"updated": 1710920674558,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1998,11 +1984,11 @@ zi类 ^ita45MgM
 				"type": 3
 			},
 			"seed": 1297105823,
-			"version": 37,
-			"versionNonce": 1234354207,
-			"isDeleted": false,
+			"version": 38,
+			"versionNonce": 2099322289,
+			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1710920217344,
+			"updated": 1710920674558,
 			"link": null,
 			"locked": false
 		},
@@ -2027,11 +2013,11 @@ zi类 ^ita45MgM
 				"type": 3
 			},
 			"seed": 518210353,
-			"version": 30,
-			"versionNonce": 200409489,
-			"isDeleted": false,
+			"version": 31,
+			"versionNonce": 927830495,
+			"isDeleted": true,
 			"boundElements": null,
-			"updated": 1710920224596,
+			"updated": 1710920674558,
 			"link": null,
 			"locked": false
 		}
@@ -2051,7 +2037,7 @@ zi类 ^ita45MgM
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -76.72681454753581,
+		"scrollX": 298.2731854524642,
 		"scrollY": 434.9460722020435,
 		"zoom": {
 			"value": 1
