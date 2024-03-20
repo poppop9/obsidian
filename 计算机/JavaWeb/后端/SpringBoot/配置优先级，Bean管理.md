@@ -16,7 +16,7 @@ SpringBoot 中正常支持<u>三种</u>配置文件【`properties`，`yml`，`ya
 # Bean管理
 Spring 项目启动后，***默认***会把 Bean 都创建好放入到 IOC 容器中【还受到<u>作用域</u>，<u>延迟初始化</u>的影响】
 
-## 手动获取Bean
+## 手动获取 Bean
 有三种方法：
 - 根据 name 获取
 - 根据类型获取
@@ -115,10 +115,7 @@ HelloController实例化了
 com.example.spring_aop.controller.HelloController@38fb151a
 ```
 
-
-
-
-## Bean的作用域
+## Bean 的作用域
 
 |       作用域       |          说明           |
 | :-------------: | :-------------------: |
