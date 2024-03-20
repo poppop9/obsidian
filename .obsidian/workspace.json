@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/草稿纸.md",
-                "mode": "source",
+                "file": "计算机/编程语言/Java/03 Java的基础语法1.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/编程语言/Java/03 Java的基础语法1.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/编程语言/Java/03 Java的基础语法1.md"
               }
             }
           },
@@ -208,8 +208,8 @@
   },
   "active": "72530cf88b10b2b7",
   "lastOpenFiles": [
-    "科技美学/Surge 5.md",
     "临时笔记/草稿纸.md",
+    "科技美学/Surge 5.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/编程语言/Java/07 异常.md",
     "图片库/Pasted Image 20240319202618_931.png",
