@@ -28,6 +28,7 @@ get,set方法，构造方法   `alt+insert`
 - Mybatis
 - 中文简体
 - `leetcode editor` 在idea里做题
+- `Thief-book` 摸鱼神器【在终端看书】
 
 
 
