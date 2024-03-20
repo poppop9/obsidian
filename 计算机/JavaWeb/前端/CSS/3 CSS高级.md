@@ -88,6 +88,21 @@ background-image: radial-gradient(ellipse, red, yellow, green);    /* 默认为�
 background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
 ```
 
+# 滤镜，模糊
+>使用 `filter` 属性
+
+- `blur()` 模糊效果
+- `brightness()` 亮度
+- `contrast()` 对比度
+- `grayscale()` 将图像转换为灰度
+- `invert()` 反转图像颜色
+- `saturate()` 饱和度
+- `sepia()` 深褐色效果【怀旧】
+
+```css
+filter: blur(98px);
+```
+
 # 阴影
 - `text-shadow` 文本阴影
 - `box-shadow` 元素阴影

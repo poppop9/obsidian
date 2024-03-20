@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "3 CSS高级",
+      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+    },
+    {
+      "basename": "2 CSS中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
+    },
+    {
       "basename": "1 HTML 初级",
       "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
     },
@@ -101,10 +109,6 @@
       "path": "临时笔记/权游台词.md"
     },
     {
-      "basename": "3 CSS高级",
-      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
-    },
-    {
       "basename": "Bootstrap 简化CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
     },
@@ -119,10 +123,6 @@
     {
       "basename": "2 HTML 中级",
       "path": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
-    },
-    {
-      "basename": "2 CSS中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "Vue 3",
