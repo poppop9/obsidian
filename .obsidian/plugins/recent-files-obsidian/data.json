@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
       "basename": "职业",
       "path": "考试/职业.md"
     },
@@ -87,10 +91,6 @@
     {
       "basename": "05 常用 API",
       "path": "计算机/编程语言/Java/05 常用 API.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
     },
     {
       "basename": "Surge 5",
