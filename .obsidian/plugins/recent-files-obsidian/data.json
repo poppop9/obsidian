@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "计算机网络 1",
+      "path": "计算机/四大件/计算机网络/计算机网络 1.md"
+    },
+    {
+      "basename": "计算机网络 2",
+      "path": "计算机/四大件/计算机网络/计算机网络 2.md"
+    },
+    {
+      "basename": "09 类与对象",
+      "path": "计算机/编程语言/Java/09 类与对象.md"
+    },
+    {
+      "basename": "3 CSS高级",
+      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+    },
+    {
       "basename": "草稿纸",
       "path": "临时笔记/草稿纸.md"
     },
@@ -33,10 +49,6 @@
       "path": "Excalidraw/计算机/编程语言/Java Draw.md"
     },
     {
-      "basename": "3 CSS高级",
-      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
-    },
-    {
       "basename": "2 CSS中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
@@ -55,10 +67,6 @@
     {
       "basename": "10 继承",
       "path": "计算机/编程语言/Java/10 继承.md"
-    },
-    {
-      "basename": "09 类与对象",
-      "path": "计算机/编程语言/Java/09 类与对象.md"
     },
     {
       "basename": "3 BootStrap 高级",
@@ -187,18 +195,6 @@
     {
       "basename": "Java 语法糖",
       "path": "计算机/Java 语法糖.md"
-    },
-    {
-      "basename": "15 网络编程",
-      "path": "计算机/编程语言/Java/15 网络编程.md"
-    },
-    {
-      "basename": "12 接口，内部类",
-      "path": "计算机/编程语言/Java/12 接口，内部类.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "计算机/Linux.md"
     }
   ],
   "omittedPaths": [],

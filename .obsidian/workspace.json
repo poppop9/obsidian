@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/09 类与对象.md",
+                "file": "计算机/四大件/计算机网络/计算机网络 1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,13 +34,13 @@
             }
           },
           {
-            "id": "7c87ec38a7e4aa89",
+            "id": "8230ab99a40b226c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
-                "mode": "preview",
+                "file": "计算机/四大件/计算机网络/计算机网络 2.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/四大件/计算机网络/计算机网络 1.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/四大件/计算机网络/计算机网络 1.md"
               }
             }
           },
@@ -206,34 +206,35 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d9f37405f40d6c99",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/四大件/计算机网络/计算机网络 2.md",
+    "计算机/四大件/计算机网络/计算机网络 1.md",
+    "计算机/编程语言/Java/09 类与对象.md",
+    "计算机/四大件/计算机网络/计算机网络.md",
+    "计算机/四大件/计算机网络/计算机网络2.md",
+    "计算机/四大件/计算机网络",
+    "计算机/四大件/Untitled.md",
+    "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
+    "临时笔记/草稿纸.md",
     "科技美学/软件.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
     "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
-    "临时笔记/草稿纸.md",
     "考试/职业.md",
     "Excalidraw/计算机/编程语言/Java Draw.md",
-    "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "临时笔记/摄影.md",
     "计算机/编程语言/Java/08 修饰符.md",
     "计算机/编程语言/Java/10 继承.md",
-    "计算机/编程语言/Java/09 类与对象.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",
     "Excalidraw/计算机/编程语言/Java/Java的基础语法1 Draw.md",
     "Excalidraw/计算机/编程语言/Java/Java的基础语法2 Draw.md",
     "计算机/编程语言/Java/04 Java的基础语法2.md",
     "Excalidraw/Drawing 2024-03-20 15.19.48.excalidraw.md",
-    "Excalidraw/计算机/编程语言/Java/Untitled.md",
-    "计算机/编程语言/Java/02 Java的理论知识.md",
-    "Untitled.md",
-    "Excalidraw/计算机/JavaWeb Draw.md",
-    "Excalidraw/计算机/编程语言/Untitled.md",
     "图片库/Pasted Image 20240319202618_931.png",
     "图片库/Pasted Image 20230627101729_054.jpg",
     "图片库/Pasted image 20230623134447.png",
@@ -253,7 +254,6 @@
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",
     "计算机/JavaWeb/后端/SpringBoot",
-    "Excalidraw/计算机/编程语言/数据库",
     "未命名.canvas",
     "未命名 1.canvas"
   ]
