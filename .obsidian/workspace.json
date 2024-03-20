@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
+                "file": "计算机/编程语言/Java/02 Java的理论知识.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -50,12 +50,9 @@
             "id": "72530cf88b10b2b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "科技美学/软件.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "path": "Excalidraw/计算机/编程语言"
               }
             }
           },
@@ -163,9 +160,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "科技美学/软件.md"
-              }
+              "state": {}
             }
           },
           {
@@ -173,9 +168,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "科技美学/软件.md"
-              }
+              "state": {}
             }
           },
           {
@@ -208,14 +201,24 @@
   },
   "active": "72530cf88b10b2b7",
   "lastOpenFiles": [
+    "Excalidraw/计算机/JavaWeb Draw.md",
+    "Excalidraw/计算机/编程语言/Java/Java的基础语法2 Draw.md",
+    "Excalidraw/计算机/编程语言/Untitled.md",
+    "计算机/编程语言/Java/02 Java的理论知识.md",
+    "Excalidraw/计算机/编程语言/Java/Java的理论知识 Draw.md",
+    "计算机/编程语言/Java/06 集合.md",
+    "Excalidraw/计算机/编程语言/Java/集合Draw.md",
+    "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
+    "Excalidraw/计算机/编程语言/Java/继承 Draw.md",
+    "Excalidraw/Excalidraw.md",
+    "计算机/编程语言/Java/10 继承.md",
+    "科技美学/软件.md",
     "考试/职业.md",
     "考试/软件测试.md",
     "考试/试打印.md",
     "计算机/编程语言/Java/01 idea.md",
     "考试/操作系统考试.md",
     "考试/JSP复习.md",
-    "计算机/编程语言/Java/10 继承.md",
-    "计算机/编程语言/Java/02 Java的理论知识.md",
     "计算机/编程语言/Java/05 字符串.md",
     "计算机/编程语言/Java/05 常用 API.md",
     "计算机/编程语言/Java/09 类与对象.md",
@@ -223,21 +226,11 @@
     "计算机/编程语言/Java/03 Java的基础语法1.md",
     "临时笔记/草稿纸.md",
     "科技美学/Surge 5.md",
-    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/编程语言/Java/07 异常.md",
     "图片库/Pasted Image 20240319202618_931.png",
-    "Excalidraw/杂/杂 Draw.md",
     "图片库/Pasted Image 20230627101729_054.jpg",
     "图片库/Pasted image 20230623134447.png",
     "图片库/Pasted image 20230623113323.png",
-    "临时笔记/DDED.md",
-    "临时笔记/🍕美食打分.md",
-    "临时笔记/🌏旅行.md",
-    "临时笔记/权游台词.md",
-    "临时笔记/文字美学.md",
-    "临时笔记/穿搭.md",
-    "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
-    "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "图片库/Pasted Image 20240303101354_873.png",
     "图片库/Pasted Image 20240221115326_136.png",
     "计算机/JavaWeb/前端/BootStrap",

@@ -5,16 +5,17 @@
 >java development Kit，是 java 程序开发工具包，其中包含了<u>JRE</u>和<u>开发人员使用的工具</u>【编译工具（javac.exe）和运行工具（java.exe）】
 
 ## JDK与JRE的关系
-![[Java的理论知识 Draw#^group=WoUaBvDBivaXsGySRHOQk|447]]
+![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403201515206.png)
+
 ## JDK的安装目录
-| **目录名称**          | **说明**          |
-| -------------- | -------------- | 
-| bin | 存放了JDK的各种工具命令，javac和java就放在这里 | 
-| conf | 存放了JDK的相关配置文件 |
-| include | 存放了一些平台特定的头文件 | 
-| jmods | 存放了JDK的各种模块 | 
-| legal | 存放了JDK各模块的授权文档 |
-| lib | 存放了JDK工具的一些补充JAR |
+| **目录名称** | **说明**                        |     |
+| -------- | ----------------------------- | --- |
+| bin      | 存放了JDK的各种工具命令，javac和java就放在这里 |     |
+| conf     | 存放了JDK的相关配置文件                 |     |
+| include  | 存放了一些平台特定的头文件                 |     |
+| jmods    | 存放了JDK的各种模块                   |     |
+| legal    | 存放了JDK各模块的授权文档                |     |
+| lib      | 存放了JDK工具的一些补充JAR              |     |
 
 # DOS命令窗口
 ## 常用的dos命令
