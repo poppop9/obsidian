@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科技美学/软件.md",
+                "file": "临时笔记/草稿纸.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科技美学/软件.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "科技美学/软件.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -208,6 +208,7 @@
   },
   "active": "d9f37405f40d6c99",
   "lastOpenFiles": [
+    "科技美学/软件.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
@@ -233,7 +234,6 @@
     "Untitled.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "Excalidraw/计算机/编程语言/Untitled.md",
-    "Excalidraw/计算机/编程语言/Java/Java的理论知识 Draw.md",
     "图片库/Pasted Image 20240319202618_931.png",
     "图片库/Pasted Image 20230627101729_054.jpg",
     "图片库/Pasted image 20230623134447.png",
