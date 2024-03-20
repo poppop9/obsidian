@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "软件",
+      "path": "科技美学/软件.md"
+    },
+    {
       "basename": "SpringBoot 原理",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
     },
@@ -87,10 +91,6 @@
     {
       "basename": "Excalidraw",
       "path": "Excalidraw/Excalidraw.md"
-    },
-    {
-      "basename": "软件",
-      "path": "科技美学/软件.md"
     },
     {
       "basename": "软件测试",
