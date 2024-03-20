@@ -2005,6 +2005,35 @@ zi类 ^ita45MgM
 			"updated": 1710920217344,
 			"link": null,
 			"locked": false
+		},
+		{
+			"id": "h7WhhsY95nX0CIfga9Ob0",
+			"type": "rectangle",
+			"x": 802.2268145475358,
+			"y": -105.84605846913337,
+			"width": 47.2000732421875,
+			"height": 40.79998779296875,
+			"angle": 0,
+			"strokeColor": "#2f9e44",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 518210353,
+			"version": 30,
+			"versionNonce": 200409489,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1710920224596,
+			"link": null,
+			"locked": false
 		}
 	],
 	"appState": {
