@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Untitled",
-      "path": "Untitled.md"
+      "basename": "04 Java的基础语法2",
+      "path": "计算机/编程语言/Java/04 Java的基础语法2.md"
+    },
+    {
+      "basename": "Java Draw",
+      "path": "Excalidraw/计算机/编程语言/Java Draw.md"
+    },
+    {
+      "basename": "Java的基础语法2 Draw",
+      "path": "Excalidraw/计算机/编程语言/Java/Java的基础语法2 Draw.md"
     },
     {
       "basename": "02 Java的理论知识",
@@ -11,10 +19,6 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "Java的基础语法2 Draw",
-      "path": "Excalidraw/计算机/编程语言/Java/Java的基础语法2 Draw.md"
     },
     {
       "basename": "06 集合",
@@ -161,10 +165,6 @@
       "path": "临时笔记/Dance.md"
     },
     {
-      "basename": "04 Java的基础语法2",
-      "path": "计算机/编程语言/Java/04 Java的基础语法2.md"
-    },
-    {
       "basename": "11 泛型",
       "path": "计算机/编程语言/Java/11 泛型.md"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "MySQL",
       "path": "计算机/数据库/MySQL.md"
-    },
-    {
-      "basename": "SpringBoot 原理",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
     }
   ],
   "omittedPaths": [],

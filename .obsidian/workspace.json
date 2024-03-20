@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/02 Java的理论知识.md",
+                "file": "计算机/编程语言/Java/04 Java的基础语法2.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -47,12 +47,12 @@
             }
           },
           {
-            "id": "72530cf88b10b2b7",
+            "id": "d9f37405f40d6c99",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "excalidraw",
               "state": {
-                "path": "Excalidraw/计算机/编程语言"
+                "file": "Excalidraw/计算机/编程语言/Java Draw.md"
               }
             }
           },
@@ -67,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,7 +79,7 @@
       {
         "id": "476bd3ebd2815330",
         "type": "tabs",
-        "dimension": 64.68446601941747,
+        "dimension": 65.89805825242718,
         "children": [
           {
             "id": "b5263ffa41a34bbc",
@@ -131,7 +131,7 @@
       {
         "id": "82e190d91877a96e",
         "type": "tabs",
-        "dimension": 35.31553398058252,
+        "dimension": 34.101941747572816,
         "children": [
           {
             "id": "202e13012971683d",
@@ -160,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "计算机/编程语言/Java/04 Java的基础语法2.md"
+              }
             }
           },
           {
@@ -168,7 +170,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "计算机/编程语言/Java/04 Java的基础语法2.md"
+              }
             }
           },
           {
@@ -199,12 +203,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "72530cf88b10b2b7",
+  "active": "7c87ec38a7e4aa89",
   "lastOpenFiles": [
-    "Excalidraw/计算机/JavaWeb Draw.md",
+    "Excalidraw/计算机/编程语言/Java Draw.md",
     "Excalidraw/计算机/编程语言/Java/Java的基础语法2 Draw.md",
-    "Excalidraw/计算机/编程语言/Untitled.md",
+    "Excalidraw/Drawing 2024-03-20 15.19.48.excalidraw.md",
+    "Excalidraw/计算机/编程语言/Java/Untitled.md",
     "计算机/编程语言/Java/02 Java的理论知识.md",
+    "Untitled.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
+    "Excalidraw/计算机/编程语言/Untitled.md",
     "Excalidraw/计算机/编程语言/Java/Java的理论知识 Draw.md",
     "计算机/编程语言/Java/06 集合.md",
     "Excalidraw/计算机/编程语言/Java/集合Draw.md",
@@ -223,10 +231,6 @@
     "计算机/编程语言/Java/05 常用 API.md",
     "计算机/编程语言/Java/09 类与对象.md",
     "计算机/编程语言/Java/08 修饰符.md",
-    "计算机/编程语言/Java/03 Java的基础语法1.md",
-    "临时笔记/草稿纸.md",
-    "科技美学/Surge 5.md",
-    "计算机/编程语言/Java/07 异常.md",
     "图片库/Pasted Image 20240319202618_931.png",
     "图片库/Pasted Image 20230627101729_054.jpg",
     "图片库/Pasted image 20230623134447.png",
