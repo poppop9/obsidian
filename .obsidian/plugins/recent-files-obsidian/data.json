@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "3 协议栈",
-      "path": "计算机/四大件/计算机网络/3 协议栈.md"
+      "basename": "Untitled",
+      "path": "计算机/四大件/计算机网络/Untitled.md"
     },
     {
       "basename": "计算机网络 2",
       "path": "计算机/四大件/计算机网络/计算机网络 2.md"
+    },
+    {
+      "basename": "4 集线器, 交换机, 路由器",
+      "path": "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md"
+    },
+    {
+      "basename": "3 协议栈, 网卡, 网线",
+      "path": "计算机/四大件/计算机网络/3 协议栈, 网卡, 网线.md"
     },
     {
       "basename": "2 Web浏览器",
@@ -191,14 +199,6 @@
     {
       "basename": "物理结构",
       "path": "计算机/四大件/数据结构/物理结构.md"
-    },
-    {
-      "basename": "草稿纸 Draw",
-      "path": "Excalidraw/杂/草稿纸 Draw.md"
-    },
-    {
-      "basename": "Axios",
-      "path": "计算机/JavaWeb/前端/Axios.md"
     }
   ],
   "omittedPaths": [],
