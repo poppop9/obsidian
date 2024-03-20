@@ -381,6 +381,15 @@
 </ol>
 ```
 
+### 自定义列表
+```html
+<dl>
+  <dt>名词1</dt>
+  <dd>名词1解释1</dd>
+  <dd>名词1解释2</dd>
+</dl> 
+```
+
 ## 按钮\<button>
 ```html
 <button type="button">Click Me!</button>
