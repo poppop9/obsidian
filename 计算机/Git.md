@@ -172,103 +172,11 @@ README        runoob.php
 
 ---
 
-### 合并冲突
+合并冲突指的是在 Git 进行分支合并时，出现无法自动解决的冲突情况，需要手动解决的情形。这种情况通常发生在两个分支上对同一文件的同一部分进行了不同的修改，导致Git无法自动合并这些更改。
 
-合并不仅仅是简单的文件添加、移除的操作，Git 也会合并修改
+举个例子，假设有一个项目有两个分支：master 和 feature 。在master分支中，有一个 example.txt 文件，内容为"Hello, world!"。同时，在 feature 上也对example.txt 进行了修改，将内容改为"Bonjour, le monde!"。当尝试将 feature 分支合并到 master 分支时，由于两个分支对同一文件的同一行进行了不同的更改，Git 就会产生合并冲突。
 
-$ git branch
-* master
-$ cat runoob.php
-
-首先，我们创建一个叫做 change_site 的分支，切换过去，我们将 runoob.php 内容改为:
-
-<?php
-echo 'runoob';
-?>
-
-创建 change_site 分支：
-
-$ git checkout -b change_site
-Switched to a new branch 'change_site'
-$ vim runoob.php
-$ head -3 runoob.php
-<?php
-echo 'runoob';
-?>
-$ git commit -am 'changed the runoob.php'
-[change_site 7774248] changed the runoob.php
- 1 file changed, 3 insertions(+)
- 
-
-将修改的内容提交到 change_site 分支中。 现在，假如切换回 master 分支我们可以看内容恢复到我们修改前的(空文件，没有代码)，我们再次修改 runoob.php 文件。
-
-$ git checkout master
-Switched to branch 'master'
-$ cat runoob.php
-$ vim runoob.php    # 修改内容如下
-$ cat runoob.php
-<?php
-echo 1;
-?>
-$ git diff
-diff --git a/runoob.php b/runoob.php
-index e69de29..ac60739 100644
---- a/runoob.php
-+++ b/runoob.php
-@@ -0,0 +1,3 @@
-+<?php
-+echo 1;
-+?>
-$ git commit -am '修改代码'
-[master c68142b] 修改代码
- 1 file changed, 3 insertions(+)
-
-现在这些改变已经记录到我的 "master" 分支了。接下来我们将 "change_site" 分支合并过来。
-
-$ git merge change_site
-Auto-merging runoob.php
-CONFLICT (content): Merge conflict in runoob.php
-Automatic merge failed; fix conflicts and then commit the result.
-
-$ cat runoob.php     # 打开文件，看到冲突内容
-<?php
-<<<<<<< HEAD
-echo 1;
-=======
-echo 'runoob';
->>>>>>> change_site
-?>
-
-我们将前一个分支合并到 master 分支，一个合并冲突就出现了，接下来我们需要手动去修改它。
-
-$ vim runoob.php 
-$ cat runoob.php
-<?php
-echo 1;
-echo 'runoob';
-?>
-$ git diff
-diff --cc runoob.php
-index ac60739,b63d7d7..0000000
---- a/runoob.php
-+++ b/runoob.php
-@@@ -1,3 -1,3 +1,4 @@@
-  <?php
- +echo 1;
-+ echo 'runoob';
-  ?>
-
-在 Git 中，我们可以用 git add 要告诉 Git 文件冲突已经解决
-
-$ git status -s
-UU runoob.php
-$ git add runoob.php
-$ git status -s
-M  runoob.php
-$ git commit
-[master 88afe0e] Merge branch 'change_site'
-
-现在我们成功解决了合并中的冲突，并提交了结果。
+在这种情况下，Git 会提示存在合并冲突，并标记出发生冲突的文件和具体位置。解决合并冲突通常需要手动编辑文件，选择保留哪些更改、如何组合这些更改或者完全重写这部分代码。一旦解决了所有冲突，并将文件保存后，可以继续完成合并操作。因此，合并冲突是 Git 中常见的情形之一，需要开发者仔细处理以确保代码库的完整性和正确性。
 
 
 # 拉取
