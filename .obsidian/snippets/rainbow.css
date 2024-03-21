@@ -1236,12 +1236,8 @@ ul>li.task-list-item[data-task="X"] {
 
 /* ---------------------------------------------------------------------------------- */
 /* 有序列表 */
-div>ol li[data-line]:not(:nth-child(n+10)) {
+div>ol>li[data-line] {
 	transform: translate(-22px, 0px);
-}
-
-div>ol li[data-line]:nth-child(n+10) {
-	transform: translate(-12px, 0px);
 }
 
 /* 编辑模式 */
