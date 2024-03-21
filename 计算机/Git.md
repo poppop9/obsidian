@@ -113,24 +113,20 @@ $ git clone git://github.com/schacon/grit.git mygrit
 
 ## 提交与修改
 ### 工作区操作
-| 命令            | 说明             |
-| ------------- | -------------- |
-| `git add`     | 将添加文件到暂存区      |
-| `git commit`  | 提交暂存区到本地仓库     |
-| `git reset`   | 回退版本           |
-| `git rm`      | 将文件从暂存区和工作区中删除 |
-| `git mv`      | 移动或重命名工作区文件    |
-| `git restore` | 恢复或撤销文件的更改     |
-
->[!hint] `git add .` 表示将当前工作目录中所有已修改或新增的文件都添加到 Git 的暂存区中
+- `git add` 将添加文件到暂存区
+	- `git add .` 表示将当前工作目录中所有已修改或新增的文件都添加到 Git 的暂存区中
+- `git commit` 提交暂存区到本地仓库
+	- `git commit -m '第一次版本提交'` 添加提交信息
+- `git reset` 回退版本
+- `git rm` 将文件从暂存区和工作区中删除
+- `git mv` 移动或重命名工作区文件
+- `git restore` 恢复或撤销文件的更改
 
 ### 远程操作
-| 命令           | 说明        |
-| ------------ | --------- |
-| `git remote` | 远程仓库操作    |
-| `git fetch`  | 从远程获取代码库  |
-| `git pull`   | 下载远程代码并合并 |
-| `git push`   | 上传远程代码并合并 |
+- `git remote` 远程仓库操作
+- `git fetch` 从远程获取代码库
+- `git pull` 下载远程代码并合并
+- `git push` 上传远程代码并合并
 
 # 分支管理
 >[!quote] 分支
@@ -140,7 +136,15 @@ $ git clone git://github.com/schacon/grit.git mygrit
 
 ---
 
+- `git branch` **列出分支**：没有参数时，会列出当前分支
+
+---
+
 - `git branch 分支名` **创建分支**
+
+---
+
+- `git branch -d 分支名` **删除分支**
 
 ---
 
@@ -152,31 +156,35 @@ $ git clone git://github.com/schacon/grit.git mygrit
 
 ---
 
-```bash
-$ mkdir gitdemo
-$ cd gitdemo/
-$ git init
-$ touch README
-$ git add README
-$ git commit -m '第一次版本提交'
-```
-
-
-- `git branch` **列出分支**：没有参数时，会列出当前分支
-
-删除分支命令：
-
-git branch -d (branchname)
-
-例如我们要删除 testing 分支：
 
 $ git branch
 * master
-  testing
-$ git branch -d testing
-Deleted branch testing (was 85fc7e7).
+  newtest
+$ ls
+README        test.txt
+$ git merge newtest
+Updating 3e92c19..c1501a2
+Fast-forward
+ runoob.php | 0
+ test.txt   | 1 -
+ 2 files changed, 1 deletion(-)
+ create mode 100644 runoob.php
+ delete mode 100644 test.txt
+$ ls
+README        runoob.php
+
+以上实例中我们将 newtest 分支合并到主分支去，test.txt 文件被删除。
+
+合并完后就可以删除分支:
+
+$ git branch -d newtest
+Deleted branch newtest (was c1501a2).
+
+删除后， 就只剩下 master 分支了：
+
 $ git branch
 * master
+
 
 
 
