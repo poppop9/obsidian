@@ -262,7 +262,7 @@
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-parent</artifactId>
 	<version>3.2.3</version>
-	<relativePath/> <!-- 用于指定父工程的文件路径，当路径为空时，表示从仓库中获取父POM -->
+	<relativePath/> <!-- 用于指定父工程的文件路径，当路径为空时，表示从仓库中获取父工程 -->
 </parent>
 ```
 
