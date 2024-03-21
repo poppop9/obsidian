@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "计算机/Git.md"
+    },
+    {
+      "basename": "如何使用把笔记同步到Github",
+      "path": "临时笔记/如何使用把笔记同步到Github.md"
+    },
+    {
+      "basename": "1 基础概念",
+      "path": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
+    },
+    {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
@@ -17,16 +33,8 @@
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
     },
     {
-      "basename": "1 基础概念",
-      "path": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
-    },
-    {
       "basename": "前后端开发规范",
       "path": "计算机/JavaWeb/前后端开发规范.md"
-    },
-    {
-      "basename": "Git",
-      "path": "计算机/Git.md"
     },
     {
       "basename": "Java 语法糖",
@@ -79,10 +87,6 @@
     {
       "basename": "3 CSS高级",
       "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
     },
     {
       "basename": "软件",
@@ -195,10 +199,6 @@
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     }
   ],
   "omittedPaths": [],
