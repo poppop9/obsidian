@@ -101,10 +101,39 @@ $ git clone git://github.com/schacon/grit.git mygrit
 ```
 
 # 基本操作
-![650](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211936444.png)
+![650](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211938641.png)
+
+| 命令                                                       | 说明                   |
+| -------------------------------------------------------- | -------------------- |
+| `git add`                                                | 添加文件到暂存区             |
+| `git status`                                             | 查看仓库当前的状态，显示有变更的文件   |
+| `git diff`                                               | 比较文件的不同，即暂存区和工作区的差异。 |
+| `git commit`                                             | 提交暂存区到本地仓库。          |
+| `[git reset](https://www.runoob.com/git/git-reset.html)` | 回退版本                 |
+| `[git rm](https://www.runoob.com/git/git-rm.html)`       | 将文件从暂存区和工作区中删除。      |
+| `git mv`                                                 | 移动或重命名工作区文件。         |
+| `git checkout`                                           | 分支切换。                |
+| `git switch`                                             | 更清晰地切换分支。            |
+| `git restore`                                            | 恢复或撤销文件的更改。          |
+
+## git push
 
 
-git clone、git push、git add 、git commit、git checkout、git pull
+## git add
+>添加文件到暂存区
+
+
+
+## git commit
+>将暂存区内容添加到仓库中
+
+
+
+## git checkout
+
+## git pull
+
+
 
 
 
