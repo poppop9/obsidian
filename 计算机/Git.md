@@ -67,20 +67,44 @@
 
 # 创建仓库
 ## git init
->`git init` / `git init 指定目录` 会初始化一个 <u>Git 仓库</u>【在指定目录下】，在执行完成后，Git 仓库会生成一个 `.git 目录`【包含了资源的所有元数据】
+>`git init` / `git init 指定目录` 会在 `.git 目录` 【包含了资源的所有元数据】中初始化一个 <u>Git 仓库</u>【在指定目录下】
 
 如果当前目录下有几个文件想要纳入版本控制，需要先用 git add 命令告诉 Git 开始对这些文件进行跟踪，然后提交：
 `$ git add *.c`
 `$ git add README`
 `$ git commit -m`
 
-
 >[!warning]
 >- 在 Linux 系统中，`commit` 的提交说明使用单引号 ' 
 >- Windows 系统，`commit` 的提交说明使用双引号 "
 
+## git clone
+>>从现有 Git 仓库中拷贝项目
+>- `git clone <repo>` 
+>- `git clone <repo> 指定目录` 拷贝到指定的目录
+
+```bash
+$ git clone git://github.com/schacon/grit.git
+
+# mygrit 是项目的目录名称
+$ git clone git://github.com/schacon/grit.git mygrit
+```
 
 
+编辑 git 配置文件:
+
+$ git config -e    # 针对当前仓库 
+
+或者：
+
+$ git config -e --global   # 针对系统上所有仓库
+
+设置提交代码时的用户信息：
+
+$ git config --global user.name "runoob"
+$ git config --global user.email test@runoob.com
+
+如果去掉 **--global** 参数只对当前仓库有效。
 
 
 
