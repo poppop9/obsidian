@@ -10,25 +10,30 @@
 
 ## 用户信息
 配置个人的用户名称和电子邮件地址：
-$ git config --global user.name "runoob"
-$ git config --global user.email test@runoob.com
+`$ git config --global user.name "runoob"`
+`$ git config --global user.email test@runoob.com`
 
 ## 差异分析工具
-还有一个比较常用的是，在解决合并冲突时使用哪种差异分析工具。比如要改用 vimdiff 的话：
-$ git config --global merge.tool vimdiff
+在解决合并冲突时使用哪种差异分析工具。比如要改用 vimdiff 的话：
+`$ git config --global merge.tool vimdiff`
 
 ## 查看配置信息
-$ git config --list
+- 查看所有配置 `$ git config --list`
+- 查看某个配置 `$ git config user.name`
 
 >[!hint] 有时候会看到重复的变量名，意味着它们来自不同的配置文件
 
-这些配置我们也可以在 **~/.gitconfig** 或 **/etc/gitconfig** 看到，如下所示：
+# 工作流程
+![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211816962.png)
+
+- 克隆 Git 资源作为工作目录
+- 在克隆的资源上添加或修改文件
+- 如果其他人修改了，你可以更新资源
+- 在提交前查看修改
+- 提交修改
+- 在修改完成后，如果发现错误，可以撤回提交并再次修改并提交
 
 
-也可以直接查阅某个环境变量的设定，只要把特定的名字跟在后面即可，像这样：
-
-$ git config user.name
-runoob
 
 
 # 拉取
