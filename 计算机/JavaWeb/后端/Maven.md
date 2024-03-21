@@ -238,8 +238,7 @@
 </dependency>
 ```
 
->[!warning] 分模块设计会引发一些问题，所以我们需要 <u>继承与聚合</u>
->- 各个模块引入了相同的依赖
+>[!warning] 分模块设计会引发一些问题【比如各个模块引入了相同的依赖】，所以我们需要 <u>继承与聚合</u>
 
 ## 继承
 >Maven 继承同 Java 类似，描述了 Maven 项目之间的关系，使用 `<parent>……</parent>` 实现
@@ -263,7 +262,7 @@
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-parent</artifactId>
 	<version>3.2.3</version>
-	<relativePath/> <!-- lookup parent from repository -->
+	<relativePath/> <!-- 用于指定父工程的文件路径，当路径为空时，表示从仓库中获取父POM -->
 </parent>
 ```
 
