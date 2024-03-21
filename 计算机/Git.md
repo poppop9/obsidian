@@ -162,24 +162,27 @@ $ git commit -m '第一次版本提交'
 
 - `git branch` **列出分支**：没有参数时，会列出当前分支
 
-当你以此方式在上次提交更新之后创建了新分支，如果后来又有更新提交， 然后又切换到了 **testing** 分支，Git 将还原你的工作目录到你创建分支时候的样子。
-
-接下来我们将演示如何切换分支，我们用 git checkout (branch) 切换到我们要修改的分支。
-
+```bash
 $ ls
 README
+
 $ echo 'runoob.com' > test.txt
 $ git add .
+
 $ git commit -m 'add test.txt'
 [master 3e92c19] add test.txt
  1 file changed, 1 insertion(+)
  create mode 100644 test.txt
+
 $ ls
 README        test.txt
+
 $ git checkout testing
 Switched to branch 'testing'
+
 $ ls
 README
+```
 
 当我们切换到 **testing** 分支的时候，我们添加的新文件 test.txt 被移除了。切换回 **master** 分支的时候，它们又重新出现了。
 

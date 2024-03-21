@@ -5,6 +5,14 @@
       "path": "计算机/Git.md"
     },
     {
+      "basename": "Linux",
+      "path": "计算机/Linux.md"
+    },
+    {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md"
+    },
+    {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "1 基础概念知识",
       "path": "计算机/四大件/计算机网络/1 基础概念知识.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md"
     },
     {
       "basename": "Bootstrap 简化CSS",
@@ -195,10 +199,6 @@
     {
       "basename": "权游台词",
       "path": "临时笔记/权游台词.md"
-    },
-    {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     }
   ],
   "omittedPaths": [],
