@@ -258,7 +258,7 @@
 ```
 - 指定 SpringBoot 父工程
 ```xml
-// 这个父工程里面已经对 SpringBoot Web起步依赖做了统一管理
+// 这个父工程里面已经对 SpringBoot Web 起步依赖做了统一管理
 <parent>
 	<groupId>org.springframework.boot</groupId>
 	<artifactId>spring-boot-starter-parent</artifactId>
