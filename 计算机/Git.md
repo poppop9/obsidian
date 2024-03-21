@@ -113,14 +113,16 @@ $ git clone git://github.com/schacon/grit.git mygrit
 
 ## 提交与修改
 ### 工作区操作
-| 命令             | 说明                    |
-| -------------- | --------------------- |
-| `git add`      | 将添加文件到暂存区             |
-| `git commit`   | 提交暂存区到本地仓库            |
-| `git reset`    | 回退版本                  |
-| `git rm`       | 将文件从暂存区和工作区中删除        |
-| `git mv`       | 移动或重命名工作区文件           |
-| `git restore`  | 恢复或撤销文件的更改            |
+| 命令            | 说明             |
+| ------------- | -------------- |
+| `git add`     | 将添加文件到暂存区      |
+| `git commit`  | 提交暂存区到本地仓库     |
+| `git reset`   | 回退版本           |
+| `git rm`      | 将文件从暂存区和工作区中删除 |
+| `git mv`      | 移动或重命名工作区文件    |
+| `git restore` | 恢复或撤销文件的更改     |
+
+>[!hint] `git add .` 表示将当前工作目录中所有已修改或新增的文件都添加到 Git 的暂存区中
 
 ### 远程操作
 | 命令           | 说明        |
@@ -162,61 +164,19 @@ $ git commit -m '第一次版本提交'
 
 - `git branch` **列出分支**：没有参数时，会列出当前分支
 
-```bash
-$ ls
-README
+删除分支命令：
 
-$ echo 'runoob.com' > test.txt
-$ git add .
+git branch -d (branchname)
 
-$ git commit -m 'add test.txt'
-[master 3e92c19] add test.txt
- 1 file changed, 1 insertion(+)
- create mode 100644 test.txt
+例如我们要删除 testing 分支：
 
-$ ls
-README        test.txt
-
-$ git checkout testing
-Switched to branch 'testing'
-
-$ ls
-README
-```
-
-当我们切换到 **testing** 分支的时候，我们添加的新文件 test.txt 被移除了。切换回 **master** 分支的时候，它们又重新出现了。
-
-$ git checkout master
-Switched to branch 'master'
-$ ls
-README        test.txt
-
-我们也可以使用 git checkout -b (branchname) 命令来创建新分支并立即切换到该分支下，从而在该分支中操作。
-
-$ git checkout -b newtest
-Switched to a new branch 'newtest'
-$ git rm test.txt 
-rm 'test.txt'
-$ ls
-README
-$ touch runoob.php
-$ git add .
-$ git commit -am 'removed test.txt、add runoob.php'
-[newtest c1501a2] removed test.txt、add runoob.php
- 2 files changed, 1 deletion(-)
- create mode 100644 runoob.php
- delete mode 100644 test.txt
-$ ls
-README        runoob.php
-$ git checkout master
-Switched to branch 'master'
-$ ls
-README        test.txt
-
-如你所见，我们创建了一个分支，在该分支上移除了一些文件 test.txt，并添加了 runoob.php 文件，然后切换回我们的主分支，删除的 test.txt 文件又回来了，且新增加的 runoob.php 不存在主分支中。
-
-使用分支将工作切分开来，从而让我们能够在不同开发环境中做事，并来回切换。
-
+$ git branch
+* master
+  testing
+$ git branch -d testing
+Deleted branch testing (was 85fc7e7).
+$ git branch
+* master
 
 
 
