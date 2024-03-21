@@ -136,28 +136,83 @@ $ git clone git://github.com/schacon/grit.git mygrit
 >
 >所以删除一个分支并不会丢失历史记录或更改，删除分支只是移除了那个指向特定提交的指针，这样可以保持分支列表的整洁
 
-- `git branch 分支名` 创建分支
+---
 
-- `git checkout 分支名` 切换分支
+- `git branch 分支名` **创建分支**
 
-当你切换分支时，Git 会查找目标分支最后一次提交时的快照，并将你的工作目录中的文件更新为该快照中的内容
+---
 
-- `git merge` 合并分支命令，可以将一个分支多次合并到统一分支
+- `git checkout 分支名` **切换分支**：Git 会查找目标分支最后一次提交时的快照，并将你的工作目录中的文件更新为该快照中的内容
+
+---
+
+- `git merge` **合并分支**：可以将一个分支多次合并到统一分支
+
+---
 
 ```bash
 $ mkdir gitdemo
 $ cd gitdemo/
 $ git init
-Initialized empty Git repository...
 $ touch README
 $ git add README
 $ git commit -m '第一次版本提交'
-[master (root-commit) 3b58100] 第一次版本提交
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 README
 ```
 
 
+- `git branch` **列出分支**：没有参数时，会列出当前分支
+
+当你以此方式在上次提交更新之后创建了新分支，如果后来又有更新提交， 然后又切换到了 **testing** 分支，Git 将还原你的工作目录到你创建分支时候的样子。
+
+接下来我们将演示如何切换分支，我们用 git checkout (branch) 切换到我们要修改的分支。
+
+$ ls
+README
+$ echo 'runoob.com' > test.txt
+$ git add .
+$ git commit -m 'add test.txt'
+[master 3e92c19] add test.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+$ ls
+README        test.txt
+$ git checkout testing
+Switched to branch 'testing'
+$ ls
+README
+
+当我们切换到 **testing** 分支的时候，我们添加的新文件 test.txt 被移除了。切换回 **master** 分支的时候，它们又重新出现了。
+
+$ git checkout master
+Switched to branch 'master'
+$ ls
+README        test.txt
+
+我们也可以使用 git checkout -b (branchname) 命令来创建新分支并立即切换到该分支下，从而在该分支中操作。
+
+$ git checkout -b newtest
+Switched to a new branch 'newtest'
+$ git rm test.txt 
+rm 'test.txt'
+$ ls
+README
+$ touch runoob.php
+$ git add .
+$ git commit -am 'removed test.txt、add runoob.php'
+[newtest c1501a2] removed test.txt、add runoob.php
+ 2 files changed, 1 deletion(-)
+ create mode 100644 runoob.php
+ delete mode 100644 test.txt
+$ ls
+README        runoob.php
+$ git checkout master
+Switched to branch 'master'
+$ ls
+README        test.txt
+
+如你所见，我们创建了一个分支，在该分支上移除了一些文件 test.txt，并添加了 runoob.php 文件，然后切换回我们的主分支，删除的 test.txt 文件又回来了，且新增加的 runoob.php 不存在主分支中。
+
+使用分支将工作切分开来，从而让我们能够在不同开发环境中做事，并来回切换。
 
 
 
