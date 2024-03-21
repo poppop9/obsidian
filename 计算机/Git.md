@@ -121,7 +121,6 @@ $ git clone git://github.com/schacon/grit.git mygrit
 | `git rm`       | 将文件从暂存区和工作区中删除        |
 | `git mv`       | 移动或重命名工作区文件           |
 | `git restore`  | 恢复或撤销文件的更改            |
-| `git checkout` | 将暂存区全部，或指定的文件替换工作区的文件 |
 
 ### 远程操作
 | 命令           | 说明        |
@@ -141,16 +140,14 @@ $ git clone git://github.com/schacon/grit.git mygrit
 切换分支命令:
 `git checkout (branchname)`
 
-当你切换分支的时候，Git 会用该分支的最后提交的快照替换你的工作目录的内容， 所以多个分支不需要多个目录。
+当你切换分支的时候，Git 会用该分支的最后提交的快照替换你的工作目录的内容， 所以多个分支不需要多个目录
 
 合并分支命令:
-
 `git merge` 
 
 你可以多次合并到统一分支， 也可以选择在合并之后直接删除被并入的分支。
 
 开始前我们先创建一个测试目录：
-
 ```bash
 $ mkdir gitdemo
 $ cd gitdemo/
@@ -163,8 +160,6 @@ $ git commit -m '第一次版本提交'
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 README
 ```
-
-
 
 
 
