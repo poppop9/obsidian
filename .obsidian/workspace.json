@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/四大件/计算机网络/1 基础概念知识.md",
+                "file": "计算机/四大件/计算机网络/7 Web服务器.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络/计算机网络 1.md"
+                "file": "计算机/四大件/计算机网络/7 Web服务器.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络/计算机网络 1.md"
+                "file": "计算机/四大件/计算机网络/7 Web服务器.md"
               }
             }
           },
@@ -206,12 +206,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "8230ab99a40b226c",
   "lastOpenFiles": [
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
-    "计算机/四大件/计算机网络/计算机网络 1.md",
-    "计算机/四大件/计算机网络/3 协议栈, 网卡, 网线.md",
     "计算机/四大件/计算机网络/1 基础概念知识.md",
+    "计算机/四大件/计算机网络/计算机网络 1.md",
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
+    "计算机/四大件/计算机网络/3 协议栈, 网卡, 网线.md",
     "计算机/四大件/计算机网络/计算机网络 2.md",
     "计算机/四大件/计算机网络/7 Web服务器.md",
     "计算机/四大件/计算机网络/6 防火墙, 缓存服务器.md",
