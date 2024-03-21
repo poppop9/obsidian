@@ -77,11 +77,13 @@
 `$ git add README`
 `$ git commit -m` 初始化项目版本
 
-以上命令将目录下以 .c 结尾及 README 文件提交到仓库中
 
-> **注：** 在 Linux 系统中，commit 信息使用单引号 '，Windows 系统，commit 信息使用双引号 "。
-> 
-> 所以在 git bash 中 git commit -m '提交说明' 这样是可以的，在 Windows 命令行中就要使用双引号 git commit -m "提交说明"。
+
+>[!warning]
+>- 在 Linux 系统中，`commit` 的提交说明使用单引号 ' 
+>- Windows 系统，`commit` 的提交说明使用双引号 "
+
+
 
 
 
