@@ -67,16 +67,12 @@
 
 # 创建仓库
 ## git init
->`git init` / `git init 指定目录` 会初始化一个 Git 仓库
-
-在执行完成后，Git 仓库会生成一个 .git 目录，该目录包含了资源的所有元数据，其他的项目目录保持不变
+>`git init` / `git init 指定目录` 会初始化一个 <u>Git 仓库</u>【在指定目录下】，在执行完成后，Git 仓库会生成一个 `.git 目录`【包含了资源的所有元数据】
 
 如果当前目录下有几个文件想要纳入版本控制，需要先用 git add 命令告诉 Git 开始对这些文件进行跟踪，然后提交：
-
 `$ git add *.c`
 `$ git add README`
-`$ git commit -m` 初始化项目版本
-
+`$ git commit -m`
 
 
 >[!warning]
