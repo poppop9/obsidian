@@ -599,6 +599,16 @@ strong {
 	color: #3481c5 !important;
 }
 
+strong {
+	margin-left: 2px;
+	margin-right: 3.3px;
+}
+
+span.cm-em.cm-strong {
+	margin-left: 2px;
+	margin-right: 3.3px;
+}
+
 /* -------------------------------------------------------------------------- */
 /* 正文字体 */
 .markdown-source-view.mod-cm6 .cm-scroller {
