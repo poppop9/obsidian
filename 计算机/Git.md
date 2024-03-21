@@ -1,17 +1,20 @@
 
 ## 三大配置
-
-
 - `--system` 会读写 `/etc/gitconfig` 文件：影响<u>所有用户</u>的 Git 环境
 - `--global` 会读写 `~/.gitconfig` 文件：对<u>当前用户</u>的<u>所有 Git 项目</u>生效
+	- 如果在使用 git 命令时使用了 `--global`，那么更改的配置文件就是用户主目录下的那个，以后该用户所有的项目都会默认使用这里配置的用户信息
 - `默认` 会读写当前工作目录中的 `.git/config` 文件：这里的配置仅仅针对<u>当前项目</u>有效
 
 >[!hint] 每一个级别的配置都会覆盖上层的相同配置【例如，`.git/config` 里的配置会覆盖 `/etc/gitconfig`】
 
-在 Windows 系统上，Git 会找寻用户主目录下的 .gitconfig 文件。主目录即 $HOME 变量指定的目录，一般都是 C:\Documents and Settings\$USER。
+### 用户信息
+配置个人的用户名称和电子邮件地址：
+$ git config --global user.name "runoob"
+$ git config --global user.email test@runoob.com
 
-此外，Git 还会尝试找寻 /etc/gitconfig 文件，只不过看当初 Git 装在什么目录，就以此作为根目录来定位。
+如果用了 **--global** 选项，
 
+如果要在某个特定的项目中使用其他名字或者电邮，只要去掉 --global 选项重新配置即可，新的设定保存在当前项目的 .git/config 文件里
 
 
 # 拉取
