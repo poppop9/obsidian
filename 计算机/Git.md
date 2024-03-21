@@ -152,40 +152,123 @@ $ git clone git://github.com/schacon/grit.git mygrit
 
 ---
 
-- `git merge` **合并分支**：可以将一个分支多次合并到统一分支
+- `git merge` **合并分支**：可以将一个分支多次合并到统一分支，如果被合并的分支没用了可以删除
 
----
-
-
+```bash
+# 将分支合并后，test.txt 就被删除了
 $ git branch
 * master
   newtest
+
 $ ls
 README        test.txt
+
 $ git merge newtest
-Updating 3e92c19..c1501a2
-Fast-forward
- runoob.php | 0
- test.txt   | 1 -
- 2 files changed, 1 deletion(-)
- create mode 100644 runoob.php
- delete mode 100644 test.txt
+……
+
 $ ls
 README        runoob.php
+```
 
-以上实例中我们将 newtest 分支合并到主分支去，test.txt 文件被删除。
+---
 
-合并完后就可以删除分支:
+### 合并冲突
 
-$ git branch -d newtest
-Deleted branch newtest (was c1501a2).
-
-删除后， 就只剩下 master 分支了：
+合并不仅仅是简单的文件添加、移除的操作，Git 也会合并修改
 
 $ git branch
 * master
+$ cat runoob.php
 
+首先，我们创建一个叫做 change_site 的分支，切换过去，我们将 runoob.php 内容改为:
 
+<?php
+echo 'runoob';
+?>
+
+创建 change_site 分支：
+
+$ git checkout -b change_site
+Switched to a new branch 'change_site'
+$ vim runoob.php
+$ head -3 runoob.php
+<?php
+echo 'runoob';
+?>
+$ git commit -am 'changed the runoob.php'
+[change_site 7774248] changed the runoob.php
+ 1 file changed, 3 insertions(+)
+ 
+
+将修改的内容提交到 change_site 分支中。 现在，假如切换回 master 分支我们可以看内容恢复到我们修改前的(空文件，没有代码)，我们再次修改 runoob.php 文件。
+
+$ git checkout master
+Switched to branch 'master'
+$ cat runoob.php
+$ vim runoob.php    # 修改内容如下
+$ cat runoob.php
+<?php
+echo 1;
+?>
+$ git diff
+diff --git a/runoob.php b/runoob.php
+index e69de29..ac60739 100644
+--- a/runoob.php
++++ b/runoob.php
+@@ -0,0 +1,3 @@
++<?php
++echo 1;
++?>
+$ git commit -am '修改代码'
+[master c68142b] 修改代码
+ 1 file changed, 3 insertions(+)
+
+现在这些改变已经记录到我的 "master" 分支了。接下来我们将 "change_site" 分支合并过来。
+
+$ git merge change_site
+Auto-merging runoob.php
+CONFLICT (content): Merge conflict in runoob.php
+Automatic merge failed; fix conflicts and then commit the result.
+
+$ cat runoob.php     # 打开文件，看到冲突内容
+<?php
+<<<<<<< HEAD
+echo 1;
+=======
+echo 'runoob';
+>>>>>>> change_site
+?>
+
+我们将前一个分支合并到 master 分支，一个合并冲突就出现了，接下来我们需要手动去修改它。
+
+$ vim runoob.php 
+$ cat runoob.php
+<?php
+echo 1;
+echo 'runoob';
+?>
+$ git diff
+diff --cc runoob.php
+index ac60739,b63d7d7..0000000
+--- a/runoob.php
++++ b/runoob.php
+@@@ -1,3 -1,3 +1,4 @@@
+  <?php
+ +echo 1;
++ echo 'runoob';
+  ?>
+
+在 Git 中，我们可以用 git add 要告诉 Git 文件冲突已经解决
+
+$ git status -s
+UU runoob.php
+$ git add runoob.php
+$ git status -s
+M  runoob.php
+$ git commit
+[master 88afe0e] Merge branch 'change_site'
+
+现在我们成功解决了合并中的冲突，并提交了结果。
 
 
 # 拉取
