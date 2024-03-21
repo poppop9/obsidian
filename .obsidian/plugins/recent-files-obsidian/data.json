@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
+      "basename": "1 基础概念知识",
+      "path": "计算机/四大件/计算机网络/1 基础概念知识.md"
+    },
+    {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md"
+    },
+    {
+      "basename": "Bootstrap 简化CSS",
+      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
+    },
+    {
+      "basename": "1 基础概念",
+      "path": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
+    },
+    {
+      "basename": "前后端开发规范",
+      "path": "计算机/JavaWeb/前后端开发规范.md"
+    },
+    {
       "basename": "Git",
       "path": "计算机/Git.md"
     },
@@ -10,19 +34,11 @@
     },
     {
       "basename": "SpringBoot 原理",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot.md"
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md"
     },
     {
       "basename": "计算机网络 1",
       "path": "计算机/四大件/计算机网络/计算机网络 1.md"
-    },
-    {
-      "basename": "1 基础概念知识",
-      "path": "计算机/四大件/计算机网络/1 基础概念知识.md"
     },
     {
       "basename": "3 协议栈, 网卡, 网线",
@@ -74,15 +90,15 @@
     },
     {
       "basename": "配置优先级，Bean管理",
-      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md"
     },
     {
       "basename": "5 事务管理，AOP",
-      "path": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/5 事务管理，AOP.md"
     },
     {
       "basename": "3 文件上云",
-      "path": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/3 文件上云.md"
     },
     {
       "basename": "职业",
@@ -177,28 +193,12 @@
       "path": "临时笔记/权游台词.md"
     },
     {
-      "basename": "Bootstrap 简化CSS",
-      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
-    },
-    {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
     {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
-    },
-    {
-      "basename": "2 HTML 中级",
-      "path": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
-    },
-    {
-      "basename": "Vue 3",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
-    },
-    {
-      "basename": "1 VSCode",
-      "path": "计算机/JavaWeb/前端/1 VSCode.md"
     }
   ],
   "omittedPaths": [],
