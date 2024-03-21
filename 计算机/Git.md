@@ -50,26 +50,38 @@
 >- `HEAD`：是指向 master 分支的一个"游标"【所以命令中出现 HEAD 的地方可以用 master 来替换】
 >- `objects`：是 Git 的对象库，里面包含了创建的各种对象及内容
 
+---
 
-### 各种命令
-执行各种命令时
+### 执行各种命令时，三区的变化
+- 当对工作区修改的文件执行 `git add` 命令时，暂存区的目录树会被更新，同时工作区修改的文件内容被写入到 objects 中的一个新的对象中，而该对象的 ID 被记录在暂存区的文件索引中
 
+- 当执行提交操作 `git commit` 时，暂存区的目录树会写到版本库的 objects 中，当前分支【~~通常是 master 分支~~】会指向新提交的目录树
 
+- 当执行 `git reset HEAD` 时，暂存区的目录树会被重写【被 master 分支指向的目录树所替换（~~工作区不受影响~~）】
 
-当对工作区修改的文件执行 `git add` 命令时，暂存区的目录树会被更新，同时工作区修改的文件内容被写入到 objects 中的一个新的对象中，而该对象的 ID 被记录在暂存区的文件索引中
+- 当执行 `git rm --cached <file>` 时，会删除暂存区文件【~~工作区不变~~】
 
-当执行提交操作 `git commit` 时，暂存区的目录树会写到版本库的 objects 中，当前分支【~~通常是 master 分支~~】会指向新提交的目录树
+- 当执行 `git checkout .` ，或者 `git checkout -- <file>` 时，会用暂存区全部，或指定的文件替换工作区的文件
 
-当执行 `git reset HEAD` 时，暂存区的目录树会被重写【被 master 分支指向的目录树所替换（~~工作区不受影响~~）】
-
-当执行 `git rm --cached <file>` 时，会删除暂存区文件【~~工作区不变~~】
-
-当执行 `git checkout .` ，或者 `git checkout -- <file>` 时，会用暂存区全部，或指定的文件替换工作区的文件
-
-当执行 `git checkout HEAD .` ，或者 `git checkout HEAD <file>` 时，会用 HEAD 指向的 master 分支中的全部，或者部分文件替换暂存区和以及工作区中的文件
+- 当执行 `git checkout HEAD .` ，或者 `git checkout HEAD <file>` 时，会用 HEAD 指向的 master 分支中的全部，或者部分文件替换暂存区和以及工作区中的文件
 
 # 创建仓库
+## git init
+>`git init` / `git init 指定目录` 会初始化一个 Git 仓库
 
+在执行完成后，Git 仓库会生成一个 .git 目录，该目录包含了资源的所有元数据，其他的项目目录保持不变
+
+如果当前目录下有几个文件想要纳入版本控制，需要先用 git add 命令告诉 Git 开始对这些文件进行跟踪，然后提交：
+
+`$ git add *.c`
+`$ git add README`
+`$ git commit -m` 初始化项目版本
+
+以上命令将目录下以 .c 结尾及 README 文件提交到仓库中
+
+> **注：** 在 Linux 系统中，commit 信息使用单引号 '，Windows 系统，commit 信息使用双引号 "。
+> 
+> 所以在 git bash 中 git commit -m '提交说明' 这样是可以的，在 Windows 命令行中就要使用双引号 git commit -m "提交说明"。
 
 
 
