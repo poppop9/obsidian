@@ -134,16 +134,13 @@ $ git clone git://github.com/schacon/grit.git mygrit
 >[!quote] 分支
 >Git 分支实际上是指向更改快照的指针。一个分支代表一条独立的开发线，使用分支表示你可以从主线上分离开来，然后在不影响主线的同时继续工作
 
-创建分支命令：
-`git branch (branchname)`
+- 创建分支命令 `git branch 分支名`
 
-切换分支命令:
-`git checkout (branchname)`
+- 切换分支命令 `git checkout 分支名`
 
-当你切换分支的时候，Git 会用该分支的最后提交的快照替换你的工作目录的内容， 所以多个分支不需要多个目录
+当你切换分支时，Git 会查找目标分支最后一次提交时的快照，并将你的工作目录中的文件更新为该快照中的内容
 
-合并分支命令:
-`git merge` 
+- 合并分支命令 `git merge` 
 
 你可以多次合并到统一分支， 也可以选择在合并之后直接删除被并入的分支。
 
