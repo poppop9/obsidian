@@ -8,20 +8,30 @@
 
 >[!hint] 每一个级别的配置都会覆盖上层的相同配置【例如，`.git/config` 里的配置会覆盖 `/etc/gitconfig`】
 
-## 用户信息
-配置个人的用户名称和电子邮件地址：
+## 配置命令
+- **查看配置信息**
+	- 查看所有配置 `$ git config --list`
+	- 查看某个配置 `$ git config user.name`
+- 编辑配置文件 `$ git config -e` 
+
+>[!hint] 有时候会看到重复的变量名，意味着它们来自不同的配置文件
+
+---
+
+- 配置提交代码时的用户名称和电子邮件地址
 `$ git config --global user.name "runoob"`
 `$ git config --global user.email test@runoob.com`
 
-## 差异分析工具
-在解决合并冲突时使用哪种差异分析工具。比如要改用 vimdiff 的话：
-`$ git config --global merge.tool vimdiff`
+---
 
-## 查看配置信息
-- 查看所有配置 `$ git config --list`
-- 查看某个配置 `$ git config user.name`
+- 差异分析工具
+```bash
+# 比如要改用成 vimdiff 
+$ git config --global merge.tool vimdiff
+```
 
->[!hint] 有时候会看到重复的变量名，意味着它们来自不同的配置文件
+---
+
 
 # 概念
 ## 工作流程
@@ -90,21 +100,17 @@ $ git clone git://github.com/schacon/grit.git
 $ git clone git://github.com/schacon/grit.git mygrit
 ```
 
+# 基本操作
+![650](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211936444.png)
 
-编辑 git 配置文件:
 
-$ git config -e    # 针对当前仓库 
+git clone、git push、git add 、git commit、git checkout、git pull
 
-或者：
 
-$ git config -e --global   # 针对系统上所有仓库
 
-设置提交代码时的用户信息：
 
-$ git config --global user.name "runoob"
-$ git config --global user.email test@runoob.com
 
-如果去掉 **--global** 参数只对当前仓库有效。
+
 
 
 

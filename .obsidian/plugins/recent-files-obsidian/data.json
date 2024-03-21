@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "JavaWeb Draw",
+      "path": "Excalidraw/计算机/JavaWeb Draw.md"
+    },
+    {
       "basename": "Git",
       "path": "计算机/Git.md"
     },
@@ -147,10 +151,6 @@
     {
       "basename": "02 Java的理论知识",
       "path": "计算机/编程语言/Java/02 Java的理论知识.md"
-    },
-    {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
       "basename": "06 集合",
