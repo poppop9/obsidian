@@ -280,7 +280,6 @@ $ git log --oneline --decorate --graph
 - 成功的话，会在 `~/` 下生成 `.ssh` 文件夹，打开 `id_rsa.pub`，复制
 - 打开 github，打开 **SSH and GPG keys**，然后点击 **New SSH key** ，设置名称，再粘贴复制的 Key
 - 验证是否成功 `ssh -T git@github.com`
----
 - 设置 username 和 email【因为每次 commit 都会记录它们】
 ```bash
 $ git config --global user.name "your name"
@@ -296,11 +295,35 @@ $ git config --global user.email "your_email@youremail.com"
 > 1962883041@qq.com
 > ```
 
----
 - 添加远程仓库，并添加别名【~~远程仓库的地址会存储在 `config文件` 中 ~~】
 `git remote add 别名 git@github.com:github的名字/仓库名.git`
-- 进行推送
-`git push -u 本地仓库别名 本地分支`
+## 推送到远程库
+- `git push -u 本地仓库别名 本地分支` 进行推送
+
+## 查看
+- `git remote` 查看当前配置有哪些远程仓库
+	- `-v` 查看到链接地址
+
+---
+
+```
+# 整体的步骤
+$ mkdir runoob-git-test                     # 创建测试目录
+$ cd runoob-git-test/                       # 进入测试目录
+$ echo "# 菜鸟教程 Git 测试" >> README.md     # 创建 README.md 文件并写入内容
+$ ls                                        # 查看目录下的文件
+README
+$ git init                                  # 初始化
+$ git add README.md                         # 添加文件
+$ git commit -m "添加 README.md 文件"        # 提交并备注信息
+[master (root-commit) 0205aab] 添加 README.md 文件
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+# 提交到 Github
+$ git remote add origin git@github.com:tianqixin/runoob-git-test.git
+$ git push -u origin master
+```
 
 
 
