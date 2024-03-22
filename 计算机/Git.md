@@ -237,20 +237,26 @@ $ git commit
 >[!hint] 什么时候要使用<u>标签</u> ？
 >如果你到了一个重要的阶段，并希望永远记住那个特别的提交快照，你可以使用 `git tag` 给它打上标签
 
-- `git tag` 给某个提交快照打标签
+- `git tag` 查看所有标签
 	- `-a` 创建一个带注解的标签【记录打标签的时间，谁打的标签】，**推荐必带属性**
 
 ```bash
 # 给最新一次提交打上（HEAD）"v1.0"的标签
 $ git tag -a v1.0
+
+$ git tag
+v0.9
+v1.0
 ```
 
 
-如果我们忘了给某个提交打标签，又将它发布了，我们可以给它追加标签。
+## 追加标签
+>如果我们忘了给某个提交打标签，又将它发布了，我们可以给它追加标签
 
-例如，假设我们发布了提交 85fc7e7(上面实例最后一行)，但是那时候忘了给它打标签。 我们现在也可以：
-
+```bash
+# 追加标签时，最后面指定提交的id（85fc7e7）
 $ git tag -a v0.9 85fc7e7
+
 $ git log --oneline --decorate --graph
 *   d5e9fc2 (HEAD -> master) Merge branch 'change_site'
 |\  
@@ -259,13 +265,10 @@ $ git log --oneline --decorate --graph
 |/  
 * c1501a2 removed test.txt、add runoob.php
 * 3e92c19 add test.txt
-* 3b58100 (tag: v0.9) 第一次版本提交
+* 85fc7e7 (tag: v0.9) 第一次版本提交
+```
 
-如果我们要查看所有标签可以使用以下命令：
 
-$ git tag
-v0.9
-v1.0
 
 指定标签信息命令：
 
