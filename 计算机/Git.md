@@ -289,6 +289,14 @@ $ git config --global user.name "your name"
 $ git config --global user.email "your_email@youremail.com"
 ```
 
+>[!hint] 查看在 Git 中配置的全局用户名和邮箱
+> ```bash
+> C:\Users\19628>git config --global user.name
+> 123
+> 
+> C:\Users\19628>git config --global user.email
+> 1962883041@qq.com
+> ```
 
 
 
