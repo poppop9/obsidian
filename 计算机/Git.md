@@ -107,12 +107,12 @@ $ git clone git://github.com/schacon/grit.git mygrit
 - `git log` 查看<u>历史提交记录</u> / <u>克隆记录</u>【提交的哈希值，作者，提交日期，提交消息……】
 	- `-p` 显示提交的补丁（具体更改内容）
 	- `--oneline` 以简洁的一行格式显示提交信息
-	- `--reverse` 以从上fang
+	- `--reverse` 以逆向的形式展示历史记录
 	- `--graph` 以图形化方式显示分支和合并历史
 	- `--decorate` 显示分支和标签指向的提交
 	- `--author=<作者>` 只显示特定作者的提交
-	- `--since=<时间>` 只显示指定时间之后的提交
-	- `--until=<时间>` 只显示指定时间之前的提交
+	- `--after=<时间>` 只显示指定时间之后的提交
+	- `--before=<时间>` 只显示指定时间之前的提交
 	- `--grep=<模式>` 只显示包含指定模式的提交消息
 	- `--no-merges` 不显示合并提交
 	- `--stat` 显示简略统计信息，包括修改的文件和行数
@@ -121,6 +121,12 @@ $ git clone git://github.com/schacon/grit.git mygrit
 
 ```bash
 $ git log 属性 [分支名/提交哈希]
+
+# 以简洁的形式显示最近的5个提交历史记录，其中作者为"Linus"
+git log --author=Linus --oneline -5
+
+# 根据日期体以简洁的方式，显示非合并提交
+$ git log --oneline --before={3.weeks.ago} --after={2010-04-18} --no-merges
 ```
 
 
