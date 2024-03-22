@@ -271,12 +271,10 @@ $ git log --oneline --decorate --graph
 >如果你想通过 Git 分享你的代码或者与其他开发人员合作，你就需要将数据放到一台其他开发人员能够连接的服务器上
 >![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403221113329.png)
 
-- `git remote` 远程仓库操作
 - `git fetch` 从远程获取代码库
 - `git pull` 下载远程代码并合并
-- `git push` 上传远程代码并合并
 
-## 添加远程库
+## 初始化
 - 在本地生成 SSH Key，默认一直回车，设置简单参数
 `ssh-keygen -t rsa -C "github注册的邮箱"`
 - 成功的话，会在 `~/` 下生成 `.ssh` 文件夹，打开 `id_rsa.pub`，复制
@@ -299,7 +297,7 @@ $ git config --global user.email "your_email@youremail.com"
 > ```
 
 ---
-- 为远程仓库添加别名
+- 添加远程仓库，并添加别名【~~远程仓库的地址会存储在 `config文件` 中 ~~】
 `git remote add 别名 git@github.com:github的名字/仓库名.git`
 - 进行推送
 `git push -u 本地仓库别名 本地分支`
