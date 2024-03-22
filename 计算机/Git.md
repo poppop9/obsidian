@@ -271,9 +271,6 @@ $ git log --oneline --decorate --graph
 >如果你想通过 Git 分享你的代码或者与其他开发人员合作，你就需要将数据放到一台其他开发人员能够连接的服务器上
 >![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403221113329.png)
 
-- `git fetch` 从远程获取代码库
-- `git pull` 下载远程代码并合并
-
 ## 初始化
 - 在本地生成 SSH Key，默认一直回车，设置简单参数
 `ssh-keygen -t rsa -C "github注册的邮箱"`
@@ -297,6 +294,7 @@ $ git config --global user.email "your_email@youremail.com"
 
 - 添加远程仓库，并添加别名【~~远程仓库的地址会存储在 `config文件` 中 ~~】
 `git remote add 别名 git@github.com:github的名字/仓库名.git`
+
 ## 推送到远程库
 - `git push -u 本地仓库别名 本地分支` 进行推送
 
@@ -304,25 +302,29 @@ $ git config --global user.email "your_email@youremail.com"
 - `git remote` 查看当前配置有哪些远程仓库
 	- `-v` 查看到链接地址
 
+## 拉取
+
+
+- `git fetch` 从远程获取代码库
+- `git pull` 下载远程代码并合并
+
+
+
+
 ---
 
-```
+```bash
 # 整体的步骤
-$ mkdir runoob-git-test                     # 创建测试目录
-$ cd runoob-git-test/                       # 进入测试目录
-$ echo "# 菜鸟教程 Git 测试" >> README.md     # 创建 README.md 文件并写入内容
-$ ls                                        # 查看目录下的文件
-README
-$ git init                                  # 初始化
-$ git add README.md                         # 添加文件
-$ git commit -m "添加 README.md 文件"        # 提交并备注信息
+# 进入到对应的目录
+$ git init    
+$ git add README.md  
+$ git commit -m "添加 README.md 文件"  
 [master (root-commit) 0205aab] 添加 README.md 文件
  1 file changed, 1 insertion(+)
  create mode 100644 README.md
 
-# 提交到 Github
-$ git remote add origin git@github.com:tianqixin/runoob-git-test.git
-$ git push -u origin master
+$ git remote add test git@github.com:tianqixin/runoob-git-test.git
+$ git push -u test master
 ```
 
 
