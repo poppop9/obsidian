@@ -107,9 +107,20 @@ $ git clone git://github.com/schacon/grit.git mygrit
 - 查看提交日志
 	- `git log` 查看历史提交记录
 	- `git blame <file>` 以列表形式查看指定文件的历史修改记录
+
+
+
+
+
+
+
 - 查看仓库状态
 	- `git status` 查看仓库当前的状态，显示有变更的文件
 	- `git diff` 比较文件的不同，即暂存区和工作区的差异
+
+
+
+
 
 ## 提交与修改
 ### 工作区操作
@@ -172,9 +183,23 @@ README        runoob.php
 
 ---
 
-合并冲突指的是在两个分支上对同一文件的同一部分进行了不同的修改，导致 Git 无法自动合并这些更改，需要手动修改这个文件，然后再 `git add 这个文件`
+## 合并冲突
+>合并冲突 指的是在两个分支上对同一文件的同一部分进行了不同的修改，导致 Git 无法自动合并这些更改，需要手动修改这个文件，然后再 `git add 这个文件`
 
+```bash
+# UU 表示该文件有未解决的合并冲突
+$ git status -s
+UU runoob.php
 
+$ git add runoob.php
+
+# M 表示`runoob.php`文件已经被修改，不处于合并冲突状态
+$ git status -s
+M  runoob.php
+
+$ git commit
+[master 88afe0e] Merge branch 'change_site'
+```
 
 
 # 拉取
