@@ -132,43 +132,19 @@ $ git log --oneline --before={3.weeks.ago} --after={2010-04-18} --no-merges
 ---
 
 - `git blame 文件` <u>逐行显示</u>查看指定文件的历史修改记录，可以追踪<u>文件中每一行的变更历史</u>【作者，提交哈希，提交日期，提交消息……】
+	- `-L 起始行号,结束行号` 只显示指定行号范围内的代码注释
+	- `-C` 对于重命名或拷贝的代码行，也进行代码行溯源
+	- `-M` 对于移动的代码行，也进行代码行溯源
+	- `-C -C` 或 `-M -M` 对于较多改动的代码行，进行更进一步的溯源
+	- `--show-stats` 显示包含每个作者的行数统计信息
 
-`git blame 属性 文件`
-
-- `-L <起始行号>,<结束行号>` 只显示指定行号范围内的代码注释
-- `-C` 对于重命名或拷贝的代码行，也进行代码行溯源
-- `-M` 对于移动的代码行，也进行代码行溯源
-- `-C -C` 或 `-M -M` 对于较多改动的代码行，进行更进一步的溯源
-- `--show-stats` 显示包含每个作者的行数统计信息
-
-显示文件每一行的代码注释和相关信息：
-
-`git blame <文件路径>`
-
-只显示指定行号范围内的代码注释：
-
-`git blame -L <起始行号>,<结束行号> <文件路径>`
-
-对于重命名或拷贝的代码行进行溯源：
-
-`git blame -C <文件路径>`
-
-对于移动的代码行进行溯源：
-
-`git blame -M <文件路径>`
-
-显示行数统计信息：
-
-`git blame --show-stats <文件路径>`
-
-git blame 命令是以列表形式显示修改记录，如下实例：
+```bash
+$ git blame 属性 文件
 
 $ git blame README 
 ^d2097aa (tianqixin 2020-08-25 14:59:25 +0800 1) # Runoob Git 测试
 db9315b0 (runoob    2020-08-25 16:00:23 +0800 2) # 菜鸟教程
-
-
-
+```
 
 ---
 
@@ -176,9 +152,7 @@ db9315b0 (runoob    2020-08-25 16:00:23 +0800 2) # 菜鸟教程
 	- `git status` 查看仓库当前的状态，显示有变更的文件
 	- `git diff` 比较文件的不同，即暂存区和工作区的差异
 
-
-
-
+---
 
 ## 提交与修改
 ### 工作区操作
@@ -258,6 +232,61 @@ M  runoob.php
 $ git commit
 [master 88afe0e] Merge branch 'change_site'
 ```
+
+# 标签
+>[!hint] 什么时候要使用<u>标签</u> ？
+>如果你到了一个重要的阶段，并希望永远记住那个特别的提交快照，你可以使用 `git tag` 给它打上标签
+
+比如，我们想为我们的 runoob 项目发布一个"1.0"版本。 我们可以用 git tag -a v1.0 给最新一次提交打上（HEAD）"v1.0"的标签
+
+-a 选项意为"创建一个带注解的标签"。 不用 -a 选项也可以执行的，但它不会记录这标签是啥时候打的，谁打的，也不会让你添加个标签的注解。 我推荐一直创建带注解的标签。
+
+$ git tag -a v1.0 
+
+当你执行 git tag -a 命令时，Git 会打开你的编辑器，让你写一句标签注解，就像你给提交写注解一样。
+
+现在，注意当我们执行 git log --decorate 时，我们可以看到我们的标签了：
+
+*   d5e9fc2 (HEAD -> master) Merge branch 'change_site'
+|\  
+| * 7774248 (change_site) changed the runoob.php
+* | c68142b 修改代码
+|/  
+* c1501a2 removed test.txt、add runoob.php
+* 3e92c19 add test.txt
+* 3b58100 第一次版本提交
+
+如果我们忘了给某个提交打标签，又将它发布了，我们可以给它追加标签。
+
+例如，假设我们发布了提交 85fc7e7(上面实例最后一行)，但是那时候忘了给它打标签。 我们现在也可以：
+
+$ git tag -a v0.9 85fc7e7
+$ git log --oneline --decorate --graph
+*   d5e9fc2 (HEAD -> master) Merge branch 'change_site'
+|\  
+| * 7774248 (change_site) changed the runoob.php
+* | c68142b 修改代码
+|/  
+* c1501a2 removed test.txt、add runoob.php
+* 3e92c19 add test.txt
+* 3b58100 (tag: v0.9) 第一次版本提交
+
+如果我们要查看所有标签可以使用以下命令：
+
+$ git tag
+v0.9
+v1.0
+
+指定标签信息命令：
+
+git tag -a <tagname> -m "runoob.com标签"
+
+PGP签名标签命令：
+
+git tag -s <tagname> -m "runoob.com标签"
+
+
+
 
 
 # 拉取
