@@ -165,12 +165,6 @@ db9315b0 (runoob    2020-08-25 16:00:23 +0800 2) # 菜鸟教程
 - `git mv` 移动或重命名工作区文件
 - `git restore` 恢复或撤销文件的更改
 
-### 远程操作
-- `git remote` 远程仓库操作
-- `git fetch` 从远程获取代码库
-- `git pull` 下载远程代码并合并
-- `git push` 上传远程代码并合并
-
 # 分支管理
 >[!quote] 分支
 >>分支是指向更改快照的指针。一个分支代表一条独立的开发线，使用分支表示你可以从主线上分离开来，然后在不影响主线的同时继续工作
@@ -239,17 +233,20 @@ $ git commit
 
 - `git tag` **查看所有标签**
 	- `-a` **创建一个带注解的标签**【记录打标签的时间，谁打的标签】
+	- `-d` 删除标签
 
 ```bash
+# 查看所有标签
+$ git tag
+v0.9
+v1.0
+
 # 给最新一次提交打上（HEAD）"v1.0"的标签
 $ git tag -a v1.0
 # 带注释信息的打标签
 $ git tag -a v2.0 -m "runoob.com标签"
 
-# 查看所有标签
-$ git tag
-v0.9
-v1.0
+$ git tag -d v1.0
 ```
 
 ## 追加标签
@@ -269,6 +266,14 @@ $ git log --oneline --decorate --graph
 * 3e92c19 add test.txt
 * 85fc7e7 (tag: v0.9) 第一次版本提交
 ```
+
+# 远程仓库
+![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403221113329.png)
+
+- `git remote` 远程仓库操作
+- `git fetch` 从远程获取代码库
+- `git pull` 下载远程代码并合并
+- `git push` 上传远程代码并合并
 
 
 
