@@ -302,7 +302,7 @@ $ git config --global user.email "your_email@youremail.com"
 - 为远程仓库添加别名
 `git remote add 别名 git@github.com:github的名字/仓库名.git`
 - 进行推送
-`git push -u origin master`
+`git push -u 本地仓库别名 本地分支`
 
 
 
