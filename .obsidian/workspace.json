@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux.md",
+                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Git.md"
+                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Git.md"
+                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
               }
             }
           },
@@ -206,7 +205,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
     "计算机/Linux.md",
     "计算机/Git.md",
