@@ -268,7 +268,8 @@ $ git log --oneline --decorate --graph
 ```
 
 # 远程仓库
-![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403221113329.png)
+>如果你想通过 Git 分享你的代码或者与其他开发人员合作，你就需要将数据放到一台其他开发人员能够连接的服务器上
+>![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403221113329.png)
 
 - `git remote` 远程仓库操作
 - `git fetch` 从远程获取代码库
