@@ -276,6 +276,11 @@ $ git log --oneline --decorate --graph
 - `git pull` 下载远程代码并合并
 - `git push` 上传远程代码并合并
 
+## 添加远程库
+- 在本地生成 SSH Key，默认一直回车，设置简单参数
+`ssh-keygen -t rsa -C "github注册的邮箱"`
+- 成功的话，会在 `~/` 下生成 `.ssh` 文件夹，打开 `id_rsa.pub`，复制
+- 打开 github，打开
 
 
 
