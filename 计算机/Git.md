@@ -280,7 +280,24 @@ $ git log --oneline --decorate --graph
 - 在本地生成 SSH Key，默认一直回车，设置简单参数
 `ssh-keygen -t rsa -C "github注册的邮箱"`
 - 成功的话，会在 `~/` 下生成 `.ssh` 文件夹，打开 `id_rsa.pub`，复制
-- 打开 github，打开
+- 打开 github，打开 **SSH and GPG keys**，然后点击 **New SSH key** ，设置名称，再粘贴复制的 Key
+- 验证是否成功 `ssh -T git@github.com`
+---
+- 设置 username 和 email【因为每次 commit 都会记录它们】
+```bash
+$ git config --global user.name "your name"
+$ git config --global user.email "your_email@youremail.com"
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
