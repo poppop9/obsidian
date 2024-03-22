@@ -303,12 +303,18 @@ $ git config --global user.email "your_email@youremail.com"
 	- `-v` 查看到链接地址
 
 ## 拉取
+>`pull` = `fetch` + `merge`
+>![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403222350736.png)
 
+- `git fetch` 获取远程仓库的最新信息而不直接修改本地的工作文件
+- `git merge` 合并 `fetch` 的最新信息到当前分支
+- `git pull` 获取并合并远程仓库的更改到本地工作目录
 
-- `git fetch` 从远程获取代码库
-- `git pull` 下载远程代码并合并
-
-
+```bash
+git fetch test
+# 将远程仓库的`test`的`master`分支合并到当前所在的分支
+git merge test/master
+```
 
 
 ---
