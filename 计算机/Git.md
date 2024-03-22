@@ -306,7 +306,9 @@ $ git config --global user.email "your_email@youremail.com"
 >`pull` = `fetch` + `merge`
 >![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403222350736.png)
 
-- `git fetch` 获取远程仓库的最新信息而不直接修改本地的工作文件
+- `git fetch 远程仓库名` 获取远程仓库的最新信息而不直接修改本地的工作文件
+	- `git fetch -all` 获取远程仓库的所有分支
+	- `git fetch yuan`
 - `git merge` 合并 `fetch` 的最新信息到当前分支
 - `git pull` 获取并合并远程仓库的更改到本地工作目录
 
@@ -317,11 +319,7 @@ git merge test/master
 ```
 
 ## 删除
-`git remote rm [别名]`
-
-
-
-
+- `git remote rm 本地仓库别名` 删除某个本地仓库
 
 
 
