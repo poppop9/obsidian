@@ -327,7 +327,7 @@ $ git config --global user.email "your_email@youremail.com"
 `git remote add 别名 git@github.com:github的名字/仓库名.git`
 
 ## 推送到远程库
-- `git push 本地仓库别名 本地分支` 进行推送
+- `git push 远程仓库别名 本地分支` 进行推送
 
 ## 查看
 - `git remote` 查看当前配置有哪些远程仓库
@@ -341,7 +341,7 @@ $ git config --global user.email "your_email@youremail.com"
 	- `git fetch -all` 获取远程仓库的所有分支
 	- `git fetch 远程仓库名 分支名` 获取远程仓库的特定分支
 - `git merge` 合并 `fetch` 的最新信息到当前分支
-- `git pull` 获取并合并远程仓库的更改到本地工作目录
+- `git pull 远程仓库名 远程分支名:本地分支名` 获取并合并远程仓库的更改到本地工作目录
 
 ```bash
 git fetch test
@@ -356,8 +356,6 @@ git merge test/master
 
 ## 删除
 - `git remote rm 本地仓库别名` 删除某个本地仓库
-
-
 
 ---
 
