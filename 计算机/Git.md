@@ -372,12 +372,12 @@ $ git remote add test git@github.com:tianqixin/runoob-git-test.git
 $ git push -u test master
 ```
 
-
-
-
-
-
-
+# .gitignore
+>[!hint] 应该被忽略的文件
+>- 系统自动生成的文件
+>- 缓存文件
+>- 中间文件【比如 Java 产生的 `.class` 文件】
+>- 敏感信息文件
 
 
 
