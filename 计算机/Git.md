@@ -300,7 +300,7 @@ $ git log --oneline --decorate --graph
 >![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403221113329.png)
 
 ## 初始化
-- 在本地生成 SSH Key，默认一直回车，设置简单参数
+- 在本地生成 SSH Key，默认一直回车【di】
 `ssh-keygen -t rsa -C "github注册的邮箱"`
 - 成功的话，会在 `~/` 下生成 `.ssh` 文件夹，打开 `id_rsa.pub`，复制
 - 打开 github，打开 **SSH and GPG keys**，然后点击 **New SSH key** ，设置名称，再粘贴复制的 Key
