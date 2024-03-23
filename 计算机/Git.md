@@ -59,7 +59,7 @@ $ git config --global merge.tool vimdiff
 >
 >- `master`：是 master 分支所代表的目录树
 >- `HEAD`：是指向 master 分支的一个"游标"【所以命令中出现 HEAD 的地方可以用 master 来替换】
->- `objects`：是 Git 的对象库，里面包含了创建的各种对象及内容
+>- `objects`：是 Git 的**本地仓库**，里面包含了创建的各种对象及内容
 
 ---
 
