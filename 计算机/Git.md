@@ -8,7 +8,7 @@
 
 >[!hint] 每一个级别的配置都会覆盖上层的相同配置【例如，`.git/config` 里的配置会覆盖 `/etc/gitconfig`】
 
-## 配置命令
+## 配置相关命令
 - **查看配置信息**
 	- 查看所有配置 `$ git config --list`
 	- 查看某个配置 `$ git config user.name`
@@ -19,6 +19,7 @@
 ---
 
 - 配置提交代码时的用户名称和电子邮件地址
+
 `$ git config --global user.name "runoob"`
 `$ git config --global user.email test@runoob.com`
 
@@ -319,9 +320,9 @@ git merge test/master
 ```
 
 >[!hint] `git clone` 与 `git pull`
->这两个命令的结果是一样的，但是所代表的含义不一样：
->- `git clone` 表示从头开始一个项目时，在本地仓库创建一个远程仓库的副本
->- `git pull` 表示在本地仓库已经有副本的情况下，拉取本
+>>这两个命令的结果是一样的，但是所代表的含义不一样：
+>- `git clone` 表示从头开始一个项目时，我们需要初始化仓库，如果不使用在本地仓库创建一个远程仓库的副本
+>- `git pull` 表示在本地仓库已经有副本的情况下，拉取远程仓库中最新更新的一些文件
 
 ## 删除
 - `git remote rm 本地仓库别名` 删除某个本地仓库
