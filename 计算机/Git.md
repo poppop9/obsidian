@@ -145,17 +145,22 @@ $ git blame README
 db9315b0 (runoob    2020-08-25 16:00:23 +0800 2) # 菜鸟教程
 ```
 
----
+### 查看仓库状态
+#### git status
+`git status` 查看仓库当前的状态【文件是否被跟踪，是否未提交】
 
-- 查看仓库状态
-	- `git status` 查看仓库当前的状态【文件是否被跟踪，是否未提交】
-	- `git diff` 比较工作区与暂存区之间的差异内容
-		- `git diff --cached` 比较暂存区与本地仓库之间的差异内容
-		- `git diff HEAD` 比较工作区与本地仓库之间的差异内容
-		- `git diff 版本id HEAD` 比较某个版本与本地仓库的差异
-		- `git diff 版本id1 版本id2` 比较两个版本之间的差异
-
+#### git diff
+- `git diff` 比较工作区与暂存区之间的差异内容
+- `git diff --cached` 比较暂存区与本地仓库之间的差异内容
+- `git diff 版本id1 版本id2` 比较两个版本之间的差异
+- `git diff HEAD` 比较工作区与本地仓库之间的差异内容
+- `git diff 版本id HEAD` 比较某个版本与本地仓库的差异
+- `git diff HEAD~ HEAD` 比较本地仓库和上一个版本之间的差异
+- `git diff HEAD~2 HEAD` 比较本地仓库和上 2 个版本之间的差异
 ---
+- `git diff 文件名` 只会查看这个文件的差异
+---
+- `git diff 分支1 分支2` 比较lai'n
 
 ## 提交与修改
 ### 工作区操作
