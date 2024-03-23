@@ -81,7 +81,7 @@ $ git config --global merge.tool vimdiff
 >`git init` 会在 `.git 目录` 【包含了资源的所有元数据】中初始化一个 <u>Git 仓库</u>【在指定目录下】
 
 - `git init` 在当前目录下创建
-	- `git init 指定目录` 在指定目录下创建
+	- `git init 指定目录` 在当前目录下创建指定目录，并在里面创建仓库
 
 >[!warning]
 >- 在 Linux 系统中，`commit` 的提交说明使用单引号 ' 
@@ -89,8 +89,8 @@ $ git config --global merge.tool vimdiff
 
 ## git clone
 >>在本地仓库上创建一个远程仓库的完整副本
->- `git clone <repo>` 
->- `git clone <repo> 指定目录` 拷贝到指定的目录
+>- `git clone 仓库地址` 
+>- `git clone 仓库地址 指定目录` 拷贝到指定的目录
 
 ```bash
 $ git clone git://github.com/schacon/grit.git
