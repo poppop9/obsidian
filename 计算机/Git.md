@@ -379,9 +379,15 @@ $ git push -u test master
 >- 中间文件【比如 Java 产生的 `.class` 文件】
 >- 敏感信息文件
 
+>[!hint] 如果某个文件在 `.gitignore` 创建之前已经被 `commit` 到了本地仓库了，那 `.gitignore` 就控制不到了
+>解决办法：
+>- 删除本地仓库的文件 `git rm --cached 文件`
+>- 再次提交 `git commit -m "……"`
+
 ```
 // .gitignore 文件
-
+file1.txt
+temp/   // 忽略文件夹
 ```
 
 
