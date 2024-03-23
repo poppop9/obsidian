@@ -58,7 +58,7 @@ $ git config --global merge.tool vimdiff
 >>是工作区中的一个隐藏目录 `.git`
 >
 >- `master`：是 master 分支所代表的目录树
->- `HEAD`：是指向 master 分支的一个"游标"【所以命令中出现 HEAD 的地方可以用 master 来替换】
+>- `HEAD`：是指向 master 分支的一个"游标"，**它指向了分支最新提交的那个结点**
 >- `objects`：是 Git 的**本地仓库**，里面包含了创建的各种对象及内容
 
 ---
@@ -150,7 +150,10 @@ db9315b0 (runoob    2020-08-25 16:00:23 +0800 2) # 菜鸟教程
 - 查看仓库状态
 	- `git status` 查看仓库当前的状态【文件是否被跟踪，是否未提交】
 	- `git diff` 比较工作区与暂存区之间的差异内容
-		- `git di'f'f`
+		- `git diff --cached` 比较暂存区与本地仓库之间的差异内容
+		- `git diff HEAD` 比较工作区与本地仓库之间的差异内容
+		- `git diff 版本id HEAD` 比较某个版本与本地仓库的差异
+		- `git diff 版本id1 版本id2` 比较两个版本之间的差异
 
 ---
 
