@@ -78,12 +78,10 @@ $ git config --global merge.tool vimdiff
 
 # 创建仓库
 ## git init
->`git init` / `git init 指定目录` 会在 `.git 目录` 【包含了资源的所有元数据】中初始化一个 <u>Git 仓库</u>【在指定目录下】
+>`git init` 会在 `.git 目录` 【包含了资源的所有元数据】中初始化一个 <u>Git 仓库</u>【在指定目录下】
 
-如果当前目录下有几个文件想要纳入版本控制，需要先用 git add 命令告诉 Git 开始对这些文件进行跟踪，然后提交：
-`$ git add *.c`
-`$ git add README`
-`$ git commit -m`
+- `git init` 在当前目录下创建
+	- `git init 指定目录` 在指定目录下创建
 
 >[!warning]
 >- 在 Linux 系统中，`commit` 的提交说明使用单引号 ' 
