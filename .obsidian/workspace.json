@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Git.md",
-                "mode": "preview",
+                "file": "考试/云数据中心基础.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Git.md"
+                "file": "考试/云数据中心基础.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Git.md"
+                "file": "考试/云数据中心基础.md"
               }
             }
           },
@@ -208,9 +208,10 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/Git.md",
+    "考试/云数据中心基础.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/Linux.md",
-    "计算机/Git.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
     "计算机/JavaWeb/后端/Maven.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
@@ -235,7 +236,6 @@
     "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
     "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
     "计算机/编程语言/Java/14 类加载器，反射.md",
-    "计算机/编程语言/Java/09 类与对象.md",
     "计算机/四大件/计算机网络",
     "图片库/Pasted Image 20240319202618_931.png",
     "图片库/Pasted Image 20230627101729_054.jpg",
