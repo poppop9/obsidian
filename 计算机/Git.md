@@ -89,7 +89,7 @@ $ git config --global merge.tool vimdiff
 >- Windows 系统，`commit` 的提交说明使用双引号 "
 
 ## git clone
->>从现有 Git 仓库中拷贝项目
+>>在本地仓库上创建一个远程仓库的完整副本
 >- `git clone <repo>` 
 >- `git clone <repo> 指定目录` 拷贝到指定的目录
 
@@ -317,6 +317,11 @@ git fetch test
 # 将远程仓库的`test`的`master`分支合并到当前所在的分支
 git merge test/master
 ```
+
+>[!hint] `git clone` 与 `git pull`
+>这两个命令的结果是一样的，但是所代表的含义不一样：
+>- `git clone` 表示从头开始一个项目时，在本地仓库创建一个远程仓库的副本
+>- `git pull` 表示在本地仓库已经有副本的情况下，拉取本
 
 ## 删除
 - `git remote rm 本地仓库别名` 删除某个本地仓库
