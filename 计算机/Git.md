@@ -385,9 +385,14 @@ $ git push -u test master
 >- 再次提交 `git commit -m "……"`
 
 ```
-// .gitignore 文件
+#.gitignore 文件
 file1.txt
-temp/   // 忽略文件夹
+
+# 只忽略当前目录下的 temp 文件夹
+/temp
+
+# 忽略该目录下的所有 temp 文件夹 
+temp/   
 ```
 
 
