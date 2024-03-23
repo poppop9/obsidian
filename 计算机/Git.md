@@ -379,6 +379,10 @@ $ git push -u test master
 >- 中间文件【比如 Java 产生的 `.class` 文件】
 >- 敏感信息文件
 
+```
+// .gitignore 文件
+
+```
 
 
 # 拉取
