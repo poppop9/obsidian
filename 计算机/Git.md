@@ -151,7 +151,7 @@ db9315b0 (runoob    2020-08-25 16:00:23 +0800 2) # 菜鸟教程
 
 - **未跟踪（Untracked）**：这些是新增的文件或目录，未被 `git add`
 - **已修改（Modified）**：这些是已被 Git 跟踪的文件，但其内容已被修改
-- **已暂存的变更（Staged）**：已通过 `git add` 将修改的文件添加到暂存区的文件
+- **已暂存的变更（Added）**：已通过 `git add` 将修改的文件添加到暂存区的文件
 - **未合并的路径（Unmerged paths）**：这些是在合并分支时产生冲突的文件，需要手动解决冲突后才能完成合并
 - **已删除（Deleted）**：这些是已被删除但尚未提交的文件
 
@@ -403,22 +403,20 @@ temp/
 ```
 
 
-# 拉取
+# idea
+
+### 拉取
 - ![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211339240.png)
 - 拉取别人仓库![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211342220.png)
 - 拉取自己账号里的仓库![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211340541.png)
 - 选择拉取到本地的地址![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211340313.png)
 
-# 提交
+### 提交
 ![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211648397.png)
 
 
 
-
-
-
-
-# 推送
+### 推送
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211649783.png)
 
 
