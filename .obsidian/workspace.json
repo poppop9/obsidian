@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "考试/云数据中心基础.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络/5 接入网, 网络运营商.md"
+                "file": "考试/云数据中心基础.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络/5 接入网, 网络运营商.md"
+                "file": "考试/云数据中心基础.md"
               }
             }
           },
@@ -206,10 +206,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8230ab99a40b226c",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
     "计算机/JavaWeb/后端/Maven.md",
     "考试/云数据中心基础.md",

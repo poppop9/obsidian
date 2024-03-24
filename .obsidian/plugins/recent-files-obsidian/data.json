@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "云数据中心基础",
+      "path": "考试/云数据中心基础.md"
+    },
+    {
       "basename": "5 接入网, 网络运营商",
       "path": "计算机/四大件/计算机网络/5 接入网, 网络运营商.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
-      "basename": "云数据中心基础",
-      "path": "考试/云数据中心基础.md"
     },
     {
       "basename": "Git",
