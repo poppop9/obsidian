@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "计算机/Git.md"
+    },
+    {
+      "basename": "2 CSS中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
+    },
+    {
       "basename": "云数据中心基础",
       "path": "考试/云数据中心基础.md"
     },
@@ -19,14 +27,6 @@
     {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
-      "basename": "Git",
-      "path": "计算机/Git.md"
-    },
-    {
-      "basename": "2 CSS中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "Linux",

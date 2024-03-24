@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
-                "mode": "preview",
+                "file": "计算机/Git.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考试/云数据中心基础.md"
+                "file": "计算机/Git.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "考试/云数据中心基础.md"
+                "file": "计算机/Git.md"
               }
             }
           },
@@ -206,15 +205,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
+    "考试/云数据中心基础.md",
     "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
     "计算机/JavaWeb/后端/Maven.md",
-    "考试/云数据中心基础.md",
     "计算机/Git.md",
-    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/Linux.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
