@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/Maven.md",
+                "file": "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考试/云数据中心基础.md"
+                "file": "计算机/四大件/计算机网络/5 接入网, 网络运营商.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "考试/云数据中心基础.md"
+                "file": "计算机/四大件/计算机网络/5 接入网, 网络运营商.md"
               }
             }
           },
@@ -206,14 +206,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "8230ab99a40b226c",
   "lastOpenFiles": [
-    "计算机/Git.md",
+    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
+    "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
+    "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
+    "计算机/JavaWeb/后端/Maven.md",
     "考试/云数据中心基础.md",
+    "计算机/Git.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/Linux.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
-    "计算机/JavaWeb/后端/Maven.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/如何使用把笔记同步到Github.md",
     "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
@@ -230,11 +233,8 @@
     "计算机/四大件/计算机网络/3 协议栈, 网卡, 网线.md",
     "计算机/四大件/计算机网络/7 Web服务器.md",
     "计算机/四大件/计算机网络/2 Web浏览器.md",
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/四大件/计算机网络/计算机网络 2.md",
     "计算机/四大件/计算机网络/6 防火墙, 缓存服务器.md",
-    "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
-    "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
     "计算机/编程语言/Java/14 类加载器，反射.md",
     "计算机/四大件/计算机网络",
     "图片库/Pasted Image 20240319202618_931.png",
