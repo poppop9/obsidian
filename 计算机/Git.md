@@ -331,6 +331,8 @@ $ git config --global user.email "your_email@youremail.com"
 > 1962883041@qq.com
 > ```
 
+---
+
 - 添加远程仓库，并添加别名【~~远程仓库的地址会存储在 `config文件` 中 ~~】
 `git remote add 别名 git@github.com:github的名字/仓库名.git`
 

@@ -828,7 +828,7 @@ span.cm-header.cm-header-4 {
 	padding-right: 5px;
 }
 
-span.cm-header.cm-header-4:not(span.cm-formatting.cm-formatting-header.cm-formatting-header-4.cm-header.cm-header-4)::before {
+div.HyperMD-header.HyperMD-header-4.cm-line::before {
 	content: '4';
 	font-size: 1.2rem;
 	font-style: italic;
