@@ -366,6 +366,7 @@ git merge test/master
 
 ## 删除
 - `git remote rm 本地仓库别名` 删除某个本地仓库
+- `git push 远程仓库别名 --delete 分支名` 删除远程仓库的某个分支
 
 ---
 
