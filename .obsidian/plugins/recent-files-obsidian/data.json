@@ -5,20 +5,24 @@
       "path": "计算机/编程语言/Java/12 接口，内部类.md"
     },
     {
-      "basename": "10 继承",
-      "path": "计算机/编程语言/Java/10 继承.md"
-    },
-    {
-      "basename": "09 类与对象",
-      "path": "计算机/编程语言/Java/09 类与对象.md"
+      "basename": "16 反射",
+      "path": "计算机/编程语言/Java/16 反射.md"
     },
     {
       "basename": "08 修饰符",
       "path": "计算机/编程语言/Java/08 修饰符.md"
     },
     {
-      "basename": "16 反射",
-      "path": "计算机/编程语言/Java/16 反射.md"
+      "basename": "05 字符串",
+      "path": "计算机/编程语言/Java/05 字符串.md"
+    },
+    {
+      "basename": "10 继承",
+      "path": "计算机/编程语言/Java/10 继承.md"
+    },
+    {
+      "basename": "09 类与对象",
+      "path": "计算机/编程语言/Java/09 类与对象.md"
     },
     {
       "basename": "Java Draw",
@@ -39,10 +43,6 @@
     {
       "basename": "5 接入网, 网络运营商",
       "path": "计算机/四大件/计算机网络/5 接入网, 网络运营商.md"
-    },
-    {
-      "basename": "05 字符串",
-      "path": "计算机/编程语言/Java/05 字符串.md"
     },
     {
       "basename": "06 集合",
