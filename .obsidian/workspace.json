@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/12 接口，内部类.md"
+                "file": "计算机/编程语言/Java/08 修饰符.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/12 接口，内部类.md"
+                "file": "计算机/编程语言/Java/08 修饰符.md"
               }
             }
           },
@@ -206,10 +205,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
-    "计算机/编程语言/Java/16 反射.md",
     "计算机/编程语言/Java/12 接口，内部类.md",
+    "计算机/编程语言/Java/16 反射.md",
     "计算机/编程语言/Java/08 修饰符.md",
     "计算机/编程语言/Java/05 字符串.md",
     "计算机/编程语言/Java/10 继承.md",
