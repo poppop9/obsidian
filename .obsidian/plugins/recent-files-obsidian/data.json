@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux",
+      "path": "计算机/Linux.md"
+    },
+    {
       "basename": "Git",
       "path": "计算机/Git.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "16 反射",
       "path": "计算机/编程语言/Java/16 反射.md"
-    },
-    {
-      "basename": "Linux",
-      "path": "计算机/Linux.md"
     },
     {
       "basename": "08 修饰符",

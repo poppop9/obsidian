@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Git.md"
+                "file": "计算机/Linux.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Git.md"
+                "file": "计算机/Linux.md"
               }
             }
           },
@@ -206,8 +205,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "5150fbe90374fca6",
   "lastOpenFiles": [
+    "计算机/Git.md",
     "计算机/编程语言/Java/12 接口，内部类.md",
     "计算机/编程语言/Java/16 反射.md",
     "计算机/Linux.md",
@@ -225,7 +225,6 @@
     "计算机/编程语言/Java/05 常用 API.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",
     "计算机/编程语言/Java/04 Java的基础语法2.md",
-    "计算机/Git.md",
     "计算机/编程语言/Java/11 泛型.md",
     "考试/云数据中心基础.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",

@@ -335,7 +335,7 @@ $ git config --global user.email "your_email@youremail.com"
 `git remote add 别名 git@github.com:github的名字/仓库名.git`
 
 ## 推送到远程库
-- `git push 远程仓库别名 本地分支` 进行推送
+- `git push 远程仓库别名 本地分支名:远程分支名` 进行推送
 
 ## 查看
 - `git remote` 查看当前配置有哪些远程仓库
