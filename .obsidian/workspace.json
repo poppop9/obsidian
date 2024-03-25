@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/12 接口，内部类.md",
-                "mode": "source",
+                "file": "计算机/Git.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux.md"
+                "file": "计算机/Git.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux.md"
+                "file": "计算机/Git.md"
               }
             }
           },
@@ -205,11 +206,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "5150fbe90374fca6",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/编程语言/Java/08 修饰符.md",
     "计算机/编程语言/Java/12 接口，内部类.md",
     "计算机/编程语言/Java/16 反射.md",
+    "计算机/Linux.md",
+    "计算机/编程语言/Java/08 修饰符.md",
     "计算机/编程语言/Java/05 字符串.md",
     "计算机/编程语言/Java/10 继承.md",
     "计算机/编程语言/Java/09 类与对象.md",
@@ -230,7 +232,6 @@
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
     "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
     "计算机/JavaWeb/后端/Maven.md",
-    "计算机/Linux.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
     "临时笔记/如何使用把笔记同步到Github.md",
     "计算机/JavaWeb/后端/DDD 架构",

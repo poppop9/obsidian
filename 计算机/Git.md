@@ -310,7 +310,7 @@ $ git log --oneline --decorate --graph
 ## 初始化
 - 在本地生成 SSH Key `ssh-keygen -t rsa -C "github注册的邮箱"`
 	- 第一次：默认一直回车
-	- 后续
+	- 第二次及以上……
 		- 指定新的 SSH 文件名
 		- 
 - 成功的话，会在 `~/` 下生成 `.ssh` 文件夹，打开 `id_rsa.pub`，复制

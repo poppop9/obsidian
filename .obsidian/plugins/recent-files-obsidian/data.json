@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Linux",
-      "path": "计算机/Linux.md"
-    },
-    {
-      "basename": "08 修饰符",
-      "path": "计算机/编程语言/Java/08 修饰符.md"
+      "basename": "Git",
+      "path": "计算机/Git.md"
     },
     {
       "basename": "12 接口，内部类",
@@ -15,6 +11,14 @@
     {
       "basename": "16 反射",
       "path": "计算机/编程语言/Java/16 反射.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "计算机/Linux.md"
+    },
+    {
+      "basename": "08 修饰符",
+      "path": "计算机/编程语言/Java/08 修饰符.md"
     },
     {
       "basename": "05 字符串",
@@ -67,10 +71,6 @@
     {
       "basename": "04 Java的基础语法2",
       "path": "计算机/编程语言/Java/04 Java的基础语法2.md"
-    },
-    {
-      "basename": "Git",
-      "path": "计算机/Git.md"
     },
     {
       "basename": "11 泛型",
