@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Java Draw",
+      "path": "Excalidraw/计算机/编程语言/Java Draw.md"
+    },
+    {
       "basename": "16 反射",
       "path": "计算机/编程语言/Java/16 反射.md"
+    },
+    {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
+      "basename": "JavaWeb Draw",
+      "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
       "basename": "13 Java 8 新特性",
@@ -89,20 +101,12 @@
       "path": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md"
     },
     {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
       "basename": "如何使用把笔记同步到Github",
       "path": "临时笔记/如何使用把笔记同步到Github.md"
     },
     {
       "basename": "1 基础概念",
       "path": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
     },
     {
       "basename": "1 基础概念知识",
@@ -171,10 +175,6 @@
     {
       "basename": "职业",
       "path": "考试/职业.md"
-    },
-    {
-      "basename": "Java Draw",
-      "path": "Excalidraw/计算机/编程语言/Java Draw.md"
     },
     {
       "basename": "1 HTML 初级",
