@@ -365,7 +365,7 @@ git merge test/master
 >- `git pull` 表示在已经初始化好了本地仓库之后，拉取远程仓库中最新更新的一些文件【如果没有进行初始化，是 `git pull` 不了的 】
 
 ## 删除
-- `git remote rm 本地仓库别名` 删除某个本地仓库
+- `git remote rm 本地仓库别名` 删除本地仓库中指定的远程仓库别名
 - `git push 远程仓库别名 --delete 分支名` 删除远程仓库的某个分支
 
 ---
