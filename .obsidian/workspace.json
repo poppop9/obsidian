@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Git.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f850c7dde8ea107f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机/Linux/1 权限，基础操作.md",
+                "file": "临时笔记/MarkDown语法.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -52,7 +39,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/计算机/Drawing 2024-03-26 14.13.05.excalidraw.md"
+                "file": "Excalidraw/计算机/Linux Draw.md"
               }
             }
           },
@@ -80,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -173,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/计算机/Drawing 2024-03-26 14.13.05.excalidraw.md"
+                "file": "计算机/Linux/2 Vim.md"
               }
             }
           },
@@ -183,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/计算机/Drawing 2024-03-26 14.13.05.excalidraw.md"
+                "file": "计算机/Linux/2 Vim.md"
               }
             }
           },
@@ -215,13 +202,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "69ff4a06b87c0434",
+  "active": "8230ab99a40b226c",
   "lastOpenFiles": [
+    "临时笔记/MarkDown语法.md",
     "计算机/Linux/2 Vim.md",
-    "Excalidraw/计算机/Drawing 2024-03-26 14.13.05.excalidraw.md",
+    "计算机/Git.md",
+    "Excalidraw/计算机/Linux Draw.md",
     "计算机/Linux/1 权限，基础操作.md",
     "计算机/编程语言/Java/16 反射.md",
-    "计算机/Git.md",
     "计算机/Linux/Vim.md",
     "计算机/Linux.md",
     "计算机/Linux/新建文本文档.txt",
@@ -245,7 +233,6 @@
     "计算机/编程语言/Java/04 Java的基础语法2.md",
     "计算机/编程语言/Java/11 泛型.md",
     "考试/云数据中心基础.md",
-    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/新建文件夹",
     "计算机/四大件/计算机网络",
