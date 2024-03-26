@@ -5,6 +5,10 @@
       "path": "计算机/Linux/2 Vim.md"
     },
     {
+      "basename": "1 权限，基础操作",
+      "path": "计算机/Linux/1 权限，基础操作.md"
+    },
+    {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Linux Draw",
       "path": "Excalidraw/计算机/Linux Draw.md"
-    },
-    {
-      "basename": "1 权限，基础操作",
-      "path": "计算机/Linux/1 权限，基础操作.md"
     },
     {
       "basename": "16 反射",
