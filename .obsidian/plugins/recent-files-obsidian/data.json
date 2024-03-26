@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Linux",
-      "path": "计算机/Linux.md"
+      "basename": "1 Linux",
+      "path": "计算机/Linux/1 Linux.md"
+    },
+    {
+      "basename": "2 Vim",
+      "path": "计算机/Linux/2 Vim.md"
+    },
+    {
+      "basename": "16 反射",
+      "path": "计算机/编程语言/Java/16 反射.md"
     },
     {
       "basename": "Git",
@@ -11,10 +19,6 @@
     {
       "basename": "12 接口，内部类",
       "path": "计算机/编程语言/Java/12 接口，内部类.md"
-    },
-    {
-      "basename": "16 反射",
-      "path": "计算机/编程语言/Java/16 反射.md"
     },
     {
       "basename": "08 修饰符",
@@ -195,10 +199,6 @@
     {
       "basename": "1 CSS初级",
       "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
-    },
-    {
-      "basename": "Excalidraw",
-      "path": "Excalidraw/Excalidraw.md"
     }
   ],
   "omittedPaths": [],
