@@ -186,7 +186,29 @@ Using swap file ".1.txt.swp" Original file "~/test/1.txt" Recovery completed. Yo
 或者输入 `vim -r` 后直接选择用于恢复的文档的交换文件即可：
 `vim -r 1.txt`
 
+## 多视窗操作
+>多视窗就是 vim 在一个界面里打开多个窗口进行编辑
 
+- **命令行模式**
+	- `:new` 打开一个新的 vim 视窗
+	- `:sp 1.txt` 打开新的水平分屏视窗来编辑 1.txt
+	- `:vsp 2.txt` 打开新的垂直分屏视窗来编辑 2.txt
+- **普通模式**
+	- `ctrl+w`
+	- `Ctrl+w s` 将当前窗口分割成两个水平的窗口
+	- `Ctrl+w v` 将当前窗口分割成两个垂直的窗口
+	- `Ctrl+w o` 打开一个视窗并且隐藏之前的所有视窗
+	- `Ctrl+w q` 即 :q 结束分割出来的视窗。如果在新视窗中有输入需要使用强制符！即:q!
+	- `Ctrl+w j` 移至下面视窗
+	- `Ctrl+w k` 移至上面视窗
+	- `Ctrl+w h` 移至左边视窗
+	- `Ctrl+w l` 移至右边视窗
+	- `Ctrl+w J` 将当前视窗移至下面
+	- `Ctrl+w K` 将当前视窗移至上面
+	- `Ctrl+w H` 将当前视窗移至左边
+	- `Ctrl+w L` 将当前视窗移至右边
+	- `Ctrl+w -` 减小视窗的高度
+	- `Ctrl+w +` 增加视窗的高度
 
 
 
