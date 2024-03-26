@@ -134,8 +134,27 @@ x
 - `:le` 让该行文本在该行居左
 - `:ri` 让该行文本在该行居右
 
+### 功能设定
+- vim 的功能设定
 
+可以在编辑文件的时候进行功能设定，如命令行模式下输入 `:set nu`（显示行数），设定值退出 vim 后不会保存。要永久保存配置需要修改 vim 配置文件。
 
+vim 的配置文件 `~/.vimrc`（实验楼环境中配置文件在 `/etc/vim/vimrc`），可以打开文件进行修改，不过务必小心不要影响 vim 正常使用。
+
+- 获取目前的设定
+
+	- 命令行模式下输入 `:set` 或者 `:se` 显示所有修改过的配置
+	- 命令行模式下输入 `:set all` 显示所有的设定值
+	- 命令行模式下输入 `:set <option>?` 显示 option 的设定值
+	- 命令行模式下输入 `:set nooption` 取消当前设定值
+
+- set 功能的说明
+
+	- 命令行模式下输入 `:set autoindent(ai)` 设置自动缩进
+	- 命令行模式下输入 `:set autowrite(aw)` 设置自动存档，默认未打开
+	- 命令行模式下输入 `:set background=dark` 或 `light`，设置背景风格
+	- 命令行模式下输入 `:set backup(bk)` 设置自动备份，默认未打开
+	- 命令行模式下输入 `: set cindent(cin)` 设置 C 语言风格缩进
 
 ## Ex 模式
 和命令行模式比较相似，在使用 `:visual` 命令离开 Ex 模式前，可以一次执行多条命令。
@@ -209,6 +228,15 @@ Using swap file ".1.txt.swp" Original file "~/test/1.txt" Recovery completed. Yo
 	- `Ctrl+w L` 将当前视窗移至右边
 	- `Ctrl+w -` 减小视窗的高度
 	- `Ctrl+w +` 增加视窗的高度
+
+## 加密文档
+使用 `vim -x file1` 创建文件，之后输入密码，这样在下一次打开时，vim 就会要求你输入密码
+
+## 执行外部命令
+>在命令行模式中输入 `!` 可以执行外部的 `shell 命令`
+
+- `:!ls` 用于显示当前目录的内容
+- `:!rm FILENAME` 用于删除名为 FILENAME 的文件
 
 
 
