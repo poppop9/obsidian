@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/3 杂.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -66,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/1 权限，基础操作.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md"
               }
             }
           },
@@ -171,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/1 权限，基础操作.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md"
               }
             }
           },
@@ -203,11 +202,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "8230ab99a40b226c",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/Linux/2 Vim.md",
     "计算机/Linux/3 杂.md",
     "计算机/Linux/1 权限，基础操作.md",
+    "计算机/Linux/2 Vim.md",
     "临时笔记/MarkDown语法.md",
     "计算机/Git.md",
     "Excalidraw/计算机/Linux Draw.md",
