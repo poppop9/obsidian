@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2 Vim",
-      "path": "计算机/Linux/2 Vim.md"
+      "basename": "3 杂",
+      "path": "计算机/Linux/3 杂.md"
     },
     {
       "basename": "1 权限，基础操作",
       "path": "计算机/Linux/1 权限，基础操作.md"
+    },
+    {
+      "basename": "2 Vim",
+      "path": "计算机/Linux/2 Vim.md"
     },
     {
       "basename": "MarkDown语法",
@@ -195,10 +199,6 @@
     {
       "basename": "摄影",
       "path": "临时笔记/摄影.md"
-    },
-    {
-      "basename": "3 BootStrap 高级",
-      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
     }
   ],
   "omittedPaths": [],
