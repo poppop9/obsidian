@@ -138,28 +138,53 @@ public void run() throws Exception {
 }
 ```
 
-## 发布文件
+## Post 发布文件
 ```java
-public static final MediaType MEDIA_TYPE_MARKDOWN
-    = MediaType.parse("text/x-markdown; charset=utf-8");
+public static final MediaType MEDIA_TYPE_MARKDOWN = MediaType.parse("text/x-markdown; charset=utf-8");
+
 private final OkHttpClient client = new OkHttpClient();
+
 public void run() throws Exception {
     File file = new File("README.md");
+    
     Request request = new Request.Builder()
         .url("https://api.github.com/markdown/raw")
         .post(RequestBody.create(MEDIA_TYPE_MARKDOWN, file))
         .build();
-    try (Response response = client.newCall(request)
-        .execute()) {
+        
+    try (Response response = client.newCall(request).execute()) {
         if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
-        System.out.println(response.body()
-            .string());
+        System.out.println(response.body().string());
     }
 }
 
 ```
 
+## Post 表单参数
+使用 `FormBody.Builder()` 生成请求体
 
+```java
+private final OkHttpClient client = new OkHttpClient();
+
+public void run() throws Exception {
+	// search 参数，Jurassic Park 值
+    RequestBody formBody = new FormBody.Builder()
+        .add("search", "Jurassic Park")
+        .build();
+        
+    Request request = new Request.Builder()
+        .url("https://en.wikipedia.org/w/index.php")
+        .post(formBody)
+        .build();
+        
+    try (Response response = client.newCall(request).execute()) {
+        if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
+        System.out.println(response.body().string());
+    }
+}
+```
+
+MultipartBody.Builder 可以创建与 HTML 文件上传表单兼容的复杂请求体。多部分请求正文的每个部分本身就是一个请求正文，并可定义自己的标头。如果存在，这些标头应描述该部分正文，如其 Content-Disposition。如果有 Content-Length 和 Content-Type 标头，则会自动添加。
 
 
 
