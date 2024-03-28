@@ -3,7 +3,7 @@ OkHttp 是一个高效的 HTTP 客户端，支持同步阻塞，异步回调
 $$
 
 # 同步
-## get，获取响应
+## Get，获取响应
 - 创建 OKHttp 实例，用于发送请求 `OkHttpClient client = new OkHttpClient(); `
 - 构建 **Request 对象** `Request request = new Request.Builder() `
 	- `url()` 访问的 url
@@ -19,10 +19,6 @@ $$
 		- `name(索引)` 头部信息的名称
 		- `value(索引)` 头部信息的值
 	- `body()` 响应体
-
->[!hint]
-> - 当响应体的正文 < 1MB，使用 `string()`
-> - 当响应体的正文 > 1MB，使用 `stream`
 
 ```java
 // 创建 OkHttpClient 实例
@@ -53,10 +49,14 @@ public void QueryUnanswered() throws IOException {
 }
 ```
 
-## post
+>[!hint]
+> - 当响应体的内容 < 1MB，使用 `string()`
+> - 当响应体的内容 > 1MB，使用 `stream`
+
+## Post 小内容
 - ……
 - `Request`
-	- `post()` 
+	- `post(请求的媒体类型, 内容)` 
 
 ```java
 // 表示请求的媒体类型为 Markdown 格式
@@ -85,6 +85,50 @@ public void run() throws Exception {
     }
 }
 ```
+
+## Post 大内容
+```java
+public static final MediaType MEDIA_TYPE_MARKDOWN = MediaType.parse("text/x-markdown; charset=utf-8");
+
+private final OkHttpClient client = new OkHttpClient();
+
+public void run() throws Exception {
+    RequestBody requestBody = new RequestBody() {
+        @Override public MediaType contentType() {
+            return MEDIA_TYPE_MARKDOWN;
+        }
+        
+        @Override public void writeTo(BufferedSink sink) throws IOException {
+            sink.writeUtf8("Numbers\n");
+            sink.writeUtf8("-------\n");
+            for (int i = 2; i <= 997; i++) {
+                sink.writeUtf8(String.format(" * %s = %s\n", i, factor(i)));
+            }
+        }
+        
+        private String factor(int n) {
+            for (int i = 2; i < n; i++) {
+                int x = n / i;
+                if (x * i == n) return factor(x) + " × " + i;
+            }
+            return Integer.toString(n);
+        }
+    };
+    
+    Request request = new Request.Builder()
+        .url("https://api.github.com/markdown/raw")
+        .post(requestBody)
+        .build();
+        
+    try (Response response = client.newCall(request).execute()) {
+        if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
+        System.out.println(response.body().string());
+    }
+}
+```
+
+
+
 
 
 
