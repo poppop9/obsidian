@@ -115,7 +115,8 @@ public void run() throws Exception {
                 sink.writeUtf8(String.format(" * %s = %s\n", i, factor(i)));
             }
         }
-        
+
+		// 创建 factor() 函数，用于上面内容写入
         private String factor(int n) {
             for (int i = 2; i < n; i++) {
                 int x = n / i;
@@ -137,6 +138,26 @@ public void run() throws Exception {
 }
 ```
 
+## 发布文件
+```java
+public static final MediaType MEDIA_TYPE_MARKDOWN
+    = MediaType.parse("text/x-markdown; charset=utf-8");
+private final OkHttpClient client = new OkHttpClient();
+public void run() throws Exception {
+    File file = new File("README.md");
+    Request request = new Request.Builder()
+        .url("https://api.github.com/markdown/raw")
+        .post(RequestBody.create(MEDIA_TYPE_MARKDOWN, file))
+        .build();
+    try (Response response = client.newCall(request)
+        .execute()) {
+        if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
+        System.out.println(response.body()
+            .string());
+    }
+}
+
+```
 
 
 
