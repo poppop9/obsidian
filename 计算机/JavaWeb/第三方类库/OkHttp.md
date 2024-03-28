@@ -214,8 +214,6 @@ public void run() throws Exception {
 }
 ```
 
-
-
 # 异步
 ## 概述
 - 发起异步请求 `client.newCall(request).enqueue(new Callback() {……});`
@@ -254,3 +252,58 @@ public void run() throws Exception {
         });
 }
 ```
+
+# 杂
+## 使用 moshi 解析 JSON 响应
+```java
+private final OkHttpClient client = new OkHttpClient();
+private final Moshi moshi = new Moshi.Builder().build();
+private final JsonAdapter < Gist > gistJsonAdapter = moshi.adapter(Gist.class);
+
+public void run() throws Exception {
+    Request request = new Request.Builder()
+        .url("https://api.github.com/gists/c2a7c39532239ff261be")
+        .build();
+        
+    try (Response response = client.newCall(request).execute()) {
+        if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
+        
+        Gist gist = gistJsonAdapter.fromJson(response.body()
+            .source());
+        for (Map.Entry < String, GistFile > entry: gist.files.entrySet()) {
+            System.out.println(entry.getKey());
+            System.out.println(entry.getValue()
+                .content);
+        }
+    }
+}
+static class Gist {
+    Map < String, GistFile > files;
+}
+static class GistFile {
+    String content;
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
