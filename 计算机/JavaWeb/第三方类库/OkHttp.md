@@ -20,9 +20,7 @@ $$
 		- `value(索引)` 头部信息的值
 	- `body()` 响应体
 
-
-
-## 获取
+## get，获取响应
 >下载文件，打印文件头，以字符串形式打印响应正文
 
 >[!hint]
@@ -58,6 +56,33 @@ public void QueryUnanswered() throws IOException {
 }
 ```
 
+## post
+```java
+public static final MediaType MEDIA_TYPE_MARKDOWN = MediaType.parse("text/x-markdown; charset=utf-8");
+    
+private final OkHttpClient client = new OkHttpClient();
+
+public void run() throws Exception {
+    String postBody = "" +
+        "Releases\n" +
+        "--------\n" +
+        "\n" +
+        " * _1.0_ May 6, 2013\n" +
+        " * _1.1_ June 15, 2013\n" +
+        " * _1.2_ August 11, 2013\n";
+        
+    Request request = new Request.Builder()
+        .url("https://api.github.com/markdown/raw")
+        .post(RequestBody.create(MEDIA_TYPE_MARKDOWN, postBody))
+        .build();
+        
+    try (Response response = client.newCall(request).execute()) {
+        if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
+        System.out.println(response.body()
+            .string());
+    }
+}
+```
 
 
 
@@ -68,7 +93,7 @@ public void QueryUnanswered() throws IOException {
 	- 失败时被调用 `onFailure(Call, IOException) {……}`
 	- 接收到响应时被调用 `onResponse(Call, Response) {……}`
 
-## 获取
+## get，获取响应
 ```java
 private final OkHttpClient client = new OkHttpClient();
 
