@@ -2,6 +2,17 @@ $$
 OkHttp 是一个高效的 HTTP 客户端，支持同步阻塞，异步回调
 $$
 
+# 概述
+## 请求步骤
+- 创建 OKHttp 实例，用于发送请求 `OkHttpClient client = new OkHttpClient(); `
+- 构建 Request 对象 `Request request = new Request.Builder() `
+	- `.url` 访问的 url
+	- `.addHeader` 添加请求头
+	- `.build` 完成构建
+- 发起请求
+
+
+
 # 同步
 ## 获取
 >下载文件，打印文件头，以字符串形式打印响应正文
