@@ -5,12 +5,17 @@ $$
 # 概述
 ## 请求步骤
 - 创建 OKHttp 实例，用于发送请求 `OkHttpClient client = new OkHttpClient(); `
-- 构建 Request 对象 `Request request = new Request.Builder() `
+- 构建 **Request 对象** `Request request = new Request.Builder() `
 	- `url()` 访问的 url
 	- `addHeader()` 添加请求头
 	- `build()` 完成构建
-- 发起请求，并获取到 Response 结果 `Response response = client.newCall(request).execute()`
-	- `isSuccessful()` 判断
+- 发起请求，并获取到 **Response 结果** `Response response = client.newCall(request).execute()`
+	- `isSuccessful()` 判断请求是否成功【200 - 299】
+	- `headers()` 获取 Response 对象的头部信息
+		- `size()` 头部信息的个数
+		- `name(索引)` 头部信息的名称
+		- `value(索引)` 头部信息的值
+	- `body()` 响应体
 
 
 # 同步
