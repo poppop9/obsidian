@@ -49,8 +49,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/OkHttp.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/第三方类库/OKHttp.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/OkHttp.md"
+                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/OkHttp.md"
+                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
               }
             }
           },
@@ -205,7 +205,7 @@
   },
   "active": "d9f37405f40d6c99",
   "lastOpenFiles": [
-    "计算机/JavaWeb/第三方类库/OkHttp.md",
+    "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/第三方类库/第三方类库.md",
     "科技美学/软件.md",
     "计算机/JavaWeb/第三方类库",
