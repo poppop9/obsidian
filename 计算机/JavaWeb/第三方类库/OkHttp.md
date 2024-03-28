@@ -3,7 +3,7 @@ OkHttp 是一个高效的 HTTP 客户端，支持同步阻塞，异步回调
 $$
 
 # 同步
-## 概述
+## get，获取响应
 - 创建 OKHttp 实例，用于发送请求 `OkHttpClient client = new OkHttpClient(); `
 - 构建 **Request 对象** `Request request = new Request.Builder() `
 	- `url()` 访问的 url
@@ -19,9 +19,6 @@ $$
 		- `name(索引)` 头部信息的名称
 		- `value(索引)` 头部信息的值
 	- `body()` 响应体
-
-## get，获取响应
->下载文件，打印文件头，以字符串形式打印响应正文
 
 >[!hint]
 > - 当响应体的正文 < 1MB，使用 `string()`
@@ -57,7 +54,12 @@ public void QueryUnanswered() throws IOException {
 ```
 
 ## post
+- ……
+- `Request`
+	- `post()` 
+
 ```java
+// 表示请求的媒体类型为 Markdown 格式
 public static final MediaType MEDIA_TYPE_MARKDOWN = MediaType.parse("text/x-markdown; charset=utf-8");
     
 private final OkHttpClient client = new OkHttpClient();
@@ -70,7 +72,8 @@ public void run() throws Exception {
         " * _1.0_ May 6, 2013\n" +
         " * _1.1_ June 15, 2013\n" +
         " * _1.2_ August 11, 2013\n";
-        
+
+	// 使用 RequestBody.create 方法创建请求体，指定了请求的媒体类型和内容
     Request request = new Request.Builder()
         .url("https://api.github.com/markdown/raw")
         .post(RequestBody.create(MEDIA_TYPE_MARKDOWN, postBody))
@@ -78,8 +81,7 @@ public void run() throws Exception {
         
     try (Response response = client.newCall(request).execute()) {
         if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
-        System.out.println(response.body()
-            .string());
+        System.out.println(response.body().string());
     }
 }
 ```
