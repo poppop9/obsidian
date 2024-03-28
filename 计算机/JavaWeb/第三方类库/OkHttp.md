@@ -58,11 +58,10 @@ public void QueryUnanswered() throws IOException {
 
 # 异步
 ## 概述
-
-
-
-
-
+- 发起异步请求 `client.newCall(request).enqueue(new Callback() {……});`
+- 在 `{……}` 中添加回调函数
+	- 失败时被调用 `onFailure(Call, IOException) {……}`
+	- 接收到响应时被调用 `onResponse(Call, Response) {……}`
 
 ## 获取
 ```java
