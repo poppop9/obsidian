@@ -255,9 +255,13 @@ public void run() throws Exception {
 
 # 杂
 ## 使用 moshi 解析 JSON 响应
+使用 OkHttp 和 Moshi 库，将 JSON 响应反序列化为 Java 对象
+
 ```java
 private final OkHttpClient client = new OkHttpClient();
+// 创建了一个 Moshi 实例来处理 JSON序列化 和 反序列化
 private final Moshi moshi = new Moshi.Builder().build();
+// 从`Moshi`实例中获取了一个`Gist`类的`JsonAdapter`。这个适配器将用于将JSON转换成`Gist`对象
 private final JsonAdapter < Gist > gistJsonAdapter = moshi.adapter(Gist.class);
 
 public void run() throws Exception {
@@ -277,10 +281,12 @@ public void run() throws Exception {
     }
 }
 
+// 包含了文件名到`GistFile`实例的映射
 static class Gist {
     Map < String, GistFile > files;
 }
 
+// 代表Gist中的一个文件，里面有文件内容
 static class GistFile {
     String content;
 }
