@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/07 异常.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -66,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
+                "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
               }
             }
           },
@@ -171,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
+                "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
               }
             }
           },
@@ -203,13 +202,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d9f37405f40d6c99",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/编程语言/Java/07 异常.md",
     "计算机/编程语言/Java/06 集合.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/Linux/1 权限，基础操作.md",
     "Excalidraw/计算机/Linux Draw.md",
-    "计算机/编程语言/Java/07 异常.md",
     "Excalidraw/计算机/编程语言/Java Draw.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
     "计算机/JavaWeb/第三方类库/第三方类库.md",
