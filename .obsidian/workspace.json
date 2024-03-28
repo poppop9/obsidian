@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/编程语言/Java/07 异常.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -66,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/07 异常.md"
+                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
               }
             }
           },
@@ -170,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/07 异常.md"
+                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
               }
             }
           },
@@ -202,13 +203,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "d9f37405f40d6c99",
   "lastOpenFiles": [
+    "计算机/Linux/1 权限，基础操作.md",
+    "Excalidraw/计算机/Linux Draw.md",
+    "计算机/编程语言/Java/07 异常.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "Excalidraw/计算机/编程语言/Java Draw.md",
-    "Excalidraw/计算机/Linux Draw.md",
-    "计算机/Linux/1 权限，基础操作.md",
-    "计算机/编程语言/Java/07 异常.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
     "计算机/JavaWeb/第三方类库/第三方类库.md",
     "科技美学/软件.md",

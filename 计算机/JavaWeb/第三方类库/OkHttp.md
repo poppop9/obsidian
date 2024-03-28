@@ -65,32 +65,32 @@ public void QueryUnanswered() throws IOException {
 
 ## 获取
 ```java
-  private final OkHttpClient client = new OkHttpClient();
-  
-  public void run() throws Exception {
-      Request request = new Request.Builder()
-          .url("http://publicobject.com/helloworld.txt")
-          .build();
+private final OkHttpClient client = new OkHttpClient();
 
-	  // 将请求放入队列中，并设置一个回调函数来处理响应结果
-      client.newCall(request)
-          .enqueue(new Callback() {
-              // 定义了回调函数中的 onFailure 方法，请求失败时被调用，Call 对象表示当前请求
-              @Override public void onFailure(Call call, IOException e) {
-                  e.printStackTrace();
-              }
+public void run() throws Exception {
+    Request request = new Request.Builder()
+        .url("http://publicobject.com/helloworld.txt")
+        .build();
 
-		      // 定义了回调函数中的 onResponse 方法，在接收到响应时被调用
-              @Override public void onResponse(Call call, Response response) throws IOException {
-                  try (ResponseBody responseBody = response.body()) {
-                      if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
-                      Headers responseHeaders = response.headers();
-                      for (int i = 0, size = responseHeaders.size(); i < size; i++) {
-                          System.out.println(responseHeaders.name(i) + ": " + responseHeaders.value(i));
-                      }
-                      System.out.println(responseBody.string());
-                  }
-              }
-          });
-  }
+    // 将请求放入队列中，并设置一个回调函数来处理响应结果
+    client.newCall(request)
+        .enqueue(new Callback() {
+            // 定义了回调函数中的 onFailure 方法，请求失败时被调用，Call 对象表示当前请求
+            @Override public void onFailure(Call call, IOException e) {
+                e.printStackTrace();
+            }
+
+            // 定义了回调函数中的 onResponse 方法，在接收到响应时被调用
+            @Override public void onResponse(Call call, Response response) throws IOException {
+                try (ResponseBody responseBody = response.body()) {
+                    if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
+                    Headers responseHeaders = response.headers();
+                    for (int i = 0, size = responseHeaders.size(); i < size; i++) {
+                        System.out.println(responseHeaders.name(i) + ": " + responseHeaders.value(i));
+                    }
+                    System.out.println(responseBody.string());
+                }
+            }
+        });
+}
 ```
