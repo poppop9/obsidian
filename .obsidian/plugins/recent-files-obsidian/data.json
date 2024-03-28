@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "OkHttp",
+      "path": "计算机/JavaWeb/第三方类库/OkHttp.md"
+    },
+    {
+      "basename": "第三方类库",
+      "path": "计算机/JavaWeb/第三方类库/第三方类库.md"
+    },
+    {
       "basename": "软件",
       "path": "科技美学/软件.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "职业",
       "path": "考试/职业.md"
-    },
-    {
-      "basename": "1 HTML 初级",
-      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
-    },
-    {
-      "basename": "摄影",
-      "path": "临时笔记/摄影.md"
     }
   ],
   "omittedPaths": [],

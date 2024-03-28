@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "科技美学/软件.md",
+                "file": "计算机/JavaWeb/第三方类库/OkHttp.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "科技美学/软件.md"
+                "file": "计算机/JavaWeb/第三方类库/OkHttp.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "科技美学/软件.md"
+                "file": "计算机/JavaWeb/第三方类库/OkHttp.md"
               }
             }
           },
@@ -205,6 +205,11 @@
   },
   "active": "d9f37405f40d6c99",
   "lastOpenFiles": [
+    "计算机/JavaWeb/第三方类库/OkHttp.md",
+    "计算机/JavaWeb/第三方类库/第三方类库.md",
+    "科技美学/软件.md",
+    "计算机/JavaWeb/第三方类库",
+    "计算机/JavaWeb/Untitled.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
     "计算机/Linux/3 杂.md",
@@ -230,10 +235,6 @@
     "计算机/编程语言/Java/13 Java 8 新特性.md",
     "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
     "计算机/编程语言/Java/06 集合.md",
-    "计算机/编程语言/Java/07 异常.md",
-    "计算机/编程语言/Java/05 常用 API.md",
-    "计算机/编程语言/Java/03 Java的基础语法1.md",
-    "计算机/编程语言/Java/04 Java的基础语法2.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/新建文件夹",
     "计算机/四大件/计算机网络",
@@ -247,7 +248,6 @@
     "计算机/JavaWeb/前端/Vue",
     "计算机/JavaWeb/前端/HTML",
     "图片库/Pasted Image 20240121113940_598.png",
-    "计算机/JavaWeb/前端/CSS",
     "图片库/Pasted Image 20231211013829_043.png",
     "图片库/Pasted Image 20231210205540_044.png",
     "图片库/Pasted Image 20231210135616_048.png",
