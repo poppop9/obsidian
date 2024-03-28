@@ -6,11 +6,11 @@ $$
 ## 请求步骤
 - 创建 OKHttp 实例，用于发送请求 `OkHttpClient client = new OkHttpClient(); `
 - 构建 Request 对象 `Request request = new Request.Builder() `
-	- `.url` 访问的 url
-	- `.addHeader` 添加请求头
-	- `.build` 完成构建
-- 发起请求
-
+	- `url()` 访问的 url
+	- `addHeader()` 添加请求头
+	- `build()` 完成构建
+- 发起请求，并获取到 Response 结果 `Response response = client.newCall(request).execute()`
+	- `isSuccessful()` 判断
 
 
 # 同步
@@ -36,6 +36,7 @@ public void QueryUnanswered() throws IOException {
 
 	// 发起请求并处理响应
     try (Response response = client.newCall(request).execute()) {  
+	    // 如果响应不成功，则抛出异常
         if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);  
   
         Headers responseHeaders = response.headers();  
