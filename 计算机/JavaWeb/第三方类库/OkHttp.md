@@ -3,7 +3,6 @@ OkHttp 是一个高效的 HTTP 客户端，支持同步阻塞，异步回调
 $$
 
 # 概述
-## 请求步骤
 - 创建 OKHttp 实例，用于发送请求 `OkHttpClient client = new OkHttpClient(); `
 - 构建 **Request 对象** `Request request = new Request.Builder() `
 	- `url()` 访问的 url
@@ -72,5 +71,32 @@ public void QueryUnanswered() throws IOException {
 
 # 异步
 ## 获取
+```java
+  private final OkHttpClient client = new OkHttpClient();
 
+  public void run() throws Exception {
+    Request request = new Request.Builder()
+        .url("http://publicobject.com/helloworld.txt")
+        .build();
+
+    client.newCall(request).enqueue(new Callback() {
+      @Override public void onFailure(Call call, IOException e) {
+        e.printStackTrace();
+      }
+
+      @Override public void onResponse(Call call, Response response) throws IOException {
+        try (ResponseBody responseBody = response.body()) {
+          if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
+
+          Headers responseHeaders = response.headers();
+          for (int i = 0, size = responseHeaders.size(); i < size; i++) {
+            System.out.println(responseHeaders.name(i) + ": " + responseHeaders.value(i));
+          }
+
+          System.out.println(responseBody.string());
+        }
+      }
+    });
+  }
+```
 
