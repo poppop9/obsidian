@@ -271,9 +271,11 @@ public void run() throws Exception {
         
     try (Response response = client.newCall(request).execute()) {
         if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
-        
+
+		// 使用`JsonAdapter`，将响应体从JSON转换为`Gist`对象
         Gist gist = gistJsonAdapter.fromJson(response.body().source());
-        
+
+		// 遍历`Gist`对象中的文件，并打印文件名和文件内容
         for (Map.Entry < String, GistFile > entry: gist.files.entrySet()) {
             System.out.println(entry.getKey());
             System.out.println(entry.getValue().content);
