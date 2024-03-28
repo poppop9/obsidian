@@ -185,17 +185,34 @@ public void run() throws Exception {
 ```
 
 ## Post 复杂数据
-我们可以使用 `MultipartBody.Builder` 【箱子】，里面放各种的请求体【文件，文本……】
+我们可以使用 `MultipartBody.Builder` 【~~箱子~~】，里面放各种的请求体【~~东西~~】【文件，文本……】，每个请求体都可以定义自己的<u>头信息</u>【~~每样东西都有自己的标签~~】
 
-并可定义自己的标头。如果存在，这些标头应描述该部分正文，如其 Content-Disposition。如果有 Content-Length 和 Content-Type 标头，则会自动添加。
+```java
+private static final String IMGUR_CLIENT_ID = "...";
+private static final MediaType MEDIA_TYPE_PNG = MediaType.parse("image/png");
 
-如何使用 MultipartBody.Builder 来构建复杂的请求体，以便与 HTML 文件上传表单兼容。在 multipart 请求体中的每个部分本身都是一个请求体，并且可以定义自己的头信息。如果存在的话，这些头信息应该描述部分主体，比如它的 Content-Disposition。如果可用的话，Content-Length 和 Content-Type 头信息会被自动添加。
+private final OkHttpClient client = new OkHttpClient();
 
-当你需要向服务器发送一个包含文件上传等复杂数据的请求时。MultipartBody.Builder 就像是你在准备这个包裹的箱子，你可以往里面放入各种不同的东西（比如文件、文本等），每样东西都有自己的标签（头信息），告诉收件人这个东西是什么，该怎么处理。
+public void run() throws Exception {
+    RequestBody requestBody = new MultipartBody.Builder()
+        .setType(MultipartBody.FORM)
+        .addFormDataPart("title", "Square Logo")
+        .addFormDataPart("image", "logo-square.png"
+            , RequestBody.create(MEDIA_TYPE_PNG, new File("website/static/logo-square.png")))
+        .build();
 
-每个东西（部分）都是这个箱子（请求体）的一部分，而这些标签（头信息）会告诉服务器如何处理这些东西。如果有必要的话，还会自动添加一些标签，比如内容长度和内容类型。这样，你就可以将复杂的数据打包发送给服务器，让通信更加顺畅有效，就像寄快递一样简单明了。希望这样说能让你更容易理解！
+    Request request = new Request.Builder()
+        .header("Authorization", "Client-ID " + IMGUR_CLIENT_ID)
+        .url("https://api.imgur.com/3/image")
+        .post(requestBody)
+        .build();
 
-简单来说，当需要向服务器发送包含文件上传等复杂数据的请求时，可以使用 MultipartBody.Builder 构建请求体。每个部分都可以具有自己的头信息，用于描述该部分的内容类型、长度等信息。这种方式可以使请求体更加灵活，能够处理各种类型的数据上传需求，并且根据数据内容自动生成一些必要的头信息，如 Content-Length 和 Content-Type。这样就可以更方便地与服务器进行通信，实现文件上传等功能。
+    try (Response response = client.newCall(request).execute()) {
+        if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
+        System.out.println(response.body().string());
+    }
+}
+```
 
 
 
