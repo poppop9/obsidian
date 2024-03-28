@@ -12,13 +12,15 @@ $$
 	- `build()` 完成构建
 - 发起同步请求，并获取到 **Response 结果** `Response response = client.newCall(request).execute()`
 	- `isSuccessful()` 判断请求是否成功【200 - 299】
+	- `header(name)` 返回 name 的最后一个 value，response.header("Server")
+	- `headers(name)` 以列表形式读取某个 name 的所有 value
 	- `headers()` 获取 Response 对象的头部信息
 		- `size()` 头部信息的个数
 		- `name(索引)` 头部信息的名称
 		- `value(索引)` 头部信息的值
 	- `body()` 响应体
 
-读取响应头时，使用 header(name) 返回命名值的最后一次出现。通常这也是唯一出现的值！如果没有出现任何值，header(name) 将返回空值。要以列表形式读取某个字段的所有值，请使用 headers(name)。
+
 
 ## 获取
 >下载文件，打印文件头，以字符串形式打印响应正文
