@@ -43,7 +43,8 @@ public void QueryUnanswered() throws IOException {
     try (Response response = client.newCall(request).execute()) {  
 	    // 如果响应不成功，则抛出异常
         if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);  
-  
+
+		// 获取到响应对象的响应头
         Headers responseHeaders = response.headers();  
         for (int i = 0; i < responseHeaders.size(); i++) {  
             System.out.println(responseHeaders.name(i) + ": " + responseHeaders.value(i));  
@@ -70,5 +71,6 @@ public void QueryUnanswered() throws IOException {
 
 
 # 异步
+## 获取
 
 

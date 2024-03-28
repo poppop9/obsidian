@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
-                "mode": "preview",
+                "file": "计算机/编程语言/Java/07 异常.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -50,7 +50,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/第三方类库/OKHttp.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -205,19 +205,21 @@
   },
   "active": "d9f37405f40d6c99",
   "lastOpenFiles": [
+    "Excalidraw/计算机/编程语言/Java Draw.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
+    "Excalidraw/计算机/Linux Draw.md",
+    "计算机/Linux/1 权限，基础操作.md",
+    "计算机/编程语言/Java/07 异常.md",
+    "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
     "计算机/JavaWeb/第三方类库/第三方类库.md",
     "科技美学/软件.md",
     "计算机/JavaWeb/第三方类库",
     "计算机/JavaWeb/Untitled.md",
     "临时笔记/草稿纸.md",
-    "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
     "计算机/Linux/3 杂.md",
-    "计算机/Linux/1 权限，基础操作.md",
     "计算机/Linux/2 Vim.md",
     "临时笔记/MarkDown语法.md",
     "计算机/Git.md",
-    "Excalidraw/计算机/Linux Draw.md",
     "计算机/编程语言/Java/16 反射.md",
     "计算机/Linux/Vim.md",
     "计算机/Linux.md",
@@ -230,11 +232,9 @@
     "计算机/编程语言/Java/05 字符串.md",
     "计算机/编程语言/Java/10 继承.md",
     "计算机/编程语言/Java/09 类与对象.md",
-    "Excalidraw/计算机/编程语言/Java Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/编程语言/Java/13 Java 8 新特性.md",
     "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
-    "计算机/编程语言/Java/06 集合.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/新建文件夹",
     "计算机/四大件/计算机网络",
