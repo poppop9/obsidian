@@ -57,7 +57,7 @@
             }
           },
           {
-            "id": "3632246cb801fc33",
+            "id": "15c2a3a18cd1e1e2",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -66,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
+                "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
               }
             }
           },
@@ -171,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
+                "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
               }
             }
           },
@@ -203,11 +202,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3632246cb801fc33",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/第三方类库/OKHttp.md",
     "Excalidraw/计算机/Linux Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
-    "计算机/JavaWeb/第三方类库/OKHttp.md",
     "Excalidraw/计算机/编程语言/Java Draw.md",
     "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
     "计算机/编程语言/Java/06 集合.md",
