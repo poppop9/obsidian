@@ -7,7 +7,8 @@ $$
 - 创建 OKHttp 实例，用于发送请求 `OkHttpClient client = new OkHttpClient(); `
 - 构建 **Request 对象** `Request request = new Request.Builder() `
 	- `url()` 访问的 url
-	- `addHeader()` 添加请求头
+	- `header(name, value)` 添加请求头，会覆盖已有 name 的 value 值
+	- `addHeader(name, value)` 添加请求头，不会移除已有的头信息
 	- `build()` 完成构建
 - 发起同步请求，并获取到 **Response 结果** `Response response = client.newCall(request).execute()`
 	- `isSuccessful()` 判断请求是否成功【200 - 299】
@@ -16,6 +17,8 @@ $$
 		- `name(索引)` 头部信息的名称
 		- `value(索引)` 头部信息的值
 	- `body()` 响应体
+
+读取响应头时，使用 header(name) 返回命名值的最后一次出现。通常这也是唯一出现的值！如果没有出现任何值，header(name) 将返回空值。要以列表形式读取某个字段的所有值，请使用 headers(name)。
 
 ## 获取
 >下载文件，打印文件头，以字符串形式打印响应正文
