@@ -2,13 +2,14 @@ $$
 OkHttp 是一个高效的 HTTP 客户端，支持同步阻塞，异步回调
 $$
 
-# 概述
+# 同步
+## 概述
 - 创建 OKHttp 实例，用于发送请求 `OkHttpClient client = new OkHttpClient(); `
 - 构建 **Request 对象** `Request request = new Request.Builder() `
 	- `url()` 访问的 url
 	- `addHeader()` 添加请求头
 	- `build()` 完成构建
-- 发起请求，并获取到 **Response 结果** `Response response = client.newCall(request).execute()`
+- 发起同步请求，并获取到 **Response 结果** `Response response = client.newCall(request).execute()`
 	- `isSuccessful()` 判断请求是否成功【200 - 299】
 	- `headers()` 获取 Response 对象的头部信息
 		- `size()` 头部信息的个数
@@ -16,8 +17,6 @@ $$
 		- `value(索引)` 头部信息的值
 	- `body()` 响应体
 
-
-# 同步
 ## 获取
 >下载文件，打印文件头，以字符串形式打印响应正文
 
@@ -57,33 +56,32 @@ public void QueryUnanswered() throws IOException {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # 异步
+## 概述
+
+
+
+
+
+
 ## 获取
 ```java
   private final OkHttpClient client = new OkHttpClient();
+  
   public void run() throws Exception {
       Request request = new Request.Builder()
           .url("http://publicobject.com/helloworld.txt")
           .build();
 
+	  // 将请求放入队列中，并设置一个回调函数来处理响应结果
       client.newCall(request)
           .enqueue(new Callback() {
+              // 定义了回调函数中的 onFailure 方法，请求失败时被调用，Call 对象表示当前请求
               @Override public void onFailure(Call call, IOException e) {
                   e.printStackTrace();
               }
-              
+
+		      // 定义了回调函数中的 onResponse 方法，在接收到响应时被调用
               @Override public void onResponse(Call call, Response response) throws IOException {
                   try (ResponseBody responseBody = response.body()) {
                       if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
