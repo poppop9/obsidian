@@ -2,6 +2,14 @@ $$
 OkHttp 是一个高效的 HTTP 客户端，支持同步阻塞，异步回调
 $$
 
+```xml
+<dependency>
+    <groupId>com.squareup.okhttp3</groupId>
+    <artifactId>okhttp</artifactId>
+    <version>5.0.0-alpha.12</version>
+</dependency>
+```
+
 # 同步
 ## Get，获取响应
 - 创建 OKHttp 实例，用于发送请求 `OkHttpClient client = new OkHttpClient(); `
@@ -94,10 +102,12 @@ private final OkHttpClient client = new OkHttpClient();
 
 public void run() throws Exception {
     RequestBody requestBody = new RequestBody() {
+	    // 定义请求体的媒体类型
         @Override public MediaType contentType() {
             return MEDIA_TYPE_MARKDOWN;
         }
-        
+
+		// 内容写入
         @Override public void writeTo(BufferedSink sink) throws IOException {
             sink.writeUtf8("Numbers\n");
             sink.writeUtf8("-------\n");
