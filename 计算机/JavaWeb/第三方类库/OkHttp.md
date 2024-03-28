@@ -268,18 +268,19 @@ public void run() throws Exception {
     try (Response response = client.newCall(request).execute()) {
         if (!response.isSuccessful()) throw new IOException("Unexpected code " + response);
         
-        Gist gist = gistJsonAdapter.fromJson(response.body()
-            .source());
+        Gist gist = gistJsonAdapter.fromJson(response.body().source());
+        
         for (Map.Entry < String, GistFile > entry: gist.files.entrySet()) {
             System.out.println(entry.getKey());
-            System.out.println(entry.getValue()
-                .content);
+            System.out.println(entry.getValue().content);
         }
     }
 }
+
 static class Gist {
     Map < String, GistFile > files;
 }
+
 static class GistFile {
     String content;
 }
