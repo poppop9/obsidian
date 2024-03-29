@@ -66,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
               }
             }
           },
@@ -171,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
               }
             }
           },
@@ -203,12 +202,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "8230ab99a40b226c",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
-    "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/编程语言/Java/06 集合.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "Excalidraw/计算机/Linux Draw.md",
