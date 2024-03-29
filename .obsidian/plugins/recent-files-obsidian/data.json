@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1 基础概念",
+      "path": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
+    },
+    {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
       "basename": "1 HTML 初级",
       "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
     },
@@ -13,10 +21,6 @@
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
       "basename": "Bootstrap 简化CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "OKHttp",
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
-    },
-    {
-      "basename": "1 基础概念",
-      "path": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
     },
     {
       "basename": "06 集合",
