@@ -473,9 +473,13 @@
 ```
 
 ### 面包屑导航
+- 父容器 ：使用 `<ol>`
+	- `breadcrumb`
+- 子容器 ：使用 `<li>`
+	- `.breadcrumb-item` 
 
 ```html
-<nav aria-label="breadcrumb">
+<nav>
 	<ol class="breadcrumb">
 		<li class="breadcrumb-item"><a href="#">Home</a></li>
 		<li class="breadcrumb-item"><a href="#">Library</a></li>
