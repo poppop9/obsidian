@@ -25,6 +25,7 @@
   "defaultDateFormat": "MMM dd yyyy",
   "spacesEnabled": true,
   "spacesPerformance": false,
+  "currentWaypoint": 2,
   "enableFolderNote": true,
   "folderIndentationLines": true,
   "revealActiveFile": false,
@@ -72,7 +73,8 @@
     "计算机/计算机/JavaWeb/计算机/JavaWeb/后端",
     "计算机/计算机/JavaWeb/计算机/JavaWeb/后端/计算机/JavaWeb/后端/DDD 架构",
     "计算机/计算机/JavaWeb/计算机/JavaWeb/前端",
-    "计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/BootStrap"
+    "计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/BootStrap",
+    "计算机"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
@@ -119,9 +121,12 @@
   "releaseNotesPrompt": 0.9,
   "enableDefaultSpaces": true,
   "enableTagSpaces": true,
-  "enableHomeSpace": false,
   "showSpacePinIcon": true,
   "minimalFix": false,
   "experimental": false,
-  "systemName": "Vault"
+  "systemName": "obsidian",
+  "defaultSpaceTemplate": "",
+  "selectedKit": "default",
+  "actionMaxSteps": 100,
+  "enableHomeSpace": false
 }
