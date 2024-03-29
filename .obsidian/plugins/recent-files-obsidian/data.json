@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
-    },
-    {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
+      "basename": "3 BootStrap 高级",
+      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+    },
+    {
+      "basename": "2 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
       "basename": "06 集合",
@@ -195,10 +199,6 @@
     {
       "basename": "配置优先级，Bean管理",
       "path": "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md"
-    },
-    {
-      "basename": "5 事务管理，AOP",
-      "path": "计算机/JavaWeb/后端/SpringBoot MVC/5 事务管理，AOP.md"
     }
   ],
   "omittedPaths": [],
