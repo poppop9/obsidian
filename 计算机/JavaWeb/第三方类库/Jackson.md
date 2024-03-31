@@ -342,10 +342,15 @@ public void set(String key, Object value) {
 
 - `@JsonAnyGetter` 用于方法，获取所有未序列化的属性
 ```java
-public Map<String, Object> any() { return map; }
+public class Example {
+    private Map<String, Object> properties = new HashMap<>();
+
+    @JsonAnyGetter
+    public Map<String, Object> getProperties() {
+        return properties;
+    }
+}
 ```
-
-
 
 ### Read + Write注解
 Jackson包含一组注解，这些注解会影响从JSON读取Java对象以及将Java对象写入JSON。 我将这些注解称为“读+写注解”。 以下各节将更详细地介绍Jackson的读写注解。
