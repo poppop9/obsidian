@@ -424,83 +424,21 @@ public class Person {
 }
 ```
 
-#### @JsonDeserialize
-@JsonDeserialize用于为Java对象中给定的属性指定自定义反序列化器类
+## 写注解
+>写注解只有在<u>序列化</u>时生效
 
-例如，假设想优化布尔值false和true的在线格式，使其分别为0和1。
-
-首先，需要将@JsonDeserialize注解添加到要为其使用自定义反序列化器的字段。 这是将@JsonDeserialize注解添加到字段的示例：
+#### @JsonAnyGetter
+@JsonAnyGetter 可以将 Map 用作要序列化为 JSON 的属性的容器
 
 ```java
-public class PersonDeserialize {
-    public long id = 0;
-    public String name = null;
+public class PersonAnyGetter {
+    private Map<String, Object> properties = new HashMap<>();
 
-    @JsonDeserialize(using = OptimizedBooleanDeserializer.class)
-    public boolean enabled = false;
+    @JsonAnyGetter
+    public Map<String, Object> properties() {
+        return properties;
+    }
 }
-```
-
-其次，这是@JsonDeserialize注解中引用的OptimizedBooleanDeserializer类的实例：
-
-```kotlin
-public class OptimizedBooleanDeserializer    extends JsonDeserializer<Boolean> {     @Override    public Boolean deserialize(JsonParser jsonParser,            DeserializationContext deserializationContext) throws        IOException, JsonProcessingException {         String text = jsonParser.getText();        if("0".equals(text)) return false;        return true;    }}复制代码
-```
-
-请注意，OptimizedBooleanDeserializer类使用通用类型Boolean扩展了JsonDeserializer。 这样做会使deserialize()方法返回一个布尔对象。 如果要反序列化其他类型（例如java.util.Date），则必须在泛型括号内指定该类型。
-
-可以通过调用jsonParser参数的getText()方法来获取要反序列化的字段的值。 然后，可以将该文本反序列化为任何值，然后输入反序列化程序所针对的类型（在此示例中为布尔值）。
-
-最后，需要查看使用自定义反序列化器和@JsonDeserializer注解反序列化对象的格式：
-
-```cobol
-PersonDeserialize person = objectMapper        .reader(PersonDeserialize.class)        .readValue(new File("data/person-optimized-boolean.json"));复制代码
-```
-
-注意，我们首先需要如何使用ObjectMapper的reader()方法为PersonDeserialize类创建一个阅读器，然后在该方法返回的对象上调用readValue()。
-
-### 三）、Write注解
-
-Jackson还包含一组注解，这些注解可以影响Jackson将Java对象序列化（写入）到JSON的方式。 以下各节将介绍这些写（序列化）注解中的每一个。
-
-#### 1、@JsonInclude
-
-Jackson注解@JsonInclude告诉Jackson仅在某些情况下包括属性。 例如，仅当属性为非null，非空或具有非默认值时，才应包括该属性。 这是显示如何使用@JsonInclude注解的示例：
-
-```kotlin
-import com.fasterxml.jackson.annotation.JsonInclude; @JsonInclude(JsonInclude.Include.NON_EMPTY)public class PersonInclude {     public long  personId = 0;    public String name     = null; }复制代码
-```
-
-如果为该示例设置的值是非空的，则此示例将仅包括name属性，这意味着不为null且不是空字符串。
-
-@JsonInclude注解的一个更通俗的名称应该是@JsonIncludeOnlyWhen，但是写起来会更长。
-
-#### 2、@JsonGetter
-
-@JsonGetter Jackson注解用于告诉Jackson，应该通过调用getter方法而不是通过直接字段访问来获取某个字段值。 如果您的Java类使用jQuery样式的getter和setter名称，则@JsonGetter注解很有用。
-
-例如，您可能拥有方法personId()和personId（long id），而不是getPersonId()和setPersonId()。
-
-这是一个名为PersonGetter的示例类，它显示了@JsonGetter注解的用法：
-
-```kotlin
-public class PersonGetter {     private long  personId = 0;     @JsonGetter("id")    public long personId() { return this.personId; }     @JsonSetter("id")    public void personId(long personId) { this.personId = personId; } }复制代码
-```
-
-如您所见，personId()方法带有@JsonGetter注解。 @JsonGetter注解上设置的值是JSON对象中应使用的名称。 因此，用于JSON对象中personId的名称是id。 生成的JSON对象如下所示：
-
-```cobol
-{"id":0}复制代码
-```
-
-还要注意，personId（long personId）方法使用@JsonSetter注解进行注解，以使Jackson识别为与JSON对象中的id属性匹配的设置方法。 从JSON读取Java对象时使用@JsonSetter注解-将Java对象写入JSON时不使用。 为了完整起见，仅包含@JsonSetter注解。
-
-#### 3、@JsonAnyGetter
-
-@JsonAnyGetter Jackson注解使您可以将Map用作要序列化为JSON的属性的容器。 这是在Java类中使用@JsonAnyGetter注解的示例：
-
-```typescript
-public class PersonAnyGetter {     private Map<String, Object> properties = new HashMap<>();     @JsonAnyGetter    public Map<String, Object> properties() {        return properties;    }}复制代码
 ```
 
 当看到@JsonAnyGetter注解时，Jackson将从@JsonAnyGetter注解的方法中获取返回的Map，并将该Map中的每个键值对都视为一个属性。 换句话说，Map中的所有键值对都将作为PersonAnyGetter对象的一部分序列化为JSON。
