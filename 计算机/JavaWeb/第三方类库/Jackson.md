@@ -179,18 +179,60 @@ System.out.println(json);
 > ```
 
 ## 树模型
+>树模型 由 JsonNode 类表示，可用于表示 JSON 对象
+
 >[!hint] 什么时候使用<u>树模型</u> ?
 >- 不知道接收到的 JSON 格式
 >- 不想多创建一个类
 
+使用 ObjectMapper 将 JSON 解析为 JsonNode 树模型：
+```java
+ObjectMapper objectMapper = new ObjectMapper();
 
-树模型可用于表示 JSON 对象
+String carJson = "{ \"brand\" : \"Mercedes\", \"doors\" : 5 }";
 
-Jackson树模型由JsonNode类表示。 您可以使用 ObjectMapper 将 JSON 解析为JsonNode树模型，就像使用您自己的类一样
-
-```javc
+try {
+	JsonNode jsonNode = objectMapper.readValue(carJson, JsonNode.class);
+} catch (IOException e) {
+	e.printStackTrace();
+}
 ```
 
+
+将 JSON 解析为 JsonNode 后，就可以浏览JsonNode树模型。 这是一个JsonNode示例，显示了如何访问 JSON 字段，数组和嵌套对象：
+```java
+ObjectMapper objectMapper = new ObjectMapper();
+
+String carJson =
+        "{ \"brand\" : \"Mercedes\", \"doors\" : 5," +
+        "  \"owners\" : [\"John\", \"Jack\", \"Jill\"]," +
+        "  \"nestedObject\" : { \"field\" : \"value\" } }";
+
+try {
+    JsonNode jsonNode = objectMapper.readValue(carJson, JsonNode.class);
+ 
+    JsonNode brandNode = jsonNode.get("brand");
+    String brand = brandNode.asText();
+    System.out.println("brand = " + brand);
+ 
+    JsonNode doorsNode = jsonNode.get("doors");
+    int doors = doorsNode.asInt();
+    System.out.println("doors = " + doors);
+ 
+    JsonNode array = jsonNode.get("owners");
+    JsonNode jsonNode = array.get(0);
+    String john = jsonNode.asText();
+    System.out.println("john  = " + john);
+ 
+    JsonNode child = jsonNode.get("nestedObject");
+    JsonNode childField = child.get("field");
+    String field = childField.asText();
+    System.out.println("field = " + field);
+ 
+} catch (IOException e) {
+    e.printStackTrace();
+}
+```
 
 
 
