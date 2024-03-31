@@ -178,7 +178,7 @@ System.out.println(json);
 > System.out.println(output2);
 > ```
 
-## 树模型
+## JsonNode 树模型
 >树模型 由 JsonNode 类表示，可用于表示 JSON 对象
 
 >[!hint] 什么时候使用<u>树模型</u> ?
@@ -249,7 +249,13 @@ JsonNode carJsonNode = objectMapper.valueToTree(car);
 
 ### JsonNode -> Java 对象
 ```java
+ObjectMapper objectMapper = new ObjectMapper();
 
+String carJson = "{ \"brand\" : \"Mercedes\", \"doors\" : 5 }";
+
+JsonNode carJsonNode = objectMapper.readValue(carJson, JsonNode.class);
+
+Car car = objectMapper.treeToValue(carJsonNode);
 ```
 
 
