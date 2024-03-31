@@ -306,30 +306,30 @@ while(fieldNames.hasNext()) {
 ```
 
 # 注解
-- `@JsonProperty` 把属性的名称序列化时转换为另外一个名称
+- `@JsonProperty` 在序列化时，转换属性的名称
 ```java
 @JsonProperty("birth_date")
 private Date birthDate;
 ```
-
-- `@JsonFormat` 用于属性或者方法，把属性的格式序列化时转换成指定的格式
+---
+- `@JsonFormat` 在序列化时，转换属性/方法返回值的格式
 ```java
 @JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm")
 public Date getBirthDate()
 ```
-
+---
 - `@JsonPropertyOrder` 用于类，指定属性在序列化时 JSON 中的顺序
 ```java
 @JsonPropertyOrder({ "birth_date", "name" }) 
 public class Person
 ```
-
-- `@JsonCreator` 用于构造方法，和 @JsonProperty 配合使用，适用有参数的构造方法
+---
+- `@JsonCreator` 用于有参构造方法，和 `@JsonProperty` 配合使用
 ```java
 @JsonCreator 
 public Person(@JsonProperty("name") String name) {…}
 ```
-
+---
 - `@JsonAnySetter` 用于属性或者方法，设置未反序列化的属性名和值作为键值存储到 Map 中
 ```java
 @JsonAnySetter 
