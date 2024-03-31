@@ -25,7 +25,7 @@ public class Car {
 	private String brand = null;
     private int doors = 0;
 
-	// get，set 方法
+	// get，set 方法……
 }
 ```
 
