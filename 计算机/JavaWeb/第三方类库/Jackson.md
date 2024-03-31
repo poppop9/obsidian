@@ -400,9 +400,7 @@ public class PersonIgnoreType {
 }
 ```
 
-```typescript
-import com.fasterxml.jackson.annotation.JsonSetter;
-
+```java
 public class Person {
     private long personId = 0;
     private String name = null;
@@ -427,11 +425,10 @@ public class Person {
 ```
 
 #### @JsonCreator
-@JsonCreator用于告诉Jackson该Java对象具有一个构造函数（“创建者”），该构造函数可以将JSON对象的字段与Java对象的字段进行匹配
+@JsonCreator 使构造函数可以将 JSON 对象的字段与 Java 对象的字段进行匹配
 
-@JsonCreator注解在无法使用@JsonSetter注解的情况下很有用。 例如，不可变对象没有任何设置方法，因此它们需要将其初始值注入到构造函数中
+@JsonCreator注解在无法使用@JsonSetter注解的情况下很有用。例如，不可变对象没有任何设置方法，因此它们需要将其初始值注入到构造函数中
 
-以这个PersonImmutable类为例：
 ```csharp
 public class PersonImmutable {
     private long id = 0;
@@ -452,18 +449,32 @@ public class PersonImmutable {
 }
 ```
 
-要告诉Jackson应该调用PersonImmutable的构造函数，我们必须在构造函数中添加@JsonCreator注解。 但是，仅凭这一点还不够。 我们还必须注解构造函数的参数，以告诉Jackson将JSON对象中的哪些字段传递给哪些构造函数参数。
-
-添加了@JsonCreator和@JsonProperty注解的PersonImmutable类的示例如下：
-
 ```typescript
-public class PersonImmutable {     private long   id   = 0;    private String name = null;     @JsonCreator    public PersonImmutable(            @JsonProperty("id")  long id,            @JsonProperty("name") String name  ) {         this.id = id;        this.name = name;    }     public long getId() {        return id;    }     public String getName() {        return name;    } }复制代码
+public class PersonImmutable {
+    private long id = 0;
+    private String name = null;
+
+    @JsonCreator
+    public PersonImmutable(@JsonProperty("id") long id, @JsonProperty("name") String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
 ```
 
-请注意，构造函数上方的注解以及构造函数参数之前的注解。 现在，Jackson能够从此JSON对象创建PersonImmutable：
-
 ```cobol
-{  "id"   : 1234,  "name" : "John"}复制代码
+{
+  "id": 1234,
+  "name": "John"
+}
 ```
 
 #### 4、@JacksonInject
