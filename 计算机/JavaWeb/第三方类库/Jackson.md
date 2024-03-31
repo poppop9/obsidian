@@ -367,40 +367,33 @@ public class PersonIgnoreProperties {
 }
 ```
 
-#### @JsonIgnoreType
-
-`@JsonIgnoreType` 用于将整个类标记为在使用该类型的任何地方都将被忽略。
-
-这是一个示例，展示如何使用@JsonIgnoreType注解：
+### @JsonIgnoreType
+`@JsonIgnoreType` 忽略整个类
 
 ```java
-import com.fasterxml.jackson.annotation.JsonIgnoreType; public class PersonIgnoreType {     @JsonIgnoreType    public static class Address {        public String streetName  = null;        public String houseNumber = null;        public String zipCode     = null;        public String city        = null;        public String country     = null;    }     public long    personId = 0;     public String  name = null;     public Address address = null;}复制代码
+public class PersonIgnoreType {
+    @JsonIgnoreType
+    public static class Address {
+        public String streetName = null;
+        public String houseNumber = null;
+        public String zipCode = null;
+        public String city = null;
+        public String country = null;
+    }
+
+    public long personId = 0;
+    public String name = null;
+    public Address address = null;
+}
 ```
 
-在上面的示例中，所有Address实例将被忽略。
+## 读注解
+>读注解只有在<u>反序列化</u>时生效
 
-#### 4、@JsonAutoDetect
-
-Jackson注解@JsonAutoDetect用于告诉Jackson在读写对象时包括非public修饰的属性。
-
-这是一个示例类，展示如何使用@JsonAutoDetect注解：
-
-```kotlin
-import com.fasterxml.jackson.annotation.JsonAutoDetect; @JsonAutoDetect(fieldVisibility = JsonAutoDetect.Visibility.ANY )public class PersonAutoDetect {     private long  personId = 123;    public String name     = null; }复制代码
-```
-
-JsonAutoDetect.Visibility类包含与Java中的可见性级别匹配的常量，表示ANY，DEFAULT，NON_PRIVATE，NONE，PROTECTED_AND_PRIVATE和PUBLIC_ONLY。
-
-### 二）、Read注解
-
-Jackson包含一组注解，这些注解仅影响Jackson将JSON解析为对象的方式-意味着它们影响Jackson对JSON的读取。 我称这些为“读注解”。 以下各节介绍了Jackson的读注解。
-
-#### 1、@JsonSetter
-
-Jackson注解@JsonSetter用于告诉Jackson，当将JSON读入对象时，应将此setter方法的名称与JSON数据中的属性名称匹配。 如果Java类内部使用的属性名称与JSON文件中使用的属性名称不同，这个注解就很有用了。
+#### @JsonSetter
+`@JsonSetter` 用于将 JSON 读入对象时，应将此setter方法的名称与JSON数据中的属性名称匹配。 如果Java类内部使用的属性名称与JSON文件中使用的属性名称不同，这个注解就很有用了。
 
 以下Person类用personId名称对应JSON中名为id的字段：
-
 ```typescript
 public class Person {     private long   personId = 0;    private String name     = null;     public long getPersonId() { return this.personId; }    public void setPersonId(long personId) { this.personId = personId; }     public String getName() { return name; }    public void setName(String name) { this.name = name; }}复制代码
 ```
