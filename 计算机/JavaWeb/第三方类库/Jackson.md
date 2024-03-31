@@ -273,19 +273,39 @@ Car car = objectMapper.treeToValue(carJsonNode);
 
 - 创建 ObjectNode
 ```java
-ObjectMapper objectMapper = new ObjectMapper();
- 
-ObjectNode objectNode = objectMapper.createObjectNode();
+// 创建 ObjectMapper 对象 
+ObjectMapper objectMapper = new ObjectMapper(); 
+
+String jsonData = "{\"name\":\"Alice\",\"age\":20,\"courses\":[\"Math\",\"Physics\",\"Biology\"],\"grades\":{\"Math\":85,\"Physics\":90,\"Biology\":75}}"; 
+
+// 将 JSON 数据解析为 ObjectNode 对象 
+ObjectNode objectNode = (ObjectNode) objectMapper.readValue(jsonData, JsonNode.class);
 ```
 
 - 添加 / 修改
 ```java
 // 如果ObjectNode中没有 'field1' 字段，那就向 `ObjectNode` 中添加一个 "field1" 字段，并将字符串 "value1" 作为它的值
 // 如果ObjectNode中存在 'field1' 字段，那就修改其值
-objectNode.put("field1", "value1");
+objectNode.put("Math", "value1");
 ```
 
+- 删除
+```java
+objectNode.remove("Math");
+```
 
+- 迭代
+```java
+// 生成迭代器
+Iterator<String> fieldNames = jsonNode.fieldNames();
+
+while(fieldNames.hasNext()) {
+    String fieldName = fieldNames.next();
+
+	// 通过迭代器找到的字段名，创建字段JsonNode
+    JsonNode field = jsonNode.get(fieldName);
+}
+```
 
 
 
