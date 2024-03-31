@@ -306,17 +306,8 @@ while(fieldNames.hasNext()) {
 ```
 
 # 注解
-- `@JsonAnySetter` 用于属性或者方法，接收未知属性的键值对
-```java
-// 如果 JSON 中包含了额外属性，这些额外属性会被动态地添加到Map集合中
-@JsonAnySetter 
-public void set(String key, Object value) {   
-	map.put(key, value); 
-}
-```
-
-## 读写注解
->读写注解表示在序列化，和反序列化时都生效
+## 通用注解
+>通用注解表示在序列化，和反序列化时都生效
 
 ### @JsonIgnore
 `@JsonIgnore` 用于忽略 Java 对象的某个属性
@@ -363,8 +354,8 @@ public class PersonIgnoreType {
 }
 ```
 
-## 读注解
->读注解只有在<u>反序列化</u>时生效
+## 反序列化注解
+>反序列化注解只有在<u>反序列化</u>时生效
 
 ### @JsonSetter
 `@JsonSetter` 将 `setter方法` 的名称与 JSON 数据中的属性名匹配
@@ -400,8 +391,19 @@ public class Person {
 }
 ```
 
-## 写注解
->写注解只有在<u>序列化</u>时生效
+### @JsonAnySetter
+`@JsonAnySetter` 用于属性或者方法，接收未知属性的键值对
+
+```java
+// 如果 JSON 中包含了额外属性，这些额外属性会被动态地添加到Map集合中
+@JsonAnySetter 
+public void set(String key, Object value) {   
+	map.put(key, value); 
+}
+```
+
+## 序列化注解
+>序列化注解只有在<u>序列化</u>时生效
 
 ### @JsonProperty
  `@JsonProperty` 在序列化时，会转换属性的名称
