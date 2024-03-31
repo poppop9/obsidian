@@ -427,74 +427,59 @@ public class Person {
 ## 写注解
 >写注解只有在<u>序列化</u>时生效
 
-#### @JsonAnyGetter
-@JsonAnyGetter 可以将 Map 用作要序列化为 JSON 的属性的容器
+#### @JsonRawValue
+@JsonRawValue 告诉Jackson该属性值应直接写入JSON输出。 如果该属性是字符串，Jackson通常会将值括在引号中，但是如果使用@JsonRawValue属性进行注解，Jackson将不会这样做
 
 ```java
-public class PersonAnyGetter {
-    private Map<String, Object> properties = new HashMap<>();
-
-    @JsonAnyGetter
-    public Map<String, Object> properties() {
-        return properties;
-    }
+public class PersonRawValue {
+    public long personId = 0;
+    public String address = "$#";
 }
+
+---
+{"personId":0,"address":"$#"}
 ```
-
-当看到@JsonAnyGetter注解时，Jackson将从@JsonAnyGetter注解的方法中获取返回的Map，并将该Map中的每个键值对都视为一个属性。 换句话说，Map中的所有键值对都将作为PersonAnyGetter对象的一部分序列化为JSON。
-
-#### 4、@JsonPropertyOrder
-
-@JsonPropertyOrder Jackson注解可用于指定将Java对象的字段序列化为JSON的顺序。 这是显示如何使用@JsonPropertyOrder注解的示例：
-
-```kotlin
-@JsonPropertyOrder({"name", "personId"})public class PersonPropertyOrder {     public long  personId  = 0;    public String name     = null; }复制代码
-```
-
-通常，Jackson会按照在类中找到的顺序序列化PersonPropertyOrder中的属性。 但是，@JsonPropertyOrder注解指定了不同的顺序，在序列化的JSON输出中，name属性将首先出现，personId属性将随后出现。
-
-#### 5、@JsonRawValue
-
-@JsonRawValue Jackson注解告诉Jackson该属性值应直接写入JSON输出。 如果该属性是字符串，Jackson通常会将值括在引号中，但是如果使用@JsonRawValue属性进行注解，Jackson将不会这样做。
-
-为了更清楚@JsonRawValue的作用，看看没有使用@JsonRawValue的此类：
 
 ```java
-public class PersonRawValue {     public long   personId = 0;     public String address  = "$#";}复制代码
+import com.fasterxml.jackson.annotation.JsonRawValue;
+
+public class PersonRawValue {
+    public long personId = 0;
+    @JsonRawValue
+    public String address = "$#";
+}
+
+---
+{"personId":0,"address":$#}
 ```
 
-Jackson会将其序列化为以下JSON字符串：
-
-```bash
-{"personId":0,"address":"$#"}复制代码
-```
-
-现在，我们将@JsonRawValue添加到address属性，如下所示：
-
-```java
-public class PersonRawValue {     public long   personId = 0;     @JsonRawValue    public String address  = "$#";}复制代码
-```
-
-现在，当对地址属性进行序列化时，杰克逊将省略引号。 因此，序列化的JSON如下所示：
-
-```csharp
-{"personId":0,"address":$#}复制代码
-```
-
-当然它是无效的JSON，那么为什么要这么做呢？
+为什么要这么做 
 
 如果address属性包含一个JSON字符串，那么该JSON字符串将被序列化为最终的JSON对象，作为JSON对象结构的一部分，而不仅是序列化为JSON对象的address字段中的字符串。
 
 要查看其工作原理，让我们像下面这样更改address属性的值：
 
 ```swift
-public class PersonRawValue {     public long   personId = 0;     @JsonRawValue    public String address  =            "{ \"street\" : \"Wall Street\", \"no\":1}"; }复制代码
+import com.fasterxml.jackson.annotation.JsonRawValue;
+
+public class PersonRawValue {
+    public long personId = 0;
+    @JsonRawValue
+    public String address = "{\"street\":\"Wall Street\",\"no\":1}";
+}
+
 ```
 
 Jackson会将其序列化为以下JSON：
 
 ```cobol
-{"personId":0,"address":{ "street" : "Wall Street", "no":1}}复制代码
+{
+  "personId": 0,
+  "address": {
+    "street": "Wall Street",
+    "no": 1
+  }
+}
 ```
 
 请注意，JSON字符串现在如何成为序列化JSON结构的一部分。
