@@ -280,13 +280,9 @@ ObjectNode objectNode = objectMapper.createObjectNode();
 
 - 修改
 ```java
-// 创建ObjectMapper，并利用其创建ObjectNode
-ObjectMapper objectMapper = new ObjectMapper();
-ObjectNode parentNode = objectMapper.createObjectNode();
-
-JsonNode childNode = readJsonIntoJsonNode();
- 
-parentNode.set("child1", childNode);
+objectNode.put("field1", "value1");
+objectNode.put("field2", 123);
+objectNode.put("field3", 999.999);
 ```
 
 
