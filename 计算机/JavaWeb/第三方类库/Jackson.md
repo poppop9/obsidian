@@ -185,6 +185,8 @@ System.out.println(json);
 >- 不知道接收到的 JSON 格式
 >- 不想多创建一个类
 
+>[!hint] JsonNode 是不可变的，ObjectNode 是 JsonNode 的子类
+
 ### 创建树模型
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
@@ -199,6 +201,9 @@ try {
 ```
 
 ### 浏览树模型
+- `JsonNode.get("字段名")` <u>根据字段名</u>获取 JSON 的字段
+- 
+
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
 
@@ -257,11 +262,6 @@ JsonNode carJsonNode = objectMapper.readValue(carJson, JsonNode.class);
 
 Car car = objectMapper.treeToValue(carJsonNode);
 ```
-
-
-
-
-
 
 
 
