@@ -152,30 +152,44 @@ System.out.println(json);
 
 >[!warning] Jackson 的日期转换
 >Jackson 默认会将 `java.util.Date` 对象序列化为 `long` 毫秒数。但是，我们大多数时候希望能将 `java.util.Date` 转换为日期格式的字符串
+>
+> - 默认
+> ```java
+> ObjectMapper objectMapper = new ObjectMapper();
+> 
+> Transaction transaction = new Transaction("transfer", new Date());
+> 
+> String output = objectMapper.writeValueAsString(transaction);
+> System.out.println(output);
+> ```
+> 
+> - 改进
+> ```java
+> ObjectMapper objectMapper = new ObjectMapper();
+> 
+> Transaction transaction = new Transaction("transfer", new Date());
+> 
+> // 设置日期格式
+> SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+> // 在objectMapper中设置日期格式
+> objectMapper.setDateFormat(dateFormat);
+> 
+> String output2 = objectMapper.writeValueAsString(transaction);
+> System.out.println(output2);
+> ```
 
-- 默认
-```java
-ObjectMapper objectMapper = new ObjectMapper();
+## 树模型
+>[!hint] 什么时候使用<u>树模型</u> ?
+>- 不知道接收到的 JSON 格式
+>- 不想多创建一个类
 
-Transaction transaction = new Transaction("transfer", new Date());
 
-String output = objectMapper.writeValueAsString(transaction);
-System.out.println(output);
+树模型可用于表示 JSON 对象
+
+Jackson树模型由JsonNode类表示。 您可以使用 ObjectMapper 将 JSON 解析为JsonNode树模型，就像使用您自己的类一样
+
+```javc
 ```
-
-- 改进
-```java
-ObjectMapper objectMapper = new ObjectMapper();
-
-Transaction transaction = new Transaction("transfer", new Date());
-
-SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-objectMapper.setDateFormat(dateFormat);
-
-String output2 = objectMapper.writeValueAsString(transaction);
-System.out.println(output2);
-```
-
 
 
 
