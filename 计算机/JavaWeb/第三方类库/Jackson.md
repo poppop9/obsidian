@@ -130,6 +130,25 @@ String jsonObject = "{\"brand\":\"ford\", \"doors\":5}";
 Map<String, Object> jsonMap = objectMapper.readValue(jsonObject, new TypeReference<Map<String,Object>>(){});
 ```
 
+## Java 对象 -> JSON
+- `writeValue()` 
+- `writeValueAsString()` 将生成的 JSON 作为 `String` 返回
+- `writeValueAsBytes()` 将生成的 JSON 作为字节数组返回
+
+```java
+ObjectMapper objectMapper = new ObjectMapper();
+ 
+Car car = new Car();
+car.setBrand("BMW");
+car.setDoors(4);
+
+// 将car对象序列化为JSON，并写入到名为 "data/output-2.json" 的文件中
+objectMapper.writeValue(new FileOutputStream("data/output-2.json"), car);
+
+// 将car对象序列化为JSON，并转换为String
+String json = objectMapper.writeValueAsString(car);
+System.out.println(json);
+```
 
 
 
