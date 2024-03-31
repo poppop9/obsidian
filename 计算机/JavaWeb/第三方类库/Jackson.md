@@ -127,10 +127,9 @@ Map<String, Object> jsonMap = objectMapper.readValue(jsonObject, new TypeReferen
 
 ---
 
-有时候，JSON 中的字段非常冗余，我们只需要一小部分写入到 Java 对象中。这时，可以使用 Jackson 配置忽略这些额外的字段。 以下是配置Jackson ObjectMapper忽略未知字段的示例：
-
-```cobol
-objectMapper.configure(    DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);复制代码
+有时候，JSON 中的字段非常冗余，我们只需要一小部分写入到 Java 对象中。这时，可以忽略这些额外的字段：
+```java
+objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 ```
 
 
