@@ -338,25 +338,13 @@ public void set(String key, Object value) {
 	map.put(key, value); 
 }
 ```
----
-- `@JsonAnyGetter` 用于方法，获取所有未序列化的属性
-```java
-public class Example {
-    private Map<String, Object> properties = new HashMap<>();
 
-    @JsonAnyGetter
-    public Map<String, Object> getProperties() {
-        return properties;
-    }
-}
-```
+## 读写注解
+>读写注解表示在序列化，和反序列化时都生效
 
-### Read + Write注解
-Jackson包含一组注解，这些注解会影响从JSON读取Java对象以及将Java对象写入JSON。 我将这些注解称为“读+写注解”
+### @JsonIgnore
 
-#### 1、@JsonIgnore
-
-Jackson注解@JsonIgnore用于告诉Jackson忽略Java对象的某个属性（字段）。 在将JSON读取到Java对象中以及将Java对象写入JSON时，都将忽略该属性。
+@JsonIgnore 用于忽略 Java 对象的某个属性。 在将JSON读取到Java对象中以及将Java对象写入JSON时，都将忽略该属性。
 
 这是使用@JsonIgnore注解的示例：
 
