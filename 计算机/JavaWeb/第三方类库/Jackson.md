@@ -330,14 +330,15 @@ public class Person
 public Person(@JsonProperty("name") String name) {…}
 ```
 ---
-- `@JsonAnySetter` 用于属性或者方法，设置未反序列化的属性名和值作为键值存储到 Map 中
+- `@JsonAnySetter` 用于属性或者方法，接收未知属性的键值对
 ```java
+// 如果 JSON 中包含了额外属性，这些额外属性会被动态地添加到Map集合中
 @JsonAnySetter 
 public void set(String key, Object value) {   
 	map.put(key, value); 
 }
 ```
-
+---
 - `@JsonAnyGetter` 用于方法，获取所有未序列化的属性
 ```java
 public class Example {
