@@ -390,7 +390,7 @@ public class PersonIgnoreType {
 ## 读注解
 >读注解只有在<u>反序列化</u>时生效
 
-#### @JsonSetter
+### @JsonSetter
 `@JsonSetter` 将 `setter方法` 的名称与 JSON 数据中的属性名匹配
 
 ```json
@@ -426,11 +426,8 @@ public class Person {
 }
 ```
 
-@JsonSetter注解中指定的值是要与此setter方法匹配的JSON字段的名称。 在这种情况下，名称为id，因为这是我们要映射到setPersonId()setter方法的JSON对象中字段的名称。
-
-#### 2、@JsonAnySetter
-
-Jackson注解@JsonAnySetter表示Jackson为JSON对象中所有无法识别的字段调用相同的setter方法。 “无法识别”是指尚未映射到Java对象中的属性或设置方法的所有字段。
+### @JsonAnySetter
+`@JsonAnySetter` 表示Jackson为JSON对象中所有无法识别的字段调用相同的setter方法。 “无法识别”是指尚未映射到Java对象中的属性或设置方法的所有字段。
 
 看一下这个Bag类：
 
