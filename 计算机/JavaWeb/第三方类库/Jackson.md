@@ -268,14 +268,25 @@ JsonNode carJsonNode = objectMapper.readValue(carJson, JsonNode.class);
 Car car = objectMapper.treeToValue(carJsonNode);
 ```
 
-## ObjectNode
->[!hint] JsonNode 是不可修改的，所以引入 ObjectNode，ObjectNode 是 JsonNode 的子类
+## ObjectNode 子树模型
+>[!hint] JsonNode 里的属性是不可修改的，所以引入 ObjectNode，ObjectNode 是 JsonNode 的子类
 
 - 创建 ObjectNode
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
  
 ObjectNode objectNode = objectMapper.createObjectNode();
+```
+
+- 修改
+```java
+// 创建ObjectMapper，并利用其创建ObjectNode
+ObjectMapper objectMapper = new ObjectMapper();
+ObjectNode parentNode = objectMapper.createObjectNode();
+
+JsonNode childNode = readJsonIntoJsonNode();
+ 
+parentNode.set("child1", childNode);
 ```
 
 
