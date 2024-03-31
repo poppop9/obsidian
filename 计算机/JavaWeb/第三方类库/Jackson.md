@@ -306,30 +306,6 @@ while(fieldNames.hasNext()) {
 ```
 
 # 注解
-- `@JsonProperty` 在序列化时，转换属性的名称
-```java
-@JsonProperty("birth_date")
-private Date birthDate;
-```
----
-- `@JsonFormat` 在序列化时，转换属性/方法返回值的格式
-```java
-@JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm")
-public Date getBirthDate()
-```
----
-- `@JsonPropertyOrder` 用于类，指定属性在序列化时 JSON 中的顺序
-```java
-@JsonPropertyOrder({ "birth_date", "name" }) 
-public class Person
-```
----
-- `@JsonCreator` 用于有参构造方法，和 `@JsonProperty` 配合使用
-```java
-@JsonCreator 
-public Person(@JsonProperty("name") String name) {…}
-```
----
 - `@JsonAnySetter` 用于属性或者方法，接收未知属性的键值对
 ```java
 // 如果 JSON 中包含了额外属性，这些额外属性会被动态地添加到Map集合中
@@ -427,6 +403,30 @@ public class Person {
 ## 写注解
 >写注解只有在<u>序列化</u>时生效
 
+### @JsonProperty
+ `@JsonProperty` 在序列化时，会转换属性的名称
+ 
+```java
+@JsonProperty("birth_date")
+private Date birthDate;
+```
+
+### @JsonFormat
+`@JsonFormat` 在序列化时，转换属性/方法返回值的格式
+
+```java
+@JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm")
+public Date getBirthDate()
+```
+
+### @JsonPropertyOrder
+`@JsonPropertyOrder` 用于类，指定属性在序列化时 JSON 中的顺序
+
+```java
+@JsonPropertyOrder({ "birth_date", "name" }) 
+public class Person
+```
+
 ### @JsonRawValue
 `@JsonRawValue` 会使该属性值直接写入 JSON ，而不是加 `""`
 
@@ -468,48 +468,6 @@ public class PersonRawValue {
     "no": 1
   }
 }
-```
-
-#### @JsonValue
-@JsonValue告诉Jackson，Jackson不应该尝试序列化对象本身，而应在对象上调用将对象序列化为JSON字符串的方法。 
-
-请注意，Jackson将在自定义序列化返回的String内转义任何引号，因此不能返回例如 完整的JSON对象。 为此，应该改用@JsonRawValue（请参阅上一节）。
-
-@JsonValue注解已添加到Jackson调用的方法中，以将对象序列化为JSON字符串。 这是显示如何使用@JsonValue注解的示例：
-
-```java
-public class PersonValue {
-    public long personId = 0;
-    public String name = null;
-
-    @JsonValue
-    public String toJson() {
-        return this.personId + "," + this.name;
-    }
-}
-```
-
-要求Jackson序列化PersonValue对象所得到的输出是：
-```csharp
-"0,null"
-```
-
-引号由Jackson添加。 请记住，对象返回的值字符串中的所有引号均会转义。
-
-#### 7、@JsonSerialize
-
-@JsonSerialize Jackson注解用于为Java对象中的字段指定自定义序列化程序。 这是一个使用@JsonSerialize注解的Java类示例：
-
-```java
-public class PersonSerializer {     public long   personId = 0;    public String name     = "John";     @JsonSerialize(using = OptimizedBooleanSerializer.class)    public boolean enabled = false;}复制代码
-```
-
-注意启用字段上方的@JsonSerialize注解。
-
-OptimizedBooleanSerializer将序列的真值序列化为1，将假值序列化为0。这是代码：
-
-```scala
-public class OptimizedBooleanSerializer extends JsonSerializer<Boolean> {     @Override    public void serialize(Boolean aBoolean, JsonGenerator jsonGenerator,         SerializerProvider serializerProvider)     throws IOException, JsonProcessingException {         if(aBoolean){            jsonGenerator.writeNumber(1);        } else {            jsonGenerator.writeNumber(0);        }    }}复制代码
 ```
 
 
