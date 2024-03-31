@@ -18,7 +18,7 @@ tags: [excalidraw]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.25",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.26",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -92,8 +92,7 @@ tags: [excalidraw]
 			"verticalAlign": "middle",
 			"containerId": "CEyhPBewk7iLQy-6uLu6w",
 			"originalText": "普通模式",
-			"lineHeight": 1.25,
-			"baseline": 18
+			"lineHeight": 1.25
 		},
 		{
 			"type": "rectangle",
@@ -167,13 +166,12 @@ tags: [excalidraw]
 			"verticalAlign": "middle",
 			"containerId": "-kps3yN4SlBMgzxqEgeos",
 			"originalText": "插入模式",
-			"lineHeight": 1.25,
-			"baseline": 18
+			"lineHeight": 1.25
 		},
 		{
 			"type": "arrow",
-			"version": 46,
-			"versionNonce": 1519130393,
+			"version": 50,
+			"versionNonce": 2047082478,
 			"isDeleted": false,
 			"id": "6w9Ii75uXYcDlz8fgGWni",
 			"fillStyle": "solid",
@@ -195,7 +193,7 @@ tags: [excalidraw]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1711633663419,
+			"updated": 1711897703096,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -224,7 +222,7 @@ tags: [excalidraw]
 		}
 	],
 	"appState": {
-		"theme": "light",
+		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
