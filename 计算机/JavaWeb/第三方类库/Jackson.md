@@ -199,7 +199,6 @@ try {
 ```
 
 ### 浏览树模型
-显示了如何，数组和嵌套对象：
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
 
@@ -219,12 +218,14 @@ try {
     JsonNode doorsNode = jsonNode.get("doors");
     int doors = doorsNode.asInt();
     System.out.println("doors = " + doors);
- 
+
+	// 访问 JSON 数组
     JsonNode array = jsonNode.get("owners");
     JsonNode jsonNode = array.get(0);
     String john = jsonNode.asText();
     System.out.println("john  = " + john);
- 
+
+	// 访问 JSON 嵌套对象
     JsonNode child = jsonNode.get("nestedObject");
     JsonNode childField = child.get("field");
     String field = childField.asText();
@@ -235,8 +236,21 @@ try {
 }
 ```
 
+### Java 对象 -> JsonNode
+```java
+ObjectMapper objectMapper = new ObjectMapper();
 
+Car car = new Car();
+car.brand = "Cadillac";
+car.doors = 4;
 
+JsonNode carJsonNode = objectMapper.valueToTree(car);
+```
+
+### JsonNode -> Java 对象
+```java
+
+```
 
 
 
