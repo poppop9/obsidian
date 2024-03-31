@@ -14,7 +14,7 @@
 # ObjectMapper
 > ObjectMapper 可以序列化和反序列化 JSON
 
-## JSON -> Java 对象
+## JSON 字符串 -> Java 对象
 ```java
 // Car 类
 public class Car {
@@ -42,12 +42,22 @@ try {
 ```
 
 >[!hint] Jackson 如何匹配 JSON 字段和 Java 对象的属性
+>- JSON 字段中的 `brand` 与Java 对象中的 `getBrand()` ，`setBrand()` 匹配
+>
+>>如果需要以其他方式将 JSON 字段与 Java 对象属性匹配，需要使用自定义序列化器和反序列化器，或者使用 Jackson 注解
 
-默认情况下，Jackson通过将JSON字段的名称与Java对象中的getter和setter方法进行匹配，将JSON对象的字段映射到Java对象中的属性。 Jackson删除了getter和setter方法名称的“ get”和“ set”部分，并将其余名称的第一个字符转换为小写。
+## JSON 输入流 -> Java 对象
+```java
+ObjectMapper objectMapper = new ObjectMapper();
+ 
+String carJson = "{ \"brand\" : \"Mercedes\", \"doors\" : 4 }";
+Reader reader = new StringReader(carJson);
+ 
+Car car = objectMapper.readValue(reader, Car.class);
+```
 
-例如，名为brand的JSON字段与名为getBrand()和setBrand()的Java getter和setter方法匹配。 名为engineNumber的JSON字段将与名为getEngineNumber()和setEngineNumber()的getter和setter匹配。
 
-如果需要以其他方式将JSON对象字段与Java对象字段匹配，则需要使用自定义序列化器和反序列化器，或者使用一些Jackson注解。
+
 
 
 
