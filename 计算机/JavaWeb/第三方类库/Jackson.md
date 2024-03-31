@@ -343,32 +343,33 @@ public void set(String key, Object value) {
 >读写注解表示在序列化，和反序列化时都生效
 
 ### @JsonIgnore
+`@JsonIgnore` 用于忽略 Java 对象的某个属性
 
-@JsonIgnore 用于忽略 Java 对象的某个属性。 在将JSON读取到Java对象中以及将Java对象写入JSON时，都将忽略该属性。
-
-这是使用@JsonIgnore注解的示例：
-
-```kotlin
-import com.fasterxml.jackson.annotation.JsonIgnore; public class PersonIgnore {     @JsonIgnore    public long  personId = 0;     public String name = null;}复制代码
+```java
+public class PersonIgnore {
+	// 不会从JSON读取属性personId，和写入JSON属性personId
+    @JsonIgnore
+    public long personId = 0;
+    public String name = null;
+}
 ```
 
-在上面的类中，不会从JSON读取或写入JSON属性personId。
+### @JsonIgnoreProperties
+`@JsonIgnoreProperties` 用于指定要忽略的类的属性列表
 
-#### 2、@JsonIgnoreProperties
-
-@JsonIgnoreProperties Jackson注解用于指定要忽略的类的属性列表。 @JsonIgnoreProperties注解放置在类声明上方，而不是要忽略的各个属性（字段）上方。
-
-这是如何使用@JsonIgnoreProperties注解的示例：
-
-```kotlin
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties; @JsonIgnoreProperties({"firstName", "lastName"})public class PersonIgnoreProperties {     public long   personId = 0;     public String  firstName = null;    public String  lastName  = null; }复制代码
+```java
+// 属性 firstName 和 lastName 都将被忽略
+@JsonIgnoreProperties({"firstName", "lastName"})
+public class PersonIgnoreProperties {
+    public long personId = 0;
+    public String firstName = null;
+    public String lastName = null;
+}
 ```
 
-在此示例中，属性firstName和lastName都将被忽略，因为它们的名称在类声明上方的@JsonIgnoreProperties注解声明内列出。
+#### @JsonIgnoreType
 
-#### 3、@JsonIgnoreType
-
-@JsonIgnoreType Jackson注解用于将整个类型（类）标记为在使用该类型的任何地方都将被忽略。
+`@JsonIgnoreType` 用于将整个类标记为在使用该类型的任何地方都将被忽略。
 
 这是一个示例，展示如何使用@JsonIgnoreType注解：
 
