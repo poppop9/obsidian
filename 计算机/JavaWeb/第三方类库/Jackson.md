@@ -14,6 +14,11 @@
 # ObjectMapper
 > ObjectMapper 可以序列化和反序列化 JSON
 
+>[!hint] 有时候，JSON 中的字段非常冗余，我们只需要将一小部分字段写入到 Java 对象中。这时，可以忽略额外的字段：
+> ```java
+>objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+> ```
+
 ## JSON -> Java 对象
 ### JSON 字符串 -> Java 对象
 ```java
@@ -125,12 +130,9 @@ String jsonObject = "{\"brand\":\"ford\", \"doors\":5}";
 Map<String, Object> jsonMap = objectMapper.readValue(jsonObject, new TypeReference<Map<String,Object>>(){});
 ```
 
----
 
-有时候，JSON 中的字段非常冗余，我们只需要一小部分写入到 Java 对象中。这时，可以忽略这些额外的字段：
-```java
-objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-```
+
+
 
 
 
