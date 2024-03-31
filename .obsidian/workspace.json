@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
+                "file": "计算机/JavaWeb/第三方类库/Jackson.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
+                "file": "计算机/JavaWeb/第三方类库/Jackson.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
+                "file": "计算机/JavaWeb/第三方类库/Jackson.md"
               }
             }
           },
@@ -205,15 +205,16 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "Excalidraw/计算机/JavaWeb Draw.md",
+    "计算机/JavaWeb/第三方类库/OKHttp.md",
+    "计算机/JavaWeb/第三方类库/Jackson.md",
     "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/计算机.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
-    "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/编程语言/Java/06 集合.md",
     "Excalidraw/计算机/Linux Draw.md",
     "Excalidraw/计算机/编程语言/Java Draw.md",
@@ -231,7 +232,6 @@
     "计算机/Git.md",
     "计算机/编程语言/Java/16 反射.md",
     "计算机/Linux/Vim.md",
-    "计算机/Linux.md",
     "计算机/Linux/新建文本文档.txt",
     "计算机/Linux",
     "计算机/新建文件夹",

@@ -3360,8 +3360,8 @@ c55036c91201fbc8c6c653b23bbeb2830365a00e: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "text",
-			"version": 286,
-			"versionNonce": 1428395302,
+			"version": 287,
+			"versionNonce": 21284420,
 			"isDeleted": false,
 			"id": "ncspQEL8",
 			"fillStyle": "hachure",
@@ -3383,7 +3383,7 @@ c55036c91201fbc8c6c653b23bbeb2830365a00e: https://obsidian-1307744200.cos.ap-gua
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1711720901277,
+			"updated": 1711851961812,
 			"link": null,
 			"locked": false,
 			"fontSize": 11.33503675987851,
@@ -3395,7 +3395,7 @@ c55036c91201fbc8c6c653b23bbeb2830365a00e: https://obsidian-1307744200.cos.ap-gua
 			"containerId": null,
 			"originalText": "Bean对象",
 			"lineHeight": 1.2,
-			"baseline": 10
+			"baseline": 9
 		},
 		{
 			"type": "image",
