@@ -391,27 +391,39 @@ public class PersonIgnoreType {
 >读注解只有在<u>反序列化</u>时生效
 
 #### @JsonSetter
-`@JsonSetter` 用于将 JSON 读入对象时，应将此setter方法的名称与JSON数据中的属性名称匹配。 如果Java类内部使用的属性名称与JSON文件中使用的属性名称不同，这个注解就很有用了。
+`@JsonSetter` 将 `setter方法` 的名称与 JSON 数据中的属性名匹配
 
-以下Person类用personId名称对应JSON中名为id的字段：
-```typescript
-public class Person {     private long   personId = 0;    private String name     = null;     public long getPersonId() { return this.personId; }    public void setPersonId(long personId) { this.personId = personId; }     public String getName() { return name; }    public void setName(String name) { this.name = name; }}复制代码
+```json
+{
+  "id": 1234,
+  "name": "John"
+}
 ```
 
-但是在此JSON对象中，使用名称id代替personId：
-
-```cobol
-{  "id"   : 1234,  "name" : "John"}复制代码
-```
-
-Jackson无法将id属性从JSON对象映射到Java类的personId字段。
-
-@JsonSetter注解指示Jackson为给定的JSON字段使用setter方法。 在我们的示例中，我们在setPersonId()方法上方添加@JsonSetter注解。
-
-这是添加@JsonSetter注解的实例：
-
 ```typescript
-public class Person {     private long   personId = 0;    private String name     = null;     public long getPersonId() { return this.personId; }    @JsonSetter("id")    public void setPersonId(long personId) { this.personId = personId; }     public String getName() { return name; }    public void setName(String name) { this.name = name; }}复制代码
+import com.fasterxml.jackson.annotation.JsonSetter;
+
+public class Person {
+    private long personId = 0;
+    private String name = null;
+
+    public long getPersonId() {
+        return this.personId;
+    }
+
+    @JsonSetter("id")
+    public void setPersonId(long personId) {
+        this.personId = personId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
 ```
 
 @JsonSetter注解中指定的值是要与此setter方法匹配的JSON字段的名称。 在这种情况下，名称为id，因为这是我们要映射到setPersonId()setter方法的JSON对象中字段的名称。
