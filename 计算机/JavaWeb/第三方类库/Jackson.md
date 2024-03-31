@@ -278,11 +278,11 @@ ObjectMapper objectMapper = new ObjectMapper();
 ObjectNode objectNode = objectMapper.createObjectNode();
 ```
 
-- 修改
+- 添加 / 修改
 ```java
+// 如果ObjectNode中没有 'field1' 字段，那就向 `ObjectNode` 中添加一个 "field1" 字段，并将字符串 "value1" 作为它的值
+// 如果ObjectNode中存在 'field1' 字段，那就修改其值
 objectNode.put("field1", "value1");
-objectNode.put("field2", 123);
-objectNode.put("field3", 999.999);
 ```
 
 
