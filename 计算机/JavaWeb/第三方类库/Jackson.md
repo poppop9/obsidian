@@ -427,7 +427,7 @@ public class Person {
 ```
 
 ### @JsonAnySetter
-`@JsonAnySetter` 表示Jackson为JSON对象中所有无法识别的字段调用相同的setter方法。 “无法识别”是指尚未映射到Java对象中的属性或设置方法的所有字段。
+`@JsonAnySetter` 为JSON对象中所有无法识别的字段调用相同的setter方法。 “无法识别”是指尚未映射到Java对象中的属性或设置方法的所有字段。
 
 看一下这个Bag类：
 
