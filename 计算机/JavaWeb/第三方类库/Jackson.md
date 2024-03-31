@@ -426,43 +426,30 @@ public class Person {
 }
 ```
 
-### @JsonAnySetter
-`@JsonAnySetter` 为JSON对象中所有无法识别的字段调用相同的setter方法。 “无法识别”是指尚未映射到Java对象中的属性或设置方法的所有字段。
+#### @JsonCreator
+@JsonCreator用于告诉Jackson该Java对象具有一个构造函数（“创建者”），该构造函数可以将JSON对象的字段与Java对象的字段进行匹配
 
-看一下这个Bag类：
-
-```typescript
-public class Bag {     private Map<String, Object> properties = new HashMap<>();     public void set(String fieldName, Object value){        this.properties.put(fieldName, value);    }     public Object get(String fieldName){        return this.properties.get(fieldName);    }}复制代码
-```
-
-然后查看此JSON对象：
-
-```cobol
-{  "id"   : 1234,  "name" : "John"}复制代码
-```
-
-Jackson无法直接将此JSON对象的id和name属性映射到Bag类，因为Bag类不包含任何公共字段或setter方法。
-
-可以通过添加@JsonAnySetter注解来告诉Jackson为所有无法识别的字段调用set()方法，如下所示：
-
-```typescript
-public class Bag {     private Map<String, Object> properties = new HashMap<>();     @JsonAnySetter    public void set(String fieldName, Object value){        this.properties.put(fieldName, value);    }     public Object get(String fieldName){        return this.properties.get(fieldName);    }}复制代码
-```
-
-现在，Jackson将使用JSON对象中所有无法识别的字段的名称和值调用set()方法。
-
-请记住，这仅对无法识别的字段有效。 例如，如果您向Bag Java类添加了公共名称属性或setName（String）方法，则JSON对象中的名称字段将改为映射到该属性/设置器。
-
-#### 3、@JsonCreator
-
-Jackson注解@JsonCreator用于告诉Jackson该Java对象具有一个构造函数（“创建者”），该构造函数可以将JSON对象的字段与Java对象的字段进行匹配。
-
-@JsonCreator注解在无法使用@JsonSetter注解的情况下很有用。 例如，不可变对象没有任何设置方法，因此它们需要将其初始值注入到构造函数中。
+@JsonCreator注解在无法使用@JsonSetter注解的情况下很有用。 例如，不可变对象没有任何设置方法，因此它们需要将其初始值注入到构造函数中
 
 以这个PersonImmutable类为例：
-
 ```csharp
-public class PersonImmutable {     private long   id   = 0;    private String name = null;     public PersonImmutable(long id, String name) {        this.id = id;        this.name = name;    }     public long getId() {        return id;    }     public String getName() {        return name;    } }复制代码
+public class PersonImmutable {
+    private long id = 0;
+    private String name = null;
+
+    public PersonImmutable(long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+}
 ```
 
 要告诉Jackson应该调用PersonImmutable的构造函数，我们必须在构造函数中添加@JsonCreator注解。 但是，仅凭这一点还不够。 我们还必须注解构造函数的参数，以告诉Jackson将JSON对象中的哪些字段传递给哪些构造函数参数。
