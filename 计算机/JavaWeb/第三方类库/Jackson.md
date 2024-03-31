@@ -85,6 +85,25 @@ URL url = new URL("http://jenkov.com/some-data.json");
 Car car = objectMapper.readValue(url, Car.class);
 ```
 
+## JSON 二进制数组 -> Java 对象
+```java
+ObjectMapper objectMapper = new ObjectMapper();
+ 
+String carJson = "{ \"brand\" : \"Mercedes\", \"doors\" : 5 }";
+ 
+byte[] bytes = carJson.getBytes("UTF-8");
+ 
+Car car = objectMapper.readValue(bytes, Car.class);
+```
+
+## JSON 字符串数组 -> Java 对象数组
+```java
+ObjectMapper objectMapper = new ObjectMapper();
+
+String jsonArray = "[{\"brand\":\"ford\"}, {\"brand\":\"Fiat\"}]";
+
+Car[] cars2 = objectMapper.readValue(jsonArray, Car[].class);
+```
 
 
 
