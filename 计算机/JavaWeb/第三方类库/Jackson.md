@@ -47,16 +47,43 @@ try {
 >>如果需要以其他方式将 JSON 字段与 Java 对象属性匹配，需要使用自定义序列化器和反序列化器，或者使用 Jackson 注解
 
 ## JSON 输入流 -> Java 对象
+- 字节流
+```java
+ObjectMapper objectMapper = new ObjectMapper();
+ 
+InputStream input = new FileInputStream("data/car.json");
+ 
+Car car = objectMapper.readValue(input, Car.class);
+```
+
+- 字符流
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
  
 String carJson = "{ \"brand\" : \"Mercedes\", \"doors\" : 4 }";
 Reader reader = new StringReader(carJson);
- 
+
 Car car = objectMapper.readValue(reader, Car.class);
 ```
 
+## JSON 文件 -> Java 对象
+- 本机文件
+```java
+ObjectMapper objectMapper = new ObjectMapper();
+ 
+File file = new File("data/car.json");
+ 
+Car car = objectMapper.readValue(file, Car.class);
+```
 
+- 网络文件
+```java
+ObjectMapper objectMapper = new ObjectMapper();
+ 
+URL url = new URL("http://jenkov.com/some-data.json");
+ 
+Car car = objectMapper.readValue(url, Car.class);
+```
 
 
 
