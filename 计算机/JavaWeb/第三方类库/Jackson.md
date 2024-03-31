@@ -308,31 +308,43 @@ while(fieldNames.hasNext()) {
 ```
 
 # 注解
-- `@JsonProperty`
-    - 用于属性，把属性的名称序列化时转换为另外一个名称。示例：  
-        `@JsonProperty("birth_date")`  
-        `private Date birthDate;`
-- `@JsonFormat`
-    - 用于属性或者方法，把属性的格式序列化时转换成指定的格式。示例：  
-        `@JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm")`  
-        `public Date getBirthDate()`
-- `@JsonPropertyOrder`
-    - 用于类， 指定属性在序列化时 JSON 中的顺序。 示例：  
-        `@JsonPropertyOrder({ "birth_date", "name" })`  
-        `public class Person`
-- `@JsonCreator`
-    - 用于构造方法，和 `@JsonProperty` 配合使用，适用有参数的构造方法。 示例：  
-        `@JsonCreator`  
-        `public Person(@JsonProperty("name")String name) {…}`
-- `@JsonAnySetter`
-    - 用于属性或者方法，设置未反序列化的属性名和值作为键值存储到 Map 中。  
-        `@JsonAnySetter`  
-        `public void set(String key, Object value) {`  
-        `map.put(key, value);`  
-        `}`
-- `@JsonAnyGetter`
-    - 用于方法，获取所有未序列化的属性。  
-        `public Map<String, Object> any() { return map; }`
+- `@JsonProperty` 把属性的名称序列化时转换为另外一个名称
+```java
+@JsonProperty("birth_date")
+private Date birthDate;
+```
+
+- `@JsonFormat` 用于属性或者方法，把属性的格式序列化时转换成指定的格式
+```java
+@JsonFormat(timezone = "GMT+8", pattern = "yyyy-MM-dd HH:mm")
+public Date getBirthDate()
+```
+
+- `@JsonPropertyOrder` 用于类，指定属性在序列化时 JSON 中的顺序
+```java
+@JsonPropertyOrder({ "birth_date", "name" }) 
+public class Person
+```
+
+- `@JsonCreator` 用于构造方法，和 @JsonProperty 配合使用，适用有参数的构造方法
+```java
+@JsonCreator 
+public Person(@JsonProperty("name") String name) {…}
+```
+
+- `@JsonAnySetter` 用于属性或者方法，设置未反序列化的属性名和值作为键值存储到 Map 中
+```java
+@JsonAnySetter 
+public void set(String key, Object value) {   
+	map.put(key, value); 
+}
+```
+
+- `@JsonAnyGetter` 用于方法，获取所有未序列化的属性
+```java
+public Map<String, Object> any() { return map; }
+```
+
 
 
 ### Read + Write注解
