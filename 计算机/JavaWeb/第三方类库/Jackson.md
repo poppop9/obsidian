@@ -185,7 +185,7 @@ System.out.println(json);
 >- 不知道接收到的 JSON 格式
 >- 不想多创建一个类
 
-使用 ObjectMapper 将 JSON 解析为 JsonNode 树模型：
+### 创建树模型
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
 
@@ -198,8 +198,8 @@ try {
 }
 ```
 
-
-将 JSON 解析为 JsonNode 后，就可以浏览JsonNode树模型。 这是一个JsonNode示例，显示了如何访问 JSON 字段，数组和嵌套对象：
+### 浏览树模型
+显示了如何，数组和嵌套对象：
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
 
@@ -210,7 +210,8 @@ String carJson =
 
 try {
     JsonNode jsonNode = objectMapper.readValue(carJson, JsonNode.class);
- 
+
+	// 访问 JSON 字段
     JsonNode brandNode = jsonNode.get("brand");
     String brand = brandNode.asText();
     System.out.println("brand = " + brand);
