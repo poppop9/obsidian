@@ -201,8 +201,15 @@ try {
 ```
 
 ### 浏览树模型
-- `JsonNode.get("字段名")` <u>根据字段名</u>获取 JSON 的字段
-- 
+- 获取字段
+	- `JsonNode.get("字段名")` <u>根据字段名</u>获取 JSON 的字段
+	- `JsonNode.at("JSON 路径")` 根据路径获取 JSON 的字段【例如 `/nestedObject/value`】
+- 获取字段里的内容
+	- `jsonNode.get("字段名").asText();` 获取对应字段的内容为 `String`
+	- `jsonNode.get("字段名").asDouble();` 获取对应字段的内容为 `double`
+	- `jsonNode.get("字段名").asInt();` 获取对应字段的内容为 `int`
+	- `jsonNode.get("字段名").asLong();` 获取对应字段的内容为 `long`
+
 
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
