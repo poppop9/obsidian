@@ -427,8 +427,8 @@ public class Person {
 ## 写注解
 >写注解只有在<u>序列化</u>时生效
 
-#### @JsonRawValue
-@JsonRawValue 告诉Jackson该属性值应直接写入JSON输出。 如果该属性是字符串，Jackson通常会将值括在引号中，但是如果使用@JsonRawValue属性进行注解，Jackson将不会这样做
+### @JsonRawValue
+`@JsonRawValue` 会使该属性值直接写入 JSON ，而不是加 `""`
 
 ```java
 public class PersonRawValue {
@@ -453,26 +453,14 @@ public class PersonRawValue {
 {"personId":0,"address":$#}
 ```
 
-为什么要这么做 
-
-如果address属性包含一个JSON字符串，那么该JSON字符串将被序列化为最终的JSON对象，作为JSON对象结构的一部分，而不仅是序列化为JSON对象的address字段中的字符串。
-
-要查看其工作原理，让我们像下面这样更改address属性的值：
-
-```swift
-import com.fasterxml.jackson.annotation.JsonRawValue;
-
+```java
 public class PersonRawValue {
     public long personId = 0;
     @JsonRawValue
     public String address = "{\"street\":\"Wall Street\",\"no\":1}";
 }
 
-```
-
-Jackson会将其序列化为以下JSON：
-
-```cobol
+---
 {
   "personId": 0,
   "address": {
@@ -482,30 +470,28 @@ Jackson会将其序列化为以下JSON：
 }
 ```
 
-请注意，JSON字符串现在如何成为序列化JSON结构的一部分。
+#### @JsonValue
+@JsonValue告诉Jackson，Jackson不应该尝试序列化对象本身，而应在对象上调用将对象序列化为JSON字符串的方法。 
 
-没有@JsonRawValue注解，Jackson会将对象序列化为以下JSON：
-
-```swift
-{"personId":0,"address":"{ \"street\" : \"Wall Street\", \"no\":1}"}复制代码
-```
-
-请注意，address属性的值现在如何用引号引起来，并且值内的所有引号均被转义。
-
-#### 6、@JsonValue
-
-Jackson注解@JsonValue告诉Jackson，Jackson不应该尝试序列化对象本身，而应在对象上调用将对象序列化为JSON字符串的方法。 请注意，Jackson将在自定义序列化返回的String内转义任何引号，因此不能返回例如 完整的JSON对象。 为此，应该改用@JsonRawValue（请参阅上一节）。
+请注意，Jackson将在自定义序列化返回的String内转义任何引号，因此不能返回例如 完整的JSON对象。 为此，应该改用@JsonRawValue（请参阅上一节）。
 
 @JsonValue注解已添加到Jackson调用的方法中，以将对象序列化为JSON字符串。 这是显示如何使用@JsonValue注解的示例：
 
-```typescript
-public class PersonValue {     public long   personId = 0;    public String name = null;     @JsonValue    public String toJson(){        return this.personId + "," + this.name;    } }复制代码
+```java
+public class PersonValue {
+    public long personId = 0;
+    public String name = null;
+
+    @JsonValue
+    public String toJson() {
+        return this.personId + "," + this.name;
+    }
+}
 ```
 
 要求Jackson序列化PersonValue对象所得到的输出是：
-
 ```csharp
-"0,null"复制代码
+"0,null"
 ```
 
 引号由Jackson添加。 请记住，对象返回的值字符串中的所有引号均会转义。
