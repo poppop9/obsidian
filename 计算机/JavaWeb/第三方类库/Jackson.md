@@ -150,8 +150,31 @@ String json = objectMapper.writeValueAsString(car);
 System.out.println(json);
 ```
 
+>[!warning] Jackson 的日期转换
+>Jackson 默认会将 `java.util.Date` 对象序列化为 `long` 毫秒数。但是，我们大多数时候希望能将 `java.util.Date` 转换为日期格式的字符串
 
+- 默认
+```java
+ObjectMapper objectMapper = new ObjectMapper();
 
+Transaction transaction = new Transaction("transfer", new Date());
+
+String output = objectMapper.writeValueAsString(transaction);
+System.out.println(output);
+```
+
+- 改进
+```java
+ObjectMapper objectMapper = new ObjectMapper();
+
+Transaction transaction = new Transaction("transfer", new Date());
+
+SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+objectMapper.setDateFormat(dateFormat);
+
+String output2 = objectMapper.writeValueAsString(transaction);
+System.out.println(output2);
+```
 
 
 
