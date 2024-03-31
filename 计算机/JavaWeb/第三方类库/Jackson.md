@@ -14,7 +14,8 @@
 # ObjectMapper
 > ObjectMapper 可以序列化和反序列化 JSON
 
-## JSON 字符串 -> Java 对象
+## JSON -> Java 对象
+### JSON 字符串 -> Java 对象
 ```java
 // Car 类
 public class Car {
@@ -46,7 +47,7 @@ try {
 >
 >>如果需要以其他方式将 JSON 字段与 Java 对象属性匹配，需要使用自定义序列化器和反序列化器，或者使用 Jackson 注解
 
-## JSON 输入流 -> Java 对象
+### JSON 输入流 -> Java 对象
 - 字节流
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
@@ -66,7 +67,7 @@ Reader reader = new StringReader(carJson);
 Car car = objectMapper.readValue(reader, Car.class);
 ```
 
-## JSON 文件 -> Java 对象
+### JSON 文件 -> Java 对象
 - 本机文件
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
@@ -85,7 +86,7 @@ URL url = new URL("http://jenkov.com/some-data.json");
 Car car = objectMapper.readValue(url, Car.class);
 ```
 
-## JSON 二进制数组 -> Java 对象
+### JSON 二进制数组 -> Java 对象
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
  
@@ -96,7 +97,7 @@ byte[] bytes = carJson.getBytes("UTF-8");
 Car car = objectMapper.readValue(bytes, Car.class);
 ```
 
-## JSON 字符串数组 -> Java 对象数组
+### JSON 字符串数组 -> Java 对象数组
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
 
@@ -105,12 +106,32 @@ String jsonArray = "[{\"brand\":\"ford\"}, {\"brand\":\"Fiat\"}]";
 Car[] cars2 = objectMapper.readValue(jsonArray, Car[].class);
 ```
 
+## JSON -> 集合
+### JSON 字符串数组 -> List
+```java
+ObjectMapper objectMapper = new ObjectMapper();
 
+String jsonArray = "[{\"brand\":\"ford\"}, {\"brand\":\"Fiat\"}]";
+ 
+List<Car> cars1 = objectMapper.readValue(jsonArray, new TypeReference<List<Car>>(){});
+```
 
+### JSON 字符串数组 -> Map
+```java
+ObjectMapper objectMapper = new ObjectMapper();
 
+String jsonObject = "{\"brand\":\"ford\", \"doors\":5}";
+ 
+Map<String, Object> jsonMap = objectMapper.readValue(jsonObject, new TypeReference<Map<String,Object>>(){});
+```
 
+---
 
+有时候，JSON 中的字段非常冗余，我们只需要一小部分写入到 Java 对象中。这时，可以使用 Jackson 配置忽略这些额外的字段。 以下是配置Jackson ObjectMapper忽略未知字段的示例：
 
+```cobol
+objectMapper.configure(    DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);复制代码
+```
 
 
 
