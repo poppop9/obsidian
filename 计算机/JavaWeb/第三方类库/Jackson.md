@@ -6,10 +6,8 @@
 </dependency>
 ```
 
-# 基本概念
 - 序列化：将 Java 对象转换为 Json 格式的字符串
 - 反序列化：将 JSON 格式的字符串转换回对应的 Java 对象
-
 
 # ObjectMapper
 > ObjectMapper 可以序列化和反序列化 JSON
@@ -178,14 +176,14 @@ System.out.println(json);
 > System.out.println(output2);
 > ```
 
-## JsonNode 树模型
+# JsonNode 树模型
 >树模型 由 JsonNode 类表示，可用于表示 JSON 对象
 
 >[!hint] 什么时候使用<u>树模型</u> ?
 >- 不知道接收到的 JSON 格式
 >- 不想多创建一个类
 
-### 创建树模型
+## 创建树模型
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
 
@@ -198,7 +196,7 @@ try {
 }
 ```
 
-### 浏览树模型
+## 浏览树模型
 - 获取字段
 	- `JsonNode.get("字段名")` <u>根据字段名</u>获取 JSON 的字段
 	- `JsonNode.at("JSON 路径")` 根据路径获取 JSON 的字段【例如 `/nestedObject/value`】
@@ -246,7 +244,7 @@ try {
 }
 ```
 
-### Java 对象 -> JsonNode
+## Java 对象 -> JsonNode
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
 
@@ -257,7 +255,7 @@ car.doors = 4;
 JsonNode carJsonNode = objectMapper.valueToTree(car);
 ```
 
-### JsonNode -> Java 对象
+## JsonNode -> Java 对象
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
 
@@ -268,7 +266,7 @@ JsonNode carJsonNode = objectMapper.readValue(carJson, JsonNode.class);
 Car car = objectMapper.treeToValue(carJsonNode);
 ```
 
-## ObjectNode 子树模型
+# ObjectNode 子树模型
 >[!hint] JsonNode 里的属性是不可修改的，所以引入 ObjectNode，ObjectNode 是 JsonNode 的子类
 
 - 创建 ObjectNode
@@ -353,7 +351,7 @@ public class Example {
 ```
 
 ### Read + Write注解
-Jackson包含一组注解，这些注解会影响从JSON读取Java对象以及将Java对象写入JSON。 我将这些注解称为“读+写注解”。 以下各节将更详细地介绍Jackson的读写注解。
+Jackson包含一组注解，这些注解会影响从JSON读取Java对象以及将Java对象写入JSON。 我将这些注解称为“读+写注解”
 
 #### 1、@JsonIgnore
 
