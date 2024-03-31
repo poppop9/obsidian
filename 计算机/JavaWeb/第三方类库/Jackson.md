@@ -424,93 +424,21 @@ public class Person {
 }
 ```
 
-#### @JsonCreator
-@JsonCreator 使构造函数可以将 JSON 对象的字段与 Java 对象的字段进行匹配
-
-@JsonCreator注解在无法使用@JsonSetter注解的情况下很有用。例如，不可变对象没有任何设置方法，因此它们需要将其初始值注入到构造函数中
-
-```csharp
-public class PersonImmutable {
-    private long id = 0;
-    private String name = null;
-
-    public PersonImmutable(long id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-}
-```
-
-```typescript
-public class PersonImmutable {
-    private long id = 0;
-    private String name = null;
-
-    @JsonCreator
-    public PersonImmutable(@JsonProperty("id") long id, @JsonProperty("name") String name) {
-        this.id = id;
-        this.name = name;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-}
-```
-
-```cobol
-{
-  "id": 1234,
-  "name": "John"
-}
-```
-
-#### 4、@JacksonInject
-
-Jackson注解@JacksonInject用于将值注入到解析的对象中，而不是从JSON中读取这些值。 例如，假设正在从各种不同的源下载Person JSON对象，并且想知道给定Person对象来自哪个源。 源本身可能不包含该信息，但是可以让Jackson将其注入到根据JSON对象创建的Java对象中。
-
-要将Java类中的字段标记为需要由Jackson注入其值的字段，请在该字段上方添加@JacksonInject注解。
-
-这是一个示例PersonInject类，在属性上方添加了@JacksonInject注解：
-
-```java
-public class PersonInject {     public long   id   = 0;    public String name = null;     @JacksonInject    public String source = null; }复制代码
-```
-
-为了让Jackson将值注入属性，需要在创建Jackson ObjectMapper时做一些额外的工作。
-
-这是让Jackson将值注入Java对象的过程：
-
-```vbnet
-InjectableValues inject = new InjectableValues.Std().addValue(String.class, "jenkov.com");PersonInject personInject = new ObjectMapper().reader(inject)                        .forType(PersonInject.class)                        .readValue(new File("data/person.json"));复制代码
-```
-
-请注意，如何在InjectableValues addValue()方法中设置要注入到source属性中的值。 还要注意，该值仅绑定到字符串类型-而不绑定到任何特定的字段名称。 @JacksonInject注解指定将值注入到哪个字段。
-
-如果要从多个源下载人员JSON对象，并为每个源注入不同的源值，则必须为每个源重复以上代码。
-
-#### 5、@JsonDeserialize
-
-Jackson注解@JsonDeserialize用于为Java对象中给定的属性指定自定义反序列化器类。
+#### @JsonDeserialize
+@JsonDeserialize用于为Java对象中给定的属性指定自定义反序列化器类
 
 例如，假设想优化布尔值false和true的在线格式，使其分别为0和1。
 
 首先，需要将@JsonDeserialize注解添加到要为其使用自定义反序列化器的字段。 这是将@JsonDeserialize注解添加到字段的示例：
 
 ```java
-public class PersonDeserialize {     public long    id      = 0;    public String  name    = null;     @JsonDeserialize(using = OptimizedBooleanDeserializer.class)    public boolean enabled = false;}复制代码
+public class PersonDeserialize {
+    public long id = 0;
+    public String name = null;
+
+    @JsonDeserialize(using = OptimizedBooleanDeserializer.class)
+    public boolean enabled = false;
+}
 ```
 
 其次，这是@JsonDeserialize注解中引用的OptimizedBooleanDeserializer类的实例：
