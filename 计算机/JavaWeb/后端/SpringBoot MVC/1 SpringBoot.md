@@ -546,9 +546,9 @@ public class UserController {
 >[!hint] 对象在 IOC 容器中叫 Bean 对象，Bean 对象的名称默认是***类名首字母小写***
 
 - ***添加***`@Component`***注释***【如果某个类不属于以下三类，但是也想交给IOC处理时使用】
-	- 如果是控制器类上就用`@Controller`
-	- 如果是逻辑处理Service类就用`@Service`
-	- 如果是访问Dao类上就用`@Repository`，==如果Dao层中需要使用MyBatis，那要将`@Repository`注解改为`@Mapper`==
+	- 如果是控制器类上就用 `@Controller`
+	- 如果是逻辑处理 Service 实现类就用 `@Service`
+	- 如果是访问 Dao 类上就用 `@Repository`【如果 Dao 层中需要使用MyBatis，那要将 `@Repository` 注解改为 `@Mapper` 】
 
 ### 依赖注入 DI
 >容器为应用程序提供运行时所依赖的资源【容器为EmpController提供运行时所需要的EmpService对象】

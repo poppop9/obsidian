@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md"
+    },
+    {
       "basename": "OKHttp",
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Jackson",
       "path": "计算机/JavaWeb/第三方类库/Jackson.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md"
     },
     {
       "basename": "Maven",
