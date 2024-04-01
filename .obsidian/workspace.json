@@ -60,12 +60,17 @@
             "id": "15c2a3a18cd1e1e2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "计算机/JavaWeb/后端/Maven.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -159,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/06 集合.md"
+                "file": "计算机/JavaWeb/后端/Maven.md"
               }
             }
           },
@@ -169,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/06 集合.md"
+                "file": "计算机/JavaWeb/后端/Maven.md"
               }
             }
           },
@@ -201,8 +206,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "8230ab99a40b226c",
+  "active": "15c2a3a18cd1e1e2",
   "lastOpenFiles": [
+    "Excalidraw/计算机/Linux Draw.md",
+    "计算机/编程语言/Java/06 集合.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/第三方类库/Jackson.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
@@ -213,8 +220,6 @@
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
-    "计算机/编程语言/Java/06 集合.md",
-    "Excalidraw/计算机/Linux Draw.md",
     "Excalidraw/计算机/编程语言/Java Draw.md",
     "计算机/编程语言/Java/07 异常.md",
     "计算机/Linux/1 权限，基础操作.md",
