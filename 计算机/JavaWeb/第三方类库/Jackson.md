@@ -323,6 +323,14 @@ while(fieldNames.hasNext()) {
 ## 通用注解
 >通用注解表示在序列化，和反序列化时都生效
 
+### @JsonProperty
+ `@JsonProperty` 会匹配类属性名，和 JSON 字段名
+ 
+```java
+@JsonProperty("birth_date")
+private Date birthDate;
+```
+
 ### @JsonIgnore
 `@JsonIgnore` 用于忽略 Java 对象的某个属性
 
@@ -418,14 +426,6 @@ public void set(String key, Object value) {
 
 ## 序列化注解
 >序列化注解只有在<u>序列化</u>时生效
-
-### @JsonProperty
- `@JsonProperty` 在序列化时，会转换属性的名称
- 
-```java
-@JsonProperty("birth_date")
-private Date birthDate;
-```
 
 ### @JsonFormat
 `@JsonFormat` 在序列化时，转换属性/方法返回值的格式
