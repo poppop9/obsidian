@@ -64,7 +64,7 @@ public class SpringAopApplication {
 	- `@ComponentScan(……)` 表示扫描包的范围【默认是扫描当前包及其子包】
 
 ## 条件装配
-`org.springframework.boot.autoconfigure.AutoConfiguration.imports` 文件里所有的配置类基本都不是一次性就直接装配到 IOC 容器中的，都是***条件装配的***
+`org.springframework.boot.autoconfigure.AutoConfiguration.imports` 文件里所有的配置类基本都不是一次性就直接装配到 IOC 容器中的，都是**条件装配的**
 
 ### 条件装配注释树
 - `@Conditional` 条件装配的父注解【可以加在类，方法上】

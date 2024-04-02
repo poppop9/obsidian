@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Jackson.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/06 集合.md",
+                "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Jackson.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Jackson.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md"
               }
             }
           },
@@ -207,18 +207,21 @@
   },
   "active": "d9f37405f40d6c99",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md",
+    "计算机/JavaWeb/后端/SpringBoot MVC/4 登录认证.md",
+    "计算机/JavaWeb/后端/SpringBoot MVC/5 事务管理，AOP.md",
+    "计算机/JavaWeb/后端/SpringBoot MVC/6 测试.md",
+    "计算机/JavaWeb/后端/SpringBoot MVC/2 MyBatis.md",
+    "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
+    "计算机/JavaWeb/第三方类库/Jackson.md",
+    "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
+    "计算机/编程语言/Java/06 集合.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "临时笔记/草稿纸.md",
-    "计算机/JavaWeb/后端/SpringBoot MVC/4 登录认证.md",
-    "计算机/JavaWeb/第三方类库/Jackson.md",
-    "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
-    "计算机/JavaWeb/后端/SpringBoot MVC/6 测试.md",
     "计算机/JavaWeb/后端/Maven.md",
     "Excalidraw/计算机/Linux Draw.md",
-    "计算机/编程语言/Java/06 集合.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
-    "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/计算机.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
@@ -231,9 +234,6 @@
     "科技美学/软件.md",
     "计算机/JavaWeb/第三方类库",
     "计算机/JavaWeb/Untitled.md",
-    "计算机/Linux/3 杂.md",
-    "计算机/Linux/2 Vim.md",
-    "临时笔记/MarkDown语法.md",
     "计算机/Linux/新建文本文档.txt",
     "计算机/Linux",
     "计算机/新建文件夹",
