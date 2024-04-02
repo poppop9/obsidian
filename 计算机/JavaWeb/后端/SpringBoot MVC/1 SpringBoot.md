@@ -424,7 +424,7 @@ public Result<List<Address>> list() {
 ```
 ## 分层
 ### Dao
->Dao层的作用是获取数据【文件数据，xml数据，json数据等】，==在MyBatis中叫Mapper==
+>Dao 层的作用是获取数据【文件数据，xml 数据，json 数据等】，==在 MyBatis 中叫 Mapper==
 
 ```java
 package com.example.web_2.Dao;  
@@ -448,7 +448,7 @@ public class EmpDaoA implements EmpDao {
 ```
 
 ### Service
->Sevice层的作用对数据进行处理，然后返回给Controller类
+>Sevice 层的作用对数据进行处理，然后返回给 Controller 类
 
 ```java
 package com.example.web_2.Service;  
@@ -481,7 +481,7 @@ public class EmpServiceA implements EmpServie {
 ```
 
 ### Controller
->Controller的作用是获取来自Service类发来的数据，响应数据给前端
+>Controller 的作用是获取来自 Service 类发来的数据，响应数据给前端
 
 ```java
 package com.example.web_2.Controller;  
@@ -513,8 +513,9 @@ json：
     ]
 }
 ```
+
 #### 公共路径
->在类的头部指定`@RequestMapping`注解
+>在类的头部指定 `@RequestMapping` 注解
 
 ```java
 @RestController  
@@ -535,32 +536,34 @@ public class UserController {
     }  
 }
 ```
+
 ## 解耦
->以上的分层方式，实现了***高内聚***，但是依然没有实现***低耦合***【Controller中还是有依赖Service，Service还是有依赖Dao】
+>以上的分层方式，实现了***高内聚***，但是依然没有实现***低耦合***【Controller 中还是有依赖 Service，Service 还是有依赖 Dao】
 >![[Excalidraw/计算机/JavaWeb Draw.md#^group=g1pvEhriTd5poW0zM1k4o|500]]
->EmpController需要EmpService，那我们可以把EmpService放到IOC容器里，然后EmpController需要时就到容器中取
+>EmpController 需要 EmpService，那我们可以把 EmpService 放到 IOC 容器里，然后 EmpController 需要时就到容器中取
 
 ### 控制反转 IOC
->对象的创建控制权由程序自身转移到容器【本身由EmpController自身创建EmpService对象，变为由容器创建对象】
+>对象的创建控制权由程序自身转移到容器【本身由 EmpController 自身创建EmpService 对象，变为由容器创建对象】
 
->[!hint] 对象在 IOC 容器中叫 Bean 对象，Bean 对象的名称默认是***类名首字母小写***
+>[!hint] 对象在 IOC 容器中叫 Bean 对象，Bean 对象的名称默认是**类名首字母小写**
 
-- ***添加***`@Component`***注释***【如果某个类不属于以下三类，但是也想交给IOC处理时使用】
+- ***添加*** `@Component` ***注释***【如果某个类不属于以下三类，但是也想交给IOC处理时使用】
 	- 如果是控制器类上就用 `@Controller`
 	- 如果是逻辑处理 Service 实现类就用 `@Service`
 	- 如果是访问 Dao 类上就用 `@Repository`【如果 Dao 层中需要使用MyBatis，那要将 `@Repository` 注解改为 `@Mapper` 】
 
 ### 依赖注入 DI
->容器为应用程序提供运行时所依赖的资源【容器为EmpController提供运行时所需要的EmpService对象】
+>容器为应用程序提供运行时所依赖的资源【容器为 EmpController 提供运行时所需要的 EmpService 对象】
 
-- ***添加***`@Autowired`***注释***【通过类型注入==单个注解中的单个依赖==】
-- 添加`@Primary`注释【通过类型注入==多个注解中的单个依赖==】
+- ***添加*** `@Autowired` ***注释***【通过类型注入==单个注解中的单个依赖==】
+- 添加 `@Primary` 注释【通过类型注入==多个注解中的单个依赖==】
 	```java
 	package com.example.web_2.Service;  
 	  
 	@Service
 	public class EmpServiceA implements EmpServie {……}
 	```
+	
 	```java
 	package com.example.web_2.Service;  
 	  
@@ -568,7 +571,8 @@ public class UserController {
 	@Service  
 	public class EmpServiceB implements EmpServie {……}
 	```
-- 添加`@Qualifier`注释【通过类型注入==多个注解中的单个依赖==】
+
+- 添加 `@Qualifier` 注释【通过类型注入==多个注解中的单个依赖==】
 	```java
 	package com.example.web_2.Controller;  
 	
@@ -585,7 +589,8 @@ public class UserController {
 		}  
 	}
 	```
-- 添加`@Resource`注释【通过名称注入依赖】
+
+- 添加 `@Resource` 注释【通过名称注入依赖】
 	```java
 	package com.example.web_2.Controller;  
 	
@@ -796,7 +801,7 @@ public class Test2 {
 
 # 依赖
 ## lombok
->Lombok是一种Java库，它通过注解的方式来简化Java类的编写，提高代码的可读性和简洁性
+>Lombok 是第三方库，它通过注解的方式来简化 Java 类的编写，提高代码的可读性和简洁性
 
 ### 引入lombok依赖
 ```xml  

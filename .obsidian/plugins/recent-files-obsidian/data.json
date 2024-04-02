@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "1 SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md"
+    },
+    {
+      "basename": "2 MyBatis",
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/2 MyBatis.md"
+    },
+    {
+      "basename": "配置优先级，Bean管理",
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md"
+    },
+    {
+      "basename": "6 测试",
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/6 测试.md"
+    },
+    {
+      "basename": "5 事务管理，AOP",
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/5 事务管理，AOP.md"
+    },
+    {
+      "basename": "3 文件上云",
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/3 文件上云.md"
+    },
+    {
       "basename": "1 基础概念",
       "path": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
     },
@@ -9,28 +33,8 @@
       "path": "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md"
     },
     {
-      "basename": "配置优先级，Bean管理",
-      "path": "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md"
-    },
-    {
       "basename": "4 登录认证",
       "path": "计算机/JavaWeb/后端/SpringBoot MVC/4 登录认证.md"
-    },
-    {
-      "basename": "5 事务管理，AOP",
-      "path": "计算机/JavaWeb/后端/SpringBoot MVC/5 事务管理，AOP.md"
-    },
-    {
-      "basename": "6 测试",
-      "path": "计算机/JavaWeb/后端/SpringBoot MVC/6 测试.md"
-    },
-    {
-      "basename": "2 MyBatis",
-      "path": "计算机/JavaWeb/后端/SpringBoot MVC/2 MyBatis.md"
-    },
-    {
-      "basename": "1 SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md"
     },
     {
       "basename": "Jackson",
@@ -195,10 +199,6 @@
     {
       "basename": "前后端开发规范",
       "path": "计算机/JavaWeb/前后端开发规范.md"
-    },
-    {
-      "basename": "Java 语法糖",
-      "path": "计算机/编程语言/Java 语法糖.md"
     }
   ],
   "omittedPaths": [],
