@@ -18,7 +18,7 @@ tags: [excalidraw]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.26",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.1",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -170,8 +170,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "arrow",
-			"version": 58,
-			"versionNonce": 252246994,
+			"version": 62,
+			"versionNonce": 1154306095,
 			"isDeleted": false,
 			"id": "6w9Ii75uXYcDlz8fgGWni",
 			"fillStyle": "solid",
@@ -193,7 +193,7 @@ tags: [excalidraw]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1711983493467,
+			"updated": 1712031408975,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -222,7 +222,7 @@ tags: [excalidraw]
 		}
 	],
 	"appState": {
-		"theme": "dark",
+		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",

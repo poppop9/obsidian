@@ -201,8 +201,8 @@
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
       "command-palette:打开命令面板": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "remotely-save:Remotely Save": false
     }
   },
   "active": "d9f37405f40d6c99",
