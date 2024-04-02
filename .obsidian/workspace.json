@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md"
+                "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md"
+                "file": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
               }
             }
           },
@@ -205,8 +206,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d9f37405f40d6c99",
+  "active": "8230ab99a40b226c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/5 事务管理，AOP.md",
@@ -233,7 +235,6 @@
     "计算机/JavaWeb/第三方类库/第三方类库.md",
     "科技美学/软件.md",
     "计算机/JavaWeb/第三方类库",
-    "计算机/JavaWeb/Untitled.md",
     "计算机/Linux/新建文本文档.txt",
     "计算机/Linux",
     "计算机/新建文件夹",

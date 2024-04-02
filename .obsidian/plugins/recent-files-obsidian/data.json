@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "1 基础概念",
+      "path": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
+    },
+    {
       "basename": "SpringBoot 原理",
       "path": "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "Jackson",
       "path": "计算机/JavaWeb/第三方类库/Jackson.md"
-    },
-    {
-      "basename": "1 基础概念",
-      "path": "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md"
     },
     {
       "basename": "06 集合",
