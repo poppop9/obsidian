@@ -294,6 +294,23 @@ static class GistFile {
 }
 ```
 
+# 发送 WebSocket 请求
+>[!quote] 什么是 WebSocket ？
+>WebSocket 是一种<u>低延迟</u>，<u>全双工</u>，<u>持久的</u>连接协议
+
+>[!quote] 全双工
+>通信的双方可以同时发送和接收数据，不需要等待对方的响应或传输完成
+
+
+
+
+
+
+
+
+
+
+
 
 
 
