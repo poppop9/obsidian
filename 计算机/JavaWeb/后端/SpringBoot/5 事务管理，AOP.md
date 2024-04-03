@@ -120,7 +120,7 @@ public void AfterReturning(JoinPoint joinPoint) {
 - `execution((方法修饰符) 返回值 包名.类名.方法名(方法参数) (throws 异常))`
 	- `*` 可以通配任意类型的一个参数，`execution(* 包名.类名.update*(*)` 匹配任意返回值的，指定包名类名下，以 `update` 开头的只能有一个任意类型参数的方法
 	- `..` 通配任意数量的任意类型参数，`execution(* com..类名.update(..)` 匹配任意返回值的，com包下任意层级的指定类名的 `update(..)` 方法
-- `@annotation(……)` ***用于标识带有特定注解的方法***
+- `@annotation(……)` **用于标识带有特定注解的方法**
 
 >[!hint] 多个表达式条件可以使用 `+` 连接
 
@@ -170,7 +170,7 @@ public class TimeAspect {
 
 ## 例子
 ### 计算各个方法的耗时
-- 创建 aop 包，aop 类【`Component`，`Aspect`，`Around`】
+- 创建 aop 包，aop 类
 ```java
 package com.example.spring_aop.aop;
 
@@ -179,7 +179,7 @@ package com.example.spring_aop.aop;
 public class TimeAspect {
 	// 拦截 com.example.spring_aop.controller 包下的所有类的所有方法，并且这些方法可以有任意数量的参数（..），且方法的返回值可以任意（*）
     @Around("execution(* com.example.spring_aop.controller.*.*(..))")
-    // 原始方法执行可能有返回值，所以定义返回值为Object
+    // 原始方法执行可能有返回值，所以定义返回值为 Object
     public Object recordTime(ProceedingJoinPoint joinPoint) throws Throwable {
         // 记录开始时间
         long start = System.currentTimeMillis();
