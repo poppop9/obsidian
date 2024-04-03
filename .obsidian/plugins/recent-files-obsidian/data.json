@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "7 定时任务",
+      "path": "计算机/JavaWeb/后端/SpringBoot MVC/7 定时任务.md"
+    },
+    {
       "basename": "1 SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1 基础概念知识",
       "path": "计算机/四大件/计算机网络/1 基础概念知识.md"
-    },
-    {
-      "basename": "前后端开发规范",
-      "path": "计算机/JavaWeb/前后端开发规范.md"
     }
   ],
   "omittedPaths": [],
