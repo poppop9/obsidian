@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md"
               }
             }
           },
@@ -207,13 +207,13 @@
   },
   "active": "d9f37405f40d6c99",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/7 定时任务.md",
-    "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
-    "计算机/JavaWeb/后端/SpringBoot MVC/2 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/6 测试.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/5 事务管理，AOP.md",
+    "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md",
+    "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
+    "计算机/JavaWeb/后端/SpringBoot MVC/2 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/3 文件上云.md",
     "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/4 登录认证.md",
