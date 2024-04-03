@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
       "basename": "配置优先级，Bean管理",
       "path": "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "草稿纸",
       "path": "临时笔记/草稿纸.md"
-    },
-    {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "Linux Draw",

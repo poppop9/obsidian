@@ -129,14 +129,14 @@
 </dependencies>
 ```
 ### 依赖范围
-依赖的jar包，默认作用在***主程序范围***，***测试程序范围***，***参与打包***。也可以通过`<scope>`标签来设置范围
+依赖的 jar 包，默认作用在***主程序范围***，***测试程序范围***，***参与打包***。也可以通过`<scope>`标签来设置范围
 
-|scope值|主程序|测试程序|打包|范例|
-|:-:|:-:|:-:|:-:|:-:|
-|complie【默认】|√|√|√|log4j|
-|test|  |√|  |junit|
-|provided|√|√|  |servlet-api|
-|runtime|  |√|√|JDBC驱动|
+|   scope值    | 主程序 | 测试程序 | 打包  |     范例      |
+| :---------: | :-: | :--: | :-: | :---------: |
+| complie【默认】 |  √  |  √   |  √  |    log4j    |
+|    test     |     |  √   |     |    junit    |
+|  provided   |  √  |  √   |     | servlet-api |
+|   runtime   |     |  √   |  √  |   JDBC 驱动   |
 ```xml
 <dependencies>  
     <dependency>  
@@ -147,8 +147,10 @@
     </dependency>  
 </dependencies>
 ```
+
 ### 生命周期
 >Maven有三套独立的生命周期，每一套都有若干个阶段。***同一套生命周期的阶段具有依赖性，运行后阶段，前阶段也会运行***
+
 #### clean
 1. `pre-clean`
 2. ==clean==：移除上一次构建生成的文件
