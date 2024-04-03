@@ -1,7 +1,7 @@
 # 事务管理
 >与 `Mysql` 中相同，事务是一组操作，要么同时成功，要么同时失败
 
-在接口，类，方法上添加 `@Transactional注解` ，将<u>接口</u>【该接口下的所有实现类的所有方法都是事务】，<u>类</u>【该类下的所有方法都是事务】，<u>方法</u>交给 Spring 进行事务管理
+在接口，类，方法上添加 `@Transactional` ，将<u>接口</u>【该接口下的所有实现类的所有方法都是事务】，<u>类</u>【该类下的所有方法都是事务】，<u>方法</u>交给 Spring 进行事务管理
 
 >[!warning] 事务管理一般添加在 `Service逻辑层`，用于处理多个数据操作
 
@@ -170,7 +170,7 @@ public class TimeAspect {
 
 ## 例子
 ### 计算各个方法的耗时
-- 创建 aop包，aop类【`Component`，`Aspect`，`Around`】
+- 创建 aop 包，aop 类【`Component`，`Aspect`，`Around`】
 ```java
 package com.example.spring_aop.aop;
 
