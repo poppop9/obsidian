@@ -130,11 +130,10 @@ public void AfterReturning(JoinPoint joinPoint) {
 >某个对象里有方法被 AOP 声明为要控制了，那这个对象就是目标对象
 
 ### 通知
-
 >也就是具体的工作内容，要从切入点怎么切入，也就是切面类中定义的方法内容
 
 通知的类型有 <u>5</u> 种：
-- `@Around` 围绕目标方法执行，通知方法在目标方法的前，后都执行。***必须指定返回值为 `Object`，来接收原始方法的返回值***
+- `@Around` 围绕目标方法执行，通知方法在目标方法的前，后都执行。**必须指定返回值为 `Object`，来接收原始方法的返回值**
 - `@Before` 在目标方法执行之前执行
 - `@AfterReturning` 在目标方法正常完成后执行
 - `@After` 在目标方法完成后执行，无论是否发生异常
@@ -157,7 +156,7 @@ public void AfterReturning(JoinPoint joinPoint) {
 当多个切面类中的切入点相同时，<u>默认</u>：在 `Before` 通知类型时优先执行类名靠前的 AOP 类；在 `After` 通知类型时，优先执行类名靠后的 AOP 类
 
 ### 自定义通知顺序
->在 AOP 类前加上 `@Order(*)` 注解，***数字越小，`Before` 通知类型越先执行，`After` 通知类型越后执行***
+>在 AOP 类前加上 `@Order(*)` 注解，**数字越小，`Before` 通知类型越先执行，`After` 通知类型越后执行**
 
 ```java
 @Component  // 交给IOC容器管理
