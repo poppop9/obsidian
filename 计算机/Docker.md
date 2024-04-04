@@ -39,7 +39,7 @@
 - 使用镜像创建，运行容器
 
 ## Docker Compose
->Docker Compose 是可以把<u>一组互相关联的容器</u>【前端，后端，数据库，redis，负载均衡……】组合到一起的工具
+>如果多个容器之间需要相互关联【前端，后端，数据库，redis，负载均衡……】，那么就需要使用 Docker Compose
 
 ## Docker Desktop
 >Docker Desktop = <u>Docker Engine</u> + <u>Docker Build</u> + <u>Docker Extensions</u> + <u>Docker Compose</u>
