@@ -16,12 +16,22 @@ if(关系表达式1){
 	语句体3;
 }
 ```
->如果在if语句中加入return;***会在执行完if语句之后不在向下执行***[^1]
 
-[^1]:就是不在执行根if同级别（同一缩进）下的语句
+## if{…return;}
+>如果在 if 语句中加入`return`,会在执行完 if 语句之后不在执行跟 if 同级别【同一缩进】下的语句
+
+```java
+if() {
+	代码 A;
+	…
+	return;
+}
+代码 B
+```
 
 ## switch语句
 >用表达式的值和case的值做比较，相等就输出对应语句体的内容，然后break结束；不相等就继续向下比较
+
 ```java
 public static void main(String[] args) {  
     switch (1) {  
