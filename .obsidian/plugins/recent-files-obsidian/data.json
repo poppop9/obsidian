@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "职场",
+      "path": "临时笔记/职场.md"
+    },
+    {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
     {
       "basename": "草稿纸",
       "path": "临时笔记/草稿纸.md"
-    },
-    {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "JavaWeb",
@@ -195,10 +199,6 @@
     {
       "basename": "如何使用把笔记同步到Github",
       "path": "临时笔记/如何使用把笔记同步到Github.md"
-    },
-    {
-      "basename": "1 基础概念知识",
-      "path": "计算机/四大件/计算机网络/1 基础概念知识.md"
     }
   ],
   "omittedPaths": [],
