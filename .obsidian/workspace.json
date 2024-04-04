@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/Docker.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -206,8 +205,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d9f37405f40d6c99",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/Maven.md",
     "计算机/Docker.md",
     "计算机/JavaWeb/JavaWeb.md",
@@ -235,7 +235,6 @@
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理.md",
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/JavaWeb/后端/SpringBoot/1 基础概念.md",
-    "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot",
     "计算机/JavaWeb/后端/MVC 架构",
     "计算机/JavaWeb/后端/新建文件夹",
