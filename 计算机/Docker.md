@@ -31,7 +31,7 @@
 >Docker Engine 是 Docker 的核心部分，负责构建和容器化应用程序
 
 ### 容器化的步骤
->[!hint] 什么是 Dockerfile
+>[!quote] Dockerfile
 >Dockerfile 是一个文本文件，里面包含一系列指令，用来告诉 Docker 如何构建镜像
 
 - 创建一个 Dockerfile
