@@ -28,6 +28,8 @@
 ><u>仓库</u> 是用来存储，分享 Docker 镜像的地方【DockerHub……】
 
 ## Docker Engine
+>Docker Engine 是 Docker 的核心部分，负责构建和容器化应用程序
+
 ### 容器化的步骤
 >[!hint] 什么是 Dockerfile
 >Dockerfile 是一个文本文件，里面包含一系列指令，用来告诉 Docker 如何构建镜像
@@ -37,14 +39,14 @@
 - 使用镜像创建，运行容器
 
 ## Docker Compose
->Docker Compose 可以把<u>一组互相关联的容器</u>【前端，后端，数据库，redis，负载均衡……】组合到一起
+>Docker Compose 是可以把<u>一组互相关联的容器</u>【前端，后端，数据库，redis，负载均衡……】组合到一起的工具
 
 ## Docker Desktop
 >Docker Desktop = <u>Docker Engine</u> + <u>Docker Build</u> + <u>Docker Extensions</u> + <u>Docker Compose</u>
 
-Linux上安装的Docker Desktop会在这个Linux的基础上创建一个虚拟机，这个虚拟机是在Docker Desktop中运行的，而不是直接在Linux的Docker引擎上。所以<u>Linux的Docker Engine上部署的镜像和容器</u>与<u>Linux上安装的Docker Desktop里部署的镜像和容器</u>是独立的
+>[!warning] Linux 上安装的 Docker Desktop 会在这个 Linux 的基础上创建一个虚拟机，这个虚拟机是在 Docker Desktop 中运行的，而不是直接在 Linux 的 Docker 引擎上。所以<u>Linux 的 Docker Engine 上部署的镜像和容器</u>与<u> Linux 上安装的 Docker Desktop 里部署的镜像和容器</u>是独立的
 
-Docker Desktop只允许在本机上运行，不允许在虚拟机中运行
+>[!warning] Docker Desktop 只允许在本机中运行，不允许在虚拟机中运行
 
 ### Volumes
 >容器中的数据不会<u>持久化</u>【容器一旦停止，容器的所有数据都会丢失】，而**Volumes** 可以把容器中的指定路径映射到宿主机的某个位置，实现持久化
