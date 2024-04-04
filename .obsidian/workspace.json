@@ -13,7 +13,7 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "计算机/JavaWeb/后端/SpringBoot"
+                "path": "计算机/JavaWeb"
               }
             }
           },
@@ -200,6 +200,10 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/JavaWeb.md",
+    "计算机/编程语言/Java/Java.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
+    "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md",
     "计算机/编程语言/Java/04 Java的基础语法 2.md",
     "计算机/编程语言/Java/03 Java的基础语法 1.md",
     "计算机/编程语言/Java/03 Java的基础语法1.md",
@@ -215,7 +219,6 @@
     "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
-    "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md",
     "计算机/JavaWeb/后端/SpringBoot/6 测试.md",
     "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
@@ -225,12 +228,9 @@
     "计算机/JavaWeb/后端/SpringBoot/1 基础概念.md",
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md",
-    "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot",
-    "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot + MVC.md",
     "计算机/JavaWeb/后端/MVC 架构",
     "计算机/JavaWeb/后端/新建文件夹",
-    "计算机/JavaWeb/后端/SpringBoot MVC/7 定时任务.md",
     "计算机/JavaWeb/第三方类库",
     "计算机/Linux/新建文本文档.txt",
     "计算机/Linux",
