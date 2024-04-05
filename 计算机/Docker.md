@@ -32,8 +32,19 @@
 
 ### Ubuntu
 - 卸载旧版本
+```bash
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
+```
 
+- 卸载映像，容器，卷，网络【如果需要】
+```bash
+# 卸载 Docker Engine、CLI、containerd 和 Docker Compose 包
+sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
 
+# 删除所有映像、容器和卷
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+```
 
 
 ### 容器化的步骤
