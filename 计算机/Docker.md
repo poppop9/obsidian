@@ -49,14 +49,17 @@ sudo rm -rf /var/lib/containerd
 - 使用 apt 存储库安装
 首次安装 Docker Engine 时，需要设置 Docker 存储库【之后，您可以从存储库安装和更新 Docker】
 ```bash
-# Add Docker's official GPG key:
+# 添加 Docker 官方的 GPG 密钥
 sudo apt-get update
 sudo apt-get install ca-certificates curl
+# 在 `/etc/apt/keyrings` 路径下创建目录，用于存放密钥环。`-m 0755` 设置了目录的权限【所有用户都可以读取或者进入该目录，只有拥有者可以写入数据】
 sudo install -m 0755 -d /etc/apt/keyrings
+# 下载密钥并保存到刚刚创建的目录
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+# 修改了 `docker.asc` 文件的权限，使所有用户都可以读取该文件
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 
-# Add the repository to Apt sources:
+# 将版本库添加到 Apt 源
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
