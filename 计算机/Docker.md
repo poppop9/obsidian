@@ -77,6 +77,11 @@ docker version
 sudo docker run hello-world
 ```
 
+- 配置镜像加速
+	- 进入阿里云的容器镜像服务
+```bash
+
+```
 
 
 
