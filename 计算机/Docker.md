@@ -47,7 +47,6 @@ sudo rm -rf /var/lib/containerd
 ```
 
 - 使用 apt 存储库安装
-首次安装 Docker Engine 时，需要设置 Docker 存储库【之后，您可以从存储库安装和更新 Docker】
 ```bash
 # 添加 Docker 官方的 GPG 密钥
 sudo apt-get update
@@ -59,13 +58,28 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 # 修改了 `docker.asc` 文件的权限，使所有用户都可以读取该文件
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 
-# 将版本库添加到 Apt 源
+# 让系统知道从哪里下载Docker，并确保下载的是与系统架构和版本相匹配的Docker版本
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+# 更新系统的软件包列表，这样就可以从新添加的Docker仓库中获取Docker的最新版本
 sudo apt-get update
 ```
+
+- 安装 Docker 包
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# 验证是否安装成功
+docker version
+sudo docker run hello-world
+```
+
+
+
+
 
 ### 容器化的步骤
 >[!quote] Dockerfile
