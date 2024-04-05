@@ -77,11 +77,11 @@ docker version
 sudo docker run hello-world
 ```
 
-- 配置镜像加速
+- 配置镜像加速 https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 	- 进入阿里云的容器镜像服务
-```bash
+	- 进入镜像工具的镜像加速器
+	- 根据操作文档修改
 
-```
 
 
 
