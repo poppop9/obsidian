@@ -31,7 +31,7 @@
 >Docker Engine 是 Docker 的核心部分，负责构建和容器化应用程序
 
 ### Ubuntu
-- 
+- 卸载旧版本
 
 
 
