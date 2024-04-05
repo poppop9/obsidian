@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
+      "basename": "MobaXterm",
+      "path": "计算机/Linux/MobaXterm.md"
+    },
+    {
+      "basename": "3 杂",
+      "path": "计算机/Linux/3 杂.md"
     },
     {
       "basename": "职场",
       "path": "临时笔记/职场.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
     },
     {
       "basename": "草稿纸",
@@ -125,10 +133,6 @@
       "path": "科技美学/软件.md"
     },
     {
-      "basename": "3 杂",
-      "path": "计算机/Linux/3 杂.md"
-    },
-    {
       "basename": "2 Vim",
       "path": "计算机/Linux/2 Vim.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "4 集线器, 交换机, 路由器",
       "path": "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md"
-    },
-    {
-      "basename": "如何使用把笔记同步到Github",
-      "path": "临时笔记/如何使用把笔记同步到Github.md"
     }
   ],
   "omittedPaths": [],
