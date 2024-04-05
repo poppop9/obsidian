@@ -15,11 +15,16 @@
 
 
 # 保存日志
-可以把当前已输出的日志保存到文件
+> 保存日志 就是可以把当前已输出的日志保存到文件
 
-- 右键
-- Save to file
-
+- 第一种
+	- 右键
+	- Save to file
+- 第二种【每次打开这个会话都会自动保存日志】
+	- 选中会话，右键
+	- Edit session
+	- Terminal settings
+	- 勾选 Log terminal output to，然后选中一个文件夹
 
 
 ---
