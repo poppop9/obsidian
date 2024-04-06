@@ -82,6 +82,8 @@ sudo docker run hello-world
 	- 进入镜像工具的镜像加速器
 	- 根据操作文档修改
 
+- 以非 root 用户身份管理 Docker【可以在使用 Docker 命令时，不加 `sudo`】
+
 
 
 
