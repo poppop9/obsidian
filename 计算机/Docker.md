@@ -144,6 +144,15 @@ sudo docker run hello-world
 
 
 ## 操作容器
+```mermaid
+graph LR
+	a[本地镜像]--docker run-->b[容器]
+	b--docker stop-->c[停止容器]
+	c----
+
+```
+
+
 ### docker run
 - `docker run ……参数 镜像名称:[版本号]` 创建并运行一个容器【**版本号不写默认最新版**】
 	- `-d` 在后台运行
@@ -157,9 +166,12 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 
 
 ### docker stop
->docker stop 可以停止一个或多个正在运行的 Docker 容器
+>docker stop 可以停止正在运行的 Docker 容器，**但是容器还在，没有删除**
 
 
+
+### docker start
+> docker start 可以用于启动被停止的 Docker 容器
 
 
 
