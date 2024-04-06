@@ -106,6 +106,10 @@ sudo docker run hello-world
 - 使用 Dockerfile 构建镜像
 - 使用镜像创建，运行容器
 
+### 数据卷
+>[!hint] 在容器内修改文件是很困难的，因为
+
+
 ## Docker Compose
 >如果多个容器之间需要相互关联【前端，后端，数据库，redis，负载均衡……】，那么就需要使用 Docker Compose
 
