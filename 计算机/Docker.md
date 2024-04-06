@@ -148,10 +148,11 @@ sudo docker run hello-world
 graph LR
 	a[本地镜像]--docker run-->b[容器]
 	b--docker stop-->c[停止容器]
-	c----
-
+	c--docker start-->b
+	d[操作者]--docker ps 查看-->f[容器状态]
+	f-->b
+	f-->c
 ```
-
 
 ### docker run
 - `docker run ……参数 镜像名称:[版本号]` 创建并运行一个容器【**版本号不写默认最新版**】
@@ -173,6 +174,9 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 ### docker start
 > docker start 可以用于启动被停止的 Docker 容器
 
+
+### docker ps
+> docker ps 可以列出当前正在运行的 Docker 容器
 
 
 
