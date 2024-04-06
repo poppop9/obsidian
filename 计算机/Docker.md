@@ -186,7 +186,7 @@ graph TB
 	- `--name 容器名字` 设置容器的名字
 	- `-p 主机端口号:容器端口号` 将<u>容器的端口</u>映射到<u>主机的端口</u>
 	- `-e key=value` 配置环境变量【比如 MySQL 的账号密码，时区……】
-	- `-v `
+	- `-v 数据卷名:容器内的目录` 挂载数据卷 ^131b42
 
 ```bash
 docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
@@ -241,7 +241,16 @@ docker exec -it my_container bash
 
 - `docker volume create` 创建数据卷
 
+---
 
+### 挂载数据卷
+[[#^131b42]] ，挂载数据卷时，如果没有数据卷，会自动创建数据卷，**所以 `docker volume create` 一般用不到**
+
+```bash
+docker run -d --name nginx -v html:/usr/share/ nginx
+```
+
+---
 
 - `docker volume ls` 查看所有数据卷
 
