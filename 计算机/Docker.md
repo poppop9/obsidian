@@ -120,7 +120,7 @@ sudo docker run hello-world
 >容器中的数据不会<u>持久化</u>【容器一旦停止，容器的所有数据都会丢失】，而**Volumes** 可以把容器中的指定路径映射到宿主机的某个位置，实现持久化
 
 # Docker 命令
-## 下载，查看镜像
+## 操作镜像
 ### docker pull
 > docker pull 可以从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
 
@@ -128,9 +128,23 @@ sudo docker run hello-world
 
 
 ### docker images
->docker images 可以查看本地
+>docker images 可以列出本地上所有的 Docker 镜像
 
-## docker run
+
+### docker rmi
+>docker rmi 可以删除本地上的镜像
+
+
+
+### docker build
+
+
+
+### docker push
+
+
+## 操作容器
+### docker run
 - `docker run ……参数 镜像名称:[版本号]` 创建并运行一个容器【**版本号不写默认最新版**】
 	- `-d` 在后台运行
 	- `--name 名字` 设置容器的名字
@@ -140,6 +154,11 @@ sudo docker run hello-world
 ```bash
 docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 ```
+
+
+### docker stop
+>docker stop 可以停止一个或多个正在运行的 Docker 容器
+
 
 
 
