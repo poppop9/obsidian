@@ -111,6 +111,8 @@ sudo docker run hello-world
 
 >[!hint] 在容器内修改文件是很困难的，因为从仓库中下载的镜像一般是可运行某个应用程序的最小镜像，不会包括 Vim 编辑器，**所以我们需要用数据卷 Volums** 进行映射，使用宿主机里的 Vim 编辑器进行修改
 
+数据卷默认在宿主机的 `/var/lib/docker/volumes/数据卷名`
+
 ## Docker Compose
 >如果多个容器之间需要相互关联【前端，后端，数据库，redis，负载均衡……】，那么就需要使用 Docker Compose
 
