@@ -239,6 +239,14 @@ docker exec -it my_container bash
 ## 操作数据卷
 >[!warning] 容器创建之后不能再挂载数据卷，只能在 `docker run` 的时候就挂载
 
+```mermaid
+graph LR
+	a[宿主机目录]---->b[数据卷]
+	b---->c[容器内目录]
+```
+
+---
+
 - `docker volume create` 创建数据卷
 
 ---
@@ -247,19 +255,22 @@ docker exec -it my_container bash
 [[#^131b42]] ，挂载数据卷时，如果没有数据卷，会自动创建数据卷，**所以 `docker volume create` 一般用不到**
 
 ```bash
-docker run -d --name nginx -v html:/usr/share/ nginx
+docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
 ```
 
 ---
 
 - `docker volume ls` 查看所有数据卷
 
+---
+
+- `docker volume inspect 数据卷名` 查看某个数据卷的详情【数据卷在宿主机的目录，……】
+
+---
 
 - `docker volume rm` 删除指定数据卷
 
-
-- `docker volume inspect` 查看某个数据卷的详情
-
+---
 
 - `docker volume prune` 清除数据卷
 
