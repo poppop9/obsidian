@@ -261,20 +261,15 @@ docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
 ```
 
 ---
-
-- `docker volume ls` 查看所有数据卷
-
----
-
-- `docker volume inspect 数据卷名` 查看某个数据卷的详情【数据卷在宿主机的目录，……】
+- 查看
+	- `docker volume ls` 查看所有数据卷
+	- `docker volume inspect 数据卷名` 查看某个数据卷的详情【数据卷在宿主机的目录，……】
 
 ---
 
-- `docker volume rm` 删除指定数据卷
-
----
-
-- `docker volume prune` 清除数据卷
+- 删除
+	- `docker volume rm` 删除指定数据卷
+	- `docker volume prune` 删除未使用的数据卷
 
 
 
