@@ -172,7 +172,7 @@ graph TB
 
 - `docker run ……参数 镜像名称:[版本号]` 创建并运行一个容器【**版本号不写默认最新版**】
 	- `-d` 在后台运行
-	- `--name 名字` 设置容器的名字
+	- `--name 容器名字` 设置容器的名字
 	- `-p 主机端口号:容器端口号` 将<u>容器的端口</u>映射到<u>主机的端口</u>
 	- `-e key=value` 配置环境变量【比如 MySQL 的账号密码，时区……】
 
@@ -182,23 +182,29 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 
 
 ### docker stop
->docker stop 可以停止正在运行的 Docker 容器，**但是容器还在，没有删除**
+>`docker stop 容器名` 可以停止正在运行的 Docker 容器，**但是容器还在，没有删除**
 
 
 
 ### docker start
-> docker start 可以用于启动被停止的 Docker 容器
+> `docker start 容器名` 可以启动被停止的 Docker 容器
 
 
 ### docker ps
-> docker ps 可以列出当前正在运行的 Docker 容器
+> `docker ps` 可以列出当前正在运行的 Docker 容器
+
+- 参数
+	- `-a` 查看所有容器【包括停止的】
 
 ### docker rm
 > docker rm 用来删除容器
 
 
 ### docker logs
-> docker logs 用于获取和查看 Docker 容器的日志
+> `docker logs 容器名` 用于获取和查看 Docker 容器的日志
+
+- 参数
+	- `-f` 持续跟进日志
 
 
 ### docker exec
