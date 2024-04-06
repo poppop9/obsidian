@@ -186,6 +186,7 @@ graph TB
 	- `--name 容器名字` 设置容器的名字
 	- `-p 主机端口号:容器端口号` 将<u>容器的端口</u>映射到<u>主机的端口</u>
 	- `-e key=value` 配置环境变量【比如 MySQL 的账号密码，时区……】
+	- `-v `
 
 ```bash
 docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
@@ -236,11 +237,22 @@ docker exec -it my_container bash
 ```
 
 ## 操作数据卷
-- `docker volume create`创建数据卷
-- `docker volume ls`查看所有数据卷
-- `docker volume rm`删除指定数据卷
-- `docker volume inspect`查看某个数据卷的详情
-- `docker volume prune`清除数据卷
+>[!warning] 容器创建之后不能再挂载数据卷，只能在 `docker run` 的时候就挂载
+
+- `docker volume create` 创建数据卷
+
+
+
+- `docker volume ls` 查看所有数据卷
+
+
+- `docker volume rm` 删除指定数据卷
+
+
+- `docker volume inspect` 查看某个数据卷的详情
+
+
+- `docker volume prune` 清除数据卷
 
 
 
