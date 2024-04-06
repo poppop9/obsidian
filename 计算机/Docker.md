@@ -192,3 +192,6 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 ### docker logs
 > docker logs 用于获取和查看 Docker 容器的日志
 
+
+### docker exec
+> docker exec 可以进入到容器的内部，来修改容器

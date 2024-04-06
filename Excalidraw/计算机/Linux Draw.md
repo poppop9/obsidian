@@ -170,8 +170,8 @@ tags: [excalidraw]
 		},
 		{
 			"type": "arrow",
-			"version": 66,
-			"versionNonce": 1918841009,
+			"version": 70,
+			"versionNonce": 317606060,
 			"isDeleted": false,
 			"id": "6w9Ii75uXYcDlz8fgGWni",
 			"fillStyle": "solid",
@@ -193,7 +193,7 @@ tags: [excalidraw]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1712326042614,
+			"updated": 1712371337934,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -222,7 +222,7 @@ tags: [excalidraw]
 		}
 	],
 	"appState": {
-		"theme": "dark",
+		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
