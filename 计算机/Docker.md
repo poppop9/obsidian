@@ -125,9 +125,15 @@ sudo docker run hello-world
 > `docker pull 镜像名` 可以从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
 
 
+### docker save，docker load
+> - `docker save -o 文件名 镜像名` 可以把一个镜像保存为一个 `tar 文件`
+> - `docker load -i 文件名` 可以从文件中导入一个镜像
 
+```bash
+docker save -o my_mysql.tar my_mysql
 
-
+docker load -i my_mysql.tar
+```
 
 ### docker images
 >docker images 可以列出本地上所有的 Docker 镜像
