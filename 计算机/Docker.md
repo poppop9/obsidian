@@ -24,7 +24,7 @@
 >[!quote] 容器
 ><u>容器</u> 是一个运行实例【类似**类与实例的关系**】
 >
->- 容器是一个隔离的环境，我的依赖跟你的依赖不冲突【比如有一个 MySQL 服务，这个服务的内部容器端口永远是 3306，但是我可以使用端口映射创建两个 MySQL 服务，`docker run -p 3306:3306`，`docker run -p 3307:3306`】
+>- <u>容器是一个隔离的环境，我的依赖跟你的依赖不冲突</u>【比如有一个 MySQL 服务，这个服务的内部容器端口永远是 3306，但是我可以使用端口映射创建两个 MySQL 服务，`docker run -p 3306:3306`，`docker run -p 3307:3306`】
 
 >[!quote] 仓库
 ><u>仓库</u> 是用来存储，分享 Docker 镜像的地方【DockerHub……】
@@ -120,13 +120,15 @@ sudo docker run hello-world
 >容器中的数据不会<u>持久化</u>【容器一旦停止，容器的所有数据都会丢失】，而**Volumes** 可以把容器中的指定路径映射到宿主机的某个位置，实现持久化
 
 # Docker 命令
-- `docker run` 创建并运行一个容器
+- `docker run ……参数 镜像名称:版本号` 创建并运行一个容器
 	- `-d` 在后台运行
 	- `--name 名字` 设置容器的名字
 	- `-p 主机端口号:容器端口号` 将<u>容器的端口</u>映射到<u>主机的端口</u>
+	- `-e key=value` 配置环境变量【比如 MySQL 的账号密码，时区……】
 
-
-
+```bash
+docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:tag
+```
 
 
 
