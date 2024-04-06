@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2 Vim",
+      "path": "计算机/Linux/2 Vim.md"
+    },
+    {
+      "basename": "MobaXterm",
+      "path": "计算机/Linux/MobaXterm.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
-    },
-    {
-      "basename": "MobaXterm",
-      "path": "计算机/Linux/MobaXterm.md"
     },
     {
       "basename": "Maven",
@@ -135,10 +139,6 @@
     {
       "basename": "软件",
       "path": "科技美学/软件.md"
-    },
-    {
-      "basename": "2 Vim",
-      "path": "计算机/Linux/2 Vim.md"
     },
     {
       "basename": "Git",
