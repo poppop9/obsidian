@@ -84,10 +84,17 @@ sudo docker run hello-world
 	- 进入镜像工具的镜像加速器
 	- 根据操作文档修改
 
+#### 额外配置
+> 额外的配置可以让我们在使用 Docker 时更加方便
 
+---
 
 - 以非 root 用户身份管理 Docker【可以在使用 Docker 命令时，不加 `sudo`】
+	- 创建 Docker 组 `sudo groupadd docker`
+	- 将用户添加到 docker 组 `sudo usermod -aG docker 用户`
+	- 激活对组的更改 `newgrp docker`
 
+---
 
 
 
