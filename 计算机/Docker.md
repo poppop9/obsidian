@@ -206,7 +206,10 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 	- `-a` 查看所有容器【包括停止的】
 
 ### docker rm
-> docker rm 用来删除容器
+> docker rm 用来删除停止的容器
+
+- 参数
+	- `-f` 强制删除【可以删除正在运行的容器】
 
 
 ### docker logs
