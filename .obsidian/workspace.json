@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/Docker.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "计算机/Linux/1 权限，基础操作.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "计算机/Linux/1 权限，基础操作.md"
               }
             }
           },
@@ -206,10 +205,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/Linux/1 权限，基础操作.md",
     "计算机/Docker.md",
+    "计算机/Linux/1 权限，基础操作.md",
     "临时笔记/MarkDown语法.md",
     "计算机/Linux/MobaXterm.md",
     "计算机/JavaWeb/后端/Maven.md",
