@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/1 权限，基础操作.md",
+                "file": "计算机/Linux/3 杂.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/1 权限，基础操作.md"
+                "file": "计算机/Linux/3 杂.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/1 权限，基础操作.md"
+                "file": "计算机/Linux/3 杂.md"
               }
             }
           },
@@ -205,8 +205,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "10e458ad4488a9ec",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/Linux/1 权限，基础操作.md",
     "计算机/Docker.md",
     "计算机/Linux/MobaXterm.md",
     "计算机/Linux/3 杂.md",
@@ -234,7 +235,6 @@
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot/6 测试.md",
     "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
-    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
     "计算机/JavaWeb/后端/SpringBoot",
     "计算机/JavaWeb/后端/MVC 架构",
     "计算机/JavaWeb/后端/新建文件夹",
