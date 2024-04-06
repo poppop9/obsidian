@@ -208,13 +208,17 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 
 
 ### docker exec
+>[!hint] 容器就是虚拟了一个计算机，我们可以进入容器，去修改里面文件系统中的文件
+
 > `docker exec [参数] 容器名 [命令]` 可以进入到容器的内部，来修改容器
 
 - 参数
 	- `-i` 允许提供输入给容器内部
 	- `-t` 分配一个伪终端
 - 命令
-	- `bash` 在容器中打开一个交互式的bash shell
+	- `bash` 在容器中打开一个交互式的 bash shell
+	- `ls` 查看目录
+	- ……
 
 ```bash
 docker exec -it my_container bash
