@@ -47,16 +47,6 @@
             }
           },
           {
-            "id": "69ff4a06b87c0434",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/Linux Draw.md"
-              }
-            }
-          },
-          {
             "id": "15c2a3a18cd1e1e2",
             "type": "leaf",
             "state": {
@@ -68,8 +58,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "69ff4a06b87c0434",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/Linux Draw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -207,13 +208,14 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/Linux/3 杂.md",
-    "计算机/Linux/1 权限，基础操作.md",
-    "计算机/Docker.md",
+    "计算机/JavaWeb/后端/Maven.md",
+    "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/Linux/MobaXterm.md",
+    "计算机/Linux/1 权限，基础操作.md",
+    "计算机/Linux/3 杂.md",
+    "计算机/Docker.md",
     "临时笔记/职场.md",
     "临时笔记/草稿纸.md",
-    "计算机/JavaWeb/后端/Maven.md",
     "计算机/JavaWeb/JavaWeb.md",
     "计算机/编程语言/Java/Java.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
@@ -234,7 +236,6 @@
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot/6 测试.md",
-    "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md",
     "计算机/JavaWeb/后端/SpringBoot",
     "计算机/JavaWeb/后端/MVC 架构",
     "计算机/JavaWeb/后端/新建文件夹",
