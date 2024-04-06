@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/2 Vim.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/2 Vim.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -206,8 +206,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d9f37405f40d6c99",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/Linux/2 Vim.md",
     "计算机/Linux/MobaXterm.md",
     "计算机/Docker.md",
     "计算机/Linux/1 权限，基础操作.md",
@@ -233,7 +234,6 @@
     "计算机/JavaWeb/后端/SpringBoot MVC/2 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/1 SpringBoot.md",
     "计算机/JavaWeb/后端/SpringBoot MVC/配置优先级，Bean管理.md",
-    "计算机/JavaWeb/后端/SpringBoot MVC/SpringBoot 原理.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot",

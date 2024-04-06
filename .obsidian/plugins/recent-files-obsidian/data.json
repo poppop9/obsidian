@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
       "basename": "2 Vim",
       "path": "计算机/Linux/2 Vim.md"
     },
     {
       "basename": "MobaXterm",
       "path": "计算机/Linux/MobaXterm.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "1 权限，基础操作",
