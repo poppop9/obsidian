@@ -145,13 +145,16 @@ sudo docker run hello-world
 
 ## 操作容器
 ```mermaid
-graph LR
-	a[本地镜像]--docker run-->b[容器]
-	b--docker stop-->c[停止容器]
+graph TB
+	a[本地镜像]--docker run 创建运行-->b[运行中容器]
+
+	subgraph o'ne
+	b--docker stop-->c[停止中容器]
 	c--docker start-->b
 	d[操作者]--docker ps 查看-->f[容器状态]
 	f-->b
 	f-->c
+	b--docker rm-->g[垃圾箱]
 ```
 
 ### docker run
@@ -178,7 +181,8 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 ### docker ps
 > docker ps 可以列出当前正在运行的 Docker 容器
 
-
+### docker rm
+> docker rm 用来删除容器
 
 
 
