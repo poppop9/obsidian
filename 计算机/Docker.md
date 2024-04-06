@@ -235,7 +235,12 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 docker exec -it my_container bash
 ```
 
-
+## 操作数据卷
+- `docker volume create`创建数据卷
+- `docker volume ls`查看所有数据卷
+- `docker volume rm`删除指定数据卷
+- `docker volume inspect`查看某个数据卷的详情
+- `docker volume prune`清除数据卷
 
 
 
