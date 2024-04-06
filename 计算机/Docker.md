@@ -148,13 +148,15 @@ sudo docker run hello-world
 graph TB
 	a[本地镜像]--docker run 创建运行-->b[运行中容器]
 
-	subgraph o'ne
-	b--docker stop-->c[停止中容器]
+	subgraph 容器
+		subgraph 容器状态
+			b--docker stop-->c[停止中容器]
+		end
+	end
+
 	c--docker start-->b
-	d[操作者]--docker ps 查看-->f[容器状态]
-	f-->b
-	f-->c
-	b--docker rm-->g[垃圾箱]
+	d[操作者]--docker ps 查看-->容器状态
+	容器--docker rm-->g[垃圾箱]
 ```
 
 ### docker run
