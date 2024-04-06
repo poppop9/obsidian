@@ -122,7 +122,9 @@ sudo docker run hello-world
 # Docker 命令
 ## 操作镜像
 ### docker pull
-> docker pull 可以从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
+> `docker pull 镜像名` 可以从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
+
+
 
 
 
@@ -132,7 +134,7 @@ sudo docker run hello-world
 
 
 ### docker rmi
->docker rmi 可以删除本地上的镜像
+>`docker rmi 镜像名:版本号` 可以删除本地上的镜像
 
 
 
