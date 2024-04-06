@@ -160,6 +160,8 @@ graph TB
 ```
 
 ### docker run
+>[!hint] 运行 `docker run 镜像名称` 如果本地没有镜像，会自动去镜像仓库下载
+
 - `docker run ……参数 镜像名称:[版本号]` 创建并运行一个容器【**版本号不写默认最新版**】
 	- `-d` 在后台运行
 	- `--name 名字` 设置容器的名字
@@ -187,4 +189,6 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 > docker rm 用来删除容器
 
 
+### docker logs
+> docker logs 用于获取和查看 Docker 容器的日志
 
