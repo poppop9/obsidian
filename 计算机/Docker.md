@@ -30,7 +30,9 @@
 ## Docker Engine
 >Docker Engine 是 Docker 的核心部分，负责构建和容器化应用程序
 
-### Ubuntu
+### 安装 Docker
+>[!hint] 以下配置均在 Ubuntu 中安装
+
 - 卸载旧版本
 ```bash
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
@@ -81,6 +83,8 @@ sudo docker run hello-world
 	- 进入阿里云的容器镜像服务
 	- 进入镜像工具的镜像加速器
 	- 根据操作文档修改
+
+
 
 - 以非 root 用户身份管理 Docker【可以在使用 Docker 命令时，不加 `sudo`】
 
