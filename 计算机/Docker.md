@@ -206,7 +206,7 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 	- `-a` 查看所有容器【包括停止的】
 
 #### docker inspect
-> `docker inspect 容器名` 可以详细的查看某个容器的信息
+> `docker inspect 容器名` 可以详细的查看某个容器的信息【某个容器数据卷挂载的情况……】
 
 ### docker rm
 > docker rm 用来删除停止的容器
