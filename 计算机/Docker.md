@@ -98,9 +98,13 @@ sudo docker run hello-world
 
 ---
 
-### 容器化的步骤
+### 制作镜像
 >[!quote] Dockerfile
 >Dockerfile 是一个文本文件，里面包含一系列指令，用来告诉 Docker 如何构建镜像
+>
+>- 指令
+>	- `FROM` 指定基础镜像
+>	- `ENTRYPOINT` <u>入口命令</u>【应用程序启动的命令，比如 Java 是 `java -jar jar包`】
 
 - 创建一个 Dockerfile
 - 使用 Dockerfile 构建镜像
