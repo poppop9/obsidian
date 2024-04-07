@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "1 CSS初级",
+      "path": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+    },
+    {
+      "basename": "3 CSS高级",
+      "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
+    },
+    {
+      "basename": "2 Vim",
+      "path": "计算机/Linux/2 Vim.md"
+    },
+    {
       "basename": "Bootstrap 简化CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "Docker",
       "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "2 Vim",
-      "path": "计算机/Linux/2 Vim.md"
     },
     {
       "basename": "MobaXterm",
@@ -191,14 +199,6 @@
     {
       "basename": "2 CSS中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
-    },
-    {
-      "basename": "计算机网络 Draw",
-      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
-    },
-    {
-      "basename": "4 集线器, 交换机, 路由器",
-      "path": "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md"
     }
   ],
   "omittedPaths": [],
