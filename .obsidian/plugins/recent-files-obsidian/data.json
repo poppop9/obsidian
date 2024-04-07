@@ -5,6 +5,10 @@
       "path": "计算机/Docker.md"
     },
     {
+      "basename": "02 Java的理论知识",
+      "path": "计算机/编程语言/Java/02 Java的理论知识.md"
+    },
+    {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "云数据中心基础",
       "path": "考试/云数据中心基础.md"
-    },
-    {
-      "basename": "2 CSS中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     }
   ],
   "omittedPaths": [],
