@@ -190,7 +190,7 @@ graph TB
 	- `-p 主机端口号:容器端口号` 将<u>容器的端口</u>映射到<u>主机的端口</u>
 	- `-e key=value` 配置环境变量【比如 MySQL 的账号密码，时区……】
 	- `-v 数据卷名:绝对容器内的目录` 挂载数据卷 ^131b42
-	- `-v 绝对本地目录:绝对容器内的目录` 将容器内目录直接挂载到本地目录【不用数据卷】
+	- `-v 绝对本地目录:绝对容器内的目录` 将容器内目录直接挂载到本地目录【不用数据卷】 ^ca483a
 
 ```bash
 docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
@@ -283,8 +283,11 @@ docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
 	- `docker volume prune` 删除未使用的数据卷
 
 ### 本地目录
-[[^]]
+具体操作：[[#^ca483a]]
 
+```bash
+docker run -d --name mysql -p 3306:3306 -e TZ=Asia/Shanghai -e MYSQL_ROOT_PASSWORD=123 -v ./mysql/data:/var/lib/mysql -v ./mysql/conf:/etc/mysql/conf.d -v ./mysql/init:/docker-entrypoint-initdb.d mysql
+```
 
 
 
