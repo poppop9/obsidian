@@ -104,6 +104,9 @@ sudo docker run hello-world
 >
 >- 指令
 >	- `FROM` 指定基础镜像
+>	- `EVN` 设置环境变量
+>	- `COPY` 拷贝本地文件到镜像目录里，`COPY 本地文件 镜像目录`
+>	- `RUN` 将拷贝的文件在 Linux 里解压缩
 >	- `ENTRYPOINT` <u>入口命令</u>【应用程序启动的命令，比如 Java 是 `java -jar jar包`】
 
 - 创建一个 Dockerfile
