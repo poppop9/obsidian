@@ -198,12 +198,15 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 ### docker start
 > `docker start 容器名` 可以启动被停止的 Docker 容器
 
-
-### docker ps
+### 查看
+#### docker ps
 > `docker ps` 可以列出当前正在运行的 Docker 容器
 
 - 参数
 	- `-a` 查看所有容器【包括停止的】
+
+#### docker inspect
+> `docker inspect 容器名` 可以详细的查看某个容器的信息
 
 ### docker rm
 > docker rm 用来删除停止的容器
@@ -261,6 +264,7 @@ docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
 ```
 
 ---
+
 - 查看
 	- `docker volume ls` 查看所有数据卷
 	- `docker volume inspect 数据卷名` 查看某个数据卷的详情【数据卷在宿主机的目录，……】
