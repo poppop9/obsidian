@@ -148,7 +148,6 @@ sudo docker run hello-world
 ### docker pull
 > `docker pull 镜像名` 可以从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
 
-
 ### docker save，docker load
 > - `docker save -o 文件名 镜像名` 可以把一个镜像保存为一个 `tar 文件`
 > - `docker load -i 文件名` 可以从文件中导入一个镜像
@@ -160,17 +159,20 @@ docker load -i my_mysql.tar
 ```
 
 ### docker images
->docker images 可以列出本地上所有的 Docker 镜像
-
+>`docker images` 可以列出本地上所有的 Docker 镜像
 
 ### docker rmi
 >`docker rmi 镜像名:版本号` 可以删除本地上的镜像
 
-
-
 ### docker build
+> `docker build Dockerfile所在的目录`
 
+- 参数
+	- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
 
+```bash
+docker build -t demo .
+```
 
 ### docker push
 
