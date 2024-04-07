@@ -165,7 +165,7 @@ docker load -i my_mysql.tar
 >`docker rmi 镜像名:版本号` 可以删除本地上的镜像
 
 ### docker build
-> `docker build Dockerfile所在的目录`
+> `docker build Dockerfile所在的目录` 用于根据 Dockerfile 构建镜像
 
 - 参数
 	- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
