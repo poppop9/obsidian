@@ -179,7 +179,7 @@
 	- `.flex-column` 让其子元素垂直排列
 	- `.flex-column-reverse` 让其子元素反向垂直排列
 	- `.flex-row` 让其子元素水平排列
-	- `.flex-row` 让其子元素反向水平排列
+	- `.flex-row-reverse` 让其子元素反向水平排列
 
 ---
 
