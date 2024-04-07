@@ -153,7 +153,7 @@
 
 #### clean
 1. `pre-clean`
-2. ==clean==：移除上一次构建生成的文件
+2. ==clean== 移除上一次构建生成的文件
 3. `post-clean`
 
 #### default
@@ -162,8 +162,8 @@
 3. `generate-sources`：生成源代码，通常是从注解处理器或其他工具生成的代码。
 4. `process-sources`：处理源代码，例如编译、过滤或转换。
 5. `generate-resources`：生成资源文件，例如从非Java源代码生成的文件。
-6. `process-resources`：处理资源文件，例如拷贝到输出目录或对资源文件进行过滤。
-7. ==compile==：把项目的源代码编译为`.class`文件
+6. `process-resources`：处理资源文件，例如拷贝到输出目录或对资源文件进行过滤
+7. ==compile== 把项目的源代码编译为 `.class` 文件
 8. `process-classes`：处理编译后的类文件，例如对字节码进行额外的操作。
 9. `generate-test-sources`：生成测试代码的源代码。
 10. `process-test-sources`：处理测试代码的源代码，例如编译、过滤或转换。
@@ -171,15 +171,15 @@
 12. `process-test-resources`：处理测试使用的资源文件。
 13. `test-compile`：编译测试代码。
 14. `process-test-classes`：处理编译后的测试类文件。
-15. ==test==：运行测试
+15. ==test== 运行测试
 16. `prepare-package`：在打包之前执行任何必要的操作。
-17. ==package==：将编译后的代码打包成可发布的格式【JAR】
+17. ==package== 将编译后的代码打包成可发布的格式【JAR】
 18. `pre-integration-test`：在集成测试之前执行任何必要的操作。
 19. `integration-test`：执行集成测试。
 20. `post-integration-test`：在集成测试之后执行任何必要的操作。
-21. `verify`：对集成测试的结果进行验证。
-22. ==install==：将打包的项目安装到本地仓库，以供其他项目使用
-23. ==deploy==：将最终的包复制到远程仓库，以供其他开发人员和项目使用
+21. `verify` 对集成测试的结果进行验证。
+22. ==install== 将打包的项目安装到本地仓库，以供其他项目使用
+23. ==deploy== 将最终的包复制到远程仓库，以供其他开发人员和项目使用
 
 #### site
 1. `pre-site`：在生成站点之前运行的阶段。在此阶段，可以执行一些准备工作，例如准备生成站点所需的资源或检查先决条件。
@@ -194,7 +194,7 @@
 # Maven 的打包方式
 - `jar` 【默认】Java 应用程序的标准打包格式，内嵌了 Tomcat
 - `war` Web 应用程序的打包格式，需要自己部署到服务器上运行
-- `pom` ***通常用在父级工程或聚合工程中***
+- `pom` **通常用在父级工程或聚合工程中**
 
 # Maven 高级
 ## 分模块设计
