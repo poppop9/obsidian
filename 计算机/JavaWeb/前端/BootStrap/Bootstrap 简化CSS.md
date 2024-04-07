@@ -146,12 +146,12 @@
 </div>
 ```
 
-# Display
+# display
 - `d-none` 隐藏元素，在任何屏幕尺寸下都不可见
 - `d-md-block` 中等屏幕尺寸及以上时显示元素，而在较小的屏幕尺寸下隐藏元素
 - `d-md-flex` display-middle-flex，表示***当屏幕宽度达到中等及以上时，设置弹性容器***
 
-# Position
+# position
 - `.mx-auto` 相当于 `margin-left: auto; margin-right: auto;`
 ---
 - `.fixed-top` 相对于视口将元素定位在顶上
@@ -160,7 +160,7 @@
 	- `sticky-sm-top` 当视口是 sm 或更宽尺寸时，黏着在视口的顶部
 - `.sticky-bottom`
 
-# Float
+# float
 - `.float-start` 使元素向左浮动
 - `.float-end` 使元素向右浮动
 	- `float-sm-end` 在小型屏幕或更宽的屏幕上向右浮动
@@ -190,8 +190,8 @@
 		- `justify-content-around` 在每个 flex 子项目的两侧都添加空间
 		- `justify-content-between` 第一个 flex 子项目的左侧不添加空间，最后一个 flex 子项目的右侧不添加空间，其他都类似 `around`
 	- 自我水平对齐
-		- `ms-auto` 让元素居右对齐
-		- `me-auto` 让元素居左对齐
+		- `ms-auto` 居右对齐
+		- `me-auto` 居左对齐
 	- 单行时的垂直对齐
 		- `.align-items-start`
 		- `.align-items-end`
