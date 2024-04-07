@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
+      "basename": "MarkDown语法",
+      "path": "临时笔记/MarkDown语法.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
@@ -43,14 +51,6 @@
     {
       "basename": "MobaXterm",
       "path": "计算机/Linux/MobaXterm.md"
-    },
-    {
-      "basename": "MarkDown语法",
-      "path": "临时笔记/MarkDown语法.md"
-    },
-    {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "OKHttp",
