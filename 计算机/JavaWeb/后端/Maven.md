@@ -155,6 +155,7 @@
 1. `pre-clean`
 2. ==clean==：移除上一次构建生成的文件
 3. `post-clean`
+
 #### default
 1. `validate`：验证项目是否正确且所有必需的信息可用。
 2. `initialize`：初始化构建状态，例如设置属性或创建目录结构。
