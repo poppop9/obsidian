@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+      "basename": "Bootstrap 简化CSS",
+      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
     },
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
+      "basename": "2 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
       "basename": "3 BootStrap 高级",
@@ -119,10 +123,6 @@
     {
       "basename": "计算机",
       "path": "计算机/计算机.md"
-    },
-    {
-      "basename": "Bootstrap 简化CSS",
-      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
     },
     {
       "basename": "Java Draw",
