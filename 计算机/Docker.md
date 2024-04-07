@@ -114,10 +114,10 @@ sudo docker run hello-world
 
 数据卷默认在宿主机的 `/var/lib/docker/volumes/数据卷名`
 
+>[!hint] 由于数据卷存储在宿主机上的<u>只有 `root 用户` </u>才可以访问的位置，我们频繁修改文件非常不方便，所以**一般我们会使用直接挂载到本地目录**
+
 #### 直接挂载到本地目录
-
-
-
+> 直接挂载到本地目录可以任意指定挂载的地方，方便访问和修改
 
 ## Docker Compose
 >如果多个容器之间需要相互关联【前端，后端，数据库，redis，负载均衡……】，那么就需要使用 Docker Compose
@@ -246,7 +246,8 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
 docker exec -it my_container bash
 ```
 
-## 操作数据卷
+## 挂载
+### 数据卷
 >[!warning] 容器创建之后不能再挂载数据卷，只能在 `docker run` 的时候就挂载
 
 ```mermaid
@@ -263,8 +264,7 @@ graph LR
 
 ---
 
-### 挂载数据卷
-[[#^131b42]] ，挂载数据卷时，如果没有数据卷，会自动创建数据卷，**所以 `docker volume create` 一般用不到**
+- [[#^131b42]] ，挂载数据卷时，如果没有数据卷，会自动创建数据卷，**所以 `docker volume create` 一般用不到**
 
 ```bash
 docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
@@ -282,7 +282,8 @@ docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
 	- `docker volume rm` 删除指定数据卷
 	- `docker volume prune` 删除未使用的数据卷
 
-
+### 本地目录
+[[^]]
 
 
 
