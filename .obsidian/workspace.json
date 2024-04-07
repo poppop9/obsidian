@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS初级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
               }
             }
           },
@@ -206,8 +205,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d9f37405f40d6c99",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "计算机/Linux/2 Vim.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
@@ -233,7 +233,6 @@
     "计算机/编程语言/Java/04 Java的基础语法2.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/DDD 架构/1 基础概念.md",
-    "计算机/JavaWeb/后端/SpringBoot MVC/3 文件上云.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot",
