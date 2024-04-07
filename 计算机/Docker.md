@@ -183,7 +183,8 @@ graph TB
 	- `--name 容器名字` 设置容器的名字
 	- `-p 主机端口号:容器端口号` 将<u>容器的端口</u>映射到<u>主机的端口</u>
 	- `-e key=value` 配置环境变量【比如 MySQL 的账号密码，时区……】
-	- `-v 数据卷名:容器内的目录` 挂载数据卷 ^131b42
+	- `-v 数据卷名:绝对容器内的目录` 挂载数据卷 ^131b42
+	- `-v 绝对本地目录:绝对容器内的目录` 将容器内目录直接挂载到本地目录【不用数据卷】
 
 ```bash
 docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw mysql:5.7
