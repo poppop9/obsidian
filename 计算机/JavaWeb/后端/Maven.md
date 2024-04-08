@@ -196,6 +196,14 @@
 - `war` Web 应用程序的打包格式，需要自己部署到服务器上运行
 - `pom` **通常用在父级工程或聚合工程中**
 
+```java
+// 父工程的pom文件
+<package>pom</package>
+
+// 子模块的pom文件
+<package>jar</package>
+```
+
 # Maven 高级
 ## 分模块设计
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403061147795.png)
