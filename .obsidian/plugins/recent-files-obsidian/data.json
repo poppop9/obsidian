@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "02 Java的理论知识",
+      "path": "计算机/编程语言/Java/02 Java的理论知识.md"
+    },
+    {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "Docker",
       "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "02 Java的理论知识",
-      "path": "计算机/编程语言/Java/02 Java的理论知识.md"
     },
     {
       "basename": "2 BootStrap 中级",
