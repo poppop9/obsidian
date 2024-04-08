@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "1 SpringBoot + MVC",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
+    },
+    {
       "basename": "02 Java的理论知识",
       "path": "计算机/编程语言/Java/02 Java的理论知识.md"
     },
@@ -99,10 +103,6 @@
     {
       "basename": "5 事务管理，AOP",
       "path": "计算机/JavaWeb/后端/SpringBoot/5 事务管理，AOP.md"
-    },
-    {
-      "basename": "1 SpringBoot + MVC",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
     },
     {
       "basename": "SpringBoot 原理",
