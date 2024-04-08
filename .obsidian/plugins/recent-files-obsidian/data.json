@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "7 定时任务",
+      "path": "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md"
+    },
+    {
       "basename": "1 SpringBoot + MVC",
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
     },
@@ -79,10 +83,6 @@
     {
       "basename": "Java",
       "path": "计算机/编程语言/Java/Java.md"
-    },
-    {
-      "basename": "7 定时任务",
-      "path": "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md"
     },
     {
       "basename": "04 Java的基础语法 2",
