@@ -266,6 +266,7 @@
 ```xml
 <packing>pom</packing>
 ```
+
 - 指定 SpringBoot 父工程
 ```xml
 // 这个父工程里面已经对 SpringBoot Web 起步依赖做了统一管理
@@ -308,6 +309,7 @@
 	</dependencies>
 </dependencyManagement>
 ```
+
 - 在子工程中引入
 ```xml
 <dependencies>
@@ -328,6 +330,7 @@
 	<module>blog-management</module>
 </modules>
 ```
+
 - 直接在父工程下执行 `package`
 
 ---
