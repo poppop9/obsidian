@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "05 字符串",
+      "path": "计算机/编程语言/Java/05 字符串.md"
+    },
+    {
       "basename": "7 定时任务",
       "path": "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md"
+    },
+    {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "1 SpringBoot + MVC",
@@ -11,10 +19,6 @@
     {
       "basename": "02 Java的理论知识",
       "path": "计算机/编程语言/Java/02 Java的理论知识.md"
-    },
-    {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "MarkDown语法",
@@ -167,10 +171,6 @@
     {
       "basename": "08 修饰符",
       "path": "计算机/编程语言/Java/08 修饰符.md"
-    },
-    {
-      "basename": "05 字符串",
-      "path": "计算机/编程语言/Java/05 字符串.md"
     },
     {
       "basename": "10 继承",
