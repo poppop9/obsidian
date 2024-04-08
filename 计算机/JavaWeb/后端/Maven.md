@@ -27,7 +27,7 @@
 	    <mirror>
 	      <id>alimaven</id>
 	      <name>aliyun maven</name>
-	      <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+	      <url>……</url>
 		  <mirrorOf>central</mirrorOf>
 	    </mirror>
 	  </mirrors>
@@ -45,7 +45,7 @@
 - 设置-构建-构建工具-Maven
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031421719.png)
 - 设置-构建-构建工具-Maven-runner
-查看jre的配置是否正确
+查看 jre 的配置是否正确
 - 设置-构建-构建工具-compiler-java complier
 配置正确的字节码版本
 ### 配置全局项目【推荐】
@@ -61,14 +61,15 @@
 >Maven是构建和管理Java项目的工具
 ## 作用
 ### 更好的依赖管理
-- 不用手动导入`jar`包，只需在`pom.xml`文件中声明`jar包名`和`对应版本`即可，Maven会自动联网下载
-	- 首先Maven先从本地仓库查找有无这个`jar包`
+- 不用手动导入 `jar` 包，只需在 `pom.xml` 文件中声明 `jar包名` 和 `对应版本` 即可，Maven 会自动联网下载
+	- 首先 Maven 先从本地仓库查找有无这个 `jar包`
 		- 有，则从本地仓库引用
 		- 没有，则从私服仓库下载到本地仓库，然后引用
 			- 若私服仓库没有，则从中央仓库下载到私服仓库，再到本地仓库 
-- 后续需要更新`jar`包的版本也只需要更改声明中的版本号即可，不需要手动连锁改动
+- 后续需要更新 `jar` 包的版本也只需要更改声明中的版本号即可，不需要手动连锁改动
 ### 统一项目结构
->Maven规定了一套统一的Java开发目录，这样***可以让不同开发软件开发出来的项目可以互相移植***
+>Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发软件开发出来的项目可以互相移植**
+
 #### 项目目录结构
 - `Maven-project`
 	- `src`
@@ -85,13 +86,15 @@
 				<artifactId>maven-project_1</artifactId>  //项目名称
 				<version>1.0-SNAPSHOT</version>  //版本号
 				```
+				
 ### 标准的跨平台项目构建化流程
 >对不同平台的***编译，测试，打包等操作***进行了统一标准化
+
 # 依赖管理
 ## 依赖配置
-- 编写dependencies标签
-- 编写dependency标签
-- 去[Maven仓库](https://mvnrepository.com/)找到自己想要引入的依赖，查看三个坐标信息，填写到dependency里
+- 编写 dependencies 标签
+- 编写 dependency 标签
+- 去 [Maven 仓库](https://mvnrepository.com/) 找到自己想要引入的依赖，查看三个坐标信息，填写到 dependency 里
 - 填写完成后点击悬浮的刷新按钮
 ```xml
 <dependencies>    //编写dependencies标签
@@ -129,7 +132,7 @@
 </dependencies>
 ```
 ### 依赖范围
-依赖的 jar 包，默认作用在***主程序范围***，***测试程序范围***，***参与打包***。也可以通过`<scope>`标签来设置范围
+依赖的 jar 包，默认作用在**主程序范围**，**测试程序范围**，**参与打包**。也可以通过`<scope>`标签来设置范围
 
 |   scope值    | 主程序 | 测试程序 | 打包  |     范例      |
 | :---------: | :-: | :--: | :-: | :---------: |
