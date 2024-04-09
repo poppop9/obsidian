@@ -114,6 +114,9 @@ sudo docker run hello-world
 ```dockerfile
 # 定义基础镜像
 FROM openjdk:17-alpine
+# 设置时区
+ENV TZ=Asia/Shanghai
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 # 拷贝 jar 包
 COPY docker-demo.jar /app.jar
 # 入口
@@ -121,7 +124,9 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 ```
 
 - 使用 Dockerfile 构建镜像
-
+```bash
+docker build -t demo:1.0 .
+```
 
 ### 挂载
 >[!hint] 在容器内修改文件是很困难的，因为从仓库中下载的镜像一般是可运行某个应用程序的最小镜像，不会包括 Vim 编辑器，**所以我们需要挂载**，使用宿主机里的 Vim 编辑器进行修改
