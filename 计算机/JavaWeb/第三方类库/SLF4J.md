@@ -50,7 +50,10 @@ SLF4J 只做两件事：
 
 
 
-而slf4j-log4j就是连接slf4j和log4j的桥梁。那么他们是怎么连接的呢？我们来看看slf4j的LoggerFactory类的getLogger函数的源码
+
+
+# slf4j-log4j
+> slf4j-log4j 是连接 slf4j 和 log4j 的桥梁
 
 
 
