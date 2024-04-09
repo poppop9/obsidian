@@ -30,36 +30,29 @@ SLF4J 只做两件事：
 ## 日志格式
 日志 = 日志打印时间 + 日志级别 + 线程 id + 线程名称 + 日志所在类 + 日志内容
 
----
-
-```xml
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-api</artifactId>
-    <version>1.7.21</version>
-</dependency>
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-log4j12</artifactId>
-    <version>1.7.21</version>
-</dependency>
+# 配置
+```properties
+logging:
+  # 指定不同包下使用不同的日志级别
+  level:
+    com.atguigu: trace
+  # 以文件形式打印日志logging.file
+  file:
+    name: D:/boot.log	#指定日志文件的具体位置
+  #日志输出格式：控制台 or 文件
+  pattern: 
+  	console: %d{yyyy-MM-dd} [%thread] %-5level %logger{50} - %msg%n
+  	file: %d{yyyy-MM-dd} === [%thread] === %-5level === %logger{50} ==== %msg%n
+  	#    日志输出格式：
+    #    %d 表示日期时间，
+    #    %thread 表示线程名，
+    #    %-5level 级别从左显示5个字符宽度
+    #    %logger{50} 表示logger名字最长50个字符，否则按照句点分割。 
+    #    %msg 日志消息，
+    #    %n 换行符
+    #-->
+    # %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
 ```
-
-# slf4j-api
->slf4j-api 作为 slf4j 的接口类，提供了一个 `Logger 类`【打日志】，和 `LoggerFactory 类`【获取 `Logger`】
-
-
-
-
-
-# slf4j-log4j
-> slf4j-log4j 是连接 slf4j 和 log4j 的桥梁
-
-
-
-
-
-
 
 
 
