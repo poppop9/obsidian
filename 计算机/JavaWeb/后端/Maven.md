@@ -284,17 +284,46 @@
 </parent>
 ```
 
+- 指定构建插件
+```xml
+<build>
+	<plugins>
+		<plugin>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-maven-plugin</artifactId>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<version>3.11.0</version>
+			<configuration>
+				<source>17</source>
+				<target>17</target>
+			</configuration>
+		</plugin>
+	</plugins>
+</build>
+```
+
 ### 子工程
-- **如果是次要项目**【比如 `pojo`，`utils`】，那就新建模块，选择 Maven 项目，选择父项![700](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403070914405.png)
-- **如果是主项目**【`management`】，那就新建模块选择 Spring Initializr，再手动修改父工程的依赖
-	```xml
-	<parent>
-		<groupId>com.blog</groupId>  
-		<artifactId>blog-parent</artifactId>  
-		<version>……</version>  
-		<relativePath>../blog-parent/pom.xml</relativePath>  //指定父工程的pom文件位置
-	</parent>
-	```
+#### 辅助模块
+```xml
+// 要指定<skip>标签，来说明入口APP.java文件不在这个模块
+<build>  
+    <plugins>  
+        <plugin>  
+            <groupId>org.springframework.boot</groupId>  
+            <artifactId>spring-boot-maven-plugin</artifactId>  
+            <configuration>  
+                <skip>true</skip>  
+            </configuration>  
+        </plugin>  
+    </plugins>  
+</build>
+```
+
+#### 主要模块
+
 
 >[!warning] 子工程会自动继承父工程的 `<groupId>`，子工程无需再添加 `<groupId>`
 
