@@ -112,10 +112,13 @@ sudo docker run hello-world
 
 - 创建一个 Dockerfile
 ```dockerfile
+# 定义基础镜像
 FROM openjdk:17-alpine
-COPY docker-demo.jar 
+# 拷贝 jar 包
+COPY docker-demo.jar /app.jar
+# 入口
+ENTRYPOINT ["java", "-jar", "/app.jar"]
 ```
-
 
 - 使用 Dockerfile 构建镜像
 
@@ -177,7 +180,8 @@ docker load -i my_mysql.tar
 	- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
 
 ```bash
-docker build -t demo .
+# . 表示Dockerfile就在当前目录
+docker build -t demo:1.0 .
 ```
 
 ### docker push
