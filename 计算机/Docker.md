@@ -111,6 +111,11 @@ sudo docker run hello-world
 >	- `ENTRYPOINT` <u>入口命令</u>【应用程序启动的命令，比如 Java 是 `java -jar jar包`】
 
 - 创建一个 Dockerfile
+```dockerfile
+FROM openjdk:17-jre-buster
+```
+
+
 - 使用 Dockerfile 构建镜像
 
 
