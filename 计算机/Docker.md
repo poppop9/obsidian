@@ -127,10 +127,6 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 docker build -t demo:1.0 .
 ```
 
-
-
-
-
 ### 挂载
 >[!hint] 在容器内修改文件是很困难的，因为从仓库中下载的镜像一般是可运行某个应用程序的最小镜像，不会包括 Vim 编辑器，**所以我们需要挂载**，使用宿主机里的 Vim 编辑器进行修改
 
@@ -223,7 +219,7 @@ graph TB
 	- `-v 绝对本地目录:绝对容器内的目录` 将容器内目录直接挂载到本地目录【不用数据卷】 ^ca483a
 
 ```bash
-docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 8080:8080 mysql:5.7
+docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 mysql:5.7
 ```
 
 
