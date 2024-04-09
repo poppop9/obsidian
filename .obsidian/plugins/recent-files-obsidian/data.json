@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "SLF4J",
+      "path": "计算机/JavaWeb/第三方类库/SLF4J.md"
+    },
+    {
+      "basename": "1 权限，基础操作",
+      "path": "计算机/Linux/1 权限，基础操作.md"
+    },
+    {
       "basename": "Git",
       "path": "计算机/Git.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "Docker",
       "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "1 权限，基础操作",
-      "path": "计算机/Linux/1 权限，基础操作.md"
     },
     {
       "basename": "Maven",
@@ -195,10 +199,6 @@
     {
       "basename": "11 泛型",
       "path": "计算机/编程语言/Java/11 泛型.md"
-    },
-    {
-      "basename": "云数据中心基础",
-      "path": "考试/云数据中心基础.md"
     }
   ],
   "omittedPaths": [],
