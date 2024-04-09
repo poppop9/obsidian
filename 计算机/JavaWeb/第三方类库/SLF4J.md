@@ -17,24 +17,6 @@ SLF4J 只做两件事：
 >[!hint] 为什么要选择抽象层的 SLF4J，而不是实现类【log4j，logback】？
 >假设 A 开发了一个通用组件，他在程序中使用的是 log4j，B 之前开发的的业务模块使用的是 logback。突然有一天 B 要在自己的业务系统中使用 A 的通用组件，那就很麻烦了，<u>那么解决方案就是使用 SLF4J</u>
 
-
-当一个应用面向了很多日志框架，如果我们直接去掉这些依赖包的话，系统肯定会报错的，因为Spring本来底层会调用这些框架的API等。可以采取偷梁换柱的做法：用另一个jar包代替本来的jar包。比如：log4j12；代替后和slf4j完美契合，就可以使用。
-
-```xml
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-api</artifactId>
-    <version>1.7.21</version>
-</dependency>
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-log4j12</artifactId>
-    <version>1.7.21</version>
-</dependency>
-
-```
-
-
 ## 日志级别
 - `fatal` 灾难级的，因为代码异常导致程序退出执行的事件；系统级别，程序无法打印
 - `error` 错误信息
@@ -48,7 +30,27 @@ SLF4J 只做两件事：
 ## 日志格式
 日志 = 日志打印时间 + 日志级别 + 线程 id + 线程名称 + 日志所在类 + 日志内容
 
+---
 
+```xml
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.7.21</version>
+</dependency>
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-log4j12</artifactId>
+    <version>1.7.21</version>
+</dependency>
+```
+
+# slf4j-api
+>slf4j-api 作为 slf4j 的接口类，提供了一个 `Logger 类`【打日志】，和 `LoggerFactory 类`【获取 `Logger`】
+
+
+
+而slf4j-log4j就是连接slf4j和log4j的桥梁。那么他们是怎么连接的呢？我们来看看slf4j的LoggerFactory类的getLogger函数的源码
 
 
 
