@@ -63,11 +63,8 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyring
 sudo chmod a+r /etc/apt/keyrings/docker.asc
 
 # 让系统知道从哪里下载Docker，并确保下载的是与系统架构和版本相匹配的Docker版本
-echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
-  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
-sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 # 更新系统的软件包列表，这样就可以从新添加的Docker仓库中获取Docker的最新版本
 sudo apt-get update
 ```
