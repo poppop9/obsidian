@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
+      "basename": "1 权限，基础操作",
+      "path": "计算机/Linux/1 权限，基础操作.md"
     },
     {
       "basename": "05 字符串",
       "path": "计算机/编程语言/Java/05 字符串.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
     },
     {
       "basename": "Maven",
@@ -55,10 +59,6 @@
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
-      "basename": "1 权限，基础操作",
-      "path": "计算机/Linux/1 权限，基础操作.md"
     },
     {
       "basename": "MobaXterm",
