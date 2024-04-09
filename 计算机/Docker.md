@@ -114,7 +114,7 @@ FROM openjdk:17-alpine
 # 设置时区
 ENV TZ=Asia/Shanghai
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-# 拷贝 jar 包
+# 将跟Dockerfile同一路径下的jar包，拷贝到Docker镜像的根目录下
 COPY docker-demo.jar /app.jar
 # 入口
 ENTRYPOINT ["java", "-jar", "/app.jar"]
