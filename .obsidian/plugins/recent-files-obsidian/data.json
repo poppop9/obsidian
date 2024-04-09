@@ -5,12 +5,12 @@
       "path": "计算机/Docker.md"
     },
     {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
       "basename": "1 权限，基础操作",
       "path": "计算机/Linux/1 权限，基础操作.md"
+    },
+    {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "05 字符串",
