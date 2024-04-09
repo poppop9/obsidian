@@ -39,22 +39,24 @@ logging:
   # 以文件形式打印日志logging.file
   file:
     name: D:/boot.log	#指定日志文件的具体位置
-  #日志输出格式：控制台 or 文件
+  #日志输出格式：控制台，文件
   pattern: 
   	console: %d{yyyy-MM-dd} [%thread] %-5level %logger{50} - %msg%n
   	file: %d{yyyy-MM-dd} === [%thread] === %-5level === %logger{50} ==== %msg%n
-  	#    日志输出格式：
-    #    %d 表示日期时间，
-    #    %thread 表示线程名，
+  	
+    #    %d 表示日期时间
+    #    %thread 表示线程名
     #    %-5level 级别从左显示5个字符宽度
-    #    %logger{50} 表示logger名字最长50个字符，否则按照句点分割。 
-    #    %msg 日志消息，
+    #    %logger{50} 表示logger名字最长50个字符，否则按照句点分割
+    #    %msg 日志消息
     #    %n 换行符
-    #-->
-    # %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n
 ```
 
+日志级别的显示宽度是5【无论实际的日志级别是什么，它都会在控制台上占用 5 个字符的宽度】
 
+如果日志级别是ERROR，那么在控制台上，它会显示为"ERROR"，因为"ERROR"正好是5个字符，所以不需要添加空格。
+
+为了使得不同的日志条目在控制台上对齐，看起来更整齐
 
 
 
