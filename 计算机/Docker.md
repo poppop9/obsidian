@@ -112,7 +112,8 @@ sudo docker run hello-world
 
 - 创建一个 Dockerfile
 ```dockerfile
-FROM openjdk:17-jre-buster
+FROM openjdk:17-alpine
+COPY docker-demo.jar 
 ```
 
 
