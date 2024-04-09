@@ -247,13 +247,11 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306
 - 参数
 	- `-f` 强制删除【可以删除正在运行的容器】
 
-
 ### docker logs
 > `docker logs 容器名` 用于获取和查看 Docker 容器的日志
 
 - 参数
 	- `-f` 持续跟进日志
-
 
 ### docker exec
 >[!hint] 容器就是虚拟了一个计算机，我们可以进入容器，去修改里面文件系统中的文件
