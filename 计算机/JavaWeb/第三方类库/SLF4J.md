@@ -148,8 +148,8 @@ class Web2ApplicationTests {
 2024-04-10T11:01:45.273+08:00  INFO 14720 --- [           main] com.example.web_2.Web2ApplicationTests   : Hello greenteck!, pop
 ```
 
-
-atTrace()、atDebug()、atInfo()、atWarn() 和 atError() 方法都是 org.slf4j.Logger 接口中的新方法，会返回一个 LoggingEventBuilder 实例
+## 链式记录日志
+`atTrace()`，`atDebug()`，`atInfo()`，`atWarn()` ，`atError()`，`atFatal` 方法都是 org.slf4j.Logger 接口中的新方法，会返回一个 LoggingEventBuilder 实例
 
 
 
