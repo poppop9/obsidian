@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "4 打包，压缩",
-      "path": "计算机/Linux/4 打包，压缩.md"
-    },
-    {
       "basename": "1 权限，文件目录",
       "path": "计算机/Linux/1 权限，文件目录.md"
+    },
+    {
+      "basename": "5 文件系统操作，磁盘管理",
+      "path": "计算机/Linux/5 文件系统操作，磁盘管理.md"
+    },
+    {
+      "basename": "4 打包，压缩",
+      "path": "计算机/Linux/4 打包，压缩.md"
     },
     {
       "basename": "Docker",
@@ -195,10 +199,6 @@
     {
       "basename": "5 接入网, 网络运营商",
       "path": "计算机/四大件/计算机网络/5 接入网, 网络运营商.md"
-    },
-    {
-      "basename": "05 常用 API",
-      "path": "计算机/编程语言/Java/05 常用 API.md"
     }
   ],
   "omittedPaths": [],
