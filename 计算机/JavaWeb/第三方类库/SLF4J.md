@@ -118,6 +118,15 @@ SpringBoot 默认使用 `spring-boot-starter-logging 启动器`【Logback 的启
 ```
 
 # 具体操作
+```xml
+<dependency>
+	<groupId>org.slf4j</groupId>
+	<artifactId>slf4j-api</artifactId>
+	<version>2.0.12</version>
+</dependency>
+```
+
+## 基本操作
 ```java
 @SpringBootTest
 class Web2ApplicationTests {
@@ -126,10 +135,21 @@ class Web2ApplicationTests {
 	    // 使用 LoggerFactory 创建与该类名相同的记录器
         Logger logger = LoggerFactory.getLogger(Web2ApplicationTests.class);
         logger.info("Hello SLF4J !");
+        
+        // 使用占位符
+        String s = "greenteck";  
+		String ss = "pop";  
+		logger.info("Hello {}!, {}", s, ss);
     }
 }
+
+---
+2024-04-10T11:01:45.273+08:00  INFO 14720 --- [           main] com.example.web_2.Web2ApplicationTests   : Hello SLF4J !
+2024-04-10T11:01:45.273+08:00  INFO 14720 --- [           main] com.example.web_2.Web2ApplicationTests   : Hello greenteck!, pop
 ```
 
+
+atTrace()、atDebug()、atInfo()、atWarn() 和 atError() 方法都是 org.slf4j.Logger 接口中的新方法，会返回一个 LoggingEventBuilder 实例
 
 
 
