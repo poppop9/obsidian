@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/Linux/1 权限，基础操作.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/4 搜索文件.md"
+                "file": "计算机/Linux/1 权限，基础操作.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/4 搜索文件.md"
+                "file": "计算机/Linux/1 权限，基础操作.md"
               }
             }
           },
@@ -206,10 +205,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "d9f37405f40d6c99",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/Linux/1 权限，基础操作.md",
     "计算机/Linux/4 搜索文件.md",
+    "计算机/Linux/1 权限，基础操作.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
     "计算机/Linux/3 环境变量.md",
     "计算机/JavaWeb/第三方类库/SLF4J.md",
