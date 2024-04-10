@@ -52,7 +52,9 @@ logging:
 ```
 
 ## 使用 logback-spring.xml 配置
-在SpringBoot项目中，如果你将日志配置文件命名为logback-spring.xml，Spring Boot 会使用特殊的日志配置解析器来处理这个文件，这使得你可以使用一些高级的日志配置功能，比如命名为 springProfile
+添加日志配置文件 `logback-spring.xml`，你可以使用一些高级的日志配置功能
+
+- 在 yml 配置文件中激活 `logback-spring.xml`
 
 在Spring Boot的默认配置文件（比如application.properties或application.yml）中，你可以通过spring.profiles.active属性来激活一个或多个Profile。然后，在logback-spring.xml配置文件中，你可以使用springProfile元素来定义与这些Profile对应的日志配置。当Spring Boot启动时，它会根据激活的Profile来选择并应用相应的日志配置
 
