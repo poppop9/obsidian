@@ -52,89 +52,49 @@ logging:
 ```
 
 ## 使用 logback-spring.xml 配置
-添加日志配置文件 `logback-spring.xml`，你可以使用一些高级的日志配置功能
+添加日志配置文件 `logback-spring.xml`，在 `logback-spring.xml` 中，你可以定义多个 `Spring Profile`
 
-- 在 yml 配置文件中激活 `logback-spring.xml`
-
-在Spring Boot的默认配置文件（比如application.properties或application.yml）中，你可以通过spring.profiles.active属性来激活一个或多个Profile。然后，在logback-spring.xml配置文件中，你可以使用springProfile元素来定义与这些Profile对应的日志配置。当Spring Boot启动时，它会根据激活的Profile来选择并应用相应的日志配置
-
-例如，如果你在application.properties文件中设置了spring.profiles.active=dev，然后在logback-spring.xml中定义了一个与dev对应的springProfile，那么Spring Boot在启动时就会应用这个日志配置。这样，你就可以根据不同的环境来灵活地控制日志行为了
-
-```
-<springProfile name="staging">
-    <!-- configuration to be enabled when the "staging" profile is active -->
-</springProfile>
+- 在 yml 配置文件中激活 `Spring Profile`
+```yml
+# 激活了名为"dev"的Spring Profile
+spring:
+  profiles:
+    active: dev
 ```
 
-如果使用logback.xml作为日志配置文件，还要使用profile功能，会有以下错误：`no applicable action for [springProfile]`
-
-比如在logback-spring.xml中做出以下配置，就可以指定某段配置只在某个环境下生效
-
+- 在 `logback-spring.xml` 中指定 `Spring Profile` 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<configuration scan="true">
-    <include resource="org/springframework/boot/logging/logback/defaults.xml" />
-    <property name="log.path" value="./logs" />
-    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder>
-            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
-            <charset>utf8</charset>
-        </encoder>
-        <layout class="ch.qos.logback.classic.PatternLayout">
-            <pattern>[%X{trackId}][%thread] [%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5level %logger{30} - %msg%n</pattern>
-        </layout>
-    </appender>
-    <!-- level为 info 日志，时间滚动输出  -->
-    <appender name="Log_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <!-- 正在记录的日志文档的路径及文档名 -->
-        <file>${log.path}/info.log</file>
-        <!--日志文档输出格式-->
-        <encoder>
-            <pattern>[%X{trackId}][%thread] [%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5level %logger{30} - %msg%n</pattern>
-            <charset>UTF-8</charset> <!-- 设置字符集 -->
-        </encoder>
-        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
-        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-            <!-- 日志归档 -->
-            <fileNamePattern>${log.path}/info-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
-            <!--日志文档保留天数-->
-            <maxHistory>5</maxHistory>
-            <maxFileSize>100MB</maxFileSize>
-            <totalSizeCap>5GB</totalSizeCap>
-            <cleanHistoryOnStart>true</cleanHistoryOnStart>
-        </rollingPolicy>
-        <filter class="ch.qos.logback.classic.filter.LevelFilter">
-            <level>INFO</level>
-            <onMatch>ACCEPT</onMatch>
-            <onMismatch>ACCEPT</onMismatch>
-        </filter>
-    </appender>
-
+<configuration>
+	<!-- 定义第一个Spring Profile文件 -->
     <springProfile name="dev">
-        <root level="info">
+        <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+            <encoder>
+                <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            </encoder>
+        </appender>
+
+        <root level="debug">
             <appender-ref ref="CONSOLE" />
         </root>
-        <!--    mybatis sql单独控制输出级别    -->
-        <logger name="com.demo.example.dao" level="debug"/>
     </springProfile>
-    <springProfile name="prod">
+
+	<!-- 定义第二个Spring Profile文件 -->
+    <springProfile name="!dev">
+        <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+            <encoder>
+                <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            </encoder>
+            <file>logs/app.log</file>
+        </appender>
+
         <root level="info">
-            <appender-ref ref="Log_FILE" />
+            <appender-ref ref="FILE" />
         </root>
-        <!--    mybatis sql单独控制输出级别    -->
-        <logger name="com.demo.example.dao" level="debug"/>
-    </springProfile>
-    <springProfile name="online">
-        <root level="info">
-            <appender-ref ref="Log_FILE" />
-        </root>
-        <!--    mybatis sql单独控制输出级别    -->
-        <logger name="com.demo.example.dao" level="debug"/>
     </springProfile>
 </configuration>
 ```
 
-## 切换日志框架
+# 切换日志框架
 springboot默认使用spring-boot-starter-logging启动器, 使用这个启动器默认使用Logback 进行日志记录, 如果要使用Log4j2 进行日志记录, 那么可以切换spring-boot-starter-log4j2启动器
 
 具体切换方法为, 将默认spring-boot-starter-logging启动器排除, 使用spring-boot-starter-log4j2启动器
