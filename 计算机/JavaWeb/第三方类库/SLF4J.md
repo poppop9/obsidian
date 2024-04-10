@@ -95,9 +95,8 @@ spring:
 ```
 
 # 切换日志框架
-springboot默认使用spring-boot-starter-logging启动器, 使用这个启动器默认使用Logback 进行日志记录, 如果要使用Log4j2 进行日志记录, 那么可以切换spring-boot-starter-log4j2启动器
+SpringBoot 默认使用 `spring-boot-starter-logging 启动器`【Logback 的启动器】, 如果要切换成 Log4j2 进行日志记录，那就要切换成 `spring-boot-starter-log4j2 启动器`
 
-具体切换方法为, 将默认spring-boot-starter-logging启动器排除, 使用spring-boot-starter-log4j2启动器
 ```xml
 <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -118,15 +117,6 @@ springboot默认使用spring-boot-starter-logging启动器, 使用这个启动�
 </dependency>
 ```
 
-切换log4j日志框架
-
-首先排除日志框架的实现jar, 比如偷梁换柱jar, log4j-to-slf4j.jar, 和logback-classic.jar(logback实现jar), 然后引入log4j的实现jar
-```xml
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-log4j12</artifactId>
-</dependency>
-```
 
 
 
