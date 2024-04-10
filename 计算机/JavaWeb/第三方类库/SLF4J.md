@@ -51,14 +51,12 @@ logging:
     #    %n 换行符
 ```
 
-当日志配置命名为logback.xml时, 这个配置直接就被日志框架识别了
+## 使用 logback-spring.xml 配置
+在SpringBoot项目中，如果你将日志配置文件命名为logback-spring.xml，Spring Boot 会使用特殊的日志配置解析器来处理这个文件，这使得你可以使用一些高级的日志配置功能，比如命名为 springProfile
 
-在SpringBoot项目中，如果你将日志配置文件命名为logback-spring.xml，Spring Boot 会使用特殊的日志配置解析器来处理这个文件，这使得你可以使用一些高级的日志配置功能，比如命名为 springProfile。
+在Spring Boot的默认配置文件（比如application.properties或application.yml）中，你可以通过spring.profiles.active属性来激活一个或多个Profile。然后，在logback-spring.xml配置文件中，你可以使用springProfile元素来定义与这些Profile对应的日志配置。当Spring Boot启动时，它会根据激活的Profile来选择并应用相应的日志配置
 
-
-在Spring Boot的默认配置文件（比如application.properties或application.yml）中，你可以通过spring.profiles.active属性来激活一个或多个Profile。然后，在logback-spring.xml配置文件中，你可以使用springProfile元素来定义与这些Profile对应的日志配置。当Spring Boot启动时，它会根据激活的Profile来选择并应用相应的日志配置。
-
-例如，如果你在application.properties文件中设置了spring.profiles.active=dev，然后在logback-spring.xml中定义了一个与dev对应的springProfile，那么Spring Boot在启动时就会应用这个日志配置。这样，你就可以根据不同的环境来灵活地控制日志行为了。
+例如，如果你在application.properties文件中设置了spring.profiles.active=dev，然后在logback-spring.xml中定义了一个与dev对应的springProfile，那么Spring Boot在启动时就会应用这个日志配置。这样，你就可以根据不同的环境来灵活地控制日志行为了
 
 ```
 <springProfile name="staging">
