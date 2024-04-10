@@ -5,6 +5,14 @@
       "path": "计算机/Linux/4 搜索文件.md"
     },
     {
+      "basename": "1 权限，基础操作",
+      "path": "计算机/Linux/1 权限，基础操作.md"
+    },
+    {
+      "basename": "1 SpringBoot + MVC",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
+    },
+    {
       "basename": "3 环境变量",
       "path": "计算机/Linux/3 环境变量.md"
     },
@@ -17,16 +25,8 @@
       "path": "计算机/Docker.md"
     },
     {
-      "basename": "1 SpringBoot + MVC",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
-    },
-    {
       "basename": "Git",
       "path": "计算机/Git.md"
-    },
-    {
-      "basename": "1 权限，基础操作",
-      "path": "计算机/Linux/1 权限，基础操作.md"
     },
     {
       "basename": "Bootstrap 简化CSS",
