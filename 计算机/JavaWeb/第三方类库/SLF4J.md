@@ -25,7 +25,11 @@ $$
 日志 = 日志打印时间 + 日志级别 + 线程 id + 线程名称 + 日志所在类 + 日志内容
 
 # 配置
-## 直接在
+我们可以使用两种方式来配置 SLF4J：
+- **直接在 yml 配置文件中配置**：简单方便
+- **重新定义一个** `logback-spring.xml`，**再在 yml 配置文件中激活** `logback-spring.xml`：功能更强大，可以对<u>不同环境下</u>【开发环境，测试环境，生产环境……】进行日志配置
+
+## 直接在 yml 配置文件中配置
 ```properties
 logging:
   # 指定不同包下使用不同的日志级别
@@ -51,7 +55,6 @@ logging:
 
 在SpringBoot项目中，如果你将日志配置文件命名为logback-spring.xml，Spring Boot 会使用特殊的日志配置解析器来处理这个文件，这使得你可以使用一些高级的日志配置功能，比如命名为 springProfile。
 
-springProfile 是 Logback 对 Spring 环境的扩展，因为在不同的环境中【开发环境，测试环境，生产环境……】，我们可能需要不同的日志配置【~~你可能希望在开发环境中打印更详细的日志，但在生产环境中只打印错误信息~~】
 
 在Spring Boot的默认配置文件（比如application.properties或application.yml）中，你可以通过spring.profiles.active属性来激活一个或多个Profile。然后，在logback-spring.xml配置文件中，你可以使用springProfile元素来定义与这些Profile对应的日志配置。当Spring Boot启动时，它会根据激活的Profile来选择并应用相应的日志配置。
 
