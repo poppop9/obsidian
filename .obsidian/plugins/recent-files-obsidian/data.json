@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "3 杂",
-      "path": "计算机/Linux/3 杂.md"
+      "basename": "4 搜索文件",
+      "path": "计算机/Linux/4 搜索文件.md"
+    },
+    {
+      "basename": "3 环境变量",
+      "path": "计算机/Linux/3 环境变量.md"
     },
     {
       "basename": "SLF4J",
@@ -195,10 +199,6 @@
     {
       "basename": "05 常用 API",
       "path": "计算机/编程语言/Java/05 常用 API.md"
-    },
-    {
-      "basename": "11 泛型",
-      "path": "计算机/编程语言/Java/11 泛型.md"
     }
   ],
   "omittedPaths": [],

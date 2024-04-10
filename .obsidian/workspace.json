@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/3 杂.md",
+                "file": "计算机/Linux/4 搜索文件.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/3 杂.md"
+                "file": "计算机/Linux/4 搜索文件.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/3 杂.md"
+                "file": "计算机/Linux/4 搜索文件.md"
               }
             }
           },
@@ -207,6 +207,8 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/Linux/3 环境变量.md",
+    "计算机/Linux/4 搜索文件.md",
     "计算机/JavaWeb/第三方类库/SLF4J.md",
     "计算机/Docker.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
@@ -226,13 +228,11 @@
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/Linux/MobaXterm.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
-    "计算机/Linux/3 杂.md",
     "临时笔记/职场.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/JavaWeb.md",
     "计算机/编程语言/Java/Java.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
-    "计算机/编程语言/Java/04 Java的基础语法 2.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot",
