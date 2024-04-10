@@ -4,7 +4,7 @@ $$
 
 # 概述
 ## 介绍
-我们在编写代码的时候，只会使用 SLF4J 里的 API，应用程序在运行时再去类路径下查找绑定的具体日志实现，并使用其进行实际的日志操作【~~如果在应用程序的类路径下面没有找到合适的绑定的话，默认无操作~~】，**也就是说，你要使用日志，你要引入两个依赖**【slf4j-api，实现类 api】，~~但是 SpringBoot
+我们在编写代码的时候，只会使用 SLF4J 里的 API，应用程序在运行时再去类路径下查找绑定的具体日志实现，并使用其进行实际的日志操作【~~如果在应用程序的类路径下面没有找到合适的绑定的话，默认无操作~~】，**也就是说，你要使用日志，你要引入两个依赖**【slf4j-api，实现类 api】，~~但是 SpringBoot-Starter-Web 里已经有了 logback 依赖，所以我们还是只用引入 slf4j 就好了~~
 
 ---
 
@@ -117,6 +117,18 @@ SpringBoot 默认使用 `spring-boot-starter-logging 启动器`【Logback 的启
 </dependency>
 ```
 
+# 具体操作
+```java
+@SpringBootTest
+class Web2ApplicationTests {
+    @Test
+    public void test() {
+	    // 使用 LoggerFactory 创建与该类名相同的记录器
+        Logger logger = LoggerFactory.getLogger(Web2ApplicationTests.class);
+        logger.info("Hello SLF4J !");
+    }
+}
+```
 
 
 
