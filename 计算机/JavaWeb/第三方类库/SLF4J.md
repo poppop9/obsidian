@@ -148,7 +148,9 @@ class Web2ApplicationTests {
 2024-04-10T11:01:45.273+08:00  INFO 14720 --- [           main] com.example.web_2.Web2ApplicationTests   : Hello greenteck!, pop
 ```
 
-## 链式bian'cheng记录日志
+## 链式编程记录日志
+>[!hint] 这种方式可以使用 `addKeyValue(key, value)` 给日志添加键值对，更有利于后续分析
+
 `atTrace()`，`atDebug()`，`atInfo()`，`atWarn()` ，`atError()`，`atFatal()` 方法都会返回一个 `LoggingEventBuilder` 实例
 
 ```java
@@ -158,6 +160,11 @@ class Web2ApplicationTests {
     public void test() {  
         Logger logger = LoggerFactory.getLogger(Web2ApplicationTests.class);  
         logger.atInfo().log("Hello");  
+
+        String oldT = "1";
+        String newT = "3";
+        logger.info("oldT={} newT={} Temperature changed.", oldT, newT);
+        logger.atInfo().setMessage("Temperature changed.").addKeyValue("oldT", oldT).addKeyValue("newT", newT).log();
     }  
 }
 
