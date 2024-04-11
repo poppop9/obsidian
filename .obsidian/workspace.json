@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/4 打包，压缩.md",
+                "file": "计算机/Linux/5 文件系统操作，磁盘管理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/4 打包，压缩.md"
+                "file": "计算机/Linux/5 文件系统操作，磁盘管理.md"
               }
             }
           },
@@ -160,7 +160,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/4 打包，压缩.md"
+                "file": "计算机/Linux/5 文件系统操作，磁盘管理.md"
               }
             }
           },
@@ -194,8 +194,8 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/Linux/1 权限，文件目录.md",
     "计算机/Linux/4 打包，压缩.md",
+    "计算机/Linux/1 权限，文件目录.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
     "计算机/Linux/3 环境变量，搜索.md",
     "计算机/Linux/4 搜索文件.md",
