@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/1 权限，文件目录.md",
-                "mode": "preview",
+                "file": "计算机/Linux/6 帮助命令.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/5 文件系统操作，磁盘管理.md",
+                "file": "计算机/Linux/娱乐命令.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/5 文件系统操作，磁盘管理.md"
+                "file": "计算机/Linux/6 帮助命令.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/5 文件系统操作，磁盘管理.md"
+                "file": "计算机/Linux/6 帮助命令.md"
               }
             }
           },
@@ -206,10 +205,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "1ad1819bab6102c8",
   "lastOpenFiles": [
-    "计算机/Linux/1 权限，文件目录.md",
     "计算机/Linux/5 文件系统操作，磁盘管理.md",
+    "计算机/Linux/6 帮助命令.md",
+    "计算机/Linux/娱乐命令.md",
+    "计算机/Linux/1 权限，文件目录.md",
     "计算机/Linux/4 打包，压缩.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
     "计算机/Linux/3 环境变量，搜索.md",
@@ -232,8 +233,6 @@
     "计算机/Linux/MobaXterm.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "临时笔记/职场.md",
-    "临时笔记/草稿纸.md",
-    "计算机/JavaWeb/JavaWeb.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot",

@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "6 帮助命令",
+      "path": "计算机/Linux/6 帮助命令.md"
+    },
+    {
       "basename": "5 文件系统操作，磁盘管理",
       "path": "计算机/Linux/5 文件系统操作，磁盘管理.md"
+    },
+    {
+      "basename": "娱乐命令",
+      "path": "计算机/Linux/娱乐命令.md"
     },
     {
       "basename": "1 权限，文件目录",
@@ -191,14 +199,6 @@
     {
       "basename": "09 类与对象",
       "path": "计算机/编程语言/Java/09 类与对象.md"
-    },
-    {
-      "basename": "13 Java 8 新特性",
-      "path": "计算机/编程语言/Java/13 Java 8 新特性.md"
-    },
-    {
-      "basename": "5 接入网, 网络运营商",
-      "path": "计算机/四大件/计算机网络/5 接入网, 网络运营商.md"
     }
   ],
   "omittedPaths": [],
