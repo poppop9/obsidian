@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
       "basename": "6 帮助命令",
       "path": "计算机/Linux/6 帮助命令.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "4 打包，压缩",
       "path": "计算机/Linux/4 打包，压缩.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "1 SpringBoot + MVC",

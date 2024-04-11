@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/6 帮助命令.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/6 帮助命令.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -205,10 +206,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1ad1819bab6102c8",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/Linux/5 文件系统操作，磁盘管理.md",
     "计算机/Linux/6 帮助命令.md",
+    "计算机/Linux/5 文件系统操作，磁盘管理.md",
     "计算机/Linux/娱乐命令.md",
     "计算机/Linux/1 权限，文件目录.md",
     "计算机/Linux/4 打包，压缩.md",
