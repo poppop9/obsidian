@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "计算机/Linux/6 帮助命令.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "计算机/Linux/6 帮助命令.md"
               }
             }
           },
@@ -206,8 +205,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "1ad1819bab6102c8",
   "lastOpenFiles": [
+    "计算机/Docker.md",
     "计算机/Linux/6 帮助命令.md",
     "计算机/Linux/5 文件系统操作，磁盘管理.md",
     "计算机/Linux/娱乐命令.md",
@@ -217,7 +217,6 @@
     "计算机/Linux/3 环境变量，搜索.md",
     "计算机/Linux/4 搜索文件.md",
     "计算机/JavaWeb/第三方类库/SLF4J.md",
-    "计算机/Docker.md",
     "计算机/Git.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/JavaWeb/后端/Maven.md",

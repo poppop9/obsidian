@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
-    },
-    {
       "basename": "6 帮助命令",
       "path": "计算机/Linux/6 帮助命令.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
     },
     {
       "basename": "5 文件系统操作，磁盘管理",
