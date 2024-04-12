@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "8 命令的执行顺序控制",
+      "path": "计算机/Linux/8 命令的执行顺序控制.md"
+    },
+    {
+      "basename": "Vue 3",
+      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+    },
+    {
       "basename": "Bootstrap 简化CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
-      "basename": "Vue 3",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     },
     {
       "basename": "2 CSS中级",
@@ -31,10 +35,6 @@
     {
       "basename": "Docker",
       "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "8 命令的执行顺序控制",
-      "path": "计算机/Linux/8 命令的执行顺序控制.md"
     },
     {
       "basename": "7 定时任务",
