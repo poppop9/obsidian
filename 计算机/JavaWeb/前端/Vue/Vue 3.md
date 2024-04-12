@@ -134,6 +134,8 @@ https://cn.vuejs.org/guide/quick-start.html
 	- `:属性名="属性值"`
 
 #### 绑定单个属性值
+---
+
 - 简单绑定属性的属性值
 ```html
 <body>
@@ -153,6 +155,8 @@ https://cn.vuejs.org/guide/quick-start.html
 </script>
 ```
 
+---
+
 - 绑定属性内的<u>某个属性值</u>的属性值
 ```html
 <!-- {}表示一个对象，因为style里有很多属性，所以每一个都要加，Homepage是一个动态数据变量 -->
@@ -169,9 +173,11 @@ function homepage() {
 </script>
 ```
 
+---
+
 - 动态添加/溢出属性值
 ```html
-<!-- 动态给class绑定了一个js对象，里有两个键值对，第一个键值对是true，表示永远都添加，但是第二个键值对被赋给了is -->
+<!-- 动态给class绑定了一个js对象，里有两个键值对，第一个键值对是true，表示永远都添加，但是第二个键值对被赋给了isActive，可以动态控制是否添加active -->
 <button :class="{ 'btn btn-light ms-4 align-self-end': true, 'active': isActive }" @click="homepage">主页</button>
 
 <script setup>
@@ -179,6 +185,7 @@ const isActive = ref(true);
 </script>
 ```
 
+---
 
 #### 绑定多个属性值
 ```js
