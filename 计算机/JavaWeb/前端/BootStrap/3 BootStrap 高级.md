@@ -31,15 +31,11 @@
 >![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403172112015.png)
 
 ```html
-<div class="row">
-	<div class="col-2">
-		<label for="text1" class="col-form-label">Text</label>
-	</div>
-	<div class="col-10">
-		<form action="">
-			<input type="text" class="form-control" id="text1">
-		</form>
-	</div>
+<div class="d-flex">
+	<label for="text1" class="col-form-label">注：*为必填内容：</label>
+	<form action="">
+		<input type="text" class="form-control" id="text1" placeholder="今天是：2024年4月12日 星期五 22:55">
+	</form>
 </div>
 ```
 
