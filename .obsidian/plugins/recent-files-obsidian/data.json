@@ -5,6 +5,10 @@
       "path": "计算机/Linux/7 定时任务.md"
     },
     {
+      "basename": "1 权限，文件目录",
+      "path": "计算机/Linux/1 权限，文件目录.md"
+    },
+    {
       "basename": "7 定时任务",
       "path": "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "5 文件系统操作，磁盘管理",
       "path": "计算机/Linux/5 文件系统操作，磁盘管理.md"
-    },
-    {
-      "basename": "1 权限，文件目录",
-      "path": "计算机/Linux/1 权限，文件目录.md"
     },
     {
       "basename": "4 打包，压缩",
