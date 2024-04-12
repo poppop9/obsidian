@@ -169,13 +169,14 @@ function homepage() {
 
 #### 绑定多个属性值
 ```js
-<div :class="['alert', 'alert-' + alert.type, 'alert-dismissible']"></div>
+<div :class="['alert', 'alert-' + alerts.value[0].type, 'alert-dismissible']"></div>
 
 const alerts = ref([
-        message: 'Nice, you triggered this alert message!',
-        type: 'success'
+  {
+    message: 'Nice, you triggered this alert message!',
+    type: 'success'
+  }
 ]);
-
 
 ---
 <div class="alert alert-success alert-dismissible"></div>
