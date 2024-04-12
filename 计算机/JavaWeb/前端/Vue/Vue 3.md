@@ -134,6 +134,7 @@ https://cn.vuejs.org/guide/quick-start.html
 	- `:属性名="属性值"`
 
 #### 绑定单个属性值
+- 简单绑定属性的属性值
 ```html
 <body>
 	<a v-bind:href="url">百度</a>
@@ -152,6 +153,7 @@ https://cn.vuejs.org/guide/quick-start.html
 </script>
 ```
 
+- 绑定属性内的<u>某个属性值</u>的属性值
 ```html
 <!-- {}表示一个对象，因为style里有很多属性，所以每一个都要加，Homepage是一个动态数据变量 -->
 <div v-bind:style="{ display: Homepage }">
