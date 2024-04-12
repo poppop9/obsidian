@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "7 定时任务",
+      "path": "计算机/Linux/7 定时任务.md"
+    },
+    {
       "basename": "6 帮助命令",
       "path": "计算机/Linux/6 帮助命令.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "10 继承",
       "path": "计算机/编程语言/Java/10 继承.md"
-    },
-    {
-      "basename": "09 类与对象",
-      "path": "计算机/编程语言/Java/09 类与对象.md"
     }
   ],
   "omittedPaths": [],
