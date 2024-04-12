@@ -151,6 +151,22 @@ https://cn.vuejs.org/guide/quick-start.html
 	}).mount('#app')
 </script>
 ```
+
+```html
+<!-- {}表示一个对象，因为style里有 -->
+<div v-bind:style="{ display: Homepage }">
+  <TeaHomepage />
+</div>
+
+<script setup>
+const Homepage = ref('block');
+
+function homepage() {
+  Homepage.value = 'block';
+}
+</script>
+```
+
 #### 绑定多个属性值
 ```js
 <div :class="['alert', 'alert-' + alert.type, 'alert-dismissible']"></div>
