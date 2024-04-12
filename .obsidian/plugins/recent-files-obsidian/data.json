@@ -5,6 +5,14 @@
       "path": "计算机/Linux/7 定时任务.md"
     },
     {
+      "basename": "7 定时任务",
+      "path": "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md"
+    },
+    {
+      "basename": "娱乐命令",
+      "path": "计算机/Linux/娱乐命令.md"
+    },
+    {
       "basename": "6 帮助命令",
       "path": "计算机/Linux/6 帮助命令.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "5 文件系统操作，磁盘管理",
       "path": "计算机/Linux/5 文件系统操作，磁盘管理.md"
-    },
-    {
-      "basename": "娱乐命令",
-      "path": "计算机/Linux/娱乐命令.md"
     },
     {
       "basename": "1 权限，文件目录",
@@ -55,10 +59,6 @@
     {
       "basename": "05 字符串",
       "path": "计算机/编程语言/Java/05 字符串.md"
-    },
-    {
-      "basename": "7 定时任务",
-      "path": "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md"
     },
     {
       "basename": "02 Java的理论知识",
