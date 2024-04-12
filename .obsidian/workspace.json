@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/8 命令的执行顺序控制.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
               }
             }
           },
@@ -205,10 +206,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "1ad1819bab6102c8",
   "lastOpenFiles": [
-    "计算机/Linux/7 定时任务.md",
+    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/Linux/8 命令的执行顺序控制.md",
+    "计算机/JavaWeb/前端/Vue/Vue 3.md",
+    "计算机/Linux/7 定时任务.md",
     "计算机/Linux/1 权限，文件目录.md",
     "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md",
     "计算机/Linux/娱乐命令.md",
@@ -226,13 +229,11 @@
     "计算机/编程语言/Java/05 字符串.md",
     "计算机/编程语言/Java/02 Java的理论知识.md",
     "临时笔记/MarkDown语法.md",
-    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "计算机/Linux/2 Vim.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
-    "计算机/Linux/MobaXterm.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot",

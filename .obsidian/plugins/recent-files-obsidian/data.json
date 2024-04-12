@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Bootstrap 简化CSS",
+      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
+    },
+    {
+      "basename": "2 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+    },
+    {
+      "basename": "8 命令的执行顺序控制",
+      "path": "计算机/Linux/8 命令的执行顺序控制.md"
+    },
+    {
       "basename": "Vue 3",
       "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     },
     {
       "basename": "7 定时任务",
       "path": "计算机/Linux/7 定时任务.md"
-    },
-    {
-      "basename": "8 命令的执行顺序控制",
-      "path": "计算机/Linux/8 命令的执行顺序控制.md"
     },
     {
       "basename": "1 权限，文件目录",
@@ -57,10 +65,6 @@
       "path": "计算机/Git.md"
     },
     {
-      "basename": "Bootstrap 简化CSS",
-      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
-    },
-    {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
     },
@@ -75,10 +79,6 @@
     {
       "basename": "MarkDown语法",
       "path": "临时笔记/MarkDown语法.md"
-    },
-    {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
       "basename": "1 CSS初级",
