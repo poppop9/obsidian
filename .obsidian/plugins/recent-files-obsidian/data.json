@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Bootstrap 简化CSS",
-      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
-    },
-    {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+    },
+    {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
+      "basename": "Bootstrap 简化CSS",
+      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
     },
     {
       "basename": "8 命令的执行顺序控制",
@@ -95,10 +99,6 @@
     {
       "basename": "2 Vim",
       "path": "计算机/Linux/2 Vim.md"
-    },
-    {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
     {
       "basename": "MobaXterm",
