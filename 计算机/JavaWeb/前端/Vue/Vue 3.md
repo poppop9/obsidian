@@ -169,6 +169,17 @@ function homepage() {
 </script>
 ```
 
+- 动态添加/溢出属性值
+```html
+<!-- 动态给class绑定了一个js对象，里有两个键值对，第一个键值对是true，表示永远都添加，但是第二个键值对被赋给了is -->
+<button :class="{ 'btn btn-light ms-4 align-self-end': true, 'active': isActive }" @click="homepage">主页</button>
+
+<script setup>
+const isActive = ref(true);
+</script>
+```
+
+
 #### 绑定多个属性值
 ```js
 <div :class="['alert', 'alert-' + alerts.value[0].type, 'alert-dismissible']"></div>
