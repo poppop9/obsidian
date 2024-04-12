@@ -5,6 +5,10 @@
       "path": "计算机/Linux/8 命令的执行顺序控制.md"
     },
     {
+      "basename": "软件安装",
+      "path": "计算机/Linux/软件安装.md"
+    },
+    {
       "basename": "Vue 3",
       "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "软件",
       "path": "科技美学/软件.md"
-    },
-    {
-      "basename": "16 反射",
-      "path": "计算机/编程语言/Java/16 反射.md"
     }
   ],
   "omittedPaths": [],
