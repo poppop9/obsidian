@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/7 定时任务.md",
+                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/8 命令的执行顺序控制.md"
+                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/8 命令的执行顺序控制.md"
+                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
               }
             }
           },
@@ -206,11 +205,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1ad1819bab6102c8",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
     "计算机/Linux/7 定时任务.md",
-    "计算机/Linux/1 权限，文件目录.md",
     "计算机/Linux/8 命令的执行顺序控制.md",
+    "计算机/Linux/1 权限，文件目录.md",
     "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md",
     "计算机/Linux/娱乐命令.md",
     "计算机/Linux/6 帮助命令.md",

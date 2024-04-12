@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "8 命令的执行顺序控制",
-      "path": "计算机/Linux/8 命令的执行顺序控制.md"
+      "basename": "Vue 3",
+      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     },
     {
       "basename": "7 定时任务",
       "path": "计算机/Linux/7 定时任务.md"
+    },
+    {
+      "basename": "8 命令的执行顺序控制",
+      "path": "计算机/Linux/8 命令的执行顺序控制.md"
     },
     {
       "basename": "1 权限，文件目录",
@@ -195,10 +199,6 @@
     {
       "basename": "12 接口，内部类",
       "path": "计算机/编程语言/Java/12 接口，内部类.md"
-    },
-    {
-      "basename": "08 修饰符",
-      "path": "计算机/编程语言/Java/08 修饰符.md"
     }
   ],
   "omittedPaths": [],
