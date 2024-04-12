@@ -153,7 +153,7 @@ https://cn.vuejs.org/guide/quick-start.html
 ```
 
 ```html
-<!-- {}表示一个对象，因为style里有 -->
+<!-- {}表示一个对象，因为style里有很多属性，所以每一个都要加，Homepage是一个动态数据变量 -->
 <div v-bind:style="{ display: Homepage }">
   <TeaHomepage />
 </div>
