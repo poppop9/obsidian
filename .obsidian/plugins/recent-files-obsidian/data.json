@@ -5,6 +5,14 @@
       "path": "计算机/Linux/8 命令的执行顺序控制.md"
     },
     {
+      "basename": "3 环境变量，搜索",
+      "path": "计算机/Linux/3 环境变量，搜索.md"
+    },
+    {
+      "basename": "3 BootStrap 高级",
+      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+    },
+    {
       "basename": "软件安装",
       "path": "计算机/Linux/软件安装.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Bootstrap 简化CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
-    },
-    {
-      "basename": "3 BootStrap 高级",
-      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
     },
     {
       "basename": "1 Bootstrap 初级",
@@ -71,10 +75,6 @@
     {
       "basename": "1 SpringBoot + MVC",
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
-    },
-    {
-      "basename": "3 环境变量，搜索",
-      "path": "计算机/Linux/3 环境变量，搜索.md"
     },
     {
       "basename": "SLF4J",
