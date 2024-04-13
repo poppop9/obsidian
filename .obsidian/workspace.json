@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/8 命令的执行顺序控制.md",
+                "file": "计算机/Linux/8 命令执行顺序，管道.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/8 命令的执行顺序控制.md"
+                "file": "计算机/Linux/8 命令执行顺序，管道.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/8 命令的执行顺序控制.md"
+                "file": "计算机/Linux/8 命令执行顺序，管道.md"
               }
             }
           },
@@ -209,7 +209,7 @@
   "lastOpenFiles": [
     "计算机/Linux/3 环境变量，搜索.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
-    "计算机/Linux/8 命令的执行顺序控制.md",
+    "计算机/Linux/8 命令执行顺序，管道.md",
     "计算机/Linux/软件安装.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
