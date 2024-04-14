@@ -66,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+                "file": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
               }
             }
           },
@@ -171,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
+                "file": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
               }
             }
           },
@@ -203,10 +202,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "b0b44308530265a0",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
+    "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
     "计算机/四大件/计算机网络/3 Web 浏览器.md",
     "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md",
     "计算机/四大件/计算机网络/计算机网络 1.md",
