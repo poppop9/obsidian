@@ -24,8 +24,13 @@
             "id": "ec1d6ee6a9dbcc6a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "计算机/Linux/8 命令执行顺序，管道.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           },
           {
@@ -64,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md"
+                "file": "计算机/Linux/8 命令执行顺序，管道.md"
               }
             }
           },
@@ -168,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md"
+                "file": "计算机/Linux/8 命令执行顺序，管道.md"
               }
             }
           },
@@ -200,7 +206,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
     "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md",
     "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",

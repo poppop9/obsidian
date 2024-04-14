@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "8 命令执行顺序，管道",
+      "path": "计算机/Linux/8 命令执行顺序，管道.md"
+    },
+    {
       "basename": "2 基础概念知识 Ⅱ",
       "path": "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "Bootstrap 简化CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
-    },
-    {
-      "basename": "8 命令执行顺序，管道",
-      "path": "计算机/Linux/8 命令执行顺序，管道.md"
     },
     {
       "basename": "3 环境变量，搜索",
