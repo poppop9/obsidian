@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
-                "mode": "source",
+                "file": "计算机/四大件/计算机网络/6 防火墙, 缓存服务器.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md"
+                "file": "计算机/四大件/计算机网络/6 防火墙, 缓存服务器.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md"
+                "file": "计算机/四大件/计算机网络/6 防火墙, 缓存服务器.md"
               }
             }
           },
@@ -207,6 +207,8 @@
   },
   "active": "1ad1819bab6102c8",
   "lastOpenFiles": [
+    "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
+    "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
     "计算机/四大件/计算机网络/3 协议栈, 网卡, 网线.md",
     "计算机/四大件/计算机网络/1 基础概念知识.md",
     "计算机/四大件/计算机网络/2 Web浏览器.md",
@@ -231,8 +233,6 @@
     "计算机/Linux/娱乐命令.md",
     "计算机/Linux/6 帮助命令.md",
     "计算机/Linux/5 文件系统操作，磁盘管理.md",
-    "计算机/Linux/4 打包，压缩.md",
-    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot",
