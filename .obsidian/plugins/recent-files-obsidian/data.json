@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "4 集线器, 交换机, 路由器",
+      "path": "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md"
+    },
+    {
+      "basename": "3 协议栈, 网卡, 网线",
+      "path": "计算机/四大件/计算机网络/3 协议栈, 网卡, 网线.md"
+    },
+    {
+      "basename": "1 基础概念知识",
+      "path": "计算机/四大件/计算机网络/1 基础概念知识.md"
+    },
+    {
+      "basename": "2 Web浏览器",
+      "path": "计算机/四大件/计算机网络/2 Web浏览器.md"
+    },
+    {
+      "basename": "6 防火墙, 缓存服务器",
+      "path": "计算机/四大件/计算机网络/6 防火墙, 缓存服务器.md"
+    },
+    {
+      "basename": "7 Web服务器",
+      "path": "计算机/四大件/计算机网络/7 Web服务器.md"
+    },
+    {
+      "basename": "计算机网络 1",
+      "path": "计算机/四大件/计算机网络/计算机网络 1.md"
+    },
+    {
+      "basename": "1 权限，文件目录",
+      "path": "计算机/Linux/1 权限，文件目录.md"
+    },
+    {
       "basename": "草稿纸",
       "path": "临时笔记/草稿纸.md"
     },
@@ -11,10 +43,6 @@
     {
       "basename": "8 命令执行顺序，管道",
       "path": "计算机/Linux/8 命令执行顺序，管道.md"
-    },
-    {
-      "basename": "1 权限，文件目录",
-      "path": "计算机/Linux/1 权限，文件目录.md"
     },
     {
       "basename": "3 环境变量，搜索",
@@ -171,34 +199,6 @@
     {
       "basename": "Linux Draw",
       "path": "Excalidraw/计算机/Linux Draw.md"
-    },
-    {
-      "basename": "1 HTML 初级",
-      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
-    },
-    {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "计算机",
-      "path": "计算机/计算机.md"
-    },
-    {
-      "basename": "Java Draw",
-      "path": "Excalidraw/计算机/编程语言/Java Draw.md"
-    },
-    {
-      "basename": "07 异常",
-      "path": "计算机/编程语言/Java/07 异常.md"
-    },
-    {
-      "basename": "第三方类库",
-      "path": "计算机/JavaWeb/第三方类库/第三方类库.md"
-    },
-    {
-      "basename": "软件",
-      "path": "科技美学/软件.md"
     }
   ],
   "omittedPaths": [],
