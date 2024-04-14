@@ -2103,8 +2103,8 @@ e5ff3e4fffcc570c02378fca135737470452c9d4: https://obsidian-1307744200.cos.ap-gua
 		},
 		{
 			"type": "arrow",
-			"version": 494,
-			"versionNonce": 396316442,
+			"version": 498,
+			"versionNonce": 303079706,
 			"isDeleted": false,
 			"id": "TjVI5WAghKLWr0q7wJkFu",
 			"fillStyle": "hachure",
@@ -2128,7 +2128,7 @@ e5ff3e4fffcc570c02378fca135737470452c9d4: https://obsidian-1307744200.cos.ap-gua
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713081400772,
+			"updated": 1713083279091,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
