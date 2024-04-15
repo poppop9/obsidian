@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/l.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/l.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/l.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
               }
             }
           },
@@ -208,9 +208,11 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Ⅲ.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理1.md",
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/l.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理",
     "计算机/JavaWeb/后端/SpringBoot/S",
     "计算机/JavaWeb/后端/SpringBoot/新建文件夹",
@@ -235,8 +237,6 @@
     "计算机/四大件/计算机网络/4 协议栈, 网卡, 网线.md",
     "计算机/四大件/计算机网络/7 Web 服务器.md",
     "计算机/四大件/计算机网络/6 防火墙, 缓存服务器.md",
-    "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
-    "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot",
