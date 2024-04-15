@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/l.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/l.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/l.md"
               }
             }
           },
@@ -208,6 +208,14 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理1.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/l.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理",
+    "计算机/JavaWeb/后端/SpringBoot/S",
+    "计算机/JavaWeb/后端/SpringBoot/新建文件夹",
+    "计算机/JavaWeb/后端/SpringBoot/Untitled.md",
+    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/JavaWeb/后端/Spring Security.md",
     "计算机/Linux/1 权限，文件目录.md",
     "计算机/Linux/10 正则表达式.md",
@@ -229,11 +237,6 @@
     "计算机/四大件/计算机网络/6 防火墙, 缓存服务器.md",
     "计算机/四大件/计算机网络/5 接入网, 网络运营商.md",
     "计算机/四大件/计算机网络/4 集线器, 交换机, 路由器.md",
-    "计算机/四大件/计算机网络/3 协议栈, 网卡, 网线.md",
-    "计算机/四大件/计算机网络/2 Web浏览器.md",
-    "临时笔记/草稿纸.md",
-    "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
-    "计算机/Linux/3 环境变量，搜索.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot",
@@ -241,9 +244,6 @@
     "计算机/JavaWeb/后端/新建文件夹",
     "计算机/JavaWeb/第三方类库",
     "计算机/Linux/新建文本文档.txt",
-    "计算机/Linux",
-    "计算机/新建文件夹",
-    "计算机/四大件/计算机网络",
     "图片库/Pasted Image 20240319202618_931.png",
     "图片库/Pasted Image 20230627101729_054.jpg",
     "图片库/Pasted image 20230623134447.png",
