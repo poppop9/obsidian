@@ -13,7 +13,7 @@ SpringBoot 中正常支持<u>三种</u>配置文件【`properties`，`yml`，`ya
 >[!hint] 总的优先级排行
 >**命令行参数** > **Java系统属性** > `properties` > `yml` > `yaml`
 
-# Bean管理
+# Bean 管理
 Spring 项目启动后，**默认**会把 Bean 都创建好放入到 IOC 容器中【还受到<u>作用域</u>，<u>延迟初始化</u>的影响】
 
 ## 手动获取 Bean

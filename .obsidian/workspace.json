@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Bean.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
               }
             }
           },
@@ -208,11 +208,11 @@
   },
   "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Bean.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md",
     "计算机/Linux/10 正则表达式.md",
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Ⅲ.md",
-    "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理1.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理",
     "计算机/JavaWeb/后端/SpringBoot/S",
