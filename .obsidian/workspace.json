@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前端/JavaScript/7 杂.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/8 命令执行顺序，管道.md",
-                "mode": "preview",
+                "file": "计算机/Linux/10 正则表达式.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/7 杂.md"
+                "file": "计算机/Linux/10 正则表达式.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/7 杂.md"
+                "file": "计算机/Linux/10 正则表达式.md"
               }
             }
           },
@@ -205,12 +206,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/JavaScript/7 杂.md",
+    "计算机/Linux/10 正则表达式.md",
     "计算机/Linux/8 命令执行顺序，管道.md",
     "计算机/Linux/1 权限，文件目录.md",
     "计算机/Linux/9 数据流重定向.md",
-    "计算机/JavaWeb/前端/JavaScript/7 杂.md",
     "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
@@ -232,7 +234,6 @@
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/Linux/3 环境变量，搜索.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
-    "计算机/Linux/软件安装.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot",
