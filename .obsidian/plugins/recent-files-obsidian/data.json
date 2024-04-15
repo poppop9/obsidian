@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "2",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
+      "basename": "配置优先级，Bean管理",
+      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
     },
     {
       "basename": "1 起步依赖",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md"
     },
     {
-      "basename": "Ⅲ",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Ⅲ.md"
+      "basename": "10 正则表达式",
+      "path": "计算机/Linux/10 正则表达式.md"
     },
     {
-      "basename": "配置优先级，Bean管理",
-      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+      "basename": "2",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
+    },
+    {
+      "basename": "Ⅲ",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Ⅲ.md"
     },
     {
       "basename": "DDD 架构",
@@ -27,10 +31,6 @@
     {
       "basename": "1 权限，文件目录",
       "path": "计算机/Linux/1 权限，文件目录.md"
-    },
-    {
-      "basename": "10 正则表达式",
-      "path": "计算机/Linux/10 正则表达式.md"
     },
     {
       "basename": "8 命令执行顺序，管道",

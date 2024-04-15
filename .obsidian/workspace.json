@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/10 正则表达式.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
               }
             }
           },
@@ -206,11 +206,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md",
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Ⅲ.md",
+    "计算机/Linux/10 正则表达式.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Ⅲ.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理1.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理",
@@ -220,7 +221,6 @@
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/JavaWeb/后端/Spring Security.md",
     "计算机/Linux/1 权限，文件目录.md",
-    "计算机/Linux/10 正则表达式.md",
     "计算机/Linux/8 命令执行顺序，管道.md",
     "计算机/JavaWeb/前端/JavaScript/7 杂.md",
     "计算机/Linux/9 数据流重定向.md",
