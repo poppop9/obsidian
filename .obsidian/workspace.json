@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/1 权限，文件目录.md",
+                "file": "计算机/Linux/8 命令执行顺序，管道.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -209,8 +209,8 @@
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
     "计算机/Linux/8 命令执行顺序，管道.md",
-    "计算机/Linux/9 数据流重定向.md",
     "计算机/Linux/1 权限，文件目录.md",
+    "计算机/Linux/9 数据流重定向.md",
     "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md",
     "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
     "Excalidraw/计算机/四大件/计算机网络 Draw.md",
