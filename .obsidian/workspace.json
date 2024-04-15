@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/7 杂.md",
+                "file": "计算机/Linux/8 命令执行顺序，管道.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/10 正则表达式.md"
+                "file": "计算机/Linux/8 命令执行顺序，管道.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/10 正则表达式.md"
+                "file": "计算机/Linux/8 命令执行顺序，管道.md"
               }
             }
           },
@@ -206,7 +205,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ec1d6ee6a9dbcc6a",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/JavaScript/7 杂.md",
     "计算机/Linux/10 正则表达式.md",
