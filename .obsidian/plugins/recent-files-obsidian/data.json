@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "配置优先级，Bean管理",
+      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+    },
+    {
+      "basename": "Spring Security",
+      "path": "计算机/JavaWeb/后端/Spring Security.md"
+    },
+    {
+      "basename": "1 权限，文件目录",
+      "path": "计算机/Linux/1 权限，文件目录.md"
+    },
+    {
       "basename": "10 正则表达式",
       "path": "计算机/Linux/10 正则表达式.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "7 杂",
       "path": "计算机/JavaWeb/前端/JavaScript/7 杂.md"
-    },
-    {
-      "basename": "1 权限，文件目录",
-      "path": "计算机/Linux/1 权限，文件目录.md"
     },
     {
       "basename": "9 数据流重定向",
@@ -177,10 +185,6 @@
       "path": "计算机/编程语言/Java/03 Java的基础语法 1.md"
     },
     {
-      "basename": "配置优先级，Bean管理",
-      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
-    },
-    {
       "basename": "6 测试",
       "path": "计算机/JavaWeb/后端/SpringBoot/6 测试.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
-      "basename": "Jackson",
-      "path": "计算机/JavaWeb/第三方类库/Jackson.md"
     }
   ],
   "omittedPaths": [],
