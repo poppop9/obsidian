@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/8 命令执行顺序，管道.md",
+                "file": "计算机/Linux/2-3 awk.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/10 正则表达式.md",
+                "file": "计算机/Linux/正则表达式.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/8 命令执行顺序，管道.md"
+                "file": "计算机/Linux/2-3 awk.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/8 命令执行顺序，管道.md"
+                "file": "计算机/Linux/2-3 awk.md"
               }
             }
           },
@@ -206,12 +206,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "eee1d2c98de4f23a",
+  "active": "15c2a3a18cd1e1e2",
   "lastOpenFiles": [
+    "计算机/Linux/2-2 sed 流编辑器.md",
+    "计算机/Linux/2-3 awk.md",
+    "计算机/Linux/2-1 Vim.md",
+    "计算机/Linux/9 数据流重定向.md",
+    "计算机/Linux/正则表达式.md",
+    "计算机/Linux/8 命令执行顺序，管道.md",
     "计算机/Linux/Linux.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
-    "计算机/Linux/10 正则表达式.md",
-    "计算机/Linux/8 命令执行顺序，管道.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Bean.md",
@@ -230,13 +234,9 @@
     "计算机/JavaWeb/后端/Spring Security.md",
     "计算机/Linux/1 权限，文件目录.md",
     "计算机/JavaWeb/前端/JavaScript/7 杂.md",
-    "计算机/Linux/9 数据流重定向.md",
     "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
-    "Excalidraw/计算机/四大件/计算机网络 Draw.md",
-    "计算机/四大件/计算机网络/3 Web 浏览器.md",
-    "计算机/四大件/计算机网络/计算机网络 1.md",
     "计算机/JavaWeb/后端/DDD 架构",
     "计算机/JavaWeb/后端/SpringBoot MVC",
     "计算机/JavaWeb/后端/SpringBoot",
