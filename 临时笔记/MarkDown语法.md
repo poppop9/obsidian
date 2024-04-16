@@ -375,6 +375,15 @@ pie
 	"关你屁事" : 95
 ```
 ## 时序图
+```mermaid
+sequenceDiagram
+    participant 类 as Class
+    participant 事件 as Event
+    participant 监听器 as Listener
+    类->>事件: 发布事件
+    事件->>监听器: 触发监听器
+    监听器-->>类: 原程序代码与监听器代码异步执行
+```
 ## 甘特图
 ```mermaid
 gantt
