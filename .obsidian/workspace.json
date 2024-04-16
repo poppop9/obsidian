@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/Linux/8 命令执行顺序，管道.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/Linux/10 正则表达式.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/10 正则表达式.md"
+                "file": "计算机/Linux/8 命令执行顺序，管道.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/10 正则表达式.md"
+                "file": "计算机/Linux/8 命令执行顺序，管道.md"
               }
             }
           },
@@ -206,12 +206,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "15c2a3a18cd1e1e2",
   "lastOpenFiles": [
-    "计算机/Linux/8 命令执行顺序，管道.md",
-    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
     "计算机/Linux/10 正则表达式.md",
+    "计算机/Linux/8 命令执行顺序，管道.md",
+    "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Bean.md",
     "临时笔记/MarkDown 语法.md",
