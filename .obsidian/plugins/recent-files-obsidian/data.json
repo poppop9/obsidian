@@ -5,6 +5,10 @@
       "path": "计算机/Linux/8 软件安装.md"
     },
     {
+      "basename": "娱乐命令",
+      "path": "计算机/Linux/娱乐命令.md"
+    },
+    {
       "basename": "7 数据流重定向",
       "path": "计算机/Linux/7 数据流重定向.md"
     },
@@ -163,10 +167,6 @@
     {
       "basename": "7 定时任务",
       "path": "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md"
-    },
-    {
-      "basename": "娱乐命令",
-      "path": "计算机/Linux/娱乐命令.md"
     },
     {
       "basename": "1 SpringBoot + MVC",
