@@ -176,7 +176,7 @@ HelloController实例化了
 com.example.spring_aop.controller.HelloController@69d667a5
 ```
 
-## 第三方Bean
+## 第三方 Bean
 有时我们会在项目中引入第三方的依赖，其中会用到第三方包的对象，如果重复创建对象会消耗资源，我们会想将这个对象放到 IOC 容器中，但是**第三方包是只读的，无法修改**，这时我们就需要使用 `@Bean` 
 
 ```java

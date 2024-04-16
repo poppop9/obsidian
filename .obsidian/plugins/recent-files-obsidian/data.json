@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "2",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
+      "basename": "配置优先级，Bean管理",
+      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
     },
     {
-      "basename": "MarkDown语法",
-      "path": "临时笔记/MarkDown语法.md"
+      "basename": "MarkDown 语法",
+      "path": "临时笔记/MarkDown 语法.md"
+    },
+    {
+      "basename": "2",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
     },
     {
       "basename": "09 类与对象",
@@ -31,10 +35,6 @@
     {
       "basename": "Bean",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Bean.md"
-    },
-    {
-      "basename": "配置优先级，Bean管理",
-      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
     },
     {
       "basename": "1 起步依赖",

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/MarkDown语法.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
               }
             }
           },
@@ -206,9 +205,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ec1d6ee6a9dbcc6a",
+  "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
-    "临时笔记/MarkDown语法.md",
+    "临时笔记/MarkDown 语法.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
     "计算机/编程语言/Java/09 类与对象.md",
     "计算机/编程语言/Java/04 Java 的基础语法 2.md",
