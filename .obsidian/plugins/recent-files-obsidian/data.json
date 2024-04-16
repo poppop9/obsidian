@@ -5,8 +5,12 @@
       "path": "计算机/Linux/10 正则表达式.md"
     },
     {
-      "basename": "Bean",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Bean.md"
+      "basename": "8 命令执行顺序，管道",
+      "path": "计算机/Linux/8 命令执行顺序，管道.md"
+    },
+    {
+      "basename": "2 CSS中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "2",
@@ -15,6 +19,10 @@
     {
       "basename": "配置优先级，Bean管理",
       "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+    },
+    {
+      "basename": "Bean",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Bean.md"
     },
     {
       "basename": "MarkDown 语法",
@@ -35,10 +43,6 @@
     {
       "basename": "02 Java 的理论知识",
       "path": "计算机/编程语言/Java/02 Java 的理论知识.md"
-    },
-    {
-      "basename": "8 命令执行顺序，管道",
-      "path": "计算机/Linux/8 命令执行顺序，管道.md"
     },
     {
       "basename": "1 起步依赖",
@@ -115,10 +119,6 @@
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
-      "basename": "2 CSS中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
     },
     {
       "basename": "Maven",
