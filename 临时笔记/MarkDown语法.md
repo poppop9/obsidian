@@ -380,21 +380,24 @@ sequenceDiagram
     participant 类 as Class
     participant 事件 as Event
     participant 监听器 as Listener
+    
     类->>事件: 发布事件
     事件->>监听器: 触发监听器
     监听器-->>类: 原程序代码与监听器代码异步执行
 ```
+
 ## 甘特图
 ```mermaid
 gantt
-    title A Gantt Diagram
+    title 甘特图
     dateFormat  YYYY-MM-DD
     section Section
-    A task           :a1, 2014-01-01, 30d
-    Another task     :after a1  , 20d
+    任务1           :a1, 2014-01-01, 30d
+    任务2     :after a1  , 20d
+    
     section Another
-    Task in sec      :2014-01-12  , 12d
-    another task      : 24d
+    任务3      :2014-01-12  , 12d
+    任务4      : 24d
 ```
 ## 类图
 ```mermaid
