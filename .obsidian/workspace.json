@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/计算机/Linux Draw.md"
+                "file": "计算机/数据库/Redis/1 基础.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/计算机/Linux Draw.md"
+                "file": "计算机/数据库/Redis/1 基础.md"
               }
             }
           },
@@ -206,8 +206,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "69ff4a06b87c0434",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "Excalidraw/计算机/Linux Draw.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/Docker.md",
     "计算机/Linux/进程.md",
@@ -239,7 +240,6 @@
     "计算机/MySQL/4 调优.md",
     "计算机/MySQL/MYSQL 安装配置.md",
     "计算机/MySQL/3 MySQL 中级.md",
-    "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理",
     "计算机/JavaWeb/后端/SpringBoot/S",
     "计算机/JavaWeb/后端/SpringBoot/新建文件夹",
