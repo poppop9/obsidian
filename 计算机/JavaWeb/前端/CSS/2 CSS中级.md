@@ -351,7 +351,8 @@ img {
 |        :empty        |        p:empty        |        选择没有子元素的 \<p\> 元素         |
 |    :first-of-type    |    p:first-of-type    |    选择作为其父的首个\<p\>元素的每个\<p\>元素    |
 |    :last-of-type     |    p:last-of-type     |  选择作为其父的最后一个\<p\>元素的每个 \<p\> 元素  |
-|   :nth-of-type(n)    |   p:nth-of-type(2)    |                                  |
+|   :nth-of-type(\*)   |   p:nth-of-type(2)    |      选择每个父元素下的第二个 `<p>` 标签       |
+| **:nth-of-type(n)**  |   p:nth-of-type(2n)   |    选择其父元素下的每一个偶数位置的 `<p>` 标签     |
 | :nth-last-of-type(n) | p:nth-last-of-type(2) |                                  |
 |    :only-of-type     |    p:only-of-type     |    选择作为其父的唯一\<p\>元素的每个\<p\>元素    |
 |   :lang(language)    |      p:lang(it)       |  选择每个 lang 属性值以 "it" 开头的\<p\>元素  |
