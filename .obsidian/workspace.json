@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/进程.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/进程.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
               }
             }
           },
@@ -206,10 +206,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "15c2a3a18cd1e1e2",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
-    "计算机/Linux/8 软件安装.md",
     "计算机/Linux/进程.md",
+    "计算机/Linux/8 软件安装.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
     "计算机/MySQL/2 MySQL 基础语句.md",
     "计算机/MySQL/1 MySQL 概念.md",
