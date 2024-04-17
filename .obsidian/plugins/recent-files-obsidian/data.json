@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "MySQL",
+      "path": "计算机/数据库/MySQL.md"
+    },
+    {
+      "basename": "配置优先级，Bean管理",
+      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+    },
+    {
       "basename": "8 软件安装",
       "path": "计算机/Linux/8 软件安装.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "2 CSS中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
-    },
-    {
-      "basename": "配置优先级，Bean管理",
-      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
     },
     {
       "basename": "Bean",
@@ -195,10 +199,6 @@
     {
       "basename": "MobaXterm",
       "path": "计算机/Linux/MobaXterm.md"
-    },
-    {
-      "basename": "OKHttp",
-      "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
     }
   ],
   "omittedPaths": [],
