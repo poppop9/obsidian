@@ -155,12 +155,15 @@ graph LR
 	```sql
 	TRUNCATE TABLE 表名;        //删除表中数据，但保留表结构
 	```
-# DML
->Data Manipulation Language 数据库操作语言
 
-字符串和日期时间类型都需要包含在`引号''`内
+# DML
+>[!QUOTE] DML
+>DML 是数据库操作语言【Data Manipulation Language】
+
+字符串和日期时间类型都需要包含在 `引号''` 内
+
 ## INSERT
-- ***单个插入***
+- **单个插入**
 	- 给指定数量字段插入【***安全插入***】[^1]
 		```sql
 		INSERT INTO 表名(字段1,字段2,……,字段n) VALUES(值1,值2,……,值n);
@@ -169,7 +172,7 @@ graph LR
 		```sql
 		INSERT INTO 表名 VALUES(值1,值2,……,值n);
 		```
-- ***批量插入***
+- **批量插入**
 	- 给指定数量字段插入
 		```sql
 		INSERT TABLE 表名(字段1,字段2) VALUES(值1,值2,……,值n),(值1,值2,……,值n)……;
