@@ -8,25 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "db49ce6ee1268ec2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机/MySQL/2 MySQL 基础语句.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ec1d6ee6a9dbcc6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f2c73ec81dd03ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机/数据库/Redis/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Python/1 基础.md"
+                "file": "计算机/数据库/Redis/Untitled.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Python/1 基础.md"
+                "file": "计算机/数据库/Redis/Untitled.md"
               }
             }
           },
@@ -206,8 +206,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/数据库/Redis/Untitled.md",
+    "计算机/MySQL/2 MySQL 基础语句.md",
+    "计算机/数据库/Redis",
+    "计算机/数据库/新建文件夹",
+    "计算机/数据库/MySQL/3 MySQL 中级.md",
+    "计算机/数据库/MySQL/4 调优.md",
+    "计算机/数据库/MySQL/MYSQL 安装配置.md",
+    "计算机/数据库/MySQL/2 MySQL 基础语句.md",
+    "计算机/数据库/MySQL/1 MySQL 概念.md",
+    "计算机/数据库/MySQL",
+    "计算机/数据库",
+    "计算机/新建文件夹",
     "计算机/编程语言/Python/1 基础.md",
     "计算机/编程语言/Python/Python.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
@@ -220,7 +232,6 @@
     "css.md",
     "临时笔记/草稿纸.md",
     "计算机/Linux/6-2 正则表达式.md",
-    "计算机/MySQL/2 MySQL 基础语句.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
     "计算机/Linux/8 软件安装.md",
     "计算机/MySQL/1 MySQL 概念.md",
@@ -229,21 +240,10 @@
     "计算机/MySQL/3 MySQL 中级.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/Linux/娱乐命令.md",
-    "计算机/Linux/7 数据流重定向.md",
-    "计算机/Linux/6-1 命令执行顺序，管道.md",
-    "计算机/Linux/5 定时任务.md",
-    "计算机/Linux/4 帮助命令.md",
-    "计算机/Linux/3-3 文件系统操作，磁盘管理.md",
-    "计算机/Linux/3-2 打包，压缩.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理",
     "计算机/JavaWeb/后端/SpringBoot/S",
     "计算机/JavaWeb/后端/SpringBoot/新建文件夹",
     "计算机/JavaWeb/后端/DDD 架构",
-    "计算机/JavaWeb/后端/SpringBoot MVC",
-    "计算机/JavaWeb/后端/SpringBoot",
-    "计算机/JavaWeb/后端/MVC 架构",
-    "计算机/JavaWeb/后端/新建文件夹",
-    "计算机/JavaWeb/第三方类库",
     "图片库/Pasted Image 20240319202618_931.png",
     "图片库/Pasted Image 20230627101729_054.jpg",
     "图片库/Pasted image 20230623134447.png",
