@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
+      "basename": "进程",
+      "path": "计算机/Linux/进程.md"
+    },
+    {
       "basename": "1 基础",
       "path": "计算机/数据库/Redis/1 基础.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "2 CSS中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
-    },
-    {
-      "basename": "进程",
-      "path": "计算机/Linux/进程.md"
     },
     {
       "basename": "1 CSS初级",

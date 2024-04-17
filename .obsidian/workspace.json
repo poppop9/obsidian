@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/进程.md",
+                "file": "计算机/Docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/Redis/1 基础.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/Redis/1 基础.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -206,8 +206,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "15c2a3a18cd1e1e2",
   "lastOpenFiles": [
+    "计算机/Linux/进程.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/MySQL/2 MySQL 基础语句.md",
     "计算机/数据库/Redis",
@@ -226,7 +227,6 @@
     "计算机/编程语言/Python",
     "计算机/编程语言/Untitled.md",
     "计算机/编程语言/编程语言.md",
-    "计算机/Linux/进程.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "css.md",
