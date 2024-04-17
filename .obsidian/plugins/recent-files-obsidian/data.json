@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2 MySQL 基础语句",
+      "path": "计算机/MySQL/2 MySQL 基础语句.md"
+    },
+    {
       "basename": "1 MySQL 概念",
       "path": "计算机/MySQL/1 MySQL 概念.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "3 MySQL 中级",
       "path": "计算机/MySQL/3 MySQL 中级.md"
-    },
-    {
-      "basename": "2 MySQL 基础语句",
-      "path": "计算机/MySQL/2 MySQL 基础语句.md"
     },
     {
       "basename": "配置优先级，Bean管理",

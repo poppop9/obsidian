@@ -1,68 +1,93 @@
 # DDL
->Data Definition Language 数据库定义语言
+>[!quote] DDL
+>DDL 是数据库定义语言【Data Definition Language】
+
 ## 数据库操作
 - ***查询***
 	- `SHOW DATABASES;`  查询所有数据库
 	- `SELECT DATABASE();`  查询当前正在使用的数据库
+
+---
+
 - ***创建***
-	```sql
-	CREATE DATABASE  
-	    [IF NOT EXISTS]      /*中括号表示可选项*/
-	    数据库名  
-	    [CHARACTER SET 字符集名]
-	    [COLLATE 排序规则];
-	```
+```sql
+CREATE DATABASE  
+	[IF NOT EXISTS]      /*中括号表示可选项*/
+	数据库名  
+	[CHARACTER SET 字符集名]
+	[COLLATE 排序规则];
+```
+
+---
+
 - ***使用***
 	- `USE 数据库名;`  切换到某个数据库
+
+---
+
 - ***删除***
 	- `DROP DATABASE [IF EXISTS] 数据库名;`  删除某个数据库
+
 ## 表的操作
 - ***查询***
 	- `SHOW TABLES;`  查询当前数据库所有的表
 	- `DESC 表名;`  查询表结构
 	- `SHOW CREATE TABLE 表名;`  查询建表语句
+
+---
+
 - ***创建***
-	```sql
-	CREATE TABLE 表名(
-		字段1 字段类型 [约束] [COMMENT 注释],
-		字段2 字段类型 [约束] [COMMENT 注释],
-		字段3 字段类型 [约束] [COMMENT 注释],
-		…………
-		字段n 字段类型 [约束] [COMMENT 注释]
-	)[COMMENT 表注释]
-	```
-- ***修改***
-	- 对于字段
-		- 添加字段
-			```sql
-			ALTER TABLE 表名 ADD 字段名 数据类型[COMMENT 注释] [约束];
-			```
-		- 修改属性
-			```sql
-			ALTER TABLE 表名
-				CHANGE 旧字段名 新字段名 新数据类型 [COMMENT 注释]
-				[约束];
-			```
-	- 对于表
-		- 修改表名
-			```sql
-			ALTER TABLE 旧表名 RENAME TO 新表名;
-			```
-		- 修改表的存储引擎
-			```sql
-			ALTER TABLE 表名
-				ENGINE = 存储引擎类型;       //修改表的存储引擎
-			```
+```sql
+CREATE TABLE 表名(
+	字段1 字段类型 [约束] [COMMENT 注释],
+	字段2 字段类型 [约束] [COMMENT 注释],
+	字段3 字段类型 [约束] [COMMENT 注释],
+	…………
+	字段n 字段类型 [约束] [COMMENT 注释]
+)[COMMENT 表注释]
+```
+
+---
+
+- **修改字段**
+	- 添加字段
+		```sql
+		ALTER TABLE 表名 ADD 字段名 数据类型[COMMENT 注释] [约束];
+		```
+	- 修改属性
+		```sql
+		ALTER TABLE 表名
+			CHANGE 旧字段名 新字段名 新数据类型 [COMMENT 注释]
+			[约束];
+		```
+
+---
+
+- **修改表**
+	- 修改表名
+		```sql
+		ALTER TABLE 旧表名 RENAME TO 新表名;
+		```
+	- 修改表的存储引擎
+		```sql
+		ALTER TABLE 表名
+			ENGINE = 存储引擎类型;       //修改表的存储引擎
+		```
+
+---
+
 - ***删除***
-	```sql
-	ALTER TABLE 表名 DROP 字段名;   //删除某个字段名【删除一列】
-	```
-	```sql
-	DROP TABLE [IF EXISTS] 表名;       //删除整张表
-	```
-	```sql
-	TRUNCATE TABLE 表名;        //删除表中数据，但保留表结构
-	```
+```sql
+ALTER TABLE 表名 DROP 字段名;   //删除某个字段名【删除一列】
+```
+
+```sql
+DROP TABLE [IF EXISTS] 表名;       //删除整张表
+```
+
+```sql
+TRUNCATE TABLE 表名;        //删除表中数据，但保留表结构
+```
 
 # DML
 >[!QUOTE] DML
@@ -72,14 +97,21 @@
 
 ## INSERT
 - **单个插入**
-	- 给指定数量字段插入【***安全插入***】[^1]
+	- 给指定数量字段插入【**安全插入**】[^1]
 		```sql
 		INSERT INTO 表名(字段1,字段2,……,字段n) VALUES(值1,值2,……,值n);
 		```
-	- 给所有字段插入【***不安全插入***】[^2]
+	- 给所有字段插入【**不安全插入**】[^2]
 		```sql
 		INSERT INTO 表名 VALUES(值1,值2,……,值n);
 		```
+
+>[!quote] 安全插入，不安全插入
+>- 安全插入：不会由于表结构的改变而导致语法错误
+>- 不安全插入：
+
+---
+
 - **批量插入**
 	- 给指定数量字段插入
 		```sql
@@ -90,7 +122,7 @@
 		INSERT INTO 表名 VALUES(值1,值2,……,值n),(值1,值2,……,值n)……;
 		```
 
-[^1]:不会由于表结构的改变而导致语法错误
+
 [^2]:可能因为表结构的改变而导致语法错误
 
 >[!hint] 如何插入SELECT出的数据
@@ -102,6 +134,7 @@
 > FROM 表2;
 > ```
 > ***INSERT只能插入一行，而INSERT-SELECT可以插入多行***
+
 ## UPDATE
 ```sql
 UPDATE 表名 SET 字段名1=值1,字段名2=值2 [WHERE 条件];

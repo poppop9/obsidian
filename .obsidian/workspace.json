@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/MySQL/1 MySQL 概念.md",
+                "file": "计算机/MySQL/2 MySQL 基础语句.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/MySQL/1 MySQL 概念.md"
+                "file": "计算机/MySQL/2 MySQL 基础语句.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/MySQL/1 MySQL 概念.md"
+                "file": "计算机/MySQL/2 MySQL 基础语句.md"
               }
             }
           },
@@ -207,10 +207,10 @@
   },
   "active": "db49ce6ee1268ec2",
   "lastOpenFiles": [
+    "计算机/MySQL/1 MySQL 概念.md",
     "计算机/MySQL/4 调优.md",
     "计算机/MySQL/MYSQL 安装配置.md",
     "计算机/MySQL/3 MySQL 中级.md",
-    "计算机/MySQL/1 MySQL 概念.md",
     "计算机/MySQL/2 MySQL 基础语句.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/Linux/8 软件安装.md",
