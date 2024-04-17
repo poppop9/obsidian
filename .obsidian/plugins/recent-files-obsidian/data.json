@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "进程",
+      "path": "计算机/Linux/进程.md"
+    },
+    {
       "basename": "8 软件安装",
       "path": "计算机/Linux/8 软件安装.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "SLF4J",
       "path": "计算机/JavaWeb/第三方类库/SLF4J.md"
-    },
-    {
-      "basename": "Git",
-      "path": "计算机/Git.md"
     }
   ],
   "omittedPaths": [],
