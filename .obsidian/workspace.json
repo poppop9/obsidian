@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/MySQL/2 MySQL 基础语句.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/MySQL/2 MySQL 基础语句.md"
+                "file": "计算机/Linux/8 软件安装.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/MySQL/2 MySQL 基础语句.md"
+                "file": "计算机/Linux/8 软件安装.md"
               }
             }
           },
@@ -205,13 +206,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "db49ce6ee1268ec2",
+  "active": "15c2a3a18cd1e1e2",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
+    "计算机/MySQL/2 MySQL 基础语句.md",
     "计算机/MySQL/1 MySQL 概念.md",
     "计算机/MySQL/4 调优.md",
     "计算机/MySQL/MYSQL 安装配置.md",
     "计算机/MySQL/3 MySQL 中级.md",
-    "计算机/MySQL/2 MySQL 基础语句.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/Linux/8 软件安装.md",
     "计算机/Linux/娱乐命令.md",
@@ -227,7 +229,6 @@
     "计算机/Linux/2-2 sed 流编辑器.md",
     "计算机/Linux/2-1 Vim.md",
     "计算机/Linux/Linux.md",
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Bean.md",
     "临时笔记/MarkDown 语法.md",

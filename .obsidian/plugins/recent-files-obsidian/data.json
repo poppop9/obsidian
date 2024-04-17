@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "8 软件安装",
+      "path": "计算机/Linux/8 软件安装.md"
+    },
+    {
+      "basename": "2",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
+    },
+    {
       "basename": "2 MySQL 基础语句",
       "path": "计算机/MySQL/2 MySQL 基础语句.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "配置优先级，Bean管理",
       "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
-    },
-    {
-      "basename": "8 软件安装",
-      "path": "计算机/Linux/8 软件安装.md"
     },
     {
       "basename": "娱乐命令",
@@ -75,10 +79,6 @@
     {
       "basename": "2-1 Vim",
       "path": "计算机/Linux/2-1 Vim.md"
-    },
-    {
-      "basename": "2",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
     },
     {
       "basename": "2 CSS中级",
