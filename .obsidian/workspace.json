@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/Redis/1 基础.md"
+                "file": "Excalidraw/计算机/Linux Draw.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/Redis/1 基础.md"
+                "file": "Excalidraw/计算机/Linux Draw.md"
               }
             }
           },
@@ -206,11 +206,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "69ff4a06b87c0434",
   "lastOpenFiles": [
+    "计算机/数据库/Redis/1 基础.md",
     "计算机/Docker.md",
     "计算机/Linux/进程.md",
-    "计算机/数据库/Redis/1 基础.md",
     "计算机/MySQL/2 MySQL 基础语句.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
