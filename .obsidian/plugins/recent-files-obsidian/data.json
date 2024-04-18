@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "11 泛型",
+      "path": "计算机/编程语言/Java/11 泛型.md"
+    },
+    {
+      "basename": "4-2 继承",
+      "path": "计算机/编程语言/Java/4-2 继承.md"
+    },
+    {
+      "basename": "4-1 类与对象",
+      "path": "计算机/编程语言/Java/4-1 类与对象.md"
+    },
+    {
+      "basename": "3-5 集合",
+      "path": "计算机/编程语言/Java/3-5 集合.md"
+    },
+    {
+      "basename": "3-4 修饰符",
+      "path": "计算机/编程语言/Java/3-4 修饰符.md"
+    },
+    {
+      "basename": "3-3 异常",
+      "path": "计算机/编程语言/Java/3-3 异常.md"
+    },
+    {
+      "basename": "3-2 字符串",
+      "path": "计算机/编程语言/Java/3-2 字符串.md"
+    },
+    {
+      "basename": "3-1 常用 API",
+      "path": "计算机/编程语言/Java/3-1 常用 API.md"
+    },
+    {
+      "basename": "2-3 Java 的基础语法 2",
+      "path": "计算机/编程语言/Java/2-3 Java 的基础语法 2.md"
+    },
+    {
+      "basename": "2-2 Java 的基础语法 1",
+      "path": "计算机/编程语言/Java/2-2 Java 的基础语法 1.md"
+    },
+    {
+      "basename": "2-1 Java 的理论知识",
+      "path": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
+    },
+    {
+      "basename": "1 idea",
+      "path": "计算机/编程语言/Java/1 idea.md"
+    },
+    {
+      "basename": "Java 语法糖",
+      "path": "计算机/编程语言/Java/Java 语法糖.md"
+    },
+    {
       "basename": "3 对象",
       "path": "计算机/编程语言/Python/3 对象.md"
     },
@@ -125,22 +177,6 @@
       "path": "临时笔记/MarkDown 语法.md"
     },
     {
-      "basename": "09 类与对象",
-      "path": "计算机/编程语言/Java/09 类与对象.md"
-    },
-    {
-      "basename": "04 Java 的基础语法 2",
-      "path": "计算机/编程语言/Java/04 Java 的基础语法 2.md"
-    },
-    {
-      "basename": "03 Java 的基础语法 1",
-      "path": "计算机/编程语言/Java/03 Java 的基础语法 1.md"
-    },
-    {
-      "basename": "02 Java 的理论知识",
-      "path": "计算机/编程语言/Java/02 Java 的理论知识.md"
-    },
-    {
       "basename": "1 起步依赖",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "2 基础概念知识 Ⅱ",
       "path": "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md"
-    },
-    {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "1 基础概念知识 Ⅰ",
-      "path": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
-    },
-    {
-      "basename": "计算机网络 Draw",
-      "path": "Excalidraw/计算机/四大件/计算机网络 Draw.md"
-    },
-    {
-      "basename": "3 Web 浏览器",
-      "path": "计算机/四大件/计算机网络/3 Web 浏览器.md"
-    },
-    {
-      "basename": "计算机网络 1",
-      "path": "计算机/四大件/计算机网络/计算机网络 1.md"
-    },
-    {
-      "basename": "Bootstrap 简化CSS",
-      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
-    },
-    {
-      "basename": "3 BootStrap 高级",
-      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
-    },
-    {
-      "basename": "Vue 3",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
-    },
-    {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     }
   ],
   "omittedPaths": [],

@@ -3,7 +3,7 @@ _filters: []
 _contexts: []
 _links: []
 _sort:
-  field: name
+  field: rank
   asc: true
   group: false
 sticker: emoji//2615
