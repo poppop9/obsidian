@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "3-3 基本类型包装类",
+      "path": "计算机/编程语言/Java/3-3 基本类型包装类.md"
+    },
+    {
+      "basename": "3-4 异常",
+      "path": "计算机/编程语言/Java/3-4 异常.md"
+    },
+    {
+      "basename": "3-5 修饰符",
+      "path": "计算机/编程语言/Java/3-5 修饰符.md"
+    },
+    {
+      "basename": "3-6 集合",
+      "path": "计算机/编程语言/Java/3-6 集合.md"
+    },
+    {
+      "basename": "3-2 字符串",
+      "path": "计算机/编程语言/Java/3-2 字符串.md"
+    },
+    {
       "basename": "1 MySQL 概念",
       "path": "计算机/数据库/MySQL/1 MySQL 概念.md"
     },
@@ -71,22 +91,6 @@
     {
       "basename": "4-1 类与对象",
       "path": "计算机/编程语言/Java/4-1 类与对象.md"
-    },
-    {
-      "basename": "3-5 集合",
-      "path": "计算机/编程语言/Java/3-5 集合.md"
-    },
-    {
-      "basename": "3-4 修饰符",
-      "path": "计算机/编程语言/Java/3-4 修饰符.md"
-    },
-    {
-      "basename": "3-3 异常",
-      "path": "计算机/编程语言/Java/3-3 异常.md"
-    },
-    {
-      "basename": "3-2 字符串",
-      "path": "计算机/编程语言/Java/3-2 字符串.md"
     },
     {
       "basename": "3-1 常用 API",
@@ -195,10 +199,6 @@
     {
       "basename": "3-2 打包，压缩",
       "path": "计算机/Linux/3-2 打包，压缩.md"
-    },
-    {
-      "basename": "3-1 环境变量，搜索",
-      "path": "计算机/Linux/3-1 环境变量，搜索.md"
     }
   ],
   "omittedPaths": [],
