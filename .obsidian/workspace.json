@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Python/1 基础.md"
+                "file": "计算机/编程语言/Python/3 对象.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Python/1 基础.md"
+                "file": "计算机/编程语言/Python/3 对象.md"
               }
             }
           },
@@ -206,10 +206,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "15c2a3a18cd1e1e2",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/编程语言/Python/3 对象.md",
     "计算机/编程语言/Python/1 基础.md",
+    "计算机/编程语言/Python/3 对象.md",
     "计算机/编程语言/Python/2 常用 API.md",
     "计算机/Docker.md",
     "计算机/数据库/Redis/1 基础.md",
