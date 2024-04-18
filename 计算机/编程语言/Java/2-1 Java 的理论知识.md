@@ -4,10 +4,13 @@
 # JDK
 >java development Kit，是 java 程序开发工具包，其中包含了<u>JRE</u>和<u>开发人员使用的工具</u>【编译工具（javac.exe）和运行工具（java.exe）】
 
-## JDK与JRE的关系
+## JDK 与 JRE 的关系
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403201515206.png)
 
-## JDK的安装目录
+>[!hint] 如何安装双 JDK 版本 ？
+>[csdn](https://blog.csdn.net/qq_40258748/article/details/115604851?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170239038616800226592284%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170239038616800226592284&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-115604851-null-null.142^v96^pc_search_result_base5&utm_term=%E7%94%B5%E8%84%91%E9%85%8D%E7%BD%AE%E4%B8%A4%E4%B8%AAjava%E7%89%88%E6%9C%AC&spm=1018.2226.3001.4187)
+
+## JDK 的安装目录
 | **目录名称** | **说明**                        |     |
 | -------- | ----------------------------- | --- |
 | bin      | 存放了JDK的各种工具命令，javac和java就放在这里 |     |
@@ -17,8 +20,8 @@
 | legal    | 存放了JDK各模块的授权文档                |     |
 | lib      | 存放了JDK工具的一些补充JAR              |     |
 
-# DOS命令窗口
-## 常用的dos命令
+# DOS 命令窗口
+## 常用的 dos 命令
 | **操作** | **说明**     |
 | ------ | ---------- |
 | 盘符名称:  | 盘符切换       |
@@ -27,7 +30,7 @@
 | cls    | 清屏         |
 | exit   | 退出命令提示符窗口  |
 
-# path环境变量的配置
+# path 环境变量的配置
 >[!hint] 为什么要配置环境变量 ？
 >打开 javac 和 java 的过程要在 dos 中打开，非常麻烦，所以要配置。配置完之后，不需要在 dos 中输入 javac 的文件路径，可以直接输入 javac
 

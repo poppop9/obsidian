@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2-1 Java 的理论知识",
+      "path": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
+    },
+    {
+      "basename": "1 idea",
+      "path": "计算机/编程语言/Java/1 idea.md"
+    },
+    {
+      "basename": "2-2 Java 的基础语法 1",
+      "path": "计算机/编程语言/Java/2-2 Java 的基础语法 1.md"
+    },
+    {
       "basename": "5-2 类加载器",
       "path": "计算机/编程语言/Java/5-2 类加载器.md"
     },
@@ -59,18 +71,6 @@
     {
       "basename": "2-3 Java 的基础语法 2",
       "path": "计算机/编程语言/Java/2-3 Java 的基础语法 2.md"
-    },
-    {
-      "basename": "2-2 Java 的基础语法 1",
-      "path": "计算机/编程语言/Java/2-2 Java 的基础语法 1.md"
-    },
-    {
-      "basename": "2-1 Java 的理论知识",
-      "path": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
-    },
-    {
-      "basename": "1 idea",
-      "path": "计算机/编程语言/Java/1 idea.md"
     },
     {
       "basename": "Java 语法糖",
@@ -195,10 +195,6 @@
     {
       "basename": "MarkDown 语法",
       "path": "临时笔记/MarkDown 语法.md"
-    },
-    {
-      "basename": "1 起步依赖",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md"
     }
   ],
   "omittedPaths": [],

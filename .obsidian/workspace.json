@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/5-2 类加载器.md",
+                "file": "计算机/编程语言/Java/2-1 Java 的理论知识.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/5-2 类加载器.md"
+                "file": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/5-2 类加载器.md"
+                "file": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
               }
             }
           },
@@ -208,8 +208,12 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/编程语言/Java/5-3 反射.md",
+    "计算机/编程语言/Java/配置.md",
+    "计算机/编程语言/Java/2-1 Java 的理论知识.md",
+    "计算机/编程语言/Java/1 idea.md",
+    "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
     "计算机/编程语言/Java/5-2 类加载器.md",
+    "计算机/编程语言/Java/5-3 反射.md",
     "计算机/编程语言/Python/1 基础.md",
     "计算机/编程语言/Java/5-4 网络编程.md",
     "计算机/编程语言/Java/5-1 Java 8 新特性.md",
@@ -223,9 +227,6 @@
     "计算机/编程语言/Java/3-2 字符串.md",
     "计算机/编程语言/Java/3-1 常用 API.md",
     "计算机/编程语言/Java/2-3 Java 的基础语法 2.md",
-    "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
-    "计算机/编程语言/Java/2-1 Java 的理论知识.md",
-    "计算机/编程语言/Java/1 idea.md",
     "计算机/编程语言/Java/Java 语法糖.md",
     "计算机/编程语言/Python/3 对象.md",
     "计算机/编程语言/Python/2 常用 API.md",
@@ -233,7 +234,6 @@
     "计算机/数据库/Redis/1 基础.md",
     "计算机/数据库/Redis/3 数据结构命令.md",
     "计算机/数据库/Redis/2 键命令.md",
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",
