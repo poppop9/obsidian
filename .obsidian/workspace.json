@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Python/2 常用 API.md",
+                "file": "计算机/编程语言/Python/1 基础.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Python/2 常用 API.md"
+                "file": "计算机/编程语言/Python/1 基础.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Python/2 常用 API.md"
+                "file": "计算机/编程语言/Python/1 基础.md"
               }
             }
           },
@@ -208,8 +208,8 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/编程语言/Python/1 基础.md",
     "计算机/编程语言/Python/2 常用 API.md",
+    "计算机/编程语言/Python/1 基础.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/数据库/Redis/3 数据结构命令.md",
     "计算机/数据库/Redis/2 键命令.md",
