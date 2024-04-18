@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/2-1 Java 的理论知识.md",
-                "mode": "preview",
+                "file": "计算机/数据库/MySQL/1 MySQL 概念.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
+                "file": "计算机/数据库/MySQL/1 MySQL 概念.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
+                "file": "计算机/数据库/MySQL/1 MySQL 概念.md"
               }
             }
           },
@@ -208,8 +208,14 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/编程语言/Java/配置.md",
+    "计算机/数据库/MySQL/2 MySQL 基础语句.md",
+    "计算机/数据库/MySQL/MYSQL 安装配置.md",
+    "计算机/数据库/MySQL/4 调优.md",
+    "计算机/数据库/MySQL/3 MySQL 中级.md",
+    "计算机/数据库/MySQL/1 MySQL 概念.md",
+    "计算机/数据库/MySQL/MySQL.md",
     "计算机/编程语言/Java/2-1 Java 的理论知识.md",
+    "计算机/编程语言/Java/配置.md",
     "计算机/编程语言/Java/1 idea.md",
     "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
     "计算机/编程语言/Java/5-2 类加载器.md",
@@ -228,12 +234,6 @@
     "计算机/编程语言/Java/3-1 常用 API.md",
     "计算机/编程语言/Java/2-3 Java 的基础语法 2.md",
     "计算机/编程语言/Java/Java 语法糖.md",
-    "计算机/编程语言/Python/3 对象.md",
-    "计算机/编程语言/Python/2 常用 API.md",
-    "计算机/Docker.md",
-    "计算机/数据库/Redis/1 基础.md",
-    "计算机/数据库/Redis/3 数据结构命令.md",
-    "计算机/数据库/Redis/2 键命令.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",

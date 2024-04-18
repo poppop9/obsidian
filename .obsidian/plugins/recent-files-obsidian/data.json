@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "1 MySQL 概念",
+      "path": "计算机/数据库/MySQL/1 MySQL 概念.md"
+    },
+    {
+      "basename": "2 MySQL 基础语句",
+      "path": "计算机/数据库/MySQL/2 MySQL 基础语句.md"
+    },
+    {
+      "basename": "MYSQL 安装配置",
+      "path": "计算机/数据库/MySQL/MYSQL 安装配置.md"
+    },
+    {
+      "basename": "4 调优",
+      "path": "计算机/数据库/MySQL/4 调优.md"
+    },
+    {
+      "basename": "3 MySQL 中级",
+      "path": "计算机/数据库/MySQL/3 MySQL 中级.md"
+    },
+    {
+      "basename": "MySQL",
+      "path": "计算机/数据库/MySQL/MySQL.md"
+    },
+    {
       "basename": "2-1 Java 的理论知识",
       "path": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
     },
@@ -175,26 +199,6 @@
     {
       "basename": "3-1 环境变量，搜索",
       "path": "计算机/Linux/3-1 环境变量，搜索.md"
-    },
-    {
-      "basename": "2-3 awk",
-      "path": "计算机/Linux/2-3 awk.md"
-    },
-    {
-      "basename": "2-2 sed 流编辑器",
-      "path": "计算机/Linux/2-2 sed 流编辑器.md"
-    },
-    {
-      "basename": "2-1 Vim",
-      "path": "计算机/Linux/2-1 Vim.md"
-    },
-    {
-      "basename": "Bean",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/Bean.md"
-    },
-    {
-      "basename": "MarkDown 语法",
-      "path": "临时笔记/MarkDown 语法.md"
     }
   ],
   "omittedPaths": [],
