@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "3 数据结构命令",
-      "path": "计算机/数据库/Redis/3 数据结构命令.md"
+      "basename": "2 常用 API",
+      "path": "计算机/编程语言/Python/2 常用 API.md"
+    },
+    {
+      "basename": "1 基础",
+      "path": "计算机/编程语言/Python/1 基础.md"
     },
     {
       "basename": "1 基础",
       "path": "计算机/数据库/Redis/1 基础.md"
+    },
+    {
+      "basename": "3 数据结构命令",
+      "path": "计算机/数据库/Redis/3 数据结构命令.md"
     },
     {
       "basename": "2 键命令",
@@ -27,10 +35,6 @@
     {
       "basename": "进程",
       "path": "计算机/Linux/进程.md"
-    },
-    {
-      "basename": "1 基础",
-      "path": "计算机/编程语言/Python/1 基础.md"
     },
     {
       "basename": "Python",
@@ -195,10 +199,6 @@
     {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     }
   ],
   "omittedPaths": [],

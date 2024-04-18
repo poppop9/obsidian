@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Python/1 基础.md",
+                "file": "计算机/编程语言/Python/2 常用 API.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/Redis/3 数据结构命令.md"
+                "file": "计算机/编程语言/Python/2 常用 API.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/Redis/3 数据结构命令.md"
+                "file": "计算机/编程语言/Python/2 常用 API.md"
               }
             }
           },
@@ -206,12 +206,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/编程语言/Python/1 基础.md",
+    "计算机/编程语言/Python/2 常用 API.md",
     "计算机/数据库/Redis/1 基础.md",
+    "计算机/数据库/Redis/3 数据结构命令.md",
     "计算机/数据库/Redis/2 键命令.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
-    "计算机/数据库/Redis/3 数据结构命令.md",
     "计算机/Docker.md",
     "Excalidraw/计算机/Linux Draw.md",
     "计算机/Linux/进程.md",
@@ -226,7 +228,6 @@
     "计算机/数据库/MySQL",
     "计算机/数据库",
     "计算机/新建文件夹",
-    "计算机/编程语言/Python/1 基础.md",
     "计算机/编程语言/Python/Python.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/编程语言/Python",
@@ -239,7 +240,6 @@
     "计算机/Linux/6-2 正则表达式.md",
     "计算机/Linux/8 软件安装.md",
     "计算机/MySQL/1 MySQL 概念.md",
-    "计算机/MySQL/4 调优.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理",
     "计算机/JavaWeb/后端/SpringBoot/S",
     "计算机/JavaWeb/后端/SpringBoot/新建文件夹",

@@ -187,8 +187,8 @@ redis的执行日志 ^HtWyVTZg
 		},
 		{
 			"type": "arrow",
-			"version": 94,
-			"versionNonce": 318252269,
+			"version": 98,
+			"versionNonce": 2094761024,
 			"isDeleted": false,
 			"id": "6w9Ii75uXYcDlz8fgGWni",
 			"fillStyle": "solid",
@@ -210,7 +210,7 @@ redis的执行日志 ^HtWyVTZg
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1713359016458,
+			"updated": 1713405669357,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -274,20 +274,24 @@ redis的执行日志 ^HtWyVTZg
 			]
 		},
 		{
-			"id": "gfJMDH2hg2bzmn7StBHcz",
 			"type": "arrow",
-			"x": -439.5683172161579,
-			"y": -36.474439213629466,
-			"width": 103.93926443323454,
-			"height": 18.180230336002175,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 261,
+			"versionNonce": 1825455587,
+			"isDeleted": false,
+			"id": "gfJMDH2hg2bzmn7StBHcz",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -439.5683172161579,
+			"y": -36.474439213629466,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 103.93926443323454,
+			"height": 18.180230336002175,
+			"seed": 1544215683,
 			"groupIds": [
 				"hiitxu-gGTs_4q0v7iOlk",
 				"yxJUB83c-hb1gLoDTBo-a"
@@ -296,14 +300,19 @@ redis的执行日志 ^HtWyVTZg
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1544215683,
-			"version": 261,
-			"versionNonce": 1825455587,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1713372673873,
 			"link": null,
 			"locked": false,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "yRymhjpm",
+				"focus": 0.7646894425498953,
+				"gap": 15.901344063478327
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -313,42 +322,33 @@ redis的执行日志 ^HtWyVTZg
 					103.93926443323454,
 					18.180230336002175
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": {
-				"elementId": "yRymhjpm",
-				"focus": 0.7646894425498953,
-				"gap": 15.901344063478327
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		},
 		{
-			"id": "siorXVKU",
 			"type": "text",
-			"x": -326.05867466068725,
-			"y": -30.779690557889015,
-			"width": 132.92796325683594,
-			"height": 20,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 214,
+			"versionNonce": 1599214573,
+			"isDeleted": false,
+			"id": "siorXVKU",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -326.05867466068725,
+			"y": -30.779690557889015,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 132.92796325683594,
+			"height": 20,
+			"seed": 362634573,
 			"groupIds": [
 				"hiitxu-gGTs_4q0v7iOlk",
 				"yxJUB83c-hb1gLoDTBo-a"
 			],
 			"frameId": null,
 			"roundness": null,
-			"seed": 362634573,
-			"version": 214,
-			"versionNonce": 1599214573,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "gfJMDH2hg2bzmn7StBHcz",
@@ -358,10 +358,10 @@ redis的执行日志 ^HtWyVTZg
 			"updated": 1713372673716,
 			"link": null,
 			"locked": false,
-			"text": "查看redis服务数据",
-			"rawText": "查看redis服务数据",
 			"fontSize": 16,
 			"fontFamily": 1,
+			"text": "查看redis服务数据",
+			"rawText": "查看redis服务数据",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -369,20 +369,24 @@ redis的执行日志 ^HtWyVTZg
 			"lineHeight": 1.25
 		},
 		{
-			"id": "Om9vgBSLqXXJr6d_IWew4",
 			"type": "arrow",
-			"x": -441.99143411728875,
-			"y": -14.104655230507603,
-			"width": 74.88449001415921,
-			"height": 17.390243690495254,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 150,
+			"versionNonce": 951224707,
+			"isDeleted": false,
+			"id": "Om9vgBSLqXXJr6d_IWew4",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -441.99143411728875,
+			"y": -14.104655230507603,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 74.88449001415921,
+			"height": 17.390243690495254,
+			"seed": 1725613805,
 			"groupIds": [
 				"hiitxu-gGTs_4q0v7iOlk",
 				"yxJUB83c-hb1gLoDTBo-a"
@@ -391,14 +395,19 @@ redis的执行日志 ^HtWyVTZg
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1725613805,
-			"version": 150,
-			"versionNonce": 951224707,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1713372673873,
 			"link": null,
 			"locked": false,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "yRymhjpm",
+				"focus": -0.5403622845327968,
+				"gap": 8.783839427651913
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -408,42 +417,33 @@ redis的执行日志 ^HtWyVTZg
 					74.88449001415921,
 					17.390243690495254
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": {
-				"elementId": "yRymhjpm",
-				"focus": -0.5403622845327968,
-				"gap": 8.783839427651913
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		},
 		{
-			"id": "yRymhjpm",
 			"type": "text",
-			"x": -358.3231046754776,
-			"y": -2.3928648141489646,
-			"width": 144,
-			"height": 20,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 143,
+			"versionNonce": 262519981,
+			"isDeleted": false,
+			"id": "yRymhjpm",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -358.3231046754776,
+			"y": -2.3928648141489646,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 144,
+			"height": 20,
+			"seed": 884072035,
 			"groupIds": [
 				"hiitxu-gGTs_4q0v7iOlk",
 				"yxJUB83c-hb1gLoDTBo-a"
 			],
 			"frameId": null,
 			"roundness": null,
-			"seed": 884072035,
-			"version": 143,
-			"versionNonce": 262519981,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "Om9vgBSLqXXJr6d_IWew4",
@@ -457,10 +457,10 @@ redis的执行日志 ^HtWyVTZg
 			"updated": 1713372673716,
 			"link": null,
 			"locked": false,
-			"text": "教程，命令执行窗口",
-			"rawText": "教程，命令执行窗口",
 			"fontSize": 16,
 			"fontFamily": 1,
+			"text": "教程，命令执行窗口",
+			"rawText": "教程，命令执行窗口",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -468,20 +468,24 @@ redis的执行日志 ^HtWyVTZg
 			"lineHeight": 1.25
 		},
 		{
-			"id": "dzYtzD8Y70S5cU3K-CSv7",
 			"type": "arrow",
-			"x": -438.7973033044326,
-			"y": 13.22286476664138,
-			"width": 74.88449001415916,
-			"height": 26.26281423901972,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 173,
+			"versionNonce": 88891683,
+			"isDeleted": false,
+			"id": "dzYtzD8Y70S5cU3K-CSv7",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -438.7973033044326,
+			"y": 13.22286476664138,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 74.88449001415916,
+			"height": 26.26281423901972,
+			"seed": 1680237997,
 			"groupIds": [
 				"hiitxu-gGTs_4q0v7iOlk",
 				"yxJUB83c-hb1gLoDTBo-a"
@@ -490,14 +494,19 @@ redis的执行日志 ^HtWyVTZg
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1680237997,
-			"version": 173,
-			"versionNonce": 88891683,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1713372673873,
 			"link": null,
 			"locked": false,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "9GzDRq1J",
+				"focus": -0.5654007827082315,
+				"gap": 7.452953845373315
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -507,42 +516,33 @@ redis的执行日志 ^HtWyVTZg
 					74.88449001415916,
 					26.26281423901972
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": {
-				"elementId": "9GzDRq1J",
-				"focus": -0.5654007827082315,
-				"gap": 7.452953845373315
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		},
 		{
-			"id": "9GzDRq1J",
 			"type": "text",
-			"x": -356.45985944490013,
-			"y": 31.322903270244012,
-			"width": 64,
-			"height": 20,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 109,
+			"versionNonce": 68124205,
+			"isDeleted": false,
+			"id": "9GzDRq1J",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -356.45985944490013,
+			"y": 31.322903270244012,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 64,
+			"height": 20,
+			"seed": 27175683,
 			"groupIds": [
 				"hiitxu-gGTs_4q0v7iOlk",
 				"yxJUB83c-hb1gLoDTBo-a"
 			],
 			"frameId": null,
 			"roundness": null,
-			"seed": 27175683,
-			"version": 109,
-			"versionNonce": 68124205,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "dzYtzD8Y70S5cU3K-CSv7",
@@ -552,10 +552,10 @@ redis的执行日志 ^HtWyVTZg
 			"updated": 1713372673716,
 			"link": null,
 			"locked": false,
-			"text": "查看性能",
-			"rawText": "查看性能",
 			"fontSize": 16,
 			"fontFamily": 1,
+			"text": "查看性能",
+			"rawText": "查看性能",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -563,20 +563,24 @@ redis的执行日志 ^HtWyVTZg
 			"lineHeight": 1.25
 		},
 		{
-			"id": "_vUOkkODb01dVS4iIU4FS",
 			"type": "arrow",
-			"x": -439.15222778792275,
-			"y": 38.42095970906357,
-			"width": 71.69038627823954,
-			"height": 30.5216508100051,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 157,
+			"versionNonce": 1007305923,
+			"isDeleted": false,
+			"id": "_vUOkkODb01dVS4iIU4FS",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -439.15222778792275,
+			"y": 38.42095970906357,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 71.69038627823954,
+			"height": 30.5216508100051,
+			"seed": 1515307341,
 			"groupIds": [
 				"hiitxu-gGTs_4q0v7iOlk",
 				"yxJUB83c-hb1gLoDTBo-a"
@@ -585,14 +589,19 @@ redis的执行日志 ^HtWyVTZg
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1515307341,
-			"version": 157,
-			"versionNonce": 1007305923,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1713372673873,
 			"link": null,
 			"locked": false,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "6BS6iwKD",
+				"focus": -0.6849918324104127,
+				"gap": 6.743131955329375
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -602,42 +611,33 @@ redis的执行日志 ^HtWyVTZg
 					71.69038627823954,
 					30.5216508100051
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": {
-				"elementId": "6BS6iwKD",
-				"focus": -0.6849918324104127,
-				"gap": 6.743131955329375
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		},
 		{
-			"id": "6BS6iwKD",
 			"type": "text",
-			"x": -360.71870955435384,
-			"y": 61.40092555282288,
-			"width": 96,
-			"height": 20,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 111,
+			"versionNonce": 1587949901,
+			"isDeleted": false,
+			"id": "6BS6iwKD",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -360.71870955435384,
+			"y": 61.40092555282288,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 96,
+			"height": 20,
+			"seed": 1833479011,
 			"groupIds": [
 				"hiitxu-gGTs_4q0v7iOlk",
 				"yxJUB83c-hb1gLoDTBo-a"
 			],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1833479011,
-			"version": 111,
-			"versionNonce": 1587949901,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "_vUOkkODb01dVS4iIU4FS",
@@ -647,10 +647,10 @@ redis的执行日志 ^HtWyVTZg
 			"updated": 1713372673716,
 			"link": null,
 			"locked": false,
-			"text": "发布订阅模式",
-			"rawText": "发布订阅模式",
 			"fontSize": 16,
 			"fontFamily": 1,
+			"text": "发布订阅模式",
+			"rawText": "发布订阅模式",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -658,20 +658,24 @@ redis的执行日志 ^HtWyVTZg
 			"lineHeight": 1.25
 		},
 		{
-			"id": "gBT-Du2o21OZIzaTPAQ5I",
 			"type": "arrow",
-			"x": -412.11755669621556,
-			"y": 218.01296542779767,
-			"width": 13.177549543237433,
-			"height": 33.6302046725599,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 132,
+			"versionNonce": 344634467,
+			"isDeleted": false,
+			"id": "gBT-Du2o21OZIzaTPAQ5I",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -412.11755669621556,
+			"y": 218.01296542779767,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 13.177549543237433,
+			"height": 33.6302046725599,
+			"seed": 1761199011,
 			"groupIds": [
 				"yxJUB83c-hb1gLoDTBo-a"
 			],
@@ -679,14 +683,19 @@ redis的执行日志 ^HtWyVTZg
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1761199011,
-			"version": 132,
-			"versionNonce": 344634467,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1713372673873,
 			"link": null,
 			"locked": false,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "WDJ3S7OA",
+				"focus": 0.3212073889286447,
+				"gap": 4.116781055314334
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -696,41 +705,32 @@ redis的执行日志 ^HtWyVTZg
 					13.177549543237433,
 					-33.6302046725599
 				]
-			],
-			"lastCommittedPoint": null,
-			"startBinding": null,
-			"endBinding": {
-				"elementId": "WDJ3S7OA",
-				"focus": 0.3212073889286447,
-				"gap": 4.116781055314334
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		},
 		{
-			"id": "WDJ3S7OA",
 			"type": "text",
-			"x": -419.3016296803817,
-			"y": 160.26597969992343,
-			"width": 80,
-			"height": 20,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 100,
+			"versionNonce": 617101421,
+			"isDeleted": false,
+			"id": "WDJ3S7OA",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -419.3016296803817,
+			"y": 160.26597969992343,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 80,
+			"height": 20,
+			"seed": 23757101,
 			"groupIds": [
 				"yxJUB83c-hb1gLoDTBo-a"
 			],
 			"frameId": null,
 			"roundness": null,
-			"seed": 23757101,
-			"version": 100,
-			"versionNonce": 617101421,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "gBT-Du2o21OZIzaTPAQ5I",
@@ -740,10 +740,10 @@ redis的执行日志 ^HtWyVTZg
 			"updated": 1713372673716,
 			"link": null,
 			"locked": false,
-			"text": "命令行窗口",
-			"rawText": "命令行窗口",
 			"fontSize": 16,
 			"fontFamily": 1,
+			"text": "命令行窗口",
+			"rawText": "命令行窗口",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -751,20 +751,24 @@ redis的执行日志 ^HtWyVTZg
 			"lineHeight": 1.25
 		},
 		{
-			"id": "qeeLZUTXmadLoq_ZOTH-0",
 			"type": "arrow",
-			"x": -367.4805481782816,
-			"y": 215.67216215228683,
-			"width": 69.7465862534163,
-			"height": 29.006758647726258,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 170,
+			"versionNonce": 1318858755,
+			"isDeleted": false,
+			"id": "qeeLZUTXmadLoq_ZOTH-0",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -367.4805481782816,
+			"y": 215.67216215228683,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 69.7465862534163,
+			"height": 29.006758647726258,
+			"seed": 651571043,
 			"groupIds": [
 				"yxJUB83c-hb1gLoDTBo-a"
 			],
@@ -772,14 +776,19 @@ redis的执行日志 ^HtWyVTZg
 			"roundness": {
 				"type": 2
 			},
-			"seed": 651571043,
-			"version": 170,
-			"versionNonce": 1318858755,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1713372673873,
 			"link": null,
 			"locked": false,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "Z6WOPNPO",
+				"focus": 0.10185407934161594,
+				"gap": 3.585100950263154
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -793,44 +802,32 @@ redis的执行日志 ^HtWyVTZg
 					69.7465862534163,
 					-29.006758647726258
 				]
-			],
-			"lastCommittedPoint": [
-				69.7465862534163,
-				-29.006758647726258
-			],
-			"startBinding": null,
-			"endBinding": {
-				"elementId": "Z6WOPNPO",
-				"focus": 0.10185407934161594,
-				"gap": 3.585100950263154
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		},
 		{
-			"id": "Z6WOPNPO",
 			"type": "text",
-			"x": -294.14886097460214,
-			"y": 171.83606691867055,
-			"width": 64,
-			"height": 20,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 104,
+			"versionNonce": 1590039437,
+			"isDeleted": false,
+			"id": "Z6WOPNPO",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -294.14886097460214,
+			"y": 171.83606691867055,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 64,
+			"height": 20,
+			"seed": 308356611,
 			"groupIds": [
 				"yxJUB83c-hb1gLoDTBo-a"
 			],
 			"frameId": null,
 			"roundness": null,
-			"seed": 308356611,
-			"version": 104,
-			"versionNonce": 1590039437,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "qeeLZUTXmadLoq_ZOTH-0",
@@ -840,10 +837,10 @@ redis的执行日志 ^HtWyVTZg
 			"updated": 1713372673716,
 			"link": null,
 			"locked": false,
-			"text": "帮助文档",
-			"rawText": "帮助文档",
 			"fontSize": 16,
 			"fontFamily": 1,
+			"text": "帮助文档",
+			"rawText": "帮助文档",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -851,20 +848,24 @@ redis的执行日志 ^HtWyVTZg
 			"lineHeight": 1.25
 		},
 		{
-			"id": "gILj7zUgo9GRAIPUAUMjL",
 			"type": "arrow",
-			"x": -314.84469474103634,
-			"y": 217.95359568100548,
-			"width": 72.35397082775546,
-			"height": 13.688588739499323,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 183,
+			"versionNonce": 742209443,
+			"isDeleted": false,
+			"id": "gILj7zUgo9GRAIPUAUMjL",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -314.84469474103634,
+			"y": 217.95359568100548,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 72.35397082775546,
+			"height": 13.688588739499323,
+			"seed": 1736675875,
 			"groupIds": [
 				"yxJUB83c-hb1gLoDTBo-a"
 			],
@@ -872,14 +873,19 @@ redis的执行日志 ^HtWyVTZg
 			"roundness": {
 				"type": 2
 			},
-			"seed": 1736675875,
-			"version": 183,
-			"versionNonce": 742209443,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1713372673873,
 			"link": null,
 			"locked": false,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "HtWyVTZg",
+				"focus": -0.5502172344235142,
+				"gap": 7.822029394892411
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -893,44 +899,32 @@ redis的执行日志 ^HtWyVTZg
 					72.35397082775546,
 					-10.103475356423587
 				]
-			],
-			"lastCommittedPoint": [
-				72.35397082775546,
-				-10.103475356423587
-			],
-			"startBinding": null,
-			"endBinding": {
-				"elementId": "HtWyVTZg",
-				"focus": -0.5502172344235142,
-				"gap": 7.822029394892411
-			},
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		},
 		{
-			"id": "HtWyVTZg",
 			"type": "text",
-			"x": -234.66869451838846,
-			"y": 194.650402205857,
-			"width": 116.92796325683594,
-			"height": 20,
-			"angle": 0,
-			"strokeColor": "#1e1e1e",
-			"backgroundColor": "transparent",
+			"version": 109,
+			"versionNonce": 12599981,
+			"isDeleted": false,
+			"id": "HtWyVTZg",
 			"fillStyle": "solid",
 			"strokeWidth": 2,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -234.66869451838846,
+			"y": 194.650402205857,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"width": 116.92796325683594,
+			"height": 20,
+			"seed": 1982317539,
 			"groupIds": [
 				"yxJUB83c-hb1gLoDTBo-a"
 			],
 			"frameId": null,
 			"roundness": null,
-			"seed": 1982317539,
-			"version": 109,
-			"versionNonce": 12599981,
-			"isDeleted": false,
 			"boundElements": [
 				{
 					"id": "gILj7zUgo9GRAIPUAUMjL",
@@ -940,10 +934,10 @@ redis的执行日志 ^HtWyVTZg
 			"updated": 1713372673716,
 			"link": null,
 			"locked": false,
-			"text": "redis的执行日志",
-			"rawText": "redis的执行日志",
 			"fontSize": 16,
 			"fontFamily": 1,
+			"text": "redis的执行日志",
+			"rawText": "redis的执行日志",
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
@@ -952,7 +946,7 @@ redis的执行日志 ^HtWyVTZg
 		}
 	],
 	"appState": {
-		"theme": "dark",
+		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
@@ -966,10 +960,10 @@ redis的执行日志 ^HtWyVTZg
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 474.88503759156447,
-		"scrollY": 152.62638168875102,
+		"scrollX": 673.3049809075144,
+		"scrollY": 259.05882839952494,
 		"zoom": {
-			"value": 1.7798400750259988
+			"value": 1.6500000000000001
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
