@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Docker.md",
+                "file": "计算机/编程语言/Python/1 基础.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Python/1 基础.md",
-                "mode": "preview",
+                "file": "计算机/编程语言/Python/3 对象.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -206,15 +206,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "15c2a3a18cd1e1e2",
   "lastOpenFiles": [
-    "计算机/编程语言/Python/2 常用 API.md",
+    "计算机/编程语言/Python/3 对象.md",
     "计算机/编程语言/Python/1 基础.md",
+    "计算机/编程语言/Python/2 常用 API.md",
+    "计算机/Docker.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/数据库/Redis/3 数据结构命令.md",
     "计算机/数据库/Redis/2 键命令.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md",
-    "计算机/Docker.md",
     "Excalidraw/计算机/Linux Draw.md",
     "计算机/Linux/进程.md",
     "计算机/MySQL/2 MySQL 基础语句.md",
@@ -239,7 +240,6 @@
     "临时笔记/草稿纸.md",
     "计算机/Linux/6-2 正则表达式.md",
     "计算机/Linux/8 软件安装.md",
-    "计算机/MySQL/1 MySQL 概念.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理",
     "计算机/JavaWeb/后端/SpringBoot/S",
     "计算机/JavaWeb/后端/SpringBoot/新建文件夹",
