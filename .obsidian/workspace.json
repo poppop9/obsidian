@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/Redis/2 键命令.md",
+                "file": "计算机/数据库/Redis/1 基础.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/Redis/2 键命令.md"
+                "file": "计算机/数据库/Redis/1 基础.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/Redis/2 键命令.md"
+                "file": "计算机/数据库/Redis/1 基础.md"
               }
             }
           },
@@ -208,8 +208,8 @@
   },
   "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
-    "计算机/数据库/Redis/1 基础.md",
     "计算机/数据库/Redis/2 键命令.md",
+    "计算机/数据库/Redis/1 基础.md",
     "计算机/Docker.md",
     "Excalidraw/计算机/Linux Draw.md",
     "计算机/Linux/进程.md",
