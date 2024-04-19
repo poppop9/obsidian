@@ -226,7 +226,12 @@
 
 - **占比**
 	- `.flex-fill` 强制拉伸能拉伸到的最大宽度
-	- `.flex-shirink`
+	- `.flex-shrink-*` 
+		- `.flex-shrink-1` 如果空间不足，项目将会缩小【**默认**】 
+		- `.flex-shrink-0` 无论空间是否充足，这个项目都不会缩小
+	- `.flex-grow-*` 
+		- `.flex-grow-0` 即使存在剩余空间，项目也不会增大【**默认**】
+		- `.flex-grow-1` 占用比例为 1 的剩余空间
 
 ```html
 <div class="d-flex">
