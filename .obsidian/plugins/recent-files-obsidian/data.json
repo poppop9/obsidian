@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Vue 3",
+      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+    },
+    {
       "basename": "3 BootStrap 高级",
       "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
-      "basename": "Vue 3",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     },
     {
       "basename": "2 CSS中级",
