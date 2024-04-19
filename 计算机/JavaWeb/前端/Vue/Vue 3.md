@@ -44,39 +44,7 @@
 >- 在全局使用Vue时，方法里要访问响应式数据，不用写 `this` 关键字
 
 >[!hint] 最终呈现在用户面前的是 `index.html` ，而 `index.html` 里导入了 `main.js` ，`main.js` 里面又导入了 `App.vue` ，***所以，如果想要所写的 `.vue文件` 在页面显示的话，要在 `App.vue` 中导入所写的 `.vue文件`，并在 `<template>` 中写入导入的 `.vue文件`***
-## 模板
-- `<script setup>` 必须指定
-	- 从已经下载的 `vue` 文件中导入<u>各种函数</u>
-	- 使用 `ref()` 定义**响应式变量**，`ref()` 会返回一个对象，这个对象的有一个指向内部值的属性 `value`
-	- 定义方法可以直接定义，**不需要在 `methods` 里面**
-	- 钩子方法使用 `onMounted()`
-- `<template>` html代码
-- `<style>` css代码
 
-```html
-<script setup>    /* 必须指明setup */
-import { onMounted, ref } from 'vue';   /* 从vue中导入ref()函数，onMounted()函数 */
-
-const count = ref(0);      /* 使用ref()函数定义响应式变量 */
-
-function increment() {
-    count.value++;    /* 在方法中使用count，需要.value拿到值 */
-}
-
-onMounted(() => {
-    alert('mounted!');
-});
-</script>
-
-<template>
-    <div>
-        <h1>{{ count }}</h1>     <!--在<template>里使用变量不需要.value -->
-        <button @click="increment">Increment</button>
-    </div>
-</template>
-
-<style></style>
-```
 
 # 如何操作数据
 ## 数组
