@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/Redis/3 数据结构命令.md"
+                "file": "计算机/数据库/Redis/2 键命令.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/Redis/3 数据结构命令.md"
+                "file": "计算机/数据库/Redis/2 键命令.md"
               }
             }
           },
@@ -206,10 +205,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ec1d6ee6a9dbcc6a",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
-    "计算机/数据库/Redis/2 键命令.md",
     "计算机/数据库/Redis/3 数据结构命令.md",
+    "计算机/数据库/Redis/2 键命令.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/JavaWeb/第三方类库/SLF4J.md",
     "计算机/编程语言/Java/3-2 日期时间.md",
