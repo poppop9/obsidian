@@ -29,7 +29,12 @@ https://v5.bootcss.com/docs/getting-started/introduction/#quick-start
 ## npm
 https://v5.bootcss.com/docs/getting-started/download/#npm
 
-`npm install bootstrap@5.3.0-alpha1`
+- `npm install bootstrap@5.3.0-alpha1`
+- 在 `main.js` 中引入 BootStrap
+```js
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap';
+```
 
 # 布局
 ## 容器
