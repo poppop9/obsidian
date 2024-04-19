@@ -7,9 +7,9 @@
 # 创建Vue项目
 https://cn.vuejs.org/guide/quick-start.html
 ## npm 工程化
-### 安装前端环境Node.js
-- 官网安装Node.js【js的运行时环境】
-- 验证Node.js环境变量
+### 安装前端环境 Node.js
+- 官网安装 Node.js【js 的运行时环境】
+- 验证 Node.js 环境变量
 	- `node -v`
 - 配置 <u>npm</u>【node.js 的软件包管理器】的全局安装路径
 	- 以管理员身份运行cmd
@@ -17,14 +17,16 @@ https://cn.vuejs.org/guide/quick-start.html
 	- 验证是否设置成功`npm config get prefix`【成功则返回Node.js安装目录】
 - 切换npm的淘宝镜像
 	- `npm config set registry https://registry.npm.taobao.org`【成功不做任何操作】
-### 创建Vue项目
+
+### 创建 Vue项目
 1. 进入打算创建项目的目录，运行 `cmd`
 2. `npm create vue@latest`
 3. 选择各种功能
 4. 命名项目名称
 5. `cd <your-project-name>` 进入项目
 6. `npm install`
-7. `npm run dev`/在VSCode的NPM脚本中点击`dev`  ***启动Vue项目***
+7. `npm run dev` /在 VSCode 的 NPM 脚本中点击 `dev`  **启动Vue项目**
+
 ### Vue项目的目录结构
 - `node_modules` 项目下载的第三方依赖包
 - `public` 项目的静态文件
