@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
+      "basename": "3 数据结构命令",
+      "path": "计算机/数据库/Redis/3 数据结构命令.md"
+    },
+    {
       "basename": "Vue 3",
       "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     },
     {
       "basename": "2 键命令",
       "path": "计算机/数据库/Redis/2 键命令.md"
-    },
-    {
-      "basename": "3 数据结构命令",
-      "path": "计算机/数据库/Redis/3 数据结构命令.md"
     },
     {
       "basename": "1 基础",
@@ -195,10 +199,6 @@
     {
       "basename": "6-1 命令执行顺序，管道",
       "path": "计算机/Linux/6-1 命令执行顺序，管道.md"
-    },
-    {
-      "basename": "5 定时任务",
-      "path": "计算机/Linux/5 定时任务.md"
     }
   ],
   "omittedPaths": [],
