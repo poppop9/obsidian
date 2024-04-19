@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/1-1.md",
+                "file": "计算机/JavaWeb/前端/Vue/2-2 指令.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/1-1.md"
+                "file": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/1-1.md"
+                "file": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
               }
             }
           },
@@ -209,7 +209,9 @@
   "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
-    "计算机/JavaWeb/前端/Vue/1-1.md",
+    "计算机/JavaWeb/前端/Vue/2-2 指令.md",
+    "计算机/JavaWeb/前端/Vue/2-1 基础.md",
+    "计算机/JavaWeb/前端/Vue/1-1 准备环境.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/JavaWeb/前端/Vue/Vue 2.md",
     "计算机/Linux/6-2 正则表达式.md",
@@ -232,8 +234,6 @@
     "计算机/编程语言/Java/3-1 常用 API.md",
     "计算机/编程语言/Java/3-7 集合.md",
     "计算机/数据库/MySQL/1 MySQL 概念.md",
-    "计算机/数据库/MySQL/2 MySQL 基础语句.md",
-    "计算机/数据库/MySQL/MYSQL 安装配置.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",
