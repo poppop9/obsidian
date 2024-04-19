@@ -50,8 +50,13 @@
             "id": "15c2a3a18cd1e1e2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "计算机/Linux/6-2 正则表达式.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           },
           {
@@ -158,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "计算机/Linux/6-2 正则表达式.md"
+              }
             }
           },
           {
@@ -166,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "计算机/Linux/6-2 正则表达式.md"
+              }
             }
           },
           {
