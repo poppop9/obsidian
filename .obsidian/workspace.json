@@ -8,20 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec1d6ee6a9dbcc6a",
+            "id": "6f2c73ec81dd03ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/Redis/3 数据结构命令.md",
-                "mode": "source",
+                "file": "计算机/数据库/Redis/2 键命令.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "6f2c73ec81dd03ae",
+            "id": "ec1d6ee6a9dbcc6a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,9 +208,9 @@
   },
   "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
-    "计算机/数据库/Redis/1 基础.md",
     "计算机/数据库/Redis/2 键命令.md",
     "计算机/数据库/Redis/3 数据结构命令.md",
+    "计算机/数据库/Redis/1 基础.md",
     "计算机/JavaWeb/第三方类库/SLF4J.md",
     "计算机/编程语言/Java/3-2 日期时间.md",
     "计算机/编程语言/Java/3-3 字符串.md",
