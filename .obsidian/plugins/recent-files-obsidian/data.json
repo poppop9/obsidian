@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "1-1 环境配置",
+      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+    },
+    {
+      "basename": "Vue 2",
+      "path": "计算机/JavaWeb/前端/Vue/Vue 2.md"
+    },
+    {
+      "basename": "2-1 基础",
+      "path": "计算机/JavaWeb/前端/Vue/2-1 基础.md"
+    },
+    {
       "basename": "Vue 3",
       "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
     },
@@ -9,20 +21,8 @@
       "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
     },
     {
-      "basename": "2-1 基础",
-      "path": "计算机/JavaWeb/前端/Vue/2-1 基础.md"
-    },
-    {
-      "basename": "1-1 准备环境",
-      "path": "计算机/JavaWeb/前端/Vue/1-1 准备环境.md"
-    },
-    {
       "basename": "3 BootStrap 高级",
       "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
-    },
-    {
-      "basename": "Vue 2",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 2.md"
     },
     {
       "basename": "6-2 正则表达式",

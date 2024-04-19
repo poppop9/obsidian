@@ -1,8 +1,3 @@
-# 文件路径
-[[1 HTML 初级#文件路径]]
-
-补充：`@/api/hello.js` 位于 src 文件夹下的 ap i文件夹下的 hello.js 文件
-
 # 局部使用 Vue
 >局部使用 表示使用CDN来引入 `Vue`
 

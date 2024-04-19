@@ -1,7 +1,7 @@
-Vue 是一种流行的JavaScript前端框架，提供了一种响应式的双向数据绑定，***简化了DOM操作***
 
 # Vue路由
 >Vue路由可以使用户在应用程序中进行导航时，可以根据URL路径加载相应的组件
+
 ## 准备工作
 ### 安装Vue Router
 - 在安装Vue脚手架时勾选即可
@@ -69,27 +69,6 @@ export default {
 <style></style>
 ```
 
-# 打包部署
-## 打包
-- 运行npm脚本中的`build`
-![[JavaWeb Draw#^group=2bfxmrHr]]
-- 打包好的文件会出现在`dist`文件夹下
-
-***dist文件夹就是打包后的文件***
-## 部署
-- 在nginx网站`https://nginx.org/en/download.html`下载稳定版
-- 将打包好的`dist`下面的内容放置到`html`文件夹中
-- 运行nginx
-	- 默认端口号为80，如果端口被占用则在`conf`文件夹下的`nginx.conf`中的`listen 80;`处修改端口号
-- 如果在任务管理器中查看到nginx已经启动了，那就表示已经部署成功
-- 可以在浏览器输入`localhost:端口号`
-### 介绍nginx的安装目录
-- `conf` 配置文件
-- `contrib` 
-- `docs`
-- `html` 静态资源文件【放置打包好的文件】
-- `logs` 日志文件
-- `temp` 临时文件
 
 
 
