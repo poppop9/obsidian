@@ -1,14 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "1-1 环境配置",
-      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
-    },
-    {
-      "basename": "Vue 2",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 2.md"
-    },
-    {
       "basename": "2-1 基础",
       "path": "计算机/JavaWeb/前端/Vue/2-1 基础.md"
     },
@@ -19,6 +11,14 @@
     {
       "basename": "2-2 指令",
       "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
+    },
+    {
+      "basename": "3-1 vue 路由",
+      "path": "计算机/JavaWeb/前端/Vue/3-1 vue 路由.md"
+    },
+    {
+      "basename": "1-1 环境配置",
+      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
     },
     {
       "basename": "3 BootStrap 高级",
