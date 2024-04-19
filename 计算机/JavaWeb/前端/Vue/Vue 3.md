@@ -232,7 +232,7 @@ const alerts = ref([
 ```
 
 ### v-on
->为标签绑定**事件**
+>为标签绑定**事件**：click，mouseover，mouseleave，input
 
 - ***语法***
 	- `v-on:事件名="函数名"`
