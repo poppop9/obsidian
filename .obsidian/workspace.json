@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/5-3 反射.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -208,6 +208,9 @@
   },
   "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
+    "计算机/编程语言/Java/5-3 反射.md",
+    "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
@@ -231,9 +234,6 @@
     "计算机/数据库/MySQL/3 MySQL 中级.md",
     "计算机/数据库/MySQL/MySQL.md",
     "计算机/编程语言/Java/2-1 Java 的理论知识.md",
-    "计算机/编程语言/Java/配置.md",
-    "计算机/编程语言/Java/1 idea.md",
-    "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",
