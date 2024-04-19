@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前端/Vue/2-1 基础.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/2-1 基础.md"
+                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/2-1 基础.md"
+                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
               }
             }
           },
@@ -205,14 +206,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/Vue/2-1 基础.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/Linux/6-2 正则表达式.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "Excalidraw/计算机/Linux Draw.md",
-    "计算机/JavaWeb/前端/Vue/2-1 基础.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
     "计算机/JavaWeb/前端/Vue/3-1 vue 路由.md",
     "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
