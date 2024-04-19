@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/2-1 基础.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md"
               }
             }
           },
@@ -206,9 +205,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ec1d6ee6a9dbcc6a",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/Vue/2-1 基础.md",
+    "计算机/JavaWeb/前端/Vue/2-2 基础语法.md",
+    "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/Linux/6-2 正则表达式.md",
@@ -233,7 +233,6 @@
     "计算机/编程语言/Java/3-4 基本类型包装类.md",
     "计算机/编程语言/Java/3-5 异常.md",
     "计算机/编程语言/Java/3-6 修饰符.md",
-    "计算机/编程语言/Java/3-1 常用 API.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",

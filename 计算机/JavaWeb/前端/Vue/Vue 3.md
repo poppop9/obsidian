@@ -7,39 +7,6 @@
 <h1>{{ message.split('').reverse().join('') }}</h1>
 ```
 
-- 所有在 html 里用到的数据都要定义到 `data(){……}` 函数中
-- 所有在 html 里用到的函数都要定义到 `method:{……}` 中
-	- 在 `methods` 中要使用到 `data()函数` 中的数据时，***使用 `this` 关键字***
-
-```html
-<body>
-	<div id="app">
-		<h1>{{msg}}</h1>
-		<button @click="handle">点击我</button>
-	</div>
-</body>
-
-<script type="module">
-	import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'   /* 导入 */
-
-	createApp({       /* 使用 */
-		data() {    /* 定义data函数插入数据 */
-			return {      /* 使用return返回数据 */
-				msg: "hello Vue3"      /* 定义数据 */
-			}
-		},
-		methods: {
-			handle: function(){
-				this.msg="我被点击了";
-			}
-			……
-		}
-	}).mount('#app')    /* 挂载到某个html元素 */
-</script>
-```
-
-
-
 # 如何操作数据
 ## 数组
 >[!hint] 方法
