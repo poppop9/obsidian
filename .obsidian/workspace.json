@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
+                "file": "计算机/JavaWeb/前端/Vue/1-1.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/Vue/1-1.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "计算机/JavaWeb/前端/Vue/1-1.md"
               }
             }
           },
@@ -205,12 +206,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/Vue/Vue 3.md",
+    "计算机/JavaWeb/前端/Vue/1-1.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
+    "计算机/JavaWeb/前端/Vue/Vue 2.md",
     "计算机/Linux/6-2 正则表达式.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
-    "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
@@ -231,8 +234,6 @@
     "计算机/数据库/MySQL/1 MySQL 概念.md",
     "计算机/数据库/MySQL/2 MySQL 基础语句.md",
     "计算机/数据库/MySQL/MYSQL 安装配置.md",
-    "计算机/数据库/MySQL/4 调优.md",
-    "计算机/数据库/MySQL/3 MySQL 中级.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",

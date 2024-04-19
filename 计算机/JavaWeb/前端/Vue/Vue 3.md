@@ -1,53 +1,14 @@
 # 文件路径
 [[1 HTML 初级#文件路径]]
 
-补充：
-`@/api/hello.js` 位于src文件夹下的api文件夹下的hello.js文件
+补充：`@/api/hello.js` 位于 src 文件夹下的 ap i文件夹下的 hello.js 文件
 
-# 创建Vue项目
-https://cn.vuejs.org/guide/quick-start.html
-## npm 工程化
-### 安装前端环境 Node.js
-- 官网安装 Node.js【js 的运行时环境】
-- 验证 Node.js 环境变量
-	- `node -v`
-- 配置 <u>npm</u>【node.js 的软件包管理器】的全局安装路径
-	- 以管理员身份运行cmd
-	- 运行`npm config set prefix "安装目录"` 例如`npm config set prefix "D:\node.js"`。【成功不做任何操作】
-	- 验证是否设置成功`npm config get prefix`【成功则返回Node.js安装目录】
-- 切换npm的淘宝镜像
-	- `npm config set registry https://registry.npm.taobao.org`【成功不做任何操作】
-
-### 创建 Vue项目
-1. 进入打算创建项目的目录，运行 `cmd`
-2. `npm create vue@latest`
-3. 选择各种功能
-4. 命名项目名称
-5. `cd <your-project-name>` 进入项目
-6. `npm install`
-7. `npm run dev` /在 VSCode 的 NPM 脚本中点击 `dev`  **启动Vue项目**
-
-### Vue项目的目录结构
-- `node_modules` 项目下载的第三方依赖包
-- `public` 项目的静态文件
-- `src` 项目的源代码
-	- `assets` 静态资源【图片，字体…】
-	- `components` 可重用组件
-	- `router` 路由配置
-	- `App.vue` 入口页面【根组件】
-	- `main.js` 入口文件
-- `.gitignore`
-- `index.html` 默认首页
-- `package-lock.json` 项目配置文件【无需修改，会自动生成】
-- `package.json` 项目配置文件【基本信息，版本信息，依赖包】
-- `vite.config.js` vue的配置文件【端口】
-## CDN 局部化
-`<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>`
-
-# 局部使用Vue
+# 局部使用 Vue
 >局部使用 表示使用CDN来引入 `Vue`
+
 ## {{}}
 >使用 `{{……}}` 来插入数据，或者<u>js表达式</u>
+
 ```js
 <h1>{{ msg }}</h1>
 <h1>{{ message.split('').reverse().join('') }}</h1>
@@ -346,7 +307,7 @@ const alerts = ref([
 - `beforeUnmount`：组件销毁前
 - `unmounted`：组件销毁后
 
-# 全局工程使用Vue
+# 全局工程使用 Vue
 >[!attention] 注意
 >- 在全局使用Vue时，导入数据不能使用 `createApp` ，因为 `createApp` 创建Vue实例，而Vue实例已经在<u>入口文件</u> `main.js` 里面创建过了
 >- 在全局使用Vue时，方法里要访问响应式数据，不用写 `this` 关键字
