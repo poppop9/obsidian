@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "2-1 局部化，工程化",
-      "path": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md"
+      "basename": "2-2 指令",
+      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
     },
     {
       "basename": "2-2 基础语法",
       "path": "计算机/JavaWeb/前端/Vue/2-2 基础语法.md"
     },
     {
-      "basename": "Vue 3",
-      "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+      "basename": "3-1 路由",
+      "path": "计算机/JavaWeb/前端/Vue/3-1 路由.md"
+    },
+    {
+      "basename": "2-1 局部化，工程化",
+      "path": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md"
     },
     {
       "basename": "Bootstrap 简化CSS",
@@ -27,14 +31,6 @@
     {
       "basename": "Linux Draw",
       "path": "Excalidraw/计算机/Linux Draw.md"
-    },
-    {
-      "basename": "2-2 指令",
-      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
-    },
-    {
-      "basename": "3-1 vue 路由",
-      "path": "计算机/JavaWeb/前端/Vue/3-1 vue 路由.md"
     },
     {
       "basename": "1-1 环境配置",

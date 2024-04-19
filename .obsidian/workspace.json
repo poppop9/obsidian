@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md",
+                "file": "计算机/JavaWeb/前端/Vue/2-2 指令.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/前端/Vue/2-2 指令.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md"
+                "file": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md"
+                "file": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
               }
             }
           },
@@ -208,14 +208,14 @@
   "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/Vue/2-2 基础语法.md",
-    "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md",
+    "计算机/JavaWeb/前端/Vue/2-2 指令.md",
+    "计算机/JavaWeb/前端/Vue/3-1 路由.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
+    "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/Linux/6-2 正则表达式.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "Excalidraw/计算机/Linux Draw.md",
-    "计算机/JavaWeb/前端/Vue/2-2 指令.md",
-    "计算机/JavaWeb/前端/Vue/3-1 vue 路由.md",
     "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
