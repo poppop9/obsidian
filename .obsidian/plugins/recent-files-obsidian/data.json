@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "6-2 正则表达式",
+      "path": "计算机/Linux/6-2 正则表达式.md"
+    },
+    {
       "basename": "2-2 指令",
       "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Bootstrap 简化CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
-    },
-    {
-      "basename": "6-2 正则表达式",
-      "path": "计算机/Linux/6-2 正则表达式.md"
     },
     {
       "basename": "JavaWeb Draw",
