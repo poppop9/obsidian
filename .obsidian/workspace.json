@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "Excalidraw/计算机/Linux Draw.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+                "file": "Excalidraw/计算机/Linux Draw.md"
               }
             }
           },
@@ -206,7 +206,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ec1d6ee6a9dbcc6a",
+  "active": "69ff4a06b87c0434",
   "lastOpenFiles": [
     "计算机/JavaWeb/前端/Vue/2-1 基础.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",

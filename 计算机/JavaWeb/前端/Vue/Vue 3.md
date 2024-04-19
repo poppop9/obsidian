@@ -38,12 +38,6 @@
 </script>
 ```
 
-# 全局工程使用 Vue
->[!attention] 注意
->- 在全局使用Vue时，导入数据不能使用 `createApp` ，因为 `createApp` 创建Vue实例，而Vue实例已经在<u>入口文件</u> `main.js` 里面创建过了
->- 在全局使用Vue时，方法里要访问响应式数据，不用写 `this` 关键字
-
->[!hint] 最终呈现在用户面前的是 `index.html` ，而 `index.html` 里导入了 `main.js` ，`main.js` 里面又导入了 `App.vue` ，***所以，如果想要所写的 `.vue文件` 在页面显示的话，要在 `App.vue` 中导入所写的 `.vue文件`，并在 `<template>` 中写入导入的 `.vue文件`***
 
 
 # 如何操作数据
