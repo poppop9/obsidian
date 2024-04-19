@@ -60,17 +60,16 @@
             }
           },
           {
-            "id": "69ff4a06b87c0434",
+            "id": "30fb8759db09e8fa",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/计算机/Linux Draw.md"
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/计算机/Linux Draw.md"
+                "file": "计算机/JavaWeb/前端/Vue/2-1 基础.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/计算机/Linux Draw.md"
+                "file": "计算机/JavaWeb/前端/Vue/2-1 基础.md"
               }
             }
           },
@@ -206,18 +205,20 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "69ff4a06b87c0434",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/Vue/2-1 基础.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
+    "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
+    "计算机/Linux/6-2 正则表达式.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
+    "Excalidraw/计算机/Linux Draw.md",
+    "计算机/JavaWeb/前端/Vue/2-1 基础.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
     "计算机/JavaWeb/前端/Vue/3-1 vue 路由.md",
     "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
-    "计算机/Linux/6-2 正则表达式.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
-    "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/编程语言/Java/5-3 反射.md",
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
@@ -232,8 +233,6 @@
     "计算机/编程语言/Java/3-5 异常.md",
     "计算机/编程语言/Java/3-6 修饰符.md",
     "计算机/编程语言/Java/3-1 常用 API.md",
-    "计算机/编程语言/Java/3-7 集合.md",
-    "计算机/数据库/MySQL/1 MySQL 概念.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",

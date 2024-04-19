@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Linux Draw",
-      "path": "Excalidraw/计算机/Linux Draw.md"
-    },
-    {
       "basename": "2-1 基础",
       "path": "计算机/JavaWeb/前端/Vue/2-1 基础.md"
     },
     {
       "basename": "Vue 3",
       "path": "计算机/JavaWeb/前端/Vue/Vue 3.md"
+    },
+    {
+      "basename": "Bootstrap 简化CSS",
+      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
+    },
+    {
+      "basename": "6-2 正则表达式",
+      "path": "计算机/Linux/6-2 正则表达式.md"
+    },
+    {
+      "basename": "JavaWeb Draw",
+      "path": "Excalidraw/计算机/JavaWeb Draw.md"
+    },
+    {
+      "basename": "Linux Draw",
+      "path": "Excalidraw/计算机/Linux Draw.md"
     },
     {
       "basename": "2-2 指令",
@@ -29,20 +41,12 @@
       "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
     },
     {
-      "basename": "6-2 正则表达式",
-      "path": "计算机/Linux/6-2 正则表达式.md"
-    },
-    {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
       "basename": "2 CSS中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS中级.md"
-    },
-    {
-      "basename": "Bootstrap 简化CSS",
-      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
     },
     {
       "basename": "1 Bootstrap 初级",
@@ -195,10 +199,6 @@
     {
       "basename": "2",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2.md"
-    },
-    {
-      "basename": "进程",
-      "path": "计算机/Linux/进程.md"
     }
   ],
   "omittedPaths": [],
