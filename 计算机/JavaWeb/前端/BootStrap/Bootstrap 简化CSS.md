@@ -226,6 +226,7 @@
 
 - **占比**
 	- `.flex-fill` 强制拉伸能拉伸到的最大宽度
+	- `.flex-shirink`
 
 ```html
 <div class="d-flex">
