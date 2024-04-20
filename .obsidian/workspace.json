@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/Redis/2-2 数据结构命令.md",
+                "file": "计算机/数据库/Redis/3-1 高级.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/Redis/2-2 数据结构命令.md"
+                "file": "计算机/数据库/Redis/3-1 高级.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/Redis/2-2 数据结构命令.md"
+                "file": "计算机/数据库/Redis/3-1 高级.md"
               }
             }
           },
@@ -207,9 +207,9 @@
   },
   "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/数据库/Redis/2-2 数据结构命令.md",
     "计算机/数据库/Redis/3-1 高级.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
-    "计算机/数据库/Redis/2-2 数据结构命令.md",
     "计算机/数据库/Redis/2-1 键命令.md",
     "计算机/JavaWeb/前端/Vue/2-2 基础语法.md",
     "计算机/Linux/6-2 正则表达式.md",
