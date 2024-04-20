@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/2-2 基础语法.md",
-                "mode": "preview",
+                "file": "计算机/数据库/Redis/3 数据结构命令.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/6-2 正则表达式.md"
+                "file": "计算机/数据库/Redis/3 数据结构命令.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/6-2 正则表达式.md"
+                "file": "计算机/数据库/Redis/3 数据结构命令.md"
               }
             }
           },
@@ -206,11 +205,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "15c2a3a18cd1e1e2",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/Vue/2-2 基础语法.md",
     "计算机/Linux/6-2 正则表达式.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
-    "计算机/JavaWeb/前端/Vue/2-2 基础语法.md",
     "计算机/JavaWeb/前端/Vue/3-1 路由.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md",
