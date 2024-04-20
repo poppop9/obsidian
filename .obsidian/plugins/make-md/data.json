@@ -66,7 +66,6 @@
     "计算机/计算机/四大件/计算机/四大件/计算机网络",
     "计算机/计算机/JavaWeb/计算机/JavaWeb/后端/计算机/JavaWeb/后端/SpringBoot",
     "计算机/计算机/JavaWeb/计算机/JavaWeb/后端/计算机/JavaWeb/后端/SpringBoot/计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理",
-    "计算机/计算机/JavaWeb",
     "计算机/计算机/编程语言/计算机/编程语言/Python",
     "计算机/计算机/数据库/计算机/数据库/Redis",
     "计算机/计算机/编程语言/计算机/编程语言/Java",
@@ -74,7 +73,8 @@
     "计算机/计算机/JavaWeb/计算机/JavaWeb/前端",
     "计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/Vue",
     "计算机/计算机/JavaWeb/计算机/JavaWeb/前端/计算机/JavaWeb/前端/Vue",
-    "//Excalidraw"
+    "//Excalidraw",
+    "计算机/计算机/数据库"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
