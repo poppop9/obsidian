@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/Redis/3 数据结构命令.md",
+                "file": "计算机/数据库/Redis/3-1 高级.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/Redis/3 数据结构命令.md"
+                "file": "计算机/数据库/Redis/3-1 高级.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/Redis/3 数据结构命令.md"
+                "file": "计算机/数据库/Redis/3-1 高级.md"
               }
             }
           },
@@ -207,6 +207,9 @@
   },
   "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/数据库/Redis/2-2 数据结构命令.md",
+    "计算机/数据库/Redis/3-1 高级.md",
+    "计算机/数据库/Redis/2-1 键命令.md",
     "计算机/JavaWeb/前端/Vue/2-2 基础语法.md",
     "计算机/Linux/6-2 正则表达式.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
@@ -225,14 +228,11 @@
     "计算机/JavaWeb/前端/CSS/1 CSS初级.md",
     "计算机/JavaWeb/前端/CSS/3 CSS高级.md",
     "计算机/编程语言/Java/3-2 日期时间.md",
-    "计算机/数据库/Redis/3 数据结构命令.md",
-    "计算机/数据库/Redis/2 键命令.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/JavaWeb/第三方类库/SLF4J.md",
     "计算机/编程语言/Java/3-3 字符串.md",
     "计算机/编程语言/Java/3-4 基本类型包装类.md",
     "计算机/编程语言/Java/3-5 异常.md",
-    "计算机/编程语言/Java/3-6 修饰符.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",
