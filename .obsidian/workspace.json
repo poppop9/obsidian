@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/编程语言/Python/1-3 数据结构.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/Redis/3-1 高级.md",
-                "mode": "source",
+                "file": "计算机/编程语言/Python/1 基础.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -207,11 +207,11 @@
   },
   "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
-    "计算机/编程语言/Python/1-2 常用 API.md",
-    "计算机/编程语言/Python/1-3 数据结构.md",
     "计算机/编程语言/Python/1 基础.md",
-    "计算机/数据库/Redis/1 基础.md",
+    "计算机/编程语言/Python/1-2 常用 API.md",
     "计算机/数据库/Redis/3-1 高级.md",
+    "计算机/编程语言/Python/1-3 数据结构.md",
+    "计算机/数据库/Redis/1 基础.md",
     "计算机/数据库/Redis/2-2 数据结构命令.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
     "计算机/数据库/Redis/2-1 键命令.md",

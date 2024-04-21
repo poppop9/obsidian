@@ -5,20 +5,20 @@
       "path": "计算机/编程语言/Python/1-3 数据结构.md"
     },
     {
-      "basename": "1-2 常用 API",
-      "path": "计算机/编程语言/Python/1-2 常用 API.md"
-    },
-    {
       "basename": "1 基础",
       "path": "计算机/编程语言/Python/1 基础.md"
     },
     {
-      "basename": "1 基础",
-      "path": "计算机/数据库/Redis/1 基础.md"
+      "basename": "1-2 常用 API",
+      "path": "计算机/编程语言/Python/1-2 常用 API.md"
     },
     {
       "basename": "3-1 高级",
       "path": "计算机/数据库/Redis/3-1 高级.md"
+    },
+    {
+      "basename": "1 基础",
+      "path": "计算机/数据库/Redis/1 基础.md"
     },
     {
       "basename": "2-2 数据结构命令",
