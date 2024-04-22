@@ -66,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "计算机/数据库/Redis/3-1 高级.md"
               }
             }
           },
@@ -170,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "计算机/数据库/Redis/3-1 高级.md"
               }
             }
           },
@@ -202,8 +203,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/Docker.md",
     "计算机/Linux/3-1 环境变量，搜索.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/数据库/Redis/3-1 高级.md",
@@ -229,7 +231,6 @@
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/CSS/2 CSS中级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
-    "计算机/编程语言/Java/5-3 反射.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",

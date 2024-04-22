@@ -159,11 +159,11 @@ docker build -t demo:1.0 .
 # Docker 命令
 ## 操作镜像
 ### docker pull
-> `docker pull 镜像名` 可以从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
+- `docker pull 镜像名` 从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
 
 ### docker save，docker load
-> - `docker save -o 文件名 镜像名` 可以把一个镜像保存为一个 `tar 文件`
-> - `docker load -i 文件名` 可以从文件中导入一个镜像
+- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
+- `docker load -i 文件名` 从文件中导入一个镜像
 
 ```bash
 docker save -o my_mysql.tar my_mysql
@@ -172,15 +172,13 @@ docker load -i my_mysql.tar
 ```
 
 ### docker images
->`docker images` 可以列出本地上所有的 Docker 镜像
+- `docker images` 列出本地上所有的 Docker 镜像
 
 ### docker rmi
->`docker rmi 镜像名:版本号` 可以删除本地上的镜像
+- `docker rmi 镜像名:版本号` 删除本地上的镜像
 
 ### docker build
-> `docker build Dockerfile所在的目录` 用于根据 Dockerfile 构建镜像
-
-- 参数
+- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
 	- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
 
 ```bash
@@ -222,14 +220,11 @@ graph TB
 docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 mysql:5.7
 ```
 
-
 ### docker stop
->`docker stop 容器名` 可以停止正在运行的 Docker 容器，**但是容器还在，没有删除**
-
-
+- `docker stop 容器名` 停止正在运行的 Docker 容器，**但是容器还在，没有删除**
 
 ### docker start
-> `docker start 容器名` 可以启动被停止的 Docker 容器
+- `docker start 容器名` 启动被停止的 Docker 容器
 
 ### 查看
 #### docker ps
@@ -240,29 +235,24 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306
 - `docker inspect 容器名` 详细的查看某个容器的信息【某个容器数据卷挂载的情况……】
 
 ### docker rm
-> docker rm 用来删除停止的容器
-
-- 参数
+- `docker rm` 删除停止的容器
 	- `-f` 强制删除【可以删除正在运行的容器】
 
 ### docker logs
-> `docker logs 容器名` 用于获取和查看 Docker 容器的日志
-
-- 参数
+- `docker logs 容器名` 获取和查看 Docker 容器的日志
 	- `-f` 持续跟进日志
 
 ### docker exec
 >[!hint] 容器就是虚拟了一个计算机，我们可以进入容器，去修改里面文件系统中的文件
 
-> `docker exec [参数] 容器名 [命令]` 可以进入到容器的内部，来修改容器
-
-- 参数
-	- `-i` 允许提供输入给容器内部
-	- `-t` 分配一个伪终端
-- 命令
-	- `bash` 在容器中打开一个交互式的 bash shell
-	- `ls` 查看目录
-	- ……
+- `docker exec [参数] 容器名 [命令]` 可以进入到容器的内部，来修改容器
+	- 参数
+		- `-i` 允许提供输入给容器内部
+		- `-t` 分配一个伪终端
+	- 命令
+		- `bash` 在容器中打开一个交互式的 bash shell
+		- `ls` 查看目录
+		- ……
 
 ```bash
 docker exec -it my_container bash
