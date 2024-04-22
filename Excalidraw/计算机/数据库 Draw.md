@@ -235,11 +235,16 @@ pending_ids[] ^ip6rs4ct
 			"frameId": null,
 			"roundness": null,
 			"seed": 1011476765,
-			"version": 114,
-			"versionNonce": 426799315,
+			"version": 115,
+			"versionNonce": 1125187699,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1713752795339,
+			"boundElements": [
+				{
+					"id": "Il_HT9LXwmsLWE4BKIDSd",
+					"type": "arrow"
+				}
+			],
+			"updated": 1713753324151,
 			"link": null,
 			"locked": false,
 			"text": "id 1",
@@ -1676,12 +1681,60 @@ pending_ids[] ^ip6rs4ct
 			"containerId": null,
 			"originalText": "pending_ids[]",
 			"lineHeight": 1.2
+		},
+		{
+			"id": "Il_HT9LXwmsLWE4BKIDSd",
+			"type": "arrow",
+			"x": -441.99167534093334,
+			"y": -46.259634831269636,
+			"width": 7.355815751742,
+			"height": 60.48154319645414,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "transparent",
+			"fillStyle": "solid",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 606282269,
+			"version": 28,
+			"versionNonce": 480147987,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1713753325210,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					7.355815751742,
+					60.48154319645414
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": {
+				"elementId": "gFD3GhmX",
+				"focus": -0.4354783327133266,
+				"gap": 14.175655711638512
+			},
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#f08c00",
+		"currentItemStrokeColor": "#1e1e1e",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "solid",
 		"currentItemStrokeWidth": 2,
@@ -1693,7 +1746,7 @@ pending_ids[] ^ip6rs4ct
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 527.9123099857961,
+		"scrollX": 911.0303119075941,
 		"scrollY": 412.7247945353784,
 		"zoom": {
 			"value": 0.978810700930062
