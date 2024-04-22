@@ -233,13 +233,11 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306
 
 ### 查看
 #### docker ps
-> `docker ps` 可以列出当前正在运行的 Docker 容器
-
-- 参数
+- `docker ps` 列出当前正在运行的 Docker 容器
 	- `-a` 查看所有容器【包括停止的】
 
 #### docker inspect
-> `docker inspect 容器名` 可以详细的查看某个容器的信息【某个容器数据卷挂载的情况……】
+- `docker inspect 容器名` 详细的查看某个容器的信息【某个容器数据卷挂载的情况……】
 
 ### docker rm
 > docker rm 用来删除停止的容器
