@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "职场",
+      "path": "临时笔记/职场.md"
+    },
+    {
+      "basename": "6-2 正则表达式",
+      "path": "计算机/Linux/6-2 正则表达式.md"
+    },
+    {
       "basename": "3-1 高级",
       "path": "计算机/数据库/Redis/3-1 高级.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "2-2 基础语法",
       "path": "计算机/JavaWeb/前端/Vue/2-2 基础语法.md"
-    },
-    {
-      "basename": "6-2 正则表达式",
-      "path": "计算机/Linux/6-2 正则表达式.md"
     },
     {
       "basename": "3-1 路由",
@@ -195,10 +199,6 @@
     {
       "basename": "4-2 继承",
       "path": "计算机/编程语言/Java/4-2 继承.md"
-    },
-    {
-      "basename": "4-1 类与对象",
-      "path": "计算机/编程语言/Java/4-1 类与对象.md"
     }
   ],
   "omittedPaths": [],
