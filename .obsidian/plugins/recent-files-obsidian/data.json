@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "3-1 高级",
-      "path": "计算机/数据库/Redis/3-1 高级.md"
+      "basename": "3-1 环境变量，搜索",
+      "path": "计算机/Linux/3-1 环境变量，搜索.md"
     },
     {
       "basename": "1 基础",
       "path": "计算机/数据库/Redis/1 基础.md"
+    },
+    {
+      "basename": "3-1 高级",
+      "path": "计算机/数据库/Redis/3-1 高级.md"
     },
     {
       "basename": "2-1 键命令",
@@ -195,10 +199,6 @@
     {
       "basename": "2-3 Java 的基础语法 2",
       "path": "计算机/编程语言/Java/2-3 Java 的基础语法 2.md"
-    },
-    {
-      "basename": "Java 语法糖",
-      "path": "计算机/编程语言/Java/Java 语法糖.md"
     }
   ],
   "omittedPaths": [],
