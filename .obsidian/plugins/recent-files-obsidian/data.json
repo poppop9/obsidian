@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "数据库 Draw",
+      "path": "Excalidraw/计算机/数据库 Draw.md"
+    },
+    {
       "basename": "2-2 数据结构命令",
       "path": "计算机/数据库/Redis/2-2 数据结构命令.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Java 语法糖",
       "path": "计算机/编程语言/Java/Java 语法糖.md"
-    },
-    {
-      "basename": "3 对象",
-      "path": "计算机/编程语言/Python/3 对象.md"
     }
   ],
   "omittedPaths": [],
