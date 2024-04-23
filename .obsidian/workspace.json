@@ -66,7 +66,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/Redis/2-2 数据结构命令.md"
+                "file": "临时笔记/职场.md"
               }
             }
           },
@@ -170,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/Redis/2-2 数据结构命令.md"
+                "file": "临时笔记/职场.md"
               }
             }
           },
@@ -202,10 +203,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "15c2a3a18cd1e1e2",
   "lastOpenFiles": [
-    "计算机/数据库/Redis/3-1 高级.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/数据库/Redis/2-2 数据结构命令.md",
+    "计算机/数据库/Redis/3-1 高级.md",
     "计算机/数据库/Redis/1 基础.md",
     "临时笔记/职场.md",
     "计算机/Linux/6-2 正则表达式.md",
@@ -224,7 +226,6 @@
     "计算机/JavaWeb/前端/Vue/3-1 路由.md",
     "计算机/JavaWeb/前端/Vue/Vue 3.md",
     "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md",
-    "Excalidraw/计算机/JavaWeb Draw.md",
     "Excalidraw/计算机/Linux Draw.md",
     "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",

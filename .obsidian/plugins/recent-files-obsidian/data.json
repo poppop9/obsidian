@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "职场",
+      "path": "临时笔记/职场.md"
+    },
+    {
+      "basename": "JavaWeb Draw",
+      "path": "Excalidraw/计算机/JavaWeb Draw.md"
+    },
+    {
       "basename": "2-2 数据结构命令",
       "path": "计算机/数据库/Redis/2-2 数据结构命令.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "1 基础",
       "path": "计算机/数据库/Redis/1 基础.md"
-    },
-    {
-      "basename": "职场",
-      "path": "临时笔记/职场.md"
     },
     {
       "basename": "6-2 正则表达式",
@@ -67,10 +71,6 @@
     {
       "basename": "2-1 局部化，工程化",
       "path": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md"
-    },
-    {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
     },
     {
       "basename": "Linux Draw",
