@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/Redis/3-1 高级.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -67,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/职场.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
               }
             }
           },
@@ -171,7 +171,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/职场.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
               }
             }
           },
@@ -203,13 +203,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "15c2a3a18cd1e1e2",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/数据库/Redis/3-1 高级.md",
+    "临时笔记/职场.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/数据库/Redis/2-2 数据结构命令.md",
-    "计算机/数据库/Redis/3-1 高级.md",
     "计算机/数据库/Redis/1 基础.md",
-    "临时笔记/职场.md",
     "计算机/Linux/6-2 正则表达式.md",
     "计算机/Docker.md",
     "计算机/Linux/3-1 环境变量，搜索.md",
