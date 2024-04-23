@@ -66,8 +66,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/数据库/Redis/2-2 数据结构命令.md"
               }
             }
           },
@@ -171,7 +170,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/数据库/Redis/2-2 数据结构命令.md"
               }
             }
           },
@@ -203,10 +202,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ec1d6ee6a9dbcc6a",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/Nginx.md",
+    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/数据库/Redis/3-1 高级.md",
     "临时笔记/职场.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
