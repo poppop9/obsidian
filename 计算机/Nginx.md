@@ -2,8 +2,9 @@
 ## 目录结构
 - `nginx` 
 	- `conf` 
-		- `conf.d` 
+		- `conf.d` 【所有配置文件定义在zhe'li】
 			- default.conf
+		- nginx.conf
 	- `html` 
 	- `logs` 
 	- `ssl` 
@@ -20,12 +21,13 @@ docker run --name nginxconf -p 9999:80 -d nginx
 mkdir -p /data/nginx/conf
 mkdir -p /data/nginx/logs
 
-# 从`nginxconfig` 的容器中，复制 `/etc/nginx/nginx.conf` 文件到宿主机的 `/home/nginxtest/conf/nginx.conf` 
-docker cp nginxconfig:/etc/nginx/nginx.conf /home/nginxtest/conf/nginx.conf
+# 拷贝nginx.conf
+docker cp nginxconfig:/etc/nginx/nginx.conf /data/nginx/conf/nginx.conf
 
-docker cp nginxconfig:/etc/nginx/conf.d /home/nginxtest/conf/conf.d
+# 拷贝default.conf
+docker cp nginxconfig:/etc/nginx/conf.d /data/nginx/conf/conf.d/default.conf
 
-docker cp nginxconfig:/usr/share/nginx/html /home/nginxtest
+docker cp nginxconfig:/usr/share/nginx/html /data/nginx/html
 ```
 
 
