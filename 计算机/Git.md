@@ -352,7 +352,7 @@ $ git config --global user.email "your_email@youremail.com"
 	- `git fetch 远程仓库名 分支名` 获取远程仓库的特定分支
 - `git merge` 合并 `fetch` 的最新信息到当前分支
 - `git pull 远程仓库名 远程分支名:本地分支名` 获取并合并远程仓库的更改到本地工作目录
-	- `--allow`
+	- `--allow-unrelated-histories` 允许拉取两个历史提交记录不相关的分支
 
 ```bash
 git fetch test
