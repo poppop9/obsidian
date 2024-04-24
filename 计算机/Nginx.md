@@ -17,8 +17,8 @@ docker run --name nginxconf -p 9999:80 -d nginx
 ```
 
 ```bash
-mkdir -p /home/nginxtest/conf
-mkdir -p /home/nginxtest/log
+mkdir -p /data/nginx/conf
+mkdir -p /data/nginx/logs
 
 # 从`nginxconfig` 的容器中，复制 `/etc/nginx/nginx.conf` 文件到宿主机的 `/home/nginxtest/conf/nginx.conf` 
 docker cp nginxconfig:/etc/nginx/nginx.conf /home/nginxtest/conf/nginx.conf
