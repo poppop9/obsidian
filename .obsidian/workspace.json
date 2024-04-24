@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/1 权限，文件目录.md",
+                "file": "计算机/Linux/3-1 环境变量，搜索.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/Linux/3-1 环境变量，搜索.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/Linux/3-1 环境变量，搜索.md"
               }
             }
           },
@@ -206,11 +205,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12e4938090699372",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
     "计算机/Linux/1 权限，文件目录.md",
-    "计算机/编程语言/Java/1 idea.md",
     "计算机/Nginx.md",
+    "计算机/编程语言/Java/1 idea.md",
     "计算机/数据库/Redis/3-1 高级.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/Git.md",

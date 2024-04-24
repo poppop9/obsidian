@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Nginx",
-      "path": "计算机/Nginx.md"
+      "basename": "3-1 环境变量，搜索",
+      "path": "计算机/Linux/3-1 环境变量，搜索.md"
     },
     {
       "basename": "1 权限，文件目录",
       "path": "计算机/Linux/1 权限，文件目录.md"
+    },
+    {
+      "basename": "Nginx",
+      "path": "计算机/Nginx.md"
     },
     {
       "basename": "1 idea",
@@ -47,10 +51,6 @@
     {
       "basename": "6-2 正则表达式",
       "path": "计算机/Linux/6-2 正则表达式.md"
-    },
-    {
-      "basename": "3-1 环境变量，搜索",
-      "path": "计算机/Linux/3-1 环境变量，搜索.md"
     },
     {
       "basename": "2-1 键命令",
