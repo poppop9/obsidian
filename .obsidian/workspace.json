@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/Docker.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -206,10 +206,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12e4938090699372",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
-    "计算机/Docker.md",
     "计算机/Nginx.md",
+    "计算机/Docker.md",
     "计算机/Linux/1-2 文件目录.md",
     "计算机/Linux/1-1 权限.md",
     "计算机/Linux/3-1 环境变量，搜索.md",

@@ -43,9 +43,18 @@ docker run \
   -v /data/nginx/conf/nginx.conf:/etc/nginx/nginx.conf \
   -v /data/nginx/conf/conf.d:/etc/nginx/conf.d \
   -v /data/nginx/ssl:/etc/nginx/ssl \
+  --privileged=true -d --restart=always nginx
 ```
 
+使用 `--privileged=true` 参数可以赋予 Docker 容器许多与宿主机系统交互的权限，这包括：
+- 访问和操作宿主机的设备，比如可以通过 Docker 容器来管理宿主机的硬件设备。
+- 修改宿主机的系统内核设置，比如通过 sysctl 命令来调整内核参数。
+- 允许容器使用一些需要特殊权限的系统调用，例如启用一些网络堆栈的特性。
+- 可以让容器拥有更接近真正宿主机的网络访问权限，例如直接管理宿主机的网络接口，创建设备，设置设备的属性等。
 
+  
+
+虽然 `--privileged=true` 可以使容器更像一个真正的独立主机，但这也意味着可能会增加安全风险。因为如果容器里运行的进程被恶意代码利用，它将可以直接操作宿主机，这可能对宿主机的安全造成威胁。所以，除非确实需要，否则不建议在生产环境中使用 `--privileged=true`。
 
 
 
