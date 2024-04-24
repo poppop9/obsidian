@@ -260,7 +260,7 @@ docker exec -it my_container bash
 
 ## 挂载
 ### 复制
-- `docker cp 容器名 容器内文件:宿主机文件` 将容器内的文件复制到宿主机上
+- `docker cp 容器名:容器内文件 宿主机文件` 将容器内的文件复制到宿主机上
 
 ### 数据卷
 >[!warning] 容器创建之后不能再挂载数据卷，只能在 `docker run` 的时候就挂载
@@ -277,7 +277,7 @@ graph LR
 
 - `docker volume create` 创建数据卷
 
-- [[#^131b42]] ，挂载数据卷时，如果没有数据卷，会自动创建数据卷，**所以 `docker volume create` 一般用不到**
+- [[#^131b42]] ，挂载数据卷时，如果没有数据卷，会自动创建数据卷
 
 ```bash
 docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
