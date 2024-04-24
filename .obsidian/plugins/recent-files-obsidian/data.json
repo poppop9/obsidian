@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Git",
-      "path": "计算机/Git.md"
-    },
-    {
-      "basename": "1 权限，文件目录",
-      "path": "计算机/Linux/1 权限，文件目录.md"
+      "basename": "1 idea",
+      "path": "计算机/编程语言/Java/1 idea.md"
     },
     {
       "basename": "3-1 高级",
@@ -15,6 +11,14 @@
     {
       "basename": "1 基础",
       "path": "计算机/数据库/Redis/1 基础.md"
+    },
+    {
+      "basename": "Git",
+      "path": "计算机/Git.md"
+    },
+    {
+      "basename": "1 权限，文件目录",
+      "path": "计算机/Linux/1 权限，文件目录.md"
     },
     {
       "basename": "Nginx",
@@ -183,10 +187,6 @@
     {
       "basename": "2-1 Java 的理论知识",
       "path": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
-    },
-    {
-      "basename": "1 idea",
-      "path": "计算机/编程语言/Java/1 idea.md"
     },
     {
       "basename": "2-2 Java 的基础语法 1",
