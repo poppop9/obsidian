@@ -153,14 +153,21 @@ docker build -t demo:1.0 .
 >[!warning] Docker Desktop 只允许在本机中运行，不允许在虚拟机中运行
 
 
-
-
-
 # Docker 命令
 ## 操作镜像
+```mermaid
+graph LR
+	a[jar 包]--build-->b[镜像]
+	b--save-->c[tar 包]
+	c--load-->b
+	
+	d[远程仓库]--pull-->b
+	b--push-->d
+```
+
 - **创建**
-- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
-	- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
+	- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
+		- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
 - **打包**
 	- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
 - **获取**
@@ -170,6 +177,13 @@ docker build -t demo:1.0 .
 	- `docker images` 列出本地上所有的 Docker 镜像
 - **删除**
 	- `docker rmi 镜像名:版本号` 删除本地上的镜像
+- **推送**
+	- `docker push`
+
+```bash
+# . 表示Dockerfile就在当前目录
+docker build -t demo:1.0 .
+```
 
 ```bash
 # save，load
@@ -177,19 +191,6 @@ docker save -o my_mysql.tar my_mysql
 
 docker load -i my_mysql.tar
 ```
-
----
-
-
-
-```bash
-# . 表示Dockerfile就在当前目录
-docker build -t demo:1.0 .
-```
-
----
-
-- `docker push`
 
 ## 操作容器
 ```mermaid
