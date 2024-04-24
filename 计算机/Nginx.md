@@ -20,6 +20,7 @@ docker run --name nginxconf -p 9999:80 -d nginx
 - 在宿主机上创建目录，用来映射容器中的目录
 ```bash
 mkdir -p /data/nginx/conf
+mkdir -p /data/nginx/html
 mkdir -p /data/nginx/logs
 
 # 拷贝nginx.conf
@@ -37,7 +38,11 @@ docker cp nginxconfig:/usr/share/nginx/html /data/nginx/html
 docker run \
   --name nginx \
   -p 8080:80 \
-  -v /data/nginx/logs:/var/log/nginx
+  -v /data/nginx/logs:/var/log/nginx \
+  -v /data/nginx/html:/usr/share/nginx/html \
+  -v /data/nginx/conf/nginx.conf:/etc/nginx/nginx.conf \
+  -v /data/nginx/conf/conf.d:/etc/nginx/conf.d \
+  -v /data/nginx/ssl:/etc/nginx/ssl \
 ```
 
 
