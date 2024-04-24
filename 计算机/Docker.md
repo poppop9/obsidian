@@ -158,36 +158,38 @@ docker build -t demo:1.0 .
 
 # Docker 命令
 ## 操作镜像
-### docker pull
-- `docker pull 镜像名` 从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
-
-### docker save，docker load
-- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
-- `docker load -i 文件名` 从文件中导入一个镜像
+- **创建**
+- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
+	- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
+- **打包**
+	- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
+- **获取**
+	- `docker pull 镜像名` 从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
+	- `docker load -i 文件名` 从文件中导入一个镜像
+- **查看**
+	- `docker images` 列出本地上所有的 Docker 镜像
+- **删除**
+	- `docker rmi 镜像名:版本号` 删除本地上的镜像
 
 ```bash
+# save，load
 docker save -o my_mysql.tar my_mysql
 
 docker load -i my_mysql.tar
 ```
 
-### docker images
-- `docker images` 列出本地上所有的 Docker 镜像
+---
 
-### docker rmi
-- `docker rmi 镜像名:版本号` 删除本地上的镜像
 
-### docker build
-- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
-	- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
 
 ```bash
 # . 表示Dockerfile就在当前目录
 docker build -t demo:1.0 .
 ```
 
-### docker push
+---
 
+- `docker push`
 
 ## 操作容器
 ```mermaid
