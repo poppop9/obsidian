@@ -2,7 +2,7 @@
 ## 目录结构
 - `nginx` 
 	- `conf` 
-		- `conf.d` 【所有配置文件定义在zhe'li】
+		- `conf.d` 【所有配置文件定义在这里就好，nginx.conf 会自动引入】
 			- default.conf
 		- nginx.conf
 	- `html` 
@@ -27,6 +27,7 @@ docker cp nginxconfig:/etc/nginx/nginx.conf /data/nginx/conf/nginx.conf
 # 拷贝default.conf
 docker cp nginxconfig:/etc/nginx/conf.d /data/nginx/conf/conf.d/default.conf
 
+# 拷贝html
 docker cp nginxconfig:/usr/share/nginx/html /data/nginx/html
 ```
 
