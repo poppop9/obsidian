@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/Redis/3-1 高级.md"
+                "file": "计算机/Linux/1 权限，文件目录.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/Redis/3-1 高级.md"
+                "file": "计算机/Linux/1 权限，文件目录.md"
               }
             }
           },
@@ -206,11 +206,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12e4938090699372",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/数据库/Redis/3-1 高级.md",
     "计算机/Linux/1 权限，文件目录.md",
     "计算机/数据库/Redis/1 基础.md",
-    "计算机/数据库/Redis/3-1 高级.md",
     "计算机/Nginx.md",
     "计算机/Docker.md",
     "临时笔记/职场.md",
