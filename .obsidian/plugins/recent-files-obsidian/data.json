@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "1 基础",
+      "path": "计算机/数据库/Redis/1 基础.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
+      "basename": "Nginx",
+      "path": "计算机/Nginx.md"
+    },
+    {
       "basename": "3-1 高级",
       "path": "计算机/数据库/Redis/3-1 高级.md"
     },
@@ -17,24 +29,12 @@
       "path": "计算机/数据库/Redis/2-2 数据结构命令.md"
     },
     {
-      "basename": "Nginx",
-      "path": "计算机/Nginx.md"
-    },
-    {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
     },
     {
-      "basename": "1 基础",
-      "path": "计算机/数据库/Redis/1 基础.md"
-    },
-    {
       "basename": "6-2 正则表达式",
       "path": "计算机/Linux/6-2 正则表达式.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "3-1 环境变量，搜索",
