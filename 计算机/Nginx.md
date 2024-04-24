@@ -1,4 +1,14 @@
-# 在 docker 中安装配置
+# 基础
+## 目录结构
+- `nginx` 
+	- `conf` 
+		- `conf.d` 
+			- default.conf
+	- `html` 
+	- `logs` 
+	- `ssl` 
+
+## 在 docker 中安装配置
 [nginx 的 docker 地址](https://hub.docker.com/_/nginx)
 
 - 创建一个默认的 nginx 用于拷贝配置文件
