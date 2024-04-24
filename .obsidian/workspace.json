@@ -13,10 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/Redis/2-2 数据结构命令.md",
+                "file": "计算机/数据库/Redis/3-1 高级.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "6f2c73ec81dd03ae",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/JavaWeb Draw.md"
               }
             }
           },
@@ -34,16 +44,6 @@
             }
           },
           {
-            "id": "6f2c73ec81dd03ae",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/数据库 Draw.md"
-              }
-            }
-          },
-          {
             "id": "15c2a3a18cd1e1e2",
             "type": "leaf",
             "state": {
@@ -53,16 +53,6 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "30fb8759db09e8fa",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
               }
             }
           }
@@ -117,7 +107,7 @@
             }
           },
           {
-            "id": "caa906ce1258206b",
+            "id": "f5afcfa7043f00fc",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -160,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/Redis/2-2 数据结构命令.md"
+                "file": "计算机/数据库/Redis/3-1 高级.md"
               }
             }
           },
@@ -170,7 +160,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/Redis/2-2 数据结构命令.md"
+                "file": "计算机/数据库/Redis/3-1 高级.md"
               }
             }
           },
@@ -204,12 +194,12 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/Nginx.md",
-    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
-    "计算机/数据库/Redis/3-1 高级.md",
     "临时笔记/职场.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
+    "计算机/数据库/Redis/3-1 高级.md",
     "计算机/数据库/Redis/2-2 数据结构命令.md",
+    "计算机/Nginx.md",
+    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/Linux/6-2 正则表达式.md",
     "计算机/Docker.md",

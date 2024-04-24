@@ -1,18 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "2-2 数据结构命令",
-      "path": "计算机/数据库/Redis/2-2 数据结构命令.md"
-    },
-    {
-      "basename": "Nginx",
-      "path": "计算机/Nginx.md"
-    },
-    {
-      "basename": "DDD 架构",
-      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
       "basename": "3-1 高级",
       "path": "计算机/数据库/Redis/3-1 高级.md"
     },
@@ -23,6 +11,18 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
+    },
+    {
+      "basename": "2-2 数据结构命令",
+      "path": "计算机/数据库/Redis/2-2 数据结构命令.md"
+    },
+    {
+      "basename": "Nginx",
+      "path": "计算机/Nginx.md"
+    },
+    {
+      "basename": "DDD 架构",
+      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
     },
     {
       "basename": "1 基础",

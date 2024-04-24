@@ -70,7 +70,9 @@
     "//Excalidraw/Excalidraw/计算机/Excalidraw/计算机/编程语言",
     "//Excalidraw/Excalidraw/计算机/Excalidraw/计算机/数据库",
     "//Excalidraw/Excalidraw/计算机",
-    "//Excalidraw/Excalidraw/计算机"
+    "//Excalidraw/Excalidraw/计算机",
+    "计算机/计算机/数据库",
+    "计算机/计算机/数据库/计算机/数据库/Redis"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
