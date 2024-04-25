@@ -21,6 +21,16 @@
             }
           },
           {
+            "id": "6f2c73ec81dd03ae",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/计算机/四大件/数据结构 Draw.md"
+              }
+            }
+          },
+          {
             "id": "12e4938090699372",
             "type": "leaf",
             "state": {
@@ -43,16 +53,6 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "6f2c73ec81dd03ae",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/四大件/数据结构 Draw.md"
               }
             }
           },
@@ -205,19 +205,19 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "f5afcfa7043f00fc",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "Excalidraw/计算机/四大件/数据结构 Draw.md",
+    "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md",
     "计算机/四大件/数据结构与算法/算法/算法.md",
     "计算机/四大件/数据结构与算法/算法",
     "计算机/四大件/数据结构与算法/数据结构/数据结构.md",
     "计算机/四大件/数据结构与算法/数据结构",
     "计算机/四大件/数据结构与算法/Untitled.md",
-    "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-2 树 - 自平衡.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/2 散列表.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/1-2 队列.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/1-1 栈.md",
-    "Excalidraw/计算机/四大件/数据结构 Draw.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/逻辑结构.md",
     "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
