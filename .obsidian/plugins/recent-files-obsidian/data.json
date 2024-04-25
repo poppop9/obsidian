@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "物理结构",
+      "path": "计算机/四大件/数据结构/物理结构.md"
+    },
+    {
       "basename": "计算机网络 1",
       "path": "计算机/四大件/计算机网络/计算机网络 1.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2 MySQL 基础语句",
       "path": "计算机/数据库/MySQL/2 MySQL 基础语句.md"
-    },
-    {
-      "basename": "MYSQL 安装配置",
-      "path": "计算机/数据库/MySQL/MYSQL 安装配置.md"
     }
   ],
   "omittedPaths": [],
