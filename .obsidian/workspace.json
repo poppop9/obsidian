@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
+                "file": "计算机/四大件/计算机网络/计算机网络 1.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
+                "file": "计算机/四大件/计算机网络/计算机网络 1.md"
               }
             }
           },
@@ -206,10 +205,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12e4938090699372",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/四大件/计算机网络/计算机网络 1.md",
     "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
+    "计算机/四大件/计算机网络/计算机网络 1.md",
     "计算机/Nginx.md",
     "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md",
     "计算机/Linux/1-2 文件目录.md",
