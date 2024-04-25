@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Nginx",
+      "path": "计算机/Nginx.md"
+    },
+    {
       "basename": "6-1 命令执行顺序，管道",
       "path": "计算机/Linux/6-1 命令执行顺序，管道.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "1-2 文件目录",
       "path": "计算机/Linux/1-2 文件目录.md"
-    },
-    {
-      "basename": "Nginx",
-      "path": "计算机/Nginx.md"
     },
     {
       "basename": "Docker",

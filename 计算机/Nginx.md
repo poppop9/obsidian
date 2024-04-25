@@ -1,4 +1,7 @@
 # 基础
+>[!hint] nginx 中的进程
+>nginx 中的进程分为：<u>master</u>，<u>worker</u>
+
 ## 目录结构
 - `nginx` 
 	- `conf` 
