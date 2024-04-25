@@ -5,6 +5,10 @@
       "path": "计算机/Nginx.md"
     },
     {
+      "basename": "1-2 文件目录",
+      "path": "计算机/Linux/1-2 文件目录.md"
+    },
+    {
       "basename": "8 软件安装",
       "path": "计算机/Linux/8 软件安装.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "2-3 awk",
       "path": "计算机/Linux/2-3 awk.md"
-    },
-    {
-      "basename": "1-2 文件目录",
-      "path": "计算机/Linux/1-2 文件目录.md"
     },
     {
       "basename": "Docker",

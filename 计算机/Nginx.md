@@ -2,7 +2,7 @@
 >[!hint] nginx 中的进程
 >nginx 中的进程分为：
 >- `master` ：主进程，负责读取配置文件，管理 `worker` 进程，~~只有一个~~
->- `worker` ：工作进程，负责处理请求，~~可以有多个~~
+>- `worker` ：工作进程，负责处理请求，~~可以有多个，在 `nginx.conf` 里配置~~
 
 ## 目录结构
 - `nginx` 
@@ -61,7 +61,7 @@ docker run \
 		- `stop` 立即停止
 		- `reload` 重新加载配置文件
 		- `reopen` 重新打开新的日志文件，并写入
-
+	- `-t` 检查配置wen'jai
 
 
 
