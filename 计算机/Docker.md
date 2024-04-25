@@ -208,10 +208,16 @@ graph TB
 	容器--docker rm-->g[垃圾箱]
 ```
 
-### docker run
+---
+
 >[!hint] 运行 `docker run 镜像名称` 如果本地没有镜像，会自动去镜像仓库下载
 
-- `docker run ……参数 镜像名称:[版本号]` 创建并运行一个容器【**版本号不写默认最新版**】
+```bash
+docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 mysql:5.7
+```
+
+
+- **创建并运行**：`docker run ……参数 镜像名称:[版本号]` 【**版本号不写默认最新版**】
 	- `-d` 在后台运行
 	- `--name 容器名字` 设置容器的名字
 	- `-p 主机端口号:容器端口号` 将<u>容器的端口</u>映射到<u>主机的端口</u>
@@ -221,31 +227,20 @@ graph TB
 	- `--privileged=true` 可以让容器内的 root 用户拥有真正的 root 权限
 	- `--restart=always` 如果容器停止，总是重新启动容器
 
-```bash
-docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306 mysql:5.7
-```
+-
+- **启动/停止**
+	- `docker stop 容器名` 停止正在运行的 Docker 容器【**但是容器还在，没有删除**】
+	- `docker start 容器名` 启动被停止的 Docker 容器
+- **查看**
+	- `docker ps` 列出当前正在运行的 Docker 容器
+		- `-a` 查看所有容器【包括停止的】
+	- `docker inspect 容器名` 详细的查看某个容器的信息【某个容器数据卷挂载的情况……】
+	- `docker logs 容器名` 获取和查看 Docker 容器的日志
+		- `-f` 持续跟进日志
+- **删除**
+	- `docker rm` 删除停止的容器
+		- `-f` 强制删除【可以删除正在运行的容器】
 
-### docker stop
-- `docker stop 容器名` 停止正在运行的 Docker 容器，**但是容器还在，没有删除**
-
-### docker start
-- `docker start 容器名` 启动被停止的 Docker 容器
-
-### 查看
-#### docker ps
-- `docker ps` 列出当前正在运行的 Docker 容器
-	- `-a` 查看所有容器【包括停止的】
-
-#### docker inspect
-- `docker inspect 容器名` 详细的查看某个容器的信息【某个容器数据卷挂载的情况……】
-
-### docker rm
-- `docker rm` 删除停止的容器
-	- `-f` 强制删除【可以删除正在运行的容器】
-
-### docker logs
-- `docker logs 容器名` 获取和查看 Docker 容器的日志
-	- `-f` 持续跟进日志
 
 ### docker exec
 >[!hint] 容器就是虚拟了一个计算机，我们可以进入容器，去修改里面文件系统中的文件
