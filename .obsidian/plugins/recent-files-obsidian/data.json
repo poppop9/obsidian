@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "3-1 树",
+      "path": "计算机/四大件/数据结构/逻辑结构/3-1 树.md"
+    },
+    {
       "basename": "2 散列表",
       "path": "计算机/四大件/数据结构/逻辑结构/2 散列表.md"
+    },
+    {
+      "basename": "1-2 队列",
+      "path": "计算机/四大件/数据结构/逻辑结构/1-2 队列.md"
+    },
+    {
+      "basename": "1-1 栈",
+      "path": "计算机/四大件/数据结构/逻辑结构/1-1 栈.md"
     },
     {
       "basename": "数据结构 Draw",
@@ -11,10 +23,6 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "1 栈，队列",
-      "path": "计算机/四大件/数据结构/逻辑结构/1 栈，队列.md"
     },
     {
       "basename": "逻辑结构",
@@ -191,14 +199,6 @@
     {
       "basename": "3-3 字符串",
       "path": "计算机/编程语言/Java/3-3 字符串.md"
-    },
-    {
-      "basename": "3-4 基本类型包装类",
-      "path": "计算机/编程语言/Java/3-4 基本类型包装类.md"
-    },
-    {
-      "basename": "3-5 异常",
-      "path": "计算机/编程语言/Java/3-5 异常.md"
     }
   ],
   "omittedPaths": [],
