@@ -168,17 +168,17 @@ graph LR
 - **创建**
 	- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
 		- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
-- **打包**
-	- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
-- **获取**
-	- `docker pull 镜像名` 从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
-	- `docker load -i 文件名` 从文件中导入一个镜像
+- **获取/推送**
+	- 从 tar 包获取/打包
+		- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
+		- `docker load -i 文件名` 从文件中导入一个镜像
+	- 从远程仓库获取/推送
+		- `docker push` 
+		- `docker pull 镜像名` 从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
 - **查看**
 	- `docker images` 列出本地上所有的 Docker 镜像
 - **删除**
 	- `docker rmi 镜像名:版本号` 删除本地上的镜像
-- **推送**
-	- `docker push`
 
 ```bash
 # . 表示Dockerfile就在当前目录
