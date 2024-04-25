@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "6-1 命令执行顺序，管道",
+      "path": "计算机/Linux/6-1 命令执行顺序，管道.md"
+    },
+    {
+      "basename": "2-3 awk",
+      "path": "计算机/Linux/2-3 awk.md"
+    },
+    {
+      "basename": "1-2 文件目录",
+      "path": "计算机/Linux/1-2 文件目录.md"
+    },
+    {
       "basename": "Nginx",
       "path": "计算机/Nginx.md"
     },
     {
       "basename": "Docker",
       "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "1-2 文件目录",
-      "path": "计算机/Linux/1-2 文件目录.md"
     },
     {
       "basename": "1-1 权限",
@@ -191,14 +199,6 @@
     {
       "basename": "2-1 Java 的理论知识",
       "path": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
-    },
-    {
-      "basename": "2-2 Java 的基础语法 1",
-      "path": "计算机/编程语言/Java/2-2 Java 的基础语法 1.md"
-    },
-    {
-      "basename": "5-2 类加载器",
-      "path": "计算机/编程语言/Java/5-2 类加载器.md"
     }
   ],
   "omittedPaths": [],
