@@ -65,19 +65,19 @@ docker run \
 
 # 配置文件
 
-```vim
+```bash
 user  nginx;
-
+# 定义了工作进程数
 worker_processes  auto;
 
+# 定义了错误日志文件的位置和日志级别
 error_log  /var/log/nginx/error.log notice;
 pid        /var/run/nginx.pid;
 
-
+# 定义了每个工作进程的最大连接数
 events {
     worker_connections  1024;
 }
-
 
 http {
     include       /etc/nginx/mime.types;
@@ -92,10 +92,12 @@ http {
     sendfile        on;
     #tcp_nopush     on;
 
+	# 设置了保持连接的超时时间
     keepalive_timeout  65;
 
     #gzip  on;
 
+	# 包含了其他的配置文件
     include /etc/nginx/conf.d/*.conf;
 }
 ```
