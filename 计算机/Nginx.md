@@ -49,13 +49,12 @@ docker run \
 
 
 ```bash
-docker run \
+docker run -d -p 81:80\
   --name nginx \
-  -v /data/nginx/logs:/var/log/nginx \
   -v /data/nginx/html:/usr/share/nginx/html \
   -v /data/nginx/conf/nginx.conf:/etc/nginx/nginx.conf \
   -v /data/nginx/conf/conf.d:/etc/nginx/conf.d \
-  -d nginx
+  nginx
 ```
 
 
