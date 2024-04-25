@@ -57,8 +57,10 @@ docker run \
 # 命令
 - `nginx` 
 	- `-s 值` 
-		- `quit` 优雅停止
+		- `quit` 优雅停止【~~等待 `worker` 进程完成当前处理后退出~~】
 		- `stop` 立即停止
+		- `reload` 重新加载配置文件
+		- `reopen` 重新打开新的日志文件，并写入
 
 
 
