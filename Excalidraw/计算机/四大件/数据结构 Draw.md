@@ -132,6 +132,11 @@ preNode ^eqUOLFCL
 
 NULL ^AP28eSgx
 
+一个链表，冲突就插入到后面 ^YVYMyQO4
+
+# Embedded files
+00111c63bdafae1c67052c3694e574fc2ea0d0c9: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202404260012730.png
+
 %%
 # Drawing
 ```json
@@ -6116,15 +6121,239 @@ NULL ^AP28eSgx
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.2
+		},
+		{
+			"type": "image",
+			"version": 42,
+			"versionNonce": 734362260,
+			"isDeleted": false,
+			"id": "Fj47Ep7H",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 941.5622179111078,
+			"y": 1322.7900593984507,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500,
+			"height": 149.62406015037593,
+			"seed": 3971,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1714061579373,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "00111c63bdafae1c67052c3694e574fc2ea0d0c9",
+			"scale": [
+				1,
+				1
+			]
+		},
+		{
+			"id": "WNG-LhWaqBcHxTsAwlqwe",
+			"type": "ellipse",
+			"x": 1067.5630191848252,
+			"y": 1314.3920918463523,
+			"width": 70.15745203081997,
+			"height": 161.52529195255215,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1367113492,
+			"version": 78,
+			"versionNonce": 316720300,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1714061609545,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "WfWS9VTAwf62EiiR3Y-Sh",
+			"type": "arrow",
+			"x": 1132.2819096860146,
+			"y": 1435.6720201810522,
+			"width": 41.87690718098224,
+			"height": 11.964818768014538,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 182487468,
+			"version": 42,
+			"versionNonce": 1136076180,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1714061641059,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					41.87690718098224,
+					11.964818768014538
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "YVYMyQO4",
+				"focus": -0.6598622581860882,
+				"gap": 4.214851991118735
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		},
+		{
+			"id": "YVYMyQO4",
+			"type": "text",
+			"x": 1178.3736688581155,
+			"y": 1443.1500215378287,
+			"width": 202.69509173184838,
+			"height": 18.724720670275644,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 1495208084,
+			"version": 122,
+			"versionNonce": 912610068,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "WfWS9VTAwf62EiiR3Y-Sh",
+					"type": "arrow"
+				}
+			],
+			"updated": 1714061641059,
+			"link": null,
+			"locked": false,
+			"text": "一个链表，冲突就插入到后面",
+			"rawText": "一个链表，冲突就插入到后面",
+			"fontSize": 15.603933891896368,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "一个链表，冲突就插入到后面",
+			"lineHeight": 1.2
+		},
+		{
+			"id": "ZJO5fzvDN-e5j4U9vuP7u",
+			"type": "line",
+			"x": 939.7568024920425,
+			"y": 1397.0582208727963,
+			"width": 512.8563895877954,
+			"height": 1.6315643095958876,
+			"angle": 0,
+			"strokeColor": "#1971c2",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 4,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 255865516,
+			"version": 64,
+			"versionNonce": 2046472980,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1714061654282,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					512.8563895877954,
+					1.6315643095958876
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": null,
+			"startArrowhead": null,
+			"endArrowhead": null
+		},
+		{
+			"id": "B-hHgW1SfqbWze6HAsSBC",
+			"type": "rectangle",
+			"x": 1068.1068670392021,
+			"y": 1326.3569209875996,
+			"width": 70.70129988519648,
+			"height": 142.49033697207827,
+			"angle": 0,
+			"strokeColor": "#e03131",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 1546577300,
+			"version": 133,
+			"versionNonce": 1564725652,
+			"isDeleted": true,
+			"boundElements": null,
+			"updated": 1714061604554,
+			"link": null,
+			"locked": false
 		}
 	],
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#f08c00",
+		"currentItemStrokeColor": "#1971c2",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
-		"currentItemStrokeWidth": 1,
+		"currentItemStrokeWidth": 4,
 		"currentItemStrokeStyle": "solid",
 		"currentItemRoughness": 1,
 		"currentItemOpacity": 100,
@@ -6133,10 +6362,10 @@ NULL ^AP28eSgx
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -191.40021325857742,
-		"scrollY": -383.25664302250425,
+		"scrollX": -877.2813310697053,
+		"scrollY": -1194.5397848758569,
 		"zoom": {
-			"value": 0.5
+			"value": 1.4709771979988089
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

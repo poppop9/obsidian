@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/计算机/四大件/数据结构 Draw.md"
+                "file": "计算机/四大件/数据结构/逻辑结构/2 散列表.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Excalidraw/计算机/四大件/数据结构 Draw.md"
+                "file": "计算机/四大件/数据结构/逻辑结构/2 散列表.md"
               }
             }
           },
@@ -206,17 +205,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "Excalidraw/计算机/JavaWeb Draw.md",
+    "Excalidraw/计算机/四大件/数据结构 Draw.md",
     "计算机/四大件/数据结构/逻辑结构/2 散列表.md",
+    "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/四大件/数据结构/逻辑结构/1 栈，队列.md",
     "计算机/四大件/数据结构/逻辑结构/逻辑结构.md",
     "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
     "计算机/编程语言/Java/3-7 集合.md",
     "计算机/Docker.md",
     "计算机/四大件/数据结构/物理结构.md",
-    "Excalidraw/计算机/四大件/数据结构 Draw.md",
     "计算机/四大件/数据结构/数据结构.md",
     "计算机/四大件/数据结构/逻辑结构",
     "计算机/四大件/计算机网络/计算机网络 1.md",
