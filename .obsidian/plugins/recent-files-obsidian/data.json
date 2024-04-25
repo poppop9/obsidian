@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Nginx",
-      "path": "计算机/Nginx.md"
+      "basename": "2 基础概念知识 Ⅱ",
+      "path": "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md"
+    },
+    {
+      "basename": "1 基础概念知识 Ⅰ",
+      "path": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
     },
     {
       "basename": "1-2 文件目录",
       "path": "计算机/Linux/1-2 文件目录.md"
+    },
+    {
+      "basename": "Nginx",
+      "path": "计算机/Nginx.md"
     },
     {
       "basename": "8 软件安装",
@@ -191,14 +199,6 @@
     {
       "basename": "4 调优",
       "path": "计算机/数据库/MySQL/4 调优.md"
-    },
-    {
-      "basename": "3 MySQL 中级",
-      "path": "计算机/数据库/MySQL/3 MySQL 中级.md"
-    },
-    {
-      "basename": "MySQL",
-      "path": "计算机/数据库/MySQL/MySQL.md"
     }
   ],
   "omittedPaths": [],
