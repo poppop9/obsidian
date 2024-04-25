@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/3-7 集合.md"
+                "file": "计算机/四大件/数据结构/逻辑结构/2 散列表.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/3-7 集合.md"
+                "file": "计算机/四大件/数据结构/逻辑结构/2 散列表.md"
               }
             }
           },
@@ -206,8 +205,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ec1d6ee6a9dbcc6a",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
+    "计算机/编程语言/Java/3-7 集合.md",
     "计算机/Docker.md",
     "计算机/四大件/数据结构/逻辑结构/2 散列表.md",
     "计算机/四大件/数据结构/逻辑结构/1 栈，队列.md",
@@ -217,7 +218,6 @@
     "计算机/四大件/数据结构/数据结构.md",
     "计算机/四大件/数据结构/逻辑结构",
     "计算机/四大件/计算机网络/计算机网络 1.md",
-    "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
     "计算机/Nginx.md",
     "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md",
     "计算机/Linux/1-2 文件目录.md",
@@ -234,7 +234,6 @@
     "Excalidraw/计算机/JavaWeb Draw.md",
     "计算机/数据库/Redis/2-2 数据结构命令.md",
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
-    "计算机/Linux/6-2 正则表达式.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",
