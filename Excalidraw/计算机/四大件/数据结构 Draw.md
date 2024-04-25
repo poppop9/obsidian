@@ -6116,43 +6116,10 @@ NULL ^AP28eSgx
 			"containerId": null,
 			"originalText": "NULL",
 			"lineHeight": 1.2
-		},
-		{
-			"type": "image",
-			"version": 72,
-			"versionNonce": 75737388,
-			"isDeleted": true,
-			"id": "m0kT3Vap",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 909.8001729987162,
-			"y": 2115.2563717114353,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 500.00000000000006,
-			"height": 65.39134783695924,
-			"seed": 47814,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1714056353478,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "953e890d56abc536efb15f09cec0507c816be57e",
-			"scale": [
-				1,
-				1
-			]
 		}
 	],
 	"appState": {
-		"theme": "light",
+		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#f08c00",
 		"currentItemBackgroundColor": "transparent",
@@ -6166,10 +6133,10 @@ NULL ^AP28eSgx
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -894.1244973230407,
-		"scrollY": -1946.3574444369253,
+		"scrollX": -191.40021325857742,
+		"scrollY": -383.25664302250425,
 		"zoom": {
-			"value": 1.85
+			"value": 0.5
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
