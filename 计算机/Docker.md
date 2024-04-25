@@ -217,7 +217,7 @@ graph TB
 	- `-e key=value` 配置环境变量【比如 MySQL 的账号密码，时区……】
 	- `-v 数据卷名:绝对容器内的目录` 挂载数据卷 ^131b42
 	- `-v 绝对本地目录:绝对容器内的目录` 将容器内目录直接挂载到本地目录【不用数据卷】 ^ca483a
-	- `--privileged=true` 可以让容器内的 root 用户拥有真正的 root 权限
+	- `--privileged=true` 可以让容器操作宿主机【不推荐使用】
 	- `--restart=always` 如果容器停止，总是重新启动容器
 
 ```bash
