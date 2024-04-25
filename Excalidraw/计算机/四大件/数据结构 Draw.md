@@ -132,17 +132,13 @@ preNode ^eqUOLFCL
 
 NULL ^AP28eSgx
 
-
-# Embedded files
-953e890d56abc536efb15f09cec0507c816be57e: https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/A22E620F8CFBB09B77DCBBA2A1FD968C.png
-
 %%
 # Drawing
 ```json
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.24",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.6",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -260,8 +256,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -305,8 +300,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -484,8 +478,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -529,8 +522,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -708,8 +700,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -753,8 +744,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -848,8 +838,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "Head",
-			"lineHeight": 1.2,
-			"baseline": 25
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -893,8 +882,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "NULL",
-			"lineHeight": 1.2,
-			"baseline": 26
+			"lineHeight": 1.2
 		},
 		{
 			"type": "ellipse",
@@ -1031,8 +1019,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "一个结点",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
@@ -1198,8 +1185,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -1242,8 +1228,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "prev",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -1286,8 +1271,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -1359,8 +1343,8 @@ NULL ^AP28eSgx
 			"y": 1022.1376965600612,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 48.11722431914345,
-			"height": 23.999999999999996,
+			"width": 48.119964599609375,
+			"height": 24,
 			"seed": 354928865,
 			"groupIds": [
 				"Xqsn1XqttMpJhF09qV3ov"
@@ -1384,8 +1368,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "NULL",
-			"lineHeight": 1.2,
-			"baseline": 17
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
@@ -1555,8 +1538,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -1599,8 +1581,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "prev",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -1643,8 +1624,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
@@ -1810,8 +1790,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -1854,8 +1833,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "prev",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -1898,8 +1876,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -2187,8 +2164,8 @@ NULL ^AP28eSgx
 			"y": 1019.1634642372937,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 48.11722431914345,
-			"height": 23.999999999999996,
+			"width": 48.119964599609375,
+			"height": 24,
 			"seed": 1711030575,
 			"groupIds": [
 				"Xqsn1XqttMpJhF09qV3ov"
@@ -2212,8 +2189,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "NULL",
-			"lineHeight": 1.2,
-			"baseline": 17
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
@@ -2287,8 +2263,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "middle",
 			"containerId": "XnUknmzEyQPFwq83neD61",
 			"originalText": "6",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "line",
@@ -2786,8 +2761,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "3",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -2825,8 +2799,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "5",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -2864,8 +2837,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "1",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -2903,8 +2875,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "4",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -2942,8 +2913,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "9",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -2981,8 +2951,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "栈底",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -3020,8 +2989,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "栈顶",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
@@ -3407,8 +3375,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "3",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -3444,8 +3411,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "5",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -3481,8 +3447,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "1",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -3527,8 +3492,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -3573,8 +3537,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -3615,8 +3578,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -3652,8 +3614,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "栈底",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -3689,41 +3650,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "栈顶",
-			"lineHeight": 1.2,
-			"baseline": 18
-		},
-		{
-			"type": "image",
-			"version": 71,
-			"versionNonce": 929709520,
-			"isDeleted": false,
-			"id": "m0kT3Vap",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 909.8001729987162,
-			"y": 2115.2563717114353,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 500.00000000000006,
-			"height": 65.39134783695924,
-			"seed": 47814,
-			"groupIds": [],
-			"frameId": null,
-			"roundness": null,
-			"boundElements": [],
-			"updated": 1710399898042,
-			"link": null,
-			"locked": false,
-			"status": "pending",
-			"fileId": "953e890d56abc536efb15f09cec0507c816be57e",
-			"scale": [
-				1,
-				1
-			]
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
@@ -3939,8 +3866,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -3985,8 +3911,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -4031,8 +3956,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -4072,8 +3996,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -4173,8 +4096,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "head",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -4273,8 +4195,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "last",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -4367,8 +4288,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "删除尾结点",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "line",
@@ -4638,8 +4558,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -4684,8 +4603,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -4730,8 +4648,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -4771,8 +4688,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -4872,8 +4788,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "head",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -4972,8 +4887,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "last",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -5071,8 +4985,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "removeNode",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -5164,8 +5077,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "步骤1",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -5208,8 +5120,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "preNode",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -5301,8 +5212,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "步骤2",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "rectangle",
@@ -5530,8 +5440,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -5576,8 +5485,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "data",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -5622,8 +5530,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "text",
@@ -5663,8 +5570,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "next",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -5764,8 +5670,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "head",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -5864,8 +5769,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "last",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -5963,8 +5867,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "removeNode",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -6061,8 +5964,7 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "preNode",
-			"lineHeight": 1.2,
-			"baseline": 18
+			"lineHeight": 1.2
 		},
 		{
 			"type": "arrow",
@@ -6190,8 +6092,8 @@ NULL ^AP28eSgx
 			"y": 637.2075472910137,
 			"strokeColor": "#1e1e1e",
 			"backgroundColor": "transparent",
-			"width": 48.11722431914345,
-			"height": 23.999999999999996,
+			"width": 48.119964599609375,
+			"height": 24,
 			"seed": 638952752,
 			"groupIds": [],
 			"frameId": null,
@@ -6213,8 +6115,40 @@ NULL ^AP28eSgx
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "NULL",
-			"lineHeight": 1.2,
-			"baseline": 17
+			"lineHeight": 1.2
+		},
+		{
+			"type": "image",
+			"version": 72,
+			"versionNonce": 75737388,
+			"isDeleted": true,
+			"id": "m0kT3Vap",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 909.8001729987162,
+			"y": 2115.2563717114353,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 500.00000000000006,
+			"height": 65.39134783695924,
+			"seed": 47814,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1714056353478,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "953e890d56abc536efb15f09cec0507c816be57e",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -6232,10 +6166,10 @@ NULL ^AP28eSgx
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 532.2664534080891,
-		"scrollY": -401.63793755417385,
+		"scrollX": -894.1244973230407,
+		"scrollY": -1946.3574444369253,
 		"zoom": {
-			"value": 0.45
+			"value": 1.85
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
@@ -6250,7 +6184,8 @@ NULL ^AP28eSgx
 			"clip": true,
 			"name": true,
 			"outline": true
-		}
+		},
+		"objectsSnapModeEnabled": false
 	},
 	"files": {}
 }
