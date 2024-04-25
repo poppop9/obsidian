@@ -5,6 +5,10 @@
       "path": "计算机/Nginx.md"
     },
     {
+      "basename": "8 软件安装",
+      "path": "计算机/Linux/8 软件安装.md"
+    },
+    {
       "basename": "6-1 命令执行顺序，管道",
       "path": "计算机/Linux/6-1 命令执行顺序，管道.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "MySQL",
       "path": "计算机/数据库/MySQL/MySQL.md"
-    },
-    {
-      "basename": "2-1 Java 的理论知识",
-      "path": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
     }
   ],
   "omittedPaths": [],

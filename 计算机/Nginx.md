@@ -1,8 +1,8 @@
 # 基础
 >[!hint] nginx 中的进程
 >nginx 中的进程分为：
->- <u>master</u>
->- <u>worker</u>
+>- `master` ：主进程，负责读取配置文件，管理 `worker` 进程，~~只有一个~~
+>- `worker` ：工作进程，负责处理请求，~~可以有多个~~
 
 ## 目录结构
 - `nginx` 
@@ -54,6 +54,11 @@ docker run \
   -d --restart=always nginx
 ```
 
+# 命令
+- `nginx` 
+	- `-s 值` 
+		- `quit` 优雅停止
+		- `stop` 立即停止
 
 
 
