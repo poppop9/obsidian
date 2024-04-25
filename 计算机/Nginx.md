@@ -22,7 +22,10 @@ docker run --name nginxconf -p 9999:80 -d nginx
 mkdir -p /data/nginx/conf
 mkdir -p /data/nginx/logs
 mkdir -p /data/nginx/ssl
+```
 
+- 复制容器内的配置文件
+```bash
 # 拷贝nginx.conf
 docker cp nginxconf:/etc/nginx/nginx.conf /data/nginx/conf/nginx.conf
 
