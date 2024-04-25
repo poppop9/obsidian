@@ -5,12 +5,16 @@
       "path": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
     },
     {
-      "basename": "2 基础概念知识 Ⅱ",
-      "path": "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md"
+      "basename": "计算机网络 1",
+      "path": "计算机/四大件/计算机网络/计算机网络 1.md"
     },
     {
       "basename": "Nginx",
       "path": "计算机/Nginx.md"
+    },
+    {
+      "basename": "2 基础概念知识 Ⅱ",
+      "path": "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md"
     },
     {
       "basename": "1-2 文件目录",
@@ -195,10 +199,6 @@
     {
       "basename": "MYSQL 安装配置",
       "path": "计算机/数据库/MySQL/MYSQL 安装配置.md"
-    },
-    {
-      "basename": "4 调优",
-      "path": "计算机/数据库/MySQL/4 调优.md"
     }
   ],
   "omittedPaths": [],
