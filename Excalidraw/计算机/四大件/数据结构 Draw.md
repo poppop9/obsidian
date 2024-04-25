@@ -6237,8 +6237,8 @@ NULL ^AP28eSgx
 			"type": "text",
 			"x": 1178.3736688581155,
 			"y": 1443.1500215378287,
-			"width": 202.69509173184838,
-			"height": 18.724720670275644,
+			"width": 202.64389038085938,
+			"height": 18.72472067027564,
 			"angle": 0,
 			"strokeColor": "#e03131",
 			"backgroundColor": "transparent",
@@ -6251,8 +6251,8 @@ NULL ^AP28eSgx
 			"frameId": null,
 			"roundness": null,
 			"seed": 1495208084,
-			"version": 122,
-			"versionNonce": 912610068,
+			"version": 123,
+			"versionNonce": 1405459756,
 			"isDeleted": false,
 			"boundElements": [
 				{
@@ -6260,7 +6260,7 @@ NULL ^AP28eSgx
 					"type": "arrow"
 				}
 			],
-			"updated": 1714061641059,
+			"updated": 1714062725307,
 			"link": null,
 			"locked": false,
 			"text": "一个链表，冲突就插入到后面",
