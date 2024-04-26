@@ -40,7 +40,20 @@
 | `.text-nowrap`          | 文本不换行     |
 
 # 边距
-- `.mx-auto` 左右的 margin 都 auto
+- `margin`
+	- `m-*` 上下左右
+	- `.mx-*/auto` 左右 margin 都 auto
+	- `.my-*/auto` 上下
+	- `mt-*` 上
+	- `me-*` 右
+	- `mb-*` 下
+	- `ms-*` 左
+- `padding` 
+	- `p-*` 上下左右
+	- `pt-*` 
+	- `pe-*` 
+	- `pb-*` 
+	- `ps-*` 
 
 # 分割线
 - `.vr` 竖直的分割线【~~对标 `<hr>`~~】
