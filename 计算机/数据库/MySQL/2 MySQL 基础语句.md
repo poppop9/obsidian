@@ -329,7 +329,7 @@ SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e
 
 # DCL
 >[!quote] DCL
->DCL 是数据库控制语言【~~Data Control Language~~】，管理数据库用户，控制数据库的访问权限
+>DCL 是数据库控制语言【~~Data Control Language~~】，<u>管理数据库用户</u>，<u>控制数据库的访问权限</u>
 
 在每个数据库服务中，都会自带一个叫 mysql 的数据库，里面有一张 `user 表` ，存储用户信息
 
@@ -343,8 +343,7 @@ localhost,mysql.sys
 localhost,root
 ```
 
----
-
+## 管理用户
 - **查询用户**
 ```sql
 USE mysql;
@@ -356,3 +355,24 @@ SELECT * FROM user;
 # 创建用户heima，他可以在任意主机上访问该数据库，密码是123
 CREATE USER 'heima'@'%' IDENTIFIED BY '123';
 ```
+
+- **修改用户密码** `ALTER USER '用户名'@'主机名' IDENTIFIED WITH mysql_native_password BY '新密码';`
+```sql
+ALTER USER 'heima'@'%' IDENTIFIED WITH mysql_native_password BY '234';
+```
+
+- **删除用户** `DROP USER '用户名'@'主机名';`
+
+## 控制权限
+
+
+
+
+
+
+
+
+
+
+
+
