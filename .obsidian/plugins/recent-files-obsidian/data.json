@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2-2 指令",
+      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
+    },
+    {
+      "basename": "Axios",
+      "path": "计算机/JavaWeb/前端/Axios.md"
+    },
+    {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
@@ -21,10 +29,6 @@
       "path": "临时笔记/草稿纸.md"
     },
     {
-      "basename": "Axios",
-      "path": "计算机/JavaWeb/前端/Axios.md"
-    },
-    {
       "basename": "1 基础Ⅰ",
       "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "3-1 树 - 二叉树",
       "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md"
-    },
-    {
-      "basename": "2-2 指令",
-      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
     },
     {
       "basename": "数据结构 Draw",
