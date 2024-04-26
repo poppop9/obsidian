@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+                "file": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+                "file": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
               }
             }
           },
@@ -206,8 +206,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "ec1d6ee6a9dbcc6a",
+  "active": "12e4938090699372",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
     "计算机/JavaWeb/前端/Vue/2-2 基础语法.md",
@@ -236,7 +237,6 @@
     "计算机/Nginx.md",
     "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md",
     "计算机/Linux/1-2 文件目录.md",
-    "计算机/Linux/8 软件安装.md",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",
