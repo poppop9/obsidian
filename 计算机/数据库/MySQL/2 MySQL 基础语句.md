@@ -329,4 +329,6 @@ SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e
 
 # DCL
 >[!quote] DCL
->DCL 是数据库控制语言【Data Control Language】
+>DCL 是数据库控制语言【~~Data Control Language~~】，管理数据库用户，控制数据库的访问权限
+
+

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2 MySQL 基础语句",
+      "path": "计算机/数据库/MySQL/2 MySQL 基础语句.md"
+    },
+    {
+      "basename": "3-7 集合",
+      "path": "计算机/编程语言/Java/3-7 集合.md"
+    },
+    {
       "basename": "3-1 树 - 二叉树",
       "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "1 基础概念知识 Ⅰ",
       "path": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
-    },
-    {
-      "basename": "3-7 集合",
-      "path": "计算机/编程语言/Java/3-7 集合.md"
     },
     {
       "basename": "Docker",
