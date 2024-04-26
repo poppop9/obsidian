@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
               }
             }
           },
@@ -206,12 +206,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "15c2a3a18cd1e1e2",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "临时笔记/职场.md",
     "计算机/JavaWeb/前端/Axios.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md",
-    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
@@ -235,7 +236,6 @@
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/逻辑结构.md",
     "计算机/Docker.md",
     "计算机/四大件/数据结构与算法/数据结构/物理结构.md",
-    "计算机/四大件/数据结构与算法/数据结构与算法.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构",
     "计算机/数据库/Redis",
     "计算机/数据库/新建文件夹",
