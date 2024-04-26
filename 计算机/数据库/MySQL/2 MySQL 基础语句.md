@@ -364,7 +364,15 @@ ALTER USER 'heima'@'%' IDENTIFIED WITH mysql_native_password BY '234';
 - **删除用户** `DROP USER '用户名'@'主机名';`
 
 ## 控制权限
-
+- **查询权限** `SHOW GRANTS FOR '用户名'@'主机名';`
+- **授予权限** `GRANT 权限项 ON 数据库名.表名 TO '用户名'@'主机名'` 
+	- `ALL` 所有权限
+	- `SELECT` 
+	- `INSERT` 
+	- `UPDATE` 
+	- `DELETE` 
+	- `ALTER` 
+	- ``
 
 
 
