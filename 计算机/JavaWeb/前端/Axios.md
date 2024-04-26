@@ -1,6 +1,6 @@
-> Ajax是异步的JavaScript和XML
-- ***Ajax可以发送请求到服务器，并获取服务器的响应***
-- ***Ajax还可以在不加载网页的情况下，实现实时更新网页的数据***
+> Ajax 是异步的 JavaScript 和 XML
+- **Ajax 可以发送请求到服务器，并获取服务器的响应**
+- **Ajax 还可以在不加载网页的情况下，实现实时更新网页的数据**
 
 ---
 
@@ -25,15 +25,15 @@
 https://www.axios-http.cn/docs/intro
 ## 安装Axios
 ### 工程化 Axios
-- 在项目目录下的cmd输入 `npm install axios`
-- 需要Axios时，在 `script标签` 中导入
+- 在项目目录下的 cmd 输入 `npm install axios`
+- 需要 Axios 时，在 `script标签` 中导入
 ```js
 <script setup>
 import axios from 'axios';
 </script>
 ```
 
-- 然后就可以在 `script标签` 中使用axios了
+- 然后就可以在 `script标签` 中使用 axios 了
 ### 局部化 Axios
 - 在 `head标签` 中导入 `axios.js` 文件
 	```html
