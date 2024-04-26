@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "3 MySQL 中级",
+      "path": "计算机/数据库/MySQL/3 MySQL 中级.md"
+    },
+    {
       "basename": "2 MySQL 基础语句",
       "path": "计算机/数据库/MySQL/2 MySQL 基础语句.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "3 CSS高级",
       "path": "计算机/JavaWeb/前端/CSS/3 CSS高级.md"
-    },
-    {
-      "basename": "3-2 日期时间",
-      "path": "计算机/编程语言/Java/3-2 日期时间.md"
     }
   ],
   "omittedPaths": [],
