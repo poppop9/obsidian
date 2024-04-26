@@ -365,17 +365,25 @@ ALTER USER 'heima'@'%' IDENTIFIED WITH mysql_native_password BY '234';
 
 ## 控制权限
 - **查询权限** `SHOW GRANTS FOR '用户名'@'主机名';`
+
 - **授予权限** `GRANT 权限项 ON 数据库名.表名 TO '用户名'@'主机名'` 
 	- `ALL` 所有权限
 	- `SELECT` 
 	- `INSERT` 
 	- `UPDATE` 
 	- `DELETE` 
-	- `ALTER` 
-	- ``
+	- `ALTER` 修改表 
+	- `DROP` 删除数据库/表/视图
+	- `CREATE` 
+```sql
+# 给heima用户，itcast数据库的所有权限
+GRANT ALL ON itcast.* TO 'heima'@'%';
+```
 
-
-
+- **撤销权限** `REVOKE 权限项 ON 数据库名.表名 FROM '用户名'@'主机名';`
+```sql
+REVOKE ALL ON itcast.* FROM 'heima'@'%';
+```
 
 
 
