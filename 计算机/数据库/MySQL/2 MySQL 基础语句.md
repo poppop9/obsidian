@@ -331,4 +331,14 @@ SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e
 >[!quote] DCL
 >DCL 是数据库控制语言【~~Data Control Language~~】，管理数据库用户，控制数据库的访问权限
 
+在每个数据库服务中，都会自带一个叫 mysql 的数据库，里面有一张 `user 表` ，存储用户信息
 
+```sql
+Host,User
+localhost,mysql.infoschema
+localhost,mysql.session
+localhost,mysql.sys
+localhost,root
+```
+
+- 拆线
