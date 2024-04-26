@@ -306,7 +306,7 @@
 ```html
 <form class="row g-3">
 	<div class="col-4">
-		<label for="validationDefault01" class="form-label">First name</label>
+		<label for="validationDefault01" class="form-label col-form-label">First name</label>
 		<input type="text" class="form-control" id="validationDefault01" required>
 	</div>
 	<div class="col-8">
