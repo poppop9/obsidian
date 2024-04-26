@@ -46,27 +46,34 @@ SELECT LENGTH('HELLO');     5
 >[!summary] 方法
 >
 ## 聚合函数
->[!summary] 方法
->AVG()  ------返回某列的平均值
->COUNT()  ------返回某列的行数
->MAX()  ------返回某列的最大值
->MIN()  ------返回某列的最小值
->SUM()  ------返回某列值之和
+- `AVG()` 返回某列的平均值
 
-### COUNT
+---
+
+- `COUNT()` 返回某列的行数
+
 ```sql
 SELECT COUNT(cust_email) AS num_cust FROM Customers;
 ```
 
-***使用***`COUNT(*)`***对表中行进行计数时，对于***`NULL值`***也会记录***
-```sql
-SELECT COUNT(*) FROM Customers;
-```
+>[!hint] 对于 `NULL` 的计数
+>- 使用 `COUNT(*)` 对表中行进行计数时，对于 `NULL值` 也会记录
+> ```sql
+> SELECT COUNT(*) FROM Customers;
+> ```
+> 
+> - 如果只是 `COUNT(某个字段)`，则不会计数 `NULL值`
+> ```sql
+> SELECT COUNT(numbers) FROM Customers;
+> ```
 
-***但是如果只是***`COUNT(某个字段)`，***则不会计数***`NULL值`
-```sql
-SELECT COUNT(numbers) FROM Customers;
-```
+---
+
+- `MAX()` 返回某列的最大值
+- `MIN()` 返回某列的最小值
+- `SUM()` 返回某列值之和
+
+
 
 # 联结表🔗
 >[!quote] 联结表
@@ -75,7 +82,8 @@ SELECT COUNT(numbers) FROM Customers;
 >[!hint] 笛卡尔积
 >如果在联结时，没有加上限制条件，则是把<u>表A</u>的每一行匹配<u>表B</u>的每一行，**所以如果此种情况***`SELECT *`***时，则查询的行数 = 表A行数 \* 表B行数**
 
->[!hint] 联结的好处：**大多数DBMS，处理联结的速度 远大于 子查询**
+>[!hint] 联结的好处
+>大多数 DBMS，处理联结的速度 远大于 子查询
 
 ## 内联结
 - 隐式内联结
