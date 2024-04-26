@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "1-1 环境配置",
+      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+    },
+    {
       "basename": "2-2 指令",
       "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
+    },
+    {
+      "basename": "数据结构 Draw",
+      "path": "Excalidraw/计算机/四大件/数据结构 Draw.md"
     },
     {
       "basename": "3 BootStrap 高级",
@@ -35,10 +43,6 @@
     {
       "basename": "3-1 树 - 二叉树",
       "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md"
-    },
-    {
-      "basename": "数据结构 Draw",
-      "path": "Excalidraw/计算机/四大件/数据结构 Draw.md"
     },
     {
       "basename": "3-2 树 - 自平衡",
@@ -171,10 +175,6 @@
     {
       "basename": "Linux Draw",
       "path": "Excalidraw/计算机/Linux Draw.md"
-    },
-    {
-      "basename": "1-1 环境配置",
-      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
     },
     {
       "basename": "2 BootStrap 中级",
