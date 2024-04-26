@@ -203,6 +203,7 @@
 		- `justify-content-around` 在每个 flex 子项目的两侧都添加空间
 		- `justify-content-between` 第一个 flex 子项目的左侧不添加空间，最后一个 flex 子项目的右侧不添加空间，其他都类似 `around`
 	- 自我水平对齐
+		- `mx-auto` 居中
 		- `ms-auto` 居右对齐
 		- `me-auto` 居左对齐
 	- 单行时的垂直对齐

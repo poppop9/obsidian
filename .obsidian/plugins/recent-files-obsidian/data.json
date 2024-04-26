@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2-2 指令",
+      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
+    },
+    {
+      "basename": "2-2 基础语法",
+      "path": "计算机/JavaWeb/前端/Vue/2-2 基础语法.md"
+    },
+    {
+      "basename": "1 基础概念知识 Ⅰ",
+      "path": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
+    },
+    {
       "basename": "Bootstrap 简化CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
     },
@@ -47,10 +59,6 @@
     {
       "basename": "逻辑结构",
       "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/逻辑结构.md"
-    },
-    {
-      "basename": "1 基础概念知识 Ⅰ",
-      "path": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
     },
     {
       "basename": "Docker",
@@ -147,14 +155,6 @@
     {
       "basename": "1-2 常用 API",
       "path": "计算机/编程语言/Python/1-2 常用 API.md"
-    },
-    {
-      "basename": "2-2 指令",
-      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
-    },
-    {
-      "basename": "2-2 基础语法",
-      "path": "计算机/JavaWeb/前端/Vue/2-2 基础语法.md"
     },
     {
       "basename": "3-1 路由",
