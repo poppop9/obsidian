@@ -334,6 +334,8 @@ SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e
 在每个数据库服务中，都会自带一个叫 mysql 的数据库，里面有一张 `user 表` ，存储用户信息
 
 ```sql
+# Host字段中的localhost表示，只能本机访问，无法远程访问
+
 Host,User
 localhost,mysql.infoschema
 localhost,mysql.session
@@ -341,4 +343,16 @@ localhost,mysql.sys
 localhost,root
 ```
 
-- 拆线
+---
+
+- **查询用户**
+```sql
+USE mysql;
+SELECT * FROM user;
+```
+
+- **创建用户** `CREATE USER '用户名'@'主机名' IDENTIFIED BY '密码';`
+```sql
+# 创建用户heima，他可以在任意主机上访问该数据库，密码是123
+CREATE USER 'heima'@'%' IDENTIFIED BY '123';
+```
