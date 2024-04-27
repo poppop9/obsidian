@@ -312,8 +312,9 @@
 			<input type="text" class="form-control" id="validationDefault01" required>
 		</div>
 	</div>
-	<button class="btn btn-primary d-block mx-auto px-4" type="submit">搜索</button>
 </form>
+<!-- button不要放在form的里面 -->
+<button class="btn btn-primary d-block mx-auto px-4" type="submit">搜索</button>
 ```
 
 
