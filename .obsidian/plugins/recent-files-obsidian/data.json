@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+    },
+    {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
+      "basename": "3 BootStrap 高级",
+      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+    },
+    {
       "basename": "3-1 路由",
       "path": "计算机/JavaWeb/前端/Vue/3-1 路由.md"
     },
@@ -11,14 +23,6 @@
     {
       "basename": "Git",
       "path": "计算机/Git.md"
-    },
-    {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
-      "basename": "3 BootStrap 高级",
-      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
     },
     {
       "basename": "Axios",
@@ -191,10 +195,6 @@
     {
       "basename": "Linux Draw",
       "path": "Excalidraw/计算机/Linux Draw.md"
-    },
-    {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     }
   ],
   "omittedPaths": [],
