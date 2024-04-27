@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "3-1 路由",
+      "path": "计算机/JavaWeb/前端/Vue/3-1 路由.md"
+    },
+    {
+      "basename": "2-2 指令",
+      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
+    },
+    {
       "basename": "Git",
       "path": "计算机/Git.md"
     },
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
-      "basename": "2-2 指令",
-      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
     },
     {
       "basename": "3 BootStrap 高级",
@@ -179,10 +183,6 @@
     {
       "basename": "1-2 常用 API",
       "path": "计算机/编程语言/Python/1-2 常用 API.md"
-    },
-    {
-      "basename": "3-1 路由",
-      "path": "计算机/JavaWeb/前端/Vue/3-1 路由.md"
     },
     {
       "basename": "2-1 局部化，工程化",
