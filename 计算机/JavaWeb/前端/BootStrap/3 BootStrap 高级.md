@@ -304,14 +304,15 @@
 - 为 `<input>` 标签添加 `required` 属性
 
 ```html
-<form class="row g-3">
-	<div class="col-4">
-		<label for="validationDefault01" class="form-label col-form-label">First name</label>
-		<input type="text" class="form-control" id="validationDefault01" required>
+<form>
+	<div class="row mb-2">
+		<div class="col-12 d-flex">
+			<label for="validationDefault01"
+				class="form-label col-form-label flex-shrink-0">地点名称：</label>
+			<input type="text" class="form-control" id="validationDefault01" required>
+		</div>
 	</div>
-	<div class="col-8">
-		<button class="btn btn-primary" type="submit">Submit</button>
-	</div>
+	<button class="btn btn-primary d-block mx-auto px-4" type="submit">搜索</button>
 </form>
 ```
 
