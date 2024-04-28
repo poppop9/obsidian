@@ -95,6 +95,9 @@ FROM customers
 - **右外联结**：返回右表中所有的行，以及左表中满足条件的行【~~一般不使用~~】
 
 # 视图
+>[!quote] 视图
+>视图 是一张虚拟的表，包含从一个/多个表中选择的行和列的数据
+
 - 创建视图 `CREATE VIEW 视图名 AS 语句;` 
 ```sql
 CREATE VIEW ProductCustomers AS ​​​​ 
@@ -107,7 +110,15 @@ WHERE Customers.cust_id = Orders.cust_id ​​​​
 - 删除视图 `DROP VIEW 视图名;`
 
 - 使用视图 
+```sql
+​​​​​​SELECT cust_name, cust_contact ​​​​
+FROM ProductCustomers ​​​​
+WHERE prod_id = 'RGAN01';​​
+```
 
+>[!warning] 如果你用多个联结和过滤创建了复杂的视图或者嵌套了视图，性能可能会下降得很厉害
+
+因为视图不包含数据，所以每次使用视图时，都必须处理查询执行时需要的所有检索。
 
 
 # 存储过程
