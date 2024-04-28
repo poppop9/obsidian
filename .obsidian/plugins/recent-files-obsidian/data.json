@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian 笔记编写规范",
+      "path": "临时笔记/Obsidian 笔记编写规范.md"
+    },
+    {
+      "basename": "Obsidian 特殊语法",
+      "path": "临时笔记/Obsidian 特殊语法.md"
+    },
+    {
+      "basename": "健康",
+      "path": "临时笔记/健康.md"
+    },
+    {
+      "basename": "摄影",
+      "path": "临时笔记/摄影.md"
+    },
+    {
+      "basename": "权游台词",
+      "path": "临时笔记/权游台词.md"
+    },
+    {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
+      "basename": "读心术",
+      "path": "临时笔记/读心术.md"
+    },
+    {
+      "basename": "魔术",
+      "path": "临时笔记/魔术.md"
+    },
+    {
+      "basename": "如何使用把笔记同步到 Github",
+      "path": "临时笔记/如何使用把笔记同步到 Github.md"
+    },
+    {
+      "basename": "Axios",
+      "path": "计算机/JavaWeb/前端/Axios.md"
+    },
+    {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
@@ -17,10 +57,6 @@
       "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
     },
     {
-      "basename": "Axios",
-      "path": "计算机/JavaWeb/前端/Axios.md"
-    },
-    {
       "basename": "3-1 路由",
       "path": "计算机/JavaWeb/前端/Vue/3-1 路由.md"
     },
@@ -35,10 +71,6 @@
     {
       "basename": "1-1 环境配置",
       "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
     },
     {
       "basename": "1 基础Ⅰ",
@@ -167,34 +199,6 @@
     {
       "basename": "6-2 正则表达式",
       "path": "计算机/Linux/6-2 正则表达式.md"
-    },
-    {
-      "basename": "2-1 键命令",
-      "path": "计算机/数据库/Redis/2-1 键命令.md"
-    },
-    {
-      "basename": "数据库 Draw",
-      "path": "Excalidraw/计算机/数据库 Draw.md"
-    },
-    {
-      "basename": "1-3 高级数据类型",
-      "path": "计算机/编程语言/Python/1-3 高级数据类型.md"
-    },
-    {
-      "basename": "1 基础",
-      "path": "计算机/编程语言/Python/1 基础.md"
-    },
-    {
-      "basename": "1-2 常用 API",
-      "path": "计算机/编程语言/Python/1-2 常用 API.md"
-    },
-    {
-      "basename": "2-1 局部化，工程化",
-      "path": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md"
-    },
-    {
-      "basename": "Linux Draw",
-      "path": "Excalidraw/计算机/Linux Draw.md"
     }
   ],
   "omittedPaths": [],
