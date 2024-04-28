@@ -324,10 +324,11 @@ SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e
 
 ## 组合查询
 >[!quote] 组合查询
->组合查询 就是把两个 `SELECT` 语句的查询结果进行相加，再去重
+>组合查询 就是把两个 `SELECT` 语句的查询结果进行相加，并且可以去重
 
 - 如果不使用组合查询
 ```sql
+// 第一条select
 SELECT cust_name, cust_contact, cust_email FROM Customers
 WHERE cust_state IN ('IL', 'IN' ,'MI')
 
@@ -335,15 +336,21 @@ WHERE cust_state IN ('IL', 'IN' ,'MI')
 cust_name	    cust_contact	   cust_email
 ------          ------             ------
 Village Toys	Lee Taylor	       ltaylor@villagetoys.com
+Fun4All	        Michelle Smith	   michellesmith@fun4all.com
+The Toy Store	Dave Farley	       NULL
 
-
+// 第二条select
 SELECT cust_name, cust_contact, cust_email FROM Customers
 WHERE cust_name = 'Fun4A11'; 
 
 ---
-
+cust_name	    cust_contact	   cust_email
+------          ------             ------
+Fun4All	        John Smith	       johnsmith@fun4all.com
+Fun4All	        Michelle Smith	   michellesmith@fun4all.com
 ```
 
+- 使用组合查询
 ```sql
 SELECT cust_name, cust_contact, cust_email FROM Customers
 WHERE cust_state IN ('IL', 'IN' ,'MI')
@@ -360,6 +367,29 @@ Village Toys	Lee Taylor	       ltaylor@villagetoys.com
 The Toy Store	Dave Farley	       NULL
 ```
 
+>[!hint] 如果不希望组合查询去重，可以使用 `UNION ALL`
+> ```sql
+> SELECT cust_name, cust_contact, cust_email FROM Customers
+> WHERE cust_state IN ('IL', 'IN' ,'MI')
+> UNION ALL
+> SELECT cust_name, cust_contact, cust_email FROM Customers
+> WHERE cust_name = 'Fun4A11'; 
+> 
+> ---
+> cust_name	    cust_contact	   cust_email
+> ------          ------             ------
+> Fun4All	        John Smith	       johnsmith@fun4all.com
+> Fun4All	        Michelle Smith	   michellesmith@fun4all.com
+> Village Toys	Lee Taylor	       ltaylor@villagetoys.com
+> Fun4All	        Michelle Smith	   michellesmith@fun4all.com
+> The Toy Store	Dave Farley	       NULL
+> ```
+
+>[!hint] 在由 `UNION` 联结的 `SELECT` 语句需要使用 `ORDER BY` 时， `ORDER BY` 必需放在最后，而且只能使用一次
+
+```sql
+
+```
 
 
 # DCL
