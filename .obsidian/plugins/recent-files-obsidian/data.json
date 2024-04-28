@@ -5,20 +5,24 @@
       "path": "计算机/数据库/MySQL/1-2 概念.md"
     },
     {
-      "basename": "2-1 基础语句",
-      "path": "计算机/数据库/MySQL/2-1 基础语句.md"
+      "basename": "1-1 安装配置",
+      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
     },
     {
-      "basename": "2-2 函数",
-      "path": "计算机/数据库/MySQL/2-2 函数.md"
+      "basename": "4 调优",
+      "path": "计算机/数据库/MySQL/4 调优.md"
     },
     {
       "basename": "3 MySQL 中级",
       "path": "计算机/数据库/MySQL/3 MySQL 中级.md"
     },
     {
-      "basename": "1-1 安装配置",
-      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
+      "basename": "2-1 基础语句",
+      "path": "计算机/数据库/MySQL/2-1 基础语句.md"
+    },
+    {
+      "basename": "2-2 函数",
+      "path": "计算机/数据库/MySQL/2-2 函数.md"
     },
     {
       "basename": "数据结构 Draw",
@@ -195,10 +199,6 @@
     {
       "basename": "3-1 高级",
       "path": "计算机/数据库/Redis/3-1 高级.md"
-    },
-    {
-      "basename": "1 基础",
-      "path": "计算机/数据库/Redis/1 基础.md"
     }
   ],
   "omittedPaths": [],
