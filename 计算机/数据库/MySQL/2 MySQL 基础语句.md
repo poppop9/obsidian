@@ -322,7 +322,23 @@ SELECT * FROM emp WHERE (entrydate,job) = (SELECT entrydate,job FROM emp WHERE n
 SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e.dept_id = dept.id;          //此处把子查询的结果作为了一张表 
 ```
 
-## zu'he
+## 组合查询
+>[!quote] 组合查询
+>组合查询 就是把两个 `SELECT` 语句的查询结果进行相加，再去重
+
+```sql
+SELECT cust_name, cust_contact, cust_email FROM Customers
+WHERE cust_state IN ('IL', 'IN' ,'MI')
+UNION
+SELECT cust_name, cust_contact, cust_email FROM Customers
+WHERE cust_name = 'Fun4A11'; 
+
+---
+
+```
+
+
+
 # DCL
 >[!quote] DCL
 >DCL 是数据库控制语言【~~Data Control Language~~】，<u>管理数据库用户</u>，<u>控制数据库的访问权限</u>
