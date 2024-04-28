@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "1-2 概念",
-      "path": "计算机/数据库/MySQL/1-2 概念.md"
-    },
-    {
-      "basename": "2-1 基础语句",
-      "path": "计算机/数据库/MySQL/2-1 基础语句.md"
+      "basename": "4-1 高级语句",
+      "path": "计算机/数据库/MySQL/4-1 高级语句.md"
     },
     {
       "basename": "3-1 约束",
       "path": "计算机/数据库/MySQL/3-1 约束.md"
+    },
+    {
+      "basename": "1-2 概念",
+      "path": "计算机/数据库/MySQL/1-2 概念.md"
+    },
+    {
+      "basename": "1-1 安装配置",
+      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
+    },
+    {
+      "basename": "2-1 基础语句",
+      "path": "计算机/数据库/MySQL/2-1 基础语句.md"
     },
     {
       "basename": "2-2 函数",
@@ -19,14 +27,6 @@
     {
       "basename": "5-1 调优",
       "path": "计算机/数据库/MySQL/5-1 调优.md"
-    },
-    {
-      "basename": "4-1 高级语句",
-      "path": "计算机/数据库/MySQL/4-1 高级语句.md"
-    },
-    {
-      "basename": "1-1 安装配置",
-      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
     },
     {
       "basename": "数据结构 Draw",
