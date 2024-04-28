@@ -146,25 +146,25 @@ FROM customers
          LEFT JOIN orders ON customers.id = orders.id;
 
 ---
-|id|numbers|
-|:-:|:-:|
-|101|null|
-|102 |9|
-|103 |229|
-    +
 |id|name|contact|
 |:-:|:-:|:-:|
 |100|Fun123|Jim|
 |101|Fun566|Tom|  
 |102|Fun123|Mike|
 |103|Fun578|July|
-        ↓
+    +
 |id|numbers|
 |:-:|:-:|
-|100|9|
 |101|null|
-|102 |null|
+|102 |9|
 |103 |229|
+	↓
+|id|numbers|
+|:-:|:-:|
+|100|null|
+|101|null|
+|102|9|
+|103|229|
 ```
 
 - **右外联结**：返回右表中所有的行，以及左表中满足条件的行【~~一般不使用~~】

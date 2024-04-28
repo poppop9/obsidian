@@ -216,15 +216,16 @@ SELECT 字段 FROM 表名 WHERE 条件;   //可以有多个条件【用逻辑符
 |NOT LIKE|不匹配指定模式|WHERE column_name NOT LIKE `pattern`|
 |IS NULL |为 NULL|WHERE column_name IS NULL|
 |IS NOT NULL|不为 NULL|WHERE column_name IS NOT NULL |
-`pattern` 中的 `_` 表示单个模糊字符，`%` 表示任意个字符，***此类通配符只能用于文本字段【字符串】***
+`pattern` 中的 `_` 表示单个模糊字符，`%` 表示任意个字符，**此类通配符只能用于文本字段【字符串】**
 ```sql
 SELECT * FROM 表名 WHERE name like '张_';  //表示查询name为姓张什么的人
 
 SELECT * FROM 表名 WHERE name like '张%';  //表示查询name为姓张什么什么什么……的人
 ```
 
-- 尽量不要把通配符用在搜索模式的开始处，例如`LIKE '%立'`，这样搜索起来是最慢的【数据库需要对表中的每个记录进行扫描】
-- `IN`操作符比`OR`操作符的执行速度更快【数据越多越明显】
+>[!hint] 尽量不要把通配符用在搜索模式的开始处，例如`LIKE '%立'`，这样搜索起来是最慢的【数据库需要对表中的每个记录进行扫描】
+
+- `IN` 操作符比 `OR` 操作符的执行速度更快
 - 如果其他操作符可以达到相同目的，就不要使用通配符【***通配符处理时间长***】
 
 ---

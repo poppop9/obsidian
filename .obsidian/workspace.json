@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/数据库/MySQL/2 MySQL 基础语句.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/MySQL/3 MySQL 中级.md"
+                "file": "计算机/数据库/MySQL/2 MySQL 基础语句.md"
               }
             }
           },
@@ -177,7 +176,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/MySQL/3 MySQL 中级.md"
+                "file": "计算机/数据库/MySQL/2 MySQL 基础语句.md"
               }
             }
           },
@@ -209,10 +208,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "Excalidraw/计算机/四大件/数据结构 Draw.md",
+    "计算机/数据库/MySQL/3 MySQL 中级.md",
     "计算机/数据库/MySQL/2 MySQL 基础语句.md",
+    "Excalidraw/计算机/四大件/数据结构 Draw.md",
     "临时笔记/Obsidian 笔记编写规范.md",
     "计算机/数据库/MySQL/MySQL.md",
     "临时笔记/草稿纸.md",
@@ -236,7 +236,6 @@
     "boot.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "临时笔记/职场.md",
-    "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md",
     "计算机/四大件/数据结构与算法/算法",
     "计算机/四大件/数据结构与算法/数据结构",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构",
