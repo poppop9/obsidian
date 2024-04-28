@@ -298,35 +298,31 @@ select * from emp limit 10,10;
 **分页查询是数据库的方言【每个数据库都不同】**
 
 ## 子查询
-### 标量子查询
->子查询返回的结果是单个值
-
+- **标量子查询**：子查询返回的结果是单个值
 ```sql
 SELECT * FROM emp WHERE dept_id = (SELECT id FROM dept WHERE name = '教研部');
                                         //这里的子查询只有一个结果
 ```
-### 列子查询
->子查询返回的结果是一列
 
+- **列子查询**：子查询返回的结果是一列
 ```sql
 SELECT * FROM emp WHERE dept_id in (SELECT id FROM dept WHERE name = '教研部' OR name = '咨询部');                    //这里的子查询有多个结果
 ```
-### 行子查询
->子查询返回的结果是一行
 
+- **行子查询**：子查询返回的结果是一行
 ```sql
 //查询入职日期和工作跟吴彦祖都相同的人
 SELECT * FROM emp WHERE entrydate = (SELECT entrydate FROM emp WHERE name = '吴彦祖'),job = (SELECT job FROM emp WHERE name = '吴彦祖');
 或
 SELECT * FROM emp WHERE (entrydate,job) = (SELECT entrydate,job FROM emp WHERE name = '吴彦祖');
 ```
-### 表子查询
->子查询返回的结果是多行多列
 
+- **表子查询**：子查询返回的结果是多行多列
 ```SQL
 SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e.dept_id = dept.id;          //此处把子查询的结果作为了一张表 
 ```
 
+## zu'he
 # DCL
 >[!quote] DCL
 >DCL 是数据库控制语言【~~Data Control Language~~】，<u>管理数据库用户</u>，<u>控制数据库的访问权限</u>

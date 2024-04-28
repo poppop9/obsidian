@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "2 MySQL 基础语句",
+      "path": "计算机/数据库/MySQL/2 MySQL 基础语句.md"
+    },
+    {
       "basename": "Obsidian 笔记编写规范",
       "path": "临时笔记/Obsidian 笔记编写规范.md"
+    },
+    {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
+      "basename": "2 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
       "basename": "3 BootStrap 高级",
@@ -29,10 +45,6 @@
       "path": "临时笔记/权游台词.md"
     },
     {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
-    },
-    {
       "basename": "读心术",
       "path": "临时笔记/读心术.md"
     },
@@ -49,16 +61,8 @@
       "path": "计算机/JavaWeb/前端/Axios.md"
     },
     {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
       "basename": "Bootstrap 简化CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
-    },
-    {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
       "basename": "3-1 路由",
@@ -99,10 +103,6 @@
     {
       "basename": "3 MySQL 中级",
       "path": "计算机/数据库/MySQL/3 MySQL 中级.md"
-    },
-    {
-      "basename": "2 MySQL 基础语句",
-      "path": "计算机/数据库/MySQL/2 MySQL 基础语句.md"
     },
     {
       "basename": "3-7 集合",
@@ -195,10 +195,6 @@
     {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
-      "basename": "6-2 正则表达式",
-      "path": "计算机/Linux/6-2 正则表达式.md"
     }
   ],
   "omittedPaths": [],
