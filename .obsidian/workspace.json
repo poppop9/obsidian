@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/Obsidian 笔记编写规范.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/Obsidian 笔记编写规范.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
               }
             }
           },
@@ -205,8 +206,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "12e4938090699372",
   "lastOpenFiles": [
+    "Excalidraw/计算机/四大件/数据结构 Draw.md",
+    "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
+    "临时笔记/Obsidian 笔记编写规范.md",
     "临时笔记/Obsidian 特殊语法.md",
     "临时笔记/健康.md",
     "临时笔记/摄影.md",
@@ -220,7 +224,6 @@
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
-    "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/JavaWeb/前端/Vue/3-1 路由.md",
     "计算机/Git.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
@@ -229,10 +232,8 @@
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "临时笔记/职场.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md",
-    "Excalidraw/计算机/四大件/数据结构 Draw.md",
     "计算机/JavaWeb/前端/Vue/2-2 基础语法.md",
     "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
-    "计算机/数据库/MySQL/3 MySQL 中级.md",
     "计算机/四大件/数据结构与算法/算法",
     "计算机/四大件/数据结构与算法/数据结构",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构",

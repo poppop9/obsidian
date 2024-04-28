@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "3 BootStrap 高级",
+      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+    },
+    {
+      "basename": "数据结构 Draw",
+      "path": "Excalidraw/计算机/四大件/数据结构 Draw.md"
+    },
+    {
       "basename": "Obsidian 笔记编写规范",
       "path": "临时笔记/Obsidian 笔记编写规范.md"
     },
@@ -53,10 +61,6 @@
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
-      "basename": "3 BootStrap 高级",
-      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
-    },
-    {
       "basename": "3-1 路由",
       "path": "计算机/JavaWeb/前端/Vue/3-1 路由.md"
     },
@@ -83,10 +87,6 @@
     {
       "basename": "3-1 树 - 二叉树",
       "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md"
-    },
-    {
-      "basename": "数据结构 Draw",
-      "path": "Excalidraw/计算机/四大件/数据结构 Draw.md"
     },
     {
       "basename": "2-2 基础语法",
