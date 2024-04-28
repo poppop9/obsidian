@@ -84,12 +84,9 @@ SELECT COUNT(cust_email) AS num_cust FROM Customers;
 >大多数 DBMS，处理联结的速度 远大于 子查询
 
 ## 内联结
-- 隐式内联结
-```sql
-SELECT 字段 FROM 表1，表2 WHERE 条件;   //表1 和 表2 就通过了WHERE条件联结在了一起
-```
+- **隐式内联结** `SELECT 字段 FROM 表1，表2 WHERE 条件;` 【表 1 和表 2 就通过了 `WHERE` 联结在了一起】
 
-- 显示内联结 `SELECT 字段 FROM 表1 [INNER] JOIN 表2 ON 联结条件;`
+- **显示内联结** `SELECT 字段 FROM 表1 [INNER] JOIN 表2 ON 联结条件;`
 ```sql
 select user.id, user.name, user.age, table_name.产品ID 
 from user 
@@ -141,19 +138,14 @@ WHERE name = (SELECT name FROM customers WHERE contact = 'Jim');
 |102|Fun123|Mike|
 ```
 ## 外联结
-- **左外联结**：返回左表中所有的行，以及右表中满足条件的行
+- **左外联结**  `SELECT 字段列表 FROM 表A LEFT JOIN 表B ON 联结条件;`：返回左表中所有的行，以及右表中满足条件的行
 
 ```sql
-SELECT 字段列表
-FROM 表A LEFT JOIN 表B ON 联结条件;
-
----
-
 SELECT customers.id, orders.numbers
 FROM customers
          LEFT JOIN orders ON customers.id = orders.id;
 
-
+---
 |id|numbers|
 |:-:|:-:|
 |101|null|
