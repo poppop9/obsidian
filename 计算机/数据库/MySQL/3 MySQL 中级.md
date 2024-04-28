@@ -95,14 +95,18 @@ FROM customers
 - **右外联结**：返回右表中所有的行，以及左表中满足条件的行【~~一般不使用~~】
 
 # 视图
-- 创建视图
+- 创建视图 `CREATE VIEW 视图名 AS 语句;` 
+```sql
+CREATE VIEW ProductCustomers AS ​​​​ 
+SELECT cust_name, cust_contact, prod_id ​​​​ 
+FROM Customers, Orders, OrderItems ​​​​
+WHERE Customers.cust_id = Orders.cust_id ​​​​ 
+	AND OrderItems.order_num = Orders.order_num;​​
+```
 
+- 删除视图 `DROP VIEW 视图名;`
 
-
-- 删除视图
-
-
-- 使用视图
+- 使用视图 
 
 
 
