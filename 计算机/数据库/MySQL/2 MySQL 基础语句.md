@@ -326,6 +326,24 @@ SELECT e.*,dept.name FROM (SELECT * FROM emp WHERE entrydate > 2) e,dept WHERE e
 >[!quote] 组合查询
 >组合查询 就是把两个 `SELECT` 语句的查询结果进行相加，再去重
 
+- 如果不使用组合查询
+```sql
+SELECT cust_name, cust_contact, cust_email FROM Customers
+WHERE cust_state IN ('IL', 'IN' ,'MI')
+
+---
+cust_name	    cust_contact	   cust_email
+------          ------             ------
+Village Toys	Lee Taylor	       ltaylor@villagetoys.com
+
+
+SELECT cust_name, cust_contact, cust_email FROM Customers
+WHERE cust_name = 'Fun4A11'; 
+
+---
+
+```
+
 ```sql
 SELECT cust_name, cust_contact, cust_email FROM Customers
 WHERE cust_state IN ('IL', 'IN' ,'MI')
@@ -334,7 +352,12 @@ SELECT cust_name, cust_contact, cust_email FROM Customers
 WHERE cust_name = 'Fun4A11'; 
 
 ---
-
+cust_name	    cust_contact	   cust_email
+------          ------             ------
+Fun4All	        John Smith	       johnsmith@fun4all.com
+Fun4All	        Michelle Smith	   michellesmith@fun4all.com
+Village Toys	Lee Taylor	       ltaylor@villagetoys.com
+The Toy Store	Dave Farley	       NULL
 ```
 
 
