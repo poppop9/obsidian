@@ -25,7 +25,7 @@
   "defaultDateFormat": "MMM dd yyyy",
   "spacesEnabled": true,
   "spacesPerformance": false,
-  "currentWaypoint": 1,
+  "currentWaypoint": 2,
   "enableFolderNote": true,
   "folderIndentationLines": true,
   "revealActiveFile": false,
@@ -76,7 +76,8 @@
     "计算机/计算机/四大件/计算机/四大件/数据结构与算法/计算机/四大件/数据结构与算法/数据结构",
     "计算机/计算机/四大件/计算机/四大件/数据结构与算法/计算机/四大件/数据结构与算法/数据结构/计算机/四大件/数据结构与算法/数据结构/逻辑结构",
     "计算机/计算机/数据库/计算机/数据库/MySQL",
-    "//临时笔记"
+    "//临时笔记",
+    "计算机/计算机/数据库"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

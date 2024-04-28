@@ -73,9 +73,7 @@ SELECT COUNT(cust_email) AS num_cust FROM Customers;
 - `MIN()` 返回某列的最小值
 - `SUM()` 返回某列值之和
 
-
-
-# 联结表🔗
+# 🔗 联结表
 >[!quote] 联结表
 >联结表 是一种将<u>两个</u>或<u>多个表</u>中的数据**通过某些共同的值**关联起来的操作
 
@@ -91,17 +89,13 @@ SELECT COUNT(cust_email) AS num_cust FROM Customers;
 SELECT 字段 FROM 表1，表2 WHERE 条件;   //表1 和 表2 就通过了WHERE条件联结在了一起
 ```
 
-- 显示内联结
+- 显示内联结 `SELECT 字段 FROM 表1 [INNER] JOIN 表2 ON 联结条件;`
 ```sql
-SELECT 字段 FROM 表1 [INNER] JOIN 表2 ON 联结条件;
-
----
-
 select user.id, user.name, user.age, table_name.产品ID 
 from user 
 INNER JOIN table_name ON table_name.id = user.id;
 
-
+---
 |id|name|age|            
 |:-:|:-:|:-:|
 |123|陈冠希|45|
