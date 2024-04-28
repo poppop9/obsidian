@@ -1,78 +1,3 @@
-# 函数
-## 日期函数
->[!summary] 方法
->now()  获取当前的系统时间
->YEAR(date)  ------在date数据类型中提取出year
-
-```sql
-insert into customer(update_time) values (now());         //插入当前时间
-
-SELECT order_num FROM Orders WHERE YEAR(order_date) = 2020;
-```
-## 文本函数
->[!summary] 方法
->CONCAT(S1,S2,..Sn)  ------将S1，S2，….Sn拼接成一个字符串
->
->LOWER(str)  ------将字符串str全部转为小写
->UPPER(str)  ------将字符串str全部转为大写
->
->LPAD(str，n，pad)  ------左填充，用字符串pad对str的左边进行填充，达到n个长度
->RPAD(str，n，pad)  ------右填充，用字符串pad对str的右边进行填充，达到n个长度
->
->TRIM(str)  ------去掉字符串头部和尾部的空格
->SUBSTRING(str,start,len)  ------返回从字符串str从start位置起的len个长度的字符串
->
->LEFT(str，len)  ------返回str左边开始数len长度个字符
->RIGHT(str，len)  ------返回str右边开始数len长度个字符
->LENGTH(str)  ------返回str字符串的长度
-
-```sql
-select concat ('hello', 'MySQL');         hello MySQL 
-select Lower('Hello');       hello
-select upper('Hello');        HELLO
-select lpad('01', 5, '-');       ---01
-select rpad('01', 5, '-');        01---
-select trim(' Hello MySQL ')       Hello MySQL
-						// RTRIM()：去掉字符串右边的空格
-						// LTRIM()：去掉字符串左边的空格
-
-select substring('Hello MySQL',1, 5);     Hello
-          // 注意索引是从1开始的
-
-SELECT LEFT('HELLO',3);     HEL
-SELECT LENGTH('HELLO');     5
-```
-## 数值函数
->[!summary] 方法
->
-## 聚合函数
-- `AVG()` 返回某列的平均值
-
----
-
-- `COUNT()` 返回某列的行数
-
-```sql
-SELECT COUNT(cust_email) AS num_cust FROM Customers;
-```
-
->[!hint] 对于 `NULL` 的计数
->- 使用 `COUNT(*)` 对表中行进行计数时，对于 `NULL值` 也会记录
-> ```sql
-> SELECT COUNT(*) FROM Customers;
-> ```
-> 
-> - 如果只是 `COUNT(某个字段)`，则不会计数 `NULL值`
-> ```sql
-> SELECT COUNT(numbers) FROM Customers;
-> ```
-
----
-
-- `MAX()` 返回某列的最大值
-- `MIN()` 返回某列的最小值
-- `SUM()` 返回某列值之和
-
 # 🔗 联结表
 >[!quote] 联结表
 >联结表 是一种将<u>两个</u>或<u>多个表</u>中的数据**通过某些共同的值**关联起来的操作
@@ -170,6 +95,15 @@ FROM customers
 - **右外联结**：返回右表中所有的行，以及左表中满足条件的行【~~一般不使用~~】
 
 # 视图
+- 创建视图
+
+
+
+- 删除视图
+
+
+- 使用视图
+
 
 
 # 存储过程
