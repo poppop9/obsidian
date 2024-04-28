@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL/3-1 约束.md",
+                "file": "计算机/数据库/MySQL/2-1 基础语句.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/MySQL/3-1 约束.md"
+                "file": "计算机/数据库/MySQL/2-1 基础语句.md"
               }
             }
           },
@@ -176,7 +176,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/MySQL/3-1 约束.md"
+                "file": "计算机/数据库/MySQL/2-1 基础语句.md"
               }
             }
           },
@@ -210,12 +210,12 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/数据库/MySQL/5-1 调优.md",
-    "计算机/数据库/MySQL/4-1 高级语句.md",
     "计算机/数据库/MySQL/3-1 约束.md",
-    "计算机/数据库/MySQL/2-2 函数.md",
     "计算机/数据库/MySQL/2-1 基础语句.md",
     "计算机/数据库/MySQL/1-2 概念.md",
+    "计算机/数据库/MySQL/2-2 函数.md",
+    "计算机/数据库/MySQL/5-1 调优.md",
+    "计算机/数据库/MySQL/4-1 高级语句.md",
     "计算机/数据库/MySQL/1-1 安装配置.md",
     "Excalidraw/计算机/四大件/数据结构 Draw.md",
     "临时笔记/Obsidian 笔记编写规范.md",
