@@ -2,6 +2,10 @@
 >Spring 是一个开发生态圈，它提供了若干个子项目，用于完成特定功能
 >![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291445627.png)
 
+- **Spring**：也就是 Spring Framework
+- **SpringBoot**：基于 Spring，简化了开发
+- **Spring MVC**：是一种
+
 # 准备工作
 ## 创建Spring项目
 - 创建Spring模块
