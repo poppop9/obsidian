@@ -70,6 +70,9 @@ docker run \
 
 # 配置文件
 - `event{……}` 告诉 nginx 如何处理连接
+
+---
+
 - `http{……}` 设置 HTTP 服务器相关的参数，和指令
 	- `include 文件` 引入某个文件，这样可以不用把配置全部配置在一个文件里
 		- `include /etc/nginx/mime.types;` 引入文件，告诉浏览器要怎么样处理 nginx 中的文件，~~比如 css 文件就不要处理成 text 纯文本文件~~
@@ -81,6 +84,16 @@ docker run \
 			- `index 具体文件` 在指定路径下查找要响应的具体文件
 			- `auth_request 鉴权路径` 对于访问 location 的请求，再发送子请求给鉴权路径，如果返回 2xx，则会继续处理这个原始请求；否则 4xx
 			- `proxy_pass 请求地址` 将 location 的请求转发到另一个请求地址
+
+>[!hint] `location = /auth { ... }` 与 `location /auth { ... }` 的区别
+>- `location = /auth { ... }`：只会匹配 /auth
+>- 
+
+
+
+
+
+---
 
 ```bash
 user  nginx;
