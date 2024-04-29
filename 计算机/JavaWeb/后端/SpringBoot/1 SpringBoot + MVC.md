@@ -271,102 +271,100 @@ public class UploadController {
 
 ## 响应
 ### 应用级别响应
->[!quote]+ 应用级别响应 指的是用户请求时都是 2xx，只是在 HTTP 响应体中可能会出现 4xx，一般用自定义的 Result 类来实现
->j
+>[!quote]+ 应用级别响应 指的是即使设置了 4xx，但是用户请求时都是 2xx，只是在 HTTP 响应体中可能会出现 4xx，一般用自定义的 Result 类来实现
+> ```java
+> public class Result\<T> {   
+>     private String status;      //状态码 
+>   
+>     public String getStatus() {      //获取状态  
+>         return status;  
+>     }  
+>    
+>     private String message;      //状态信息,错误描述 
+>     
+>     public String getMessage() {  //获取消息内容
+>         return message;  
+>     }  
+>    
+>     private T data;      //数据 
+>    
+>     public T getData() {  //获取数据内容
+>         return data;  
+>     }  
+>   
+>     private Result(String status, String message, T data) {  
+>         this.status = status;  
+>         this.message = message;  
+>         this.data = data;  
+>     }  
+>   
+>     private Result(String status, String message) {  
+>         this.status = status;  
+>         this.message = message;  
+>     }  
+>   
+>     private Result(String message) {  
+>         this.message = message;  
+>     }  
+>   
+>     //创建一个带有状态、消息和数据的结果对象 
+>     public static \<T> Result\<T> buildResult(Status status, String message, T data) {  
+>         return new Result\<T>(status.getCode(), message, data);  
+>     }  
+>   
+>     //创建一个带有状态、消息和数据的结果对象
+>     public static \<T> Result\<T> buildResult(Status status, String message) {  
+>         return new Result\<T>(status.getCode(), message);  
+>     }  
+>   
+>     // 创建一个带有状态和数据的结果对象
+>     public static \<T> Result\<T> buildResult(Status status, T data) {  
+>         return new Result\<T>(status.getCode(), status.getReason(), data);  
+>     }  
+>   
+>     public static \<T> Result\<T> buildResult(Status status) {  
+>         return new Result\<T>(status.getCode(), status.getReason());  
+>     }  
+>   
+>     public enum Status {  
+>         OK("200", "正确"),  
+>         BAD_REQUEST("400", "错误的请求"),  
+>         UNAUTHORIZED("401", "禁止访问"),  
+>         NOT_FOUND("404", "没有可用的数据"),  
+>         PWD_ERROR("300", "密码错误"),  
+>         EXIT("403", "已经存在"),  
+>         INTERNAL_SERVER_ERROR("500", "服务器遇到了一个未曾预料的状况"),  
+>         SERVICE_UNAVAILABLE("503", "服务器当前无法处理请求"),  
+>         ERROR("9999", "数据不能为空");  
+>   
+>         // 状态码,长度固定为6位的字符串.  
+>         private String code;  
+>   
+>         // 错误信息  
+>         private String reason;  
+>   
+>         Status(String code, String reason) {  
+>             this.code = code;  
+>             this.reason = reason;  
+>         }  
+>   
+>         public String getCode() {  
+>             return code;  
+>         }  
+>   
+>         public String getReason() {  
+>             return reason;  
+>         }  
+>   
+>         @Override  
+>         public String toString() {  
+>             return code + ": " + reason;  
+>         }  
+>     }  
+> }
+> ```
 
-```java
-public class Result<T> {   
-    private String status;      //状态码 
-  
-    public String getStatus() {      //获取状态  
-        return status;  
-    }  
-   
-    private String message;      //状态信息,错误描述 
-    
-    public String getMessage() {  //获取消息内容
-        return message;  
-    }  
-   
-    private T data;      //数据 
-   
-    public T getData() {  //获取数据内容
-        return data;  
-    }  
-  
-    private Result(String status, String message, T data) {  
-        this.status = status;  
-        this.message = message;  
-        this.data = data;  
-    }  
-  
-    private Result(String status, String message) {  
-        this.status = status;  
-        this.message = message;  
-    }  
-  
-    private Result(String message) {  
-        this.message = message;  
-    }  
-  
-    //创建一个带有状态、消息和数据的结果对象 
-    public static <T> Result<T> buildResult(Status status, String message, T data) {  
-        return new Result<T>(status.getCode(), message, data);  
-    }  
-  
-    //创建一个带有状态、消息和数据的结果对象
-    public static <T> Result<T> buildResult(Status status, String message) {  
-        return new Result<T>(status.getCode(), message);  
-    }  
-  
-    // 创建一个带有状态和数据的结果对象
-    public static <T> Result<T> buildResult(Status status, T data) {  
-        return new Result<T>(status.getCode(), status.getReason(), data);  
-    }  
-  
-    public static <T> Result<T> buildResult(Status status) {  
-        return new Result<T>(status.getCode(), status.getReason());  
-    }  
-  
-    public enum Status {  
-        OK("200", "正确"),  
-        BAD_REQUEST("400", "错误的请求"),  
-        UNAUTHORIZED("401", "禁止访问"),  
-        NOT_FOUND("404", "没有可用的数据"),  
-        PWD_ERROR("300", "密码错误"),  
-        EXIT("403", "已经存在"),  
-        INTERNAL_SERVER_ERROR("500", "服务器遇到了一个未曾预料的状况"),  
-        SERVICE_UNAVAILABLE("503", "服务器当前无法处理请求"),  
-        ERROR("9999", "数据不能为空");  
-  
-        // 状态码,长度固定为6位的字符串.  
-        private String code;  
-  
-        // 错误信息  
-        private String reason;  
-  
-        Status(String code, String reason) {  
-            this.code = code;  
-            this.reason = reason;  
-        }  
-  
-        public String getCode() {  
-            return code;  
-        }  
-  
-        public String getReason() {  
-            return reason;  
-        }  
-  
-        @Override  
-        public String toString() {  
-            return code + ": " + reason;  
-        }  
-    }  
-}
-```
-
-### 响应对象
+- **响应对象**
 ```java
 @RequestMapping("/address")  
 public Result<Address> address() {  
@@ -375,9 +373,8 @@ public Result<Address> address() {
     address.setCity("广州");  
     return Result.buildResult(Result.Status.OK, address);  //传递状态码，数据
 }
-```
-网页：
-```
+
+---
 {
     "status": "200",
     "message": "正确",
@@ -388,7 +385,7 @@ public Result<Address> address() {
 }
 ```
 
-### 响应集合
+- **响应集合**
 ```java
 @RequestMapping("/list")  
 public Result<List<Address>> list() {  
@@ -406,9 +403,8 @@ public Result<List<Address>> list() {
   
     return Result.buildResult(Result.Status.OK, list);  
 }
-```
-网页：
-```json
+
+---
 {
     "status": "200",
     "message": "正确",
@@ -424,6 +420,25 @@ public Result<List<Address>> list() {
     ]
 }
 ```
+
+### 非应用级别响应
+>[!quote] 非应用级别响应
+>非应用级别响应 直接会响应到 HTTP 状态码里，设置为 4xx 时，请求就会失败
+
+```java
+import org.springframework.http.ResponseEntity;
+
+@GetMapping("/verify")
+public ResponseEntity<String> verify(String token) {
+	if (token.equals("success")) {
+		return ResponseEntity.ok("success");
+	} else {
+		return ResponseEntity.status(403).body("forbidden");
+	}
+}
+```
+
+
 ## 分层
 ### Dao
 >Dao 层的作用是获取数据【文件数据，xml 数据，json 数据等】，==在 MyBatis 中叫 Mapper==
