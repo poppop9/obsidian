@@ -39,6 +39,16 @@ graph LR
 ```
 
 ## UsernamePasswordAuthenticationFilter
+```mermaid
+sequenceDiagram
+    participant UsernamePasswordAuthenticationFilter AS U
+    participant ProviderManager AS P
+	participant DaoAuthenticationProvider AS D
+	participant InMemoryUserDetailsManager AS I
+
+	U->>P: fajlk
+```
+
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402281105597.png)
 
 >[!warning] 目前的 Spring Security 的流程是不符合我们的开发要求的，我们要进行修改，要替换不符合要求的实现类

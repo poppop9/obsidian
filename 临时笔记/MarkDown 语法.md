@@ -388,17 +388,6 @@ sequenceDiagram
     Note over Bob,Alice: Bob responds after thinking.
 ```
 
-```mermaid
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Note over Alice: This is a note on Alice
-    Alice-->Bob: Hello Bob, how are you?
-    Note right of Alice: Alice thinks about it.
-    Bob-->Alice: Not bad, thanks.
-    Note over Bob,Alice: Bob responds after thinking.
-```
-
 ## 甘特图
 ```mermaid
 gantt
