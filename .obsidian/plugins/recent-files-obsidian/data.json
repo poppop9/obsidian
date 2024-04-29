@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "SLF4J",
+      "path": "计算机/JavaWeb/第三方类库/SLF4J.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
     },
     {
       "basename": "3 BootStrap 高级",
       "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "4-1 高级语句",
@@ -195,10 +199,6 @@
     {
       "basename": "2-3 awk",
       "path": "计算机/Linux/2-3 awk.md"
-    },
-    {
-      "basename": "1-1 权限",
-      "path": "计算机/Linux/1-1 权限.md"
     }
   ],
   "omittedPaths": [],
