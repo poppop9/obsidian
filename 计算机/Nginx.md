@@ -69,6 +69,12 @@ docker run \
 ## Linux
 
 # 配置文件
+- `event{……}` 告诉 nginx 如何处理连接
+- `http{……}` 设置 HTTP 服务器相关的参数，和指令
+	- `include 文件` 引入某个文件，这样可以不用把配置全部配置在一个文件里
+		- `include /etc/nginx/mime.types;` 
+	- `server`
+
 ```bash
 user  nginx;
 # 定义了工作进程数
@@ -78,12 +84,12 @@ worker_processes  auto;
 error_log  /var/log/nginx/error.log notice;
 pid        /var/run/nginx.pid;
 
-# 用来告诉nginx如何处理连接
 events {
     worker_connections  1024;
 }
 
 http {
+	# 引入这个文件，可以让引入进来的文件在浏览器中
     include       /etc/nginx/mime.types;
     default_type  application/octet-stream;
 
