@@ -180,8 +180,10 @@ server {
 - 在 `server 块` 中的 `location 块` 中配置
 ```mermaid
 graph LR
-	a[请求]--访问/sage-->b[nginx]
-	b-->c{判断token}
+	a[请求]--访问/sage-->b[nginx]--重定向-->e["/auth"]
+	e-->c{判断token是否正确}
+	c--正确-->d[访问proxy_pass]
+	c--错误-->f[4xx]
 ```
 
 ```yml
@@ -207,9 +209,11 @@ server {
 		proxy_set_header Content-Type "";
 	}
 }
+
+---
+http://localhost/sage?token=success  ✔️
+http://localhost/sage?token=succ  ❌
 ```
-
-
 
 ## HTTPS
 HTTPS = HTTP + SSL
