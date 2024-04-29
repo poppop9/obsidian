@@ -79,7 +79,8 @@ docker run \
 		- `location 路径{……}` 根据路径进行不同的处理
 			- `root 文件路径` 在指定路径下查找要响应的文件
 			- `index 具体文件` 在指定路径下查找要响应的具体文件
-			- `auth_request 鉴权路径` 对于访问 location 的请求，再发送子请求给鉴权路径，如果返回 2xx，则访问 `proxy_pass` 中的路径，
+			- `auth_request 鉴权路径` 对于访问 location 的请求，再发送子请求给鉴权路径，如果返回 2xx，则会继续处理这个原始请求；否则 4xx
+			- `proxy_pass 请求地址` 将 location 的请求转发到另一个请求地址
 
 ```bash
 user  nginx;
