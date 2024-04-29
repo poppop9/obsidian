@@ -102,6 +102,18 @@ http {
 ```
 
 # 功能
+- 在 http 块中配置 `upstream`
+```conf
+http {
+    upstream backend {
+        server backend1.example.com;
+        server backend2.example.com;
+        server backend3.example.com;
+    }
+}
+```
+
+
 ## 反向代理
 
 
