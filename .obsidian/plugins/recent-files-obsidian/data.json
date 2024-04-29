@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
+      "basename": "4-1 高级语句",
+      "path": "计算机/数据库/MySQL/4-1 高级语句.md"
+    },
+    {
       "basename": "Nginx",
       "path": "计算机/Nginx.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "1-2 概念",
       "path": "计算机/数据库/MySQL/1-2 概念.md"
-    },
-    {
-      "basename": "4-1 高级语句",
-      "path": "计算机/数据库/MySQL/4-1 高级语句.md"
     },
     {
       "basename": "3-1 约束",
@@ -159,10 +163,6 @@
     {
       "basename": "逻辑结构",
       "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/逻辑结构.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "物理结构",

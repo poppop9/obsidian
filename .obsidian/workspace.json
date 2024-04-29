@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL/4-1 高级语句.md",
-                "mode": "source",
+                "file": "计算机/Docker.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -72,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -176,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -208,12 +209,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
-    "计算机/编程语言/Java/5-2 类加载器.md",
-    "计算机/Nginx.md",
-    "计算机/数据库/MySQL/1-2 概念.md",
     "计算机/数据库/MySQL/4-1 高级语句.md",
+    "计算机/Nginx.md",
+    "计算机/编程语言/Java/5-2 类加载器.md",
+    "计算机/数据库/MySQL/1-2 概念.md",
     "计算机/数据库/MySQL/3-1 约束.md",
     "计算机/数据库/MySQL/1-1 安装配置.md",
     "计算机/数据库/MySQL/2-1 基础语句.md",

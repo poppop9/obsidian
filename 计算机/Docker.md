@@ -227,6 +227,7 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306
 ---
 
 - **启动/停止**
+	- `docker restart 容器名` 重启某个容器，可以重新加载配置文件
 	- `docker stop 容器名` 停止正在运行的 Docker 容器【**但是容器还在，没有删除**】
 	- `docker start 容器名` 启动被停止的 Docker 容器
 - **查看**
