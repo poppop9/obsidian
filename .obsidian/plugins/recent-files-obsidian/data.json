@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1 SpringBoot + MVC",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
+    },
+    {
+      "basename": "Nginx",
+      "path": "计算机/Nginx.md"
+    },
+    {
       "basename": "SLF4J",
       "path": "计算机/JavaWeb/第三方类库/SLF4J.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
-    },
-    {
-      "basename": "Nginx",
-      "path": "计算机/Nginx.md"
     },
     {
       "basename": "Docker",
@@ -195,10 +199,6 @@
     {
       "basename": "8 软件安装",
       "path": "计算机/Linux/8 软件安装.md"
-    },
-    {
-      "basename": "6-1 命令执行顺序，管道",
-      "path": "计算机/Linux/6-1 命令执行顺序，管道.md"
     }
   ],
   "omittedPaths": [],

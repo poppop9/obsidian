@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Nginx.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/SLF4J.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
               }
             }
           },
@@ -177,7 +176,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/SLF4J.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
               }
             }
           },
@@ -209,13 +208,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "10e458ad4488a9ec",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
+    "计算机/Nginx.md",
     "计算机/JavaWeb/第三方类库/SLF4J.md",
+    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
-    "计算机/Nginx.md",
     "计算机/Docker.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/数据库/MySQL/4-1 高级语句.md",
