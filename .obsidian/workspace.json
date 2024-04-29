@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "计算机/Linux/2-2 sed 流编辑器.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/Nginx.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/Nginx.md"
               }
             }
           },
@@ -209,34 +209,34 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "12e4938090699372",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/Linux/2-2 sed 流编辑器.md",
+    "计算机/Linux/2-1 Vim.md",
+    "计算机/Linux/1-2 文件目录.md",
+    "计算机/Linux/1-1 权限.md",
+    "计算机/Linux/5 定时任务.md",
+    "计算机/Linux/7 数据流重定向.md",
+    "计算机/Linux/8 软件安装.md",
+    "计算机/Linux/MobaXterm.md",
+    "计算机/Linux/进程.md",
+    "计算机/Linux/娱乐命令.md",
+    "计算机/Linux/2-3 awk.md",
+    "计算机/Linux/3-1 环境变量，搜索.md",
+    "计算机/Linux/3-2 打包，压缩.md",
+    "计算机/Linux/3-3 文件系统操作，磁盘管理.md",
+    "计算机/Linux/4 帮助命令.md",
+    "计算机/Linux/6-1 命令执行顺序，管道.md",
+    "计算机/Linux/6-2 正则表达式.md",
+    "计算机/Linux/Linux.md",
+    "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/Nginx.md",
-    "计算机/Linux/进程.md",
-    "临时笔记/草稿纸.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
     "计算机/JavaWeb/第三方类库/SLF4J.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/Docker.md",
-    "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
-    "计算机/数据库/MySQL/4-1 高级语句.md",
-    "计算机/编程语言/Java/5-2 类加载器.md",
-    "计算机/数据库/MySQL/1-2 概念.md",
-    "计算机/数据库/MySQL/3-1 约束.md",
-    "计算机/数据库/MySQL/1-1 安装配置.md",
-    "计算机/数据库/MySQL/2-1 基础语句.md",
-    "计算机/数据库/MySQL/2-2 函数.md",
-    "计算机/数据库/MySQL/5-1 调优.md",
-    "Excalidraw/计算机/四大件/数据结构 Draw.md",
-    "临时笔记/Obsidian 笔记编写规范.md",
-    "计算机/数据库/MySQL/MySQL.md",
-    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
-    "临时笔记/Obsidian 特殊语法.md",
-    "临时笔记/健康.md",
-    "临时笔记/摄影.md",
-    "临时笔记/权游台词.md",
     "计算机/四大件/数据结构与算法/算法",
     "计算机/四大件/数据结构与算法/数据结构",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构",

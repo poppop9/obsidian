@@ -1,20 +1,88 @@
 {
   "recentFiles": [
     {
+      "basename": "Nginx",
+      "path": "计算机/Nginx.md"
+    },
+    {
+      "basename": "2-2 sed 流编辑器",
+      "path": "计算机/Linux/2-2 sed 流编辑器.md"
+    },
+    {
+      "basename": "2-1 Vim",
+      "path": "计算机/Linux/2-1 Vim.md"
+    },
+    {
+      "basename": "1-2 文件目录",
+      "path": "计算机/Linux/1-2 文件目录.md"
+    },
+    {
+      "basename": "1-1 权限",
+      "path": "计算机/Linux/1-1 权限.md"
+    },
+    {
+      "basename": "5 定时任务",
+      "path": "计算机/Linux/5 定时任务.md"
+    },
+    {
+      "basename": "7 数据流重定向",
+      "path": "计算机/Linux/7 数据流重定向.md"
+    },
+    {
+      "basename": "8 软件安装",
+      "path": "计算机/Linux/8 软件安装.md"
+    },
+    {
+      "basename": "MobaXterm",
+      "path": "计算机/Linux/MobaXterm.md"
+    },
+    {
+      "basename": "进程",
+      "path": "计算机/Linux/进程.md"
+    },
+    {
+      "basename": "娱乐命令",
+      "path": "计算机/Linux/娱乐命令.md"
+    },
+    {
+      "basename": "2-3 awk",
+      "path": "计算机/Linux/2-3 awk.md"
+    },
+    {
+      "basename": "3-1 环境变量，搜索",
+      "path": "计算机/Linux/3-1 环境变量，搜索.md"
+    },
+    {
+      "basename": "3-2 打包，压缩",
+      "path": "计算机/Linux/3-2 打包，压缩.md"
+    },
+    {
+      "basename": "3-3 文件系统操作，磁盘管理",
+      "path": "计算机/Linux/3-3 文件系统操作，磁盘管理.md"
+    },
+    {
+      "basename": "4 帮助命令",
+      "path": "计算机/Linux/4 帮助命令.md"
+    },
+    {
+      "basename": "6-1 命令执行顺序，管道",
+      "path": "计算机/Linux/6-1 命令执行顺序，管道.md"
+    },
+    {
+      "basename": "6-2 正则表达式",
+      "path": "计算机/Linux/6-2 正则表达式.md"
+    },
+    {
+      "basename": "Linux",
+      "path": "计算机/Linux/Linux.md"
+    },
+    {
       "basename": "草稿纸",
       "path": "临时笔记/草稿纸.md"
     },
     {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
-      "basename": "Nginx",
-      "path": "计算机/Nginx.md"
-    },
-    {
-      "basename": "进程",
-      "path": "计算机/Linux/进程.md"
     },
     {
       "basename": "OKHttp",
@@ -131,74 +199,6 @@
     {
       "basename": "2-2 指令",
       "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
-    },
-    {
-      "basename": "1-1 环境配置",
-      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
-    },
-    {
-      "basename": "1 基础Ⅰ",
-      "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
-    },
-    {
-      "basename": "职场",
-      "path": "临时笔记/职场.md"
-    },
-    {
-      "basename": "3-1 树 - 二叉树",
-      "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md"
-    },
-    {
-      "basename": "2-2 基础语法",
-      "path": "计算机/JavaWeb/前端/Vue/2-2 基础语法.md"
-    },
-    {
-      "basename": "1 基础概念知识 Ⅰ",
-      "path": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
-    },
-    {
-      "basename": "3-7 集合",
-      "path": "计算机/编程语言/Java/3-7 集合.md"
-    },
-    {
-      "basename": "3-2 树 - 自平衡",
-      "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-2 树 - 自平衡.md"
-    },
-    {
-      "basename": "2 散列表",
-      "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/2 散列表.md"
-    },
-    {
-      "basename": "1-2 队列",
-      "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/1-2 队列.md"
-    },
-    {
-      "basename": "1-1 栈",
-      "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/1-1 栈.md"
-    },
-    {
-      "basename": "JavaWeb Draw",
-      "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "逻辑结构",
-      "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/逻辑结构.md"
-    },
-    {
-      "basename": "物理结构",
-      "path": "计算机/四大件/数据结构与算法/数据结构/物理结构.md"
-    },
-    {
-      "basename": "计算机网络 1",
-      "path": "计算机/四大件/计算机网络/计算机网络 1.md"
-    },
-    {
-      "basename": "2 基础概念知识 Ⅱ",
-      "path": "计算机/四大件/计算机网络/2 基础概念知识 Ⅱ.md"
-    },
-    {
-      "basename": "1-2 文件目录",
-      "path": "计算机/Linux/1-2 文件目录.md"
     }
   ],
   "omittedPaths": [],

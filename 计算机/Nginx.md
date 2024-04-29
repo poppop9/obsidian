@@ -68,8 +68,6 @@ docker run \
 
 ## Linux
 
-
-
 # 配置文件
 ```bash
 user  nginx;
