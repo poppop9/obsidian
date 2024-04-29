@@ -72,8 +72,11 @@ docker run \
 - `event{……}` 告诉 nginx 如何处理连接
 - `http{……}` 设置 HTTP 服务器相关的参数，和指令
 	- `include 文件` 引入某个文件，这样可以不用把配置全部配置在一个文件里
-		- `include /etc/nginx/mime.types;` 
-	- `server`
+		- `include /etc/nginx/mime.types;` 引入文件，告诉浏览器要怎么样处理 nginx 中的文件，~~比如 css 文件就不要处理成 text 纯文本文件~~
+	- `server{……}` 定义服务器配置
+		- `listen 端口号` 指定服务器监听的端口号
+		- `server_name 域名` 定义该服务器的名称，通常是域名
+		- `location 路径{……}` 根据路径进行不同的处理
 
 ```bash
 user  nginx;
