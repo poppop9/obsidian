@@ -80,18 +80,15 @@ docker run \
 		- `listen 端口号` 指定服务器监听的端口号
 		- `server_name 域名` 定义该服务器的名称，通常是域名
 		- `location 路径{……}` 根据路径进行不同的处理
+			- `internal;` 指定该 location 只能被内部请求使用，不能直接被客户端访问
 			- `root 文件路径` 在指定路径下查找要响应的文件
-			- `index 具体文件` 在指定路径下查找要响应的具体文件
+			- `index 具体文件` 在指定路径下查找要响应的具体文件，~~不指定则默认打开 root 路径下的 `index.html` 文件~~
 			- `auth_request 鉴权路径` 对于访问 location 的请求，再发送子请求给鉴权路径，如果返回 2xx，则会继续处理这个原始请求；否则 4xx
 			- `proxy_pass 请求地址` 将 location 的请求转发到另一个请求地址
 
 >[!hint] `location = /auth { ... }` 与 `location /auth { ... }` 的区别
 >- `location = /auth { ... }`：只会匹配 /auth
->- 
-
-
-
-
+>- `location /auth { ... }`：会匹配 /auth，及其子路径
 
 ---
 
