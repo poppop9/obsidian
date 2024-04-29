@@ -1,5 +1,3 @@
-# 准备工作
-- 引入依赖
 ```xml
 <!--SpringSecurity-->  
 <dependency>  
@@ -28,21 +26,21 @@ graph LR
 ## UsernamePasswordAuthenticationFilter
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402281105597.png)
 
-
->[!warning] 目前的Spring Security的流程是不符合我们的开发要求的，我们要进行修改，要替换不符合要求的实现类
+>[!warning] 目前的 Spring Security 的流程是不符合我们的开发要求的，我们要进行修改，要替换不符合要求的实现类
 
 ## 登录
-- 自定义登录Controller接口
+- 自定义登录 Controller 接口
 	- 调用 ProviderManager 方法进行认证
-		- 如果认证通过，生成 JWT令牌
-		- 再把用户信息存入redis
+		- 如果认证通过，生成 JWT 令牌
+		- 再把用户信息存入 redis
 - 自定义 `UserDetailsService`，在这个类中去查询数据库
+
 ## 校验
-- 定义JWT认证过滤器
-	- 获取token
-	- 解析token获取UserId
-	- 从redis中获取用户信息
-	- 把用户信息存入 `SecurityContextHolder`【为了<u>JWT认证过滤器</u>后续的过滤器可以使用用户信息做某些事情】
+- 定义 JWT 认证过滤器
+	- 获取 token
+	- 解析 token 获取 UserId
+	- 从 redis 中获取用户信息
+	- 把用户信息存入 `SecurityContextHolder`【为了 <u>JWT 认证过滤器</u>后续的过滤器可以使用用户信息做某些事情】
 
 
 
