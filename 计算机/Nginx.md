@@ -88,7 +88,7 @@ docker run \
 
 >[!hint] `location = /auth { ... }` 与 `location /auth { ... }` 的区别
 >- `location = /auth { ... }`：只会匹配 /auth
->- `location /auth { ... }`：会匹配 /auth，及其子路径
+>- `location /auth { ... }`：会匹配以 /auth 开头的所有路径，及其所有子路径下的 index.html
 
 ---
 
