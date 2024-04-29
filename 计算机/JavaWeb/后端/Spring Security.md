@@ -8,8 +8,16 @@
 
 # 流程
 ```mermaid
+sequenceDiagram
+    participant 客户端
+    participant 服务器
 
+	客户端->>服务器: 携带用户名，密码访问登录接口
+	服务器->>服务器: 与数据库对比，如果正确，则生成一个jwt令牌
+	服务器->>服务器: 携带用户名，密码访问登录接口
 ```
+
+
 
 - 宏观流程
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402271600507.png)

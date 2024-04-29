@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/SLF4J.md",
-                "mode": "preview",
+                "file": "临时笔记/MarkDown 语法.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -210,9 +210,11 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "临时笔记/MarkDown 语法.md",
+    "计算机/JavaWeb/第三方类库/SLF4J.md",
+    "计算机/JavaWeb/后端/Spring Security.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
-    "计算机/JavaWeb/后端/Spring Security.md",
     "临时笔记/草稿纸.md",
     "计算机/Linux/进程.md",
     "计算机/Nginx.md",
@@ -234,8 +236,6 @@
     "计算机/Linux/6-2 正则表达式.md",
     "计算机/Linux/Linux.md",
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
-    "计算机/JavaWeb/第三方类库/OKHttp.md",
-    "计算机/JavaWeb/第三方类库/SLF4J.md",
     "计算机/四大件/数据结构与算法/算法",
     "计算机/四大件/数据结构与算法/数据结构",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构",

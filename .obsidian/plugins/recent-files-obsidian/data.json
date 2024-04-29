@@ -5,6 +5,14 @@
       "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
     {
+      "basename": "MarkDown 语法",
+      "path": "临时笔记/MarkDown 语法.md"
+    },
+    {
+      "basename": "SLF4J",
+      "path": "计算机/JavaWeb/第三方类库/SLF4J.md"
+    },
+    {
       "basename": "1 SpringBoot + MVC",
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
     },
@@ -101,10 +109,6 @@
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
     },
     {
-      "basename": "SLF4J",
-      "path": "计算机/JavaWeb/第三方类库/SLF4J.md"
-    },
-    {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Bootstrap 简化CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化CSS.md"
-    },
-    {
-      "basename": "3-1 路由",
-      "path": "计算机/JavaWeb/前端/Vue/3-1 路由.md"
     }
   ],
   "omittedPaths": [],
