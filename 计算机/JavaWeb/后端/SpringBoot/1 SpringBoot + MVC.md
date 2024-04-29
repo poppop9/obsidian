@@ -267,11 +267,13 @@ public class UploadController {
 }
 ```
 
+>[!hint] 文件通过MultipartFile传递到服务器后，会产生一个临时文件，如果这时不对文件做任何操作。只要请求响应完毕之后，**这个文件就会被自动删除，不会保存**
 
-
->[!hint] 文件通过MultipartFile传递到服务器后，会产生一个临时文件，如果这时不对文件做任何操作。只要请求响应完毕之后，***这个文件就会被自动删除，不会保存***
 ## 响应
-### 首先包装一个Result类
+### 应用级别响应
+>[!quote]+ 应用级别响应 指的是用户请求时都是 2xx，只是在 HTTP 响应体中可能会出现 4xx，一般用自定义的 Result 类来实现
+>j
+
 ```java
 public class Result<T> {   
     private String status;      //状态码 
@@ -406,7 +408,7 @@ public Result<List<Address>> list() {
 }
 ```
 网页：
-```
+```json
 {
     "status": "200",
     "message": "正确",
