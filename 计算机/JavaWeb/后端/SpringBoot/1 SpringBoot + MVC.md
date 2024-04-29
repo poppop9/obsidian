@@ -1,5 +1,5 @@
-# 基本概念
->Spring是一个开发生态圈，它提供了若干个子项目，用于完成特定功能
+>[!quote] Spring
+>Spring 是一个开发生态圈，它提供了若干个子项目，用于完成特定功能
 >![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291445627.png)
 
 # 准备工作

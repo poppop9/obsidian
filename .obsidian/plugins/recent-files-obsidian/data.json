@@ -5,6 +5,14 @@
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
     },
     {
+      "basename": "SpringBoot",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md"
+    },
+    {
+      "basename": "Spring Security",
+      "path": "计算机/JavaWeb/后端/Spring Security.md"
+    },
+    {
       "basename": "草稿纸",
       "path": "临时笔记/草稿纸.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "3-1 路由",
       "path": "计算机/JavaWeb/前端/Vue/3-1 路由.md"
-    },
-    {
-      "basename": "Git",
-      "path": "计算机/Git.md"
-    },
-    {
-      "basename": "2-2 指令",
-      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
     }
   ],
   "omittedPaths": [],
