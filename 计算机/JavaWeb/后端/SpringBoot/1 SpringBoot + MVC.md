@@ -4,7 +4,8 @@
 
 - **Spring**：也就是 Spring Framework
 - **SpringBoot**：基于 Spring，简化了开发
-- **Spring MVC**：是一种
+- **Spring MVC**：是 Spring 中的一个模块，提供了一种基于 MVC（模型-视图-控制器）设计模式的框架
+- **SSM**：Spring , Spring MVC , MyBatis
 
 # 准备工作
 ## 创建Spring项目
