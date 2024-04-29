@@ -102,17 +102,25 @@ http {
 ```
 
 # 功能
-- 在 http 块中配置 `upstream`
-```conf
+- 在 `http 块` 中添加 `upstream 块` ，里面配置服务的 IP 地址，和端口号
+```yml
 http {
-    upstream backend {
-        server backend1.example.com;
-        server backend2.example.com;
-        server backend3.example.com;
+    upstream backend {    # backend是给upstream取的名字
+        server 127.0.0.1:8000;
+        server 127.0.0.1:8001;
+        server 127.0.0.1:8002;
     }
 }
 ```
 
+- 在 `server 块` 中添加 `location 块` 
+```yml
+server {
+    location / {
+        proxy_pass http://backend;
+    }
+}
+```
 
 ## 反向代理
 
