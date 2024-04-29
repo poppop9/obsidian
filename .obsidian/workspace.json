@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
+                "file": "计算机/JavaWeb/第三方类库/OKHttp.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/SLF4J.md"
+                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/SLF4J.md"
+                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
               }
             }
           },
@@ -209,13 +209,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
+    "计算机/Nginx.md",
+    "计算机/JavaWeb/第三方类库/SLF4J.md",
     "计算机/Docker.md",
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/数据库/MySQL/4-1 高级语句.md",
-    "计算机/Nginx.md",
     "计算机/编程语言/Java/5-2 类加载器.md",
     "计算机/数据库/MySQL/1-2 概念.md",
     "计算机/数据库/MySQL/3-1 约束.md",
@@ -228,7 +230,6 @@
     "计算机/数据库/MySQL/MySQL.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
-    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "临时笔记/Obsidian 特殊语法.md",
     "临时笔记/健康.md",
     "临时笔记/摄影.md",
@@ -236,7 +237,6 @@
     "临时笔记/读心术.md",
     "临时笔记/魔术.md",
     "临时笔记/如何使用把笔记同步到 Github.md",
-    "临时笔记/临时.md",
     "计算机/四大件/数据结构与算法/算法",
     "计算机/四大件/数据结构与算法/数据结构",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构",

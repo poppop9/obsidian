@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "OKHttp",
+      "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
+    },
+    {
+      "basename": "2 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+    },
+    {
+      "basename": "Nginx",
+      "path": "计算机/Nginx.md"
+    },
+    {
       "basename": "SLF4J",
       "path": "计算机/JavaWeb/第三方类库/SLF4J.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "4-1 高级语句",
       "path": "计算机/数据库/MySQL/4-1 高级语句.md"
-    },
-    {
-      "basename": "Nginx",
-      "path": "计算机/Nginx.md"
     },
     {
       "basename": "5-2 类加载器",
@@ -67,10 +75,6 @@
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
       "basename": "Obsidian 特殊语法",
@@ -195,10 +199,6 @@
     {
       "basename": "6-1 命令执行顺序，管道",
       "path": "计算机/Linux/6-1 命令执行顺序，管道.md"
-    },
-    {
-      "basename": "2-3 awk",
-      "path": "计算机/Linux/2-3 awk.md"
     }
   ],
   "omittedPaths": [],
