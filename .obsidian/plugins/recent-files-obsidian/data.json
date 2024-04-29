@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "1 SpringBoot + MVC",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
-    },
-    {
       "basename": "Nginx",
       "path": "计算机/Nginx.md"
+    },
+    {
+      "basename": "OKHttp",
+      "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
+    },
+    {
+      "basename": "1 SpringBoot + MVC",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
     },
     {
       "basename": "SLF4J",
@@ -15,10 +19,6 @@
     {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
-      "basename": "OKHttp",
-      "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
     },
     {
       "basename": "2 BootStrap 中级",
