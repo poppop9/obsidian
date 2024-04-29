@@ -155,15 +155,35 @@ HTTPS = HTTP + SSL
 
 ---
 
-- 把监听的端口号改为 `443 ssl`
+- 把监听的端口号改为 `443 ssl` ，并添加相关配置
 ```yml
 server {
 	listen 443 ssl;
-	server_name 网站域名：
+	server_name 网站域名;
+
+	# 证书文件路径
+    ssl_certificate /etc/nginx/ssl/example.com.crt;
+	# 证书密钥路径
+    ssl_certificate_key /etc/nginx/ssl/example.com.key;
+
 }
 ```
 
+- 添加一个 `server 块` 配置一个重定向，将 `80` 的请求重定向到 `443`
+```yml
+server {
+    listen 80;
+    server_name example.com;
 
+    location / {
+        return 301 https://$host$request_uri;
+    }
+}
+
+server {
+	……
+}
+```
 
 
 
