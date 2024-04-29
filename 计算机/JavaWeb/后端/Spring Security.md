@@ -52,7 +52,12 @@ sequenceDiagram
 	U->>P: 调用authenticate方法进行认证
 	P->>D: 调用DaoAuthenticationProvider的Authenticate方法进行认证
 	D->>I: 调用LoadUserByUsername方法查询用户
-	
+	I->>I: 根据用户名去查询对应的用户，及这个用户对应的权限信息【在内存中查找】
+	I->>I: 把对应的用户信息包括去权限信息封装成UserDetails对象
+	I->>D: 返回UserDetails对象
+	D->>D: 通过PasswordEncoder，对比UserDetails中的密码和Authentication的密码
+	D->>D: 如果正确就把UserDetails中的权限信息设置到Authentication对象中
+	D->>U: 返回Authentication对象
 ```
 
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402281105597.png)
