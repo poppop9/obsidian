@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "DDD 架构",
+      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+    },
+    {
+      "basename": "3 BootStrap 高级",
+      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
-    },
-    {
-      "basename": "3 BootStrap 高级",
-      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
     },
     {
       "basename": "Obsidian 特殊语法",
@@ -195,10 +199,6 @@
     {
       "basename": "1-1 权限",
       "path": "计算机/Linux/1-1 权限.md"
-    },
-    {
-      "basename": "3-1 环境变量，搜索",
-      "path": "计算机/Linux/3-1 环境变量，搜索.md"
     }
   ],
   "omittedPaths": [],
