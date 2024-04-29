@@ -7,6 +7,7 @@
 ```
 
 # 流程
+- 宏观流程
 ```mermaid
 sequenceDiagram
     participant 客户端
@@ -14,13 +15,14 @@ sequenceDiagram
 
 	客户端->>服务器: 携带用户名，密码访问登录接口
 	服务器->>服务器: 与数据库对比，如果正确，则生成一个jwt令牌
-	服务器->>服务器: 携带用户名，密码访问登录接口
+	服务器->>客户端: 响应jwt给客户端
+	客户端->>服务器: 请求时携带token
+	服务器->>服务器: 解析token，获取id
+	服务器->>服务器: 根据id获取用户的权限信息
+	服务器->>客户端: 响应资源给客户端
 ```
 
 
-
-- 宏观流程
-![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402271600507.png)
 - 微观流程
 	- `UsernamePasswordAuthenticationFilter` 判断用户名和密码是否正确
 	- `ExceptionTranslationFilter` 处理在认证授权时的所有异常
