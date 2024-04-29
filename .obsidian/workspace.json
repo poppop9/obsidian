@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
-                "mode": "preview",
+                "file": "临时笔记/草稿纸.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/Nginx.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/草稿纸.md",
+                "file": "计算机/Linux/进程.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -209,13 +209,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "ec1d6ee6a9dbcc6a",
+  "active": "12e4938090699372",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
+    "计算机/Nginx.md",
+    "计算机/Linux/进程.md",
+    "临时笔记/草稿纸.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
     "计算机/JavaWeb/第三方类库/SLF4J.md",
-    "计算机/Nginx.md",
-    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/Docker.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
@@ -230,13 +232,11 @@
     "Excalidraw/计算机/四大件/数据结构 Draw.md",
     "临时笔记/Obsidian 笔记编写规范.md",
     "计算机/数据库/MySQL/MySQL.md",
-    "临时笔记/草稿纸.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "临时笔记/Obsidian 特殊语法.md",
     "临时笔记/健康.md",
     "临时笔记/摄影.md",
     "临时笔记/权游台词.md",
-    "临时笔记/读心术.md",
     "计算机/四大件/数据结构与算法/算法",
     "计算机/四大件/数据结构与算法/数据结构",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构",

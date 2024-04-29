@@ -80,7 +80,7 @@ worker_processes  auto;
 error_log  /var/log/nginx/error.log notice;
 pid        /var/run/nginx.pid;
 
-# 定义了每个工作进程的最大连接数
+# 用来告诉nginx如何处理连接
 events {
     worker_connections  1024;
 }
