@@ -303,6 +303,7 @@ graph LR
     B <-----> C
     C x--x D
 ```
+
 ### 子图
 ```mermaid
 graph TB
@@ -377,13 +378,25 @@ pie
 ## 时序图
 ```mermaid
 sequenceDiagram
-    participant 类 as Class
-    participant 事件 as Event
-    participant 监听器 as Listener
+    participant Alice
+    participant Bob
+
+    Alice-->Bob: Hello Bob, how are you?
+    Note left of Alice: Alice thinks about it.
     
-    类->>事件: 发布事件
-    事件->>监听器: 触发监听器
-    监听器-->类: 原程序代码与监听器代码异步执行
+    Bob-->Alice: Not bad, thanks.
+    Note over Bob,Alice: Bob responds after thinking.
+```
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Note over Alice: This is a note on Alice
+    Alice-->Bob: Hello Bob, how are you?
+    Note right of Alice: Alice thinks about it.
+    Bob-->Alice: Not bad, thanks.
+    Note over Bob,Alice: Bob responds after thinking.
 ```
 
 ## 甘特图
