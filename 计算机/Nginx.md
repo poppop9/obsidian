@@ -102,6 +102,7 @@ http {
 ```
 
 # 功能
+## 反向代理 + 负载均衡
 - 在 `http 块` 中添加 `upstream 块` ，里面配置服务的 IP 地址，和端口号
 ```yml
 http {
@@ -116,19 +117,17 @@ http {
 - 在 `server 块` 中添加 `location 块` 
 ```yml
 server {
-    location / {
+	# 会把所有访问/app的请求，分发到backend里（第一步定义的upstream块里）
+    location /app {   
         proxy_pass http://backend;
     }
 }
 ```
 
-## 反向代理
 
 
 
 
-
-## 负载均衡
 
 
 
