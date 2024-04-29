@@ -178,14 +178,34 @@ server {
 >鉴权 可以对请求进行身份验证，进行对某个用户的限频限次
 
 - 在 `server 块` 中的 `location 块` 中配置
+```mermaid
+graph LR
+	a[请求]--访问/sage-->b[nginx]
+	b-->c{判断token}
+```
+
 ```yml
 server {
 	# 将请求转发给后端服务之前，先进行一个子请求到 /auth。如果这个子请求返回的 HTTP 状态码是 2xx，那么原始请求将会继续被处理
 	# 否则，原始请求将会被拒绝
-    location /app {   
-	    auth_request /auth;
-        proxy_pass http://backend;
-    }
+	location /sage {
+		auth_request /auth;
+		proxy_pass http://localhost:8080/aftersuccess;
+	}
+
+	location /auth {
+		# 该location只能被内部请求使用，不能直接被客户端访问
+		internal;
+		# 设置参数
+		set $token '';
+		if ($request_uri ~* "[^\?]+\?(.*)$") {
+			set $token $1;
+		}
+
+		proxy_pass http://localhost:8080/verify?$token;
+		proxy_pass_request_body off;
+		proxy_set_header Content-Type "";
+	}
 }
 ```
 
