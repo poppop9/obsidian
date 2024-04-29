@@ -64,7 +64,6 @@ docker run \
 	- `-t` 检查配置文件是否正确
 
 # 配置文件
-
 ```bash
 user  nginx;
 # 定义了工作进程数
@@ -101,9 +100,6 @@ http {
     include /etc/nginx/conf.d/*.conf;
 }
 ```
-
-
-
 
 # 功能
 ## 反向代理
