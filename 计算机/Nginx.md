@@ -77,6 +77,9 @@ docker run \
 		- `listen 端口号` 指定服务器监听的端口号
 		- `server_name 域名` 定义该服务器的名称，通常是域名
 		- `location 路径{……}` 根据路径进行不同的处理
+			- `root 文件路径` 在指定路径下查找要响应的文件
+			- `index 具体文件` 在指定路径下查找要响应的具体文件
+			- `auth_request 鉴权路径` 对于访问 location 的请求，再发送子请求给鉴权路径，如果返回 2xx，则访问 `proxy_pass` 中的路径，
 
 ```bash
 user  nginx;
