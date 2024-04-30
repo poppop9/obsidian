@@ -30,33 +30,22 @@
 </dependencies>
 ```
 
-## 目录结构
-- `.mvn` Maven wrapper 文件
-- `src` 源码目录
-    - `main`
-        - `java`
-            - `包路径`
-                - `启动类` 
-        - `resources` 资源文件目录
-            - `application.properties` SpringBoot 配置文件
-    - `test`
-        - `java`
-            - `包路径`
-			- `项目名称ApplicationTests.java` 测试 starters
-- `pom.xml` Maven项目对象模型配置文件
+---
 
-# Web 服务器
->Web 服务器对 HTTP 协议的操作进行了封装，使得 Web 开发更为便携。Web 服务器可以用来部署我们我们开发好的 Web 项目，对外提供网上信息浏览服务
-
-## HTTP协议
-- HTTP协议，一次请求对应一次响应
-- HTTP协议每次请求和响应都是独立的，后一次请求无法知道前一次请求的数据
-
-## Tomcat
->Tomcat 是一款轻量级的Web服务器
-
-SpringBoot 的依赖项的起步依赖 web【里面包含了很多依赖】中已经**内置了 Tomcat**，当启动类运行时，会自动运行 Tomcat 服务器
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291447345.png)
+>[!hint] 项目结构
+> - `.mvn` Maven wrapper 文件
+> - `src` 源码目录
+>     - `main`
+>         - `java`
+>             - `包路径`
+>                 - `启动类` 
+>         - `resources` 资源文件目录
+>             - `application.properties` SpringBoot 配置文件
+>     - `test`
+>         - `java`
+>             - `包路径`
+> 			- `项目名称ApplicationTests.java` 测试 starters
+> - `pom.xml` Maven项目对象模型配置文件
 
 # 请求，响应，分层解耦
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291447633.png)
@@ -695,152 +684,6 @@ public class EmpController {
 }
 ```
 
-# 配置文件
-## properties 配置文件
-### 参数配置化
->将项目中的参数定义在 `properties文件中` 集中化管理，然后在java文件中使用 `@Value` 注解来注入配置文件中的值
-
-- ***未采用参数配置化***
-```java
-@RestController
-public class Test {
-	public void test() {
-		String secretId = "AKIDtlYAZjRbefnkT4Siz8Zz";  
-		String secretKey = "IOQKLDty66wcBlDTh";
-		String bucketName = "test-1307744200";
-	}
-}
-```
-【如果将参数分散在各个java类中，会导致***查找困难***，而且这种硬编码的方式，在***每次更改参数时都要重新编译项目***】
-
-- ***采用参数配置化***
-```java
-public class Test {
-	@Value("${tencent.secretId}")
-	String secretId;
-
-	@Value("${tencent.secretKey}")
-	String secretKey;
-
-	@Value("${tencent.bucketName}")
-	String bucketName;
-	
-	public void test() {
-		……
-	}
-}
-```
-
-```properties
-tencent.secretId=AKIDtlYAZjRbefnkT4Siz8Zz  
-tencent.secretKey=IOQKLDty66wcBlDTh  
-tencent.bucketName=test-1307744200
-```
-## yml 配置文件
-- 大小写敏感
-- 数值前面必须有 `空格` 作为分割符
-- `#` 表示注释
-### 数据格式
-- 对象 / Map集合
-```yml
-user:  
-  name: "Ness"  
-  style: "popping style"  
-  age: 37
-```
-
-- 数组 / List集合 / Set集合
-```yml
-style:  
-  - popping  
-  - locking  
-  - breaking  
-  - house  
-  - hip-hop
-```
-
-### @ConfigurationProperties
->使用该注释之后，会自动将配置文件中的值注入到bean对象对应的属性中去，***简化了每次注入yml里的数值都要使用 ***`@Value` ***的麻烦 ***
-
-```properties
-tencent.secretId=AKIDtlYAZjRbefnkT4Siz8Zz  
-tencent.secretKey=IOQKLDty66wcBlDTh  
-tencent.bucketName=test-1307744200
-```
-
-```java
-@Data  //指定变量的get，set方法
-@Component    //将这个类交给IOC容器管理
-@ConfigurationProperties(prefix = "tencent")  //指定属性值的前缀
-public class Test1 {
-	String secretId;
-	String secretKey;
-	String bucketName;
-}
-```
-
-```java
-public class Test2 {
-	@Autowired
-	private Test1 t1;
-
-	public void summart(){
-		String secretId = t1.getSecretId;
-		String secretKey = t1.getSecretKey;
-		String bucketName = t1.getBucketName;
-		……
-	}
-}
-```
-
-
----
-
->[!hint] properties 对比 yml
->- properties
-> ```properties
-> spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-> spring.datasource.url=jdbc:mysql://localhost:3306/mybatis
-> spring.datasource.username=root
-> spring.datasource.password=13433026660
-> 
-> spring.servlet.multipart.max-file-size=10MB
-> spring.servlet.multipart.max-request-size=100MB
-> 
-> mybatis.configuration.map-underscore-to-camel-case=true
-> mybatis.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
-> 
-> tencent.secretId=AKIDtlYAZjgQwiMmzxhDi7RbefnkT4Siz8Zz
-> tencent.secretKey=IOQKLDtOirptnjbN0Tkooqy66wcBlDTh
-> tencent.bucketName=test-1307744200
-> ```
->- yml
-> ```yml
-> spring:
->   #数据库连接信息
->   datasource:
->     driver-class-name: com.mysql.cj.jdbc.Driver
->     url: jdbc:mysql://localhost:3306/mybatis
->     username: root
->     password: 13433026660
->   #文件上传撇配置
->   servlet:
->     multipart:
->       max-file-size: 10MB
->       max-request-size: 100MB
-> 
-> #mybatis配置
-> mybatis:
->   configuration:
->     map-underscore-to-camel-case: true
->     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-> 
-> #腾讯云对象存储
-> tencent:
->   secretId: AKIDtlYAZjgQwiMmzxhDi7RbefnkT4Siz8Zz
->   secretKey: IOQKLDtOirptnjbN0Tkooqy66wcBlDTh
->   bucketName: test-1307744200
-> ```
 
 # 异常处理
 >通过定义<u>全局异常处理器</u>来统一处理三层架构抛出的异常
