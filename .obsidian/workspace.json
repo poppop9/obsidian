@@ -211,8 +211,9 @@
   },
   "active": "12e4938090699372",
   "lastOpenFiles": [
-    "计算机/Linux/2-2 sed 流编辑器.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
+    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
+    "计算机/Linux/2-2 sed 流编辑器.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/MarkDown 语法.md",
     "计算机/JavaWeb/后端/Spring Security.md",
@@ -236,7 +237,6 @@
     "计算机/Linux/3-3 文件系统操作，磁盘管理.md",
     "计算机/Linux/4 帮助命令.md",
     "计算机/Linux/6-1 命令执行顺序，管道.md",
-    "计算机/Linux/6-2 正则表达式.md",
     "计算机/四大件/数据结构与算法/算法",
     "计算机/四大件/数据结构与算法/数据结构",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构",
