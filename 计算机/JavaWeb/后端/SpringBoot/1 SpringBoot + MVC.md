@@ -34,26 +34,28 @@
 ## HTTP协议
 - HTTP协议，一次请求对应一次响应
 - HTTP协议每次请求和响应都是独立的，后一次请求无法知道前一次请求的数据
-## Tomcat
->Tomcat是一款轻量级的Web服务器
 
-SpringBoot的依赖项的起步依赖web【里面包含了很多依赖】中已经***内置了Tomcat***，当启动类运行时，会自动运行Tomcat服务器
+## Tomcat
+>Tomcat 是一款轻量级的Web服务器
+
+SpringBoot 的依赖项的起步依赖 web【里面包含了很多依赖】中已经**内置了 Tomcat**，当启动类运行时，会自动运行 Tomcat 服务器
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291447345.png)
 
 # 请求，响应，分层解耦
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291447633.png)
 
 ## 请求
->使用 <u>Apifox</u>【API设计/开发/测试工具】
+>使用 <u>Apifox</u>【API 设计/开发/测试工具】
 
-`RequestMapping`的子集：
-- `@GetMapping`  限定路径的请求方式只能是 HTTP GET
-- `@PostMapping`  限定路径的请求方式只能是 HTTP POST
-- `@PutMapping`：限定路径的请求方式只能是 HTTP PUT
-- `@DeleteMapping`  限定路径的请求方式只能是 HTTP DELETE
-……
+- `RequestMapping`的子集：
+	- `@GetMapping`  限定路径的请求方式只能是 HTTP GET
+	- `@PostMapping`  限定路径的请求方式只能是 HTTP POST
+	- `@PutMapping`：限定路径的请求方式只能是 HTTP PUT
+	- `@DeleteMapping`  限定路径的请求方式只能是 HTTP DELETE
+	- ……
+
 ### 简单参数
-GET请求：`http://localhost:8080/simpleParam?name=Tom&age=10`
+GET 请求：`http://localhost:8080/simpleParam?name=Tom&age=10`
 ```java
 @RestController  //注释@RestController，表示这是一个Controller类
 public class RequestController {  

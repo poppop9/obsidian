@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
     },
     {
+      "basename": "3 文件上云",
+      "path": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
+    },
+    {
       "basename": "2 MyBatis",
       "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "读心术",
       "path": "临时笔记/读心术.md"
-    },
-    {
-      "basename": "魔术",
-      "path": "临时笔记/魔术.md"
     }
   ],
   "omittedPaths": [],
