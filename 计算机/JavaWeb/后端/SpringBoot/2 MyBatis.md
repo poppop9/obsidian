@@ -46,7 +46,7 @@ graph LR
 # 准备工作
 - 引入MyBatis，mysql依赖
 ![435](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114095900.png)
-- 在配置文件中配置 MyBatis
+- 在配置文件中配置 MySQL
 ```xml
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver  
 spring.datasource.url=jdbc:mysql://localhost:3306/mybatis  
