@@ -170,7 +170,7 @@ class SpringBootMyBatisApplicationTests {
 
 >[!hint] 以上的 SQL 语句用了 `#{}` 占位符，就是**预编译 SQL 语句**
 >>`#{}` 不能放在**单引号**或**多引号**之间使用
->>如果一定要在引号里进行占位符，可以使用`CONCAT函数`
+>>如果一定要在引号里进行占位符，可以使用 `CONCAT 函数`
 >
 >预编译 SQL 语句有两个优点：
 >- 性能高，因为不同参数的 SQL 语句只用编译一遍【MYSQL 有缓存机制】
@@ -180,7 +180,7 @@ class SpringBootMyBatisApplicationTests {
 >在很多时候我们会在插入一条数据之后，再拿到这条数据的 id。由于不能简单的通过 getId 来获取，所以我们要添加 **Options 注释**
 
 - `useGeneratedKeys = true`  表示我们要拿到生成的主键值
-- `keyProperty = "id"`  表示将自动生成的主键值映射到`user`对象的`id`属性
+- `keyProperty = "id"`  表示将自动生成的主键值映射到 `user` 对象的 `id` 属性
 
 ```java
 @Options(useGeneratedKeys = true, keyProperty = "id")    //需要添加这条注释  
