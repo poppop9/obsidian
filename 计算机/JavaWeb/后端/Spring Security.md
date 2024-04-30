@@ -47,6 +47,11 @@ sequenceDiagram
 	participant D AS DaoAuthenticationProvider
 	participant I AS InMemoryUserDetailsManager
 
+	Note over U: AbstractAuthenticationProcessingFilter接口
+	Note over P: AuthenticationManager接口
+	Note over D: AbstractUserDetailsAuthenticationProvider接口
+	Note over I: UserDetailsService接口
+
 	请求->>U: 提交用户名和密码
 	U->>U: 封装Authentication对象，这时候还没有权限
 	U->>P: 调用authenticate方法进行认证
@@ -58,9 +63,8 @@ sequenceDiagram
 	D->>D: 通过PasswordEncoder，对比UserDetails中的密码和Authentication的密码
 	D->>D: 如果正确就把UserDetails中的权限信息设置到Authentication对象中
 	D->>U: 返回Authentication对象
+	U->>U: 如果上一步返回了Authentication对象，就使用SecurityContextHolder．getContext().setAuthentication方法存储该对象
 ```
-
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402281105597.png)
 
 >[!warning] 目前的 Spring Security 的流程是不符合我们的开发要求的，我们要进行修改，要替换不符合要求的实现类
 
