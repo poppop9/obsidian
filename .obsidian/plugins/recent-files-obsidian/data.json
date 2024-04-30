@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "2 MyBatis",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
+      "basename": "1 SpringBoot + MVC",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
     },
     {
-      "basename": "Lombok",
-      "path": "计算机/JavaWeb/第三方类库/Lombok.md"
+      "basename": "2 MyBatis",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
     },
     {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
     },
     {
-      "basename": "1 SpringBoot + MVC",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
+      "basename": "Spring Security",
+      "path": "计算机/JavaWeb/后端/Spring Security.md"
+    },
+    {
+      "basename": "Lombok",
+      "path": "计算机/JavaWeb/第三方类库/Lombok.md"
     },
     {
       "basename": "Nginx",
@@ -31,10 +35,6 @@
     {
       "basename": "MarkDown 语法",
       "path": "临时笔记/MarkDown 语法.md"
-    },
-    {
-      "basename": "Spring Security",
-      "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
     {
       "basename": "SLF4J",

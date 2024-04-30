@@ -8,27 +8,29 @@
 - **SSM**：Spring , Spring MVC , MyBatis
 
 # 准备工作
-## 创建Spring项目
-- 创建Spring模块
-	- 勾选Web开发相关依赖
+## 创建 Spring 项目
+- 创建 Spring 模块
+	- 勾选 Web 开发相关依赖
 	![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291445346.png)	![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291446733.png)
 
 ## 目录结构
-- `.mvn` - Maven wrapper文件
-- `src` - 源码目录
+- `.mvn` Maven wrapper 文件
+- `src` 源码目录
     - `main`
         - `java`
             - `包路径`
                 - `启动类` 
-        - `resources` - 资源文件目录
-            - `application.properties` - Spring Boot配置文件
+        - `resources` 资源文件目录
+            - `application.properties` SpringBoot 配置文件
     - `test`
         - `java`
             - `包路径`
-			- `项目名称ApplicationTests.java` - 测试 starters
-- `pom.xml` - Maven项目对象模型配置文件
-# Web服务器
->Web服务器对HTTP协议的操作进行了封装，使得Web开发更为便携。Web服务器可以用来部署我们我们开发好的Web项目，对外提供网上信息浏览服务
+			- `项目名称ApplicationTests.java` 测试 starters
+- `pom.xml` Maven项目对象模型配置文件
+
+# Web 服务器
+>Web 服务器对 HTTP 协议的操作进行了封装，使得 Web 开发更为便携。Web 服务器可以用来部署我们我们开发好的 Web 项目，对外提供网上信息浏览服务
+
 ## HTTP协议
 - HTTP协议，一次请求对应一次响应
 - HTTP协议每次请求和响应都是独立的，后一次请求无法知道前一次请求的数据
