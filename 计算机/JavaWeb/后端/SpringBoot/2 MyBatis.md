@@ -224,6 +224,17 @@ class SpringBootMyBatisApplicationTests {
 > 
 >![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202404301556169.png)
 
+---
+```java
+package com.example.spring_security.infrastructure.mapper;
+
+@Mapper
+public interface UserMapper {
+    // 查询user中所有数据
+    public List<user> selectAll();
+}
+```
+
 ```xml
 <!-- 必需添加 -->
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">

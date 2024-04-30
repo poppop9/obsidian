@@ -94,6 +94,10 @@ sequenceDiagram
     C->>客户端: 返回 jwt
 ```
 
+## 自定义 UserDetailsService
+```java
+
+```
 
 
 
