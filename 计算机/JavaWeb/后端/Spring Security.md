@@ -86,16 +86,10 @@ sequenceDiagram
 	数据库->>U: 
 	U->>D: 
 	D->>P: 
-    P->>C:
-    Note over of C: 认证通过，则生成 jwt
+    P->>C: 
+    Note over C: 认证通过，生成jwt
     C->>客户端: 返回 jwt
 ```
-
-- 自定义登录 Controller 接口，~~不使用 `UsernamePasswordAuthenticationFilter`~~
-	- 调用 ProviderManager 方法进行认证
-		- 如果认证通过，生成 JWT 令牌
-		- 再把用户信息存入 redis
-- 自定义 `UserDetailsService` 的实现类，在这个类中去查询数据库
 
 ## 校验
 - 定义 JWT 认证过滤器
