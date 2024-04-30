@@ -162,6 +162,7 @@ public class LoginUser implements UserDetails {
 }
 ```
 
+- 自定义 BCryptPasswordEncoder
 
 
 # 校验
