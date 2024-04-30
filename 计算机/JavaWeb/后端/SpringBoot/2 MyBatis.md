@@ -162,11 +162,12 @@ class SpringBootMyBatisApplicationTests {
 >预编译 SQL 语句有两个优点：
 >- 性能高，因为不同参数的 SQL 语句只用编译一遍【MYSQL 有缓存机制】
 >- 安全：防止了 SQL 注入【用户使用输入数据来篡改 SQL 语句】
-### 主键返回
->在很多时候我们会在插入一条数据之后，再拿到这条数据的id。由于不能简单的通过getId来获取，所以我们要添加***Options注释***
 
-`useGeneratedKeys = true`  表示我们要拿到生成的主键值
-`keyProperty = "id"`  表示将自动生成的主键值映射到`user`对象的`id`属性
+### 主键返回
+>在很多时候我们会在插入一条数据之后，再拿到这条数据的 id。由于不能简单的通过 getId 来获取，所以我们要添加**Options注释**
+
+- `useGeneratedKeys = true`  表示我们要拿到生成的主键值
+- `keyProperty = "id"`  表示将自动生成的主键值映射到`user`对象的`id`属性
 
 ```java
 @Options(useGeneratedKeys = true, keyProperty = "id")    //需要添加这条注释  
@@ -302,8 +303,8 @@ public interface UserMapperXml {
     public void DeleteIds(List<Integer> ids); 
 }
 ```
-## sql片段的抽取与引用
->如果像上面一样每个语句都独立写代码，那复用性会很差，如果要更改表名或者其他参数，则要一个一个语句标签更改。引入了==\<sql\>\<include\>标签==可以解决这个问题
+## sql 片段的抽取与引用
+>如果像上面一样每个语句都独立写代码，那复用性会很差，如果要更改表名或者其他参数，则要一个一个语句标签更改。引入 `<sql>` ，`<include>`标签可以解决这个问题
 
 ```xml
 <sql id="select1">             //声明sql片段，定义id属性
@@ -320,20 +321,20 @@ public interface UserMapperXml {
 ```
 # 其他配置
 ## 数据封装
->当数据库的字段名【采用_命名，dept_id】与实体类的属性名【采用驼峰命名，deptId】不一致时，***默认不会进行封装***[^1]
+>当数据库的字段名【采用_命名，dept_id】与实体类的属性名【采用驼峰命名，deptId】不一致时，**默认不会进行封装**
 
-在`application.properties`文件中配置：
+在 `application.properties` 文件中配置：
 ```
 #开启MyBatis驼峰命名自动映射开关
 mybatis.configuration.map-underscore-to-camel-case=true
 ```
+
 此时a_column字段名 就会自动封装到 aColumn 或 AColumn 属性里
 
-[^1]:不会把数据库中的数据封装到实体对象中
-## 输出MyBatis日志到控制台
->配置之后，会在控制台输出要执行的sql语句 和 各种日志
+## 输出 MyBatis 日志到控制台
+>配置之后，会在控制台输出要执行的 sql 语句，和各种日志
 
-在`application.properties`文件中配置：
+在 `application.properties` 文件中配置：
 ```
 mybatis.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 ```
