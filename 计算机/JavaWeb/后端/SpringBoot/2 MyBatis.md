@@ -208,8 +208,8 @@ class SpringBootMyBatisApplicationTests {
 > - 同包同名，一一对应：XML 文件的名称与 Mapper 接口的名称保持一致，一个 XML 文件对应一个 Mapper 接口，XML 文件在 `resource 目录` 下与 Mapper 接口在 java 目录下的包一致
 > - XML 文件的 `namespace` 属性与 Mapper 接口的全类名保持一致
 > - XML 文件中的 sql 语句的 id 与 Mapper 接口的方法名一致，且返回类型一致
->
-> ![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202404301425967.png)
+> 
+>![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202404301551466.png)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -223,7 +223,8 @@ class SpringBootMyBatisApplicationTests {
     </select>
 </mapper>
 ```
-# 动态SQL
+
+# 动态 SQL
 ## 动态查询
 - `<where>` 标签可以动态的拼接 `<if>` 标签里的条件，如果只使用 WHERE
 	- 如果第一个条件不成立会多出一个 AND
