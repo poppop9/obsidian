@@ -107,14 +107,10 @@ sequenceDiagram
 	J->>J: 获取，解析token，获取到userId
 	J->>R: 携带userId
 	R->>J: 返回用户信息
-	J->>S: 把用户信息存入到SecurityContextHolder，便于
+	J->>S: 把用户信息存入到SecurityContextHolder，便于后续的过滤器可以使用用户信息做某些事情
 ```
 
-- 定义 JWT 认证过滤器
-	- 获取 token
-	- 解析 token 获取 UserId
-	- 从 redis 中获取用户信息
-	- 把用户信息存入 `SecurityContextHolder`【为了 JWT 认证过滤器后续的过滤器可以使用用户信息做某些事情】
+
 
 
 
