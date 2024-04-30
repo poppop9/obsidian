@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "DDD 架构",
+      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+    },
+    {
+      "basename": "2-2 sed 流编辑器",
+      "path": "计算机/Linux/2-2 sed 流编辑器.md"
+    },
+    {
       "basename": "2 MyBatis",
       "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "MarkDown 语法",
       "path": "临时笔记/MarkDown 语法.md"
-    },
-    {
-      "basename": "2-2 sed 流编辑器",
-      "path": "计算机/Linux/2-2 sed 流编辑器.md"
     },
     {
       "basename": "Spring Security",
@@ -107,10 +111,6 @@
     {
       "basename": "Linux",
       "path": "计算机/Linux/Linux.md"
-    },
-    {
-      "basename": "DDD 架构",
-      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
     },
     {
       "basename": "OKHttp",
