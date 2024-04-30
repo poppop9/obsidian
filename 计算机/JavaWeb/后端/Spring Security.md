@@ -69,6 +69,17 @@ sequenceDiagram
 >[!warning] 目前的 Spring Security 的流程是不符合我们的开发要求的，我们要进行修改，要替换不符合要求的实现类
 
 ## 登录
+```mermaid
+sequenceDiagram
+    participant 请求
+    participant C AS 自定义Controller登录接口
+    participant P AS ProviderManager
+    participant D AS DaoAuthenticationProvider
+    participant U AS 自定义UserDetailsService
+    participant 数据库
+
+```
+
 - 自定义登录 Controller 接口，~~不使用 `UsernamePasswordAuthenticationFilter`~~
 	- 调用 ProviderManager 方法进行认证
 		- 如果认证通过，生成 JWT 令牌
