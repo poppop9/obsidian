@@ -162,7 +162,7 @@ public class LoginUser implements UserDetails {
 }
 ```
 
-- 自定义 BCryptPasswordEncoder
+- 自定义 BCryptPasswordEncoder 注入到 IOC 容器中，替换默认的 
 
 
 # 校验
