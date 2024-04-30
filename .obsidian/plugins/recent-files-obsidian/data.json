@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "2-2 登录",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-2 登录.md"
+      "basename": "4 登录认证",
+      "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
     },
     {
       "basename": "2-1 流程分析",
       "path": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md"
     },
     {
-      "basename": "1-1 会话管理",
-      "path": "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md"
+      "basename": "2-3 校验",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-3 校验.md"
     },
     {
-      "basename": "4 登录认证",
-      "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
+      "basename": "2-2 登录",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-2 登录.md"
+    },
+    {
+      "basename": "1-1 会话管理",
+      "path": "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md"
     },
     {
       "basename": "Spring Security",
@@ -195,10 +199,6 @@
     {
       "basename": "数据结构 Draw",
       "path": "Excalidraw/计算机/四大件/数据结构 Draw.md"
-    },
-    {
-      "basename": "Obsidian 笔记编写规范",
-      "path": "临时笔记/Obsidian 笔记编写规范.md"
     }
   ],
   "omittedPaths": [],
