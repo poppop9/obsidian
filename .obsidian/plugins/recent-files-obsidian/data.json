@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "1-2 配置文件",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
+      "basename": "1-1 三大技术",
+      "path": "计算机/JavaWeb/后端/Spring Security1/1-1 三大技术.md"
     },
     {
-      "basename": "1-1 SpringBoot + MVC",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1-1 SpringBoot + MVC.md"
+      "basename": "1-2 流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security1/1-2 流程分析.md"
     },
     {
       "basename": "4 登录认证",
       "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
     },
     {
-      "basename": "Spring Security",
-      "path": "计算机/JavaWeb/后端/Spring Security.md"
+      "basename": "2-2 文件上云",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2-2 文件上云.md"
     },
     {
-      "basename": "2 MyBatis",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
+      "basename": "1-1 基础特性",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+    },
+    {
+      "basename": "2-1 MyBatis",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md"
+    },
+    {
+      "basename": "1-3 全局异常处理",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1-3 全局异常处理.md"
+    },
+    {
+      "basename": "1-2 配置文件",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
     },
     {
       "basename": "DDD 架构",
@@ -27,10 +39,6 @@
     {
       "basename": "Lombok",
       "path": "计算机/JavaWeb/第三方类库/Lombok.md"
-    },
-    {
-      "basename": "3 文件上云",
-      "path": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
     },
     {
       "basename": "Nginx",
@@ -191,14 +199,6 @@
     {
       "basename": "Obsidian 特殊语法",
       "path": "临时笔记/Obsidian 特殊语法.md"
-    },
-    {
-      "basename": "健康",
-      "path": "临时笔记/健康.md"
-    },
-    {
-      "basename": "摄影",
-      "path": "临时笔记/摄影.md"
     }
   ],
   "omittedPaths": [],
