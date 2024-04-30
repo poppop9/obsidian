@@ -88,6 +88,7 @@ sequenceDiagram
 	D->>P: 
     P->>C: 
     Note over C: 认证通过，生成jwt
+    Note over C: 并存入信息到redis，方便后续校验
     C->>客户端: 返回 jwt
 ```
 
@@ -97,11 +98,13 @@ sequenceDiagram
 
 ```mermaid
 sequenceDiagram
-	participant K AS客户端
+	participant K AS 客户端
 	participant J AS jwt认证过滤器
-	participant 客户端
+	participant R AS redis
 
 	K->>J: 携带token发起请求
+	J->>J: 获取，解析token，获取到userId
+	J->>R: 发送userI
 ```
 
 - 定义 JWT 认证过滤器
