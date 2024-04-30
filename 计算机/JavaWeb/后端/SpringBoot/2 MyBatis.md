@@ -334,18 +334,16 @@ public interface UserMapperXml {
 ```
 # 其他配置
 ## 数据封装
->当数据库的字段名【采用_命名，dept_id】与实体类的属性名【采用驼峰命名，deptId】不一致时，**默认不会进行封装**
+当数据库的字段名【dept_id】与实体类的属性名【deptId】不一致时，**默认不会进行封装**，所以我们要在配置文件中配置自动映射：
 
-在 `application.properties` 文件中配置：
 ```
 #开启MyBatis驼峰命名自动映射开关，此时a_column字段名 就会自动封装到 aColumn 或 AColumn 属性里
 mybatis.configuration.map-underscore-to-camel-case=true
 ```
 
 ## 输出 MyBatis 日志到控制台
->配置之后，会在控制台输出要执行的 sql 语句，和各种日志
+在配置文件配置之后，会在控制台输出要执行的 sql 语句，和各种日志
 
-在 `application.properties` 文件中配置：
 ```
 mybatis.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 ```
