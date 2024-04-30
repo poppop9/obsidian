@@ -46,8 +46,7 @@ graph LR
 # 准备工作
 - 引入MyBatis，mysql依赖
 ![435](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114095900.png)
-- 配置MyBatis
-![image.png|490](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114102048.png)
+- 在配置文件中配置 MyBatis
 ```xml
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver  
 spring.datasource.url=jdbc:mysql://localhost:3306/mybatis  
@@ -56,12 +55,12 @@ spring.datasource.password=13433026660
 ```
 - 配置SQL提示
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143104.png)
-	- 在idea的数据库配置中添加数据库
+	- 在 idea 的数据库配置中添加数据库
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143555.png)
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143538.png)
-- 安装`MyBatisX`插件
-	- 可以在 <u>xml文件</u> 与 <u>Mapper接口</u> 中快速跳转
-# 通过注解来实现MyBatis
+- 安装 `MyBatisX` 插件：可以在 <u>xml 文件</u> 与 <u>Mapper 接口</u> 中快速跳转
+
+# 通过注解来实现 MyBatis
 ## 基本操作
 ### 增删改查
 ```java
@@ -202,13 +201,15 @@ class SpringBootMyBatisApplicationTests {
 ---
 17
 ```
-# 通过XML来实现MyBatis
-## 三大规范
-- 同包同名，一一对应：XML文件的名称与Mapper接口的名称保持一致，一个XML文件对应一个Mapper接口，XML文件在resource目录下与Mapper接口在java目录下的包一致
-- XML文件的`namespace`属性与Mapper接口的全类名保持一致
-- XML文件中的sql语句的id 与 Mapper接口的方法名一致，且返回类型一致
 
-![[Excalidraw/计算机/JavaWeb Draw.md#^group=fQSSes2S]]
+# 通过 XML 来实现 MyBatis
+>[!hint] 三大规范
+> - 同包同名，一一对应：XML 文件的名称与 Mapper 接口的名称保持一致，一个 XML 文件对应一个 Mapper 接口，XML 文件在 `resource 目录` 下与 Mapper 接口在 java 目录下的包一致
+> - XML 文件的 `namespace` 属性与 Mapper 接口的全类名保持一致
+> - XML 文件中的 sql 语句的 id 与 Mapper 接口的方法名一致，且返回类型一致
+>
+> ![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202404301425967.png)
+
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper
@@ -223,10 +224,10 @@ class SpringBootMyBatisApplicationTests {
 ```
 # 动态SQL
 ## 动态查询
-- `<where>`标签可以动态的拼接`<if>`标签里的条件，如果只使用WHERE
-	- 如果第一个条件不成立会多出一个AND
-	- 如果所有条件不成立，会多出一个WHERE
-- `<if>`标签可以根据test条件判断是否要拼接标签里的sql
+- `<where>` 标签可以动态的拼接 `<if>` 标签里的条件，如果只使用 WHERE
+	- 如果第一个条件不成立会多出一个 AND
+	- 如果所有条件不成立，会多出一个 WHERE
+- `<if>` 标签可以根据 test 条件判断是否要拼接标签里的 sql
 
 ```xml
 <select id="SelectCondition" resultType="com.example.Pojo.user">
