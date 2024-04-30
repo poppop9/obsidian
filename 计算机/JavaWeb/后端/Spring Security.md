@@ -162,8 +162,39 @@ public class LoginUser implements UserDetails {
 }
 ```
 
-- 自定义 BCryptPasswordEncoder 注入到 IOC 容器中，替换默认的 
+- 将创建好的 `BCryptPasswordEncoder` 注入到 IOC 容器中，替换默认的 `PasswordEncoder` ，后续要使用直接依赖注入
+```java
+package com.example.spring_security.infrastructure.config;   
 
+@Configuration  
+public class SercurityConfig {  
+    @Bean  
+    public PasswordEncoder passwordEncoder() {  
+        return new BCryptPasswordEncoder();  
+    }  
+}
+```
+
+```java
+// 测试一下
+@Test  
+public void testPasswordEncoder() {  
+    BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();  
+    String encode = bCryptPasswordEncoder.encode("123456");  
+    System.out.println(encode);  // $2a$10$OgvYJMWInoiOmGqBCdwrOub3glU9zb5Nm0O0xkcNeAjgMUsSELE5e  
+    // 比较明文与密文是否匹配  
+    boolean matches = bCryptPasswordEncoder.  
+            matches("123456",  
+                    "$2a$10$OgvYJMWInoiOmGqBCdwrOub3glU9zb5Nm0O0xkcNeAjgMUsSELE5e");  
+    System.out.println(matches);  
+}
+
+---
+$2a$10$n/zIwDJII2Mzzo6XTWnn0uuWmHZ6Q44R.nl7DlkgfSieS.JkRVOzS
+true
+```
+
+>[!hint] 使用 `BCryptPasswordEncoder` 加密是不可逆的，而且就算明文一样，加密后也会不同
 
 # 校验
 >[!quote] 校验

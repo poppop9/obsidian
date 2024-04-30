@@ -140,7 +140,7 @@ public class AccountRepositoryImpl {
 - `application` **应用层**，用来组合领域层之间的业务，形成完整的业务【比如有一个领域是知识星球领域，另一个领域是 ChatGPT 领域，我要进行两个领域的对接，就在应用层实现】 ==Service==
 
 ## 领域层
-- `domain` **领域层** ==Service==
+- `domain` **领域层**，yu ==Service==
 	- `model` **领域模型**，定义了领域对象、聚合和值对象
 		- `entity` 实体/充血模型
 		- `po` 持久化对象，通常用于表示数据库中的数据表，po 对象的属性对应数据库表的字段
