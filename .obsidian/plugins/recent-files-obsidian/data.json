@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "DDD 架构",
-      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
-      "basename": "Lombok",
-      "path": "计算机/JavaWeb/第三方类库/Lombok.md"
-    },
-    {
       "basename": "Spring Security",
       "path": "计算机/JavaWeb/后端/Spring Security.md"
     },
     {
       "basename": "2 MyBatis",
       "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
+    },
+    {
+      "basename": "DDD 架构",
+      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+    },
+    {
+      "basename": "Lombok",
+      "path": "计算机/JavaWeb/第三方类库/Lombok.md"
     },
     {
       "basename": "3 文件上云",
