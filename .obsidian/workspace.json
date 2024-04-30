@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/MarkDown 语法.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -72,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
               }
             }
           },
@@ -176,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
               }
             }
           },
@@ -208,9 +209,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
     "临时笔记/MarkDown 语法.md",
+    "计算机/Linux/2-2 sed 流编辑器.md",
     "计算机/JavaWeb/后端/Spring Security.md",
     "计算机/JavaWeb/第三方类库/SLF4J.md",
     "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
@@ -218,7 +220,6 @@
     "临时笔记/草稿纸.md",
     "计算机/Linux/进程.md",
     "计算机/Nginx.md",
-    "计算机/Linux/2-2 sed 流编辑器.md",
     "计算机/Linux/2-1 Vim.md",
     "计算机/Linux/1-2 文件目录.md",
     "计算机/Linux/1-1 权限.md",
