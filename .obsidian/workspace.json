@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Nginx.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/第三方类库/Lombok.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+                "file": "计算机/JavaWeb/第三方类库/Lombok.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+                "file": "计算机/JavaWeb/第三方类库/Lombok.md"
               }
             }
           },
@@ -209,20 +209,21 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "12e4938090699372",
+  "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
+    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
+    "计算机/JavaWeb/第三方类库/Lombok.md",
+    "计算机/Nginx.md",
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
+    "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
     "计算机/Linux/2-2 sed 流编辑器.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/MarkDown 语法.md",
     "计算机/JavaWeb/后端/Spring Security.md",
     "计算机/JavaWeb/第三方类库/SLF4J.md",
-    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
     "临时笔记/草稿纸.md",
     "计算机/Linux/进程.md",
-    "计算机/Nginx.md",
     "计算机/Linux/2-1 Vim.md",
     "计算机/Linux/1-2 文件目录.md",
     "计算机/Linux/1-1 权限.md",
@@ -236,7 +237,6 @@
     "计算机/Linux/3-2 打包，压缩.md",
     "计算机/Linux/3-3 文件系统操作，磁盘管理.md",
     "计算机/Linux/4 帮助命令.md",
-    "计算机/Linux/6-1 命令执行顺序，管道.md",
     "计算机/四大件/数据结构与算法/算法",
     "计算机/四大件/数据结构与算法/数据结构",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构",
