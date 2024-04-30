@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "2 MyBatis",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
+    },
+    {
       "basename": "Lombok",
       "path": "计算机/JavaWeb/第三方类库/Lombok.md"
+    },
+    {
+      "basename": "DDD 架构",
+      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
     },
     {
       "basename": "1 SpringBoot + MVC",
@@ -11,14 +19,6 @@
     {
       "basename": "Nginx",
       "path": "计算机/Nginx.md"
-    },
-    {
-      "basename": "DDD 架构",
-      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
-      "basename": "2 MyBatis",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
     },
     {
       "basename": "2-2 sed 流编辑器",

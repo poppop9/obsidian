@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/第三方类库/Lombok.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Lombok.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Lombok.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
               }
             }
           },
@@ -209,13 +209,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "ec1d6ee6a9dbcc6a",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
     "计算机/JavaWeb/第三方类库/Lombok.md",
-    "计算机/Nginx.md",
-    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md",
+    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
+    "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md",
+    "计算机/Nginx.md",
     "计算机/Linux/2-2 sed 流编辑器.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
     "临时笔记/MarkDown 语法.md",

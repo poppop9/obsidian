@@ -20,69 +20,67 @@
 
 ---
 
->[!hint] 对比
->- 未使用lombok
+>[!hint]+ 未使用 lombok
+> ```java
+> public class user {  
+> 	private Integer id;  
+> 	private String name;  
+> 	private Integer age;  
+> 	private Integer gender;  
+> 	private String phone;  
+>   
+> 	public user() {  }  
+>   
+> 	public user(Integer id, String name, Integer age, Integer gender, String phone) {  
+> 		this.id = id;  
+> 		this.name = name;  
+> 		this.age = age;  
+> 		this.gender = gender;  
+> 		this.phone = phone;  
+> 	}  
+>   
+> 	public Integer getId() {  return id;  }  
+> 	public void setId(Integer id) {  this.id = id;  }  
+>   
+> 	public String getName() {  return name;  }  
+> 	public void setName(String name) {  this.name = name;  }  
+>   
+> 	public Integer getAge() {  return age;  }  
+> 	public void setAge(Integer age) {  this.age = age;  }  
+>   
+> 	public Integer getGender() {  return gender;  }  
+> 	public void setGender(Integer gender) {  this.gender = gender;  }  
+>   
+> 	public String getPhone() {  return phone;  }  
+> 	public void setPhone(String phone) {  this.phone = phone;  }  
+>   
+> 	@Override  
+> 	public String toString() {  
+> 		return "user{" +  
+> 				"id=" + id +  
+> 				", name='" + name + '\'' +  
+> 				", age=" + age +  
+> 				", gender=" + gender +  
+> 				", phone='" + phone + '\'' +  
+> 				'}';  
+> 	}  
+> }
+> ```
 
-
-```java
-public class user {  
-	private Integer id;  
-	private String name;  
-	private Integer age;  
-	private Integer gender;  
-	private String phone;  
-  
-	public user() {  }  
-  
-	public user(Integer id, String name, Integer age, Integer gender, String phone) {  
-		this.id = id;  
-		this.name = name;  
-		this.age = age;  
-		this.gender = gender;  
-		this.phone = phone;  
-	}  
-  
-	public Integer getId() {  return id;  }  
-	public void setId(Integer id) {  this.id = id;  }  
-  
-	public String getName() {  return name;  }  
-	public void setName(String name) {  this.name = name;  }  
-  
-	public Integer getAge() {  return age;  }  
-	public void setAge(Integer age) {  this.age = age;  }  
-  
-	public Integer getGender() {  return gender;  }  
-	public void setGender(Integer gender) {  this.gender = gender;  }  
-  
-	public String getPhone() {  return phone;  }  
-	public void setPhone(String phone) {  this.phone = phone;  }  
-  
-	@Override  
-	public String toString() {  
-		return "user{" +  
-				"id=" + id +  
-				", name='" + name + '\'' +  
-				", age=" + age +  
-				", gender=" + gender +  
-				", phone='" + phone + '\'' +  
-				'}';  
-	}  
-}
-```
-- 使用lombok
-	```java
-	import lombok.*;  
-	  
-	@Getter  
-	@Setter  
-	@ToString  
-	@NoArgsConstructor  
-	@AllArgsConstructor  
-	public class user {  
-	    private Integer id;  
-	    private String name;  
-	    private Integer age;  
-	    private Integer gender;  
-	    private String phone;  
-	}
-	```
+>[!hint]+ 使用 lombok
+> ```java
+> import lombok.*;  
+>   
+> @Getter  
+> @Setter  
+> @ToString  
+> @NoArgsConstructor  
+> @AllArgsConstructor  
+> public class user {  
+> 	private Integer id;  
+> 	private String name;  
+> 	private Integer age;  
+> 	private Integer gender;  
+> 	private String phone;  
+> }
+> ```
