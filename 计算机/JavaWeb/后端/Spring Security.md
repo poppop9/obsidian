@@ -101,7 +101,37 @@ sequenceDiagram
 
 - 自定义 UserDetails 实现类
 ```java
+public class LoginUser implements UserDetails {
+    // 这个方法返回一个权限集合，表示用户具有的角色。Spring Security中的角色通常以ROLE_开头
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return null;
+    }
 
+    // 返回用户的密码
+    @Override
+    public String getPassword() { return null; }
+
+    // 返回用户的用户名
+    @Override
+    public String getUsername() { return null; }
+
+	// 账户是否过期，如果返回false，那么账号就是过期的
+    @Override
+    public boolean isAccountNonExpired() { return true; }
+
+    // 账户是否锁定，如果返回false，那么账号就是被锁定的
+    @Override
+    public boolean isAccountNonLocked() { return true; }
+
+    // 凭证是否过期，如果返回false，那么凭证就是过期的
+    @Override
+    public boolean isCredentialsNonExpired() { return true; }
+
+    // 账户是否可用，如果返回false，那么账号就是不可用的
+    @Override
+    public boolean isEnabled() { return true; }
+}
 ```
 
 
