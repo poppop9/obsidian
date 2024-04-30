@@ -69,11 +69,11 @@ sequenceDiagram
 >[!warning] 目前的 Spring Security 的流程是不符合我们的开发要求的，我们要进行修改，要替换不符合要求的实现类
 
 ## 登录
-- 自定义登录 Controller 接口
+- 自定义登录 Controller 接口，~~不使用 `UsernamePasswordAuthenticationFilter`~~
 	- 调用 ProviderManager 方法进行认证
 		- 如果认证通过，生成 JWT 令牌
 		- 再把用户信息存入 redis
-- 自定义 `UserDetailsService`，在这个类中去查询数据库
+- 自定义 `UserDetailsService` 的实现类，在这个类中去查询数据库
 
 ## 校验
 - 定义 JWT 认证过滤器
