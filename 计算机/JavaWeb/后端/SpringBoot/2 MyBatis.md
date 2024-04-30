@@ -44,8 +44,19 @@ graph LR
 >- 提升系统的响应速度【无需创建 Connection 对象，去拿即可】
 
 # 准备工作
-- 引入MyBatis，mysql依赖
-![435](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114095900.png)
+- 引入 MyBatis，mysql 依赖
+```xml
+<dependency>  
+    <groupId>org.mybatis.spring.boot</groupId>  
+    <artifactId>mybatis-spring-boot-starter</artifactId>  
+    <version>3.0.3</version>  
+</dependency>
+<dependency>  
+    <groupId>com.mysql</groupId>  
+    <artifactId>mysql-connector-j</artifactId>  
+</dependency>
+```
+
 - 在配置文件中配置 MySQL
 ```yml
 spring:
@@ -59,14 +70,12 @@ spring:
 
 - 配置 SQL 提示
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143104.png)
-	- 在 idea 的数据库配置中添加数据库
+- 在 idea 的数据库配置中添加数据库
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143555.png)
-	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143538.png)
 - 安装 `MyBatisX` 插件：可以在 <u>xml 文件</u> 与 <u>Mapper 接口</u> 中快速跳转
 
 # 通过注解来实现 MyBatis
-## 基本操作
-### 增删改查
+## 增删改查
 ```java
 //配置实体user类
 package com.example.Pojo;  
@@ -159,16 +168,16 @@ class SpringBootMyBatisApplicationTests {
 修改
 ```
 
->[!hint] 以上的 SQL 语句用了 “#{}” 占位符，就是**预编译SQL语句**
->>=="#{}"不能放在**单引号**或**多引号**之间使用==
+>[!hint] 以上的 SQL 语句用了 `#{}` 占位符，就是**预编译 SQL 语句**
+>>`#{}` 不能放在**单引号**或**多引号**之间使用
 >>如果一定要在引号里进行占位符，可以使用`CONCAT函数`
 >
 >预编译 SQL 语句有两个优点：
 >- 性能高，因为不同参数的 SQL 语句只用编译一遍【MYSQL 有缓存机制】
 >- 安全：防止了 SQL 注入【用户使用输入数据来篡改 SQL 语句】
 
-### 主键返回
->在很多时候我们会在插入一条数据之后，再拿到这条数据的 id。由于不能简单的通过 getId 来获取，所以我们要添加**Options注释**
+## 主键返回
+>在很多时候我们会在插入一条数据之后，再拿到这条数据的 id。由于不能简单的通过 getId 来获取，所以我们要添加 **Options 注释**
 
 - `useGeneratedKeys = true`  表示我们要拿到生成的主键值
 - `keyProperty = "id"`  表示将自动生成的主键值映射到`user`对象的`id`属性
