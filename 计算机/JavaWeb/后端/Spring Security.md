@@ -71,13 +71,23 @@ sequenceDiagram
 ## 登录
 ```mermaid
 sequenceDiagram
-    participant 请求
+    participant 客户端
     participant C AS 自定义Controller登录接口
     participant P AS ProviderManager
     participant D AS DaoAuthenticationProvider
     participant U AS 自定义UserDetailsService
     participant 数据库
 
+	客户端->>C: 提交用户名和密码
+	C->>P: 同理
+	P->>D: 同理
+	D->>U: 同理
+	U->>数据库: 同理
+	数据库->>U: 同理
+	U->>D: 同理
+	D->>P: 同理
+	P->>C: 认证通过，则生成 jwt
+	C->>客户端
 ```
 
 - 自定义登录 Controller 接口，~~不使用 `UsernamePasswordAuthenticationFilter`~~
