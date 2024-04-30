@@ -7,11 +7,28 @@
 - **Spring MVC**：是 Spring 中的一个模块，提供了一种基于 MVC（模型-视图-控制器）设计模式的框架
 - **SSM**：Spring , Spring MVC , MyBatis
 
-# 准备工作
-## 创建 Spring 项目
-- 创建 Spring 模块
-	- 勾选 Web 开发相关依赖
-	![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291445346.png)	![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402291446733.png)
+---
+
+```xml
+<parent>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-parent</artifactId>
+	<version>3.2.0</version>
+	<relativePath/> <!-- lookup parent from repository -->
+</parent>
+
+<dependencies>
+	<dependency>  
+	    <groupId>org.springframework.boot</groupId>  
+	    <artifactId>spring-boot-starter-web</artifactId>  
+	</dependency>  
+	<dependency>  
+	    <groupId>org.springframework.boot</groupId>  
+	    <artifactId>spring-boot-starter-test</artifactId>  
+	    <scope>test</scope>  
+	</dependency>
+</dependencies>
+```
 
 ## 目录结构
 - `.mvn` Maven wrapper 文件

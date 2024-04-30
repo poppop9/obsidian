@@ -180,8 +180,10 @@ public class SercurityConfig {
 @Test  
 public void testPasswordEncoder() {  
     BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();  
+    // 加密
     String encode = bCryptPasswordEncoder.encode("123456");  
     System.out.println(encode);  // $2a$10$OgvYJMWInoiOmGqBCdwrOub3glU9zb5Nm0O0xkcNeAjgMUsSELE5e  
+    
     // 比较明文与密文是否匹配  
     boolean matches = bCryptPasswordEncoder.  
             matches("123456",  

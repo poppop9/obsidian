@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "DDD 架构",
-      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+      "basename": "1-1 SpringBoot + MVC",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1-1 SpringBoot + MVC.md"
+    },
+    {
+      "basename": "4 登录认证",
+      "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
     },
     {
       "basename": "Spring Security",
@@ -13,16 +17,16 @@
       "path": "计算机/JavaWeb/后端/SpringBoot/2 MyBatis.md"
     },
     {
+      "basename": "DDD 架构",
+      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+    },
+    {
       "basename": "Lombok",
       "path": "计算机/JavaWeb/第三方类库/Lombok.md"
     },
     {
       "basename": "3 文件上云",
       "path": "计算机/JavaWeb/后端/SpringBoot/3 文件上云.md"
-    },
-    {
-      "basename": "1 SpringBoot + MVC",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1 SpringBoot + MVC.md"
     },
     {
       "basename": "Nginx",
@@ -195,10 +199,6 @@
     {
       "basename": "权游台词",
       "path": "临时笔记/权游台词.md"
-    },
-    {
-      "basename": "读心术",
-      "path": "临时笔记/读心术.md"
     }
   ],
   "omittedPaths": [],
