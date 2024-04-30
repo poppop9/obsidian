@@ -261,7 +261,7 @@ class SpringBootMyBatisApplicationTests {
 </select>
 ```
 ## 动态更新
-- `<set>`标签可以动态删除语句中的逗号
+- `<set>` 标签可以动态删除语句中的逗号
 ```xml
 <update id="UpdateUser">
     UPDATE user
@@ -338,11 +338,9 @@ public interface UserMapperXml {
 
 在 `application.properties` 文件中配置：
 ```
-#开启MyBatis驼峰命名自动映射开关
+#开启MyBatis驼峰命名自动映射开关，此时a_column字段名 就会自动封装到 aColumn 或 AColumn 属性里
 mybatis.configuration.map-underscore-to-camel-case=true
 ```
-
-此时a_column字段名 就会自动封装到 aColumn 或 AColumn 属性里
 
 ## 输出 MyBatis 日志到控制台
 >配置之后，会在控制台输出要执行的 sql 语句，和各种日志
