@@ -93,7 +93,16 @@ sequenceDiagram
 
 ## 校验
 >[!quote] 校验
->校验 是当用户请求一个受保护的资源时，会检查用户是否已登录，以及用户是否具有访问请求资源的权限。
+>校验 是当用户请求一个受保护的资源时，会检查用户是否已登录，以及用户是否具有访问该资源的权限
+
+```mermaid
+sequenceDiagram
+	participant K AS客户端
+	participant J AS jwt认证过滤器
+	participant 客户端
+
+	K->>J: 携带token发起请求
+```
 
 - 定义 JWT 认证过滤器
 	- 获取 token
