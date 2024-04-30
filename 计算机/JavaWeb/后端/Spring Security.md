@@ -1,5 +1,5 @@
 ```xml
-<!--SpringSecurity-->  
+<!--由于是starter版本，所以不用指定版本号-->  
 <dependency>  
     <groupId>org.springframework.boot</groupId>  
     <artifactId>spring-boot-starter-security</artifactId>  
