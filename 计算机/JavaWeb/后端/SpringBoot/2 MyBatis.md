@@ -47,13 +47,17 @@ graph LR
 - 引入MyBatis，mysql依赖
 ![435](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114095900.png)
 - 在配置文件中配置 MySQL
-```xml
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver  
-spring.datasource.url=jdbc:mysql://localhost:3306/mybatis  
-spring.datasource.username=root  
-spring.datasource.password=13433026660
+```yml
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 连接到localhost:3306服务的，security数据库
+    url: jdbc:mysql://localhost:3306/security
+    username: root
+    password: 13433026660
 ```
-- 配置SQL提示
+
+- 配置 SQL 提示
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143104.png)
 	- 在 idea 的数据库配置中添加数据库
 	![image.png](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/20231114143555.png)
