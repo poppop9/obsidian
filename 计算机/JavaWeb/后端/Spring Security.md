@@ -94,12 +94,14 @@ sequenceDiagram
     C->>客户端: 返回 jwt
 ```
 
-- 自定义 UserDetailsService
+---
+
+- 自定义 UserDetailsService 的实现类
 ```java
 
 ```
 
-- 自定义 UserDetails 实现类
+- 自定义 UserDetails 的实现类
 ```java
 public class LoginUser implements UserDetails {
     // 这个方法返回一个权限集合，表示用户具有的角色。Spring Security中的角色通常以ROLE_开头
