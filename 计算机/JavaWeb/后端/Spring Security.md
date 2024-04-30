@@ -86,7 +86,8 @@ sequenceDiagram
 	D->>U: 
 	U->>数据库: 
 	数据库->>U: 
-	U->>D: 
+	Note over U: 封装自定义的UserDetails对象
+	U->>D: 返回UserDetails对象
 	D->>P: 
     P->>C: 
     Note over C: 认证通过，生成jwt
@@ -98,12 +99,37 @@ sequenceDiagram
 
 - 自定义 UserDetailsService 的实现类
 ```java
+package com.example.spring_security.domain.service.impl.UserDetailsServiceImpl;
 
+@Service
+public class UserDetailsServiceImpl implements UserDetailsService {
+    @Autowired
+    private UserMapper userMapper;
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        // 查询用户信息
+        user user = userMapper.selectByUserName(username);
+        if (user == null) {
+            throw new UsernameNotFoundException("用户不存在");
+        }
+
+        // todo 查询用户对应的权限信息
+
+        // 把用户信息封装成UserDetails对象
+        return new LoginUser(user);
+    }
+}
 ```
 
 - 自定义 UserDetails 的实现类
 ```java
+@Data  
+@NoArgsConstructor  
+@AllArgsConstructor
 public class LoginUser implements UserDetails {
+	private user user;
+	
     // 这个方法返回一个权限集合，表示用户具有的角色。Spring Security中的角色通常以ROLE_开头
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
@@ -111,12 +137,12 @@ public class LoginUser implements UserDetails {
     }
 
     // 返回用户的密码
-    @Override
-    public String getPassword() { return null; }
-
-    // 返回用户的用户名
-    @Override
-    public String getUsername() { return null; }
+	@Override  
+	public String getPassword() { return user.getUserPassword(); }  
+	  
+	// 返回用户的用户名  
+	@Override  
+	public String getUsername() { return user.getUserName(); }
 
 	// 账户是否过期，如果返回false，那么账号就是过期的
     @Override
