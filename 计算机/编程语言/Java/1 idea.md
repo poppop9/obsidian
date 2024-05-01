@@ -19,16 +19,13 @@ get ,set 方法，构造方法   `alt+insert`
 - 查看接口的所有实现类 `ctrl+alt+左键`
 
 # Debug
->帮助我们调试程序和理清代码执行流程
-
-## 调试流程
 - 加断点
 - 右键调试
 - 查看调试窗口
 - 步入，步过程序
 
 # 插件
-- Mybatis
+- `Mybatis`
 - 中文简体
 - `leetcode editor` 在idea里做题
 - `Thief-book` 摸鱼神器【在终端看书】
