@@ -1,17 +1,17 @@
 # 快捷键
 ## 生成语句
-快速生成main()方法   `psvm`
+快速生成 main() 方法   `psvm`
 生成输出语句   `sout`
-get,set方法，构造方法   `alt+insert`
-生成左边对象   `ctrl+alt+v`
+get ,set 方法，构造方法   `alt+insert`
+生成左边对象   `ctrl+alt+v` / 在对象后面输入 `.var`
 
 ## 快捷操作
 - 运行代码   `ctrl+shift+F10`
 - 格式化代码   `ctrl+alt+L`
-
+---
 - 单行注释   `ctrl+/`
 - 多行注释   `ctrl+shift+/`
-
+---
 - 搜索当前类 `ctrl+F`
 - 查看源码   `ctrl+B`
 - 查看类的所有信息   `alt+7`
