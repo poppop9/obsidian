@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2-1 流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md"
+    },
+    {
       "basename": "1-1 基础特性",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "SpringBoot",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md"
-    },
-    {
-      "basename": "2-1 流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md"
     },
     {
       "basename": "1 idea",

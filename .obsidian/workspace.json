@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md"
               }
             }
           },
@@ -207,6 +207,7 @@
   },
   "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md",
@@ -224,7 +225,6 @@
     "计算机/JavaWeb/后端/后端.md",
     "计算机/JavaWeb/后端/Spring Security",
     "计算机/JavaWeb/后端/SpringBoot/2-2 文件上云.md",
-    "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/JavaWeb/后端/SpringBoot/1-3 全局异常处理.md",
     "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
     "计算机/JavaWeb/第三方类库/Lombok.md",
