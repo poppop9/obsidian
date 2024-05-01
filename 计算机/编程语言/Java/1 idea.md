@@ -6,16 +6,18 @@ get,set方法，构造方法   `alt+insert`
 生成左边对象   `ctrl+alt+v`
 
 ## 快捷操作
-运行代码   `ctrl+shift+F10`
-格式化代码   `ctrl+alt+L`
+- 运行代码   `ctrl+shift+F10`
+- 格式化代码   `ctrl+alt+L`
 
-单行注释   `ctrl+/`
-多行注释   `ctrl+shift+/`
+- 单行注释   `ctrl+/`
+- 多行注释   `ctrl+shift+/`
 
-搜索当前类 `ctrl+F`
-查看源码   `ctrl+B`
-查看类的所有信息   `alt+7`
-查看某个类的所有方法 `ctrl+f12`
+- 搜索当前类 `ctrl+F`
+- 查看源码   `ctrl+B`
+- 查看类的所有信息   `alt+7`
+- 查看某个类的所有方法 `ctrl+f12`
+- 查看接口的所有实现类 `ctrl+alt+左键`
+
 # Debug
 >帮助我们调试程序和理清代码执行流程
 
