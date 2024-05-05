@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-2 登录.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-2 登录.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md"
               }
             }
           },
@@ -206,11 +205,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 登录.md",
-    "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md",
     "计算机/JavaWeb/后端/Spring Security/Spring Security.md",
     "计算机/编程语言/Java/3-7 集合.md",
     "计算机/编程语言/Java/1 idea.md",
