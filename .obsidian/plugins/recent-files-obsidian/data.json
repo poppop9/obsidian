@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/后端/Spring Security/2-2 登录.md"
     },
     {
+      "basename": "2-1 默认流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+    },
+    {
       "basename": "2-1 基础语句",
       "path": "计算机/数据库/MySQL/2-1 基础语句.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "JavaWeb Draw",
       "path": "Excalidraw/计算机/JavaWeb Draw.md"
-    },
-    {
-      "basename": "2-1 默认流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
     {
       "basename": "3-7 集合",
