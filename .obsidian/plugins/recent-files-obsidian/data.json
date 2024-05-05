@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2-2 登录",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-2 登录.md"
+    },
+    {
       "basename": "2-1 基础语句",
       "path": "计算机/数据库/MySQL/2-1 基础语句.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "4 登录认证",
       "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
-    },
-    {
-      "basename": "2-2 登录",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-2 登录.md"
     },
     {
       "basename": "JavaWeb Draw",
