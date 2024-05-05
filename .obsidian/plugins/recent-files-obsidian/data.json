@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "1-1 会话管理",
+      "path": "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md"
+    },
+    {
+      "basename": "Spring Security",
+      "path": "计算机/JavaWeb/后端/Spring Security/Spring Security.md"
+    },
+    {
+      "basename": "2-1 流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md"
+    },
+    {
       "basename": "3-7 集合",
       "path": "计算机/编程语言/Java/3-7 集合.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "2-2 登录",
       "path": "计算机/JavaWeb/后端/Spring Security/2-2 登录.md"
-    },
-    {
-      "basename": "2-1 流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md"
     },
     {
       "basename": "1-1 基础特性",
@@ -47,14 +55,6 @@
     {
       "basename": "2-3 校验",
       "path": "计算机/JavaWeb/后端/Spring Security/2-3 校验.md"
-    },
-    {
-      "basename": "1-1 会话管理",
-      "path": "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md"
-    },
-    {
-      "basename": "Spring Security",
-      "path": "计算机/JavaWeb/后端/Spring Security/Spring Security.md"
     },
     {
       "basename": "2-2 文件上云",

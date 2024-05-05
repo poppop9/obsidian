@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/3-7 集合.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/3-7 集合.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md"
               }
             }
           },
@@ -206,11 +205,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "ec1d6ee6a9dbcc6a",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/Spring Security/Spring Security.md",
+    "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md",
+    "计算机/编程语言/Java/3-7 集合.md",
     "计算机/编程语言/Java/1 idea.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 登录.md",
-    "计算机/JavaWeb/后端/Spring Security/2-1 流程分析.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
@@ -222,7 +223,6 @@
     "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md",
     "计算机/JavaWeb/后端/Spring Security/2-3 校验.md",
     "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md",
-    "计算机/JavaWeb/后端/Spring Security/Spring Security.md",
     "计算机/JavaWeb/后端/后端.md",
     "计算机/JavaWeb/后端/Spring Security",
     "计算机/JavaWeb/后端/SpringBoot/2-2 文件上云.md",
