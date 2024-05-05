@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2-2 登录",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-2 登录.md"
+    },
+    {
       "basename": "2-1 默认流程分析",
       "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "3-7 集合",
       "path": "计算机/编程语言/Java/3-7 集合.md"
-    },
-    {
-      "basename": "2-2 登录",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-2 登录.md"
     },
     {
       "basename": "1-1 会话管理",
