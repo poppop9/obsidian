@@ -1,6 +1,7 @@
 {
   "newNotePlaceholder": "Untitled",
   "defaultInitialization": false,
+  "navigatorEnabled": true,
   "filePreviewOnHover": false,
   "flowMenuEnabled": false,
   "markSans": false,
@@ -130,7 +131,6 @@
   "autoMigration08": false,
   "releaseNotesPrompt": 0.9,
   "enableDefaultSpaces": true,
-  "enableTagSpaces": true,
   "showSpacePinIcon": true,
   "minimalFix": false,
   "experimental": false,
@@ -138,5 +138,6 @@
   "defaultSpaceTemplate": "",
   "selectedKit": "default",
   "actionMaxSteps": 100,
+  "enableTagSpaces": true,
   "enableHomeSpace": false
 }
