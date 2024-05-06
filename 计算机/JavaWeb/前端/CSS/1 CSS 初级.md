@@ -611,21 +611,20 @@ p {
 
 ## 其他属性
 ### 装饰
->[!summary] 属性
-> - `initial` 默认值
-> - `inherit` 从其父元素继承属性
->- `text-decoration`  指定线条的位置
->- `text-decoration-style`  指定线条的样式
->	- `solid`  实线
->	- `wavy`  波浪线
->	- `double`  双线
->	- `dotted`  点线
->	- `dashed`  虚线
->- `text-decoration-thickness`  指定线条的粗细
->	- `auto`
->	- `……px`
->	- `……%`
-#### line
+- `initial` 默认值
+- `inherit` 从其父元素继承属性
+- `text-decoration`  指定线条的位置
+- `text-decoration-style`  指定线条的样式
+	- `solid`  实线
+	- `wavy`  波浪线
+	- `double`  双线
+	- `dotted`  点线
+	- `dashed`  虚线
+- `text-decoration-thickness`  指定线条的粗细
+	- `auto`
+	- `……px`
+	- `……%`
+
 ```css
 /* 删除所有文本装饰【常用于删除超链接的下划线】 */
 <p style="text-decoration:none;">hello</p>
