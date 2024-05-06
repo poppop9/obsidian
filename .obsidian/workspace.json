@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
+                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
               }
             }
           },
@@ -208,6 +208,10 @@
   },
   "active": "ec1d6ee6a9dbcc6a",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/CSS/3 CSS 高级.md",
+    "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
+    "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
+    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/数据库/MySQL/2-1 基础语句.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
@@ -233,10 +237,6 @@
     "计算机/JavaWeb/后端/SpringBoot/1-3 全局异常处理.md",
     "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
     "计算机/JavaWeb/第三方类库/Lombok.md",
-    "计算机/Nginx.md",
-    "计算机/Linux/2-2 sed 流编辑器.md",
-    "临时笔记/MarkDown 语法.md",
-    "计算机/JavaWeb/第三方类库/SLF4J.md",
     "计算机/四大件/数据结构与算法/算法",
     "计算机/四大件/数据结构与算法/数据结构",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构",

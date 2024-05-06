@@ -529,19 +529,17 @@ p {
 > - `outline-offset`  轮廓偏移【轮廓与border之间的空间】
 # 文本
 ## 基础属性
-### 颜色，大小，字体，斜粗变体
->[!summary] 属性
->- `color`  指定文本的颜色
->- `font-size`  指定文本的大小【普通文本默认大小为 16px】
->	- `px`
->	- `em`
->	- `vm`
->- `font-family`  指定字体
->	- 有多个字体时，应以逗号分隔
->	- 字体名称不止一个单词，则必须用引号引起来
->- `font-style`  斜体
->- `font-weight`  粗体
->- `font-variant`  变体
+- `color`  指定文本的颜色
+- `font-size`  指定文本的大小【普通文本默认大小为 16px】
+	- `px`
+	- `em`
+	- `vm`
+- `font-family`  指定字体
+	- 有多个字体时，应以逗号分隔
+	- 字体名称不止一个单词，则必须用引号引起来
+- `font-style`  斜体
+- `font-weight`  粗体
+- `font-variant`  变体
 
 ```css
 /* color, font-size, font-family */
@@ -587,21 +585,19 @@ p {
 ```
 
 ## 位置
-### 水平对齐，垂直对齐，方向
->[!summary] 属性
->- `text-align`  水平对齐
->	- `left`
->	- `center`
->	- `right`
->	- `justify`  将文本内容拉伸至每一行都具有相同宽度
->- `vertical-align`  垂直对齐【当文本与其他元素的相对位置】
->	- `top`  其他元素相对于文本位于上部
->	- `middle`  居中
->	- `bottom`
->- `direction`  文本方向
->	- `ltr`   从左到右
->	- `rtl`
->	- `inherit`
+- `text-align`  水平对齐
+	- `left`
+	- `center`
+	- `right`
+- `justify`  将文本内容拉伸至每一行都具有相同宽度
+	- `vertical-align`  垂直对齐【当文本与其他元素的相对位置】
+	- `top`  其他元素相对于文本位于上部
+	- `middle`  居中
+	- `bottom`
+- `direction`  文本方向
+	- `ltr`   从左到右
+	- `rtl`
+	- `inherit`
 
 ```css
 /* vertical-align */
@@ -683,6 +679,11 @@ p.capitalize {
   text-transform: capitalize;  /* 把文本首字母大写 */
 }
 ```
+
+# 图片
+- `object-fit:` 
+	- `contain` 保持宽高比，适应容器
+	- `cover` 图片填满容器
 
 # 列表
 ## 无序列表 ul
