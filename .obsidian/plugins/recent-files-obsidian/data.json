@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
       "basename": "1 CSS 初级",
       "path": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "2-2 认证",
       "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
-    },
-    {
-      "basename": "Maven",
-      "path": "计算机/JavaWeb/后端/Maven.md"
     },
     {
       "basename": "2-1 默认流程分析",
