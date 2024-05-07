@@ -31,11 +31,11 @@ fonts initalization
 	src: url('https://poppop9.github.io/JetBrainsMono-Regular.ttf');
 }
 
-/* 标题2字体 */
-/* @font-face {
-	font-family: 'mellow aaa';
-	src: url('ChillRoundF.ttf');
-} */
+/* 标题3字体 */
+@font-face {
+    font-family: "BorderlineWhite"; 
+    src: url('https://poppop9.github.io/RampartOne-Regular.ttf') format('truetype');
+}
 
 @page {
 	size: A4;
@@ -719,6 +719,7 @@ span.cm-header.cm-header-2 {
 	color: #004faa;
 	font-weight: bold;
 	font-size: 1.86rem !important;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 	position: relative;
 	display: inline-block;
@@ -774,6 +775,7 @@ div.HyperMD-header.HyperMD-header-3.cm-line {
 
 span.cm-header.cm-header-3 {
 	font-size: 1.5rem !important;
+    font-family: "BorderlineWhite", sans-serif;
 }
 
 div.HyperMD-header.HyperMD-header-3.cm-line span.cm-header.cm-header-3:last-child:not(.cm-formatting-escape.cm-header.cm-header-3.cm-hmd-escape-backslash):not(span.cm-escape.cm-header.cm-header-3.cm-hmd-escape-char)::before {
