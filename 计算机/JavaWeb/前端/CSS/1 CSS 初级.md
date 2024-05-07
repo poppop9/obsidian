@@ -312,78 +312,68 @@ h1 {
 
 ## 背景
 >[!quote] 背景
->背景 = padding + 内容
->- **内容为颜色**
+>>背景 = padding + 内容
 >
+>- **内容为颜色**
+> 	- `background-color` 指定背景色【可以为任何HTML元素设置背景颜色】
+> 		- `opacity`  指定透明度【会影响子元素，**使用 RGBa 不会**】
 >- **内容为图片**
+> 	- `background-image: url('链接')` 指定背景图像
 
-- `background-image: url('链接')` 指定背景图像
-
+>[!hint] 默认情况下，`background-image` 在水平和垂直方向上都重复图像，直到铺满整个指定元素
 
 ### 参数
->[!summary] 属性
-> - `background-repeat`  指定背景内容是否重复显示
-> - `background-origin` 模糊的背景位置
-> 	- border-box  从边框的左上角开始
-> 	- padding-box  【默认】从内边距边缘的左上角开始
-> 	- content-box  从内容的左上角开始
-> - `background-position`  指定具体背景的位置
-> - `background-attachment`  指定背景滚动 / 固定
-> - `background-size` 背景的尺寸
-> - `background-clip` 背景的绘制区域
-> 	- border-box  【默认】背景绘制到边框的外部边缘
-> 	- padding-box  背景绘制到内边距的外边缘
-> 	- content-box  在内容框中绘制背景
+- `background-repeat`  指定背景内容是否重复显示
+- `background-origin` 模糊的背景位置
+	- border-box  从边框的左上角开始
+	- padding-box  【默认】从内边距边缘的左上角开始
+	- content-box  从内容的左上角开始
+- `background-position`  指定具体背景的位置
+- `background-attachment`  指定背景滚动 / 固定
+- `background-size` 背景的尺寸
+- `background-clip` 背景的绘制区域
+	- border-box  【默认】背景绘制到边框的外部边缘
+	- padding-box  背景绘制到内边距的外边缘
+	- content-box  在内容框中绘制背景
 
-- 重复
+---
+
 ```css
+/* background-repeat */
 background-repeat: repeat-x;  /* 在水平方向重复 */
 background-repeat: repeat-y;   /* 在垂直方向重复 */
 background-repeat: no-repeat;   /* 不重复 */
 ```
 
->[!hint] 默认情况下，`background-image` 在水平和垂直方向上都重复图像，直到铺满整个指定元素
-
----
-
-- 模糊位置
 ```css
+/* background-origin */
 background-origin: border-box;
 background-origin: padding-box;
 background-origin: content-box;
 ```
 
----
-
-- 具体位置
 ```css
+/* background-position */
 background-position: right top;  /* 右上角 */
 
-// 裁剪图片的这个部分
-background-position: 100px 200px;
+background-position: 100px 200px;  /* 裁剪图片的这个部分 */
 ```
 
----
-
-- 附着
 ```css
+/* background-attachment */
 background-attachment: fixed;  /* 固定 */
 background-attachment: scroll;  /* 滚动 */
 ```
 
----
-
-- 尺寸
 ```css
+/* background-size */
 background-size: 30%;    /* 固定尺寸 */
 background-size: contain;    /* 背景框中会显示完整的最大尺寸的图像 */
 background-size: cover;     /* 背景框中会显示不完整的覆盖整个背景框的图像 */
 ```
 
----
-
-- 绘制区域
 ```css
+/* background-clip */
 background-clip: border-box;
 background-clip: padding-box;
 background-clip: content-box;
