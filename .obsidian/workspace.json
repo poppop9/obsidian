@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
+                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
+                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
               }
             }
           },
@@ -206,8 +206,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12e4938090699372",
+  "active": "d1eac66b910f4030",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
     "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
@@ -233,7 +234,6 @@
     "计算机/JavaWeb/后端/Spring Security/Spring Security.md",
     "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
-    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
