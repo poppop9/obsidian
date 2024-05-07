@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
+      "basename": "7 定时任务",
+      "path": "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
     {
       "basename": "1-1 基础特性",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
-    },
-    {
-      "basename": "7 定时任务",
-      "path": "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md"
     },
     {
       "basename": "OKHttp",
@@ -95,10 +99,6 @@
     {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
     },
     {
       "basename": "2-2 文件上云",

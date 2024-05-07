@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md",
-                "mode": "preview",
+                "file": "临时笔记/草稿纸.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "临时笔记/草稿纸.md"
               }
             }
           },
@@ -206,10 +206,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "d1eac66b910f4030",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md",
+    "计算机/Docker.md",
+    "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/JavaWeb/后端/Maven.md",
@@ -236,7 +237,6 @@
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/后端.md",
     "计算机/JavaWeb/后端/Spring Security",
-    "计算机/JavaWeb/后端/SpringBoot/2-2 文件上云.md",
     "计算机/四大件/数据结构与算法/算法",
     "计算机/四大件/数据结构与算法/数据结构",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构",
