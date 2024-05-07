@@ -434,7 +434,7 @@ p {
 <p style="border-style: dotted dashed solid double;">hello</p>
 
 ### 参数
-#### 宽度
+- **宽度**
 ```css
 /* 直接指定数值 */
 <p style="border-style: groove; border-width: 10px;">hello</p>
@@ -453,7 +453,9 @@ p {
 <p style="border-style: groove; border-width: thick;">hello</p>
 <p style="border-style: groove; border-width: 25px 10px 4px 35px;">hello</p>
 
-#### 颜色
+---
+
+- **颜色**
 ```css
 <p style="border-style: groove; border-color: red;">hello</p>
 
@@ -466,7 +468,9 @@ p {
 <p style="border-style: groove; border-color: red;">hello</p>
 <p style="border-style: groove; border-color: red green blue yellow;">hello</p>
 
-#### 圆角
+---
+
+- 圆角
 - `border-top-left-radius` 左上
 - `border-top-right-radius` 右上
 - `border-bottom-right-radius` 右下
@@ -661,11 +665,10 @@ p.capitalize {
 	- `cover` 图片填满容器
 
 # 列表
-## 无序列表 ul
->[!summary] 属性
->`list-style-type` 设置列表项目标记
->`list-style-image` 用图像作为列表项目标记
->`list-style-positon` 指定列表项目标记的位置
+- **无序列表**  `ul`
+	- `list-style-type` 设置列表项目标记
+	- `list-style-image` 用图像作为列表项目标记
+	- `list-style-positon` 指定列表项目标记的位置
 
 ```css
 list-style-type: circle;
@@ -682,16 +685,18 @@ list-style-position: inside;
 
 ```
 
-## 有序列表 ol
->[!summary] 属性
->`list-style-type` 设置列表项目标记
+---
+
+- **有序列表**  `ol`
+	- `list-style-type` 设置列表项目标记
 
 ```css
 list-style-type: upper-roman;
 list-style-type: lower-alpha;
 ```
+
 # 表格
-## 边框
+- **边框**
 ```css
 table, th, td {
   border: 1px solid black;
@@ -704,7 +709,9 @@ table {
 }
 ```
 
-## 宽高
+---
+
+- **宽高**
 ```css
 table {
   width: 100%;  /* 表格将铺满页面宽度*/
@@ -715,11 +722,15 @@ th {
 }
 ```
 
-## 文本属性
-`text-align` 设置文本水平对齐方式
-`vertical-align` 设置文本垂直对齐方式
+---
 
-## 斑马线表格
+- **文本属性**
+	- `text-align` 设置文本水平对齐方式
+	- `vertical-align` 设置文本垂直对齐方式
+
+---
+
+- **斑马线表格**
 ```css
 /* 使用nth-child选择器选择odd奇数 */
 tr:nth-child(odd) {background-color: #f2f2f2;}
@@ -728,7 +739,9 @@ tr:nth-child(odd) {background-color: #f2f2f2;}
 tr:nth-child(even) {background-color: #f2f2f2;}
 ```
 
-## 滚动条
+---
+
+- **滚动条**
 ```css
 <div style="overflow-x:auto;">  /* 加入overflow属性 */
   <table>
