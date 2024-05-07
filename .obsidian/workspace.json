@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/OKHttp.md",
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
               }
             }
           },
@@ -206,13 +206,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d1eac66b910f4030",
+  "active": "12e4938090699372",
   "lastOpenFiles": [
     "计算机/JavaWeb/第三方类库/OKHttp.md",
+    "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
     "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
     "计算机/Docker.md",
     "计算机/JavaWeb/后端/Maven.md",
-    "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",

@@ -470,11 +470,11 @@ p {
 
 ---
 
-- 圆角
-- `border-top-left-radius` 左上
-- `border-top-right-radius` 右上
-- `border-bottom-right-radius` 右下
-- `border-bottom-left-radius` 左下
+- **圆角**
+	- `border-top-left-radius` 左上
+	- `border-top-right-radius` 右上
+	- `border-bottom-right-radius` 右下
+	- `border-bottom-left-radius` 左下
 
 ```css
 <p style="border-style: groove; border-radius: 12px;">hello</p>
