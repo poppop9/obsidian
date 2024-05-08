@@ -1,8 +1,8 @@
 # 常用标签
 ## 表单\<form\>
-- `action` 指定表单提交时去往的URL地址
+- `action` 指定表单提交时去往的 URL 地址
 - `method` 表单数据的提交方式
-	- **get** 会在URL后面拼接表单数据。【当表单数据很长时不推荐】
+	- **get** 会在URL后面拼接表单数据【当表单数据很长时不推荐】
 	  ```html
 	  <form action="去往的url" method="get">        //action不写默认提交到当前页面
 	  </form>
@@ -160,7 +160,7 @@
 > | step | 规定输入字段的合法数字间隔 |
 
 #### \<datalist>
->为input设置预选值
+>为 input 设置预选值
 
 ```html
 <form action="/demo/demo_form.asp">

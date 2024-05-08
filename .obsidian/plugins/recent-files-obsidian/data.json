@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2 HTML 中级",
+      "path": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
+    },
+    {
       "basename": "3 BootStrap 高级",
       "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+    },
+    {
+      "basename": "1 HTML 初级",
+      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
+    },
+    {
+      "basename": "4-5 IO 流",
+      "path": "计算机/编程语言/Java/4-5 IO 流.md"
     },
     {
       "basename": "1 Bootstrap 初级",
@@ -11,10 +23,6 @@
     {
       "basename": "1 CSS 初级",
       "path": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
-    },
-    {
-      "basename": "4-5 IO 流",
-      "path": "计算机/编程语言/Java/4-5 IO 流.md"
     },
     {
       "basename": "5-4 网络编程",
@@ -191,14 +199,6 @@
     {
       "basename": "2-3 awk",
       "path": "计算机/Linux/2-3 awk.md"
-    },
-    {
-      "basename": "3-1 环境变量，搜索",
-      "path": "计算机/Linux/3-1 环境变量，搜索.md"
-    },
-    {
-      "basename": "3-2 打包，压缩",
-      "path": "计算机/Linux/3-2 打包，压缩.md"
     }
   ],
   "omittedPaths": [],
