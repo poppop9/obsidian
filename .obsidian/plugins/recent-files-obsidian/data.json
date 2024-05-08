@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
       "basename": "1-1 权限",
       "path": "计算机/Linux/1-1 权限.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "2-3 自定义认证页面",
       "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "1-1 安装配置",
