@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2-1 MyBatis",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md"
+    },
+    {
+      "basename": "2-1 默认流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+    },
+    {
       "basename": "1-1 安装配置",
       "path": "计算机/数据库/MySQL/1-1 安装配置.md"
     },
     {
       "basename": "OKHttp",
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
-    },
-    {
-      "basename": "2-1 默认流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
     {
       "basename": "2-3 自定义认证页面",
@@ -127,10 +131,6 @@
     {
       "basename": "Spring Security",
       "path": "计算机/JavaWeb/后端/Spring Security/Spring Security.md"
-    },
-    {
-      "basename": "2-1 MyBatis",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md"
     },
     {
       "basename": "SpringBoot",

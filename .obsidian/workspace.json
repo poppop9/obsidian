@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/MySQL/1-1 安装配置.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/MySQL/1-1 安装配置.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md"
               }
             }
           },
@@ -206,10 +205,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12e4938090699372",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
+    "计算机/数据库/MySQL/1-1 安装配置.md",
+    "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md",
     "计算机/JavaWeb/后端/Spring Security/2-4 授权.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
@@ -233,7 +233,6 @@
     "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/数据库/MySQL/2-1 基础语句.md",
-    "Excalidraw/计算机/JavaWeb Draw.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
