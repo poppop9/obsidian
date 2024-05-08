@@ -1,4 +1,8 @@
 # 表单\<form\>
+>[!hint] 表单按钮在 `<form>` 中，还是外
+>- **表单按钮在 `<form>` 中**：提交表单时会刷新页面
+>- **表单按钮在 `<form>` 外**：提交表单时不会刷新页面
+
 - `action` 指定表单提交时去往的 URL 地址
 - `method` 表单数据的提交方式
 	- **get** 会在URL后面拼接表单数据【当表单数据很长时不推荐】
@@ -203,6 +207,7 @@
     </select><br><br>
 </form>
 ```
+
 <form action="" method="get">
     <select name="degree">
         <option value="0">请选择</option>

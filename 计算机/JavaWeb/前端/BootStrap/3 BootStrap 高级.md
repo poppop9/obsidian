@@ -312,7 +312,7 @@
 		</div>
 	</div>
 </form>
-<!-- button不要放在form的里面 -->
+
 <button class="btn btn-primary d-block mx-auto px-4" type="submit">搜索</button>
 ```
 

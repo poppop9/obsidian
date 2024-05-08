@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
               }
             }
           },
@@ -205,10 +206,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "d1eac66b910f4030",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
+    "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
