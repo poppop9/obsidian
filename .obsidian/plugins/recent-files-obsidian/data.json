@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "MobaXterm",
+      "path": "计算机/Linux/MobaXterm.md"
+    },
+    {
+      "basename": "2-2 指令",
+      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "1-1 权限",
       "path": "计算机/Linux/1-1 权限.md"
-    },
-    {
-      "basename": "2-2 指令",
-      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
     },
     {
       "basename": "2-2 基础语法",
@@ -195,10 +199,6 @@
     {
       "basename": "进程",
       "path": "计算机/Linux/进程.md"
-    },
-    {
-      "basename": "2-1 Vim",
-      "path": "计算机/Linux/2-1 Vim.md"
     }
   ],
   "omittedPaths": [],
