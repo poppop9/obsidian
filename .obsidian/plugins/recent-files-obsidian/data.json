@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "1-1 权限",
+      "path": "计算机/Linux/1-1 权限.md"
+    },
+    {
+      "basename": "1-2 文件目录",
+      "path": "计算机/Linux/1-2 文件目录.md"
+    },
+    {
+      "basename": "4 帮助命令",
+      "path": "计算机/Linux/4 帮助命令.md"
+    },
+    {
+      "basename": "2-3 自定义认证页面",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
@@ -19,10 +35,6 @@
     {
       "basename": "OKHttp",
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
-    },
-    {
-      "basename": "2-3 自定义认证页面",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
     },
     {
       "basename": "2-4 授权",
@@ -177,14 +189,6 @@
       "path": "计算机/Linux/2-1 Vim.md"
     },
     {
-      "basename": "1-2 文件目录",
-      "path": "计算机/Linux/1-2 文件目录.md"
-    },
-    {
-      "basename": "1-1 权限",
-      "path": "计算机/Linux/1-1 权限.md"
-    },
-    {
       "basename": "5 定时任务",
       "path": "计算机/Linux/5 定时任务.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "8 软件安装",
       "path": "计算机/Linux/8 软件安装.md"
-    },
-    {
-      "basename": "MobaXterm",
-      "path": "计算机/Linux/MobaXterm.md"
     }
   ],
   "omittedPaths": [],
