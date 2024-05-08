@@ -69,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
               }
             }
           },
@@ -174,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
               }
             }
           },
@@ -206,10 +205,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/Spring Security/2-4 授权.md",
     "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md",
+    "计算机/JavaWeb/后端/Spring Security/2-4 授权.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/Docker.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
