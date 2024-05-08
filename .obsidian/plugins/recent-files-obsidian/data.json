@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1-1 安装配置",
+      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
+    },
+    {
+      "basename": "OKHttp",
+      "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
+    },
+    {
       "basename": "2-1 默认流程分析",
       "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "3 BootStrap 高级",
       "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
-    },
-    {
-      "basename": "OKHttp",
-      "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
     },
     {
       "basename": "Bootstrap 简化 CSS",
@@ -195,10 +199,6 @@
     {
       "basename": "MobaXterm",
       "path": "计算机/Linux/MobaXterm.md"
-    },
-    {
-      "basename": "娱乐命令",
-      "path": "计算机/Linux/娱乐命令.md"
     }
   ],
   "omittedPaths": [],

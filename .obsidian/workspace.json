@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/OKHttp.md",
-                "mode": "preview",
+                "file": "计算机/数据库/MySQL/1-1 安装配置.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+                "file": "计算机/数据库/MySQL/1-1 安装配置.md"
               }
             }
           },
@@ -173,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+                "file": "计算机/数据库/MySQL/1-1 安装配置.md"
               }
             }
           },
@@ -205,16 +206,16 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "12e4938090699372",
   "lastOpenFiles": [
+    "计算机/JavaWeb/第三方类库/OKHttp.md",
+    "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md",
     "计算机/JavaWeb/后端/Spring Security/2-4 授权.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/Docker.md",
-    "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
-    "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "惠特米勒【.md",
