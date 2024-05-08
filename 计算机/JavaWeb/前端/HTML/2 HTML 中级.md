@@ -1,5 +1,4 @@
-# 常用标签
-## 表单\<form\>
+# 表单\<form\>
 - `action` 指定表单提交时去往的 URL 地址
 - `method` 表单数据的提交方式
 	- **get** 会在URL后面拼接表单数据【当表单数据很长时不推荐】
@@ -47,7 +46,7 @@
 	</fieldset>
 </form>
 
-### \<input>
+## \<input>
 - `type` 
 	- `text` 单行输入字段
 	- `password` 密码字段
@@ -76,8 +75,8 @@
 		- `submit` 提交按钮
 		- `reset` 重置按钮【重置表单数据】
 		- `button` 可点击按钮
-- `name` ***name相同表示是同一个表单项***，必须指定
-- `value` ***规定输入字段的初始值***
+- `name` **name 相同表示是同一个表单项**，必须指定
+- `value` **规定输入字段的初始值**
 - `autocomplete` 是否记录用户上次填写的数据
 	- **on** 可以在下一次填写时，记忆上次填写的内容
 	- **off**
@@ -85,9 +84,9 @@
 - `multiple` 允许输入多个值【适用于 `file`，`email`】
 - `placeholder` 输入值时的提示
 
-- `formaction` 指定按钮的提交地址，***会覆盖 `<form>` 表单的 `action`***
-- `formenctype` 指定按钮的提交编码，***会覆盖 `<form>` 的 `enctype`***
-- `formmethod` 指定按钮的提交方式，***会覆盖 `<form>` 的 `method`***
+- `formaction` 指定按钮的提交地址，**会覆盖 `<form>` 表单的 `action`**
+- `formenctype` 指定按钮的提交编码，**会覆盖 `<form>` 的 `enctype`**
+- `formmethod` 指定按钮的提交方式，**会覆盖 `<form>` 的 `method`**
 
 ---
 ```html
@@ -153,13 +152,13 @@
 > | maxlength | 规定输入字段的最大字符数 |
 > | min | 规定输入字段的最小值 |
 > | pattern | 规定检查输入值的正则表达式 |
-> | ***readonly*** | 规定输入字段为只读（无法修改），可提交 |
-> | ***disabled*** | 规定输入字段被禁用，不可修改，不可提交 |
+> | **readonly** | 规定输入字段为只读（无法修改），可提交 |
+> | **disabled** | 规定输入字段被禁用，不可修改，不可提交 |
 > | required | 规定输入字段是必需的 |
 > | size | 规定输入字段的宽度（以字符计） |
 > | step | 规定输入字段的合法数字间隔 |
 
-#### \<datalist>
+### \<datalist>
 >为 input 设置预选值
 
 ```html
@@ -187,8 +186,8 @@
 	<input type="submit">
 </form>
 
-### 下拉表单\<select>
-#### \<option>
+## 下拉表单\<select>
+### \<option>
 >定义选项
 
   - `selected` 可以指定预选项，不指定则默认第一个
@@ -214,7 +213,7 @@
     </select><br><br>
 </form>
 
-### \<textarea>
+## \<textarea>
 ```html
 <form action="" method="get">
     描述:<textarea name="description" cols="30" rows="10">aaa</textarea><br><br>
@@ -224,7 +223,7 @@
     描述:<textarea name="description" cols="30" rows="10">aaa</textarea><br><br>
 </form>
 
-## 网页内网页\<ifame>
+# 网页内网页\<ifame>
 ```html
 /* 单击链接，会iframe里的内容就会跳转到b站 */
 <iframe src="https://www.baidu.com/" name="baidu" width="700" height="200"></iframe>
@@ -235,7 +234,7 @@
 ## 画布\<Canvas>
 >`<canvas>` 元素使用 `JavaScript` 绘制图像
 
-1. 规定id，高度，宽度
+1. 规定 id，高度，宽度
 	```html
 	<canvas id="myCanvas" width="200" height="100"></canvas>
 	```
@@ -255,6 +254,7 @@ cxt.fillRect(0,0,150,75);
 >- 适合需要频繁重绘场景【因为只需要修改部分像素】
 
 https://www.w3school.com.cn/graphics/canvas_intro.asp
+
 ## 矢量图\<SVG>
 >SVG 指可伸缩矢量图形，使用 XML 格式定义图形
 
@@ -262,13 +262,13 @@ https://www.w3school.com.cn/graphics/canvas_intro.asp
 > - 支持事件处理
 > - SVG 图像可通过文本编辑器来创建和修改
 > - SVG 图像可被脚本化【利用JavaScript实现交互性，动态效果】
-> - ***SVG放大，其图形质量不会有损失***
+> - **SVG放大，其图形质量不会有损失**
 > - 不如 `canvas` 快
 
-==<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="190">
   <polygon points="100,10 40,180 190,60 10,60 160,180"
   style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
-</svg>==
+</svg>
 
 https://www.w3school.com.cn/graphics/svg_intro.asp
 

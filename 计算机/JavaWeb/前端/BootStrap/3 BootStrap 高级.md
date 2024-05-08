@@ -301,7 +301,6 @@
 ## 表单验证
 - 用 `<form>` 包起来
 - 设置按钮 `type="submit"`
-- 为 `<input>` 标签添加 `required` 属性
 
 ```html
 <form>
