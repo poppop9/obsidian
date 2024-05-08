@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Docker.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
               }
             }
           },
@@ -174,7 +174,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
               }
             }
           },
@@ -206,8 +206,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d1eac66b910f4030",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/Spring Security/2-4 授权.md",
+    "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md",
+    "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
+    "计算机/Docker.md",
+    "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
@@ -220,20 +225,15 @@
     "计算机/编程语言/Java/5-4 网络编程.md",
     "计算机/编程语言/Java/3-2 日期时间.md",
     "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
-    "计算机/Docker.md",
     "计算机/JavaWeb/后端/Maven.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
-    "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
-    "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/JavaWeb/前端/CSS/3 CSS 高级.md",
     "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/数据库/MySQL/2-1 基础语句.md",
-    "计算机/JavaWeb/后端/Spring Security/2-3 授权.md",
     "Excalidraw/计算机/JavaWeb Draw.md",
-    "计算机/编程语言/Java/5-2 类加载器.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
