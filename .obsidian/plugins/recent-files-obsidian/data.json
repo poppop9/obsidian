@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "2-3 自定义认证页面",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
+      "basename": "SLF4J",
+      "path": "计算机/JavaWeb/第三方类库/SLF4J.md"
+    },
+    {
+      "basename": "Jackson",
+      "path": "计算机/JavaWeb/第三方类库/Jackson.md"
     },
     {
       "basename": "JWT",
       "path": "计算机/JavaWeb/后端/Spring Security/JWT.md"
+    },
+    {
+      "basename": "2-3 自定义认证页面",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
     },
     {
       "basename": "4-1 定时任务",
@@ -27,10 +35,6 @@
     {
       "basename": "2-2 认证",
       "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
-    },
-    {
-      "basename": "Jackson",
-      "path": "计算机/JavaWeb/第三方类库/Jackson.md"
     },
     {
       "basename": "Obsidian 特殊语法",
@@ -195,10 +199,6 @@
     {
       "basename": "Spring Security",
       "path": "计算机/JavaWeb/后端/Spring Security/Spring Security.md"
-    },
-    {
-      "basename": "SpringBoot",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md"
     }
   ],
   "omittedPaths": [],
