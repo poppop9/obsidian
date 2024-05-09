@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/WindTerm.md",
+                "file": "计算机/Linux/终端工具.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,17 +60,15 @@
             }
           },
           {
-            "id": "15c2a3a18cd1e1e2",
+            "id": "972b776af2e1b8e6",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/计算机/JavaWeb Draw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Axios.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -174,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Axios.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -206,14 +204,15 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12e4938090699372",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/Linux/终端工具.md",
+    "计算机/Docker.md",
     "计算机/Linux/WindTerm.md",
     "计算机/Linux/MobaXterm.md",
-    "计算机/JavaWeb/前端/Vue/2-2 指令.md",
-    "计算机/Docker.md",
-    "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
     "计算机/JavaWeb/前端/Axios.md",
+    "计算机/JavaWeb/前端/Vue/2-2 指令.md",
+    "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
     "计算机/Linux/1-1 权限.md",
     "计算机/JavaWeb/前端/Vue/2-2 基础语法.md",
     "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md",
@@ -233,7 +232,6 @@
     "惠特米勒【.md",
     "计算机/编程语言/Java/4-5 IO 流.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
-    "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
