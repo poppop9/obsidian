@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前后端开发规范.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/Axios.md",
+                "file": "计算机/JavaWeb/第三方类库/OKHttp.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前后端开发规范.md"
+                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前后端开发规范.md"
+                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
               }
             }
           },
@@ -204,13 +204,14 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "12e4938090699372",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/Axios.md",
+    "计算机/JavaWeb/前后端开发规范.md",
     "计算机/Docker.md",
     "计算机/Linux/终端工具.md",
     "计算机/Linux/WindTerm.md",
     "计算机/Linux/MobaXterm.md",
-    "计算机/JavaWeb/前端/Axios.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
     "计算机/JavaWeb/前端/HTML/2 HTML 中级.md",
     "计算机/Linux/1-1 权限.md",
@@ -231,7 +232,6 @@
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "惠特米勒【.md",
     "计算机/编程语言/Java/4-5 IO 流.md",
-    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
