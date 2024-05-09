@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
     },
     {
+      "basename": "2-1 默认流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+    },
+    {
       "basename": "前后端开发规范",
       "path": "计算机/JavaWeb/前后端开发规范.md"
     },
@@ -23,10 +27,6 @@
     {
       "basename": "Docker",
       "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "2-1 默认流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
     {
       "basename": "终端工具",
