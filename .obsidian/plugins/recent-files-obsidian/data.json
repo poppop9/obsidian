@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2-2 认证",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
+    },
+    {
+      "basename": "2-3 自定义认证页面",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
+    },
+    {
       "basename": "Jackson",
       "path": "计算机/JavaWeb/第三方类库/Jackson.md"
     },
@@ -17,10 +25,6 @@
       "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
     {
-      "basename": "2-2 认证",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
-    },
-    {
       "basename": "JavaWeb",
       "path": "计算机/JavaWeb/JavaWeb.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "编程语言",
       "path": "计算机/编程语言/编程语言.md"
-    },
-    {
-      "basename": "2-3 自定义认证页面",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
     },
     {
       "basename": "前后端开发规范",
