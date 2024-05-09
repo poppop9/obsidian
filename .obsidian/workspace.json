@@ -65,14 +65,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/Obsidian 特殊语法.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/第三方类库/Jackson.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+                "file": "计算机/JavaWeb/第三方类库/Jackson.md"
               }
             }
           },
@@ -176,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+                "file": "计算机/JavaWeb/第三方类库/Jackson.md"
               }
             }
           },
@@ -208,18 +209,18 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "972b776af2e1b8e6",
   "lastOpenFiles": [
+    "临时笔记/Obsidian 特殊语法.md",
+    "计算机/编程语言/Java/5-5 Servlet.md",
+    "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/JavaWeb/JavaWeb.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
-    "计算机/编程语言/Java/5-5 Servlet.md",
-    "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/编程语言/Java/Java.md",
     "计算机/编程语言/编程语言.md",
     "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md",
     "计算机/JavaWeb/前后端开发规范.md",
-    "临时笔记/Obsidian 特殊语法.md",
     "临时笔记/草稿纸.md",
     "计算机/Linux/1-2 文件目录.md",
     "计算机/Docker.md",
