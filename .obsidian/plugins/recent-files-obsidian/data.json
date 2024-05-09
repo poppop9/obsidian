@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "4-1 定时任务",
+      "path": "计算机/JavaWeb/后端/SpringBoot/4-1 定时任务.md"
+    },
+    {
+      "basename": "JWT",
+      "path": "计算机/JavaWeb/后端/Spring Security/JWT.md"
+    },
+    {
       "basename": "2-3 自定义认证页面",
       "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
     },
@@ -15,14 +23,6 @@
     {
       "basename": "Jackson",
       "path": "计算机/JavaWeb/第三方类库/Jackson.md"
-    },
-    {
-      "basename": "JWT",
-      "path": "计算机/JavaWeb/后端/Spring Security/JWT.md"
-    },
-    {
-      "basename": "4-1 定时任务",
-      "path": "计算机/JavaWeb/后端/SpringBoot/4-1 定时任务.md"
     },
     {
       "basename": "1-4 测试",
