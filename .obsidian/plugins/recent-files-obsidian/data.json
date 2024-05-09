@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2-2 认证",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
+    },
+    {
+      "basename": "2-3 自定义认证页面",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
     {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
-      "basename": "2-2 认证",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
     },
     {
       "basename": "4-1 类与对象",
@@ -59,10 +63,6 @@
     {
       "basename": "JWT",
       "path": "计算机/JavaWeb/后端/Spring Security/JWT.md"
-    },
-    {
-      "basename": "2-3 自定义认证页面",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
     },
     {
       "basename": "Jackson",
