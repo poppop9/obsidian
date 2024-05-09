@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
+      "basename": "DDD 架构",
+      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+    },
+    {
+      "basename": "2-2 认证",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
+    },
+    {
       "basename": "4-1 类与对象",
       "path": "计算机/编程语言/Java/4-1 类与对象.md"
     },
@@ -41,10 +53,6 @@
       "path": "计算机/JavaWeb/后端/SpringBoot/4-1 定时任务.md"
     },
     {
-      "basename": "DDD 架构",
-      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
       "basename": "SLF4J",
       "path": "计算机/JavaWeb/第三方类库/SLF4J.md"
     },
@@ -55,10 +63,6 @@
     {
       "basename": "2-3 自定义认证页面",
       "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
-    },
-    {
-      "basename": "2-2 认证",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
     },
     {
       "basename": "Jackson",
@@ -111,10 +115,6 @@
     {
       "basename": "1-2 文件目录",
       "path": "计算机/Linux/1-2 文件目录.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "终端工具",
