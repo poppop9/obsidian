@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "前后端开发规范",
-      "path": "计算机/JavaWeb/前后端开发规范.md"
+      "basename": "2-3 自定义认证页面",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
     },
     {
       "basename": "1-2 文件目录",
       "path": "计算机/Linux/1-2 文件目录.md"
+    },
+    {
+      "basename": "2-2 认证",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
+      "basename": "2-1 默认流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+    },
+    {
+      "basename": "终端工具",
+      "path": "计算机/Linux/终端工具.md"
+    },
+    {
+      "basename": "前后端开发规范",
+      "path": "计算机/JavaWeb/前后端开发规范.md"
     },
     {
       "basename": "OKHttp",
@@ -19,10 +35,6 @@
     {
       "basename": "Axios",
       "path": "计算机/JavaWeb/前端/Axios.md"
-    },
-    {
-      "basename": "终端工具",
-      "path": "计算机/Linux/终端工具.md"
     },
     {
       "basename": "2-2 指令",
@@ -57,24 +69,12 @@
       "path": "计算机/Linux/4 帮助命令.md"
     },
     {
-      "basename": "2-3 自定义认证页面",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
-    },
-    {
       "basename": "1-1 安装配置",
       "path": "计算机/数据库/MySQL/1-1 安装配置.md"
     },
     {
-      "basename": "2-1 默认流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
-    },
-    {
       "basename": "2-4 授权",
       "path": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md"
-    },
-    {
-      "basename": "2-2 认证",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
     },
     {
       "basename": "Bootstrap 简化 CSS",
