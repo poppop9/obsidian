@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Servlet",
+      "path": "计算机/JavaWeb/第三方类库/Servlet.md"
+    },
+    {
       "basename": "2-2 认证",
       "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2-2 sed 流编辑器",
       "path": "计算机/Linux/2-2 sed 流编辑器.md"
-    },
-    {
-      "basename": "MarkDown 语法",
-      "path": "临时笔记/MarkDown 语法.md"
     }
   ],
   "omittedPaths": [],
