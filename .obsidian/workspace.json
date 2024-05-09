@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/前后端开发规范.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
+                "file": "计算机/JavaWeb/前后端开发规范.md"
               }
             }
           },
@@ -172,7 +172,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/OKHttp.md"
+                "file": "计算机/JavaWeb/前后端开发规范.md"
               }
             }
           },
@@ -204,8 +204,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "12e4938090699372",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/前端/Axios.md",
     "计算机/JavaWeb/前后端开发规范.md",
     "计算机/Docker.md",
@@ -225,7 +226,6 @@
     "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md",
     "计算机/数据库/MySQL/1-1 安装配置.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
-    "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/后端/Spring Security/2-4 授权.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
