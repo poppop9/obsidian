@@ -10,7 +10,7 @@ $$
 
 ## 充血模型
 >[!quote] 贫血模型
->贫血模型就是 MVC 中的 pojo 类，里面只有属性，和 `get()`，`set()`方法
+>贫血模型就是 MVC 中的 pojo 类，里面只有属性，和 `get()`，`set()` 方法
 > 
 > ```java
 > public class Account {
