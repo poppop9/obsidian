@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "2-3 自定义认证页面",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
+    },
+    {
+      "basename": "JWT",
+      "path": "计算机/JavaWeb/后端/Spring Security/JWT.md"
+    },
+    {
+      "basename": "4-1 定时任务",
+      "path": "计算机/JavaWeb/后端/SpringBoot/4-1 定时任务.md"
+    },
+    {
+      "basename": "1-4 测试",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md"
+    },
+    {
       "basename": "3-1 事务管理，AOP",
       "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
-    },
-    {
-      "basename": "6 测试",
-      "path": "计算机/JavaWeb/后端/SpringBoot/6 测试.md"
-    },
-    {
-      "basename": "4 登录认证",
-      "path": "计算机/JavaWeb/后端/SpringBoot/4 登录认证.md"
     },
     {
       "basename": "5-5 Servlet",
@@ -19,10 +27,6 @@
     {
       "basename": "2-2 认证",
       "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
-    },
-    {
-      "basename": "2-3 自定义认证页面",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
     },
     {
       "basename": "Jackson",
@@ -147,10 +151,6 @@
     {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
-      "basename": "7 定时任务",
-      "path": "计算机/JavaWeb/后端/SpringBoot/7 定时任务.md"
     },
     {
       "basename": "1-1 基础特性",
