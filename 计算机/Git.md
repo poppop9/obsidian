@@ -1,4 +1,3 @@
-# 配置
 ## 三大配置文件
 - `--system` 会读写 `/etc/gitconfig` 文件：影响<u>所有用户</u>的 Git 环境
 - `--global` 会读写 `~/.gitconfig` 文件：对<u>当前用户</u>的<u>所有 Git 项目</u>生效
