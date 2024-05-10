@@ -1,8 +1,8 @@
 # 安装 创建
-- 解压`apache-maven-3.8.8-bin,zip`
+- 解压 `apache-maven-3.8.8-bin,zip`
 - 配置本地仓库
-	- 在Maven根目录下新建`mvn_repo文件夹`来当作本地仓库
-	- 在`conf`文件夹下的`setting.xml`中添加一行本地仓库路径
+	- 在 Maven 根目录下新建 `mvn_repo文件夹` 来当作本地仓库
+	- 在 `conf` 文件夹下的 `setting.xml` 中添加一行本地仓库路径
 		```xml
 		  <!-- localRepository
 		   | The path to the local repository maven will use to store artifacts.
@@ -12,7 +12,8 @@
 		  -->
 		  <localRepository>D:\apache-maven-3.9.6\mvn_repo</localRepository>
 		```
-- 在`conf`文件夹下的`setting.xml`中配置阿里云私服
+
+- 在 `conf` 文件夹下的 `setting.xml` 中配置阿里云私服
 	```xml
 	  <mirrors>
 	    <mirror>
@@ -32,33 +33,36 @@
 	    </mirror>
 	  </mirrors>
 	```
-- 配置环境变量
->为了在任何目录下都可以运行Maven指令
-- 在cmd中运行`mvn -v`测试版本号
-## Maven目录结构
-- `bin` 可执行文件
-- `boot`
-- `conf` 配置文件
-- `lib` jar包资源
-## 在idea中安装
-### 配置单个项目
-- 设置-构建-构建工具-Maven
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031421719.png)
-- 设置-构建-构建工具-Maven-runner
-查看 jre 的配置是否正确
-- 设置-构建-构建工具-compiler-java complier
-配置正确的字节码版本
-### 配置全局项目【推荐】
+
+- 配置环境变量：为了在任何目录下都可以运行 Maven 指令
+- 在 cmd 中运行 `mvn -v` 测试版本号
+
+>[!quote] Maven 目录结构
+> - `bin` 可执行文件
+> - `boot`
+> - `conf` 配置文件
+> - `lib` jar包资源
+
+## 在 idea 中安装 Maven 项目
+>[!hint] 配置单个项目
+> - 设置-构建-构建工具-Maven
+> ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031421719.png)
+> - 设置-构建-构建工具-Maven-runner：查看 jre 的配置是否正确
+> - 设置-构建-构建工具-compiler-java complier：配置正确的字节码版本
+
+>[!hint] 配置全局项目【推荐】
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031422200.png)
 
-## 在idea中创建Maven项目
-- 新建Maven模块
+## 在 idea 中创建 Maven 项目
+- 新建 Maven 模块
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031422374.png)
 - 设置信息
 ![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031422705.png)
 
 # 基本概念
->Maven是构建和管理Java项目的工具
+>[!quote] Maven
+>Maven 是构建和管理 Java 项目的工具
+
 ## 作用
 ### 更好的依赖管理
 - 不用手动导入 `jar` 包，只需在 `pom.xml` 文件中声明 `jar包名` 和 `对应版本` 即可，Maven 会自动联网下载
@@ -68,18 +72,18 @@
 			- 若私服仓库没有，则从中央仓库下载到私服仓库，再到本地仓库 
 - 后续需要更新 `jar` 包的版本也只需要更改声明中的版本号即可，不需要手动连锁改动
 ### 统一项目结构
->Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发软件开发出来的项目可以互相移植**
+Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发软件开发出来的项目可以互相移植**
 
-#### 项目目录结构
+>[!quote] 项目目录结构
 - `Maven-project`
 	- `src`
 		- `main` 实际项目资源
-			- `java` java源代码
+			- `java` java 源代码
 			- `resources` 配置文件
 		- `test` 测试项目资源
-			- `java` 测试相关的java源代码
+			- `java` 测试相关的 java 源代码
 			- `resources` 测试相关的配置文件
-		- `pom.xml` Maven的核心配置文件
+		- `pom.xml` Maven 的核心配置文件
 			- Maven坐标
 				```xml
 				<groupId>org.example</groupId>  //组织名称【通常是域名反写】
