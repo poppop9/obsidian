@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
     },
     {
+      "basename": "2-1 默认流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+    },
+    {
       "basename": "4-5 IO 流",
       "path": "计算机/编程语言/Java/4-5 IO 流.md"
     },
@@ -91,10 +95,6 @@
     {
       "basename": "Obsidian 特殊语法",
       "path": "临时笔记/Obsidian 特殊语法.md"
-    },
-    {
-      "basename": "2-1 默认流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
     {
       "basename": "JavaWeb",
