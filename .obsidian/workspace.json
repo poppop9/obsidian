@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/3-1 高级.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/3-1 高级.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/3-1 高级.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md"
               }
             }
           },
@@ -211,8 +211,8 @@
   },
   "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/Spring Security/3-1 多点登录.md",
     "计算机/JavaWeb/后端/Spring Security/3-1 高级.md",
+    "计算机/JavaWeb/后端/Spring Security/3-1 多点登录.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
