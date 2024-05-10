@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "临时笔记/MarkDown 语法.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -211,8 +211,9 @@
   },
   "active": "972b776af2e1b8e6",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "临时笔记/MarkDown 语法.md",
+    "临时笔记/草稿纸.md",
+    "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/JavaWeb/后端/Spring Security/2-4 授权.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/JavaWeb/前端/Svelte.md",
@@ -236,7 +237,6 @@
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/编程语言/Java/3-7 集合.md",
     "计算机/编程语言/Java/3-6 修饰符.md",
-    "计算机/编程语言/Java/3-5 异常.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
