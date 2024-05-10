@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/3-1 多点登录.md",
+                "file": "计算机/JavaWeb/后端/Spring Security/3-1 高级.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/3-1 多点登录.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/3-1 高级.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/3-1 多点登录.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/3-1 高级.md"
               }
             }
           },
@@ -211,8 +211,9 @@
   },
   "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/JavaWeb/后端/Spring Security/3-1 多点登录.md",
+    "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
+    "计算机/JavaWeb/后端/Spring Security/3-1 高级.md",
     "计算机/编程语言/Java/4-5 IO 流.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md",
@@ -236,7 +237,6 @@
     "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md",
     "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md",
     "临时笔记/Obsidian 特殊语法.md",
-    "计算机/JavaWeb/JavaWeb.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
