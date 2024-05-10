@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "3-1 多点登录",
+      "path": "计算机/JavaWeb/后端/Spring Security/3-1 多点登录.md"
+    },
+    {
       "basename": "2-2 认证",
       "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
+    },
+    {
+      "basename": "4-5 IO 流",
+      "path": "计算机/编程语言/Java/4-5 IO 流.md"
     },
     {
       "basename": "2-1 默认流程分析",
@@ -11,10 +19,6 @@
     {
       "basename": "2-3 自定义认证页面",
       "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
-    },
-    {
-      "basename": "4-5 IO 流",
-      "path": "计算机/编程语言/Java/4-5 IO 流.md"
     },
     {
       "basename": "1 基础",
@@ -195,10 +199,6 @@
     {
       "basename": "Maven",
       "path": "计算机/JavaWeb/后端/Maven.md"
-    },
-    {
-      "basename": "1-1 基础特性",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
     }
   ],
   "omittedPaths": [],
