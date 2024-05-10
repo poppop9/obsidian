@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "娱乐命令",
+      "path": "计算机/Linux/娱乐命令.md"
+    },
+    {
       "basename": "走进 Java",
       "path": "计算机/编程语言/Java/JVM 虚拟机/走进 Java.md"
+    },
+    {
+      "basename": "2-1 默认流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
     {
       "basename": "Untitled",
@@ -27,10 +35,6 @@
     {
       "basename": "2-2 认证",
       "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
-    },
-    {
-      "basename": "2-1 默认流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
     {
       "basename": "1-1 基础特性",
@@ -195,10 +199,6 @@
     {
       "basename": "2-2 基础语法",
       "path": "计算机/JavaWeb/前端/Vue/2-2 基础语法.md"
-    },
-    {
-      "basename": "2-1 MyBatis",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md"
     }
   ],
   "omittedPaths": [],
