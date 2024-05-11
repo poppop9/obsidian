@@ -31,8 +31,10 @@ Java 技术体系可以分为以下四条主要的产品线：
 # Java 发展史
 - `JDK 1.0` 提供了一个纯解释执行的 Java 虚拟机实现，Applet，AWT ……
 - `JDK 1.1` JAR 文件格式，JDBC，JavaBeans，RMI ……
-- `JDK 1.2` EJB，Java Plug-in，Java IDL，Swing …… ，在 Java 虚拟机中第一次内置了 JIT (Just In Time) 即时编译器
+- `JDK 1.2` EJB，Java Plug-in，Java IDL，Swing …… ；在 Java 虚拟机中第一次内置了 JIT 【~~Just In Time~~】 即时编译器；添加了 strictfp 关键字，Collections 集合类 ……
 
+>[!quote] JIT 即时编译器
+>JIT 编译器在程序运行时将<u>热点代码</u>【被频繁执行的代码】编译为机器代码，这样就可以直接执行，而不需要再解释字节码，大大提高了执行效率
 
 
 
