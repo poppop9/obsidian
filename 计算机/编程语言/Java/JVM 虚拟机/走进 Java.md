@@ -29,8 +29,9 @@ Java 技术体系可以分为以下四条主要的产品线：
 - Java EE【~~Enterprise Edition~~】：支持使用多层架构的企业应用（如ERP、MIS、CRM应用）的 Java 平台，除了提供 Java SE API 外，还对其做了大量有针对性的扩充，并提供了相关的部署支持
 
 # Java 发展史
+- `JDK 1.0` 提供了一个纯解释执行的 Java 虚拟机实现，Applet，AWT ……
 - `JDK 1.1` JAR 文件格式，JDBC，JavaBeans，RMI ……
-- `JDK 1.2` EJB，Java Plug-in，Java IDL，Swing …… ，在 Java 虚拟机中第一次内置了JIT (Just In Time)即时编译器
+- `JDK 1.2` EJB，Java Plug-in，Java IDL，Swing …… ，在 Java 虚拟机中第一次内置了 JIT (Just In Time) 即时编译器
 
 
 
