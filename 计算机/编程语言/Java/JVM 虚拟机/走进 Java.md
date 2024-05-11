@@ -27,7 +27,7 @@ Java 技术体系可以分为以下四条主要的产品线：
 - Java SE【~~Standard Edition~~】：支持面向桌面级应用的 Java 平台，提供了完整的 Java 核心 API
 - Java EE【~~Enterprise Edition~~】：支持使用多层架构的企业应用（如ERP、MIS、CRM应用）的 Java 平台，除了提供 Java SE API 外，还对其做了大量有针对性的扩充，并提供了相关的部署支持
 
-# Java 发展史
+# JDK 版本演进过程
 - `JDK 1.0` 提供了一个纯解释执行的 Java 虚拟机实现，Applet，AWT ……
 - `JDK 1.1` JAR 文件格式，JDBC，JavaBeans，RMI ……
 - `JDK 1.2` EJB，Java Plug-in，Java IDL，Swing …… ；添加了 HotSpot 虚拟机，在 Java 虚拟机中第一次内置了 JIT 【~~Just In Time~~】 即时编译器；添加了 strictfp 关键字，Collections 集合类 ……
@@ -41,11 +41,13 @@ Java 技术体系可以分为以下四条主要的产品线：
 - `JDK 9` 引入了 Jigsaw 模块化系统【~~把 Java 的庞大的运行时环境 JRE 分解为一系列可互换的模块，这样开发者可以只选择他们需要的模块来构建应用，从而减少应用的大小和复杂度~~】；支持 HTTP 2 客户端 API 等 91 个 JEP
 - `JDK 10` 内部重构【统一源仓库，统一垃圾收集器接口，统一即时编译器接口 ……】
 - `JDK 11` 引入 ZGC 垃圾收集器
-- `JDK 12` Switch 表达式、Java 微测试套件 ……；引入了 Shen-andoah 垃圾收集器
+- `JDK 12` Switch 表达式、Java 微测试套件 ……
 
 >[!quote] JIT 即时编译器
 >JIT 编译器在程序运行时将<u>热点代码</u>【被频繁执行的代码】编译为机器代码，这样就可以直接执行，而不需要再解释字节码，大大提高了执行效率
 
+# JVM 家族的变迁
+- `Sun Classic/Exact VM` 虚拟机始祖，
 
 
 
