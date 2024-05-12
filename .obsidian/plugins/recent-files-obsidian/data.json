@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
     {
+      "basename": "2-2 认证",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
+    },
+    {
       "basename": "2-4 授权",
       "path": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "2-1 Java 的理论知识",
       "path": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
-    },
-    {
-      "basename": "2-2 认证",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
     },
     {
       "basename": "2-3 自定义认证页面",
