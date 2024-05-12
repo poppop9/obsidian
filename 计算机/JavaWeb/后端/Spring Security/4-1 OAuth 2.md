@@ -28,8 +28,9 @@
 
 # 授权模式
 >[!quote] 四种授权模式
->- **隐藏式**：最简单，适用于chun
->- **授权码式**：最常用，最复杂，最安全
+>- **隐藏式**：最简单，适用于纯前端网站
+>- **授权码式**：最常用，最复杂，最安全，适用于前后端分离网站
+>- **密码式**：最不安全，适用于公司内部高度信任的两个系统之间使用
 
 
 ## 授权码式
@@ -48,15 +49,35 @@ sequenceDiagram
 ```
 
 
+## 隐藏式
+```mermaid
+sequenceDiagram
+	participant D as 第三方应用
+	participant S as 授权服务器
+	participant Y as 用户
+
+	D->>S: 给我Token
+	S->>Y: 要授权给第三方应用吗
+	Y->>S: 同意授权
+	S->>D: 返回Token
+```
+
+## 密码式
+```mermaid
+sequenceDiagram
+	participant D as 第三方应用
+	participant S as 授权服务器
+
+	D->>S: 携带资源服务器的用户名，密码，请求Token
+	S->>S: 校验用户名和密码
+	S->>D: 正确
+	D->>S: 携带授权码请求Token
+	S->>D: 返回Token
+```
 
 
 
-- 隐藏式
-- 密码
-- 客户端凭证式
-
-
-- **多种授权模式**：包括授权码模式、隐式授权模式、密码模式、客户端模式 ……
+## 客户端凭证式
 
 
 
