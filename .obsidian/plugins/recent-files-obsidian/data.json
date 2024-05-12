@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "2-4 授权",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md"
+    },
+    {
+      "basename": "2-1 Java 的理论知识",
+      "path": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
+    },
+    {
+      "basename": "2-2 认证",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
+    },
+    {
+      "basename": "2-3 自定义认证页面",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
+    },
+    {
       "basename": "自动内存管理",
       "path": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
     },
@@ -11,14 +27,6 @@
     {
       "basename": "走进 Java",
       "path": "计算机/编程语言/Java/JVM 虚拟机/走进 Java.md"
-    },
-    {
-      "basename": "2-1 Java 的理论知识",
-      "path": "计算机/编程语言/Java/2-1 Java 的理论知识.md"
-    },
-    {
-      "basename": "2-4 授权",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md"
     },
     {
       "basename": "2-1 默认流程分析",
@@ -35,14 +43,6 @@
     {
       "basename": "MarkDown 语法",
       "path": "临时笔记/MarkDown 语法.md"
-    },
-    {
-      "basename": "2-3 自定义认证页面",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
-    },
-    {
-      "basename": "2-2 认证",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
     },
     {
       "basename": "1-1 基础特性",
