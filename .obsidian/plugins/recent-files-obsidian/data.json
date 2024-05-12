@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "计算机/JavaWeb/后端/Spring Security/Untitled.md"
+    },
+    {
       "basename": "2-4 授权",
       "path": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2-2 指令",
       "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
-    },
-    {
-      "basename": "2 HTML 中级",
-      "path": "计算机/JavaWeb/前端/HTML/2 HTML 中级.md"
     }
   ],
   "omittedPaths": [],
