@@ -28,12 +28,23 @@
 
 # 授权模式
 >[!quote] 四种授权模式
+>- **隐藏式**：最简单，适用于chun
 >- **授权码式**：最常用，最复杂，最安全
 
 
 ## 授权码式
 ```mermaid
 sequenceDiagram
+	participant D as 第三方应用
+	participant S as 授权服务器
+	participant Y as 用户
+
+	D->>S: 给我Token
+	S->>Y: 要授权给第三方应用吗
+	Y->>S: 同意授权
+	S->>D: 返回授权码
+	D->>S: 携带授权码请求Token
+	S->>D: 返回Token
 ```
 
 
