@@ -1,17 +1,26 @@
 
 ```mermaid
 sequenceDiagram
-    participant D as 第三方应用
-    participant S as 授权服务器
+    participant D as 第三方应用[例如某个网站]
+    participant S as 授权服务器[例如微信的授权服务器]
 	participant Y as 用户
+	participant Z as 资源服务器[例如微信的资源服务器]
 
 	D->>S: 给我Token
 	S->>Y: 你要把权限给第三方用户吗
 	Y->>S: 同意授权
 	S->>D: 发放Token
+	D->>Z: 携带Token进行访问
+	Z->>D: 返回资源
 ```
 
-  
+# 概述
+## 使用场景
+- 开放系统间授权
+	- 社交登录
+	- 
+
+
 - **授权而非认证**：它重点解决的是授权问题，即允许一个用户授权决定是否给予这个第三方应用访问你资源的许可
 - **多种授权模式**：包括授权码模式、隐式授权模式、密码模式、客户端模式 ……
 - **分离资源所有者、客户端和资源服务器**
