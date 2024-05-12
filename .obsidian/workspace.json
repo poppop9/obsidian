@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -72,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md"
               }
             }
           },
@@ -176,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md"
               }
             }
           },
@@ -208,10 +209,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
+    "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/JavaWeb/后端/Spring Security/2-4 授权.md",
     "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md",
     "计算机/编程语言/Java/2-1 Java 的理论知识.md",
