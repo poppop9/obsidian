@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
               }
             }
           },
@@ -176,7 +175,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
               }
             }
           },
@@ -208,8 +207,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "972b776af2e1b8e6",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-2 树 - 自平衡.md",
     "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
@@ -236,7 +236,6 @@
     "计算机/数据库/数据库.md",
     "计算机/四大件/数据结构与算法/数据结构与算法.md",
     "计算机/JavaWeb/后端/Spring Security/3-1 多点登录.md",
-    "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
