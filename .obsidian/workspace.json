@@ -65,15 +65,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
-                "mode": "preview",
+                "file": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -131,8 +131,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "82e190d91877a96e",
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
+                "file": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md"
               }
             }
           },
@@ -177,7 +176,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
+                "file": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md"
               }
             }
           },
@@ -209,18 +208,19 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "d1eac66b910f4030",
+  "active": "972b776af2e1b8e6",
   "lastOpenFiles": [
+    "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-2 树 - 自平衡.md",
+    "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
+    "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md",
     "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md",
-    "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
     "计算机/四大件/计算机网络/计算机网络.md",
     "临时笔记/MarkDown 语法.md",
     "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md",
     "计算机/JavaWeb/后端/Spring Security/3-1 高级.md",
     "计算机/JavaWeb/后端/Spring Security/2-4 授权.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
-    "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/编程语言/Java/2-1 Java 的理论知识.md",
     "计算机/编程语言/Java/JVM 虚拟机/导读.md",
     "计算机/编程语言/Java/JVM 虚拟机/走进 Java.md",
@@ -237,7 +237,6 @@
     "计算机/四大件/数据结构与算法/数据结构与算法.md",
     "计算机/JavaWeb/后端/Spring Security/3-1 多点登录.md",
     "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
-    "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
