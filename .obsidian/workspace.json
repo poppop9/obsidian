@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md"
               }
             }
           },
@@ -209,8 +209,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "972b776af2e1b8e6",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
     "计算机/四大件/计算机网络/计算机网络.md",
     "临时笔记/MarkDown 语法.md",
     "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md",
@@ -237,7 +238,6 @@
     "计算机/JavaWeb/后端/Spring Security/3-1 多点登录.md",
     "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
-    "计算机/JavaWeb/后端/Maven.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
