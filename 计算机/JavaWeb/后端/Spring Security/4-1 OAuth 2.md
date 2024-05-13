@@ -127,6 +127,18 @@ spring:
             client-secret: ……
 ```
 
+- 在 `SecurityConfig` 中配置
+```java
+http
+		// OAuth2
+		.oauth2Login(oauth2Login -> {
+			// 此处的回调地址，需要和github创建应用里的保持一致
+			oauth2Login.loginPage("http://localhost:5173/")
+					.successHandler(new MyAuthenticationSuccessHandler())
+					.failureHandler(new MyAuthenticationFailureHandler());
+		});
+```
+
 
 
 
