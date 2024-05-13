@@ -100,12 +100,12 @@ sequenceDiagram
 >第三方应用在获取访问令牌的同时，通常也会收到一个刷新令牌，当访问令牌即将过期时，第三方应用可以使用刷新令牌向授权服务器发起请求，以获取新的访问令牌，刷新令牌是一个长期有效的凭证，<u>用于第三方应用向授权服务器请求新的访问令牌</u>
 >- 刷新令牌的使用过程中，用户不需要再次进行授权操作，第三方应用可以自动更新访问令牌
 
-# GitHub 登录
+# 第三方登录
+Spring Security OAuth2 中，默认整合了 Github，Google，Facebook，Okta 第三方登录功能
+
+## GitHub 登录
 - 到开发者设置中的 OAuth 中创建应用 https://github.com/settings/developers
-
-
-
-
+	- 回调地址默认是：`https://localhost:8080/login/oauth2/code/github`
 
 
 
