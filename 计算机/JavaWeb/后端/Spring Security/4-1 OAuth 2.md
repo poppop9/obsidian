@@ -103,6 +103,13 @@ sequenceDiagram
 # 第三方登录
 Spring Security OAuth2 中，默认整合了 Github，Google，Facebook，Okta 第三方登录功能
 
+```xml
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-oauth2-client</artifactId>
+</dependency>
+```
+
 ## GitHub 登录
 - 到开发者设置中的 OAuth 中创建应用 https://github.com/settings/developers
 	- 回调地址默认是：`https://localhost:8080/login/oauth2/code/github`
