@@ -112,7 +112,7 @@ Spring Security OAuth2 中，默认整合了 Github，Google，Facebook，Okta �
 
 ## GitHub 登录
 - 到开发者设置中的 OAuth 中创建应用 https://github.com/settings/developers
-	- 回调地址默认是：`https://localhost:8080/login/oauth2/code/github`
+	- 设置回调地址
 - 获取到 Client ID `Ov23licA0Czh3DzVPvuw`
 - 获取到 Client Secrets `b0cbc69b03e269f7961196b6c4b19aaaaa12c7ba`
 - 配置 yml 配置文件
