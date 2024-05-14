@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "3-1 高级",
+      "path": "计算机/JavaWeb/后端/Spring Security/3-1 高级.md"
+    },
+    {
       "basename": "4-1 OAuth 2",
       "path": "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md"
     },
     {
+      "basename": "1-1 会话管理",
+      "path": "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md"
+    },
+    {
       "basename": "2-1 默认流程分析",
       "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
-    },
-    {
-      "basename": "1-1 基础特性",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
-    },
-    {
-      "basename": "草稿纸",
-      "path": "临时笔记/草稿纸.md"
     },
     {
       "basename": "2-2 认证",
@@ -23,6 +23,18 @@
     {
       "basename": "2-3 自定义认证页面",
       "path": "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md"
+    },
+    {
+      "basename": "2-4 授权",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md"
+    },
+    {
+      "basename": "1-1 基础特性",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+    },
+    {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
     },
     {
       "basename": "3-1 树 - 二叉树",
@@ -47,14 +59,6 @@
     {
       "basename": "自动内存管理",
       "path": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
-    },
-    {
-      "basename": "3-1 高级",
-      "path": "计算机/JavaWeb/后端/Spring Security/3-1 高级.md"
-    },
-    {
-      "basename": "2-4 授权",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-4 授权.md"
     },
     {
       "basename": "2-1 Java 的理论知识",
@@ -195,10 +199,6 @@
     {
       "basename": "编程语言",
       "path": "计算机/编程语言/编程语言.md"
-    },
-    {
-      "basename": "前后端开发规范",
-      "path": "计算机/JavaWeb/前后端开发规范.md"
     }
   ],
   "omittedPaths": [],
