@@ -116,6 +116,8 @@
   "fmKeyColor": "color",
   "fmKeySticker": "sticker",
   "fmKeyContexts": "_contexts",
+  "fmKeyTemplate": "_template",
+  "fmKeyTemplateName": "_templateName",
   "fmKeySort": "_sort",
   "fmKeyFilter": "_filters",
   "fmKeyLinks": "_links",
