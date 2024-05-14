@@ -72,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md"
               }
             }
           },
@@ -176,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md"
               }
             }
           },
@@ -208,13 +209,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "临时笔记/草稿纸.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
-    "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/JavaWeb/后端/Spring Security/2-3 自定义认证页面.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-2 树 - 自平衡.md",
