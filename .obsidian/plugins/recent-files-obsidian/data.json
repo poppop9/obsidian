@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1 idea",
+      "path": "计算机/编程语言/Java/1 idea.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
       "basename": "六大原则",
       "path": "计算机/设计模式/六大原则.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "Nginx",
       "path": "计算机/Nginx.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "Git",
@@ -195,10 +199,6 @@
     {
       "basename": "1-4 测试",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md"
-    },
-    {
-      "basename": "3-1 事务管理，AOP",
-      "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
     }
   ],
   "omittedPaths": [],
