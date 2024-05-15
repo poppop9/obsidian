@@ -30,7 +30,7 @@
 $ git config --global merge.tool vimdiff
 ```
 
-# 概念
+# 基本概念
 ## 工作流程
 ![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211816962.png)
 
@@ -59,18 +59,13 @@ $ git config --global merge.tool vimdiff
 
 ---
 
-### 执行各种命令时，三区的变化
-- 当对工作区修改的文件执行 `git add` 命令时，暂存区的目录树会被更新，同时工作区修改的文件内容被写入到 objects 中的一个新的对象中，而该对象的 ID 被记录在暂存区的文件索引中
-
-- 当执行提交操作 `git commit` 时，暂存区的目录树会写到版本库的 objects 中，当前分支【~~通常是 master 分支~~】会指向新提交的目录树
-
-- 当执行 `git reset HEAD` 时，暂存区的目录树会被重写【被 master 分支指向的目录树所替换（~~工作区不受影响~~）】
-
-- 当执行 `git rm --cached <file>` 时，会删除暂存区文件【~~工作区不变~~】
-
-- 当执行 `git checkout .` ，或者 `git checkout -- <file>` 时，会用暂存区全部，或指定的文件替换工作区的文件
-
-- 当执行 `git checkout HEAD .` ，或者 `git checkout HEAD <file>` 时，会用 HEAD 指向的 master 分支中的全部，或者部分文件替换暂存区和以及工作区中的文件
+>[!hint] 执行各种命令时，三区的变化
+> - 当对工作区修改的文件执行 `git add` 命令时，暂存区的目录树会被更新，同时工作区修改的文件内容被写入到 objects 中的一个新的对象中，而该对象的 ID 被记录在暂存区的文件索引中
+> - 当执行提交操作 `git commit` 时，暂存区的目录树会写到版本库的 objects 中，当前分支【~~通常是 master 分支~~】会指向新提交的目录树
+> - 当执行 `git reset HEAD` 时，暂存区的目录树会被重写【被 master 分支指向的目录树所替换（~~工作区不受影响~~）】
+> - 当执行 `git rm --cached <file>` 时，会删除暂存区文件【~~工作区不变~~】
+> - 当执行 `git checkout .` ，或者 `git checkout -- <file>` 时，会用暂存区全部，或指定的文件替换工作区的文件
+> - 当执行 `git checkout HEAD .` ，或者 `git checkout HEAD <file>` 时，会用 HEAD 指向的 master 分支中的全部，或者部分文件替换暂存区和以及工作区中的文件
 
 # 创建仓库
 ## git init
