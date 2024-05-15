@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "计算机/Nginx.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "计算机/Nginx.md"
               }
             }
           },
@@ -222,8 +222,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c43791d85bf7822d",
+  "active": "972b776af2e1b8e6",
   "lastOpenFiles": [
+    "计算机/Docker.md",
     "计算机/Nginx.md",
     "计算机/Git.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
@@ -250,7 +251,6 @@
     "计算机/编程语言/Java/JVM 虚拟机/JVM 虚拟机.md",
     "计算机/编程语言/Java/JVM 虚拟机",
     "计算机/JavaWeb/前端/Svelte.md",
-    "计算机/Docker.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
