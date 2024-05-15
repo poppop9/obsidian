@@ -244,6 +244,8 @@ README        runoob.php
 
 - `git rebase` 可以将一个分支上的提交转移到另一个分支的顶端，从而使得提交历史更加整洁线性
 
+>[!hint] 但是 `git rebase` 
+
 ---
 
 >[!quote] 合并冲突
