@@ -1,16 +1,17 @@
-## 三大配置文件
-- `--system` 会读写 `/etc/gitconfig` 文件：影响<u>所有用户</u>的 Git 环境
-- `--global` 会读写 `~/.gitconfig` 文件：对<u>当前用户</u>的<u>所有 Git 项目</u>生效
-	- 如果在使用 git 命令时使用了 `--global`，那么更改的配置文件就是用户主目录下的那个，以后该用户所有的项目都会默认使用这里配置的用户信息
-- `默认` 会读写当前工作目录中的 `.git/config` 文件：这里的配置仅仅针对<u>当前项目</u>有效
+>[!quote] 三大配置文件
+> - `--system` 会读写 `/etc/gitconfig` 文件：影响<u>所有用户</u>的 Git 环境
+> - `--global` 会读写 `~/.gitconfig` 文件：对<u>当前用户</u>的<u>所有 Git 项目</u>生效
+> 	- 如果在使用 git 命令时使用了 `--global`，那么更改的配置文件就是用户主目录下的那个，以后该用户所有的项目都会默认使用这里配置的用户信息
+> - `默认` 会读写当前工作目录中的 `.git/config` 文件：这里的配置仅仅针对<u>当前项目</u>有效
+>
+>>[!hint] 每一个级别的配置都会覆盖上层的相同配置【例如，`.git/config` 里的配置会覆盖 `/etc/gitconfig`】
 
->[!hint] 每一个级别的配置都会覆盖上层的相同配置【例如，`.git/config` 里的配置会覆盖 `/etc/gitconfig`】
 
 ## 配置相关命令
 - **查看配置信息**
 	- 查看所有配置 `$ git config --list`
 	- 查看某个配置 `$ git config user.name`
-- 编辑配置文件 `$ git config -e` 
+- **编辑配置文件** `$ git config -e` 
 
 >[!hint] 有时候会看到重复的变量名，意味着它们来自不同的配置文件
 
@@ -28,9 +29,6 @@
 # 比如要改用成 vimdiff 
 $ git config --global merge.tool vimdiff
 ```
-
----
-
 
 # 概念
 ## 工作流程
@@ -168,18 +166,18 @@ db9315b0 (runoob    2020-08-25 16:00:23 +0800 2) # 菜鸟教程
 
 ## 提交与修改
 ### 工作区操作
-- `git add` 将添加文件到暂存区
+- `git add` **将添加文件到暂存区**
 	- `git add .` 表示将当前工作目录中所有已修改或新增的文件都添加到 Git 的暂存区中
 	- `git add *.txt` 将以 `.txt` 结尾的文件添加到暂存区
 
 ---
 
-- `git commit` 提交暂存区到本地仓库
+- `git commit` **提交暂存区到本地仓库**
 	- `git commit -m '第一次版本提交'` 添加提交信息
 
 ---
 
-- `git reset 要回退的版本id` 回退版本
+- `git reset 要回退的版本id` **回退版本**
 	- `--soft` 回退版本时，保留两个版本之间工作区和暂存区的修改内容
 	- `--hard` 回退版本时，清空两个版本之间工作区和暂存区的修改内容
 	- `--mixed` 回退版本时，保留两个版本之间工作区的修改内容，清空两个版本之间暂存区的修改内容
@@ -190,7 +188,7 @@ db9315b0 (runoob    2020-08-25 16:00:23 +0800 2) # 菜鸟教程
 
 ---
 
-- `git rm` 将文件从暂存区和工作区中都删除
+- `git rm` **将文件从暂存区和工作区中都删除**
 
 >[!hint] 如果只是使用 Linux 中的 `rm 文件`，只会从工作区中删除文件，暂存区中不会被删除，还需要 `git add .` 一下，**比较麻烦**
 
@@ -198,7 +196,7 @@ db9315b0 (runoob    2020-08-25 16:00:23 +0800 2) # 菜鸟教程
 
 - `git mv` 移动或重命名工作区文件
 - `git restore` 恢复或撤销文件的更改
-- `git checkout`
+- `git checkout` 
 
 # 分支管理
 >[!quote] 分支
@@ -426,22 +424,19 @@ temp/
 
 >[!hint] 版本号 `A.B.C`，A 是主要版本，B 是次要版本，C 是修订版本
 
-
 # idea
+>[!hint]+ 拉取
+> - ![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211339240.png)
+> - 拉取别人仓库![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211342220.png)
+> - 拉取自己账号里的仓库![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211340541.png)
+> - 选择拉取到本地的地址![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211340313.png)
+> 
 
-### 拉取
-- ![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211339240.png)
-- 拉取别人仓库![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211342220.png)
-- 拉取自己账号里的仓库![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211340541.png)
-- 选择拉取到本地的地址![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211340313.png)
+>[!hint]+ 提交
+> ![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211648397.png)
 
-### 提交
-![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211648397.png)
-
-
-
-### 推送
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211649783.png)
+>[!hint]+ 推送
+> ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211649783.png)
 
 
 
