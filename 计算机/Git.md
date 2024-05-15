@@ -351,7 +351,7 @@ $ git config --global user.email "your_email@youremail.com"
 - `git merge` 合并 `fetch` 的最新信息到当前分支
 - `git pull 远程仓库名 远程分支名:本地分支名` 获取并合并远程仓库的更改到本地工作目录
 	- `--allow-unrelated-histories` 允许拉取两个历史提交记录不相关的分支
-	- `--rebase` 
+	- `--rebase` 拉取分支，变基分支【~~将本地分支上的提交放到远程分支最新提交的基础上，这样使得提交历史更加线性整洁~~】，<u>解决了因为提交历史不同的</u>
 
 ```bash
 git fetch test
