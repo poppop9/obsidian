@@ -2,7 +2,11 @@
   "recentFiles": [
     {
       "basename": "未命名",
-      "path": "计算机/设计模式/未命名.md"
+      "path": "计算机/设计模式/创建型模式/未命名.md"
+    },
+    {
+      "basename": "创建型模式",
+      "path": "计算机/设计模式/创建型模式/创建型模式.md"
     },
     {
       "basename": "Nginx",
@@ -191,14 +195,6 @@
     {
       "basename": "3-1 事务管理，AOP",
       "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
-    },
-    {
-      "basename": "Obsidian 特殊语法",
-      "path": "临时笔记/Obsidian 特殊语法.md"
-    },
-    {
-      "basename": "JavaWeb",
-      "path": "计算机/JavaWeb/JavaWeb.md"
     }
   ],
   "omittedPaths": [],
