@@ -78,8 +78,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Nginx.md",
-                "mode": "preview",
+                "file": "计算机/设计模式/未命名.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/设计模式/未命名.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/设计模式/未命名.md"
               }
             }
           },
@@ -224,8 +224,11 @@
   },
   "active": "972b776af2e1b8e6",
   "lastOpenFiles": [
-    "计算机/Docker.md",
     "计算机/Nginx.md",
+    "计算机/设计模式/未命名.md",
+    "计算机/设计模式/设计模式.md",
+    "计算机/设计模式",
+    "计算机/Docker.md",
     "计算机/Git.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
@@ -248,9 +251,7 @@
     "计算机/编程语言/Java/JVM 虚拟机/走进 Java.md",
     "临时笔记/健康.md",
     "计算机/Linux/娱乐命令.md",
-    "计算机/编程语言/Java/JVM 虚拟机/JVM 虚拟机.md",
     "计算机/编程语言/Java/JVM 虚拟机",
-    "计算机/JavaWeb/前端/Svelte.md",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
     "计算机/JavaWeb/后端/Spring Security",
@@ -261,7 +262,6 @@
     "计算机/数据库/新建文件夹",
     "计算机/数据库/MySQL",
     "计算机/数据库",
-    "计算机/新建文件夹",
     "图片库/Pasted Image 20240319202618_931.png",
     "图片库/Pasted Image 20230627101729_054.jpg",
     "图片库/Pasted image 20230623134447.png",
