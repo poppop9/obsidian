@@ -242,24 +242,30 @@ README        runoob.php
 
 ---
 
-## 合并冲突
+- `git rebase` 可以将一个分支上的提交转移到另一个分支的顶端，从而使得提交历史更加整洁线性
+
+
+
+
+---
+
+>[!quote] 合并冲突
 >合并冲突 指的是在两个分支上对同一文件的同一部分进行了不同的修改，导致 Git 无法自动合并这些更改，需要手动修改这个文件，然后再 `git add 这个文件`
-
-```bash
-# 进行合并
-# UU 表示该文件有未解决的合并冲突
-$ git status -s
-UU runoob.php
-
-$ git add runoob.php
-
-# M 表示`runoob.php`文件已经被修改，不处于合并冲突状态
-$ git status -s
-M  runoob.php
-
-$ git commit
-[master 88afe0e] Merge branch 'change_site'
-```
+> ```bash
+> # 进行合并
+> # UU 表示该文件有未解决的合并冲突
+> $ git status -s
+> UU runoob.php
+> 
+> $ git add runoob.php
+> 
+> # M 表示`runoob.php`文件已经被修改，不处于合并冲突状态
+> $ git status -s
+> M  runoob.php
+> 
+> $ git commit
+> [master 88afe0e] Merge branch 'change_site'
+> ```
 
 # 标签
 >[!hint] 什么时候要使用<u>标签</u> ？
@@ -351,7 +357,7 @@ $ git config --global user.email "your_email@youremail.com"
 - `git merge` 合并 `fetch` 的最新信息到当前分支
 - `git pull 远程仓库名 远程分支名:本地分支名` 获取并合并远程仓库的更改到本地工作目录
 	- `--allow-unrelated-histories` 允许拉取两个历史提交记录不相关的分支
-	- `--rebase` 拉取分支，变基分支【~~将本地分支上的提交放到远程分支最新提交的基础上，这样使得提交历史更加线性整洁~~】，<u>解决了因为提交历史不同的</u>
+	- `--rebase` 拉取分支，变基分支【~~将本地分支上的提交放到远程分支最新提交的基础上，这样使得提交历史更加线性整洁~~】，<u>解决了因为有不同的提交历史导致的 git pull 失败的情况</u>
 
 ```bash
 git fetch test
