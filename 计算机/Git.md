@@ -168,16 +168,17 @@ db9315b0 (runoob    2020-08-25 16:00:23 +0800 2) # 菜鸟教程
 
 ## 提交与修改
 ### 工作区操作
-#### git add
 - `git add` 将添加文件到暂存区
 	- `git add .` 表示将当前工作目录中所有已修改或新增的文件都添加到 Git 的暂存区中
 	- `git add *.txt` 将以 `.txt` 结尾的文件添加到暂存区
 
-#### git commit
+---
+
 - `git commit` 提交暂存区到本地仓库
 	- `git commit -m '第一次版本提交'` 添加提交信息
 
-#### git reset
+---
+
 - `git reset 要回退的版本id` 回退版本
 	- `--soft` 回退版本时，保留两个版本之间工作区和暂存区的修改内容
 	- `--hard` 回退版本时，清空两个版本之间工作区和暂存区的修改内容
@@ -187,12 +188,14 @@ db9315b0 (runoob    2020-08-25 16:00:23 +0800 2) # 菜鸟教程
 >- 当我们有了多次提交，但是又觉得这些提交没有什么意义，可以合并成一个版本时
 >	>我们可以 `git reset --soft 需要回退的版本id`，然后回退了版本，但是最新版的文件又没删除，那我们可以重新 `git commit` 一下，就实现了文件还是那些文件，但是多个无用版本合并了
 
-#### git rm
-`git rm` 将文件从暂存区和工作区中都删除
+---
+
+- `git rm` 将文件从暂存区和工作区中都删除
 
 >[!hint] 如果只是使用 Linux 中的 `rm 文件`，只会从工作区中删除文件，暂存区中不会被删除，还需要 `git add .` 一下，**比较麻烦**
 
-#### 其他
+---
+
 - `git mv` 移动或重命名工作区文件
 - `git restore` 恢复或撤销文件的更改
 - `git checkout`
@@ -339,7 +342,7 @@ $ git config --global user.email "your_email@youremail.com"
 - 添加远程仓库，并添加别名【~~远程仓库的地址会存储在 `config文件` 中 ~~】
 `git remote add 别名 git@github.com:github的名字/仓库名.git`
 
-## 推送到远程库
+## 推送
 - `git push 远程仓库别名 本地分支名:远程分支名` 进行推送
 
 ## 查看
@@ -356,6 +359,7 @@ $ git config --global user.email "your_email@youremail.com"
 - `git merge` 合并 `fetch` 的最新信息到当前分支
 - `git pull 远程仓库名 远程分支名:本地分支名` 获取并合并远程仓库的更改到本地工作目录
 	- `--allow-unrelated-histories` 允许拉取两个历史提交记录不相关的分支
+	- `--rebase` 
 
 ```bash
 git fetch test
