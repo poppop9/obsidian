@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
       "basename": "Nginx",
       "path": "计算机/Nginx.md"
     },
@@ -91,10 +95,6 @@
     {
       "basename": "Svelte",
       "path": "计算机/JavaWeb/前端/Svelte.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "数据结构与算法",
