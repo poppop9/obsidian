@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Nginx",
+      "path": "计算机/Nginx.md"
+    },
+    {
       "basename": "Git",
       "path": "计算机/Git.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "OKHttp",
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
-    },
-    {
-      "basename": "Java",
-      "path": "计算机/编程语言/Java/Java.md"
     }
   ],
   "omittedPaths": [],

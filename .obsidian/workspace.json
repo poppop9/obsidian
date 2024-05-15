@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Git.md",
+                "file": "计算机/Nginx.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Git.md"
+                "file": "计算机/Nginx.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Git.md"
+                "file": "计算机/Nginx.md"
               }
             }
           },
@@ -211,6 +211,7 @@
   },
   "active": "972b776af2e1b8e6",
   "lastOpenFiles": [
+    "计算机/Git.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/JavaWeb/后端/SpringBoot/跨域配置.md",
@@ -235,7 +236,6 @@
     "计算机/编程语言/Java/JVM 虚拟机/JVM 虚拟机.md",
     "计算机/编程语言/Java/JVM 虚拟机",
     "计算机/JavaWeb/前端/Svelte.md",
-    "计算机/Git.md",
     "计算机/Docker.md",
     "计算机/数据库/数据库.md",
     "图片库/Pasted Image 20240501142003_932.png",
