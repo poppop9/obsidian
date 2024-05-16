@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Nginx",
-      "path": "计算机/Nginx.md"
+      "basename": "六大原则",
+      "path": "计算机/设计模式/六大原则.md"
     },
     {
       "basename": "1-1 权限",
       "path": "计算机/Linux/1-1 权限.md"
+    },
+    {
+      "basename": "Nginx",
+      "path": "计算机/Nginx.md"
     },
     {
       "basename": "1-2 文件目录",
@@ -35,10 +39,6 @@
     {
       "basename": "1 idea",
       "path": "计算机/编程语言/Java/1 idea.md"
-    },
-    {
-      "basename": "六大原则",
-      "path": "计算机/设计模式/六大原则.md"
     },
     {
       "basename": "未命名",
