@@ -54,6 +54,11 @@ docker run \
   -d --restart=always nginx
 ```
 
+- 删除原来没用的 nginx
+```bash
+docker rm -f nginxconf
+```
+
 # 命令
 ## Win
 - `nginx` 
