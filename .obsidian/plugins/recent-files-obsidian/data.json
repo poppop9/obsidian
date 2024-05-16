@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Nginx",
+      "path": "计算机/Nginx.md"
+    },
+    {
+      "basename": "自动内存管理",
+      "path": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
     {
       "basename": "通用库",
       "path": "计算机/JavaWeb/第三方类库/通用库.md"
-    },
-    {
-      "basename": "自动内存管理",
-      "path": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
     },
     {
       "basename": "JVM 虚拟机",
@@ -35,10 +39,6 @@
     {
       "basename": "创建型模式",
       "path": "计算机/设计模式/创建型模式/创建型模式.md"
-    },
-    {
-      "basename": "Nginx",
-      "path": "计算机/Nginx.md"
     },
     {
       "basename": "2-2 认证",
