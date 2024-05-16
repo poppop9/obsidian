@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "JVM 虚拟机",
+      "path": "计算机/编程语言/Java/JVM 虚拟机/JVM 虚拟机.md"
+    },
+    {
+      "basename": "Git",
+      "path": "计算机/Git.md"
+    },
+    {
       "basename": "通用库",
       "path": "计算机/JavaWeb/第三方类库/通用库.md"
     },
     {
       "basename": "1 idea",
       "path": "计算机/编程语言/Java/1 idea.md"
-    },
-    {
-      "basename": "Git",
-      "path": "计算机/Git.md"
     },
     {
       "basename": "六大原则",
@@ -195,10 +199,6 @@
     {
       "basename": "SLF4J",
       "path": "计算机/JavaWeb/第三方类库/SLF4J.md"
-    },
-    {
-      "basename": "JWT",
-      "path": "计算机/JavaWeb/后端/Spring Security/JWT.md"
     }
   ],
   "omittedPaths": [],
