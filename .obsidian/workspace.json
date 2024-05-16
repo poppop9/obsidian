@@ -65,8 +65,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/通用库.md",
-                "mode": "source",
+                "file": "计算机/Docker.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -222,11 +222,12 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "972b776af2e1b8e6",
+  "active": "c43791d85bf7822d",
   "lastOpenFiles": [
+    "计算机/JavaWeb/第三方类库/通用库.md",
+    "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md",
     "计算机/编程语言/Java/JVM 虚拟机/JVM 虚拟机.md",
     "计算机/Git.md",
-    "计算机/JavaWeb/第三方类库/通用库.md",
     "计算机/编程语言/Java/1 idea.md",
     "计算机/设计模式/六大原则.md",
     "计算机/Docker.md",
@@ -253,7 +254,6 @@
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md",
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-2 树 - 自平衡.md",
     "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md",
-    "计算机/四大件/计算机网络/计算机网络.md",
     "计算机/编程语言/Java/JVM 虚拟机",
     "图片库/Pasted Image 20240501142003_932.png",
     "图片库/Pasted Image 20240501140131_863.png",
