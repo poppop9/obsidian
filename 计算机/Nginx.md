@@ -157,22 +157,6 @@ server {
 }
 ```
 
-```yml
-# 或者
-server {
-    listen 80;
-    server_name zszs.com;
-
-    location / {
-        proxy_pass http://公网ip:5244;
-        proxy_set_header Host $host;
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header X-Forwarded-Proto $scheme;
-    }
-}
-```
-
 >[!quote] 负载均衡的三种方式
 >- **轮询**【~~默认~~】
 >- **权重**
@@ -193,6 +177,24 @@ server {
 > 	server 127.0.0.1:8002;
 > }
 > ```
+
+## 只实现端口映射
+
+```yml
+# 或者
+server {
+    listen 80;
+    server_name zszs.com;
+
+    location / {
+        proxy_pass http://公网ip:5244;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
 
 ## 鉴权
 >[!quote] 鉴权
