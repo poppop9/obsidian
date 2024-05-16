@@ -179,15 +179,14 @@ server {
 > ```
 
 ## 只实现端口映射
-
 ```yml
-# 或者
+# 讲本机上的5244端口服务，映射到80端口上，会使访问80端口时自动重定向到5244端口
 server {
     listen 80;
-    server_name zszs.com;
+    server_name zsbz.com;
 
     location / {
-        proxy_pass http://公网ip:5244;
+        proxy_pass http://本机ip:5244;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
