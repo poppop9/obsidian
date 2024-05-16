@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Docker.md",
+                "file": "计算机/Linux/1-2 文件目录.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/Linux/1-2 文件目录.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Nginx.md"
+                "file": "计算机/Linux/1-2 文件目录.md"
               }
             }
           },
@@ -222,7 +222,7 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "972b776af2e1b8e6",
+  "active": "c43791d85bf7822d",
   "lastOpenFiles": [
     "计算机/Docker.md",
     "计算机/Nginx.md",
