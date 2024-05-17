@@ -432,82 +432,27 @@ public class FunctionDemo {
 ## 接口中的默认方法
 >[!quote] 接口中的默认方法
 >`public default ……`
-
-### 注意事项
-- **默认方法中可以有方法体**
-- 接口中的默认方法不会让实现类去强制重写
-- 而且就算实现类不重写，测试类也可以直接调用
-```java
-public interface MyInterface {  
-	void show1();  
-  
-	public default void show3() {  
-		System.out.println("show3");  
-	}  
-}
-
-public class mitfImp1 implements MyInterface{  
-	public void show1() {  
-		System.out.println("111show1");  
-	}  
-}
-
-public class Demo {  
-	public static void main(String[] args) {  
-		MyInterface m1 = new mitfImp1();  
-		m1.show1();  
-		m1.show3();  
-	}  
-}
-
----
-111show1
-show3
-```
-
-- 当一个实现类实现了多个接口且这多个接口中有同名的默认方法时，那么在实现类中也必须重写该默认方法
-```java
-// 接口1
-public interface MyInterface1 {  
-	void show1();  
-  
-	public default void show3() {  
-		System.out.println("我是1接口中的默认方法");  
-	}  
-}
-
-// 接口2
-public interface MyInterface2 {  
-	void show1();  
-  
-	public default void show3() {  
-		System.out.println("我是2接口中的默认方法");  
-	}  
-}
-
-public class mitfImp1 implements MyInterface1, MyInterface2 {  
-	public void show1() {  
-		System.out.println("111show1");  
-	}  
-
-	public void show3() {  
-		// MyInterface代表实现哪个接口的show3方法，super代表实现默认方法，show3代表对应方法
-		MyInterface1.super.show3();   
-	}  
-}
-
-public class Demo {  
-	public static void main(String[] args) {  
-		MyInterface1 m1 = new mitfImp1();  
-		m1.show1();  
-		m1.show3();  
-	}  
-}
-
-
-111show1
-我是1接口中的默认方法
-```
+>
+>- 默认方法中可以有方法体
+>- 接口中的默认方法不会让实现类去强制重写，而且就算实现类不重写，被 new 出来的实现类也可以调用接口的默认方法
+>- 当一个实现类实现了多个接口，且这多个接口中有同名的默认方法时，那么在实现类中也必须重写该默认方法
+>
+> ```java
+> public class mitfImp1 implements MyInterface1, MyInterface2 {  
+> 	public void show3() {  
+> 		// MyInterface代表实现哪个接口的show3方法，super代表实现默认方法，show3代表对应方法
+> 		MyInterface1.super.show3();   
+> 	}  
+> }
+> 
+> psvm {  
+> 	mitfImp1 m1 = new mitfImp1();  
+> 	m1.show3();  
+> }  
+> 
+> ---
+> 我是1接口中的默认方法
+> ```
 
 ### 作用
 >让你更加灵活地在接口中加入新的方法，而不破坏现有代码
