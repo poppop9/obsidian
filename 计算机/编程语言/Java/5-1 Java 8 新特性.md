@@ -67,118 +67,133 @@ public class EatableDemo {
 >[!hint] 简写 Lambda 表达式
 > - 小括号里的参数类型可以省略
 > - 如果参数只有一个，那么小括号可以省略
-> - 如果大括号里的语句只有一条，那么可以省略大括号和分号和return
-	```java
-	useEatable((int a, int b) -> {      --------->
-		return a + b;                   --------->   useEatable((a, b) -> a + b);
-	});                                 --------->
-	```
+> - 如果大括号里的语句只有一条，那么可以省略大括号和分号和 return
+> 
+> ```java
+> useEatable((int a, int b) -> {   
+> 	return a + b;                 
+> });   
+> 
+> // 改写为
+> useEatable((a, b) -> a + b);                           
+> ```
+
 # 方法引用
-## 概述
->方法引用符”::“
-## 引用类的静态方法
-```java
-public interface parseInt {  
-    int convert(String s);  
-}
-```
-```java
-public class Demo {  
-    public static void main(String[] args) {  
-        useParseInt(Integer::parseInt);          //Integer这个接口里面有个静态的parseInt方法
-    }  
-  
-    public static void useParseInt(parseInt p) {  
-        System.out.println(p.convert("123"));  
-    }  
-}
-```
-## 引用对象的实例方法
-```java
-public interface Printable {  
-    void printString(String s);  
-}
-```
-```java
-public class Demo {  
-    public static void main(String[] args) {  
-        //usePrintable(s -> System.out.println(s));  
-        usePrintable(System.out::println);        //自动把参数String s传递给println方法  
-    }                                             //out是PrintStream的实例对象，里面有println方法
-  
-    public static void usePrintable(Printable p) {  
-        p.printString("Hello Java");  
-    }
-}
+>[!quote] 方法引用
+>符号表示：`::`
+>- 可以使代码更加简洁
 
+>[!hint]+ 引用类的静态方法
+> ```java
+> public interface parseInt {  
+>     int convert(String s);  
+> }
+> ```
+> 
+> ```java
+> public class Demo {  
+>     public static void main(String[] args) {  
+>         useParseInt(Integer::parseInt);          //Integer这个接口里面有个静态的parseInt方法
+>     }  
+>   
+>     public static void useParseInt(parseInt p) {  
+>         System.out.println(p.convert("123"));  
+>     }  
+> }
+> ```
 
-Hello Java
-```
-## 引用类的实例方法
-```java
-public interface SubString {  
-    String sub(String s, int x, int y);  
-}
-```
-```java
-public class Demo {  
-    public static void main(String[] args) {  
-        useSubString(String::substring);  
-    }  
-  
-    public static void useSubString(SubString p) {  
-        System.out.println(p.sub("Hello Java", 2, 5));  
-    }  
-}
-```
-## 引用构造方法
-```java
-public class student {  
-    private int age;  
-    private String name;  
-  
-    public student(int age, String name) {  
-        this.age = age;  
-        this.name = name;  
-    }  
-  
-    public int getAge() {return age;}  
-    public void setAge(int age) {this.age = age;}  
-  
-    public String getName() {return name;}  
-    public void setName(String name) {this.name = name;}  
-}
-```
-```java
-public interface studentBuilder {  
-    student build(int age, String name);  
-}
-```
-```java
-public class Demo3 {  
-    public static void main(String[] args) {  
-//        useStudentBuilder(new studentBuilder() {  
-//            @Override  
-//            public student build(int age, String name) {         //匿名内部类
-//                return new student(age, name);  
-//            }  
-//        });  
-  
-//        useStudentBuilder((int age, String name) -> {           //Lambda表达式
-//            return new student(age, name);  
-//        });  
-  
-        useStudentBuilder(student::new);                    //new代表了构造方法
-    }  
-  
-    public static void useStudentBuilder(studentBuilder sb) {  
-        student s = sb.build(12, "吴彦祖");  
-        System.out.println(s.getAge() + "," + s.getName());  
-    }  
-}
-```
-## 作用
-- 使得代码更加简洁
+>[!hint]+ 引用对象的实例方法
+> ```java
+> public interface Printable {  
+>     void printString(String s);  
+> }
+> ```
+> 
+> ```java
+> public class Demo {  
+>     public static void main(String[] args) {  
+>         //usePrintable(s -> System.out.println(s));  
+>         usePrintable(System.out::println);        //自动把参数String s传递给println方法  
+>     }                                             //out是PrintStream的实例对象，里面有println方法
+>   
+>     public static void usePrintable(Printable p) {  
+>         p.printString("Hello Java");  
+>     }
+> }
+> 
+> 
+> Hello Java
+> ```
+
+>[!hint]+ 引用类的实例方法
+> ```java
+> public interface SubString {  
+>     String sub(String s, int x, int y);  
+> }
+> ```
+> 
+> ```java
+> public class Demo {  
+>     public static void main(String[] args) {  
+>         useSubString(String::substring);  
+>     }  
+>   
+>     public static void useSubString(SubString p) {  
+>         System.out.println(p.sub("Hello Java", 2, 5));  
+>     }  
+> }
+> ```
+
+>[!hint]+ 引用构造方法
+> ```java
+> public class student {  
+>     private int age;  
+>     private String name;  
+>   
+>     public student(int age, String name) {  
+>         this.age = age;  
+>         this.name = name;  
+>     }  
+>   
+>     public int getAge() {return age;}  
+>     public void setAge(int age) {this.age = age;}  
+>   
+>     public String getName() {return name;}  
+>     public void setName(String name) {this.name = name;}  
+> }
+> ```
+> 
+> ```java
+> public interface studentBuilder {  
+>     student build(int age, String name);  
+> }
+> ```
+> 
+> ```java
+> public class Demo3 {  
+>     public static void main(String[] args) {  
+>     // 匿名内部类
+> 	//        useStudentBuilder(new studentBuilder() {  
+> 	//            @Override  
+> 	//            public student build(int age, String name) {         
+> 	//                return new student(age, name);  
+> 	//            }  
+> 	//        });  
+>   
+> //        useStudentBuilder((int age, String name) -> {           //Lambda表达式
+> //            return new student(age, name);  
+> //        });  
+>   
+>         useStudentBuilder(student::new);                    //new代表了构造方法
+>     }  
+>   
+>     public static void useStudentBuilder(studentBuilder sb) {  
+>         student s = sb.build(12, "吴彦祖");  
+>         System.out.println(s.getAge() + "," + s.getName());  
+>     }  
+> }
+> ```
+
 # 函数式接口
 >有且仅有一个抽象方法的接口[^2]
 
