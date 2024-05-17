@@ -1,4 +1,6 @@
-# Lambda表达式
+# Lambda 表达式
+>[!quote] Lambda表达式
+
 ## 标准格式
 >() -> {……}
 ```
