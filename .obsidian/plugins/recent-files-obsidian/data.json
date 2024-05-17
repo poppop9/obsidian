@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "MarkDown 语法",
+      "path": "临时笔记/MarkDown 语法.md"
+    },
+    {
       "basename": "未命名",
       "path": "计算机/设计模式/创建型模式/未命名.md"
+    },
+    {
+      "basename": "4-1 OAuth 2",
+      "path": "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md"
     },
     {
       "basename": "创建型模式",
@@ -69,10 +77,6 @@
       "path": "计算机/JavaWeb/后端/Spring Security/3-1 高级.md"
     },
     {
-      "basename": "4-1 OAuth 2",
-      "path": "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md"
-    },
-    {
       "basename": "1-1 会话管理",
       "path": "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md"
     },
@@ -107,10 +111,6 @@
     {
       "basename": "计算机网络",
       "path": "计算机/四大件/计算机网络/计算机网络.md"
-    },
-    {
-      "basename": "MarkDown 语法",
-      "path": "临时笔记/MarkDown 语法.md"
     },
     {
       "basename": "2-1 Java 的理论知识",
