@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/MarkDown 语法.md"
+                "file": "计算机/设计模式/创建型模式/未命名.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/MarkDown 语法.md"
+                "file": "计算机/设计模式/创建型模式/未命名.md"
               }
             }
           },
@@ -222,10 +222,10 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a4860916738cab14",
+  "active": "c43791d85bf7822d",
   "lastOpenFiles": [
-    "计算机/设计模式/创建型模式/未命名.md",
     "临时笔记/MarkDown 语法.md",
+    "计算机/设计模式/创建型模式/未命名.md",
     "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md",
     "计算机/设计模式/创建型模式/创建型模式.md",
     "计算机/设计模式/六大原则.md",
