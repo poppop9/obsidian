@@ -1,44 +1,45 @@
 # Lambda 表达式
->[!quote] Lambda表达式
+>[!quote] Lambda 表达式
+>`() -> {……}`
+> ```
+> ()：小括号里面没有内容，表示该方法没有参数。如果有多个参数，用逗号隔开
+> ->：表示指向要做的事情
+> {}：大括号里的内容表示需要做的事情（方法体内容）
+> ```
 
-## 标准格式
->() -> {……}
-```
-()：小括号里面没有内容，表示该方法没有参数。如果有多个参数，用逗号隔开
-->：表示指向要做的事情
-{}：大括号里的内容表示需要做的事情（方法体内容）
-```
-## 有什么用？
-### 简化代码
-- 使用匿名内部类实现多线程时
-	```java
-	public static void main(String[] args) {
-		new Thread(new Runnable() {
-			@Override
-			public void run() {
-				System.out.println("多线程启动了");
-			}
-		}).start();
-	}
-	```
-- 使用Lambda表达式实现多线程时
-	```java
-	public static void main(String[] args) {
-	  new Thread(() -> {
-		  System.out.println("多线程启动了");
-	  }).start();
-	}
-	```
-### 简化字节码文件
-- 使用匿名内部类时，会在编译之后，单独产生一个字节码文件[^1]
-- 使用Lambda表达式时，编译之后不会单独产生一个字节码文件，而是在运行时动态生成
+>[!hint] 作用
+>- **简化代码**
+> ```java
+> // 使用匿名内部类实现多线程时
+> public static void main(String[] args) {
+> 	new Thread(new Runnable() {
+> 		@Override
+> 		public void run() {
+> 			System.out.println("多线程启动了");
+> 		}
+> 	}).start();
+> }
+> ```
+> 
+> ```java
+> // 使用Lambda表达式实现多线程时
+> public static void main(String[] args) {
+>   new Thread(() -> {
+> 	  System.out.println("多线程启动了");
+>   }).start();
+> }
+> ```
+> 
+> - **简化字节码文件**
+> 	- 使用匿名内部类时，会在编译之后，单独产生一个字节码文件
+> 	- 使用 Lambda 表达式时，编译之后不会单独产生一个字节码文件，而是在运行时动态生成
 
-[^1]:当然在注释相应的匿名内部类代码之后，该字节码文件会消失
-## 使用前提
-### 这个类要有一个接口
->比如需要的MyRunnable这个类有一个接口Runnable
-### 这个接口中有且仅有一个抽象方法
->比如Runnable接口里只有一个抽象方法run方法
+---
+
+>[!hint] 使用前提
+>- **这个类要有一个接口**：比如需要的 MyRunnable 这个类有一个接口 Runnable
+>- **这个接口中有且仅有一个抽象方法**：比如 Runnable 接口里只有一个抽象方法 run
+
 ## 实现有参数和返回值的抽象方法
 ```java
 public interface Eatable {  
@@ -60,7 +61,7 @@ public class EatableDemo {
 	int a = 2;
 }
 
-
+---
 3
 ```
 ## 还能怎么省略
