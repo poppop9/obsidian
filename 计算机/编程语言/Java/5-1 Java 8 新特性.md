@@ -597,64 +597,57 @@ public class FunctionDemo {
 	}
 	```
 
-
-
-### 作用
-- [x] 使得代码更加简洁，增加可读性，易于管理
-	>比如我在测试类中需要到MyInterface中的show方法。
-	>- 在show()方法不是静态方法时，我需要先创建一个实现类Imp，然后通过Imp来调用show方法（***可是我只是需要show()方法而已，我不需要Imp类啊，这样就使得代码变得复杂了，可读性也降低了***）；
-	>- 在show()方法是静态方法时，我只需要MyInterface.show()即可，***不需要创建一个没有用的Imp类***
-
-
+>[!hint] 使得代码更加简洁，增加可读性，易于管理
+>比如我在测试类中需要到 MyInterface 中的 show 方法
+>- 在 show() 方法不是静态方法时，我需要先创建一个实现类 Imp，然后通过 Imp来调用show方法（***可是我只是需要show()方法而已，我不需要Imp类啊，这样就使得代码变得复杂了，可读性也降低了***）；
+>- 在show()方法是静态方法时，我只需要MyInterface.show()即可，***不需要创建一个没有用的Imp类***
 
 ## 接口中的私有方法
->private ……
->private static ……
+>[!quote] 接口中的私有方法
+>`private ……` ，`private static ……`
 
-### 作用
-- [x] 减少接口中代码的重复性
-	- 在不使用接口中的私有方法时
-		```java
-		public interface MyInterface1 {  
-		    default void show1(){  
-		        System.out.print("我是show1：");  
-		        System.out.print("hello");  
-		        System.out.print("world");  
-		        System.out.print("java");  
-		    }  
-		  
-		    default void show2(){  
-		        System.out.print("我是show2：");  
-		        System.out.print("hello");  
-		        System.out.print("world");  
-		        System.out.print("java");  
-		    }  
-		}
-		```
+>[!hint]+ 减少接口中代码的重复性
+> ```java
+> // 在不使用接口中的私有方法时
+> public interface MyInterface1 {  
+> 	default void show1(){  
+> 		System.out.print("我是show1：");  
+> 		System.out.print("hello");  
+> 		System.out.print("world");  
+> 		System.out.print("java");  
+> 	}  
+>   
+> 	default void show2(){  
+> 		System.out.print("我是show2：");  
+> 		System.out.print("hello");  
+> 		System.out.print("world");  
+> 		System.out.print("java");  
+> 	}  
+> }
+> ```
+> 
+> ```java
+> // 使用接口中的私有方法时
+> public interface MyInterface1 {  
+> 	default void show1() {  
+> 		System.out.print("我是show1：");  
+> 		show();  
+> 	}  
+>   
+> 	default void show2() {  
+> 		System.out.print("我是show2：");  
+> 		show();  
+> 	}  
+>   
+> 	private void show() {  
+> 		System.out.print("hello");  
+> 		System.out.print("world");  
+> 		System.out.print("java");  
+> 	}  
+> }
+> ```
 
-	- 使用接口中的私有方法时
-		```java
-		public interface MyInterface1 {  
-		    default void show1() {  
-		        System.out.print("我是show1：");  
-		        show();  
-		    }  
-		  
-		    default void show2() {  
-		        System.out.print("我是show2：");  
-		        show();  
-		    }  
-		  
-		    private void show() {  
-		        System.out.print("hello");  
-		        System.out.print("world");  
-		        System.out.print("java");  
-		    }  
-		}
-		```
-
-
-# Stream流
+# Stream 流
 ```
 public interface Stream<T> extends BaseStream<T,Stream<T>>
 ```
@@ -930,6 +923,7 @@ public static void main(String[] args) {
 
 ### 收集到其他集合
 >Collectors.toList()
+
 ```java
 public static void main(String[] args) {  
     List<Integer> list = new ArrayList<>();  
