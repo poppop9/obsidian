@@ -566,41 +566,41 @@ public class FunctionDemo {
 		}
 		```
 ## 接口中的静态方法
->public static ……
-### 注意事项
-- <mark style="background: #D2B3FFA6;">静态方法只能通过接口名调用，不能通过实现类名调用</mark>（***所以与默认方法不同，就算有一个实现类同时实现了两个接口，且这两个接口有同名的静态方法，也不会强制重写***）
-	```java
-	public interface MyInterface1 {  
-	    public static void show4(){  
-	        System.out.println("我是1接口中的静态方法");  
-	    }  
-	}
-	```
-	```java
-	public interface MyInterface2 {  
-	    public static void show4(){  
-	        System.out.println("我是2接口中的静态方法");  
-	    }  
-	}
-	```
-	```java
-	public class mitfImp1 implements MyInterface1,MyInterface2 {
-	
-	}
-	```
-	```java
-	public class Demo {  
-	    public static void main(String[] args) { 
-	        MyInterface1.show4();         //遥控器是MyInterface1，而不是mitfImp1
-	        MyInterface2.show4();  
-	    }  
-	}
-	```
+>[!quote] 接口中的静态方法
+>`public static ……`
 
 >[!hint] 使得代码更加简洁，增加可读性，易于管理
->比如我在测试类中需要到 MyInterface 中的 show 方法
->- 在 show() 方法不是静态方法时，我需要先创建一个实现类 Imp，然后通过 Imp来调用show方法（***可是我只是需要show()方法而已，我不需要Imp类啊，这样就使得代码变得复杂了，可读性也降低了***）；
->- 在show()方法是静态方法时，我只需要MyInterface.show()即可，***不需要创建一个没有用的Imp类***
+>比如我在测试类中需要到 MyInterface 中的 show 方法：
+>- 在 show() 方法不是静态方法时，我需要先创建一个实现类 Impl，然后通过 Impl 来调用 show 方法，~~可是我只是需要 show() 方法而已，我不需要 Impl 类啊，这样就使得代码变得复杂了，可读性也降低了~~
+>- 在 show() 方法是静态方法时，我只需要 MyInterface.show() 即可，不需要创建一个没有用的 Impl 类
+
+---
+
+>[!warning]+ 静态方法只能通过接口名调用，不能通过实现类名调用，~~所以与默认方法不同，就算有一个实现类同时实现了两个接口，且这两个接口有同名的静态方法，也不会强制重写~~
+> ```java
+> public interface MyInterface1 {  
+> 	public static void show4(){  
+> 		System.out.println("我是1接口中的静态方法");  
+> 	}  
+> }
+> 
+> public interface MyInterface2 {  
+> 	public static void show4(){  
+> 		System.out.println("我是2接口中的静态方法");  
+> 	}  
+> }
+> 
+> public class mitfImp1 implements MyInterface1,MyInterface2 { }
+> 
+> psvm { 
+> 	MyInterface1.show4();      //遥控器是MyInterface1，而不是mitfImp1
+> 	MyInterface2.show4();  
+> }  
+> 
+> ---
+> 我是1接口中的静态方法
+> 我是2接口中的静态方法
+> ```
 
 ## 接口中的私有方法
 >[!quote] 接口中的私有方法
