@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "3 BootStrap 高级",
+      "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
+    },
+    {
       "basename": "Nginx",
       "path": "计算机/Nginx.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2-3 Java 的基础语法 2",
       "path": "计算机/编程语言/Java/2-3 Java 的基础语法 2.md"
-    },
-    {
-      "basename": "2-2 Java 的基础语法 1",
-      "path": "计算机/编程语言/Java/2-2 Java 的基础语法 1.md"
     }
   ],
   "omittedPaths": [],
