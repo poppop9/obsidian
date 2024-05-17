@@ -65,8 +65,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/设计模式/六大原则.md",
-                "mode": "source",
+                "file": "计算机/Docker.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/设计模式/六大原则.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/设计模式/六大原则.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -211,6 +211,7 @@
   },
   "active": "c43791d85bf7822d",
   "lastOpenFiles": [
+    "计算机/设计模式/六大原则.md",
     "计算机/Linux/1-1 权限.md",
     "计算机/Nginx.md",
     "计算机/Linux/1-2 文件目录.md",
@@ -220,7 +221,6 @@
     "计算机/编程语言/Java/JVM 虚拟机/JVM 虚拟机.md",
     "计算机/Git.md",
     "计算机/编程语言/Java/1 idea.md",
-    "计算机/设计模式/六大原则.md",
     "计算机/设计模式/创建型模式/未命名.md",
     "计算机/设计模式/创建型模式/创建型模式.md",
     "计算机/设计模式/行为模式/行为模式.md",

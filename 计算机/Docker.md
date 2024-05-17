@@ -77,7 +77,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 
 # 验证是否安装成功
 docker version
-sudo docker run hello-world
 ```
 
 - 配置镜像加速 https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors

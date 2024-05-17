@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
       "basename": "六大原则",
       "path": "计算机/设计模式/六大原则.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "1-2 文件目录",
       "path": "计算机/Linux/1-2 文件目录.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "自动内存管理",
