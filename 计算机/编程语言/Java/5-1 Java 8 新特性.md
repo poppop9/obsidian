@@ -172,19 +172,20 @@ public class EatableDemo {
 > ```java
 > public class Demo3 {  
 >     public static void main(String[] args) {  
->     // 匿名内部类
-> 	//        useStudentBuilder(new studentBuilder() {  
-> 	//            @Override  
-> 	//            public student build(int age, String name) {         
-> 	//                return new student(age, name);  
-> 	//            }  
-> 	//        });  
+> 	    // 匿名内部类
+> 		// useStudentBuilder(new studentBuilder() {  
+> 		//     @Override  
+> 		//     public student build(int age, String name) {         
+> 		//         return new student(age, name);  
+> 		//     }  
+> 		// });  
+> 	
+> 		// Lambda表达式
+> 		// useStudentBuilder((int age, String name) -> {           
+> 		//     return new student(age, name);  
+> 		// });  
 >   
-> //        useStudentBuilder((int age, String name) -> {           //Lambda表达式
-> //            return new student(age, name);  
-> //        });  
->   
->         useStudentBuilder(student::new);                    //new代表了构造方法
+>         useStudentBuilder(student::new);     // new代表了构造方法
 >     }  
 >   
 >     public static void useStudentBuilder(studentBuilder sb) {  
@@ -195,9 +196,9 @@ public class EatableDemo {
 > ```
 
 # 函数式接口
->有且仅有一个抽象方法的接口[^2]
+>[!quote] 函数式接口
+>函数式接口 是有且仅有一个抽象方法的接口，~~函数式接口完全就是为了 Lambda 表达式而打造的，它的概念就是 Lambda 表达式的使用前提~~
 
-[^2]:函数式接口完全就是为了Lambda表达式而打造的，它的概念就是Lambda表达式的使用前提
 ## 函数式接口用作局部变量
 ```java
 @FunctionalInterface               //这是一个注解，告诉别人这是函数式接口。
@@ -421,13 +422,18 @@ public class FunctionDemo {
 
 100
 ```
+
 # 接口的组成更新
-## 概述
+>[!quote] 接口的组成更新
 >***Java 8之前***，接口中只有<u>常量</u>和<u>抽象方法</u>
 >***Java 8 之后***，接口中加入了<u>默认方法</u>和<u>静态方法</u>
 >***Java 9之后***，接口中加入了<u>私有方法</u>
+
 ## 接口中的默认方法
+>[!quote] 接口中的默认方法
 >public default ……
+
+
 ### 注意事项
 - ***默认方法中可以有方法体***
 - ==接口中的默认方法不会让实现类去强制重写==
