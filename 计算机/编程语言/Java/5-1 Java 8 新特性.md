@@ -88,12 +88,11 @@ public class EatableDemo {
 > public interface parseInt {  
 >     int convert(String s);  
 > }
-> ```
 > 
-> ```java
 > public class Demo {  
->     public static void main(String[] args) {  
->         useParseInt(Integer::parseInt);          //Integer这个接口里面有个静态的parseInt方法
+>     psvm {  
+> 	    //Integer这个接口里面有个静态的parseInt方法
+>         useParseInt(Integer::parseInt);  
 >     }  
 >   
 >     public static void useParseInt(parseInt p) {  

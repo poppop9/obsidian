@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "5-1 Java 8 新特性",
+      "path": "计算机/编程语言/Java/5-1 Java 8 新特性.md"
+    },
+    {
+      "basename": "3-3 字符串",
+      "path": "计算机/编程语言/Java/3-3 字符串.md"
+    },
+    {
+      "basename": "2-3 Java 的基础语法 2",
+      "path": "计算机/编程语言/Java/2-3 Java 的基础语法 2.md"
+    },
+    {
+      "basename": "2-2 Java 的基础语法 1",
+      "path": "计算机/编程语言/Java/2-2 Java 的基础语法 1.md"
+    },
+    {
+      "basename": "2-2 文件上云",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2-2 文件上云.md"
+    },
+    {
+      "basename": "2-1 默认流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+    },
+    {
       "basename": "4-1 OAuth 2",
       "path": "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md"
     },
@@ -31,18 +55,6 @@
     {
       "basename": "跨域配置",
       "path": "计算机/JavaWeb/后端/SpringBoot/跨域配置.md"
-    },
-    {
-      "basename": "2-1 默认流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
-    },
-    {
-      "basename": "2-2 文件上云",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2-2 文件上云.md"
-    },
-    {
-      "basename": "5-1 Java 8 新特性",
-      "path": "计算机/编程语言/Java/5-1 Java 8 新特性.md"
     },
     {
       "basename": "MarkDown 语法",
@@ -187,18 +199,6 @@
     {
       "basename": "3-6 修饰符",
       "path": "计算机/编程语言/Java/3-6 修饰符.md"
-    },
-    {
-      "basename": "3-5 异常",
-      "path": "计算机/编程语言/Java/3-5 异常.md"
-    },
-    {
-      "basename": "3-4 基本类型包装类",
-      "path": "计算机/编程语言/Java/3-4 基本类型包装类.md"
-    },
-    {
-      "basename": "3-2 日期时间",
-      "path": "计算机/编程语言/Java/3-2 日期时间.md"
     }
   ],
   "omittedPaths": [],
