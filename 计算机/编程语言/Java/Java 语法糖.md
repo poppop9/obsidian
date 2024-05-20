@@ -1,54 +1,46 @@
 
 # Java 语法糖
-## 数值字面量
-在 java 7 中，数值字面量，
-
-```java
-public class Test {
-    public static void main(String... args) {
-        int i = 10_000;
-        System.out.println(i);
-    }
-}
-```
-
-反编译后会自动把下划线去掉，就是为了方便阅读
-
-#### For-Each
+## For-Each
 
 For-Each 是程序员都会经常用到的，底层也是普遍都讲过是利用 for 循环和迭代器，因此使用要注意 fail-fast 机制，建议了解 Stream 流的知识。
 
-举个例子
+```java
+import com.google.common.collect.ImmutableList;
+import java.util.List;
+import java.util.Iterator;
 
-    publicstaticvoidmain(String...args){
-    String[]strs={"Hello"};
-    for(Strings:strs){
-    System.out.println(s);
-    }
-    List<String>strList=ImmutableList.of("Hello");
-    for(Strings:strList){
-    System.out.println(s);
-    }
-    }
+public class Main {
 
-    publicstatictransientvoidmain(Stringargs[])
-    {
-    Stringstrs[]={
-    "Hello"
-    };
-    Stringargs1[]=strs;
-    inti=args1.length;
-    for(intj=0;j<i;j++)
-    {
-    Strings=args1[j];
-    System.out.println(s);
+    public static void main(String... args) {
+        String[] strs = {"Hello"};
+        for (String s : strs) {
+            System.out.println(s);
+        }
+
+        List<String> strList = ImmutableList.of("Hello");
+        for (String s : strList) {
+            System.out.println(s);
+        }
     }
 
-    ListstrList=ImmutableList.of("Hello");
-    Strings;
-    for(Iteratoriterator=strList.iterator();iterator.hasNext();System.out.println(s))
-    s=(String)iterator.next();
+    public static transient void main(String args[]) {
+        String[] strs = {"Hello"};
+        String[] args1 = strs;
+        int i = args1.length;
+        for (int j = 0; j < i; j++) {
+            String s = args1[j];
+            System.out.println(s);
+        }
+
+        List<String> strList = ImmutableList.of("Hello");
+        String s;
+        for (Iterator<String> iterator = strList.iterator(); iterator.hasNext(); ) {
+            s = iterator.next();
+            System.out.println(s);
+        }
     }
+}
+```
 
 #### 注意事项
 
