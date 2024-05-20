@@ -1,56 +1,14 @@
 
 ### Java 语法糖
-#### 自动装箱和拆箱
-
-这个语法糖应该是较为熟知的，自动装箱就是 Java 自动将原始类型值转换成对应的对象，比如将 int 的变量转换成 Integer 对象，这个过程叫做装箱，反之将 Integer 对象转换成 int 类型值，这个过程叫做拆箱。因为不用人工去转化，因此是自动装箱和拆箱。
-
-举个例子（自动装箱）
-
-    publicstaticvoidmain(String[]args){
-    intnum=1;
-    Integern=num;
-    }
-
-反编译
-
-    publicstaticvoidmain(Stringargs[])
-    {
-    intnum=1;
-    Integern=Integer.valueOf(num);
-    }
-
-自动拆箱
-
-    publicstaticvoidmain(String[]args){
-
-    Integernum=10;
-    intn=num;
-    }
-
-反编译
-
-    publicstaticvoidmain(Stringargs[])
-    {
-    Integernum=Integer.valueOf(10);
-    intn=num.intValue();
-    }
-
-总结：装箱用 valueOf() 方法，拆箱用 xxxValue 方法，比如 intValue。
-
 #### 断言
-
-在 Java 中，`assert`关键字是从 JAVA SE 1.4 引入的，为了避免和老版本的 Java 代码中使用了`assert`关键字导致错误，Java 在执行的时候默认是不启动断言检查的。
-
-举个例子
-
-    publicclassTest{
-    publicstaticvoidmain(Stringargs[]){
-    inta=1;
-    intb=1;
-    asserta==b;
-    System.out.println("HelloWord");
-    }
-    }
+publicclassTest{
+publicstaticvoidmain(Stringargs[]){
+inta=1;
+intb=1;
+asserta==b;
+System.out.println("HelloWord");
+}
+}
 
 当 a不等于b 时，会抛出断言的异常，相等才会输出 HelloWorld，反编译后相当于一个 if else。
 
