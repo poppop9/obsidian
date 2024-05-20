@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2-2 Java 的基础语法 1",
+      "path": "计算机/编程语言/Java/2-2 Java 的基础语法 1.md"
+    },
+    {
+      "basename": "1 基础",
+      "path": "计算机/数据库/Redis/1 基础.md"
+    },
+    {
       "basename": "Java 语法糖",
       "path": "计算机/编程语言/Java/Java 语法糖.md"
     },
     {
       "basename": "3-4 基本类型包装类",
       "path": "计算机/编程语言/Java/3-4 基本类型包装类.md"
-    },
-    {
-      "basename": "1 基础",
-      "path": "计算机/数据库/Redis/1 基础.md"
     },
     {
       "basename": "创建型模式",
@@ -31,10 +35,6 @@
     {
       "basename": "2-3 Java 的基础语法 2",
       "path": "计算机/编程语言/Java/2-3 Java 的基础语法 2.md"
-    },
-    {
-      "basename": "2-2 Java 的基础语法 1",
-      "path": "计算机/编程语言/Java/2-2 Java 的基础语法 1.md"
     },
     {
       "basename": "2-2 文件上云",
