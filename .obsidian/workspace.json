@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/4-3 泛型.md",
+                "file": "计算机/编程语言/Java/3-4 基本类型包装类.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/Java 语法糖.md"
+                "file": "计算机/编程语言/Java/3-4 基本类型包装类.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/Java 语法糖.md"
+                "file": "计算机/编程语言/Java/3-4 基本类型包装类.md"
               }
             }
           },
@@ -209,13 +209,13 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "a4860916738cab14",
+  "active": "c43791d85bf7822d",
   "lastOpenFiles": [
+    "计算机/编程语言/Java/Java 语法糖.md",
+    "计算机/编程语言/Java/3-4 基本类型包装类.md",
     "计算机/编程语言/Java/4-3 泛型.md",
     "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
-    "计算机/编程语言/Java/Java 语法糖.md",
     "计算机/数据库/Redis/1 基础.md",
-    "计算机/编程语言/Java/3-4 基本类型包装类.md",
     "计算机/设计模式/创建型模式.md",
     "计算机/编程语言/Java/5-1 Java 8 新特性.md",
     "计算机/编程语言/Java/4-1 类与对象.md",
