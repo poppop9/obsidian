@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/4-3 泛型.md"
+                "file": "计算机/编程语言/Java/Java 语法糖.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/4-3 泛型.md"
+                "file": "计算机/编程语言/Java/Java 语法糖.md"
               }
             }
           },
@@ -209,8 +209,9 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c43791d85bf7822d",
+  "active": "a4860916738cab14",
   "lastOpenFiles": [
+    "计算机/编程语言/Java/4-3 泛型.md",
     "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
     "计算机/编程语言/Java/Java 语法糖.md",
     "计算机/数据库/Redis/1 基础.md",
@@ -236,7 +237,6 @@
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/设计模式/设计模式.md",
     "计算机/Nginx.md",
-    "计算机/Docker.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",

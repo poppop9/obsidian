@@ -42,11 +42,9 @@ public class Main {
 }
 ```
 
-#### 注意事项
+## 注意事项
 
-2）try catch 中的异常不能再去区别异常的泛型类型，同样是泛型擦除机制。
-
-3）自动拆箱和装箱，但是整数值有缓存机制。
+3）自动拆箱和装箱，但是整数值有缓存机制
 
     publicstaticvoidmain(String[]args){
     Integera=129;
