@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/2-2 Java 的基础语法 1.md"
+                "file": "计算机/编程语言/Java/Java 语法糖.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/2-2 Java 的基础语法 1.md"
+                "file": "计算机/编程语言/Java/Java 语法糖.md"
               }
             }
           },
@@ -209,17 +209,17 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "c43791d85bf7822d",
+  "active": "a4860916738cab14",
   "lastOpenFiles": [
-    "计算机/数据库/Redis/1 基础.md",
+    "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
     "计算机/编程语言/Java/Java 语法糖.md",
+    "计算机/数据库/Redis/1 基础.md",
     "计算机/编程语言/Java/3-4 基本类型包装类.md",
     "计算机/设计模式/创建型模式.md",
     "计算机/编程语言/Java/5-1 Java 8 新特性.md",
     "计算机/编程语言/Java/4-1 类与对象.md",
     "计算机/编程语言/Java/3-3 字符串.md",
     "计算机/编程语言/Java/2-3 Java 的基础语法 2.md",
-    "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
     "计算机/JavaWeb/后端/SpringBoot/2-2 文件上云.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md",
