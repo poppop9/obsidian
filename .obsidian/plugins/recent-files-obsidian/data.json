@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Jackson",
+      "path": "计算机/JavaWeb/第三方类库/Jackson.md"
+    },
+    {
       "basename": "4-2 继承",
       "path": "计算机/编程语言/Java/4-2 继承.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "数据结构与算法",
       "path": "计算机/四大件/数据结构与算法/数据结构与算法.md"
-    },
-    {
-      "basename": "1-2 配置文件",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
     }
   ],
   "omittedPaths": [],
