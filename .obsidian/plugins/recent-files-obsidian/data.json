@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "4-1 类与对象",
+      "path": "计算机/编程语言/Java/4-1 类与对象.md"
+    },
+    {
       "basename": "4-2 继承",
       "path": "计算机/编程语言/Java/4-2 继承.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "Java 语法糖",
       "path": "计算机/编程语言/Java/Java 语法糖.md"
-    },
-    {
-      "basename": "4-1 类与对象",
-      "path": "计算机/编程语言/Java/4-1 类与对象.md"
     },
     {
       "basename": "3-7 集合",
