@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Maven",
+      "path": "计算机/JavaWeb/后端/Maven.md"
+    },
+    {
+      "basename": "跨域配置",
+      "path": "计算机/JavaWeb/后端/SpringBoot/跨域配置.md"
+    },
+    {
+      "basename": "2-1 默认流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+    },
+    {
       "basename": "2-2 数据结构命令",
       "path": "计算机/数据库/Redis/2-2 数据结构命令.md"
     },
     {
       "basename": "3-1 高级",
       "path": "计算机/数据库/Redis/3-1 高级.md"
-    },
-    {
-      "basename": "2-1 默认流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
     {
       "basename": "Jackson",
@@ -105,10 +113,6 @@
       "path": "计算机/JavaWeb/JavaWeb.md"
     },
     {
-      "basename": "跨域配置",
-      "path": "计算机/JavaWeb/后端/SpringBoot/跨域配置.md"
-    },
-    {
       "basename": "MarkDown 语法",
       "path": "临时笔记/MarkDown 语法.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "娱乐命令",
       "path": "计算机/Linux/娱乐命令.md"
-    },
-    {
-      "basename": "Svelte",
-      "path": "计算机/JavaWeb/前端/Svelte.md"
     }
   ],
   "omittedPaths": [],
