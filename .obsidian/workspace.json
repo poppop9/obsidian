@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/Redis/2-2 数据结构命令.md",
+                "file": "计算机/Git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/Redis/2-2 数据结构命令.md"
+                "file": "计算机/Git.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/Redis/2-2 数据结构命令.md"
+                "file": "计算机/Git.md"
               }
             }
           },
@@ -224,6 +224,7 @@
   },
   "active": "12e4938090699372",
   "lastOpenFiles": [
+    "计算机/数据库/Redis/2-2 数据结构命令.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/数据库/MySQL/4-1 高级语句.md",
     "计算机/数据库/MySQL/3-1 约束.md",
@@ -231,7 +232,6 @@
     "计算机/JavaWeb/后端/Spring Security/JWT.md",
     "计算机/JavaWeb/后端/Maven.md",
     "计算机/编程语言/Java/5-3 反射.md",
-    "计算机/数据库/Redis/2-2 数据结构命令.md",
     "计算机/编程语言/Java/4-1 类与对象.md",
     "计算机/编程语言/Java/4-2 继承.md",
     "封装.md",

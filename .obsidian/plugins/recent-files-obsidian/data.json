@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "计算机/Git.md"
+    },
+    {
       "basename": "2-2 数据结构命令",
       "path": "计算机/数据库/Redis/2-2 数据结构命令.md"
     },
@@ -167,10 +171,6 @@
     {
       "basename": "JVM 虚拟机",
       "path": "计算机/编程语言/Java/JVM 虚拟机/JVM 虚拟机.md"
-    },
-    {
-      "basename": "Git",
-      "path": "计算机/Git.md"
     },
     {
       "basename": "1 idea",
