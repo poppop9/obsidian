@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/3-4 基本类型包装类.md",
+                "file": "计算机/编程语言/Java/4-2 继承.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             }
           },
           {
-            "id": "bb52e909ec220733",
+            "id": "d33eca74121c8f29",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/Java 语法糖.md"
+                "file": "计算机/编程语言/Java/4-2 继承.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/Java 语法糖.md"
+                "file": "计算机/编程语言/Java/4-2 继承.md"
               }
             }
           },
@@ -205,12 +205,15 @@
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
       "command-palette:打开命令面板": false,
-      "remotely-save:Remotely Save": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "a4860916738cab14",
+  "active": "c43791d85bf7822d",
   "lastOpenFiles": [
+    "计算机/编程语言/Java/4-1 类与对象.md",
+    "计算机/编程语言/Java/3-7 集合.md",
+    "计算机/编程语言/Java/2-3 Java 的基础语法 2.md",
     "计算机/编程语言/Java/3-4 基本类型包装类.md",
     "计算机/编程语言/Java/Java 语法糖.md",
     "计算机/编程语言/Java/4-3 泛型.md",
@@ -218,9 +221,7 @@
     "计算机/数据库/Redis/1 基础.md",
     "计算机/设计模式/创建型模式.md",
     "计算机/编程语言/Java/5-1 Java 8 新特性.md",
-    "计算机/编程语言/Java/4-1 类与对象.md",
     "计算机/编程语言/Java/3-3 字符串.md",
-    "计算机/编程语言/Java/2-3 Java 的基础语法 2.md",
     "计算机/JavaWeb/后端/SpringBoot/2-2 文件上云.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md",
@@ -236,7 +237,6 @@
     "计算机/设计模式/六大原则.md",
     "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md",
     "计算机/设计模式/设计模式.md",
-    "计算机/Nginx.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
