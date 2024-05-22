@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "5-1 Java 8 新特性",
+      "path": "计算机/编程语言/Java/5-1 Java 8 新特性.md"
+    },
+    {
+      "basename": "Java 语法糖",
+      "path": "计算机/编程语言/Java/Java 语法糖.md"
+    },
+    {
       "basename": "4-2 继承",
       "path": "计算机/编程语言/Java/4-2 继承.md"
     },
@@ -21,10 +29,6 @@
       "path": "计算机/编程语言/Java/3-4 基本类型包装类.md"
     },
     {
-      "basename": "Java 语法糖",
-      "path": "计算机/编程语言/Java/Java 语法糖.md"
-    },
-    {
       "basename": "4-3 泛型",
       "path": "计算机/编程语言/Java/4-3 泛型.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "创建型模式",
       "path": "计算机/设计模式/创建型模式.md"
-    },
-    {
-      "basename": "5-1 Java 8 新特性",
-      "path": "计算机/编程语言/Java/5-1 Java 8 新特性.md"
     },
     {
       "basename": "3-3 字符串",
