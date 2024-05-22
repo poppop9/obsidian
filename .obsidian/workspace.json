@@ -85,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Jackson.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
               }
             }
           },
@@ -190,7 +189,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Jackson.md"
+                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
               }
             }
           },
@@ -222,8 +221,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3fb1987bcd09b45c",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/第三方类库/Jackson.md",
     "计算机/编程语言/Java/4-2 继承.md",
     "计算机/数据库/Redis/2-2 数据结构命令.md",
     "计算机/数据库/Redis/1 基础.md",
@@ -249,7 +249,6 @@
     "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md",
     "计算机/JavaWeb/JavaWeb.md",
     "计算机/JavaWeb/后端/SpringBoot/跨域配置.md",
-    "临时笔记/MarkDown 语法.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",

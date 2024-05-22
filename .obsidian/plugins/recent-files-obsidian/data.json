@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2-1 默认流程分析",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
+    },
+    {
       "basename": "Jackson",
       "path": "计算机/JavaWeb/第三方类库/Jackson.md"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "2-2 文件上云",
       "path": "计算机/JavaWeb/后端/SpringBoot/2-2 文件上云.md"
-    },
-    {
-      "basename": "2-1 默认流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     },
     {
       "basename": "4-1 OAuth 2",
