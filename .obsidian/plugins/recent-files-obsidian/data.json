@@ -5,12 +5,16 @@
       "path": "计算机/编程语言/Java/6 并发编程.md"
     },
     {
-      "basename": "2 Bean",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md"
+      "basename": "MarkDown 语法",
+      "path": "临时笔记/MarkDown 语法.md"
     },
     {
       "basename": "1 起步依赖",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md"
+    },
+    {
+      "basename": "2 Bean",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md"
     },
     {
       "basename": "3 环境上下文",
@@ -171,10 +175,6 @@
     {
       "basename": "JavaWeb",
       "path": "计算机/JavaWeb/JavaWeb.md"
-    },
-    {
-      "basename": "MarkDown 语法",
-      "path": "临时笔记/MarkDown 语法.md"
     },
     {
       "basename": "六大原则",
