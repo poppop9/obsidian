@@ -78,8 +78,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md"
               }
             }
           },
@@ -224,8 +224,9 @@
   },
   "active": "fd1542e4d1ce455a",
   "lastOpenFiles": [
-    "计算机/Docker.md",
+    "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md",
     "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md",
+    "计算机/Docker.md",
     "临时笔记/DDED.md",
     "计算机/数据库/MySQL/1-1 安装配置.md",
     "计算机/编程语言/Java/6 并发编程.md",
@@ -249,7 +250,6 @@
     "计算机/数据库/Redis/2-2 数据结构命令.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/数据库/MySQL/4-1 高级语句.md",
-    "计算机/数据库/MySQL/3-1 约束.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",

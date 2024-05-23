@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2-1 MyBatis",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md"
+    },
+    {
       "basename": "1-4 测试",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md"
     },
     {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
-    },
-    {
       "basename": "2-2 MyBatis Plus",
       "path": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
     },
     {
       "basename": "1-1 安装配置",
@@ -23,10 +27,6 @@
     {
       "basename": "2-3 文件上云",
       "path": "计算机/JavaWeb/后端/SpringBoot/2-3 文件上云.md"
-    },
-    {
-      "basename": "2-1 MyBatis",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md"
     },
     {
       "basename": "MarkDown 语法",
