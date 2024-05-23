@@ -78,7 +78,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md",
+                "file": "计算机/编程语言/Java/6 并发编程.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md"
+                "file": "计算机/编程语言/Java/6 并发编程.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md"
+                "file": "计算机/编程语言/Java/6 并发编程.md"
               }
             }
           },
@@ -224,8 +224,9 @@
   },
   "active": "503a05ef8a544a19",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md",
+    "计算机/编程语言/Java/6 并发编程.md",
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/3 环境上下文.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/4 事件驱动编程.md",
@@ -249,7 +250,6 @@
     "计算机/编程语言/Java/4-2 继承.md",
     "封装.md",
     "计算机/JavaWeb/后端/SpringBoot/跨域配置.md",
-    "计算机/数据库/Redis/3-1 高级.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
