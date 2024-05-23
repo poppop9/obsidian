@@ -25,9 +25,17 @@
 > - 名为 id 的变量作为主键
 
 ## 自定义配置
-- `@TableName` 指定表名
-- `@TableId` 
-- `@TableField` 
+- 加在实体类上
+	- `@TableName("表明")` 指定表名
+	- `@TableId` 指定主键字段名
+	- `@TableField` 指定其他字段名
+
+```java
+
+```
+
+
+
 
 
 # 单表增删改查
