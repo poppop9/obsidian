@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md"
               }
             }
           },
@@ -222,11 +222,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "503a05ef8a544a19",
+  "active": "3fb1987bcd09b45c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/3 环境上下文.md",
-    "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/4 事件驱动编程.md",
     "计算机/Git.md",
