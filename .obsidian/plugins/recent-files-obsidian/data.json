@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "1-1 安装配置",
+      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
+      "basename": "6 并发编程",
+      "path": "计算机/编程语言/Java/6 并发编程.md"
+    },
+    {
       "basename": "2-2 MyBatis Plus",
       "path": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "MarkDown 语法",
       "path": "临时笔记/MarkDown 语法.md"
-    },
-    {
-      "basename": "6 并发编程",
-      "path": "计算机/编程语言/Java/6 并发编程.md"
     },
     {
       "basename": "1 起步依赖",
@@ -55,10 +63,6 @@
     {
       "basename": "1-1 基础特性",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "2-1 默认流程分析",
@@ -195,10 +199,6 @@
     {
       "basename": "Nginx",
       "path": "计算机/Nginx.md"
-    },
-    {
-      "basename": "1-1 权限",
-      "path": "计算机/Linux/1-1 权限.md"
     }
   ],
   "omittedPaths": [],

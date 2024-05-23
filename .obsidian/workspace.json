@@ -78,7 +78,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/编程语言/Java/6 并发编程.md",
+                "file": "计算机/数据库/MySQL/1-1 安装配置.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd1542e4d1ce455a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机/Docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +99,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -180,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
+                "file": "计算机/数据库/MySQL/1-1 安装配置.md"
               }
             }
           },
@@ -190,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
+                "file": "计算机/数据库/MySQL/1-1 安装配置.md"
               }
             }
           },
@@ -222,13 +235,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3fb1987bcd09b45c",
+  "active": "503a05ef8a544a19",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/2-3 文件上云.md",
+    "计算机/Docker.md",
+    "计算机/数据库/MySQL/1-1 安装配置.md",
+    "计算机/编程语言/Java/6 并发编程.md",
     "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md",
+    "计算机/JavaWeb/后端/SpringBoot/2-3 文件上云.md",
     "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md",
     "临时笔记/MarkDown 语法.md",
-    "计算机/编程语言/Java/6 并发编程.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/3 环境上下文.md",
@@ -238,7 +253,6 @@
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
-    "计算机/Docker.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/JavaWeb/第三方类库/Jackson.md",
     "计算机/编程语言/Java/5-3 反射.md",
@@ -249,7 +263,6 @@
     "计算机/数据库/MySQL/4-1 高级语句.md",
     "计算机/数据库/MySQL/3-1 约束.md",
     "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md",
-    "计算机/JavaWeb/后端/Spring Security/JWT.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
