@@ -71,9 +71,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "503a05ef8a544a19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "计算机/Git.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -167,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+                "file": "计算机/Git.md"
               }
             }
           },
@@ -177,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+                "file": "计算机/Git.md"
               }
             }
           },
@@ -209,8 +222,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3fb1987bcd09b45c",
+  "active": "503a05ef8a544a19",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/Docker.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
     "计算机/Git.md",
@@ -236,7 +250,6 @@
     "计算机/编程语言/Java/2-3 Java 的基础语法 2.md",
     "计算机/编程语言/Java/3-4 基本类型包装类.md",
     "计算机/编程语言/Java/4-3 泛型.md",
-    "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
