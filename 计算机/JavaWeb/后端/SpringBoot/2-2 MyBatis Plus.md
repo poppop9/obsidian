@@ -29,13 +29,14 @@ spring:
     password: ……
 ```
 
-- 定义实体类
+- 定义实体类，并使用 `@TableName` 指定表名
 ```java
 package com.example.Pojo;  
 
 @Data  
 @NoArgsConstructor  
 @AllArgsConstructor  
+
 // 定义实体类对应的数据库中的表名
 @TableName("user")  
 public class userPlus {  
