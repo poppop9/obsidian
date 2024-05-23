@@ -1,28 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "2 Bean",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md"
+      "basename": "1 起步依赖",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md"
     },
     {
       "basename": "3 环境上下文",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/3 环境上下文.md"
     },
     {
-      "basename": "4 事件驱动编程",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/4 事件驱动编程.md"
-    },
-    {
-      "basename": "1 起步依赖",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md"
-    },
-    {
-      "basename": "Git",
-      "path": "计算机/Git.md"
+      "basename": "2 Bean",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md"
     },
     {
       "basename": "配置优先级，Bean管理",
       "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+    },
+    {
+      "basename": "4 事件驱动编程",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/4 事件驱动编程.md"
+    },
+    {
+      "basename": "Git",
+      "path": "计算机/Git.md"
     },
     {
       "basename": "DDD 架构",
