@@ -25,15 +25,33 @@
 > - 名为 id 的变量作为主键
 
 ## 自定义配置
-- 加在实体类上
-	- `@TableName("表明")` 指定表名
-	- `@TableId` 指定主键字段名
-	- `@TableField` 指定其他字段名
-
+### 加在实体类上
+- `@TableName("表明")` 指定表名
 ```java
-
+@TableName("user")
+public class User {……}
 ```
 
+---
+
+- `@TableId` 
+	- `value` 指定主键字段名
+	- `type`
+		- `IdType.AUTO` 表示数据库表的主键是自增长的
+		- `IdType.INPUT` 表示数据库表的主键由程序员自己定义
+		- `IdType.ASSIGN_ID` 表示数据库表的
+
+```java
+public class UserEntity {
+    @TableId(value = "id", type = IdType.AUTO)
+    private Long userId;
+}
+```
+
+
+
+
+- `@TableField` 指定其他字段名
 
 
 
