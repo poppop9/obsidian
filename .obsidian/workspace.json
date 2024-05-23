@@ -66,7 +66,7 @@
               "type": "markdown",
               "state": {
                 "file": "临时笔记/MarkDown 语法.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/MarkDown 语法.md"
+                "file": "计算机/编程语言/Java/6 并发编程.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/MarkDown 语法.md"
+                "file": "计算机/编程语言/Java/6 并发编程.md"
               }
             }
           },
@@ -222,10 +222,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3fb1987bcd09b45c",
+  "active": "503a05ef8a544a19",
   "lastOpenFiles": [
-    "计算机/编程语言/Java/6 并发编程.md",
     "临时笔记/MarkDown 语法.md",
+    "计算机/编程语言/Java/6 并发编程.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/3 环境上下文.md",
