@@ -65,8 +65,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "临时笔记/MarkDown 语法.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/6 并发编程.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/6 并发编程.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
               }
             }
           },
@@ -222,8 +222,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "503a05ef8a544a19",
+  "active": "3fb1987bcd09b45c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/2-3 文件上云.md",
+    "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md",
+    "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md",
     "临时笔记/MarkDown 语法.md",
     "计算机/编程语言/Java/6 并发编程.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md",
@@ -247,9 +250,6 @@
     "计算机/数据库/MySQL/3-1 约束.md",
     "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md",
     "计算机/JavaWeb/后端/Spring Security/JWT.md",
-    "计算机/JavaWeb/后端/Maven.md",
-    "计算机/编程语言/Java/4-2 继承.md",
-    "封装.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
