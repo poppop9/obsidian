@@ -1,4 +1,5 @@
 ```xml
+<!-- 这个依赖也集成了 MyBatis -->
 <dependency>
     <groupId>com.baomidou</groupId>
     <artifactId>mybatis-plus-boot-starter</artifactId>
