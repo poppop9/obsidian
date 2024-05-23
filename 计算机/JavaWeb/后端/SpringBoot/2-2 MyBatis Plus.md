@@ -39,7 +39,7 @@ public class User {……}
 	- `type`
 		- `IdType.AUTO` 表示数据库表的主键是自增长的
 		- `IdType.INPUT` 表示数据库表的主键由程序员自己定义
-		- `IdType.ASSIGN_ID` 表示数据库表的
+		- `IdType.ASSIGN_ID` 表示数据库表的主键由雪花算法自动生成
 
 ```java
 public class UserEntity {
@@ -48,11 +48,18 @@ public class UserEntity {
 }
 ```
 
-
-
+---
 
 - `@TableField` 指定其他字段名
 
+```java
+public class User {
+    @TableField("is_married")
+    private Boolean isMarried;
+}
+```
+
+>[!warning] 由于 MP 的机制，如果实体类中的某个属性名是以 `is` 开头的，那一定要指定 `@TableField` ，因为在反射处理时会去掉 `is`
 
 
 
