@@ -239,55 +239,33 @@ graph
 	id11[/梯形\]
 	id12[\反向梯形/]
 ```
+
 ### 连线
-- 实线箭头
-````
-```mermaid
-graph LR
-	a-->b--文本-->c
+- 有箭头线
 ```
-````
-```mermaid
-	graph LR
-	a-->b--文本-->c
+// 实线
+a-->b--文本-->c
+
+// 粗实线箭头
+a==>b==文本==>c
+
+// 虚线箭头
+a-.->b-.文本.->c
+
+// 无箭头线
+a---b
+b===e
+e-.-g
+
 ```
-- 粗实线箭头
-````
-```mermaid
-graph LR
-	a==>b==文本==>c
-```
-````
-```mermaid
-	graph LR
-	a==>b==文本==>c
-```
-- 虚线箭头
-````
-```mermaid
-graph LR
-	a-.->b-.文本.->c
-```
-````
-```mermaid
-	graph LR
-	a-.->b-.文本.->c
-```
+
 - 无箭头线
-````
-```mermaid
-graph LR
-	a---b
-	b===e
-	e-.-g
 ```
-````
-```mermaid
-	graph LR
-	a---b
-	b===e
-	e-.-g
 ```
+
+
+
+
 - 其他连线
 ````
 ```mermaid
