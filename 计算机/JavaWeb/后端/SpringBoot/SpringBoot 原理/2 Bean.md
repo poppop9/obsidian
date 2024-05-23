@@ -10,7 +10,10 @@
 > - `@Configuration` ：一般用于项目内部配置。SpringBoot 在启动时，会自动扫描主程序类所在的包及其所有的子包中的所有文件，寻找带有 `@Configuration` 的类作为配置类
 
 ## spring.factories
-
+```yml
+# 检测到`@EnableAutoConfiguration`注解时，应该自动加载`DynamicThreadPoolAutoConfig`这个类
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=app.xlog.ggbond.config.DynamicThreadPoolAutoConfig
+```
 
 
 
