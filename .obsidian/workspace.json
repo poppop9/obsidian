@@ -73,19 +73,6 @@
             }
           },
           {
-            "id": "503a05ef8a544a19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机/数据库/MySQL/1-1 安装配置.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fd1542e4d1ce455a",
             "type": "leaf",
             "state": {
@@ -193,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/MySQL/1-1 安装配置.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -203,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/MySQL/1-1 安装配置.md"
+                "file": "计算机/Docker.md"
               }
             }
           },
@@ -235,12 +222,13 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "503a05ef8a544a19",
+  "active": "fd1542e4d1ce455a",
   "lastOpenFiles": [
+    "临时笔记/DDED.md",
     "计算机/Docker.md",
+    "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md",
     "计算机/数据库/MySQL/1-1 安装配置.md",
     "计算机/编程语言/Java/6 并发编程.md",
-    "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md",
     "计算机/JavaWeb/后端/SpringBoot/2-3 文件上云.md",
     "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md",
     "临时笔记/MarkDown 语法.md",
@@ -262,7 +250,6 @@
     "计算机/数据库/Redis/1 基础.md",
     "计算机/数据库/MySQL/4-1 高级语句.md",
     "计算机/数据库/MySQL/3-1 约束.md",
-    "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",

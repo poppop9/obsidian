@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "1-1 安装配置",
-      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
-    },
-    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
     {
-      "basename": "6 并发编程",
-      "path": "计算机/编程语言/Java/6 并发编程.md"
-    },
-    {
       "basename": "2-2 MyBatis Plus",
       "path": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
+    },
+    {
+      "basename": "1-1 安装配置",
+      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
+    },
+    {
+      "basename": "6 并发编程",
+      "path": "计算机/编程语言/Java/6 并发编程.md"
     },
     {
       "basename": "2-3 文件上云",
@@ -195,10 +195,6 @@
     {
       "basename": "3 BootStrap 高级",
       "path": "计算机/JavaWeb/前端/BootStrap/3 BootStrap 高级.md"
-    },
-    {
-      "basename": "Nginx",
-      "path": "计算机/Nginx.md"
     }
   ],
   "omittedPaths": [],
