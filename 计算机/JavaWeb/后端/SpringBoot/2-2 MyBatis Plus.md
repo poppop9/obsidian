@@ -18,7 +18,14 @@
 >[!quote] MyBatis Plus
 >MyBatis 偏向于定制化开发，MyBatis Plus 不是用来替换 MyBatis 的，是在 MyBatis 的基础上提供的一套增强功能
 
-# 具体操作
+# 常用注解
+MP 默认会把实体类名的驼峰命名转下划线作为表名【~~UserInfo 转为 user_info~~】
+
+
+
+
+
+# 单表增删改查
 - 配置 yml 文件
 ```yml
 spring:
