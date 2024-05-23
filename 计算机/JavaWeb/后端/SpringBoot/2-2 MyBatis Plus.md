@@ -1,8 +1,16 @@
 ```xml
 <!-- 这个依赖也集成了 MyBatis -->
+<!-- Spring 2 -->
 <dependency>
     <groupId>com.baomidou</groupId>
     <artifactId>mybatis-plus-boot-starter</artifactId>
+    <version>3.5.6</version>
+</dependency>
+
+<!-- Spring 3 -->
+<dependency>
+    <groupId>com.baomidou</groupId>
+    <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
     <version>3.5.6</version>
 </dependency>
 ```
