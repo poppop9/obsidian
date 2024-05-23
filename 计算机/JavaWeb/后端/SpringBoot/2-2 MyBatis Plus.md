@@ -72,7 +72,32 @@ public class User {
 ```
 
 # 常用配置
+>[!hint] 大部分配置都是默认的，不用自己配，除非特殊需求要用到
 
+```yml
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml  # 指定Mapper XML文件的位置
+  type-aliases-package: com.yourpackage.domain  # 指定所有实体类的所在包
+  global-config:
+    db-config:
+      id-type: AUTO  # 全局的主键策略
+      insert-strategy: NOT_NULL  # 插入策略，只插入非空字段
+      update-strategy: NOT_NULL  # 更新策略
+      select-strategy: NOT_NULL  # 查询策略
+      logic-delete-value: 1  # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0  # 逻辑未删除值(默认为 0)
+    banner: false  # 是否显示MyBatis Plus启动横幅
+  configuration:
+    map-underscore-to-camel-case: true  # 是否开启自动驼峰命名规则
+    cache-enabled: false  # 是否开启二级缓存
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl  # 打印操作的日志
+    jdbc-type-for-null: 'null'  # 指定JDBC的null类型
+  settings:
+    use-generated-keys: true  # 是否使用数据库自增主键
+    use-column-label: true  # 使用列标签代替列名
+    log-execute-time: 100  # 执行慢的SQL阈值
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 打印SQL日志的实现类
+```
 
 
 
