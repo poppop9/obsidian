@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Git",
-      "path": "计算机/Git.md"
+      "basename": "配置优先级，Bean管理",
+      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级，Bean管理.md"
+    },
+    {
+      "basename": "DDD 架构",
+      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+    },
+    {
+      "basename": "1-2 配置文件",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
     },
     {
       "basename": "1-1 基础特性",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+    },
+    {
+      "basename": "Git",
+      "path": "计算机/Git.md"
     },
     {
       "basename": "Docker",
@@ -187,18 +199,6 @@
     {
       "basename": "3-1 树 - 二叉树",
       "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-1 树 - 二叉树.md"
-    },
-    {
-      "basename": "3-2 树 - 自平衡",
-      "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/3-2 树 - 自平衡.md"
-    },
-    {
-      "basename": "1 基础概念知识 Ⅰ",
-      "path": "计算机/四大件/计算机网络/1 基础概念知识 Ⅰ.md"
-    },
-    {
-      "basename": "计算机网络",
-      "path": "计算机/四大件/计算机网络/计算机网络.md"
     }
   ],
   "omittedPaths": [],
