@@ -21,19 +21,6 @@
             }
           },
           {
-            "id": "12e4938090699372",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机/Git.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6f2c73ec81dd03ae",
             "type": "leaf",
             "state": {
@@ -78,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Docker.md",
+                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -86,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -180,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
               }
             }
           },
@@ -190,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Docker.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
               }
             }
           },
@@ -224,11 +211,12 @@
   },
   "active": "3fb1987bcd09b45c",
   "lastOpenFiles": [
-    "计算机/JavaWeb/第三方类库/Jackson.md",
+    "计算机/Docker.md",
     "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
+    "计算机/Git.md",
+    "计算机/JavaWeb/第三方类库/Jackson.md",
     "计算机/编程语言/Java/5-3 反射.md",
     "计算机/编程语言/Java/4-1 类与对象.md",
-    "计算机/Git.md",
     "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md",
     "计算机/数据库/Redis/2-2 数据结构命令.md",
     "计算机/数据库/Redis/1 基础.md",
@@ -249,7 +237,6 @@
     "计算机/编程语言/Java/3-4 基本类型包装类.md",
     "计算机/编程语言/Java/4-3 泛型.md",
     "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
-    "计算机/设计模式/创建型模式.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
