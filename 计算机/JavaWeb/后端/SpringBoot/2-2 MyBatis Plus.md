@@ -185,9 +185,19 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 ```
 
 ## 条件构造器
->[!quote] 条件构造器
->条件构造器 Wrapper 可以构造 `WHERE` 条件，进行条件地 RUD
+>[!quote] 条件构造器 Wrapper
+>>条件构造器 Wrapper 可以构造 `WHERE` 条件，进行条件地 RUD
+>
+>**继承体系**：
+> - `Wrapper` 
+> 	- `QueryWrapper` 专门用于 R 操作，可以添加各种查询条件
+> 	- `UpdateWrapper` 用于 U 操作，可以添加更新条件和更新的字段值
+> 	- `DeleteWrapper` 用于 D 操作，可以添加删除条件
 
+
+```java
+
+```
 
 
 ## 自定义 SQL
