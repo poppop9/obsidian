@@ -195,9 +195,9 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 > 	- `LambdaQueryWrapper` 
 > 	- `LambdaUpdateWrapper` 
 
->[!hint] 使用时推荐使用 Lambda 来写
->- 防止硬编码
-
+>[!hint] 推荐使用 `LambdaQueryWrapper` ，`LambdaUpdateWrapper`
+>- 防止硬编码：字段名直接从实体类属性中引用，不需要自己指定
+>- 类型安全：在编译期间，就可以保证实体类中的属性的数据类型和传入的数据一致
 
 ```java
 
