@@ -99,11 +99,8 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 打印SQL日志的实现类
 ```
 
-
-
-
-
-# 单表增删改查
+# 核心功能
+## 简单 CRUD
 - 配置 yml 文件
 ```yml
 spring:
@@ -187,8 +184,9 @@ userPlus(userId=1, userName=kite, userPassword=$2a$10$NP/SbcLek9Q8hemltyG024K, u
 userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 ```
 
-# 核心功能
 ## 条件构造器
+>[!quote] 条件构造器
+>条件构造器 Wrapper 可以构造 `WHERE` 条件，进行条件地 RUD
 
 
 
