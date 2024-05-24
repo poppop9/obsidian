@@ -1,5 +1,8 @@
 # 从控制台获取数据
-## 利用Scanner
+- `Scanner`
+	- `hasNextInt()` 判断是否还有 int 数据
+	- `nextInt()` 接收到 int 数据
+
 ```java
 Scanner sc = new Scanner(System.in);       //首先创建Scanner对象
 int i = sc.nextInt();                  //接收数据，nextInt与int对应
