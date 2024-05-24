@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "6 InnoDB",
+      "path": "计算机/数据库/MySQL/6 InnoDB.md"
+    },
+    {
       "basename": "3-7 集合",
       "path": "计算机/编程语言/Java/3-7 集合.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Java 语法糖",
       "path": "计算机/编程语言/Java/Java 语法糖.md"
-    },
-    {
-      "basename": "3-4 基本类型包装类",
-      "path": "计算机/编程语言/Java/3-4 基本类型包装类.md"
     }
   ],
   "omittedPaths": [],
