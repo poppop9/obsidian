@@ -187,6 +187,19 @@ userPlus(userId=1, userName=kite, userPassword=$2a$10$NP/SbcLek9Q8hemltyG024K, u
 userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 ```
 
+# 核心功能
+## 条件构造器
+
+
+
+## 自定义 SQL
+
+
+
+## Service 接口
+
+
+
 
 
 
