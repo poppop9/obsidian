@@ -53,7 +53,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/数据库/MySQL/4-2 事务.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/MySQL/2-1 基础语句.md"
+                "file": "计算机/数据库/MySQL/4-2 事务.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/MySQL/2-1 基础语句.md"
+                "file": "计算机/数据库/MySQL/4-2 事务.md"
               }
             }
           },
@@ -222,11 +222,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "c43791d85bf7822d",
+  "active": "a4860916738cab14",
   "lastOpenFiles": [
+    "计算机/数据库/MySQL/2-1 基础语句.md",
     "计算机/数据库/MySQL/4-2 事务.md",
     "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md",
-    "计算机/数据库/MySQL/2-1 基础语句.md",
     "计算机/编程语言/Java/4-1 类与对象.md",
     "计算机/数据库/MySQL/1-1 安装配置.md",
     "计算机/数据库/MySQL/1-2 概念.md",
