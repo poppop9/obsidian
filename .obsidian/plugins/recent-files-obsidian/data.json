@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "6 并发编程",
+      "path": "计算机/编程语言/Java/6 并发编程.md"
+    },
+    {
       "basename": "3-7 集合",
       "path": "计算机/编程语言/Java/3-7 集合.md"
+    },
+    {
+      "basename": "2-2 MyBatis Plus",
+      "path": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
     },
     {
       "basename": "1 基础Ⅰ",
@@ -39,10 +47,6 @@
     {
       "basename": "1 idea",
       "path": "计算机/编程语言/Java/1 idea.md"
-    },
-    {
-      "basename": "2-2 MyBatis Plus",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
     },
     {
       "basename": "2-3 Java 的基础语法 2",
@@ -83,10 +87,6 @@
     {
       "basename": "1-1 安装配置",
       "path": "计算机/数据库/MySQL/1-1 安装配置.md"
-    },
-    {
-      "basename": "6 并发编程",
-      "path": "计算机/编程语言/Java/6 并发编程.md"
     },
     {
       "basename": "2-3 文件上云",
