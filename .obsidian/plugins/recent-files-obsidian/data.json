@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "虚拟化 CPU",
+      "path": "计算机/四大件/操作系统/虚拟化/虚拟化 CPU.md"
+    },
+    {
       "basename": "基础知识",
       "path": "计算机/四大件/操作系统/基础知识.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "4-1 OAuth 2",
       "path": "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md"
-    },
-    {
-      "basename": "2-2 数据结构命令",
-      "path": "计算机/数据库/Redis/2-2 数据结构命令.md"
     }
   ],
   "omittedPaths": [],
