@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL/2-1 基础语句.md",
-                "mode": "preview",
+                "file": "计算机/数据库/MySQL/5-1 索引.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL/4-3 存储引擎.md",
-                "mode": "preview",
+                "file": "计算机/数据库/MySQL/5-2 问题处理.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/MySQL/4-3 存储引擎.md"
+                "file": "计算机/数据库/MySQL/5-1 索引.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/MySQL/4-3 存储引擎.md"
+                "file": "计算机/数据库/MySQL/5-1 索引.md"
               }
             }
           },
@@ -219,8 +219,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "a4860916738cab14",
+  "active": "c43791d85bf7822d",
   "lastOpenFiles": [
+    "计算机/数据库/MySQL/5-2 问题处理.md",
+    "计算机/数据库/MySQL/5-1 索引.md",
     "计算机/数据库/MySQL/2-1 基础语句.md",
     "计算机/数据库/MySQL/4-3 存储引擎.md",
     "计算机/数据库/MySQL/1-2 概念.md",
@@ -233,7 +235,6 @@
     "计算机/编程语言/Java/4-1 类与对象.md",
     "计算机/数据库/MySQL/3-1 约束.md",
     "计算机/数据库/MySQL/2-2 函数.md",
-    "计算机/数据库/MySQL/5-1 调优.md",
     "计算机/数据库/MySQL/6 InnoDB.md",
     "计算机/编程语言/Java/3-7 集合.md",
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
@@ -246,7 +247,6 @@
     "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md",
     "计算机/编程语言/Java/1 idea.md",
     "计算机/编程语言/Java/2-3 Java 的基础语法 2.md",
-    "计算机/编程语言/Java/5-1 Java 8 新特性.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",

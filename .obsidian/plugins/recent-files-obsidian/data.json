@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "4-3 存储引擎",
-      "path": "计算机/数据库/MySQL/4-3 存储引擎.md"
+      "basename": "5-1 索引",
+      "path": "计算机/数据库/MySQL/5-1 索引.md"
+    },
+    {
+      "basename": "5-2 问题处理",
+      "path": "计算机/数据库/MySQL/5-2 问题处理.md"
     },
     {
       "basename": "2-1 基础语句",
       "path": "计算机/数据库/MySQL/2-1 基础语句.md"
+    },
+    {
+      "basename": "4-3 存储引擎",
+      "path": "计算机/数据库/MySQL/4-3 存储引擎.md"
     },
     {
       "basename": "1-2 概念",
@@ -47,10 +55,6 @@
     {
       "basename": "2-2 函数",
       "path": "计算机/数据库/MySQL/2-2 函数.md"
-    },
-    {
-      "basename": "5-1 调优",
-      "path": "计算机/数据库/MySQL/5-1 调优.md"
     },
     {
       "basename": "6 InnoDB",
@@ -195,10 +199,6 @@
     {
       "basename": "1 基础",
       "path": "计算机/数据库/Redis/1 基础.md"
-    },
-    {
-      "basename": "3-1 事务管理，AOP",
-      "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
     }
   ],
   "omittedPaths": [],
