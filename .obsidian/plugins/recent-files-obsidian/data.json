@@ -5,6 +5,10 @@
       "path": "计算机/数据库/MySQL/1-2 概念.md"
     },
     {
+      "basename": "1-1 安装配置",
+      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
+    },
+    {
       "basename": "数据库 Draw",
       "path": "Excalidraw/计算机/数据库 Draw.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "2-2 MyBatis Plus",
       "path": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
-    },
-    {
-      "basename": "1-1 安装配置",
-      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
     },
     {
       "basename": "4-1 类与对象",
