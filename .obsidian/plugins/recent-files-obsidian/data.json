@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "进程",
+      "path": "计算机/Linux/进程.md"
+    },
+    {
       "basename": "计算机组成原理",
       "path": "计算机/四大件/计算机组成原理.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1-1 基础特性",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
-    },
-    {
-      "basename": "2-1 默认流程分析",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
     }
   ],
   "omittedPaths": [],
