@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL/1-1 安装配置.md",
+                "file": "计算机/数据库/MySQL/1-2 概念.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL/1-2 概念.md",
+                "file": "计算机/数据库/MySQL/4-3 存储引擎.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/MySQL/1-2 概念.md"
+                "file": "计算机/数据库/MySQL/4-3 存储引擎.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/MySQL/1-2 概念.md"
+                "file": "计算机/数据库/MySQL/4-3 存储引擎.md"
               }
             }
           },
@@ -221,8 +221,8 @@
   },
   "active": "a4860916738cab14",
   "lastOpenFiles": [
-    "计算机/数据库/MySQL/1-1 安装配置.md",
     "计算机/数据库/MySQL/1-2 概念.md",
+    "计算机/数据库/MySQL/1-1 安装配置.md",
     "Excalidraw/计算机/数据库 Draw.md",
     "计算机/编程语言/Java/6 并发编程.md",
     "计算机/数据库/MySQL/2-1 基础语句.md",
