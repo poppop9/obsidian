@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Linux/进程.md",
+                "file": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/Linux/进程.md"
+                "file": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/Linux/进程.md"
+                "file": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
               }
             }
           },
@@ -221,6 +221,9 @@
   },
   "active": "3fb1987bcd09b45c",
   "lastOpenFiles": [
+    "计算机/编程语言/Java/JVM 虚拟机/走进 Java.md",
+    "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md",
+    "计算机/Linux/进程.md",
     "计算机/四大件/计算机组成原理.md",
     "计算机/编程语言/Java/6 并发编程.md",
     "计算机/四大件/操作系统/持久性.md",
@@ -244,9 +247,6 @@
     "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
     "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
     "计算机/JavaWeb/前端/JavaScript/4 事件.md",
-    "计算机/JavaWeb/前端/JavaScript/7 杂.md",
-    "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md",
-    "计算机/JavaWeb/前端/Vue/2-2 基础语法.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
