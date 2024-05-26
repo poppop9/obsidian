@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "3-1 事务管理，AOP",
+      "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
+    },
+    {
+      "basename": "自动内存管理",
+      "path": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
+    },
+    {
+      "basename": "3-1 高级",
+      "path": "计算机/数据库/Redis/3-1 高级.md"
+    },
+    {
+      "basename": "5-2 问题处理",
+      "path": "计算机/数据库/MySQL/5-2 问题处理.md"
+    },
+    {
       "basename": "3-4 基本类型包装类",
       "path": "计算机/编程语言/Java/3-4 基本类型包装类.md"
     },
@@ -9,20 +25,12 @@
       "path": "计算机/编程语言/Java/3-7 集合.md"
     },
     {
-      "basename": "3-1 高级",
-      "path": "计算机/数据库/Redis/3-1 高级.md"
-    },
-    {
       "basename": "2-2 函数",
       "path": "计算机/数据库/MySQL/2-2 函数.md"
     },
     {
       "basename": "5-1 索引",
       "path": "计算机/数据库/MySQL/5-1 索引.md"
-    },
-    {
-      "basename": "3-1 事务管理，AOP",
-      "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
     },
     {
       "basename": "Lombok",
@@ -47,10 +55,6 @@
     {
       "basename": "2-1 默认流程分析",
       "path": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md"
-    },
-    {
-      "basename": "自动内存管理",
-      "path": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
     },
     {
       "basename": "走进 Java",
@@ -83,10 +87,6 @@
     {
       "basename": "2-2 MyBatis Plus",
       "path": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
-    },
-    {
-      "basename": "5-2 问题处理",
-      "path": "计算机/数据库/MySQL/5-2 问题处理.md"
     },
     {
       "basename": "2-1 基础语句",
