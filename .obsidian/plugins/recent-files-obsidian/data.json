@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "5-1 索引",
+      "path": "计算机/数据库/MySQL/5-1 索引.md"
+    },
+    {
+      "basename": "4-1 高级",
+      "path": "计算机/数据库/MySQL/4-1 高级.md"
+    },
+    {
       "basename": "4-3 存储引擎",
       "path": "计算机/数据库/MySQL/4-3 存储引擎.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "2-2 函数",
       "path": "计算机/数据库/MySQL/2-2 函数.md"
-    },
-    {
-      "basename": "5-1 索引",
-      "path": "计算机/数据库/MySQL/5-1 索引.md"
     },
     {
       "basename": "Lombok",
@@ -111,10 +115,6 @@
     {
       "basename": "4-2 事务",
       "path": "计算机/数据库/MySQL/4-2 事务.md"
-    },
-    {
-      "basename": "4-1 高级",
-      "path": "计算机/数据库/MySQL/4-1 高级.md"
     },
     {
       "basename": "4-1 类与对象",
