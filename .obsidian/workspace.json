@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
+                "file": "计算机/编程语言/Java/3-7 集合.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -82,8 +82,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
+                "file": "计算机/编程语言/Java/3-7 集合.md"
               }
             }
           },
@@ -187,7 +186,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
+                "file": "计算机/编程语言/Java/3-7 集合.md"
               }
             }
           },
@@ -219,10 +218,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3fb1987bcd09b45c",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/编程语言/Java/JVM 虚拟机/走进 Java.md",
+    "计算机/编程语言/Java/3-5 异常.md",
+    "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
+    "计算机/编程语言/Java/2-1 Java 的理论知识.md",
+    "计算机/JavaWeb/后端/Spring Security/2-1 默认流程分析.md",
+    "计算机/数据库/MySQL/5-1 索引.md",
     "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md",
+    "计算机/编程语言/Java/JVM 虚拟机/走进 Java.md",
     "计算机/Linux/进程.md",
     "计算机/四大件/计算机组成原理.md",
     "计算机/编程语言/Java/6 并发编程.md",
@@ -230,7 +234,6 @@
     "计算机/四大件/操作系统/虚拟化/虚拟化 CPU.md",
     "计算机/四大件/操作系统/基础知识.md",
     "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md",
-    "计算机/数据库/MySQL/5-1 索引.md",
     "计算机/数据库/MySQL/5-2 问题处理.md",
     "计算机/数据库/MySQL/2-1 基础语句.md",
     "计算机/数据库/MySQL/4-3 存储引擎.md",
@@ -243,10 +246,6 @@
     "计算机/数据库/MySQL/3-1 约束.md",
     "计算机/数据库/MySQL/2-2 函数.md",
     "计算机/数据库/MySQL/6 InnoDB.md",
-    "计算机/编程语言/Java/3-7 集合.md",
-    "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md",
-    "计算机/JavaWeb/前端/JavaScript/5 JSON.md",
-    "计算机/JavaWeb/前端/JavaScript/4 事件.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
