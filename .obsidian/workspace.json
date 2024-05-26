@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md",
+                "file": "计算机/JavaWeb/第三方类库/Lombok.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -82,7 +82,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/编程语言/Java/3-7 集合.md"
+                "file": "计算机/JavaWeb/第三方类库/Lombok.md"
               }
             }
           },
@@ -186,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/编程语言/Java/3-7 集合.md"
+                "file": "计算机/JavaWeb/第三方类库/Lombok.md"
               }
             }
           },
@@ -218,8 +219,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/Spring Security/4-1 OAuth 2.md",
+    "计算机/编程语言/Java/3-7 集合.md",
     "计算机/编程语言/Java/3-5 异常.md",
     "计算机/编程语言/Java/2-2 Java 的基础语法 1.md",
     "计算机/编程语言/Java/2-1 Java 的理论知识.md",
@@ -244,8 +247,6 @@
     "计算机/数据库/MySQL/4-1 高级.md",
     "计算机/编程语言/Java/4-1 类与对象.md",
     "计算机/数据库/MySQL/3-1 约束.md",
-    "计算机/数据库/MySQL/2-2 函数.md",
-    "计算机/数据库/MySQL/6 InnoDB.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
