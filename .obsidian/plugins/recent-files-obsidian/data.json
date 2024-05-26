@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "3-1 高级",
+      "path": "计算机/数据库/Redis/3-1 高级.md"
+    },
+    {
       "basename": "2-2 函数",
       "path": "计算机/数据库/MySQL/2-2 函数.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1 起步依赖",
       "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md"
-    },
-    {
-      "basename": "2 Bean",
-      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/2 Bean.md"
     }
   ],
   "omittedPaths": [],

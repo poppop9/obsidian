@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL/2-2 函数.md",
+                "file": "计算机/数据库/Redis/3-1 高级.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/数据库/MySQL/2-2 函数.md"
+                "file": "计算机/数据库/Redis/3-1 高级.md"
               }
             }
           },
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/数据库/MySQL/2-2 函数.md"
+                "file": "计算机/数据库/Redis/3-1 高级.md"
               }
             }
           },
@@ -221,6 +221,7 @@
   },
   "active": "c43791d85bf7822d",
   "lastOpenFiles": [
+    "计算机/数据库/MySQL/2-2 函数.md",
     "计算机/数据库/MySQL/5-1 索引.md",
     "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md",
     "计算机/JavaWeb/第三方类库/Lombok.md",
@@ -246,7 +247,6 @@
     "计算机/数据库/MySQL/1-1 安装配置.md",
     "Excalidraw/计算机/数据库 Draw.md",
     "计算机/数据库/MySQL/4-2 事务.md",
-    "计算机/数据库/MySQL/4-1 高级.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
