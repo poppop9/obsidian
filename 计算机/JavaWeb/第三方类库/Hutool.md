@@ -65,9 +65,11 @@
 	- `SecureUtil.aes`
 	- `SecureUtil.des`
 - 摘要加密
-	- `SecureUtil.md5`
+	- `String SecureUtil.md5`
 		- `SecureUtil.md5()`
-		- `SecureUtil.md5(File )`
+		- `SecureUtil.md5(File dataFile)` 加密文件，生成 16 进制 MD5 字符串
+		- `SecureUtil.md5(InputStream data)`
+		- `SecureUtil.md5(String data)`
 	- `SecureUtil.sha1`
 	- `SecureUtil.hmac`
 	- `SecureUtil.hmacMd5`
@@ -82,7 +84,10 @@
 	- `SecureUtil.generateKeyPair` 生成密钥对（用于非对称加密）
 	- `SecureUtil.generateSignature` 生成签名（用于非对称加密）
 
-
+```java
+String stringSignTemp = "AAA";  
+String MD5 = SecureUtil.md5(stringSignTemp);
+```
 
 
 
