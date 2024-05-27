@@ -5,6 +5,22 @@
       "path": "计算机/数据库/MySQL/5-1 索引.md"
     },
     {
+      "basename": "4-3 存储引擎",
+      "path": "计算机/数据库/MySQL/4-3 存储引擎.md"
+    },
+    {
+      "basename": "5-2 问题处理",
+      "path": "计算机/数据库/MySQL/5-2 问题处理.md"
+    },
+    {
+      "basename": "1-2 概念",
+      "path": "计算机/数据库/MySQL/1-2 概念.md"
+    },
+    {
+      "basename": "1-1 安装配置",
+      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
+    },
+    {
       "basename": "2-1 基础语句",
       "path": "计算机/数据库/MySQL/2-1 基础语句.md"
     },
@@ -65,10 +81,6 @@
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
     },
     {
-      "basename": "4-3 存储引擎",
-      "path": "计算机/数据库/MySQL/4-3 存储引擎.md"
-    },
-    {
       "basename": "通用库",
       "path": "计算机/JavaWeb/第三方类库/通用库.md"
     },
@@ -95,10 +107,6 @@
     {
       "basename": "3-4 基本类型包装类",
       "path": "计算机/编程语言/Java/3-4 基本类型包装类.md"
-    },
-    {
-      "basename": "5-2 问题处理",
-      "path": "计算机/数据库/MySQL/5-2 问题处理.md"
     },
     {
       "basename": "4-1 高级",
@@ -171,14 +179,6 @@
     {
       "basename": "2-2 MyBatis Plus",
       "path": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
-    },
-    {
-      "basename": "1-2 概念",
-      "path": "计算机/数据库/MySQL/1-2 概念.md"
-    },
-    {
-      "basename": "1-1 安装配置",
-      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
     },
     {
       "basename": "4-2 事务",
