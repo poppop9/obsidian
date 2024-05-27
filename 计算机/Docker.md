@@ -124,6 +124,17 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 docker build -t demo:1.0 .
 ```
 
+### 推送到 DockerHub
+```bash
+# 进行登录
+docker login
+
+# 推送到dockerhub
+# docker push 用户名/仓库名:版本号
+docker push 1962883041612/ltzf-interface
+```
+
+
 ### 挂载
 >[!hint] 在容器内修改文件是很困难的，因为从仓库中下载的镜像一般是可运行某个应用程序的最小镜像，不会包括 Vim 编辑器，**所以我们需要挂载**，使用宿主机里的 Vim 编辑器进行修改
 
