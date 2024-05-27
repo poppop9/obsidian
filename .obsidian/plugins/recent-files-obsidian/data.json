@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1-1 环境配置",
+      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+    },
+    {
+      "basename": "2 CSS 中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
     },
@@ -13,20 +21,12 @@
       "path": "计算机/JavaWeb/第三方类库/Hutool.md"
     },
     {
-      "basename": "2 CSS 中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
-    },
-    {
       "basename": "1 HTML 初级",
       "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
     },
     {
       "basename": "1-1 基础特性",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
-    },
-    {
-      "basename": "1-1 环境配置",
-      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
     },
     {
       "basename": "3-1 事务管理，AOP",
