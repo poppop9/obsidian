@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Dance",
+      "path": "临时笔记/Dance.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
+      "basename": "Hutool",
+      "path": "计算机/JavaWeb/第三方类库/Hutool.md"
+    },
+    {
       "basename": "1-1 环境配置",
       "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
     },
@@ -9,16 +21,8 @@
       "path": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
     },
     {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
-    },
-    {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
-    },
-    {
-      "basename": "Hutool",
-      "path": "计算机/JavaWeb/第三方类库/Hutool.md"
     },
     {
       "basename": "1 HTML 初级",
@@ -195,10 +199,6 @@
     {
       "basename": "1 基础Ⅰ",
       "path": "计算机/JavaWeb/前端/JavaScript/1 基础Ⅰ.md"
-    },
-    {
-      "basename": "5 JSON",
-      "path": "计算机/JavaWeb/前端/JavaScript/5 JSON.md"
     }
   ],
   "omittedPaths": [],

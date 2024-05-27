@@ -65,27 +65,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/Docker.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd1542e4d1ce455a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "计算机/JavaWeb/第三方类库/Hutool.md",
+                "file": "临时笔记/Dance.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -179,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+                "file": "临时笔记/Dance.md"
               }
             }
           },
@@ -189,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+                "file": "临时笔记/Dance.md"
               }
             }
           },
@@ -221,15 +209,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "3fb1987bcd09b45c",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
     "计算机/Docker.md",
-    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/第三方类库/Hutool.md",
+    "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
+    "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
+    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
-    "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
     "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
