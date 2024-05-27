@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "5-1 索引",
+      "path": "计算机/数据库/MySQL/5-1 索引.md"
+    },
+    {
       "basename": "2-1 基础语句",
       "path": "计算机/数据库/MySQL/2-1 基础语句.md"
     },
@@ -87,10 +91,6 @@
     {
       "basename": "数据库 Draw",
       "path": "Excalidraw/计算机/数据库 Draw.md"
-    },
-    {
-      "basename": "5-1 索引",
-      "path": "计算机/数据库/MySQL/5-1 索引.md"
     },
     {
       "basename": "3-4 基本类型包装类",
