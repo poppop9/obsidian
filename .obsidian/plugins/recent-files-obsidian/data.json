@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Bootstrap 简化 CSS",
+      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
+    },
+    {
       "basename": "1 CSS 初级",
       "path": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "7 杂",
       "path": "计算机/JavaWeb/前端/JavaScript/7 杂.md"
-    },
-    {
-      "basename": "2-1 局部化，工程化",
-      "path": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md"
     }
   ],
   "omittedPaths": [],

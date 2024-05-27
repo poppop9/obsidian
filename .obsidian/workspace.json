@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
               }
             }
           },
@@ -224,8 +224,8 @@
   },
   "active": "c43791d85bf7822d",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
     "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
+    "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
     "计算机/数据库/Redis/3-1 高级.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
