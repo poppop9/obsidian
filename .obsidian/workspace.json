@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/数据库/MySQL/4-3 存储引擎.md",
-                "mode": "source",
+                "file": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Hutool.md"
+                "file": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Hutool.md"
+                "file": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
               }
             }
           },
@@ -222,10 +222,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "fd1542e4d1ce455a",
+  "active": "a4860916738cab14",
   "lastOpenFiles": [
-    "计算机/JavaWeb/第三方类库/通用库.md",
+    "计算机/数据库/MySQL/4-3 存储引擎.md",
     "计算机/JavaWeb/第三方类库/Hutool.md",
+    "计算机/JavaWeb/第三方类库/通用库.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
     "计算机/JavaWeb/后端/后端.md",
     "计算机/编程语言/Java/Java.md",
@@ -235,7 +236,6 @@
     "计算机/数据库/MySQL/5-1 索引.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/编程语言/Java/3-4 基本类型包装类.md",
-    "计算机/数据库/MySQL/4-3 存储引擎.md",
     "计算机/数据库/MySQL/5-2 问题处理.md",
     "计算机/数据库/MySQL/4-1 高级.md",
     "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md",
