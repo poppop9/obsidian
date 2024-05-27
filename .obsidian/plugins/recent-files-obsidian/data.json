@@ -5,6 +5,10 @@
       "path": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
     },
     {
+      "basename": "2 CSS 中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
+    },
+    {
       "basename": "3-1 高级",
       "path": "计算机/数据库/Redis/3-1 高级.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2-1 局部化，工程化",
       "path": "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md"
-    },
-    {
-      "basename": "2-2 基础语法",
-      "path": "计算机/JavaWeb/前端/Vue/2-2 基础语法.md"
     }
   ],
   "omittedPaths": [],

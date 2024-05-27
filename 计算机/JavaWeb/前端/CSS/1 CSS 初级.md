@@ -766,7 +766,51 @@ img {
 }
 ```
 
+# 模糊效果
 
+
+
+```css
+.element {
+  /* 这里`5px`是模糊的半径，数值越大，模糊效果越明显 */
+  filter: blur(5px);
+}
+```
+
+
+    
+2. **结合其他滤镜效果**：
+    
+    `.element {   filter: blur(5px) brightness(120%); }`
+    
+    在这个例子中，元素不仅被模糊，还增加了亮度。
+    
+3. **响应式模糊效果**：
+    
+    `.element:hover {   filter: blur(10px); }`
+    
+    当鼠标悬停在`.element`上时，元素会变得更加模糊。
+    
+4. **使用变量控制模糊效果**：
+    
+    `:root {   --main-blur: 5px; } .element {   filter: blur(var(--main-blur)); }`
+    
+    通过CSS变量，可以方便地在不同的地方重用模糊值。
+    
+5. **模糊背景图片**：
+    
+    `.background {   background-image: url('background.jpg');   filter: blur(2px); }`
+    
+    这个例子中，背景图片被模糊了，但文本或其他内容仍然清晰。
+    
+6. **模糊图片**：
+    
+    `img {   filter: blur(3px); }`
+    
+    这将使所有图片元素都应用模糊效果。
+    
+
+请注意，`filter`属性可能对性能有一定影响，特别是当模糊效果较大时。此外，`filter`属性在不同的浏览器和设备上的表现可能会有所不同，因此在实际使用中需要进行适当的测试和优化。
 
 
 
