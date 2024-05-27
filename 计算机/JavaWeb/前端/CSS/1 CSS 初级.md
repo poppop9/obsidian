@@ -766,9 +766,9 @@ img {
 }
 ```
 
-# 模糊效果
-- `filter` 
-	- `blur()` 
+# 滤镜
+- `filter` 滤镜
+	- `blur()` 高斯模糊
 
 ```css
 .element {
