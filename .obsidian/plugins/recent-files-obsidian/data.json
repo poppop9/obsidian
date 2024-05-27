@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1-1 环境配置",
+      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+    },
+    {
+      "basename": "3-1 事务管理，AOP",
+      "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
+    },
+    {
       "basename": "Bootstrap 简化 CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "OKHttp",
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
-    },
-    {
-      "basename": "1-1 环境配置",
-      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
     },
     {
       "basename": "4-3 存储引擎",
@@ -83,10 +87,6 @@
     {
       "basename": "4-1 高级",
       "path": "计算机/数据库/MySQL/4-1 高级.md"
-    },
-    {
-      "basename": "3-1 事务管理，AOP",
-      "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
     },
     {
       "basename": "自动内存管理",
