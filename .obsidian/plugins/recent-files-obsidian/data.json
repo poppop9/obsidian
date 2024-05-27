@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2 CSS 中级",
+      "path": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
+    },
+    {
+      "basename": "1 HTML 初级",
+      "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
+    },
+    {
+      "basename": "1-1 基础特性",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+    },
+    {
       "basename": "1-1 环境配置",
       "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "1 CSS 初级",
       "path": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
-    },
-    {
-      "basename": "2 CSS 中级",
-      "path": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
     },
     {
       "basename": "3-1 高级",
@@ -71,10 +79,6 @@
     {
       "basename": "5-1 索引",
       "path": "计算机/数据库/MySQL/5-1 索引.md"
-    },
-    {
-      "basename": "1-1 基础特性",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
     },
     {
       "basename": "3-4 基本类型包装类",
@@ -195,10 +199,6 @@
     {
       "basename": "4 事件",
       "path": "计算机/JavaWeb/前端/JavaScript/4 事件.md"
-    },
-    {
-      "basename": "7 杂",
-      "path": "计算机/JavaWeb/前端/JavaScript/7 杂.md"
     }
   ],
   "omittedPaths": [],
