@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
+      "basename": "2 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+    },
+    {
+      "basename": "OKHttp",
+      "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
+    },
+    {
       "basename": "1-1 环境配置",
       "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
     },
@@ -35,10 +47,6 @@
     {
       "basename": "数据库 Draw",
       "path": "Excalidraw/计算机/数据库 Draw.md"
-    },
-    {
-      "basename": "OKHttp",
-      "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
     },
     {
       "basename": "5-1 索引",
@@ -191,14 +199,6 @@
     {
       "basename": "2-2 指令",
       "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
-    },
-    {
-      "basename": "2 基础Ⅱ",
-      "path": "计算机/JavaWeb/前端/JavaScript/2 基础Ⅱ.md"
-    },
-    {
-      "basename": "1 idea",
-      "path": "计算机/编程语言/Java/1 idea.md"
     }
   ],
   "omittedPaths": [],
