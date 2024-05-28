@@ -14,5 +14,21 @@
 > - **支持同步，异步请求**
 > - **拦截器**：允许添加拦截器【~~在客户端与服务端之间~~】，用于处理认证、日志记录、缓存 ……
 
+```java
+// 将您的 HTTP API 转换为 Java 接口
+public interface GitHubService {
+  @GET("users/{user}/repos")
+  Call<List<Repo>> listRepos(@Path("user") String user);
+}
+```
 
+```java
+// 该 Retrofit 类生成 GitHubService 接口的实现
+Retrofit retrofit = new Retrofit.Builder()
+    .baseUrl("https://api.github.com/")
+    .build();
 
+GitHubService service = retrofit.create(GitHubService.class);
+
+Call<List<Repo>> repos = service.listRepos("octocat");
+```
