@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+                "file": "计算机/数据库/Redis/3-1 高级.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -72,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
+                "file": "计算机/数据库/MySQL/5-1 索引.md"
               }
             }
           },
@@ -176,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
+                "file": "计算机/数据库/MySQL/5-1 索引.md"
               }
             }
           },
@@ -208,10 +209,16 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "3fb1987bcd09b45c",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
+    "计算机/数据库/Redis/3-1 高级.md",
+    "计算机/数据库/Redis/2-2 数据结构命令.md",
+    "计算机/数据库/Redis/2-1 键命令.md",
+    "计算机/数据库/Redis/1 基础.md",
+    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/数据库/MySQL/5-1 索引.md",
+    "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md",
+    "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
     "计算机/数据库/MySQL/4-3 存储引擎.md",
     "计算机/数据库/MySQL/5-2 问题处理.md",
     "计算机/数据库/MySQL/1-2 概念.md",
@@ -224,18 +231,12 @@
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
-    "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
-    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/CSS/1 CSS 初级.md",
-    "计算机/数据库/Redis/3-1 高级.md",
     "计算机/JavaWeb/第三方类库/OKHttp.md",
     "计算机/JavaWeb/第三方类库/通用库.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot.md",
     "计算机/JavaWeb/后端/后端.md",
-    "计算机/编程语言/Java/Java.md",
-    "计算机/数据库/数据库.md",
-    "Excalidraw/计算机/数据库 Draw.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
