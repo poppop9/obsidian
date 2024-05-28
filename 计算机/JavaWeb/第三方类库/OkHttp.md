@@ -114,11 +114,11 @@ public void run() throws Exception {
 
 		// 内容写入
         @Override
-        public void writeTo(BufferedSink sink) throws IOException {
-            sink.writeUtf8("Numbers\n");
-            sink.writeUtf8("-------\n");
+        public void writeTo(BufferedSink bufferedSink) throws IOException {
+            bufferedSink.writeUtf8("Numbers\n");
+            bufferedSink.writeUtf8("-------\n");
             for (int i = 2; i <= 997; i++) {
-                sink.writeUtf8(String.format(" * %s = %s\n", i, factor(i)));
+                bufferedSink.writeUtf8(String.format(" * %s = %s\n", i, factor(i)));
             }
         }
 
