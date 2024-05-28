@@ -107,12 +107,14 @@ private final OkHttpClient client = new OkHttpClient();
 public void run() throws Exception {
     RequestBody requestBody = new RequestBody() {
 	    // 定义请求体的媒体类型
-        @Override public MediaType contentType() {
+        @Override
+        public MediaType contentType() {
             return MEDIA_TYPE_MARKDOWN;
         }
 
 		// 内容写入
-        @Override public void writeTo(BufferedSink sink) throws IOException {
+        @Override
+        public void writeTo(BufferedSink sink) throws IOException {
             sink.writeUtf8("Numbers\n");
             sink.writeUtf8("-------\n");
             for (int i = 2; i <= 997; i++) {
