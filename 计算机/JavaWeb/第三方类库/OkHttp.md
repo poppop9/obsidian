@@ -105,20 +105,32 @@ public static final MediaType MEDIA_TYPE_MARKDOWN = MediaType.parse("text/x-mark
 private final OkHttpClient client = new OkHttpClient();
 
 public void run() throws Exception {
-	// 创建RequestBody对象，并重写方法
-	RequestBody requestBody = new RequestBody() {  
-	    @Nullable  
-	    @Override    
-	    public MediaType contentType() {  
-	        return MediaType.parse("application/x-www-form-urlencoded");  
-	    }  
-	  
-	    @Override  
-	    public void writeTo(@NotNull BufferedSink bufferedSink) throws IOException {  
-	        String data = "mch_id=1673424392&out_trade_no=zsbz20240526&total_fee=0.01&body=测试一下&timestamp=1716741796&notify_url=https://www.weixin.qq.com/wxpay/pay.php&sign=8D25F57F499E8BF52E5805D8CA86DAF1";  
-	        bufferedSink.write(data.getBytes());  
-	    }  
-	};
+    RequestBody requestBody = new RequestBody() {
+	    // 定义请求体的媒体类型
+        @Override
+        public MediaType contentType() {
+            return MEDIA_TYPE_MARKDOWN;
+        }
+
+		// 内容写入
+        @Override
+        public void writeTo(BufferedSink bufferedSink) throws IOException {
+            bufferedSink.writeUtf8("Numbers\n");
+            bufferedSink.writeUtf8("-------\n");
+            for (int i = 2; i <= 997; i++) {
+                bufferedSink.writeUtf8(String.format(" * %s = %s\n", i, factor(i)));
+            }
+        }
+
+		// 创建 factor() 函数，用于上面内容写入
+        private String factor(int n) {
+            for (int i = 2; i < n; i++) {
+                int x = n / i;
+                if (x * i == n) return factor(x) + " × " + i;
+            }
+            return Integer.toString(n);
+        }
+    };
     
     Request request = new Request.Builder()
         .url("https://api.github.com/markdown/raw")
