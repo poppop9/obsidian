@@ -14,6 +14,7 @@
 > - **支持同步，异步请求**
 > - **拦截器**：允许添加拦截器【~~在客户端与服务端之间~~】，用于处理认证、日志记录、缓存 ……
 
+# 示例
 ```java
 public interface GitHubService {
 	// `{user}` 是一个路径参数，它将在调用时替换为具体的用户名
@@ -27,20 +28,22 @@ public interface GitHubService {
 ```
 
 ```java
-// 该 Retrofit 类生成 GitHubService 接口的实现
+// 创建Retrofit实例
 Retrofit retrofit = new Retrofit.Builder()
+	// 设置访问的基础url，并以其作为前缀
     .baseUrl("https://api.github.com/")
     .build();
 
+// 创建GitHubService服务实例
 GitHubService service = retrofit.create(GitHubService.class);
 
+// 传入用户名，发起请求，生成结果存储到Call对象中
 Call<List<Repo>> repos = service.listRepos("octocat");
 ```
 
+# 注解
 
-- `Retrofit` 类用于构建和配置Retrofit客户端。
-- `new Retrofit.Builder()` 创建一个新的Retrofit构建器。
-- `.baseUrl("https://api.github.com/")` 设置API的基础URL，所有请求都会以这个URL作为前缀。
-- `.build()` 构建并返回一个配置好的Retrofit实例。
+
+
 
 
