@@ -1,5 +1,5 @@
 ## JWT 令牌
->JWT 令牌【Json Web Token】就是用户标识，对 Json 格式进行了 `Base 64编码` + 签名算法
+>JWT 令牌【Json Web Token】就是用户标识，对 Json 格式进行了 `Base 64 编码` + 签名算法
 
 - 优点
 	- 支持多端【令牌可以存储在除 Cookie 以外的其他存储空间中】
@@ -127,19 +127,21 @@ public interface ManagerLoginMapper {
 }
 ```
 
+指定的密钥 greenteck 存储在 jwt 的哪个部分
+
 >[!hint] 当 ***篡改令牌*** 或 ***令牌过期*** 解析令牌时就会报错
 
 ## 统一拦截
->[!hint] 目前主流使用Interceptor
+>[!hint] 目前主流使用 Interceptor
 
 ### 过滤器 Filter
->Filter是 JavaWeb 的三大组件【Servlet，Filter，Listener】之一，可以把对资源的请求拦截下来，从而***完成一些通用的操作***【登录校验，统一编码处理，敏感字符处理……】
+>Filter 是 JavaWeb 的三大组件【Servlet，Filter，Listener】之一，可以把对资源的请求拦截下来，从而***完成一些通用的操作***【登录校验，统一编码处理，敏感字符处理……】
 #### 执行流程
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=D_tAwfzgeAtpLUlBUPLDq|790]]
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=jcttnSam7dZdpCHQLsr6b|640]]
 
 ### 拦截器 Interceptor
->Spring框架中提供的用来动态拦截Controller方法的执行
+>Spring 框架中提供的用来动态拦截 Controller 方法的执行
 
 ![[Excalidraw/计算机/JavaWeb Draw.md#^group=OSBwvT3c5koJtOdxWudzQ|700]]
 
@@ -252,7 +254,7 @@ public class JWTUtils {
 }
 ```
 
->[!hint] Interceptor中的路径参数
+>[!hint] Interceptor 中的路径参数
 >`/*`  表示所有的一级路径，***不包括*** `/user/1`
 >`/**`  表示所有的路径
 >`/user/*`  表示 `/user` 下的所有一级路径，不包括 `/user/s/1`
