@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "3-1 事务管理，AOP",
+      "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
+    },
+    {
+      "basename": "1-1 环境配置",
+      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+    },
+    {
       "basename": "5-1 索引",
       "path": "计算机/数据库/MySQL/5-1 索引.md"
     },
@@ -37,10 +45,6 @@
       "path": "计算机/JavaWeb/第三方类库/Hutool.md"
     },
     {
-      "basename": "1-1 环境配置",
-      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
-    },
-    {
       "basename": "2 CSS 中级",
       "path": "计算机/JavaWeb/前端/CSS/2 CSS 中级.md"
     },
@@ -55,10 +59,6 @@
     {
       "basename": "1-1 基础特性",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
-    },
-    {
-      "basename": "3-1 事务管理，AOP",
-      "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
     },
     {
       "basename": "Bootstrap 简化 CSS",
