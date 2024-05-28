@@ -15,11 +15,15 @@
 > - **拦截器**：允许添加拦截器【~~在客户端与服务端之间~~】，用于处理认证、日志记录、缓存 ……
 
 ```java
-// 将您的 HTTP API 转换为 Java 接口
 public interface GitHubService {
-  @GET("users/{user}/repos")
-  Call<List<Repo>> listRepos(@Path("user") String user);
+	// `{user}` 是一个路径参数，它将在调用时替换为具体的用户名
+	@GET("users/{user}/repos")
+	// `Repo` 是一个自定义类，用于表示GitHub上的仓库信息
+	// listRepos方法接受一个用户名作为参数
+	Call<List<Repo>> listRepos(@Path("user") String user);
 }
+
+// 总结：定义了一个api规范，根据后续实现类的baseUrl，拼接上 ‘users/{user}/repos’ ，其中的 ‘{user}’ 参数在调用时传入
 ```
 
 ```java
@@ -32,3 +36,11 @@ GitHubService service = retrofit.create(GitHubService.class);
 
 Call<List<Repo>> repos = service.listRepos("octocat");
 ```
+
+
+- `Retrofit` 类用于构建和配置Retrofit客户端。
+- `new Retrofit.Builder()` 创建一个新的Retrofit构建器。
+- `.baseUrl("https://api.github.com/")` 设置API的基础URL，所有请求都会以这个URL作为前缀。
+- `.build()` 构建并返回一个配置好的Retrofit实例。
+
+
