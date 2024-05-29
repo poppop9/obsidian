@@ -2,10 +2,14 @@
 - **构造**
 	- `new Random()` 创建 Random 对象
 - 生成随机数
-	- `nextInt()` 返回一个随机的 `int` 
-	- `nextDouble()` 返回一个随机的 `double` 【`0.0` - `1.0`】
-	- `nextFloat()` 返回一个随机的 `float` ，范围在 0.0（包含）到 1.0（不包含）之间
-	- `nextLong()` 返回一个随机的 `long`
+	- 随机范围
+		- `nextInt()` 返回一个随机的 `int` 
+		- `nextDouble()` 返回一个随机的 `double` 【范围在 `0.0` - `1.0`】
+		- `nextFloat()` 返回一个随机的 `float` 【范围在 `0.0` - `1.0`】
+		- `nextLong()` 返回一个随机的 `long` 
+	- 指定范围
+		- `nextInt(int bound)`：返回一个随机的 `int` ，范围在 `0` - `bound` 之间，不包含 bound
+		- `nextDouble(double bound)`：返回一个随机的 `double` 值，范围在 `0` - `bound` 之间，不包含 bound
 
 ```java
 Random r = new Random();
