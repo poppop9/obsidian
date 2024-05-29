@@ -15,6 +15,7 @@
 > - **拦截器**：允许添加拦截器【~~在客户端与服务端之间~~】，用于处理认证、日志记录、缓存 ……
 
 # 示例
+- 编写一个接口
 ```java
 public interface GitHubService {
 	// `{user}` 是一个路径参数，它将在调用时替换为具体的用户名
@@ -27,6 +28,7 @@ public interface GitHubService {
 // 总结：定义了一个api规范，根据后续实现类的baseUrl，拼接上 ‘users/{user}/repos’ ，其中的 ‘{user}’ 参数在调用时传入
 ```
 
+- 创建 Retrofit 实例，并用 Retrofit 实例生成接口的实现类对象，用接口的实现类对象生成 Call 对象，使用 Call 对象发起请求，获取到 Respn
 ```java
 // 创建Retrofit实例
 Retrofit retrofit = new Retrofit.Builder()
