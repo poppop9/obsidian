@@ -31,6 +31,14 @@
 |hutool-socket|基于Java的NIO和AIO的Socket封装|
 |hutool-jwt|JSON Web Token (JWT)封装实现|
 
+# 工具类
+## 随机 Random
+- `RandomUtil.randomInt()` 获取随机的 int
+- 
+- 获得指定范围内的随机数
+
+
+
 
 # 加密解密
 >[!quote] 加密分类

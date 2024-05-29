@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "3-1 常用 API",
-      "path": "计算机/编程语言/Java/3-1 常用 API.md"
+      "basename": "Hutool",
+      "path": "计算机/JavaWeb/第三方类库/Hutool.md"
     },
     {
-      "basename": "Lombok",
-      "path": "计算机/JavaWeb/第三方类库/Lombok.md"
-    },
-    {
-      "basename": "创建型模式",
-      "path": "计算机/设计模式/创建型模式.md"
+      "basename": "Jackson",
+      "path": "计算机/JavaWeb/第三方类库/Jackson.md"
     },
     {
       "basename": "Retrofit 2",
       "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
     },
     {
-      "basename": "Jackson",
-      "path": "计算机/JavaWeb/第三方类库/Jackson.md"
+      "basename": "创建型模式",
+      "path": "计算机/设计模式/创建型模式.md"
+    },
+    {
+      "basename": "3-1 常用 API",
+      "path": "计算机/编程语言/Java/3-1 常用 API.md"
+    },
+    {
+      "basename": "Lombok",
+      "path": "计算机/JavaWeb/第三方类库/Lombok.md"
     },
     {
       "basename": "3-1 事务管理，AOP",
@@ -35,10 +39,6 @@
     {
       "basename": "Bootstrap 简化 CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
-    },
-    {
-      "basename": "Hutool",
-      "path": "计算机/JavaWeb/第三方类库/Hutool.md"
     },
     {
       "basename": "OKHttp",
