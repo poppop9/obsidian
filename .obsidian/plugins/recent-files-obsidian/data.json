@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Jackson",
+      "path": "计算机/JavaWeb/第三方类库/Jackson.md"
+    },
+    {
+      "basename": "1-1 环境配置",
+      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+    },
+    {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "3-1 事务管理，AOP",
       "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
-    },
-    {
-      "basename": "1-1 环境配置",
-      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
     },
     {
       "basename": "4-3 存储引擎",
@@ -195,10 +199,6 @@
     {
       "basename": "虚拟化 CPU",
       "path": "计算机/四大件/操作系统/虚拟化/虚拟化 CPU.md"
-    },
-    {
-      "basename": "基础知识",
-      "path": "计算机/四大件/操作系统/基础知识.md"
     }
   ],
   "omittedPaths": [],
