@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Lombok",
+      "path": "计算机/JavaWeb/第三方类库/Lombok.md"
+    },
+    {
+      "basename": "3-1 事务管理，AOP",
+      "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
+    },
+    {
       "basename": "Jackson",
       "path": "计算机/JavaWeb/第三方类库/Jackson.md"
     },
     {
-      "basename": "1-1 环境配置",
-      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
-    },
-    {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
-      "basename": "Bootstrap 简化 CSS",
-      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
     },
     {
       "basename": "Retrofit 2",
@@ -23,6 +23,14 @@
     {
       "basename": "创建型模式",
       "path": "计算机/设计模式/创建型模式.md"
+    },
+    {
+      "basename": "1-1 环境配置",
+      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+    },
+    {
+      "basename": "Bootstrap 简化 CSS",
+      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
     },
     {
       "basename": "Hutool",
@@ -55,10 +63,6 @@
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
-      "basename": "3-1 事务管理，AOP",
-      "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
     },
     {
       "basename": "4-3 存储引擎",
@@ -151,10 +155,6 @@
     {
       "basename": "2-2 函数",
       "path": "计算机/数据库/MySQL/2-2 函数.md"
-    },
-    {
-      "basename": "Lombok",
-      "path": "计算机/JavaWeb/第三方类库/Lombok.md"
     },
     {
       "basename": "4-1 OAuth 2",

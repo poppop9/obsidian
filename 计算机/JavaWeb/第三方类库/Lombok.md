@@ -1,12 +1,13 @@
->[!quote] Lombok
->Lombok 可以通过注解来简化 Java 类的编写，提高代码的可读性和简洁性
-
 ```xml  
+// 不用指定版本号，因为在SpringBoot的父工程里已经集成了lombok
 <dependency>  
     <groupId>org.projectlombok</groupId>  
     <artifactId>lombok</artifactId>   
-</dependency>           //不用指定版本号，因为在SpringBoot的父工程里已经集成了lombok
+</dependency>           
 ```
+
+>[!quote] Lombok
+>Lombok 可以通过注解来简化 Java 类的编写，提高代码的可读性和简洁性
 
 ---
 
