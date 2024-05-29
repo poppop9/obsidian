@@ -28,12 +28,14 @@ public interface GitHubService {
 // 总结：定义了一个api规范，根据后续实现类的baseUrl，拼接上 ‘users/{user}/repos’ ，其中的 ‘{user}’ 参数在调用时传入
 ```
 
-- 创建 Retrofit 实例，并用 Retrofit 实例生成接口的实现类对象，用接口的实现类对象生成 Call 对象，使用 Call 对象发起请求，获取到 Respn
+- 创建 Retrofit 实例，并用 Retrofit 实例生成接口的实现类对象，用接口的实现类对象生成 Call 对象，使用 Call 对象发起请求，获取到 Response 对象
 ```java
 // 创建Retrofit实例
 Retrofit retrofit = new Retrofit.Builder()
 	// 设置访问的基础url，并以其作为前缀
     .baseUrl("https://api.github.com/")
+    // 这个client是使用OKHttp创建的OkHttpClient对象
+    .client(client)
     .build();
 
 // 创建GitHubService服务实例
