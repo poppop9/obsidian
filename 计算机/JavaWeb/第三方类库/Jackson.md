@@ -27,7 +27,7 @@ $$
 - 反序列化：将 JSON 格式的字符串转换回对应的 Java 对象
 
 # ObjectMapper
->[!hint] 忽略额外的字段
+>[!hint] 忽略 JSON 中的某些字段
 >有时候，JSON 中的字段非常冗余，我们只需要将一小部分字段写入到 Java 对象中。这时，可以忽略额外的字段：
 > ```java
 >objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
@@ -193,9 +193,10 @@ System.out.println(json);
 > ```
 
 # JsonNode 树模型
->树模型 由 JsonNode 类表示，可用于表示 JSON 对象
-
->[!hint] 什么时候使用<u>树模型</u> ?
+>[!quote] 树模型
+>>树模型 由 JsonNode 类表示，可用于表示 JSON 对象
+>
+>**使用场景**：
 >- 不知道接收到的 JSON 格式
 >- 不想多创建一个类
 
@@ -323,7 +324,7 @@ while(fieldNames.hasNext()) {
 
 # 注解
 ## 通用注解
->通用注解表示在序列化，和反序列化时都生效
+通用注解表示在序列化，和反序列化时都生效
 
 ### @JsonProperty
  `@JsonProperty` 会匹配类属性名，和 JSON 字段名
