@@ -79,13 +79,15 @@ Call<List<User>> groupList(@Path("id") int groupId, @Query("sort") String sort);
 ```
 
 ## 请求头
-您可以使用 @Headers 注解为方法设置静态头信息
+- `@Headers` 为方法设置头信息
 
 ```java
+// 设置一个
 @Headers("Cache-Control: max-age=640000")
 @GET("widget/list")
 Call<List<Widget>> widgetList();
 
+// 设置多个
 @Headers({
     "Accept: application/vnd.github.v3.full+json",
     "User-Agent: Retrofit-Sample-App"
@@ -94,13 +96,18 @@ Call<List<Widget>> widgetList();
 Call<User> getUser(@Path("username") String username);
 ```
 
-可以使用 @Header 注解动态更新请求头。必须为 @Header 提供一个相应的参数。如果该值为空，头信息将被省略。否则，将对该值调用 toString 并使用结果。
+---
+
+- `@Header` 在方法调用时，动态传入头信息
+
 ```java
 @GET("user")
 Call<User> getUser(@Header("Authorization") String authorization)
 ```
 
-对于复杂的请求头
+---
+
+- `@HeaderMap` 在方法调用时，动态传入一组头信息【~~对于复杂的请求头~~】
 ```java
 @GET("user")
 Call<User> getUser(@HeaderMap Map<String, String> headers)
@@ -174,5 +181,26 @@ Retrofit retrofit = new Retrofit.Builder()
 </dependency>
 ```
 
+# 同步异步
+调用实例可以同步或异步执行。每个实例只能使用一次，但调用 clone() 会创建一个可以使用的新实例。
+
+在 Android 上，回调将在主线程上执行。在 JVM 上，回调将在执行 HTTP 请求的同一线程上进行。
+
+# Configuration
+Retrofit 是将 API 接口转换为可调用对象的类。默认情况下，Retrofit 会为您的平台提供合理的默认值，但也允许自定义。
+
+## 转换器
+默认情况下，Retrofit 只能将 HTTP 体反序列化为 OkHttp 的 ResponseBody 类型，并且只能接受其 RequestBody 类型的 @Body。
+
+可添加转换器以支持其他类型。为方便起见，同类模块可调整流行的序列化库。
+- [Gson](https://github.com/google/gson): `com.squareup.retrofit2:converter-gson` 格森： `com.squareup.retrofit2:converter-gson`
+- [Jackson](https://github.com/FasterXML/jackson): `com.squareup.retrofit2:converter-jackson` 杰克逊： `com.squareup.retrofit2:converter-jackson`
+- [Moshi](https://github.com/square/moshi/): `com.squareup.retrofit2:converter-moshi` 莫希： `com.squareup.retrofit2:converter-moshi`
+- [Protobuf](https://developers.google.com/protocol-buffers/): `com.squareup.retrofit2:converter-protobuf` Protobuf： `com.squareup.retrofit2:converter-protobuf`
+- [Wire](https://github.com/square/wire): `com.squareup.retrofit2:converter-wire` 线： `com.squareup.retrofit2:converter-wire`
+- [Simple XML](http://simple.sourceforge.net/): `com.squareup.retrofit2:converter-simplexml` 简单 XML： `com.squareup.retrofit2:converter-simplexml`
+- [JAXB](https://docs.oracle.com/javase/tutorial/jaxb/intro/index.html): `com.squareup.retrofit2:converter-jaxb` JAXB： `com.squareup.retrofit2:converter-jaxb`
+- Scalars (primitives, boxed, and String): `com.squareup.retrofit2:converter-scalars`  
+    标量（基元、盒装和字符串）： `com.squareup.retrofit2:converter-scalars`
 
 
