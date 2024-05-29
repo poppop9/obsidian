@@ -27,7 +27,8 @@ $$
 - 反序列化：将 JSON 格式的字符串转换回对应的 Java 对象
 
 # ObjectMapper
->[!hint] 有时候，JSON 中的字段非常冗余，我们只需要将一小部分字段写入到 Java 对象中。这时，可以忽略额外的字段：
+>[!hint] 忽略额外的字段
+>有时候，JSON 中的字段非常冗余，我们只需要将一小部分字段写入到 Java 对象中。这时，可以忽略额外的字段：
 > ```java
 >objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 > ```
