@@ -84,9 +84,9 @@ Call<User> createUser(@Body User user);
 
 它接受一个 `User` 对象作为参数，这个参数将被用作请求的正文
     
-2. **The object will also be converted using a converter specified on the Retrofit instance.** 这句话说明，传递给 `@Body` 的对象将使用 Retrofit 实例上指定的转换器进行转换。转换器的作用是将对象序列化为可以发送到服务器的格式，通常是 JSON。
     
-3. **If no converter is added, only RequestBody can be used.** 如果开发者没有为 Retrofit 实例添加转换器，那么只能使用 `RequestBody` 类型的对象。`RequestBody` 是 Retrofit 中的一个抽象类，它需要一个具体的实现来指定如何将对象转换为请求正文。
+3. **If no converter is added, only RequestBody can be used.** 如果开发者没有为 Retrofit 实例添加转换器，那么只能使用 `RequestBody` 类型的对象。`RequestBody` 是 Retrofit 中的一个抽象类，它需要一个具体的实现来指定如何将对象转换为请求正文
+
 # 适配器
 ```xml
 <dependency>
@@ -98,6 +98,8 @@ Call<User> createUser(@Body User user);
 
 
 # 转换器
+可以为 Retrofit 实例添加转换器，使得 Retrofit 能够自动将 Java 对象转换为 JSON 格式，用于 HTTP 请求的正文
+
 ```xml
 <dependency>
     <groupId>com.squareup.retrofit2</groupId>
