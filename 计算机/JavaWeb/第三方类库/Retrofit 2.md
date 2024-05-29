@@ -186,36 +186,23 @@ Retrofit retrofit = new Retrofit.Builder()
 
 但是，可以通过调用 `Call` 对象的 `clone()` 方法来创建一个新的 `Call` 实例，这个新实例可以用于发起新的请求
 
-
-
-在 JVM 上，回调将在执行 HTTP 请求的同一线程上进行
+>[!hint] 在 JVM 上，回调将在执行 HTTP 请求的同一线程上进行
+> 当你使用 Retrofit 的异步调用（通过回调函数）时，回调函数会在发起 HTTP 请求的同一个线程上被执行。也就是说，如果请求是在主线程发起的，那么回调也会在主线程上执行
+> 
+> 这通常不是我们想要的行为，因为网络请求通常需要一些时间，如果在主线程上同步执行，可能会导致界面冻结或无响应。因此，通常我们会在异步线程上执行网络请求，并在主线程上更新 UI 或处理结果
+> 
+> 为了安全地在主线程上更新 UI 或处理结果，通常会结合使用 `Executor` 来控制回调函数的执行线程。例如，Retrofit 2 允许你通过 `@MainThread` 或 `@WorkerThread` 注解来指定回调函数的执行线程，或者通过自定义 `Executor` 来控制。
 
 # Configuration
-Retrofit 是将 API 接口转换为可调用对象的类。默认情况下，Retrofit 会为您的平台提供合理的默认值，但也允许自定义。
+
+
+Retrofit 是将 API 接口转换为可调用对象的类。默认情况下，Retrofit 会为您的平台提供合理的默认值，但也允许自定义
 
 ## 转换器
 默认情况下，Retrofit 只能将 HTTP 体反序列化为 OkHttp 的 ResponseBody 类型，并且只能接受其 RequestBody 类型的 @Body。
 
-可添加转换器以支持其他类型。为方便起见，同类模块可调整流行的序列化库。
-- [Gson](https://github.com/google/gson): `com.squareup.retrofit2:converter-gson` 格森： `com.squareup.retrofit2:converter-gson`
-- [Jackson](https://github.com/FasterXML/jackson): `com.squareup.retrofit2:converter-jackson` 杰克逊： `com.squareup.retrofit2:converter-jackson`
-- [Moshi](https://github.com/square/moshi/): `com.squareup.retrofit2:converter-moshi` 莫希： `com.squareup.retrofit2:converter-moshi`
-- [Protobuf](https://developers.google.com/protocol-buffers/): `com.squareup.retrofit2:converter-protobuf` Protobuf： `com.squareup.retrofit2:converter-protobuf`
-- [Wire](https://github.com/square/wire): `com.squareup.retrofit2:converter-wire` 线： `com.squareup.retrofit2:converter-wire`
-- [Simple XML](http://simple.sourceforge.net/): `com.squareup.retrofit2:converter-simplexml` 简单 XML： `com.squareup.retrofit2:converter-simplexml`
-- [JAXB](https://docs.oracle.com/javase/tutorial/jaxb/intro/index.html): `com.squareup.retrofit2:converter-jaxb` JAXB： `com.squareup.retrofit2:converter-jaxb`
-- Scalars (primitives, boxed, and String): `com.squareup.retrofit2:converter-scalars`  
-    标量（基元、盒装和字符串）： `com.squareup.retrofit2:converter-scalars`
+可添加转换器以支持其他类型。为方便起见，同类模块可调整流行的序列化库
 
-下面是一个使用 GsonConverterFactory 类生成 GitHubService 接口实现的示例，该接口使用 Gson 进行反序列化。
-```java
-Retrofit retrofit = new Retrofit.Builder()
-    .baseUrl("https://api.github.com/")
-    .addConverterFactory(GsonConverterFactory.create())
-    .build();
-
-GitHubService service = retrofit.create(GitHubService.class);
-```
 
 ## 自定义转换器
 如果您需要与使用 Retrofit 不支持的内容格式（如 YAML、txt、自定义格式）的 API 通信，或者您希望使用不同的库来实现现有格式，您可以轻松创建自己的转换器。创建一个扩展 Converter.Factory 类的类，并在构建适配器时传递一个实例。
