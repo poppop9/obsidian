@@ -87,8 +87,14 @@ Call<User> createUser(@Body User user);
 ```
 
 ## 表单编码
-- `@FormUrlEncoded` 将发送表单编码数据。每个键值对都用 @Field 注释，其中包含名称和提供值的对象
+- `@FormUrlEncoded` 指示该方法的请求体应该被编码为表单数据，每个键值对都使用 `@Field`
+- `@Field` 用于指定表单中的单个键值对
 
+```java
+@FormUrlEncoded
+@POST("user/edit")
+Call<User> updateUser(@Field("first_name") String first, @Field("last_name") String last);
+```
 
 
 # 转换器
