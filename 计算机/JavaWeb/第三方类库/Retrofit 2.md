@@ -86,7 +86,18 @@ Call<List<User>> groupList(@Path("id") int groupId, @Query("sort") String sort);
 Call<User> createUser(@Body User user);
 ```
 
-## 表单编码
+## 表单数据
+>[!hint] application/x-www-form-urlencoded 与 multipart/form-data
+>- `application/x-www-form-urlencoded` 
+>	- 这是一种简单的文本格式，易于解析
+>	- 只能用于非文件数据，不支持文件数据
+>	- 传输效率高
+>	- 兼容性好
+>- `multipart/form-data` 
+>	- 支持文件上传
+>	- 可以传输的数据量更大
+
+### application/x-www-form-urlencoded
 - `@FormUrlEncoded` 指示该方法的请求体应该被编码为表单数据，每个键值对都使用 `@Field`
 - `@Field` 用于指定表单中的单个键值对
 
@@ -96,6 +107,14 @@ Call<User> createUser(@Body User user);
 Call<User> updateUser(@Field("first_name") String first, @Field("last_name") String last);
 ```
 
+### multipart/form-data
+- `@Multipart` 使用多部分请求。部分使用 @Part 注解声明
+
+```java
+@Multipart
+@PUT("user/photo")
+Call<User> updateUser(@Part("photo") RequestBody photo, @Part("description") RequestBody description);
+```
 
 # 转换器
 ```xml
