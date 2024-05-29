@@ -42,8 +42,34 @@ Call<List<Repo>> repos = service.listRepos("octocat");
 ```
 
 # 注解
+## 请求方式
+- HTTP
+- GET
+- POST
+- PUT
+- PATCH
+- DELETE
+- OPTIONS
+- HEAD
 
+```java
+@GET("users/list")
 
+// 可以在 URL 中指定查询参数
+@GET("users/list?sort=desc")
+```
 
+## 请求 url
+>[!hint] 请求的 url 可以在方法调用时传入
 
+```java
+// {id} 参数会在方法调用时传入
+@GET("group/{id}/users")
+Call<List<User>> groupList(@Path("id") int groupId);
+```
+
+```java
+@GET("group/{id}/users")
+Call<List<User>> groupList(@Path("id") int groupId, @Query("sort") String sort);
+```
 
