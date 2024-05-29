@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "创建型模式",
+      "path": "计算机/设计模式/创建型模式.md"
+    },
+    {
+      "basename": "Hutool",
+      "path": "计算机/JavaWeb/第三方类库/Hutool.md"
+    },
+    {
       "basename": "Retrofit 2",
       "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
     },
     {
       "basename": "OKHttp",
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
-    },
-    {
-      "basename": "Hutool",
-      "path": "计算机/JavaWeb/第三方类库/Hutool.md"
     },
     {
       "basename": "5-1 索引",
@@ -195,10 +199,6 @@
     {
       "basename": "2-2 MyBatis Plus",
       "path": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
-    },
-    {
-      "basename": "4-2 事务",
-      "path": "计算机/数据库/MySQL/4-2 事务.md"
     }
   ],
   "omittedPaths": [],
