@@ -61,11 +61,6 @@ try {
 }
 ```
 
->[!hint] Jackson 如何匹配 JSON 字段和 Java 对象的属性
->- JSON 字段中的 `brand` 与Java 对象中的 `getBrand()` ，`setBrand()` 匹配
->
->>如果需要以其他方式将 JSON 字段与 Java 对象属性匹配，需要使用自定义序列化器和反序列化器，或者使用 Jackson 注解
-
 ### JSON 输入流 -> Java 对象
 - 字节流
 ```java
@@ -380,7 +375,7 @@ public class PersonIgnoreType {
 ```
 
 ## 反序列化注解
->反序列化注解只有在<u>反序列化</u>时生效
+反序列化注解只有在<u>反序列化</u>时生效
 
 ### @JsonSetter
 `@JsonSetter` 将 `setter方法` 的名称与 JSON 数据中的属性名匹配
@@ -428,7 +423,7 @@ public void set(String key, Object value) {
 ```
 
 ## 序列化注解
->序列化注解只有在<u>序列化</u>时生效
+序列化注解只有在<u>序列化</u>时生效
 
 ### @JsonFormat
 `@JsonFormat` 在序列化时，转换属性/方法返回值的格式
