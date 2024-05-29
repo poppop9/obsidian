@@ -1,4 +1,12 @@
 # Random
+- **构造**
+	- `new Random()` 创建 Random 对象
+- 生成随机数
+	- `nextInt()` 返回一个随机的 `int` 
+	- `nextDouble()` 返回一个随机的 `double` 【`0.0` - `1.0`】
+	- `nextFloat()` 返回一个随机的 `float` ，范围在 0.0（包含）到 1.0（不包含）之间
+	- `nextLong()` 返回一个随机的 `long`
+
 ```java
 Random r = new Random();
 int number = r.nextInt(10);   //代表的数据范围是0-9
