@@ -79,17 +79,37 @@ Call<List<User>> groupList(@Path("id") int groupId, @Query("sort") String sort);
 ```
 
 ## 请求正文
-- `@Body` 指定一个对象作为 HTTP 请求的正文
+- `@Body` 指定一个对象作为 HTTP 请求的正文【~~需要与转换器搭配使用~~】
 
 ```java
 @POST("users/new")
 Call<User> createUser(@Body User user);
 ```
 
-它接受一个 `User` 对象作为参数，这个参数将被用作请求的正文
-    
-    
-3. **If no converter is added, only RequestBody can be used.** 如果开发者没有为 Retrofit 实例添加转换器，那么只能使用 `RequestBody` 类型的对象。`RequestBody` 是 Retrofit 中的一个抽象类，它需要一个具体的实现来指定如何将对象转换为请求正文
+## 表单编码
+- `@FormUrlEncoded` 将发送表单编码数据。每个键值对都用 @Field 注释，其中包含名称和提供值的对象
+
+
+
+# 转换器
+```xml
+<dependency>
+    <groupId>com.squareup.retrofit2</groupId>
+    <artifactId>converter-jackson</artifactId>
+    <version>2.11.0</version>
+</dependency>
+```
+
+当请求体是 Java 对象，或是表单字段 ……，需要为 Retrofit 实例添加转换器，使得 Retrofit 能够自动将 Java 对象转换为 JSON 格式
+
+```java
+Retrofit retrofit = new Retrofit.Builder()  
+        .baseUrl("https://pay.gm-pay.net/")  
+        .client(client)  
+        // 添加转换器
+        .addConverterFactory(JacksonConverterFactory.create())  
+        .build();
+```
 
 # 适配器
 ```xml
@@ -101,13 +121,4 @@ Call<User> createUser(@Body User user);
 ```
 
 
-# 转换器
-可以为 Retrofit 实例添加转换器，使得 Retrofit 能够自动将 Java 对象转换为 JSON 格式，用于 HTTP 请求的正文
 
-```xml
-<dependency>
-    <groupId>com.squareup.retrofit2</groupId>
-    <artifactId>converter-jackson</artifactId>
-    <version>2.11.0</version>
-</dependency>
-```
