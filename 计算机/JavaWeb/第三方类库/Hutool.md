@@ -33,11 +33,16 @@
 
 # 工具类
 ## 随机 Random
-- `RandomUtil.randomInt()` 获取随机的 int
-- 
-- 获得指定范围内的随机数
+- `RandomUtil` 静态对象
+	- `randomInt()` 获取随机的 int
+	- `randomInt(int minInclude, int maxExclude)` 获得指定范围内的随机数
+	- `randomString(int length)` 获得一个随机的 length 长度的字符串
 
-
+```java
+// 生成一个8位的随机数
+String randomNumber = RandomUtil.randomString(8);
+System.out.println("生成的8位随机数是：" + randomNumber);
+```
 
 
 # 加密解密
