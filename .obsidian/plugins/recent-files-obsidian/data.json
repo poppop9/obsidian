@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Jackson",
+      "path": "计算机/JavaWeb/第三方类库/Jackson.md"
+    },
+    {
       "basename": "Lombok",
       "path": "计算机/JavaWeb/第三方类库/Lombok.md"
     },
     {
       "basename": "3-1 事务管理，AOP",
       "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
-    },
-    {
-      "basename": "Jackson",
-      "path": "计算机/JavaWeb/第三方类库/Jackson.md"
     },
     {
       "basename": "DDD 架构",

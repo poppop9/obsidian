@@ -72,7 +72,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Lombok.md"
+                "file": "计算机/JavaWeb/第三方类库/Jackson.md"
               }
             }
           },
@@ -176,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Lombok.md"
+                "file": "计算机/JavaWeb/第三方类库/Jackson.md"
               }
             }
           },
@@ -208,8 +209,9 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "6f2c73ec81dd03ae",
   "lastOpenFiles": [
+    "计算机/JavaWeb/第三方类库/Lombok.md",
     "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md",
     "计算机/JavaWeb/第三方类库/Jackson.md",
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
@@ -235,7 +237,6 @@
     "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
-    "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
