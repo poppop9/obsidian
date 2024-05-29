@@ -60,15 +60,13 @@ Call<List<Repo>> repos = service.listRepos("octocat");
 ```
 
 ## 请求 url
->[!hint] 请求的 url 可以在方法调用时传入
+>[!hint] 请求的 url 可以在方法调用时传入，<u>并且还可以指定查询参数【~~?key=value~~】</u>
+
+- `@Path("与url对应")`
+- `@Query("查询参数")` 
 
 ```java
 // {id} 参数会在方法调用时传入
-@GET("group/{id}/users")
-Call<List<User>> groupList(@Path("id") int groupId);
-```
-
-```java
 @GET("group/{id}/users")
 Call<List<User>> groupList(@Path("id") int groupId, @Query("sort") String sort);
 ```
