@@ -184,7 +184,7 @@ Retrofit retrofit = new Retrofit.Builder()
 # 同步异步
 调用实例可以同步或异步执行。每个实例只能使用一次，但调用 clone() 会创建一个可以使用的新实例。
 
-在 Android 上，回调将在主线程上执行。在 JVM 上，回调将在执行 HTTP 请求的同一线程上进行。
+在 JVM 上，回调将在执行 HTTP 请求的同一线程上进行
 
 # Configuration
 Retrofit 是将 API 接口转换为可调用对象的类。默认情况下，Retrofit 会为您的平台提供合理的默认值，但也允许自定义。
@@ -203,4 +203,15 @@ Retrofit 是将 API 接口转换为可调用对象的类。默认情况下，Ret
 - Scalars (primitives, boxed, and String): `com.squareup.retrofit2:converter-scalars`  
     标量（基元、盒装和字符串）： `com.squareup.retrofit2:converter-scalars`
 
+下面是一个使用 GsonConverterFactory 类生成 GitHubService 接口实现的示例，该接口使用 Gson 进行反序列化。
+```java
+Retrofit retrofit = new Retrofit.Builder()
+    .baseUrl("https://api.github.com/")
+    .addConverterFactory(GsonConverterFactory.create())
+    .build();
 
+GitHubService service = retrofit.create(GitHubService.class);
+```
+
+## 自定义转换器
+如果您需要与使用 Retrofit 不支持的内容格式（如 YAML、txt、自定义格式）的 API 通信，或者您希望使用不同的库来实现现有格式，您可以轻松创建自己的转换器。创建一个扩展 Converter.Factory 类的类，并在构建适配器时传递一个实例。
