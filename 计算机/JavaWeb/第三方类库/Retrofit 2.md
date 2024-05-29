@@ -71,3 +71,22 @@ Call<List<Repo>> repos = service.listRepos("octocat");
 Call<List<User>> groupList(@Path("id") int groupId, @Query("sort") String sort);
 ```
 
+
+# 适配器
+```xml
+<dependency>
+    <groupId>com.squareup.retrofit2</groupId>
+    <artifactId>adapter-rxjava3</artifactId>
+    <version>2.11.0</version>
+</dependency>
+```
+
+
+# 转换器
+```xml
+<dependency>
+    <groupId>com.squareup.retrofit2</groupId>
+    <artifactId>converter-jackson</artifactId>
+    <version>2.11.0</version>
+</dependency>
+```
