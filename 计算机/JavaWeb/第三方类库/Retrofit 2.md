@@ -78,6 +78,34 @@ System.out.println(response.body());
 Call<List<User>> groupList(@Path("id") int groupId, @Query("sort") String sort);
 ```
 
+## 请求头
+您可以使用 @Headers 注解为方法设置静态头信息
+
+```java
+@Headers("Cache-Control: max-age=640000")
+@GET("widget/list")
+Call<List<Widget>> widgetList();
+
+@Headers({
+    "Accept: application/vnd.github.v3.full+json",
+    "User-Agent: Retrofit-Sample-App"
+})
+@GET("users/{username}")
+Call<User> getUser(@Path("username") String username);
+```
+
+可以使用 @Header 注解动态更新请求头。必须为 @Header 提供一个相应的参数。如果该值为空，头信息将被省略。否则，将对该值调用 toString 并使用结果。
+```java
+@GET("user")
+Call<User> getUser(@Header("Authorization") String authorization)
+```
+
+对于复杂的请求头
+```java
+@GET("user")
+Call<User> getUser(@HeaderMap Map<String, String> headers)
+```
+
 ## 请求正文
 - `@Body` 指定一个对象作为 HTTP 请求的正文【~~需要与转换器搭配使用~~】
 
@@ -108,7 +136,8 @@ Call<User> updateUser(@Field("first_name") String first, @Field("last_name") Str
 ```
 
 ### multipart/form-data
-- `@Multipart` 使用多部分请求。部分使用 @Part 注解声明
+- `@Multipart` 指示该方法的请求体应该被编码为 `multipart/form-data` ，Retrofit 会构造一个多部分请求，其中每个部分都由 `@Part` 定义
+- `@Part` 每个 `@Part` 都对应请求体中的一个单独部分【~~可以包含文件，文本 ……~~】
 
 ```java
 @Multipart
