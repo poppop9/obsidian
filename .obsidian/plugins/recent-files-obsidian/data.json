@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "DDD 架构",
+      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+    },
+    {
+      "basename": "Bootstrap 简化 CSS",
+      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
+    },
+    {
+      "basename": "Retrofit 2",
+      "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
+    },
+    {
       "basename": "创建型模式",
       "path": "计算机/设计模式/创建型模式.md"
     },
     {
       "basename": "Hutool",
       "path": "计算机/JavaWeb/第三方类库/Hutool.md"
-    },
-    {
-      "basename": "Retrofit 2",
-      "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
     },
     {
       "basename": "OKHttp",
@@ -91,10 +99,6 @@
     {
       "basename": "1-1 基础特性",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
-    },
-    {
-      "basename": "Bootstrap 简化 CSS",
-      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
     },
     {
       "basename": "1 CSS 初级",
@@ -195,10 +199,6 @@
     {
       "basename": "基础知识",
       "path": "计算机/四大件/操作系统/基础知识.md"
-    },
-    {
-      "basename": "2-2 MyBatis Plus",
-      "path": "计算机/JavaWeb/后端/SpringBoot/2-2 MyBatis Plus.md"
     }
   ],
   "omittedPaths": [],
