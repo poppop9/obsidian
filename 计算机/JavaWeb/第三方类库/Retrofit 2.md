@@ -37,8 +37,11 @@ Retrofit retrofit = new Retrofit.Builder()
 // 创建GitHubService服务实例
 GitHubService service = retrofit.create(GitHubService.class);
 
-// 传入用户名，发起请求，生成结果存储到Call对象中
-Call<List<Repo>> repos = service.listRepos("octocat");
+// 传入用户名，生成Call对象
+Call<List<Repo>> call = service.listRepos("octocat");
+// 发起请求，拿到Response对象
+Response<Object> response = call.execute();
+System.out.println(response.body());
 ```
 
 # 注解
