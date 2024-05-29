@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Jackson",
-      "path": "计算机/JavaWeb/第三方类库/Jackson.md"
+      "basename": "创建型模式",
+      "path": "计算机/设计模式/创建型模式.md"
+    },
+    {
+      "basename": "Retrofit 2",
+      "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
     },
     {
       "basename": "Lombok",
       "path": "计算机/JavaWeb/第三方类库/Lombok.md"
+    },
+    {
+      "basename": "Jackson",
+      "path": "计算机/JavaWeb/第三方类库/Jackson.md"
     },
     {
       "basename": "3-1 事务管理，AOP",
@@ -15,14 +23,6 @@
     {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
-      "basename": "Retrofit 2",
-      "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
-    },
-    {
-      "basename": "创建型模式",
-      "path": "计算机/设计模式/创建型模式.md"
     },
     {
       "basename": "1-1 环境配置",
