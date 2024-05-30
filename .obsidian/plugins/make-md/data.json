@@ -27,7 +27,7 @@
   "spacesEnabled": true,
   "syncFormulaToFrontmatter": true,
   "spacesPerformance": false,
-  "currentWaypoint": 1,
+  "currentWaypoint": 2,
   "enableFolderNote": true,
   "folderIndentationLines": true,
   "revealActiveFile": false,
@@ -79,8 +79,7 @@
     "计算机/计算机/JavaWeb/计算机/JavaWeb/后端",
     "计算机/计算机/JavaWeb",
     "计算机/计算机/数据库",
-    "计算机/计算机/数据库/计算机/数据库/MySQL",
-    "//临时笔记"
+    "计算机/计算机/数据库/计算机/数据库/Redis"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

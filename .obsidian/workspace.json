@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
+                "file": "计算机/数据库/Redis/1 基础.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+                "file": "计算机/数据库/Redis/1 基础.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+                "file": "计算机/数据库/Redis/1 基础.md"
               }
             }
           },
@@ -211,8 +211,8 @@
   },
   "active": "3fb1987bcd09b45c",
   "lastOpenFiles": [
-    "临时笔记/职场.md",
     "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
+    "临时笔记/职场.md",
     "计算机/数据库/MySQL/5-1 索引.md",
     "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
     "计算机/Git.md",
