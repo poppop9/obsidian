@@ -9,6 +9,10 @@
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
     {
+      "basename": "Retrofit 2",
+      "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
+    },
+    {
       "basename": "2-2 指令",
       "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "创建型模式",
       "path": "计算机/设计模式/创建型模式.md"
-    },
-    {
-      "basename": "Retrofit 2",
-      "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
     },
     {
       "basename": "Hutool",
