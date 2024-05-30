@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
               }
             }
           },
@@ -176,7 +176,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/配置优先级.md"
+                "file": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
               }
             }
           },
@@ -210,8 +210,11 @@
   },
   "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级.md",
+    "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
+    "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md",
+    "计算机/JavaWeb/后端/SpringBoot/4-1 定时任务.md",
+    "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
@@ -233,9 +236,6 @@
     "计算机/数据库/MySQL/4-3 存储引擎.md",
     "计算机/数据库/MySQL/5-2 问题处理.md",
     "计算机/数据库/MySQL/1-2 概念.md",
-    "计算机/数据库/MySQL/1-1 安装配置.md",
-    "计算机/数据库/MySQL/2-1 基础语句.md",
-    "临时笔记/Dance.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
