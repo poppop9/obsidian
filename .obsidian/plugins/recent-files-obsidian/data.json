@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "1-1 基础特性",
+      "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+    },
+    {
       "basename": "Git",
       "path": "计算机/Git.md"
     },
@@ -127,10 +131,6 @@
     {
       "basename": "1 HTML 初级",
       "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
-    },
-    {
-      "basename": "1-1 基础特性",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
     },
     {
       "basename": "1 CSS 初级",
