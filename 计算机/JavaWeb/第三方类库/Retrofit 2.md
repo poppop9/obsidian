@@ -161,7 +161,7 @@ Call<User> updateUser(@Part("photo") RequestBody photo, @Part("description") Req
 </dependency>
 ```
 
-当请求体是 Java 对象，或是表单字段 ……，需要为 Retrofit 实例添加转换器，使得 Retrofit 能够自动将 Java 对象转换为 JSON 格式
+Retrofit 在默认情况下，会将服务器返回的 HTTP 响应体【~~JSON，XML ……~~】转换成 OkHttp 的 `ResponseBody` ，所以当请求体是 Java 对象，或是表单字段 ……，需要为 Retrofit 实例添加转换器，使得 Retrofit 能够自动将 Java 对象转换为 JSON 格式
 
 ```java
 Retrofit retrofit = new Retrofit.Builder()  
@@ -192,17 +192,3 @@ Retrofit retrofit = new Retrofit.Builder()
 > 这通常不是我们想要的行为，因为网络请求通常需要一些时间，如果在主线程上同步执行，可能会导致界面冻结或无响应。因此，通常我们会在异步线程上执行网络请求，并在主线程上更新 UI 或处理结果
 > 
 > 为了安全地在主线程上更新 UI 或处理结果，通常会结合使用 `Executor` 来控制回调函数的执行线程。例如，Retrofit 2 允许你通过 `@MainThread` 或 `@WorkerThread` 注解来指定回调函数的执行线程，或者通过自定义 `Executor` 来控制。
-
-# Configuration
-
-
-Retrofit 是将 API 接口转换为可调用对象的类。默认情况下，Retrofit 会为您的平台提供合理的默认值，但也允许自定义
-
-## 转换器
-默认情况下，Retrofit 只能将 HTTP 体反序列化为 OkHttp 的 ResponseBody 类型，并且只能接受其 RequestBody 类型的 @Body。
-
-可添加转换器以支持其他类型。为方便起见，同类模块可调整流行的序列化库
-
-
-## 自定义转换器
-如果您需要与使用 Retrofit 不支持的内容格式（如 YAML、txt、自定义格式）的 API 通信，或者您希望使用不同的库来实现现有格式，您可以轻松创建自己的转换器。创建一个扩展 Converter.Factory 类的类，并在构建适配器时传递一个实例。
