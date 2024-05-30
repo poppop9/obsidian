@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "2-1 键命令",
+      "path": "计算机/数据库/Redis/2-1 键命令.md"
+    },
+    {
       "basename": "1 基础",
       "path": "计算机/数据库/Redis/1 基础.md"
+    },
+    {
+      "basename": "3-1 高级",
+      "path": "计算机/数据库/Redis/3-1 高级.md"
+    },
+    {
+      "basename": "2-2 数据结构命令",
+      "path": "计算机/数据库/Redis/2-2 数据结构命令.md"
+    },
+    {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
     {
       "basename": "1-1 基础特性",
@@ -45,10 +61,6 @@
       "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
     },
     {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
-    },
-    {
       "basename": "Retrofit 2",
       "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
     },
@@ -87,18 +99,6 @@
     {
       "basename": "OKHttp",
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
-    },
-    {
-      "basename": "3-1 高级",
-      "path": "计算机/数据库/Redis/3-1 高级.md"
-    },
-    {
-      "basename": "2-2 数据结构命令",
-      "path": "计算机/数据库/Redis/2-2 数据结构命令.md"
-    },
-    {
-      "basename": "2-1 键命令",
-      "path": "计算机/数据库/Redis/2-1 键命令.md"
     },
     {
       "basename": "4-3 存储引擎",
