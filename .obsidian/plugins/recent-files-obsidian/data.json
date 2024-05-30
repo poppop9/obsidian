@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "配置优先级",
+      "path": "计算机/JavaWeb/后端/SpringBoot/配置优先级.md"
+    },
+    {
+      "basename": "DDD 架构",
+      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+    },
+    {
+      "basename": "2-2 指令",
+      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
+    },
+    {
       "basename": "2 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "Retrofit 2",
       "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
-    },
-    {
-      "basename": "2-2 指令",
-      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
     },
     {
       "basename": "3-1 常用 API",
@@ -39,10 +47,6 @@
     {
       "basename": "3-1 事务管理，AOP",
       "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
-    },
-    {
-      "basename": "DDD 架构",
-      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
     },
     {
       "basename": "1-1 环境配置",
@@ -195,10 +199,6 @@
     {
       "basename": "计算机组成原理",
       "path": "计算机/四大件/计算机组成原理.md"
-    },
-    {
-      "basename": "6 并发编程",
-      "path": "计算机/编程语言/Java/6 并发编程.md"
     }
   ],
   "omittedPaths": [],
