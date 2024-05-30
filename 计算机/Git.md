@@ -289,6 +289,7 @@ $ git tag -d v1.0
 ```
 
 ## 追加标签
+>[!quote] 追加标签
 >如果我们忘了给某个提交打标签，又将它发布了，我们可以给它追加标签
 
 ```bash
@@ -388,6 +389,31 @@ $ git commit -m "添加 README.md 文件"
 $ git remote add test git@github.com:tianqixin/runoob-git-test.git
 $ git push -u test master
 ```
+
+# 清理
+
+- `git gc`用于清理和压缩仓库。它会合并多个小的Git对象文件到几个大的文件中，删除无用的临时文件和缓存，以及压缩对象数据库。这个过程可以减少仓库的大小并提高性能。
+
+    
+- `git prune`命令用于删除本地仓库中不再跟踪的引用（refs），比如已经合并的分支或过期的标签。它不会影响仓库中的数据，只是清理掉一些不再需要的引用。
+
+
+- `git reflog expire`命令用于清理引用日志（reflog），这是记录了所有引用更新的日志。`--expire`选项可以指定多久之前的日志可以被清理。
+- `git gc --prune=now`命令会立即清理所有过期的对象和引用，而不是等待下一次的垃圾回收。
+
+
+- `git filter-branch`是一个强大的工具，可以用来重写历史中的提交。例如，可以用来从历史中移除敏感数据或大文件。使用时需要非常小心，因为它会改变历史。
+
+
+- BFG Repo-Cleaner是一个Java编写的Git仓库清理工具，它比`git filter-branch`更快，并且可以更有效地从历史中删除大文件和敏感数据。
+
+在这些工具中，`git gc`和`git prune`是最安全和常用的命令，因为它们不会改变仓库的历史记录，只是清理无用的数据。`git reflog expire`和`git gc --prune=now`也相对安全，但是它们会清理引用日志，所以在执行之前应该确保没有需要保留的日志。
+
+`git filter-branch`和BFG Repo-Cleaner是最强大的，但同时也是风险最高的。它们会改变仓库的历史，如果不正确使用，可能会导致数据丢失。在使用这些工具之前，强烈建议备份你的仓库。
+
+总的来说，如果你只是想进行常规的维护，那么`git gc`和`git prune`是最佳选择。如果你需要从历史中移除大文件或敏感数据，那么可以考虑使用`git filter-branch`或BFG Repo-Cleaner，但务必在备份之后进行。
+
+
 
 # .gitignore
 >[!hint] 应该被忽略的文件

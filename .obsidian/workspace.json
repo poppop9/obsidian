@@ -65,14 +65,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
-                "mode": "preview",
+                "file": "计算机/Git.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
+                "file": "计算机/Git.md"
               }
             }
           },
@@ -176,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
+                "file": "计算机/Git.md"
               }
             }
           },
@@ -208,15 +209,15 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "3fb1987bcd09b45c",
   "lastOpenFiles": [
-    "计算机/JavaWeb/后端/SpringBoot/配置优先级.md",
+    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
+    "计算机/JavaWeb/后端/SpringBoot/配置优先级.md",
     "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md",
     "计算机/JavaWeb/后端/SpringBoot/4-1 定时任务.md",
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
-    "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/第三方类库/Retrofit 2.md",
     "计算机/编程语言/Java/3-1 常用 API.md",

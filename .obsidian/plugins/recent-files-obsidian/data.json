@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "计算机/Git.md"
+    },
+    {
+      "basename": "2 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+    },
+    {
       "basename": "1-2 配置文件",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "2-2 指令",
       "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
-    },
-    {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
       "basename": "1 Bootstrap 初级",
