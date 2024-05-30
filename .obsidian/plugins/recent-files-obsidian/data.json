@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+      "basename": "2-2 指令",
+      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
+    },
+    {
+      "basename": "3-1 常用 API",
+      "path": "计算机/编程语言/Java/3-1 常用 API.md"
     },
     {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
+      "basename": "2 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
       "basename": "创建型模式",
@@ -23,10 +31,6 @@
     {
       "basename": "Jackson",
       "path": "计算机/JavaWeb/第三方类库/Jackson.md"
-    },
-    {
-      "basename": "3-1 常用 API",
-      "path": "计算机/编程语言/Java/3-1 常用 API.md"
     },
     {
       "basename": "Lombok",
@@ -195,10 +199,6 @@
     {
       "basename": "6 并发编程",
       "path": "计算机/编程语言/Java/6 并发编程.md"
-    },
-    {
-      "basename": "持久性",
-      "path": "计算机/四大件/操作系统/持久性.md"
     }
   ],
   "omittedPaths": [],
