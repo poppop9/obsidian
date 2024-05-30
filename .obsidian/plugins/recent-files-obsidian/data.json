@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "3-1 高级",
-      "path": "计算机/数据库/Redis/3-1 高级.md"
+      "basename": "4-3 存储引擎",
+      "path": "计算机/数据库/MySQL/4-3 存储引擎.md"
     },
     {
       "basename": "4-2 事务",
       "path": "计算机/数据库/MySQL/4-2 事务.md"
     },
     {
+      "basename": "4-1 高级",
+      "path": "计算机/数据库/MySQL/4-1 高级.md"
+    },
+    {
+      "basename": "5-2 问题处理",
+      "path": "计算机/数据库/MySQL/5-2 问题处理.md"
+    },
+    {
       "basename": "5-1 索引",
       "path": "计算机/数据库/MySQL/5-1 索引.md"
+    },
+    {
+      "basename": "2-1 基础语句",
+      "path": "计算机/数据库/MySQL/2-1 基础语句.md"
+    },
+    {
+      "basename": "1-1 安装配置",
+      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
+    },
+    {
+      "basename": "1-2 概念",
+      "path": "计算机/数据库/MySQL/1-2 概念.md"
+    },
+    {
+      "basename": "2-2 函数",
+      "path": "计算机/数据库/MySQL/2-2 函数.md"
+    },
+    {
+      "basename": "Hutool",
+      "path": "计算机/JavaWeb/第三方类库/Hutool.md"
+    },
+    {
+      "basename": "3-1 高级",
+      "path": "计算机/数据库/Redis/3-1 高级.md"
     },
     {
       "basename": "2-2 数据结构命令",
@@ -77,10 +109,6 @@
       "path": "计算机/设计模式/创建型模式.md"
     },
     {
-      "basename": "Hutool",
-      "path": "计算机/JavaWeb/第三方类库/Hutool.md"
-    },
-    {
       "basename": "Jackson",
       "path": "计算机/JavaWeb/第三方类库/Jackson.md"
     },
@@ -103,26 +131,6 @@
     {
       "basename": "OKHttp",
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
-    },
-    {
-      "basename": "4-3 存储引擎",
-      "path": "计算机/数据库/MySQL/4-3 存储引擎.md"
-    },
-    {
-      "basename": "5-2 问题处理",
-      "path": "计算机/数据库/MySQL/5-2 问题处理.md"
-    },
-    {
-      "basename": "1-2 概念",
-      "path": "计算机/数据库/MySQL/1-2 概念.md"
-    },
-    {
-      "basename": "1-1 安装配置",
-      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
-    },
-    {
-      "basename": "2-1 基础语句",
-      "path": "计算机/数据库/MySQL/2-1 基础语句.md"
     },
     {
       "basename": "Dance",
@@ -173,20 +181,12 @@
       "path": "计算机/编程语言/Java/3-4 基本类型包装类.md"
     },
     {
-      "basename": "4-1 高级",
-      "path": "计算机/数据库/MySQL/4-1 高级.md"
-    },
-    {
       "basename": "自动内存管理",
       "path": "计算机/编程语言/Java/JVM 虚拟机/自动内存管理.md"
     },
     {
       "basename": "3-7 集合",
       "path": "计算机/编程语言/Java/3-7 集合.md"
-    },
-    {
-      "basename": "2-2 函数",
-      "path": "计算机/数据库/MySQL/2-2 函数.md"
     },
     {
       "basename": "4-1 OAuth 2",
