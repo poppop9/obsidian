@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
+                "file": "计算机/数据库/MySQL/5-1 索引.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+                "file": "计算机/数据库/MySQL/5-1 索引.md"
               }
             }
           },
@@ -177,7 +176,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
+                "file": "计算机/数据库/MySQL/5-1 索引.md"
               }
             }
           },
@@ -209,11 +208,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3fb1987bcd09b45c",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
+    "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md",
     "计算机/Git.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
-    "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md",
     "计算机/JavaWeb/后端/SpringBoot/配置优先级.md",
     "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md",
     "计算机/JavaWeb/后端/SpringBoot/4-1 定时任务.md",
@@ -236,7 +236,6 @@
     "计算机/数据库/Redis/2-1 键命令.md",
     "计算机/数据库/Redis/1 基础.md",
     "计算机/数据库/MySQL/4-3 存储引擎.md",
-    "计算机/数据库/MySQL/5-2 问题处理.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
