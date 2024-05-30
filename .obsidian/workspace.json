@@ -65,14 +65,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
               }
             }
           },
@@ -176,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
               }
             }
           },
@@ -208,10 +209,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "aaf8699d17d2772c",
+  "active": "3fb1987bcd09b45c",
   "lastOpenFiles": [
-    "计算机/编程语言/Java/3-1 常用 API.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+    "计算机/JavaWeb/前端/Vue/2-2 指令.md",
+    "计算机/编程语言/Java/3-1 常用 API.md",
     "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
     "计算机/设计模式/创建型模式.md",
     "计算机/JavaWeb/第三方类库/Retrofit 2.md",
@@ -235,7 +237,6 @@
     "计算机/数据库/MySQL/2-1 基础语句.md",
     "临时笔记/Dance.md",
     "计算机/Docker.md",
-    "计算机/JavaWeb/前端/CSS/2 CSS 中级.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
