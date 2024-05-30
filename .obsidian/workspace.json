@@ -71,17 +71,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "afb1f06d6cf11e1d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,7 +165,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "计算机/Docker.md"
+              }
             }
           },
           {
@@ -182,7 +175,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "计算机/Docker.md"
+              }
             }
           },
           {
@@ -213,7 +208,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "afb1f06d6cf11e1d",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/数据库/Redis/3-1 高级.md",
