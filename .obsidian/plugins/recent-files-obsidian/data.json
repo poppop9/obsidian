@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+    },
+    {
+      "basename": "Git",
+      "path": "计算机/Git.md"
+    },
+    {
       "basename": "3-1 路由",
       "path": "计算机/JavaWeb/前端/Vue/3-1 路由.md"
     },
@@ -71,10 +79,6 @@
     {
       "basename": "1-1 会话管理",
       "path": "计算机/JavaWeb/后端/Spring Security/1-1 会话管理.md"
-    },
-    {
-      "basename": "Git",
-      "path": "计算机/Git.md"
     },
     {
       "basename": "2 散列表",
@@ -167,10 +171,6 @@
     {
       "basename": "2-1 键命令",
       "path": "计算机/数据库/Redis/2-1 键命令.md"
-    },
-    {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
     {
       "basename": "1-1 基础特性",

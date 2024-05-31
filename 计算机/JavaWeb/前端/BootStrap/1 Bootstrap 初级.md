@@ -32,8 +32,12 @@ https://v5.bootcss.com/docs/getting-started/download/#npm
 - `npm install bootstrap@5.3.0-alpha1`
 - 在 `main.js` 中引入 BootStrap
 ```js
+// 引入
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
+
+// 在注释掉其他的 css 文件，比如
+// import './assets/main.css'
 ```
 
 # 布局
