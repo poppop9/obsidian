@@ -46,7 +46,8 @@
 | `.text-decoration-none` | 删除链接中的下划线 |
 | `.text-nowrap`          | 文本不换行     |
 
-# 边距
+# 框模型
+## 边距
 - `margin`
 	- `m-*` 上下左右
 	- `.mx-*/auto` 左右 margin 都 auto
@@ -61,6 +62,17 @@
 	- `pe-*` 
 	- `pb-*` 
 	- `ps-*` 
+
+## 圆角
+- 全周围
+	- `.rounded`：为元素添加轻微的圆角
+	- `.rounded-circle`：使元素的边框完全变为圆形
+	- `.rounded-pill`：为元素添加较大的圆角，使其看起来像一个药丸形状
+- 上下左右
+	- `.rounded-top`：为元素的顶部添加圆角
+	- `.rounded-start`：为元素的左侧添加圆角
+	- `.rounded-end`：为元素的右侧添加圆角
+	- `.rounded-bottom`：为元素的底部添加圆角
 
 # 分割线
 - `.vr` 竖直的分割线【~~对标 `<hr>`~~】
