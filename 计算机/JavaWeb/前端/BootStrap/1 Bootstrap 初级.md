@@ -60,6 +60,25 @@ import 'bootstrap';
 >利用 `flexbox` ，共有12列【会根据屏幕大小，自动重排】
 >![800](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402051753353.png)
 
+>[!hint] 如果页面底部出现水平的滚动条，就在 `.row` 的 `<div>` 中加入 `.mx-auto`
+>
+> ```html
+> \<div class="row mx-auto">
+> 	\<div class="col-9 mx-auto">
+> 		\<div class="row">
+> 			\<div class="col-2">
+> 			\</div>
+> 			\<div class="col-8">
+> 				<span>慕课网</span>
+> 			\</div>
+> 			\<div class="col-2">
+> 				\<span>免费学习来自名校名师的精品课程\</span>
+> 			\</div>
+> 		\</div>
+> 	\</div>
+> \</div>
+> ```
+
 - **行**
 	- `.row`
 - **列**
