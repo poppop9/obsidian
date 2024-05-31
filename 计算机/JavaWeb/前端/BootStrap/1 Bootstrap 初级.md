@@ -346,7 +346,7 @@ import 'bootstrap';
 - `list-group-item-action` 悬停效果
 
 ---
-- ***普通列表组***
+- **普通列表组**
 ```html
 <ul class="list-group">
 	<li class="list-group-item active">活动项目</li>
@@ -355,7 +355,7 @@ import 'bootstrap';
 </ul>
 ```
 
-- ***链接列表组***
+- **链接列表组**
 ```html
 <div class="list-group">
 	<a href="#" class="list-group-item list-group-item-action">第一项</a>
@@ -364,7 +364,7 @@ import 'bootstrap';
 </div>
 ```
 
-- ***徽章列表组***
+- **徽章列表组**
 ```html
 <ul class="list-group">
 	<li class="list-group-item d-flex justify-content-between align-items-center">
