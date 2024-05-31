@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "创建型模式",
+      "path": "计算机/设计模式/创建型模式.md"
+    },
+    {
+      "basename": "1 idea",
+      "path": "计算机/编程语言/Java/1 idea.md"
+    },
+    {
       "basename": "Bootstrap 简化 CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "2-1 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md"
-    },
-    {
-      "basename": "1 idea",
-      "path": "计算机/编程语言/Java/1 idea.md"
     },
     {
       "basename": "1-1 环境配置",
@@ -195,10 +199,6 @@
     {
       "basename": "1-1 基础特性",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
-    },
-    {
-      "basename": "职场",
-      "path": "临时笔记/职场.md"
     }
   ],
   "omittedPaths": [],
