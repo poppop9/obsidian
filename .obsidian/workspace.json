@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
+                "file": "计算机/编程语言/Java/1 idea.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -72,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
+                "file": "计算机/编程语言/Java/1 idea.md"
               }
             }
           },
@@ -177,7 +176,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
+                "file": "计算机/编程语言/Java/1 idea.md"
               }
             }
           },
@@ -209,10 +208,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3fb1987bcd09b45c",
+  "active": "c59c1ef232b20f12",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md",
+    "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
+    "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/Vue/3-1 路由.md",
     "计算机/JavaWeb/前端/BootStrap/2-2 图标库.md",
@@ -221,7 +221,6 @@
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/Git.md",
     "计算机/Docker.md",
-    "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
     "计算机/编程语言/Java/5-3 反射.md",
     "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md",
     "计算机/编程语言/Java/5-1 Java 8 新特性.md",

@@ -8,9 +8,13 @@ get ,set 方法，构造方法   `alt+insert`
 ## 快捷操作
 - 运行代码   `ctrl+shift+F10`
 - 格式化代码   `ctrl+alt+L`
+- 批量选中相同代码 `ctrl+r`
+
 ---
+
 - 单行注释   `ctrl+/`
 - 多行注释   `ctrl+shift+/`
+
 ---
 - 搜索当前类 `ctrl+F`
 - 查看源码   `ctrl+B`

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "1 idea",
+      "path": "计算机/编程语言/Java/1 idea.md"
+    },
+    {
+      "basename": "1-1 环境配置",
+      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+    },
+    {
       "basename": "Bootstrap 简化 CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
     },
@@ -39,10 +47,6 @@
     {
       "basename": "Docker",
       "path": "计算机/Docker.md"
-    },
-    {
-      "basename": "1-1 环境配置",
-      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
     },
     {
       "basename": "5-3 反射",
@@ -195,10 +199,6 @@
     {
       "basename": "职场",
       "path": "临时笔记/职场.md"
-    },
-    {
-      "basename": "1-2 配置文件",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
     }
   ],
   "omittedPaths": [],
