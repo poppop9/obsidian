@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
               }
             }
           },
@@ -209,12 +209,12 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "3fb1987bcd09b45c",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md",
+    "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
     "计算机/编程语言/Java/1 idea.md",
     "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
-    "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
-    "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/前端/Vue/3-1 路由.md",
     "计算机/JavaWeb/前端/BootStrap/2-2 图标库.md",
