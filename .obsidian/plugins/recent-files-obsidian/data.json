@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "DDD 架构",
+      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
+    },
+    {
       "basename": "5-1 Java 8 新特性",
       "path": "计算机/编程语言/Java/5-1 Java 8 新特性.md"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "2 散列表",
       "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/2 散列表.md"
-    },
-    {
-      "basename": "DDD 架构",
-      "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
     },
     {
       "basename": "3-1 高级",
