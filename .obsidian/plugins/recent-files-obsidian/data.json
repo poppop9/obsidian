@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "3-1 路由",
+      "path": "计算机/JavaWeb/前端/Vue/3-1 路由.md"
+    },
+    {
       "basename": "Docker",
       "path": "计算机/Docker.md"
+    },
+    {
+      "basename": "1-1 环境配置",
+      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
     },
     {
       "basename": "5-3 反射",
@@ -191,14 +199,6 @@
     {
       "basename": "Retrofit 2",
       "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
-    },
-    {
-      "basename": "3-1 常用 API",
-      "path": "计算机/编程语言/Java/3-1 常用 API.md"
-    },
-    {
-      "basename": "创建型模式",
-      "path": "计算机/设计模式/创建型模式.md"
     }
   ],
   "omittedPaths": [],
