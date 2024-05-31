@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "草稿纸",
+      "path": "临时笔记/草稿纸.md"
+    },
+    {
       "basename": "创建型模式",
       "path": "计算机/设计模式/创建型模式.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2-1 键命令",
       "path": "计算机/数据库/Redis/2-1 键命令.md"
-    },
-    {
-      "basename": "1-1 基础特性",
-      "path": "计算机/JavaWeb/后端/SpringBoot/1-1 基础特性.md"
     }
   ],
   "omittedPaths": [],
