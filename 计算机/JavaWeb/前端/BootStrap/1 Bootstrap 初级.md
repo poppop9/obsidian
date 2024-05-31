@@ -85,7 +85,7 @@ import 'bootstrap';
 ------
 
 /* 当屏幕小于576px时，每一列会占据宽度的100%，并向下堆叠 */
-	<div class="row">
+<div class="row">
 	<div class="col-sm-4">.col-sm-4</div>
 	<div class="col-sm-4">.col-sm-4</div>
 	<div class="col-sm-4">.col-sm-4</div>
