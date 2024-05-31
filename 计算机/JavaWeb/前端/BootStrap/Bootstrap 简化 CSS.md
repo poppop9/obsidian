@@ -220,35 +220,37 @@
 ---
 
 - **对齐**
-	- 水平对齐
-		- `justify-content-center` 子元素水平居中
-		- `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
-		- `justify-content-around` 在每个 flex 子项目的两侧都添加空间
-		- `justify-content-between` 第一个 flex 子项目的左侧不添加空间，最后一个 flex 子项目的右侧不添加空间，其他都类似 `around`
-	- 自我水平对齐
-		- `mx-auto` 居中
-		- `ms-auto` 居右对齐
-		- `me-auto` 居左对齐
-	- 单行时的垂直对齐
-		- `.align-items-start`
-		- `.align-items-end`
-		- `.align-items-center`
-		- `.align-items-baseline`
-		- `.align-items-stretch`【默认】
-	- 多行时的垂直对齐
-		- `.align-content-end` 堆叠到下面
-		- `.align-content-center` 堆叠到中间
-		- `.align-content-between` 平均堆叠，上下无空间
-		- `.align-content-around` 平均堆叠，上下有空间
-		- `.align-content-stretch` 拉伸平均堆叠满父容器
-	- 自我垂直对齐【**用于 flex 子项目，会覆盖父容器的垂直对齐**】
-		- `.align-self-start`
-		- `.align-self-end`
-		- `.align-self-center`
-		- `.align-self-baseline`
-		- `.align-self-stretch`【默认】
-		- `mt-auto` 让元素居下
-		- `mb-auto` 让元素居上
+	- **水平**
+		- 水平对齐
+			- `justify-content-center` 子元素水平居中
+			- `justify-content-md-end` 在中等以上屏幕宽度时将子元素水平右对齐
+			- `justify-content-around` 在每个 flex 子项目的两侧都添加空间
+			- `justify-content-between` 第一个 flex 子项目的左侧不添加空间，最后一个 flex 子项目的右侧不添加空间，其他都类似 `around`
+		- 自我水平对齐
+			- `mx-auto` 居中
+			- `ms-auto` 居右对齐
+			- `me-auto` 居左对齐
+	- **垂直**
+		- 单行时的垂直对齐
+			- `.align-items-start`
+			- `.align-items-end`
+			- `.align-items-center`
+			- `.align-items-baseline`
+			- `.align-items-stretch`【默认】
+		- 多行时的垂直对齐
+			- `.align-content-end` 堆叠到下面
+			- `.align-content-center` 堆叠到中间
+			- `.align-content-between` 平均堆叠，上下无空间
+			- `.align-content-around` 平均堆叠，上下有空间
+			- `.align-content-stretch` 拉伸平均堆叠满父容器
+		- 自我垂直对齐【**用于 flex 子项目，会覆盖父容器的垂直对齐**】
+			- `.align-self-start`
+			- `.align-self-end`
+			- `.align-self-center`
+			- `.align-self-baseline`
+			- `.align-self-stretch`【默认】
+			- `mt-auto` 让元素居下
+			- `mb-auto` 让元素居上
 
 ```html
 <div class="d-flex">
