@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Git",
+      "path": "计算机/Git.md"
+    },
+    {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
       "basename": "2 散列表",
       "path": "计算机/四大件/数据结构与算法/数据结构/逻辑结构/2 散列表.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "DDD 架构",
       "path": "计算机/JavaWeb/后端/SpringBoot/DDD 架构.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "3-1 高级",
@@ -43,10 +47,6 @@
     {
       "basename": "4-5 IO 流",
       "path": "计算机/编程语言/Java/4-5 IO 流.md"
-    },
-    {
-      "basename": "Git",
-      "path": "计算机/Git.md"
     },
     {
       "basename": "4-3 存储引擎",
