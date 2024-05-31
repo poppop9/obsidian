@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md",
-                "mode": "preview",
+                "file": "计算机/JavaWeb/前端/BootStrap/2-2 图标库.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2-2 图标库.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2-2 图标库.md"
               }
             }
           },
@@ -211,6 +211,8 @@
   },
   "active": "c43791d85bf7822d",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md",
+    "计算机/JavaWeb/前端/BootStrap/2-2 图标库.md",
     "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/Git.md",
@@ -235,8 +237,6 @@
     "计算机/四大件/数据结构与算法/数据结构/逻辑结构/2 散列表.md",
     "计算机/数据库/Redis/3-1 高级.md",
     "计算机/JavaWeb/后端/SpringBoot/2-3 文件上云.md",
-    "计算机/JavaWeb/后端/SpringBoot/2-1 MyBatis.md",
-    "计算机/JavaWeb/后端/SpringBoot/1-4 测试.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",

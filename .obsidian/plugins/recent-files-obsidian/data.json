@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+      "basename": "2-2 图标库",
+      "path": "计算机/JavaWeb/前端/BootStrap/2-2 图标库.md"
+    },
+    {
+      "basename": "2-1 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md"
     },
     {
       "basename": "2-2 认证",
@@ -195,10 +199,6 @@
     {
       "basename": "2-2 指令",
       "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
-    },
-    {
-      "basename": "Retrofit 2",
-      "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
     }
   ],
   "omittedPaths": [],
