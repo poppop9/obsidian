@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Bootstrap 简化 CSS",
+      "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
+    },
+    {
       "basename": "1 HTML 初级",
       "path": "计算机/JavaWeb/前端/HTML/1 HTML 初级.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1-2 配置文件",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
-    },
-    {
-      "basename": "4-1 定时任务",
-      "path": "计算机/JavaWeb/后端/SpringBoot/4-1 定时任务.md"
     }
   ],
   "omittedPaths": [],
