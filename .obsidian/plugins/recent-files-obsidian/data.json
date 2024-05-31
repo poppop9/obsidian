@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "1 起步依赖",
+      "path": "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md"
+    },
+    {
       "basename": "3-1 事务管理，AOP",
       "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "OKHttp",
       "path": "计算机/JavaWeb/第三方类库/OKHttp.md"
-    },
-    {
-      "basename": "Dance",
-      "path": "临时笔记/Dance.md"
     }
   ],
   "omittedPaths": [],
