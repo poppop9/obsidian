@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
+    },
+    {
+      "basename": "2-2 认证",
+      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
+    },
+    {
       "basename": "1 Bootstrap 初级",
       "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
@@ -59,10 +67,6 @@
     {
       "basename": "3-1 事务管理，AOP",
       "path": "计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md"
-    },
-    {
-      "basename": "2-2 认证",
-      "path": "计算机/JavaWeb/后端/Spring Security/2-2 认证.md"
     },
     {
       "basename": "2-3 自定义认证页面",
@@ -183,10 +187,6 @@
     {
       "basename": "1-2 配置文件",
       "path": "计算机/JavaWeb/后端/SpringBoot/1-2 配置文件.md"
-    },
-    {
-      "basename": "2 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2 BootStrap 中级.md"
     },
     {
       "basename": "4-1 定时任务",
