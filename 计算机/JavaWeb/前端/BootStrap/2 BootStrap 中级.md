@@ -12,7 +12,7 @@
 - `.card-text` ***用于去除页眉，主题，页脚内最后一个子元素的底边距***
 
 ### 多功能卡片
-- ***全宽图片卡片***
+- **全宽图片卡片**
 ```html
 <div class="card">
 	<!-- img在card-body的外面 -->
@@ -27,7 +27,7 @@
 
 ---
 
-- ***外边距图片卡片***
+- **外边距图片卡片**
 ```html
 <div class="card" style="width:400px">
 	<div class="card-body">
