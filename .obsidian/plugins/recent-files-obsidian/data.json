@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "创建型模式",
-      "path": "计算机/设计模式/创建型模式.md"
+      "basename": "行为型模式",
+      "path": "计算机/设计模式/行为型模式.md"
     },
     {
       "basename": "Head First 设计模式",
       "path": "计算机/设计模式/Head First 设计模式.md"
     },
     {
-      "basename": "行为模式",
-      "path": "计算机/设计模式/行为模式/行为模式.md"
+      "basename": "创建型模式",
+      "path": "计算机/设计模式/创建型模式.md"
     },
     {
       "basename": "六大原则",
@@ -195,10 +195,6 @@
     {
       "basename": "1-1 安装配置",
       "path": "计算机/数据库/MySQL/1-1 安装配置.md"
-    },
-    {
-      "basename": "2-2 函数",
-      "path": "计算机/数据库/MySQL/2-2 函数.md"
     }
   ],
   "omittedPaths": [],
