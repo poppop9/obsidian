@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "计算机/设计模式/行为型模式.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -85,7 +85,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/设计模式/OO 原则.md"
+                "file": "计算机/设计模式/行为型模式.md"
               }
             }
           },
@@ -189,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/设计模式/OO 原则.md"
+                "file": "计算机/设计模式/行为型模式.md"
               }
             }
           },
@@ -221,11 +222,11 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "c59c1ef232b20f12",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
+    "计算机/设计模式/OO 原则.md",
     "计算机/设计模式/七大原则.md",
     "计算机/设计模式/行为型模式.md",
-    "计算机/设计模式/OO 原则.md",
     "计算机/设计模式/结构型模式.md",
     "计算机/设计模式/创建型模式.md",
     "计算机/设计模式/Head First 设计模式.md",
