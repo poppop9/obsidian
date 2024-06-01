@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "创建型模式",
+      "path": "计算机/设计模式/创建型模式.md"
+    },
+    {
       "basename": "Head First 设计模式",
       "path": "计算机/设计模式/Head First 设计模式.md"
     },
     {
-      "basename": "创建型模式",
-      "path": "计算机/设计模式/创建型模式.md"
+      "basename": "行为模式",
+      "path": "计算机/设计模式/行为模式/行为模式.md"
+    },
+    {
+      "basename": "六大原则",
+      "path": "计算机/设计模式/六大原则.md"
+    },
+    {
+      "basename": "结构性模式",
+      "path": "计算机/设计模式/结构性模式/结构性模式.md"
+    },
+    {
+      "basename": "1 Bootstrap 初级",
+      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
     {
       "basename": "草稿纸",
@@ -19,10 +35,6 @@
     {
       "basename": "Bootstrap 简化 CSS",
       "path": "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md"
-    },
-    {
-      "basename": "1 Bootstrap 初级",
-      "path": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
     },
     {
       "basename": "2-1 BootStrap 中级",
@@ -153,10 +165,6 @@
       "path": "计算机/数据库/Redis/1 基础.md"
     },
     {
-      "basename": "六大原则",
-      "path": "计算机/设计模式/六大原则.md"
-    },
-    {
       "basename": "5-2 问题处理",
       "path": "计算机/数据库/MySQL/5-2 问题处理.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2-2 函数",
       "path": "计算机/数据库/MySQL/2-2 函数.md"
-    },
-    {
-      "basename": "Hutool",
-      "path": "计算机/JavaWeb/第三方类库/Hutool.md"
-    },
-    {
-      "basename": "2-2 数据结构命令",
-      "path": "计算机/数据库/Redis/2-2 数据结构命令.md"
     }
   ],
   "omittedPaths": [],
