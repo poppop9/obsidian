@@ -207,6 +207,8 @@ obsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidianobsidian
 > 
 
 # 绘图
+- `%%` 注解
+
 ## 流程图
 ### 方向
 graph TB：从上往下
