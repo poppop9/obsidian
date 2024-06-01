@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "MarkDown 语法",
+      "path": "临时笔记/MarkDown 语法.md"
+    },
+    {
       "basename": "2-3 行为型模式",
       "path": "计算机/设计模式/2-3 行为型模式.md"
     },
     {
-      "basename": "MarkDown 语法",
-      "path": "临时笔记/MarkDown 语法.md"
+      "basename": "2-1 BootStrap 中级",
+      "path": "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md"
     },
     {
       "basename": "Bootstrap 简化 CSS",
@@ -35,10 +39,6 @@
     {
       "basename": "1 idea",
       "path": "计算机/编程语言/Java/1 idea.md"
-    },
-    {
-      "basename": "2-1 BootStrap 中级",
-      "path": "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md"
     },
     {
       "basename": "1-1 环境配置",
