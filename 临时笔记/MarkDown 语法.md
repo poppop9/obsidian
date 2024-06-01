@@ -399,26 +399,63 @@ gantt
 
 ```mermaid
 classDiagram
-    Animal <|.. Duck
-    Animal <-- Fish
-    Animal -- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-      +String beakColor
-      +swim()
-      +quack()
+    class Duck {
+		<<abstract>>
+		+FlyBehavior flyBehavior
+		+QuackBehavior quackBehavior
+		+void performFly()
+		+void performQuack()
+		+void display()
+		+void swim()
+		+void setFlyBehavior(FlyBehavior fb)
+		+void setQuackBehavior(QuackBehavior qb)
     }
-    class Fish{
-      -int sizeInFeet
-      -canEat()
+    
+    class MallardDuck {
+        +void display()
     }
-    class Zebra{
-      +bool is_wild
-      +run()
+    class ModelDuck {
+        +void display()
     }
+    
+    Duck <|-- MallardDuck : 看起来像绿头鸭
+    Duck <|-- ModelDuck : 看起来像橡皮鸭
+
+	%% 飞行接口
+	class FlyBehavior {
+		<<interface>>
+        +void fly()
+    }
+	class FlyWithWings {
+		+void fly()
+	}
+	class FlyNoWay {
+		+void fly()
+	}
+	FlyBehavior <|.. FlyWithWings
+	FlyBehavior <|.. FlyNoWay
+
+
+    %% 叫声接口
+    class QuackBehavior {
+	    <<interface>>
+        +void quack()
+    }
+    class Quack {
+	    +void quack()
+    }
+    class Squeak {
+	    +void quack()
+    }
+    class MuteQuack {
+	    +void quack()
+    }
+    QuackBehavior <|.. Quack
+    QuackBehavior <|.. Squeak
+    QuackBehavior <|.. MuteQuack
+
+	Duck --> FlyBehavior
+    Duck --> QuackBehavior
 ```
 
 # 数学公式
