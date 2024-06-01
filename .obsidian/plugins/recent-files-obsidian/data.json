@@ -5,20 +5,16 @@
       "path": "计算机/设计模式/行为型模式.md"
     },
     {
-      "basename": "Head First 设计模式",
-      "path": "计算机/设计模式/Head First 设计模式.md"
+      "basename": "七大原则",
+      "path": "计算机/设计模式/七大原则.md"
+    },
+    {
+      "basename": "结构型模式",
+      "path": "计算机/设计模式/结构型模式.md"
     },
     {
       "basename": "创建型模式",
       "path": "计算机/设计模式/创建型模式.md"
-    },
-    {
-      "basename": "六大原则",
-      "path": "计算机/设计模式/六大原则.md"
-    },
-    {
-      "basename": "结构性模式",
-      "path": "计算机/设计模式/结构性模式/结构性模式.md"
     },
     {
       "basename": "1 Bootstrap 初级",
