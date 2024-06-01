@@ -59,7 +59,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -153,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/设计模式/2-3 行为型模式.md"
+                "file": "临时笔记/MarkDown 语法.md"
               }
             }
           },
@@ -163,7 +164,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/设计模式/2-3 行为型模式.md"
+                "file": "临时笔记/MarkDown 语法.md"
               }
             }
           },
@@ -195,10 +196,10 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "c59c1ef232b20f12",
+  "active": "7207431a51cb3078",
   "lastOpenFiles": [
-    "临时笔记/MarkDown 语法.md",
     "计算机/设计模式/2-3 行为型模式.md",
+    "临时笔记/MarkDown 语法.md",
     "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
     "临时笔记/草稿纸.md",
