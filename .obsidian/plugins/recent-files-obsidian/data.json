@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Docker",
+      "path": "计算机/Docker.md"
+    },
+    {
+      "basename": "MarkDown 语法",
+      "path": "临时笔记/MarkDown 语法.md"
+    },
+    {
       "basename": "2-2 结构型模式",
       "path": "计算机/设计模式/2-2 结构型模式.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "2-3 行为型模式",
       "path": "计算机/设计模式/2-3 行为型模式.md"
-    },
-    {
-      "basename": "MarkDown 语法",
-      "path": "临时笔记/MarkDown 语法.md"
     },
     {
       "basename": "Bootstrap 简化 CSS",
@@ -67,10 +71,6 @@
     {
       "basename": "Git",
       "path": "计算机/Git.md"
-    },
-    {
-      "basename": "Docker",
-      "path": "计算机/Docker.md"
     },
     {
       "basename": "5-3 反射",
