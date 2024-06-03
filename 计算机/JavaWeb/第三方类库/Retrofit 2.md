@@ -75,7 +75,8 @@ System.out.println(response.body());
 ```java
 // {id} 参数会在方法调用时传入
 @GET("group/{id}/users")
-Call<List<User>> groupList(@Path("id") int groupId, @Query("sort") String sort);
+Call<List<User>> groupList(@Path("id") int groupId, 
+						   @Query("sort") String sort);
 ```
 
 ## 请求头
