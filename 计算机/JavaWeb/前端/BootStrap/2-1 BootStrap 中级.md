@@ -176,8 +176,8 @@
 	- `.dropstart` 前拉列表
 	- `.dropend` 后拉列表
 - 下拉按钮
-	- `.dropdown-toggle` ***显示下箭头按钮***
-	- `data-bs-toggle="dropdown"` ***指定了按钮的点击行为，点击时，它将触发下拉菜单的显示或隐藏***
+	- `.dropdown-toggle` **显示下箭头按钮**
+	- `data-bs-toggle="dropdown"` **指定了按钮的点击行为，点击时，它将触发下拉菜单的显示或隐藏**
 	- `data-bs-auto-close="inside"` 下拉列表出现后，只有单击列表子项目，列表才会消失
 	- `data-bs-auto-close="outside"` 下拉列表出现后，只有单击外部，列表才会消失
 	- `data-bs-auto-close="false"` 下拉列表出现后，只有单击按钮，列表才会消失

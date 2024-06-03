@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
+                "file": "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -131,8 +131,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "82e190d91877a96e",
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md"
               }
             }
           },
@@ -177,7 +176,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md"
               }
             }
           },
@@ -211,6 +210,7 @@
   },
   "active": "7207431a51cb3078",
   "lastOpenFiles": [
+    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/第三方类库/Retrofit 2.md",
     "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
     "计算机/JavaWeb/前端/Vue/2-1 局部化，工程化.md",
@@ -228,7 +228,6 @@
     "计算机/设计模式/Head First 设计模式.md",
     "计算机/设计模式/行为模式/行为模式.md",
     "计算机/设计模式/结构性模式/结构性模式.md",
-    "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/编程语言/Java/1 idea.md",
     "计算机/JavaWeb/前端/Vue/3-1 路由.md",
     "计算机/JavaWeb/前端/BootStrap/2-2 图标库.md",
