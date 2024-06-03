@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/JavaWeb/第三方类库/Retrofit 2.md",
+                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+                "file": "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md"
               }
             }
           },
@@ -209,7 +209,7 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "6f2c73ec81dd03ae",
+  "active": "7207431a51cb3078",
   "lastOpenFiles": [
     "计算机/JavaWeb/第三方类库/Retrofit 2.md",
     "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
