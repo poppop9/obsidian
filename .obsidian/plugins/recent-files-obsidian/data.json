@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "1 CSS 初级",
+      "path": "计算机/JavaWeb/前端/CSS/1 CSS 初级.md"
+    },
+    {
       "basename": "1-1 OO 原则",
       "path": "计算机/设计模式/1-1 OO 原则.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "导读",
       "path": "计算机/编程语言/Java/JVM 虚拟机/导读.md"
-    },
-    {
-      "basename": "1-1 安装配置",
-      "path": "计算机/数据库/MySQL/1-1 安装配置.md"
     }
   ],
   "omittedPaths": [],
