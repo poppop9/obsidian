@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2-2 指令",
+      "path": "计算机/JavaWeb/前端/Vue/2-2 指令.md"
+    },
+    {
+      "basename": "1-1 环境配置",
+      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
+    },
+    {
       "basename": "2-1 BootStrap 中级",
       "path": "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "Retrofit 2",
       "path": "计算机/JavaWeb/第三方类库/Retrofit 2.md"
-    },
-    {
-      "basename": "1-1 环境配置",
-      "path": "计算机/JavaWeb/前端/Vue/1-1 环境配置.md"
     },
     {
       "basename": "2-1 局部化，工程化",
@@ -195,10 +199,6 @@
     {
       "basename": "数据库",
       "path": "计算机/数据库/数据库.md"
-    },
-    {
-      "basename": "4-1 高级",
-      "path": "计算机/数据库/MySQL/4-1 高级.md"
     }
   ],
   "omittedPaths": [],
