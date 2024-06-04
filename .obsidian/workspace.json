@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "计算机/设计模式/2-1 创建型模式.md",
+                "file": "计算机/JavaWeb/前端/Tippy.js.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/JavaWeb/前端/Tippy.js.md"
               }
             }
           },
@@ -177,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "临时笔记/草稿纸.md"
+                "file": "计算机/JavaWeb/前端/Tippy.js.md"
               }
             }
           },
@@ -209,10 +209,14 @@
       "remotely-save:Remotely Save": false
     }
   },
-  "active": "7207431a51cb3078",
+  "active": "aaf8699d17d2772c",
   "lastOpenFiles": [
-    "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md",
+    "计算机/JavaWeb/前端/1 VSCode.md",
+    "计算机/JavaWeb/前端/Tippy.js.md",
+    "计算机/设计模式/2-1 创建型模式.md",
     "计算机/JavaWeb/前端/Vue/2-2 指令.md",
+    "临时笔记/草稿纸.md",
+    "计算机/JavaWeb/前端/BootStrap/2-1 BootStrap 中级.md",
     "计算机/JavaWeb/前端/Vue/1-1 环境配置.md",
     "计算机/JavaWeb/前端/BootStrap/1 Bootstrap 初级.md",
     "计算机/JavaWeb/第三方类库/Retrofit 2.md",
@@ -222,10 +226,8 @@
     "计算机/Docker.md",
     "临时笔记/MarkDown 语法.md",
     "计算机/设计模式/2-2 结构型模式.md",
-    "计算机/设计模式/2-1 创建型模式.md",
     "计算机/设计模式/2-3 行为型模式.md",
     "计算机/JavaWeb/前端/BootStrap/Bootstrap 简化 CSS.md",
-    "临时笔记/草稿纸.md",
     "计算机/设计模式/七大原则.md",
     "计算机/设计模式/Head First 设计模式.md",
     "计算机/设计模式/行为模式/行为模式.md",
@@ -235,8 +237,6 @@
     "计算机/JavaWeb/前端/BootStrap/2-2 图标库.md",
     "计算机/JavaWeb/前端/HTML/1 HTML 初级.md",
     "计算机/JavaWeb/后端/SpringBoot/SpringBoot 原理/1 起步依赖.md",
-    "计算机/JavaWeb/后端/Spring Security/2-2 认证.md",
-    "计算机/Git.md",
     "计算机/设计模式/行为模式",
     "计算机/设计模式/结构性模式",
     "计算机/设计模式/创建型模式1",
