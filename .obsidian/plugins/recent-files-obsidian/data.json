@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2-3 行为型模式",
+      "path": "计算机/设计模式/2-3 行为型模式.md"
+    },
+    {
       "basename": "Tippy.js",
       "path": "计算机/JavaWeb/前端/Tippy.js.md"
     },
@@ -59,10 +63,6 @@
     {
       "basename": "2-2 结构型模式",
       "path": "计算机/设计模式/2-2 结构型模式.md"
-    },
-    {
-      "basename": "2-3 行为型模式",
-      "path": "计算机/设计模式/2-3 行为型模式.md"
     },
     {
       "basename": "Bootstrap 简化 CSS",
