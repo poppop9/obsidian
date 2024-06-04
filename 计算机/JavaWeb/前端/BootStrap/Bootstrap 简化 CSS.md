@@ -74,6 +74,20 @@
 	- `.rounded-end`：为元素的右侧添加圆角
 	- `.rounded-bottom`：为元素的底部添加圆角
 
+# 阴影
+- `shadow-none` 无阴影
+- `shadow-sm` 少量阴影
+- `shadow` 常规阴影
+- `shadow-lg` 大量阴影
+
+```html
+<div class="shadow-none p-3 mb-5 bg-body-tertiary rounded">无阴影</div>
+<div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">少量阴影</div>
+<div class="shadow p-3 mb-5 bg-body-tertiary rounded">常规阴影</div>
+<div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">大量阴影</div>
+```
+
+
 # 分割线
 - `.vr` 竖直的分割线【~~对标 `<hr>`~~】
 ```html
