@@ -262,6 +262,37 @@
 </div>
 ```
 
+### 触发下拉菜单方式
+- 点击【默认】
+- 鼠标悬浮
+```html
+<template>
+<ul class="navbar-nav">
+	<li class="nav-item dropdown me-2">
+		<a class="nav-link dropdown-toggle" href="#" role="button">
+			课程
+		</a>
+		<ul class="dropdown-menu d-none">
+			<li><a class="dropdown-item" href="#">Action</a></li>
+			<li><a class="dropdown-item" href="#">Another action</a></li>
+			<li>
+				<hr class="dropdown-divider">
+			</li>
+			<li><a class="dropdown-item" href="#">Something else here</a></li>
+		</ul>
+	</li>
+</ul>
+</template>
+
+<style scoped>
+/* 当鼠标悬浮在.nav-item上时显示下拉菜单 */
+.nav-item:hover .dropdown-menu {
+    display: block !important;
+}
+</style>
+```
+
+
 ## 折叠
 - 父容器 `.accordion` 
 	- `.accordion-flush` 五边框的手风琴
