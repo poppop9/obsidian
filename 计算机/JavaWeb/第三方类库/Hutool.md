@@ -48,6 +48,10 @@ System.out.println("生成的8位随机数是：" + randomNumber);
 >[!hint] 在浏览器中打开 Base64 编码的图片
 >直接在浏览器的地址栏中输入：`data:image/png;base64,` + base64编码数据
 
+- 字节数组 -> base64
+```java
+
+```
 
 ## 二维码 QrCodeUtil
 >[!hint] 使用之前还要再引入 zxing 依赖
@@ -75,8 +79,7 @@ BufferedImage qrImage = QrCodeUtil.generate(url, config);
 
 - URL -> `byte[]` 格式的 PNG 二维码图片
 ```java
-String url = "https://www.baidu.com";
-byte[] imageBytes = QrCodeUtil.generatePng(url, 300, 300);
+byte[] imageBytes = QrCodeUtil.generatePng("https://www.baidu.com", 300, 300);
 String base64 = Base64.encode(imageBytes);
 return base64;
 ```
