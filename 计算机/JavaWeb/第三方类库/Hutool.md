@@ -51,6 +51,7 @@ System.out.println("生成的8位随机数是：" + randomNumber);
 - 字节数组 -> base64
 ```java
 
+String base64 = Base64.encode(outputStream.toByteArray());
 ```
 
 ## 二维码 QrCodeUtil
