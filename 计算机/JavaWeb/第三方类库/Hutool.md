@@ -64,8 +64,7 @@ String base64 = Base64.encode(byteArray);
 > \</dependency>
 > ```
 
----
-
+### 生成二维码
 - 自定义二维码参数 `QrConfig`【长，宽，二维码的颜色，背景颜色，边距 ……】，<u>这个参数可以作为后续生成二维码</u>
 ```java
 // 设置长宽
@@ -76,6 +75,9 @@ config.setMargin(3);
 
 // 设置前景色，即二维码颜色（青色）
 config.setForeColor(Color.CYAN.getRGB());
+
+// 附带logo
+config.setImg("logo_small.jpg")
 ```
 
 ---
@@ -100,6 +102,8 @@ byte[] imageBytes = QrCodeUtil.generatePng("https://www.baidu.com", 300, 300);
 String base64 = Base64.encode(imageBytes);
 return base64;
 ```
+
+### 识别二维码
 
 # 加密解密
 >[!quote] 加密分类
