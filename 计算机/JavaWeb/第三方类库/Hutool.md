@@ -45,9 +45,9 @@ System.out.println("生成的8位随机数是：" + randomNumber);
 ```
 
 ## Base64
-
 >[!hint] 在浏览器中打开 Base64 编码的图片
 >直接在浏览器的地址栏中输入：`data:image/png;base64,` + base64编码数据
+
 
 ## 二维码 QrCodeUtil
 >[!hint] 使用之前还要再引入 zxing 依赖
