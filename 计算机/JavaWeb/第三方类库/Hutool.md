@@ -50,8 +50,8 @@ System.out.println("生成的8位随机数是：" + randomNumber);
 
 - 字节数组 -> base64
 ```java
-
-String base64 = Base64.encode(outputStream.toByteArray());
+byte[] byteArray = new byte[10];
+String base64 = Base64.encode(byteArray);
 ```
 
 ## 二维码 QrCodeUtil
@@ -84,34 +84,6 @@ byte[] imageBytes = QrCodeUtil.generatePng("https://www.baidu.com", 300, 300);
 String base64 = Base64.encode(imageBytes);
 return base64;
 ```
-
-- URL -> 图片 -> 输出流 -> base64
-```java
-public static String urlToBase64(String url) {
-	// 设置二维码的宽和高
-	QrConfig config = new QrConfig(300, 300);
-	// 生成二维码图片
-	BufferedImage qrImage = QrCodeUtil.generate(url, config);
-	// 输出流
-	ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-
-	try {
-		// 将图片写入字节输出流
-		ImgUtil.writePng(qrImage, outputStream);
-		// 生成base64编码
-		String base64 = Base64.encode(outputStream.toByteArray());
-		// 将字节输出流转换为Base64编码字符串
-		return base64;
-	} finally {
-		try {
-			outputStream.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
-}
-```
-
 
 # 加密解密
 >[!quote] 加密分类
