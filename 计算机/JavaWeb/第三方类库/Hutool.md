@@ -104,6 +104,10 @@ return base64;
 ```
 
 ### 识别二维码
+```java
+// decode 就是被识别出来的链接
+String decode = QrCodeUtil.decode(FileUtil.file("d:/qrcode.jpg"));
+```
 
 # 加密解密
 >[!quote] 加密分类
