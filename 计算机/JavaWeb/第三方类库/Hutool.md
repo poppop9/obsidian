@@ -45,7 +45,8 @@ System.out.println("生成的8位随机数是：" + randomNumber);
 ```
 
 ## 二维码 QrCodeUtil
-
+需要再引入依赖
+``
 
 ```java
 QrCodeUtil.generate("https://hutool.cn/", 300, 300, FileUtil.file("d:/qrcode.jpg"));
