@@ -44,6 +44,9 @@ String randomNumber = RandomUtil.randomString(8);
 System.out.println("生成的8位随机数是：" + randomNumber);
 ```
 
+## Base64
+
+
 ## 二维码 QrCodeUtil
 >[!hint] 使用之前还要再引入 zxing 依赖
 > ```xml
