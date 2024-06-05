@@ -45,8 +45,14 @@ System.out.println("生成的8位随机数是：" + randomNumber);
 ```
 
 ## 二维码 QrCodeUtil
-需要再引入依赖
-``
+需要再引入 zxing 依赖
+```xml
+<dependency>
+	<groupId>com.google.zxing</groupId>
+	<artifactId>core</artifactId>
+	<version>3.5.3</version>
+</dependency>
+```
 
 ```java
 QrCodeUtil.generate("https://hutool.cn/", 300, 300, FileUtil.file("d:/qrcode.jpg"));
