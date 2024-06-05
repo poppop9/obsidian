@@ -66,7 +66,7 @@ QrCodeUtil.generate("https://hutool.cn/", 300, 300, FileUtil.file("d:/qrcode.jpg
 
 - URL -> `BufferedImage` 图片对象
 ```java
-// 
+String url = "https://www.baidu.com";
 // 设置二维码的宽和高
 QrConfig config = new QrConfig(300, 300);
 // 生成二维码图片
