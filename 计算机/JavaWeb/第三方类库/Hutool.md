@@ -44,6 +44,12 @@ String randomNumber = RandomUtil.randomString(8);
 System.out.println("生成的8位随机数是：" + randomNumber);
 ```
 
+## 二维码 QrCodeUtil
+```java
+QrCodeUtil.generate("https://hutool.cn/", 300, 300, FileUtil.file("d:/qrcode.jpg"));
+```
+
+
 
 # 加密解密
 >[!quote] 加密分类
