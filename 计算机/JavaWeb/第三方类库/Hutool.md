@@ -60,6 +60,33 @@ QrCodeUtil.generate("https://hutool.cn/", 300, 300, FileUtil.file("d:/qrcode.jpg
 ```
 
 - URL -> 
+```java
+public static String urlToBase64(String url) {
+	// 设置二维码的宽和高
+	QrConfig config = new QrConfig(300, 300);
+	// 生成二维码图片
+	BufferedImage qrImage = QrCodeUtil.generate(url, config);
+	// 输出流
+	ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+
+	try {
+		// 将图片写入字节输出流
+		ImgUtil.writePng(qrImage, outputStream);
+		// 生成base64编码
+		String base64 = Base64.encode(outputStream.toByteArray());
+
+		System.out.println(base64);
+		// 将字节输出流转换为Base64编码字符串
+		return base64;
+	} finally {
+		try {
+			outputStream.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}
+```
 
 
 # 加密解密
