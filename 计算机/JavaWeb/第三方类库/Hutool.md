@@ -73,6 +73,13 @@ QrConfig config = new QrConfig(300, 300);
 BufferedImage qrImage = QrCodeUtil.generate(url, config);
 ```
 
+- URL -> `byte[]` 格式的 PNG 二维码图片
+```java
+S
+byte[] imageBytes = QrCodeUtil.generatePng(url, 300, 300);
+String base64 = Base64.encode(imageBytes);
+return base64;
+```
 
 - URL -> 图片 -> 输出流 -> base64
 ```java
