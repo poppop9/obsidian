@@ -46,6 +46,8 @@ System.out.println("生成的8位随机数是：" + randomNumber);
 
 ## Base64
 
+>[!hint] 在浏览器中打开 Base64 编码的图片
+>`data:image/png;base64,{}`
 
 ## 二维码 QrCodeUtil
 >[!hint] 使用之前还要再引入 zxing 依赖
@@ -77,8 +79,6 @@ public static String urlToBase64(String url) {
 		ImgUtil.writePng(qrImage, outputStream);
 		// 生成base64编码
 		String base64 = Base64.encode(outputStream.toByteArray());
-
-		System.out.println(base64);
 		// 将字节输出流转换为Base64编码字符串
 		return base64;
 	} finally {
