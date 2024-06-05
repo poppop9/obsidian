@@ -64,7 +64,17 @@ System.out.println("生成的8位随机数是：" + randomNumber);
 QrCodeUtil.generate("https://hutool.cn/", 300, 300, FileUtil.file("d:/qrcode.jpg"));
 ```
 
-- URL -> 
+- URL -> `BufferedImage` 图片对象
+```java
+// 
+// 设置二维码的宽和高
+QrConfig config = new QrConfig(300, 300);
+// 生成二维码图片
+BufferedImage qrImage = QrCodeUtil.generate(url, config);
+```
+
+
+- URL -> 图片 -> 输出流 -> base64
 ```java
 public static String urlToBase64(String url) {
 	// 设置二维码的宽和高
