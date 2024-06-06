@@ -43,7 +43,7 @@ import axios from 'axios';
 - 然后就可以在 `script标签` 中使用axios了
 
 ## 使用与定义
->我们一般会把异步请求封装到一个单独的 `.js文件` 中，并暴露调用函数，这样在其他文件中可以直接调用，不用重复书写相同的 `axios代码`
+>我们一般会把异步请求封装到一个单独的 `.js 文件` 中，并暴露调用函数，这样在其他文件中可以直接调用，不用重复书写相同的 `axios 代码`
 
 ```js
 export function getHello() {
@@ -51,7 +51,7 @@ export function getHello() {
 }
 ```
 
-## 方法
+## 请求方式
 ### get
 - `result` 服务器返回的所有数据【响应头，响应体】
 - `result.data` 服务器返回的核心数据
@@ -105,6 +105,22 @@ axios.post('http://localhost:8080/hellojson', jsondata).then(result => {
 ```
 ### delete
 ### put
+## 请求头
+```js
+axios.post('http://localhost:8080/qrcodepay', JSON.stringify(jsondata), {
+	headers: {
+		'User-Agent': 'Apifox/1.0.0 (https://apifox.com)',
+		'Content-Type': 'application/json',
+		'Accept': '*/*',
+		'Host': 'localhost:8080',
+		'Connection': 'keep-alive'
+	}
+})
+	.then(function (response) {
+		alert(JSON.stringify(response.data));
+	});
+```
+
 ## 同步与异步
 ### 同步
 >`js代码` 与 `axios请求代码` 顺序执行，<u>使用</u> `async`，`await`
