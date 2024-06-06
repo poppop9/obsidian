@@ -107,7 +107,7 @@ axios.post('http://localhost:8080/hellojson', jsondata).then(result => {
 ### put
 ## 请求头
 ```js
-axios.post('http://localhost:8080/qrcodepay', JSON.stringify(jsondata), {
+axios.post('http://localhost:8080/qrcodepay', jsondata, {
 	headers: {
 		'User-Agent': 'Apifox/1.0.0 (https://apifox.com)',
 		'Content-Type': 'application/json',
