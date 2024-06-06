@@ -592,7 +592,12 @@
 >[!quote] 模态
 >模态 是一种弹出窗口，显示在当前页面的最上层
 
->[!]
+>[!hint] 在打开模态时，默认会在 `<body>` 上加上 `padding-right` ，所以主页面会向左移动，我们可以这么解决
+> ```css
+> body.modal-open {
+>     padding-right: 0px !important;
+> }
+> ```
 
 - 父容器
 	- `.fade` 在 `.modal` 添加淡入淡出效果
