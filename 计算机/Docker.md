@@ -129,7 +129,7 @@ docker build -t demo:1.0 .
 - `docker commit 容器id/名称` 将运行中的容器快照生成为一个新的镜像
 	- `-a 镜像作者` 
 	- `-m '说明信息'`
-	- ``
+
 
 ### 推送到 DockerHub
 ```bash
