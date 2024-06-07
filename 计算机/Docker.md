@@ -93,6 +93,7 @@ docker version
 > 	- 激活对组的更改 `newgrp docker`
 
 ### 制作镜像
+#### 根据 Dockerfile 制作镜像
 >[!quote] Dockerfile
 >Dockerfile 是一个文本文件，里面包含一系列指令，用来告诉 Docker 如何构建镜像
 >
@@ -123,6 +124,9 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 ```bash
 docker build -t demo:1.0 .
 ```
+
+#### 根据容器实例构建镜像
+- `docker commit` 将运行中的容器快照生成为一个新的镜像
 
 ### 推送到 DockerHub
 ```bash
