@@ -185,7 +185,7 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 
 ## 条件构造器
 >[!quote] 条件构造器 Wrapper
->>条件构造器 Wrapper 可以构造 `WHERE` 条件，进行条件地 RUD
+>>条件构造器 Wrapper 可以构造 `WHERE` 条件，进行条件性地 RUD
 >
 >**继承体系**：
 > - `AbstractWrapper` 
