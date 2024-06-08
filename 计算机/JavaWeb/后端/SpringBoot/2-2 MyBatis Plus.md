@@ -190,7 +190,7 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 >**继承体系**：
 > - `AbstractWrapper` 
 > 	- `QueryWrapper` 专门用于 RD 操作，可以添加各种查询条件
-> 	- `UpdateWrapper` 用于 U 操作，可以添加更新条件和更新的字段值
+> 	- `UpdateWrapper` 用于 U 操作，可以添加更新条件和更新的字段值，<u>可以在不创建实体对象的情况下，直接设置更新字段和条件</u>
 > 	- `LambdaQueryWrapper` 
 > 	- `LambdaUpdateWrapper` 
 
