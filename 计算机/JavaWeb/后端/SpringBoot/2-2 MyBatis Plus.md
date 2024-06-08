@@ -151,7 +151,7 @@ public interface UserMapperPlus extends BaseMapper<userPlus> {}
 > 	- `selectByMap(@Param("ew") Wrapper<T> example)` 查询（根据 column 查询）
 > 	- `selectCount(@Param("ew") Wrapper<T> example)` 总记录数
 > 	- `selectCountByMap(@Param("ew") T entity)` 总记录数（根据 column 查询）
-> 	- `selectList(@Param("ew") Wrapper<T> example)` 查询列表
+> 	- `selectList(Wrapper<T> example)` 查询列表，<u>传入参数为 null，则是查询整个表</u>
 > 	- `selectMapsPage(@Param("current") int current, @Param("size") int size, @Param("ew") Wrapper<T> example)` 根据 column 统计
 > 	- `selectMaps(@Param("ew") Wrapper<T> example)` 根据 column 统计（不分页）
 > 	- `selectObjs(@Param("ew") Wrapper<T> example)` 根据 column 统计（统计字段为 ID）
