@@ -1,5 +1,5 @@
 ```xml
-<!-- 这个依赖也集成了 MyBatis -->
+<!-- 以下依赖也集成了 MyBatis -->
 <!-- Spring 2 -->
 <dependency>
     <groupId>com.baomidou</groupId>
