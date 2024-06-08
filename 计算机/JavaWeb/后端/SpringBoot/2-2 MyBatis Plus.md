@@ -147,7 +147,7 @@ public interface UserMapperPlus extends BaseMapper<userPlus> {}
 > 	- `updateSelectiveById(@Param("et") T record)` 根据 ID 修改（选择字段）
 > - **查**
 > 	- `selectById(Serializable id)` 根据 ID 查询
-> 	- `selectBatchIds(@Param("ids") Collection<? extends Serializable> idList)` 查询（根据 ID 批量查询）
+> 	- `selectBatchIds(Collection<? extends Serializable> idList)` 根据 ID 集合来批量查询
 > 	- `selectByMap(@Param("ew") Wrapper<T> example)` 查询（根据 column 查询）
 > 	- `selectCount(@Param("ew") Wrapper<T> example)` 总记录数
 > 	- `selectCountByMap(@Param("ew") T entity)` 总记录数（根据 column 查询）
