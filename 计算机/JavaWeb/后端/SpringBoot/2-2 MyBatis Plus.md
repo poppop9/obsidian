@@ -198,8 +198,26 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 >- 防止硬编码：字段名直接从实体类属性中引用，不需要自己指定
 >- 类型安全：在编译期间，就可以保证实体类中的属性的数据类型和传入的数据一致
 
-```java
 
+
+```java
+@Mapper  
+public interface UserMapperPlus extends BaseMapper<userPlus> { }
+
+
+@Test
+public void testWrapperSelect() {
+	QueryWrapper<userPlus> wrapper = new QueryWrapper<userPlus>()
+			.select("user_name", "user_password", "user_authority")
+			.like("user_password", "K");
+
+	List<userPlus> userPluses = userMapperPlus.selectList(wrapper);
+	userPluses.forEach(System.out::println);
+}
+
+---
+userPlus(userId=null, userName=jaygee, userPassword=Korea, userAuthority=2)
+userPlus(userId=null, userName=Hoan, userPassword=Korea, userAuthority=2)
 ```
 
 
