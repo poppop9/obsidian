@@ -113,9 +113,8 @@ public class AccountRepositoryImpl {
 
 >[!quote] 聚合
 >聚合 中包括<u>聚合根</u>【聚合内的一个对象，也是唯一对外开放的接口】，<u>各种值对象</u>，<u>各种实体</u>
-
->[!hint] 聚合根的作用
->**减少类之间的依赖关系**
+>
+>- 减少类之间的依赖关系
 >![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403302058399.png)
 
 ---
