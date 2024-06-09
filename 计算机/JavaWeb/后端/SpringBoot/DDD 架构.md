@@ -66,6 +66,7 @@ public class Account {
 > ```
 
 ## 仓库
+>[!quote] 仓库
 >仓库 是用来管理实体类的，类似 MVC 中的 `Mapper`
 
 >[!quote] 工厂

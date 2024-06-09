@@ -54,7 +54,7 @@ public static void main(String[] args) {
 1或3
 ```
 
-***如果有一步没有加break，那么下一步不会判断case，而是直接执行语句体，直到遇见break或default***
+**如果有一步没有加 break，那么下一步不会判断 case，而是直接执行语句体，直到遇见 break 或 default**
 ```java
 switch (1) {  
     case 1:  
