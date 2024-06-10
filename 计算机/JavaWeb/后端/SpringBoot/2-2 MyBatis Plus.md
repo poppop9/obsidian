@@ -238,7 +238,18 @@ User(userId=null, userName=Hoan, userPassword=Korea, userAuthority=null)
 如果在 `UPDATE` 时，`SET` 的条件是<u>动态的</u>【~~例如，某个字段减 200，而不是说设置某个字段为固定的值~~】，那就需要使用 `UpdateWrapper`
 
 ```java
+// UpdateWrapper动态SET  
+@Test  
+public void testUpdateWrapper() {  
+    UpdateWrapper<User> updateWrapper = new UpdateWrapper<User>()  
+            .setSql("user_authority = user_authority - 1")  
+            .eq("user_id", 1);  
+  
+    userMapper.update(updateWrapper);  
+}
 
+---
+将id为1的行，authority减1
 ```
 
 
