@@ -190,10 +190,23 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 > 	- `UpdateWrapper` 用于 U 操作，可以添加更新条件和更新的字段值，<u>可以在不创建实体对象的情况下，直接设置更新字段和条件</u>
 > 	- `LambdaQueryWrapper` 
 > 	- `LambdaUpdateWrapper` 
-> 
->>[!hint] 推荐使用 `LambdaQueryWrapper` ，`LambdaUpdateWrapper`
->>- 防止硬编码：字段名直接从实体类属性中引用，不需要自己指定
->>- 类型安全：在编译期间，就可以保证实体类中的属性的数据类型和传入的数据一致
+
+>[!hint] 推荐使用 `LambdaQueryWrapper` ，`LambdaUpdateWrapper`
+>- 防止硬编码：字段名直接从实体类属性中引用，不需要自己指定
+>- 类型安全：在编译期间，就可以保证实体类中的属性的数据类型和传入的数据一致
+
+```java
+// Lambda条件查询  
+@Test  
+public void testSelectLambdaWrapper() {  
+    LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>()  
+		    // 使用方法引用获取字段名
+            .select(User::getUserName, User::getUserPassword)  
+            .like(User::getUserPassword, "K");  
+  
+    userMapper.selectList(lambdaQueryWrapper).forEach(System.out::println);  
+}
+```
 
 ---
 
@@ -220,8 +233,6 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 	- `likeLeft()` 设置单个字段的左模糊匹配条件
 - `isNull("数据库字段")` 判断单个字段的 IS NULL 
 - `in("字段", 集合)` 设置单个字段的 IN 条件【~~字段的值在给定的集合中~~】
-
-
 
 ```java
 // 更新用户权限  
