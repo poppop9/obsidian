@@ -80,8 +80,7 @@ public class EatableDemo {
 
 # 方法引用
 >[!quote] 方法引用
->符号表示：`::`
->- 可以使代码更加简洁
+>方法引用 `::` 简化了 Lambda 的书写
 
 >[!hint]+ 引用类的静态方法
 > ```java
