@@ -234,6 +234,8 @@ User(userId=null, userName=jaygee, userPassword=Korea, userAuthority=null)
 User(userId=null, userName=Hoan, userPassword=Korea, userAuthority=null)
 ```
 
+### UpdateWrapper
+如果在 update 时，SET 的条件是<u>动态的</u>【~~例如，某个字段减 200~~】
 
 ## 自定义 SQL
 
