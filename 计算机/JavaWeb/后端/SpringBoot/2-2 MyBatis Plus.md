@@ -194,19 +194,19 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 >[!hint] 推荐使用 `LambdaQueryWrapper` ，`LambdaUpdateWrapper`
 >- 防止硬编码：字段名直接从实体类属性中引用，不需要自己指定
 >- 类型安全：在编译期间，就可以保证实体类中的属性的数据类型和传入的数据一致
-
-```java
-// Lambda条件查询  
-@Test  
-public void testSelectLambdaWrapper() {  
-    LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>()  
-		    // 使用方法引用获取字段名
-            .select(User::getUserName, User::getUserPassword)  
-            .like(User::getUserPassword, "K");  
-  
-    userMapper.selectList(lambdaQueryWrapper).forEach(System.out::println);  
-}
-```
+>
+> ```java
+> // Lambda条件查询  
+> @Test  
+> public void testSelectLambdaWrapper() {  
+>     LambdaQueryWrapper\<User> lambdaQueryWrapper = new LambdaQueryWrapper\<User>()  
+> 		    // 使用方法引用获取字段名，防止硬编码
+>             .select(User::getUserName, User::getUserPassword)  
+>             .like(User::getUserPassword, "K");  
+>   
+>     userMapper.selectList(lambdaQueryWrapper).forEach(System.out::println);  
+> }
+> ```
 
 ---
 
