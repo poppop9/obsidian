@@ -204,14 +204,22 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 >	- `selectList(Wrapper<T> example)` 查询列表，<u>传入参数为 null，则是查询整个表</u>
 
 ### QueryWrapper
-- `eq("数据库字段", 条件值)` 设置单个字段的相等条件
-- `nq()` 设置单个字段的不相等条件
-- `gt()` 设置单个字段的大于条件 【~~greater than~~】
-- `ge()` 设置单个字段的大于等于条件
-- `lt()` 设置单个字段的小于条件
-- `le()` 设置单个字段的小于等于条件
-- `between("数据库字段", 值1, 值2)` 设置单个字段的 BETWEEN 条件
-- `notBetween(……)` 
+- **大小等**
+	- `eq("数据库字段", 条件值)` 设置单个字段的相等条件
+	- `nq()` 设置单个字段的不相等条件
+	- `gt()` 设置单个字段的大于条件 【~~greater than~~】
+	- `ge()` 设置单个字段的大于等于条件
+	- `lt()` 设置单个字段的小于条件
+	- `le()` 设置单个字段的小于等于条件
+- **范围**
+	- `between("数据库字段", 值1, 值2)` 设置单个字段的 BETWEEN 条件
+	- `notBetween(……)` 
+- **模糊匹配**
+	- `like()` 设置单个字段的 LIKE 条件
+	- `notLike()` 
+	- `likeLeft()` 设置单个字段的左模糊匹配条件
+- `isNull`
+
 
 
 ```java
