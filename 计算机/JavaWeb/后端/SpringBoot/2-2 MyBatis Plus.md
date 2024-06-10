@@ -195,11 +195,17 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 >>- 防止硬编码：字段名直接从实体类属性中引用，不需要自己指定
 >>- 类型安全：在编译期间，就可以保证实体类中的属性的数据类型和传入的数据一致
 
+---
+
 >[!quote] 在 BaseMapper 中需要传入 Wrapper 参数的方法
 >- **增**
 >	- `update(修改后的实体类对象, Wrapper wrapper)` <u>实体类中未设置的参数，不更改</u>
 >- **查**
 >	- `selectList(Wrapper<T> example)` 查询列表，<u>传入参数为 null，则是查询整个表</u>
+
+### QueryWrapper
+- 
+
 
 ```java
 // 更新用户权限  
@@ -245,11 +251,11 @@ public void testUpdateWrapper() {
             .setSql("user_authority = user_authority - 1")  
             .eq("user_id", 1);  
   
-    userMapper.update(updateWrapper);  
+    userMapper.update(null, updateWrapper);  
 }
 
 ---
-将id为1的行，authority减1
+将id为 1 的行，authority字段的值减 1
 ```
 
 
