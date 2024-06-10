@@ -207,7 +207,11 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 - `eq("数据库字段", 条件值)` 设置单个字段的相等条件
 - `nq()` 设置单个字段的不相等条件
 - `gt()` 设置单个字段的大于条件 【~~greater than~~】
-- 
+- `ge()` 设置单个字段的大于等于条件
+- `lt()` 设置单个字段的小于条件
+- `le()` 设置单个字段的小于等于条件
+- `between("数据库字段", 值1, 值2)` 设置单个字段的 BETWEEN 条件
+- `notBetween(……)` 
 
 
 ```java
