@@ -190,13 +190,14 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 > 	- `UpdateWrapper` 用于 U 操作，可以添加更新条件和更新的字段值，<u>可以在不创建实体对象的情况下，直接设置更新字段和条件</u>
 > 	- `LambdaQueryWrapper` 
 > 	- `LambdaUpdateWrapper` 
-
->[!hint] 推荐使用 `LambdaQueryWrapper` ，`LambdaUpdateWrapper`
->- 防止硬编码：字段名直接从实体类属性中引用，不需要自己指定
->- 类型安全：在编译期间，就可以保证实体类中的属性的数据类型和传入的数据一致
+> 
+>>[!hint] 推荐使用 `LambdaQueryWrapper` ，`LambdaUpdateWrapper`
+>>- 防止硬编码：字段名直接从实体类属性中引用，不需要自己指定
+>>- 类型安全：在编译期间，就可以保证实体类中的属性的数据类型和传入的数据一致
 
 >[!quote] 在 BaseMapper 中需要传入 Wrapper 参数的方法
 >- **增**
+>	- `update(修改后的实体类对象, Wrapper wrapper)`
 >- **查**
 >	- `selectList(Wrapper<T> example)` 查询列表，<u>传入参数为 null，则是查询整个表</u>
 
