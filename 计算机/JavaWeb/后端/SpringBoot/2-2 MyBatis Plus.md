@@ -218,7 +218,7 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 	- `like()` 设置单个字段的 LIKE 条件
 	- `notLike()` 
 	- `likeLeft()` 设置单个字段的左模糊匹配条件
-- `isNull`
+- `isNull("数据库字段")` 判断单个字段的 IS NULL 
 
 
 
