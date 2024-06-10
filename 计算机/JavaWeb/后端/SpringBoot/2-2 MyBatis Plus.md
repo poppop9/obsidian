@@ -219,6 +219,7 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 	- `notLike()` 
 	- `likeLeft()` 设置单个字段的左模糊匹配条件
 - `isNull("数据库字段")` 判断单个字段的 IS NULL 
+- `in("字段", 集合)` 设置单个字段的 IN 条件【~~字段的值在给定的集合中~~】
 
 
 
