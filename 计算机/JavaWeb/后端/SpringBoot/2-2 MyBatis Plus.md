@@ -197,7 +197,7 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 
 >[!quote] 在 BaseMapper 中需要传入 Wrapper 参数的方法
 >- **增**
->	- `update(修改后的实体类对象, Wrapper wrapper)` <u>实体类中未she'z</u>
+>	- `update(修改后的实体类对象, Wrapper wrapper)` <u>实体类中未设置的参数，不更改</u>
 >- **查**
 >	- `selectList(Wrapper<T> example)` 查询列表，<u>传入参数为 null，则是查询整个表</u>
 
