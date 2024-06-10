@@ -197,28 +197,41 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 
 >[!quote] 在 BaseMapper 中需要传入 Wrapper 参数的方法
 >- **增**
->	- `update(修改后的实体类对象, Wrapper wrapper)`
+>	- `update(修改后的实体类对象, Wrapper wrapper)` <u>实体类中未she'z</u>
 >- **查**
 >	- `selectList(Wrapper<T> example)` 查询列表，<u>传入参数为 null，则是查询整个表</u>
 
 ```java
-@Mapper  
-public interface UserMapperPlus extends BaseMapper<userPlus> { }
-
-
-@Test
-public void testWrapperSelect() {
-	QueryWrapper<userPlus> wrapper = new QueryWrapper<userPlus>()
-			.select("user_name", "user_password", "user_authority")
-			.like("user_password", "K");
-
-	List<userPlus> userPluses = userMapperPlus.selectList(wrapper);
-	userPluses.forEach(System.out::println);
+// 更新用户权限  
+@Test  
+public void testUpdateUser() {  
+    User user = new User();  
+    user.setUserAuthority(2);  
+  
+    QueryWrapper<User> queryWrapper = new QueryWrapper<User>()  
+            .eq("user_id", 1);  
+  
+    userMapper.update(user, queryWrapper);  
 }
 
 ---
-userPlus(userId=null, userName=jaygee, userPassword=Korea, userAuthority=2)
-userPlus(userId=null, userName=Hoan, userPassword=Korea, userAuthority=2)
+将id为1的行，的authority修改为2
+```
+
+```java
+// 条件查询
+@Test
+public void testSelectWrapper() {
+	QueryWrapper<User> queryWrapper = new QueryWrapper<User>()
+			.select("user_name", "user_password")
+			.like("user_password", "K");
+
+	userMapper.selectList(queryWrapper).forEach(System.out::println);
+}
+
+---
+User(userId=null, userName=jaygee, userPassword=Korea, userAuthority=null)
+User(userId=null, userName=Hoan, userPassword=Korea, userAuthority=null)
 ```
 
 
