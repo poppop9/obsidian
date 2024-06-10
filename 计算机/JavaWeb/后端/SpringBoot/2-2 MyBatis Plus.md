@@ -144,7 +144,6 @@ public interface UserMapperPlus extends BaseMapper<userPlus> {}
 > 	- `deleteByMap(@Param("et") T entity)` 根据 column 删除
 > - **改**
 > 	- `updateById(@Param("et") T record)` 根据 ID 修改
-> 	- `updateSelectiveById(@Param("et") T record)` 根据 ID 修改（选择字段）
 > - **查**
 > 	- `selectById(Serializable id)` 根据 ID 查询
 > 	- `selectBatchIds(Collection<? extends Serializable> idList)` 根据 ID 集合来批量查询
