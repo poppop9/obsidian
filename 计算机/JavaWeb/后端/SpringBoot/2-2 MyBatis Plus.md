@@ -235,7 +235,15 @@ User(userId=null, userName=Hoan, userPassword=Korea, userAuthority=null)
 ```
 
 ### UpdateWrapper
-如果在 update 时，SET 的条件是<u>动态的</u>【~~例如，某个字段减 200~~】
+如果在 `UPDATE` 时，`SET` 的条件是<u>动态的</u>【~~例如，某个字段减 200，而不是说设置某个字段为固定的值~~】，那就需要使用 `UpdateWrapper`
+
+```java
+
+```
+
+
+
+
 
 ## 自定义 SQL
 
