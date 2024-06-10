@@ -150,14 +150,12 @@ public interface UserMapperPlus extends BaseMapper<userPlus> {}
 > 	- `selectByMap(@Param("ew") Wrapper<T> example)` 查询（根据 column 查询）
 > 	- `selectCount(@Param("ew") Wrapper<T> example)` 总记录数
 > 	- `selectCountByMap(@Param("ew") T entity)` 总记录数（根据 column 查询）
-> 	- `selectList(Wrapper<T> example)` 查询列表，<u>传入参数为 null，则是查询整个表</u>
 > 	- `selectMapsPage(@Param("current") int current, @Param("size") int size, @Param("ew") Wrapper<T> example)` 根据 column 统计
 > 	- `selectMaps(@Param("ew") Wrapper<T> example)` 根据 column 统计（不分页）
 > 	- `selectObjs(@Param("ew") Wrapper<T> example)` 根据 column 统计（统计字段为 ID）
 > 	- `selectObjsByPage(@Param("current") int current, @Param("size") int size, @Param("ew") Wrapper<T> example)` 根据 column 统计（统计字段为 ID，不分页）
 > 	- `selectObjsNotNull(@Param("ew") Wrapper<T> example)` 根据 column 统计（统计字段为 ID，不分页）
 > 	- `selectOne(@Param("ew") Wrapper<T> example)` 根据 column 统计（统计字段为 ID，不分页）
-> 	- `selectList(Wrapper<T> queryWrapper)` 查询所有记录
 
 - 测试
 ```java
@@ -197,7 +195,10 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 >- 防止硬编码：字段名直接从实体类属性中引用，不需要自己指定
 >- 类型安全：在编译期间，就可以保证实体类中的属性的数据类型和传入的数据一致
 
-
+>[!quote] 在 BaseMapper 中需要传入 Wrapper 参数的方法
+>- **增**
+>- **查**
+>	- `selectList(Wrapper<T> example)` 查询列表，<u>传入参数为 null，则是查询整个表</u>
 
 ```java
 @Mapper  
