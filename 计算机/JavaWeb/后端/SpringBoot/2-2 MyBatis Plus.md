@@ -288,18 +288,18 @@ public void testUpdateWrapper() {
 ## IService 接口
 >[!quote] IService 接口
 >由于 `Controller` 需要调 `Service` 不能直接调 `Mapper` ，所以我们引入了 `IService` 和 `ServiceImpl<Mapper, Entity>` ，`IService` 接口相对于 `BaseMapper<>` 功能只多不少
-
-```java
-// UserService 实现 IService
-public interface UserService extends IService<User> { …… }
-```
-
-```java
-// UserServiceImpl ji
-@Service
-public class UserServiceImpl extends ServiceImpl<UserMapper, User>
-        implements UserService { …… }
-```
+>
+> ```java
+> // UserService 实现 IService
+> public interface UserService extends IService\<User> { …… }
+> ```
+> 
+> ```java
+> // UserServiceImpl 继承 ServiceImpl，这样就可以获得ServiceImpl里所有的方法
+> @Service
+> public class UserServiceImpl extends ServiceImpl<UserMapper, User>
+>         implements UserService { …… }
+> ```
 
 
 
