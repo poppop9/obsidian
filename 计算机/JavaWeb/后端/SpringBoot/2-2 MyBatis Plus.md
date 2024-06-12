@@ -285,6 +285,8 @@ public void testUpdateWrapper() {
 将id为 1 的行，authority字段的值减 1
 ```
 
+## IService 接口
+>[!quote] IService 接口
 
 
 
@@ -299,9 +301,6 @@ public void testUpdateWrapper() {
 
 
 
-
-## IService 接口
->[!quote] IService 接口
 
 
 
