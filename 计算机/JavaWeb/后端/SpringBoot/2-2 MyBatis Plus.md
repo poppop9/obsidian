@@ -295,7 +295,12 @@ public void testUpdateWrapper() {
 
 ## Service 接口
 
-
+## 代码生成
+- 插件
+	- MyBatisX
+	- MyBatisPlus
+	- easycode
+- MP 官方的代码生成器配置代码
 
 ## 分页查询
 ```java
