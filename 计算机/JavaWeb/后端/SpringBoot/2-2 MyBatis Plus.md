@@ -297,6 +297,9 @@ public void testUpdateWrapper() {
 >- MP 不擅长生成 sql 语句的前半部分，只擅长编写 WHERE 条件
 
 
+
+
+
 ## IService 接口
 >[!quote] IService 接口
 
