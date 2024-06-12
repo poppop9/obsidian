@@ -345,7 +345,7 @@ public interface UserMapper extends BaseMapper<User> {
 ```xml
 <!-- ${ew.customSqlSegment} 就是一个WHERE片段 -->
 <!-- ew是传入的LambdaQueryWrapper -->
-<!-- ${ew.customSqlSegment} 就是一个WHERE片段 -->
+<!-- customSqlSegment是LambdaQueryWrapper里的一个属性，表示拼接的WHERE片段 -->
 <update id="incrementAuthority">
 	UPDATE user
 	SET user_authority = user_authority + 1 ${ew.customSqlSegment}
