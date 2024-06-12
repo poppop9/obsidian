@@ -336,9 +336,20 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
 ```java
 @Mapper  
 public interface UserMapper extends BaseMapper<User> {  
-	// 
+	// 将参数LambdaQueryWrapper命名为ew，方便后续xml引用
     void incrementAuthority(@Param("ew") LambdaQueryWrapper<User> lambdaQueryWrapper);  
 }
+```
+
+- xml 文件
+```xml
+<!-- ${ew.customSqlSegment} 就是一个WHERE片段 -->
+<!-- ew是传入的LambdaQueryWrapper -->
+<!-- ${ew.customSqlSegment} 就是一个WHERE片段 -->
+<update id="incrementAuthority">
+	UPDATE user
+	SET user_authority = user_authority + 1 ${ew.customSqlSegment}
+</update>
 ```
 
 ## 代码生成
