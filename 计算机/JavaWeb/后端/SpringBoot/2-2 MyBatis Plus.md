@@ -298,11 +298,48 @@ public void testUpdateWrapper() {
 >- 在开发规范中，sql 语句不能写在业务代码里，所以业务代码里只写 MP 的 WHERE 条件
 >- MP 不擅长生成 sql 语句的前半部分，只擅长编写 WHERE 条件
 
+- 测试类
+```java
+// 半自动sql，实现动态SET
+@Test
+public void testSemiAutoUpdate() {
+	LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>()
+			.eq(User::getId, 1);
 
+	userService.increaseAuthority(lambdaQueryWrapper);
+}
+```
 
+- Service 接口
+```java
+public interface UserService extends IService<User> {  
+    void increaseAuthority(LambdaQueryWrapper<User> lambdaQueryWrapper);  
+}
+```
 
+- Service 实现类
+```java
+@Service  
+public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {  
+    @Autowired  
+    private UserMapper userMapper;  
+  
+    // 将用户权限加1  
+    @Override  
+    public void increaseAuthority(LambdaQueryWrapper<User> lambdaQueryWrapper) {  
+        userMapper.incrementAuthority(lambdaQueryWrapper);  
+    }  
+}
+```
 
-
+- Mapper
+```java
+@Mapper  
+public interface UserMapper extends BaseMapper<User> {  
+	// 
+    void incrementAuthority(@Param("ew") LambdaQueryWrapper<User> lambdaQueryWrapper);  
+}
+```
 
 ## 代码生成
 - 插件
