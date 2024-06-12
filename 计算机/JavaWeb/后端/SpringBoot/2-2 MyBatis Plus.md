@@ -301,6 +301,14 @@ public void testUpdateWrapper() {
 >         implements UserService { …… }
 > ```
 
+- **增**
+	- `sa`
+- **删**
+	- `remove-` 删除
+- **查**
+	- `get-` 查询单行
+	- `list-` 查询集合
+	- `page` 分页查询
 
 
 
