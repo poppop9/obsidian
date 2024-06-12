@@ -289,11 +289,15 @@ public void testUpdateWrapper() {
 
 
 
-## 自定义 SQL
+## 半自动 SQL
+>[!quote] 半自动 SQL
+>半自动 SQL 是指 sql 语句的前半部分还是写在 XML 文件里，而 WHERE t
 
 
+## IService 接口
+>[!quote] IService 接口
 
-## Service 接口
+
 
 ## 代码生成
 - 插件
