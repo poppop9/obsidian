@@ -33,7 +33,7 @@ public class User {……}
 
 ---
 
-- `@TableId` 
+- `@TableId` 指定主键
 	- `value` 指定主键字段名
 	- `type`
 		- `IdType.AUTO` 表示数据库表的主键是自增长的
