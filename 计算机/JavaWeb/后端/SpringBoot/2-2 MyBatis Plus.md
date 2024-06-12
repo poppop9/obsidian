@@ -291,7 +291,10 @@ public void testUpdateWrapper() {
 
 ## 半自动 SQL
 >[!quote] 半自动 SQL
->半自动 SQL 是指 sql 语句的前半部分还是写在 XML 文件里，而 WHERE t
+>半自动 SQL 是指 sql 语句的<u>前半部分还是写在 XML 文件里</u>，而  <u>`WHERE 条件` 使用 MyBatis-Plus 来写</u>
+>
+>- 在开发规范中，sql 语句不能写在业务代码里，所以业务代码里只写 MP 的 WHERE 条件
+>- MP 不擅长生成 sql 语句的前半部分，只擅长编写 WHERE 条件
 
 
 ## IService 接口
