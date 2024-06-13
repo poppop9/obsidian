@@ -462,7 +462,7 @@ public interface UserMapper extends BaseMapper<User> {
 >Db Kit 允许<u>通过静态调用的方式</u>执行 CRUD 操作，从而避免了在 Spring 环境下的 Service 循环注入问题【~~比如 `UserService` 需要注入 `RoleService` ，而 `RoleService` 也需要注入 `UserService`~~】
 
 >[!hint] 个人见解：Db Kit 没有必要
->- 如果是像 User 和 Role 之间的关系，会有三张表：`user`，`user_role`，`role`。但是 `role` 表里没什么字段，充其量就是 `role_ud`
+>- 如果是像 User 和 Role 之间的关系，会有三张表：`user`，`user_role`，`role`。但是 `role` 表里没什么字段【~~充其量就是 `role_id` ，`role_name` ，`role_description`~~】 ，我们不可能去定义一个 `RoleService` / `RoleMapper` ，因为 `role` 这个表没什么好查的，它的建立只是因为多对多的关系而已，
 
 ```java
 
