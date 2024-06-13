@@ -357,12 +357,11 @@ User(id=1, name=kite, password=Japen, authority=4)
 >	- 少量请求，组合插入：将多条数据组合成一条 SQL 语句，<u>推荐使用</u>
 
 ```java
-@Autowired
-private UserMapper userMapper;
+List<User> users = new ArrayList<>();
 
-public void batchInsertUsers(List<User> users) {
-    userMapper.saveBatch(users);
-}
+users.add(new User().setName("Alice").setAge(24));
+users.add(new User().setName("Bob").setAge(30));
+users.add(new User().setName("Charlie").setAge(22));
 
 
 ```
