@@ -356,14 +356,20 @@ User(id=1, name=kite, password=Japen, authority=4)
 >	- 少量请求，多次插入：请求虽然减少了，但是插入一条数据，仍然使用一条 SQL
 >	- 少量请求，组合插入：将多条数据组合成一条 SQL 语句，<u>推荐使用</u>
 
+>[!warning] 如果数据太多，可以分批次批处理，也就是在
+
 ```java
-List<User> users = new ArrayList<>();
+// 使用IService批量插入
+@Test
+public void testIServiceSaveBatch() {
+	List<User> users = new ArrayList<>();
 
-users.add(new User().setName("Alice").setAge(24));
-users.add(new User().setName("Bob").setAge(30));
-users.add(new User().setName("Charlie").setAge(22));
+	users.add(new User("Jeans", "Japen", 2));
+	users.add(new User("Franqey", "France", 2));
+	users.add(new User("Slim Boogie", "America", 1));
 
-
+	userService.saveBatch(users);
+}
 ```
 
 
@@ -451,18 +457,6 @@ public class MybatisPlusConfig {
     }
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
