@@ -364,7 +364,7 @@ User(id=1, name=kite, password=Japen, authority=4)
 spring:  
   datasource:  
     driver-class-name: com.mysql.cj.jdbc.Driver  
-    # 拼接rewriteBatchedStatements=true
+    # 拼接rewriteBatchedStatements=true，批量操作的语句在执行时能够被重写
     url: jdbc:mysql://localhost:3306/security?rewriteBatchedStatements=true  
     username: ……
     password: ……
@@ -446,11 +446,12 @@ public interface UserMapper extends BaseMapper<User> {
 ```
 
 ## 代码生成
-- 插件
-	- MyBatisX
-	- MyBatisPlus
-	- easycode
-- MP 官方的代码生成器配置代码
+>[!quote] 代码生成的方式
+> - 插件
+> 	- MyBatisX
+> 	- MyBatisPlus
+> 	- easycode
+> - MP 官方的代码生成器配置代码：太复杂
 
 ## 分页查询
 ```java
