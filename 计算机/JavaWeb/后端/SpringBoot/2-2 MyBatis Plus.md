@@ -445,6 +445,7 @@ public interface UserMapper extends BaseMapper<User> {
 </update>
 ```
 
+# 高阶用法
 ## 代码生成
 >[!quote] 代码生成
 >>由于各种 `IService` ， `BaseMapper` 的格式比较固定，所以我们可以借助代码生成器来快速生成
