@@ -285,6 +285,24 @@ public void testUpdateWrapper() {
 将id为 1 的行，authority字段的值减 1
 ```
 
+### 动态 SQL
+>[!quote] 动态 SQL
+>动态 SQL 就是可以使用条件来动态地判断是否要加入某个 `WHERE 条件`
+
+```java
+// 使用IService多个条件动态查询
+@Test
+public void testIServiceMultiConditionDynamicSelect(User user) {
+	LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>()
+			// 如果user.getId()不为空，则拼接这个条件
+			.eq(user.getId() != null, User::getId, user.getId())
+			.eq(user.getName() != null, User::getName, user.getName())
+			.eq(user.getPassword() != null, User::getPassword, user.getPassword());
+
+	User userResult = userService.getOne(lambdaQueryWrapper);
+	System.out.println(userResult);
+}
+```
 ## IService 接口
 >[!hint] 有了 `IService` ，我们就很少用到 `BaseMapper` 了，除非需要自定义 SQL，<u>虽然不用，但是也要创建 `BaseMapper` ，因为 `IService` 的实现类的泛型需要 `BaseMapper` </u>
 
@@ -328,27 +346,6 @@ public void testIServiceGetOne() {
 ---
 User(id=1, name=kite, password=Japen, authority=4)
 ```
-
-## 动态 SQL
->[!quote] 动态 SQL
->动态 SQL 就是可以使用条件来动态地判断是否要加入某个 `WHERE 条件`
-
-```java
-// 使用IService多个条件动态查询
-@Test
-public void testIServiceMultiConditionDynamicSelect(User user) {
-	LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>()
-			// 如果user.getId()不为空，则拼接这个条件
-			.eq(user.getId() != null, User::getId, user.getId())
-			.eq(user.getName() != null, User::getName, user.getName())
-			.eq(user.getPassword() != null, User::getPassword, user.getPassword());
-
-	User userResult = userService.getOne(lambdaQueryWrapper);
-	System.out.println(userResult);
-}
-```
-
-
 
 ## 半自动 SQL
 >[!quote] 半自动 SQL
