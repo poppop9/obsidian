@@ -456,9 +456,16 @@ public interface UserMapper extends BaseMapper<User> {
 > 	- easycode
 > - MP 官方的代码生成器配置代码：太复杂
 
-## Db
->[!quote] Db
->Db 允许开发者<u>通过静态调用的方式</u>执行 CRUD 操作，从而避免了在 Spring 环境下的 Service 循环注入问题【~~比如 `UserService` 需要注入 `RoleService` ，而 `RoleService` 也需要注入 `UserService`~~】
+## Db Kit
+>[!quote] Db Kit
+>Db Kit 允许<u>通过静态调用的方式</u>执行 CRUD 操作，从而避免了在 Spring 环境下的 Service 循环注入问题【~~比如 `UserService` 需要注入 `RoleService` ，而 `RoleService` 也需要注入 `UserService`~~】
+
+```java
+
+```
+
+
+
 
 ## 分页查询
 ```java
