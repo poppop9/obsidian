@@ -354,9 +354,21 @@ User(id=1, name=kite, password=Japen, authority=4)
 >- **不使用批处理**：发送网络请求次数较多，导致耗时长
 >- **使用批处理**
 >	- 少量请求，多次插入：请求虽然减少了，但是插入一条数据，仍然使用一条 SQL
->	- 少量请求，组合插入：将多条数据组合成一条 SQL 语句，<u>推荐使用</u>，开启
+>	- 少量请求，组合插入：将多条数据组合成一条 SQL 语句，<u>推荐使用</u>，需要在 `yml 配置文件中` 加入 `rewriteBatchedStatements=true` 来开启
 
 >[!warning] 如果数据太多，可以分批次批处理，也就是在 `for 循环` 中批处理，因为一次批处理相当于一次网络请求，一次网络请求承载的数据量是有限的
+
+---
+
+```yml
+spring:  
+  datasource:  
+    driver-class-name: com.mysql.cj.jdbc.Driver  
+    # 拼接rewriteBatchedStatements=true
+    url: jdbc:mysql://localhost:3306/security?rewriteBatchedStatements=true  
+    username: ……
+    password: ……
+```
 
 ```java
 // 使用IService批量插入
