@@ -25,9 +25,7 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=app.xlog.ggbond.c
 Spring 项目启动后，**默认**会把 Bean 都创建好放入到 IOC 容器中【还受到<u>作用域</u>，<u>延迟初始化</u>的影响】
 
 >[!quote] 循环依赖
-> 循环依赖是指两个或多个 Bean 之间相互依赖，形成一个闭环。
-> 这种情况通常发生在两个或多个Bean的构造函数中，它们互相注入对方的实例
-> 当 IOC 容器尝试创建这些 Bean 时，它会陷入无限循环，因为每个 Bean 都需要另一个尚未完全创建的 Bean
+> 循环依赖是指两个或多个 Bean 之间相互依赖，互相注入对方的实例，形成一个闭环，当 IOC 容器尝试创建这些 Bean 时，它会陷入无限循环，~~因为每个 Bean 都需要另一个尚未完全创建的 Bean~~
 > 
 > **解决循环依赖**：
 > - 三级缓存：Spring容器使用三级缓存来解决单例Bean的构造器循环依赖问题。当创建Bean时，Spring会将其放入三级缓存中，这样即使Bean还没有完全初始化，其他Bean也可以引用它
