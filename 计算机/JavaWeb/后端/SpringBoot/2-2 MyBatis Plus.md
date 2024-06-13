@@ -288,6 +288,8 @@ public void testUpdateWrapper() {
 ### 动态 SQL
 >[!quote] 动态 SQL
 >动态 SQL 就是可以使用条件来动态地判断是否要加入某个 `WHERE 条件`
+>
+>- `eq(条件, 字段, 值)`
 
 ```java
 // 使用IService多个条件动态查询
@@ -346,6 +348,12 @@ public void testIServiceGetOne() {
 ---
 User(id=1, name=kite, password=Japen, authority=4)
 ```
+
+### 批量处理
+
+
+
+
 
 ## 半自动 SQL
 >[!quote] 半自动 SQL
