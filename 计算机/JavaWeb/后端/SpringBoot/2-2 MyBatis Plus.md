@@ -463,7 +463,8 @@ public interface UserMapper extends BaseMapper<User> {
 
 >[!hint] 个人见解：Db Kit 没有必要
 >- 如果是像 User 和 Role 之间的关系，会有三张表：`user`，`user_role`，`role`。但是 `role` 表里没什么字段【~~充其量就是 `role_id` ，`role_name` ，`role_description`~~】 。现在有需求，需要返回 User 信息和角色名称，但是我们不可能去定义一个 `RoleService` / `RoleMapper` ，因为 `role` 这个表没什么好查的，它的建立只是因为多对多的关系而已，所以需要知道 User 的 Role 时，直接把查询 Role 的方法写在 `UserService` 里就好了，不需要 Db Kit
->- 如果是像 User 和 UserDetailedData 之间的关系，这两张表关系一对一，而且两张表中的字段都很多，我们可能需要创建两个 Service 类【~~`UserService` ，`UserDetailedData`~~】。现在有需求，需要返回 User 信息和 User 详细信息，首先
+>- 如果是像 User 和 UserDetailedData 之间的关系，这两张表关系一对一，而且两张表中的字段都很多，我们可能需要创建两个 Service 类【~~`UserService` ，`UserDetailedData`~~】。现在有需求，需要返回 User 信息和 User 详细信息，如果你要使用 Db Kit，首先这个查询方法放在哪个 Service 类里这是个问题，不管放在哪个类中项目结构都会不清晰
+>	- 那不如，重写一个 `UserAndUserDetailedDataService` ，在这里面shi'xain
 
 
 ```java
