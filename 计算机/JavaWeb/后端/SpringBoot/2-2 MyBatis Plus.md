@@ -446,12 +446,20 @@ public interface UserMapper extends BaseMapper<User> {
 ```
 
 ## 代码生成
->[!quote] 代码生成的方式
+>[!quote] 代码生成
+>>由于各种 `IService` ， `BaseMapper` 的格式比较固定，所以我们可以借助代码生成器来快速生成
+>
+>代码生成的方式：
 > - 插件
-> 	- MyBatisX
-> 	- MyBatisPlus
+> 	- **MyBatisX**：功能丰富
+> 	- MyBatisPlus：更好地适配 MP 
 > 	- easycode
 > - MP 官方的代码生成器配置代码：太复杂
+
+
+
+
+
 
 ## 分页查询
 ```java
