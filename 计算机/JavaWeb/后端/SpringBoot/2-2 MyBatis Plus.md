@@ -302,15 +302,19 @@ public void testUpdateWrapper() {
 > ```
 
 - **增**
-	- `sa`
+	- `save-` 插入
 - **删**
 	- `remove-` 删除
+- **改**
+	- `update-` 
 - **查**
 	- `get-` 查询单行
 	- `list-` 查询集合
 	- `page` 分页查询
 
+```java
 
+```
 
 ## 半自动 SQL
 >[!quote] 半自动 SQL
