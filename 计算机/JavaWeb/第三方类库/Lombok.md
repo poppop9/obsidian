@@ -11,13 +11,22 @@
 
 ---
 
+# 注解
 - **常用注释**
 	- `@Getter/@Setter`  为所有属性提供 get/set 方法
 	- `@ToString`  给类自动生成的 toString 方法
 	- `@EqualsAndHashCode`  根据类所拥有的非静态字段重写 equals 方法和 hashCode 方法
 	- `@Data`  是 @Getter+@Setter+@ToString+@EqualsAndHashCode 的集合
-	- `@NoArgsConstructor`  为实体类生成无参构造方法
-	- `@AllArgsConstructor`  为实体类生成除了 static 修饰的字段之外带有所有参数的构造方法
+
+## 构造方法
+- `@NoArgsConstructor`  为实体类生成无参构造方法
+- `@AllArgsConstructor`  为实体类生成除了 static 修饰的字段之外带有所有参数的构造方法
+- `@RequiredArgsConstructor` 与 `@NonNull` 注解配合使用，自定义字段参数构造方法
+	- `@NonNull` 将某个属性规定为必须传入
+
+
+
+
 
 ---
 
