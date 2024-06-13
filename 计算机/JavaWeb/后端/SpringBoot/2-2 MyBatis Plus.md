@@ -286,7 +286,7 @@ public void testUpdateWrapper() {
 ```
 
 ## IService 接口
->[!hint] 有了 `IService` ，我们就很少用到 `BaseMapper` 了，除非需要自定义 SQL，<u>虽然不用，但是也要创建 `BaseMapper` ，因为 `IService`</u>
+>[!hint] 有了 `IService` ，我们就很少用到 `BaseMapper` 了，除非需要自定义 SQL，<u>虽然不用，但是也要创建 `BaseMapper` ，因为 `IService` 的实现类的泛型需要 `BaseMapper` </u>
 
 >[!quote] IService 接口
 >~~由于 `Controller` 需要调 `Service` 不能直接调 `Mapper` ，所以我们引入了 `IService` 和 `ServiceImpl<Mapper, Entity>`~~ ，`IService` 接口相对于 `BaseMapper<>` 功能只多不少。<u>IService 有批处理功能，可以提高性能</u>
