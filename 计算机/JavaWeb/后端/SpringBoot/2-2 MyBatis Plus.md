@@ -313,7 +313,18 @@ public void testUpdateWrapper() {
 	- `page` 分页查询
 
 ```java
+// 使用IService查询单个
+@Test
+public void testIServiceGetOne() {
+	QueryWrapper<User> queryWrapper = new QueryWrapper<User>()
+			.eq("user_id", 1);
 
+	User user = userService.getOne(queryWrapper);
+	System.out.println(user);
+}
+
+---
+User(id=1, name=kite, password=Japen, authority=4)
 ```
 
 ## 半自动 SQL
