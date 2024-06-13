@@ -351,6 +351,7 @@ User(id=1, name=kite, password=Japen, authority=4)
 
 ### 批量处理
 >[!hint] 在需要处理大量数据时，批处理可以提高性能
+>- **不使用批处理**：发送网络请求次数较多，导致xing
 
 
 
