@@ -357,6 +357,13 @@ User(id=1, name=kite, password=Japen, authority=4)
 >	- 少量请求，组合插入：将多条数据组合成一条 SQL 语句，<u>推荐使用</u>
 
 ```java
+@Autowired
+private UserMapper userMapper;
+
+public void batchInsertUsers(List<User> users) {
+    userMapper.saveBatch(users);
+}
+
 
 ```
 
