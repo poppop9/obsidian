@@ -329,6 +329,27 @@ public void testIServiceGetOne() {
 User(id=1, name=kite, password=Japen, authority=4)
 ```
 
+## 动态 SQL
+>[!quote] 动态 SQL
+>动态 SQL 就是可以使用条件来动态地判断是否要加入某个 `WHERE 条件`
+
+```java
+// 使用IService多个条件动态查询
+@Test
+public void testIServiceMultiConditionDynamicSelect(User user) {
+	LambdaQueryWrapper<User> lambdaQueryWrapper = new LambdaQueryWrapper<User>()
+			// 如果user.getId()不为空，则拼接这个条件
+			.eq(user.getId() != null, User::getId, user.getId())
+			.eq(user.getName() != null, User::getName, user.getName())
+			.eq(user.getPassword() != null, User::getPassword, user.getPassword());
+
+	User userResult = userService.getOne(lambdaQueryWrapper);
+	System.out.println(userResult);
+}
+```
+
+
+
 ## 半自动 SQL
 >[!quote] 半自动 SQL
 >半自动 SQL 是指 sql 语句的<u>前半部分还是写在 XML 文件里</u>，而  <u>`WHERE 条件` 使用 MyBatis-Plus 来写</u>
