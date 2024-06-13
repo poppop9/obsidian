@@ -36,32 +36,41 @@
 ## 标签（#问题）
 
 # 快捷键
-新建笔记`ctrl+n`
-搜索笔记`ctrl+o`
-在当前笔记中搜索`ctrl+f`
-管理工作区`ctrl+w`
-打开命令面板`ctrl+p`
-切换编辑/阅读视图 `alt+v`
+- 新建笔记`ctrl+n`
+- 搜索笔记`ctrl+o`
+- 在当前笔记中搜索`ctrl+f`
+- 管理工作区`ctrl+w`
+- 打开命令面板`ctrl+p`
+- 切换编辑/阅读视图 `alt+v`
+- `shift + ←` 向左选中文字
+- `shift + →` 向右选中文字
 
-一级标题`ctrl+1`
-二级标题`ctrl+3`
-三级标题`ctrl+5`
+---
 
-黄色背景`ctrl+h`
-蓝色背景`ctrl+l`
+- 一级标题`ctrl+1`
+- 二级标题`ctrl+3`
+- 三级标题`ctrl+5`
 
-粗体`ctrl+b`
-斜体`ctrl+i`
-删除线`ctrl+d`
-批量引用`ctrl+q`
+---
 
-清除格式`ctrl+e`
+- 黄色背景`ctrl+h`
+- 蓝色背景`ctrl+l`
 
-引用`ctrl+q`
-插入链接`ctrl+k`
-无序列表`ctrl+l`
+---
 
-excalidraw里拷贝内部链接`ctrl+shift+k`
+- 粗体`ctrl+b`
+- 斜体`ctrl+i`
+- 删除线`ctrl+d`
+- 批量引用`ctrl+q`
+- 清除格式 `ctrl+e`
+- 引用`ctrl+q`
+- 插入链接`ctrl+k`
+- 无序列表`ctrl+l`
+
+---
+
+- excalidraw里拷贝内部链接 `ctrl+shift+k`
+
 # 妙招
 ## 多个空格
 只有一个              空格
