@@ -465,15 +465,7 @@ public interface UserMapper extends BaseMapper<User> {
 
 ```
 
-循环依赖是指两个或多个Spring Bean之间相互依赖，形成一个闭环。这种情况通常发生在两个或多个Bean的构造函数中，它们互相注入对方的实例。当Spring容器尝试创建这些Bean时，它会陷入无限循环，因为每个Bean都需要另一个尚未完全创建的Bean。
 
-Spring框架提供了一些机制来解决循环依赖问题：
-- **三级缓存**：Spring容器使用三级缓存来解决单例Bean的构造器循环依赖问题。当创建Bean时，Spring会将其放入三级缓存中，这样即使Bean还没有完全初始化，其他Bean也可以引用它
-- **`@Lazy`注解**：使用`@Lazy`注解可以延迟Bean的加载，直到它被实际使用。这可以防止在Bean的初始化过程中发生循环依赖
-- **`@Autowired`与`@Qualifier`注解**：使用`@Autowired`注解时，如果指定了`required=false`，Spring 将不会抛出异常，而是返回`null`，这可以避免某些循环依赖的情况
-- **使用`@Lookup`注解**：`@Lookup` 允许在运行时而不是在Bean初始化时进行依赖注入，这可以打破循环依赖
-
-尽管Spring提供了解决循环依赖的方法，但最佳实践是尽量避免循环依赖的发生，通过重构代码和使用设计模式来改善代码结构。
 
 
 ## 分页查询
