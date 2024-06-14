@@ -465,28 +465,25 @@ public interface UserMapper extends BaseMapper<User> {
 
 ```mermaid
 classDiagram
-    class Duck {
-		<<abstract>>
-		+FlyBehavior flyBehavior
-		+QuackBehavior quackBehavior
-		+void performFly()
-		+void performQuack()
-		+void display()
-		+void swim()
-		+void setFlyBehavior(FlyBehavior fb)
-		+void setQuackBehavior(QuackBehavior qb)
+    class User {
+		+Integer id
+        +String name
+        +String password
+        +Integer authority
+        -List<String> roles
     }
     
-    class MallardDuck {
+    class UserRole {
         +void display()
     }
-    class ModelDuck {
+    class Role {
         +void display()
     }
     
     Duck <|-- MallardDuck : 看起来像绿头鸭
     Duck <|-- ModelDuck : 看起来像橡皮鸭
 
+```
 
 
 - Service 实现类
