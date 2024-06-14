@@ -468,6 +468,19 @@ public interface UserMapper extends BaseMapper<User> {
 >[!quote] Db Kit
 >Db Kit 允许<u>通过静态调用的方式</u>执行 CRUD 操作，从而避免了在 Spring 环境下的 Service 循环注入问题【~~比如 `UserService` 需要注入 `RoleService` ，而 `RoleService` 也需要注入 `UserService`~~】
 
+- `listObjs(Wrapper, Lambda表达式)` 可以通过 Lambda 表达式将返回的实体类再次加工
+
+```java
+// 在role表中通过role_id查询角色名称
+QueryWrapper<Role> queryRoleWrapper = new QueryWrapper<Role>()
+		.setEntityClass(Role.class)
+		.select("role_name")
+		.in("role_id", roleIds);
+/
+List<String> roleNameList = Db.listObjs(queryRoleWrapper, Role::getRoleName);
+```
+
+
 ---
 
 ```mermaid
