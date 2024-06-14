@@ -647,30 +647,26 @@ public class FunctionDemo {
 
 # Stream 流
 >[!quote] Stream 流
+>Stream 允许你对集合进行链式调用，进行各种操作【~~过滤、映射、聚合 ……~~】
 >
-
-```java
-public interface Stream<T> extends BaseStream<T,Stream<T>>
-```
-
-
-Stream 允许你对集合进行链式调用，进行各种操作【~~过滤、映射、聚合 ……~~】
-
+> ```java
+> public interface Stream\<T> extends BaseStream<T,Stream\<T>>
+> ```
 
 ## 生成流
->通过数据源【数组，集合等】生成流
+通过数据源【~~数组、集合 ……~~】生成流
 
-### Collection集合生成流
->直接用集合调用 stream() 方法
+### Collection 生成流
+- 直接用集合调用 `stream()` 方法
+
 ```java
-public static void main(String[] args) {  
-    List<String> list = new ArrayList<String>();  
-    Stream<String> stringStream = list.stream();  
-}
+List<String> list = new ArrayList<String>();  
+Stream<String> stringStream = list.stream();  
 ```
 
-### Map集合生成流
->通过使用keySet，values，entrySet等方法生成的集合来调用stream()方法
+### Map 生成流
+- 使用 `keySet`，`values`，`entrySet` ……方法生成的集合来调用 `stream()` 方法
+
 ```java
 public static void main(String[] args) {  
     Map<String, Integer> map = new HashMap<>();  
@@ -681,7 +677,8 @@ public static void main(String[] args) {
 ```
 
 ### 数组生成流
->通过调用Stream.of()方法
+- 通过调用 `Stream.of()` 方法
+
 ```java
 public static void main(String[] args) {  
     String arr[] = {"greenteck", "wiggles", "hoan"};  
@@ -690,10 +687,11 @@ public static void main(String[] args) {
 ```
 
 ### 直接生成流
->通过调用Stream.of()方法
-```
+- 通过调用 `Stream.of()` 方法
+
+```java
 public static void main(String[] args) {  
-    Stream<String> Stream = Stream.of("greenteck", "wiggles", "hoan");  
+    Stream<String> Stream = Stream.of("greenteck", "wiggles", "hoan"); 
 }
 ```
 
