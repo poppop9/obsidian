@@ -219,32 +219,27 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 >	- `selectList(Wrapper<T> example)` 查询列表，<u>传入参数为 null，则是查询整个表</u>
 
 ### QueryWrapper
-- `setEntityClass(字节码文件)` 设置字节码文件，用于
+- 前半段
+	- `setEntityClass(字节码文件)` 设置字节码文件，用于 Db Kit
+- 后半段
+	- **大小等**
+		- `eq("数据库字段", 条件值)` 设置单个字段的相等条件
+		- `nq()` 设置单个字段的不相等条件
+		- `gt()` 设置单个字段的大于条件 【~~greater than~~】
+		- `ge()` 设置单个字段的大于等于条件
+		- `lt()` 设置单个字段的小于条件
+		- `le()` 设置单个字段的小于等于条件
+	- **范围**
+		- `between("数据库字段", 值1, 值2)` 设置单个字段的 BETWEEN 条件
+		- `notBetween(……)` 
+		- `in("字段", 集合)` 设置单个字段的 IN 条件【~~字段的值在给定的集合中~~】
+	- **模糊匹配**
+		- `like()` 设置单个字段的 LIKE 条件
+		- `notLike()` 
+		- `likeLeft()` 设置单个字段的左模糊匹配条件
+	- `isNull("数据库字段")` 判断单个字段的 IS NULL 
 
-```java
-// 通过user_role表查询用户对应的角色id
-QueryWrapper<UserRole> queryUserRoleWrapper = new QueryWrapper<UserRole>()
-		.setEntityClass(UserRole.class)
-		.select("role_id")
-		.eq("user_id", id);
-```
-
-- **大小等**
-	- `eq("数据库字段", 条件值)` 设置单个字段的相等条件
-	- `nq()` 设置单个字段的不相等条件
-	- `gt()` 设置单个字段的大于条件 【~~greater than~~】
-	- `ge()` 设置单个字段的大于等于条件
-	- `lt()` 设置单个字段的小于条件
-	- `le()` 设置单个字段的小于等于条件
-- **范围**
-	- `between("数据库字段", 值1, 值2)` 设置单个字段的 BETWEEN 条件
-	- `notBetween(……)` 
-- **模糊匹配**
-	- `like()` 设置单个字段的 LIKE 条件
-	- `notLike()` 
-	- `likeLeft()` 设置单个字段的左模糊匹配条件
-- `isNull("数据库字段")` 判断单个字段的 IS NULL 
-- `in("字段", 集合)` 设置单个字段的 IN 条件【~~字段的值在给定的集合中~~】
+---
 
 ```java
 // 更新用户权限  
