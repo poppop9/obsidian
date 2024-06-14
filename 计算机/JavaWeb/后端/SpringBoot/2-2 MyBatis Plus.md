@@ -538,6 +538,11 @@ public User getUserAndRoleName(int id) {
 }
 ```
 
+## 逻辑删除
+>[!quote] 逻辑删除
+>逻辑删除 就是这条数据展示给用户时，像是被删除
+
+比如商品的订单信息
 
 ## 分页查询
 ```java
