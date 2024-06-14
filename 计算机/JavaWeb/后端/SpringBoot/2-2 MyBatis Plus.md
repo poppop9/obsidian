@@ -463,6 +463,41 @@ public interface UserMapper extends BaseMapper<User> {
 >[!quote] Db Kit
 >Db Kit 允许<u>通过静态调用的方式</u>执行 CRUD 操作，从而避免了在 Spring 环境下的 Service 循环注入问题【~~比如 `UserService` 需要注入 `RoleService` ，而 `RoleService` 也需要注入 `UserService`~~】
 
+- 实体类
+```java
+```
+
+- Service 实现类
+```java
+// 根据id，查询用户的信息和用户的角色名称，一共涉及三张表：user，user_role，role
+@Override
+public User getUserAndRoleName(int id) {
+	// 先去user表中查基础信息
+	QueryWrapper<User> queryWrapper = new QueryWrapper<User>()
+			.eq("user_id", id);
+	User user = getOne(queryWrapper);
+	// 此时的user是没有role属性的
+
+	// 通过user_role表查询用户对应的角色id
+	QueryWrapper<UserRole> queryUserRoleWrapper = new QueryWrapper<UserRole>()
+			.setEntityClass(UserRole.class)
+			.select("role_id")
+			.eq("user_id", id);
+	List<Integer> roleIds = Db.listObjs(queryUserRoleWrapper, UserRole::getRoleId);
+
+	// 在role表中通过role_id查询角色名称
+	QueryWrapper<Role> queryRoleWrapper = new QueryWrapper<Role>()
+			.setEntityClass(Role.class)
+			.select("role_name")
+			.in("role_id", roleIds);
+	List<String> roleNameList = Db.listObjs(queryRoleWrapper, Role::getRoleName);
+	user.setRoles(roleNameList);
+
+	return user;
+}
+```
+
+
 ## 分页查询
 ```java
 package com.example.config;
