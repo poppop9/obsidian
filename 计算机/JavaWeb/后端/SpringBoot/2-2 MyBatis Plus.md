@@ -463,6 +463,30 @@ public interface UserMapper extends BaseMapper<User> {
 >[!quote] Db Kit
 >Db Kit 允许<u>通过静态调用的方式</u>执行 CRUD 操作，从而避免了在 Spring 环境下的 Service 循环注入问题【~~比如 `UserService` 需要注入 `RoleService` ，而 `RoleService` 也需要注入 `UserService`~~】
 
+```mermaid
+classDiagram
+    class Duck {
+		<<abstract>>
+		+FlyBehavior flyBehavior
+		+QuackBehavior quackBehavior
+		+void performFly()
+		+void performQuack()
+		+void display()
+		+void swim()
+		+void setFlyBehavior(FlyBehavior fb)
+		+void setQuackBehavior(QuackBehavior qb)
+    }
+    
+    class MallardDuck {
+        +void display()
+    }
+    class ModelDuck {
+        +void display()
+    }
+    
+    Duck <|-- MallardDuck : 看起来像绿头鸭
+    Duck <|-- ModelDuck : 看起来像橡皮鸭
+
 
 
 - Service 实现类
