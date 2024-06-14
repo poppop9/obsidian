@@ -466,18 +466,19 @@ public interface UserMapper extends BaseMapper<User> {
 ```mermaid
 classDiagram
     class User {
-		+Integer id
-        +String name
-        +String password
-        +Integer authority
-        -List<String> roles
+		+Integer UserId
+        +String UserName
+        +String UserPassword
+        +Integer UserAuthority
+        -List<String> Roles
     }
     
     class UserRole {
-        +Integer id
-        +Integer userId
-        +Integer userId
+        +Integer UserRoleId
+        +Integer UserId
+        +Integer RoleId
     }
+    
     class Role {
         +Integer id
         String roleName;
