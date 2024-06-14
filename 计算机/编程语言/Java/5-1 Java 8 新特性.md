@@ -646,9 +646,16 @@ public class FunctionDemo {
 > ```
 
 # Stream 流
-```
+>[!quote] Stream 流
+>
+
+```java
 public interface Stream<T> extends BaseStream<T,Stream<T>>
 ```
+
+
+Stream 允许你对集合进行链式调用，进行各种操作【~~过滤、映射、聚合 ……~~】
+
 
 ## 生成流
 >通过数据源【数组，集合等】生成流
@@ -708,7 +715,7 @@ public static void main(String[] args) {
 >Stream\<R> map(Function mapper)  ------返回一个由Function接口处理过的流
 >IntStream mapToInt(ToIntFunction mapper)----返回一个由mapper处理过的IntStream
 
-### filter过滤器
+### filter 过滤器
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
