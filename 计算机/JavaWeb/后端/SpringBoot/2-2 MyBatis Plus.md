@@ -219,6 +219,16 @@ userPlus(userId=2, userName=nelson, userPassword=Fra, userAuthority=1)
 >	- `selectList(Wrapper<T> example)` 查询列表，<u>传入参数为 null，则是查询整个表</u>
 
 ### QueryWrapper
+- `setEntityClass(字节码文件)` 设置字节码文件，用于
+
+```java
+// 通过user_role表查询用户对应的角色id
+QueryWrapper<UserRole> queryUserRoleWrapper = new QueryWrapper<UserRole>()
+		.setEntityClass(UserRole.class)
+		.select("role_id")
+		.eq("user_id", id);
+```
+
 - **大小等**
 	- `eq("数据库字段", 条件值)` 设置单个字段的相等条件
 	- `nq()` 设置单个字段的不相等条件
