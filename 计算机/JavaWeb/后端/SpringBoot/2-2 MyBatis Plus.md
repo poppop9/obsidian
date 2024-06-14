@@ -542,7 +542,9 @@ public User getUserAndRoleName(int id) {
 >[!quote] 逻辑删除
 >>逻辑删除 就是这条数据展示给用户时，像是被删除了，但是依旧保留在数据库中【~~方便后续溯源~~】，~~比如商品的订单信息，用户要删除订单，用户看不见了，但是我们不能真的在数据库中删除，因为这个订单信息还是有用的~~
 >
->我们只需要配置一下配置文件即可便利性地开启逻辑删除
+>- 我们只需要配置一下配置文件即可方便地开启逻辑删除
+
+---
 
 - 不使用 MP 的逻辑删除【~~需要自己手动给每个 SQL 语句都多加一个 `WHERE` 条件~~】，<u>非常麻烦</u>
 ```java
@@ -552,22 +554,15 @@ QueryWrapper<User> queryWrapper = new QueryWrapper<User>()
         .eq("user_delete", 0);
 ```
 
-- 使用 MP 开启配置
+- 使用 MP 开启配置【~~不用改动之前的 SQL 语句~~】
 ```yml
 mybatis-plus:
-  mapper-locations: classpath:/mapper/*.xml  # 指定Mapper XML文件的位置
-  type-aliases-package: com.yourpackage.domain  # 指定所有实体类的所在包
   global-config:
     db-config:
-      id-type: AUTO  # 全局的主键策略
-      insert-strategy: NOT_NULL  # 插入策略，只插入非空字段
-      update-strategy: NOT_NULL  # 更新策略
-      select-strategy: NOT_NULL  # 查询策略
+      logic-delete-field: 数据库标记逻辑删除的字段名  # 字段类型可以是Integer, Booolean
       logic-delete-value: 1  # 逻辑已删除值(默认为 1)
       logic-not-delete-value: 0  # 逻辑未删除值(默认为 0)
 ```
-
-
 
 ## 分页查询
 ```java
