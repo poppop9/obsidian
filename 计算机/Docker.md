@@ -254,6 +254,7 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306
 	- `docker logs 容器名` 获取和查看 Docker 容器的日志
 		- `-f` 持续跟进日志
 	- `docker top 容器名` 查看容器内运行的进程，及其 PID
+	- `docker stats 容器名` 查看容器的实时资源使用情况，包括 CPU，内存，IO ……
 - **删除**
 	- `docker rm` 删除停止的容器
 		- `-f` 强制删除【可以删除正在运行的容器】
