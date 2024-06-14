@@ -654,7 +654,7 @@ public interface Stream<T> extends BaseStream<T,Stream<T>>
 >通过数据源【数组，集合等】生成流
 
 ### Collection集合生成流
->直接用集合调用stream()方法
+>直接用集合调用 stream() 方法
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<String>();  
