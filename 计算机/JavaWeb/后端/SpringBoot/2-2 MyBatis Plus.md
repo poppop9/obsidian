@@ -474,10 +474,14 @@ classDiagram
     }
     
     class UserRole {
-        +void display()
+        +Integer id
+        +Integer userId
+        +Integer userId
     }
     class Role {
-        +void display()
+        +Integer id
+        String roleName;
+        String description;
     }
     
     Duck <|-- MallardDuck : 看起来像绿头鸭
