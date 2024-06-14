@@ -10,7 +10,8 @@ get ,set 方法，构造方法   `alt+insert`
 	- 单行注释   `ctrl+/`
 	- 多行注释   `ctrl+shift+/`
 	- 格式化代码   `ctrl+alt+L`
-	- 批量选中相同代码 `ctrl+r`
+	- 批量选中相同代码  `shift+F` 
+	- `ctrl+r` 在该文件中搜索
 
 ---
 
