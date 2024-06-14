@@ -544,9 +544,28 @@ public User getUserAndRoleName(int id) {
 >
 >我们只需要配置一下配置文件即可便利性地开启逻辑删除
 
-- 不使用 MP 的逻辑删除【需要自己手动给每个 SQL 语句都】
+- 不使用 MP 的逻辑删除【~~需要自己手动给每个 SQL 语句都多加一个 `WHERE` 条件~~】，<u>非常麻烦</u>
+```java
+// 表示这条数据没有被逻辑删除
+QueryWrapper<User> queryWrapper = new QueryWrapper<User>()  
+        .eq("user_id", id)
+        .eq("user_delete", 0);
+```
 
-
+- 使用 MP 开启配置
+```yml
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml  # 指定Mapper XML文件的位置
+  type-aliases-package: com.yourpackage.domain  # 指定所有实体类的所在包
+  global-config:
+    db-config:
+      id-type: AUTO  # 全局的主键策略
+      insert-strategy: NOT_NULL  # 插入策略，只插入非空字段
+      update-strategy: NOT_NULL  # 更新策略
+      select-strategy: NOT_NULL  # 查询策略
+      logic-delete-value: 1  # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0  # 逻辑未删除值(默认为 0)
+```
 
 
 
