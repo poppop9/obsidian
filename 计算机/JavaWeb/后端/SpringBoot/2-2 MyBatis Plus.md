@@ -480,13 +480,13 @@ classDiagram
     }
     
     class Role {
-        +Integer id
-        String roleName;
-        String description;
+        +Integer RoleId
+        +String RoleName;
+        +String RoleDescription;
     }
     
-    Duck <|-- MallardDuck : 看起来像绿头鸭
-    Duck <|-- ModelDuck : 看起来像橡皮鸭
+    UserRole <|-- User : 多对多
+    UserRole <|-- Role : 多对多
 
 ```
 
