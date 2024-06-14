@@ -51,6 +51,7 @@ public class UserEntity {
 ---
 
 - `@TableField` 指定其他字段名
+	- `exist = false` 在映射数据库字段时，忽略这个属性
 
 >[!warning] 以下情况，一定要加 `@TableField`
 >- 由于 MP 的机制，如果实体类中的某个属性名是以 `is` 开头的，那一定要指定 `@TableField` ，因为在反射处理时会去掉 `is`
