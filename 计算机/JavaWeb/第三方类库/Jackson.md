@@ -426,7 +426,7 @@ public void set(String key, Object value) {
 序列化注解只有在<u>序列化</u>时生效
 
 ### @JsonValue
-`@JsonValue` 使用zh
+`@JsonValue` 使用这个注解标记的属性将会作为整个类序列化的结果
 
 ```java
 @Data
@@ -434,7 +434,8 @@ public class User {
     private String name;
     private int age;
 
-    // 这个属性的值将被用作 JSON 序列化的结果
+    // 这个方法返回的值将被用作 JSON 序列化的结果
+    // name和age属性不会被序列化为json
     @JsonValue
     public String getCustomSerialization() {
         return name + " is " + age + " years old.";
