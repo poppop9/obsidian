@@ -33,7 +33,7 @@ $$
 >objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 > ```
 
-## JSON -> Java 对象
+## 反序列化：JSON -> Java 对象
 ### JSON 字符串 -> Java 对象
 ```java
 // Car 类
@@ -139,7 +139,7 @@ String jsonObject = "{\"brand\":\"ford\", \"doors\":5}";
 Map<String, Object> jsonMap = objectMapper.readValue(jsonObject, new TypeReference<Map<String,Object>>(){});
 ```
 
-## Java 对象 -> JSON
+## 序列化：Java 对象 -> JSON
 - `writeValue()` 
 - `writeValueAsString()` 将生成的 JSON 作为 `String` 返回
 - `writeValueAsBytes()` 将生成的 JSON 作为字节数组返回
@@ -424,6 +424,23 @@ public void set(String key, Object value) {
 
 ## 序列化注解
 序列化注解只有在<u>序列化</u>时生效
+
+### @JsonValue
+`@JsonValue` 使用zh
+
+```java
+@Data
+public class User {
+    private String name;
+    private int age;
+
+    // 这个属性的值将被用作 JSON 序列化的结果
+    @JsonValue
+    public String getCustomSerialization() {
+        return name + " is " + age + " years old.";
+    }
+}
+```
 
 ### @JsonFormat
 `@JsonFormat` 在序列化时，转换属性/方法返回值的格式
