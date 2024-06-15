@@ -465,7 +465,9 @@ public interface UserMapper extends BaseMapper<User> {
 > - MP 官方的代码生成器配置代码：太复杂
 
 - 右键数据库表，选择 MyBatisX-Generator
-- ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406151450754.png)
+- ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406151457593.png)
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406151458506.png)
+
 
 
 
