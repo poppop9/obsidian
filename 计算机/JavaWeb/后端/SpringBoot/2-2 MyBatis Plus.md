@@ -575,8 +575,38 @@ mybatis-plus:
 ## 自动映射枚举
 为了增强代码的可读性，有时会使用枚举，但是枚举跟数据库表中的字段是不会自动映射的，我们需要手动映射又很麻烦，这时可以使用 MP 提供的自动枚举映射
 
+- 给枚举类的枚举字段添加 `@EnumV`
 ```java
+@TableName(value = "user")
+@Data
+@NoArgsConstructor
+@RequiredArgsConstructor
+public class User implements Serializable {
+	…… 其他字段
+	
+    /**
+     * 1 正常， 2 锁定， 3 冻结
+     */
+    @NonNull
+    @TableField(value = "user_status")
+    private UserStatus userStatus;
 
+    // 枚举用户状态
+    public enum UserStatus {
+        NORMAL(1, "正常"),
+        LOCKED(2, "锁定"),
+        FROZEN(3, "冻结");
+
+        @EnumValue
+        private final int status;
+        private final String description;
+
+        UserStatus(int status, String description) {
+            this.status = status;
+            this.description = description;
+        }
+    }
+}
 ```
 
 
