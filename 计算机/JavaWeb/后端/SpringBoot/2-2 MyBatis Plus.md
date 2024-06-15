@@ -466,11 +466,7 @@ public interface UserMapper extends BaseMapper<User> {
 
 - 右键数据库表，选择 MyBatisX-Generator
 - ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406151457593.png)
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406151458506.png)
-
-
-
-
+- ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406151502136.png)
 
 ## Db Kit
 >[!quote] Db Kit
