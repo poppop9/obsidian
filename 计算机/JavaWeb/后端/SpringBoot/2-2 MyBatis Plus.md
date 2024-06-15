@@ -572,6 +572,12 @@ mybatis-plus:
       logic-not-delete-value: 0  # 逻辑未删除值(默认为 0)
 ```
 
+## 自动映射枚举
+为了增强代码的可读性，有时会使用枚举，但是枚举跟数据库表中的字段是不会自动映射的，我们需要手动映射又很麻烦，zhe
+
+
+
+
 ## 分页查询
 ```java
 package com.example.config;
