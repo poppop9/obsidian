@@ -188,6 +188,37 @@ tag:问题
 
 ***Style Settings***  对于主题的css设置
 
+## Code Styler
+- 代码块添加标题
+```ts title="这是标题" 
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
+
+export default defineUserConfig({
+  title: '你好， VuePress',
+
+  theme: defaultTheme({
+    logo: 'https://vuejs.org/images/logo.png',
+  }),
+})
+```
+
+- 行号 `ln:false/true`
+
+```java ln:false
+aaa
+```
+
+- 代码行高亮
+	- `hl:1` 单行
+	- `hl:1-3`  范围
+
+```java hl:1-2
+1-2 行高亮
+aaa
+sss
+```
+
 ---
 
 ⚠️
@@ -196,9 +227,8 @@ tag:问题
 💭🗯💬🗨👁‍🗨
 🌝🌚🌛🌜 🌕🌖🌗🌘🌑🌙 ☀🌞⭐
 
-🌕
-🌓
-朔月朔月🌑🌑🌑🌑🌑🌑🌑🌑🌑🌑🌑🌑🌑
+
+
 
 
 
