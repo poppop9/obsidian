@@ -147,6 +147,16 @@ public class AccountRepositoryImpl {
 		- `res` 响应对象的封装
 	- `service` **领域服务**，包含业务逻辑，<u>但是只构建业务场景，不负责处理数据，处理数据在充血模型中处理</u>
 
+---
+
+>[!hint] Model
+>- `PO` 
+>- `VO` 
+>- `DAO` 
+>- `BO` 
+>- `DTO` 
+>- `POJO` 
+
 >[!quote] 值对象
 >值对象 就是 MVC 架构中的 pojo，而充血模型 = 原来 MVC 架构中的 pojo + 影响 pojo 中属性值变化的方法
 >- 值对象是不可变的，一旦创建后不能修改其属性值
