@@ -152,7 +152,7 @@ public class AccountRepositoryImpl {
 >[!hint] Model
 >- `PO`【~~persistant object~~】 PO 是与数据库中的表相映射的 Java 对象，通常包含与数据库表字段对应的属性，以及 getter ，setter。在使用 ORM 框架 MyBatis时，PO 使得 Java 对象与数据库表之间可以进行映射
 >- `VO`【~~value object~~】 VO 用于业务层之间的数据传递，和PO一样也是仅仅包含数据而已。VO对象通常只包含要用到的数据属性，不包含业务逻辑
->- `DAO` 
+>- `DAO`【~~data access object~~】
 >- `BO` 
 >- `DTO` 
 >- `POJO` 
