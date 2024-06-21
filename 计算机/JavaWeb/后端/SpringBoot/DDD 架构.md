@@ -140,7 +140,7 @@ public class AccountRepositoryImpl {
 ## 领域层
 - `domain` **领域层**，与业务无关的类/接口不要放到领域层中 ==Service==
 	- `model` **领域模型**，定义了领域对象、聚合和值对象
-		- `entity` 实体/充血模型
+		- `entity` 实体
 		- `po` 持久化对象
 		- `vo` 值对象
 		- `req` 请求对象的封装
