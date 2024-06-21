@@ -152,12 +152,10 @@ public class AccountRepositoryImpl {
 >[!hint] Model
 >- `PO`【~~persistant object~~】 PO 是与数据库中的表相映射的 Java 对象，通常包含与数据库表字段对应的属性，以及 getter ，setter。在使用 ORM 框架 MyBatis时，PO 使得 Java 对象与数据库表之间可以进行映射
 >- `VO`【~~value object~~】 VO 用于业务层之间的数据传递，和PO一样也是仅仅包含数据而已。VO对象通常只包含要用到的数据属性，不包含业务逻辑
->- `DAO`【~~data access object~~】
+>- `DAO`【~~data access object~~】DAO 是一种设计模式，它解耦了业务层和数据访问层
 >- `BO` 
 >- `DTO` 
 >- `POJO` 
-
-数据访问对象接口（DAO）是对数据库操作的封装，提供了CURD（Create, Read, Update, Delete）等基础方法，隔离了业务逻辑层与数据库访问层。DAO模式有助于提高代码的可维护性和可重用性. 
 
 业务对象层（BO）
 业务对象层（BO）是封装了与业务相关的数据和操作逻辑的对象。它们包含了业务规则和业务逻辑的实现，可能包含多个PO或DTO的属性，以及处理这些属性的业务方法. 
