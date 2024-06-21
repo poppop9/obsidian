@@ -145,9 +145,12 @@ public class AccountRepositoryImpl {
 		- `vo` 值对象
 		- `req` 请求对象的封装
 		- `res` 响应对象的封装
+		- ……
 	- `service` **领域服务**，包含业务逻辑，<u>但是只构建业务场景，不负责处理数据，处理数据在充血模型中处理</u>
 
 ---
+
+持久对象可以是实体，但并不是所有的持久对象都必须是实体。持久对象更强调其持久化的特性，而实体强调其在业务中的唯一性和身份标识
 
 >[!hint] Model
 >- `PO`【~~persistant object~~】 PO 是与数据库中的表相映射的 Java 对象，通常包含与数据库表字段对应的属性，以及 getter ，setter。在使用 ORM 框架 MyBatis时，PO 使得 Java 对象与数据库表之间可以进行映射
@@ -156,6 +159,7 @@ public class AccountRepositoryImpl {
 >- `BO` 
 >- `DTO` 
 >- `POJO` 
+>>[!hint] 
 
 业务对象层（BO）
 业务对象层（BO）是封装了与业务相关的数据和操作逻辑的对象。它们包含了业务规则和业务逻辑的实现，可能包含多个PO或DTO的属性，以及处理这些属性的业务方法. 
