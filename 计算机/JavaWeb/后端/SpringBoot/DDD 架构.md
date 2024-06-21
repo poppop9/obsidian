@@ -141,8 +141,8 @@ public class AccountRepositoryImpl {
 - `domain` **领域层**，与业务无关的类/接口不要放到领域层中 ==Service==
 	- `model` **领域模型**，定义了领域对象、聚合和值对象
 		- `entity` 实体/充血模型
-		- `po`
-		- `vo` 值对象，通常用于表示业务层传输的数据对象，vo 对象的属性包含了业务逻辑中需要的数据
+		- `po` 持久化对象
+		- `vo` 值对象
 		- `req` 请求对象的封装
 		- `res` 响应对象的封装
 	- `service` **领域服务**，包含业务逻辑，<u>但是只构建业务场景，不负责处理数据，处理数据在充血模型中处理</u>
@@ -151,7 +151,7 @@ public class AccountRepositoryImpl {
 
 >[!hint] Model
 >- `PO`【~~persistant object~~】 PO 是与数据库中的表相映射的 Java 对象，通常包含与数据库表字段对应的属性，以及 getter ，setter。在使用 ORM 框架 MyBatis时，PO 使得 Java 对象与数据库表之间可以进行映射
->- `VO`【~~value object~~】 VO 用于业务层之间的数据传递，和PO一样也是仅仅包含数据而已。VO对象通常只包含要用到的数据属性，不包含业务逻辑
+>- `VO`【~~value object~~】 VO 用于业务层之间的数据传递，和 PO 一样也是仅仅包含数据而已。VO 对象通常只包含要用到的数据属性，不包含业务逻辑
 >- `DAO`【~~data access object~~】DAO 是一种设计模式，它解耦了业务层和数据访问层
 >- `BO` 
 >- `DTO` 
