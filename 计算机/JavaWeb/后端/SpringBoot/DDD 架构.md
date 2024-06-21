@@ -157,7 +157,7 @@ public class AccountRepositoryImpl {
 >- `VO`【~~value object~~】 VO 用于业务层之间的数据传递，仅仅包含数据而已，<u>没有唯一 ID 标识符</u>【~~意味着如果两个值对象的属性相同，那么它们就是相等的~~】
 >- `Entity` ：Entity = `PO` + 唯一 ID 标识符，意味着如果两个 Entity 的属性值相同，它们也不相等。<u>Entity 中可以有业务逻辑，也可以没有</u>
 >- `充血模型` ：充血模型 = `Entity` + 业务逻辑，~~如果某个 Entity 中有业务逻辑，那它就是充血模型~~
->- `BO` 
+>- `BO`【~~Business object~~】 
 >- `DTO` 
 >- `POJO`
 >
