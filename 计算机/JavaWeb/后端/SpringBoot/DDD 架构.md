@@ -150,7 +150,7 @@ public class AccountRepositoryImpl {
 ---
 
 >[!hint] Model
->- `PO` 
+>- `PO`【~~per】 PO 是与数据库中的表相映射的Java对象。它们通常包含与数据库表字段对应的属性，以及getter和setter方法。在使用ORM（Object-Relational Mapping）框架如Hibernate或MyBatis时，PO对象扮演着重要的角色，它们使得Java对象与数据库表之间可以进行映射
 >- `VO` 
 >- `DAO` 
 >- `BO` 
