@@ -168,7 +168,6 @@ public class AccountRepositoryImpl {
 数据传输对象（DTO）
 DTO 用于在不同层之间传输数据，不包含任何业务逻辑，仅用于传输数据
 
-简单的Java对象（POJO）
 简单的Java对象（POJO）是一个简单的Java类，不包含任何特定的框架或接口依赖。POJO对象通常只包含私有的属性和对应的getter/setter方法，以及可能的其他业务方法。POJO是Java中最基本的数据模型之一，可以作为数据传输对象、业务对象等多种角色. 
 
 
