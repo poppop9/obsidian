@@ -161,8 +161,8 @@ public class AccountRepositoryImpl {
 >		- 实体非常强调其在业务中的唯一性
 >- 从……角度看
 >	- `充血模型` ：充血模型 = `Entity` + 业务逻辑，~~如果某个 Entity 中有业务逻辑，那它就是充血模型~~
->	- `BO`【~~Business object~~】 
->	- `DTO` DTO 用于在不同层之间传输数据，所以 `DTO` 一般是 `VO`
+>	- `BO`【~~Business object~~】 业务对象包含业务逻辑，通常用于 Service 层
+>	- `DTO` DTO 用于在不同层之间传输数据，`DTO` 一般是 `VO`
 >		- 不包含任何业务逻辑
 >	- `POJO`【~~plain old java object~~】
 
