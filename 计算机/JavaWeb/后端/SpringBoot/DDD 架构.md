@@ -161,14 +161,15 @@ public class AccountRepositoryImpl {
 >- 从……角度看
 >	- `PO`【~~persistant object~~】：PO 是与数据库中的表相映射的 Java 对象，通常包含与数据库表字段对应的属性，以及 getter ，setter。~~在使用 ORM 框架 MyBatis时，PO 使得 Java 对象与数据库表之间可以进行映射~~
 >		- 是 Entity 的一种体现
->	- `充血模型` ：充血模型 = PO + 业务逻辑，~~如果某个 PO 中有业务逻辑，那它就是充血模型~~
->		- 是 PO 的一种体现
 >	- `BO`【~~Business object~~】：业务对象包含业务逻辑，通常用于 Service 层
 >	- `DTO`【~~data transfer object~~】：DTO 用于在不同层之间传输数据，DTO 一般是 VO
 >		- 不包含任何业务逻辑
 >	- `POJO`【~~plain old java object~~】普通 Java 对象，可以作为其他数据模型的基础
+>- 从……角度看
+>	- `充血模型` ：充血模型 = PO + 业务逻辑，~~如果某个 PO 中有业务逻辑，那它就是充血模型~~
+>		- 是 PO 的一种体现
 
-业务对象层（BO）是封装了与业务相关的数据和操作逻辑的对象。它们包含了业务规则和业务逻辑的实现，可能包含多个PO或DTO的属性，以及处理这些属性的业务方法
+BO 可能包含多个PO或DTO的属性，以及处理这些属性的业务方法
 
 
 >[!hint] 在领域与领域之间，如果需要某个充血模型，要把 <u>充血模型</u> 使用工厂组装成 <u>贫血模型</u> 进行传输
