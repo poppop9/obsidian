@@ -152,7 +152,7 @@ public class AccountRepositoryImpl {
 
 >[!hint] Model
 >- 从……角度看
->	- `PO`【~~persistant object~~】 PO 是与数据库中的表相映射的 Java 对象，通常包含与数据库表字段对应的属性，以及 getter ，setter。在使用 ORM 框架 MyBatis时，PO 使得 Java 对象与数据库表之间可以进行映射
+>	- `PO`【~~persistant object~~】 PO 是与数据库中的表相映射的 Java 对象，通常包含与数据库表字段对应的属性，以及 getter ，setter。~~在使用 ORM 框架 MyBatis时，PO 使得 Java 对象与数据库表之间可以进行映射~~
 >	- `VO`【~~value object~~】 VO 用于业务层之间的数据传递，仅仅包含数据而已，<u>没有唯一 ID 标识符</u>【~~意味着如果两个值对象的属性相同，那么它们就是相等的~~】
 >		- 可以包含简单的业务逻辑操作
 >		- VO 中通常重写 equals 和 hashCode 方法，以便基于值进行比较
@@ -162,7 +162,8 @@ public class AccountRepositoryImpl {
 >- 从……角度看
 >	- `充血模型` ：充血模型 = `Entity` + 业务逻辑，~~如果某个 Entity 中有业务逻辑，那它就是充血模型~~
 >	- `BO`【~~Business object~~】 
->	- `DTO` DTO 用于在不同层之间传输数据，不包含任何业务逻辑，仅用于传输数据，所以 `DTO` 一般是 `VO`
+>	- `DTO` DTO 用于在不同层之间传输数据，所以 `DTO` 一般是 `VO`
+>		- 不包含任何业务逻辑
 >	- `POJO`【~~plain old java object~~】
 
 业务对象层（BO）是封装了与业务相关的数据和操作逻辑的对象。它们包含了业务规则和业务逻辑的实现，可能包含多个PO或DTO的属性，以及处理这些属性的业务方法
