@@ -151,19 +151,18 @@ public class AccountRepositoryImpl {
 ---
 
 >[!hint] Model
->![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406222202989.png)
+>
 >
 >- `POJO`【~~plain old java object~~】普通 Java 对象，可以作为其他数据模型的基础
 >	- `VO`【~~value object~~】 ：值对象是不可变的对象，<u>没有唯一 ID 标识符</u>，用于表示一组值【~~意味着如果两个值对象的属性相同，那么它们就是相等的~~】
 >		- 可以包含简单的业务逻辑操作
 >		- VO 中通常重写 equals 和 hashCode 方法，以便基于值进行比较
 >	- `PO / 实体`【~~Entity~~】 ：实体<u>必须要有唯一 ID 标识符</u>，意味着如果两个 Entity 的属性值相同，它们也不相等；PO 是与数据库表相映射的 Java 对象【~~所以 PO 和实体可以看作是相同的概念~~】
->	- `BO`【~~Business object~~】：业务对象包含业务逻辑
->		- 只用于 Service 层
 >	- `DTO`【~~data transfer object~~】：DTO 用于在不同层之间传输数据
 >		- 不包含任何业务逻辑
 >	- `充血模型` ：充血模型 = PO + 业务逻辑，~~如果某个 PO 中有业务逻辑，那它就是充血模型~~
->		- 是 PO 的一种体现
+>		- `BO`【~~Business object~~】：业务对象包含业务逻辑
+>			- 只用于 Service 层
 
 >[!hint] 在领域与领域之间，如果需要某个充血模型，要把 <u>充血模型</u> 使用工厂组装成 <u>贫血模型</u> 进行传输
 
