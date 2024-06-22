@@ -163,7 +163,7 @@ public class AccountRepositoryImpl {
 >	- `充血模型` ：充血模型 = `Entity` + 业务逻辑，~~如果某个 Entity 中有业务逻辑，那它就是充血模型~~
 >	- `BO`【~~Business object~~】 
 >	- `DTO` DTO 用于在不同层之间传输数据，不包含任何业务逻辑，仅用于传输数据，所以 `DTO` 一般是 `VO`
->	- `POJO`
+>	- `POJO`【~~plain old java object~~】
 
 业务对象层（BO）是封装了与业务相关的数据和操作逻辑的对象。它们包含了业务规则和业务逻辑的实现，可能包含多个PO或DTO的属性，以及处理这些属性的业务方法
 
