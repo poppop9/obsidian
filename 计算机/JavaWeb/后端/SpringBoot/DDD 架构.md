@@ -155,12 +155,11 @@ public class AccountRepositoryImpl {
 >	- `VO`【~~value object~~】 ：值对象是不可变的对象，<u>没有唯一 ID 标识符</u>，用于表示一组值【~~意味着如果两个值对象的属性相同，那么它们就是相等的~~】
 >		- 可以包含简单的业务逻辑操作
 >		- VO 中通常重写 equals 和 hashCode 方法，以便基于值进行比较
->	- `实体`【~~Entity~~】 ：实体必须要有唯一 ID 标识符，意味着如果两个 Entity 的属性值相同，它们也不相等
+>	- `PO / 实体`【~~Entity~~】 ：实体必须要有唯一 ID 标识符，意味着如果两个 Entity 的属性值相同，它们也不相等【~~所以~~】
 >		- <u>Entity 中可以有业务逻辑，也可以没有</u>
 >		- 实体非常强调其在业务中的唯一性
 >- 从……角度看
 >	- `PO`【~~persistant object~~】：PO 是与数据库中的表相映射的 Java 对象，通常包含与数据库表字段对应的属性，以及 getter ，setter。~~在使用 ORM 框架 MyBatis时，PO 使得 Java 对象与数据库表之间可以进行映射~~
->		- 是 Entity 的一种体现
 >	- `BO`【~~Business object~~】：业务对象包含业务逻辑，通常用于 Service 层
 >	- `DTO`【~~data transfer object~~】：DTO 用于在不同层之间传输数据，DTO 一般是 VO
 >		- 不包含任何业务逻辑
