@@ -157,7 +157,8 @@ public class AccountRepositoryImpl {
 >		- VO 中通常重写 equals 和 hashCode 方法，以便基于值进行比较
 >	- `PO / 实体`【~~Entity~~】 ：实体<u>必须要有唯一 ID 标识符</u>，意味着如果两个 Entity 的属性值相同，它们也不相等；PO 是与数据库表相映射的 Java 对象【~~所以 PO 和实体可以看作是相同的概念~~】
 >- 从……角度看
->	- `BO`【~~Business object~~】：业务对象包含业务逻辑，通常用于 Service 层
+>	- `BO`【~~Business object~~】：业务对象包含业务逻辑
+>		- 只用于 Service 层
 >	- `DTO`【~~data transfer object~~】：DTO 用于在不同层之间传输数据
 >		- 不包含任何业务逻辑
 >	- `POJO`【~~plain old java object~~】普通 Java 对象，可以作为其他数据模型的基础
