@@ -150,8 +150,6 @@ public class AccountRepositoryImpl {
 
 ---
 
-持久对象可以是实体，但并不是所有的持久对象都必须是实体。持久对象更强调其持久化的特性，而
-
 >[!hint] Model
 >- 从……角度看
 >	- `PO`【~~persistant object~~】 PO 是与数据库中的表相映射的 Java 对象，通常包含与数据库表字段对应的属性，以及 getter ，setter。在使用 ORM 框架 MyBatis时，PO 使得 Java 对象与数据库表之间可以进行映射
@@ -160,6 +158,7 @@ public class AccountRepositoryImpl {
 >		- VO 中通常重写 equals 和 hashCode 方法，以便基于值进行比较
 >	- `Entity` ：Entity = `PO` + 唯一 ID 标识符，意味着如果两个 Entity 的属性值相同，它们也不相等
 >		- <u>Entity 中可以有业务逻辑，也可以没有</u>
+>		- 实体非常强调其在业务中的唯一性
 >- 从……角度看
 >	- `充血模型` ：充血模型 = `Entity` + 业务逻辑，~~如果某个 Entity 中有业务逻辑，那它就是充血模型~~
 >	- `BO`【~~Business object~~】 
