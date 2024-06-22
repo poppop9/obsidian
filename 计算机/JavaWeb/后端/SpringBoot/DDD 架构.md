@@ -164,7 +164,7 @@ public class AccountRepositoryImpl {
 >	- `BO`【~~Business object~~】 业务对象包含业务逻辑，通常用于 Service 层
 >	- `DTO` DTO 用于在不同层之间传输数据，`DTO` 一般是 `VO`
 >		- 不包含任何业务逻辑
->	- `POJO`【~~plain old java object~~】普通 Java 对象，可以作为
+>	- `POJO`【~~plain old java object~~】普通 Java 对象，可以作为其他数据模型的基础
 
 业务对象层（BO）是封装了与业务相关的数据和操作逻辑的对象。它们包含了业务规则和业务逻辑的实现，可能包含多个PO或DTO的属性，以及处理这些属性的业务方法
 
