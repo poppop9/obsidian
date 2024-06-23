@@ -614,11 +614,6 @@ public class User implements Serializable {
 # 插件
 ## 分页查询
 - 添加 MyBatisPlusConfig 配置类，配置分页插件，添加进 MyBatisPlus 拦截器中
-- 创建 Page 对象，使用 IService 中的 page() 进行分页查询
-
----
-
-- 添加 MyBatisPlusConfig 配置类，配置分页插件，添加进 MyBatisPlus 拦截器中
 ```java
 package app.xlog.ggbond.config;
 
@@ -643,22 +638,28 @@ public class MybatisPlusConfig {
 >- 如果配置多个插件, 切记分页最后添加
 >- 如果有多个数据源可以不配具体类型，否则都建议配上具体的 DbType
 
+---
+
 - 创建 Page 对象，使用 IService 中的 page() 进行分页查询
 
 >[!quote] Page 类
+> | 属性名                    | 类型              | 默认值       | 描述                             |
+> | ---------------------- | --------------- | --------- | ------------------------------ |
+> | records                | List\<T>         | emptyList | 查询数据列表                         |
+> | total                  | Long            | 0         | 查询列表总记录数                       |
+> | size                   | Long            | 10        | 每页显示条数，默认 10                   |
+> | current                | Long            | 1         | 当前页                            |
+> | orders                 | List\<OrderItem> | emptyList | 排序字段信息                         |
+> | optimizeCountSql       | boolean         | true      | 自动优化 COUNT SQL                 |
+> | optimizeJoinOfCountSql | boolean         | true      | 自动优化 COUNT SQL 是否把 join 查询部分移除 |
+> | searchCount            | boolean         | true      | 是否进行 count 查询                  |
+> | maxLimit               | Long            |           | 单页分页条数限制                       |
+> | countId                | String          |           | XML 自定义 count 查询的 statementId  |
+> 
 
-|属性名|类型|默认值|描述|
-|---|---|---|---|
-|records|List<T>|emptyList|查询数据列表|
-|total|Long|0|查询列表总记录数|
-|size|Long|10|每页显示条数，默认 10|
-|current|Long|1|当前页|
-|orders|List<OrderItem>|emptyList|排序字段信息|
-|optimizeCountSql|boolean|true|自动优化 COUNT SQL|
-|optimizeJoinOfCountSql|boolean|true|自动优化 COUNT SQL 是否把 join 查询部分移除|
-|searchCount|boolean|true|是否进行 count 查询|
-|maxLimit|Long||单页分页条数限制|
-|countId|String||XML 自定义 count 查询的 statementId|
+```java
+
+```
 
 
 
