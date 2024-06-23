@@ -218,7 +218,6 @@ try {
 	- `jsonNode.get("字段名").asInt();` 获取对应字段的内容为 `int`
 	- `jsonNode.get("字段名").asLong();` 获取对应字段的内容为 `long`
 
-
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
 
