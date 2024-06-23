@@ -21,7 +21,7 @@
 >		- 由于不可定制化，所以难以优化性能
 
 # MyBatis
-## 基本概念
+## 概述
 >[!quote] MyBatis
 >MyBatis 是一个 Java 持久层框架，**封装了 JDBC 程序**，简化了数据库的访问代码的编写，提供了灵活性和高度可定制的 SQL 映射，以及良好的性能
 
@@ -45,6 +45,7 @@ graph TB
     e
     end
 ```
+
 ### 数据库连接池技术
 - 在没有数据库连接池技术时，Java 程序要执行一条 SQL 语句，就要创建一个数据库连接对象，在使用完成之后，再释放这个连接对象
 - 而使用了数据库连接池技术后，客户端需要执行 SQL 语句时，可以去数据库连接池中拿连接对象，用完之后再还回去
@@ -88,7 +89,7 @@ spring:
     ## 连接到localhost:3306服务的，security数据库
     url: jdbc:mysql://localhost:3306/security
     username: root
-    password: 13433026660
+    password: 134
 ```
 
 - 配置 SQL 提示
