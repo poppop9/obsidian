@@ -577,7 +577,7 @@ mybatis-plus:
 
 ---
 
-- 给枚举类的枚举字段添加 `@EnumValue` ，表示数据库字段映射到的是这个属性
+- 给枚举类的枚举字段添加 `@EnumValue` ，表示数据库字段【~~存储的是 1，2，3~~】映射到的是这个属性
 ```java
 @TableName(value = "user")
 @Data
