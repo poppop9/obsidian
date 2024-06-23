@@ -645,13 +645,13 @@ public class MybatisPlusConfig {
 >[!quote] Page 类
 > | 属性名                    | 类型              | 默认值       | 描述                             |
 > | ---------------------- | --------------- | --------- | ------------------------------ |
-> | records                | List\<T>         | emptyList | 查询数据列表                         |
-> | total                  | Long            | 0         | 查询列表总记录数                       |
+> | records                | List\<T>         | emptyList | 这一页page的数据          |
+> | total                  | Long            | 0         | 总记录数                       |
 > | size                   | Long            | 10        | 每页显示条数，默认 10                   |
-> | current                | Long            | 1         | 当前页                            |
-> | orders                 | List\<OrderItem> | emptyList | 排序字段信息                         |
-> | optimizeCountSql       | boolean         | true      | 自动优化 COUNT SQL                 |
-> | optimizeJoinOfCountSql | boolean         | true      | 自动优化 COUNT SQL 是否把 join 查询部分移除 |
+> | current                | Long            | 1         | 当前的页码                            |
+> | orders                 | List\<OrderItem> | emptyList | 排序字段信息     |
+> | optimizeCountSql       | boolean         | true      | 自动优化 COUNT SQL    |
+> | optimizeJoinOfCountSql | boolean    | true   | 自动优化 COUNT SQL 是否把 join 查询部分移除 |
 > | searchCount            | boolean         | true      | 是否进行 count 查询                  |
 > | maxLimit               | Long            |           | 单页分页条数限制                       |
 > | countId                | String          |           | XML 自定义 count 查询的 statementId  |
