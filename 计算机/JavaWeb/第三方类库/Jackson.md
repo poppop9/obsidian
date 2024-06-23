@@ -449,7 +449,7 @@ public class User {
         LOCKED(2, "锁定"),
         FROZEN(3, "冻结");
 
-		// status将会代表整个UserStatus类，作为
+		// status将会代表整个UserStatus类返回
         @JsonValue
         private final int status;
         private final String description;
@@ -460,6 +460,7 @@ public class User {
         }
     }
 ```
+
 ### @JsonFormat
 `@JsonFormat` 在序列化时，转换属性/方法返回值的格式
 
