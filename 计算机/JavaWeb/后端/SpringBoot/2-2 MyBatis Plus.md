@@ -658,7 +658,32 @@ public class MybatisPlusConfig {
 > 
 
 ```java
+// 分页查询
+@Test
+public void testPageSelect() {
+	// 1.创建Page对象，传入当前页和每页显示的数量
+	Page<User> pageOne = new Page<>(1, 2);
+	Page<User> pageTwo = new Page<>(2, 2);
+	Page<User> pageThree = new Page<>(3, 2);
 
+	userService.page(pageOne);
+	System.out.println("第一页：" + pageOne.getRecords());
+	System.out.println("-------------");
+
+	userService.page(pageTwo);
+	System.out.println("第二页" + pageTwo.getRecords());
+	System.out.println("-------------");
+
+	userService.page(pageThree);
+	System.out.println("第三页" + pageThree.getRecords());
+}
+
+---
+第一页：[User(userId=1, userName=kite, userPassword=Japen, userAuthority=4, userStatus=NORMAL, roles=null), User(userId=2, userName=nelson, userPassword=France, userAuthority=1, userStatus=NORMAL, roles=null)]
+-------------
+第二页[User(userId=3, userName=greenteck, userPassword=Canada, userAuthority=2, userStatus=NORMAL, roles=null), User(userId=4, userName=jaygee, userPassword=Korea, userAuthority=2, userStatus=LOCKED, roles=null)]
+-------------
+第三页[User(userId=5, userName=Hoan, userPassword=Korea, userAuthority=2, userStatus=LOCKED, roles=null), User(userId=7, userName=Jeans, userPassword=Japen, userAuthority=2, userStatus=FROZEN, roles=null)]
 ```
 
 
