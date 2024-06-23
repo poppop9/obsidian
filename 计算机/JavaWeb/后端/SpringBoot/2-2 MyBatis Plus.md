@@ -611,13 +611,6 @@ public class User implements Serializable {
 }
 ```
 
-- 在配置文件中配置返回枚举类的哪个属性【~~默认是枚举实例的名字~~】
-```yml
-
-```
-
-
-
 ## 分页查询
 ```java
 package com.example.config;
