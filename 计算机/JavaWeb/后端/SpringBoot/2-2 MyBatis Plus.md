@@ -613,12 +613,12 @@ public class User implements Serializable {
 
 # 插件
 ## 分页查询
-- 添加 MyBatisPlusConfig 配置类，配置分页插件，添加x
+- 添加 MyBatisPlusConfig 配置类，配置分页插件，添加进 MyBatisPlus 拦截器中
+- 创建 Page 对象，使用 IService 中的 page() 进行分页查询
 
->[!warning]
->- 如果配置多个插件, 切记分页最后添加
->- 如果有多个数据源可以不配具体类型，否则都建议配上具体的 DbType
+---
 
+- 添加 MyBatisPlusConfig 配置类，配置分页插件，添加进 MyBatisPlus 拦截器中
 ```java
 package app.xlog.ggbond.config;
 
@@ -639,6 +639,13 @@ public class MybatisPlusConfig {
 }
 ```
 
+>[!warning]
+>- 如果配置多个插件, 切记分页最后添加
+>- 如果有多个数据源可以不配具体类型，否则都建议配上具体的 DbType
+
+- 创建 Page 对象，使用 IService 中的 page() 进行分页查询
+
+>[!quote] Page 类
 
 |属性名|类型|默认值|描述|
 |---|---|---|---|
