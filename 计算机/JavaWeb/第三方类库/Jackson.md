@@ -426,7 +426,7 @@ public void set(String key, Object value) {
 序列化注解只有在<u>序列化</u>时生效
 
 ### @JsonValue
-`@JsonValue` 使用这个注解标记的属性将会作为整个类序列化的结果
+`@JsonValue` 使用这个注解标记的 属性/方法 将会作为整个类序列化的结果
 
 ```java
 @Data
@@ -443,6 +443,23 @@ public class User {
 }
 ```
 
+```java
+    public enum UserStatus {
+        NORMAL(1, "正常"),
+        LOCKED(2, "锁定"),
+        FROZEN(3, "冻结");
+
+		// status将会代表整个UserStatus类，作为
+        @JsonValue
+        private final int status;
+        private final String description;
+
+        UserStatus(int status, String description) {
+            this.status = status;
+            this.description = description;
+        }
+    }
+```
 ### @JsonFormat
 `@JsonFormat` 在序列化时，转换属性/方法返回值的格式
 
