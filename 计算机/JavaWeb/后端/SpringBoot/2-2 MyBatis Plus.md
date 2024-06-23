@@ -646,7 +646,7 @@ public class MybatisPlusConfig {
 > | 属性名                    | 类型              | 默认值       | 描述                             |
 > | ---------------------- | --------------- | --------- | ------------------------------ |
 > | records                | List\<T>         | emptyList | 这一页page的数据          |
-> | total                  | Long            | 0         | 总记录数                       |
+> | total                  | Long            | 0         | 数据库表中的总记录数            |
 > | size                   | Long            | 10        | 每页显示条数，默认 10                   |
 > | current                | Long            | 1         | 当前的页码                            |
 > | orders                 | List\<OrderItem> | emptyList | 排序字段信息     |
@@ -655,7 +655,6 @@ public class MybatisPlusConfig {
 > | searchCount            | boolean         | true      | 是否进行 count 查询                  |
 > | maxLimit               | Long            |           | 单页分页条数限制                       |
 > | countId                | String          |           | XML 自定义 count 查询的 statementId  |
-> 
 
 ```java
 // 分页查询
