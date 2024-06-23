@@ -1,6 +1,7 @@
 
 >[!hint] 技术选型
->
+>- 【MyBatis】
+>- 【Hibernate】
 
 ### MyBatis12310
 
