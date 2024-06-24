@@ -6,10 +6,10 @@
 > public interface Stream\<T> extends BaseStream<T,Stream\<T>>
 > ```
 
-## 生成流
+# 生成流
 通过数据源【~~数组、集合 ……~~】生成流
 
-### Collection 生成流
+## Collection 生成流
 - 直接用集合调用 `stream()` 方法
 
 ```java
@@ -17,7 +17,7 @@ List<String> list = new ArrayList<String>();
 Stream<String> stringStream = list.stream();  
 ```
 
-### Map 生成流
+## Map 生成流
 - 使用 `keySet`，`values`，`entrySet` …… 方法生成的集合来调用 `stream()` 方法
 
 ```java
@@ -27,7 +27,7 @@ Stream<Integer> stream1 = map.values().stream();
 Stream<Map.Entry<String, Integer>> stream2 = map.entrySet().stream();
 ```
 
-### 数组生成流
+## 数组生成流
 - 通过调用 `Stream.of()` 方法
 
 ```java
@@ -37,7 +37,7 @@ public static void main(String[] args) {
 }
 ```
 
-### 直接生成流
+## 直接生成流
 - 通过调用 `Stream.of()` 方法
 
 ```java
@@ -46,7 +46,7 @@ public static void main(String[] args) {
 }
 ```
 
-## 中间操作
+# 中间操作
 >打开流，做出数据过滤/映射，然后返回一个新的流
 
 >[!summary] Method Summary
@@ -64,7 +64,7 @@ public static void main(String[] args) {
 >Stream\<R> map(Function mapper)  ------返回一个由Function接口处理过的流
 >IntStream mapToInt(ToIntFunction mapper)----返回一个由mapper处理过的IntStream
 
-### filter 过滤器
+## filter 过滤器
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -96,7 +96,7 @@ public static void main(String[] args) {
 吴彦祖
 ```
 
-### limit，skip
+## limit，skip
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -119,7 +119,7 @@ public static void main(String[] args) {
 吴京
 ```
 
-### concat，distinct
+## concat，distinct
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -152,7 +152,7 @@ public static void main(String[] args) {
 吴京
 ```
 
-### sorted
+## sorted
 ```java
 public static void main(String[] args) {  
     List<Integer> list = new ArrayList<>();  
@@ -183,7 +183,7 @@ public static void main(String[] args) {
 33
 ```
 
-### map，mapToInt
+## map，mapToInt
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -222,7 +222,7 @@ public static void main(String[] args) {
 ```
 
 
-## 终结操作
+# 终结操作
 一个流使用终结操作后，就无法再进行操作了，**这是流的最后一个操作**
 
 >[!summary] Method Summary
@@ -230,7 +230,7 @@ public static void main(String[] args) {
 >long count()  ------返回该流中的元素个数
 >R collect(Collector collector)  ------按照 collector 的要求，把元素收集到集合中
 
-### forEach
+## forEach
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -256,7 +256,7 @@ public static void main(String[] args) {
 331
 ```
 
-### count
+## count
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -272,7 +272,7 @@ public static void main(String[] args) {
 4
 ```
 
-### collect
+## collect
 - `Collectors.toList()` 收集到其他集合
 
 ```java
