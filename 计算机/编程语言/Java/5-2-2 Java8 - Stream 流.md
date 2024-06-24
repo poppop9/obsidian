@@ -17,8 +17,8 @@ List<String> list = new ArrayList<String>();
 Stream<String> stringStream = list.stream();  
 ```
 
-## 数组生成流
-- 通过调用 `Stream.of()` 方法
+## 数组，直接生成流
+- `Stream.of()` 
 
 ```java
 public static void main(String[] args) {  
@@ -26,9 +26,6 @@ public static void main(String[] args) {
     Stream<String> ArrStream = Stream.of(arr);  
 }
 ```
-
-## 直接生成流
-- 通过调用 `Stream.of()` 方法
 
 ```java
 public static void main(String[] args) {  
