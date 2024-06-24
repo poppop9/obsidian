@@ -668,12 +668,10 @@ Stream<String> stringStream = list.stream();
 - 使用 `keySet`，`values`，`entrySet` …… 方法生成的集合来调用 `stream()` 方法
 
 ```java
-public static void main(String[] args) {  
-    Map<String, Integer> map = new HashMap<>();  
-    Stream<String> stream = map.keySet().stream();  //map.keySet()返回的是Set集合
-    Stream<Integer> stream1 = map.values().stream();
-    Stream<Map.Entry<String, Integer>> stream2 = map.entrySet().stream();
-}
+Map<String, Integer> map = new HashMap<>();  
+Stream<String> stream = map.keySet().stream();  //map.keySet()返回的是Set集合
+Stream<Integer> stream1 = map.values().stream();
+Stream<Map.Entry<String, Integer>> stream2 = map.entrySet().stream();
 ```
 
 ### 数组生成流
