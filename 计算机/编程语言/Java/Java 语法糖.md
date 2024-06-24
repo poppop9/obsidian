@@ -1,7 +1,6 @@
 
 # Java 语法糖
 ## For-Each
-
 For-Each 是程序员都会经常用到的，底层也是普遍都讲过是利用 for 循环和迭代器，因此使用要注意 fail-fast 机制，建议了解 Stream 流的知识。
 
 ```java
