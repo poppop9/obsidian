@@ -27,28 +27,28 @@ $$
 
 >[!quote] 充血模型
 ><u>充血模型</u> 就是把 pojo 的属性，以及引起属性的值发生变化的方法，写到 pojo 中。例如下面这个 pojo ，一看就知道有两个业务：
-
-```java
-public class Account {
-	private int id;
-	private int balance;  // 余额
-
-	……对应的 get ，set 方法
-
-	public void TransferIn(int money){
-		balance = balance + money;
-	}
-
-	public void TransferOut(int money){
-		if(balance < money){
-			throws new InsufficientMonryException();
-		}
-		balance = balance - money;
-	}
-}
-```
-
->[!warning] 只有引起 pojo 属性值变化的方法，才写到 pojo 里
+>
+> ```java
+> public class Account {
+> 	private int id;
+> 	private int balance;  // 余额
+> 
+> 	……对应的 get ，set 方法
+> 
+> 	public void TransferIn(int money){
+> 		balance = balance + money;
+> 	}
+> 
+> 	public void TransferOut(int money){
+> 		if(balance < money){
+> 			throws new InsufficientMonryException();
+> 		}
+> 		balance = balance - money;
+> 	}
+> }
+> ```
+> 
+>- 只有引起 pojo 属性值变化的方法，才写到 pojo 里
 
 >[!warning] 一个充血模型只负责一个业务，如果有多个业务需要到同一个充血模型，那就每个业务创建一个<u>该业务需要用到的属性</u>的充血模型。但是多个相似的充血模型还是只会创建一个数据库表
 >
