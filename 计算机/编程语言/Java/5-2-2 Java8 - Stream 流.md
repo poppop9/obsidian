@@ -9,22 +9,12 @@
 # 生成流
 通过数据源【~~数组、集合、IO 通道、生成器……~~】生成流
 
-## Collection 生成流
+## Collection，Map 生成流
 - 直接用集合调用 `stream()` 方法
 
 ```java
 List<String> list = new ArrayList<String>();  
 Stream<String> stringStream = list.stream();  
-```
-
-## Map 生成流
-- 使用 `keySet`，`values`，`entrySet` …… 方法生成的集合来调用 `stream()` 方法
-
-```java
-Map<String, Integer> map = new HashMap<>();  
-Stream<String> stream = map.keySet().stream();  //map.keySet()返回的是Set集合
-Stream<Integer> stream1 = map.values().stream();
-Stream<Map.Entry<String, Integer>> stream2 = map.entrySet().stream();
 ```
 
 ## 数组生成流
