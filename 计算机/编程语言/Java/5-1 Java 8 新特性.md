@@ -665,7 +665,7 @@ Stream<String> stringStream = list.stream();
 ```
 
 ### Map 生成流
-- 使用 `keySet`，`values`，`entrySet` ……方法生成的集合来调用 `stream()` 方法
+- 使用 `keySet`，`values`，`entrySet` …… 方法生成的集合来调用 `stream()` 方法
 
 ```java
 public static void main(String[] args) {  
