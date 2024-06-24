@@ -920,8 +920,7 @@ public static void main(String[] args) {
 ```
 
 ### collect
-### 收集到其他集合
->Collectors.toList()
+- `Collectors.toList()` 收集到其他集合
 
 ```java
 public static void main(String[] args) {  
@@ -942,8 +941,8 @@ public static void main(String[] args) {
 [32, 992, 33]
 ```
 
-### 收集到 Map 集合
->Collectors.toMap(new Function<>(){} ,new Function<>(){})
+- `Collectors.toMap(new Function<>(){} ,new Function<>(){})` 收集到 Map 集合
+
 ```java
 public static void main(String[] args) {  
     String arr[] = {"陈冠希,14", "吴彦祖,66", "刘德华,2"};  
