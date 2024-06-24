@@ -870,11 +870,12 @@ public static void main(String[] args) {
 
 
 ## 终结操作
->一个流使用终结操作后，就无法再进行操作了。***这是流的最后一个操作***
+一个流使用终结操作后，就无法再进行操作了，**这是流的最后一个操作**
 
 >[!summary] Method Summary
 >void forEach(Consumer action)  ------对该流的每个元素执行操作
 >long count()  ------返回该流中的元素个数
+>R collect(Collector collector)  ------按照 collector 的要求，把元素收集到集合中
 
 ### forEach
 ```java
@@ -918,10 +919,7 @@ public static void main(String[] args) {
 4
 ```
 
-## 收集操作
->[!summary] Method Summary
->R collect(Collector collector)  ------按照collector的要求，把元素收集到集合中
-
+### collect
 ### 收集到其他集合
 >Collectors.toList()
 
@@ -944,7 +942,7 @@ public static void main(String[] args) {
 [32, 992, 33]
 ```
 
-### 收集到Map集合
+### 收集到 Map 集合
 >Collectors.toMap(new Function<>(){} ,new Function<>(){})
 ```java
 public static void main(String[] args) {  
