@@ -37,16 +37,23 @@ body {
 
 >[!hint] 变量的作用域
 >- 默认作用域为同一层级
+>- 
 >- 可以使用 `！global` 来设置某个变量为全局变量
 
 
+```css
+$myColor: red;
+
+h1 {
+  // 设置myColor变量为全局变量
+  $myColor: green !global;
+  color: $myColor;  // 为green
+}
+
+p {
+  color: $myColor;  // 为green
+}
 ```
-
-```
-
-
-
-
 
 
 
