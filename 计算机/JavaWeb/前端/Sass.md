@@ -66,6 +66,37 @@ body {
 > }
 > ```
  
+# 嵌套
+很多 CSS 属性都有同样的前缀，例如：`font-family` , `font-size` ，`font-weight` ，`text-align` , `text-transform` ，`text-overflow`
+
+```css
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+}
+
+---
+// 以上代码等价于
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+```
+
+
+
+
+
 
 
 
