@@ -120,6 +120,15 @@ text-transform: lowercase;
 text-overflow: hidden;
 ```
 
+# 导入文件
+`@import filename;` @import 指令可以让我们导入其他文件的内容，导入后我们就可以在主文件中使用导入文件的变量
+
+>[!warning]
+>- 包含文件时不需要指定文件后缀，Sass 会自动添加后缀 `.scss`
+>- 可以导入 CSS 文件
+
+
+以下实例，导入 variables.scss、colors.scss 和 reset.scss 文件。
 
 
 
