@@ -3,10 +3,10 @@
 >Sass 是一个 CSS 预处理器，增加了<u>规则、变量、混入、选择器、继承、内置函数</u> …… ，可以帮助我们减少 CSS 重复的代码
 >- 文件后缀为 `.scss`
 
-# 🔴安装
+# 🔺安装
 - NPM 安装 `npm install -g sass`
 
-# 🔴变量
+# 🔺变量
 >[!hint] 
 >- Sass 变量可以存储以下信息：
 > 	- 字符串
@@ -66,7 +66,7 @@ body {
 > }
 > ```
  
-# 🔴嵌套
+# 🔺嵌套
 很多 CSS 属性都有同样的前缀，例如：`font-family` , `font-size` ，`font-weight` ，`text-align` , `text-transform` ，`text-overflow`
 
 ---
@@ -120,7 +120,7 @@ text-transform: lowercase;
 text-overflow: hidden;
 ```
 
-# 🔴导入文件
+# 🔺导入文件
 - **完整导入文件**【~~没有下划线前缀的 Sass 文件~~】：它们可以被 Sass 编译器直接编译成 CSS 文件。~~例如，如果你有一个 styles.scss 文件，Sass 编译器会将其编译成 styles.css~~
 - **部分导入文件**【~~带有下划线前缀的 Sass 文件~~】：它们是用来被其他 Sass 文件导入的，不需要被编译为 CSS 文件。~~例如，如果你有一个 `_variables.scss` 文件，你可以在其他 Sass 文件中通过 `@import 'variables';` 来导入它~~
 
