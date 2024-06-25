@@ -18,7 +18,7 @@
 > 
 > - Sass 变量以 `$` 开头
 
-```css
+```
 $myFont: Helvetica, sans-serif;
 $myColor: red;
 $myFontSize: 18px;
@@ -34,6 +34,29 @@ body {
   width: $myWidth;  
 }
 ```
+
+>[!hint] 变量的作用域
+>- 默认作用域为同一层级
+>- 可以使用 `！global` 来设置某个变量为全局变量
+
+
+```
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
