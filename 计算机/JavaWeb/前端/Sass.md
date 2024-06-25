@@ -18,10 +18,22 @@
 > 
 > - Sass 变量以 `$` 开头
 
-```sass
+```css
 $myFont: Helvetica, sans-serif;
 $myColor: red;
 $myFontSize: 18px;
 $myWidth: 680px;
 
+body {  
+  font-family: $myFont;  
+  font-size: $myFontSize;  
+  color: $myColor;  
+}  
+  
+#container {  
+  width: $myWidth;  
+}
 ```
+
+
+
