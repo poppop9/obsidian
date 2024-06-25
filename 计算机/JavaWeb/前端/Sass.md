@@ -124,6 +124,8 @@ text-overflow: hidden;
 - **完整导入文件**【~~没有下划线前缀的 Sass 文件~~】：它们可以被 Sass 编译器直接编译成 CSS 文件。~~例如，如果你有一个 styles.scss 文件，Sass 编译器会将其编译成 styles.css~~
 - **部分导入文件**【~~带有下划线前缀的 Sass 文件~~】：它们是用来被其他 Sass 文件导入的，不需要被编译为 CSS 文件。~~例如，如果你有一个 `_variables.scss` 文件，你可以在其他 Sass 文件中通过 `@import 'variables';` 来导入它~~
 
+>[!warning]
+ 
 ## 完全导入文件
 `@import filename;` @import 指令可以让我们导入其他文件的内容，导入后我们就可以在主文件中使用导入文件的变量
 
@@ -142,12 +144,25 @@ text-overflow: hidden;
 ```
 
 ## 部分导入文件
-有时我们不想某个 `.scss` 文件被编译为 `.css` ，而是作为一个导入文件，导入到其他 Sass 文件中，我们就可以将这个 `.scss` 文件以下划线开头【~~ 就像是 `_temp.scss`  ~~】
+有时我们不想某个 `.scss` 文件被编译为 `.css` ，而是作为一个导入文件，导入到其他 Sass 文件中，我们就可以将这个 `.scss` 文件以下划线开头，例如 `_temp.scss`
 
-完整文件：没有下划线前缀的 Sass 文件被视为完整文件。这意味着它们可以被 Sass 编译器直接编译成 CSS 文件。例如，如果你有一个 styles.scss 文件，Sass 编译器会将其编译成 styles.css。
+```css
+// 这是_colors.scss 文件
+$myPink: #EE82EE;
+$myBlue: #4169E1;
+$myGreen: #8FBC8F;
+```
 
-部分文件（Partials）：带有下划线前缀的 Sass 文件被视为部分文件。这些文件不是用来直接编译成 CSS 的，而是用来被其他 Sass 文件导入的。例如，如果你有一个 _variables.scss 文件，你可以在其他 Sass 文件中通过 @import 'variables'; 来导入它。由于它们是被其他文件导入的，所以不会被单独编译成 CSS 文件。
+```css
+// 在其他文件中导入_colors.scss文件
+@import "colors";
 
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: $myBlue;
+}
+```
 
 
 
