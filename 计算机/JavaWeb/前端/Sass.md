@@ -69,6 +69,9 @@ body {
 # 嵌套
 很多 CSS 属性都有同样的前缀，例如：`font-family` , `font-size` ，`font-weight` ，`text-align` , `text-transform` ，`text-overflow`
 
+---
+
+- 例 1
 ```css
 nav {
   ul {
@@ -82,7 +85,7 @@ nav {
 }
 
 ---
-// 以上代码等价于
+// 以上代码等价于以下css代码
 nav ul {
   margin: 0;
   padding: 0;
@@ -91,6 +94,30 @@ nav ul {
 nav li {
   display: inline-block;
 }
+```
+
+- 例 2
+```css
+font: {
+  family: Helvetica, sans-serif;
+  size: 18px;
+  weight: bold;
+}
+
+text: {
+  align: center;
+  transform: lowercase;
+  overflow: hidden;
+}
+
+---
+font-family: Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+
+text-align: center;
+text-transform: lowercase;
+text-overflow: hidden;
 ```
 
 
