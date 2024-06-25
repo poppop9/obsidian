@@ -18,7 +18,7 @@
 > 
 > - Sass 变量以 `$` 开头
 
-```
+```css
 $myFont: Helvetica, sans-serif;
 $myColor: red;
 $myFontSize: 18px;
@@ -37,23 +37,38 @@ body {
 
 >[!hint] 变量的作用域
 >- 默认作用域为同一层级
->- 
->- 可以使用 `！global` 来设置某个变量为全局变量
+> ```css
+> $myColor: red;
+> 
+> h1 {
+>   // 只在 h1 里有用，局部作用域
+>   $myColor: green;   
+>   color: $myColor;   // 为green
+> }
+> 
+> p {
+>   color: $myColor;   // 为red
+> }
+> ```
+> 
+>- 可以使用 `！global` 来设置某个变量为<u>全局变量</u>【一般定义在】
+> ```css
+> $myColor: red;
+> 
+> h1 {
+>   // 设置myColor变量为全局变量
+>   $myColor: green !global;
+>   color: $myColor;  // 为green
+> }
+> 
+> p {
+>   color: $myColor;  // 为green
+> }
+> ```
+ 
 
 
-```css
-$myColor: red;
 
-h1 {
-  // 设置myColor变量为全局变量
-  $myColor: green !global;
-  color: $myColor;  // 为green
-}
-
-p {
-  color: $myColor;  // 为green
-}
-```
 
 
 
