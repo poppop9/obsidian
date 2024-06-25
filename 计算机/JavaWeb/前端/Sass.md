@@ -124,8 +124,9 @@ text-overflow: hidden;
 - **完整导入文件**【~~没有下划线前缀的 Sass 文件~~】：它们可以被 Sass 编译器直接编译成 CSS 文件。~~例如，如果你有一个 styles.scss 文件，Sass 编译器会将其编译成 styles.css~~
 - **部分导入文件**【~~带有下划线前缀的 Sass 文件~~】：它们是用来被其他 Sass 文件导入的，不需要被编译为 CSS 文件。~~例如，如果你有一个 `_variables.scss` 文件，你可以在其他 Sass 文件中通过 `@import 'variables';` 来导入它~~
 
->[!warning]
- 
+>[!warning] 不要将带下划线与不带下划线的同名文件放置在同一个目录下
+>比如，`_colors.scss` 和 `colors.scss` 不能同时存在于同一个目录下，<u>否则带下划线的文件将会被忽略</u>
+
 ## 完全导入文件
 `@import filename;` @import 指令可以让我们导入其他文件的内容，导入后我们就可以在主文件中使用导入文件的变量
 
