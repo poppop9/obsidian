@@ -127,7 +127,7 @@ text-overflow: hidden;
 >[!warning] 不要将带下划线与不带下划线的同名文件放置在同一个目录下
 >比如，`_colors.scss` 和 `colors.scss` 不能同时存在于同一个目录下，<u>否则带下划线的文件将会被忽略</u>
 
-## 🔸完全导入文件
+## 🔶完全导入文件
 `@import filename;` @import 指令可以让我们导入其他文件的内容，导入后我们就可以在主文件中使用导入文件的变量
 
 >[!warning]
