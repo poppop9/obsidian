@@ -37,14 +37,13 @@
 - 线条修饰
 	- `.text-decoration-none` 去除文本装饰【下划线 ……】
 - 对齐
-	- `.text-left` 
-	- `.text-c`
+	- `.text-left` 左对齐文本
+	- `.text-center` 居中文本
+	- `.text-end` 右对齐文本
+- `.text-nowrap` 文本bu'huan'hang
 
 | 类                       | 描述        |
 | ----------------------- | --------- |
-| `.text-left`            | 左对齐文本     |
-| `.text-center`          | 居中对齐的文本   |
-| `.text-end`             | 右对齐文本     |
 | `.text-break`           | 防止长文本破坏布局 |
 | `.text-decoration-none` | 删除链接中的下划线 |
 | `.text-nowrap`          | 文本不换行     |
