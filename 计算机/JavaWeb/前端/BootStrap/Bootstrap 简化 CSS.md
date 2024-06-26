@@ -40,13 +40,8 @@
 	- `.text-left` 左对齐文本
 	- `.text-center` 居中文本
 	- `.text-end` 右对齐文本
-- `.text-nowrap` 文本bu'huan'hang
-
-| 类                       | 描述        |
-| ----------------------- | --------- |
-| `.text-break`           | 防止长文本破坏布局 |
-| `.text-decoration-none` | 删除链接中的下划线 |
-| `.text-nowrap`          | 文本不换行     |
+- `.text-nowrap` 文本不换行
+- `.text-break` 让文本换行，防止破坏布局
 
 # 框模型
 ## 边距
