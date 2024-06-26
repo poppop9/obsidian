@@ -2,6 +2,7 @@
 tags:
   - 计算机/JavaWeb/前端
 ---
+
 >[!quote] CSS 语法
 > - 注释：`/* 我是注释 */` 
 > - 使用多个引号时，注意双引号里要使用单引号
@@ -501,6 +502,7 @@ p {
 > - `outline-color`  
 > - `outline-width`
 > - `outline-offset`  轮廓偏移【轮廓与border之间的空间】
+
 # 文本
 ## 基础属性
 - `color`  指定文本的颜色
@@ -638,6 +640,7 @@ p {
   white-space: nowrap;  /* 空白处理，防止文本换行 */
 }
 ```
+
 ### 文本转换
 ```css
 p.uppercase {
