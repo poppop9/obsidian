@@ -71,6 +71,15 @@
 	- `.rounded-end`：为元素的右侧添加圆角
 	- `.rounded-bottom`：为元素的底部添加圆角
 
+# 图片/视频
+- `.object-fit-`
+	- `contain`
+	- `cover`
+	- `fill`
+	- `scale` (for scale-down)  
+	- `none`
+
+
 # 阴影
 - `shadow-none` 无阴影
 - `shadow-sm` 少量阴影
