@@ -656,10 +656,14 @@ p.capitalize {
 }
 ```
 
-# 🌞图片
+# 🌞图片/视频
 - `object-fit:` 
-	- `contain` 保持宽高比，适应容器
-	- `cover` 图片填满容器
+	- 保持宽高比
+		- `contain` 图片适应容器
+		- `cover` 图片填满容器
+	- `fill` 
+	- `scale` 
+	- `none`
 
 # 列表
 - **无序列表**  `ul`
