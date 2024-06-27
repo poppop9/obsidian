@@ -661,9 +661,11 @@ p.capitalize {
 	- 保持宽高比
 		- `contain` 图片适应容器
 		- `cover` 图片填满容器
-	- `fill` 
+		- `none` 原始尺寸
+	- 不保持宽高比
+		- `fill` 拉伸图片来填满
 	- `scale` 
-	- `none`
+
 
 # 列表
 - **无序列表**  `ul`
