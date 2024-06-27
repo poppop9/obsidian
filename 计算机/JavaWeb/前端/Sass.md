@@ -144,7 +144,7 @@ text-overflow: hidden;
 @import "reset";
 ```
 
-## 2️⃣ 部分导入文件
+## ➕️ 部分导入文件
 有时我们不想某个 `.scss` 文件被编译为 `.css` ，而是作为一个导入文件，导入到其他 Sass 文件中，我们就可以将这个 `.scss` 文件以下划线开头，例如 `_temp.scss`
 
 ```css
