@@ -516,7 +516,7 @@
 
 ```html
 <!-- 轮播 -->
-<div id="demo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
 	<!-- 指标/点 -->
 	<div class="carousel-indicators">
 		<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
