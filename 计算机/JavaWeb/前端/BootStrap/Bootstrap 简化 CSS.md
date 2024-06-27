@@ -72,13 +72,14 @@
 	- `.rounded-bottom`：为元素的底部添加圆角
 
 # 图片/视频
-- `.object-fit-`
-	- `contain`
-	- `cover`
-	- `fill`
-	- `scale` (for scale-down)  
-	- `none`
-
+- `.object-fit-` 以多种方式填充父容器
+	- 保持宽高比
+		- `contain` 图片适应容器
+		- `cover` 图片填满容器
+		- `none` 原始尺寸
+	- 不保持宽高比
+		- `fill` 拉伸图片来填满
+	- `scale` 
 
 # 阴影
 - `shadow-none` 无阴影
