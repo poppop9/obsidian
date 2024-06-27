@@ -3,10 +3,10 @@
 >Sass 是一个 CSS 预处理器，增加了<u>规则、变量、混入、选择器、继承、内置函数</u> …… ，可以帮助我们减少 CSS 重复的代码
 >- 文件后缀为 `.scss`
 
-# 🟥 安装
+# 一、安装
 - NPM 安装 `npm install -g sass`
 
-# 🟥 变量
+# 二、变量
 >[!hint] 
 >- Sass 变量可以存储以下信息：
 > 	- 字符串
@@ -66,7 +66,7 @@ body {
 > }
 > ```
  
-# 🟥 嵌套
+# 三、嵌套
 很多 CSS 属性都有同样的前缀，例如：`font-family` , `font-size` ，`font-weight` ，`text-align` , `text-transform` ，`text-overflow`
 
 ---
@@ -120,14 +120,14 @@ text-transform: lowercase;
 text-overflow: hidden;
 ```
 
-# 🟥 导入文件
+# 四、导入文件
 - **完整导入文件**【~~没有下划线前缀的 Sass 文件~~】：它们可以被 Sass 编译器直接编译成 CSS 文件。~~例如，如果你有一个 styles.scss 文件，Sass 编译器会将其编译成 styles.css~~
 - **部分导入文件**【~~带有下划线前缀的 Sass 文件~~】：它们是用来被其他 Sass 文件导入的，不需要被编译为 CSS 文件。~~例如，如果你有一个 `_variables.scss` 文件，你可以在其他 Sass 文件中通过 `@import 'variables';` 来导入它~~
 
 >[!warning] 不要将带下划线与不带下划线的同名文件放置在同一个目录下
 >比如，`_colors.scss` 和 `colors.scss` 不能同时存在于同一个目录下，<u>否则带下划线的文件将会被忽略</u>
 
-## 🟡 完全导入文件
+## 1. 完全导入文件
 `@import filename;` @import 指令可以让我们导入其他文件的内容，导入后我们就可以在主文件中使用导入文件的变量
 
 >[!warning]
@@ -144,7 +144,7 @@ text-overflow: hidden;
 @import "reset";
 ```
 
-## 🟡 部分导入文件
+## 2. 部分导入文件
 有时我们不想某个 `.scss` 文件被编译为 `.css` ，而是作为一个导入文件，导入到其他 Sass 文件中，我们就可以将这个 `.scss` 文件以下划线开头，例如 `_temp.scss`
 
 ```css
