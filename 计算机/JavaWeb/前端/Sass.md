@@ -120,7 +120,7 @@ text-transform: lowercase;
 text-overflow: hidden;
 ```
 
-# 四、导入文件
+# 4️⃣ 导入文件
 - **完整导入文件**【~~没有下划线前缀的 Sass 文件~~】：它们可以被 Sass 编译器直接编译成 CSS 文件。~~例如，如果你有一个 styles.scss 文件，Sass 编译器会将其编译成 styles.css~~
 - **部分导入文件**【~~带有下划线前缀的 Sass 文件~~】：它们是用来被其他 Sass 文件导入的，不需要被编译为 CSS 文件。~~例如，如果你有一个 `_variables.scss` 文件，你可以在其他 Sass 文件中通过 `@import 'variables';` 来导入它~~
 
