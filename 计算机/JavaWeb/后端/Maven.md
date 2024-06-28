@@ -107,6 +107,7 @@ Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发
     </dependency>  
 </dependencies>
 ```
+
 ## 依赖传递
 ![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403031423203.png)
 
@@ -331,6 +332,8 @@ Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发
 
 ### 版本锁定
 当拆分的模块越多，有部分模块需要用到某个依赖时，依赖的版本将变得难以管理，所以我们使用 ***版本锁定*** `<dependencyManagement>`
+
+>[!warning] 没有版本号的依赖不需要管理，所以也就不需要写到 `<dependencyManagement>……</dependencyManagement>` 里
 
 ---
 
