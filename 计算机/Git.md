@@ -436,7 +436,7 @@ temp/
 
 >[!hint] 版本号 `A.B.C`，A 是主要版本，B 是次要版本，C 是修订版本
 
-# idea
+# ❤ idea
 >[!hint]+ 拉取
 > - ![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211339240.png)
 > - 拉取别人仓库![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211342220.png)
@@ -450,6 +450,8 @@ temp/
 >[!hint]+ 推送
 > ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211649783.png)
 
+>[!hint] 拉分支
+>
 
 
 
