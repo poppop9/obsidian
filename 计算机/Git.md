@@ -450,7 +450,7 @@ temp/
 >[!hint]+ 推送
 > ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403211649783.png)
 
->[!hint] 拉分支/切换分支
+>[!hint] 拉分支 / 切换分支
 >- 新拉一个分支
 >![250](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406282300256.png)
 >
@@ -458,7 +458,7 @@ temp/
 >![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406282302895.png)
 >
 >- 合并分支
->![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406282302759.png)
+>![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406282303141.png)
 
 
 
