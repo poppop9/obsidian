@@ -331,7 +331,7 @@ Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发
 >[!warning] 子工程会自动继承父工程的 `<groupId>`，子工程无需再添加 `<groupId>`
 
 ### 版本锁定
-当拆分的模块越多，有部分模块需要用到某个依赖时，依赖的版本将变得难以管理，所以我们使用 ***版本锁定*** `<dependencyManagement>`
+当拆分的模块越多，有部分模块需要用到某个依赖时，依赖的版本将变得难以管理，所以我们使用 **版本锁定** `<dependencyManagement>`
 
 >[!warning] 没有版本号的依赖不需要管理，所以也就不需要写到 `<dependencyManagement>……</dependencyManagement>` 里
 
