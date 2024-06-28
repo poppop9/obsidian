@@ -74,7 +74,7 @@ $$
 >[!quote] 工厂
 >>工厂 是仓库的一个组件，用来<u>组建复杂的 pojo 类</u>
 >
->**好处**：<u>业务实体 和 数据库表结构 不用绑定</u>【比如 Account 类需要很多属性，来自于很多个数据库表，但是我不想 Account 类里有很多属性，那我们就可以利用 accountBuilder 构建一个新的 AccountDo，A 表里查的数据放到 AccountDo 里，B 表里查的数据也放到 AccountDo 里】
+>- **优点**：<u>业务实体 和 数据库表结构 不用绑定</u>【比如 Account 类需要很多属性，来自于很多个数据库表，但是我不想 Account 类里有很多属性，那我们就可以利用 accountBuilder 构建一个新的 AccountDo，A 表里查的数据放到 AccountDo 里，B 表里查的数据也放到 AccountDo 里】
 
 ```java
 // 仓库接口
