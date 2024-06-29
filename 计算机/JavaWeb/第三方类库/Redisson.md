@@ -11,7 +11,7 @@
 ```xml
 <dependency>
     <groupId>org.redisson</groupId>
-    <artifactId>redisson</artifactId>
+    <artifactId>redisson-spring-boot-starter</artifactId>
     <version>3.32.0</version>
 </dependency>
 ```
