@@ -192,6 +192,8 @@ System.out.println(bucketsMap);
 	- `add(值)` 向 List 中添加值
 	- `addAll(集合)` 批量添加
 
+>[!hint] 可以直接把 `RList` 看成 Java 里的 `List 集合`
+
 ```java
 RList<TestUser> rList = redissonClient.getList("listkey");
 
@@ -212,7 +214,7 @@ student2.setAge(19);
 rList.add(student2);
 
 // 通过key获取value
-System.out.println(redissonClient.getList("listkey"));
+rList.forEach(System.out::println);
 ```
 
 ## 💛 哈希
