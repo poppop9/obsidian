@@ -88,9 +88,22 @@ public class RedissonConfig {
 ---
 
 - RKeys 下的方法
-	- `getKeys()` 返回一个所有 key 集合
-	- ``
+	- `getKeys()` 返回所有 key 集合
+	- `getKeysByPattern(模糊匹配)` 根据模糊匹配条件，返回所有 key 集合
+		- `*` 匹配 0 个或多个字符
+		- `?` 匹配单个字符
+		- `[]` 匹配指定字符范围内的单个字符
 
+```java
+//删除多个key值
+long numOfDeletedKeys = keys.delete("obj1", "obj2", "obj3");
+//删除模糊key值
+long deletedKeysAmount = keys.deleteByPattern("test?");
+//随机获取key
+String randomKey = keys.randomKey();
+//当前多少key数
+long keysAmount = keys.count();
+```
 
 ## 💛 哈希
 ```java
