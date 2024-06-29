@@ -157,6 +157,9 @@ return base64;
 String decode = QrCodeUtil.decode(FileUtil.file("d:/qrcode.jpg"));
 ```
 
+# Bean
+
+
 # 加密解密
 >[!quote] 加密分类
 >- **对称加密**
