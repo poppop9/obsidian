@@ -16,7 +16,7 @@
 </dependency>
 ```
 
-# 基础配置
+# 配置
 - 添加 redis 配置
 ```yml
 # Redis  
@@ -71,6 +71,27 @@ public class RedissonConfig {
 }
 ```
 
+# 使用
+## 💛哈希
+```java
+@Autowired  
+private RedissonClient redissonClient;
+
+// 会在redis中创建awards
+@Test
+public void testRedisson() {
+	RMap<String, String> rMap = redissonClient.getMap("awards");
+	rMap.put("101", "随机积分");
+	rMap.put("102", "淘宝优惠券");
+	rMap.put("103", "京东优惠券");
+
+	// 通过key获取value
+	System.out.println(redissonClient.getMap("awards").get("102"));
+}
+
+---
+淘宝优惠券
+```
 
 
 
