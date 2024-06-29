@@ -129,7 +129,7 @@ public void testRedisson() {
 ```
 
 ## 💛 字符串 / 对象
-- redisson 下的方法
+- redissonClient 下的方法
 	- `getBucket(键)` 获取对应 key 的 RBucket 对象
 - RBucket 对象下的方法
 	- `set(值)` 设置 value，如果 key 存在则覆盖
@@ -139,14 +139,12 @@ public void testRedisson() {
 	- **查**
 		- `get()` 查询 key 对应的 value
 
-
-
 ---
 
 - 字符串
 ```java
 // 使用myStringKey作为key，创建bucket对象
-RBucket<String> bucket = redisson.getBucket("myStringKey");
+RBucket<String> bucket = redissonClient.getBucket("myStringKey");
 
 // 存储字符串
 bucket.set("Hello, Redisson!");
@@ -167,7 +165,6 @@ bucket.set(testUser);
 //删除
 RBucket<TestUser> bucket3 = redissonClient.getBucket("user:id:" + testUser.getId());
 System.out.println(bucket3.delete());
-System.out.println(bucket3.getAndDelete());
 
 //批量-获得Buckets
 RBuckets buckets = redissonClient.getBuckets();
@@ -175,6 +172,7 @@ Map<String, TestUser> userMap = new HashMap<>();
 userMap.put("user:id:" + testUser.getId(), testUser);
 userMap.put("user:id:" + testUser2.getId(), testUser2);
 buckets.set(userMap);
+
 //这里的兼具map的属性
 Map<String, TestUser> bucketsMap = buckets.get("user:id:" + testUser.getId(), "user:id:" + testUser2.getId());
 System.out.println(bucketsMap);
