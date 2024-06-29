@@ -17,6 +17,8 @@ List<String> list = new ArrayList<String>();
 Stream<String> stringStream = list.stream();  
 ```
 
+- `Stream.of()` 
+
 ## 数组，直接生成流
 - `Stream.of()` 
 
