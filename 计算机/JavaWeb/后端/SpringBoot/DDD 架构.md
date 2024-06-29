@@ -148,6 +148,7 @@ public class AccountRepositoryImpl {
 		- `req` 请求对象的封装
 		- `res` 响应对象的封装
 		- ……
+	- `repository` 仓库，里面定义了仓库接口，访问 Infrastructure 层的 repository 实现类
 	- `service` **领域服务**，包含业务逻辑，<u>但是只构建业务场景，不负责处理数据，处理数据在充血模型中处理</u>
 
 ---
