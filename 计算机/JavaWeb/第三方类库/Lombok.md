@@ -106,7 +106,7 @@ public class User implements Serializable {
 }
 ```
 
-## 💛建造者
+## 💛 建造者
 - `@Builder` 可以自动生成一个建造者模式相关的代码【~~不需要手动 setter 构建对象，而是链式调用来构建对象~~】，使得对象的构建更加简洁
 
 ```java
