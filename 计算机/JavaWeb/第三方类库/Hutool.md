@@ -185,7 +185,10 @@ AwardBO(strategyId=1, awardId=101, awardCount=100, awardRate=0.1)
 
 ---
 
-- 集合
+- Award 对象集合转 AwardBO 对象集合
+```java
+
+```
 
 # 加密解密
 >[!quote] 加密分类
