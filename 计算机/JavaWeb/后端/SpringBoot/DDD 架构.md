@@ -170,7 +170,10 @@ public class AccountRepositoryImpl {
 
 ## 基础层
 - `infrastructure` **基础层**，包含了数据库，缓存，网关，第三方工具…… ==Mapper==
-	- `Mapper`
+	- `Mapper` 
+	- `PO` 
+	- `redis` 
+	- `repository` 
 
 # 扩展
 微服务创始人说过：
