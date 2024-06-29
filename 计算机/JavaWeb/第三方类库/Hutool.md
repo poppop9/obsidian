@@ -44,6 +44,50 @@ String randomNumber = RandomUtil.randomString(8);
 System.out.println("生成的8位随机数是：" + randomNumber);
 ```
 
+### 💙 权重随机
+
+
+```java
+import cn.hutool.core.util.WeightRandom;
+import cn.hutool.core.util.WeightRandom.WeightObj;
+
+public class WeightRandomExample {
+    public static void main(String[] args) {
+        // 创建权重对象数组
+        WeightObj<String> obj1 = new WeightObj<>("A", 1);
+        WeightObj<String> obj2 = new WeightObj<>("B", 2);
+        WeightObj<String> obj3 = new WeightObj<>("C", 3);
+
+        // 使用数组调用weightRandom方法
+        String resultFromArray = WeightRandom.weightRandom(new WeightObj[]{obj1, obj2, obj3});
+        System.out.println("Result from array: " + resultFromArray);
+
+        // 创建权重对象列表
+        Iterable<WeightObj<String>> weightObjs = () -> new Iterator[]{
+            new Iterator<WeightObj<String>>() {
+                private int index = 0;
+
+                @Override
+                public boolean hasNext() {
+                    return index < 3;
+                }
+
+                @Override
+                public WeightObj<String> next() {
+                    WeightObj<String>[] objs = {obj1, obj2, obj3};
+                    return objs[index++];
+                }
+            }
+        };
+
+        // 使用Iterable调用weightRandom方法
+        String resultFromIterable = WeightRandom.weightRandom(weightObjs);
+        System.out.println("Result from iterable: " + resultFromIterable);
+    }
+}
+```
+
+
 ## Base64
 >[!hint] 在浏览器中打开 Base64 编码的图片
 >直接在浏览器的地址栏中输入：`data:image/png;base64,` + base64编码数据
