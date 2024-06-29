@@ -128,13 +128,25 @@ public void testRedisson() {
 }
 ```
 
-## 💛字符串
+## 💛 字符串 / 对象
+- 字符串
+```java
+// 使用myStringKey作为key，创建bucket对象
+RBucket<String> bucket = redisson.getBucket("myStringKey");
 
+// 存储字符串
+bucket.set("Hello, Redisson!");
+
+// 获取字符串
+System.out.println("Stored value: " + bucket.get());
+```
+
+- 对象
 ```java
 TestUser testUser = new TestUser(1, "harvey", 32);
 TestUser testUser2 = new TestUser(2, "tom", 32);
 
-//设置
+//用TestUser的u
 RBucket<TestUser> bucket = redissonClient.getBucket("user:id:" + testUser.getId());
 bucket.set(testUser);
 //如果已存在值就不存进去，不存在就存进去
