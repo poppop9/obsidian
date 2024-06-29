@@ -161,7 +161,28 @@ String decode = QrCodeUtil.decode(FileUtil.file("d:/qrcode.jpg"));
 Bean 就是有 setter，getter 的 Java 类
 
 ## 💛  Bean -> Bean
+```java
+        Award award = Award.builder()
+                .id(1)
+                .strategyId(1)
+                .awardId(101)
+                .awardKey("random_points")
+                .awardConfig("random_points_config")
+                .awardTitle("随机积分")
+                .awardSubtitle("随机积分副标题")
+                .awardCount(100)
+                .awardRate(0.1f)
+                .awardSort(1)
+                .rules("rules")
+                .createTime(LocalDateTime.now())
+                .updateTime(LocalDateTime.now())
+                .build();
 
+        AwardBO awardBO = new AwardBO();
+
+        BeanUtil.copyProperties(award, awardBO);
+        System.out.println(awardBO);
+```
 
 
 # 加密解密
