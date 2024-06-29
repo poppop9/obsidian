@@ -187,9 +187,10 @@ System.out.println(bucketsMap);
 
 ## 💛  列表 List
 - RedissonClient 下的方法
-	- `getList(键)` 创建 RList
+	- `getList(键)` 生成 RList 对象
 - RList 下的方法
 	- `add(值)` 向 List 中添加值
+	- `addAll(集合)` 批量添加
 
 ```java
 RList<TestUser> rList = redissonClient.getList("listkey");
