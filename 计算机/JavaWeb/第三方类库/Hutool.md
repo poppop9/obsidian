@@ -45,8 +45,6 @@ System.out.println("生成的8位随机数是：" + randomNumber);
 ```
 
 ### 💙 权重随机
-
-
 ```java
 import cn.hutool.core.util.WeightRandom;
 import cn.hutool.core.util.WeightRandom.WeightObj;
@@ -61,32 +59,33 @@ public class WeightRandomExample {
         // 使用数组调用weightRandom方法
         String resultFromArray = WeightRandom.weightRandom(new WeightObj[]{obj1, obj2, obj3});
         System.out.println("Result from array: " + resultFromArray);
-
-        // 创建权重对象列表
-        Iterable<WeightObj<String>> weightObjs = () -> new Iterator[]{
-            new Iterator<WeightObj<String>>() {
-                private int index = 0;
-
-                @Override
-                public boolean hasNext() {
-                    return index < 3;
-                }
-
-                @Override
-                public WeightObj<String> next() {
-                    WeightObj<String>[] objs = {obj1, obj2, obj3};
-                    return objs[index++];
-                }
-            }
-        };
-
-        // 使用Iterable调用weightRandom方法
-        String resultFromIterable = WeightRandom.weightRandom(weightObjs);
-        System.out.println("Result from iterable: " + resultFromIterable);
     }
 }
 ```
 
+```java
+// 创建权重对象列表
+Iterable<WeightObj<String>> weightObjs = () -> new Iterator[]{
+	new Iterator<WeightObj<String>>() {
+		private int index = 0;
+
+		@Override
+		public boolean hasNext() {
+			return index < 3;
+		}
+
+		@Override
+		public WeightObj<String> next() {
+			WeightObj<String>[] objs = {obj1, obj2, obj3};
+			return objs[index++];
+		}
+	}
+};
+
+// 使用Iterable调用weightRandom方法
+String resultFromIterable = WeightRandom.weightRandom(weightObjs);
+System.out.println("Result from iterable: " + resultFromIterable);
+```
 
 ## Base64
 >[!hint] 在浏览器中打开 Base64 编码的图片
