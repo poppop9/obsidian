@@ -59,9 +59,37 @@ List<WeightRandom.WeightObj<String>> weightList = Stream.of(
 
 // 2.生成权重随机对象
 WeightRandom<String> wr = RandomUtil.weightRandom(weightList);
+  
+int numA = 0, numB = 0, numC = 0, numD = 0;  
+  
+// 3.打印随机结果  
+for (int i = 0; i < 1000; i++) {  
+    switch (wr.next()) {  
+        case "A":  
+            numA++;  
+            break;  
+        case "B":  
+            numB++;  
+            break;  
+        case "C":  
+            numC++;  
+            break;  
+        case "D":  
+            numD++;  
+            break;  
+    }  
+}  
+  
+System.out.println("A:" + numA);  
+System.out.println("B:" + numB);  
+System.out.println("C:" + numC);  
+System.out.println("D:" + numD);
 
-// 3.打印随机结果
-System.out.println(wr.next());
+---
+A:210
+B:315
+C:375
+D:100
 ```
 
 ## Base64
