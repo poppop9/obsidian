@@ -146,7 +146,7 @@ System.out.println("Stored value: " + bucket.get());
 TestUser testUser = new TestUser(1, "harvey", 32);
 TestUser testUser2 = new TestUser(2, "tom", 32);
 
-//用TestUser的u
+//用TestUser的id作为key
 RBucket<TestUser> bucket = redissonClient.getBucket("user:id:" + testUser.getId());
 bucket.set(testUser);
 //如果已存在值就不存进去，不存在就存进去
