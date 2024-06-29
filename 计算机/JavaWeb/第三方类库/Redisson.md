@@ -134,8 +134,10 @@ public void testRedisson() {
 - RBucket 对象下的方法
 	- `set(值)` 设置 value，如果 key 存在则覆盖
 	- `trySet(值)` 设置 value，<u>如果 key 存在则不做任何操作</u>
-	- `get()` 查询 key 
-
+	- **删**
+		- `delete()` 删除键值对
+	- **查**
+		- `get()` 查询 key 对应的 value
 
 
 
@@ -161,11 +163,6 @@ TestUser testUser2 = new TestUser(2, "tom", 32);
 //用TestUser的id作为key
 RBucket<TestUser> bucket = redissonClient.getBucket("user:id:" + testUser.getId());
 bucket.set(testUser);
-
-//获取
-RBucket<TestUser> bucket2 = redissonClient.getBucket("user:id:" + testUser.getId());
-System.out.println(bucket2.remainTimeToLive());
-System.out.println(bucket2.get());
 
 //删除
 RBucket<TestUser> bucket3 = redissonClient.getBucket("user:id:" + testUser.getId());
