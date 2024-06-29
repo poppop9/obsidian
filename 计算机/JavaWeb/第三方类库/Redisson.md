@@ -81,6 +81,17 @@ public class RedissonConfig {
 ```
 
 # 使用
+## 💛 Key
+- redissonClient 下的方法
+	- `RKeys getKeys();` 返回 RKeys 对象
+
+---
+
+- RKeys 下的方法
+	- `getKeys()` 返回一个所有 key 集合
+	- ``
+
+
 ## 💛 哈希
 ```java
 @Autowired  
