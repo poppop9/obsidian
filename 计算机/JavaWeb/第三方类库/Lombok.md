@@ -9,13 +9,12 @@
 >[!quote] Lombok
 >Lombok 可以通过注解来简化 Java 类的编写，提高代码的可读性和简洁性
 
----
-
 # 注解
-- `@Getter/@Setter`  为所有属性提供 get/set 方法
-- `@ToString`  给类自动生成的 toString 方法
-- `@EqualsAndHashCode`  根据类所拥有的非静态字段重写 equals 方法和 hashCode 方法
+## get，set，toString，equal
 - `@Data`  是 @Getter+@Setter+@ToString+@EqualsAndHashCode 的集合
+	- `@Getter/@Setter`  为所有属性提供 get/set 方法
+	- `@ToString`  给类自动生成的 toString 方法
+	- `@EqualsAndHashCode`  根据类所拥有的非静态字段重写 equals 方法和 hashCode 方法
 
 ## 构造方法
 - `@NoArgsConstructor`  为实体类生成无参构造方法
