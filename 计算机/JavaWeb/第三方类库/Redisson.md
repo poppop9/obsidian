@@ -128,6 +128,42 @@ public void testRedisson() {
 }
 ```
 
+## 💛字符串
+
+```java
+TestUser testUser = new TestUser(1, "harvey", 32);
+TestUser testUser2 = new TestUser(2, "tom", 32);
+
+//设置
+RBucket<TestUser> bucket = redissonClient.getBucket("user:id:" + testUser.getId());
+bucket.set(testUser);
+//如果已存在值就不存进去，不存在就存进去
+bucket.trySet(testUser);
+
+//获取
+RBucket<TestUser> bucket2 = redissonClient.getBucket("user:id:" + testUser.getId());
+System.out.println(bucket2.remainTimeToLive());
+System.out.println(bucket2.get());
+
+//删除
+RBucket<TestUser> bucket3 = redissonClient.getBucket("user:id:" + testUser.getId());
+System.out.println(bucket3.delete());
+System.out.println(bucket3.getAndDelete());
+
+//批量-获得Buckets
+RBuckets buckets = redissonClient.getBuckets();
+Map<String, TestUser> userMap = new HashMap<>();
+userMap.put("user:id:" + testUser.getId(), testUser);
+userMap.put("user:id:" + testUser2.getId(), testUser2);
+buckets.set(userMap);
+//这里的兼具map的属性
+Map<String, TestUser> bucketsMap = buckets.get("user:id:" + testUser.getId(), "user:id:" + testUser2.getId());
+System.out.println(bucketsMap);
+```
+
+
+
+
 ## 💛 哈希
 ```java
 @Autowired  
