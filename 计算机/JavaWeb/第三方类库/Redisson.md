@@ -16,6 +16,12 @@
 </dependency>
 ```
 
+---
+
+https://blog.csdn.net/A_art_xiang/article/details/125525864?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522171964322916800222820133%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=171964322916800222820133&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-125525864-null-null.142^v100^pc_search_result_base5&utm_term=redisson&spm=1018.2226.3001.4187
+
+---
+
 # 配置
 - 添加 redis 配置
 ```yml
@@ -72,12 +78,12 @@ public class RedissonConfig {
 ```
 
 # 使用
-## 💛哈希
+## 💛 哈希
 ```java
 @Autowired  
 private RedissonClient redissonClient;
 
-// 会在redis中创建awards
+// 会在redis中创建名为awards的HASH数据结构，然后存储以下三个数据
 @Test
 public void testRedisson() {
 	RMap<String, String> rMap = redissonClient.getMap("awards");
