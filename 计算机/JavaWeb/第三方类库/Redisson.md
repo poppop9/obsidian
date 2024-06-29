@@ -129,6 +129,17 @@ public void testRedisson() {
 ```
 
 ## 💛 字符串 / 对象
+- redisson 下的方法
+	- `getBucket(键)` 获取对应 key 的 RBucket 对象
+- RBucket 对象下的方法
+	- `set(值)` 设置 v
+	- `trySet(值)` 
+
+
+
+
+---
+
 - 字符串
 ```java
 // 使用myStringKey作为key，创建bucket对象
