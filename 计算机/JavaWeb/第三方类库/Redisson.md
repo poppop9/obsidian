@@ -165,20 +165,24 @@ bucket.set(testUser);
 //删除
 RBucket<TestUser> bucket3 = redissonClient.getBucket("user:id:" + testUser.getId());
 System.out.println(bucket3.delete());
+```
 
+### 💙 批量处理
+```java
 //批量-获得Buckets
 RBuckets buckets = redissonClient.getBuckets();
+
+// 创建map集合，存储键值对
 Map<String, TestUser> userMap = new HashMap<>();
 userMap.put("user:id:" + testUser.getId(), testUser);
 userMap.put("user:id:" + testUser2.getId(), testUser2);
+
 buckets.set(userMap);
 
 //这里的兼具map的属性
 Map<String, TestUser> bucketsMap = buckets.get("user:id:" + testUser.getId(), "user:id:" + testUser2.getId());
 System.out.println(bucketsMap);
 ```
-
-
 
 
 ## 💛 哈希
