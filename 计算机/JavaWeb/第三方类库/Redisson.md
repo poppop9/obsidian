@@ -19,7 +19,20 @@
 # 基础配置
 - 添加 redis 配置
 ```yml
-
+# Redis  
+redis:  
+  sdk:  
+    config:  
+      host: 127.0.0.1  
+      port: 6379  
+      pool-size: 10  
+      min-idle-size: 5  
+      idle-timeout: 30000  
+      connect-timeout: 5000  
+      retry-attempts: 3  
+      retry-interval: 1000  
+      ping-interval: 60000  
+      keep-alive: true
 ```
 
 - 添加配置类 `RedissonConfig` 
