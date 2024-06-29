@@ -45,16 +45,19 @@ System.out.println("生成的8位随机数是：" + randomNumber);
 ```
 
 ### 💙 权重随机
+根据对象的权重值，来 Random 对象
+
 ```java
 // 1.构建权重对象WeightObj，将其加入list集合
 List<WeightRandom.WeightObj<String>> weightList = Stream.of(
+		// 第一个值是权重对象，第二个值是权重
 		new WeightRandom.WeightObj<String>("A", 20),
 		new WeightRandom.WeightObj<String>("B", 30),
 		new WeightRandom.WeightObj<String>("C", 40),
 		new WeightRandom.WeightObj<String>("D", 10)
 ).collect(Collectors.toList());
 
-// 2.生成权重随机结果对象
+// 2.生成权重随机对象
 WeightRandom<String> wr = RandomUtil.weightRandom(weightList);
 
 // 3.打印随机结果
