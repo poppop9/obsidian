@@ -99,10 +99,33 @@ public class RedissonConfig {
 			- `[]` 匹配指定字符范围内的单个字符
 		- `randomKey()` 随机获取 key
 		- `count()` 统计 key 的数量
+		- `countExists(键)` 判断 key 是否存在
 
+---
 
 ```java
+@Autowired  
+private RedissonClient redissonClient;
 
+@Test
+public void testRedisson() {
+	RKeys keys = redissonClient.getKeys();
+	//获取所有key值
+	keys.getKeys().forEach(System.out::println);
+	System.out.println("====================================");
+
+	//模糊获取key值
+	keys.getKeysByPattern("*sys*").forEach(System.out::println);
+
+	// 删除key
+	keys.delete("sys1111", "2222_sys2222");
+
+	// 判断key是否存在
+	System.out.println(keys.countExists("awards"));
+
+	// 获取key的数量
+	System.out.println(keys.count());
+}
 ```
 
 ## 💛 哈希
