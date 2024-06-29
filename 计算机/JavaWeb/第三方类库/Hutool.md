@@ -187,7 +187,32 @@ AwardBO(strategyId=1, awardId=101, awardCount=100, awardRate=0.1)
 
 - Award 对象集合转 AwardBO 对象集合
 ```java
+List<Award> awards = Stream.of(
+		Award.builder()
+				.id(1).strategyId(1).awardId(101)
+				.awardKey("random").awardConfig("random")
+				.awardTitle("随机积分").awardSubtitle("副标题")
+				.awardCount(100).awardRate(0.1f).awardSort(1)
+				.rules("rules").createTime(LocalDateTime.now())
+				.updateTime(LocalDateTime.now())
+				.build(),
+		Award.builder()
+				.id(2).strategyId(1).awardId(102)
+				.awardKey("random").awardConfig("config")
+				.awardTitle("随机积分").awardSubtitle("副")
+				.awardCount(100).awardRate(0.1f)
+				.awardSort(1).rules("rules")
+				.createTime(LocalDateTime.now())
+				.updateTime(LocalDateTime.now())
+				.build()
+).toList();
 
+List<AwardBO> awardBOs = BeanUtil.copyToList(awards, AwardBO.class);
+awardBOs.forEach(System.out::println);
+
+---
+AwardBO(strategyId=1, awardId=101, awardCount=100, awardRate=0.1)
+AwardBO(strategyId=1, awardId=102, awardCount=100, awardRate=0.1)
 ```
 
 # 加密解密
