@@ -173,7 +173,7 @@ public class AccountRepositoryImpl {
 	- `Mapper` 
 	- `PO` 
 	- `redis` 
-	- `repository` 
+	- `repository` 使用 `@Repository` 标记
 
 # 扩展
 微服务创始人说过：
