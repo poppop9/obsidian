@@ -194,26 +194,21 @@ System.out.println(bucketsMap);
 
 >[!hint] 可以直接把 `RList` 看成 Java 里的 `List 集合`
 
+---
+
 ```java
-RList<TestUser> rList = redissonClient.getList("listkey");
+// 构建集合
+List<AwardBO> AwardBOs = Stream.of(
+		new AwardBO(1, 1, 1, 0.1f),
+		new AwardBO(1, 2, 1, 0.2f),
+		new AwardBO(1, 3, 1, 0.3f)
+).toList();
 
-// 构建对象1
-TestUser student1 = new TestUser();
-student1.setId(1);
-student1.setName("张三");
-student1.setAge(18);
-// 添加对象1
-rList.add(student1);
+// 生成 RList
+RList<Object> rList = redissonClient.getList("testList");
 
-// 构建对象2
-TestUser student2 = new TestUser();
-student2.setId(2);
-student2.setName("李四");
-student2.setAge(19);
-// 添加对象2
-rList.add(student2);
+rList.addAll(AwardBOs);
 
-// 通过key获取value
 rList.forEach(System.out::println);
 ```
 
