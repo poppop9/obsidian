@@ -158,6 +158,10 @@ String decode = QrCodeUtil.decode(FileUtil.file("d:/qrcode.jpg"));
 ```
 
 # Bean
+Bean 就是有 setter，getter 的 Java 类
+
+## 💛  Bean -> Bean
+
 
 
 # 加密解密
