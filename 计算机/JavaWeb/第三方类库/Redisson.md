@@ -169,7 +169,7 @@ System.out.println(bucket3.delete());
 
 ### 💙 批量处理
 ```java
-//批量-获得Buckets
+// 创建 Buckets
 RBuckets buckets = redissonClient.getBuckets();
 
 // 创建map集合，存储键值对
@@ -179,11 +179,11 @@ userMap.put("user:id:" + testUser2.getId(), testUser2);
 
 buckets.set(userMap);
 
-//这里的兼具map的属性
+// 批量获取 value
 Map<String, TestUser> bucketsMap = buckets.get("user:id:" + testUser.getId(), "user:id:" + testUser2.getId());
+
 System.out.println(bucketsMap);
 ```
-
 
 ## 💛 哈希
 ```java
