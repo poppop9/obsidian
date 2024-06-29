@@ -186,6 +186,11 @@ System.out.println(bucketsMap);
 ```
 
 ## 💛  列表 List
+- RedissonClient 下的方法
+	- `getList(键)` 创建 RList
+- RList 下的方法
+	- `add(值)` 向 List 中添加值
+
 ```java
 RList<TestUser> rList = redissonClient.getList("listkey");
 
@@ -194,7 +199,7 @@ TestUser student1 = new TestUser();
 student1.setId(1);
 student1.setName("张三");
 student1.setAge(18);
-
+// 添加对象1
 rList.add(student1);
 
 // 构建对象2
@@ -202,16 +207,12 @@ TestUser student2 = new TestUser();
 student2.setId(2);
 student2.setName("李四");
 student2.setAge(19);
+// 添加对象2
 rList.add(student2);
 
-//设置过期时间
-rList.expire(30, TimeUnit.SECONDS);
 // 通过key获取value
 System.out.println(redissonClient.getList("listkey"));
 ```
-
-
-
 
 ## 💛 哈希
 ```java
