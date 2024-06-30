@@ -71,6 +71,21 @@ $$
 >[!quote] 仓库
 >仓库 Repository 位于 `Mapper 层`，和 `Service 层` 之间，目的就是<u>解耦 `domain 层` 和 `infrastructure 层`</u>
 
+- `domain` 
+	- model
+	- repository
+		- IStrategyRepository
+	- 【service】：service 需要访问数据库，那就通过
+		- IStrategyService
+
+```java
+
+```
+
+
+
+
+- `infrastructure` 
 
 
 
