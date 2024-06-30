@@ -67,10 +67,9 @@ $$
 > 字段：属性1 属性2 属性3 属性4
 > ```
 
-## 仓库
+## 仓库 Repository
 >[!quote] 仓库
->仓库 是用来管理实体类的，类似 MVC 中的 `Mapper`
-
+>仓库 Repository 位于 `Mapper 层`，和 `Service 层` 之间，目的就是<u>解耦 `domain 层` 和 `infrastructure 层`</u>
 
 
 
