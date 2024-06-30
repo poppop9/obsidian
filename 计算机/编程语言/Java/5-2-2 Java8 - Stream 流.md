@@ -173,6 +173,16 @@ public static void main(String[] args) {
 ```
 
 ## map，mapToInt
+这里的 map 不是 map 集合，而是“yign”
+
+- 将
+```java
+List<Integer> awardIds = awardBOs.stream()
+		.map(AwardBO::getAwardId)
+		.toList();
+```
+
+
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
