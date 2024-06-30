@@ -173,15 +173,19 @@ public static void main(String[] args) {
 ```
 
 ## map，mapToInt
-这里的 map 不是 map 集合，而是“yign”
+这里的 map 不是 map 集合，而是“映射”的意思
 
-- 将
+---
+
+- `对象::属性名` 把对象集合 -> 对象中的某个属性集合
 ```java
+// 将awardBO集合，转为awardBO的属性awardId的集合
 List<Integer> awardIds = awardBOs.stream()
 		.map(AwardBO::getAwardId)
 		.toList();
 ```
 
+---
 
 ```java
 public static void main(String[] args) {  
