@@ -78,15 +78,13 @@ $$
 	- 【service】
 		- IStrategyService：IStrategyService 需要访问数据库，那就通过 IStrategyRepository 访问
 
-```java
-
-```
+---
 
 - `infrastructure` 
 	- 【mapper】
 		- IStrategyMapper
 	- 【repository】
-		- StrategyRepository：StrategyRepository 实现了 IStrategyRepository 接口，调用了 IStrategyMapper
+		- StrategyRepository：StrategyRepository 实现了 IStrategyRepository 接口；调用了 IStrategyMapper
 
 ## 对比 MVC ，DDD
 ### 架构易拆分
