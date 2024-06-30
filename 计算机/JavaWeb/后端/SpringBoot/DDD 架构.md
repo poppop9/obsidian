@@ -72,22 +72,21 @@ $$
 >仓库 Repository 位于 `Mapper 层`，和 `Service 层` 之间，目的就是<u>解耦 `domain 层` 和 `infrastructure 层`</u>
 
 - `domain` 
-	- model
-	- repository
+	- 【model】
+	- 【repository】
 		- IStrategyRepository
-	- 【service】：service 需要访问数据库，那就通过
-		- IStrategyService
+	- 【service】
+		- IStrategyService：IStrategyService 需要访问数据库，那就通过 IStrategyRepository 访问
 
 ```java
 
 ```
 
-
-
-
 - `infrastructure` 
-
-
+	- 【mapper】
+		- IStrategyMapper
+	- 【repository】
+		- StrategyRepository：StrategyRepository 实现了 IStrategyRepository 接口，调用了 IStrategyMapper
 
 ## 对比 MVC ，DDD
 ### 架构易拆分
