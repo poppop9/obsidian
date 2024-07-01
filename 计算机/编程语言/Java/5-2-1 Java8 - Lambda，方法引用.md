@@ -23,11 +23,11 @@
 > ```
 > 
 > ```java
-> // 使用Lambda表达式实现多线程时
+> // 使用 Lambda 表达式实现多线程时
 > public static void main(String[] args) {
->   new Thread(() -> {
-> 	  System.out.println("多线程启动了");
->   }).start();
+> 	new Thread(() -> {
+> 		System.out.println("多线程启动了");
+> 	}).start();
 > }
 > ```
 > 
@@ -38,7 +38,7 @@
 ---
 
 >[!hint] 使用前提
->- **这个类要有一个接口**：比如需要的 MyRunnable 这个类有一个接口 Runnable
+>- **这个类要有一个接口**：比如需要的 MyRunnable 这个类要有一个 Runnable 接口
 >- **这个接口中有且仅有一个抽象方法**：比如 Runnable 接口里只有一个抽象方法 run
 
 ```java
