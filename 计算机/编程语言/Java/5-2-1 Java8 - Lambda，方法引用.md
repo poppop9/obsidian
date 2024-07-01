@@ -51,7 +51,7 @@ public interface Eatable {
 public class EatableDemo {  
     public static void main(String[] args) {  
         useEatable((int a, int b) -> {   // 书写Eatable的实现内部类
-            return a + b;                 //方法的具体实现
+            return a + b;   //方法的具体实现
         });  
     }  
   
