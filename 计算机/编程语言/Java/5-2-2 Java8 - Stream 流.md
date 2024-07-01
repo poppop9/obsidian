@@ -39,19 +39,19 @@ public static void main(String[] args) {
 >打开流，做出数据过滤/映射，然后返回一个新的流
 
 >[!summary] Method Summary
->Stream\<T> filter(Predicate\<T> pre)  ------以Predicate接口为条件，对流进行过滤
+>Stream\<T> filter(Predicate\<T> pre)  ------ 以 Predicate 接口为条件，对流进行过滤
 >
->Stream\<T> limit(long maxSize)  ------返回一个截取了前maxSize个元素的流
->Stream\<T> skip(long n)  ------跳过n个元素，返回剩下元素的流
+>Stream\<T> limit(long maxSize)  ------返回一个截取了前 maxSize 个元素的流
+>Stream\<T> skip(long n)  ------跳过 n 个元素，返回剩下元素的流
 >
->static \<T> Stream\<T> concat(Stream a, Stream b) -----合并a和b两个流
+>static \<T> Stream\<T> concat(Stream a, Stream b) -----合并 a 和 b 两个流
 >Stream\<T> distinct()  ------去除流中的重复元素，再返回这个流
 >
 >Stream\<T> sorted()  ------返回一个按自然顺序排序后的流
->Stream\<T> sorted(Comparator c)  ------返回一个根据比较器c排序后的流
+>Stream\<T> sorted(Comparator c)  ------返回一个根据比较器 c 排序后的流
 >
->Stream\<R> map(Function mapper)  ------返回一个由Function接口处理过的流
->IntStream mapToInt(ToIntFunction mapper)----返回一个由mapper处理过的IntStream
+>Stream\<R> map(Function mapper)  ------返回一个由 Function 接口处理过的流
+>IntStream mapToInt(ToIntFunction mapper)----返回一个由 mapper 处理过的 IntStream
 
 ## filter 过滤器
 ```java
