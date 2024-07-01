@@ -62,10 +62,11 @@ public static void main(String[] args) {
     list.add("黎明");  
     list.add("吴京");  
 
-       //生成stream流     
-    list.stream().filter(new Predicate<String>() {    //调用filter过滤器
+    //生成stream流     
+    list.stream()
+    .filter(new Predicate<String>() {    //调用filter过滤器
         @Override                                   
-        public boolean test(String s) {               //重写Predicate接口的test()方法
+        public boolean test(String s) {      //重写Predicate接口的test()方法
             return s.startsWith("吴");  
         }  
     }).filter(new Predicate<String>() {  
