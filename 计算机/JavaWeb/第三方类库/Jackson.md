@@ -26,14 +26,14 @@ $$
 - 序列化：将 Java 对象转换为 Json 格式的字符串
 - 反序列化：将 JSON 格式的字符串转换回对应的 Java 对象
 
-# ObjectMapper
+# ❤ ObjectMapper
 >[!hint] 忽略 JSON 中的某些字段
 >有时候，JSON 中的字段非常冗余，我们只需要将一小部分字段写入到 Java 对象中。这时，可以忽略额外的字段：
 > ```java
 >objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 > ```
 
-## 反序列化：JSON -> Java 对象
+## 💛 反序列化：JSON -> Java 对象
 ### JSON 字符串 -> Java 对象
 ```java
 // Car 类
@@ -120,7 +120,7 @@ String jsonArray = "[{\"brand\":\"ford\"}, {\"brand\":\"Fiat\"}]";
 Car[] cars2 = objectMapper.readValue(jsonArray, Car[].class);
 ```
 
-## JSON -> 集合
+## 💛 JSON -> 集合
 ### JSON 字符串数组 -> List
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
@@ -130,7 +130,7 @@ String jsonArray = "[{\"brand\":\"ford\"}, {\"brand\":\"Fiat\"}]";
 List<Car> cars1 = objectMapper.readValue(jsonArray, new TypeReference<List<Car>>(){});
 ```
 
-### JSON 字符串数组 -> Map
+### JSON 字符串 -> Map
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
 
@@ -139,7 +139,7 @@ String jsonObject = "{\"brand\":\"ford\", \"doors\":5}";
 Map<String, Object> jsonMap = objectMapper.readValue(jsonObject, new TypeReference<Map<String,Object>>(){});
 ```
 
-## 序列化：Java 对象 -> JSON
+## 💛 序列化：Java 对象 -> JSON
 - `writeValue()` 
 - `writeValueAsString()` 将生成的 JSON 作为 `String` 返回
 - `writeValueAsBytes()` 将生成的 JSON 作为字节数组返回
@@ -187,7 +187,7 @@ System.out.println(json);
 > System.out.println(output2);
 > ```
 
-# JsonNode 树模型
+# ❤ JsonNode 树模型
 >[!quote] 树模型
 >>树模型 由 JsonNode 类表示，可用于表示 JSON 对象
 >
