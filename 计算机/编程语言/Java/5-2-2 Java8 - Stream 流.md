@@ -54,6 +54,8 @@ public static void main(String[] args) {
 >IntStream mapToInt(ToIntFunction mapper)----返回一个由 mapper 处理过的 IntStream
 
 ## filter 过滤器
+filter 里的条件是留下的条件
+
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
