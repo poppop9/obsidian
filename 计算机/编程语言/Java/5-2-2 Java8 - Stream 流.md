@@ -18,9 +18,17 @@ Stream<String> stringStream = list.stream();
 ```
 
 ## 双列集合 Map 生成流
-无法直接生成流，只能分开 key 和 
+无法直接生成流，只能分开 key 和 value
 
-## 数组，直接生成流
+## 数组生成流
+调用 `stream()` 方法
+
+```java
+int[] numbers = {1, 2, 3, 4, 5};
+IntStream stream = Arrays.stream(numbers);
+```
+
+## 零散数据生成流
 - `Stream.of()` 
 
 ```java
