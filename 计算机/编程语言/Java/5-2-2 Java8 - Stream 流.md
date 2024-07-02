@@ -9,7 +9,7 @@
 # 生成流
 通过数据源【~~数组、集合、IO 通道、生成器……~~】生成流
 
-## Collection，Map 生成流
+## 单列集合 Collection 生成流
 - 直接用集合调用 `stream()` 方法
 
 ```java
@@ -17,7 +17,8 @@ List<String> list = new ArrayList<String>();
 Stream<String> stringStream = list.stream();  
 ```
 
-- `Stream.of()` 
+## 双列集合 Map 生成流
+无法直接生成流，只能分开 key 和 
 
 ## 数组，直接生成流
 - `Stream.of()` 
