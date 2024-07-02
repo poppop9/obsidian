@@ -18,7 +18,7 @@ Stream<String> stringStream = list.stream();
 ```
 
 ## 双列集合 Map 生成流
-无法直接生成流
+无法直接生成流，如果想要处理<u>可以分开获取 key 流，和 value 流</u>；<u>也可以通过 entrySet 获取</u>
 
 ## 数组生成流
 调用 `stream()` 方法
