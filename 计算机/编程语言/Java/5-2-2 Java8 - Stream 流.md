@@ -301,27 +301,25 @@ public static void main(String[] args) {
 - `Collectors.toMap(new Function<>(){} ,new Function<>(){})` 收集到 Map 集合
 
 ```java
-public static void main(String[] args) {  
-    String arr[] = {"陈冠希,14", "吴彦祖,66", "刘德华,2"};  
-      
-    Stream<String> stream = Stream.of(arr).filter((String s) -> {  
-        return Integer.parseInt(s.split(",")[1]) > 2;//过滤掉年龄大于2的，并生成流  
-    });  
-      
-    Map<String, Integer> collect = stream.collect(Collectors.toMap(new Function<String, String>() {  
-        @Override  
-        public String apply(String s) {  
-            return s.split(",")[0];  
-        }                              //第一个Function是map的键，由,前面的元素构成  
-    }, new Function<String, Integer>() {  
-        @Override  
-        public Integer apply(String s) {  
-            return Integer.parseInt(s.split(",")[1]);  
-        }                             //第二个Function是map的值，由,后面的元素构成  
-    }));  
+String arr[] = {"陈冠希,14", "吴彦祖,66", "刘德华,2"};  
   
-    System.out.println(collect);  
-}
+Stream<String> stream = Stream.of(arr).filter((String s) -> {  
+	return Integer.parseInt(s.split(",")[1]) > 2;//过滤掉年龄大于2的，并生成流  
+});  
+  
+Map<String, Integer> collect = stream.collect(Collectors.toMap(new Function<String, String>() {  
+	@Override  
+	public String apply(String s) {  
+		return s.split(",")[0];  
+	}                              //第一个Function是map的键，由,前面的元素构成  
+}, new Function<String, Integer>() {  
+	@Override  
+	public Integer apply(String s) {  
+		return Integer.parseInt(s.split(",")[1]);  
+	}                             //第二个Function是map的值，由,后面的元素构成  
+}));  
+
+System.out.println(collect);  
 
 
 {陈冠希=14, 吴彦祖=66}
