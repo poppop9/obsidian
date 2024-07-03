@@ -324,7 +324,8 @@ For a better experience on WSL, consider enabling the WSL [autoMemoryReclaim 3
 
 This feature causes the Windows host to better reclaim unused memory inside the WSL virtual machine, thereby resulting in better memory availability to other host applications. This is particularly helpful with Docker Desktop, since otherwise the WSL VM may consume large amounts (GBs) of memory in the Linux kernel’s page cache as Docker builds container images, without ever returning that memory to the host when it becomes unused inside the VM.
 
-
+感觉你可以尝试下在 .wslconfig 文件里加上如下配置：
+`[experimental] autoMemoryReclaim=dropcache`
 
 
 
