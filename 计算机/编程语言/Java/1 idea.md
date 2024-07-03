@@ -16,7 +16,7 @@ get ,set 方法，构造方法   `alt+insert`
 ---
 
 - 运行代码   `ctrl+shift+F10`
-- 搜索当前类 `ctrl+F`
+- `ctrl+F` 在当前类中，进行搜索
 - 查看源码   `ctrl+B`
 - 查看类的结构信息   `alt+7`
 - 查看某个类的所有方法 `ctrl+f12`
