@@ -307,7 +307,7 @@ $ git log --oneline --decorate --graph
 * 85fc7e7 (tag: v0.9) 第一次版本提交
 ```
 
-# 远程仓库
+# ❤ 远程仓库
 >如果你想通过 Git 分享你的代码或者与其他开发人员合作，你就需要将数据放到一台其他开发人员能够连接的服务器上
 >![400](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403221113329.png)
 
