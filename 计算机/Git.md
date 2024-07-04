@@ -343,6 +343,18 @@ $ git config --global user.email "your_email@youremail.com"
 ## 推送
 - `git push 远程仓库别名 本地分支名:远程分支名` 进行推送
 
+>[!hint] 推送的格式
+> - `feat` 新功能
+> - `fix` 修复 bug
+> - `docs` 文档注释
+> - `style` 代码格式（不影响代码运行的变动）
+> - `refactor` 重构、优化（既不增加新功能，也不是修复 bug）
+> - `perf` 性能优化
+> - `test` 增加测试
+> - `chore` 构建过程或辅助工具的变动
+> - `revert` 回退
+> - `build` 打包
+
 ## 查看
 - `git remote` 查看当前配置有哪些远程仓库
 	- `-v` 查看到链接地址
