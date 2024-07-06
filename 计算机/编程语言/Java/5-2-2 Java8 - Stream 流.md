@@ -65,7 +65,7 @@ public static void main(String[] args) {
 >IntStream mapToInt(ToIntFunction mapper)----返回一个由 mapper 处理过的 IntStream
 
 ## filter
-filter 里的条件是留下的条件
+filter 里传入一个 Predicate 接口，用于判断流中的元素是否符合条件，如果返回 True 则留下，如果是 False 则过滤掉
 
 ```java
 public static void main(String[] args) {  
@@ -75,24 +75,27 @@ public static void main(String[] args) {
     list.add("黎明");  
     list.add("吴京");  
 
-    //生成stream流     
-    list.stream()
-    .filter(new Predicate<String>() {    //调用filter过滤器
-        @Override                                   
-        public boolean test(String s) {      //重写Predicate接口的test()方法
-            return s.startsWith("吴");  
-        }  
-    }).filter(new Predicate<String>() {  
-        @Override  
-        public boolean test(String s) {  
-            return s.length() == 3;  
-        }  
-    }).forEach(new Consumer<String>() {        //调用forEach迭代器
-        @Override  
-        public void accept(String s) {          //重写Consumer接口的accept()方法
-            System.out.println(s);  
-        }  
-    });  
+	// 生成 Stream 流
+	list.stream()
+		// 调用filter接口
+	    .filter(new Predicate<String>() {
+	        @Override
+	        public boolean test(String s) {
+	            return s.startsWith("吴");  // 只有姓吴的可以留下
+	        }
+	    })
+	    .filter(new Predicate<String>() {
+	        @Override
+	        public boolean test(String s) {
+	            return s.length() == 3;  // 只有长度大于3可以留下
+	        }
+	    })
+	    .forEach(new Consumer<String>() {
+	        @Override
+	        public void accept(String s) {
+	            System.out.println(s);
+	        }
+	    });
 }
 
 
