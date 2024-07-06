@@ -237,8 +237,7 @@ public static void main(String[] args) {
 ```
 
 ## flatMap
-
-`flatMap`通常用于将一个流中的每个元素转换成另一个流，然后将这些流连接起来形成一个单一的流。而`.map`通常用于将流中的每个元素应用一个函数，转换成另一种形式的元素
+`flatMap` 用于将一个流中的每个元素转换成另一个流，然后将这些流连接起来形成一个单一的流。而`.map`通常用于将流中的每个元素应用一个函数，转换成另一种形式的元素
 
 
 `.flatMap(map -> map.entrySet().stream())`
@@ -256,10 +255,9 @@ public static void main(String[] args) {
 # 终结操作
 一个流使用终结操作后，就无法再进行操作了，**这是流的最后一个操作**
 
->[!summary] Method Summary
->void forEach(Consumer action)  ------对该流的每个元素执行操作
->long count()  ------返回该流中的元素个数
->R collect(Collector collector)  ------按照 collector 的要求，把元素收集到集合中
+- `void forEach(Consumer action)` 对该流的每个元素执行操作
+- `long count()` 返回该流中的元素个数
+- `R collect(Collector collector)` 按照 collector 的要求，把元素收集到集合中
 
 ## forEach
 ```java
