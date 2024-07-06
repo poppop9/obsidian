@@ -5,6 +5,8 @@
 > ```java
 > public interface Stream\<T> extends BaseStream<T,Stream\<T>>
 > ```
+> 
+> - Stream 流的操作不会影响原集合
 
 # 生成流
 通过数据源【~~数组、集合、IO 通道、生成器……~~】生成流
@@ -62,7 +64,7 @@ public static void main(String[] args) {
 >Stream\<R> map(Function mapper)  ------返回一个由 Function 接口处理过的流
 >IntStream mapToInt(ToIntFunction mapper)----返回一个由 mapper 处理过的 IntStream
 
-## filter 过滤器
+## filter
 filter 里的条件是留下的条件
 
 ```java
@@ -185,7 +187,7 @@ public static void main(String[] args) {
 ```
 
 ## map，mapToInt
-这里的 map 不是 map 集合，而是“映射”的意思
+map 转换流中的数据类型
 
 ---
 
