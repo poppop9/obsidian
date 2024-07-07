@@ -103,6 +103,9 @@ public static void main(String[] args) {
 ```
 
 ## limit，skip
+- `limit(个数)` 获取流前面的 n 个元素
+- `skip(个数)` 获取流最后的 n 个元素
+
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
