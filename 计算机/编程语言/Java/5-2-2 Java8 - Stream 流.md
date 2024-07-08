@@ -294,8 +294,12 @@ public static void main(String[] args) {
 ```
 
 ## findFirst
-- `findFirst` 获取流中的第一个元素，并返回
+- `Optional findFirst` 获取流中的第一个元素，并返回 Optional 对象
+	- `get()` 获取到 Optional 对象的值，也就是 Stream 流中的元素
 
+>[!hint] 获得 Stream 流中的最后一个元素：
+>- 先 skip （长度 - 1） 个元素
+>- 再 findFirst
 
 ## count
 ```java
