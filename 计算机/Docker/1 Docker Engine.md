@@ -82,10 +82,23 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 docker version
 ```
 
-- 配置镜像加速 https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
-	- 进入阿里云的容器镜像服务
-	- 进入镜像工具的镜像加速器
-	- 根据操作文档修改
+>[!hint] 配置镜像加速
+
+```bash
+sudo nano /etc/docker/daemon.json
+
+# 往这个文件中添加内容
+{
+  "registry-mirrors": [
+    "https://hub.uuuadc.top",
+    "https://docker.anyhub.us.kg",
+    "https://dockerhub.jobcher.com",
+    "https://dockerhub.icu",
+    "https://docker.ckyl.me",
+    "https://docker.awsl9527.cn"
+  ]
+}
+```
 
 >[!hint] 额外配置
 >>额外的配置可以让我们在使用 Docker 时更加方便
