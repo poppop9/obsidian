@@ -83,22 +83,22 @@ docker version
 ```
 
 >[!hint] 配置镜像加速
-
-```bash
-sudo nano /etc/docker/daemon.json
-
-# 往这个文件中添加内容
-{
-  "registry-mirrors": [
-    "https://hub.uuuadc.top",
-    "https://docker.anyhub.us.kg",
-    "https://dockerhub.jobcher.com",
-    "https://dockerhub.icu",
-    "https://docker.ckyl.me",
-    "https://docker.awsl9527.cn"
-  ]
-}
-```
+> ```bash
+> # 创建文件
+> sudo nano /etc/docker/daemon.json
+> 
+> # 往 daemon.json 这个文件中添加内容
+> {
+>   "registry-mirrors": [
+>     "https://hub.uuuadc.top",
+>     "https://docker.anyhub.us.kg",
+>     "https://dockerhub.jobcher.com",
+>     "https://dockerhub.icu",
+>     "https://docker.ckyl.me",
+>     "https://docker.awsl9527.cn"
+>   ]
+> }
+> ```
 
 >[!hint] 额外配置
 >>额外的配置可以让我们在使用 Docker 时更加方便
