@@ -108,59 +108,6 @@ docker version
 > 	- 将用户添加到 docker 组 `sudo usermod -aG docker 用户`
 > 	- 激活对组的更改 `newgrp docker`
 
-
-# 推送到 DockerHub
-```bash
-# 进行登录
-docker login
-
-# 推送到dockerhub
-# docker push 用户名/仓库名:版本号
-docker push 1962883041612/ltzf-interface
-```
-
-# Docker 命令
-
-## 挂载
-### 复制
-- `docker cp 容器名:容器内文件 宿主机文件` 将容器内的文件复制到宿主机上
-
-### 数据卷
->[!warning] 容器创建之后不能再挂载数据卷，只能在 `docker run` 的时候就挂载
-
-```mermaid
-graph LR
-	a[宿主机目录]---->b[数据卷]
-	b-->a
-	b---->c[容器内目录]
-	c-->b
-```
-
----
-
-- `docker volume create` 创建数据卷
-
-- [[#^131b42]] ，挂载数据卷时，如果没有数据卷，会自动创建数据卷
-
-```bash
-docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
-```
-
-- 查看
-	- `docker volume ls` 查看所有数据卷
-	- `docker volume inspect 数据卷名` 查看某个数据卷的详情【数据卷在宿主机的目录，……】
-- 删除
-	- `docker volume rm` 删除指定数据卷
-	- `docker volume prune` 删除未使用的数据卷
-
-### 本地目录
-具体操作：[[#^ca483a]]
-
-```bash
-docker run -d --name mysql -p 3306:3306 -e TZ=Asia/Shanghai -e MYSQL_ROOT_PASSWORD=13433026660 -v ./mysql/data:/var/lib/mysql -v ./mysql/conf:/etc/mysql/conf.d -v ./mysql/init:/docker-entrypoint-initdb.d mysql
-```
-
-
 # ❤ 镜像
 ## 制作镜像
 ### 根据 Dockerfile 制作镜像
@@ -322,6 +269,44 @@ docker exec -it my_container bash
 - 【直接挂载到本地目录】==常用== ： 直接挂载到本地目录可以任意指定挂载的地方，方便访问和修改
 
 
+## 挂载
+### 复制
+- `docker cp 容器名:容器内文件 宿主机文件` 将容器内的文件复制到宿主机上
+
+### 数据卷
+>[!warning] 容器创建之后不能再挂载数据卷，只能在 `docker run` 的时候就挂载
+
+```mermaid
+graph LR
+	a[宿主机目录]---->b[数据卷]
+	b-->a
+	b---->c[容器内目录]
+	c-->b
+```
+
+---
+
+- `docker volume create` 创建数据卷
+
+- [[#^131b42]] ，挂载数据卷时，如果没有数据卷，会自动创建数据卷
+
+```bash
+docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
+```
+
+- 查看
+	- `docker volume ls` 查看所有数据卷
+	- `docker volume inspect 数据卷名` 查看某个数据卷的详情【数据卷在宿主机的目录，……】
+- 删除
+	- `docker volume rm` 删除指定数据卷
+	- `docker volume prune` 删除未使用的数据卷
+
+### 本地目录
+具体操作：[[#^ca483a]]
+
+```bash
+docker run -d --name mysql -p 3306:3306 -e TZ=Asia/Shanghai -e MYSQL_ROOT_PASSWORD=13433026660 -v ./mysql/data:/var/lib/mysql -v ./mysql/conf:/etc/mysql/conf.d -v ./mysql/init:/docker-entrypoint-initdb.d mysql
+```
 
 
 
