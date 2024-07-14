@@ -119,22 +119,127 @@ docker login
 docker push 1962883041612/ltzf-interface
 ```
 
+# Docker 命令
 
-# 挂载
-**挂载有两个原因**：
-- 在容器内修改文件是很困难的，~~因为从仓库中下载的镜像一般是可运行某个应用程序的最小镜像，不会包括 Vim 编辑器~~
-- 我们需要持久化文件
+## 挂载
+### 复制
+- `docker cp 容器名:容器内文件 宿主机文件` 将容器内的文件复制到宿主机上
+
+### 数据卷
+>[!warning] 容器创建之后不能再挂载数据卷，只能在 `docker run` 的时候就挂载
+
+```mermaid
+graph LR
+	a[宿主机目录]---->b[数据卷]
+	b-->a
+	b---->c[容器内目录]
+	c-->b
+```
 
 ---
 
-**挂载有两种方式**：
-- 【挂载到数据卷】 ：数据卷 Volumes 可以把容器中的指定路径映射到宿主机的某个位置，实现双向数据绑定，实现持久化
-	- 数据卷默认在宿主机的 `/var/lib/docker/volumes/数据卷名`
-	- 由于数据卷存储在宿主机上的 <u>只有 root 用户 </u> 才可以访问的位置，我们频繁修改文件非常不方便，所以**一般我们会使用直接挂载到本地目录**
-- 【直接挂载到本地目录】==常用== ： 直接挂载到本地目录可以任意指定挂载的地方，方便访问和修改
+- `docker volume create` 创建数据卷
 
-# Docker 命令
-## 操作容器
+- [[#^131b42]] ，挂载数据卷时，如果没有数据卷，会自动创建数据卷
+
+```bash
+docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
+```
+
+- 查看
+	- `docker volume ls` 查看所有数据卷
+	- `docker volume inspect 数据卷名` 查看某个数据卷的详情【数据卷在宿主机的目录，……】
+- 删除
+	- `docker volume rm` 删除指定数据卷
+	- `docker volume prune` 删除未使用的数据卷
+
+### 本地目录
+具体操作：[[#^ca483a]]
+
+```bash
+docker run -d --name mysql -p 3306:3306 -e TZ=Asia/Shanghai -e MYSQL_ROOT_PASSWORD=13433026660 -v ./mysql/data:/var/lib/mysql -v ./mysql/conf:/etc/mysql/conf.d -v ./mysql/init:/docker-entrypoint-initdb.d mysql
+```
+
+
+# ❤ 镜像
+## 制作镜像
+### 根据 Dockerfile 制作镜像
+>[!quote] Dockerfile
+>Dockerfile 是一个文本文件，里面包含一系列指令，用来告诉 Docker 如何构建镜像
+>
+>- 指令
+>	- `FROM` 指定基础镜像
+>	- `EVN` 设置环境变量
+>	- `COPY` 拷贝本地文件到镜像目录里，`COPY 本地文件 镜像目录`
+>	- `RUN` 将拷贝的文件在 Linux 里解压缩……，`RUN tar -zxvf 文件……`
+>	- `EXPOSE` 指定容器运行时的端口号，`EXPOSE 端口号`
+>	- `ENTRYPOINT` <u>入口命令</u>【应用程序启动的命令，比如 Java 是 `java -jar jar包`】
+
+- 创建一个 Dockerfile
+```dockerfile
+# 定义基础镜像
+FROM openjdk:17-alpine
+# 设置时区
+ENV TZ=Asia/Shanghai
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+# 将跟Dockerfile同一路径下的jar包，拷贝到Docker镜像的根目录下
+COPY docker-demo.jar /app.jar
+# 入口
+ENTRYPOINT ["java", "-jar", "/app.jar"]
+```
+
+- 将 Dockerfile 和 jar 包放到同一目录下
+
+- 在该目录下，使用 Dockerfile 构建镜像
+```bash
+docker build -t demo:1.0 .
+```
+
+### 根据容器实例构建镜像
+- `docker commit 容器id/名称` 将运行中的容器快照生成为一个新的镜像
+	- `-a 镜像作者` 
+	- `-m '说明信息'`
+
+
+## 操作镜像
+```mermaid
+graph LR
+	a[jar 包]--build-->b[镜像]
+	b--save-->c[tar 包]
+	c--load-->b
+	
+	d[远程仓库]--pull-->b
+	b--push-->d
+```
+
+- **创建**
+	- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
+		- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
+- **获取/推送**
+	- 从 tar 包获取/打包
+		- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
+		- `docker load -i 文件名` 从文件中导入一个镜像
+	- 从远程仓库获取/推送
+		- `docker push` 
+		- `docker pull 镜像名` 从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
+- **查看**
+	- `docker images` 列出本地上所有的 Docker 镜像
+- **删除**
+	- `docker rmi 镜像名:版本号` 删除本地上的镜像
+
+```bash
+# . 表示Dockerfile就在当前目录
+docker build -t demo:1.0 .
+```
+
+```bash
+# save，load
+docker save -o my_mysql.tar my_mysql
+
+docker load -i my_mysql.tar
+```
+
+# ❤ 容器
 ```mermaid
 graph TB
 	a[本地镜像]--docker run 创建运行-->b[运行中容器]
@@ -203,132 +308,18 @@ docker run -d --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3306:3306
 docker exec -it my_container bash
 ```
 
-## 挂载
-### 复制
-- `docker cp 容器名:容器内文件 宿主机文件` 将容器内的文件复制到宿主机上
-
-### 数据卷
->[!warning] 容器创建之后不能再挂载数据卷，只能在 `docker run` 的时候就挂载
-
-```mermaid
-graph LR
-	a[宿主机目录]---->b[数据卷]
-	b-->a
-	b---->c[容器内目录]
-	c-->b
-```
+# ❤ 挂载
+**挂载有两个原因**：
+- 在容器内修改文件是很困难的，~~因为从仓库中下载的镜像一般是可运行某个应用程序的最小镜像，不会包括 Vim 编辑器~~
+- 我们需要持久化文件
 
 ---
 
-- `docker volume create` 创建数据卷
-
-- [[#^131b42]] ，挂载数据卷时，如果没有数据卷，会自动创建数据卷
-
-```bash
-docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
-```
-
-- 查看
-	- `docker volume ls` 查看所有数据卷
-	- `docker volume inspect 数据卷名` 查看某个数据卷的详情【数据卷在宿主机的目录，……】
-- 删除
-	- `docker volume rm` 删除指定数据卷
-	- `docker volume prune` 删除未使用的数据卷
-
-### 本地目录
-具体操作：[[#^ca483a]]
-
-```bash
-docker run -d --name mysql -p 3306:3306 -e TZ=Asia/Shanghai -e MYSQL_ROOT_PASSWORD=13433026660 -v ./mysql/data:/var/lib/mysql -v ./mysql/conf:/etc/mysql/conf.d -v ./mysql/init:/docker-entrypoint-initdb.d mysql
-```
-
-
-# 镜像
-## 制作镜像
-### 根据 Dockerfile 制作镜像
->[!quote] Dockerfile
->Dockerfile 是一个文本文件，里面包含一系列指令，用来告诉 Docker 如何构建镜像
->
->- 指令
->	- `FROM` 指定基础镜像
->	- `EVN` 设置环境变量
->	- `COPY` 拷贝本地文件到镜像目录里，`COPY 本地文件 镜像目录`
->	- `RUN` 将拷贝的文件在 Linux 里解压缩……，`RUN tar -zxvf 文件……`
->	- `EXPOSE` 指定容器运行时的端口号，`EXPOSE 端口号`
->	- `ENTRYPOINT` <u>入口命令</u>【应用程序启动的命令，比如 Java 是 `java -jar jar包`】
-
-- 创建一个 Dockerfile
-```dockerfile
-# 定义基础镜像
-FROM openjdk:17-alpine
-# 设置时区
-ENV TZ=Asia/Shanghai
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-# 将跟Dockerfile同一路径下的jar包，拷贝到Docker镜像的根目录下
-COPY docker-demo.jar /app.jar
-# 入口
-ENTRYPOINT ["java", "-jar", "/app.jar"]
-```
-
-- 将 Dockerfile 和 jar 包放到同一目录下
-
-- 在该目录下，使用 Dockerfile 构建镜像
-```bash
-docker build -t demo:1.0 .
-```
-
-### 根据容器实例构建镜像
-- `docker commit 容器id/名称` 将运行中的容器快照生成为一个新的镜像
-	- `-a 镜像作者` 
-	- `-m '说明信息'`
-
-
-
-## 操作镜像
-```mermaid
-graph LR
-	a[jar 包]--build-->b[镜像]
-	b--save-->c[tar 包]
-	c--load-->b
-	
-	d[远程仓库]--pull-->b
-	b--push-->d
-```
-
-- **创建**
-	- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
-		- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
-- **获取/推送**
-	- 从 tar 包获取/打包
-		- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
-		- `docker load -i 文件名` 从文件中导入一个镜像
-	- 从远程仓库获取/推送
-		- `docker push` 
-		- `docker pull 镜像名` 从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
-- **查看**
-	- `docker images` 列出本地上所有的 Docker 镜像
-- **删除**
-	- `docker rmi 镜像名:版本号` 删除本地上的镜像
-
-```bash
-# . 表示Dockerfile就在当前目录
-docker build -t demo:1.0 .
-```
-
-```bash
-# save，load
-docker save -o my_mysql.tar my_mysql
-
-docker load -i my_mysql.tar
-```
-
-
-
-
-
-
-# 容器
-
+**挂载有两种方式**：
+- 【挂载到数据卷】 ：数据卷 Volumes 可以把容器中的指定路径映射到宿主机的某个位置，实现双向数据绑定，实现持久化
+	- 数据卷默认在宿主机的 `/var/lib/docker/volumes/数据卷名`
+	- 由于数据卷存储在宿主机上的 <u>只有 root 用户 </u> 才可以访问的位置，我们频繁修改文件非常不方便，所以**一般我们会使用直接挂载到本地目录**
+- 【直接挂载到本地目录】==常用== ： 直接挂载到本地目录可以任意指定挂载的地方，方便访问和修改
 
 
 
