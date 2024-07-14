@@ -111,6 +111,8 @@ docker version
 # ❤ 镜像
 ## 💛 制作镜像
 ### 根据 Dockerfile 制作镜像
+[https://www.runoob.com/docker/docker-dockerfile.html](https://www.runoob.com/docker/docker-dockerfile.html)
+
 >[!quote] Dockerfile
 >Dockerfile 是一个文本文件，里面包含一系列指令，用来告诉 Docker 如何构建镜像
 >
@@ -227,7 +229,7 @@ graph TB
 	- `-d` 在后台运行
 	- `--name 容器名字` 设置容器的名字
 	- `-p 主机号:主机端口号:容器端口号` 将<u>容器的端口</u>映射到<u>主机的端口</u>，~~主机号表示只有某个 IP 地址可以访问到该容器服务，可选~~
-		- `docker run -d -p 127.0.0.1:8080:80` 只有宿主机可以访问到该容器服务，外部网络或远程机器无法直接访问
+		- `docker run -d -p 127.0.0.1:8080:80` 只有宿主机可以直接访问到该容器服务
 	- `-P` 让 Docker 为你随机分配端口
 	- `-e key=value` 配置环境变量【比如 MyzSQL 的账号密码，时区……】
 	- `-v 数据卷名:绝对容器内的目录` 挂载数据卷 ^131b42
