@@ -244,7 +244,8 @@ docker run -d --name mysql -p 3306:3306 -e TZ=Asia/Shanghai -e MYSQL_ROOT_PASSWO
 
 
 # 镜像
-## 根据 Dockerfile 制作镜像
+## 制作镜像
+### 根据 Dockerfile 制作镜像
 >[!quote] Dockerfile
 >Dockerfile 是一个文本文件，里面包含一系列指令，用来告诉 Docker 如何构建镜像
 >
@@ -276,10 +277,51 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 docker build -t demo:1.0 .
 ```
 
-## 根据容器实例构建镜像
+### 根据容器实例构建镜像
 - `docker commit 容器id/名称` 将运行中的容器快照生成为一个新的镜像
 	- `-a 镜像作者` 
 	- `-m '说明信息'`
+
+
+
+## 操作镜像
+```mermaid
+graph LR
+	a[jar 包]--build-->b[镜像]
+	b--save-->c[tar 包]
+	c--load-->b
+	
+	d[远程仓库]--pull-->b
+	b--push-->d
+```
+
+- **创建**
+	- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
+		- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
+- **获取/推送**
+	- 从 tar 包获取/打包
+		- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
+		- `docker load -i 文件名` 从文件中导入一个镜像
+	- 从远程仓库获取/推送
+		- `docker push` 
+		- `docker pull 镜像名` 从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
+- **查看**
+	- `docker images` 列出本地上所有的 Docker 镜像
+- **删除**
+	- `docker rmi 镜像名:版本号` 删除本地上的镜像
+
+```bash
+# . 表示Dockerfile就在当前目录
+docker build -t demo:1.0 .
+```
+
+```bash
+# save，load
+docker save -o my_mysql.tar my_mysql
+
+docker load -i my_mysql.tar
+```
+
 
 
 
