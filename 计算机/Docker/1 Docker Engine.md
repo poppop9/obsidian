@@ -330,25 +330,24 @@ docker run -d --name mysql -p 3306:3306 -e TZ=Asia/Shanghai -e MYSQL_ROOT_PASSWO
 # ❤ 容器通信
 [https://blog.csdn.net/d2916172682/article/details/135640415](https://blog.csdn.net/d2916172682/article/details/135640415)
 
-- **新建网络**
+- **创建网络**
 	- `docker network create 网络名`
 		- `-d 网络类型` 网络驱动类型可以是 bridge ，overlay ……
 
-```
+```bash
 docker network create -d bridge test-net
 ```
 
 ---
 
 - **连接网络**
-```
-$ docker run -itd --name test1 --network test-net ubuntu /bin/bash
+```bash
+docker run -itd --name test1 --network test-net ubuntu /bin/bash
 
-$ docker run -itd --name test2 --network test-net ubuntu /bin/bash
+docker run -itd --name test2 --network test-net ubuntu /bin/bash
 ```
 
 >[!hint] 如果你有多个容器之间需要互相连接，推荐使用 Docker Compose
-
 
 ---
 
