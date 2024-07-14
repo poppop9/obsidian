@@ -147,7 +147,6 @@ docker build -t demo:1.0 .
 	- `-a 镜像作者` 
 	- `-m '说明信息'`
 
-
 ## 操作镜像
 ```mermaid
 graph LR
@@ -162,28 +161,47 @@ graph LR
 - **创建**
 	- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
 		- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
-- **获取/推送**
-	- 从 tar 包获取/打包
-		- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
-		- `docker load -i 文件名` 从文件中导入一个镜像
-	- 从远程仓库获取/推送
-		- `docker push` 
-		- `docker pull 镜像名` 从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
-- **查看**
-	- `docker images` 列出本地上所有的 Docker 镜像
-- **删除**
-	- `docker rmi 镜像名:版本号` 删除本地上的镜像
 
 ```bash
 # . 表示Dockerfile就在当前目录
 docker build -t demo:1.0 .
 ```
 
+---
+
+- **获取/推送**
+	- 从 tar 包获取/打包
+		- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
+		- `docker load -i 文件名` 从文件中导入一个镜像
+	- 从远程仓库获取/推送
+		- 【获取】
+		- 推送
+			- `docker push 用户名/仓库名:版本号` 
+			- `docker pull 镜像名` 从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
+
 ```bash
 # save，load
 docker save -o my_mysql.tar my_mysql
 
 docker load -i my_mysql.tar
+```
+
+---
+
+- **查看**
+	- `docker images` 列出本地上所有的 Docker 镜像
+- **删除**
+	- `docker rmi 镜像名:版本号` 删除本地上的镜像
+
+
+# 推送到 DockerHub
+```bash
+# 进行登录
+docker login
+
+# 推送到dockerhub
+# docker push 用户名/仓库名:版本号
+docker push 1962883041612/ltzf-interface
 ```
 
 # ❤ 容器
