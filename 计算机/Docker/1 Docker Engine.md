@@ -108,44 +108,6 @@ docker version
 > 	- 将用户添加到 docker 组 `sudo usermod -aG docker 用户`
 > 	- 激活对组的更改 `newgrp docker`
 
-# 制作镜像
-## 根据 Dockerfile 制作镜像
->[!quote] Dockerfile
->Dockerfile 是一个文本文件，里面包含一系列指令，用来告诉 Docker 如何构建镜像
->
->- 指令
->	- `FROM` 指定基础镜像
->	- `EVN` 设置环境变量
->	- `COPY` 拷贝本地文件到镜像目录里，`COPY 本地文件 镜像目录`
->	- `RUN` 将拷贝的文件在 Linux 里解压缩……，`RUN tar -zxvf 文件……`
->	- `EXPOSE` 指定容器运行时的端口号，`EXPOSE 端口号`
->	- `ENTRYPOINT` <u>入口命令</u>【应用程序启动的命令，比如 Java 是 `java -jar jar包`】
-
-- 创建一个 Dockerfile
-```dockerfile
-# 定义基础镜像
-FROM openjdk:17-alpine
-# 设置时区
-ENV TZ=Asia/Shanghai
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-# 将跟Dockerfile同一路径下的jar包，拷贝到Docker镜像的根目录下
-COPY docker-demo.jar /app.jar
-# 入口
-ENTRYPOINT ["java", "-jar", "/app.jar"]
-```
-
-- 将 Dockerfile 和 jar 包放到同一目录下
-
-- 在该目录下，使用 Dockerfile 构建镜像
-```bash
-docker build -t demo:1.0 .
-```
-
-## 根据容器实例构建镜像
-- `docker commit 容器id/名称` 将运行中的容器快照生成为一个新的镜像
-	- `-a 镜像作者` 
-	- `-m '说明信息'`
-
 
 # 推送到 DockerHub
 ```bash
@@ -172,44 +134,6 @@ docker push 1962883041612/ltzf-interface
 - 【直接挂载到本地目录】==常用== ： 直接挂载到本地目录可以任意指定挂载的地方，方便访问和修改
 
 # Docker 命令
-## 操作镜像
-```mermaid
-graph LR
-	a[jar 包]--build-->b[镜像]
-	b--save-->c[tar 包]
-	c--load-->b
-	
-	d[远程仓库]--pull-->b
-	b--push-->d
-```
-
-- **创建**
-	- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
-		- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
-- **获取/推送**
-	- 从 tar 包获取/打包
-		- `docker save -o 文件名 镜像名` 把一个镜像保存为一个 `tar 文件`
-		- `docker load -i 文件名` 从文件中导入一个镜像
-	- 从远程仓库获取/推送
-		- `docker push` 
-		- `docker pull 镜像名` 从远程的 Docker 镜像仓库中下载 Docker 镜像到本地
-- **查看**
-	- `docker images` 列出本地上所有的 Docker 镜像
-- **删除**
-	- `docker rmi 镜像名:版本号` 删除本地上的镜像
-
-```bash
-# . 表示Dockerfile就在当前目录
-docker build -t demo:1.0 .
-```
-
-```bash
-# save，load
-docker save -o my_mysql.tar my_mysql
-
-docker load -i my_mysql.tar
-```
-
 ## 操作容器
 ```mermaid
 graph TB
@@ -317,6 +241,53 @@ docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
 ```bash
 docker run -d --name mysql -p 3306:3306 -e TZ=Asia/Shanghai -e MYSQL_ROOT_PASSWORD=13433026660 -v ./mysql/data:/var/lib/mysql -v ./mysql/conf:/etc/mysql/conf.d -v ./mysql/init:/docker-entrypoint-initdb.d mysql
 ```
+
+
+# 镜像
+## 根据 Dockerfile 制作镜像
+>[!quote] Dockerfile
+>Dockerfile 是一个文本文件，里面包含一系列指令，用来告诉 Docker 如何构建镜像
+>
+>- 指令
+>	- `FROM` 指定基础镜像
+>	- `EVN` 设置环境变量
+>	- `COPY` 拷贝本地文件到镜像目录里，`COPY 本地文件 镜像目录`
+>	- `RUN` 将拷贝的文件在 Linux 里解压缩……，`RUN tar -zxvf 文件……`
+>	- `EXPOSE` 指定容器运行时的端口号，`EXPOSE 端口号`
+>	- `ENTRYPOINT` <u>入口命令</u>【应用程序启动的命令，比如 Java 是 `java -jar jar包`】
+
+- 创建一个 Dockerfile
+```dockerfile
+# 定义基础镜像
+FROM openjdk:17-alpine
+# 设置时区
+ENV TZ=Asia/Shanghai
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+# 将跟Dockerfile同一路径下的jar包，拷贝到Docker镜像的根目录下
+COPY docker-demo.jar /app.jar
+# 入口
+ENTRYPOINT ["java", "-jar", "/app.jar"]
+```
+
+- 将 Dockerfile 和 jar 包放到同一目录下
+
+- 在该目录下，使用 Dockerfile 构建镜像
+```bash
+docker build -t demo:1.0 .
+```
+
+## 根据容器实例构建镜像
+- `docker commit 容器id/名称` 将运行中的容器快照生成为一个新的镜像
+	- `-a 镜像作者` 
+	- `-m '说明信息'`
+
+
+
+
+
+# 容器
+
+
 
 
 
