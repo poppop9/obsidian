@@ -1,28 +1,35 @@
-## JWT 令牌
->JWT 令牌【Json Web Token】就是用户标识，对 Json 格式进行了 `Base 64 编码` + 签名算法
+# JWT
 
-- 优点
-	- 支持多端【令牌可以存储在除 Cookie 以外的其他存储空间中】
-	- 支持服务端集群部署
-	- 减轻了服务端存储压力【无需在服务端存储数据】
-- 缺点
-	- 需要自己实现
-	- 需要和前端配合
+### JWT 令牌
 
-### 组成
-![[Excalidraw/计算机/JavaWeb Draw.md#^group=MNBxap8H|870]]
+> JWT 令牌【Json Web Token】就是用户标识，对 Json 格式进行了 `Base 64 编码` + 签名算法
 
-### 实现流程
-- 在用户登录成功之后，在服务端生成 JWT 令牌
-- 将令牌下发给客户端
-- 客户端把令牌存储起来
-- 客户端在之后的每一次请求时携带该令牌
-- 服务端接收请求之后进行统一拦截，获取到请求中携带的令牌，并校验令牌的真伪
-	- 无效，响应错误结果
-	- 有效，允许访问对应的业务接口
+* 优点
+  * 支持多端【令牌可以存储在除 Cookie 以外的其他存储空间中】
+  * 支持服务端集群部署
+  * 减轻了服务端存储压力【无需在服务端存储数据】
+* 缺点
+  * 需要自己实现
+  * 需要和前端配合
 
-### 准备工作
-- 引入依赖
+#### 组成
+
+!\[\[Excalidraw/计算机/JavaWeb Draw.md#^group=MNBxap8H|870]]
+
+#### 实现流程
+
+* 在用户登录成功之后，在服务端生成 JWT 令牌
+* 将令牌下发给客户端
+* 客户端把令牌存储起来
+* 客户端在之后的每一次请求时携带该令牌
+* 服务端接收请求之后进行统一拦截，获取到请求中携带的令牌，并校验令牌的真伪
+  * 无效，响应错误结果
+  * 有效，允许访问对应的业务接口
+
+#### 准备工作
+
+* 引入依赖
+
 ```xml
 <dependency>  
     <groupId>io.jsonwebtoken</groupId>  
@@ -31,8 +38,9 @@
 </dependency>
 ```
 
-### 具体实现
-![[Excalidraw/计算机/JavaWeb Draw.md#^group=t8jOJfVI|790]]
+#### 具体实现
+
+!\[\[Excalidraw/计算机/JavaWeb Draw.md#^group=t8jOJfVI|790]]
 
 ```java
 package com.example.utils;
@@ -129,23 +137,27 @@ public interface ManagerLoginMapper {
 
 指定的密钥 greenteck 存储在 jwt 的哪个部分
 
->[!hint] 当 ***篡改令牌*** 或 ***令牌过期*** 解析令牌时就会报错
+> \[!hint] 当 _**篡改令牌**_ 或 _**令牌过期**_ 解析令牌时就会报错
 
-## 统一拦截
->[!hint] 目前主流使用 Interceptor
+### 统一拦截
 
-### 过滤器 Filter
->Filter 是 JavaWeb 的三大组件【Servlet，Filter，Listener】之一，可以把对资源的请求拦截下来，从而***完成一些通用的操作***【登录校验，统一编码处理，敏感字符处理……】
-#### 执行流程
-![[Excalidraw/计算机/JavaWeb Draw.md#^group=D_tAwfzgeAtpLUlBUPLDq|790]]
-![[Excalidraw/计算机/JavaWeb Draw.md#^group=jcttnSam7dZdpCHQLsr6b|640]]
+> \[!hint] 目前主流使用 Interceptor
 
-### 拦截器 Interceptor
->Spring 框架中提供的用来动态拦截 Controller 方法的执行
+#### 过滤器 Filter
 
-![[Excalidraw/计算机/JavaWeb Draw.md#^group=OSBwvT3c5koJtOdxWudzQ|700]]
+> Filter 是 JavaWeb 的三大组件【Servlet，Filter，Listener】之一，可以把对资源的请求拦截下来，从而_**完成一些通用的操作**_【登录校验，统一编码处理，敏感字符处理……】
 
-![[Excalidraw/计算机/JavaWeb Draw.md#^group=gri50A3q|690]]
+**执行流程**
+
+!\[\[Excalidraw/计算机/JavaWeb Draw.md#^group=D\_tAwfzgeAtpLUlBUPLDq|790]] !\[\[Excalidraw/计算机/JavaWeb Draw.md#^group=jcttnSam7dZdpCHQLsr6b|640]]
+
+#### 拦截器 Interceptor
+
+> Spring 框架中提供的用来动态拦截 Controller 方法的执行
+
+!\[\[Excalidraw/计算机/JavaWeb Draw.md#^group=OSBwvT3c5koJtOdxWudzQ|700]]
+
+!\[\[Excalidraw/计算机/JavaWeb Draw.md#^group=gri50A3q|690]]
 
 ```xml
 <!--阿里巴巴的fastJson--> 
@@ -254,10 +266,4 @@ public class JWTUtils {
 }
 ```
 
->[!hint] Interceptor 中的路径参数
->`/*`  表示所有的一级路径，***不包括*** `/user/1`
->`/**`  表示所有的路径
->`/user/*`  表示 `/user` 下的所有一级路径，不包括 `/user/s/1`
->`/user/**` 表示 `/user` 下的所有路径
-
-
+> \[!hint] Interceptor 中的路径参数 `/*` 表示所有的一级路径，_**不包括**_ `/user/1` `/**` 表示所有的路径 `/user/*` 表示 `/user` 下的所有一级路径，不包括 `/user/s/1` `/user/**` 表示 `/user` 下的所有路径

@@ -1,8 +1,11 @@
-> Ajax 是异步的 JavaScript 和 XML
-- **Ajax 可以发送请求到服务器，并获取服务器的响应**
-- **Ajax 还可以在不加载网页的情况下，实现实时更新网页的数据**
+# Axios
 
----
+> Ajax 是异步的 JavaScript 和 XML
+
+* **Ajax 可以发送请求到服务器，并获取服务器的响应**
+* **Ajax 还可以在不加载网页的情况下，实现实时更新网页的数据**
+
+***
 
 1. 网页中发生一个事件（页面加载、按钮点击）
 2. 由 JavaScript 创建 XMLHttpRequest 对象
@@ -12,38 +15,47 @@
 6. 由 JavaScript 读取响应
 7. 由 JavaScript 执行正确的动作（比如更新页面）
 
-# XMLHttpRequest
->[!summary] 属性
->***readyState***  保存 XMLHttpRequest 的状态【0：请求未初始化；1：服务器连接已建立；2：请求已收到；3：正在处理请求；4：请求已完成且响应已就绪】
+## XMLHttpRequest
+
+> \[!summary] 属性 _**readyState**_ 保存 XMLHttpRequest 的状态【0：请求未初始化；1：服务器连接已建立；2：请求已收到；3：正在处理请求；4：请求已完成且响应已就绪】
 >
->***status***  返回请求的状态号【200: "OK"；403: "Forbidden"；404: "Not Found"】
+> _**status**_ 返回请求的状态号【200: "OK"；403: "Forbidden"；404: "Not Found"】
 >
->***responseText***	以字符串形式返回响应数据
-# Axios
+> _**responseText**_ 以字符串形式返回响应数据
+
+## Axios
+
 > Axios 对原生的 Ajax 进行了封装，简化了书写
 
 https://www.axios-http.cn/docs/intro
-## 安装Axios
-### 工程化 Axios
-- 在项目目录下的 cmd 输入 `npm install axios`
-- 需要 Axios 时，在 `script标签` 中导入
+
+### 安装Axios
+
+#### 工程化 Axios
+
+* 在项目目录下的 cmd 输入 `npm install axios`
+* 需要 Axios 时，在 `script标签` 中导入
+
 ```js
 <script setup>
 import axios from 'axios';
 </script>
 ```
 
-- 然后就可以在 `script标签` 中使用 axios 了
-### 局部化 Axios
-- 在 `head标签` 中导入 `axios.js` 文件
-	```html
-	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-	```
+* 然后就可以在 `script标签` 中使用 axios 了
 
-- 然后就可以在 `script标签` 中使用axios了
+#### 局部化 Axios
 
-## 使用与定义
->我们一般会把异步请求封装到一个单独的 `.js 文件` 中，并暴露调用函数，这样在其他文件中可以直接调用，不用重复书写相同的 `axios 代码`
+*   在 `head标签` 中导入 `axios.js` 文件
+
+    ```html
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    ```
+* 然后就可以在 `script标签` 中使用axios了
+
+### 使用与定义
+
+> 我们一般会把异步请求封装到一个单独的 `.js 文件` 中，并暴露调用函数，这样在其他文件中可以直接调用，不用重复书写相同的 `axios 代码`
 
 ```js
 export function getHello() {
@@ -51,13 +63,17 @@ export function getHello() {
 }
 ```
 
-## 请求方式
-### get
-- `result` 服务器返回的所有数据【响应头，响应体】
-- `result.data` 服务器返回的核心数据
+### 请求方式
 
----
-- 不带参数的请求
+#### get
+
+* `result` 服务器返回的所有数据【响应头，响应体】
+* `result.data` 服务器返回的核心数据
+
+***
+
+* 不带参数的请求
+
 ```js
 axios.get('http://localhost:8080/hello').then(res => {      // 处理成功情况
 	alert(res.data);
@@ -67,13 +83,17 @@ axios.get('http://localhost:8080/hello').then(res => {      // 处理成功情�
 	……
 });
 ```
-- 带明确参数的请求
+
+* 带明确参数的请求
+
 ```js
 axios.get('http://localhost:8080/helloparam?id=1').then(result => {
 	alert(result.data);
 });
 ```
-- 带变量参数的请求
+
+* 带变量参数的请求
+
 ```js
 const msg2 = ref({
     id: 1,
@@ -92,7 +112,8 @@ axios.get('http://localhost:8080/helloparam', {
 });
 ```
 
-### post
+#### post
+
 ```js
 let jsondata = {
 	id: 1,
@@ -103,9 +124,13 @@ axios.post('http://localhost:8080/hellojson', jsondata).then(result => {
 	alert(result.data);
 });
 ```
-### delete
-### put
-## 请求头
+
+#### delete
+
+#### put
+
+### 请求头
+
 ```js
 axios.post('http://localhost:8080/qrcodepay', jsondata, {
 	headers: {
@@ -121,11 +146,14 @@ axios.post('http://localhost:8080/qrcodepay', jsondata, {
 	});
 ```
 
-## 同步与异步
-### 同步
->`js代码` 与 `axios请求代码` 顺序执行，<u>使用</u> `async`，`await`
+### 同步与异步
 
-当需要等待请求结果来渲染页面时，那就需要***同步***：
+#### 同步
+
+> `js代码` 与 `axios请求代码` 顺序执行，使用 `async`，`await`
+
+当需要等待请求结果来渲染页面时，那就需要_**同步**_：
+
 ```js
 // hello.js
 import axios from 'axios';
@@ -166,20 +194,22 @@ getData();
 </script>
 ```
 
->[!attention] `async` 是异步的意思，为什么用于==同步==呢
->由于 JavaScript 是赶工出来的语言，这是它的设计缺陷，`await` 必须在 `async` 定义的函数<u>里面才能使用</u>
+> \[!attention] `async` 是异步的意思，为什么用于==同步==呢 由于 JavaScript 是赶工出来的语言，这是它的设计缺陷，`await` 必须在 `async` 定义的函数里面才能使用
 
-## 公共路径baseURL
->如果每一个 `axios请求` 都包含完整的路径，那么后续改动时将非常麻烦，所以我们<u>会定义一个公共路径</u> `baseURL`
+### 公共路径baseURL
 
-- ~~未定义~~ `baseURL`
+> 如果每一个 `axios请求` 都包含完整的路径，那么后续改动时将非常麻烦，所以我们会定义一个公共路径 `baseURL`
+
+* ~~未定义~~ `baseURL`
+
 ```js
 axios.get('http://localhost:8080/helloparam').then(result => {
 	alert(result.data);
 });
 ```
 
-- 定义 `baseURL`
+* 定义 `baseURL`
+
 ```js
 // 定义基础路径
 const baseURL = 'http://localhost:8080';
@@ -191,38 +221,3 @@ instance.get('/helloparam').then(result => {
 	alert(result.data);
 });
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
