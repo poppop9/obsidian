@@ -28,7 +28,7 @@ get ,set 方法，构造方法   `alt+insert`
 
 - **搜索**
 	- `ctrl+F` 在当前类中，进行搜索
-	- `ctrl+N` 全局搜索
+	- `shift + shift` 全局搜索
 	- `ctrl+r` 在该文件中搜索
 
 ---
