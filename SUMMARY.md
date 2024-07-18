@@ -20,7 +20,6 @@
       * [Java Draw](<Excalidraw/计算机/编程语言/Java Draw.md>)
       * [编程语言](Excalidraw/计算机/编程语言/编程语言.md)
 * [临时笔记](lin-shi-bi-ji/README.md)
-  * [DDED](临时笔记/DDED.md)
   * [Dance](临时笔记/Dance.md)
   * [MarkDown 语法](<临时笔记/MarkDown 语法.md>)
   * [Obsidian 特殊语法](<临时笔记/Obsidian 特殊语法.md>)
