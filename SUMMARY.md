@@ -89,6 +89,7 @@
         * [2-2 基础语法](<计算机/JavaWeb/前端/Vue/2-2 基础语法.md>)
         * [3-1 指令](<计算机/JavaWeb/前端/Vue/3-1 指令.md>)
         * [Vue 路由](<计算机/JavaWeb/前端/Vue/4 路由.md>)
+      * [amis](ji-suan-ji/javaweb/qian-duan/amis.md)
     * [后端](ji-suan-ji/javaweb/hou-duan/README.md)
       * [Maven](计算机/JavaWeb/后端/Maven.md)
       * [后端](计算机/JavaWeb/后端/后端.md)
