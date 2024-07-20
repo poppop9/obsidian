@@ -195,6 +195,70 @@ server {
 }
 ```
 
+## 正向代理
+- `nginx.conf` 
+```yml
+user  nginx;
+worker_processes  auto;
+
+error_log  /var/log/nginx/error.log notice;
+pid        /var/run/nginx.pid;
+
+events {
+    worker_connections  1024;
+}
+
+http {
+    include       /etc/nginx/mime.types;
+    default_type  application/octet-stream;
+
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+
+    access_log  /var/log/nginx/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    include /etc/nginx/conf.d/*.conf;
+}
+```
+
+- `default.conf`
+```yml
+server {
+    listen       80;
+    server_name  zsbz.site;
+
+    # Redirect all HTTP requests to HTTPS
+    return 301 https://$host$request_uri;
+}
+
+
+server {
+    listen 443 ssl;
+    server_name zsbz.site;
+
+    ssl_certificate     /etc/nginx/ssl/full_chain.pem;
+    ssl_certificate_key /etc/nginx/ssl/private.key;
+
+    location / {
+        proxy_pass https://zsbz.gitbook.io;
+        proxy_ssl_server_name on;
+        proxy_ssl_verify off;
+        proxy_set_header Host zsbz.gitbook.io;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
 ## 鉴权
 >[!quote] 鉴权
 >鉴权 可以对请求进行身份验证，进行对某个用户的限频限次
