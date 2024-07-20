@@ -237,6 +237,7 @@ http {
 
 - `default.conf`
 ```yml
+# 如果有访问zsbz.site的80端口的url，都会被重定向到https://$host$request_uri
 server {
     listen       80;   # 监听本机的 80 端口
     server_name  zsbz.site; # 此处填写代理服务器的ip地址，或域名
