@@ -197,6 +197,7 @@ server {
 
 ## 正向代理
 正向代理分两种：
+- 目标是 HTTP 类型的
 - 目标是 HTTPS 类型的
 
 正向代理之前要检测代理服务器能不能访问到目标服务器
@@ -237,8 +238,8 @@ http {
 - `default.conf`
 ```yml
 server {
-    listen       80;
-    server_name  zsbz.site;
+    listen       80;   # 监听本机的 80 端口
+    server_name  zsbz.site; # 此处填写代理服务器的ip地址，或域名
 
     # Redirect all HTTP requests to HTTPS
     return 301 https://$host$request_uri;
