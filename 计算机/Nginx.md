@@ -242,6 +242,8 @@ server {
     server_name  zsbz.site; # 此处填写代理服务器的ip地址，或域名
 
     # 将所有HTTP请求重定向到HTTPS
+    # $host 会被替换成请求的域名，或IP地址
+    # $request_uri 会被替换成后面的路径
     return 301 https://$host$request_uri;
 }
 
