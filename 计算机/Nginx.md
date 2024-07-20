@@ -83,7 +83,7 @@ docker rm -f nginxconf
 		- `include /etc/nginx/mime.types;` 引入文件，告诉浏览器要怎么样处理 nginx 中的文件，~~比如 css 文件就不要处理成 text 纯文本文件~~
 	- `server{……}` 定义服务器配置
 		- `listen 端口号` 指定服务器监听的端口号
-		- `server_name 域名` 定义该服务器的名称，通常是域名
+		- `server_name 域名` 定义该服务器的名称，有域名定义域名，没域名定义 IP 地址，~~当有请求到达时，Nginx 会检查请求的 `Host` 头部信息，如果匹配到这个域名或 IP 地址，就会使用这个 `server` 块的配置~~
 		- `location 路径{……}` 根据路径进行不同的处理
 			- `internal;` 指定该 location 只能被内部请求使用，不能直接被客户端访问
 			- `root 文件路径` 在指定路径下查找要响应的文件
