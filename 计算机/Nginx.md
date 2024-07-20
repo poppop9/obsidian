@@ -241,7 +241,7 @@ server {
     listen       80;   # 监听本机的 80 端口
     server_name  zsbz.site; # 此处填写代理服务器的ip地址，或域名
 
-    # Redirect all HTTP requests to HTTPS
+    # 将所有HTTP请求重定向到HTTPS
     return 301 https://$host$request_uri;
 }
 
