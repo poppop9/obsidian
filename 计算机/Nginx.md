@@ -196,6 +196,9 @@ server {
 ```
 
 ## 正向代理
+正向代理分两种：
+- 代理的目标是 HTTPS 类型的
+
 - `nginx.conf` 
 ```yml
 user  nginx;
@@ -238,7 +241,6 @@ server {
     # Redirect all HTTP requests to HTTPS
     return 301 https://$host$request_uri;
 }
-
 
 server {
     listen 443 ssl;
