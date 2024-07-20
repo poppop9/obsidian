@@ -272,6 +272,7 @@ server {
 >鉴权 可以对请求进行身份验证，进行对某个用户的限频限次
 
 - 在 `server 块` 中的 `location 块` 中配置
+
 ```mermaid
 graph LR
 	a[请求]--访问/sage-->b[nginx]--重定向-->e["/auth"]
