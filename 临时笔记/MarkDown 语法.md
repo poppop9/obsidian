@@ -236,7 +236,7 @@ graph           %%形状取决于符号，符号里面是结点的内容%%
 ````
 
 ```mermaid
-graph LR
+graph TB
     默认方形
     id1[方形]
     id2(圆边矩形)
