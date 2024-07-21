@@ -138,6 +138,7 @@ public void testRedisson() {
 		- `delete()` 删除键值对
 	- **查**
 		- `get()` 查询 key 对应的 value
+		- `isExists()` 判断 RBucket 对象是否存在【~~不能直接通过是否为 null 来判断，因为即使不存在对应的 key，查出来的 RBucket 对象也不为 null~~】
 
 ---
 
