@@ -10,7 +10,7 @@ get ,set 方法，构造方法   `alt+insert`
 	- 单行注释   `ctrl+/`
 	- 多行注释   `ctrl+shift+/`
 	- 格式化代码   `ctrl+alt+L`
-	- 批量选中相同代码  `shift+F` 
+	- 批量选中相同代码  `shift+F6` 
 	- `ctrl+shift+↑` 将光标所在行上移
 
 ---
