@@ -128,6 +128,7 @@ SpringBoot 默认使用 `spring-boot-starter-logging 启动器`【Logback 的启
 ```
 
 ## 基本操作
+- 手动创建 `Logger` 实例
 ```java
 @SpringBootTest
 class Web2ApplicationTests {
