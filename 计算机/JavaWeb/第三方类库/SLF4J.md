@@ -150,6 +150,16 @@ class Web2ApplicationTests {
 2024-04-10T11:01:45.273+08:00  INFO 14720 --- [           main] com.example.web_2.Web2ApplicationTests   : Hello greenteck!, pop
 ```
 
+- 使用 `@Slf4j` 注解
+```java
+@Slf4j  
+public class StrategyArmoryDispatch {
+	public void assembleLotteryStrategyRuleCommon(Integer strategyId) {  
+	    log.atInfo().log("装配策略{}的全奖品完成", strategyId);  
+	}
+}
+```
+
 ## 链式编程记录日志
 >[!hint] 这种方式可以使用 `addKeyValue(key, value)` 给日志添加键值对，更有利于后续分析
 
