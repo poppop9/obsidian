@@ -128,7 +128,7 @@ SpringBoot 默认使用 `spring-boot-starter-logging 启动器`【Logback 的启
 ```
 
 ## 基本操作
-- 手动创建 `Logger` 实例
+- 手动创建 `Logger` 实例 ：更灵活地控制 `Logger` 的创建和使用
 ```java
 @SpringBootTest
 class Web2ApplicationTests {
@@ -150,7 +150,7 @@ class Web2ApplicationTests {
 2024-04-10T11:01:45.273+08:00  INFO 14720 --- [           main] com.example.web_2.Web2ApplicationTests   : Hello greenteck!, pop
 ```
 
-- 使用 `@Slf4j` 注解
+- 使用 `@Slf4j` 注解 ：简洁，但是需要依赖 Lombok 库
 ```java
 @Slf4j  
 public class StrategyArmoryDispatch {
