@@ -112,7 +112,7 @@
         * [2-3 文件上云](<计算机/JavaWeb/后端/SpringBoot/2-3 文件上云.md>)
         * [3-1 事务管理，AOP](<计算机/JavaWeb/后端/SpringBoot/3-1 事务管理，AOP.md>)
         * [4-1 定时任务](<计算机/JavaWeb/后端/SpringBoot/4-1 定时任务.md>)
-        * [DDD 架构](<计算机/JavaWeb/后端/SpringBoot/DDD 架构.md>)
+        * [DDD](DDD.md 架构.md>)
         * [SpringBoot](计算机/JavaWeb/后端/SpringBoot/SpringBoot.md)
         * [跨域配置](计算机/JavaWeb/后端/SpringBoot/跨域配置.md)
         * [SpringBoot 原理](ji-suan-ji/javaweb/hou-duan/springboot/springboot-yuan-li/README.md)
