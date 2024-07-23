@@ -149,9 +149,9 @@ $$
 
 >[!hint] 在领域与领域之间，如果需要某个充血模型，要把 <u>充血模型</u> 使用工厂组装成 <u>贫血模型</u> 进行传输
 
-## 💛 Rcepository
->[!quote] 仓库
->仓库 Repository 位于 `Mapper 层`，和 `Service 层` 之间，目的就是<u>解耦 `domain 层` 和 `infrastructure 层`</u>
+## 💛 仓储层
+>[!quote] 仓储
+>仓储 Repository 位于 `Mapper 层`，和 `Service 层` 之间，目的就是<u>解耦 `domain 层` 和 `infrastructure 层`</u>
 >
 >![650](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406301405963.png)
 
@@ -169,6 +169,7 @@ $$
 		- IStrategyMapper
 	- 【repository】
 		- StrategyRepository：StrategyRepository 实现了 IStrategyRepository 接口；调用了 IStrategyMapper
+
 ## 💛 基础层
 - `infrastructure` **基础层**，包含了数据库，缓存，网关，第三方工具…… ==Mapper==
 	- `Mapper` 
