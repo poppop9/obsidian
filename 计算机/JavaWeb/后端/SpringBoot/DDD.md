@@ -148,7 +148,7 @@ $$
 ---
 
 >[!hint] Model
->![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406222208045.png)
+>![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202407232236853.png)
 >
 >- `POJO`【~~plain old java object~~】普通 Java 对象，可以作为其他数据模型的基础
 >	- `VO`【~~value object~~】 ：值对象是不可变的对象，<u>没有唯一 ID 标识符</u>，用于表示一组值【~~意味着如果两个值对象的属性相同，那么它们就是相等的~~】
