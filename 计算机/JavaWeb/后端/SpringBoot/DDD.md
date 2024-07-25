@@ -80,6 +80,7 @@ $$
 > - 负责创建、修改、删除聚合内的其他实体，并且只能通过聚合根来修改聚合内的实体对象
 
 ```java
+// 聚合 = 聚合根 + 其他实体
 // 聚合根
 public class Order {
     private String orderId;
