@@ -1,4 +1,4 @@
-# 快捷键
+# ❤ 快捷键
 ## 生成语句
 快速生成 main() 方法   `psvm`
 生成输出语句   `sout`
@@ -12,6 +12,7 @@ get ,set 方法，构造方法   `alt+insert`
 	- 格式化代码   `ctrl+alt+L`
 	- 批量选中相同代码  `shift+F6` 
 	- `ctrl+shift+↑` 将光标所在行上移
+	- `ctrl+d` 将光标所在代码行复制到下一行
 
 ---
 
@@ -43,7 +44,7 @@ get ,set 方法，构造方法   `alt+insert`
 
 >[!hint] 调试时，如果改动较大，就要重启项目才能继续调试。如果改动较小，可以重新构建项目，再继续调试
 
-# 插件
+# ❤ 插件
 - `Mybatis`
 - 中文简体
 - `leetcode editor` 在idea里做题
