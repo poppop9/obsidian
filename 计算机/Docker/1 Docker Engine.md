@@ -202,6 +202,7 @@ docker push 1962883041612/ltzf-interface
 
 - **查看**
 	- `docker images` 列出本地上所有的 Docker 镜像
+	- `docker image inspect 镜像名` 查看镜像的信息，例如版本号 ……
 - **删除**
 	- `docker rmi 镜像名:版本号` 删除本地上的镜像
 
