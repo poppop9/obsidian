@@ -109,9 +109,10 @@ docker version
 > 	- 激活对组的更改 `newgrp docker`
 
 # ❤ 在 win 上的 docker
-docker 命令在 win 上运行时，由于 Windows 独特的文件路径，`-v` 挂载会出问题，以下是一个正确的示例
+docker 命令在 win 上运行时，由于 Windows 独特的文件路径，`-v` 挂载会出问题，以下是一个正确的示例：
 
 ```bash
+# 这样写是为了可读性，实际在win上运行时，只支持一行写完命令，而不是多行
 docker run -d --name kafka-server \
 	-p 9092:9092 \
 	-e KAFKA_CFG_NODE_ID=0 \
