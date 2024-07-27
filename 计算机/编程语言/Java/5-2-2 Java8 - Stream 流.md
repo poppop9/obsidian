@@ -296,6 +296,14 @@ public static void main(String[] args) {
 331
 ```
 
+```java
+// 简化版
+list.stream().forEach(s -> {
+	StringBuilder sb = new StringBuilder(s);
+	sb.append(1);
+	System.out.println(sb.toString());
+});
+```
 ## findFirst
 - `Optional findFirst` 获取流中的第一个元素，并返回 Optional 对象
 	- `get()` 获取到 Optional 对象的值，也就是 Stream 流中的元素
@@ -344,19 +352,9 @@ public static void main(String[] args) {
 
 ```java
 // 简化版
-public static void main(String[] args) {
-	List<Integer> list = new ArrayList<>();
-	list.add(32);
-	list.add(1);
-	list.add(992);
-	list.add(33);
-
-	List<Integer> collect = list.stream()
-		.filter(i -> i > 1)
-		.toList();
-
-	System.out.println(collect);
-}
+List<Integer> collect = list.stream()
+	.filter(i -> i > 1)
+	.toList();
 ```
 
 - `Collectors.toMap(new Function<>(){} ,new Function<>(){})` 收集到 Map 集合
