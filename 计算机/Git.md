@@ -439,9 +439,9 @@ temp/
 >[!hint] 推送的格式
 > - `feat` 新功能
 > - `fix` 修复 bug
-> - `docs` 文档注释
-> - `style` 优化的赛马
+> - `style` 优化代码格式
 > - `refactor` 重构，优化
+> - `docs` 文档注释
 > - `perf` 性能优化
 > - `test` 增加测试
 > - `chore` 构建过程或辅助工具的变动
