@@ -342,6 +342,23 @@ public static void main(String[] args) {
 [32, 992, 33]
 ```
 
+```java
+// 简化版
+public static void main(String[] args) {
+	List<Integer> list = new ArrayList<>();
+	list.add(32);
+	list.add(1);
+	list.add(992);
+	list.add(33);
+
+	List<Integer> collect = list.stream()
+		.filter(i -> i > 1)
+		.toList();
+
+	System.out.println(collect);
+}
+```
+
 - `Collectors.toMap(new Function<>(){} ,new Function<>(){})` 收集到 Map 集合
 
 ```java
