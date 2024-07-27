@@ -386,22 +386,15 @@ System.out.println(collect);
 
 ```java
 // 简化版
-Stream.of(arr)
+Map<String, Integer> collect = Stream.of(arr)
 	.filter(s -> Integer.parseInt(s.split(",")[1]) > 2)
-	.toMap()
-  
-Map<String, Integer> collect = stream.collect(Collectors.toMap(new Function<String, String>() {  
-	@Override  
-	public String apply(String s) {  
-		return s.split(",")[0];  
-	}                              //第一个Function是map的键，由,前面的元素构成  
-}, new Function<String, Integer>() {  
-	@Override  
-	public Integer apply(String s) {  
-		return Integer.parseInt(s.split(",")[1]);  
-	}                             //第二个Function是map的值，由,后面的元素构成  
-}));  
+	.toMap(
+		s -> s.split(",")[0],
+		s -> Integer.parseInt(s.split(",")[1])
+	); 
 ```
+
+
 
 
 
