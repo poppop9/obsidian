@@ -371,17 +371,12 @@ docker run -itd --name test2 --network test-net ubuntu /bin/bash
 # ❤ 异常
 ```
 (HTTP code 500) server error - Ports are not available: exposing port TCP 0.0.0.0:6379 -> 0.0.0.0:0: listen tcp 0.0.0.0:6379: bind: An attempt was made to access a socket in a way forbidden by its access permissions.
+```
 
-解决办法：
+解决办法：重启Windows NAT服务，可以解决一些网络端口冲突或服务不稳定的问题，因为重启服务可以让服务重新获取资源
 - 管理员身份运行 cmd
 - net stop winnat
 - net start winnat
-```
-
-
-
-
-
 
 ---
 
