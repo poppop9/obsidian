@@ -368,6 +368,21 @@ docker run -itd --name test2 --network test-net ubuntu /bin/bash
 
 >[!hint] 如果你有多个容器之间需要互相连接，推荐使用 Docker Compose
 
+# ❤ 异常
+```
+(HTTP code 500) server error - Ports are not available: exposing port TCP 0.0.0.0:6379 -> 0.0.0.0:0: listen tcp 0.0.0.0:6379: bind: An attempt was made to access a socket in a way forbidden by its access permissions.
+
+解决办法：
+- 管理员身份运行 cmd
+- net stop winnat
+- net start winnat
+```
+
+
+
+
+
+
 ---
 
 For a better experience on WSL, consider enabling the WSL [autoMemoryReclaim 3](https://learn.microsoft.com/en-us/windows/wsl/wsl-config) setting available since WSL 1.3.10 (experimental).
