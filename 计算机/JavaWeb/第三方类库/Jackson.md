@@ -135,7 +135,8 @@ List<Car> cars1 = objectMapper.readValue(jsonArray, new TypeReference<List<Car>>
 ObjectMapper objectMapper = new ObjectMapper();
 
 String jsonObject = "{\"brand\":\"ford\", \"doors\":5}";
- 
+
+// new TypeReference<Map<String,Object>>(){} 就是在告诉Jackson，你想要什么类型
 Map<String, Object> jsonMap = objectMapper.readValue(jsonObject, new TypeReference<Map<String,Object>>(){});
 ```
 
