@@ -175,7 +175,8 @@ public static void main(String[] args) {
     list.add(992);  
     list.add(33);  
   
-    list.stream().sorted().forEach(System.out::println);  
+    list.stream().sorted()
+	    .forEach(System.out::println);  
   
     list.stream().sorted(new Comparator<Integer>() {  
         @Override  
