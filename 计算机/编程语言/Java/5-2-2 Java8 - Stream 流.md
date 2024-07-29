@@ -129,6 +129,9 @@ public static void main(String[] args) {
 ```
 
 ## concat，distinct
+- `concat()` 合并流
+- `distinct()` 去重
+
 ```java
 public static void main(String[] args) {  
     List<String> list = new ArrayList<>();  
@@ -139,13 +142,15 @@ public static void main(String[] args) {
   
     Stream<String> s1 = list.stream().limit(2);  
     Stream<String> s2 = list.stream().skip(1);  
-	    Stream.concat(s1, s2).forEach(System.out::println);  //合并a，b。然后输出
+	Stream.concat(s1, s2)
+		.forEach(System.out::println);  //合并a，b。然后输出
   
     System.out.println("----------");  
   
     Stream<String> s3 = list.stream().limit(2);  
     Stream<String> s4 = list.stream().skip(1);  
-    Stream.concat(s3, s4).distinct().forEach(System.out::println);  //去除重复
+    Stream.concat(s3, s4)
+	    .distinct().forEach(System.out::println);  //去除重复
 }
 
 
