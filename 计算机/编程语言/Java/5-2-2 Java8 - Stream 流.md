@@ -328,12 +328,11 @@ public static void main(String[] args) {
 4
 ```
 
-## collect，toList，toMap
+## collect，toList
 - `collect(……)` 
 	- `Collectors.toList()` 将 Stream 流收集成 List 集合
 	- `Collectors.toMap()` 将 Stream 流收集成 Map 集合
 - `toList()` 将 Stream 流收集成<u>不可变的</u> List 集合
-- 
 
 ---
 
