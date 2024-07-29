@@ -215,10 +215,10 @@ try {
 	- `JsonNode.get(索引)` 如果一个 JsonNode 对象是数组，可以使用 get 来获取到指定的元素
 	- `JsonNode.at("JSON 路径")` 根据路径获取 JSON 的字段【例如 `/nestedObject/value`】
 - **获取字段里的内容**
-	- `jsonNode.get("字段名").asText();` 获取对应字段的内容为 `String`
-	- `jsonNode.get("字段名").asDouble();` 获取对应字段的内容为 `double`
-	- `jsonNode.get("字段名").asInt();` 获取对应字段的内容为 `int`
-	- `jsonNode.get("字段名").asLong();` 获取对应字段的内容为 `long`
+	- `jsonNode.asText();` 获取对应字段的内容为 `String`
+	- `jsonNode.asDouble();` 获取对应字段的内容为 `double`
+	- `jsonNode.asInt();` 获取对应字段的内容为 `int`
+	- `jsonNode.asLong();` 获取对应字段的内容为 `long`
 - **遍历**
 	- `Iterator<Map.Entry<String, JsonNode>> fields()` 返回一个迭代器，里面是 JsonNode 对象的所有键值对集合
 		- `Map.Entry<String, JsonNode> next()` 一个个遍历，获取到 Entry 对象
