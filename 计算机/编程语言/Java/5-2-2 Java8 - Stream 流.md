@@ -175,15 +175,17 @@ public static void main(String[] args) {
     list.add(992);  
     list.add(33);  
   
-    list.stream().sorted()
+    list.stream()
+	    .sorted()
 	    .forEach(System.out::println);  
   
-    list.stream().sorted(new Comparator<Integer>() {  
-        @Override  
-        public int compare(Integer o1, Integer o2) {  
-            return 0;  
-        }  
-    }).forEach(System.out::println);  
+    list.stream()
+	    .sorted(new Comparator<Integer>() {  
+	        @Override  
+	        public int compare(Integer o1, Integer o2) {  
+	            return 0;  
+	        }  
+	    }).forEach(System.out::println);  
 }
 
 
