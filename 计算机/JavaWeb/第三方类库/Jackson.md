@@ -219,6 +219,9 @@ try {
 	- `jsonNode.get("字段名").asDouble();` 获取对应字段的内容为 `double`
 	- `jsonNode.get("字段名").asInt();` 获取对应字段的内容为 `int`
 	- `jsonNode.get("字段名").asLong();` 获取对应字段的内容为 `long`
+- **遍历**
+	- `Iterator<Map.Entry<String, JsonNode>> fields()` 返回一个迭代器，里面是 JsonNode 对象的所有键值对集合
+		- `Map.Entry<String, JsonNode> next()` 一个个遍历
 
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
