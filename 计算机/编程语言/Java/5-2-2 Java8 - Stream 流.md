@@ -304,6 +304,7 @@ list.stream().forEach(s -> {
 	System.out.println(sb.toString());
 });
 ```
+
 ## findFirst
 - `Optional findFirst` 获取流中的第一个元素，并返回 Optional 对象
 	- `get()` 获取到 Optional 对象的值，也就是 Stream 流中的元素
