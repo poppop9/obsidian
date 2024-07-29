@@ -20,8 +20,7 @@ int number = r.nextInt(10);   //代表的数据范围是0-9
 ```
 
 ## Arrays
-
-> `Arrays` 里面包含了操作数组的多种方法
+`Arrays` 里面包含了操作数组的多种方法
 
 ```
 public class Arrays extends Object

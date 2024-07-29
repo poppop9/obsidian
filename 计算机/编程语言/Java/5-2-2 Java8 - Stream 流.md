@@ -328,9 +328,15 @@ public static void main(String[] args) {
 4
 ```
 
-## collect
-- `Collectors.toList()` 收集到其他集合
+## collect，toList，toMap
+- `collect(……)` 
+	- `Collectors.toList()` 将 Stream 流收集成 List 集合
+	- `Collectors.toMap()` 将 Stream 流收集成 Map 集合
+- ``
 
+---
+
+- `Collectors.toList()` 收集到其他集合
 ```java
 public static void main(String[] args) {  
     List<Integer> list = new ArrayList<>();  
