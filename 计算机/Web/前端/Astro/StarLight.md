@@ -15,3 +15,6 @@ title: Starlight
 
 
 
+# 部署
+https://docs.astro.build/zh-cn/guides/deploy/
+
