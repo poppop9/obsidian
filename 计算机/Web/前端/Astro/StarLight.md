@@ -1,6 +1,5 @@
 ---
-title: 
-date: 2024-07-30T12:00:00+08:00
+title: Starlight
 ---
 
 # 安装
