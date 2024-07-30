@@ -10,4 +10,5 @@ date: 2024-07-30T12:00:00+08:00
 - `npm install` 
 - `npm run dev` 
 
+>[!hint] 更新 `npx @astrojs/upgrade` 
 
