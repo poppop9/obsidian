@@ -5,8 +5,7 @@
 >[!hint] 技术选型
 >- `Jedis` 
 >- `Lettuce`
->- `Redisson` Redisson 是基于 NIO【~~非阻塞的~~】 的 netty 框架
->
+>- `Redisson` 基于 NIO【~~非阻塞的~~】 的 netty 框架
 
 ```xml
 <dependency>
