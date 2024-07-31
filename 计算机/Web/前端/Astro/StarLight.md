@@ -35,7 +35,7 @@ title: Hello, World!
 ## 💛 自定义页面
 https://starlight.astro.build/zh-cn/guides/pages/#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A1%B5%E9%9D%A2
 
-
+自定义 md 语法 ： https://docs.astro.build/zh-cn/guides/markdown-content/#%E9%85%8D%E7%BD%AE-markdown
 
 
 # 部署
