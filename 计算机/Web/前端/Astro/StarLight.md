@@ -12,7 +12,7 @@ title: Starlight
 >[!hint] 更新 `npx @astrojs/upgrade` 
 
 # ❤️ 页面
-## md 页面
+## 💛 md 页面
 在 `src/content/docs/` 中创建 md 文件来添加新页面，使用子文件夹来组织文件
 
 ### frontmatter
@@ -32,7 +32,7 @@ title: Hello, World!
 
 扩展 md ： https://starlight.astro.build/zh-cn/guides/authoring-content/#expressive-code-%E5%8A%9F%E8%83%BD
 
-## 自定义页面
+## 💛 自定义页面
 https://starlight.astro.build/zh-cn/guides/pages/#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A1%B5%E9%9D%A2
 
 
