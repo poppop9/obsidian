@@ -4,3 +4,5 @@
 /.makemd
 .makemd/fileCache.mdc
 /.makemd
+.makemd/fileCache.mdc
+.makemd/superstate.mdc
