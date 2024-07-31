@@ -237,6 +237,8 @@ public void testRedisson() {
 - `RBloomFilter getBloomFilter(key)` 根据 key 创建 RBloomFilter 对象
 - RBloomFilter
 	- `tryInit(预期数据量，误报率)` 误报率越小，过滤器所需的空间越大
+	- `add(元素)` 向布隆过滤器中添加元素
+	- `expire(过期时间，过期单位)` 意味着如果在指定时间内，没有操作布隆过滤器，na
 
 ```java
 @Autowired  
