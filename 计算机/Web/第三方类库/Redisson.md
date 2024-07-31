@@ -235,7 +235,7 @@ public void testRedisson() {
 
 ## 💛  布隆过滤器
 
-- `getBloomFilter(key)` 
+- `RBloomFilter getBloomFilter(key)` 根据 key 创建 RBloomFilter 对象
 
 ```java
 @Autowired  
