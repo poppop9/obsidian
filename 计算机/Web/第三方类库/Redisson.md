@@ -234,8 +234,9 @@ public void testRedisson() {
 ```
 
 ## 💛  布隆过滤器
-
 - `RBloomFilter getBloomFilter(key)` 根据 key 创建 RBloomFilter 对象
+- RBloomFilter
+	- `tryInit(预期数据量，误报率)` 误报率越小，过滤器所需的空间越大
 
 ```java
 @Autowired  
