@@ -240,6 +240,9 @@ public void testRedisson() {
 >- 空间效率，和查询时间都比一般的算法要好的多
 >- 有一定的误识别率，而且删除困难
 
+---
+
+- `getBloomFilter(key)` 
 
 ```java
 @Autowired  
@@ -264,6 +267,10 @@ public void testRBloomFilter() {
 	System.out.println(rBloomFilter.contains("200"));
 	System.out.println(rBloomFilter.contains("999"));
 }
+
+true
+true
+false
 ```
 
 
