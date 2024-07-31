@@ -241,7 +241,27 @@ public void testRedisson() {
 >- 有一定的误识别率，而且删除困难
 
 
+```java
+@Autowired  
+private RedissonClient redissonClient;
 
+@Test
+public void testRBloomFilter() {
+	RBloomFilter rBloomFilter = redissonClient.getBloomFilter("seqId");
+	// 初始化预期插入的数据量为10000和期望误差率为0.01
+	rBloomFilter.tryInit(10000, 0.01);
+	// 插入部分数据
+	rBloomFilter.add("100");
+	rBloomFilter.add("200");
+	rBloomFilter.add("300");
+	//设置过期时间
+	rBloomFilter.expire(30, TimeUnit.SECONDS);
+	// 判断是否存在
+	System.out.println(rBloomFilter.contains("300"));
+	System.out.println(rBloomFilter.contains("200"));
+	System.out.println(rBloomFilter.contains("999"));
+}
+```
 
 
 
