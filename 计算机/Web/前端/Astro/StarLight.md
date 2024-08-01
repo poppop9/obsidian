@@ -44,8 +44,8 @@ https://starlight.astro.build/zh-cn/guides/pages/#%E8%87%AA%E5%AE%9A%E4%B9%89%E9
 - `npm i starlight-obsidian` 
 	- 如果 obsidian 中包含 mermaid ，还需要安装 `npx playwright install --with-deps chromium`
 - 在 `astro.config.mjs` 中导入
-```mjs
-……
+```js
+// 其他
 import starlightObsidian, { obsidianSidebarGroup } from 'starlight-obsidian'
 
 export default defineConfig({
