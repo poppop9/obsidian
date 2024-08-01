@@ -53,9 +53,6 @@ defineConfig({
 
 
 
-
-
-
 # ❤️ 插件
 ## obsidian
 - `npm i starlight-obsidian` 
