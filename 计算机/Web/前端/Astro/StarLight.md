@@ -2,7 +2,7 @@
 title: Starlight
 ---
 
-# 安装
+# ❤️ 安装
 - `npm create astro@latest -- --template starlight` 
 	- 这时候不要安装依赖
 - 进入项目目录
@@ -37,9 +37,26 @@ title: Hello, World!
 ## 💛 自定义页面
 https://starlight.astro.build/zh-cn/guides/pages/#%E8%87%AA%E5%AE%9A%E4%B9%89%E9%A1%B5%E9%9D%A2
 
+# ❤️ 布局
+设置又边栏大纲目录：
+```js
+// astro.config.mjs
+defineConfig({
+  integrations: [
+    starlight({
+      // 开启1-4的标题链接
+      tableOfContents: { minHeadingLevel: 1, maxHeadingLevel: 4 },
+    }),
+  ],
+});
+```
 
 
-# ❤ 插件
+
+
+
+
+# ❤️ 插件
 ## obsidian
 - `npm i starlight-obsidian` 
 	- 如果 obsidian 中包含 mermaid ，还需要安装 `npx playwright install --with-deps chromium`
@@ -71,6 +88,6 @@ export default defineConfig({
 })
 ```
 
-# ❤ 部署
+# ❤️ 部署
 https://docs.astro.build/zh-cn/guides/deploy/
 
