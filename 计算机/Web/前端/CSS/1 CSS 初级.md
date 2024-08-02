@@ -1,16 +1,14 @@
 
-# 1 CSS 初级
 
-> \[!quote] CSS 语法
+> [!quote] CSS 语法
 >
 > * 注释：`/* 我是注释 */`
 > * 使用多个引号时，注意双引号里要使用单引号
 
-## 🌞选择器
+# ❤ 选择器
+> [!hint] 优先级：id 选择器 > 类选择器 > 元素选择器
 
-> \[!hint] 优先级：id 选择器 > 类选择器 > 元素选择器
-
-### 元素选择器
+## 元素选择器
 
 ```css
 <style>
@@ -23,7 +21,7 @@
 </style>
 ```
 
-### 类选择器
+## 类选择器
 
 * 类名相当于是一个标签，可以被多个元素重用
 * 一个元素也可以贴多个标签【多个类】
@@ -45,9 +43,9 @@
 <span class="a01 a02">我是正文</span>  <!-- 这个元素引用了两个类 -->
 ```
 
-### id 选择器
+## id 选择器
 
-> \[!attention]
+> [!attention]
 >
 > * id 不能重用
 > * id 不能以数字开头
@@ -69,7 +67,7 @@
 <span id="002">我是正文</span>
 ```
 
-> \[!hint] 选择器的组合使用
+> [!hint] 选择器的组合使用
 >
 > ```css
 > /* 只有具有 class="center" 的 <p\> 元素会居中对齐 */ 
@@ -79,7 +77,7 @@
 > }
 > ```
 
-### 通用选择器
+## 通用选择器
 
 > 通用选择器会影响页面上的每个 HTML 元素
 
@@ -90,7 +88,7 @@
 }
 ```
 
-### 属性选择器
+## 属性选择器
 
 > 选取带有指定属性的元素
 
@@ -161,9 +159,9 @@ a[target=_blank] {
 
 ***
 
-### 组合器
+## 组合器
 
-> \[!quote] 组合器 选择器可以包含多个简单选择器，它们之间用组合器连接
+> [!quote] 组合器 选择器可以包含多个简单选择器，它们之间用组合器连接
 
 * **后代选择器**：指定元素后代的所有元素
 
@@ -201,11 +199,11 @@ div ~ p {
 }
 ```
 
-## 🌞引入方式
+# ❤ 引入方式
 
-> \[!hint] 引入方式的优先级 行内样式 > 在 `head标签` 里内嵌样式 > 外联样式的顺序
+> [!hint] 引入方式的优先级 行内样式 > 在 `head标签` 里内嵌样式 > 外联样式的顺序
 
-### 行内样式
+## 行内样式
 
 行内样式只作用于当前标签，不推荐采用，会降低可读性
 
@@ -213,8 +211,7 @@ div ~ p {
 <h1 style="xxx:yyy; xxx:yyy;">HTML 5</h1>
 ```
 
-### 内嵌样式
-
+## 内嵌样式
 ```html
 <!DOCTYPE html>
 <html>
@@ -235,8 +232,7 @@ div ~ p {
 </html>
 ```
 
-### 外联样式
-
+## 外联样式
 ```css
 h1 {
 	xxx:yyy;
@@ -258,10 +254,8 @@ h1 {
 </html>
 ```
 
-## 🌞单位
-
-### 绝对单位
-
+# ❤ 单位
+## 绝对单位
 绝对长度 表示的长度都将恰好显示为这个尺寸，不建议在屏幕上使用绝对长度单位，因为屏幕尺寸变化很大
 
 | 单位 | 描述                       |
@@ -273,8 +267,7 @@ h1 {
 | pt | 点 (1pt = 1/72 of 1in)    |
 | pc | 派卡 (1pc = 12 pt)         |
 
-### 相对单位
-
+## 相对单位
 相对长度 规定相对于另一个长度属性的长度，相对长度单位在不同渲染介质之间缩放表现得更好
 
 | 单位   | 描述                            |
@@ -291,9 +284,9 @@ h1 {
 
 视口 = 浏览器窗口的尺寸
 
-> \[!hint] em 和 rem 可用于创建完美的可扩展布局
+> [!hint] em 和 rem 可用于创建完美的可扩展布局
 
-## 🌞颜色
+# ❤ 颜色
 
 * `background-color:`
   * `Tomato`
@@ -303,11 +296,11 @@ h1 {
   * `rgba(255, 99, 71, 0.5)`
   * `hsla(9, 100%, 64%, 0.5)`
 
-## 🌞框模型
+# ❤ 框模型
 
 元素总宽度 = width + 左右padding + 左右border + 左右margin + outline ![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402022232532.png)
 
-> \[!summary] 属性
+> [!summary] 属性
 >
 > * `background` 背景
 > * `border` 边框
@@ -322,9 +315,9 @@ h1 {
 >   * `inherit` 继承父元素
 > * `outline` 轮廓
 
-### 背景
+## 背景
 
-> \[!quote] 背景
+> [!quote] 背景
 >
 > > 背景 = padding + 内容
 >
@@ -334,9 +327,9 @@ h1 {
 > * **内容为图片**
 >   * `background-image: url('链接')` 指定背景图像
 
-> \[!hint] 默认情况下，`background-image` 在水平和垂直方向上都重复图像，直到铺满整个指定元素
+> [!hint] 默认情况下，`background-image` 在水平和垂直方向上都重复图像，直到铺满整个指定元素
 
-#### 参数
+### 参数
 
 * `background-repeat` 指定背景内容是否重复显示
 * `background-origin` 模糊的背景位置
@@ -394,7 +387,7 @@ background-clip: padding-box;
 background-clip: content-box;
 ```
 
-> \[!hint] 多重背景
+> [!hint] 多重背景
 >
 > > 可以为背景指定多张图片
 >
@@ -408,18 +401,18 @@ background-clip: content-box;
 > }
 > ```
 
-### 边框
+## 边框
 
-> \[!summary] 属性
+> [!summary] 属性
 >
 > * `border-style` 边框的样式
 > * `border-width` 宽度
 > * `border-color`
 > * `border-radius` 添加圆角
 
-> \[!hint] 简写 `border: width style color;`
+> [!hint] 简写 `border: width style color;`
 
-#### 样式
+### 样式
 
 ```css
 <p style="border-style: dotted;">hello</p>
@@ -465,7 +458,7 @@ hello
 
 hello
 
-#### 参数
+### 参数
 
 * **宽度**
 
@@ -503,7 +496,7 @@ hello
 <p style="border-style: groove; border-color: red green blue yellow;">hello</p>
 ```
 
-> \[!hint] 如果不要颜色的话可以指定为 `color:transparent;` ，表示_**透明色**_
+> [!hint] 如果不要颜色的话可以指定为 `color:transparent;` ，表示_**透明色**_
 
 hello
 
@@ -523,7 +516,7 @@ hello
 
 hello
 
-### 内外边距
+## 内外边距
 
 ```css
 /* 允许指定单个外边距 */
@@ -535,9 +528,9 @@ p {
 }
 ```
 
-### 轮廓
+## 轮廓
 
-> \[!summary] 属性
+> [!summary] 属性
 >
 > * `outline-style` 样式
 >   * `dotted`  点状轮廓
@@ -554,9 +547,9 @@ p {
 > * `outline-width`
 > * `outline-offset` 轮廓偏移【轮廓与border之间的空间】
 
-## 🌞文本
+# ❤ 文本
 
-### 基础属性
+## 基础属性
 
 * `color` 指定文本的颜色
 * `font-size` 指定文本的大小【普通文本默认大小为 16px】
@@ -613,7 +606,7 @@ p {
 }
 ```
 
-### 位置
+## 位置
 
 * `text-align` 水平对齐
   * `left`
@@ -641,9 +634,9 @@ p {
 
 hello
 
-### 其他属性
+## 其他属性
 
-#### 装饰
+### 装饰
 
 * `initial` 默认值
 * `inherit` 从其父元素继承属性
@@ -680,7 +673,7 @@ hello
 
 hello
 
-#### 文本间距
+### 文本间距
 
 ```css
 p {
@@ -704,7 +697,7 @@ p {
 }
 ```
 
-#### 文本转换
+### 文本转换
 
 ```css
 p.uppercase {
@@ -720,7 +713,7 @@ p.capitalize {
 }
 ```
 
-## 🌞图片/视频
+# ❤ 图片/视频
 * `object-fit:`
 	* 保持宽高比
 		* `contain` 图片适应容器
@@ -729,7 +722,7 @@ p.capitalize {
 	* 不保持宽高比
 		* `fill` 拉伸图片来填满
 
-## 列表
+# 列表
 
 * **无序列表** `ul`
 	* `list-style-type` 设置列表项目标记
@@ -761,7 +754,7 @@ list-style-type: upper-roman;
 list-style-type: lower-alpha;
 ```
 
-## 表格
+# 表格
 
 * **边框**
 
@@ -834,7 +827,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 </div>
 ```
 
-## 透明度
+# 透明度
 
 > `opacity` 用于指定元素的透明度，取值范围为 0.0【透明】 - 1.0【不透明】
 
@@ -844,7 +837,7 @@ img {
 }
 ```
 
-## 滤镜
+# 滤镜
 
 * `filter` 滤镜
   * `none` 【~~默认~~】

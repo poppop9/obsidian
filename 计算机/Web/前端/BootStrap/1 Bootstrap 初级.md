@@ -1,12 +1,10 @@
-# 1 Bootstrap 初级
 
-> \[!hint] Bootstrap 可以轻松地创建响应式设计，而且提供了丰富的 JavaScript 插件
+> [!hint] Bootstrap 可以轻松地创建响应式设计，而且提供了丰富的 JavaScript 插件
 
-> \[!hint] Bootstrap 的核心是**移动优先**，所以为一个较小的视口设置了样式，这个样式会在所有更大的视口中继续适用，除非对更大视口的添加新的样式
+> [!hint] Bootstrap 的核心是**移动优先**，所以为一个较小的视口设置了样式，这个样式会在所有更大的视口中继续适用，除非对更大视口的添加新的样式
 
-## 引入
-
-### CDN
+# 引入
+## CDN
 
 https://v5.bootcss.com/docs/getting-started/introduction/#quick-start
 
@@ -31,7 +29,7 @@ https://v5.bootcss.com/docs/getting-started/introduction/#quick-start
 </html>
 ```
 
-### npm
+## npm
 
 https://v5.bootcss.com/docs/getting-started/download/#npm
 
@@ -47,13 +45,13 @@ import 'bootstrap';
 // import './assets/main.css'
 ```
 
-## 布局
+# 布局
 
-### 容器
+## 容器
 
 ![800](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402051731979.png)
 
-#### .container 固定宽度容器
+### .container 固定宽度容器
 
 > 提供了一个响应式的_**固定宽度容器**_【`max-width`会在不同的屏幕尺寸变化】
 
@@ -64,17 +62,17 @@ import 'bootstrap';
 | `.container-lg`                  | 100%                              | 100%                   | 100%                    | 960px                  | 1140px                        | 1320px                |
 | `.container-xl`                  | 100%                              | 100%                   | 100%                    | 100%                   | 1140px                        | 1320px                |
 | `.container-xxl`                 | 100%                              | 100%                   | 100%                    | 100%                   | 100%                          | 1320px                |
-| ### .container-fluid 全宽容器        |                                   |                        |                         |                        |                               |                       |
+| ## .container-fluid 全宽容器        |                                   |                        |                         |                        |                               |                       |
 | 提供了一个**全宽容器**【`width` 总是 `100%`】 |                                   |                        |                         |                        |                               |                       |
 
-### 网格布局
+## 网格布局
 
 > 利用 `flexbox` ，共有12列【会根据屏幕大小，自动重排】 ![800](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402051753353.png)
 
-> \[!hint] 如果页面底部出现水平的滚动条，就在 `.row` 的 `<div>` 中加入 `.mx-auto`
+> [!hint] 如果页面底部出现水平的滚动条，就在 `.row` 的 `<div>` 中加入 `.mx-auto`
 >
 > ```html
-> \<div class="row mx-auto">
+> <div class="row mx-auto">
 > 	\<div class="col-9 mx-auto">
 > 		\<div class="row">
 > 			\<div class="col-2">
@@ -87,7 +85,7 @@ import 'bootstrap';
 > 			\</div>
 > 		\</div>
 > 	\</div>
-> \</div>
+> </div>
 > ```
 
 * **行**
@@ -103,7 +101,7 @@ import 'bootstrap';
 * **间隙**
   * `.g-*` 控制一行中列的间隙
 
-#### 自定义列宽
+### 自定义列宽
 
 ```html
 /* 第一颗星 (*) 代表响应度：sm、md、lg、xl 或 xxl */
@@ -129,7 +127,7 @@ import 'bootstrap';
 </div>
 ```
 
-#### 自动均分列宽
+### 自动均分列宽
 
 ```html
 /* 有三个col，所以每列会占用33.3% */
@@ -140,7 +138,7 @@ import 'bootstrap';
 </div>
 ```
 
-### 栈式布局
+## 栈式布局
 
 > 栈式布局是一种简化的使用 `flexbox` 的功能
 
@@ -171,11 +169,11 @@ import 'bootstrap';
 </div>
 ```
 
-> \[!warning] 为什么水平部分居右堆叠要使用 `.ms-auto`，而不是其他居右的属性 ？ 因为此处的父容器 `.hstack` 已经使用了关于 flex 的属性了，为了不冲突，所以使 `margin-left: auto;`
+> [!warning] 为什么水平部分居右堆叠要使用 `.ms-auto`，而不是其他居右的属性 ？ 因为此处的父容器 `.hstack` 已经使用了关于 flex 的属性了，为了不冲突，所以使 `margin-left: auto;`
 
-## 组件
+# 组件
 
-### 警告框
+## 警告框
 
 > 在 `class属性` 上添加 `alert`
 
@@ -200,9 +198,9 @@ import 'bootstrap';
 </div>
 ```
 
-### 按钮
+## 按钮
 
-#### 样式
+### 样式
 
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403161654341.png)
 
@@ -233,7 +231,7 @@ import 'bootstrap';
 
 * `rounded-pill` 胶囊按钮
 
-#### 尺寸
+### 尺寸
 
 ```html
 <button type="button" class="btn btn-primary btn-lg">大型</button>
@@ -241,7 +239,7 @@ import 'bootstrap';
 <button type="button" class="btn btn-primary btn-sm">小型</button>
 ```
 
-#### 禁用
+### 禁用
 
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402161619053.png)
 
@@ -254,13 +252,13 @@ import 'bootstrap';
 <button type="button" class="btn btn-primary" disabled>禁用的主要按钮</button>
 ```
 
-#### 按钮组
+### 按钮组
 
 > 使用带有 `.btn-group` 的 `<div>` 元素来创建按钮组
 
-> \[!attention] 不可以单独控制按钮组内按钮的大小，只能一起通过按钮组控制
+> [!attention] 不可以单独控制按钮组内按钮的大小，只能一起通过按钮组控制
 
-> \[!hint] 按钮组是 `inline`
+> [!hint] 按钮组是 `inline`
 
 * 尺寸
   * `.btn-group-lg`
@@ -311,11 +309,11 @@ import 'bootstrap';
 </div>
 ```
 
-### 徽章
+## 徽章
 
 > `.badge` ，用于计数，打标签……，会自动匹配父元素的大小 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402181053369.png)
 
-#### 样式
+### 样式
 
 * 矩形徽章
 
@@ -332,7 +330,7 @@ import 'bootstrap';
 <span class="badge bg-primary rounded-pill"></span>
 ```
 
-#### 用途
+### 用途
 
 * 按钮内消息计数
 
@@ -342,7 +340,7 @@ import 'bootstrap';
 </button>
 ```
 
-### 进度条
+## 进度条
 
 > 将 `.progress` 添加到父元素，将 `.progress-bar` 添加到子元素
 
@@ -358,7 +356,7 @@ import 'bootstrap';
 </div>
 ```
 
-### 加载器
+## 加载器
 
 * 样式
   * `.spinner-border` 旋转
@@ -379,7 +377,7 @@ import 'bootstrap';
 </button>
 ```
 
-### 分页
+## 分页
 
 * `.pagination` 分页父容器
 * `.page-item` 子页面
@@ -397,7 +395,7 @@ import 'bootstrap';
 </ul>
 ```
 
-### 列表组
+## 列表组
 
 * `.list-group` 列表组父容器
 * `.list-group-item` 列表项
