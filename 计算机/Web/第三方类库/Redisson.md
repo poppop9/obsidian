@@ -81,7 +81,7 @@ public class RedissonConfig {
 
 # 使用
 ## 💛 Key
-- redissonClient 下的方法
+- RedissonClient 下的方法
 	- `RKeys getKeys();` 返回 RKeys 对象
 
 ---
