@@ -465,6 +465,10 @@ temp/
 >
 >- 合并分支
 >![300](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202406282303141.png)
+>
+>- 推送该分支的合并请求
+>- 切换到 main 分支
+>- 在 main 分支上拉取请求
 
 
 

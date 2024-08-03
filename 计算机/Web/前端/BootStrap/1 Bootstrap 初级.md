@@ -5,7 +5,6 @@
 
 # 引入
 ## CDN
-
 https://v5.bootcss.com/docs/getting-started/introduction/#quick-start
 
 ```html
@@ -102,7 +101,6 @@ import 'bootstrap';
   * `.g-*` 控制一行中列的间隙
 
 ### 自定义列宽
-
 ```html
 /* 第一颗星 (*) 代表响应度：sm、md、lg、xl 或 xxl */
 /* 第二颗星代表占用列数，所有列加起来不超过12 */
@@ -201,7 +199,6 @@ import 'bootstrap';
 ## 按钮
 
 ### 样式
-
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403161654341.png)
 
 ```html
@@ -240,7 +237,6 @@ import 'bootstrap';
 ```
 
 ### 禁用
-
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402161619053.png)
 
 * `.active` 活跃

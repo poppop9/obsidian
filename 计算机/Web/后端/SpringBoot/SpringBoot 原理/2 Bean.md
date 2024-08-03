@@ -16,8 +16,6 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=app.xlog.ggbond.c
 ```
 
 
-
-
 ## @Configuration
 
 
@@ -36,7 +34,7 @@ Spring 项目启动后，**默认**会把 Bean 都创建好放入到 IOC 容器�
 > 尽管 Spring 提供了解决循环依赖的方法，但最佳实践是尽量避免循环依赖的发生，通过重构代码和使用设计模式来改善代码结构
 
 ## 手动获取 Bean
-有三种方法：
+<u>手动获取 Bean 有三种方法</u>：
 - 根据 name 获取
 - 根据类型获取
 - 根据 name，类型获取
@@ -66,10 +64,63 @@ com.example.spring_aop.controller.HelloController@65af05b2
 com.example.spring_aop.controller.HelloController@65af05b2
 ```
 
-## 延迟初始化
->添加 `@Lazy` 注解
+## 在非 Spring 中管理的类中注入 Bean
+- 添加一个 SpringContextUtil 工具类 ：借助 ApplicationContext 的 getBean 功能，再利用 Java 的静态方法，就可以实现无需注解即可注入
+```java
+package app.xlog.ggbond.strategy.utils;
 
-我们用测试类来测试<u>默认</u>，与<u>延迟初始化</u>
+@Component
+public class SpringContextUtil implements ApplicationContextAware {
+
+    private static ApplicationContext context;
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        this.context = applicationContext;
+    }
+
+    public static <T> T getBean(Class<T> clazz) {
+        return context.getBean(clazz);
+    }
+
+    public static <T> T getBean(String name, Class<T> clazz) {
+        return context.getBean(name, clazz);
+    }
+}
+```
+
+- 非 Spring 管理的类
+```java
+// 根据用户id判断是否是黑名单用户
+public class BlacklistRaffleFilter implements RaffleFilter {
+
+    private IUserService userService;
+
+    public BlacklistRaffleFilter() {
+	    // 利用静态方法查找UserService注入
+        userService = SpringContextUtil.getBean(UserService.class);
+    }
+
+	// 使用IUserService里的方法 ……
+}
+```
+
+- 测试
+```java
+@SpringBootTest
+public class FilterTest {
+    @Test
+    public void test_FilterChain() {
+	    BlacklistRaffleFilter b = new BlacklistRaffleFilter();
+	    // 不会报错找不到UserService
+	    b.filter();
+    }
+}
+```
+
+## 延迟初始化
+添加 `@Lazy` 注解，我们用测试类来测试<u>默认</u>，与<u>延迟初始化</u>
+
 ```java
 // Test 测试类
 package com.example.spring_aop;
@@ -85,8 +136,9 @@ class SpringAopApplicationTests {
     }
 }
 ```
+
 ### 不延迟初始化
->项目已启动，各种 Bean 就创建好了
+项目已启动，各种 Bean 就创建好了
 
 ```java
 // HelloController
@@ -110,7 +162,7 @@ com.example.spring_aop.controller.HelloController@65af05b2
 ```
 
 ### 添加延迟初始化
->在要使用到 Bean 时，才创建 Bean 对象
+在要使用到 Bean 时，才创建 Bean 对象
 
 ```java
 // HelloController
@@ -143,8 +195,9 @@ com.example.spring_aop.controller.HelloController@38fb151a
 |    `request`    |    每个请求范围内，会创建新的实例    |
 |    `session`    |    每个会话范围，会创建新的实例     |
 |  `application`  |    每个应用范围内，会创建新的实例    |
+
 ### prototype
->加入 `@Scope("prototype")`
+加入 `@Scope("prototype")`
 
 ```java
 package com.example.spring_aop.controller;

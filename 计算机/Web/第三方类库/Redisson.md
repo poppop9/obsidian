@@ -267,11 +267,65 @@ true
 false
 ```
 
+## 💛  原子长整型 AtomicLong
+>[!quote] AtomicLong
+>AtomicLong 是一个分布式原子 long，是一个线程安全对象
+>
+>- 如果需要在多线程环境中维护一个 long 变量，可以使用
+>- 需要实现高性能的计数器，可以使用
+>- <u>想要避免加锁，来提高性能时</u>，可以使用
+
+---
+
+- `RAtomicLong getAtomicLong(键)` 获取 RAtomicLong 对象
+	- **改**
+		- `set(值)` 设置值
+		- `long incrementAndGet()` 递增，并返回新的值
+		- `long decrementAndGet()` 递减，并返回新的值
+		- `long addAndGet(值)` 将 redis 中的值加上指定值，然后返回
+	- **查**
+		- `long get()` 获取值
+
+```java
+@Test
+public void test_getAtomicLong() {
+	RAtomicLong rAtomicLong = redissonClient.getAtomicLong("testAtomicLong");
+
+	rAtomicLong.set(100);
+	log.atInfo().log("当前值: {}", rAtomicLong.get());
+
+	rAtomicLong.incrementAndGet();
+	log.atInfo().log("自增后的值: {}", rAtomicLong.get());
+	
+	rAtomicLong.decrementAndGet();
+	log.atInfo().log("自减后的值: {}", rAtomicLong.get());
+
+	long l = rAtomicLong.addAndGet(-100);
+	log.atInfo().log("加-100后的值: {}", l);
+}
 
 
+当前值: 100
+自增后的值: 101
+自减后的值: 100
+加100后的值: 0
+```
 
+## 💛  延迟队列 DelayedQueue
+>[!quote] DelayedQueue
+>DelayedQueue 允许你将元素按照一定的时间间隔【~~时间可以固定，也可以动态变化~~】添加到队列中
+>
+>- 通过延时处理，可以减轻某个组件的负载
 
+---
 
+- `RDelayedQueue distinationQueue(键)` 获取 RDelayedQueue 对象
+	- **增**
+		- `offer(值，延迟时间，延迟时间单位)` 添加元素到延迟队列
+	- **查**
+		- `poll()` 取出延迟队列中的元素
+		- `isEmpty()` 判断延迟队列是否为空
 
+```java
 
-
+```
