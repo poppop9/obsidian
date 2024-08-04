@@ -326,9 +326,9 @@ Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发
 ```
 
 #### 主要模块
-不用指定构建标签 `<build>`，默认入口文件在这个模块
+不用指定构建标签 `<build></build>`，默认入口文件在这个模块
 
->[!warning] 子工程会自动继承父工程的 `<groupId>`，子工程无需再添加 `<groupId>`
+>[!warning] 子工程会自动继承父工程的 `<groupId></groupId>`，子工程无需再添加 `<groupId></groupId>`
 
 ### 版本锁定
 当拆分的模块越多，有部分模块需要用到某个依赖时，依赖的版本将变得难以管理，所以我们使用 **版本锁定** `<dependencyManagement>`
@@ -392,62 +392,62 @@ Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发
 - 配置访问私服的用户名和密码
 	- 找到 Maven 的安装目录里的 `setting.xml`
 	- 找到里面的 `<servers>……</servers>` 标签
-		```xml
-		<servers>
-			<server>
-				<id>maven-releases</id>
-				<username>admin</username>
-				<password>123456</password>
-			</server>
-			
-			<server>
-				<id>maven-snapshots</id>
-				<username>admin</username>
-				<password>123456</password>
-			</server>
-		</servers>
-		```
+```xml
+<servers>
+	<server>
+		<id>maven-releases</id>
+		<username>admin</username>
+		<password>123456</password>
+	</server>
+	
+	<server>
+		<id>maven-snapshots</id>
+		<username>admin</username>
+		<password>123456</password>
+	</server>
+</servers>
+```
 
 - 配置允许 `SNAPSHOT` 版本运行上传依赖到仓库【~~默认是不允许的~~】
 	- 找到 Maven 的安装目录里的 `setting.xml`
 	- 找到里面的 `<profiles>……</profiles>` 标签
-		```xml
-		<profiles>
-			<profile>
-				<id>allow-snapshots</id>
-				<activation>
-					<activeByDefault>true</activeByDefault>
-				</activation>
-				<repositories>
-					<repository>
-						<id>maven-public</id>
-						<ur1>http://192.168.150.101:8081/repository/maven-public/</url>
-						<releases>
-							<enabled>true</enabled>
-						</releases>
-						<snapshots>
-							<enabled>true</enabled>
-						</snapshots>
-					</repository>
-				</repositories> 
-			</profile>
-		</profiles>
-		```
+```xml
+<profiles>
+	<profile>
+		<id>allow-snapshots</id>
+		<activation>
+			<activeByDefault>true</activeByDefault>
+		</activation>
+		<repositories>
+			<repository>
+				<id>maven-public</id>
+				<ur1>http://192.168.150.101:8081/repository/maven-public/</url>
+				<releases>
+					<enabled>true</enabled>
+				</releases>
+				<snapshots>
+					<enabled>true</enabled>
+				</snapshots>
+			</repository>
+		</repositories> 
+	</profile>
+</profiles>
+```
 
-- 配置上传资源的目的地【在父工程中的 `pom.xml` 中配置】
-	```xml
-	<distributionManagement>
-		<repository>
-			<id>私服发行版仓库ID</id>
-			<url>私服发行版仓库地址</url>
-		</repository>
-		
-		<snapshotRepository>
-			<id>私服快照仓库ID</id>
-			<url>私服快照仓库地址</url>
-		</snapshotRepository>
-	</distributionManagement>
-	```
+- 配置上传资源的目的地【在父工程中的 `pom.xml` 中配置】：
+```xml
+<distributionManagement>
+    <repository>
+        <id>私服发行版仓库ID</id>
+        <url>私服发行版仓库地址</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>私服快照仓库ID</id>
+        <url>私服快照仓库地址</url>
+    </snapshotRepository>
+</distributionManagement>
+```
 
 **配置完成后，执行  Maven 生命周期** `deploy` 
 
@@ -455,22 +455,14 @@ Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发
 - 配置连接私服的地址
 	- 找到 Maven 的安装目录里的 `setting.xml`
 	- 找到里面的 `<mirrors>……</mirrors>` 标签
-		```xml
-		<mirrors>
-			<mirror>
-				<id>maven-public</id>
-				<mirrorOf>*</mirrorOf>
-				<url>私服仓库组的地址</url>  // 私服仓库中所有仓库的集合
-			</mirror>
-		</mirrors>
-		```
-
-
-
-
-
-
-
-
+```xml
+<mirrors>
+	<mirror>
+		<id>maven-public</id>
+		<mirrorOf>*</mirrorOf>
+        <url>私服仓库组的地址</url>  <!-- 私服仓库中所有仓库的集合 -->
+	</mirror>
+</mirrors>
+```
 
 
