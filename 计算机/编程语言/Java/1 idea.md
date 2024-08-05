@@ -13,6 +13,8 @@ get ,set 方法，构造方法   `alt+insert`
 	- 批量选中相同代码  `shift+F6` 
 	- `ctrl+shift+↑` 将光标所在行上移
 	- `ctrl+d` 将光标所在代码行复制到下一行
+	- `ctrl+w` 扩展选中区域
+	- `ctrl+shift+w` 减小选中区域
 
 ---
 
