@@ -326,8 +326,32 @@ public void test_getAtomicLong() {
 ```java
 RQueue<String> queue = redissonClient.getQueue("myQueue");
 queue.add("firstElement");
-String element = queue.poll(); // 返回并移除 "firstElement"
+String elementA = queue.peek();
+String elementB = queue.poll();
 ```
+
+#### 💚 监听器
+- `TrackingListener` 当你从队列中读取元素之后，如果紧接着发生了元素的创建、删除或更新操作，就会触发事件
+- `ListAddListener` 当元素被创建时触发
+- `ListRemoveListener` 当元素被删除时触发
+- `ExpiredObjectListener` 当 RQueue 对象过期时触发
+- `DeletedObjectListener` 当 RQueue 对象被删除时触发
+
+```java
+RQueue<String> queue = redisson.getQueue("anyList");
+
+int listenerId = queue.addListener(new DeletedObjectListener() {
+     @Override
+     public void onDeleted(String name) {
+        sout(name);
+     }
+});
+
+// ...
+
+queue.removeListener(listenerId);
+```
+
 
 ### 💙 阻塞队列 RBlockingQueue
 >[!quote] RBlockingQueue
