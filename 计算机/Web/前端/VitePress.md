@@ -1,7 +1,6 @@
 <u>插件</u> ：
 - https://chodocs.cn/program/npm-package/
 - https://vitepress.yiov.top/plugin.html#%E8%87%AA%E5%8A%A8%E4%BE%A7%E8%BE%B9%E6%A0%8F
-- https://blog.csdn.net/gitblog_00100/article/details/139915260
 
 <u>教学</u> ：
 - https://developer.aliyun.com/article/1487073?spm=a2c6h.14164896.0.0.2fc947c5MpOuep&scm=20140722.S_community@@%E6%96%87%E7%AB%A0@@1487073._.ID_1487073-RL_VitePress%E7%AE%80%E6%98%93%E9%80%9F%E9%80%9F%E4%B8%8A%E6%89%8B%E5%B0%8F%E5%86%8C-LOC_search~UND~community~UND~item-OR_ser-V_3-P0_0
@@ -183,6 +182,82 @@ export default defineConfig({
 在 `.vitepress/config.js` 中的 themeConfig 中配置
 
 
+# ❤ 插件
+<u>algolia 搜索</u> ：
+- 创建应用
+- 获取 search key，并填写 config.mjs 配置
+```json
+search: {    
+	provider: 'algolia',
+	options: {
+		appId: 'RHX6KGJ4PT',
+		apiKey: '28a8949a0177be5990c043b7233c22e9',
+		indexName: 'vitepress',
+		placeholder: '请输入搜索内容',
+		translations: {
+			button: {
+				buttonText: '搜索文档',
+			}
+		}
+	}
+},
+```
+
+---
+
+<u>图片放大</u> ：
+- `npm add medium-zoom` 
+- 在 .vitepress/theme 下添加 medium-zoom.mjs 
+```js
+import {onMounted, watch, nextTick} from 'vue'
+import {useRoute} from 'vitepress'
+import mediumZoom from 'medium-zoom'
+
+export function useMediumZoom() {
+    const route = useRoute();
+
+    const initZoom = () => {
+        // 不显式添加{data-zoomable}的情况下为所有图像启用此功能
+        mediumZoom('.main img', {background: 'var(--vp-c-bg)'});
+    };
+
+    onMounted(() => {
+        initZoom();
+    });
+
+    watch(
+        () => route.path,
+        () => nextTick(() => initZoom())
+    );
+}
+```
+
+- 将上述文件导入到同级目录的 index.js 中
+```js
+import {useMediumZoom} from "./medium-zoom.mjs";
+
+export default {
+    ……,
+    setup() {
+        useMediumZoom();
+    }
+}
+```
+
+- 避免遮挡
+```css
+/* 图片点击放大优先级调整 */
+.medium-zoom-image {
+  z-index: 9999 !important;
+}
+```
+
+---
+
+<u>多功能侧边栏</u> ： https://vitepress-sidebar.jooy2.com/
+
+
+
 
 # ❤ 部署
 - https://www.netlify.com/
@@ -190,9 +265,6 @@ export default defineConfig({
 
 
 
-
-
-![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202408041213316.png)
 
 
 
