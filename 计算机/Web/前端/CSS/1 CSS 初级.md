@@ -8,7 +8,6 @@
 > [!hint] 优先级：id 选择器 > 类选择器 > 元素选择器
 
 ## 元素选择器
-
 ```css
 <style>
 	h1,h2,h3 {          /*可以一次性选取多个元素*/
@@ -21,7 +20,6 @@
 ```
 
 ## 类选择器
-
 * 类名相当于是一个标签，可以被多个元素重用
 * 一个元素也可以贴多个标签【多个类】
 * **类名不能以数字开头**
@@ -43,9 +41,7 @@
 ```
 
 ## id 选择器
-
 > [!attention]
->
 > * id 不能重用
 > * id 不能以数字开头
 > * id 不能包含空白字符
@@ -60,7 +56,7 @@
 	}
 </style>
 ```
-
+tter
 ```html
 <h1 id="001">我是一级标题</h1>
 <span id="002">我是正文</span>
@@ -77,8 +73,7 @@
 > ```
 
 ## 通用选择器
-
-> 通用选择器会影响页面上的每个 HTML 元素
+通用选择器会影响页面上的每个 HTML 元素
 
 ```css
 * {
@@ -88,8 +83,7 @@
 ```
 
 ## 属性选择器
-
-> 选取带有指定属性的元素
+选取带有指定属性的元素
 
 | 选择器                  | 例子                    | 例子描述                                  |
 | -------------------- | --------------------- | ------------------------------------- |
@@ -159,7 +153,6 @@ a[target=_blank] {
 ***
 
 ## 组合器
-
 > [!quote] 组合器 选择器可以包含多个简单选择器，它们之间用组合器连接
 
 * **后代选择器**：指定元素后代的所有元素
@@ -286,7 +279,6 @@ h1 {
 > [!hint] em 和 rem 可用于创建完美的可扩展布局
 
 # ❤ 颜色
-
 * `background-color:`
   * `Tomato`
   * `rgb(255, 99, 71)`
@@ -296,7 +288,6 @@ h1 {
   * `hsla(9, 100%, 64%, 0.5)`
 
 # ❤ 框模型
-
 元素总宽度 = width + 左右padding + 左右border + 左右margin + outline ![600](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402022232532.png)
 
 > [!summary] 属性
@@ -315,7 +306,6 @@ h1 {
 > * `outline` 轮廓
 
 ## 背景
-
 > [!quote] 背景
 >
 > > 背景 = padding + 内容
@@ -329,7 +319,6 @@ h1 {
 > [!hint] 默认情况下，`background-image` 在水平和垂直方向上都重复图像，直到铺满整个指定元素
 
 ### 参数
-
 * `background-repeat` 指定背景内容是否重复显示
 * `background-origin` 模糊的背景位置
   * border-box 从边框的左上角开始
@@ -547,7 +536,6 @@ p {
 > * `outline-offset` 轮廓偏移【轮廓与border之间的空间】
 
 # ❤ 文本
-
 ## 基础属性
 
 * `color` 指定文本的颜色
@@ -634,9 +622,7 @@ p {
 hello
 
 ## 其他属性
-
 ### 装饰
-
 * `initial` 默认值
 * `inherit` 从其父元素继承属性
 * `text-decoration` 指定线条的位置
@@ -673,7 +659,6 @@ hello
 hello
 
 ### 文本间距
-
 ```css
 p {
   text-indent: 50px;  /* 指定文本的首行缩进 */
@@ -697,7 +682,6 @@ p {
 ```
 
 ### 文本转换
-
 ```css
 p.uppercase {
   text-transform: uppercase;   /* 把文本全部大写 */
@@ -722,7 +706,6 @@ p.capitalize {
 		* `fill` 拉伸图片来填满
 
 # 列表
-
 * **无序列表** `ul`
 	* `list-style-type` 设置列表项目标记
 	* `list-style-image` 用图像作为列表项目标记
@@ -754,9 +737,7 @@ list-style-type: lower-alpha;
 ```
 
 # 表格
-
 * **边框**
-
 ```css
 table, th, td {
   border: 1px solid black;
@@ -772,7 +753,6 @@ table {
 ***
 
 * **宽高**
-
 ```css
 table {
   width: 100%;  /* 表格将铺满页面宽度*/
@@ -792,7 +772,6 @@ th {
 ***
 
 * **斑马线表格**
-
 ```css
 /* 使用nth-child选择器选择odd奇数 */
 tr:nth-child(odd) {background-color: #f2f2f2;}
@@ -804,7 +783,6 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 ***
 
 * **滚动条**
-
 ```css
 <div style="overflow-x:auto;">  /* 加入overflow属性 */
   <table>
@@ -827,8 +805,7 @@ tr:nth-child(even) {background-color: #f2f2f2;}
 ```
 
 # 透明度
-
-> `opacity` 用于指定元素的透明度，取值范围为 0.0【透明】 - 1.0【不透明】
+`opacity` 用于指定元素的透明度，取值范围为 0.0【透明】 - 1.0【不透明】
 
 ```css
 img {

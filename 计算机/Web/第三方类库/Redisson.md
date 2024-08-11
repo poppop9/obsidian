@@ -189,8 +189,12 @@ System.out.println(bucketsMap);
 - RedissonClient 下的方法
 	- `getList(键)` 生成 RList 对象
 - RList 下的方法
-	- `add(值)` 向 List 中添加值
-	- `addAll(集合)` 批量添加
+	- **增**
+		- `add(值)` 向 List 中添加值
+		- `addAll(集合)` 批量添加
+	- **删**
+		- `romove(索引)` 删除集合中的指定索引的元素
+		- `romove(值)` 删除集合中的指定值的元素
 
 >[!hint] 可以直接把 `RList` 看成 Java 里的 `List 集合`
 

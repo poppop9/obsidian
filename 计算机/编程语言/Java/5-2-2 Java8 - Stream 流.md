@@ -409,9 +409,34 @@ Map<String, Integer> collect = Stream.of(arr)
 	); 
 ```
 
+# 并行流
+>[!quote] 并行流
+>并行流 是指将数据分成多个部分，然后并行处理流中的每个元素
+>
+>- **优点**
+>	- 利用了多核处理器的优势
+>	- 对海量数据的处理效率更高
+>- **缺点**
+>	- 但是由于是多线程的，要考虑并发问题
+>	- 如果是少量数据，使用并行流反而没优势，因为并行流要创建线程，销毁线程，这些都要时间
+>	- 并行流处理流元素是无序的
 
+---
 
+- `parallelStream()` 将集合转为并行流
+- `parallel()` 将顺序流转为并行流
 
+```java
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+// 创建并行流
+Stream<Integer> parallelStream = numbers.parallelStream();
+```
+
+# 循环处理技术对比
+- **数据 < 1 万** ，for 循环 > foreach / 增强 for / 迭代器 > Stream
+- **1 万 < 数据量 < 100 万** ，Stream > foreach / 增强 for / 迭代器 > for
+- **数据 > 100 万** ，parallelStream 最高
 
 
 
