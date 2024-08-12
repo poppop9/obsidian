@@ -320,12 +320,12 @@ public void test_getAtomicLong() {
 >[!quote] RQueue
 >RQueue 是一个分布式的、线程安全的队列接口
 
-- **增**
-	- `add(值)` 将值添加到队列尾部
-- **删查**
-	- `poll()` 移除并返回 Queue 头部的元素，如果队列为空则返回 `null`
-	- `peek()` 返回队列头部的元素但不移除，如果队列为空则返回 `null` 
-
+- `RQueue<?> getQueue(键)` 
+	- **增**
+		- `add(值)` 将值添加到队列尾部
+	- **删查**
+		- `poll()` 移除并返回 Queue 头部的元素，如果队列为空则返回 `null`
+		- `peek()` 返回队列头部的元素但不移除，如果队列为空则返回 `null` 
 
 ```java
 RQueue<String> queue = redissonClient.getQueue("myQueue");
@@ -356,25 +356,25 @@ int listenerId = queue.addListener(new DeletedObjectListener() {
 queue.removeListener(listenerId);
 ```
 
-
 ### 💙 阻塞队列 RBlockingQueue
 >[!quote] RBlockingQueue
 >RBlockingQueue 支持阻塞操作，在队列为空，或已满的情况下，操作可以被阻塞
+>
+>- 不适合需要高吞吐量的场景
 
-- **put(E e)**: 将元素添加到队列尾部，如果队列已满则等待空间可用。
-- **take()**: 移除并返回队列头部的元素，如果队列为空则等待直到有元素可用。
-- **offer(E e, long timeout, TimeUnit unit)**: 将元素添加到队列尾部，如果队列已满则等待指定的时间。
-- **poll(long timeout, TimeUnit unit)**: 移除并返回队列头部的元素，如果队列为空则等待指定的时间。
+- `RBlockingQueue<?> getBlockingQueue(键)` 获取阻塞队列对象
+	- **增**
+		- `put(值)` 将元素添加到队列尾部，如果队列已满，则线程阻塞，直到队列中有空位
+		- `Boolean offer(值，时间值，时间单位)` 将元素添加到队列尾部，如果队列已满，则等待指定的时间，如果队列还是满的，则返回 false
+	- **删/查**
+		- `take()` 移除并返回队列头部的元素，如果队列为空，则阻塞，直到有元素可用 
+		- `poll(时间值，时间单位)` 移除并返回队列头部的元素，如果队列为空则等待指定的时间
 
 ```java
 RBlockingQueue<String> blockingQueue = redissonClient.getBlockingQueue("myBlockingQueue");
 blockingQueue.put("firstElement");
 String element = blockingQueue.take(); // 如果队列为空则等待
 ```
-
-- **RQueue** 适合于高吞吐量且不需要阻塞操作的场景。例如，事件处理或消息队列
-- **RBlockingQueue** 更适合于需要阻塞操作的场景，例如生产者-消费者模型或者需要等待数据的任务调度
-
 
 ### 💙 延迟队列 DelayedQueue
 >[!quote] DelayedQueue
@@ -384,7 +384,7 @@ String element = blockingQueue.take(); // 如果队列为空则等待
 
 ---
 
-- `RDelayedQueue getDelayedQueue(RQueue<?>)` 获取 RDelayedQueue 对象
+- `RDelayedQueue getDelayedQueue(RQueue<?>)` 从队列中获取 RDelayedQueue 延迟队列对象
 	- **增**
 		- `offer(值，延迟时间，延迟时间单位)` 添加元素到延迟队列
 	- **查**
@@ -392,5 +392,21 @@ String element = blockingQueue.take(); // 如果队列为空则等待
 		- `isEmpty()` 判断延迟队列是否为空
 
 ```java
+/*
+元素一开始就会被加入到rDelayedQueue中，在3s后该元素会被转移到rQueue中，然后rDelayedQueue会将该元素删除
+*/
 
+// 建立队列  
+RQueue<Object> rQueue = redissonClient.getQueue("strategy_" + strategyId + "_awards_DecrQueue");  
+RDelayedQueue<Object> rDelayedQueue = redissonClient.getDelayedQueue(rQueue);  
+  
+// 写入队列  
+DelayedDecrVO delayedDecrVO = DelayedDecrVO.builder()  
+        .strategyId(strategyId)  
+        .awardId(awardId)  
+        .build();  
+rDelayedQueue.offer(delayedDecrVO, 3, java.util.concurrent.TimeUnit.SECONDS);
 ```
+
+
+
