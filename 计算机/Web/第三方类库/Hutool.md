@@ -32,6 +32,17 @@
 |hutool-jwt|JSON Web Token (JWT)封装实现|
 
 # 工具类
+## 唯一 id
+- 生成 UUID ，全球唯一识别码
+
+```java
+//生成的UUID是带-的字符串，类似于：a5c8a5e8-df2b-4706-bea4-08d0939410e3
+String uuid = IdUtil.randomUUID();
+
+//生成的是不带-的字符串，类似于：b17f24ff026d40949c85a24f4f375d42
+String simpleUUID = IdUtil.simpleUUID();
+```
+
 ## 随机 Random
 - `RandomUtil` 静态对象
 	- `randomInt()` 获取随机的 int
