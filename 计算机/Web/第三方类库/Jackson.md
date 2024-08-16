@@ -197,6 +197,7 @@ System.out.println(json);
 >- 不想多创建一个类
 
 ## 创建树模型
+- json 字符串转 JsonNode
 ```java
 ObjectMapper objectMapper = new ObjectMapper();
 
@@ -283,33 +284,28 @@ JsonNode carJsonNode = objectMapper.readValue(carJson, JsonNode.class);
 Car car = objectMapper.treeToValue(carJsonNode);
 ```
 
-# ObjectNode 子树模型
+# ❤ ObjectNode 子树模型
 >[!hint] JsonNode 里的属性是不可修改的，所以引入 ObjectNode，ObjectNode 是 JsonNode 的子类
 
-- 创建 ObjectNode
-```java
-// 创建 ObjectMapper 对象 
-ObjectMapper objectMapper = new ObjectMapper(); 
+## 创建
+- `new ObjectMapper()` 创建 ObjectMapper 对象
+	- `createObjectNode()` 创建一个空的 ObjectNode
+	- 将 JsonNode 强转为 ObjectNode
 
-String jsonData = "{\"name\":\"Alice\",\"age\":20,\"courses\":[\"Math\",\"Physics\",\"Biology\"],\"grades\":{\"Math\":85,\"Physics\":90,\"Biology\":75}}"; 
+## 添加/修改
 
-// 将 JSON 数据解析为 ObjectNode 对象 
-ObjectNode objectNode = (ObjectNode) objectMapper.readValue(jsonData, JsonNode.class);
-```
-
-- 添加 / 修改
 ```java
 // 如果ObjectNode中没有 'field1' 字段，那就向 `ObjectNode` 中添加一个 "field1" 字段，并将字符串 "value1" 作为它的值
 // 如果ObjectNode中存在 'field1' 字段，那就修改其值
 objectNode.put("Math", "value1");
 ```
 
-- 删除
+## 删除
 ```java
 objectNode.remove("Math");
 ```
 
-- 迭代
+## 迭代
 ```java
 // 生成迭代器
 Iterator<String> fieldNames = jsonNode.fieldNames();
@@ -320,6 +316,11 @@ while(fieldNames.hasNext()) {
 	// 通过迭代器找到的字段名，创建字段JsonNode
     JsonNode field = jsonNode.get(fieldName);
 }
+```
+
+# ❤ ArrayNode
+```java
+ArrayNode arrayNode = objectMapper.createArrayNode();
 ```
 
 # 注解

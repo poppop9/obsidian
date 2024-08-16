@@ -272,6 +272,18 @@ public static void main(String[] args) {
 peek 只对流进行操作，不会改变流的元素，<u>相当于没有返回值的 map 操作</u>
 
 # 终结操作
+>[!warning] 如果一个流不进行终结操作，则这个流在执行时，不会执行中间操作，相当于这个流从来没有执行过 ：
+> ```java
+> // 这个程序看似会将数据add进list中，但是由于这个流操作没有终结操作，peek操作压根不会执行
+> List\<JSONObject> list = new ArrayList<>();
+> sbdqas.queryAll(qs).stream()
+>         .peek(a -> {
+>             Map<String, String> contentMap = a.toContentMap();
+>             contentMap.put("t", AmountUtil.c(contentMap.get("t")));
+>             list.add(new JSONObject(contentMap));
+>         });
+> ```
+
 一个流使用终结操作后，就无法再进行操作了，**这是流的最后一个操作**
 
 - `void forEach(Consumer action)` 对该流的每个元素执行操作
