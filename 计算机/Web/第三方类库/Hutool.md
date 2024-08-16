@@ -32,7 +32,7 @@
 |hutool-jwt|JSON Web Token (JWT)封装实现|
 
 # 工具类
-## 唯一 id
+## 💛 唯一 id
 - 生成 UUID ，全球唯一识别码
 
 ```java
@@ -43,7 +43,7 @@ String uuid = IdUtil.randomUUID();
 String simpleUUID = IdUtil.simpleUUID();
 ```
 
-## 随机 Random
+## 💛 随机 Random
 - `RandomUtil` 静态对象
 	- `randomInt()` 获取随机的 int
 	- `randomInt(int minInclude, int maxExclude)` 获得指定范围内的随机数
@@ -103,7 +103,7 @@ C:375
 D:100
 ```
 
-## Base64
+## 💛 Base64
 >[!hint] 在浏览器中打开 Base64 编码的图片
 >直接在浏览器的地址栏中输入：`data:image/png;base64,` + base64编码数据
 
@@ -113,7 +113,7 @@ byte[] byteArray = new byte[10];
 String base64 = Base64.encode(byteArray);
 ```
 
-## 二维码 QrCodeUtil
+## 💛 二维码 QrCodeUtil
 >[!hint] 使用之前还要再引入 zxing 依赖
 > ```xml
 > \<dependency>
@@ -167,6 +167,27 @@ return base64;
 // decode 就是被识别出来的链接
 String decode = QrCodeUtil.decode(FileUtil.file("d:/qrcode.jpg"));
 ```
+
+## 💛 数字工具 NumberUtil
+- `NumberUtil.add` **加法**
+- `NumberUtil.sub` **减法**
+- `NumberUtil.mul` **乘法**
+
+
+---
+
+- `NumberUtil.div` **除法**
+	- `double div(double d, double dd, int scale)` 使用 d 除以 dd ，保留 scale 位小数
+	- `double div(double d, flost ff, int scale)` 使用 d 除以 ff ，保留 scale 位小数
+
+## 💛 字符串 StrUtil
+- 判空
+	- 单个
+		- `isBlank()` / `isNotBlank()` 
+		- `isEmpty()` / `isNotEmpty()` 
+	- 集合
+		- `hasBlank(字符串数组)` 判断这个数组中是否有至少一个为 blank，如果是，则返回 true
+		- `hasEmpty()`
 
 # Bean
 Bean 就是有 setter，getter 的 Java 类
