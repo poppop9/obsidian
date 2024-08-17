@@ -167,6 +167,10 @@ public static void main(String[] args) {
 ```
 
 ## sorted
+- 返回值为 0 ，排序位置保持不变
+- 返回值 > 0，排序位置 o1 在后面
+- 返回值 < 0，排序位置 o1 在前面
+
 ```java
 public static void main(String[] args) {  
     List<Integer> list = new ArrayList<>();  

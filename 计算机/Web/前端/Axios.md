@@ -1,4 +1,3 @@
-# Axios
 
 > Ajax 是异步的 JavaScript 和 XML
 
@@ -15,23 +14,21 @@
 6. 由 JavaScript 读取响应
 7. 由 JavaScript 执行正确的动作（比如更新页面）
 
-## XMLHttpRequest
-
-> \[!summary] 属性 _**readyState**_ 保存 XMLHttpRequest 的状态【0：请求未初始化；1：服务器连接已建立；2：请求已收到；3：正在处理请求；4：请求已完成且响应已就绪】
+# XMLHttpRequest
+> [!summary] 属性 readyState 保存 XMLHttpRequest 的状态【0：请求未初始化；1：服务器连接已建立；2：请求已收到；3：正在处理请求；4：请求已完成且响应已就绪】
 >
 > _**status**_ 返回请求的状态号【200: "OK"；403: "Forbidden"；404: "Not Found"】
 >
 > _**responseText**_ 以字符串形式返回响应数据
 
-## Axios
-
-> Axios 对原生的 Ajax 进行了封装，简化了书写
+# Axios
+Axios 对原生的 Ajax 进行了封装，简化了书写
 
 https://www.axios-http.cn/docs/intro
 
-### 安装Axios
+## 安装Axios
 
-#### 工程化 Axios
+### 工程化 Axios
 
 * 在项目目录下的 cmd 输入 `npm install axios`
 * 需要 Axios 时，在 `script标签` 中导入
@@ -44,7 +41,7 @@ import axios from 'axios';
 
 * 然后就可以在 `script标签` 中使用 axios 了
 
-#### 局部化 Axios
+### 局部化 Axios
 
 *   在 `head标签` 中导入 `axios.js` 文件
 
@@ -53,7 +50,7 @@ import axios from 'axios';
     ```
 * 然后就可以在 `script标签` 中使用axios了
 
-### 使用与定义
+## 使用与定义
 
 > 我们一般会把异步请求封装到一个单独的 `.js 文件` 中，并暴露调用函数，这样在其他文件中可以直接调用，不用重复书写相同的 `axios 代码`
 
@@ -63,9 +60,9 @@ export function getHello() {
 }
 ```
 
-### 请求方式
+## 请求方式
 
-#### get
+### get
 
 * `result` 服务器返回的所有数据【响应头，响应体】
 * `result.data` 服务器返回的核心数据
@@ -112,7 +109,7 @@ axios.get('http://localhost:8080/helloparam', {
 });
 ```
 
-#### post
+### post
 
 ```js
 let jsondata = {
@@ -125,11 +122,11 @@ axios.post('http://localhost:8080/hellojson', jsondata).then(result => {
 });
 ```
 
-#### delete
+### delete
 
-#### put
+### put
 
-### 请求头
+## 请求头
 
 ```js
 axios.post('http://localhost:8080/qrcodepay', jsondata, {
@@ -146,9 +143,9 @@ axios.post('http://localhost:8080/qrcodepay', jsondata, {
 	});
 ```
 
-### 同步与异步
+## 同步与异步
 
-#### 同步
+### 同步
 
 > `js代码` 与 `axios请求代码` 顺序执行，使用 `async`，`await`
 
@@ -194,9 +191,9 @@ getData();
 </script>
 ```
 
-> \[!attention] `async` 是异步的意思，为什么用于==同步==呢 由于 JavaScript 是赶工出来的语言，这是它的设计缺陷，`await` 必须在 `async` 定义的函数里面才能使用
+> [!attention] `async` 是异步的意思，为什么用于==同步==呢 由于 JavaScript 是赶工出来的语言，这是它的设计缺陷，`await` 必须在 `async` 定义的函数里面才能使用
 
-### 公共路径baseURL
+## 公共路径baseURL
 
 > 如果每一个 `axios请求` 都包含完整的路径，那么后续改动时将非常麻烦，所以我们会定义一个公共路径 `baseURL`
 
