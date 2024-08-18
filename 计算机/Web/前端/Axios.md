@@ -1,25 +1,29 @@
 
-> Ajax 是异步的 JavaScript 和 XML
+# 对比 Ajax
+> [!quote] Ajax
+>>Ajax 是异步的 JavaScript 和 XML，是一种在不重新加载整个页面的情况下，允许通过 JS 向服务器发送请求并处理服务器响应的技术
+> 
+> <u>特点</u> ：
+> - 实现在不加载网页的情况下，使网页实现动态更新
+> 
+> <u>工作流程</u> ：
+> 1. 网页中发生一个事件【~~页面加载、按钮点击 ……~~】
+> 2. 由 JavaScript 创建 XMLHttpRequest 对象
+> 3. XMLHttpRequest 对象向 web 服务器发送请求
+> 4. 服务器处理该请求
+> 5. 服务器将响应发送回网页
+> 6. 由 JavaScript 读取响应
+> 7. 由 JavaScript 执行正确的动作（比如更新页面）
 
-* **Ajax 可以发送请求到服务器，并获取服务器的响应**
-* **Ajax 还可以在不加载网页的情况下，实现实时更新网页的数据**
-
-***
-
-1. 网页中发生一个事件（页面加载、按钮点击）
-2. 由 JavaScript 创建 XMLHttpRequest 对象
-3. XMLHttpRequest 对象向 web 服务器发送请求
-4. 服务器处理该请求
-5. 服务器将响应发送回网页
-6. 由 JavaScript 读取响应
-7. 由 JavaScript 执行正确的动作（比如更新页面）
-
-# XMLHttpRequest
-> [!summary] 属性 readyState 保存 XMLHttpRequest 的状态【0：请求未初始化；1：服务器连接已建立；2：请求已收到；3：正在处理请求；4：请求已完成且响应已就绪】
->
-> _**status**_ 返回请求的状态号【200: "OK"；403: "Forbidden"；404: "Not Found"】
->
-> _**responseText**_ 以字符串形式返回响应数据
+> [!quote] XMLHttpRequest
+> - **readyState** 保存 XMLHttpRequest 的状态
+> 	- 0：请求未初始化；
+> 	- 1：服务器连接已建立；
+> 	- 2：请求已收到；
+> 	- 3：正在处理请求；
+> 	- 4：请求已完成且响应已就绪
+> - **status** 返回请求的状态号【200: "OK"；403: "Forbidden"；404: "Not Found"】
+>- **responseText** 以字符串形式返回响应数据
 
 # Axios
 Axios 对原生的 Ajax 进行了封装，简化了书写
@@ -144,61 +148,42 @@ axios.post('http://localhost:8080/qrcodepay', jsondata, {
 ```
 
 ## 同步与异步
-
 ### 同步
+ `js代码` 与 `axios请求代码` 顺序执行，使用 `async` ，`await`
 
-> `js代码` 与 `axios请求代码` 顺序执行，使用 `async`，`await`
-
-当需要等待请求结果来渲染页面时，那就需要_**同步**_：
-
+当需要等待请求结果来渲染页面时，那就需要**同步**：
 ```js
-// hello.js
-import axios from 'axios';
+// 拿到结果在.then
+dispatchAward().then(award => {  
+  console.log("抽奖结果 : " + JSON.stringify(award));  
+});  
 
-// 使用export暴露函数
-export function hello(msg2) {   
-	// 使用return返回结果
-    return axios.get('http://localhost:8080/helloparam', {  
-        params: {
-            id: msg2.value.id,
-            name: msg2.value.name
-        }
-    }).then(res => {
-        return res.data;
-    });
+// 直接返回请求的响应结果
+function dispatchAward() {  
+  return axios.get('http://localhost:8080/api/award/getAward',  
+      {  
+        params: {  
+          userId: userId,  
+          strategyId: strategyId  
+        }  
+      }).then(res => {  
+    console.log("抽奖中的奖品id : " + res.data.awardId);  
+    const find = awardList.find(item => item.awardId === res.data.awardId);  
+    console.log("抽奖中的奖品信息 : " + JSON.stringify(find));  
+    return find;  
+  }).catch(err => {  
+    console.log(err);  
+    return err;  
+  });  
 }
 ```
 
-```js
-// 需要等待请求结果之后再alert，如果是异步执行，那么将alert出来空数据
-<script setup>
-import { hello } from '@/api/hello.js';
-
-// 定义数据
-const msg2 = ref({
-    id: 111,
-    name: 'John'
-});
-
-// async定义异步函数，表示函数是异步的
-const getData = async function() {
-	// await定义同步，表示这行代码是同步的，这行代码不执行完，不会执行下一行
-    const data1 = await hello(msg2);  	
-    alert(data1);
-};
-
-getData();
-</script>
-```
-
-> [!attention] `async` 是异步的意思，为什么用于==同步==呢 由于 JavaScript 是赶工出来的语言，这是它的设计缺陷，`await` 必须在 `async` 定义的函数里面才能使用
+> [!attention] `async` 是异步的意思，为什么用于同步呢 由于 JavaScript 是赶工出来的语言，这是它的设计缺陷，`await` 必须在 `async` 定义的函数里面才能使用
 
 ## 公共路径baseURL
-
-> 如果每一个 `axios请求` 都包含完整的路径，那么后续改动时将非常麻烦，所以我们会定义一个公共路径 `baseURL`
+如果每一个 `axios请求` 都包含完整的路径，那么后续改动时将非常麻烦，所以我们会定义一个公共路径 `baseURL`
 
 * ~~未定义~~ `baseURL`
-
 ```js
 axios.get('http://localhost:8080/helloparam').then(result => {
 	alert(result.data);
@@ -206,7 +191,6 @@ axios.get('http://localhost:8080/helloparam').then(result => {
 ```
 
 * 定义 `baseURL`
-
 ```js
 // 定义基础路径
 const baseURL = 'http://localhost:8080';

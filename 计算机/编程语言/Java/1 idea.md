@@ -15,6 +15,7 @@ get ,set 方法，构造方法   `alt+insert`
 	- `ctrl+d` 将光标所在代码行复制到下一行
 	- `ctrl+w` 扩展选中区域
 	- `ctrl+shift+w` 减小选中区域
+	- `ctrl+alt+o` 删除没有使用的导包
 
 ---
 
