@@ -257,20 +257,23 @@ public static void main(String[] args) {
 ```
 
 ## flatMap
-`flatMap` 用于将一个流中的每个元素转换成另一个流，然后将这些流连接起来形成一个单一的流。而`.map`通常用于将流中的每个元素应用一个函数，转换成另一种形式的元素
+>[!quote] `flatMap()` 
+>`flatMap` 将流中的每个元素，转换成另一个流，然后将这些流连接起来形成一个单一的流
 
 
-`.flatMap(map -> map.entrySet().stream())`
+稍微觉得 flatMap 有用的场景：
+```java
+// 使用 map，你要手动过滤空值
+List<String> filteredList = list.stream()
+    .map(o -> o.isPresent() ? o.get() : null)
+    .filter(Objects::nonNull)
+    .collect(Collectors.toList());
 
-这里，`flatMap`正在被用来处理一个由`Map`对象组成的流。每个`Map`对象都包含键值对（entry），而`map.entrySet().stream()`将每个`Map`的键值对转换成一个流。这个流包含`Map.Entry`对象，每个对象都是一个键值对。
-
-这步操作的用途可能包括：
-
-1. **转换流**：将一个由`Map`组成的流转换成一个由`Map.Entry`组成的流。
-2. **处理键值对**：在后续的操作中，可以对这些键值对进行进一步的处理，例如过滤、映射或收集。
-3. **简化代码**：在流操作中，使用`flatMap`可以简化代码，避免使用循环或中间变量。
-
-例如，如果你有一个包含多个`Map`的列表，并且你想要对所有`Map`中的所有键值对执行操作，你可以首先将这个列表转换成流，然后使用`flatMap`将每个`Map`转换成一个流，最后对这个结果流进行操作。这样，你可以在流操作中直接处理所有的键值对，而不需要显式地遍历每个`Map` 
+// 使用 flatMap，在将元素转换成流时，空值会被转为空流，空流在合并时会自动消失
+List<String> filteredListJava9 = list.stream()
+    .flatMap(Optional::stream)
+    .collect(Collectors.toList());
+```
 
 ## peek
 peek 只对流进行操作，不会改变流的元素，<u>相当于没有返回值的 map 操作</u>

@@ -295,55 +295,52 @@ docker exec -it my_container bash
 ```
 
 # ❤ 挂载
-**挂载有两个原因**：
-- 在容器内修改文件是很困难的，~~因为从仓库中下载的镜像一般是可运行某个应用程序的最小镜像，不会包括 Vim 编辑器~~
-- 我们需要持久化文件
-
-**挂载有两种方式**：
-- 【挂载到数据卷】 ：数据卷 Volumes 可以把容器中的指定路径映射到宿主机的某个位置，实现双向数据绑定，实现持久化
-	- 数据卷默认在宿主机的 `/var/lib/docker/volumes/数据卷名`
-	- 由于数据卷存储在宿主机上的 <u>只有 root 用户 </u> 才可以访问的位置，我们频繁修改文件非常不方便，所以**一般我们会使用直接挂载到本地目录**
-- 【直接挂载到本地目录】==常用== ： 直接挂载到本地目录可以任意指定挂载的地方，方便访问和修改
-
----
-
-## 复制
-- `docker cp 容器名:容器内文件 宿主机文件` 将容器内的文件复制到宿主机上
-
-## 数据卷
+## 💛 数据卷挂载
 >[!warning] 容器创建之后不能再挂载数据卷，只能在 `docker run` 的时候就挂载
 
-```mermaid
-graph LR
-	a[宿主机目录]---->b[数据卷]
-	b-->a
-	b---->c[容器内目录]
-	c-->b
-```
+>[!quote] 数据卷挂载
+>数据卷 Volumes 可以把容器中的指定路径，映射到宿主机的某个位置，实现双向数据绑定，实现持久化
+> ```mermaid
+> graph LR
+> 	a[宿主机目录]---->b[数据卷]
+> 	b-->a
+> 	b---->c[容器内目录]
+> 	c-->b
+> ```
+> 
+> - 数据卷默认在宿主机的 `/var/lib/docker/volumes/数据卷名` 
 
 ---
 
-- `docker volume create` 创建数据卷
-
-- [[#^131b42]] ，挂载数据卷时，如果没有数据卷，会自动创建数据卷
-
+- **增**
+	- 创建数据卷 `docker volume create` 
+	- 挂载数据卷 ：[[#^131b42]] ，如果没有该数据卷，会自动创建数据卷
 ```bash
 docker run -d --name nginx -p 80:80 -v html:/usr/share/nginx/html nginx
 ```
 
-- 查看
-	- `docker volume ls` 查看所有数据卷
-	- `docker volume inspect 数据卷名` 查看某个数据卷的详情【数据卷在宿主机的目录，……】
-- 删除
+---
+
+- **删**
 	- `docker volume rm` 删除指定数据卷
 	- `docker volume prune` 删除未使用的数据卷
+- **查**
+	- `docker volume ls` 查看所有数据卷
+	- `docker volume inspect 数据卷名` 查看某个数据卷的详情【数据卷在宿主机的目录，……】
 
-## 本地目录
+## 💛 绑定挂载
+>[!quote] 绑定挂载
+>绑定挂载 就是将宿主机上的文件或目录，挂载到容器中，<u>不管容器内的目录中有无文件，都会被宿主机上的 文件/目录 覆盖</u>
+
 具体操作：[[#^ca483a]]
 
 ```bash
 docker run -d --name mysql -p 3306:3306 -e TZ=Asia/Shanghai -e MYSQL_ROOT_PASSWORD=13433026660 -v ./mysql/data:/var/lib/mysql -v ./mysql/conf:/etc/mysql/conf.d -v ./mysql/init:/docker-entrypoint-initdb.d mysql
 ```
+
+## 💛 复制
+- 容器内的文件 -> 宿主机上 `docker cp 容器名:容器内路径 宿主机路径` 
+- 宿主机 -> 容器内 `docker cp 宿主机路径 容器名:容器内路径` 
 
 # ❤ 容器通信
 [https://blog.csdn.net/d2916172682/article/details/135640415](https://blog.csdn.net/d2916172682/article/details/135640415)
