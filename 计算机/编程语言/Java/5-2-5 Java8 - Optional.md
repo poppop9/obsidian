@@ -1,8 +1,9 @@
 
->[!quote] Optional 类
+>[!quote] Optional\<T> 类
 >Optional 类是一个<u>可以为 null 的容器对象</u>，使我们不用显式进行判空，很好的解决了空指针异常
 
 - 静态方法
+	- `empty()` 返回空的 Optional 对象
 - 非静态方法
 	- `ifPresent(处理方法 A)` 如果该 Optional 对象的值存在，则将这个值传递给方法 A
 	- `get()` 返回 Optional 中的对象，可能为 null
