@@ -31,7 +31,7 @@
 |hutool-socket|基于Java的NIO和AIO的Socket封装|
 |hutool-jwt|JSON Web Token (JWT)封装实现|
 
-# 工具类
+# ❤ 工具类
 ## 💛 唯一 id
 - 生成 UUID ，全球唯一识别码
 
@@ -169,16 +169,30 @@ String decode = QrCodeUtil.decode(FileUtil.file("d:/qrcode.jpg"));
 ```
 
 ## 💛 数字工具 NumberUtil
-- `NumberUtil.add` **加法**
-- `NumberUtil.sub` **减法**
-- `NumberUtil.mul` **乘法**
-
+<u>计算</u> ：
+- **加减乘除** ：支持任意数字的包装类，String
+	- `NumberUtil.add` 加
+	- `NumberUtil.sub` 减
+	- `NumberUtil.mul` 乘
+	- `NumberUtil.div` 除
+		- `double div(double d, double dd, int scale)` 使用 d 除以 dd ，保留 scale 位小数
+		- `double div(double d, flost ff, int scale)` 使用 d 除以 ff ，保留 scale 位小数
+- **其他**
+	- `multiple(int m, int n)` 最小公倍数
 
 ---
 
-- `NumberUtil.div` **除法**
-	- `double div(double d, double dd, int scale)` 使用 d 除以 dd ，保留 scale 位小数
-	- `double div(double d, flost ff, int scale)` 使用 d 除以 ff ，保留 scale 位小数
+<u>保留小数</u> ：
+- `BigDecimal round(数字n，精度s)` 保留数字 n 的后 s 位小数，支持 BigDecimal，Double，String
+- `String roundStr(n, s)` 返回的是数字的字符串类型
+
+---
+
+<u>校验数字</u> ：
+- `NumberUtil.isNumber` 是否为数字
+- `NumberUtil.isInteger` 是否为整数
+- `NumberUtil.isDouble` 是否为浮点数
+- `NumberUtil.isPrimes` 是否为质数
 
 ## 💛 字符串 StrUtil
 - 判空
@@ -189,7 +203,63 @@ String decode = QrCodeUtil.decode(FileUtil.file("d:/qrcode.jpg"));
 		- `hasBlank(字符串数组)` 判断这个数组中是否有至少一个为 blank，如果是，则返回 true
 		- `hasEmpty()`
 
-# Bean
+## 💛 日期时间
+<u>格式化</u> ：
+
+- `parse(时间，时间的格式)` 
+```java
+LocalDateTime localDateTime2 = LocalDateTimeUtil.parse("2020-01-23 12:23:56", DatePattern.NORM_DATETIME_FORMATTER);
+```
+
+<u>偏移时间量</u> ：
+
+- `offset(时间，偏移量，偏移单位)` 
+```java
+LocalDateTime localDateTime = LocalDateTime.of(2021, 1, 1, 0, 0, 30);
+LocalDateTime offset = LocalDateTimeUtil.offset(  
+        localDateTime,  
+        -30,  
+        ChronoUnit.MINUTES  
+);
+System.out.println(offset);
+
+---
+2020-12-31T23:30:30
+```
+
+---
+
+<u>开始 / 结束</u> ：
+- `LocalDateTime beginOfDay(时间)` 例如 "2020-01-23T00:00"
+- `LocalDateTime endOfDay(时间)` 例如 "2020-01-23T23:59:59.999999999"
+
+---
+
+<u>时间间隔</u> ：
+- `Duration between(开始时间，结束时间)` 计算时间差值
+
+```java
+LocalDateTime start = LocalDateTime.now();
+LocalDateTime end = LocalDateTime.now()
+		.plusDays(1)
+		.plusHours(33);
+
+Duration between = LocalDateTimeUtil.between(start, end);
+
+System.out.println(between.toHours());
+System.out.println(between.toMinutes());
+System.out.println(between.toSeconds());
+System.out.println(between.toMillis());
+
+---
+57
+3420
+205200
+205200000
+```
+
+
+# ❤ Bean
 Bean 就是有 setter，getter 的 Java 类
 
 ## 💛  Bean -> Bean
@@ -247,7 +317,7 @@ AwardBO(strategyId=1, awardId=101, awardCount=100, awardRate=0.1)
 AwardBO(strategyId=1, awardId=102, awardCount=100, awardRate=0.1)
 ```
 
-# 加密解密
+# ❤ 加密解密
 >[!quote] 加密分类
 >- **对称加密**
 > 	- AES
@@ -304,7 +374,7 @@ String stringSignTemp = "AAA";
 String MD5 = SecureUtil.md5(stringSignTemp);
 ```
 
-# 断言 Assert
+# ❤ 断言 Assert
 >[!hint] Java 原生的 Assert 的缺点
 >断言 本意上是在调式时使用，而不是生产环境
 >
