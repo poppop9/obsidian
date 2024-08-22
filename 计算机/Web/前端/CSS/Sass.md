@@ -3,8 +3,15 @@
 >Sass 是一个 CSS 预处理器，增加了<u>规则、变量、混入、选择器、继承、内置函数</u> …… ，可以帮助我们减少 CSS 重复的代码
 >- 文件后缀为 `.scss`
 
-# ❤ 安装
-- NPM 安装 `npm install -g sass`
+# ❤ 安装，使用
+<u>安装</u> ：
+- NPM 安装 `npm install -D sass`
+
+---
+
+<u>使用</u> ：
+- cd 到 scss 文件所在目录
+- 输入以下命令 `sass runoob-test.scss runoob-test.css` 将该 scss 文件编译成 css 文件放到当前目录
 
 # ❤ 变量
 >[!hint] 
@@ -164,10 +171,6 @@ body {
   color: $myBlue;
 }
 ```
-
-### 💙 三级标题
-#### 💚 四级标题
-
 
 
 
