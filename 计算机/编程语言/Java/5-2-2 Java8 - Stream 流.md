@@ -332,6 +332,27 @@ list.stream().forEach(s -> {
 });
 ```
 
+## min，max
+- `min(比较器)` 是返回一个比较器中最左边的元素，因为比较器默认左小右大
+- `max(比较器)` 是返回一个比较器中最右边的元素，因为比较器默认左小右大
+
+```java
+
+Optional<JSONObject> first = referenceRateData.stream()
+        .map(AbstractStandingBookData::getContent)
+        .max((o1, o2) -> {
+            LocalDateTime timeOne = LocalDateTimeUtil.parse(o1.getString("lastModDateTime"), DatePattern.NORM_DATETIME_PATTERN);
+            LocalDateTime timeTwo = LocalDateTimeUtil.parse(o2.getString("lastModDateTime"), DatePattern.NORM_DATETIME_PATTERN);
+            if (timeOne.isEqual(timeTwo)) {
+                return 0;
+            } else if (timeOne.isBefore(timeTwo)) {
+                return -1;
+            } else {
+                return 1;
+            }
+        });
+```
+
 ## findFirst
 - `Optional findFirst` 获取流中的第一个元素，并返回 Optional 对象
 	- `get()` 获取到 Optional 对象的值，也就是 Stream 流中的元素
@@ -426,6 +447,48 @@ Map<String, Integer> collect = Stream.of(arr)
 		s -> s.split(",")[0],
 		s -> Integer.parseInt(s.split(",")[1])
 	); 
+```
+
+## reduce
+- `reduce(初始值，累加器)` 必须保证初始值，和累加器的数据类型一致
+
+```java
+List<String> props = List.of("profile=native", "debug=true", "logging=warn", "interval=500");
+Map<String, String> map = props.stream()
+		// 把k=v转换为Map[k]=v:
+		.map(kv -> {
+			String[] ss = kv.split("\\=", 2);
+			return Map.of(ss[0], ss[1]);
+		})
+		// 把所有Map聚合到一个Map:
+		.reduce(new HashMap<String, String>(), (m, kv) -> {
+			m.putAll(kv);
+			return m;
+		});
+```
+
+## anyMatch，allMatch，noneMatch
+- `anyMatch` 判断的条件里，任意一个元素 true，返回 true
+- `allMatch` 判断条件里的元素，所有的元素都 true，返回 true
+- `noneMatch` 判断条件里的元素，所有的都 false，返回true
+
+```java
+List<String> words = List.of("apple", "banana", "cherry");
+boolean anyMatch = words.stream()
+		.anyMatch(word -> word.equals("apple"));
+boolean allMatch = words.stream()
+		.allMatch(word -> word.equals("apple"));
+boolean noneMatch = words.stream()
+		.noneMatch(word -> word.equals("pear"));
+
+System.out.println(anyMatch);
+System.out.println(allMatch);
+System.out.println(noneMatch);
+
+---
+true
+false
+true
 ```
 
 # 并行流
