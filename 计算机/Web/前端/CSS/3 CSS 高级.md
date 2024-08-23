@@ -1,8 +1,6 @@
 # 3 CSS 高级
-
 ## 图像边框
-
-> `border-image` 接受图像，将其_**切成九部分**_【井字】，将拐角放置在拐角处，并 重复/拉伸 中间部分
+`border-image` 接受图像，将其**切成九部分**【井字】，将拐角放置在拐角处，并 重复/拉伸 中间部分
 
 | 属性                                                                                    | 描述              |
 | ------------------------------------------------------------------------------------- | --------------- |
@@ -48,9 +46,7 @@
 ```
 
 ## 渐变
-
 ### 线性渐变
-
 > `linear-gradient` 向下 / 向上 / 向左 / 向右 / 对角线
 
 语法：`background-image: linear-gradient(direction/angle, color-stop1, color-stop2, ...);`
@@ -74,8 +70,7 @@ background-image: repeating-linear-gradient(red, yellow 10%, green 50%);
 ```
 
 ### 径向渐变
-
-> 由中心向外扩散
+由中心向外扩散
 
 语法：`background-image: radial-gradient(shape, start-color, ..., last-color);`
 
@@ -95,7 +90,6 @@ background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
 ```
 
 ## 滤镜，模糊
-
 > 使用 `filter` 属性
 
 * `blur()` 模糊效果
@@ -111,7 +105,6 @@ filter: blur(98px);
 ```
 
 ## 阴影
-
 * `text-shadow` 文本阴影
 * `box-shadow` 元素阴影
 
@@ -131,7 +124,7 @@ text-shadow: 2px 2px 5px red;
 text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 ```
 
-> \[!hint] 阴影可以制造出围绕文本的效果 上下左右都偏移出阴影
+> [!hint] 阴影可以制造出围绕文本的效果 上下左右都偏移出阴影
 >
 > ```css
 > text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -210,7 +203,7 @@ writing-mode: vertical-rl;
 * `scale()` 增加/减少元素的大小
 * `skew()` 使元素沿 X 和 Y 轴倾斜给定角度
 
-> \[!attention] 空间移动是相对于父元素的起始像素点移动
+> [!attention] 空间移动是相对于父元素的起始像素点移动
 
 ```css
 div {
@@ -357,13 +350,13 @@ div {
 }
 ```
 
-> \[!hint] 过渡 和 动画 过渡 是从一个状态过渡到另一个状态，而不是连续的动画 动画 用于创建更复杂的效果【播放次数，动画方向】
+> [!hint] 过渡 和 动画 过渡 是从一个状态过渡到另一个状态，而不是连续的动画 动画 用于创建更复杂的效果【播放次数，动画方向】
 
 ## 提示
 
 > 提示 通常用于_**提供某内容的额外信息**_ !\[\[Excalidraw/计算机/JavaWeb Draw.md#^group=MOa3PP06|200]]
 
-> \[!hint] 提示的思路
+> [!hint] 提示的思路
 >
 > * 在父元素里包含提示元素
 >   * 一般将父元素设置为`position: relative;` ，提示元素设置为`position: absolute;`
@@ -430,7 +423,7 @@ div {
 
 > `object-fit`指定应如何调整 \<img> 或 \<video> 的大小以适合其容器
 
-> \[!hint] 属性值
+> [!hint] 属性值
 >
 > * `fill` 【默认】如有必要，将拉伸或挤压物体以适应该对象
 > * `contain` 保持宽高比，不会剪裁。将图像的width缩放至恰好适合容器
@@ -442,7 +435,7 @@ div {
 
 ## 按钮
 
-> \[!hint] 设置按钮的基本原则
+> [!hint] 设置按钮的基本原则
 >
 > * 悬停时出现字体颜色与背景颜色的反转
 > * 悬停时出现同色系的阴影效果/黑白灰色系的阴影效果
@@ -586,7 +579,7 @@ resize: none;    /* 禁止用户调整 */
 
 ### 媒体查询
 
-> \[!hint] 媒体查询可用于检查
+> [!hint] 媒体查询可用于检查
 >
 > * 视口的宽度和高度
 > * 设备的宽度和高度
@@ -690,7 +683,7 @@ body {
 }
 ```
 
-> \[!hint] 变量在媒体查询时用的很多
+> [!hint] 变量在媒体查询时用的很多
 
 ## 问题
 

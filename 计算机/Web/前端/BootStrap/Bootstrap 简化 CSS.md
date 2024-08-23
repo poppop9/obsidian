@@ -43,8 +43,8 @@
 - `.text-nowrap` 文本不换行
 - `.text-break` 让文本换行，防止破坏布局
 
-# 框模型
-## 🔶边距
+# ❤ 框模型
+## 💛 边距
 - `margin`
 	- `m-*` 上下左右
 	- `.mx-*/auto` 左右 margin 都 auto
@@ -60,7 +60,23 @@
 	- `pb-*` 
 	- `ps-*` 
 
-## 🔶圆角
+## 💛 边框
+- `no-border` 无边框
+
+---
+
+<u>宽度</u> ：
+- `border-0` 边框宽度为 0
+
+---
+
+<u>颜色</u> ：
+- `border-primary` 
+- `border-primary-subtle` 浅色的 primary
+
+
+
+## 💛 圆角
 - 全周围
 	- `.rounded`：为元素添加轻微的圆角
 	- `.rounded-circle`：使元素的边框完全变为圆形
@@ -81,7 +97,7 @@
 		- `fill` 拉伸图片来填满
 	- `scale` 
 
-# 阴影
+# ❤ 阴影
 - `shadow-none` 无阴影
 - `shadow-sm` 少量阴影
 - `shadow` 常规阴影
@@ -102,7 +118,7 @@
 ```
 
 # 列表
-## 🔶无序列表
+## 💛 无序列表
 - `<ul>`
 	- 占位符
 		- `.list-unstyled` 去掉前面的圆点占位符
@@ -205,7 +221,7 @@
 - `d-md-flex` display-middle-flex，表示**当屏幕宽度达到中等及以上时，设置弹性容器**
 
 # position
-## 🔶高度/宽度
+## 💛 高度/宽度
 - `.w-*` 宽度，~~`*` 表示百分之多少~~
 - `.h-*` 高度
 
