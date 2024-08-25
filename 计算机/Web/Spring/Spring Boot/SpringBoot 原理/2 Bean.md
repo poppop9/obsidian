@@ -4,7 +4,7 @@
 
 ---
 
-# 配置 Bean
+# ❤ 配置 Bean
 >[!hint] 配置 Bean 主要有两种方式
 > - `resource/META-INF/spring.factories` ：一般用于该项目是<u>组件项目</u>，<u>轮子项目</u>，<u>第三方依赖库项目</u> …… 。当这些项目被其他项目引入时，首先会扫描这个项目的 `spring.factories` 文件 ，然后根据路径准确地加载里面的配置类
 > - `@Configuration` ：一般用于项目内部配置。SpringBoot 在启动时，会自动扫描主程序类所在的包及其所有的子包中的所有文件，寻找带有 `@Configuration` 的类作为配置类
@@ -19,7 +19,7 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=app.xlog.ggbond.c
 ## @Configuration
 
 
-# Bean 管理
+# ❤ Bean 管理
 Spring 项目启动后，**默认**会把 Bean 都创建好放入到 IOC 容器中【还受到<u>作用域</u>，<u>延迟初始化</u>的影响】
 
 >[!quote] 循环依赖
@@ -33,7 +33,7 @@ Spring 项目启动后，**默认**会把 Bean 都创建好放入到 IOC 容器�
 > 
 > 尽管 Spring 提供了解决循环依赖的方法，但最佳实践是尽量避免循环依赖的发生，通过重构代码和使用设计模式来改善代码结构
 
-## 手动获取 Bean
+## 💛 手动获取 Bean
 <u>手动获取 Bean 有三种方法</u>：
 - 根据 name 获取
 - 根据类型获取
@@ -85,6 +85,23 @@ public class SpringContextUtil implements ApplicationContextAware {
 
     public static <T> T getBean(String name, Class<T> clazz) {
         return context.getBean(name, clazz);
+    }
+}
+```
+
+- 添加一个配置类，使得在依赖注入完成之后，但 Bean 完全初始化之前，立即将正确的 Context 对象传递给 SpringContextUtil
+```java
+@Configuration
+public class AppConfig {
+
+    @Resource
+    private ApplicationContext applicationContext;
+    @Resource
+    private SpringContextUtil springContextUtil;
+
+    @PostConstruct
+    public void init(){
+	    springContextUtil.setApplicationContext(applicationContext);
     }
 }
 ```
@@ -306,6 +323,17 @@ public class SaxReaderConfiguration {
 	}
 }
 ```
+
+# ❤ Bean 的生命周期
+- 通过 注解 / XML 配置文件，获取到 Bean 的元数据，注册 Bean 的信息
+- 当某个地方需要 Bean 时，IOC 容器会根据注册的元数据创建 Bean 实例
+- IOC 容器会将 Bean 实例注入到需要的地方
+- **初始化回调** ：
+    - `@PostConstruct` 可以标记任何无参方法，这个方法会在依赖注入完成后被自动调用
+- Bean 被完全初始化，可以被应用程序使用
+- **销毁回调** ：
+	- `@PreDestroy` 在 Bean 的生命周期结束之前，会调用
+- Bean 的生命周期在 IOC 容器中结束，但是，Bean 实例是否从内存中消失还取决于 Java 的垃圾回收机制
 
 
 
