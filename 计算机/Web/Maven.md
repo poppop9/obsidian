@@ -156,8 +156,8 @@ Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发
 </dependencies>
 ```
 
-### 生命周期
->Maven 有三套独立的生命周期，每一套都有若干个阶段。**同一套生命周期的阶段具有依赖性，运行后阶段，前阶段也会运行**
+### 💙 生命周期
+Maven 有三套独立的生命周期，每一套都有若干个阶段。**同一套生命周期的阶段具有依赖性，运行后阶段，前阶段也会运行**
 
 - **clean**
 	1. `pre-clean`
@@ -185,7 +185,7 @@ Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发
 	19. `integration-test`：执行集成测试。
 	20. `post-integration-test`：在集成测试之后执行任何必要的操作。
 	21. `verify` 对集成测试的结果进行验证。
-	22. ==install== 将打包的项目安装到本地仓库，以供其他项目使用
+	22. ==install== 将打包的项目安装到本地仓库，以供其他项目使用 【<u>install 的时候建议忽略测试类，因为测试类比较杂乱，有时候可能报错</u>】
 	23. ==deploy== 将最终的包复制到远程仓库，以供其他开发人员和项目使用
 - **site**
 	1. `pre-site`：在生成站点之前运行的阶段。在此阶段，可以执行一些准备工作，例如准备生成站点所需的资源或检查先决条件
@@ -196,6 +196,22 @@ Maven 规定了一套统一的 Java 开发目录，这样**可以让不同开发
 >[!warning] 如何运行生命周期的某个阶段 ？
 >在 Maven 的侧边栏中运行
 >![[JavaWeb Draw#^group=QqvDzj8c|300]]
+
+# ❤ 构建
+- `<build>` 部分定义了如何构建和打包项目
+```xml
+<project>
+	……
+	<build>  
+	    <plugins>  
+	        <plugin>  
+	            <groupId>org.springframework.boot</groupId>  
+	            <artifactId>spring-boot-maven-plugin</artifactId>  
+	        </plugin>  
+	    </plugins>  
+	</build>
+</project>
+```
 
 # Maven 的打包方式
 - `jar` 【默认】Java 应用程序的标准打包格式，内嵌了 Tomcat

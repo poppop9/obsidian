@@ -161,6 +161,32 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 docker build -t demo:1.0 .
 ```
 
+---
+
+- Vue 项目 Dockerfile 示例
+```dockerfile
+# 基础镜像  
+FROM node:20-alpine AS base  
+  
+# 依赖阶段  
+WORKDIR /app  
+COPY package*.json ./  
+RUN npm install  
+  
+# 构建阶段  
+COPY . .  
+RUN npm run build  
+RUN npm install -g serve  
+  
+# 运行阶段  
+EXPOSE 5173  
+ENV PORT=5173  
+ENV HOST 0.0.0.0  
+  
+CMD ["serve", "-s", "dist"]
+```
+
+
 ### 根据容器实例构建镜像
 - `docker commit 容器id/名称` 将运行中的容器快照生成为一个新的镜像
 	- `-a 镜像作者` 
@@ -180,6 +206,7 @@ graph LR
 - **创建**
 	- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
 		- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
+		- `-t dockerhub名/dockerhub仓库名:版本号` 上传到 dockerhub 上
 
 ```bash
 # . 表示Dockerfile就在当前目录
