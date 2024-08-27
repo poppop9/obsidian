@@ -127,7 +127,7 @@ docker run -d --name kafka-server \
 
 # ❤ 镜像
 ## 💛 制作镜像
-### 根据 Dockerfile 制作镜像
+### 💙 根据 Dockerfile 制作镜像
 [https://www.runoob.com/docker/docker-dockerfile.html](https://www.runoob.com/docker/docker-dockerfile.html)
 
 >[!quote] Dockerfile
@@ -158,7 +158,10 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 
 - 在该目录下，使用 Dockerfile 构建镜像
 ```bash
-docker build -t demo:1.0 .
+docker build -t 1962883041612/demo:1.0 .
+
+# 如果Dockerfile和操作文件不在同一目录，-f 指定Dockerfile位置，. 指定操作上下文 -> 也就是Dockerfile中的所有文件路径，都是相对于当前目录来说的
+docker build -t 1962883041612/big-market:1.0 -f ./Dockerfile .
 ```
 
 ---
@@ -166,7 +169,7 @@ docker build -t demo:1.0 .
 - Vue 项目 Dockerfile 示例
 ```dockerfile
 # 基础镜像  
-FROM node:20-alpine AS base  
+FROM node:22-alpine AS base  
   
 # 依赖阶段  
 WORKDIR /app  
@@ -186,8 +189,7 @@ ENV HOST 0.0.0.0
 CMD ["serve", "-s", "dist"]
 ```
 
-
-### 根据容器实例构建镜像
+### 💙 根据容器实例构建镜像
 - `docker commit 容器id/名称` 将运行中的容器快照生成为一个新的镜像
 	- `-a 镜像作者` 
 	- `-m '说明信息'`
@@ -206,7 +208,7 @@ graph LR
 - **创建**
 	- `docker build Dockerfile所在的目录` 根据 Dockerfile 构建镜像
 		- `-t 镜像名称:版本号` 指定镜像名，和<u>版本号</u>【不指定默认为 latest】
-		- `-t dockerhub名/dockerhub仓库名:版本号` 上传到 dockerhub 上
+		- `-t dockerhub名/dockerhub仓库名:版本号` 为上传到 dockerhub 做准备
 
 ```bash
 # . 表示Dockerfile就在当前目录

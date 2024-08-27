@@ -226,7 +226,7 @@ Maven 有三套独立的生命周期，每一套都有若干个阶段。**同一
 <package>jar</package>
 ```
 
-# Maven 高级
+# ❤ Maven 高级
 ## 分模块设计
 ![500](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403061147795.png)
 
@@ -275,6 +275,58 @@ Maven 有三套独立的生命周期，每一套都有若干个阶段。**同一
 ```
 
 >[!warning] 分模块设计会引发一些问题【比如各个模块引入了相同的依赖】，所以我们需要 <u>继承与聚合</u>
+
+## 💛 动态更换配置文件
+```yml
+spring:
+  profiles:
+    active: @spring.profiles.active@
+```
+
+```xml
+<project>
+	……
+	<build>  
+	    <plugins>  
+	        <plugin>  
+	            <groupId>org.springframework.boot</groupId>  
+	            <artifactId>spring-boot-maven-plugin</artifactId>  
+	        </plugin>  
+	    </plugins>  
+	    <!-- 用于install时，动态加载prod.yml文件 -->  
+	    <resources>  
+	        <resource>  
+	            <directory>src/main/resources</directory>  
+	            <filtering>true</filtering>  
+	            <includes>  
+	                <include>**/**</include>  
+	            </includes>  
+	        </resource>  
+	    </resources>  
+	</build>  
+	
+	<profiles>  
+	    <profile>  
+	        <id>dev</id>  
+	        <activation>  
+	            <activeByDefault>true</activeByDefault>  
+	        </activation>  
+	        <properties>  
+	            <spring.profiles.active>dev</spring.profiles.active>  
+	        </properties>  
+	    </profile>  
+	    <profile>  
+	        <id>prod</id>  
+	        <properties>  
+	            <spring.profiles.active>prod</spring.profiles.active>  
+	        </properties>  
+	    </profile>  
+	</profiles>
+</project>
+```
+
+然后就可以手动切换：
+![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202408280039393.png)
 
 ## 继承
 >Maven 继承同 Java 类似，描述了 Maven 项目之间的关系，使用 `<parent>……</parent>` 实现
