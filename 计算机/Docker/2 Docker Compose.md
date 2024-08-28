@@ -56,15 +56,70 @@ version 是 Compose 文件格式版本，需要与 Docker Engine 版本匹配
 | 3.7, 3.8                   | 18.02.0+      |
 | 3.8, 3.9                   | 18.06.0+      |
 
-## services
+## 💛 services
 services 中定义了所有服务的配置，一个服务是一个容器，可以包含多个配置项 ：
-- `image`
-- `ports`
-- `volumes`
-- `environment` 
+- `image` 定义镜像
+- `container_name` 容器名
+- `ports` 端口映射
+- `volumes` 挂载
+- `networks` 指定一个或者多个网络
+- `environment` 环境变量，可以更改 Java 中的 application.yml 中的值
 
-## networks
-networks 定义了所有服务可以连接的网络，以便容器之间通信
+>[!hint] 为什么 `docker-compose.yml` 可以指定运行时参数 `environment` ，而 `Dockerfile` 不行 ？
+>- 因为 Dockerfile 是用来构建镜像的，所以不能指定
+>- 但是 docker-compose.yml 是在已有镜像的基础上，为运行时配置服务的，所以可以指定
+
+---
+
+- `restart` 设置容器的重启策略，此处设置为始终重启
+	- no
+	- always
+- `logging` 日志配置，
+	- `max-size` 设置一个日志文件最多存储的大小
+	- `max-file` 设置最多可以存储几个日志文件
+
+```yml
+services:
+  # 后端应用
+  big-market-app:
+    image: 1962883041612/big-market:latest
+    container_name: big-market
+    restart: always
+    ports:
+      - "8090:8090"
+    environment:
+      - TZ=PRC
+      - SERVER_PORT=8090
+      - APP_CONFIG_API_VERSION=v1
+      - APP_CONFIG_CROSS_ORIGIN=*
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=123456
+    volumes:
+      - ./log:/data/log
+    networks:
+	  - big-market-network  
+	  - global-network
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+```
+
+## 💛 networks
+networks 定义了所有服务可以连接的网络，以便容器之间通信，以下是配置项 ：
+- `driver` 
+	- bridge
+- `external` 当某个网络已经创建时，应该指定 external 为 true，指明这个网络为外部网络
+	- true
+
+```yml
+networks:
+  big-market-network:
+    driver: bridge
+  global-network:
+    external: true
+    driver: bridge
+```
 
 ## volumes
 volumes 定义了所有服务可以使用的卷

@@ -53,6 +53,7 @@ get ,set 方法，构造方法   `alt+insert`
 - `leetcode editor` 在idea里做题
 - `Thief-book` 摸鱼神器【在终端看书】
 - `sequence diagram` 右键某个类，查看方法的代码流程
+- `codeGlance pro` 右上角的小地图
 
 
 
