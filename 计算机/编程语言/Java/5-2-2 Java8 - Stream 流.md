@@ -491,6 +491,17 @@ false
 true
 ```
 
+# 流的静态方法
+- `iterate(流的初始值，针对于初始值的操作)` 
+
+```java
+// 针对一个LocalDate，每次迭代都plusDays，然后最终限制7个元素
+List<LocalDate> nowDateList = Stream.iterate(  
+        LocalDate.now(),  
+        date -> date.plusDays(1)  
+).limit(7).toList();
+```
+
 # 并行流
 >[!quote] 并行流
 >并行流 是指将数据分成多个部分，然后并行处理流中的每个元素
