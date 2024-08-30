@@ -258,6 +258,23 @@ System.out.println(between.toMillis());
 205200000
 ```
 
+---
+
+<u>判断范围</u> ：
+
+- `isIn(需要判断的时间，开始时间点，结束时间点，是否包含开始时间，是否包含结束时间)` 判断某个时间是否在某个范围中
+- `isSameDay(日期1，日期2)` 比较两个时间是否是同一天，~~支持 LocalDateTime，LocalDate~~
+- `isWeekend(时间)` 判断这一天是否为周末，~~支持 LocalDateTime，LocalDate~~
+
+```java
+boolean in = LocalDateTimeUtil.isIn(  
+        LocalDateTime.now(),  
+        LocalDateTime.now().minusDays(1),  
+        LocalDateTime.now().plusDays(1),  
+        true,  
+        true 
+);
+```
 
 # ❤ Bean
 Bean 就是有 setter，getter 的 Java 类

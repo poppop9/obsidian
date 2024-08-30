@@ -381,6 +381,7 @@ public static void main(String[] args) {
 - `collect(……)` 
 	- `Collectors.toList()` 将 Stream 流收集成 List 集合
 	- `Collectors.toMap()` 将 Stream 流收集成 Map 集合
+	- `Collectors.joining(间隔字符，开始字符，结束字符)` 将字符串类型的 Stream 收集成一个 String
 - `toList()` 将 Stream 流收集成<u>不可变的</u> List 集合
 
 ---
@@ -388,28 +389,16 @@ public static void main(String[] args) {
 - `Collectors.toList()` 收集到其他集合
 ```java
 public static void main(String[] args) {  
-    List<Integer> list = new ArrayList<>();  
-    list.add(32);  
-    list.add(1);  
-    list.add(992);  
-    list.add(33);  
+    List<Integer> list = List.of(32, 1, 992, 33);
   
     List<Integer> collect = list.stream().filter((Integer i) -> {  
         return i > 1;  
-    }).collect(Collectors.toList());   //接口中传入的是Collectors实现类的toList()方法
+    }).collect(Collectors.toList());
   
     System.out.println(collect);  
 }
 
-
 [32, 992, 33]
-```
-
-```java
-// 简化版
-List<Integer> collect = list.stream()
-	.filter(i -> i > 1)
-	.toList();
 ```
 
 - `Collectors.toMap(new Function<>(){} ,new Function<>(){})` 收集到 Map 集合
@@ -439,16 +428,17 @@ System.out.println(collect);
 {陈冠希=14, 吴彦祖=66}
 ```
 
+- `Collectors.joining(间隔字符，开始字符，结束字符)` 
 ```java
-// 简化版
-Map<String, Integer> collect = Stream.of(arr)
-	.filter(s -> Integer.parseInt(s.split(",")[1]) > 2)
-	.toMap(
-		s -> s.split(",")[0],
-		s -> Integer.parseInt(s.split(",")[1])
-	); 
-```
+List<String> words = List.of("apple", "banana", "cherry", "date");
+String result = words.stream()
+		.collect(Collectors.joining(", ", "[", "]"));
 
+System.out.println(result);
+
+---
+[apple, banana, cherry, date]
+```
 ## reduce
 - `reduce(初始值，累加器)` 必须保证初始值，和累加器的数据类型一致
 
