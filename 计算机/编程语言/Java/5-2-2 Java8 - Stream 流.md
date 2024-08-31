@@ -443,10 +443,10 @@ System.out.println(collect);
 // 简化版
 Map<String, Integer> collect = Stream.of(arr)
 	.filter(s -> Integer.parseInt(s.split(",")[1]) > 2)
-	.toMap(
+	.collect(Collectors.toMap(
 		s -> s.split(",")[0],
 		s -> Integer.parseInt(s.split(",")[1])
-	); 
+	)); 
 ```
 
 ## reduce
