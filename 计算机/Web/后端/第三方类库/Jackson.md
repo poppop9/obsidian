@@ -293,6 +293,8 @@ Car car = objectMapper.treeToValue(carJsonNode);
 	- 将 JsonNode 强转为 ObjectNode
 
 ## 添加/修改
+- `put()` 
+- `putIfAbsent(键，值)` 获取该键，如果这个键没有值，则将该值 set 进去；反之，不做任何操作
 
 ```java
 // 如果ObjectNode中没有 'field1' 字段，那就向 `ObjectNode` 中添加一个 "field1" 字段，并将字符串 "value1" 作为它的值
@@ -322,6 +324,19 @@ while(fieldNames.hasNext()) {
 ```java
 ArrayNode arrayNode = objectMapper.createArrayNode();
 ```
+
+# ❤ TextNode
+只有文本值的 JsonNode 就是 TextNode
+
+```java
+ObjectNode objectNode = new ObjectMapper().createObjectNode();  
+objectNode.putIfAbsent("name", new TextNode("John Doe"));  
+  
+if (objectNode.get("name").isTextual()) {  
+    System.out.println(objectNode.get("name").asText());  
+}
+```
+
 
 # 注解
 ## 通用注解
