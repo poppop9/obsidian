@@ -429,21 +429,11 @@ System.out.println(collect);
 ```
 
 - `Collectors.joining(间隔字符，开始字符，结束字符)` 
+
 ```java
-<<<<<<< HEAD
-// 简化版
-Map<String, Integer> collect = Stream.of(arr)
-	.filter(s -> Integer.parseInt(s.split(",")[1]) > 2)
-	.collect(Collectors.toMap(
-		s -> s.split(",")[0],
-		s -> Integer.parseInt(s.split(",")[1])
-	)); 
-```
-=======
 List<String> words = List.of("apple", "banana", "cherry", "date");
 String result = words.stream()
 		.collect(Collectors.joining(", ", "[", "]"));
->>>>>>> d1683ffb544ac56409dc3fe6e37e8ebb8ef312db
 
 System.out.println(result);
 

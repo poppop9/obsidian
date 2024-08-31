@@ -1,14 +1,10 @@
 # 2-1 BootStrap 中级
-
 ## 深色模式
-
 在容器添加 `data-bs-theme="dark"`
 
 ## 组件
-
 ### 卡片
-
-> 卡片是一种灵活且可扩展的内容容器
+卡片是一种灵活且可扩展的内容容器
 
 * `.card` 父容器卡片元素
 * `.card-header` 卡片页眉
@@ -17,7 +13,6 @@
 * `.card-text` **用于去除页眉，主题，页脚内最后一个子元素的底边距**
 
 #### 多功能卡片
-
 * **全宽图片卡片**
 
 ```html
@@ -372,18 +367,17 @@
 ```
 
 ### 导航
-
 > 将 `.nav` 添加到 `<ul>`，然后为每个 `<li>` 添加 `.nav-item`，并将 `.nav-link` 添加到它们的链接
 
 * 父容器
-  * `.nav` **必须**
-  * `.nav-tabs` 可以将导航项显示成标签页【~~类似浏览器~~】
-  * `.nav-pills` 将导航项显示成按钮形式
-  * `.nav-fill` 强制将导航项铺满整个宽度，但是每个导航项宽度不同
-  * `.nav-justified` 强制将导航项铺满整个宽度，每个导航项宽度相同
+	* `.nav` **必须**
+	* `.nav-tabs` 可以将导航项显示成标签页【~~类似浏览器~~】
+	* `.nav-pills` 将导航项显示成按钮形式
+	* `.nav-fill` 强制将导航项铺满整个宽度，但是每个导航项宽度不同
+	* `.nav-justified` 强制将导航项铺满整个宽度，每个导航项宽度相同
 * 导航项子容器
-  * `.nav-item`
-  * `.nav-link` 用于 `<a>` 内，表示导航项【_**必须**_】
+	* `.nav-item`
+	* `.nav-link` 用于 `<a>` 内，表示导航项【_**必须**_】
 
 ```html
 <ul class="nav nav-pills nav-fill flex-xxl-row flex-column">
@@ -403,17 +397,16 @@
 ```
 
 #### 导航栏
-
 * 父容器
-  * `.navbar` **必须**
-  * `.navbar-expand-xxl|xl|lg|md|sm` 设置响应式堆叠，**如果不设置，则导航栏默认垂直堆叠**
+	* `.navbar` **必须**
+	* `.navbar-expand-xxl|xl|lg|md|sm` 设置响应式堆叠，**如果不设置，则导航栏默认垂直堆叠**
 * 子容器
-  * `.navbar-nav` 常见于添加到 `<ul>`，`<div>`
+	* `.navbar-nav` 常见于添加到 `<ul>`，`<div>`
 * 孙子容器
-  * `.nav-item`
-  * `.nav-link` 用于 `<a>` 内，表示导航项【_**必须**_】
-  * `.navbar-brand` 用于突出显示网站 LOGO
-  * `.navbar-text` 导航栏内文本
+	* `.nav-item`
+	* `.nav-link` 用于 `<a>` 内，表示导航项【_**必须**_】
+	* `.navbar-brand` 用于突出显示网站 LOGO
+	* `.navbar-text` 导航栏内文本
 
 ```html
 <nav class="navbar navbar-expand-sm text-bg-dark">
@@ -427,17 +420,16 @@
 ```
 
 **归类导航栏**
-
 ![100](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403152318948.png)
 
 * 归类按钮
-  * `navbar-toggler`
-  * `.data-bs-toggle="collapse"`
-  * `data-bs-target="#collapsibleNavbar"`
+	* `navbar-toggler`
+	* `.data-bs-toggle="collapse"`
+	* `data-bs-target="#collapsibleNavbar"`
 * 被归类的导航 `<div>`
-  * `collapse`
-  * `navbar-collapse`
-  * `id="collapsibleNavbar"`
+	* `collapse`
+	* `navbar-collapse`
+	* `id="collapsibleNavbar"`
 
 ```html
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -479,7 +471,6 @@
 ```
 
 **点击后侧边导航栏**
-
 ```html
 <nav class="navbar bg-body-tertiary fixed-top">
   <div class="container-fluid">
@@ -527,9 +518,9 @@
 #### 面包屑导航
 
 * 父容器 ：使用 `<ol>`
-  * `breadcrumb`
+	* `breadcrumb`
 * 子容器 ：使用 `<li>`
-  * `.breadcrumb-item`
+	* `.breadcrumb-item`
 
 ```html
 <nav>
@@ -544,30 +535,30 @@
 ### 轮播
 
 * 父容器
-  * `.carousel` 创建轮播
-  * `.slide` 项目滑动时的过渡动画效果
-  * `.carousel-fade` 过渡动画效果为淡入淡出
-  * &#x20;`data-bs-ride="carousel"` 自动轮播
-  * `data-bs-ride="true"` 会在用户第一次点击轮播后，自动轮播
-  * `data-bs-touch="false"` 禁用在触摸屏幕上的左右滑动
+	* `.carousel` 创建轮播
+	* `.slide` 项目滑动时的过渡动画效果
+	* `.carousel-fade` 过渡动画效果为淡入淡出
+	* &#x20;`data-bs-ride="carousel"` 自动轮播
+	* `data-bs-ride="true"` 会在用户第一次点击轮播后，自动轮播
+	* `data-bs-touch="false"` 禁用在触摸屏幕上的左右滑动
 * 子容器
-  * 指示器
-    * `.carousel-indicators` 下方的指示器【幻灯片数量……】
-  * 幻灯片
-    * `.carousel-inner` 幻灯片父容器
-  * 左右切换按钮
-    * `.carousel-control-prev` 向轮播添加一个向左按钮
-    * `.carousel-control-next` 向轮播添加一个向右按钮
+	* 指示器
+		* `.carousel-indicators` 下方的指示器【幻灯片数量……】
+	* 幻灯片
+		* `.carousel-inner` 幻灯片父容器
+	* 左右切换按钮
+	    * `.carousel-control-prev` 向轮播添加一个向左按钮
+	    * `.carousel-control-next` 向轮播添加一个向右按钮
 * 孙子容器
-  * `.carousel-item` 幻灯片子容器
-    * `.carousel-caption` 作为幻灯片标题
-  * `data-bs-interval="数值"` 规定幻灯片的延迟时间
-  * `.carousel-control-prev-icon` 创建“上一个”按钮
-  * `.carousel-control-next-icon` 创建“下一个”按钮
+	* `.carousel-item` 幻灯片子容器
+	    * `.carousel-caption` 作为幻灯片标题
+	* `data-bs-interval="数值"` 规定幻灯片的延迟时间
+	* `.carousel-control-prev-icon` 创建“上一个”按钮
+	* `.carousel-control-next-icon` 创建“下一个”按钮
 
-> \[!warning] 必须将 `.active` 添加到其中一张幻灯片中，否则轮播界面将不可见
+> [!warning] 必须将 `.active` 添加到其中一张幻灯片中，否则轮播界面将不可见
 
-> \[!warning] 确保在可选控件上 `.carousel` 设置唯一 `id` 值，尤其是在单个页面上使用多个轮播界面时。左右控件和指示器的 `data-bs-target` 的属性值必须与该 `id` 匹配
+> [!warning] 确保在可选控件上 `.carousel` 设置唯一 `id` 值，尤其是在单个页面上使用多个轮播界面时。左右控件和指示器的 `data-bs-target` 的属性值必须与该 `id` 匹配
 
 ```html
 <!-- 轮播 -->
@@ -609,13 +600,12 @@
 </div>
 ```
 
-> \[!hint] 看不懂思密达 出于性能原因，必须使用轮播构造函数方法手动初始化轮播。如果不进行初始化，则在用户显式激活控件或指示器之前，不会注册某些事件侦听器（特别是需要触摸/轻扫支持的事件）。唯一的例外是带有该属性的 `data-bs-ride="carousel"` 自动播放轮播，因为这些轮播是在页面加载时自动初始化的。如果使用带有 data 属性的自动播放轮播，请不要使用 constructor 方法显式初始化相同的轮播
+> [!hint] 看不懂思密达 出于性能原因，必须使用轮播构造函数方法手动初始化轮播。如果不进行初始化，则在用户显式激活控件或指示器之前，不会注册某些事件侦听器（特别是需要触摸/轻扫支持的事件）。唯一的例外是带有该属性的 `data-bs-ride="carousel"` 自动播放轮播，因为这些轮播是在页面加载时自动初始化的。如果使用带有 data 属性的自动播放轮播，请不要使用 constructor 方法显式初始化相同的轮播
 
 ### 模态
+> [!quote] 模态 模态 是一种弹出窗口，显示在当前页面的最上层
 
-> \[!quote] 模态 模态 是一种弹出窗口，显示在当前页面的最上层
-
-> \[!hint] 在打开模态时，默认会在 `<body>` 上加上 `padding-right` ，所以主页面会向左移动，我们可以这么解决
+> [!hint] 在打开模态时，默认会在 `<body>` 上加上 `padding-right` ，所以主页面会向左移动，我们可以这么解决
 >
 > ```css
 > body.modal-open {
@@ -624,15 +614,15 @@
 > ```
 
 * 父容器
-  * `.fade` 在 `.modal` 添加淡入淡出效果
-  * `data-bs-backdrop="static"` 规定点击外部不会关闭模态
+	* `.fade` 在 `.modal` 添加淡入淡出效果
+	* `data-bs-backdrop="static"` 规定点击外部不会关闭模态
 * 子容器
-  * `.modal-sm/lg/xl` 在 `.modal-dialog` 里设置大小
-  * `modal-fullscreen` 在 `.modal-dialog` 里设置弹出窗口为全屏
-    * `.modal-fullscreen-sm-down` 576px 以下全屏
-    * `.modal-fullscreen-xxl-down` 1400px 以下全屏
-  * `modal-dialog-scrollable` 在 `.modal-dialog` 里设置溢出时的滚动条
-  * `modal-dialog-centered` 在 `.modal-dialog` 里设置模态垂直居中
+	* `.modal-sm/lg/xl` 在 `.modal-dialog` 里设置大小
+	* `modal-fullscreen` 在 `.modal-dialog` 里设置弹出窗口为全屏
+		* `.modal-fullscreen-sm-down` 576px 以下全屏
+		* `.modal-fullscreen-xxl-down` 1400px 以下全屏
+	* `modal-dialog-scrollable` 在 `.modal-dialog` 里设置溢出时的滚动条
+	* `modal-dialog-centered` 在 `.modal-dialog` 里设置模态垂直居中
 
 ```html
 <!-- 打开模态的按钮 -->
@@ -666,7 +656,6 @@
 ```
 
 #### 模态的切换
-
 ```html
 <div class="modal fade" id="exampleModalToggle" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
@@ -704,8 +693,7 @@
 ```
 
 ### 弹出框
-
-> \[!warning] 不推荐使用，似乎跟 vue 有冲突
+> [!warning] 不推荐使用，似乎跟 vue 有冲突
 
 #### 悬停提示
 
@@ -720,22 +708,21 @@
 > 根据滚动位置自动更新导航或列表组组件，以指示当前在视口中处于活动状态的链接
 
 ### OffCanvas
-
 > 构建隐藏的侧边栏
 
-> \[!warning] 不能在 `.offcanvas` 元素上使用 `margin` 或 `translate` ，如果一定要用，在该元素的父元素上使用
+> [!warning] 不能在 `.offcanvas` 元素上使用 `margin` 或 `translate` ，如果一定要用，在该元素的父元素上使用
 
 * 父容器
-  * `data-bs-toggle="offcanvas"` 在触发按钮上使用
-  * `data-bs-target="id值"` 在触发按钮上指定对应的id值，以触发目标
-  * `offcanvas` 创建offcanvas
-  * `.offcanvas-start/end/top/bottom` 定位 offcanvas，并将其宽度设置为 400px
-  * `data-bs-scroll="true"` 当触发侧边栏时，依旧可以滚动主页面
+* `data-bs-toggle="offcanvas"` 在触发按钮上使用
+* `data-bs-target="id值"` 在触发按钮上指定对应的id值，以触发目标
+* `offcanvas` 创建offcanvas
+* `.offcanvas-start/end/top/bottom` 定位 offcanvas，并将其宽度设置为 400px
+* `data-bs-scroll="true"` 当触发侧边栏时，依旧可以滚动主页面
 * 子容器
-  * `offcanvas-header` 标题部分
-    * `offcanvas-title` 突出标题部分
-    * `data-bs-dismiss="offcanvas"` 在 `<button>` 上使用，是关闭 offcanvas 的按钮
-  * `offcanvas-body` 主体部分
+	* `offcanvas-header` 标题部分
+	    * `offcanvas-title` 突出标题部分
+	    * `data-bs-dismiss="offcanvas"` 在 `<button>` 上使用，是关闭 offcanvas 的按钮
+	* `offcanvas-body` 主体部分
 
 ```html
 <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"

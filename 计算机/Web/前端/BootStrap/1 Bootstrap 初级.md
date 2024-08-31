@@ -170,24 +170,22 @@ import 'bootstrap';
 > [!warning] 为什么水平部分居右堆叠要使用 `.ms-auto`，而不是其他居右的属性 ？ 因为此处的父容器 `.hstack` 已经使用了关于 flex 的属性了，为了不冲突，所以使 `margin-left: auto;`
 
 # 组件
-
 ## 警告框
-
-> 在 `class属性` 上添加 `alert`
+在 `class属性` 上添加 `alert`
 
 * 样式
-  * `.alert-success`
-  * `.alert-info`
-  * `.alert-warning`
-  * `.alert-danger`
-  * `.alert-primary`
-  * `.alert-secondary`
-  * `.alert-light`
-  * `.alert-dark`
+	* `.alert-success`
+	* `.alert-info`
+	* `.alert-warning`
+	* `.alert-danger`
+	* `.alert-primary`
+	* `.alert-secondary`
+	* `.alert-light`
+	* `.alert-dark`
 * 关闭警告框按钮
-  * `.alert-dismissible`
-  * `.btn-close`
-  * `data-bs-dismiss`
+	* `.alert-dismissible`
+	* `.btn-close`
+	* `data-bs-dismiss`
 
 ```html
 <div class="alert alert-success alert-dismissible">
@@ -197,7 +195,6 @@ import 'bootstrap';
 ```
 
 ## 按钮
-
 ### 样式
 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202403161654341.png)
 
@@ -229,7 +226,6 @@ import 'bootstrap';
 * `rounded-pill` 胶囊按钮
 
 ### 尺寸
-
 ```html
 <button type="button" class="btn btn-primary btn-lg">大型</button>
 <button type="button" class="btn btn-primary">默认</button>
@@ -249,8 +245,7 @@ import 'bootstrap';
 ```
 
 ### 按钮组
-
-> 使用带有 `.btn-group` 的 `<div>` 元素来创建按钮组
+使用带有 `.btn-group` 的 `<div>` 元素来创建按钮组
 
 > [!attention] 不可以单独控制按钮组内按钮的大小，只能一起通过按钮组控制
 
@@ -267,7 +262,6 @@ import 'bootstrap';
 ***
 
 * 普通
-
 ```html
 <div class="btn-group">
 	<button type="button" class="btn btn-primary">华为</button>
@@ -277,7 +271,6 @@ import 'bootstrap';
 ```
 
 * 嵌套
-
 ```html
 <div class="btn-group" role="group">
 	<button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -291,7 +284,6 @@ import 'bootstrap';
 ```
 
 * 无缝复选框按钮组
-
 ```html
 <div class="btn-group">
   <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
@@ -306,13 +298,10 @@ import 'bootstrap';
 ```
 
 ## 徽章
-
-> `.badge` ，用于计数，打标签……，会自动匹配父元素的大小 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402181053369.png)
+ `.badge` ，用于计数，打标签……，会自动匹配父元素的大小 ![](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402181053369.png)
 
 ### 样式
-
 * 矩形徽章
-
 ```html
 <span class="badge bg-primary">主要</span>
 <span class="badge bg-secondary">次要</span>
@@ -321,15 +310,12 @@ import 'bootstrap';
 ```
 
 * 胶囊徽章
-
 ```html
 <span class="badge bg-primary rounded-pill"></span>
 ```
 
 ### 用途
-
 * 按钮内消息计数
-
 ```html
 <button type="button" class="btn btn-primary">
   消息 <span class="badge bg-danger">4</span>
@@ -337,8 +323,7 @@ import 'bootstrap';
 ```
 
 ## 进度条
-
-> 将 `.progress` 添加到父元素，将 `.progress-bar` 添加到子元素
+将 `.progress` 添加到父元素，将 `.progress-bar` 添加到子元素
 
 * 进度：`width`
 * 高度：`height`
@@ -353,7 +338,6 @@ import 'bootstrap';
 ```
 
 ## 加载器
-
 * 样式
   * `.spinner-border` 旋转
   * `.spinner-grow` 增长
@@ -374,7 +358,6 @@ import 'bootstrap';
 ```
 
 ## 分页
-
 * `.pagination` 分页父容器
 * `.page-item` 子页面
 * `.page-link` 子页面的链接
@@ -392,7 +375,6 @@ import 'bootstrap';
 ```
 
 ## 列表组
-
 * `.list-group` 列表组父容器
 * `.list-group-item` 列表项
 * `.list-group-numbered` 带有数字
@@ -402,7 +384,6 @@ import 'bootstrap';
 ***
 
 * **普通列表组**
-
 ```html
 <ul class="list-group">
 	<li class="list-group-item active">活动项目</li>
@@ -412,7 +393,6 @@ import 'bootstrap';
 ```
 
 * **链接列表组**
-
 ```html
 <div class="list-group">
 	<a href="#" class="list-group-item list-group-item-action">第一项</a>
@@ -422,7 +402,6 @@ import 'bootstrap';
 ```
 
 * **徽章列表组**
-
 ```html
 <ul class="list-group">
 	<li class="list-group-item d-flex justify-content-between align-items-center">
