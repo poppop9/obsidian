@@ -80,6 +80,8 @@ public class RedissonConfig {
 ```
 
 # 使用
+>[!hint] RedissonClient 对象获取任何其他对象，如果不存在，也不会报 null，也只会返回一个空的对象，不用担心空指针
+
 ## 💛 Key
 - RedissonClient 下的方法
 	- `RKeys getKeys();` 返回 RKeys 对象

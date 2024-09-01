@@ -7,6 +7,8 @@
 	- `ofNullable(T t)` 与 `of()` 不同的是，这个泛型 T 可以为 null，那将返回一个空 Optional
 	- `empty()` 返回空的 Optional 对象
 - 非静态方法
+	- **判断**
+		- `Boolean isPresent()` 判断 Optional 中是否有值
 	- **返回结果**
 		- `get()` 返回 Optional 中的对象，如果为 null ，则抛出异常
 		- `orElse(T t)` 如果 Optional 中有值，则返回此值；反之，返回泛型 T
