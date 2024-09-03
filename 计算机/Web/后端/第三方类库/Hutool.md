@@ -203,7 +203,19 @@ String decode = QrCodeUtil.decode(FileUtil.file("d:/qrcode.jpg"));
 		- `hasBlank(字符串数组)` 判断这个数组中是否有至少一个为 blank，如果是，则返回 true
 		- `hasEmpty()`
 
-## 💛 日期时间
+## 💛 旧 - 日期时间
+<u>范围</u> ：
+- `rangeToList(开始时间，结束时间，单位)` 获取到两个时间之间的时间集合
+```java
+List<DateTime> dateTimes = DateUtil.rangeToList(
+        DateUtil.parse("2024-03-01"),
+        DateUtil.parse("2024-05-01"),
+        DateField.DAY_OF_YEAR
+);
+dateTimes.forEach(System.out::println);
+```
+
+## 💛 新 - 日期时间
 <u>格式化</u> ：
 
 - `parse(时间，时间的格式)` 
