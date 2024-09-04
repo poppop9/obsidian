@@ -1,56 +1,5 @@
 
 # Java 语法糖
-## For-Each
-For-Each 是程序员都会经常用到的，底层也是普遍都讲过是利用 for 循环和迭代器，因此使用要注意 fail-fast 机制，建议了解 Stream 流的知识。
-
-```java
-import com.google.common.collect.ImmutableList;
-import java.util.List;
-import java.util.Iterator;
-
-public class Main {
-
-    public static void main(String... args) {
-        String[] strs = {"Hello"};
-        for (String s : strs) {
-            System.out.println(s);
-        }
-
-        List<String> strList = ImmutableList.of("Hello");
-        for (String s : strList) {
-            System.out.println(s);
-        }
-    }
-
-    public static transient void main(String args[]) {
-        String[] strs = {"Hello"};
-        String[] args1 = strs;
-        int i = args1.length;
-        for (int j = 0; j < i; j++) {
-            String s = args1[j];
-            System.out.println(s);
-        }
-
-        List<String> strList = ImmutableList.of("Hello");
-        String s;
-        for (Iterator<String> iterator = strList.iterator(); iterator.hasNext(); ) {
-            s = iterator.next();
-            System.out.println(s);
-        }
-    }
-}
-```
-
-## 注意事项
-
-上文有提到过，增强 for 底层有用到迭代器，迭代器在遍历的时候对象不允许修改或者删除。因此 CMS 异常也就是 fail-fast 多线程修改，解决方法可以直接用迭代器或者 Stream 流的方法，推荐 Stream 流掌握。
-
-## 总结
-4.
-   **枚举类型：** 提供了更简洁、类型安全的枚举定义方式，避免了使用常量的硬编码
-7.
-   **Diamond 语法（菱形语法）：** 在创建泛型实例时，允许省略类型参数的重复声明。
-3.
    **Lambda 表达式的闭包问题：** 在使用 Lambda 表达式时，需要注意对外部变量的访问，因为 Lambda 表达式默认是对外部变量的"读取"操作，对于局部变量需要是最终的（effectively final）。
 
 

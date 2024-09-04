@@ -302,6 +302,45 @@ Car car = objectMapper.treeToValue(carJsonNode);
 objectNode.put("Math", "value1");
 ```
 
+---
+
+- `putObject(键)` 在当前的 ObjectNode 上添加一个 ObjectNode 对象，并返回
+```java
+ObjectNode objectNode = new ObjectMapper().createObjectNode();
+ObjectNode child = objectNode.putObject("address")
+		.put("street", "123 Main Street")
+		.put("city", "Springfield")
+
+System.out.println(child.toString());
+
+---
+{"street":"123 Main Street","city":"Springfield"}
+```
+
+---
+
+- `putPOJO(键，java对象)` 自动序列化 java 对象
+```java
+ObjectNode objectNode = new ObjectMapper().createObjectNode();  
+Customer johnDoe = new Customer().builder()  
+        .id(1L)  
+        .no(100L)  
+        .custName("John Doe")  
+        .custAddress("123 Main Street")  
+        .build();  
+objectNode.putPOJO("customer", johnDoe);  
+System.out.println(objectNode.toPrettyString());
+
+---
+{
+  "customer" : {
+    "id" : 1,
+    "no" : 100,
+    "custName" : "John Doe",
+    "custAddress" : "123 Main Street"
+  }
+}
+```
 ## 删除
 ```java
 objectNode.remove("Math");
