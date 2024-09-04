@@ -2,19 +2,16 @@
 >[!quote] Bean 定义
 >Bean 定义 是用来描述一个 Bean 的各种属性的【Bean 的类名，Bean 的作用域，Bean 的构造函数参数，Bean 的属性值，Bean 的初始化方法，销毁方法……】
 
----
-
 # ❤ 配置 Bean
 >[!hint] 配置 Bean 主要有两种方式
-> - `resource/META-INF/spring.factories` ：一般用于该项目是<u>组件项目</u>，<u>轮子项目</u>，<u>第三方依赖库项目</u> …… 。当这些项目被其他项目引入时，首先会扫描这个项目的 `spring.factories` 文件 ，然后根据路径准确地加载里面的配置类
-> - `@Configuration` ：一般用于项目内部配置。SpringBoot 在启动时，会自动扫描主程序类所在的包及其所有的子包中的所有文件，寻找带有 `@Configuration` 的类作为配置类
+> - `resource/META-INF/spring.factories` ：一般用于该项目是<u>组件项目</u>，<u>轮子项目</u>，<u>第三方依赖库项目</u> …… 。当这些项目被其他项目引入时，首先会扫描这个项目的 spring.factories 文件 ，然后根据路径准确地加载里面的配置类
+> - `@Configuration` ：一般用于项目内部配置。SpringBoot 在启动时，会自动扫描主程序类所在的包及其所有的子包中的所有文件，寻找带有 @Configuration 的类作为配置类
 
 ## spring.factories
 ```yml
 # 检测到`@EnableAutoConfiguration`注解时，应该自动加载`DynamicThreadPoolAutoConfig`这个类
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=app.xlog.ggbond.config.DynamicThreadPoolAutoConfig
 ```
-
 
 ## @Configuration
 
