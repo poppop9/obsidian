@@ -8,7 +8,7 @@
 > 
 > - Stream 流的操作不会影响原集合
 
-# 生成流
+# ❤ 生成流
 通过数据源【~~数组、集合、IO 通道、生成器……~~】生成流
 
 ## 单列集合 Collection 生成流
@@ -46,8 +46,8 @@ public static void main(String[] args) {
 }
 ```
 
-# 中间操作
->打开流，做出数据过滤/映射，然后返回一个新的流
+# ❤ 中间操作
+打开流，做出数据过滤/映射，然后返回一个新的流
 
 >[!summary] Method Summary
 >Stream\<T> filter(Predicate\<T> pre)  ------ 以 Predicate 接口为条件，对流进行过滤
@@ -278,7 +278,7 @@ List<String> filteredListJava9 = list.stream()
 ## peek
 peek 只对流进行操作，不会改变流的元素，<u>相当于没有返回值的 map 操作</u>
 
-# 终结操作
+# ❤ 终结操作
 >[!warning] 如果一个流不进行终结操作，则这个流在执行时，不会执行中间操作，相当于这个流从来没有执行过 ：
 > ```java
 > // 这个程序看似会将数据add进list中，但是由于这个流操作没有终结操作，peek操作压根不会执行
@@ -377,62 +377,6 @@ public static void main(String[] args) {
 4
 ```
 
-## collect，toList
-- `collect(……)` 
-	- `Collectors.toList()` 将 Stream 流收集成 List 集合
-	- `Collectors.toMap()` 将 Stream 流收集成 Map 集合
-	- `Collectors.joining(间隔字符，开始字符，结束字符)` 将字符串类型的 Stream 收集成一个 String
-- `toList()` 将 Stream 流收集成<u>不可变的</u> List 集合
-
----
-
-- `Collectors.toList()` 收集到其他集合
-```java
-public static void main(String[] args) {  
-    List<Integer> list = List.of(32, 1, 992, 33);
-  
-    List<Integer> collect = list.stream().filter((Integer i) -> {  
-        return i > 1;  
-    }).collect(Collectors.toList());
-  
-    System.out.println(collect);  
-}
-
-[32, 992, 33]
-```
-
-- `Collectors.toMap(new Function<>(){} ,new Function<>(){})` 收集到 Map 集合
-
-```java
-String arr[] = {"陈冠希,14", "吴彦祖,66", "刘德华,2"};  
-  
-Stream<String> stream = Stream.of(arr).filter((String s) -> {  
-	return Integer.parseInt(s.split(",")[1]) > 2;//过滤掉年龄大于2的，并生成流  
-});  
-
-Map<String, Integer> collect = stream.collect(Collectors.toMap(
-    s -> s.split(",")[0],  // keyMapper: 分割字符串并取第一部分作为键
-    s -> Integer.parseInt(s.split(",")[1])  // valueMapper: 分割字符串并解析第二部分为整数作为值
-));
-
-System.out.println(collect);  
-
-
-{陈冠希=14, 吴彦祖=66}
-```
-
-- `Collectors.joining(间隔字符，开始字符，结束字符)` 
-
-```java
-List<String> words = List.of("apple", "banana", "cherry", "date");
-String result = words.stream()
-		.collect(Collectors.joining(", ", "[", "]"));
-
-System.out.println(result);
-
----
-[apple, banana, cherry, date]
-```
 ## reduce
 - `reduce(初始值，累加器)` 必须保证初始值，和累加器的数据类型一致
 
@@ -475,7 +419,77 @@ false
 true
 ```
 
-# 流的静态方法
+## collect
+### toList
+- `collect(……)` 
+	- `Collectors.toList()` 将 Stream 流收集成 List 集合
+- `toList()` 将 Stream 流收集成<u>不可变的</u> List 集合
+
+```java
+public static void main(String[] args) {  
+    List<Integer> list = List.of(32, 1, 992, 33);
+  
+    List<Integer> collect = list.stream().filter((Integer i) -> {  
+        return i > 1;  
+    }).collect(Collectors.toList());
+  
+    System.out.println(collect);  
+}
+
+[32, 992, 33]
+```
+
+### toMap
+- `Collectors.toMap(new Function<>(){} ,new Function<>(){})` 将 Stream 流收集成 Map 集合
+```java
+String arr[] = {"陈冠希,14", "吴彦祖,66", "刘德华,2"};  
+Map<String, Integer> collect = Stream.of(arr)
+    .filter(s -> {
+        // 过滤掉年龄大于2的，并生成流
+        return Integer.parseInt(s.split(",")[1]) > 2;
+    })
+    .collect(Collectors.toMap(
+        s -> s.split(",")[0],  // keyMapper: 分割字符串并取第一部分作为键
+        s -> Integer.parseInt(s.split(",")[1])  // valueMapper: 分割字符串并解析第二部分为整数作为值
+    ));
+
+System.out.println(collect);  
+
+
+{陈冠希=14, 吴彦祖=66}
+```
+
+- `Collectors.toMap(lambda ,lambda, 保留哪个)` 将 Stream 流收集成 Map 集合，如果出现重复键，保留哪个
+```java
+// 这里是为了去除重复
+maps.stream()
+    .peek(item -> { …… })
+    .collect(Collectors.toMap(
+            item -> item.get("department_name"),
+            item -> item,
+            (existing, replace) -> existing
+    ))
+    .values()
+    .stream()
+    .toList();
+```
+
+
+### joining
+- `Collectors.joining(间隔字符，开始字符，结束字符)` 将字符串类型的 Stream 收集成一个 String
+
+```java
+List<String> words = List.of("apple", "banana", "cherry", "date");
+String result = words.stream()
+		.collect(Collectors.joining(", ", "[", "]"));
+
+System.out.println(result);
+
+---
+[apple, banana, cherry, date]
+```
+
+# ❤ 流的静态方法
 - `iterate(流的初始值，针对于初始值的操作)` 
 
 ```java
@@ -486,7 +500,7 @@ List<LocalDate> nowDateList = Stream.iterate(
 ).limit(7).toList();
 ```
 
-# 并行流
+# ❤ 并行流
 >[!quote] 并行流
 >并行流 是指将数据分成多个部分，然后并行处理流中的每个元素
 >
@@ -510,7 +524,7 @@ List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 Stream<Integer> parallelStream = numbers.parallelStream();
 ```
 
-# 循环处理技术对比
+# ❤ 循环处理技术对比
 - **数据 < 1 万** ，for 循环 > foreach / 增强 for / 迭代器 > Stream
 - **1 万 < 数据量 < 100 万** ，Stream > foreach / 增强 for / 迭代器 > for
 - **数据 > 100 万** ，parallelStream 最高
