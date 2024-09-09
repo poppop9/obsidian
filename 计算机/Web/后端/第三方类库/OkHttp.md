@@ -77,6 +77,7 @@ public static final MediaType MEDIA_TYPE_MARKDOWN = MediaType.parse("text/x-mark
 private final OkHttpClient client = new OkHttpClient();
 
 public void run() throws Exception {
+	// 这里最好使用json库来一个一个put，然后最后将json对象转为String
     String postBody = "" +
         "Releases\n" +
         "--------\n" +
@@ -88,7 +89,7 @@ public void run() throws Exception {
 	// 使用 RequestBody.create 方法创建请求体，指定了请求的媒体类型和内容
     Request request = new Request.Builder()
         .url("https://api.github.com/markdown/raw")
-        .post(RequestBody.create(MEDIA_TYPE_MARKDOWN, postBody))
+        .post(RequestBody.create(postBody, MediaType.parse("application/json")))
         .build();
         
     try (Response response = client.newCall(request).execute()) {
