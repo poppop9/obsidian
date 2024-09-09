@@ -489,6 +489,60 @@ System.out.println(result);
 [apple, banana, cherry, date]
 ```
 
+### groupingBy
+- `groupingBy(分组条件)` 根据某个属性，对流中的元素进行分组，生成一个 Map
+
+```java
+List<Person> people = Arrays.asList(
+	new Person("Alice", 30),
+	new Person("Bob", 20),
+	new Person("Charlie", 30),
+	new Person("David", 20)
+);
+
+// 将根据年龄进行分组
+Map<Integer, List<Person>> peopleByAge = people.stream()
+	.collect(Collectors.groupingBy(Person::getAge));
+```
+
+- `groupingBy(分组条件，对分组后的元素处理的操作)` 根据某个属性，对流中的元素进行分组，再对分组后的元素进行操作，生成一个 Map
+```java
+// 根据年龄进行分组，对分组后的元素进行计数
+Map<Integer, Long> countByAge = people.stream()  
+        .collect(Collectors.groupingBy(Person::getAge, Collectors.counting()));  
+countByAge.forEach((age, count) -> {  
+    System.out.println("Age: " + age);  
+    System.out.println("Count: " + count);  
+    System.out.println();  
+});
+
+---
+Age: 20
+Count: 2
+
+Age: 30
+Count: 2
+```
+
+```java
+// 根据年龄进行分组，对分组后的元素进行拿取属性，再组成集合
+Map<Integer, List<String>> collect3 = people.stream()  
+        .collect(Collectors.groupingBy(Person::getAge, Collectors.mapping(Person::getName, Collectors.toList())));  
+collect3.forEach((age, names) -> {  
+    System.out.println("Age: " + age);  
+    System.out.println("Name: " + names);  
+    System.out.println();  
+});
+
+---
+Age: 20
+Name: [Bob, David]
+
+Age: 30
+Name: [Alice, Charlie]
+```
+
+
 # ❤ 流的静态方法
 - `iterate(流的初始值，针对于初始值的操作)` 
 
