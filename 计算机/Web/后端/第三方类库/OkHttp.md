@@ -15,14 +15,14 @@ $$
 >- **异步请求**：发送一个异步请求时，发送方不会等待服务器的响应，而是立即继续执行后面的代码，当服务器返回响应时，会触发一个回调函数，用来处理响应数据
 
 # 同步
-## Get，获取响应
+## Get 获取响应
 - 创建 OKHttp 实例，用于发送请求 `OkHttpClient client = new OkHttpClient(); `
 - 构建 **Request 对象** `Request request = new Request.Builder() `
 	- `url()` 访问的 url
 	- `header(name, value)` 添加请求头，会覆盖已有 name 的 value 值
 	- `addHeader(name, value)` 添加请求头，不会移除已有的头信息
 	- `build()` 完成构建
-- 发起同步请求，并获取到 **Response 结果** `Response response = client.newCall(request).execute()`
+- 发起同步请求，并获取到 **Response 结果** `Response response = client.newCall(request).execute()` **在请求的过程中出现错误，就会进入到 catch 代码块里**
 	- `isSuccessful()` 判断请求是否成功【200 - 299】
 	- `header(name)` 返回 name 的最后一个 value，response.header("Server")
 	- `headers(name)` 以列表形式读取某个 name 的所有 value
@@ -31,6 +31,7 @@ $$
 		- `name(索引)` 头部信息的名称
 		- `value(索引)` 头部信息的值
 	- `body()` 响应体
+		- `string()` 解析消费响应体的内容，一个 Response 只能使用一次
 
 ```java
 // 创建 OkHttpClient 实例
@@ -40,7 +41,7 @@ private final OkHttpClient client = new OkHttpClient();
 public void QueryUnanswered() throws IOException {  
 	// 创建 Request 对象并添加请求头
     Request request = new Request.Builder()  
-            .url("https://api.zsxq.com/v2/groups/15555541222422/topics?scope=all&count=20")  
+		    .url("https://api.zsxq.com/v2/groups/15555541222422/topics?scope=all&count=20")  
             .addHeader("cookie", "……")  
             .addHeader("Content-type", "application/json; charset=UTF-8")  
             .build();  
