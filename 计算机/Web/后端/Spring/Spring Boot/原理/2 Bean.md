@@ -332,9 +332,20 @@ public class SaxReaderConfiguration {
 	- `@PreDestroy` 在 Bean 的生命周期结束之前，会调用
 - Bean 的生命周期在 IOC 容器中结束，但是，Bean 实例是否从内存中消失还取决于 Java 的垃圾回收机制
 
-
-
-
+>[!quote] `@PostConstruct` 
+>一个类中只要有一个方法被 `@PostConstruct` 注解标识，则这个类的所有方法都会被执行一遍，即使其他方法没有任何注解标识，顺序是：
+>- 先执行 `@PostConstruct` 标识的方法，~~A 方法~~
+>- 再执行其他方法，~~B 方法~~
+>
+> ```java
+> @Configuration
+> public class A {
+>     @PostConstruct  
+>     private void A() { …… }
+> 
+> 	private void B() { …… }
+> }
+> ```
 
 
 
