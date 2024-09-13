@@ -45,7 +45,7 @@ class SpringAopApplicationTests {
     @Test
     public void TestGetBean() {
 		// 根据name获取bean
-	    System.out.println(applicationContext.getBean("helloController"));
+		System.out.println(applicationContext.getBean("helloController"));
 
 		// 根据类型获取bean
 		System.out.println(applicationContext.getBean(HelloController.class));
@@ -72,7 +72,7 @@ public class SpringContextUtil implements ApplicationContextAware {
     private static ApplicationContext context;
 
     @Override
-    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.context = applicationContext;
     }
 
