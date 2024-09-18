@@ -398,7 +398,7 @@ Map<String, String> map = props.stream()
 ## anyMatch，allMatch，noneMatch
 - `anyMatch` 判断的条件里，任意一个元素 true，返回 true
 - `allMatch` 判断条件里的元素，所有的元素都 true，返回 true
-- `noneMatch` 判断条件里的元素，所有的都 false，返回true
+- `noneMatch` 判断条件里的元素，所有的都 false，返回 true
 
 ```java
 List<String> words = List.of("apple", "banana", "cherry");
