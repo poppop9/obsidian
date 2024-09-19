@@ -86,7 +86,7 @@ public void workA (){
 
 >[!hint] 事务管理 的底层就是 AOP
 
-# AOP
+# ❤️ AOP
 >[!quote] AOP
 >AOP 是面向切面编程。当你想操作项目中的所有方法时【比如<u>计算各个方法的耗时</u>，<u>记录方法的参数，返回值</u>，<u>权限控制</u>】，可以不用一个一个添加，而是可以在 AOP 中统一管理
 > - 代码无侵入【无需修改原有代码，就可以增强功能】
@@ -114,13 +114,17 @@ public void AfterReturning(JoinPoint joinPoint) {
 	……
 }
 ```
+
+joinPoint.getSignature().getName(); 方法名
+joinPoint.proceed() 的返回值，就是源方法的返回值
+
 ### 切入点
 >被 AOP 声明为要控制的方法
 
 #### 表达式
 - `execution((方法修饰符) 返回值 包名.类名.方法名(方法参数) (throws 异常))`
 	- `*` 可以通配任意类型的一个参数，`execution(* 包名.类名.update*(*)` 匹配任意返回值的，指定包名类名下，以 `update` 开头的只能有一个任意类型参数的方法
-	- `..` 通配任意数量的任意类型参数，`execution(* com..类名.update(..)` 匹配任意返回值的，com包下任意层级的指定类名的 `update(..)` 方法
+	- `..` 通配任意数量的任意类型参数，`execution(* com..类名.update(..)` 匹配任意返回值的，com 包下任意层级的指定类名的 `update(..)` 方法
 - `@annotation(……)` **用于标识带有特定注解的方法**
 
 >[!hint] 多个表达式条件可以使用 `+` 连接
@@ -128,10 +132,10 @@ public void AfterReturning(JoinPoint joinPoint) {
 >[!hint] 切入点的表达式尽量基于接口描述
 
 ### 目标对象
->某个对象里有方法被 AOP 声明为要控制了，那这个对象就是目标对象
+某个对象里有方法被 AOP 声明为要控制了，那这个对象就是目标对象
 
 ### 通知
->也就是具体的工作内容，要从切入点怎么切入，也就是切面类中定义的方法内容
+通知 也就是具体的工作内容，要从切入点怎么切入，也就是切面类中定义的方法内容
 
 通知的类型有 <u>5</u> 种：
 - **前后**
@@ -183,7 +187,7 @@ public class TimeAspect {
 	// 拦截 com.example.spring_aop.controller 包下的所有类的所有方法，并且这些方法可以有任意数量的参数（..），且方法的返回值可以任意（*）
     @Around("execution(* com.example.spring_aop.controller.*.*(..))")
     // 原始方法执行可能有返回值，所以定义返回值为 Object
-    public Object recordTime(ProceedingJoinPoint joinPoint) throws Throwable {
+	public Object recordTime(ProceedingJoinPoint joinPoint) throws Throwable {
         // 记录开始时间
         long start = System.currentTimeMillis();
 
@@ -208,7 +212,7 @@ package com.example.spring_aop.aop;
 public class NameAspect {
     @AfterReturning("execution(* com.example.spring_aop.controller.*.*(..))")
     // 获取到连接点对象
-    public void AfterReturning(JoinPoint joinPoint) throws Throwable {
+	public void AfterReturning(JoinPoint joinPoint) throws Throwable {
         System.out.println(joinPoint.getSignature().getName());
     }
 }
