@@ -474,7 +474,6 @@ maps.stream()
     .toList();
 ```
 
-
 ### joining
 - `Collectors.joining(间隔字符，开始字符，结束字符)` 将字符串类型的 Stream 收集成一个 String
 
@@ -540,6 +539,52 @@ Name: [Bob, David]
 
 Age: 30
 Name: [Alice, Charlie]
+```
+
+### mapping
+- `Collectors.mapping` 就是高级版的 `.map().toList()` ，主要用在 `Collectors.groupingBy()` 里面，在分组时，提取某个属性收集
+
+```java
+List<Order> orders = List.of(  
+        new Order(1L, 1L, 1L, "order1", "100"),  
+        new Order(2L, 2L, 1L, "order2", "200"),  
+        new Order(3L, 3L, 2L, "order3", "300")  
+);  
+  
+Map<Long, List<String>> collect = orders.stream()  
+        .collect(Collectors.groupingBy(  
+                Order::getCustomerNo,  
+                Collectors.mapping(Order::getOrderName, Collectors.toList()))  
+        );  
+System.out.println(collect);
+
+---
+{1=[order1, order2], 2=[order3]}
+```
+
+# ❤️ 数值流
+在处理数值时，比如流元素的平均数，累加 …… ，基础对象流 `Stream<T>` 并不方便，所以引入了数值流
+
+---
+
+<u>常见的数值流</u> ：
+- `mapToInt()` 
+- `mapToLong()` 
+- `mapToDouble` 返回一个专门用于处理 `double` 的 `DoubleStream` 数值流
+- `mapToObj(操作)` 将数值流映射回一般的对象流 `Stream<T>` 
+
+<u>数值流的方法</u> ：
+- `sum()` 返回流中所有元素的和
+- `count()` 返回流中所有元素的数量
+- `average()` 返回流中所有元素的平均值
+- `min()` 返回流中的最小值
+- `max()` 返回流中的最大值
+- `boxed()` 将数值流转为对应的 `Stream<T>` 
+
+```java
+double totalPayable = content.stream()
+		.mapToDouble(item -> item.getDouble("totalPayable"))
+		.sum();
 ```
 
 
