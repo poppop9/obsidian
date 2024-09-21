@@ -12,9 +12,9 @@
 > - **轻量级和快速启动**：与传统的虚拟机相比，Docker 容器非常轻量级，启动时间非常快
 > ![700](https://obsidian-1307744200.cos.ap-guangzhou.myqcloud.com/%E5%9B%BE%E7%89%87/202402261348445.png)
 > - **环境隔离**：Docker 容器提供了强大的隔离性，使应用程序可以在独立的环境中运行，互不干扰
-> - **可移植性**：Docker 容器可以在不同的平台和操作系统上运行，包括Linux，Windows，macOS……，这使得应用程序可以轻松地在开发、测试和生产环境之间进行迁移和部署
+> - **可移植性**：Docker 容器可以在不同的平台和操作系统上运行，包括 Linux，Windows，macOS……，这使得应用程序可以轻松地在开发、测试和生产环境之间进行迁移和部署
 > - **版本控制和复制**：Docker 使用镜像来构建容器。镜像是一个可重复的、可版本控制的文件，包含了应用程序的所有代码和依赖项
-> - **扩展性和弹性**：Docker 容器可以轻松地进行水平扩展，通过使用容器编排工具如Docker Compose，Kubernetes，可以实现自动化的容器管理和部署
+> - **扩展性和弹性**：Docker 容器可以轻松地进行水平扩展，通过使用容器编排工具如 Docker Compose，Kubernetes，可以实现自动化的容器管理和部署
 
 ---
 
@@ -403,7 +403,7 @@ docker run -itd --name test2 --network test-net ubuntu /bin/bash
 (HTTP code 500) server error - Ports are not available: exposing port TCP 0.0.0.0:6379 -> 0.0.0.0:0: listen tcp 0.0.0.0:6379: bind: An attempt was made to access a socket in a way forbidden by its access permissions.
 ```
 
-解决办法：重启Windows NAT服务，可以解决一些网络端口冲突或服务不稳定的问题，因为重启服务可以让服务重新获取资源
+解决办法：重启 Windows NAT 服务，可以解决一些网络端口冲突或服务不稳定的问题，因为重启服务可以让服务重新获取资源
 - 管理员身份运行 cmd
 - net stop winnat
 - net start winnat
