@@ -1,16 +1,21 @@
+
+# ❤ 设置
+- 编辑器 - 常规 - 编辑器标签页 - 在以下位置显示标签页 - 多行
+
+
 # ❤ 快捷键
 ## 生成语句
-快速生成 main() 方法   `psvm`
-生成输出语句   `sout`
-get ,set 方法，构造方法   `alt+insert`
-生成左边对象   `ctrl+alt+v` / 在对象后面输入 `.var`
+快速生成 main() 方法 `psvm`
+生成输出语句 `sout`
+get ,set 方法，构造方法 `alt+insert`
+生成左边对象 `ctrl+alt+v` / 在对象后面输入 `.var`
 
 ## 快捷操作
 - **编辑**
-	- 单行注释   `ctrl+/`
-	- 多行注释   `ctrl+shift+/`
-	- 格式化代码   `ctrl+alt+L`
-	- 批量选中相同代码  `shift+F6` 
+	- 单行注释 `ctrl+/`
+	- 多行注释 `ctrl+shift+/`
+	- 格式化代码 `ctrl+alt+L`
+	- 批量选中相同代码 `shift+F6` 
 	- `ctrl+shift+↑` 将光标所在行上移
 	- `ctrl+d` 将光标所在代码行复制到下一行
 	- `ctrl+w` 扩展选中区域
@@ -25,7 +30,7 @@ get ,set 方法，构造方法   `alt+insert`
 	- `ctrl+B` 查看源码
 	- `ctrl + alt + ←` 返回上一个类
 	- `ctrl + alt + →` 返回下一个类
-	- 查看类的结构信息   `alt+7`
+	- 查看类的结构信息 `alt+7`
 	- 查看某个类的所有方法 `ctrl+f12`
 	- 查看接口的所有实现类 `ctrl+alt+左键` 
 
@@ -39,7 +44,7 @@ get ,set 方法，构造方法   `alt+insert`
 ---
 
 - **调试，运行**
-	- 运行代码   `ctrl+shift+F10`
+	- 运行代码 `ctrl+shift+F10`
 
 # ❤ Debug
 - `F7` 步入
@@ -66,7 +71,7 @@ get ,set 方法，构造方法   `alt+insert`
 # ❤ 插件
 - `Mybatis`
 - 中文简体
-- `leetcode editor` 在idea里做题
+- `leetcode editor` 在 idea 里做题
 - `Thief-book` 摸鱼神器【在终端看书】
 - `sequence diagram` 右键某个类，查看方法的代码流程
 - `codeGlance pro` 右上角的小地图
