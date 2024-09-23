@@ -21,6 +21,7 @@ get ,set 方法，构造方法 `alt+insert`
 	- `ctrl+w` 扩展选中区域
 	- `ctrl+shift+w` 减小选中区域
 	- `ctrl+alt+o` 删除没有使用的导包
+	- `ctrl+y` 删除当前行
 
 ---
 

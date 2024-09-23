@@ -6,7 +6,7 @@
 > public interface Stream\<T> extends BaseStream<T,Stream\<T>>
 > ```
 > 
-> - Stream 流的操作不会影响原集合
+> - Stream 流的操作不会影响原集合，但是除非你修改了引用对象
 
 # ❤ 生成流
 通过数据源【~~数组、集合、IO 通道、生成器……~~】生成流
@@ -276,7 +276,18 @@ List<String> filteredListJava9 = list.stream()
 ```
 
 ## peek
-peek 只对流进行操作，不会改变流的元素，<u>相当于没有返回值的 map 操作</u>
+peek 的设计初衷就是用于<u>调试或观察流中元素的状态</u>，不应该对元素做修改。~~比如我想要查看流中某个过程的元素是什么，我就可以 peek 打印一下看一下，而不是 foreach 直接关闭流~~，也就是非终结的 foreach 操作
+
+```java
+// 使用 peek 来调试流中的元素
+List<Integer> processedNumbers = Arrays.asList(1, 2, 3, 4, 5).stream()
+	.filter(n -> n % 2 == 0) 
+	.peek(n -> System.out.println("Filtered even number: " + n)) // 调试输出
+	.map(n -> n * n) 
+	.peek(n -> System.out.println("Squared number: " + n)) // 调试输出
+	.toList();
+```
+
 
 # ❤ 终结操作
 >[!warning] 如果一个流不进行终结操作，则这个流在执行时，不会执行中间操作，相当于这个流从来没有执行过 ：
