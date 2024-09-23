@@ -1,4 +1,13 @@
-# 命令
+# ❤️ 安装
+```bash
+docker run \
+  --name pgsql \
+  -e POSTGRES_USER=postgres \
+  -e POSTGRES_PASSWORD=13433026660 \
+  -d postgres
+```
+
+# ❤️ 命令
 <u>连接</u> ：
 - `psql -U 用户名` 
 
