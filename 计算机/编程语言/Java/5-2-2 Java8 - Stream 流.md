@@ -574,7 +574,7 @@ System.out.println(collect);
 ```
 
 # ❤️ 数值流
-在处理数值时，比如流元素的平均数，累加 …… ，基础对象流 `Stream<T>` 并不方便，所以引入了数值流
+在处理数值时，比如流元素的平均数，累加 …… ，基础对象流 `Stream<T>` 并不方便，所以引入了数值流【`IntStream` ，`DoubleStream` ，`LongStream`】
 
 ---
 

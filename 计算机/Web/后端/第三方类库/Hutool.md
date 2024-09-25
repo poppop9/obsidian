@@ -195,13 +195,20 @@ String decode = QrCodeUtil.decode(FileUtil.file("d:/qrcode.jpg"));
 - `NumberUtil.isPrimes` 是否为质数
 
 ## 💛 字符串 StrUtil
-- 判空
-	- 单个
-		- `isBlank()` / `isNotBlank()` 
-		- `isEmpty()` / `isNotEmpty()` 
-	- 集合
-		- `hasBlank(字符串数组)` 判断这个数组中是否有至少一个为 blank，如果是，则返回 true
-		- `hasEmpty()`
+<u>判空</u> ：
+- 单个
+	- `isBlank()` / `isNotBlank()` 
+	- `isEmpty()` / `isNotEmpty()` 
+- 集合
+	- `hasBlank(字符串数组)` 判断这个数组中是否有至少一个为 blank，如果是，则返回 true
+	- `hasEmpty()`
+
+## 💛 集合工具 CollUtil
+<u>判空</u> ：
+- `isEmpty()` 
+- `isNotEmpty()` 
+
+
 
 ## 💛 旧 - 日期时间
 <u>范围</u> ：
