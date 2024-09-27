@@ -3,7 +3,7 @@
 <dependency>
     <groupId>cn.hutool</groupId>
     <artifactId>hutool-all</artifactId>
-    <version>5.8.27</version>
+    <version>5.8.32</version>
 </dependency>
 ```
 
@@ -32,9 +32,8 @@
 |hutool-jwt|JSON Web Token (JWT)封装实现|
 
 # ❤ 工具类
-## 💛 唯一 id
-- 生成 UUID ，全球唯一识别码
-
+## 💛 唯一键 IdUtil
+<u>UUID</u> ：全球唯一识别码
 ```java
 //生成的UUID是带-的字符串，类似于：a5c8a5e8-df2b-4706-bea4-08d0939410e3
 String uuid = IdUtil.randomUUID();
@@ -42,6 +41,28 @@ String uuid = IdUtil.randomUUID();
 //生成的是不带-的字符串，类似于：b17f24ff026d40949c85a24f4f375d42
 String simpleUUID = IdUtil.simpleUUID();
 ```
+
+---
+
+<u>雪花算法</u> ：分布式系统中，需要使用全局唯一 ID，这个 ID 要简单，但是又能够按照时间有序生成
+- 有终端机器的使用
+	- `Snowflake getSnowflake(终端id，数据中心id)` 获取带有机器属性的 Snowflake 对象【范围是 0 - 31】
+		- `long nextId()` 
+		- `String nextIdStr()` 
+- 简单使用
+	- `long getSnowflakeNextId()` 
+	- `String getSnowflakeNextIdStr()`
+
+```java
+// 有终端机器的使用
+IdUtil.getSnowflake(23L, 110L).nextId()
+
+// 简单使用
+long id = IdUtil.getSnowflakeNextId();
+String id = IdUtil.getSnowflakeNextIdStr();
+```
+
+
 
 ## 💛 随机 Random
 - `RandomUtil` 静态对象

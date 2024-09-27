@@ -168,7 +168,21 @@ EasyExcel.write(fileName, DemoData.class)
 		.doWrite(dataList);
 ```
 
-## 向 Web 写入
+## 💛 向 Web 写入
+```java
+response.setContentType("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+response.setCharacterEncoding("utf-8");
+response.setHeader("Content-Disposition", "attachment; filename=Web.xlsx");
+
+EasyExcel.write(response.getOutputStream(), DemoData.class)  
+        .sheet("工作表 1")  
+        .doWrite(List.of(DemoData.builder()  
+                .title("吃饭")  
+                .date(LocalDate.now())  
+                .number(23d)  
+                .build()  
+        ));
+```
 
 
 
