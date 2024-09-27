@@ -13,7 +13,7 @@
 		- `get()` 返回 Optional 中的对象，如果为 null ，则抛出异常
 		- `orElse(T t)` 如果 Optional 中有值，则返回此值；反之，返回泛型 T
 	- **处理**
-		- `map(处理方法)` 将 Optional 里的对象，转为另一个类型
+		- `map(处理方法)` 将 Optional 里的对象，转为另一个类型，**不会在 Optional 为空时抛出异常**，当 Optional 未空时，将不会执行处理方法
 		- `ifPresent(处理方法 A)` 如果该 Optional 对象的值存在，则将这个值传递给方法 A
 		- `ifPresentOrElse(处理方法A, 处理方法B)` 如果该 Optional 对象的值存在，则将这个值传递给方法 A，否则用方法 B 处理
 		- `or(处理方法A)` 当 Optional 有值时，保持原值，反之，使用 A 方法的返回值来替代
