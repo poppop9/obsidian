@@ -43,7 +43,7 @@ public class DemoData {
 }
 ```
 
-## 💛  写入方式
+## 💛  写入策略
 ### 💙 数据量小时 < 5000 行
 - `write(文件名，excel实体)` 定义参数配置
 - 筛选
@@ -139,7 +139,7 @@ EasyExcel.write("E:\\文档\\测试一下.xlsx", DemoData.class)
 		.doWrite(dataList);
 ```
 
-## 图片写入
+## 💛 图片写入
 ```java
 @Data  
 public class DemoData {  
@@ -168,6 +168,7 @@ EasyExcel.write(fileName, DemoData.class)
 		.doWrite(dataList);
 ```
 
+## 向 Web 写入
 
 
 
