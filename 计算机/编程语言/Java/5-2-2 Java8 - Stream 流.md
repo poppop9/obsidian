@@ -258,10 +258,8 @@ public static void main(String[] args) {
 
 ## flatMap
 >[!quote] `flatMap()` 
->`flatMap` 将流中的每个元素，转换成另一个流，然后将这些流连接起来形成一个单一的流
+>`flatMap` 就是一次性拿到流中流
 
-
-稍微觉得 flatMap 有用的场景：
 ```java
 // 使用 map，你要手动过滤空值
 List<String> filteredList = list.stream()
@@ -273,6 +271,28 @@ List<String> filteredList = list.stream()
 List<String> filteredListJava9 = list.stream()
     .flatMap(Optional::stream)
     .collect(Collectors.toList());
+```
+
+
+```java
+Optional.ofNullable(item.getJSONArray("registerUserDepartmentName"))
+		.ifPresent(child -> {
+			child.stream().findFirst().ifPresent(node -> {
+				JSONObject jsonObject = (JSONObject) node;
+				if ("zh-CN".equals(jsonObject.getString("lang"))) {
+					item.put("registerUserDepartmentName", jsonObject.getString("value"));
+				}
+			});
+		});
+
+Optional.ofNullable(item.getJSONArray("registerUserDepartmentName"))
+		.flatMap(child -> child.stream().findFirst())
+		.ifPresent(node -> {
+			JSONObject jsonObject = (JSONObject) node;
+			if ("zh-CN".equals(jsonObject.getString("lang"))) {
+				item.put("registerUserDepartmentName", jsonObject.getString("value"));
+			}
+		});
 ```
 
 ## peek
