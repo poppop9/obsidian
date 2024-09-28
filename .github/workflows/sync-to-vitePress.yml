@@ -24,7 +24,7 @@ jobs:
       - name: Copy B repository to C repository subfolder
         run: |
           mkdir -p vitePress/src/notes
-          rsync -av --exclude='.git' ./* vitePress/src/notes/
+          cp -r ./* vitePress/src/notes/
           
       # Step 4: 提交并推送更改到 C 仓库
       - name: Commit and Push changes to C repository
