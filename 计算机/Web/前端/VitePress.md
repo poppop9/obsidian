@@ -260,6 +260,16 @@ export default {
 
 
 # ❤ 部署
+<u>笔记同步</u> ：
+- Windows 创建软连接，将笔记文件夹，软链接到项目的 notes 文件夹下
+```bash
+New-Item -ItemType SymbolicLink -Path "E:\VScode\vitepress\src\notes" -Target "E:\Obsidian doc\obsidian"
+```
+
+```java
+Robocopy "E:\Obsidian doc\obsidian" "E:\VScode\vitepress\src\notes" /MIR
+```
+
 - https://www.netlify.com/
 - vercal
 
