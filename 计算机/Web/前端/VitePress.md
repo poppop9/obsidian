@@ -183,28 +183,6 @@ export default defineConfig({
 
 
 # ❤ 插件
-<u>algolia 搜索</u> ：
-- 创建应用
-- 获取 search key，并填写 config.mjs 配置
-```json
-search: {    
-	provider: 'algolia',
-	options: {
-		appId: 'RHX6KGJ4PT',
-		apiKey: '28a8949a0177be5990c043b7233c22e9',
-		indexName: 'vitepress',
-		placeholder: '请输入搜索内容',
-		translations: {
-			button: {
-				buttonText: '搜索文档',
-			}
-		}
-	}
-},
-```
-
----
-
 <u>图片放大</u> ：
 - `npm add medium-zoom` 
 - 在 .vitepress/theme 下添加 medium-zoom.mjs 
@@ -257,22 +235,49 @@ export default {
 <u>多功能侧边栏</u> ： https://vitepress-sidebar.jooy2.com/
 
 
+# ❤️algolia DocSearch
+- 申请免费爬取计划 https://docsearch.algolia.com/apply/
+	- 如果计划未通过，那就自己爬取 https://docsearch.algolia.com/docs/legacy/run-your-own/
+- 创建应用
+- 获取 search key，并填写 config.mjs 配置
+```json
+search: {    
+	provider: 'algolia',
+	options: {
+		appId: 'RHX6KGJ4PT',
+		apiKey: '28a8949a0177be5990c043b7233c22e9',
+		indexName: 'vitepress',
+		placeholder: '请输入搜索内容',
+		translations: {
+			button: {
+				buttonText: '搜索文档',
+			}
+		}
+	}
+},
+```
+
 
 
 # ❤ 部署
-<u>笔记同步</u> ：
-- Windows 创建软连接，将笔记文件夹，软链接到项目的 notes 文件夹下
+https://blog.csdn.net/weixin_42164539/article/details/128761266
+
+<u>部署平台</u> ：
+- vercal
+	- 构建命令 `npm run docs:build` 
+	- 输出目录 `.vitepress/dist` 
+- https://www.netlify.com/
+
+
+
+
+
+---
+
+Windows 创建软连接，将笔记文件夹，软链接到项目的 notes 文件夹下
 ```bash
 New-Item -ItemType SymbolicLink -Path "E:\VScode\vitepress\src\notes" -Target "E:\Obsidian doc\obsidian"
 ```
-
-```java
-Robocopy "E:\Obsidian doc\obsidian" "E:\VScode\vitepress\src\notes" /MIR
-```
-
-- https://www.netlify.com/
-- vercal
-
 
 
 
